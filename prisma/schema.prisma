@@ -11,11 +11,19 @@ datasource db {
     directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
 }
 
-model Post {
-    id        Int      @id @default(autoincrement())
-    name      String
-    createdAt DateTime @default(now())
-    updatedAt DateTime @updatedAt
+model Prompt {
+    id              Int     @id @default(autoincrement())
+    name            String
+    content         String
+    referenceName   String?
+    referenceLink   String?
+    contributedName String?
+    contributedLink String?
+    tags            Tag[]
+}
 
-    @@index([name])
+model Tag {
+    id      Int      @id @default(autoincrement())
+    name    String   @unique
+    prompts Prompt[]
 }
