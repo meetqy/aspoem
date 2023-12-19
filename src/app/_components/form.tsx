@@ -4,7 +4,6 @@ import { useState } from "react";
 
 interface Props {
   submit?: (data: {
-    token: string;
     name: string;
     content: string;
     referenceName?: string;
@@ -12,13 +11,13 @@ interface Props {
     contributedName?: string;
     contributedLink?: string;
     tags: number[];
+    description?: string;
   }) => void;
 
   tags: { id: number; name: string }[];
 }
 
 export default function Form(props: Props) {
-  const [token, setToken] = useState("");
   const [name, setName] = useState("");
   const [content, setContent] = useState("");
   const [referenceName, setReferenceName] = useState("");
@@ -26,24 +25,25 @@ export default function Form(props: Props) {
   const [contributedName, setContributedName] = useState("");
   const [contributedLink, setContributedLink] = useState("");
   const [tags, setTags] = useState<number[]>([]);
+  const [description, setDescription] = useState<string>("");
 
   return (
     <div className="space-y-5 px-10">
-      <p>
-        token:
-        <input
-          placeholder="token"
-          className="input"
-          value={token}
-          onChange={(e) => setToken(e.target.value)}
-        />
-      </p>
       <p>
         name:
         <input
           className="input"
           value={name}
           onChange={(e) => setName(e.target.value)}
+        />
+      </p>
+      <p>
+        description:
+        <textarea
+          placeholder="description"
+          className="input"
+          value={description}
+          onChange={(e) => setDescription(e.target.value)}
         />
       </p>
       <p>
@@ -111,7 +111,6 @@ export default function Form(props: Props) {
           className="btn"
           onClick={() =>
             props?.submit?.({
-              token,
               name,
               content,
               referenceName,
@@ -119,6 +118,7 @@ export default function Form(props: Props) {
               contributedName,
               contributedLink,
               tags,
+              description,
             })
           }
         >

@@ -15,6 +15,7 @@ model Prompt {
     id              Int     @id @default(autoincrement())
     name            String
     content         String
+    description     String?
     referenceName   String?
     referenceLink   String?
     contributedName String?

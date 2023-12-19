@@ -20,6 +20,7 @@ export const promptRouter = createTRPCRouter({
         referenceLink: z.string().optional(),
         contributedName: z.string().optional(),
         contributedLink: z.string().optional(),
+        description: z.string().optional(),
         tags: z.array(z.number()),
         token: z.string(),
       }),
@@ -35,6 +36,7 @@ export const promptRouter = createTRPCRouter({
           referenceLink: input.referenceLink,
           contributedName: input.contributedName,
           contributedLink: input.contributedLink,
+          description: input.description,
           tags: {
             connect: input.tags.map((tag) => ({ id: tag })),
           },
