@@ -1,8 +1,8 @@
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 
-export const tagRouter = createTRPCRouter({
-  find: publicProcedure.query(({ ctx }) => ctx.db.tag.findMany()),
+export const authorRouter = createTRPCRouter({
+  find: publicProcedure.query(({ ctx }) => ctx.db.author.findMany()),
   create: publicProcedure
     .input(
       z.object({
@@ -13,10 +13,10 @@ export const tagRouter = createTRPCRouter({
     .mutation(({ input, ctx }) => {
       if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
 
-      return ctx.db.tag.createMany({
+      return ctx.db.author.createMany({
         data: [
-          ...input.names.map((tag) => ({
-            name: tag.toLocaleLowerCase(),
+          ...input.names.map((name) => ({
+            name: name.toLocaleLowerCase(),
           })),
         ],
       });

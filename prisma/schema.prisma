@@ -11,20 +11,23 @@ datasource db {
     directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
 }
 
-model Prompt {
-    id              Int     @id @default(autoincrement())
-    name            String
-    content         String
-    description     String?
-    referenceName   String?
-    referenceLink   String?
-    contributedName String?
-    contributedLink String?
-    tags            Tag[]
+model Poem {
+    id       Int    @id @default(autoincrement())
+    title    String
+    content  String
+    author   Author @relation(fields: [authorId], references: [id])
+    authorId Int
+    tags     Tag[]
+}
+
+model Author {
+    id    Int    @id @default(autoincrement())
+    name  String @unique
+    poems Poem[]
 }
 
 model Tag {
-    id      Int      @id @default(autoincrement())
-    name    String   @unique
-    prompts Prompt[]
+    id    Int    @id @default(autoincrement())
+    name  String @unique
+    poems Poem[]
 }
