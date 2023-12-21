@@ -1,14 +1,9 @@
 import "~/styles/globals.css";
 
-import { Inter } from "next/font/google";
 import { cookies } from "next/headers";
 
 import { TRPCReactProvider } from "~/trpc/react";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
+import { getFont } from "~/utils/getFont";
 
 export const metadata = {
   title: "Find Prompt",
@@ -21,6 +16,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const { inter } = getFont();
+
   return (
     <html lang="en">
       <body className={`font-sans ${inter.variable}`}>

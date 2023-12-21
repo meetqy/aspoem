@@ -3,6 +3,21 @@ import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 
 export const poemRouter = createTRPCRouter({
   find: publicProcedure.query(({ ctx }) => ctx.db.poem.findMany()),
+  /**
+   * 根据 id 查找诗词
+   */
+  findById: publicProcedure.input(z.number()).query(async ({ input, ctx }) =>
+    ctx.db.poem.findUnique({
+      where: { id: input },
+      include: {
+        tags: true,
+        author: true,
+      },
+    }),
+  ),
+  /**
+   * 创建诗词
+   */
   create: publicProcedure
     .input(
       z.object({
