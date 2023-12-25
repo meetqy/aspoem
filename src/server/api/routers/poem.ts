@@ -21,21 +21,44 @@ export const poemRouter = createTRPCRouter({
   create: publicProcedure
     .input(
       z.object({
+        id: z.number().optional(),
         token: z.string(),
         title: z.string(),
         content: z.string(),
         authorId: z.number(),
         tagIds: z.array(z.number()),
+        classify: z.string(),
+        genre: z.string(),
       }),
     )
     .mutation(({ input, ctx }) => {
       if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
+
+      if (input.id) {
+        return ctx.db.poem.update({
+          where: { id: input.id },
+          data: {
+            title: input.title.toLocaleLowerCase(),
+            content: input.content,
+            author: {
+              connect: { id: input.authorId },
+            },
+            classify: input.classify,
+            genre: input.genre,
+            tags: {
+              connect: input.tagIds.map((id) => ({ id })),
+            },
+          },
+        });
+      }
 
       return ctx.db.poem.create({
         data: {
           title: input.title.toLocaleLowerCase(),
           content: input.content,
           authorId: input.authorId,
+          classify: input.classify,
+          genre: input.genre,
           tags: {
             connect: input.tagIds.map((id) => ({ id })),
           },

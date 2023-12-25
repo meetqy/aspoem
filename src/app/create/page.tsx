@@ -1,20 +1,42 @@
 "use client";
 
 import { api } from "~/trpc/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/PYu4t5Jw9a0
- */
+const _classify = [
+  "叙事诗",
+  "抒情诗",
+  "送别诗",
+  "边塞诗",
+  "山水田园诗",
+  "咏史诗",
+  "咏物诗",
+  "悼亡诗",
+  "讽喻诗",
+];
+
+const _genre = [
+  "诗",
+  "词",
+  "曲",
+  "赋",
+  "文言文",
+  "散文",
+  "小说",
+  "戏剧",
+  "杂文",
+];
 
 export default function CreatePage() {
   const utils = api.useUtils();
-  const { data: authors } = api.author.find.useQuery();
-  const { data: tags } = api.tag.find.useQuery();
   const params = useSearchParams();
   const token = params.get("token") ?? "";
+  const id = params.get("id") ?? "";
+
+  const { data: poem } = api.poem.findById.useQuery(Number(id));
+  const { data: authors } = api.author.find.useQuery();
+  const { data: tags } = api.tag.find.useQuery();
 
   const mutation = {
     createAuthor: api.author.create.useMutation({
@@ -44,11 +66,24 @@ export default function CreatePage() {
 
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
+  const [classify, setClassify] = useState("");
+  const [genre, setGenre] = useState("");
   const [authorId, setAuthorId] = useState<number>(-1);
   const [tagIds, setTagIds] = useState<number[]>([]);
 
   const [author, setAuthor] = useState("");
   const [tag, setTag] = useState("");
+
+  useEffect(() => {
+    if (poem) {
+      setTitle(poem.title);
+      setContent(poem.content);
+      setAuthorId(poem.authorId);
+      setTagIds(poem.tags.map((item) => item.id));
+      setClassify(poem.classify ?? "");
+      setGenre(poem.genre ?? "");
+    }
+  }, [poem]);
 
   return (
     <div className="flex h-screen space-x-4 overflow-auto">
@@ -103,7 +138,7 @@ export default function CreatePage() {
         >
           <div className="flex flex-col space-y-1.5 p-6">
             <h3 className="text-2xl font-semibold leading-none tracking-tight">
-              Add New Poem
+              {id ? "Edit" : "Add New"} Poem
             </h3>
             <p className="text-muted-foreground text-sm">
               Fill out the details htmlFor your new poem
@@ -191,6 +226,54 @@ export default function CreatePage() {
                 ))}
               </div>
             </div>
+            <div className="space-y-2">
+              <label
+                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                htmlFor="tags"
+              >
+                Classify
+              </label>
+              <div className="space-x-2">
+                <select
+                  value={classify}
+                  onChange={(e) => setClassify(e.target.value)}
+                  className="select select-bordered w-full focus:outline-none"
+                >
+                  <option disabled value={""}>
+                    Select an Classify
+                  </option>
+                  {_classify?.map((item) => (
+                    <option key={item} value={item}>
+                      {item}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
+            <div className="space-y-2">
+              <label
+                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                htmlFor="tags"
+              >
+                Genre
+              </label>
+              <div className="space-x-2">
+                <select
+                  value={genre}
+                  onChange={(e) => setGenre(e.target.value)}
+                  className="select select-bordered w-full focus:outline-none"
+                >
+                  <option disabled value={""}>
+                    Select an Genre
+                  </option>
+                  {_genre?.map((item) => (
+                    <option key={item} value={item}>
+                      {item}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
             <button
               className="btn btn-primary w-full"
               onClick={() => {
@@ -198,22 +281,27 @@ export default function CreatePage() {
                   !title ||
                   !content ||
                   authorId === -1 ||
-                  tagIds.length === 0
+                  tagIds.length === 0 ||
+                  !classify ||
+                  !genre
                 ) {
                   alert("Please fill out all the fields");
                   return;
                 }
 
                 mutation.createPoem.mutate({
+                  id: id ? Number(id) : undefined,
                   token,
                   title,
                   content,
                   authorId,
                   tagIds,
+                  classify,
+                  genre,
                 });
               }}
             >
-              Add Poem
+              Save Poem
             </button>
           </div>
         </div>
