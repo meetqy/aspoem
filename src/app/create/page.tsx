@@ -5,15 +5,15 @@ import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 
 const _classify = [
-  "叙事诗",
-  "抒情诗",
-  "送别诗",
-  "边塞诗",
-  "山水田园诗",
-  "咏史诗",
-  "咏物诗",
-  "悼亡诗",
-  "讽喻诗",
+  "叙事",
+  "抒情",
+  "送别",
+  "边塞",
+  "山水田园",
+  "咏史",
+  "咏物",
+  "悼亡",
+  "讽喻",
 ];
 
 const _genre = [
