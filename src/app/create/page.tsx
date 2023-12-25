@@ -278,14 +278,7 @@ export default function CreatePage() {
             <button
               className="btn btn-primary w-full"
               onClick={() => {
-                if (
-                  !title ||
-                  !content ||
-                  authorId === -1 ||
-                  tagIds.length === 0 ||
-                  !classify ||
-                  !genre
-                ) {
+                if (!title || !content || authorId === -1) {
                   alert("Please fill out all the fields");
                   return;
                 }

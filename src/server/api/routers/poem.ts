@@ -26,9 +26,9 @@ export const poemRouter = createTRPCRouter({
         title: z.string(),
         content: z.string(),
         authorId: z.number(),
-        tagIds: z.array(z.number()),
-        classify: z.string(),
-        genre: z.string(),
+        tagIds: z.array(z.number()).optional(),
+        classify: z.string().optional(),
+        genre: z.string().optional(),
       }),
     )
     .mutation(({ input, ctx }) => {
@@ -45,7 +45,7 @@ export const poemRouter = createTRPCRouter({
             },
             classify: input.classify,
             genre: input.genre,
-            tags: {
+            tags: input.tagIds && {
               connect: input.tagIds.map((id) => ({ id })),
             },
           },
@@ -59,7 +59,7 @@ export const poemRouter = createTRPCRouter({
           authorId: input.authorId,
           classify: input.classify,
           genre: input.genre,
-          tags: {
+          tags: input.tagIds && {
             connect: input.tagIds.map((id) => ({ id })),
           },
         },
