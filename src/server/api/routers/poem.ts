@@ -31,8 +31,17 @@ export const poemRouter = createTRPCRouter({
         genre: z.string().optional(),
       }),
     )
-    .mutation(({ input, ctx }) => {
+    .mutation(async ({ input, ctx }) => {
       if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
+
+      const res = await ctx.db.poem.findFirst({
+        where: {
+          authorId: input.authorId,
+          title: input.title.toLocaleLowerCase(),
+        },
+      });
+
+      if (res) throw new Error("诗词已存在");
 
       if (input.id) {
         return ctx.db.poem.update({

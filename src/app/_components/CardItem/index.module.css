@@ -1,0 +1,88 @@
+.title {
+  --accent: #252527;
+  --base: #252527;
+  --scale: white;
+  font-size: 180px;
+  @apply absolute -top-10 left-5 whitespace-nowrap tracking-widest transition-all;
+
+  &:hover {
+    @apply scale-125 opacity-80;
+
+    /* var(--fallback-b1,oklch(var(--b1)/0.05)) */
+
+    text-shadow:
+      1px 1px 1px oklch(var(--b1)),
+      1px 2px 1px oklch(var(--b1)),
+      1px 3px 1px oklch(var(--b1)),
+      1px 4px 1px oklch(var(--b1)),
+      1px 5px 1px oklch(var(--b1)),
+      1px 6px 1px oklch(var(--b1)),
+      1px 7px 1px oklch(var(--b1)),
+      1px 8px 1px oklch(var(--b1)),
+      1px 9px 1px oklch(var(--b1)),
+      1px 10px 1px oklch(var(--b1)),
+      1px 18px 6px rgba(16, 16, 16, 0.3),
+      1px 22px 10px rgba(16, 16, 16, 0.2),
+      1px 25px 35px rgba(16, 16, 16, 0.2),
+      1px 30px 60px rgba(16, 16, 16, 0.3);
+    /* text-shadow:
+      0 1px 0 #4a4a4e,
+      -1px -1px 0 #4a4a4e,
+      -1px 0px 0 #343437,
+      -2px 1px 0 #343437,
+      -3px 2px 0 #313134,
+      -4px 3px 0 #2f2f31,
+      -5px 4px 0 #2c2c2f,
+      -6px 5px 0 #2a2a2c,
+      -7px 6px 0 #27272a,
+      -8px 7px 0 #252527,
+      -9px 8px 0 #232324,
+      -10px 9px 0 #202022,
+      -11px 10px 0 #1e1e1f,
+      -12px 11px 0 #1b1b1d,
+      -13px 12px 0 #19191a,
+      -14px 13px 0 #161617,
+      -15px 14px 0 #141415,
+      -16px 15px 0 #111112,
+      0 -1px 1px white,
+      0 -2px 0px white,
+      -15px 14px 0px white,
+      -16px 15px 0px white,
+      -17px 16px 0px white,
+      -18px 17px 0px white,
+      -2px -1px 0 white,
+      -3px 0px 0 white,
+      -19px 15px 0 white,
+      -18px 14px 0 white,
+      -17px 13px 0 white,
+      -16px 12px 0 white,
+      -15px 11px 0 white,
+      -14px 10px 0 white,
+      -13px 9px 0 white,
+      -12px 8px 0 white,
+      -11px 7px 0 white,
+      -10px 6px 0 white,
+      -9px 5px 0 white,
+      -8px 4px 0 white,
+      -7px 3px 0 white,
+      -6px 2px 0 white,
+      -5px 1px 0 white,
+      -4px 0px 0 white,
+      0px 2px 0px white,
+      -1px 3px 0px white,
+      -2px 4px 0px white,
+      -3px 5px 0px white,
+      -4px 6px 0px white,
+      -5px 7px 0px white,
+      -6px 8px 0px white,
+      -7px 9px 0px white,
+      -8px 10px 0px white,
+      -9px 11px 0px white,
+      -10px 12px 0px white,
+      -11px 13px 0px white,
+      -12px 14px 0px white,
+      -13px 15px 0px white,
+      -14px 16px 0px white,
+      -15px 17px 0px white; */
+  }
+}

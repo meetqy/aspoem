@@ -1,28 +1,19 @@
 import { notFound } from "next/navigation";
 import { api } from "~/trpc/server";
-import CardItem from "../_components/CardItem";
+import CardItem from "../_components/CardItem/index";
 
 export default async function Page() {
-  const poem = await api.poem.findById.query(3);
+  const poems = await api.poem.find.query();
 
-  if (!poem) {
+  if (!poems || poems.length === 0) {
     return notFound();
   }
 
   return (
     <div className="grid grid-cols-4 gap-4 py-4">
-      <CardItem href="/poem/3" text="待到重阳日逗还来就菊花啊" />
-      <CardItem href="/poem/3" text="待到重阳日逗还来就菊花" />
-      <CardItem href="/poem/3" text="待到重阳日逗还来就菊" />
-      <CardItem href="/poem/3" text="待到重阳日逗还来就" />
-      <CardItem href="/poem/3" text="待到重阳日逗还来" />
-      <CardItem href="/poem/3" text="待到重阳日逗还" />
-      <CardItem href="/poem/3" text="待到重阳日逗" />
-      <CardItem href="/poem/3" text="待到重阳日" />
-      <CardItem href="/poem/3" text="待到重阳" />
-      <CardItem href="/poem/3" text="待到重" />
-      <CardItem href="/poem/3" text="待到" />
-      <CardItem href="/poem/3" text="待" />
+      {poems.map((poem) => (
+        <CardItem key={poem.id} href={`/poem/${poem.id}`} text={poem.title} />
+      ))}
     </div>
   );
 }
