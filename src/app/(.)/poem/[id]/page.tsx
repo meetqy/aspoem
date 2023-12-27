@@ -19,7 +19,7 @@ export default async function Page({ params }: { params: { id: string } }) {
         <PencilSquareIcon className="h-6 w-6" />
       </Link>
       <article className="prose prose-2xl m-auto pt-12 text-center">
-        <h1 className="text-stroke">{poem.title}</h1>
+        <h1 className="text-stroke-base-100">{poem.title}</h1>
         <p>
           {poem.author.dynasty && (
             <span className="font-light">{poem.author.dynasty} · </span>

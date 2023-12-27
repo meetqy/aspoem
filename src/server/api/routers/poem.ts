@@ -2,7 +2,34 @@ import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 
 export const poemRouter = createTRPCRouter({
-  find: publicProcedure.query(({ ctx }) => ctx.db.poem.findMany()),
+  count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),
+
+  find: publicProcedure
+    .input(
+      z
+        .object({
+          page: z.number().optional().default(1),
+          pageSize: z.number().optional().default(28),
+        })
+        .optional(),
+    )
+    .query(async ({ input = {}, ctx }) => {
+      const { page = 1, pageSize = 28 } = input;
+
+      const data = await ctx.db.poem.findMany({
+        skip: (page - 1) * pageSize,
+        take: pageSize,
+      });
+
+      const total = await ctx.db.poem.count();
+
+      return {
+        data,
+        page,
+        pageSize,
+        total,
+      };
+    }),
   /**
    * 根据 id 查找诗词
    */

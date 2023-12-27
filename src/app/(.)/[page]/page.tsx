@@ -1,9 +1,11 @@
 import { notFound } from "next/navigation";
+import CardItem from "~/app/_components/CardItem";
 import { api } from "~/trpc/server";
-import CardItem from "../_components/CardItem/index";
 
-export default async function Page() {
-  const { data: poems } = await api.poem.find.query();
+export default async function Page({ params }: { params: { page: string } }) {
+  const { data: poems } = await api.poem.find.query({
+    page: Number(params.page),
+  });
 
   if (!poems || poems.length === 0) {
     return notFound();

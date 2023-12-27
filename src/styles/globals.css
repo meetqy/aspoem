@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.text-stroke {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: oklch(var(--bc));
-  color: transparent;
+@layer utilities {
+  .text-stroke-base-100 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: oklch(var(--bc));
+    color: transparent;
+  }
+
+  .text-stroke-neutral-content {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: oklch(var(--nc));
+    color: transparent;
+  }
 }

@@ -11,7 +11,7 @@ export default function CardItem(props: Props) {
 
   return (
     <Link href={props.href} className={styles.card}>
-      <span className={`text-stroke ${styles.title}`}>{first}</span>
+      <span className={`text-stroke-base-100 ${styles.title}`}>{first}</span>
 
       <p className="w-full truncate bg-neutral/90 px-2 py-3 text-neutral-content">
         {props.text}
