@@ -21,13 +21,15 @@ export default async function Page({ params }: { params: { id: string } }) {
       </Link>
 
       <article className="prose prose-2xl relative m-auto h-full text-center">
-        <div className={styles.title}>
+        <div className={`${styles.title} text-stroke-base-100`}>
           <h1>{poem.title}</h1>
         </div>
 
         <div className="h-8"></div>
 
-        <h1 className={styles.title2}>{poem.title}</h1>
+        <h1 className={`${styles.title2} text-stroke-base-100`}>
+          {poem.title}
+        </h1>
 
         <p>
           {poem.author.dynasty && (

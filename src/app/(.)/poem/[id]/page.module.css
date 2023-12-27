@@ -2,13 +2,12 @@
   @apply absolute left-0 top-0 h-full max-h-screen w-full;
 
   h1 {
-    @apply text-stroke-base-100 absolute w-full text-center opacity-0;
+    @apply absolute w-full text-center opacity-0;
     animation: slideToTitle 0.5s ease-in-out;
   }
 }
 
 .title2 {
-  @apply text-stroke-base-100;
   animation: show 0.5s ease-out forwards;
 }
 
