@@ -43,7 +43,10 @@ export default function CreatePage() {
     createAuthor: api.author.create.useMutation({
       onSuccess: async () => {
         await utils.author.find.invalidate();
-        setAuthor("");
+        if (!id) {
+          setAuthor("");
+          setDynasty("");
+        }
       },
       onError: (err) => alert(err.message),
     }),
@@ -56,10 +59,14 @@ export default function CreatePage() {
     }),
     createPoem: api.poem.create.useMutation({
       onSuccess: async () => {
-        setTitle("");
-        setContent("");
-        setAuthorId(-1);
-        setTagIds([]);
+        if (!id) {
+          setTitle("");
+          setContent("");
+          setAuthorId(-1);
+          setTagIds([]);
+          setGenre("");
+          setClassify("");
+        }
       },
       onError: (err) => alert(err.message),
     }),
@@ -70,10 +77,12 @@ export default function CreatePage() {
   const [classify, setClassify] = useState("");
   const [genre, setGenre] = useState("");
   const [authorId, setAuthorId] = useState<number>(-1);
+
+  const [tag, setTag] = useState("");
   const [tagIds, setTagIds] = useState<number[]>([]);
 
+  const [dynasty, setDynasty] = useState("");
   const [author, setAuthor] = useState("");
-  const [tag, setTag] = useState("");
 
   useEffect(() => {
     if (poem) {
@@ -83,6 +92,8 @@ export default function CreatePage() {
       setTagIds(poem.tags.map((item) => item.id));
       setClassify(poem.classify ?? "");
       setGenre(poem.genre ?? "");
+      setAuthor(poem.author.name ?? "");
+      setDynasty(poem.author.dynasty ?? "");
     }
   }, [poem]);
 
@@ -95,7 +106,7 @@ export default function CreatePage() {
         >
           <div className="flex flex-col space-y-1.5 p-6">
             <h3 className="text-2xl font-semibold leading-none tracking-tight">
-              Add New Author
+              {id ? "Edit" : "Add New"} Author
             </h3>
             <p className="text-muted-foreground text-sm">
               Enter the name of the new author
@@ -107,7 +118,7 @@ export default function CreatePage() {
                 className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="authorName"
               >
-                Author Name
+                <span className="text-red-500">*</span> Author Name
               </label>
               <input
                 className="input input-bordered w-full focus:outline-none"
@@ -118,20 +129,39 @@ export default function CreatePage() {
                 onChange={(e) => setAuthor(e.target.value)}
               />
             </div>
+            <div className="space-y-2">
+              <label
+                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                htmlFor="authorName"
+              >
+                Dynasty
+              </label>
+              <input
+                className="input input-bordered w-full focus:outline-none"
+                id="Dynasty"
+                placeholder="Enter Dynasty"
+                required
+                value={dynasty}
+                onChange={(e) => setDynasty(e.target.value)}
+              />
+            </div>
             <button
               className="btn btn-primary w-full"
               onClick={() => {
                 mutation.createAuthor.mutate({
+                  id: poem?.authorId,
                   token,
-                  names: author.split("，"),
+                  name: author,
+                  dynasty,
                 });
               }}
             >
-              Add Author
+              Save Author
             </button>
           </div>
         </div>
       </div>
+
       <div className="w-2/4 p-4">
         <div
           className="bg-card text-card-foreground rounded-lg border shadow-sm"
@@ -151,7 +181,7 @@ export default function CreatePage() {
                 className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="title"
               >
-                Title
+                <span className="text-red-500">*</span> Title
               </label>
               <input
                 className="input input-bordered w-full focus:outline-none"
@@ -167,7 +197,7 @@ export default function CreatePage() {
                 className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="content"
               >
-                Content
+                <span className="text-red-500">*</span> Content
               </label>
               <textarea
                 className="textarea textarea-bordered min-h-[200px] w-full focus:outline-none"
@@ -183,7 +213,7 @@ export default function CreatePage() {
                 className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="author"
               >
-                Author
+                <span className="text-red-500">*</span> Author
               </label>
               <select
                 value={authorId}
@@ -300,6 +330,7 @@ export default function CreatePage() {
           </div>
         </div>
       </div>
+
       <div className="w-1/4 p-4">
         <div
           className="bg-card text-card-foreground rounded-lg border shadow-sm"

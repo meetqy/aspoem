@@ -25,9 +25,11 @@ model Poem {
 }
 
 model Author {
-    id    Int    @id @default(autoincrement())
-    name  String @unique
-    poems Poem[]
+    id      Int     @id @default(autoincrement())
+    name    String  @unique
+    // 朝代
+    dynasty String?
+    poems   Poem[]
 }
 
 model Tag {

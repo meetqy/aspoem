@@ -21,7 +21,9 @@ export default async function Page({ params }: { params: { id: string } }) {
       <article className="prose prose-2xl m-auto pt-12 text-center">
         <h1 className="text-stroke">{poem.title}</h1>
         <p>
-          <span className="font-light">唐</span> ·{" "}
+          {poem.author.dynasty && (
+            <span className="font-light">{poem.author.dynasty} · </span>
+          )}
           <span
             className="bg-gradient-to-tr from-primary via-current to-secondary bg-clip-text"
             style={{

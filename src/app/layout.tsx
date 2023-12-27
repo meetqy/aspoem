@@ -4,10 +4,11 @@ import { cookies } from "next/headers";
 
 import { TRPCReactProvider } from "~/trpc/react";
 import { getFont } from "~/utils/getFont";
+import { description } from "~/utils/constant";
 
 export const metadata = {
-  title: "Find Prompt",
-  description: "Find ChatGPT Prompts",
+  title: "ASPOEM",
+  description: `ASPOEM - ${description}`,
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
