@@ -27,6 +27,7 @@ export const poemRouter = createTRPCRouter({
         data,
         page,
         pageSize,
+        hasNext: page * pageSize < total,
         total,
       };
     }),
@@ -61,15 +62,6 @@ export const poemRouter = createTRPCRouter({
     .mutation(async ({ input, ctx }) => {
       if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
 
-      const res = await ctx.db.poem.findFirst({
-        where: {
-          authorId: input.authorId,
-          title: input.title.toLocaleLowerCase(),
-        },
-      });
-
-      if (res) throw new Error("诗词已存在");
-
       if (input.id) {
         return ctx.db.poem.update({
           where: { id: input.id },
@@ -87,6 +79,16 @@ export const poemRouter = createTRPCRouter({
           },
         });
       }
+
+      const res = await ctx.db.poem.findFirst({
+        where: {
+          authorId: input.authorId,
+          title: input.title.toLocaleLowerCase(),
+          content: input.content,
+        },
+      });
+
+      if (res) throw new Error("诗词已存在");
 
       return ctx.db.poem.create({
         data: {

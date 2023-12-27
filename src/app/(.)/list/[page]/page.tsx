@@ -1,11 +1,19 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { api } from "~/trpc/server";
-import CardItem from "../_components/CardItem/index";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
+import CardItem from "~/app/_components/CardItem";
 
-export default async function Page() {
-  const { data: poems, page, hasNext } = await api.poem.find.query();
+export default async function Page({ params }: { params: { page: string } }) {
+  if (Number(params.page) === 1) return redirect("/");
+
+  const {
+    data: poems,
+    page,
+    hasNext,
+  } = await api.poem.find.query({
+    page: Number(params.page),
+  });
 
   if (!poems || poems.length === 0) {
     return notFound();
@@ -22,10 +30,15 @@ export default async function Page() {
       <div className="divider"></div>
 
       <div className="flex justify-between">
-        <button className="btn btn-disabled btn-outline opacity-0">
+        <Link
+          href={`/list/${page - 1}`}
+          className={`btn btn-neutral ${
+            page === 1 && "btn-disabled opacity-0"
+          }`}
+        >
           <ChevronLeftIcon className="h-6 w-6" />
           上一页
-        </button>
+        </Link>
         <Link
           href={`/list/${page + 1}`}
           className={`btn btn-neutral ${!hasNext && "btn-disabled opacity-0"}`}

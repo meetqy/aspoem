@@ -22,15 +22,6 @@ export const authorRouter = createTRPCRouter({
     .mutation(async ({ input, ctx }) => {
       if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
 
-      const res = await ctx.db.author.findMany({
-        where: {
-          name: input.name.toLocaleLowerCase(),
-          dynasty: input.dynasty,
-        },
-      });
-
-      if (res.length > 0) throw new Error("Author already exists");
-
       if (input.id) {
         return ctx.db.author.update({
           where: { id: input.id },
@@ -40,6 +31,15 @@ export const authorRouter = createTRPCRouter({
           },
         });
       }
+
+      const res = await ctx.db.author.findMany({
+        where: {
+          name: input.name.toLocaleLowerCase(),
+          dynasty: input.dynasty,
+        },
+      });
+
+      if (res.length > 0) throw new Error("Author already exists");
 
       return ctx.db.author.create({
         data: {

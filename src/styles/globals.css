@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+textarea,
+select {
+  @apply !text-base;
+}
+
 @layer utilities {
   .text-stroke-base-100 {
     -webkit-text-stroke-width: 1px;

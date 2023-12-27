@@ -4,7 +4,7 @@
   &:hover {
     .title {
       font-size: 210px;
-      line-height: 0.95;
+      line-height: 0.85;
       @apply opacity-80 dark:bg-base-content;
 
       text-shadow:

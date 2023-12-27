@@ -100,22 +100,19 @@ export default function CreatePage() {
   return (
     <div className="flex h-screen space-x-4 overflow-auto">
       <div className="w-1/4 p-4">
-        <div
-          className="bg-card text-card-foreground rounded-lg border shadow-sm"
-          data-v0-t="card"
-        >
+        <div className="bg-card rounded-lg border shadow-sm" data-v0-t="card">
           <div className="flex flex-col space-y-1.5 p-6">
             <h3 className="text-2xl font-semibold leading-none tracking-tight">
               {id ? "Edit" : "Add New"} Author
             </h3>
-            <p className="text-muted-foreground text-sm">
+            <p className="text-muted-foreground ">
               Enter the name of the new author
             </p>
           </div>
           <div className="space-y-4 p-6">
             <div className="space-y-2">
               <label
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="authorName"
               >
                 <span className="text-red-500">*</span> Author Name
@@ -131,7 +128,7 @@ export default function CreatePage() {
             </div>
             <div className="space-y-2">
               <label
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="authorName"
               >
                 Dynasty
@@ -163,22 +160,17 @@ export default function CreatePage() {
       </div>
 
       <div className="w-2/4 p-4">
-        <div
-          className="bg-card text-card-foreground rounded-lg border shadow-sm"
-          data-v0-t="card"
-        >
+        <div className="bg-card rounded-lg border shadow-sm" data-v0-t="card">
           <div className="flex flex-col space-y-1.5 p-6">
             <h3 className="text-2xl font-semibold leading-none tracking-tight">
               {id ? "Edit" : "Add New"} Poem
             </h3>
-            <p className="text-muted-foreground text-sm">
-              Fill out the details htmlFor your new poem
-            </p>
+            <p>Fill out the details htmlFor your new poem</p>
           </div>
           <div className="space-y-4 p-6">
             <div className="space-y-2">
               <label
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="title"
               >
                 <span className="text-red-500">*</span> Title
@@ -194,13 +186,13 @@ export default function CreatePage() {
             </div>
             <div className="space-y-2">
               <label
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="content"
               >
                 <span className="text-red-500">*</span> Content
               </label>
               <textarea
-                className="textarea textarea-bordered min-h-[200px] w-full focus:outline-none"
+                className="textarea textarea-bordered min-h-[200px] w-full text-base focus:outline-none"
                 id="content"
                 placeholder="Enter poem's content"
                 required
@@ -210,7 +202,7 @@ export default function CreatePage() {
             </div>
             <div className="space-y-2">
               <label
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="author"
               >
                 <span className="text-red-500">*</span> Author
@@ -232,7 +224,7 @@ export default function CreatePage() {
             </div>
             <div className="space-y-2">
               <label
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="tags"
               >
                 Tags
@@ -240,7 +232,7 @@ export default function CreatePage() {
               <div className="space-x-2">
                 {tags?.map((item) => (
                   <span
-                    className={`badge cursor-pointer ${
+                    className={`badge cursor-pointer text-base ${
                       tagIds.includes(item.id) ? "badge-primary" : ""
                     }`}
                     key={item.id}
@@ -259,7 +251,7 @@ export default function CreatePage() {
             </div>
             <div className="space-y-2">
               <label
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="tags"
               >
                 Classify
@@ -283,7 +275,7 @@ export default function CreatePage() {
             </div>
             <div className="space-y-2">
               <label
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="tags"
               >
                 Genre
@@ -332,22 +324,17 @@ export default function CreatePage() {
       </div>
 
       <div className="w-1/4 p-4">
-        <div
-          className="bg-card text-card-foreground rounded-lg border shadow-sm"
-          data-v0-t="card"
-        >
+        <div className="bg-card rounded-lg border shadow-sm" data-v0-t="card">
           <div className="flex flex-col space-y-1.5 p-6">
             <h3 className="text-2xl font-semibold leading-none tracking-tight">
               Add New Tag
             </h3>
-            <p className="text-muted-foreground text-sm">
-              Enter the name of the new tag
-            </p>
+            <p>Enter the name of the new tag</p>
           </div>
           <div className="space-y-4 p-6">
             <div className="space-y-2">
               <label
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="tagName"
               >
                 Tag Name

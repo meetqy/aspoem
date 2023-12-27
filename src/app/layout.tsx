@@ -3,7 +3,6 @@ import "~/styles/globals.css";
 import { cookies } from "next/headers";
 
 import { TRPCReactProvider } from "~/trpc/react";
-import { getFont } from "~/utils/getFont";
 import { description } from "~/utils/constant";
 
 export const metadata = {
@@ -17,11 +16,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const { inter } = getFont();
-
   return (
-    <html lang="en">
-      <body className={`font-sans ${inter.variable}`}>
+    <html lang="en" style={{ fontFamily: "cursive" }}>
+      <body>
         <TRPCReactProvider cookies={cookies().toString()}>
           {children}
         </TRPCReactProvider>
