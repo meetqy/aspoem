@@ -5,7 +5,7 @@
     .title {
       font-size: 210px;
       line-height: 0.85;
-      @apply opacity-80 dark:bg-base-content;
+      @apply dark:bg-base-content/80;
 
       text-shadow:
         1px 1px 1px oklch(var(--b1)),
@@ -29,5 +29,5 @@
 .title {
   font-size: 160px;
   line-height: 1;
-  @apply absolute h-full w-full whitespace-nowrap text-center tracking-widest transition-all;
+  @apply absolute h-full w-full whitespace-nowrap text-center transition-all;
 }

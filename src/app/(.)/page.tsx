@@ -12,7 +12,7 @@ export default async function Page() {
   }
 
   return (
-    <div className="py-4">
+    <>
       <div className="grid grid-cols-4 gap-4">
         {poems.map((poem) => (
           <CardItem key={poem.id} href={`/poem/${poem.id}`} text={poem.title} />
@@ -34,6 +34,6 @@ export default async function Page() {
           <ChevronRightIcon className="h-6 w-6" />
         </Link>
       </div>
-    </div>
+    </>
   );
 }

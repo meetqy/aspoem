@@ -12,12 +12,12 @@ export default async function Layout({
   };
 
   return (
-    <div className="container relative m-auto flex space-x-4">
-      <ul className="menu menu-lg sticky left-0 top-0 h-screen w-72 overflow-y-auto rounded-box bg-base-200">
+    <div className="container relative m-auto flex h-full rounded-box bg-base-200">
+      <ul className="menu menu-lg sticky left-0 top-0 h-screen w-72 overflow-y-auto rounded-box p-4">
         <Link
           href={"/"}
           title={description}
-          className="text-stroke-neutral-content btn btn-neutral flex h-20 cursor-pointer items-center justify-center font-serif text-5xl shadow-inner"
+          className="text-stroke-neutral-content btn btn-neutral flex h-20 cursor-pointer items-center  justify-center font-serif text-5xl shadow-inner dark:text-neutral-content"
         >
           As Poem
         </Link>
@@ -32,14 +32,11 @@ export default async function Layout({
         <li>
           <a>作者</a>
         </li>
-        <li>
-          <a></a>
-        </li>
       </ul>
-      <main className="min-h-screen flex-1 overflow-hidden rounded-box">
-        {children}
+      <main className="flex min-h-screen flex-1 overflow-hidden p-4">
+        <div className="flex-1 rounded-box bg-base-100 p-4">{children}</div>
       </main>
-      <aside className="sticky top-0 flex h-screen w-72 flex-col overflow-y-auto rounded-box bg-base-200"></aside>
+      <aside className="sticky top-0 flex h-screen w-72 flex-col overflow-y-auto rounded-box"></aside>
     </div>
   );
 }
