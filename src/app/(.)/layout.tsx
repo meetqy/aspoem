@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { api } from "~/trpc/server";
-import { description } from "~/utils/constant";
+import Logo from "../_components/Logo";
 
 export default async function Layout({
   children,
@@ -15,13 +15,7 @@ export default async function Layout({
     <>
       <main className="container m-auto flex max-w-screen-2xl space-x-4 p-4">
         <ul className="menu menu-lg sticky left-0 top-0 h-screen w-72 overflow-y-auto rounded-box bg-base-100 p-4">
-          <Link
-            href={"/"}
-            title={description}
-            className="text-stroke-base-100 btn btn-ghost flex h-20 font-serif text-5xl text-success hover:bg-transparent"
-          >
-            As Poem
-          </Link>
+          <Logo />
           <li className="mt-4">
             <Link href={"/"} className="flex items-center justify-between">
               全部

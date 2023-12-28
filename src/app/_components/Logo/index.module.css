@@ -1,0 +1,35 @@
+.logo {
+  @apply btn btn-outline relative h-20 w-full overflow-hidden border-none text-center font-serif text-5xl font-bold duration-300;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    @apply -top-36 left-28 h-96 w-96 bg-gradient-to-br from-success/80 to-error/80;
+    border-radius: 40% 42% 44% 46%;
+    animation: rotate 8s infinite linear alternate;
+    mix-blend-mode: lighten;
+
+    /* media dark mix-blend-mode 
+     * https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode
+     */
+    @media (prefers-color-scheme: dark) {
+      mix-blend-mode: darken;
+    }
+  }
+
+  &::after {
+    border-radius: 46% 44% 42% 40%;
+    @apply bg-gradient-to-bl from-success/40 to-error/40;
+    animation: rotate 5s infinite 2.5s linear alternate;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-25%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-75%, -45%) rotate(360deg);
+  }
+}
