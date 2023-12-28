@@ -12,7 +12,7 @@ export default async function Page({ params }: { params: { id: string } }) {
   }
 
   return (
-    <div className="relative h-full min-h-full">
+    <div className="relative min-h-full">
       <Link
         href={`/create?id=${poem.id}`}
         className="btn btn-circle absolute right-4 top-4"

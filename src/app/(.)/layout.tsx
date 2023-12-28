@@ -12,31 +12,34 @@ export default async function Layout({
   };
 
   return (
-    <div className="container relative m-auto flex h-full rounded-box bg-base-200">
-      <ul className="menu menu-lg sticky left-0 top-0 h-screen w-72 overflow-y-auto rounded-box p-4">
-        <Link
-          href={"/"}
-          title={description}
-          className="text-stroke-neutral-content btn btn-neutral flex h-20 cursor-pointer items-center  justify-center font-serif text-5xl shadow-inner dark:text-neutral-content"
-        >
-          As Poem
-        </Link>
-        <li className="mt-4">
-          <Link href={"/"} className="flex items-center justify-between">
-            全部
-            <span className="font-mono text-xs text-base-content/50">
-              {counts.poem}
-            </span>
+    <>
+      <main className="container m-auto flex max-w-screen-2xl space-x-4 p-4">
+        <ul className="menu menu-lg sticky left-0 top-0 h-screen w-72 overflow-y-auto rounded-box bg-base-100 p-4">
+          <Link
+            href={"/"}
+            title={description}
+            className="text-stroke-base-100 btn btn-ghost flex h-20 font-serif text-5xl text-success hover:bg-transparent"
+          >
+            As Poem
           </Link>
-        </li>
-        <li>
-          <a>作者</a>
-        </li>
-      </ul>
-      <main className="flex min-h-screen flex-1 overflow-hidden p-4">
-        <div className="flex-1 rounded-box bg-base-100 p-4">{children}</div>
+          <li className="mt-4">
+            <Link href={"/"} className="flex items-center justify-between">
+              全部
+              <span className="badge badge-sm font-mono uppercase">
+                {counts.poem}
+              </span>
+            </Link>
+          </li>
+        </ul>
+
+        <main className="min-h-screen flex-1 rounded-box bg-base-100 py-4">
+          {children}
+        </main>
+
+        <aside className="w-72 rounded-box bg-base-100 p-4">
+          <button>right basic infomation</button>
+        </aside>
       </main>
-      <aside className="sticky top-0 flex h-screen w-72 flex-col overflow-y-auto rounded-box"></aside>
-    </div>
+    </>
   );
 }

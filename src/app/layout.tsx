@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" style={{ fontFamily: "cursive" }}>
-      <body>
+      <body className="bg-base-200/50">
         <TRPCReactProvider cookies={cookies().toString()}>
           {children}
         </TRPCReactProvider>

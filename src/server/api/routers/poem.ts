@@ -19,6 +19,9 @@ export const poemRouter = createTRPCRouter({
       const data = await ctx.db.poem.findMany({
         skip: (page - 1) * pageSize,
         take: pageSize,
+        include: {
+          author: true,
+        },
       });
 
       const total = await ctx.db.poem.count();
