@@ -1,5 +1,6 @@
 import { notFound, redirect } from "next/navigation";
 import { api } from "~/trpc/server";
+import "./index.css";
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
@@ -28,7 +29,7 @@ export default async function ListPage({
 
   return (
     <div>
-      <ul className="menu menu-vertical sticky top-0 mx-4 rounded-box bg-base-100/70 shadow backdrop-blur lg:menu-horizontal">
+      <ul className="menu menu-vertical sticky top-0 z-50 mx-4 rounded-box bg-base-100/70 shadow backdrop-blur lg:menu-horizontal">
         <li>
           <a>添加时间</a>
         </li>
@@ -50,10 +51,11 @@ export default async function ListPage({
                 <div className="font-bold text-base-content">
                   <Link
                     href={`/poem/${poem.id}?lt=${poem.title}`}
-                    className="text-3xl underline-offset-4 hover:underline"
+                    className="underline-animation text-3xl"
                   >
                     {poem.title}
                   </Link>
+
                   <span className="ml-2 font-light">
                     <span className="text-primary">@{poem.author.name}</span>
                     {poem.author.dynasty && (
