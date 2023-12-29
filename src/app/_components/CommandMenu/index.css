@@ -3,15 +3,15 @@
 }
 
 [cmdk-dialog] {
-  @apply fixed inset-0 z-[101] m-auto flex max-w-screen-sm items-center justify-center;
+  @apply input-bordered fixed inset-0 z-[101] m-auto mt-48 max-h-96 max-w-screen-sm overflow-hidden rounded-box border bg-base-100 shadow-lg;
 }
 
 [cmdk-root] {
-  @apply -mt-32 w-full overflow-hidden rounded-box border bg-base-100 shadow-lg;
+  @apply h-full w-full;
 }
 
 [cmdk-linear-badge] {
-  @apply btn btn-outline btn-neutral btn-xs mx-4 mb-0 mt-4;
+  @apply btn btn-outline btn-neutral btn-xs;
 }
 
 [cmdk-linear-shortcuts] {
@@ -24,7 +24,7 @@
 }
 
 [cmdk-input] {
-  @apply m-0 w-full border-b border-solid border-base-300 bg-base-100 p-4 text-xl text-base-content caret-primary outline-none;
+  @apply input-bordered m-0 w-full border-b border-solid bg-base-100 p-4 text-xl text-base-content caret-primary outline-none;
 
   &::placeholder {
     @apply text-base-content/70;

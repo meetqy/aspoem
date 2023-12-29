@@ -21,6 +21,7 @@ export default async function ListPage({
     hasNext,
   } = await api.poem.find.query({
     page: Number(params?.page ?? 1),
+    pageSize: 12,
   });
 
   if (!poems || poems.length === 0) {
@@ -31,7 +32,12 @@ export default async function ListPage({
     <div>
       <ul className="menu menu-vertical sticky top-0 z-50 mx-4 rounded-box bg-base-100/70 shadow backdrop-blur lg:menu-horizontal">
         <li>
-          <a>添加时间</a>
+          <Link href={"/"} className="active">
+            默认
+          </Link>
+        </li>
+        <li>
+          <a>更新时间</a>
         </li>
         <li>
           <a>随机模式</a>
@@ -46,7 +52,10 @@ export default async function ListPage({
           const content = poem.content.split("\n");
 
           return (
-            <section className="mx-4 block cursor-pointer rounded-box border p-8">
+            <section
+              key={poem.id}
+              className="input-bordered mx-4 block cursor-pointer rounded-box border p-8"
+            >
               <div className="flex justify-between">
                 <div className="font-bold text-base-content">
                   <Link
