@@ -5,6 +5,9 @@ import { cookies } from "next/headers";
 import { TRPCReactProvider } from "~/trpc/react";
 import { description } from "~/utils/constant";
 
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
+
 export const metadata = {
   title: "ASPOEM",
   description: `ASPOEM - ${description}`,
@@ -22,6 +25,9 @@ export default function RootLayout({
         <TRPCReactProvider cookies={cookies().toString()}>
           {children}
         </TRPCReactProvider>
+
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
