@@ -1,0 +1,96 @@
+[cmdk-overlay] {
+  @apply fixed inset-0 z-[100] bg-base-200 opacity-90 backdrop-blur-lg;
+}
+
+[cmdk-dialog] {
+  @apply fixed inset-0 z-[101] m-auto flex max-w-screen-sm items-center justify-center;
+}
+
+[cmdk-root] {
+  @apply -mt-32 w-full overflow-hidden rounded-box border bg-base-100 shadow-lg;
+}
+
+[cmdk-linear-badge] {
+  @apply btn btn-outline btn-neutral btn-xs mx-4 mb-0 mt-4;
+}
+
+[cmdk-linear-shortcuts] {
+  display: flex;
+  margin-left: auto;
+
+  kbd {
+    @apply kbd kbd-sm;
+  }
+}
+
+[cmdk-input] {
+  @apply m-0 w-full border-b border-solid border-base-300 bg-base-100 p-4 text-xl text-base-content caret-primary outline-none;
+
+  &::placeholder {
+    @apply text-base-content/70;
+  }
+}
+
+[cmdk-item] {
+  @apply relative flex h-12 cursor-pointer select-none items-center gap-4 px-4 text-base transition-all;
+  content-visibility: auto;
+
+  will-change: background, color;
+  transition-property: none;
+
+  &[data-selected="true"] {
+    @apply bg-base-200;
+
+    svg {
+      @apply text-primary;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      z-index: 123;
+      width: 3px;
+      height: 100%;
+      @apply bg-primary;
+    }
+  }
+
+  &[data-disabled="true"] {
+    @apply cursor-not-allowed text-base-content/60;
+  }
+
+  &:active {
+    transition-property: background;
+    @apply bg-base-300;
+  }
+
+  & + [cmdk-item] {
+    @apply mt-1;
+  }
+
+  svg {
+    @apply h-4 w-4 text-base-content;
+  }
+}
+
+[cmdk-list] {
+  height: min(300px, var(--cmdk-list-height));
+  max-height: 400px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  transition: 100ms ease;
+  transition-property: height;
+}
+
+[cmdk-group-heading] {
+  @apply flex select-none items-center px-4 py-2 text-sm font-medium text-info;
+}
+
+[cmdk-empty] {
+  @apply flex h-16 items-center justify-center whitespace-pre-wrap text-lg text-base-content/60;
+}
+
+[cmdk-separator] {
+  @apply h-px bg-base-200;
+}

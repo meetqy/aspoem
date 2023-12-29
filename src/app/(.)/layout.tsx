@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { api } from "~/trpc/server";
 import Logo from "../_components/Logo";
+import { CommandInputSearch } from "../_components/CommandMenu";
 
 export default async function Layout({
   children,
@@ -31,7 +32,7 @@ export default async function Layout({
         </main>
 
         <aside className="w-72 rounded-box bg-base-100 p-4">
-          <button>right basic infomation</button>
+          <CommandInputSearch />
         </aside>
       </main>
     </>
