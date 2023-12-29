@@ -102,7 +102,7 @@ export default async function ListPage({
                   <p>......</p>
                   <Link
                     href={`/poem/${poem.id}?lt=${poem.title}`}
-                    className="btn btn-outline btn-primary btn-sm font-normal"
+                    className="btn btn-ghost btn-sm font-normal"
                   >
                     查看详情 <ChevronRightIcon className="h-4 w-4" />
                   </Link>
