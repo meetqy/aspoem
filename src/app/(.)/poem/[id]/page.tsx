@@ -4,14 +4,22 @@ import { notFound } from "next/navigation";
 import { api } from "~/trpc/server";
 import styles from "./page.module.css";
 
-const RubyChar = ({ char, pinyin }: { char: string; pinyin?: string }) => {
+const RubyChar = ({
+  char,
+  pinyin,
+  className = "px-2",
+}: {
+  char: string;
+  pinyin?: string;
+  className?: string;
+}) => {
   if (/\./.test(pinyin ?? "")) {
     pinyin = "";
   }
 
   return (
     <>
-      <span className={`${pinyin ? "px-2" : ""}`}>{char}</span>
+      <span className={`${pinyin ? className : ""}`}>{char}</span>
       {
         <>
           <rp>(</rp>
@@ -48,7 +56,7 @@ export default async function Page({ params }: { params: { id: string } }) {
           <h1>{poem.title}</h1>
         </div>
 
-        <div className="h-8"></div>
+        <div className="h-20"></div>
 
         <h1 className={`${styles.title2} text-stroke-base-100`}>
           <ruby>
@@ -84,7 +92,12 @@ export default async function Page({ params }: { params: { id: string } }) {
                 <ruby>
                   {line.split("").map((char, i) => {
                     return (
-                      <RubyChar key={i} char={char} pinyin={charPinYin?.[i]} />
+                      <RubyChar
+                        className="px-1.5"
+                        key={i}
+                        char={char}
+                        pinyin={charPinYin?.[i]}
+                      />
                     );
                   })}
                 </ruby>
