@@ -15,7 +15,7 @@ export default async function Layout({
   return (
     <>
       <main className="container m-auto flex max-w-screen-2xl space-x-4 p-4">
-        <ul className="menu menu-lg sticky left-0 top-0 h-screen w-72 overflow-y-auto rounded-box bg-base-100 p-4">
+        <ul className="menu menu-lg sticky left-0 top-4 h-screen w-72 overflow-y-auto rounded-box bg-base-100 p-4">
           <Logo />
           <li className="mt-4">
             <Link href={"/"} className="flex items-center justify-between">
@@ -27,11 +27,11 @@ export default async function Layout({
           </li>
         </ul>
 
-        <main className="min-h-screen flex-1 rounded-box bg-base-100 py-4">
+        <main className="min-h-screen flex-1 rounded-box bg-base-100">
           {children}
         </main>
 
-        <aside className="w-72 rounded-box bg-base-100 p-4">
+        <aside className="sticky left-0 top-4 h-screen w-72 overflow-y-auto rounded-box bg-base-100 p-4">
           <CommandInputSearch />
         </aside>
       </main>

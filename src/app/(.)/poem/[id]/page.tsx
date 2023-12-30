@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { api } from "~/trpc/server";
 import styles from "./page.module.css";
+import { ArrowLeftIcon, ChevronLeftIcon } from "@heroicons/react/20/solid";
+import BackButton from "~/app/_components/BackButton";
 
 const RubyChar = ({
   char,
@@ -44,19 +46,23 @@ export default async function Page({ params }: { params: { id: string } }) {
 
   return (
     <div className="relative min-h-full">
-      <Link
-        href={`/create?id=${poem.id}`}
-        className="btn btn-circle absolute right-4 top-4"
-      >
-        <PencilSquareIcon className="h-6 w-6" />
-      </Link>
+      <div className="breadcrumbs sticky top-0 z-50 flex items-center rounded-t-box bg-base-100/80 px-4 text-sm backdrop-blur">
+        <BackButton />
+        <div className="mx-5 leading-none text-base-content/50">|</div>
+        <ul>
+          <li>
+            <Link href={"/"}>全部</Link>
+          </li>
+          <li>
+            <Link href={`/poem/${poem.id}?lt=${poem.title}`}>{poem.title}</Link>
+          </li>
+        </ul>
+      </div>
 
-      <article className="prose prose-2xl relative m-auto h-full text-center prose-p:text-3xl">
+      <article className="prose prose-2xl relative m-auto h-full pb-4 pt-8 text-center prose-p:text-3xl">
         <div className={`${styles.title} text-stroke-base-100`}>
           <h1>{poem.title}</h1>
         </div>
-
-        <div className="h-20"></div>
 
         <h1 className={`${styles.title2} text-stroke-base-100`}>
           <ruby>

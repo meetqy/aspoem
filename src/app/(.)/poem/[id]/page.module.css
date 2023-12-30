@@ -4,7 +4,7 @@
   animation-delay: 0.5s;
 
   h1 {
-    @apply absolute w-full pt-20 text-center opacity-0;
+    @apply absolute w-full pt-8 text-center opacity-0;
     animation: slideToTitle 0.5s ease-in-out;
   }
 }

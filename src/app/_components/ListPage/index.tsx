@@ -42,7 +42,7 @@ export default async function ListPage({
   }
 
   return (
-    <div>
+    <div className="py-4">
       <ul className="menu menu-vertical sticky top-0 z-50 mx-4 rounded-box bg-base-100/70 shadow backdrop-blur lg:menu-horizontal">
         <li>
           <Link href={"/"} className={searchParams?.sort ? "" : "active"}>
