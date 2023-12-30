@@ -10,10 +10,22 @@ import Link from "next/link";
 
 export default async function ListPage({
   params,
+  searchParams,
 }: {
   params?: { page: string };
+  searchParams?: { sort: "updatedAt" };
 }) {
-  if (params && Number(params.page) === 1) return redirect("/");
+  const toHref = (href: string) => {
+    if (searchParams?.sort) {
+      return `${href}?sort=${searchParams?.sort}`;
+    }
+
+    return href;
+  };
+
+  if (params && Number(params.page) === 1) {
+    return redirect(toHref(`/`));
+  }
 
   const {
     data: poems,
@@ -22,6 +34,7 @@ export default async function ListPage({
   } = await api.poem.find.query({
     page: Number(params?.page ?? 1),
     pageSize: 12,
+    sort: searchParams?.sort,
   });
 
   if (!poems || poems.length === 0) {
@@ -32,19 +45,24 @@ export default async function ListPage({
     <div>
       <ul className="menu menu-vertical sticky top-0 z-50 mx-4 rounded-box bg-base-100/70 shadow backdrop-blur lg:menu-horizontal">
         <li>
-          <Link href={"/"} className="active">
+          <Link href={"/"} className={searchParams?.sort ? "" : "active"}>
             默认
           </Link>
         </li>
         <li>
-          <a>更新时间</a>
+          <Link
+            href={"?sort=updatedAt"}
+            className={searchParams?.sort === "updatedAt" ? "active" : ""}
+          >
+            更新时间
+          </Link>
         </li>
-        <li>
+        {/* <li>
           <a>随机模式</a>
         </li>
         <li>
           <a>创作时间线</a>
-        </li>
+        </li> */}
       </ul>
 
       <div className="mt-4 w-full space-y-4">
@@ -126,7 +144,7 @@ export default async function ListPage({
 
       <footer className="mx-4 mt-12 flex justify-between rounded-box">
         <Link
-          href={`/list/${page - 1}`}
+          href={toHref(`/list/${page - 1}`)}
           className={`btn btn-neutral ${
             page === 1 && "btn-disabled opacity-0"
           }`}
@@ -135,7 +153,7 @@ export default async function ListPage({
           上一页
         </Link>
         <Link
-          href={`/list/${page + 1}`}
+          href={toHref(`/list/${page + 1}`)}
           className={`btn btn-neutral ${!hasNext && "btn-disabled opacity-0"}`}
         >
           下一页

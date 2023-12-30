@@ -68,7 +68,9 @@ export default function CreatePage() {
           setClassify("");
           setTitlePinYin("");
         }
+
         alert("Success");
+        await utils.poem.find.invalidate();
       },
       onError: (err) => alert(err.message),
     }),
@@ -350,7 +352,7 @@ export default function CreatePage() {
                   id: id ? Number(id) : undefined,
                   token,
                   title,
-                  titlePinYin,
+                  titlePinYin: titlePinYin.replace(/(\s+)?·/g, " ."),
                   contentPinYin: contentPinYin.replace(/(\s+)?(\.|,)/g, " ."),
                   content,
                   authorId,

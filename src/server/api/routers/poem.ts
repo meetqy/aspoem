@@ -1,3 +1,4 @@
+import { type Prisma } from "@prisma/client";
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 
@@ -10,15 +11,23 @@ export const poemRouter = createTRPCRouter({
         .object({
           page: z.number().optional().default(1),
           pageSize: z.number().optional().default(28),
+          sort: z.enum(["updatedAt"]).optional(),
         })
         .optional(),
     )
     .query(async ({ input = {}, ctx }) => {
       const { page = 1, pageSize = 28 } = input;
 
+      const orderBy: Prisma.PoemOrderByWithRelationInput = {};
+
+      if (input.sort) {
+        orderBy[input.sort] = "desc";
+      }
+
       const data = await ctx.db.poem.findMany({
         skip: (page - 1) * pageSize,
         take: pageSize,
+        orderBy,
         include: {
           author: true,
         },
