@@ -55,7 +55,9 @@ export const poemRouter = createTRPCRouter({
         id: z.number().optional(),
         token: z.string(),
         title: z.string(),
+        titlePinYin: z.string().optional(),
         content: z.string(),
+        contentPinYin: z.string().optional(),
         authorId: z.number(),
         tagIds: z.array(z.number()).optional(),
         classify: z.string().optional(),
@@ -70,6 +72,8 @@ export const poemRouter = createTRPCRouter({
           where: { id: input.id },
           data: {
             title: input.title.toLocaleLowerCase(),
+            titlePinYin: input.titlePinYin,
+            contentPinYin: input.contentPinYin,
             content: input.content,
             author: {
               connect: { id: input.authorId },
@@ -96,6 +100,8 @@ export const poemRouter = createTRPCRouter({
       return ctx.db.poem.create({
         data: {
           title: input.title.toLocaleLowerCase(),
+          titlePinYin: input.titlePinYin,
+          contentPinYin: input.contentPinYin,
           content: input.content,
           authorId: input.authorId,
           classify: input.classify,

@@ -66,13 +66,17 @@ export default function CreatePage() {
           setTagIds([]);
           setGenre("");
           setClassify("");
+          setTitlePinYin("");
         }
+        alert("Success");
       },
       onError: (err) => alert(err.message),
     }),
   };
 
   const [title, setTitle] = useState("");
+  const [titlePinYin, setTitlePinYin] = useState("");
+  const [contentPinYin, setContentPinYin] = useState("");
   const [content, setContent] = useState("");
   const [classify, setClassify] = useState("");
   const [genre, setGenre] = useState("");
@@ -87,6 +91,8 @@ export default function CreatePage() {
   useEffect(() => {
     if (poem) {
       setTitle(poem.title);
+      setTitlePinYin(poem?.titlePinYin ?? "");
+      setContentPinYin(poem?.contentPinYin ?? "");
       setContent(poem.content);
       setAuthorId(poem.authorId);
       setTagIds(poem.tags.map((item) => item.id));
@@ -187,6 +193,23 @@ export default function CreatePage() {
             <div className="space-y-2">
               <label
                 className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                htmlFor="title"
+              >
+                <span className="text-red-500">*</span> 标题
+                <span className="text-primary">（拼音）</span>
+              </label>
+              <input
+                className="input input-bordered w-full focus:outline-none"
+                id="title-pin-yin"
+                placeholder="输入标题（拼音）"
+                required
+                value={titlePinYin}
+                onChange={(e) => setTitlePinYin(e.target.value)}
+              />
+            </div>
+            <div className="space-y-2">
+              <label
+                className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="content"
               >
                 <span className="text-red-500">*</span> Content
@@ -200,6 +223,24 @@ export default function CreatePage() {
                 onChange={(e) => setContent(e.target.value)}
               ></textarea>
             </div>
+            <div className="space-y-2">
+              <label
+                className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                htmlFor="content"
+              >
+                <span className="text-red-500">*</span> 内容
+                <span className="text-primary">（拼音）</span>
+              </label>
+              <textarea
+                className="textarea textarea-bordered min-h-[200px] w-full text-base focus:outline-none"
+                id="content"
+                placeholder="Enter poem's content"
+                required
+                value={contentPinYin}
+                onChange={(e) => setContentPinYin(e.target.value)}
+              ></textarea>
+            </div>
+
             <div className="space-y-2">
               <label
                 className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -309,6 +350,8 @@ export default function CreatePage() {
                   id: id ? Number(id) : undefined,
                   token,
                   title,
+                  titlePinYin,
+                  contentPinYin: contentPinYin.replace(/(\s+)?(\.|,)/g, " ."),
                   content,
                   authorId,
                   tagIds,
