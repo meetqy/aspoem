@@ -3,15 +3,18 @@
 }
 
 [cmdk-dialog] {
-  @apply input-bordered fixed inset-0 z-[101] m-auto mt-48 max-h-96 max-w-screen-sm overflow-hidden rounded-box border bg-base-100 shadow-lg;
+  @apply input-bordered fixed inset-0 z-[101] m-auto max-h-[25em] max-w-screen-sm overflow-hidden rounded-box border bg-base-100 shadow-lg;
 }
 
 [cmdk-root] {
-  @apply h-full w-full;
+  @apply h-full w-full py-2;
 }
 
 [cmdk-linear-badge] {
-  @apply btn btn-outline btn-neutral btn-xs;
+  @apply flex h-8 items-center space-x-2 overflow-hidden px-4 text-sm;
+  span {
+    @apply btn btn-ghost btn-xs;
+  }
 }
 
 [cmdk-linear-shortcuts] {
@@ -24,7 +27,7 @@
 }
 
 [cmdk-input] {
-  @apply input-bordered m-0 w-full border-b border-solid bg-base-100 p-4 text-xl text-base-content caret-primary outline-none;
+  @apply input-bordered m-0 w-full border-b border-solid bg-base-100 p-4 text-xl text-base-content caret-base-content outline-none;
 
   &::placeholder {
     @apply text-base-content/70;
@@ -47,12 +50,7 @@
 
     &:after {
       content: "";
-      position: absolute;
-      left: 0;
-      z-index: 123;
-      width: 3px;
-      height: 100%;
-      @apply bg-primary;
+      @apply absolute left-0 z-50 h-full w-1 bg-primary;
     }
   }
 
@@ -75,7 +73,7 @@
 }
 
 [cmdk-list] {
-  height: min(300px, var(--cmdk-list-height));
+  height: 294px;
   max-height: 400px;
   overflow: auto;
   overscroll-behavior: contain;
@@ -84,7 +82,12 @@
 }
 
 [cmdk-group-heading] {
-  @apply flex select-none items-center px-4 py-2 text-sm font-medium text-info;
+  @apply relative flex select-none items-center px-4 py-2 text-sm text-base-content;
+
+  &::before {
+    content: "";
+    @apply mr-1 h-1 w-4 rounded-full bg-primary/40;
+  }
 }
 
 [cmdk-empty] {

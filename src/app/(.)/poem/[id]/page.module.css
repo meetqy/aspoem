@@ -1,5 +1,7 @@
 .title {
   @apply absolute left-0 top-0 h-full max-h-screen w-full;
+  animation: zIndex 0.5s linear forwards;
+  animation-delay: 0.5s;
 
   h1 {
     @apply absolute w-full text-center opacity-0;
@@ -9,6 +11,12 @@
 
 .title2 {
   animation: show 0.5s ease-out forwards;
+}
+
+@keyframes zIndex {
+  100% {
+    @apply -z-50;
+  }
 }
 
 @keyframes show {

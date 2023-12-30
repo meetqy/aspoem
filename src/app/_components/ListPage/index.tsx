@@ -66,7 +66,9 @@ export default async function ListPage({
                   </Link>
 
                   <span className="ml-2 font-light">
-                    <span className="text-primary">@{poem.author.name}</span>
+                    <span className="text-primary transition-colors hover:text-primary/70">
+                      @{poem.author.name}
+                    </span>
                     {poem.author.dynasty && (
                       <>
                         <span className="mx-1">·</span>

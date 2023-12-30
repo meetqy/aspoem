@@ -40,9 +40,9 @@ export const CommandMenu = forwardRef<CommandMenuHandle>((_props, ref) => {
 
   return (
     <Command.Dialog open={open} onOpenChange={setOpen} className="linear">
-      <div className="mt-4 flex space-x-2 px-4">
-        <div cmdk-linear-badge="">诗人</div>
-        <div cmdk-linear-badge="">诗词</div>
+      <div cmdk-linear-badge="">
+        <span>作者</span>
+        <span>诗词</span>
       </div>
       <Command.Input placeholder="查找作者、诗词、名句..." />
 
@@ -61,7 +61,7 @@ export const CommandMenu = forwardRef<CommandMenuHandle>((_props, ref) => {
           <Command.Item>Blueberry</Command.Item>
         </Command.Group>
 
-        <Command.Group heading="诗人">
+        <Command.Group heading="作者">
           <Command.Item>Fish A</Command.Item>
           <Command.Item>Fish V</Command.Item>
           <Command.Item>Fish C</Command.Item>
