@@ -11,7 +11,7 @@ export const poemRouter = createTRPCRouter({
         .object({
           page: z.number().optional().default(1),
           pageSize: z.number().optional().default(28),
-          sort: z.enum(["updatedAt"]).optional(),
+          sort: z.enum(["updatedAt", "improve"]).optional(),
         })
         .optional(),
     )
@@ -21,7 +21,11 @@ export const poemRouter = createTRPCRouter({
       const orderBy: Prisma.PoemOrderByWithRelationInput = {};
 
       if (input.sort) {
-        orderBy[input.sort] = { sort: "desc", nulls: "last" };
+        if (input.sort === "improve") {
+          orderBy.updatedAt = { sort: "asc", nulls: "first" };
+        } else {
+          orderBy[input.sort] = { sort: "desc", nulls: "last" };
+        }
       }
 
       const data = await ctx.db.poem.findMany({

@@ -7,13 +7,14 @@ import {
   EllipsisVerticalIcon,
 } from "@heroicons/react/20/solid";
 import Link from "next/link";
+import { type Sort } from "~/types";
 
 export default async function ListPage({
   params,
   searchParams,
 }: {
   params?: { page: string };
-  searchParams?: { sort: "updatedAt" };
+  searchParams?: { sort: Sort };
 }) {
   const toHref = (href: string) => {
     if (searchParams?.sort) {
@@ -45,7 +46,7 @@ export default async function ListPage({
     <div className="py-4">
       <ul className="menu menu-vertical sticky top-0 z-50 mx-4 rounded-box bg-base-100/70 shadow backdrop-blur lg:menu-horizontal">
         <li>
-          <Link href={"/"} className={searchParams?.sort ? "" : "active"}>
+          <Link href={"?"} className={searchParams?.sort ? "" : "active"}>
             默认
           </Link>
         </li>
@@ -55,6 +56,14 @@ export default async function ListPage({
             className={searchParams?.sort === "updatedAt" ? "active" : ""}
           >
             更新时间
+          </Link>
+        </li>
+        <li>
+          <Link
+            href={"?sort=improve"}
+            className={searchParams?.sort === "improve" ? "active" : ""}
+          >
+            完善度
           </Link>
         </li>
         {/* <li>

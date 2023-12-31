@@ -1,3 +1,4 @@
+import { type Sort } from "~/types";
 import ListPage from "../_components/ListPage";
 
 export default async function Page({
@@ -5,7 +6,7 @@ export default async function Page({
   searchParams,
 }: {
   params: { page: string };
-  searchParams?: { sort: "updatedAt" };
+  searchParams?: { sort: Sort };
 }) {
   return <ListPage params={params} searchParams={searchParams} />;
 }
