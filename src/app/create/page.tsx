@@ -67,6 +67,7 @@ export default function CreatePage() {
           setGenre("");
           setClassify("");
           setTitlePinYin("");
+          setContentPinYin("");
         }
 
         alert("Success");
