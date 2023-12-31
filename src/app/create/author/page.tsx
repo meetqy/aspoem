@@ -39,6 +39,8 @@ export default function AuthorPage({
       setDynasty(data.dynasty ?? "");
       setNamePinYin(data.namePinYin ?? "");
       setIntroduce(data.introduce ?? "");
+      setBirthDate(data.birthDate ?? undefined);
+      setDeathDate(data.deathDate ?? undefined);
     }
   }, [data]);
 
