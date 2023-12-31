@@ -70,8 +70,8 @@ export default function CreatePage() {
           setContentPinYin("");
         }
 
+        await utils.poem.findById.invalidate(Number(id));
         alert("Success");
-        await utils.poem.find.invalidate();
       },
       onError: (err) => alert(err.message),
     }),
@@ -215,7 +215,7 @@ export default function CreatePage() {
                 className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="content"
               >
-                <span className="text-red-500">*</span> Content
+                <span className="text-red-500">*</span> 内容
               </label>
               <textarea
                 className="textarea textarea-bordered min-h-[200px] w-full text-base focus:outline-none"

@@ -4,11 +4,18 @@ import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 export const authorRouter = createTRPCRouter({
   find: publicProcedure.query(({ ctx }) => ctx.db.author.findMany()),
 
-  findById: publicProcedure
-    .input(z.number())
-    .query(({ input, ctx }) =>
-      ctx.db.author.findUnique({ where: { id: input } }),
-    ),
+  findById: publicProcedure.input(z.number()).query(({ input, ctx }) =>
+    ctx.db.author.findUnique({
+      where: { id: input },
+      include: {
+        _count: {
+          select: {
+            poems: true,
+          },
+        },
+      },
+    }),
+  ),
 
   create: publicProcedure
     .input(
@@ -16,6 +23,10 @@ export const authorRouter = createTRPCRouter({
         token: z.string(),
         id: z.number().optional(),
         name: z.string(),
+        birthDate: z.number().optional(),
+        deathDate: z.number().optional(),
+        introduce: z.string().optional(),
+        namePinYin: z.string().optional(),
         dynasty: z.string().optional(),
       }),
     )
@@ -27,6 +38,10 @@ export const authorRouter = createTRPCRouter({
           where: { id: input.id },
           data: {
             name: input.name.toLocaleLowerCase(),
+            introduce: input.introduce,
+            birthDate: input.birthDate,
+            deathDate: input.deathDate,
+            namePinYin: input.namePinYin,
             dynasty: input.dynasty,
           },
         });
@@ -35,6 +50,10 @@ export const authorRouter = createTRPCRouter({
       const res = await ctx.db.author.findMany({
         where: {
           name: input.name.toLocaleLowerCase(),
+          introduce: input.introduce,
+          birthDate: input.birthDate,
+          deathDate: input.deathDate,
+          namePinYin: input.namePinYin,
           dynasty: input.dynasty,
         },
       });
