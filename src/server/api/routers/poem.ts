@@ -21,7 +21,7 @@ export const poemRouter = createTRPCRouter({
       const orderBy: Prisma.PoemOrderByWithRelationInput = {};
 
       if (input.sort) {
-        orderBy[input.sort] = "desc";
+        orderBy[input.sort] = { sort: "desc", nulls: "last" };
       }
 
       const data = await ctx.db.poem.findMany({
