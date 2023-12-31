@@ -85,7 +85,7 @@ export const CommandInputSearch = () => {
   return (
     <>
       <CommandMenu ref={ref} />
-      <div className="relative flex items-center" onClick={open}>
+      <div className="relative top-0 flex items-center" onClick={open}>
         <input
           ref={inputRef}
           className="input input-bordered w-full flex-1"

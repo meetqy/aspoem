@@ -7,7 +7,7 @@ export default function BackButton() {
   const router = useRouter();
 
   return (
-    <button className="btn btn-sm" onClick={() => router.back()}>
+    <button className="btn btn-xs" onClick={() => router.back()}>
       <ChevronLeftIcon className="h-5 w-5" /> 返回
     </button>
   );

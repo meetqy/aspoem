@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { api } from "~/trpc/server";
 import Logo from "../_components/Logo";
-import { CommandInputSearch } from "../_components/CommandMenu";
 
 export default async function Layout({
   children,
@@ -14,26 +13,22 @@ export default async function Layout({
 
   return (
     <>
-      <main className="container m-auto flex max-w-screen-2xl space-x-4 p-4">
-        <ul className="menu menu-lg sticky left-0 top-4 h-screen w-72 overflow-y-auto rounded-box bg-base-100 p-4">
-          <Logo />
-          <li className="mt-4">
-            <Link href={"/"} className="flex items-center justify-between">
-              全部
-              <span className="badge badge-sm font-mono uppercase">
-                {counts.poem}
-              </span>
-            </Link>
-          </li>
-        </ul>
-
-        <main className="min-h-screen flex-1 rounded-box bg-base-100">
-          {children}
-        </main>
-
-        <aside className="sticky left-0 top-4 h-screen w-72 overflow-y-auto rounded-box bg-base-100 p-4">
-          <CommandInputSearch />
+      <main className="container m-auto flex max-w-screen-2xl p-4">
+        <aside className=" sticky top-4 h-[calc(100vh-2rem)] w-72 rounded-box bg-base-100">
+          <ul className="menu menu-lg w-full rounded-box p-4">
+            <Logo />
+            <li className="mt-4">
+              <Link href={"/"} className="flex items-center justify-between">
+                全部
+                <span className="badge badge-sm font-mono uppercase">
+                  {counts.poem}
+                </span>
+              </Link>
+            </li>
+          </ul>
         </aside>
+
+        <main className="flex min-h-screen flex-1 rounded-box">{children}</main>
       </main>
     </>
   );

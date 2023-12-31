@@ -44,7 +44,7 @@ export default function AuthorPage({
 
   useEffect(() => {
     if (localStorage.getItem("token") && !token) {
-      router.push(
+      router.replace(
         `?token=${localStorage.getItem("token")}${id ? "&id=" + id : ""}`,
       );
     }

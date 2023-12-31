@@ -2,7 +2,7 @@
 
 import { api } from "~/trpc/react";
 import { useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 
 const _classify = [
   "叙事",
@@ -33,6 +33,7 @@ export default function CreatePage() {
   const utils = api.useUtils();
   const params = useSearchParams();
   const token = params.get("token") ?? "";
+  const router = useRouter();
   const id = params.get("id") ?? "";
 
   const { data: poem } = api.poem.findById.useQuery(Number(id));
@@ -105,6 +106,14 @@ export default function CreatePage() {
       setDynasty(poem.author.dynasty ?? "");
     }
   }, [poem]);
+
+  useEffect(() => {
+    if (localStorage.getItem("token") && !token) {
+      router.replace(
+        `?token=${localStorage.getItem("token")}${id ? "&id=" + id : ""}`,
+      );
+    }
+  }, []);
 
   return (
     <div className="flex h-screen space-x-4 overflow-auto">
