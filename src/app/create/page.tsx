@@ -363,7 +363,7 @@ export default function CreatePage() {
                   token,
                   title,
                   titlePinYin: titlePinYin.replace(/(\s+)?·/g, " ."),
-                  contentPinYin: contentPinYin.replace(/(\s+)?(\.|,)/g, " ."),
+                  contentPinYin: contentPinYin.replace(/(\s+)?(\.|,|!)/g, " ."),
                   content,
                   authorId,
                   tagIds,
