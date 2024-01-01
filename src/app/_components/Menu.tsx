@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 
 export default function Menu() {
   const { data: poemCount } = api.poem.count.useQuery();
-  const { data: authorCount } = api.author.count.useQuery();
+  // const { data: authorCount } = api.author.count.useQuery();
 
   const pathname = usePathname();
 
@@ -28,7 +28,7 @@ export default function Menu() {
             </span>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             href={"/author/list"}
             className={`flex items-center justify-between ${
@@ -40,7 +40,7 @@ export default function Menu() {
               {authorCount}
             </span>
           </Link>
-        </li>
+        </li> */}
       </ul>
     </aside>
   );
