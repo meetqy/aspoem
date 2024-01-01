@@ -47,7 +47,7 @@ export default async function Page({ params }: { params: { id: string } }) {
   return (
     <>
       <div className="main-wrapper">
-        <header className="sticky top-0 z-50 rounded-t-box p-4 backdrop-blur">
+        <header className="sticky top-0 z-50 rounded-t-box px-4 backdrop-blur">
           <div className="breadcrumbs flex items-center text-sm">
             <BackButton />
             <div className="mx-5 leading-none text-base-content/50">|</div>
