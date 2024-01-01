@@ -2,6 +2,8 @@ import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 
 export const authorRouter = createTRPCRouter({
+  count: publicProcedure.query(({ ctx }) => ctx.db.author.count()),
+
   find: publicProcedure.query(({ ctx }) => ctx.db.author.findMany()),
 
   findById: publicProcedure.input(z.number()).query(({ input, ctx }) =>

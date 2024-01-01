@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 
 export default function Menu() {
   const { data: poemCount } = api.poem.count.useQuery();
+  const { data: authorCount } = api.author.count.useQuery();
 
   const pathname = usePathname();
 
@@ -29,12 +30,15 @@ export default function Menu() {
         </li>
         <li>
           <Link
-            href={"/tag/list"}
+            href={"/author/list"}
             className={`flex items-center justify-between ${
-              pathname === "/tag/list" ? "active" : ""
+              pathname === "/author/list" ? "active" : ""
             }`}
           >
-            标签
+            作者
+            <span className="badge badge-sm font-mono uppercase">
+              {authorCount}
+            </span>
           </Link>
         </li>
       </ul>

@@ -4,9 +4,10 @@
   &::before,
   &::after {
     content: "";
+    transform: translate(-75%, -45%) rotate(0);
     position: absolute;
-    @apply -top-36 left-28 h-96 w-96 bg-gradient-to-br from-success/80 to-error/80;
-    border-radius: 40% 42% 44% 46%;
+    @apply -top-40 left-48 h-96 w-96 bg-gradient-to-bl from-success/80 to-error/80;
+    border-radius: 40% 41% 42% 43%;
     animation: rotate 8s infinite linear alternate;
     mix-blend-mode: lighten;
 
@@ -19,17 +20,17 @@
   }
 
   &::after {
-    border-radius: 46% 44% 42% 40%;
-    @apply bg-gradient-to-bl from-success/40 to-error/40;
-    animation: rotate 5s infinite 2.5s linear alternate;
+    border-radius: 43% 42% 41% 40%;
+    @apply bg-gradient-to-br from-success/40 to-error/40;
+    animation: rotate 8s infinite 4s linear alternate-reverse;
   }
 }
 
 @keyframes rotate {
   0% {
-    transform: translate(-25%, -50%) rotate(0);
+    transform: translate(-60%, -45%) rotate(0);
   }
   100% {
-    transform: translate(-75%, -45%) rotate(360deg);
+    transform: translate(-75%, -55%) rotate(90deg);
   }
 }
