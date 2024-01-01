@@ -45,7 +45,7 @@ export default async function ListPage({
 
   return (
     <>
-      <div className="mx-4 flex-1 rounded-box bg-base-100 py-4">
+      <div className="main-wrapper">
         <ul className="menu menu-vertical sticky top-0 z-50 mx-4 rounded-box bg-base-100/70 shadow backdrop-blur lg:menu-horizontal">
           <li>
             <Link href={"?"} className={searchParams?.sort ? "" : "active"}>

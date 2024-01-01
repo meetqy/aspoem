@@ -46,7 +46,7 @@ export default async function Page({ params }: { params: { id: string } }) {
 
   return (
     <>
-      <div className="relative mx-4 min-h-full flex-1 rounded-box bg-base-100">
+      <div className="main-wrapper">
         <header className="sticky top-0 z-50 rounded-t-box p-4 backdrop-blur">
           <div className="breadcrumbs flex items-center text-sm">
             <BackButton />

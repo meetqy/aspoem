@@ -20,3 +20,7 @@ select {
     color: transparent;
   }
 }
+
+.main-wrapper {
+  @apply relative mx-4 min-h-full flex-1 rounded-box bg-base-100 py-4;
+}
