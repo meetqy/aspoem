@@ -60,7 +60,12 @@ export const SearchDialog = () => {
               .filter((item) => item.includes(value))[0] ?? "";
 
           return (
-            <Link href={`/poem/${item.id}`} cmdk-item="" key={item.id}>
+            <Link
+              href={`/poem/${item.id}`}
+              cmdk-item=""
+              key={item.id}
+              className="flex"
+            >
               <span
                 dangerouslySetInnerHTML={{
                   __html: item.title.replace(value, (e) => {
@@ -78,8 +83,8 @@ export const SearchDialog = () => {
                   }),
                 }}
               />
-              {value && (
-                <span>
+              {value && content && (
+                <span className="line-clamp-1 flex-1">
                   <span className="mx-1">/</span>
                   <span
                     className="text-base-content/60"
