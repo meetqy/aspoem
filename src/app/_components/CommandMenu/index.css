@@ -13,7 +13,7 @@
 [cmdk-linear-badge] {
   @apply flex h-8 items-center space-x-2 overflow-hidden px-4 text-sm;
   span {
-    @apply btn btn-ghost btn-xs;
+    @apply btn btn-xs;
   }
 }
 
@@ -35,7 +35,7 @@
 }
 
 [cmdk-item] {
-  @apply relative flex h-12 cursor-pointer select-none items-center gap-4 px-4 text-base transition-all;
+  @apply relative flex h-12 cursor-pointer select-none items-center px-4 text-base transition-all;
   content-visibility: auto;
 
   will-change: background, color;
@@ -73,7 +73,7 @@
 }
 
 [cmdk-list] {
-  height: 294px;
+  height: 326px;
   max-height: 400px;
   overflow: auto;
   overscroll-behavior: contain;

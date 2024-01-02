@@ -15,6 +15,7 @@
   "dependencies": {
     "@heroicons/react": "^2.1.1",
     "@prisma/client": "^5.6.0",
+    "@react-hook/debounce": "^4.0.0",
     "@t3-oss/env-nextjs": "^0.7.1",
     "@tailwindcss/typography": "^0.5.10",
     "@tanstack/react-query": "^4.36.1",

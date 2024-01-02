@@ -9,6 +9,8 @@ import {
   useState,
 } from "react";
 import "./index.css";
+import { api } from "~/trpc/react";
+import { useDebounce } from "@react-hook/debounce";
 
 interface CommandMenuHandle {
   setOpen: (open: boolean) => void;
@@ -16,6 +18,13 @@ interface CommandMenuHandle {
 
 export const CommandMenu = forwardRef<CommandMenuHandle>((_props, ref) => {
   const [open, setOpen] = useState(false);
+  const [value, setValue] = useState("");
+  const [query, setQuery] = useDebounce(value, 500);
+  const { data, isLoading } = api.poem.search.useQuery(query);
+
+  useEffect(() => {
+    setQuery(value);
+  }, [value]);
 
   useImperativeHandle(
     ref,
@@ -40,34 +49,41 @@ export const CommandMenu = forwardRef<CommandMenuHandle>((_props, ref) => {
 
   return (
     <Command.Dialog open={open} onOpenChange={setOpen} className="linear">
-      <div cmdk-linear-badge="">
-        <span>作者</span>
-        <span>诗词</span>
-      </div>
-      <Command.Input placeholder="查找作者、诗词、名句..." />
+      {/* <div cmdk-linear-badge="">
+        <span className="!btn-neutral">诗词</span>
+      </div> */}
+      <Command.Input
+        value={value}
+        onValueChange={(e) => setValue(e)}
+        placeholder="开始搜索..."
+      />
 
       <Command.List>
         <Command.Empty>可惜，没有结果！</Command.Empty>
+        {isLoading && <Command.Loading>Fetching words…</Command.Loading>}
 
-        <Command.Group heading="诗词">
-          <Command.Item>
-            Apple
-            <div cmdk-linear-shortcuts="">
-              <kbd>1</kbd>
-            </div>
-          </Command.Item>
-          <Command.Item>Orange</Command.Item>
-          <Command.Item>Pear</Command.Item>
-          <Command.Item>Blueberry</Command.Item>
-        </Command.Group>
-
-        <Command.Group heading="作者">
-          <Command.Item>Fish A</Command.Item>
-          <Command.Item>Fish V</Command.Item>
-          <Command.Item>Fish C</Command.Item>
-          <Command.Item>Fish D</Command.Item>
-          <Command.Item>Fish E</Command.Item>
-        </Command.Group>
+        {data?.map((item) => {
+          return (
+            <Command.Item value={item.title + item.author.name} key={item.id}>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: item.title.replace(value, (e) => {
+                    return `<b class="bg-primary/10 text-primary">${e}</b>`;
+                  }),
+                }}
+              />
+              <span className="mx-1">/</span>
+              <span
+                className="text-base-content/70"
+                dangerouslySetInnerHTML={{
+                  __html: item.author.name.replace(value, (e) => {
+                    return `<b class="bg-primary/10 text-primary">${e}</b>`;
+                  }),
+                }}
+              />
+            </Command.Item>
+          );
+        })}
       </Command.List>
     </Command.Dialog>
   );

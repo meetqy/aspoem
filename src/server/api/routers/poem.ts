@@ -5,6 +5,35 @@ import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 export const poemRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),
 
+  search: publicProcedure
+    .input(z.string().optional())
+    .query(({ input, ctx }) => {
+      return ctx.db.poem.findMany({
+        where: {
+          OR: [
+            { title: { contains: input } },
+            { content: { contains: input } },
+            { author: { name: { contains: input } } },
+          ],
+        },
+        select: {
+          author: {
+            select: {
+              id: true,
+              name: true,
+            },
+          },
+          title: true,
+          content: true,
+          id: true,
+        },
+        orderBy: {
+          titlePinYin: { sort: "desc", nulls: "last" },
+        },
+        take: 50,
+      });
+    }),
+
   find: publicProcedure
     .input(
       z
@@ -19,9 +48,9 @@ export const poemRouter = createTRPCRouter({
       const { page = 1, pageSize = 28 } = input;
 
       let orderBy:
-        | Prisma.PoemOrderByWithRelationInput[]
-        | undefined
-        | Prisma.PoemOrderByWithRelationInput = undefined;
+        | Prisma.PoemOrderByWithRelationAndSearchRelevanceInput
+        | Prisma.PoemOrderByWithRelationAndSearchRelevanceInput[]
+        | undefined = undefined;
 
       if (input.sort) {
         orderBy = {};
