@@ -23,9 +23,11 @@ export default function Menu() {
             }`}
           >
             全部
-            <span className="badge badge-sm font-mono uppercase">
-              {poemCount}
-            </span>
+            {poemCount && (
+              <span className="badge badge-sm font-mono uppercase">
+                {poemCount}
+              </span>
+            )}
           </Link>
         </li>
         {/* <li>

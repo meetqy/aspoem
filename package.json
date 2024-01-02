@@ -25,7 +25,6 @@
     "@trpc/server": "^10.43.6",
     "@vercel/analytics": "^1.1.1",
     "@vercel/speed-insights": "^1.0.2",
-    "cmdk": "^0.2.0",
     "daisyui": "^4.4.20",
     "framer-motion": "^10.16.16",
     "next": "^14.0.3",

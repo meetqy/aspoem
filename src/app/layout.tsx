@@ -28,6 +28,7 @@ export default function RootLayout({
 
         <SpeedInsights />
         <Analytics />
+        <div id="dialog"></div>
       </body>
     </html>
   );

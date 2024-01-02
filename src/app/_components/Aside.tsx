@@ -1,4 +1,4 @@
-import { CommandInputSearch } from "./CommandMenu";
+import { CommandInputSearch } from "./Search";
 
 export default async function Aside({
   children,
