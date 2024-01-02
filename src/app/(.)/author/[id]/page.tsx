@@ -5,11 +5,36 @@ import {
   UsersIcon,
 } from "@heroicons/react/20/solid";
 import { PencilSquareIcon } from "@heroicons/react/24/outline";
+import { type Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Aside from "~/app/_components/Aside";
 import { api } from "~/trpc/server";
+
+type Props = {
+  params: { id: string };
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const poem = await api.author.findById.query(Number(params.id));
+
+  if (!poem) {
+    return notFound();
+  }
+
+  const keywords = [poem.name];
+
+  if (poem.dynasty) {
+    keywords.push(poem.dynasty);
+  }
+
+  return {
+    title: `${poem.name}: ${poem.dynasty}朝 | AsPoem`,
+    description: `${poem.introduce} `,
+    keywords,
+  };
+}
 
 export default async function Page({ params }: { params: { id: string } }) {
   const author = await api.author.findById.query(Number(params.id));

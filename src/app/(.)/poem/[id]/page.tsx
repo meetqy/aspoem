@@ -5,6 +5,7 @@ import styles from "./page.module.css";
 import BackButton from "~/app/_components/BackButton";
 import Aside from "~/app/_components/Aside";
 import { InboxIcon, UserIcon } from "@heroicons/react/24/outline";
+import { type Metadata } from "next";
 
 const RubyChar = ({
   char,
@@ -33,7 +34,25 @@ const RubyChar = ({
   );
 };
 
-export default async function Page({ params }: { params: { id: string } }) {
+type Props = {
+  params: { id: string };
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const poem = await api.poem.findById.query(Number(params.id));
+
+  if (!poem) {
+    return notFound();
+  }
+
+  return {
+    title: `${poem.title}: ${poem.author.name} | AsPoem`,
+    description: `${poem.content.substring(0, 100)} `,
+    keywords: [poem.title, poem.author.name],
+  };
+}
+
+export default async function Page({ params }: Props) {
   const poem = await api.poem.findById.query(Number(params.id));
 
   if (!poem) {

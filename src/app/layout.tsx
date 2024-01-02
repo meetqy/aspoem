@@ -9,7 +9,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
-  title: "ASPOEM",
+  title: "Learn Chinese Poetry With AsPoem.com",
   description: `ASPOEM - ${description}`,
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
