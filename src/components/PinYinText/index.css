@@ -1,6 +1,6 @@
 .pinyin {
   [data-text] {
-    @apply relative mx-1.5 inline-flex items-end justify-center;
+    @apply relative mx-0 inline-flex items-end justify-center px-1.5;
   }
 
   [data-pinyin] {

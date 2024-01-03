@@ -31,7 +31,7 @@ export default function PinYinText(props: Props) {
         <span
           data-text=""
           key={item}
-          className={cn(/，|。|？|·/.test(item) ? "!-mx-1" : "")}
+          className={cn(/，|。|？|·/.test(item) ? "!-px-1.5 !-mx-2" : "")}
         >
           {item}
           {!noShowChar.includes(pinyin[i] ?? "") && (
