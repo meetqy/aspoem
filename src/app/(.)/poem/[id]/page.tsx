@@ -8,33 +8,6 @@ import { RightAside } from "~/components/RightAside";
 import BackButton from "~/components/BackButton";
 import PinYinText from "~/components/PinYinText";
 
-const RubyChar = ({
-  char,
-  pinyin,
-  className = "px-2",
-}: {
-  char: string;
-  pinyin?: string;
-  className?: string;
-}) => {
-  if (/\./.test(pinyin ?? "")) {
-    pinyin = "";
-  }
-
-  return (
-    <>
-      <span className={`${pinyin ? className : ""}`}>{char}</span>
-      {
-        <>
-          <rp>(</rp>
-          <rt>{pinyin}</rt>
-          <rp>)</rp>
-        </>
-      }
-    </>
-  );
-};
-
 type Props = {
   params: { id: string };
 };
