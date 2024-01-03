@@ -2,10 +2,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { api } from "~/trpc/server";
 import styles from "./page.module.css";
-import BackButton from "~/app/_components/BackButton";
-import Aside from "~/app/_components/Aside";
 import { InboxIcon, UserIcon } from "@heroicons/react/24/outline";
 import { type Metadata } from "next";
+import { RightAside } from "~/components/RightAside";
+import BackButton from "~/components/BackButton";
 
 const RubyChar = ({
   char,
@@ -84,8 +84,8 @@ export default async function Page({ params }: Props) {
         </header>
 
         <article className="prose prose-2xl relative m-auto pb-4 pt-8 text-center prose-p:text-3xl">
-          <div className={`${styles.title} text-stroke-base-100`}>
-            <h1>{poem.title}</h1>
+          <div className={styles.title}>
+            <h1 className="text-stroke-base-100">{poem.title}</h1>
           </div>
 
           <h1 className={`${styles.title2} text-stroke-base-100`}>
@@ -142,7 +142,7 @@ export default async function Page({ params }: Props) {
         </article>
       </div>
 
-      <Aside>
+      <RightAside>
         <div className="join absolute bottom-4 left-0 flex w-full px-4">
           <Link
             href={`/create/author?id=${poem.authorId}`}
@@ -157,7 +157,7 @@ export default async function Page({ params }: Props) {
             作品
           </Link>
         </div>
-      </Aside>
+      </RightAside>
     </>
   );
 }

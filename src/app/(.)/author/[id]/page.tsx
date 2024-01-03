@@ -9,7 +9,7 @@ import { type Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import Aside from "~/app/_components/Aside";
+import { RightAside } from "~/components/RightAside";
 import { api } from "~/trpc/server";
 
 type Props = {
@@ -120,7 +120,7 @@ export default async function Page({ params }: { params: { id: string } }) {
         </div>
       </main>
 
-      <Aside>
+      <RightAside>
         <div className="absolute bottom-4 left-0 w-full px-4">
           <Link
             href={`/create/author?id=${author.id}`}
@@ -130,7 +130,7 @@ export default async function Page({ params }: { params: { id: string } }) {
             完善
           </Link>
         </div>
-      </Aside>
+      </RightAside>
     </>
   );
 }

@@ -24,11 +24,11 @@ export default function RootLayout({
       <body className="bg-base-200/50">
         <TRPCReactProvider cookies={cookies().toString()}>
           {children}
+          <div id="dialog"></div>
         </TRPCReactProvider>
 
         <SpeedInsights />
         <Analytics />
-        <div id="dialog"></div>
       </body>
     </html>
   );

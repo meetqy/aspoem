@@ -8,7 +8,6 @@ import {
 } from "@heroicons/react/20/solid";
 import Link from "next/link";
 import { type Sort } from "~/types";
-import Aside from "../Aside";
 
 export default async function ListPage({
   params,
@@ -45,8 +44,8 @@ export default async function ListPage({
 
   return (
     <>
-      <div className="main-wrapper">
-        <ul className="menu menu-vertical sticky top-0 z-50 mx-4 rounded-box bg-base-100/70 shadow backdrop-blur lg:menu-horizontal">
+      <div className="flex-1 p-4">
+        <ul className="menu menu-vertical sticky top-0 z-50 rounded-box bg-base-100/70 shadow backdrop-blur lg:menu-horizontal">
           <li>
             <Link href={"?"} className={searchParams?.sort ? "" : "active"}>
               默认
@@ -83,7 +82,7 @@ export default async function ListPage({
             return (
               <section
                 key={poem.id}
-                className="input-bordered mx-4 block cursor-pointer rounded-box border p-8"
+                className="input-bordered block cursor-pointer rounded-box border p-8"
               >
                 <div className="flex justify-between">
                   <div className="font-bold text-base-content">
@@ -154,7 +153,7 @@ export default async function ListPage({
           })}
         </div>
 
-        <footer className="mx-4 mt-12 flex justify-between rounded-box">
+        <footer className="mt-12 flex justify-between rounded-box">
           <Link
             href={toHref(`/list/${page - 1}`)}
             className={`btn btn-neutral ${
@@ -175,7 +174,6 @@ export default async function ListPage({
           </Link>
         </footer>
       </div>
-      <Aside />
     </>
   );
 }

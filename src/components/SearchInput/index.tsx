@@ -1,13 +1,13 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { TRPCReactProvider, api } from "~/trpc/react";
+import { api } from "~/trpc/react";
 import { useDebounce } from "@react-hook/debounce";
-import ReactDOM from "react-dom";
+import { createPortal } from "react-dom";
 import "./index.css";
 import Link from "next/link";
 
-export const SearchDialog = () => {
+export const SearchDialog = ({ onClose }: { onClose: () => void }) => {
   const [value, setValue] = useState("");
   const [query, setQuery] = useDebounce(value, 500);
 
@@ -19,16 +19,11 @@ export const SearchDialog = () => {
     setQuery(value);
   }, [value]);
 
-  const close = () => {
-    const dialog = document.querySelector("#dialog");
-    dialog && ReactDOM.unmountComponentAtNode(dialog);
-  };
-
   useEffect(() => {
     const esc = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
         e.preventDefault();
-        close();
+        onClose();
       }
     };
 
@@ -127,7 +122,7 @@ export const SearchDialog = () => {
         <label
           className="modal-backdrop"
           htmlFor="search_modal"
-          onClick={close}
+          onClick={onClose}
         >
           Close
         </label>
@@ -136,17 +131,13 @@ export const SearchDialog = () => {
   );
 };
 
-export const CommandInputSearch = () => {
+export const SearchInput = () => {
   const inputRef = useRef<HTMLInputElement>(null);
+  const [showDialog, setShowDialog] = useState(false);
 
   const open = () => {
+    setShowDialog(true);
     inputRef.current?.blur();
-    ReactDOM.render(
-      <TRPCReactProvider cookies="">
-        <SearchDialog />
-      </TRPCReactProvider>,
-      document.querySelector("#dialog"),
-    );
   };
 
   useEffect(() => {
@@ -175,6 +166,16 @@ export const CommandInputSearch = () => {
           <kbd className="kbd kbd-sm">k</kbd>
         </div>
       </label>
+
+      {showDialog &&
+        createPortal(
+          <SearchDialog
+            onClose={() => {
+              setShowDialog(false);
+            }}
+          />,
+          document.querySelector("#dialog")!,
+        )}
     </>
   );
 };

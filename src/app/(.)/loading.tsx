@@ -2,17 +2,19 @@
 
 import { motion } from "framer-motion";
 import { useSearchParams } from "next/navigation";
-import ScrollToTop from "../_components/ScrollToTop";
+import { useEffect } from "react";
 
 export default function Loading() {
   // 简写 loading text => lt
   const params = useSearchParams();
   const title = params.get("lt") ?? "Let's Go !";
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
-      <ScrollToTop />
-
       <div className="flex h-full w-full items-center justify-center uppercase">
         <motion.div className="text-center">
           {title.split("").map((item, index) => (

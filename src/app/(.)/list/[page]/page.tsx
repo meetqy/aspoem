@@ -1,4 +1,4 @@
-import ListPage from "~/app/_components/ListPage";
+import ListPage from "~/components/ListPage";
 import { type Sort } from "~/types";
 
 export default async function Page({

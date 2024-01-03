@@ -12,25 +12,24 @@ export default function Menu() {
   const pathname = usePathname();
 
   return (
-    <aside className="sticky top-4 h-[calc(100vh-2rem)] w-72 rounded-box bg-base-100">
-      <ul className="menu menu-lg w-full rounded-box p-4">
-        <Logo />
-        <li className="mt-4">
-          <Link
-            href={"/"}
-            className={`flex items-center justify-between ${
-              pathname === "/" ? "active" : ""
-            }`}
-          >
-            全部
-            {poemCount && (
-              <span className="badge badge-sm font-mono uppercase">
-                {poemCount}
-              </span>
-            )}
-          </Link>
-        </li>
-        {/* <li>
+    <ul className="menu menu-lg w-full rounded-box p-4">
+      <Logo />
+      <li className="mt-4">
+        <Link
+          href={"/"}
+          className={`flex items-center justify-between ${
+            pathname === "/" || pathname.includes("/list") ? "active" : ""
+          }`}
+        >
+          全部
+          {poemCount && (
+            <span className="badge badge-sm font-mono uppercase">
+              {poemCount}
+            </span>
+          )}
+        </Link>
+      </li>
+      {/* <li>
           <Link
             href={"/author/list"}
             className={`flex items-center justify-between ${
@@ -43,7 +42,6 @@ export default function Menu() {
             </span>
           </Link>
         </li> */}
-      </ul>
-    </aside>
+    </ul>
   );
 }

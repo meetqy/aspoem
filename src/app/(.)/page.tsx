@@ -1,5 +1,5 @@
+import ListPage from "~/components/ListPage";
 import { type Sort } from "~/types";
-import ListPage from "../_components/ListPage";
 
 export default async function Page({
   params,
