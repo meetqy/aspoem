@@ -45,7 +45,7 @@ export default async function Page({ params }: { params: { id: string } }) {
 
   return (
     <>
-      <main className="mx-4 flex-1 rounded-box bg-base-100 py-8">
+      <main className="flex-1 py-8">
         <header className="m-auto flex max-w-screen-sm rounded-box">
           <div className="avatar">
             <div className="h-36 w-36 rounded-full shadow">
@@ -58,10 +58,10 @@ export default async function Page({ params }: { params: { id: string } }) {
             </div>
           </div>
 
-          <div className="ml-24 text-left">
-            <h1 className="text-stroke-base-100 text-5xl">
+          <div className="ml-16 text-left">
+            <h1 className="text-stroke-base-100 -mx-2 text-7xl">
               {author.name}{" "}
-              <span className="text-2xl capitalize leading-none text-base-content">
+              <span className="font-pinyin text-2xl capitalize !tracking-tighter text-base-content">
                 {author.namePinYin}
               </span>
             </h1>
