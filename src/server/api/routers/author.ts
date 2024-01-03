@@ -4,6 +4,15 @@ import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 export const authorRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.author.count()),
 
+  sitemap: publicProcedure.query(async ({ ctx }) =>
+    ctx.db.author.findMany({
+      select: {
+        id: true,
+        updatedAt: true,
+      },
+    }),
+  ),
+
   find: publicProcedure.query(({ ctx }) => ctx.db.author.findMany()),
 
   findById: publicProcedure.input(z.number()).query(({ input, ctx }) =>

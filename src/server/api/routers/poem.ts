@@ -5,6 +5,15 @@ import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 export const poemRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),
 
+  sitemap: publicProcedure.query(async ({ ctx }) =>
+    ctx.db.poem.findMany({
+      select: {
+        id: true,
+        updatedAt: true,
+      },
+    }),
+  ),
+
   search: publicProcedure
     .input(z.string().optional())
     .query(({ input, ctx }) => {
