@@ -1,0 +1,36 @@
+.pinyin {
+  [data-text] {
+    @apply relative mx-1.5 inline-flex items-end justify-center;
+  }
+
+  [data-pinyin] {
+    font-family: "American Typewriter", "Andale Mono", "Courier New", monospace;
+    @apply absolute left-0 top-0 w-full text-center tracking-tight;
+  }
+
+  &.no-pinyin {
+    [data-text] {
+      @apply !w-auto !p-0;
+    }
+  }
+
+  &.pinyin_h1 {
+    [data-text] {
+      @apply pt-6 text-7xl;
+    }
+
+    [data-pinyin] {
+      @apply text-3xl font-bold;
+    }
+  }
+
+  &.pinyin_p {
+    [data-text] {
+      @apply pt-4 text-3xl;
+    }
+
+    [data-pinyin] {
+      @apply text-base;
+    }
+  }
+}

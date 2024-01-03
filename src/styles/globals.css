@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-textarea,
-select {
-  @apply !text-base;
-}
-
 @layer utilities {
   .text-stroke-base-100 {
     -webkit-text-stroke-width: 1px;
@@ -21,6 +16,15 @@ select {
   }
 }
 
-.main-wrapper {
-  @apply relative mx-4 min-h-full flex-1 rounded-box bg-base-100 py-4;
+textarea,
+select {
+  @apply !text-base;
+}
+
+html {
+  font-family: cursive;
+}
+
+.font-pinyin {
+  font-family: "American Typewriter", "Andale Mono", "Courier New", monospace;
 }

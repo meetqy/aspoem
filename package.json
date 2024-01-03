@@ -25,6 +25,7 @@
     "@trpc/server": "^10.43.6",
     "@vercel/analytics": "^1.1.1",
     "@vercel/speed-insights": "^1.0.2",
+    "clsx": "^2.1.0",
     "daisyui": "^4.4.20",
     "framer-motion": "^10.16.16",
     "next": "^14.0.3",
@@ -32,6 +33,7 @@
     "react-dom": "18.2.0",
     "server-only": "^0.0.1",
     "superjson": "^2.2.1",
+    "tailwind-merge": "^2.2.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {

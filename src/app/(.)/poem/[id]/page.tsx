@@ -6,6 +6,7 @@ import { InboxIcon, UserIcon } from "@heroicons/react/24/outline";
 import { type Metadata } from "next";
 import { RightAside } from "~/components/RightAside";
 import BackButton from "~/components/BackButton";
+import PinYinText from "~/components/PinYinText";
 
 const RubyChar = ({
   char,
@@ -59,14 +60,12 @@ export default async function Page({ params }: Props) {
     return notFound();
   }
 
-  const titlePinYin = poem.titlePinYin?.split(" ") ?? [];
-
   const contentPinYin = poem.contentPinYin?.split("\n") ?? [];
 
   return (
     <>
       <div className="main-wrapper">
-        <header className="sticky top-0 z-50 rounded-t-box px-4 backdrop-blur">
+        <header className="sticky top-0 z-50 rounded-t-box px-4 py-4 backdrop-blur">
           <div className="breadcrumbs flex items-center text-sm">
             <BackButton />
             <div className="mx-5 leading-none text-base-content/50">|</div>
@@ -88,19 +87,13 @@ export default async function Page({ params }: Props) {
             <h1 className="text-stroke-base-100">{poem.title}</h1>
           </div>
 
-          <h1 className={`${styles.title2} text-stroke-base-100`}>
-            <ruby>
-              {poem.title.split("").map((char, index) => {
-                return (
-                  <RubyChar
-                    key={index}
-                    char={char}
-                    pinyin={titlePinYin[index]}
-                  />
-                );
-              })}
-            </ruby>
-          </h1>
+          <PinYinText
+            text={poem.title}
+            pinyin={poem.titlePinYin ?? ""}
+            type="h1"
+            stroke
+            className={styles.title2}
+          />
 
           <p>
             {poem.author.dynasty && (
@@ -119,24 +112,8 @@ export default async function Page({ params }: Props) {
           <div className="tracking-widest">
             {poem.content.split("\n").map((line, index) => {
               const linePinYin = contentPinYin[index];
-              const charPinYin = linePinYin?.split(" ");
 
-              return (
-                <p key={index}>
-                  <ruby>
-                    {line.split("").map((char, i) => {
-                      return (
-                        <RubyChar
-                          className="px-1.5"
-                          key={i}
-                          char={char}
-                          pinyin={charPinYin?.[i]}
-                        />
-                      );
-                    })}
-                  </ruby>
-                </p>
-              );
+              return <PinYinText key={index} text={line} pinyin={linePinYin} />;
             })}
           </div>
         </article>

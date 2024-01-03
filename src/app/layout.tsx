@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" style={{ fontFamily: "cursive" }}>
+    <html lang="en">
       <body className="bg-base-200/50">
         <TRPCReactProvider>
           {children}
