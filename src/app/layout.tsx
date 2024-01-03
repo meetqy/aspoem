@@ -1,7 +1,5 @@
 import "~/styles/globals.css";
 
-import { cookies } from "next/headers";
-
 import { TRPCReactProvider } from "~/trpc/react";
 import { description } from "~/utils/constant";
 
@@ -22,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" style={{ fontFamily: "cursive" }}>
       <body className="bg-base-200/50">
-        <TRPCReactProvider cookies={cookies().toString()}>
+        <TRPCReactProvider>
           {children}
           <div id="dialog"></div>
         </TRPCReactProvider>

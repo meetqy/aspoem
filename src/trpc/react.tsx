@@ -12,7 +12,7 @@ export const api = createTRPCReact<AppRouter>();
 
 export function TRPCReactProvider(props: {
   children: React.ReactNode;
-  cookies: string;
+  // cookies: string;
 }) {
   const [queryClient] = useState(
     () =>
@@ -38,7 +38,7 @@ export function TRPCReactProvider(props: {
           url: getUrl(),
           headers() {
             return {
-              cookie: props.cookies,
+              // cookie: props.cookies,
               "x-trpc-source": "react",
             };
           },

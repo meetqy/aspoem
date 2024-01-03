@@ -1,11 +1,12 @@
 import { type MetadataRoute } from "next";
 import { api } from "~/trpc/server";
+import { getBaseUrl } from "~/trpc/shared";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const poems = await api.author.sitemap.query();
+  const data = await api.author.sitemap.query();
 
-  return poems.map((poem) => ({
-    url: `https://aspoem.com/poem/${poem.id}`,
-    lastModified: new Date(poem.updatedAt ?? "2024-01-01"),
+  return data.map((item) => ({
+    url: `${getBaseUrl()}/poem/${item.id}`,
+    lastModified: new Date(item.updatedAt ?? "2024-01-01"),
   }));
 }
