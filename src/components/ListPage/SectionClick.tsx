@@ -13,7 +13,9 @@ export default function SectionClick({
 
   return (
     <section
-      onClick={() => {
+      id="section-click"
+      onClick={(e) => {
+        if ((e.target as HTMLElement).tagName === "A") return;
         router.push(href);
       }}
     >

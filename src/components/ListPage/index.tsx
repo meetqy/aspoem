@@ -44,7 +44,7 @@ export default async function ListPage({
   return (
     <>
       <div className="flex-1 px-4 pb-4">
-        <header className="input-bordered sticky top-0 z-50 -mx-4 flex h-16 items-center justify-between rounded-t-box border-b bg-base-100/70 backdrop-blur">
+        <header className="sticky top-0 z-50 -mx-4 flex h-16 items-center justify-between rounded-t-box bg-base-100/70 backdrop-blur">
           <span className="ml-4 flex items-center text-2xl">
             <CubeTransparentIcon className="mr-2 h-6 w-6 text-success" />
             <span>全部</span>
@@ -76,7 +76,7 @@ export default async function ListPage({
           </div>
         </header>
 
-        <div className="mt-4 w-full space-y-4">
+        <div className="w-full space-y-4">
           {poems.map((poem) => {
             const content = poem.content.split("\n");
 
