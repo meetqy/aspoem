@@ -69,6 +69,7 @@ export default function CreatePage() {
           setClassify("");
           setTitlePinYin("");
           setContentPinYin("");
+          setIntroduce("");
         }
 
         await utils.poem.findById.invalidate(Number(id));
@@ -84,6 +85,7 @@ export default function CreatePage() {
   const [content, setContent] = useState("");
   const [classify, setClassify] = useState("");
   const [genre, setGenre] = useState("");
+  const [introduce, setIntroduce] = useState("");
   const [authorId, setAuthorId] = useState<number>(-1);
 
   const [tag, setTag] = useState("");
@@ -104,6 +106,7 @@ export default function CreatePage() {
       setGenre(poem.genre ?? "");
       setAuthor(poem.author.name ?? "");
       setDynasty(poem.author.dynasty ?? "");
+      setIntroduce(poem?.introduce ?? "");
     }
   }, [poem]);
 
@@ -224,6 +227,23 @@ export default function CreatePage() {
                 className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="content"
               >
+                介绍
+              </label>
+              <textarea
+                className="textarea textarea-bordered min-h-[200px] w-full text-base focus:outline-none"
+                id="content"
+                placeholder="诗词前面的介绍"
+                required
+                value={introduce}
+                onChange={(e) => setIntroduce(e.target.value)}
+              ></textarea>
+            </div>
+
+            <div className="space-y-2">
+              <label
+                className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                htmlFor="content"
+              >
                 <span className="text-red-500">*</span> 内容
               </label>
               <textarea
@@ -235,12 +255,13 @@ export default function CreatePage() {
                 onChange={(e) => setContent(e.target.value)}
               ></textarea>
             </div>
+
             <div className="space-y-2">
               <label
                 className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="content"
               >
-                <span className="text-red-500">*</span> 内容
+                内容
                 <span className="text-primary">（拼音）</span>
               </label>
               <textarea
@@ -369,6 +390,7 @@ export default function CreatePage() {
                   tagIds,
                   classify,
                   genre,
+                  introduce,
                 });
               }}
             >

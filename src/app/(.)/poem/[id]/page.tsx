@@ -6,7 +6,7 @@ import { InboxIcon, UserIcon } from "@heroicons/react/24/outline";
 import { type Metadata } from "next";
 import { RightAside } from "~/components/RightAside";
 import BackButton from "~/components/BackButton";
-import PinYinText from "~/components/PinYinText";
+import PinYinText from "./PinYinText";
 
 type Props = {
   params: { id: string };
@@ -73,7 +73,7 @@ export default async function Page({ params }: Props) {
           )}
           <Link
             href={`/author/${poem.author.id}?lt=${poem.author.name}`}
-            className="bg-gradient-to-tr from-primary via-current to-secondary bg-clip-text"
+            className="bg-gradient-to-tr from-primary via-current to-secondary bg-clip-text no-underline"
             style={{
               WebkitTextFillColor: "transparent",
             }}
@@ -82,13 +82,17 @@ export default async function Page({ params }: Props) {
           </Link>
         </p>
 
-        <div className="tracking-widest">
+        <blockquote>
+          <p className="text-left !text-lg">{poem.introduce}</p>
+        </blockquote>
+
+        <p>
           {poem.content.split("\n").map((line, index) => {
             const linePinYin = contentPinYin[index];
 
             return <PinYinText key={index} text={line} pinyin={linePinYin} />;
           })}
-        </div>
+        </p>
       </article>
 
       <RightAside>
