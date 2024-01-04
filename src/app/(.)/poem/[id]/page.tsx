@@ -71,14 +71,15 @@ export default async function Page({ params }: Props) {
           {poem.author.dynasty && (
             <span className="font-light">{poem.author.dynasty} · </span>
           )}
-          <span
+          <Link
+            href={`/author/${poem.author.id}?lt=${poem.author.name}`}
             className="bg-gradient-to-tr from-primary via-current to-secondary bg-clip-text"
             style={{
               WebkitTextFillColor: "transparent",
             }}
           >
             {poem.author.name}
-          </span>
+          </Link>
         </p>
 
         <div className="tracking-widest">

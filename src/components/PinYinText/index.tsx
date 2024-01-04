@@ -30,7 +30,7 @@ export default function PinYinText(props: Props) {
       {text.map((item, i) => (
         <span
           data-text=""
-          key={item}
+          key={i}
           className={cn(/，|。|？|·/.test(item) ? "!-px-1.5 !-mx-2" : "")}
         >
           {item}

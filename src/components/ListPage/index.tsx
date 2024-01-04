@@ -1,13 +1,12 @@
 import { notFound, redirect } from "next/navigation";
 import { api } from "~/trpc/server";
 import "./index.css";
-import {
-  ChevronLeftIcon,
-  ChevronRightIcon,
-  EllipsisVerticalIcon,
-} from "@heroicons/react/20/solid";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
 import { type Sort } from "~/types";
+import { CubeTransparentIcon } from "@heroicons/react/24/outline";
+import { format } from "date-fns";
+import SectionClick from "./SectionClick";
 
 export default async function ListPage({
   params,
@@ -44,111 +43,93 @@ export default async function ListPage({
 
   return (
     <>
-      <div className="flex-1 p-4">
-        <ul className="menu menu-vertical sticky top-0 z-50 rounded-box bg-base-100/70 shadow backdrop-blur lg:menu-horizontal">
-          <li>
-            <Link href={"?"} className={searchParams?.sort ? "" : "active"}>
-              默认
-            </Link>
-          </li>
-          <li>
-            <Link
-              href={"?sort=updatedAt"}
-              className={searchParams?.sort === "updatedAt" ? "active" : ""}
-            >
-              更新时间
-            </Link>
-          </li>
-          <li>
-            <Link
-              href={"?sort=improve"}
-              className={searchParams?.sort === "improve" ? "active" : ""}
-            >
-              完善度
-            </Link>
-          </li>
-          {/* <li>
-          <a>随机模式</a>
-        </li>
-        <li>
-          <a>创作时间线</a>
-        </li> */}
-        </ul>
+      <div className="flex-1 px-4 pb-4">
+        <header className="input-bordered sticky top-0 z-50 -mx-4 flex h-16 items-center justify-between rounded-t-box border-b bg-base-100/70 backdrop-blur">
+          <span className="ml-4 flex items-center text-2xl">
+            <CubeTransparentIcon className="mr-2 h-6 w-6 text-success" />
+            <span>全部</span>
+          </span>
+          <div className="flex flex-1 justify-end px-4">
+            <ul className="menu menu-horizontal space-x-2 rounded-box">
+              <li>
+                <Link href={"?"} className={searchParams?.sort ? "" : "active"}>
+                  默认
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={"?sort=updatedAt"}
+                  className={searchParams?.sort === "updatedAt" ? "active" : ""}
+                >
+                  更新时间
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={"?sort=improve"}
+                  className={searchParams?.sort === "improve" ? "active" : ""}
+                >
+                  完善度
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </header>
 
         <div className="mt-4 w-full space-y-4">
           {poems.map((poem) => {
             const content = poem.content.split("\n");
 
             return (
-              <section
+              <SectionClick
                 key={poem.id}
-                className="input-bordered block cursor-pointer rounded-box border p-8"
+                href={`/poem/${poem.id}?lt=${poem.title}`}
               >
-                <div className="flex justify-between">
-                  <div className="font-bold text-base-content">
-                    <Link
-                      href={`/poem/${poem.id}?lt=${poem.title}`}
-                      className="underline-animation text-3xl"
-                    >
-                      {poem.title}
-                    </Link>
-
-                    <span className="ml-2 font-light">
+                <section className="input-bordered block cursor-pointer rounded-box border p-4">
+                  <div className="flex items-center justify-between">
+                    <div className="font-bold text-base-content">
                       <Link
-                        href={`/author/${poem.authorId}`}
-                        className="link link-primary no-underline hover:underline"
+                        href={`/poem/${poem.id}?lt=${poem.title}`}
+                        className="underline-animation text-xl font-semibold"
                       >
-                        @{poem.author.name}
+                        {poem.title}
                       </Link>
-                      {poem.author.dynasty && (
-                        <>
-                          <span className="mx-1">·</span>
-                          <span>{poem.author.dynasty}</span>
-                        </>
-                      )}
+
+                      <span className="ml-2 font-light">
+                        <Link
+                          href={`/author/${poem.authorId}?lt=${poem.author.name}`}
+                          className="link link-primary no-underline hover:underline"
+                        >
+                          @{poem.author.name}
+                        </Link>
+                        {poem.author.dynasty && (
+                          <>
+                            <span className="mx-1">·</span>
+                            <span>{poem.author.dynasty}</span>
+                          </>
+                        )}
+                      </span>
+                    </div>
+
+                    <span className="text-sm font-normal text-base-content/70">
+                      更新时间：
+                      {poem.updatedAt && format(poem.updatedAt, "yyyy-MM-dd")}
                     </span>
                   </div>
 
-                  <div className="dropdown dropdown-end">
-                    <div
-                      tabIndex={0}
-                      role="button"
-                      className="btn btn-ghost btn-xs"
-                    >
-                      <EllipsisVerticalIcon className="h-4 w-4" />
+                  <div className="mt-2 text-base-content/70">
+                    {content.slice(0, 4).map((line, index) => (
+                      <p key={index}>{line}</p>
+                    ))}
+                  </div>
+
+                  {content.length > 8 && (
+                    <div className="flex justify-between">
+                      <p className="text-sm text-base-content/70">......</p>
                     </div>
-                    <ul
-                      tabIndex={0}
-                      className="menu dropdown-content z-[1] w-52 rounded-box bg-base-100 p-2 shadow"
-                    >
-                      <li>
-                        <a>Item 1</a>
-                      </li>
-                      <li>
-                        <a>Item 2</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div className="mt-2 text-lg">
-                  {content.slice(0, 8).map((line, index) => (
-                    <p key={index}>{line}</p>
-                  ))}
-                </div>
-
-                {content.length > 8 && (
-                  <div className="flex justify-between">
-                    <p>......</p>
-                    <Link
-                      href={`/poem/${poem.id}?lt=${poem.title}`}
-                      className="btn btn-ghost btn-sm font-normal"
-                    >
-                      查看详情 <ChevronRightIcon className="h-4 w-4" />
-                    </Link>
-                  </div>
-                )}
-              </section>
+                  )}
+                </section>
+              </SectionClick>
             );
           })}
         </div>

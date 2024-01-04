@@ -47,6 +47,9 @@ dependencies:
   daisyui:
     specifier: ^4.4.20
     version: 4.4.20(postcss@8.4.32)
+  date-fns:
+    specifier: ^3.0.6
+    version: 3.0.6
   framer-motion:
     specifier: ^10.16.16
     version: 10.16.16(react-dom@18.2.0)(react@18.2.0)
@@ -950,6 +953,10 @@ packages:
       postcss-js: 4.0.1(postcss@8.4.32)
     transitivePeerDependencies:
       - postcss
+    dev: false
+
+  /date-fns@3.0.6:
+    resolution: {integrity: sha512-W+G99rycpKMMF2/YD064b2lE7jJGUe+EjOES7Q8BIGY8sbNdbgcs9XFTZwvzc9Jx1f3k7LB7gZaZa7f8Agzljg==}
     dev: false
 
   /debug@4.3.4:

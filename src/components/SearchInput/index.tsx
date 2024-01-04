@@ -60,6 +60,7 @@ export const SearchDialog = ({ onClose }: { onClose: () => void }) => {
               cmdk-item=""
               key={item.id}
               className="flex"
+              onClick={onClose}
             >
               <span
                 dangerouslySetInnerHTML={{
@@ -72,6 +73,7 @@ export const SearchDialog = ({ onClose }: { onClose: () => void }) => {
               <Link
                 href={`/author/${item.author.id}`}
                 className="text-base-content/60"
+                onClick={onClose}
                 dangerouslySetInnerHTML={{
                   __html: item.author.name.replace(value, (e) => {
                     return `<span class="text-primary bg-primary/10">${e}</span>`;
