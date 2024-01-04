@@ -82,9 +82,11 @@ export default async function Page({ params }: Props) {
           </Link>
         </p>
 
-        <blockquote>
-          <p className="text-left !text-lg">{poem.introduce}</p>
-        </blockquote>
+        {poem.introduce && (
+          <blockquote>
+            <p className="text-left !text-lg">{poem.introduce}</p>
+          </blockquote>
+        )}
 
         <p>
           {poem.content.split("\n").map((line, index) => {
