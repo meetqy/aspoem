@@ -126,7 +126,7 @@ export default function CreatePage() {
         `?token=${localStorage.getItem("token")}${id ? "&id=" + id : ""}`,
       );
     }
-  }, []);
+  }, [id, router, token]);
 
   return (
     <div className="flex h-screen space-x-4 overflow-auto">

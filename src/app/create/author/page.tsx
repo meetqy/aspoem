@@ -50,11 +50,11 @@ export default function AuthorPage({
         `?token=${localStorage.getItem("token")}${id ? "&id=" + id : ""}`,
       );
     }
-  }, []);
+  }, [id, router, token]);
 
   return (
     <div className="m-auto min-h-screen max-w-screen-md p-4">
-      <div className="bg-card rounded-lg border shadow-sm" data-v0-t="card">
+      <div className="rounded-lg border bg-card shadow-sm" data-v0-t="card">
         <div className="flex flex-col space-y-1.5 p-6">
           <h3 className="text-2xl font-semibold leading-none tracking-tight">
             {id ? "Edit" : "Add New"} Author
