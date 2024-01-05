@@ -10,3 +10,7 @@ export default async function Page({
 }) {
   return <ListPage params={params} searchParams={searchParams} />;
 }
+
+{
+  /* <ListPage params={params} searchParams={searchParams} /> */
+}

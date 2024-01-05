@@ -20,12 +20,3 @@ textarea,
 select {
   @apply !text-base;
 }
-
-html {
-  /* 备用字体 Xingkai SC */
-  font-family: cursive;
-}
-
-.font-pinyin {
-  font-family: "American Typewriter", "Andale Mono", "Courier New", monospace;
-}

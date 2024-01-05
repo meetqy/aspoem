@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-base-200/50">
+      <body className="font-cursive bg-base-200/50 antialiased">
         <TRPCReactProvider>
           {children}
           <div id="dialog"></div>
