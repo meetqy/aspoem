@@ -3,6 +3,16 @@
 import { api } from "~/trpc/react";
 import { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import { Input } from "~/components/ui/input";
+import { Button } from "~/components/ui/button";
+import { Textarea } from "~/components/ui/textarea";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "~/components/ui/select";
 
 const _classify = [
   "叙事",
@@ -121,7 +131,7 @@ export default function CreatePage() {
   return (
     <div className="flex h-screen space-x-4 overflow-auto">
       <div className="w-1/4 p-4">
-        <div className="bg-card rounded-lg border shadow-sm" data-v0-t="card">
+        <div className="rounded-lg border bg-card shadow-sm" data-v0-t="card">
           <div className="flex flex-col space-y-1.5 p-6">
             <h3 className="text-2xl font-semibold leading-none tracking-tight">
               {id ? "Edit" : "Add New"} Author
@@ -138,9 +148,7 @@ export default function CreatePage() {
               >
                 <span className="text-red-500">*</span> Author Name
               </label>
-              <input
-                className="input input-bordered w-full focus:outline-none"
-                id="authorName"
+              <Input
                 placeholder="Enter author's name"
                 required
                 value={author}
@@ -154,16 +162,14 @@ export default function CreatePage() {
               >
                 Dynasty
               </label>
-              <input
-                className="input input-bordered w-full focus:outline-none"
-                id="Dynasty"
-                placeholder="Enter Dynasty"
+              <Input
                 required
                 value={dynasty}
+                placeholder="Enter Dynasty"
                 onChange={(e) => setDynasty(e.target.value)}
               />
             </div>
-            <button
+            <Button
               className="btn btn-primary w-full"
               onClick={() => {
                 mutation.createAuthor.mutate({
@@ -175,13 +181,13 @@ export default function CreatePage() {
               }}
             >
               Save Author
-            </button>
+            </Button>
           </div>
         </div>
       </div>
 
       <div className="w-2/4 p-4">
-        <div className="bg-card rounded-lg border shadow-sm" data-v0-t="card">
+        <div className="rounded-lg border bg-card shadow-sm" data-v0-t="card">
           <div className="flex flex-col space-y-1.5 p-6">
             <h3 className="text-2xl font-semibold leading-none tracking-tight">
               {id ? "Edit" : "Add New"} Poem
@@ -194,12 +200,10 @@ export default function CreatePage() {
                 className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="title"
               >
-                <span className="text-red-500">*</span> Title
+                <span className="text-red-500">*</span> 标题
               </label>
-              <input
-                className="input input-bordered w-full focus:outline-none"
-                id="title"
-                placeholder="Enter your title"
+              <Input
+                placeholder="输入标题"
                 required
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
@@ -213,47 +217,49 @@ export default function CreatePage() {
                 <span className="text-red-500">*</span> 标题
                 <span className="text-primary">（拼音）</span>
               </label>
-              <input
-                className="input input-bordered w-full focus:outline-none"
-                id="title-pin-yin"
+              <Input
                 placeholder="输入标题（拼音）"
                 required
                 value={titlePinYin}
                 onChange={(e) => setTitlePinYin(e.target.value)}
               />
             </div>
-            <div className="space-y-2">
-              <label
-                className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                htmlFor="content"
-              >
-                介绍
-              </label>
-              <textarea
-                className="textarea textarea-bordered min-h-[200px] w-full text-base focus:outline-none"
-                id="content"
-                placeholder="诗词前面的介绍"
-                required
-                value={introduce}
-                onChange={(e) => setIntroduce(e.target.value)}
-              ></textarea>
-            </div>
 
             <div className="space-y-2">
               <label
                 className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                htmlFor="content"
+                htmlFor="author"
               >
+                <span className="text-red-500">*</span> 作者
+              </label>
+
+              <Select
+                value={authorId === -1 ? undefined : authorId.toString()}
+                onValueChange={(e) => setAuthorId(Number(e))}
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder="请选择" />
+                </SelectTrigger>
+                <SelectContent>
+                  {authors?.map((item) => (
+                    <SelectItem key={item.id} value={item.id.toString()}>
+                      {item.name}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div className="space-y-2">
+              <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                 <span className="text-red-500">*</span> 内容
               </label>
-              <textarea
-                className="textarea textarea-bordered min-h-[200px] w-full text-base focus:outline-none"
-                id="content"
-                placeholder="Enter poem's content"
+              <Textarea
+                placeholder="输入内容"
                 required
                 value={content}
                 onChange={(e) => setContent(e.target.value)}
-              ></textarea>
+              />
             </div>
 
             <div className="space-y-2">
@@ -264,38 +270,26 @@ export default function CreatePage() {
                 内容
                 <span className="text-primary">（拼音）</span>
               </label>
-              <textarea
-                className="textarea textarea-bordered min-h-[200px] w-full text-base focus:outline-none"
-                id="content"
-                placeholder="Enter poem's content"
+              <Textarea
+                placeholder="内容"
                 required
                 value={contentPinYin}
                 onChange={(e) => setContentPinYin(e.target.value)}
-              ></textarea>
+              />
             </div>
 
             <div className="space-y-2">
-              <label
-                className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                htmlFor="author"
-              >
-                <span className="text-red-500">*</span> Author
+              <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                补充介绍
               </label>
-              <select
-                value={authorId}
-                className="select select-bordered w-full focus:outline-none"
-                onChange={(e) => setAuthorId(Number(e.target.value))}
-              >
-                <option disabled value={-1}>
-                  Select an author
-                </option>
-                {authors?.map((item) => (
-                  <option key={item.id} value={item.id}>
-                    {item.name}
-                  </option>
-                ))}
-              </select>
+              <Textarea
+                placeholder="诗词前面的介绍"
+                required
+                value={introduce}
+                onChange={(e) => setIntroduce(e.target.value)}
+              />
             </div>
+
             <div className="space-y-2">
               <label
                 className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -371,7 +365,7 @@ export default function CreatePage() {
                 </select>
               </div>
             </div>
-            <button
+            <Button
               className="btn btn-primary w-full"
               onClick={() => {
                 if (!title || !content || authorId === -1) {
@@ -395,13 +389,13 @@ export default function CreatePage() {
               }}
             >
               Save Poem
-            </button>
+            </Button>
           </div>
         </div>
       </div>
 
       <div className="w-1/4 p-4">
-        <div className="bg-card rounded-lg border shadow-sm" data-v0-t="card">
+        <div className="rounded-lg border bg-card shadow-sm" data-v0-t="card">
           <div className="flex flex-col space-y-1.5 p-6">
             <h3 className="text-2xl font-semibold leading-none tracking-tight">
               Add New Tag
@@ -416,17 +410,14 @@ export default function CreatePage() {
               >
                 Tag Name
               </label>
-              <input
-                className="input input-bordered w-full focus:outline-none"
-                id="tagName"
+              <Input
                 placeholder="Enter tag's name"
                 required
                 value={tag}
                 onChange={(e) => setTag(e.target.value)}
               />
             </div>
-            <button
-              className="btn btn-primary w-full"
+            <Button
               onClick={() => {
                 mutation.createTag.mutate({
                   token,
@@ -435,7 +426,7 @@ export default function CreatePage() {
               }}
             >
               Add Tag
-            </button>
+            </Button>
           </div>
         </div>
       </div>

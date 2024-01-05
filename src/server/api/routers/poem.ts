@@ -66,13 +66,10 @@ export const poemRouter = createTRPCRouter({
         if (input.sort === "improve") {
           orderBy.updatedAt = { sort: "asc", nulls: "first" };
         } else {
-          orderBy[input.sort] = { sort: "desc", nulls: "last" };
+          orderBy[input.sort] = { sort: "desc" };
         }
       } else {
-        orderBy = [
-          { contentPinYin: { sort: "desc", nulls: "last" } },
-          { id: "desc" },
-        ];
+        orderBy = [{ contentPinYin: { sort: "desc", nulls: "last" } }];
       }
 
       const data = await ctx.db.poem.findMany({
