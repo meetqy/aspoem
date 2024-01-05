@@ -15,7 +15,7 @@ export default function Loading() {
 
   return (
     <>
-      <div className="flex h-full w-full items-center justify-center uppercase">
+      <div className="flex h-[calc(100vh-2rem)] w-full items-center justify-center uppercase">
         <motion.div className="text-center">
           {title.split("").map((item, index) => (
             <motion.span
