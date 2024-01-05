@@ -1,7 +1,5 @@
 import "~/styles/globals.css";
 
-import { cookies } from "next/headers";
-
 import { TRPCReactProvider } from "~/trpc/react";
 import { cn } from "~/utils";
 
@@ -19,11 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={cn("font-cursive min-h-screen bg-background antialiased")}
+        className={cn("min-h-screen bg-background font-cursive antialiased")}
       >
-        <TRPCReactProvider cookies={cookies().toString()}>
-          {children}
-        </TRPCReactProvider>
+        <TRPCReactProvider>{children}</TRPCReactProvider>
       </body>
     </html>
   );
