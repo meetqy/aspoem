@@ -1,40 +1,12 @@
-import {
-  CalendarIcon,
-  LinkIcon,
-  ListBulletIcon,
-  UsersIcon,
-} from "@heroicons/react/20/solid";
-import { PencilSquareIcon } from "@heroicons/react/24/outline";
-import { type Metadata } from "next";
-import Image from "next/image";
+import { CalendarIcon, ChevronRight, LinkIcon } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { RightAside } from "~/components/RightAside";
+import { Avatar, AvatarFallback } from "~/components/ui/avatar";
+import Back from "~/components/ui/back";
+import { Badge } from "~/components/ui/badge";
+import { HeaderMain } from "~/components/ui/header";
+import { Separator } from "~/components/ui/separator";
 import { api } from "~/trpc/server";
-
-type Props = {
-  params: { id: string };
-};
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const poem = await api.author.findById.query(Number(params.id));
-
-  if (!poem) {
-    return notFound();
-  }
-
-  const keywords = [poem.name];
-
-  if (poem.dynasty) {
-    keywords.push(poem.dynasty);
-  }
-
-  return {
-    title: `${poem.name}: ${poem.dynasty}朝 | AsPoem`,
-    description: `${poem.introduce} `,
-    keywords,
-  };
-}
 
 export default async function Page({ params }: { params: { id: string } }) {
   const author = await api.author.findById.query(Number(params.id));
@@ -45,92 +17,65 @@ export default async function Page({ params }: { params: { id: string } }) {
 
   return (
     <>
-      <main className="flex-1 py-8">
-        <header className="m-auto flex max-w-screen-sm rounded-box">
-          <div className="avatar">
-            <div className="h-36 w-36 rounded-full shadow">
-              <Image
-                src={`https://picsum.photos/200?t=${author.id}`}
-                alt={`${author.name} virtual avatar`}
-                width={150}
-                height={150}
-              />
-            </div>
-          </div>
+      <HeaderMain>
+        <div className="flex h-16 items-center px-4">
+          <Back />
+
+          <Separator orientation="vertical" className="mx-4 h-4" />
+
+          <nav className="flex items-center space-x-2 text-sm">
+            <span className="text-muted-foreground">作者</span>
+            <ChevronRight className="h-4 w-4" strokeWidth={1} />
+            <span>{author.name}</span>
+          </nav>
+        </div>
+      </HeaderMain>
+
+      <article>
+        <header className="rounded-box m-auto flex max-w-screen-sm py-8">
+          <Avatar className="h-36 w-36">
+            <AvatarFallback>
+              <span className="text-3xl">{author.name}</span>
+            </AvatarFallback>
+          </Avatar>
 
           <div className="ml-16 text-left">
-            <h1 className="text-stroke-base-100 -mx-2 text-7xl">
-              {author.name}{" "}
-              <span className="font-pinyin text-2xl capitalize !tracking-tighter text-base-content">
+            <h1 className="-mx-2" prose-h1="">
+              <span className="text-outline">{author.name}</span>{" "}
+              <span className="font-pinyin text-2xl font-normal capitalize !tracking-tighter">
                 {author.namePinYin}
               </span>
             </h1>
             <p className="mt-4 line-clamp-3">{author.introduce}</p>
             <div className="mt-8">
               <p className="flex items-center">
-                <CalendarIcon className="h-5 w-5 text-base-content/50" />
+                <CalendarIcon className="h-5 w-5 text-muted-foreground" />
                 <span className="ml-2">
-                  <span className="text-success">
-                    {author.birthDate ?? "?"} 年
-                  </span>
-                  <span className="mx-2 text-base-content/20">~</span>
-                  <span className="text-base-content">
-                    {author.deathDate ?? "?"} 年
-                  </span>
+                  <span className="font-pinyin">{author.birthDate ?? "?"}</span>
+                  年<span className="mx-2 text-muted-foreground">~</span>
+                  <span className="font-pinyin">{author.deathDate ?? "?"}</span>
+                  年
                 </span>
               </p>
               <p className="flex items-center">
-                <LinkIcon className="h-5 w-5 text-base-content/50" />
+                <LinkIcon className="h-5 w-5 text-muted-foreground" />
                 <Link
                   href={`https://zh.wikipedia.org/wiki/${author.name}`}
                   target="_blank"
-                  className="link link-primary ml-2"
+                  className="ml-2 text-blue-600 hover:underline"
                 >
                   维基百科/{author.name}
                 </Link>
               </p>
               <div className="mt-8 space-x-4">
-                <div className="btn btn-sm">{author.dynasty}朝</div>
-                <div className="btn btn-sm">Tag 2</div>
-                <div className="btn btn-sm">Tag 3</div>
+                <Badge>{author.dynasty}朝</Badge>
+                <Badge variant={"secondary"}>Tag2</Badge>
+                <Badge variant={"secondary"}>Tag3</Badge>
               </div>
             </div>
           </div>
         </header>
-
-        <div className="input-bordered border-b px-4">
-          <ul className="menu menu-horizontal mt-24 w-full space-x-4 bg-base-100">
-            <li>
-              <a className="active">
-                <ListBulletIcon className="h-5 w-5" />
-                作品
-                <span className="badge badge-ghost badge-sm">
-                  {author._count.poems}
-                </span>
-              </a>
-            </li>
-            <li>
-              <a>
-                <UsersIcon className="h-5 w-5" />
-                关系
-                <span className="badge badge-warning badge-sm">NEW</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </main>
-
-      <RightAside>
-        <div className="absolute bottom-4 left-0 w-full px-4">
-          <Link
-            href={`/create/author?id=${author.id}`}
-            className="btn btn-block flex-1"
-          >
-            <PencilSquareIcon className="h-4 w-4" />
-            完善
-          </Link>
-        </div>
-      </RightAside>
+      </article>
     </>
   );
 }

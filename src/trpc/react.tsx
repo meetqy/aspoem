@@ -12,18 +12,9 @@ export const api = createTRPCReact<AppRouter>();
 
 export function TRPCReactProvider(props: {
   children: React.ReactNode;
-  // cookies: string;
+  cookies: string;
 }) {
-  const [queryClient] = useState(
-    () =>
-      new QueryClient({
-        defaultOptions: {
-          queries: {
-            refetchOnWindowFocus: false,
-          },
-        },
-      }),
-  );
+  const [queryClient] = useState(() => new QueryClient());
 
   const [trpcClient] = useState(() =>
     api.createClient({
@@ -38,13 +29,13 @@ export function TRPCReactProvider(props: {
           url: getUrl(),
           headers() {
             return {
-              // cookie: props.cookies,
+              cookie: props.cookies,
               "x-trpc-source": "react",
             };
           },
         }),
       ],
-    }),
+    })
   );
 
   return (

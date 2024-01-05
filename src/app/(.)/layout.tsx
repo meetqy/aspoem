@@ -1,26 +1,38 @@
-import Menu from "~/components/Menu";
-import { ScrollArea } from "~/components/ScrollArea";
-import { SearchInput } from "~/components/SearchInput";
+import { ScrollArea } from "~/components/ui/scroll-area";
+import Menu from "./components/menu";
+import Link from "next/link";
 
-export default function Template({
-  children,
-}: {
-  children: React.ReactNode;
-  right?: React.ReactNode;
-}) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="container m-auto flex min-h-screen max-w-screen-2xl p-4">
-      <aside className="sticky top-4 h-[calc(100vh-2rem)] w-72 rounded-box bg-base-100">
-        <Menu />
-      </aside>
-      <ScrollArea className="mx-4 h-[calc(100vh-2rem)] flex-1 rounded-box bg-base-100">
-        <header className="header" id="header_main"></header>
-        {children}
-      </ScrollArea>
-      <aside className="sticky top-4 h-[calc(100vh-2rem)] w-72 rounded-box bg-base-100 p-4">
-        <SearchInput />
-        <div id="right_aside"></div>
-      </aside>
+    <div className="h-screen bg-background py-4">
+      <div className="container flex h-full w-full overflow-hidden rounded-xl border bg-background p-0 shadow-xl">
+        <ScrollArea className="scroll-area w-72 border-r">
+          <header className="header">
+            <Link
+              href={"/"}
+              className="text-outline flex h-16 items-center justify-center text-4xl font-bold"
+            >
+              AsPoem
+              <span className="text-muted-foreground">.com</span>
+            </Link>
+          </header>
+
+          <div className="mt-2">
+            <Menu />
+          </div>
+        </ScrollArea>
+
+        <ScrollArea className="scroll-area flex flex-1">
+          <header className="header min-h-16" id="header_main"></header>
+          <main>{children}</main>
+        </ScrollArea>
+
+        <aside className="scroll-area w-72 border-l">
+          <header className="header">
+            <div className="h-16">Right Aside</div>
+          </header>
+        </aside>
+      </div>
     </div>
   );
 }

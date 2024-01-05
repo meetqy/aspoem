@@ -5,7 +5,7 @@ interface Props {
   text: string;
   pinyin?: string;
   type?: "h1" | "p";
-  stroke?: boolean;
+  outline?: boolean;
   showPinYin?: boolean;
   className?: string;
 }
@@ -19,13 +19,17 @@ export default function PinYinText(props: Props) {
 
   return (
     <TagName
-      className={cn(
-        "pinyin",
-        props.stroke ? "text-stroke-base-100" : "",
-        `pinyin_${TagName}`,
-        props.showPinYin ? "" : "no-pinyin",
-        props.className,
-      )}
+      {...{
+        "prose-h1": props.type === "h1",
+        "prose-p": props.type === "p",
+        className: cn(
+          "pinyin",
+          props.outline ? "text-outline" : "",
+          `pinyin_${TagName}`,
+          props.showPinYin ? "" : "no-pinyin",
+          props.className,
+        ),
+      }}
     >
       {text.map((item, i) => (
         <span
