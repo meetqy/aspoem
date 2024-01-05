@@ -21,7 +21,7 @@ export default function Menu() {
             pathname === "/" || pathname.includes("/list") ? "active" : ""
           }`}
         >
-          全部
+          诗词
           {poemCount && (
             <span className="badge badge-sm font-mono uppercase">
               {poemCount}

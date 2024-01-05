@@ -50,7 +50,7 @@ export default async function ListPage({
           <div className="flex h-16 items-center px-4">
             <span className="ml-4 flex items-center text-2xl">
               <CubeTransparentIcon className="mr-2 h-6 w-6 text-success" />
-              <span>全部</span>
+              <span>诗词</span>
             </span>
             <div className="join ml-auto">
               <Link
