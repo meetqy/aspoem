@@ -7,6 +7,8 @@ import { type Sort } from "~/types";
 import { CubeTransparentIcon } from "@heroicons/react/24/outline";
 import { format } from "date-fns";
 import SectionClick from "./SectionClick";
+import { HeaderMain } from "../header";
+import { cn } from "~/utils";
 
 export default async function ListPage({
   params,
@@ -43,38 +45,44 @@ export default async function ListPage({
 
   return (
     <>
-      <div className="flex-1 px-4 pb-4">
-        <header className="sticky top-0 z-50 -mx-4 flex h-16 items-center justify-between rounded-t-box bg-base-100/70 backdrop-blur">
-          <span className="ml-4 flex items-center text-2xl">
-            <CubeTransparentIcon className="mr-2 h-6 w-6 text-success" />
-            <span>全部</span>
-          </span>
-          <div className="flex flex-1 justify-end px-4">
-            <ul className="menu menu-horizontal space-x-2 rounded-box">
-              <li>
-                <Link href={"?"} className={searchParams?.sort ? "" : "active"}>
-                  默认
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={"?sort=updatedAt"}
-                  className={searchParams?.sort === "updatedAt" ? "active" : ""}
-                >
-                  更新时间
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={"?sort=improve"}
-                  className={searchParams?.sort === "improve" ? "active" : ""}
-                >
-                  完善度
-                </Link>
-              </li>
-            </ul>
+      <div className="flex-1 p-4">
+        <HeaderMain>
+          <div className="flex h-16 items-center px-4">
+            <span className="ml-4 flex items-center text-2xl">
+              <CubeTransparentIcon className="mr-2 h-6 w-6 text-success" />
+              <span>全部</span>
+            </span>
+            <div className="join ml-auto">
+              <Link
+                href={"?"}
+                className={cn(
+                  searchParams?.sort ? "" : "btn-neutral",
+                  "btn join-item btn-sm",
+                )}
+              >
+                默认
+              </Link>
+              <Link
+                href={"?sort=updatedAt"}
+                className={cn(
+                  searchParams?.sort === "updatedAt" ? "btn-neutral" : "",
+                  "btn join-item btn-sm",
+                )}
+              >
+                更新时间
+              </Link>
+              <Link
+                href={"?sort=improve"}
+                className={cn(
+                  searchParams?.sort === "improve" ? "btn-neutral" : "",
+                  "btn join-item btn-sm",
+                )}
+              >
+                完善度
+              </Link>
+            </div>
           </div>
-        </header>
+        </HeaderMain>
 
         <div className="w-full space-y-4">
           {poems.map((poem) => {
@@ -111,10 +119,15 @@ export default async function ListPage({
                       </span>
                     </div>
 
-                    <span className="text-sm font-normal text-base-content/70">
-                      更新时间：
-                      {poem.updatedAt && format(poem.updatedAt, "yyyy-MM-dd")}
-                    </span>
+                    {poem.updatedAt && (
+                      <span className="text-sm font-normal text-base-content/70">
+                        更新时间：
+                        <span className="font-mono text-xs">
+                          {poem.updatedAt &&
+                            format(poem.updatedAt, "yyyy-MM-dd")}
+                        </span>
+                      </span>
+                    )}
                   </div>
 
                   <div className="mt-2 text-base-content/70">
@@ -137,7 +150,7 @@ export default async function ListPage({
         <footer className="mt-12 flex justify-between rounded-box">
           <Link
             href={toHref(`/list/${page - 1}`)}
-            className={`btn btn-neutral ${
+            className={`btn btn-ghost ${
               page === 1 && "btn-disabled opacity-0"
             }`}
           >
@@ -146,9 +159,7 @@ export default async function ListPage({
           </Link>
           <Link
             href={toHref(`/list/${page + 1}`)}
-            className={`btn btn-neutral ${
-              !hasNext && "btn-disabled opacity-0"
-            }`}
+            className={`btn btn-ghost ${!hasNext && "btn-disabled opacity-0"}`}
           >
             下一页
             <ChevronRightIcon className="h-6 w-6" />

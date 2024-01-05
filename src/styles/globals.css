@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer utilities {
+  .header {
+    @apply sticky top-0 z-50 w-full bg-base-100/95 backdrop-blur supports-[backdrop-filter]:bg-base-100/60;
+  }
+
   .text-stroke-base-100 {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: oklch(var(--bc));

@@ -7,6 +7,7 @@ import { type Metadata } from "next";
 import { RightAside } from "~/components/RightAside";
 import BackButton from "~/components/BackButton";
 import PinYinText from "./PinYinText";
+import { HeaderMain } from "~/components/header";
 
 type Props = {
   params: { id: string };
@@ -37,8 +38,8 @@ export default async function Page({ params }: Props) {
 
   return (
     <>
-      <header className="sticky top-0 z-50 rounded-t-box p-4 backdrop-blur">
-        <div className="breadcrumbs flex items-center text-sm">
+      <HeaderMain>
+        <div className="breadcrumbs flex h-16 items-center px-4 text-sm">
           <BackButton />
           <div className="mx-5 leading-none text-base-content/50">|</div>
           <ul>
@@ -52,7 +53,7 @@ export default async function Page({ params }: Props) {
             </li>
           </ul>
         </div>
-      </header>
+      </HeaderMain>
 
       <article className="prose prose-2xl relative m-auto pb-4 pt-8 text-center prose-p:text-3xl">
         <div className={styles.title}>
