@@ -181,3 +181,7 @@
     transform: rotate(360deg);
   }
 }
+
+[role="dialog"] {
+  @apply top-[40%];
+}

@@ -1,5 +1,5 @@
 import Search from "../(.)/components/search";
 
-export default function Demo() {
+export default function Page() {
   return <Search />;
 }

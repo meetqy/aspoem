@@ -1,27 +1,35 @@
 "use client";
+import { Button } from "~/components/ui/button";
 
-import { useState, useEffect } from "react";
 import {
-  CommandDialog,
+  Command,
   CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
   CommandList,
 } from "~/components/ui/command";
-import { api } from "~/trpc/react";
+import {
+  Dialog,
+  DialogClose,
+  DialogContent,
+  DialogTrigger,
+} from "~/components/ui/dialog";
+import { useEffect, useState } from "react";
 import { useDebounce } from "@react-hook/debounce";
-import { Button } from "~/components/ui/button";
-import { CommandLoading } from "cmdk";
+import { api } from "~/trpc/react";
 import { useRouter } from "next/navigation";
+import { CommandLoading } from "cmdk";
 
-export default function Search() {
-  const [open, setOpen] = useState(false);
+export default function CommandDemo() {
   const [value, setValue] = useState("");
   const [query, setQuery] = useDebounce(value, 500);
   const { data, isLoading } = api.poem.search.useQuery(query, {
     refetchOnWindowFocus: false,
   });
+
+  const router = useRouter();
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     setQuery(value);
@@ -39,11 +47,9 @@ export default function Search() {
     return () => document.removeEventListener("keydown", down);
   }, []);
 
-  const router = useRouter();
-
   return (
-    <div className="font-serif">
-      <p className="font-cursive text-base text-muted-foreground">
+    <Dialog open={open} onOpenChange={setOpen}>
+      <DialogTrigger asChild>
         <Button
           variant={"outline"}
           size={"sm"}
@@ -55,73 +61,75 @@ export default function Search() {
             <span className="text-xs">⌘</span>K
           </kbd>
         </Button>
-      </p>
-      <CommandDialog open={open} onOpenChange={setOpen}>
-        <CommandInput
-          placeholder="查找作者、诗词、名句..."
-          value={value}
-          className="text-base"
-          onValueChange={setValue}
-        />
-        <CommandEmpty>很遗憾，没有找到结果！</CommandEmpty>
-        {isLoading && <CommandLoading />}
-        <CommandList>
-          <CommandGroup>
-            {data?.map((item) => {
-              const content =
-                item.content
-                  .split("\n")
-                  .filter((item) => item.includes(value))[0] ?? "";
-              return (
-                <CommandItem
-                  key={item.id}
-                  value={`${item.title}${item.author.name}${content}`}
-                  onSelect={() => {
-                    router.push(`/poem/${item.id}`);
-                    setOpen(false);
-                  }}
-                  className="text-base"
-                >
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: item.title.replace(value, (e) => {
-                        return `<span class="text-primary bg-primary/10">${e}</span>`;
-                      }),
-                    }}
-                  />
-                  <span className="mx-1 text-muted-foreground">/</span>
-                  <span
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      router.push(`/author/${item.author.id}`);
+      </DialogTrigger>
+      <DialogContent className="h-[488px] max-w-screen-sm p-0 text-base">
+        <Command>
+          <CommandInput
+            placeholder="查找作者、诗词、名句..."
+            value={value}
+            className="py-8"
+            onValueChange={setValue}
+          />
+          <CommandList className="max-h-[488px]">
+            <CommandEmpty>很遗憾，没有找到结果！</CommandEmpty>
+            {isLoading && <CommandLoading />}
+            <CommandGroup>
+              {data?.map((item) => {
+                const content =
+                  item.content
+                    .split("\n")
+                    .filter((item) => item.includes(value))[0] ?? "";
+                return (
+                  <CommandItem
+                    key={item.id}
+                    className="p-2"
+                    value={`${item.title}${item.author.name}${content}`}
+                    onSelect={() => {
+                      router.push(`/poem/${item.id}`);
                       setOpen(false);
                     }}
-                    className="cursor-pointer hover:underline"
-                    dangerouslySetInnerHTML={{
-                      __html: item.author.name.replace(value, (e) => {
-                        return `<span class="text-primary bg-primary/10">${e}</span>`;
-                      }),
-                    }}
-                  />
-                  {value && content && (
-                    <span className="line-clamp-1 flex-1">
-                      <span className="mx-1">/</span>
-                      <span
-                        className="text-base-content/60"
-                        dangerouslySetInnerHTML={{
-                          __html: content.replace(value, (e) => {
-                            return `<span class="text-primary bg-primary/10">${e}</span>`;
-                          }),
-                        }}
-                      />
-                    </span>
-                  )}
-                </CommandItem>
-              );
-            })}
-          </CommandGroup>
-        </CommandList>
-      </CommandDialog>
-    </div>
+                  >
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: item.title.replace(value, (e) => {
+                          return `<span class="text-primary bg-primary/10">${e}</span>`;
+                        }),
+                      }}
+                    />
+                    <span className="mx-1 text-muted-foreground">/</span>
+                    <span
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        router.push(`/author/${item.author.id}`);
+                        setOpen(false);
+                      }}
+                      className="cursor-pointer hover:underline"
+                      dangerouslySetInnerHTML={{
+                        __html: item.author.name.replace(value, (e) => {
+                          return `<span class="text-primary bg-primary/10">${e}</span>`;
+                        }),
+                      }}
+                    />
+                    {value && content && (
+                      <span className="line-clamp-1 flex-1">
+                        <span className="mx-1">/</span>
+                        <span
+                          className="text-base-content/60"
+                          dangerouslySetInnerHTML={{
+                            __html: content.replace(value, (e) => {
+                              return `<span class="text-primary bg-primary/10">${e}</span>`;
+                            }),
+                          }}
+                        />
+                      </span>
+                    )}
+                  </CommandItem>
+                );
+              })}
+            </CommandGroup>
+          </CommandList>
+        </Command>
+      </DialogContent>
+    </Dialog>
   );
 }
