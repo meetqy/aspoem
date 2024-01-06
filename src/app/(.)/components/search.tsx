@@ -9,12 +9,7 @@ import {
   CommandItem,
   CommandList,
 } from "~/components/ui/command";
-import {
-  Dialog,
-  DialogClose,
-  DialogContent,
-  DialogTrigger,
-} from "~/components/ui/dialog";
+import { Dialog, DialogContent, DialogTrigger } from "~/components/ui/dialog";
 import { useEffect, useState } from "react";
 import { useDebounce } from "@react-hook/debounce";
 import { api } from "~/trpc/react";
