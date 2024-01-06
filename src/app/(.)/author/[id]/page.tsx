@@ -1,4 +1,5 @@
 import { CalendarIcon, ChevronRight, LinkIcon } from "lucide-react";
+import { type Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Avatar, AvatarFallback } from "~/components/ui/avatar";
@@ -8,7 +9,31 @@ import { HeaderMain } from "~/components/ui/header";
 import { Separator } from "~/components/ui/separator";
 import { api } from "~/trpc/server";
 
-export default async function Page({ params }: { params: { id: string } }) {
+type Props = {
+  params: { id: string };
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const poem = await api.author.findById.query(Number(params.id));
+
+  if (!poem) {
+    return notFound();
+  }
+
+  const keywords = [poem.name];
+
+  if (poem.dynasty) {
+    keywords.push(poem.dynasty);
+  }
+
+  return {
+    title: `${poem.name}: ${poem.dynasty}朝 | AsPoem`,
+    description: `${poem.introduce} `,
+    keywords,
+  };
+}
+
+export default async function Page({ params }: Props) {
   const author = await api.author.findById.query(Number(params.id));
 
   if (!author) {

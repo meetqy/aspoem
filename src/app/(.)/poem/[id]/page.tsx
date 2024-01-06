@@ -6,10 +6,25 @@ import { Separator } from "~/components/ui/separator";
 import { api } from "~/trpc/server";
 import PinYinText from "./components/PinYinText";
 import Back from "~/components/ui/back";
+import { type Metadata } from "next";
 
 type Props = {
   params: { id: string };
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const poem = await api.poem.findById.query(Number(params.id));
+
+  if (!poem) {
+    return notFound();
+  }
+
+  return {
+    title: `${poem.title}: ${poem.author.name} | AsPoem`,
+    description: `${poem.content.substring(0, 100)} `,
+    keywords: [poem.title, poem.author.name],
+  };
+}
 
 export default async function Page({ params }: Props) {
   const poem = await api.poem.findById.query(Number(params.id));
