@@ -1,7 +1,9 @@
 import { ScrollArea } from "~/components/ui/scroll-area";
 import Menu from "./components/menu";
 import Link from "next/link";
-import Search from "./components/search";
+import dynamic from "next/dynamic";
+
+const Search = dynamic(() => import("./components/search"), { ssr: false });
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
