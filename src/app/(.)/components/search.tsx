@@ -48,7 +48,7 @@ export default function CommandDemo() {
         <Button
           variant={"outline"}
           size={"sm"}
-          className="relative w-64 justify-between"
+          className="relative w-64 justify-between text-base"
           onClick={() => setOpen(true)}
         >
           <span>查找作者、诗词、名句...</span>
@@ -62,7 +62,7 @@ export default function CommandDemo() {
           <CommandInput
             placeholder="查找作者、诗词、名句..."
             value={value}
-            className="py-8"
+            className="py-8 text-lg"
             onValueChange={setValue}
           />
           <CommandList className="max-h-[488px]">
