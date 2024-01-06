@@ -1,6 +1,7 @@
 import { ScrollArea } from "~/components/ui/scroll-area";
 import Menu from "./components/menu";
 import Link from "next/link";
+import Search from "./components/search";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -29,7 +30,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
         <aside className="scroll-area w-72 border-l">
           <header className="header">
-            <div className="h-16">Right Aside</div>
+            <div className="flex h-16 items-center justify-center">
+              <Search />
+            </div>
           </header>
         </aside>
       </div>
