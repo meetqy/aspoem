@@ -15,6 +15,7 @@
   "dependencies": {
     "@prisma/client": "^5.6.0",
     "@radix-ui/react-avatar": "^1.0.4",
+    "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-menubar": "^1.0.4",
     "@radix-ui/react-navigation-menu": "^1.1.4",
     "@radix-ui/react-popover": "^1.0.7",
@@ -32,6 +33,7 @@
     "@trpc/server": "^10.43.6",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "cmdk": "^0.2.0",
     "date-fns": "^3.0.6",
     "lucide-react": "^0.303.0",
     "next": "^14.0.4",

@@ -6,13 +6,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { Input } from "~/components/ui/input";
 import { Button } from "~/components/ui/button";
 import { Textarea } from "~/components/ui/textarea";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "~/components/ui/select";
+import SearchSelect from "./components/SearchSelect";
 
 const _classify = [
   "叙事",
@@ -128,6 +122,8 @@ export default function CreatePage() {
     }
   }, [id, router, token]);
 
+  const authorItem = authors?.find((item) => item.id === authorId);
+
   return (
     <div className="flex h-screen space-x-4 overflow-auto">
       <div className="w-1/4 p-4">
@@ -233,21 +229,23 @@ export default function CreatePage() {
                 <span className="text-red-500">*</span> 作者
               </label>
 
-              <Select
-                value={authorId === -1 ? undefined : authorId.toString()}
-                onValueChange={(e) => setAuthorId(Number(e))}
-              >
-                <SelectTrigger>
-                  <SelectValue placeholder="请选择" />
-                </SelectTrigger>
-                <SelectContent>
-                  {authors?.map((item) => (
-                    <SelectItem key={item.id} value={item.id.toString()}>
-                      {item.name}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
+              {authors && (
+                <SearchSelect
+                  onChange={(framework) => {
+                    console.log(framework);
+                  }}
+                  defaultValue={{
+                    ...authorItem,
+                    value: authorItem?.name ?? "",
+                    name: authorItem?.name ?? "",
+                  }}
+                  frameworks={authors.map((item) => ({
+                    value: item.name,
+                    name: item.name,
+                    id: item.id,
+                  }))}
+                />
+              )}
             </div>
 
             <div className="space-y-2">
