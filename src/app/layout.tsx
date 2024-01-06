@@ -4,8 +4,8 @@ import { TRPCReactProvider } from "~/trpc/react";
 import { cn } from "~/utils";
 
 export const metadata = {
-  title: "Learn Chinese Poetry With AsPoem.com",
-  description: `ASPOEM - Learn Chinese Poetry With aspoem.com, Let's Go!`,
+  title: "学习中国古诗词 - aspoem.com",
+  description: `让我们一起来学习中国古诗词吧！快速查找诗词，拼音标注，现代化网页设计便于阅读。`,
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
