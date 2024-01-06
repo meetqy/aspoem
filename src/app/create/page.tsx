@@ -232,12 +232,13 @@ export default function CreatePage() {
               {authors && (
                 <SearchSelect
                   onChange={(framework) => {
-                    console.log(framework);
+                    setAuthorId(framework.id);
                   }}
                   defaultValue={{
                     ...authorItem,
                     value: authorItem?.name ?? "",
                     name: authorItem?.name ?? "",
+                    id: authorItem?.id ?? -1,
                   }}
                   frameworks={authors.map((item) => ({
                     value: item.name,

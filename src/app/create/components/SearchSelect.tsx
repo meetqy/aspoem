@@ -18,14 +18,16 @@ import {
 import { cn } from "~/utils";
 import { useEffect, useState } from "react";
 
+type Framework = { value: string; name: string; id: number };
+
 export default function SearchSelect({
   frameworks,
   defaultValue,
   onChange,
 }: {
-  defaultValue?: { value: string; name: string };
-  frameworks: { value: string; name: string }[];
-  onChange: (framework: { value: string; name: string }) => void;
+  defaultValue?: Framework;
+  frameworks: Framework[];
+  onChange: (framework: Framework) => void;
 }) {
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState("");
