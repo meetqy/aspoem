@@ -2,6 +2,7 @@ import { CalendarIcon, ChevronRight, LinkIcon } from "lucide-react";
 import { type Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { cache } from "react";
 import { Avatar, AvatarFallback } from "~/components/ui/avatar";
 import Back from "~/components/ui/back";
 import { Badge } from "~/components/ui/badge";
@@ -13,32 +14,36 @@ type Props = {
   params: { id: string };
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const poem = await api.author.findById.query(Number(params.id));
+export const revalidate = 3600;
 
-  if (!poem) {
+const getItem = cache(async (id: string) => {
+  const author = await api.author.findById.query(Number(id));
+
+  if (!author) {
     return notFound();
   }
 
-  const keywords = [poem.name];
+  return author;
+});
 
-  if (poem.dynasty) {
-    keywords.push(poem.dynasty);
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const author = await getItem(params.id);
+
+  const keywords = [author.name];
+
+  if (author.dynasty) {
+    keywords.push(author.dynasty);
   }
 
   return {
-    title: `${poem.name}: ${poem.dynasty}朝 | AsPoem`,
-    description: `${poem.introduce} `,
+    title: `${author.name}: ${author.dynasty}朝 | AsPoem`,
+    description: `${author.introduce} `,
     keywords,
   };
 }
 
 export default async function Page({ params }: Props) {
-  const author = await api.author.findById.query(Number(params.id));
-
-  if (!author) {
-    return notFound();
-  }
+  const author = await getItem(params.id);
 
   return (
     <>

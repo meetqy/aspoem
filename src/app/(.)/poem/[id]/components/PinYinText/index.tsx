@@ -20,8 +20,8 @@ export default function PinYinText(props: Props) {
   return (
     <TagName
       {...{
-        "prose-h1": props.type === "h1",
-        "prose-p": props.type === "p",
+        "prose-h1": props.type === "h1" ? "" : undefined,
+        "prose-p": props.type === "p" ? "" : undefined,
         className: cn(
           "pinyin",
           props.outline ? "text-outline" : "",

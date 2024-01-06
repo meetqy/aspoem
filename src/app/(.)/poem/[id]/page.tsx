@@ -7,17 +7,26 @@ import { api } from "~/trpc/server";
 import PinYinText from "./components/PinYinText";
 import Back from "~/components/ui/back";
 import { type Metadata } from "next";
+import { cache } from "react";
 
 type Props = {
   params: { id: string };
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const poem = await api.poem.findById.query(Number(params.id));
+const getItem = cache(async (id: string) => {
+  const poem = await api.poem.findById.query(Number(id));
 
   if (!poem) {
     return notFound();
   }
+
+  return poem;
+});
+
+export const revalidate = 3600;
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const poem = await getItem(params.id);
 
   return {
     title: `${poem.title}: ${poem.author.name} | AsPoem`,
@@ -27,11 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function Page({ params }: Props) {
-  const poem = await api.poem.findById.query(Number(params.id));
-
-  if (!poem) {
-    return notFound();
-  }
+  const poem = await getItem(params.id);
 
   const contentPinYin = poem.contentPinYin?.split("\n") ?? [];
 
