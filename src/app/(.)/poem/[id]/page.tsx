@@ -53,7 +53,7 @@ export default async function Page({ params }: Props) {
               全部
             </Link>
             <ChevronRight className="h-4 w-4" strokeWidth={1} />
-            <Link href={`/poem/${poem.id}?lt=${poem.title}`}>{poem.title}</Link>
+            <Link href={`/poem/${poem.id}`}>{poem.title}</Link>
           </nav>
         </div>
       </HeaderMain>
@@ -71,7 +71,7 @@ export default async function Page({ params }: Props) {
           )}
 
           <Link
-            href={`/author/${poem.author.id}?lt=${poem.author.name}`}
+            href={`/author/${poem.author.id}`}
             className="bg-gradient-to-tr from-primary via-current to-secondary bg-clip-text no-underline"
             style={{
               WebkitTextFillColor: "transparent",

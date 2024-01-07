@@ -7,13 +7,19 @@ export default function SortTabs({ sort }: { sort?: Sort }) {
     <Tabs defaultValue={sort ?? ""}>
       <TabsList>
         <TabsTrigger value="" asChild>
-          <Link href={`?`}>默认</Link>
+          <Link href={`?`} replace>
+            默认
+          </Link>
         </TabsTrigger>
         <TabsTrigger value="updatedAt" asChild>
-          <Link href={`?sort=updatedAt`}>更新时间</Link>
+          <Link href={`?sort=updatedAt`} replace>
+            更新时间
+          </Link>
         </TabsTrigger>
         <TabsTrigger value="improve" asChild>
-          <Link href={`?sort=improve`}>完善度</Link>
+          <Link href={`?sort=improve`} replace>
+            完善度
+          </Link>
         </TabsTrigger>
       </TabsList>
     </Tabs>

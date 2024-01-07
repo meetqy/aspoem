@@ -10,7 +10,7 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
       <div className="flex items-center justify-between">
         <div className="font-bold">
           <Link
-            href={`/poem/${poem.id}?lt=${poem.title}`}
+            href={`/poem/${poem.id}`}
             className="underline-animation text-xl font-semibold"
           >
             {poem.title}
@@ -18,7 +18,7 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
 
           <span className="ml-2 font-light">
             <Link
-              href={`/author/${poem.authorId}?lt=${poem.author.name}`}
+              href={`/author/${poem.authorId}`}
               className="font-bold text-blue-700 transition-all hover:text-blue-700/70 hover:underline"
             >
               <span className="font-serif">@</span>
