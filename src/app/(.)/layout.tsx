@@ -2,9 +2,11 @@ import { ScrollArea } from "~/components/ui/scroll-area";
 import Menu from "./components/menu";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { ModeToggle } from "~/components/mode-toggle";
 
 const Search = dynamic(() => import("./components/search"), { ssr: false });
+const ModeToggle = dynamic(() => import("~/components/mode-toggle"), {
+  ssr: false,
+});
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
