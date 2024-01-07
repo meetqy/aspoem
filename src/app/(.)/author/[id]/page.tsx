@@ -81,9 +81,13 @@ export default async function Page({ params }: Props) {
               <p className="flex items-center">
                 <CalendarIcon className="h-5 w-5 text-muted-foreground" />
                 <span className="ml-2">
-                  <span className="font-pinyin">{author.birthDate ?? "?"}</span>
+                  <span className="font-mono text-sm">
+                    {author.birthDate ?? "?"}
+                  </span>
                   年<span className="mx-2 text-muted-foreground">~</span>
-                  <span className="font-pinyin">{author.deathDate ?? "?"}</span>
+                  <span className="font-mono text-sm">
+                    {author.deathDate ?? "?"}
+                  </span>
                   年
                 </span>
               </p>
@@ -99,8 +103,8 @@ export default async function Page({ params }: Props) {
               </p>
               <div className="mt-8 space-x-4">
                 <Badge>{author.dynasty}朝</Badge>
-                <Badge variant={"secondary"}>Tag2</Badge>
-                <Badge variant={"secondary"}>Tag3</Badge>
+                <Badge variant={"secondary"}>标签二</Badge>
+                <Badge variant={"secondary"}>标签三</Badge>
               </div>
             </div>
           </div>

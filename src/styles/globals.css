@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 /* 
-   数字、字母 font-pinyin
+   数字、字母 font-mono
+   拼音 font-pinyin
    符号 font-serif
    中文 font-cursive
 */
@@ -57,7 +58,7 @@
 
 @layer utilities {
   .header {
-    @apply sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60;
+    @apply sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60;
   }
 
   .scroll-area {
