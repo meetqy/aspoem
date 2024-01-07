@@ -1,7 +1,11 @@
+import { ThemeProvider } from "~/components/theme-provider";
 import "~/styles/globals.css";
 
 import { TRPCReactProvider } from "~/trpc/react";
 import { cn } from "~/utils";
+
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "学习中国古诗词 - aspoem.com",
@@ -19,7 +23,19 @@ export default function RootLayout({
       <body
         className={cn("min-h-screen bg-background font-cursive antialiased")}
       >
-        <TRPCReactProvider>{children}</TRPCReactProvider>
+        <TRPCReactProvider>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {children}
+          </ThemeProvider>
+        </TRPCReactProvider>
+
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );

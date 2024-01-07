@@ -2,14 +2,15 @@ import { ScrollArea } from "~/components/ui/scroll-area";
 import Menu from "./components/menu";
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import { ModeToggle } from "~/components/mode-toggle";
 
 const Search = dynamic(() => import("./components/search"), { ssr: false });
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="h-screen bg-background py-4">
-      <div className="container flex h-full w-full overflow-hidden rounded-xl border bg-background p-0 shadow-xl">
-        <ScrollArea className="scroll-area w-72 border-r">
+      <div className="container flex h-full w-full overflow-hidden rounded-xl border border-border bg-background p-0 shadow-xl">
+        <ScrollArea className="scroll-area w-72 border-r border-border">
           <header className="header">
             <Link
               href={"/"}
@@ -30,12 +31,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <main>{children}</main>
         </ScrollArea>
 
-        <aside className="scroll-area w-72 border-l">
+        <aside className="scroll-area w-72 border-l border-border">
           <header className="header">
             <div className="flex h-16 items-center justify-center">
               <Search />
             </div>
           </header>
+          <div className="absolute bottom-4 right-4">
+            <ModeToggle />
+          </div>
         </aside>
       </div>
     </div>
