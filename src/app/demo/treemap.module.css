@@ -1,0 +1,16 @@
+.container .rectangle {
+  transition-duration: 0.3s;
+  transition-property: filter, opacity;
+  opacity: 1;
+  filter: saturate(100%);
+}
+
+.container:hover .rectangle {
+  opacity: 0.9;
+  filter: saturate(50%);
+}
+
+.container .rectangle:hover {
+  opacity: 1;
+  filter: saturate(100%);
+}

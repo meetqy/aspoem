@@ -38,6 +38,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "cmdk": "^0.2.0",
+    "d3": "^7.8.5",
     "date-fns": "^3.0.6",
     "lucide-react": "^0.303.0",
     "next": "^14.0.4",
@@ -52,6 +53,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@types/d3": "^7.4.3",
     "@types/eslint": "^8.44.7",
     "@types/node": "^18.17.0",
     "@types/react": "^18.2.37",

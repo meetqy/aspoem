@@ -5,6 +5,39 @@ import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 export const poemRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),
 
+  findByAuthorId: publicProcedure
+    .input(
+      z.object({
+        page: z.number().optional().default(1),
+        pageSize: z.number().optional().default(28),
+        authorId: z.number(),
+      }),
+    )
+    .query(async ({ input, ctx }) => {
+      const { authorId, page, pageSize } = input;
+
+      const total = await ctx.db.poem.count();
+      const data = await ctx.db.poem.findMany({
+        skip: (page - 1) * pageSize,
+        where: { authorId },
+
+        select: {
+          id: true,
+          updatedAt: true,
+          title: true,
+          content: true,
+        },
+      });
+
+      return {
+        data,
+        page,
+        pageSize,
+        hasNext: page * pageSize < total,
+        total,
+      };
+    }),
+
   sitemap: publicProcedure.query(async ({ ctx }) =>
     ctx.db.poem.findMany({
       select: {

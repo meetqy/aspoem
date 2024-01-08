@@ -10,6 +10,7 @@ import { HeaderMain } from "~/components/ui/header";
 import { Separator } from "~/components/ui/separator";
 import { Tabs, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import { api } from "~/trpc/server";
+import Poems from "./components/poems";
 
 type Props = {
   params: { id: string };
@@ -117,7 +118,10 @@ export default async function Page({ params, searchParams }: Props) {
             <TabsList>
               <TabsTrigger value="" asChild>
                 <Link href={`?`} replace>
-                  作品
+                  诗词
+                  <span className="ml-2 inline-block rounded-md bg-red-600 p-0 px-1 font-mono text-xs text-white">
+                    {author._count.poems}
+                  </span>
                 </Link>
               </TabsTrigger>
               <TabsTrigger value="relations" asChild>
@@ -128,6 +132,8 @@ export default async function Page({ params, searchParams }: Props) {
             </TabsList>
           </Tabs>
         </div>
+
+        <div>{!searchParams?.tab && <Poems authorId={author.id} />}</div>
       </main>
     </>
   );
