@@ -1,0 +1,79 @@
+.blue {
+  @apply border border-blue-500 text-foreground dark:border-blue-100;
+
+  &:hover {
+    @apply bg-blue-500 text-muted dark:bg-blue-100 dark:text-muted-foreground;
+  }
+}
+
+.yellow {
+  @apply border border-yellow-500 text-foreground dark:border-yellow-100;
+
+  &:hover {
+    @apply bg-yellow-500 text-foreground dark:bg-yellow-100 dark:text-black;
+  }
+}
+
+.purple {
+  @apply border border-purple-500 text-foreground;
+
+  &:hover {
+    @apply bg-purple-500 text-muted;
+  }
+}
+
+.pink {
+  @apply border border-pink-500 text-foreground;
+
+  &:hover {
+    @apply bg-pink-500 text-muted;
+  }
+}
+
+.indigo {
+  @apply border border-indigo-500 text-foreground;
+
+  &:hover {
+    @apply bg-indigo-500 text-muted;
+  }
+}
+
+.teal {
+  @apply border border-teal-500 text-foreground;
+
+  &:hover {
+    @apply bg-teal-500 text-muted;
+  }
+}
+
+.cyan {
+  @apply border border-cyan-500 text-foreground;
+
+  &:hover {
+    @apply bg-cyan-500 text-muted;
+  }
+}
+
+.lime {
+  @apply border border-lime-500 text-foreground;
+
+  &:hover {
+    @apply bg-lime-500 text-foreground;
+  }
+}
+
+.orange {
+  @apply border border-orange-500 text-foreground;
+
+  &:hover {
+    @apply bg-orange-500 text-muted;
+  }
+}
+
+.green {
+  @apply border border-green-500 text-foreground;
+
+  &:hover {
+    @apply bg-green-500 text-muted;
+  }
+}

@@ -23,9 +23,7 @@ export const poemRouter = createTRPCRouter({
 
         select: {
           id: true,
-          updatedAt: true,
           title: true,
-          content: true,
         },
       });
 
