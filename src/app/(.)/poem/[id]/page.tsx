@@ -72,7 +72,7 @@ export default async function Page({ params }: Props) {
 
           <Link
             href={`/author/${poem.author.id}`}
-            className="bg-gradient-to-tr from-primary via-current to-secondary bg-clip-text no-underline"
+            className="bg-gradient-to-tr from-primary via-blue-500 to-secondary bg-clip-text no-underline"
             style={{
               WebkitTextFillColor: "transparent",
             }}

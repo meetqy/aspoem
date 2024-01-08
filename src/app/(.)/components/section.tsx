@@ -19,7 +19,7 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
           <span className="ml-2 font-light">
             <Link
               href={`/author/${poem.authorId}`}
-              className="font-bold text-blue-700 transition-all hover:text-blue-700/70 hover:underline"
+              className="font-bold text-blue-700 transition-all hover:text-blue-700/70 hover:underline dark:text-blue-500 hover:dark:text-blue-500/70"
             >
               <span className="font-serif">@</span>
               {poem.author.name}

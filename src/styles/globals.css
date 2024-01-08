@@ -81,7 +81,7 @@
 
   .text-outline {
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: hsl(var(--muted-foreground));
+    -webkit-text-stroke-color: hsl(var(--foreground));
     color: transparent;
   }
 
