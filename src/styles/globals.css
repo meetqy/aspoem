@@ -90,7 +90,7 @@
   }
 
   [prose-h2] {
-    @apply scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0;
+    @apply scroll-m-20 border-b border-border pb-2 text-3xl font-semibold tracking-tight first:mt-0;
   }
 
   [prose-h3] {
@@ -102,7 +102,7 @@
   }
 
   [prose-blockquote] {
-    @apply mt-6 border-l-2 pl-6 italic;
+    @apply mt-6 border-l-2 border-border pl-6 italic;
   }
 
   [prose-small] {

@@ -90,6 +90,7 @@ export default function CreatePage() {
   const [classify, setClassify] = useState("");
   const [genre, setGenre] = useState("");
   const [introduce, setIntroduce] = useState("");
+  const [translation, setTranslation] = useState("");
   const [authorId, setAuthorId] = useState<number>(-1);
 
   const [tag, setTag] = useState("");
@@ -111,6 +112,7 @@ export default function CreatePage() {
       setAuthor(poem.author.name ?? "");
       setDynasty(poem.author.dynasty ?? "");
       setIntroduce(poem?.introduce ?? "");
+      setTranslation(poem?.translation ?? "");
     }
   }, [poem]);
 
@@ -290,6 +292,18 @@ export default function CreatePage() {
             </div>
 
             <div className="space-y-2">
+              <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                译文
+              </label>
+              <Textarea
+                placeholder="白话文"
+                required
+                value={translation}
+                onChange={(e) => setTranslation(e.target.value)}
+              />
+            </div>
+
+            <div className="space-y-2">
               <label
                 className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 htmlFor="tags"
@@ -384,6 +398,7 @@ export default function CreatePage() {
                   classify,
                   genre,
                   introduce,
+                  translation,
                 });
               }}
             >

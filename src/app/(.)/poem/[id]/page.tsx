@@ -98,6 +98,30 @@ export default async function Page({ params }: Props) {
           );
         })}
       </article>
+
+      <article className="chinese mt-8 px-4">
+        <h2 id="#译文" prose-h2="" className="text-left">
+          译文
+        </h2>
+
+        <p
+          prose-p=""
+          dangerouslySetInnerHTML={{
+            __html: (poem.translation ?? "暂未完善").replaceAll("\n", "<br/>"),
+          }}
+        />
+
+        <h2 id="#赏析" prose-h2="" className="mt-8">
+          赏析
+        </h2>
+        <blockquote prose-blockquote="">
+          不同的年龄、成长环境、经历，都会有不同的理解，没有标准答案。
+          <br />
+          欢迎留下你的想法！👏🏻👏🏻👏🏻
+        </blockquote>
+      </article>
+
+      <footer className="h-16"></footer>
     </>
   );
 }
