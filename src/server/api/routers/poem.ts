@@ -97,7 +97,7 @@ export const poemRouter = createTRPCRouter({
         if (input.sort === "improve") {
           orderBy.updatedAt = { sort: "asc", nulls: "first" };
         } else {
-          orderBy[input.sort] = { sort: "desc" };
+          orderBy[input.sort] = { sort: "desc", nulls: "last" };
         }
       } else {
         orderBy = [{ contentPinYin: { sort: "desc", nulls: "last" } }];
