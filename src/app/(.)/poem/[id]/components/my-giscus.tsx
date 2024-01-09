@@ -4,7 +4,9 @@ import Giscus from "@giscus/react";
 import { useTheme } from "next-themes";
 
 export default function MyGiscus() {
-  const { forcedTheme } = useTheme();
+  const { systemTheme, theme } = useTheme();
+
+  console.log(theme, systemTheme);
 
   return (
     <Giscus
@@ -19,7 +21,7 @@ export default function MyGiscus() {
       reactionsEnabled="1"
       emitMetadata="0"
       inputPosition="bottom"
-      theme={forcedTheme}
+      theme={theme === "system" ? systemTheme : theme}
       lang="zh-CN"
     />
   );
