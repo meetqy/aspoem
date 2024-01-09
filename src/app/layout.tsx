@@ -6,6 +6,7 @@ import { cn } from "~/utils";
 
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "学习中国古诗词 - aspoem.com",
@@ -37,7 +38,7 @@ export default function RootLayout({
         </TRPCReactProvider>
 
         <SpeedInsights />
-        {/* <Analytics /> */}
+        <Analytics />
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-PYEC5EG749" />
         <Script id="google-analytics">
           {`
