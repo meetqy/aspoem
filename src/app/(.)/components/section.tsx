@@ -6,7 +6,7 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
   const content = poem.content.split("\n");
 
   return (
-    <section className="block cursor-pointer rounded-md border border-border bg-card p-4 hover:bg-accent">
+    <section className="group block cursor-pointer rounded-md border border-border bg-card p-4 text-card-foreground hover:bg-accent hover:text-accent-foreground">
       <div className="flex items-center justify-between">
         <div className="font-bold">
           <Link
@@ -50,7 +50,10 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
         )}
       </div>
 
-      <Link className="mt-2 text-muted-foreground" href={`/poem/${poem.id}`}>
+      <Link
+        className="mt-2 group-hover:text-accent-foreground"
+        href={`/poem/${poem.id}`}
+      >
         {content.slice(0, 4).map((line, index) => (
           <p key={index}>{line}</p>
         ))}

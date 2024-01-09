@@ -9,6 +9,11 @@
    中文 font-cursive
 */
 
+/* foreground: 文本颜色 */
+/* accent 重点突出的颜色 */
+/* muted 柔和的颜色 */
+/* destructive 破坏性的 */
+
 @layer base {
   :root {
     --background: 0 0% 100%;

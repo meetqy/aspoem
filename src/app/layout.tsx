@@ -21,7 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={cn("min-h-screen bg-background font-cursive antialiased")}
+        className={cn(
+          "min-h-screen bg-background font-cursive text-foreground antialiased",
+        )}
       >
         <TRPCReactProvider>
           <ThemeProvider
