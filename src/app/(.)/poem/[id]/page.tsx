@@ -28,10 +28,18 @@ export const revalidate = 3600;
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const poem = await getItem(params.id);
 
+  const { dynasty } = poem.author;
+
+  const keywords = [poem.title, poem.author.name];
+
+  if (dynasty) {
+    keywords.push(dynasty);
+  }
+
   return {
-    title: `${poem.title}: ${poem.author.name} | AsPoem`,
+    title: `${poem.title}@${poem.author.name}${dynasty ? `·${dynasty}` : ""}`,
     description: `${poem.content.substring(0, 100)} `,
-    keywords: [poem.title, poem.author.name],
+    keywords,
   };
 }
 

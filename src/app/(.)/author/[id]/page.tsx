@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${author.name}: ${author.dynasty}朝 | AsPoem`,
+    title: `${author.name}·${author.dynasty}`,
     description: `${author.introduce} `,
     keywords,
   };
