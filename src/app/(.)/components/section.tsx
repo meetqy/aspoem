@@ -50,11 +50,11 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
         )}
       </div>
 
-      <div className="mt-2 text-muted-foreground">
+      <Link className="mt-2 text-muted-foreground" href={`/poem/${poem.id}`}>
         {content.slice(0, 4).map((line, index) => (
           <p key={index}>{line}</p>
         ))}
-      </div>
+      </Link>
 
       {content.length > 8 && (
         <div className="flex justify-between">
