@@ -1,11 +1,26 @@
 "use client";
 
-import Poems from "../(.)/author/[id]/components/poems";
+import Script from "next/script";
 
 export default function Page() {
   return (
     <div className="container m-auto">
-      <Poems authorId={1} />
+      <Script
+        src="https://aspoem-giscus.vercel.app/client.js"
+        data-repo="meetqy/aspoem"
+        data-repo-id="R_kgDOK7V2Mg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOK7V2Ms4CcP_D"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossOrigin="anonymous"
+        async
+      />
     </div>
   );
 }
