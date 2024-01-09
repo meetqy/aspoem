@@ -8,10 +8,15 @@ import PinYinText from "./components/PinYinText";
 import Back from "~/components/ui/back";
 import { type Metadata } from "next";
 import { cache } from "react";
+import dynamic from "next/dynamic";
 
 type Props = {
   params: { id: string };
 };
+
+const MyGiscus = dynamic(() => import("./components/my-giscus"), {
+  ssr: false,
+});
 
 const getItem = cache(async (id: string) => {
   const poem = await api.poem.findById.query(Number(id));
@@ -119,14 +124,18 @@ export default async function Page({ params }: Props) {
           }}
         />
 
-        <h2 id="#赏析" prose-h2="" className="mt-8">
-          赏析
+        <h2 id="#畅所欲言" prose-h2="" className="mt-8">
+          畅所欲言
         </h2>
-        <blockquote prose-blockquote="">
-          不同的年龄、成长环境、经历，都会有不同的理解，没有标准答案。
+        <p prose-p="">
+          不同的年龄、成长环境、经历，都会有不同的看法，没有标准答案。
           <br />
-          欢迎留下你的想法！👏🏻👏🏻👏🏻
-        </blockquote>
+          欢迎留下你的随想！👏🏻👏🏻👏🏻
+        </p>
+
+        <div className="mt-12">
+          <MyGiscus />
+        </div>
       </article>
 
       <footer className="h-16"></footer>
