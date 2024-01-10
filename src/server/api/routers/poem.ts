@@ -20,10 +20,10 @@ export const poemRouter = createTRPCRouter({
       const data = await ctx.db.poem.findMany({
         skip: (page - 1) * pageSize,
         where: { authorId },
-
         select: {
           id: true,
           title: true,
+          titlePinYin: true,
         },
       });
 
