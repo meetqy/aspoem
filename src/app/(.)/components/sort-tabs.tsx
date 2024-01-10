@@ -5,7 +5,7 @@ import { type Sort } from "~/types";
 export default function SortTabs({ sort }: { sort?: Sort }) {
   return (
     <Tabs defaultValue={sort ?? ""}>
-      <TabsList>
+      <TabsList className="h-8">
         <TabsTrigger value="" asChild>
           <Link href={`?`} replace>
             默认

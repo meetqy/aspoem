@@ -1,6 +1,6 @@
 "use client";
-import { Button } from "~/components/ui/button";
 
+import { Button } from "~/components/ui/button";
 import {
   Command,
   CommandEmpty,
@@ -47,8 +47,7 @@ export default function CommandDemo() {
       <DialogTrigger asChild>
         <Button
           variant={"outline"}
-          size={"sm"}
-          className="relative w-64 justify-between text-base"
+          className="relative h-8 w-64 justify-between bg-transparent text-base"
           onClick={() => setOpen(true)}
         >
           <span>查找作者、诗词、名句...</span>

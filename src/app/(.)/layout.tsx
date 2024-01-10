@@ -23,26 +23,25 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </Link>
           </header>
 
-          <div className="mt-2">
+          <div className="mt-2 w-full">
             <Menu />
           </div>
         </ScrollArea>
 
         <ScrollArea className="scroll-area flex flex-1">
-          <header className="header min-h-16" id="header_main"></header>
-          <main>{children}</main>
-        </ScrollArea>
-
-        <aside className="scroll-area w-72 border-l border-border">
-          <header className="header">
-            <div className="flex h-16 items-center justify-center">
-              <Search />
+          <header
+            className="header relative flex min-h-16 flex-row-reverse items-center justify-between pr-4"
+            id="header_main"
+          >
+            <div className="flex items-center justify-center">
+              <div className="mr-2">
+                <Search />
+              </div>
+              <ModeToggle />
             </div>
           </header>
-          <div className="absolute bottom-4 right-4">
-            <ModeToggle />
-          </div>
-        </aside>
+          <main className="m-auto max-w-screen-md">{children}</main>
+        </ScrollArea>
       </div>
     </div>
   );

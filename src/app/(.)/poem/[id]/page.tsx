@@ -2,10 +2,8 @@ import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { HeaderMain } from "~/components/ui/header";
-import { Separator } from "~/components/ui/separator";
 import { api } from "~/trpc/server";
 import PinYinText from "./components/PinYinText";
-import Back from "~/components/ui/back";
 import { type Metadata } from "next";
 import { cache } from "react";
 import dynamic from "next/dynamic";
@@ -57,11 +55,7 @@ export default async function Page({ params }: Props) {
     <>
       <HeaderMain>
         <div className="flex h-16 items-center px-4">
-          <Back />
-
-          <Separator orientation="vertical" className="mx-4 h-4" />
-
-          <nav className="flex items-center space-x-2 text-sm">
+          <nav className="flex items-center space-x-2">
             <Link href="/" className="text-muted-foreground">
               全部
             </Link>

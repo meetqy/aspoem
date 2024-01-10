@@ -45,9 +45,12 @@ export default async function IndexPage({
   return (
     <>
       <HeaderMain>
-        <div className="flex h-16 items-center justify-between px-4">
-          <span className="text-xl font-bold">诗词</span>
-          <SortTabs sort={searchParams?.sort} />
+        <div className="flex h-16 flex-1 items-center justify-between pl-4">
+          <span className="text-2xl font-bold">诗词</span>
+          <div className="flex items-center">
+            <SortTabs sort={searchParams?.sort} />
+            <span className="mx-2 text-muted-foreground/40">|</span>
+          </div>
         </div>
       </HeaderMain>
 
