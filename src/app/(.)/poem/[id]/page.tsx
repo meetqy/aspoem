@@ -114,7 +114,8 @@ export default async function Page({ params }: Props) {
         <p
           prose-p=""
           dangerouslySetInnerHTML={{
-            __html: (poem.translation ?? "暂未完善").replaceAll("\n", "<br/>"),
+            // eslint-disable-next-line @typescript-eslint/prefer-nullish-coalescing
+            __html: (poem.translation || "暂未完善").replaceAll("\n", "<br/>"),
           }}
         />
 
