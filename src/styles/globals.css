@@ -90,6 +90,12 @@
     color: transparent;
   }
 
+  .text-outline-muted {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: hsl(var(--muted-foreground));
+    color: transparent;
+  }
+
   [prose-h1] {
     @apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl;
   }

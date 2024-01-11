@@ -13,6 +13,52 @@ export const authorRouter = createTRPCRouter({
     }),
   ),
 
+  timeline: publicProcedure
+    .input(
+      z
+        .object({
+          page: z.number().optional().default(1).optional(),
+          pageSize: z.number().optional().default(28).optional(),
+        })
+        .optional(),
+    )
+    .query(async ({ ctx, input }) => {
+      const { page = 1, pageSize = 28 } = input ?? {};
+
+      const total = await ctx.db.author.count();
+      const data = await ctx.db.author.findMany({
+        orderBy: {
+          poems: {
+            _count: "desc",
+          },
+        },
+        select: {
+          _count: {
+            select: {
+              poems: true,
+            },
+          },
+          id: true,
+          name: true,
+          namePinYin: true,
+          dynasty: true,
+          birthDate: true,
+          deathDate: true,
+          introduce: true,
+        },
+        skip: (page - 1) * pageSize,
+        take: pageSize,
+      });
+
+      return {
+        data,
+        page: 1,
+        pageSize: total,
+        hasNext: page * pageSize < total,
+        total,
+      };
+    }),
+
   find: publicProcedure.query(({ ctx }) => ctx.db.author.findMany()),
 
   findById: publicProcedure.input(z.number()).query(({ input, ctx }) =>
