@@ -32,19 +32,12 @@ export const authorRouter = createTRPCRouter({
             _count: "desc",
           },
         },
-        select: {
+        include: {
           _count: {
             select: {
               poems: true,
             },
           },
-          id: true,
-          name: true,
-          namePinYin: true,
-          dynasty: true,
-          birthDate: true,
-          deathDate: true,
-          introduce: true,
         },
         skip: (page - 1) * pageSize,
         take: pageSize,

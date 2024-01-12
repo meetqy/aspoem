@@ -4,9 +4,7 @@ import "~/styles/globals.css";
 import { TRPCReactProvider } from "~/trpc/react";
 import { cn } from "~/utils";
 
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import Script from "next/script";
-import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "学习中国古诗词 - aspoem.com",
@@ -38,8 +36,6 @@ export default function RootLayout({
           </ThemeProvider>
         </TRPCReactProvider>
 
-        <SpeedInsights />
-        <Analytics />
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-PYEC5EG749" />
         <Script id="google-analytics">
           {`
