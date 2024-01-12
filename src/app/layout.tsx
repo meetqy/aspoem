@@ -26,6 +26,7 @@ export default function RootLayout({
           "min-h-screen bg-background font-cursive text-foreground antialiased",
         )}
       >
+        <div className="bg-patterns-wavy fixed z-0 h-screen w-screen"></div>
         <TRPCReactProvider>
           <ThemeProvider
             attribute="class"

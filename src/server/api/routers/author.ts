@@ -17,8 +17,8 @@ export const authorRouter = createTRPCRouter({
     .input(
       z
         .object({
-          page: z.number().optional().default(1).optional(),
-          pageSize: z.number().optional().default(28).optional(),
+          page: z.number().optional().default(1),
+          pageSize: z.number().optional().default(28),
         })
         .optional(),
     )
@@ -52,7 +52,7 @@ export const authorRouter = createTRPCRouter({
 
       return {
         data,
-        page: 1,
+        page,
         pageSize: total,
         hasNext: page * pageSize < total,
         total,

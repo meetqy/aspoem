@@ -150,3 +150,11 @@
 [role="dialog"] {
   @apply top-[40%];
 }
+
+.bg-patterns-3d {
+  @apply pattern-zigzag-3d pattern-gray-500 pattern-bg-white pattern-size-32 pattern-opacity-5;
+}
+
+.bg-patterns-wavy {
+  @apply pattern-wavy pattern-gray-500 pattern-bg-background pattern-size-24 pattern-opacity-5;
+}
