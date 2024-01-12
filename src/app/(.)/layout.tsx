@@ -11,7 +11,7 @@ const ModeToggle = dynamic(() => import("~/components/mode-toggle"), {
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="h-screen py-4 ">
-      <div className="container relative z-10 flex h-full w-full overflow-hidden rounded-xl border border-border bg-background p-0 shadow-xl">
+      <div className="container relative z-10 flex h-full w-full overflow-hidden rounded-xl border border-border bg-background/20 p-0 shadow-xl backdrop-blur">
         <ScrollArea className="scroll-area w-72 border-r border-border">
           <header className="header">
             <Link
