@@ -8,8 +8,8 @@ generator client {
 
 datasource db {
     provider  = "postgresql"
-    url       = env("DATABASE_URL") // uses connection pooling
-    directUrl = env("DIRECT_URL") // uses a direct connection
+    url       = env("POSTGRES_PRISMA_URL") // uses connection pooling
+    directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
 }
 
 model Poem {
