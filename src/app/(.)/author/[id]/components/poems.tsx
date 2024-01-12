@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { api } from "~/trpc/react";
 import { cn } from "~/utils";
-import styles from "./poems.module.css";
 import { Button } from "~/components/ui/button";
 
 export default function Poems({ authorId }: { authorId: number }) {

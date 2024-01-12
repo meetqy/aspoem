@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "~/components/ui/button";
 import { api } from "~/trpc/react";
 
 export default function Page() {
