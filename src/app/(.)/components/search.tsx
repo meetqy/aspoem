@@ -86,7 +86,7 @@ export default function CommandDemo() {
                     <span
                       dangerouslySetInnerHTML={{
                         __html: item.title.replace(value, (e) => {
-                          return `<span class="text-primary bg-primary/10">${e}</span>`;
+                          return `<span class="text-blue-500 bg-blue-50">${e}</span>`;
                         }),
                       }}
                     />
@@ -100,7 +100,7 @@ export default function CommandDemo() {
                       className="cursor-pointer hover:underline"
                       dangerouslySetInnerHTML={{
                         __html: item.author.name.replace(value, (e) => {
-                          return `<span class="text-primary bg-primary/10">${e}</span>`;
+                          return `<span class="text-blue-500 bg-blue-50">${e}</span>`;
                         }),
                       }}
                     />
@@ -111,7 +111,7 @@ export default function CommandDemo() {
                           className="text-base-content/60"
                           dangerouslySetInnerHTML={{
                             __html: content.replace(value, (e) => {
-                              return `<span class="text-primary bg-primary/10">${e}</span>`;
+                              return `<span class="text-blue-500 bg-blue-50">${e}</span>`;
                             }),
                           }}
                         />

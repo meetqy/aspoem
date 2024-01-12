@@ -19,7 +19,9 @@ export default function Menu() {
           label: (poemCount ?? 0).toString(),
           icon: Rows2,
           variant:
-            pathname === "/" || pathname.startsWith("/list")
+            pathname === "/" ||
+            pathname.startsWith("/list") ||
+            pathname.startsWith("/poem")
               ? "default"
               : "ghost",
           href: "/",

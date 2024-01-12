@@ -70,7 +70,6 @@ export default async function Page({ params }: Props) {
           text={poem.title}
           pinyin={poem.titlePinYin ?? ""}
           type="h1"
-          outline
         />
         <h2 prose-h2="" className="mt-6 !border-0">
           {poem.author.dynasty && (

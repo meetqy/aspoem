@@ -24,7 +24,6 @@ export default function PinYinText(props: Props) {
         "prose-p": props.type === "p" ? "" : undefined,
         className: cn(
           "pinyin",
-          props.outline ? "text-outline" : "",
           `pinyin_${TagName}`,
           props.showPinYin ? "" : "no-pinyin",
           props.className,
@@ -39,7 +38,12 @@ export default function PinYinText(props: Props) {
         >
           {item}
           {!noShowChar.includes(pinyin[i] ?? "") && (
-            <span data-pinyin="">{pinyin[i]}</span>
+            <span
+              data-pinyin=""
+              className={cn(props.outline ? "text-outline" : "")}
+            >
+              {pinyin[i]}
+            </span>
           )}
         </span>
       ))}
