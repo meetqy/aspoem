@@ -15,7 +15,9 @@ export default function CreatePage() {
   const router = useRouter();
   const id = params.get("id") ?? "";
 
-  const { data: poem } = api.poem.findById.useQuery(Number(id));
+  const { data: poem } = api.poem.findById.useQuery(Number(id), {
+    refetchOnWindowFocus: false,
+  });
   const { data: authors } = api.author.find.useQuery();
 
   const mutation = {

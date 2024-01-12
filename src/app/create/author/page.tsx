@@ -17,7 +17,9 @@ export default function AuthorPage({
   const token = searchParams?.token ?? "";
   const router = useRouter();
 
-  const { data } = api.author.findById.useQuery(id!);
+  const { data } = api.author.findById.useQuery(id!, {
+    refetchOnWindowFocus: false,
+  });
   const create = api.author.create.useMutation({
     onSuccess: async () => {
       await utils.author.findById.invalidate(id);
