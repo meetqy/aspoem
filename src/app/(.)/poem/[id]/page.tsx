@@ -72,7 +72,9 @@ export default async function Page({ params, searchParams }: Props) {
           <div>
             {showPinYin ? (
               <Button size={"xs"} aria-label="不显示拼音" asChild>
-                <Link href="?">拼音</Link>
+                <Link href="?" replace>
+                  拼音
+                </Link>
               </Button>
             ) : (
               <Button
@@ -81,7 +83,9 @@ export default async function Page({ params, searchParams }: Props) {
                 aria-label="显示拼音"
                 asChild
               >
-                <Link href="?py=t">拼音</Link>
+                <Link href="?py=t" replace>
+                  拼音
+                </Link>
               </Button>
             )}
             <span className="mx-2 text-muted-foreground/40">|</span>

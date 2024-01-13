@@ -33,14 +33,14 @@ export default async function AuthorPage({
         {data?.map((item) => (
           <div
             key={item.id}
-            className="relative cursor-pointer overflow-hidden rounded-md border border-border p-8 transition-all hover:bg-accent hover:shadow-lg"
+            className="group relative cursor-pointer overflow-hidden rounded-md border border-border p-8 transition-all hover:bg-accent hover:shadow-lg"
           >
             <Link
               href={`/author/${item.id}`}
               className="absolute left-0 top-0 h-full w-full"
             />
             <div className="flex items-center">
-              <div className="flex h-36 w-36 flex-shrink-0 items-center justify-center overflow-hidden rounded-full bg-muted/40 uppercase text-muted-foreground/40 shadow"></div>
+              <div className="flex h-36 w-36 flex-shrink-0 items-center justify-center overflow-hidden rounded-full bg-muted/40 text-5xl uppercase group-hover:bg-background"></div>
               <div className="flex-1 pl-8">
                 <h1 className="text-5xl font-bold uppercase text-foreground">
                   {item.name}

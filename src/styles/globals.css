@@ -62,14 +62,6 @@
 }
 
 @layer utilities {
-  .header {
-    @apply sticky top-0 z-50 w-full border-b border-border bg-background/90 backdrop-blur;
-  }
-
-  .scroll-area {
-    @apply relative h-[calc(100vh-2rem)];
-  }
-
   .underline-animation {
     @apply relative bg-gradient-to-r from-primary to-primary-foreground bg-no-repeat pb-0.5;
     background-position: bottom left;
