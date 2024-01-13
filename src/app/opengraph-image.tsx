@@ -18,7 +18,7 @@ export default async function Image() {
     (
       <div
         style={{
-          background: "white",
+          background: "#171717",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -27,8 +27,8 @@ export default async function Image() {
           flexDirection: "column",
         }}
       >
-        <span style={{ fontSize: 156, color: "#000" }}>学习中国古诗词</span>
-        <span style={{ fontSize: 128, color: "#555" }}>aspoem.com</span>
+        <span style={{ fontSize: 148, color: "#e5e5e5" }}>学习中国古诗词</span>
+        <span style={{ fontSize: 72, color: "#737373" }}>aspoem.com</span>
       </div>
     ),
     size,

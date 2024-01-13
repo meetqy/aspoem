@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     images: ["https://aspoem.com/opengraph-image"],
+    url: "https://aspoem.com",
   },
 };
 
