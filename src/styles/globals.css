@@ -63,7 +63,7 @@
 
 @layer utilities {
   .header {
-    @apply sticky top-0 z-50 w-full border-b border-border bg-muted/40 backdrop-blur;
+    @apply sticky top-0 z-50 w-full border-b border-border bg-background/90 backdrop-blur;
   }
 
   .scroll-area {
@@ -152,9 +152,9 @@
 }
 
 .bg-patterns-3d {
-  @apply pattern-zigzag-3d pattern-gray-500 pattern-bg-white pattern-size-32 pattern-opacity-5;
+  @apply pattern-zigzag-3d pattern-bg-white pattern-gray-500 pattern-opacity-5 pattern-size-32;
 }
 
 .bg-patterns-wavy {
-  @apply pattern-wavy pattern-gray-500 pattern-bg-background pattern-size-24 pattern-opacity-5;
+  @apply pattern-wavy pattern-gray-500 pattern-bg-background pattern-opacity-5 pattern-size-24;
 }

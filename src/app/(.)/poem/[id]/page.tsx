@@ -7,9 +7,11 @@ import PinYinText from "./components/PinYinText";
 import { type Metadata } from "next";
 import { cache } from "react";
 import dynamic from "next/dynamic";
+import { Button } from "~/components/ui/button";
 
 type Props = {
   params: { id: string };
+  searchParams: { py?: string };
 };
 
 const MyGiscus = dynamic(() => import("./components/my-giscus"), {
@@ -46,29 +48,51 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function Page({ params }: Props) {
+export default async function Page({ params, searchParams }: Props) {
   const poem = await getItem(params.id);
 
   const contentPinYin = poem.contentPinYin?.split("\n") ?? [];
 
+  const showPinYin = searchParams.py === "t" ? true : false;
+
   return (
     <>
       <HeaderMain>
-        <div className="flex h-16 items-center px-4">
-          <nav className="flex items-center space-x-2">
-            <Link href="/" className="text-muted-foreground">
-              全部
-            </Link>
-            <ChevronRight className="h-4 w-4" strokeWidth={1} />
-            <Link href={`/poem/${poem.id}`}>{poem.title}</Link>
-          </nav>
+        <div className="flex flex-1 items-center justify-between">
+          <div className="flex h-16 items-center px-4">
+            <nav className="flex items-center space-x-2">
+              <Link href="/" className="text-muted-foreground">
+                全部
+              </Link>
+              <ChevronRight className="h-4 w-4" strokeWidth={1} />
+              <Link href={`/poem/${poem.id}`}>{poem.title}</Link>
+            </nav>
+          </div>
+
+          <div>
+            {showPinYin ? (
+              <Button size={"xs"} aria-label="不显示拼音" asChild>
+                <Link href="?">拼音</Link>
+              </Button>
+            ) : (
+              <Button
+                size={"xs"}
+                variant="secondary"
+                aria-label="显示拼音"
+                asChild
+              >
+                <Link href="?py=t">拼音</Link>
+              </Button>
+            )}
+            <span className="mx-2 text-muted-foreground/40">|</span>
+          </div>
         </div>
       </HeaderMain>
 
       <article className="p-8 text-center">
         <PinYinText
           text={poem.title}
-          pinyin={poem.titlePinYin ?? ""}
+          pinyin={showPinYin ? poem.titlePinYin ?? "" : ""}
           type="h1"
         />
         <h2 prose-h2="" className="mt-6 !border-0">
@@ -99,7 +123,7 @@ export default async function Page({ params }: Props) {
               className="mt-6"
               key={index}
               text={line}
-              pinyin={linePinYin}
+              pinyin={showPinYin ? linePinYin : ""}
             />
           );
         })}
