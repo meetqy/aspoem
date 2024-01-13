@@ -12,6 +12,12 @@ export const metadata: Metadata = {
   description: `让我们一起来学习中国古诗词吧！快速查找诗词，拼音标注，现代化网页设计便于阅读。`,
   icons: [{ rel: "icon", url: "/favicon.ico" }],
   keywords: ["中国古诗词", "拼音", "学习", "诗词", "古诗词", "aspoem.com"],
+  twitter: {
+    images: ["/opengraph-image.png"],
+  },
+  openGraph: {
+    images: ["/opengraph-image.png"],
+  },
 };
 
 export default function RootLayout({
