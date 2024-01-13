@@ -13,10 +13,12 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
   keywords: ["中国古诗词", "拼音", "学习", "诗词", "古诗词", "aspoem.com"],
   twitter: {
-    images: ["/opengraph-image.png"],
+    creator: "@meetqy",
+    site: "https://aspoem.com",
+    images: ["https://aspoem.com/opengraph-image.png"],
   },
   openGraph: {
-    images: ["/opengraph-image.png"],
+    images: ["https://aspoem.com/opengraph-image.png"],
   },
 };
 
