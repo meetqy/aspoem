@@ -15,10 +15,10 @@ export const metadata: Metadata = {
   twitter: {
     creator: "@meetqy",
     site: "https://aspoem.com",
-    images: ["/opengraph-image"],
+    images: ["https://aspoem.com/opengraph-image"],
   },
   openGraph: {
-    images: ["/opengraph-image"],
+    images: ["https://aspoem.com/opengraph-image"],
   },
 };
 
