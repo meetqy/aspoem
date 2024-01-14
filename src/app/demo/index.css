@@ -1,0 +1,5 @@
+.demo {
+  > div {
+    @apply relative overflow-hidden rounded-md border border-border;
+  }
+}

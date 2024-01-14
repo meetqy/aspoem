@@ -18,12 +18,16 @@ export default function CreatePage() {
   const { data: poem } = api.poem.findById.useQuery(Number(id), {
     refetchOnWindowFocus: false,
   });
-  const { data: authors } = api.author.find.useQuery();
+  const { data } = api.author.findMany.useQuery({
+    pageSize: 999,
+  });
+
+  const authors = data?.data;
 
   const mutation = {
     createAuthor: api.author.create.useMutation({
       onSuccess: async () => {
-        await utils.author.find.invalidate();
+        await utils.author.findMany.invalidate();
       },
       onError: (err) => alert(err.message),
     }),

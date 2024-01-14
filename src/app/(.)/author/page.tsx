@@ -2,6 +2,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { Button } from "~/components/ui/button";
+import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
 import { cn } from "~/utils";
 
@@ -18,7 +19,7 @@ export default async function AuthorPage({
     data,
     page = 1,
     hasNext,
-  } = await api.author.timeline.query({
+  } = await api.author.findMany.query({
     page: Number(params?.page ?? 1),
     pageSize: 12,
   });
@@ -29,6 +30,11 @@ export default async function AuthorPage({
 
   return (
     <>
+      <HeaderMain>
+        <div className="flex h-16 flex-1 items-center justify-between pl-4">
+          <span className="text-2xl font-bold">诗人</span>
+        </div>
+      </HeaderMain>
       <div className="m-auto grid max-w-screen-md grid-cols-1 gap-4 py-4">
         {data?.map((item) => (
           <div

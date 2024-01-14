@@ -13,7 +13,7 @@ export const authorRouter = createTRPCRouter({
     }),
   ),
 
-  timeline: publicProcedure
+  findMany: publicProcedure
     .input(
       z
         .object({
@@ -51,8 +51,6 @@ export const authorRouter = createTRPCRouter({
         total,
       };
     }),
-
-  find: publicProcedure.query(({ ctx }) => ctx.db.author.findMany()),
 
   findById: publicProcedure.input(z.number()).query(({ input, ctx }) =>
     ctx.db.author.findUnique({

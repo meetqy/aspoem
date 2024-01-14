@@ -1,88 +1,113 @@
-"use client";
+import { api } from "~/trpc/server";
+import "./index.css";
+import { notFound } from "next/navigation";
+import { type Author } from "@prisma/client";
+import { cn } from "~/utils";
 
-import { api } from "~/trpc/react";
+export default async function Page() {
+  const { data } = await api.author.findMany.query({
+    pageSize: 9,
+  });
 
-export default function Page() {
-  const { data } = api.author.timeline.useQuery();
+  if (data.length === 0) return notFound();
 
-  const authors = data?.data;
+  const author1 = data[0];
+  const author2 = data[1];
+  const author3 = data[2];
+  const author4 = data[3];
+  const author5 = data[4];
+  const author6 = data[5];
+  const author7 = data[6];
+  const author8 = data[7];
+  const author9 = data[8];
 
   return (
-    <div className="container m-auto flex h-screen">
-      <div className="w-72"></div>
-      <div className="flex-1 overflow-y-auto">
-        <div className="m-auto grid max-w-screen-md grid-cols-2 gap-8 py-4">
-          {authors?.map((item) => (
-            <div
-              key={item.id}
-              className="cursor-pointe cursor-pointer overflow-hidden rounded-md border border-border/40 px-4 pb-8 transition-all hover:border-border hover:shadow-lg"
-            >
-              <div className="text-outline-muted mt-8 flex h-24 w-24 items-center justify-center rounded-full bg-muted text-7xl uppercase shadow"></div>
-
-              <div className="mt-4 w-full">
-                <h1 className="text-4xl font-bold uppercase text-foreground">
-                  {item.name}
-                  <span className="ml-2 font-mono text-base font-normal capitalize text-foreground/80">
-                    {item.namePinYin}
-                  </span>
-                </h1>
-                <p className="mt-4 line-clamp-2 text-sm text-muted-foreground">
-                  {item.introduce || "暂未完善"}
-                </p>
-              </div>
-
-              <div className="my-8 flex justify-center">
-                <div className="h-[1px] w-36 bg-muted"></div>
-              </div>
-
-              <div className="grid w-full grid-cols-3">
-                <div className="flex flex-col items-center justify-center border-r border-border/40">
-                  <span className="font-mono text-2xl font-bold text-blue-500">
-                    {item._count.poems}
-                  </span>
-                  <span className="text-sm text-muted-foreground">作品</span>
-                </div>
-                <div className="flex flex-col items-center justify-center">
-                  <span className="font-mono text-2xl font-bold">
-                    {item.birthDate && item.deathDate
-                      ? item.deathDate - item.birthDate
-                      : "?"}
-                  </span>
-                  <span className="text-sm text-muted-foreground">享年</span>
-                </div>
-              </div>
+    <div className="demo m-auto grid aspect-square h-[calc(100vh-2rem)] grid-cols-4 gap-4 overflow-hidden">
+      <div className="group relative col-span-2 row-span-2 cursor-pointer transition-colors hover:bg-primary/80 hover:text-primary-foreground hover:backdrop-blur">
+        <div className="absolute top-0 flex aspect-[5/2] w-full items-center justify-center overflow-hidden bg-gradient-to-tl from-blue-500 to-red-300 text-blue-50">
+          <span className="-mt-4 text-9xl">{author1?.name}</span>
+        </div>
+        <div className="absolute bottom-0 aspect-[5/3] w-full overflow-hidden p-8">
+          <p className="text-xl">{author1?.introduce}</p>
+          <div className="mt-8 grid grid-cols-3">
+            <div>
+              <p className="font-mono text-4xl font-bold text-blue-500 group-hover:text-blue-400">
+                {author1?._count.poems}
+              </p>
+              <p className="text-sm text-muted-foreground">作品</p>
             </div>
-          ))}
+            <div>
+              <p className="font-mono text-4xl font-bold">
+                {author1?.birthDate && author1.deathDate
+                  ? author1.deathDate - author1.birthDate
+                  : "?"}
+              </p>
+              <p className="text-sm text-muted-foreground">享年</p>
+            </div>
+          </div>
+          <p className="absolute bottom-4 right-4 w-full space-x-2 text-right text-sm text-muted-foreground">
+            <span className="cursor-pointer hover:text-foreground hover:underline">
+              #标签1
+            </span>
+            <span className="cursor-pointer hover:text-foreground hover:underline">
+              #标签2
+            </span>
+            <span className="cursor-pointer hover:text-foreground hover:underline">
+              #标签3
+            </span>
+          </p>
         </div>
       </div>
+      <div>{author4 && <GridItemOne author={author4} />}</div>
+      <div>{author5 && <GridItemOne author={author5} />}</div>
+      <div>{author6 && <GridItemOne author={author6} />}</div>
+      <div className="row-span-2">1</div>
+      <div className="col-span-2">2</div>
+      <div>{author7 && <GridItemOne author={author7} />}</div>
+      <div>{author8 && <GridItemOne author={author8} />}</div>
+      <div className="col-span-2">3</div>
+      <div>{author9 && <GridItemOne author={author9} />}</div>
     </div>
   );
 }
 
-{
-  /* <div className="flex flex-col space-y-4">
-  <div className="w-full flex-1 rounded-md border border-border/40 p-4 transition-all hover:shadow-lg">
-    <div className="flex items-center">
-      <div className="h-24 w-24 rounded-full bg-muted"></div>
-      <div className="ml-4">
-        <h1 className="text-2xl text-primary">Mock A Name</h1>
-        <p className="capitalize text-foreground/80">pin yin</p>
+function GridItemOne({
+  author,
+}: {
+  author: Author & { _count: { poems: number } };
+}) {
+  return (
+    <div
+      className={cn(
+        "group absolute left-0 top-0 flex h-full w-full cursor-pointer items-center p-4",
+      )}
+    >
+      <div className="absolute left-0 top-0 z-10 flex h-full w-full flex-col items-center justify-center bg-primary/80 text-primary-foreground opacity-0 backdrop-blur transition-opacity group-hover:opacity-100">
+        <span className="font-mono text-xl capitalize">
+          {author.namePinYin}
+        </span>
+        <span className="text-5xl">{author.name}</span>
       </div>
-    </div>
-    <p className="mt-4 text-sm text-muted-foreground">
-      this is description, this is description,this is description
-    </p>
-    <div className="mt-4 grid w-full grid-cols-3">
-      <div className="flex flex-col items-center justify-center">
-        <span className="text-2xl">223</span>
-        <span className="text-sm text-muted-foreground">Age</span>
-      </div>
-      <div className="flex flex-col items-center justify-center">
-        <span className="text-2xl">223</span>
-        <span className="text-sm text-muted-foreground">Prod</span>
-      </div>
-    </div>
-  </div>
 
-</div>; */
+      <div className="relative aspect-square">
+        <p className="mt-2 line-clamp-4">{author.introduce}</p>
+        <div className="absolute bottom-4 grid w-full grid-cols-2">
+          <div>
+            <p className="font-mono text-3xl font-bold text-blue-500">
+              {author._count.poems}
+            </p>
+            <p className="text-sm text-muted-foreground">作品</p>
+          </div>
+          <div>
+            <p className="font-mono text-3xl font-bold">
+              {author.birthDate && author.deathDate
+                ? author.deathDate - author.birthDate
+                : "?"}
+            </p>
+            <p className="text-sm text-muted-foreground">享年</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
