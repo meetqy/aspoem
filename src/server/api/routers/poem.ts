@@ -87,20 +87,12 @@ export const poemRouter = createTRPCRouter({
     .query(async ({ input = {}, ctx }) => {
       const { page = 1, pageSize = 28 } = input;
 
-      let orderBy:
-        | Prisma.PoemOrderByWithRelationAndSearchRelevanceInput
-        | Prisma.PoemOrderByWithRelationAndSearchRelevanceInput[]
-        | undefined = undefined;
+      const orderBy: Prisma.PoemOrderByWithRelationAndSearchRelevanceInput = {};
 
-      if (input.sort) {
-        orderBy = {};
-        if (input.sort === "improve") {
-          orderBy.updatedAt = { sort: "asc", nulls: "first" };
-        } else {
-          orderBy[input.sort] = { sort: "desc", nulls: "last" };
-        }
+      if (input.sort === "improve") {
+        orderBy.updatedAt = { sort: "asc", nulls: "first" };
       } else {
-        orderBy = [{ contentPinYin: { sort: "desc", nulls: "last" } }];
+        orderBy.updatedAt = { sort: "desc", nulls: "last" };
       }
 
       const data = await ctx.db.poem.findMany({
