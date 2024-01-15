@@ -46,7 +46,7 @@ export const authorRouter = createTRPCRouter({
       return {
         data,
         page,
-        pageSize: total,
+        pageSize,
         hasNext: page * pageSize < total,
         total,
       };
