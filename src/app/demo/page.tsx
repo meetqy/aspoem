@@ -22,9 +22,11 @@ export default function Page({
   const author = api.author.create.useMutation();
   const poem = api.poem.create.useMutation();
 
-  const [save, setSave] = useState<string[]>(
-    JSON.parse(localStorage.getItem("save") || "[]") as string[],
-  );
+  const [save, setSave] = useState<string[]>([]);
+
+  useEffect(() => {
+    setSave(JSON.parse(localStorage.getItem("save") || "[]") as string[]);
+  }, []);
 
   useEffect(() => {
     void fetch("/content.json")
@@ -66,7 +68,7 @@ export default function Page({
   useEffect(() => {
     setDataSource((dataSource) => {
       if (!dataSource) return;
-      return dataSource.filter((item, i) => !save.includes(item.title));
+      return dataSource.filter((item) => !save.includes(item.title));
     });
 
     localStorage.setItem("save", JSON.stringify(save));
