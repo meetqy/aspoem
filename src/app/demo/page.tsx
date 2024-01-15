@@ -1,116 +1,125 @@
-import { api } from "~/trpc/server";
-import "./index.css";
-import { notFound } from "next/navigation";
-import { type Author } from "@prisma/client";
-import { BeanIcon, HopIcon } from "lucide-react";
+"use client";
 
-export default async function Page() {
-  const { data } = await api.author.findMany.query({
-    pageSize: 8,
-  });
+import { useEffect, useState } from "react";
+import { Button } from "~/components/ui/button";
+import { api } from "~/trpc/react";
 
-  if (data.length === 0) return notFound();
+type C = {
+  title: string;
+  content: string;
+  author: string;
+  tags: string[];
+};
 
-  const author1 = data[0];
-  const author2 = data[1];
-  const author3 = data[2];
-  const author4 = data[3];
-  const author5 = data[4];
-  const author6 = data[5];
-  const author7 = data[6];
-  const author8 = data[7];
-
-  return (
-    <div className="demo m-auto grid aspect-square h-[calc(100vh-2rem)] grid-cols-4 gap-4 pt-4">
-      {author1 && <GridItemOne author={author1} />}
-      {author4 && <GridItemTwo author={author4} />}
-
-      {author5 && <GridItemFour author={author5} />}
-      {author6 && <GridItemFour author={author6} />}
-
-      {author7 && <GridItemFour author={author7} />}
-      {author8 && <GridItemFour author={author8} />}
-      {author2 && <GridItemOne author={author2} />}
-
-      {author3 && <GridItemTwo author={author3} />}
-    </div>
-  );
-}
-
-function GridItemOne({
-  author,
+export default function Page({
+  searchParams,
 }: {
-  author: Author & { _count: { poems: number } };
+  searchParams: { token: string };
 }) {
+  const [dataSource, setDataSource] = useState<C[]>();
+  const utils = api.useUtils();
+
+  const author = api.author.create.useMutation();
+  const poem = api.poem.create.useMutation();
+
+  const [save, setSave] = useState<string[]>(
+    JSON.parse(localStorage.getItem("save") || "[]") as string[],
+  );
+
+  useEffect(() => {
+    void fetch("/content.json")
+      .then((res) => res.json())
+      .then((res) => {
+        setDataSource(
+          (res as C[]).filter((item) => !save.includes(item.title)),
+        );
+      });
+  }, [save]);
+
+  const { data } = api.author.findMany.useQuery({ pageSize: 999 });
+  const authorNames = data?.data.map((item) => item.name) ?? [];
+
+  const add = (item: C) => {
+    if (!authorNames.includes(item.author)) {
+      author
+        .mutateAsync({
+          name: item.author,
+          dynasty: "唐",
+          token: searchParams.token,
+        })
+        .then((e) => {
+          addPoem(item, e.id);
+          void utils.author.invalidate();
+        })
+        .catch((e) => {
+          console.error("author", e);
+          alert(e);
+        });
+    } else {
+      const authorId = data?.data.find((e) => e.name === item.author)?.id;
+      if (authorId) {
+        addPoem(item, authorId);
+      }
+    }
+  };
+
+  useEffect(() => {
+    setDataSource((dataSource) => {
+      if (!dataSource) return;
+      return dataSource.filter((item, i) => !save.includes(item.title));
+    });
+
+    localStorage.setItem("save", JSON.stringify(save));
+  }, [save]);
+
+  const addPoem = (item: C, authorId: number) => {
+    poem
+      .mutateAsync({
+        title: item.title,
+        content: item.content,
+        authorId,
+        token: searchParams.token,
+      })
+      .then((e) => {
+        setSave([...save, e.title]);
+      })
+      .catch((e: Error) => {
+        if (e.message.includes("已存在")) {
+          setSave([...save, item.title]);
+          return;
+        }
+
+        console.error("poem", e);
+        alert(e);
+      });
+  };
+
   return (
-    <div className="group col-span-2 row-span-2">
-      <div className="absolute left-0 top-0 h-full w-full overflow-hidden bg-gradient-to-tl from-neutral-500 via-neutral-900 to-neutral-700 p-8 text-neutral-50">
-        <h1 prose-h1="">{author.name}</h1>
-        <p prose-p="" className="text-neutral-300">
-          {author.introduce}
-        </p>
-        <div className="mt-8 grid grid-cols-3">
-          <div>
-            <p className="text-4xl font-bold text-blue-500">
-              {author._count.poems}
-            </p>
-            <p className="text-neutral-300">作品</p>
+    <div>
+      <header className="flex h-12">
+        <div className="w-20">操作</div>
+        <div className="w-20">index</div>
+        <div className="w-20">author</div>
+        <div className="w-52">title</div>
+        <div className="w-2/5">tags</div>
+        <div className="flex-1">content</div>
+      </header>
+      <main>
+        {dataSource?.map((item, i) => (
+          <div className="flex h-12 border-b" key={i}>
+            <div className="w-20">
+              <Button variant={"outline"} size={"sm"} onClick={() => add(item)}>
+                添加
+              </Button>
+            </div>
+            <div className="w-20">{i + 1}</div>
+            <div className="w-20">{item.author}</div>
+            <div className="w-52">{item.title}</div>
+            <div className="w-2/5">{item.tags.join(",")}</div>
+            <div className="line-clamp-2 flex-1">{item.content}</div>
           </div>
-          <div>
-            <p className="text-4xl font-bold">
-              {author.birthDate && author.deathDate
-                ? author.deathDate - author.birthDate
-                : "?"}
-            </p>
-            <p className="text-neutral-300">享年</p>
-          </div>
-        </div>
-
-        <HopIcon
-          className="absolute bottom-0 right-0 h-96 w-96 text-neutral-400 opacity-5"
-          strokeWidth={1}
-        />
-      </div>
-    </div>
-  );
-}
-
-function GridItemTwo({
-  author,
-}: {
-  author: Author & { _count: { poems: number } };
-}) {
-  return (
-    <div className="col-span-2 border bg-card text-card-foreground shadow transition-all hover:bg-accent hover:text-accent-foreground">
-      <div className="absolute h-full w-full px-8 py-4">
-        <h1 prose-h1="" className="!font-bold">
-          {author.name}
-        </h1>
-        <p prose-p="" className="!text-base text-muted-foreground">
-          {author.introduce}
-        </p>
-
-        <BeanIcon className="absolute bottom-0 right-0 h-52 w-52 text-muted-foreground/80 opacity-5" />
-      </div>
-    </div>
-  );
-}
-
-function GridItemFour({
-  author,
-}: {
-  author: Author & { _count: { poems: number } };
-}) {
-  return (
-    <div className="relative h-full w-full border bg-card text-card-foreground shadow transition-all hover:bg-accent hover:text-accent-foreground">
-      <div className="absolute left-0 top-0 h-full w-full p-4">
-        <h1 prose-h1="" className="!font-bold">
-          {author.name}
-        </h1>
-        <p prose-p="" className="!text-sm text-muted-foreground">
-          {author.introduce}
-        </p>
-      </div>
+        ))}
+      </main>
     </div>
   );
 }

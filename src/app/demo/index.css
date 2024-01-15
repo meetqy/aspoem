@@ -1,5 +1,0 @@
-.demo {
-  > div {
-    @apply relative cursor-pointer overflow-hidden rounded-md;
-  }
-}
