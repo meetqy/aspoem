@@ -1,4 +1,4 @@
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, InfoIcon } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { HeaderMain } from "~/components/ui/header";
@@ -138,13 +138,11 @@ export default async function Page({ params, searchParams }: Props) {
           译文
         </h2>
 
-        <p
-          prose-p=""
-          dangerouslySetInnerHTML={{
-            // eslint-disable-next-line @typescript-eslint/prefer-nullish-coalescing
-            __html: (poem.translation || "暂未完善").replaceAll("\n", "<br/>"),
-          }}
-        />
+        {(poem.translation || "暂未完善").split("\n").map((line, index) => (
+          <p key={index} prose-p="">
+            {line}
+          </p>
+        ))}
 
         <h2 id="#畅所欲言" prose-h2="" className="mt-8">
           畅所欲言
@@ -153,6 +151,10 @@ export default async function Page({ params, searchParams }: Props) {
           不同的年龄、成长环境、经历，都会有不同的看法，没有标准答案。
           <br />
           欢迎留下你的随想！👏🏻👏🏻👏🏻
+        </p>
+        <p prose-p="">
+          <InfoIcon className="-mt-1 mr-2 inline-block text-blue-500" />
+          发现错误，也可以在下方留言，指正哦！
         </p>
 
         <div className="mt-12">

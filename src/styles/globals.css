@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 /* 
-   数字、字母 font-mono
-   拼音 font-pinyin
-   符号 font-serif
-   中文 font-cursive
+  数字、字母 font-mono
+  拼音 font-pinyin
+  符号 font-serif
+  中文 font-cursive
 */
 
 /* foreground: 文本颜色 */
@@ -101,7 +101,7 @@
   }
 
   [prose-p] {
-    @apply leading-7 [&:not(:first-child)]:mt-6;
+    @apply text-lg leading-7 [&:not(:first-child)]:mt-6;
   }
 
   [prose-blockquote] {
