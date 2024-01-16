@@ -165,6 +165,15 @@ export const poemRouter = createTRPCRouter({
       if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
 
       if (input.id) {
+        const res = await ctx.db.poem.findMany({
+          where: {
+            authorId: input.authorId,
+            title: input.title.toLocaleLowerCase(),
+          },
+        });
+
+        if (res.length > 1) throw new Error("诗词已存在");
+
         return ctx.db.poem.update({
           where: { id: input.id },
           data: {
