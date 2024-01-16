@@ -190,7 +190,6 @@ export const poemRouter = createTRPCRouter({
         where: {
           authorId: input.authorId,
           title: input.title.toLocaleLowerCase(),
-          content: input.content,
         },
       });
 
