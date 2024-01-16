@@ -46,7 +46,7 @@ export default async function AuthorPage({
               {item.name}
               <div className="flex space-x-2 font-mono">
                 <Badge
-                  variant={"destructive"}
+                  variant={"default"}
                   className="flex aspect-square w-10 items-center justify-center text-sm"
                 >
                   {item?._count.poems}
