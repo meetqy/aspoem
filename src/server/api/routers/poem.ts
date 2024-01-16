@@ -5,6 +5,24 @@ import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 export const poemRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),
 
+  isSame: publicProcedure
+    .input(
+      z.object({
+        authorId: z.number(),
+        title: z.string(),
+      }),
+    )
+    .mutation(async ({ input, ctx }) => {
+      const res = await ctx.db.poem.count({
+        where: {
+          authorId: input.authorId,
+          title: input.title.toLocaleLowerCase(),
+        },
+      });
+
+      return res > 1;
+    }),
+
   /**
    * 根据 id 删除诗词
    */

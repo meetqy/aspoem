@@ -18,8 +18,6 @@ const MyGiscus = dynamic(() => import("./components/my-giscus"), {
   ssr: false,
 });
 
-const chinaText = ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十"];
-
 const getItem = cache(async (id: string) => {
   const poem = await api.poem.findById.query(Number(id));
 
