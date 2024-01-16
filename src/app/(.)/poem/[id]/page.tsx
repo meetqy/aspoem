@@ -122,13 +122,15 @@ export default async function Page({ params, searchParams }: Props) {
         {poem.content.split("\n").map((line, index) => {
           const linePinYin = contentPinYin[index];
 
-          return (
+          return line ? (
             <PinYinText
               className="mt-6"
               key={index}
               text={line}
               pinyin={showPinYin ? linePinYin : ""}
             />
+          ) : (
+            <p>&nbsp;</p>
           );
         })}
       </article>
