@@ -42,7 +42,7 @@ export default async function AuthorPage({
               href={`/author/${item.id}`}
               className="absolute left-0 top-0 h-full w-full"
             ></Link>
-            <div className="flex w-full items-center justify-between text-4xl font-bold">
+            <div className="flex w-full items-center justify-between text-2xl font-bold">
               {item.name}
               <div className="flex space-x-2 font-mono">
                 <Badge
