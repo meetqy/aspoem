@@ -53,7 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function Page({ params, searchParams }: Props) {
   const poem = await getItem(params.id);
 
-  const contentPinYin = poem.contentPinYin?.split("\n") ?? [];
+  const contentPinYin = poem.contentPinYin?.split("\n\n") ?? [];
 
   const showPinYin = searchParams.py === "t" ? true : false;
 
@@ -124,7 +124,7 @@ export default async function Page({ params, searchParams }: Props) {
         </blockquote>
 
         {blockArray.map((block, index) => {
-          const linePinYin = contentPinYin[index];
+          const blockPinYin = contentPinYin[index];
 
           return (
             <>
@@ -135,12 +135,13 @@ export default async function Page({ params, searchParams }: Props) {
                   </span>
                 </p>
               ) : null}
+
               {block.split("\n").map((line, index) => (
                 <PinYinText
                   className="mt-6"
                   key={index}
                   text={line}
-                  pinyin={showPinYin ? linePinYin : ""}
+                  pinyin={showPinYin ? blockPinYin?.split("\n")[index] : ""}
                 />
               ))}
             </>

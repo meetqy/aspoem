@@ -201,18 +201,6 @@ export default function CreatePage() {
 
         <div className="space-y-2">
           <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-            补充介绍
-          </label>
-          <Textarea
-            placeholder="诗词前面的介绍"
-            required
-            value={introduce}
-            onChange={(e) => setIntroduce(e.target.value)}
-          />
-        </div>
-
-        <div className="space-y-2">
-          <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
             译文
           </label>
           <Textarea
@@ -220,6 +208,18 @@ export default function CreatePage() {
             required
             value={translation}
             onChange={(e) => setTranslation(e.target.value)}
+          />
+        </div>
+
+        <div className="space-y-2">
+          <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+            补充介绍
+          </label>
+          <Textarea
+            placeholder="诗词前面的介绍"
+            required
+            value={introduce}
+            onChange={(e) => setIntroduce(e.target.value)}
           />
         </div>
 
