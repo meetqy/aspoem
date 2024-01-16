@@ -128,13 +128,13 @@ export default async function Page({ params, searchParams }: Props) {
 
           return (
             <>
-              {blockArray.length > 1 ? (
-                <p key={index} prose-p="" className="pinyin pinyin_p">
-                  <span data-text className="font-bold text-blue-800">
-                    其{chinaText[index]}
-                  </span>
-                </p>
-              ) : null}
+              {blockArray.length > 1
+                ? index > 0 && (
+                    <p key={index} prose-p="" className="pinyin pinyin_p">
+                      <span data-text></span>
+                    </p>
+                  )
+                : null}
 
               {block.split("\n").map((line, index) => (
                 <PinYinText
