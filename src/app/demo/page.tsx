@@ -1,5 +1,6 @@
 "use client";
 
+import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Button } from "~/components/ui/button";
 import { api } from "~/trpc/react";
@@ -11,11 +12,8 @@ type C = {
   tags: string[];
 };
 
-export default function Page({
-  searchParams,
-}: {
-  searchParams: { token: string };
-}) {
+export default function Page() {
+  const searchParams = useSearchParams();
   const [dataSource, setDataSource] = useState<C[]>();
   const utils = api.useUtils();
 
@@ -47,7 +45,7 @@ export default function Page({
         .mutateAsync({
           name: item.author,
           dynasty: "唐",
-          token: searchParams.token,
+          token: searchParams.get("token") ?? "",
         })
         .then((e) => {
           addPoem(item, e.id);
@@ -80,7 +78,7 @@ export default function Page({
         title: item.title,
         content: item.content,
         authorId,
-        token: searchParams.token,
+        token: searchParams.get("token") ?? "",
       })
       .then((e) => {
         setSave([...save, e.title]);
