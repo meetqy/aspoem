@@ -33,6 +33,13 @@ export default function CreatePage() {
       },
       onError: (err) => alert(err.message),
     }),
+    isSame: api.poem.isSame.useMutation({
+      onSuccess(data) {
+        if (data) {
+          alert("已存在相同的诗词");
+        }
+      },
+    }),
     createAuthor: api.author.create.useMutation({
       onSuccess: async () => {
         await utils.author.findMany.invalidate();
@@ -58,6 +65,11 @@ export default function CreatePage() {
           setContentPinYin("");
           setIntroduce("");
           setTranslation("");
+        } else {
+          mutation.isSame.mutate({
+            title,
+            authorId,
+          });
         }
 
         await utils.poem.findById.invalidate(Number(id));
