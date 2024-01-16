@@ -7,6 +7,7 @@ import { Input } from "~/components/ui/input";
 import { Button } from "~/components/ui/button";
 import { Textarea } from "~/components/ui/textarea";
 import SearchSelect from "../components/SearchSelect";
+import { pinyin as GeneratePinyin } from "pinyin-pro";
 
 export default function CreatePage() {
   const utils = api.useUtils();
@@ -107,10 +108,26 @@ export default function CreatePage() {
       <div className="flex flex-col space-y-2">
         <h3 className="text-2xl font-semibold leading-none tracking-tight">
           {id ? "Edit" : "Add New"} Poem
+          <Button
+            size={"sm"}
+            className="ml-2"
+            onClick={() => {
+              setTitlePinYin(GeneratePinyin(title));
+              setContentPinYin(
+                GeneratePinyin(content)
+                  .replace(/\s，/g, ",")
+                  .replace(/\s。/g, ".")
+                  .replace(/\n\s/g, "\n"),
+              );
+            }}
+          >
+            生成拼音
+          </Button>
         </h3>
         <p className="text-muted-foreground">
           Fill out the details htmlFor your new poem
         </p>
+        <p></p>
       </div>
       <div className="space-y-4 p-6">
         <div className="space-y-2">

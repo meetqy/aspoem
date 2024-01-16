@@ -95,6 +95,9 @@ dependencies:
   next-themes:
     specifier: ^0.2.1
     version: 0.2.1(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)
+  pinyin-pro:
+    specifier: ^3.19.2
+    version: 3.19.2
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -4029,6 +4032,10 @@ packages:
   /pify@2.3.0:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
     engines: {node: '>=0.10.0'}
+
+  /pinyin-pro@3.19.2:
+    resolution: {integrity: sha512-1mYXHJIht8QJaPaVzzcYxOszDRIgrt6Aw0NYrmkerSYAAA1tsI+gtOMrPXoQDLyBbUCc23tEt/bSXmRAcDzMyQ==}
+    dev: false
 
   /pirates@4.0.6:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
