@@ -18,6 +18,8 @@ const MyGiscus = dynamic(() => import("./components/my-giscus"), {
   ssr: false,
 });
 
+const chinaText = ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十"];
+
 const getItem = cache(async (id: string) => {
   const poem = await api.poem.findById.query(Number(id));
 
@@ -54,6 +56,8 @@ export default async function Page({ params, searchParams }: Props) {
   const contentPinYin = poem.contentPinYin?.split("\n") ?? [];
 
   const showPinYin = searchParams.py === "t" ? true : false;
+
+  const blockArray = poem.content.split("\n\n");
 
   return (
     <>
@@ -119,18 +123,27 @@ export default async function Page({ params, searchParams }: Props) {
           {poem.introduce}
         </blockquote>
 
-        {poem.content.split("\n").map((line, index) => {
+        {blockArray.map((block, index) => {
           const linePinYin = contentPinYin[index];
 
-          return line ? (
-            <PinYinText
-              className="mt-6"
-              key={index}
-              text={line}
-              pinyin={showPinYin ? linePinYin : ""}
-            />
-          ) : (
-            <p>&nbsp;</p>
+          return (
+            <>
+              {blockArray.length > 1 ? (
+                <p key={index} prose-p="" className="pinyin pinyin_p">
+                  <span data-text className="font-bold text-blue-800">
+                    其{chinaText[index]}
+                  </span>
+                </p>
+              ) : null}
+              {block.split("\n").map((line, index) => (
+                <PinYinText
+                  className="mt-6"
+                  key={index}
+                  text={line}
+                  pinyin={showPinYin ? linePinYin : ""}
+                />
+              ))}
+            </>
           );
         })}
       </article>
@@ -140,11 +153,15 @@ export default async function Page({ params, searchParams }: Props) {
           译文
         </h2>
 
-        {(poem.translation || "暂未完善").split("\n").map((line, index) => (
-          <p key={index} prose-p="">
-            {line}
-          </p>
-        ))}
+        {(poem.translation || "暂未完善").split("\n").map((line, index) =>
+          line ? (
+            <p key={index} prose-p="">
+              {line}
+            </p>
+          ) : (
+            <p key={index}>&nbsp;</p>
+          ),
+        )}
 
         <h2 id="#畅所欲言" prose-h2="" className="mt-8">
           畅所欲言
