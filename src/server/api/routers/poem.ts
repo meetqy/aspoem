@@ -5,6 +5,21 @@ import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 export const poemRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),
 
+  /**
+   * 根据 id 删除诗词
+   */
+  deleteById: publicProcedure
+    .input(
+      z.object({
+        id: z.number(),
+        token: z.string(),
+      }),
+    )
+    .mutation(async ({ input, ctx }) => {
+      if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
+      return ctx.db.poem.delete({ where: { id: input.id } });
+    }),
+
   findByAuthorId: publicProcedure
     .input(
       z.object({

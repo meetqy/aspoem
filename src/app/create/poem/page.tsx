@@ -25,6 +25,13 @@ export default function CreatePage() {
   const authors = data?.data;
 
   const mutation = {
+    deletePoem: api.poem.deleteById.useMutation({
+      onSuccess: async () => {
+        await utils.poem.findById.invalidate(Number(id));
+        alert("Success");
+      },
+      onError: (err) => alert(err.message),
+    }),
     createAuthor: api.author.create.useMutation({
       onSuccess: async () => {
         await utils.author.findMany.invalidate();
@@ -217,7 +224,8 @@ export default function CreatePage() {
         </div>
 
         <Button
-          className="btn btn-primary w-full"
+          className="w-full"
+          variant={"default"}
           onClick={() => {
             if (!title || !content || authorId === -1) {
               alert("Please fill out all the fields");
@@ -241,6 +249,20 @@ export default function CreatePage() {
           }}
         >
           Save Poem
+        </Button>
+        <Button
+          className="btn w-full"
+          variant="destructive"
+          onClick={() => {
+            window.confirm("Are you sure you wish to delete this item?")
+              ? mutation.deletePoem.mutate({
+                  id: Number(id),
+                  token,
+                })
+              : null;
+          }}
+        >
+          Delete Poem
         </Button>
       </div>
     </>
