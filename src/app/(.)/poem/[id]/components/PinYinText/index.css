@@ -21,15 +21,35 @@
   }
 
   &.pinyin_p {
-    &:not(:last-child) {
-      @apply mb-6;
-    }
-
+    /* 词 左对齐 */
     &.pinyin_p--left {
-      @apply leading-[4rem];
+      @apply text-left;
 
       &:not(:last-child) {
-        @apply mb-12;
+        @apply mb-6;
+      }
+
+      &.pinyin_show {
+        @apply leading-[4rem];
+
+        &:not(:last-child) {
+          @apply mb-12;
+        }
+      }
+    }
+
+    /* 诗 居中对齐 */
+    &.pinyin_p--center {
+      @apply text-center;
+
+      &:not(:last-child) {
+        @apply mb-3;
+      }
+
+      &.pinyin_show {
+        &:not(:last-child) {
+          @apply mb-6;
+        }
       }
     }
 

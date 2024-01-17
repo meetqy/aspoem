@@ -16,7 +16,11 @@ export default function PinYinText(props: Props) {
   const text = props.text.split("");
 
   const PinYin = ({ children }: { children: React.ReactNode }) => {
-    return <span data-pinyin="">{children}</span>;
+    return (
+      <span data-pinyin="" className="!font-normal text-muted-foreground">
+        {children}
+      </span>
+    );
   };
 
   return (
@@ -27,8 +31,9 @@ export default function PinYinText(props: Props) {
         className: cn(
           "pinyin",
           `pinyin_${TagName}`,
-          props.align === "left" && "text-left",
-          props.pinyin && "pinyin_p--left",
+          props.align === "left" && "pinyin_p--left",
+          props.align === "center" && "pinyin_p--center",
+          props.pinyin && "pinyin_show",
         ),
       }}
     >
