@@ -10,12 +10,6 @@
     @apply absolute left-0 top-0 w-full text-center tracking-tight;
   }
 
-  &.no-pinyin {
-    [data-text] {
-      @apply !w-auto !p-0;
-    }
-  }
-
   &.pinyin_h1 {
     [data-text] {
       @apply pt-6 text-7xl;
@@ -27,6 +21,18 @@
   }
 
   &.pinyin_p {
+    &:not(:last-child) {
+      @apply mb-6;
+    }
+
+    &.pinyin_p--left {
+      @apply leading-[4rem];
+
+      &:not(:last-child) {
+        @apply mb-12;
+      }
+    }
+
     [data-text] {
       @apply pt-4 text-3xl;
     }

@@ -5,8 +5,7 @@ interface Props {
   text: string;
   pinyin?: string;
   type?: "h1" | "p";
-  outline?: boolean;
-  className?: string;
+  align?: "center" | "left";
 }
 
 const noShowChar = ["."];
@@ -18,7 +17,7 @@ export default function PinYinText(props: Props) {
 
   const PinYin = ({ children }: { children: React.ReactNode }) => {
     return (
-      <span data-pinyin="" className={cn(props.outline ? "text-outline" : "")}>
+      <span data-pinyin="" className={cn("!font-normal text-destructive")}>
         {children}
       </span>
     );
@@ -29,9 +28,24 @@ export default function PinYinText(props: Props) {
       {...{
         "prose-h1": props.type === "h1" ? "" : undefined,
         "prose-p": props.type === "p" ? "" : undefined,
-        className: cn("pinyin", `pinyin_${TagName}`, props.className),
+        className: cn(
+          "pinyin",
+          `pinyin_${TagName}`,
+          props.align === "left" && "text-left",
+          props.pinyin && "pinyin_p--left",
+        ),
       }}
     >
+      {TagName === "p" && props.align === "left" && (
+        <>
+          <span data-text className="opacity-0">
+            空
+          </span>
+          <span data-text className="opacity-0">
+            空
+          </span>
+        </>
+      )}
       {text.map((item, i) => (
         <span
           data-text=""
@@ -49,5 +63,5 @@ export default function PinYinText(props: Props) {
 }
 
 PinYinText.defaultProps = {
-  showPinYin: true,
+  align: "center",
 } as Partial<Props>;

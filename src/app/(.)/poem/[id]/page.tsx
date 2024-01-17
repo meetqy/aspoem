@@ -121,6 +121,7 @@ export default async function Page({ params, searchParams }: Props) {
           {poem.introduce}
         </blockquote>
 
+        {/* 内容 */}
         {blockArray.map((block, index) => {
           const blockPinYin = contentPinYin[index];
 
@@ -136,9 +137,9 @@ export default async function Page({ params, searchParams }: Props) {
 
               {block.split("\n").map((line, index) => (
                 <PinYinText
-                  className="mt-6"
                   key={index}
                   text={line}
+                  align={poem.genre === "词" ? "left" : "center"}
                   pinyin={showPinYin ? blockPinYin?.split("\n")[index] : ""}
                 />
               ))}
