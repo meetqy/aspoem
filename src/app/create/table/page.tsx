@@ -9,6 +9,7 @@ type C = {
   title: string;
   content: string;
   author: string;
+  dynasty: string;
   tags: string[];
 };
 
@@ -44,7 +45,7 @@ export default function Page() {
       author
         .mutateAsync({
           name: item.author,
-          dynasty: "唐",
+          dynasty: item.dynasty,
           token: searchParams.get("token") ?? "",
         })
         .then((e) => {
