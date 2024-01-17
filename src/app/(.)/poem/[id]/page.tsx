@@ -8,6 +8,7 @@ import { type Metadata } from "next";
 import { cache } from "react";
 import dynamic from "next/dynamic";
 import { Button } from "~/components/ui/button";
+import { cn } from "~/utils";
 
 type Props = {
   params: { id: string };
@@ -117,7 +118,10 @@ export default async function Page({ params, searchParams }: Props) {
           </Link>
         </h2>
 
-        <blockquote prose-blockquote="" className="text-left">
+        <blockquote
+          prose-blockquote=""
+          className={cn("text-left text-base", showPinYin ? "mb-12" : "mb-6")}
+        >
           {poem.introduce}
         </blockquote>
 
