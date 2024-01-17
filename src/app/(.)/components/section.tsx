@@ -50,17 +50,12 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
         )}
       </div>
 
-      <div className="mt-2 group-hover:text-accent-foreground">
+      <div className="mt-2 line-clamp-4 group-hover:text-accent-foreground">
         {content.slice(0, 4).map((line, index) => (
           <p key={index}>{line}</p>
         ))}
       </div>
 
-      {content.length > 8 && (
-        <div className="flex justify-between">
-          <p className="text-sm text-muted-foreground">......</p>
-        </div>
-      )}
       <Link
         href={`/poem/${poem.id}`}
         title="查看详情"
