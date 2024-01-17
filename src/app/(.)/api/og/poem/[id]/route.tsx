@@ -1,10 +1,18 @@
+import { notFound } from "next/navigation";
 import { ImageResponse } from "next/og";
+import { api } from "~/trpc/server";
 
 // Image generation
 export async function GET(
-  request: Request,
-  { params }: { params: { id: string } },
+  _request: Request,
+  { params }: { params: { id: number } },
 ) {
+  const poem = await api.poem.findById.query(Number(params.id));
+
+  if (!poem) return notFound();
+
+  const content = poem.content.split("。");
+
   return new ImageResponse(
     (
       <div
@@ -21,23 +29,12 @@ export async function GET(
           position: "relative",
         }}
       >
-        <p style={{ fontSize: 96, color: "rgb(250, 250, 250)" }}>滁州西涧</p>
-        <p style={{ fontSize: 48, color: "rgb(161, 161, 170)" }}>
-          独怜幽草涧边生，上有黄鹂深树鸣。{JSON.stringify(params)}
+        <p style={{ fontSize: 96, color: "#fff" }}>{poem.title}</p>
+        <p style={{ fontSize: 24, color: "#ddd", marginTop: -12 }}>
+          {poem.author.dynasty}·{poem.author.name}
         </p>
-        <p style={{ fontSize: 48, color: "rgb(161, 161, 170)" }}>
-          春潮带雨晚来急，野渡无人舟自横。
-        </p>
-        <span
-          style={{
-            color: "rgb(37, 99, 235)",
-            position: "absolute",
-            right: 20,
-            bottom: 20,
-          }}
-        >
-          aspoem.com
-        </span>
+        <p style={{ fontSize: 48, color: "#ddd" }}>{content[0]}。</p>
+        <p style={{ fontSize: 48, color: "#ddd" }}>{content[1]}。</p>
       </div>
     ),
     {

@@ -44,8 +44,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${poem.title}@${poem.author.name}${dynasty ? `·${dynasty}` : ""}`,
-    description: `${poem.content.substring(0, 100)} `,
+    description: `${poem.content.substring(0, 50).replace(/\n/g, "")} `,
     keywords,
+    twitter: {
+      images: `/api/og/poem/${params.id}`,
+    },
+    openGraph: {
+      images: `/api/og/poem/${params.id}`,
+    },
   };
 }
 
