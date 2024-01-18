@@ -56,7 +56,7 @@ export default function CommandDemo() {
           </kbd>
         </Button>
       </DialogTrigger>
-      <DialogContent className="h-[488px] max-w-screen-sm p-0 text-base">
+      <DialogContent className="h-[488px] max-w-screen-md p-0 text-lg">
         <Command>
           <CommandInput
             placeholder="查找作者、诗词、名句..."
@@ -90,7 +90,7 @@ export default function CommandDemo() {
                         }),
                       }}
                     />
-                    <span className="mx-1 text-muted-foreground">/</span>
+                    <span className="mx-0.5 text-muted-foreground/50">|</span>
                     <span
                       onClick={(e) => {
                         e.stopPropagation();
@@ -106,7 +106,9 @@ export default function CommandDemo() {
                     />
                     {value && content && (
                       <span className="line-clamp-1 flex-1">
-                        <span className="mx-1">/</span>
+                        <span className="mx-0.5 text-muted-foreground/50">
+                          |
+                        </span>
                         <span
                           className="text-base-content/60"
                           dangerouslySetInnerHTML={{
