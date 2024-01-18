@@ -6,18 +6,18 @@ import { api } from "~/trpc/server";
 import PinYinText from "./components/PinYinText";
 import { type Metadata } from "next";
 import { cache } from "react";
-import dynamic from "next/dynamic";
 import { Button } from "~/components/ui/button";
 import { cn } from "~/utils";
+import dynamic from "next/dynamic";
+
+const Twikoo = dynamic(() => import("./components/twikoo"), {
+  ssr: false,
+});
 
 type Props = {
   params: { id: string };
   searchParams: { py?: string };
 };
-
-const MyGiscus = dynamic(() => import("./components/my-giscus"), {
-  ssr: false,
-});
 
 const getItem = cache(async (id: string) => {
   const poem = await api.poem.findById.query(Number(id));
@@ -187,7 +187,7 @@ export default async function Page({ params, searchParams }: Props) {
         </p>
 
         <div className="mt-12">
-          <MyGiscus />
+          <Twikoo />
         </div>
       </article>
 

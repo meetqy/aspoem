@@ -1,9 +1,9 @@
 "use client";
 
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import "./index.css";
 
-const Twikoo: React.FC = () => {
+export default function Twikoo() {
   useEffect(() => {
     // 通过 CDN 引入 twikoo js 文件
     const cdnScript = document.createElement("script");
@@ -44,12 +44,4 @@ const Twikoo: React.FC = () => {
   }, []);
 
   return <div id="twikoo-comment"></div>;
-};
-
-export default function Page() {
-  return (
-    <div className="container max-w-screen-md font-serif">
-      <Twikoo />
-    </div>
-  );
 }
