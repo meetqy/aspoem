@@ -173,7 +173,7 @@ export default async function Page({ params, searchParams }: Props) {
           ),
         )}
 
-        <h2 id="#畅所欲言" prose-h2="" className="mt-8">
+        {/* <h2 id="#畅所欲言" prose-h2="" className="mt-8">
           畅所欲言
         </h2>
         <p prose-p="">
@@ -184,7 +184,7 @@ export default async function Page({ params, searchParams }: Props) {
         <p prose-p="">
           <InfoIcon className="-mt-1 mr-2 inline-block text-blue-500" />
           发现错误，也可以在下方留言，指正哦！
-        </p>
+        </p> */}
 
         {/* <div className="mt-12">
           <MyGiscus />
