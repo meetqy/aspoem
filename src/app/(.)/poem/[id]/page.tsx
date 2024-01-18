@@ -124,15 +124,17 @@ export default async function Page({ params, searchParams }: Props) {
           </Link>
         </h2>
 
-        <blockquote
-          prose-blockquote=""
-          className={cn(
-            "bg-muted/70 py-2 text-left text-lg !not-italic text-muted-foreground",
-            showPinYin ? "mb-12" : "mb-6",
-          )}
-        >
-          {poem.introduce}
-        </blockquote>
+        {poem.introduce && (
+          <blockquote
+            prose-blockquote=""
+            className={cn(
+              "bg-muted/70 py-2 text-left text-lg !not-italic text-muted-foreground",
+              showPinYin ? "mb-12" : "mb-6",
+            )}
+          >
+            {poem.introduce}
+          </blockquote>
+        )}
 
         {/* 内容 */}
         {blockArray.map((block, index) => {
