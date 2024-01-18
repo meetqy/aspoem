@@ -6,7 +6,7 @@ import { api } from "~/trpc/server";
 import PinYinText from "./components/PinYinText";
 import { type Metadata } from "next";
 import { cache } from "react";
-// import dynamic from "next/dynamic";
+import dynamic from "next/dynamic";
 import { Button } from "~/components/ui/button";
 import { cn } from "~/utils";
 
@@ -15,9 +15,9 @@ type Props = {
   searchParams: { py?: string };
 };
 
-// const MyGiscus = dynamic(() => import("./components/my-giscus"), {
-//   ssr: false,
-// });
+const MyGiscus = dynamic(() => import("./components/my-giscus"), {
+  ssr: false,
+});
 
 const getItem = cache(async (id: string) => {
   const poem = await api.poem.findById.query(Number(id));
@@ -173,7 +173,7 @@ export default async function Page({ params, searchParams }: Props) {
           ),
         )}
 
-        {/* <h2 id="#畅所欲言" prose-h2="" className="mt-8">
+        <h2 id="#畅所欲言" prose-h2="" className="mt-8">
           畅所欲言
         </h2>
         <p prose-p="">
@@ -184,11 +184,11 @@ export default async function Page({ params, searchParams }: Props) {
         <p prose-p="">
           <InfoIcon className="-mt-1 mr-2 inline-block text-blue-500" />
           发现错误，也可以在下方留言，指正哦！
-        </p> */}
+        </p>
 
-        {/* <div className="mt-12">
+        <div className="mt-12">
           <MyGiscus />
-        </div> */}
+        </div>
       </article>
 
       <footer className="h-16"></footer>
