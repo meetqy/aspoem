@@ -126,7 +126,10 @@ export default async function Page({ params, searchParams }: Props) {
 
         <blockquote
           prose-blockquote=""
-          className={cn("text-left text-base", showPinYin ? "mb-12" : "mb-6")}
+          className={cn(
+            "bg-muted/70 py-2 text-left text-lg !not-italic text-muted-foreground",
+            showPinYin ? "mb-12" : "mb-6",
+          )}
         >
           {poem.introduce}
         </blockquote>
