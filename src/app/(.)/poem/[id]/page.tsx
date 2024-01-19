@@ -64,6 +64,10 @@ export default async function Page({ params, searchParams }: Props) {
 
   const blockArray = poem.content.split("\n\n");
 
+  const annotation = JSON.parse(poem.annotation ?? "{}") as {
+    [key in string]: string;
+  };
+
   return (
     <>
       <HeaderMain>
@@ -108,7 +112,7 @@ export default async function Page({ params, searchParams }: Props) {
           pinyin={showPinYin ? poem.titlePinYin ?? "" : ""}
           type="h1"
         />
-        <h2 prose-h2="" className="mt-6 !border-0">
+        <h2 prose-h2="" className={cn("mt-6 !border-0", showPinYin && "mb-6")}>
           {poem.author.dynasty && (
             <span className="font-light">{poem.author.dynasty} · </span>
           )}
@@ -156,6 +160,7 @@ export default async function Page({ params, searchParams }: Props) {
                   text={line}
                   align={poem.genre === "词" ? "left" : "center"}
                   pinyin={showPinYin ? blockPinYin?.split("\n")[index] : ""}
+                  annotation={annotation}
                 />
               ))}
             </>

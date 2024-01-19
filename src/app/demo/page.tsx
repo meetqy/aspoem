@@ -21,6 +21,11 @@ export default function Page() {
         text={`悄庭户。试细听、莺啼燕语。分明共人愁绪。怕春去。`}
         pinyin={`qiāo tíng hù . shì xì tīng . yīng tí yàn yǔ . fēn míng gòng rén chóu xù . pà chūn qù . `}
         annotation={{
+          赖: "依靠",
+          倩: "请、托",
+          住: "停止，不动了。",
+          妖娆: `妖媚艳丽。形容景色异常艳丽。 一作“娇饶“。`,
+          处: "时候，季节",
           莺啼燕语: "莺啼婉转，燕语呢喃。形容春光明媚。",
         }}
       />

@@ -29,7 +29,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           ))}
         </nav>
       </aside>
-      <main className="m-auto min-h-screen max-w-screen-lg flex-1 py-8">
+      <main className="m-auto min-h-screen max-w-screen-xl flex-1 py-8">
         {children}
       </main>
     </div>

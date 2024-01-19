@@ -11,7 +11,7 @@
   }
 
   .char_annotation {
-    @apply cursor-pointer text-blue-900;
+    @apply cursor-pointer text-blue-800 dark:text-blue-400;
   }
 
   &.pinyin_h1 {

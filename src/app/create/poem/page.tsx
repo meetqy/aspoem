@@ -42,6 +42,9 @@ export default function CreatePage() {
   const token = params.get("token") ?? "";
   const router = useRouter();
   const id = params.get("id") ?? "";
+  const [annotations, setAnnotations] = useState<
+    { keyword: string; content: string }[]
+  >([]);
 
   const { data: poem } = api.poem.findById.useQuery(Number(id), {
     refetchOnWindowFocus: false,
@@ -92,6 +95,7 @@ export default function CreatePage() {
           setContentPinYin("");
           setIntroduce("");
           setTranslation("");
+          setAnnotations([]);
         } else {
           mutation.isSame.mutate({
             title,
@@ -129,6 +133,21 @@ export default function CreatePage() {
       setClassify(poem.classify ?? "");
       setGenre(poem.genre ?? "");
       setTranslation(poem?.translation ?? "");
+
+      const json = JSON.parse(poem.annotation ?? "{}") as {
+        [key in string]: string;
+      };
+
+      const arr: typeof annotations = [];
+
+      for (const key in json) {
+        arr.push({
+          keyword: key,
+          content: json[key] || "",
+        });
+      }
+
+      setAnnotations(arr);
     }
   }, [poem]);
 
@@ -168,6 +187,7 @@ export default function CreatePage() {
             onClick={() => {
               setTitle(simplized(title));
               setContent(simplized(content));
+              setTranslation(simplized(translation));
             }}
           >
             繁转简
@@ -176,182 +196,257 @@ export default function CreatePage() {
         <p className="text-muted-foreground">
           Fill out the details htmlFor your new poem
         </p>
-        <p></p>
       </div>
       <div className="space-y-4 p-6">
-        <div className="space-y-2">
-          <label
-            className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-            htmlFor="title"
-          >
-            <span className="text-red-500">*</span> 标题
-          </label>
-          <Input
-            placeholder="输入标题"
-            required
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
-          />
-        </div>
-        <div className="space-y-2">
-          <label
-            className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-            htmlFor="title"
-          >
-            <span className="text-red-500">*</span> 标题
-            <span className="text-primary">（拼音）</span>
-          </label>
-          <Input
-            placeholder="输入标题（拼音）"
-            required
-            value={titlePinYin}
-            onChange={(e) => setTitlePinYin(e.target.value)}
-          />
-        </div>
-
-        <div className="space-y-2">
-          <label
-            className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-            htmlFor="author"
-          >
-            <span className="text-red-500">*</span> 作者
-          </label>
-
-          {authors && (
-            <SearchSelect
-              onChange={(framework) => {
-                setAuthorId(framework.id);
-              }}
-              defaultValue={{
-                ...authorItem,
-                value: authorItem?.name ?? "",
-                name: authorItem?.name ?? "",
-                id: authorItem?.id ?? -1,
-              }}
-              frameworks={authors.map((item) => ({
-                value: item.name,
-                name: item.name,
-                id: item.id,
-              }))}
+        {/* 名字 */}
+        <div className="grid grid-cols-2 gap-x-4">
+          <div className="space-y-2">
+            <label
+              className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              htmlFor="title"
+            >
+              <span className="text-red-500">*</span> 标题
+            </label>
+            <Input
+              placeholder="输入标题"
+              required
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
             />
-          )}
+          </div>
+          <div className="space-y-2">
+            <label
+              className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              htmlFor="title"
+            >
+              <span className="text-red-500">*</span> 标题
+              <span className="text-primary">（拼音）</span>
+            </label>
+            <Input
+              placeholder="输入标题（拼音）"
+              required
+              value={titlePinYin}
+              onChange={(e) => setTitlePinYin(e.target.value)}
+            />
+          </div>
+        </div>
+
+        {/* 作者 体裁 */}
+        <div className="grid grid-cols-2 gap-x-4">
+          <div className="space-y-2">
+            <label
+              className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              htmlFor="author"
+            >
+              <span className="text-red-500">*</span> 作者
+            </label>
+            {authors && (
+              <SearchSelect
+                onChange={(framework) => {
+                  setAuthorId(framework.id);
+                }}
+                defaultValue={{
+                  ...authorItem,
+                  value: authorItem?.name ?? "",
+                  name: authorItem?.name ?? "",
+                  id: authorItem?.id ?? -1,
+                }}
+                frameworks={authors.map((item) => ({
+                  value: item.name,
+                  name: item.name,
+                  id: item.id,
+                }))}
+              />
+            )}
+          </div>
+
+          <div className="space-y-2">
+            <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+              体裁
+            </label>
+
+            <Select value={genre} onValueChange={(val) => setGenre(val)}>
+              <SelectTrigger>
+                <SelectValue placeholder="选择体裁" />
+              </SelectTrigger>
+              <SelectContent>
+                {_genre.map((item) => (
+                  <SelectItem value={item} key={item}>
+                    {item}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+        </div>
+
+        {/* 内容 */}
+        <div className="grid grid-cols-2 gap-x-4">
+          <div className="space-y-2">
+            <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+              <span className="text-red-500">*</span> 内容
+            </label>
+            <Textarea
+              placeholder="输入内容"
+              required
+              value={content}
+              className="h-32"
+              onChange={(e) => setContent(e.target.value)}
+            />
+          </div>
+
+          <div className="space-y-2">
+            <label
+              className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              htmlFor="content"
+            >
+              内容
+              <span className="text-primary">（拼音）</span>
+            </label>
+            <Textarea
+              placeholder="内容"
+              required
+              className="h-32"
+              value={contentPinYin}
+              onChange={(e) => setContentPinYin(e.target.value)}
+            />
+          </div>
+        </div>
+
+        <div className="grid grid-cols-2 gap-x-4">
+          <div className="space-y-2">
+            <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+              译文
+            </label>
+            <Textarea
+              placeholder="白话文"
+              required
+              value={translation}
+              onChange={(e) => setTranslation(e.target.value)}
+            />
+          </div>
+          <div className="space-y-2">
+            <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+              补充介绍
+            </label>
+            <Textarea
+              placeholder="诗词前面的介绍"
+              required
+              value={introduce}
+              onChange={(e) => setIntroduce(e.target.value)}
+            />
+          </div>
         </div>
 
         <div className="space-y-2">
           <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-            <span className="text-red-500">*</span> 内容
+            注解{" "}
+            <Button
+              size={"sm"}
+              onClick={() => {
+                setAnnotations([...annotations, { keyword: "", content: "" }]);
+              }}
+            >
+              添加注解
+            </Button>
           </label>
-          <Textarea
-            placeholder="输入内容"
-            required
-            value={content}
-            onChange={(e) => setContent(e.target.value)}
-          />
+          <div className="grid grid-cols-4 gap-4">
+            {annotations.map((item, index) => (
+              <>
+                <div className="col-span-1 flex items-center space-x-2">
+                  <Button
+                    size={"sm"}
+                    variant={"outline"}
+                    className="h-8 w-8 rounded-full"
+                    onClick={() => {
+                      const newAnnotations = [...annotations];
+                      newAnnotations.splice(index, 1);
+                      setAnnotations(newAnnotations);
+                    }}
+                  >
+                    -
+                  </Button>
+                  <Input
+                    placeholder="关键词"
+                    required
+                    value={item.keyword}
+                    onChange={(e) => {
+                      const newAnnotations = [...annotations];
+                      newAnnotations[index]!.keyword = e.target.value;
+                      setAnnotations(newAnnotations);
+                    }}
+                  />
+                </div>
+
+                <Input
+                  className="col-span-3"
+                  placeholder="解释"
+                  required
+                  value={item.content}
+                  onChange={(e) => {
+                    const newAnnotations = [...annotations];
+                    newAnnotations[index]!.content = e.target.value;
+                    setAnnotations(newAnnotations);
+                  }}
+                />
+              </>
+            ))}
+          </div>
         </div>
 
-        <div className="space-y-2">
-          <label
-            className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-            htmlFor="content"
+        <div className="grid grid-cols-2 gap-x-4">
+          <Button
+            className="btn w-full"
+            variant="destructive"
+            onClick={() => {
+              window.confirm("Are you sure you wish to delete this item?")
+                ? mutation.deletePoem.mutate({
+                    id: Number(id),
+                    token,
+                  })
+                : null;
+            }}
           >
-            内容
-            <span className="text-primary">（拼音）</span>
-          </label>
-          <Textarea
-            placeholder="内容"
-            required
-            value={contentPinYin}
-            onChange={(e) => setContentPinYin(e.target.value)}
-          />
+            Delete Poem
+          </Button>
+          <Button
+            className="w-full"
+            variant={"default"}
+            onClick={() => {
+              if (!title || !content || authorId === -1) {
+                alert("Please fill out all the fields");
+                return;
+              }
+
+              const json: { [key in string]: string } = {};
+
+              annotations.forEach((item) => {
+                json[item.keyword] = item.content;
+              });
+
+              mutation.createPoem.mutate({
+                id: id ? Number(id) : undefined,
+                token,
+                title,
+                titlePinYin: titlePinYin.replace(/(\s+)?·/g, " ."),
+                contentPinYin: contentPinYin.replace(
+                  /(\s+)?(\.|,|!|、|！|。|，|；)/g,
+                  " .",
+                ),
+                content,
+                authorId,
+                tagIds,
+                classify,
+                genre,
+                introduce,
+                translation,
+                annotation: JSON.stringify(json),
+              });
+            }}
+          >
+            Save Poem
+          </Button>
         </div>
-
-        <div className="space-y-2">
-          <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-            译文
-          </label>
-          <Textarea
-            placeholder="白话文"
-            required
-            value={translation}
-            onChange={(e) => setTranslation(e.target.value)}
-          />
-        </div>
-
-        <div className="space-y-2">
-          <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-            体裁
-          </label>
-
-          <Select value={genre} onValueChange={(val) => setGenre(val)}>
-            <SelectTrigger>
-              <SelectValue placeholder="选择体裁" />
-            </SelectTrigger>
-            <SelectContent>
-              {_genre.map((item) => (
-                <SelectItem value={item} key={item}>
-                  {item}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        </div>
-
-        <div className="space-y-2">
-          <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-            补充介绍
-          </label>
-          <Textarea
-            placeholder="诗词前面的介绍"
-            required
-            value={introduce}
-            onChange={(e) => setIntroduce(e.target.value)}
-          />
-        </div>
-
-        <Button
-          className="w-full"
-          variant={"default"}
-          onClick={() => {
-            if (!title || !content || authorId === -1) {
-              alert("Please fill out all the fields");
-              return;
-            }
-
-            mutation.createPoem.mutate({
-              id: id ? Number(id) : undefined,
-              token,
-              title,
-              titlePinYin: titlePinYin.replace(/(\s+)?·/g, " ."),
-              contentPinYin: contentPinYin.replace(
-                /(\s+)?(\.|,|!|、|！|。|，|；)/g,
-                " .",
-              ),
-              content,
-              authorId,
-              tagIds,
-              classify,
-              genre,
-              introduce,
-              translation,
-            });
-          }}
-        >
-          Save Poem
-        </Button>
-        <Button
-          className="btn w-full"
-          variant="destructive"
-          onClick={() => {
-            window.confirm("Are you sure you wish to delete this item?")
-              ? mutation.deletePoem.mutate({
-                  id: Number(id),
-                  token,
-                })
-              : null;
-          }}
-        >
-          Delete Poem
-        </Button>
       </div>
     </>
   );

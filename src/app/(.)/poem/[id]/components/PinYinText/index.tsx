@@ -20,7 +20,13 @@ interface Props {
 const _pinyinNoShowChar = ["."];
 
 function _getText(text: string, annotation: string[]) {
+  const newAnnotation: string[] = [];
+
   annotation.forEach((item) => {
+    if (text.includes(item)) {
+      newAnnotation.push(item);
+    }
+
     text = text.replace(item, "$");
   });
 
@@ -31,7 +37,7 @@ function _getText(text: string, annotation: string[]) {
   return result.map((item) => {
     if (item === "$") {
       i++;
-      return annotation[i - 1] || "";
+      return newAnnotation[i - 1] || "";
     }
 
     return item;
@@ -124,7 +130,7 @@ const PinYinText = (props: Props) => {
   };
 
   return (
-    <TagName
+    <div
       {...{
         "prose-h1": props.type === "h1" ? "" : undefined,
         "prose-p": props.type === "p" ? "" : undefined,
@@ -148,7 +154,7 @@ const PinYinText = (props: Props) => {
       )}
 
       <Content />
-    </TagName>
+    </div>
   );
 };
 

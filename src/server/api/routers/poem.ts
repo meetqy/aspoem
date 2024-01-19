@@ -177,6 +177,7 @@ export const poemRouter = createTRPCRouter({
         genre: z.string().optional(),
         introduce: z.string().optional(),
         translation: z.string().optional(),
+        annotation: z.string().optional(),
       }),
     )
     .mutation(async ({ input, ctx }) => {
@@ -206,6 +207,7 @@ export const poemRouter = createTRPCRouter({
             genre: input.genre,
             introduce: input.introduce,
             translation: input.translation,
+            annotation: input.annotation,
             tags: input.tagIds && {
               connect: input.tagIds.map((id) => ({ id })),
             },

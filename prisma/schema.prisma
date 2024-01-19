@@ -20,6 +20,8 @@ model Poem {
     contentPinYin String?
     introduce     String?
     translation   String?
+    // 注解 JSON 字符串 {文字: 解释}
+    annotation    String?
     author        Author    @relation(fields: [authorId], references: [id])
     authorId      Int
     // 内容分类：叙事诗、抒情诗、送别诗、边塞诗、山水田园诗、咏史诗、咏物诗、悼亡诗、讽喻诗
