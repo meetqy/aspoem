@@ -8,10 +8,20 @@ import Script from "next/script";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "学习中国古诗词 - aspoem.com",
-  description: `让我们一起来学习中国古诗词吧！快速查找诗词，拼音标注，现代化网页设计便于阅读。`,
+  title: "AsPoem.com - 现代化中国诗词学习网站",
+  description: `aspoem.com是一个现代化的中国诗词学习网站，为用户提供全站搜索诗词、拼音标注、注释和白话文翻译等功能。无论您是对唐诗宋词感兴趣，还是想深入学习古代诗词的欣赏与解读，aspoem.com都是您的理想选择。我们致力于为用户提供丰富的诗词学习资源，帮助您更好地理解和鉴赏中国古典文学的精华。不仅如此，我们还推荐优质的诗词学习工具和下载资源，助您在诗词学习的道路上更上一层楼。欢迎您来到aspoem.com，开始您的中国诗词之旅！`,
   icons: [{ rel: "icon", url: "/favicon.ico" }],
-  keywords: ["中国古诗词", "拼音", "学习", "诗词", "古诗词", "aspoem.com"],
+  keywords: [
+    "中国诗词学习",
+    "现代化诗词网站",
+    "全站搜索诗词",
+    "拼音标注诗词",
+    "注释诗词",
+    "白话文翻译诗词",
+    "诗词学习资源",
+    "学习唐诗宋词",
+    "诗词学习网站推荐",
+  ],
   metadataBase: new URL("https://aspoem.com"),
   twitter: {
     creator: "@meetqy",

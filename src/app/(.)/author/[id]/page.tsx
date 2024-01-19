@@ -40,8 +40,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${author.name}·${author.dynasty}的所有诗词`,
-    description: `${author.introduce} `,
-    keywords,
+    description: `${author.name}的诗有哪些？${author.name}出生日期，死亡日期。`,
+    keywords: [
+      author.name,
+      "诗词",
+      "作品精选",
+      `${author.name}的经典诗词`,
+      `${author.name}的诗词与${author.dynasty}代文学`,
+      `${author.name}的豪放诗风与独特创作风格`,
+    ],
   };
 }
 
