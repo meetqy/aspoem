@@ -1,4 +1,9 @@
 import { cn } from "~/utils";
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "~/components/ui/hover-card";
 import "./index.css";
 
 interface Props {
@@ -6,14 +11,40 @@ interface Props {
   pinyin?: string;
   type?: "h1" | "p";
   align?: "center" | "left";
+  annotation?: { [key in string]: string };
 }
 
-const noShowChar = ["."];
+/**
+ * 拼音不需要显示的字符
+ */
+const _pinyinNoShowChar = ["."];
 
-export default function PinYinText(props: Props) {
+function _getText(text: string, annotation: string[]) {
+  annotation.forEach((item) => {
+    text = text.replace(item, "$");
+  });
+
+  const result = text.split("");
+
+  let i = 0;
+
+  return result.map((item) => {
+    if (item === "$") {
+      i++;
+      return annotation[i - 1] || "";
+    }
+
+    return item;
+  });
+}
+
+const PinYinText = (props: Props) => {
   const TagName = props.type ?? "p";
   const pinyinArray = props.pinyin?.split(" ") ?? [];
-  const text = props.text.split("");
+
+  const annotationKeys = Object.keys(props.annotation ?? {});
+
+  const text = _getText(props.text, annotationKeys);
 
   const PinYin = ({ children }: { children: React.ReactNode }) => {
     return (
@@ -21,6 +52,75 @@ export default function PinYinText(props: Props) {
         {children}
       </span>
     );
+  };
+
+  const Content = () => {
+    let pinyinIndex = 0;
+
+    const render = (text: string[]) => {
+      return text.map((item, i) => {
+        const py = pinyinArray[pinyinIndex] ?? "";
+
+        if (item.length > 1) {
+          const chlild = item.split("");
+          return (
+            <HoverCard key={i} openDelay={400}>
+              <HoverCardTrigger>
+                <b className="char_annotation underline-animation !from-blue-900 !to-blue-50">
+                  {render(chlild)}
+                </b>
+              </HoverCardTrigger>
+              <HoverCardContent>
+                {props.annotation?.[item] ?? "暂无注释"}
+              </HoverCardContent>
+            </HoverCard>
+          );
+        }
+
+        pinyinIndex++;
+
+        if (annotationKeys.includes(item)) {
+          return (
+            <HoverCard key={i} openDelay={400}>
+              <HoverCardTrigger>
+                <span
+                  data-text=""
+                  key={i}
+                  className={cn(
+                    /，|。|？|·/.test(item) && "!-px-1.5 !-mx-2",
+                    annotationKeys.includes(item) &&
+                      "underline-animation char_annotation",
+                  )}
+                >
+                  <b>{item}</b>
+                  {!_pinyinNoShowChar.includes(py) && <PinYin>{py}</PinYin>}
+                </span>
+              </HoverCardTrigger>
+              <HoverCardContent>
+                {props.annotation?.[item] ?? "暂无注释"}
+              </HoverCardContent>
+            </HoverCard>
+          );
+        }
+
+        return (
+          <span
+            data-text=""
+            key={i}
+            className={cn(
+              /，|。|？|·/.test(item) && "!-px-1.5 !-mx-2",
+              annotationKeys.includes(item) &&
+                "underline-animation char_annotation",
+            )}
+          >
+            {item}
+            {!_pinyinNoShowChar.includes(py) && <PinYin>{py}</PinYin>}
+          </span>
+        );
+      });
+    };
+
+    return render(text);
   };
 
   return (
@@ -31,8 +131,7 @@ export default function PinYinText(props: Props) {
         className: cn(
           "pinyin",
           `pinyin_${TagName}`,
-          props.align === "left" && "pinyin_p--left",
-          props.align === "center" && "pinyin_p--center",
+          `pinyin_p--${props.align}`,
           props.pinyin && "pinyin_show",
         ),
       }}
@@ -47,22 +146,14 @@ export default function PinYinText(props: Props) {
           </span>
         </>
       )}
-      {text.map((item, i) => (
-        <span
-          data-text=""
-          key={i}
-          className={cn(/，|。|？|·/.test(item) ? "!-px-1.5 !-mx-2" : "")}
-        >
-          {item}
-          {!noShowChar.includes(pinyinArray[i] ?? "") && (
-            <PinYin>{pinyinArray[i]}</PinYin>
-          )}
-        </span>
-      ))}
+
+      <Content />
     </TagName>
   );
-}
+};
 
-PinYinText.defaultProps = {
+export const defaultProps = {
   align: "center",
-} as Partial<Props>;
+} satisfies Partial<Props>;
+
+export default PinYinText;

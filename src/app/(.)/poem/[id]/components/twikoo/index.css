@@ -1,7 +1,3 @@
 .twikoo {
   @apply font-serif;
 }
-
-.tk-row-actions-start {
-  @apply !hidden;
-}

@@ -1,55 +1,29 @@
 "use client";
 
-import React, { useEffect } from "react";
-import "./index.css";
-
-const Twikoo: React.FC = () => {
-  useEffect(() => {
-    // 通过 CDN 引入 twikoo js 文件
-    const cdnScript = document.createElement("script");
-    cdnScript.src =
-      "https://cdn.staticfile.org/twikoo/1.6.30/twikoo.all.min.js";
-    cdnScript.async = true;
-
-    const loadSecondScript = () => {
-      // 执行 twikoo.init() 函数
-      const initScript = document.createElement("script");
-      initScript.innerHTML = `
-            twikoo.init({
-              envId: "https://twikoo.aspoem.com/.netlify/functions/twikoo",
-              el: '#twikoo-comment',
-              lang: "zh-CN",
-            });
-          `;
-      initScript.id = "twikoo-init-id"; // 添加唯一的 ID
-      document.body.appendChild(initScript);
-    };
-
-    // 在 twikoo js 文件加载完成后，再加载执行 twikoo.init() 函数的 js 文件
-    cdnScript.addEventListener("load", loadSecondScript);
-    document.body.appendChild(cdnScript);
-
-    return () => {
-      if (loadSecondScript) {
-        cdnScript.removeEventListener("load", loadSecondScript);
-      }
-      if (cdnScript) {
-        document.body.removeChild(cdnScript);
-      }
-      const secondScript = document.querySelector("#twikoo-init-id");
-      if (secondScript) {
-        document.body.removeChild(secondScript);
-      }
-    };
-  }, []);
-
-  return <div id="twikoo-comment"></div>;
-};
+import PinYinText from "../(.)/poem/[id]/components/PinYinText";
 
 export default function Page() {
   return (
-    <div className="container max-w-screen-md font-serif">
-      <Twikoo />
-    </div>
+    <>
+      <PinYinText
+        text={`夜来雨。赖倩得、东风吹住。海棠正妖娆处。且留取。`}
+        pinyin={`yè lái yǔ . lài qiàn dé . dōng fēng chuī zhù . hǎi táng zhèng yāo ráo chù . qiě liú qǔ . `}
+        annotation={{
+          赖: "依靠",
+          倩: "请、托",
+          住: "停止，不动了。",
+          妖娆: `妖媚艳丽。形容景色异常艳丽。 一作“娇饶“。`,
+          处: "时候，季节",
+        }}
+      />
+
+      <PinYinText
+        text={`悄庭户。试细听、莺啼燕语。分明共人愁绪。怕春去。`}
+        pinyin={`qiāo tíng hù . shì xì tīng . yīng tí yàn yǔ . fēn míng gòng rén chóu xù . pà chūn qù . `}
+        annotation={{
+          莺啼燕语: "莺啼婉转，燕语呢喃。形容春光明媚。",
+        }}
+      />
+    </>
   );
 }

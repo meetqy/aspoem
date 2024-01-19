@@ -10,6 +10,10 @@
     @apply absolute left-0 top-0 w-full text-center tracking-tight;
   }
 
+  .char_annotation {
+    @apply cursor-pointer text-blue-900;
+  }
+
   &.pinyin_h1 {
     [data-text] {
       @apply pt-6 text-7xl;
