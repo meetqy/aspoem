@@ -44,7 +44,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${poem.title}@${poem.author.name}${dynasty ? `·${dynasty}` : ""}`,
-    description: `${poem.content.substring(0, 50).replace(/\n/g, "")} `,
+    description: `《${
+      poem.title
+    }》拼音、注释、白话文。${poem.introduce?.substring(0, 50)}`,
     keywords,
     twitter: {
       images: `/api/og/poem/${params.id}`,
