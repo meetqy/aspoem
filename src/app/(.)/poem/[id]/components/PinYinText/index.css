@@ -2,7 +2,7 @@
   @apply transition-all duration-300;
 
   [data-text] {
-    @apply relative mx-0 inline-flex items-end justify-center px-1.5;
+    @apply relative mx-0 inline-flex items-center justify-center px-1.5;
   }
 
   [data-pinyin] {
@@ -15,6 +15,12 @@
   }
 
   &.pinyin_h1 {
+    @apply transition-all;
+
+    &.pinyin_show {
+      /* @apply leading-[6rem]; */
+    }
+
     [data-text] {
       @apply pt-6 text-7xl;
     }
@@ -25,10 +31,18 @@
   }
 
   &.pinyin_p {
-    /* 词 左对齐 */
-    &.pinyin_p--left {
-      @apply text-left;
+    &:not(:last-child) {
+      @apply mb-3;
+    }
 
+    &.pinyin_show {
+      &:not(:last-child) {
+        @apply mb-6;
+      }
+    }
+
+    /* 缩进 */
+    &.pinyin_retract {
       &:not(:last-child) {
         @apply mb-6;
       }
@@ -38,21 +52,6 @@
 
         &:not(:last-child) {
           @apply mb-12;
-        }
-      }
-    }
-
-    /* 诗 居中对齐 */
-    &.pinyin_p--center {
-      @apply text-center;
-
-      &:not(:last-child) {
-        @apply mb-3;
-      }
-
-      &.pinyin_show {
-        &:not(:last-child) {
-          @apply mb-6;
         }
       }
     }

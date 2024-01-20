@@ -61,7 +61,6 @@ export default async function Page({ params, searchParams }: Props) {
   const poem = await getItem(params.id);
 
   const contentPinYin = poem.contentPinYin?.split("\n\n") ?? [];
-
   const showPinYin = searchParams.py === "t" ? true : false;
 
   const blockArray = poem.content.split("\n\n");
@@ -108,7 +107,7 @@ export default async function Page({ params, searchParams }: Props) {
         </div>
       </HeaderMain>
 
-      <article className="p-8 text-center">
+      <article className="py-8 text-center">
         <PinYinText
           text={poem.title}
           pinyin={showPinYin ? poem.titlePinYin ?? "" : ""}
@@ -146,6 +145,9 @@ export default async function Page({ params, searchParams }: Props) {
         {blockArray.map((block, index) => {
           const blockPinYin = contentPinYin[index];
 
+          // 最大行的字数 大于 18个字 就缩进
+          const retract = block.split("\n").find((item) => item.length > 18);
+
           return (
             <>
               {blockArray.length > 1
@@ -156,21 +158,24 @@ export default async function Page({ params, searchParams }: Props) {
                   )
                 : null}
 
-              {block.split("\n").map((line, index) => (
-                <PinYinText
-                  key={index}
-                  text={line}
-                  align={poem.genre === "词" ? "left" : "center"}
-                  pinyin={showPinYin ? blockPinYin?.split("\n")[index] : ""}
-                  annotation={annotation}
-                />
-              ))}
+              {block.split("\n").map((line, index) => {
+                return (
+                  <PinYinText
+                    key={index}
+                    text={line}
+                    align={poem.genre === "词" ? "left" : "center"}
+                    retract={retract ? true : false}
+                    pinyin={showPinYin ? blockPinYin?.split("\n")[index] : ""}
+                    annotation={annotation}
+                  />
+                );
+              })}
             </>
           );
         })}
       </article>
 
-      <article className="chinese mt-8 px-4">
+      <article className="chinese mt-8">
         <h2 id="#译文" prose-h2="" className="text-left">
           译文
         </h2>

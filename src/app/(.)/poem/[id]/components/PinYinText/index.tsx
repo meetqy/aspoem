@@ -11,6 +11,7 @@ interface Props {
   pinyin?: string;
   type?: "h1" | "p";
   align?: "center" | "left";
+  retract?: boolean;
   annotation?: { [key in string]: string };
 }
 
@@ -130,19 +131,20 @@ const PinYinText = (props: Props) => {
   };
 
   return (
-    <div
+    <TagName
       {...{
         "prose-h1": props.type === "h1" ? "" : undefined,
         "prose-p": props.type === "p" ? "" : undefined,
         className: cn(
           "pinyin",
           `pinyin_${TagName}`,
-          `pinyin_p--${props.align}`,
+          props.align === "left" ? "text-left" : "text-center",
+          props.retract && "pinyin_retract",
           props.pinyin && "pinyin_show",
         ),
       }}
     >
-      {TagName === "p" && props.align === "left" && (
+      {TagName === "p" && props.retract && (
         <>
           <span data-text className="opacity-0">
             空
@@ -154,7 +156,7 @@ const PinYinText = (props: Props) => {
       )}
 
       <Content />
-    </div>
+    </TagName>
   );
 };
 
