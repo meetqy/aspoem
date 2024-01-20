@@ -17,9 +17,9 @@
   &.pinyin_h1 {
     @apply transition-all;
 
-    &.pinyin_show {
-      /* @apply leading-[6rem]; */
-    }
+    /* &.pinyin_show {
+      @apply leading-[6rem];
+    } */
 
     [data-text] {
       @apply pt-6 text-7xl;

@@ -69,6 +69,9 @@ export default async function Page({ params, searchParams }: Props) {
     [key in string]: string;
   };
 
+  poem.introduce =
+    "传入旅舍的捣衣声，应和着孤城城头的画角，一片秋声在广阔的天地间回荡。归去的燕子向东从海上飞走，南来的大雁自空中落下，栖息在沙滩上。这儿有楚王携宋玉游兰台时感受到的惬意的凉风，有庾亮与殷浩辈在南楼吟咏戏谑时的大好月色，清风明月的景象，还都与当年一样。";
+
   return (
     <>
       <HeaderMain>
@@ -113,7 +116,14 @@ export default async function Page({ params, searchParams }: Props) {
           pinyin={showPinYin ? poem.titlePinYin ?? "" : ""}
           type="h1"
         />
-        <h2 prose-h2="" className={cn("mt-6 !border-0", showPinYin && "mb-6")}>
+        <h2
+          prose-h2=""
+          className={cn(
+            "mt-6 !border-0",
+            showPinYin ? "mb-12" : "mb-6",
+            "transition-all",
+          )}
+        >
           {poem.author.dynasty && (
             <span className="font-light">{poem.author.dynasty} · </span>
           )}
@@ -133,7 +143,7 @@ export default async function Page({ params, searchParams }: Props) {
           <blockquote
             prose-blockquote=""
             className={cn(
-              "bg-muted/70 py-2 text-left text-lg !not-italic text-muted-foreground",
+              "bg-muted/70 py-2 text-left text-lg !not-italic text-muted-foreground transition-all",
               showPinYin ? "mb-12" : "mb-6",
             )}
           >
