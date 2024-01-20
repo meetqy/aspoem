@@ -60,10 +60,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function Page({ params, searchParams }: Props) {
   const poem = await getItem(params.id);
 
-  const contentPinYin = poem.contentPinYin?.split("\n\n") ?? [];
+  const contentPinYin = poem.contentPinYin?.split("\n") ?? [];
   const showPinYin = searchParams.py === "t" ? true : false;
+  const blockArray = poem.content.split("\n");
 
-  const blockArray = poem.content.split("\n\n");
+  // 最大行的字数 大于 18个字 就缩进
+  const retract = contentPinYin.find((item) => item.length > 18);
 
   const annotation = JSON.parse(poem.annotation ?? "{}") as {
     [key in string]: string;
@@ -152,35 +154,18 @@ export default async function Page({ params, searchParams }: Props) {
         )}
 
         {/* 内容 */}
-        {blockArray.map((block, index) => {
+        {blockArray.map((line, index) => {
           const blockPinYin = contentPinYin[index];
 
-          // 最大行的字数 大于 18个字 就缩进
-          const retract = block.split("\n").find((item) => item.length > 18);
-
           return (
-            <>
-              {blockArray.length > 1
-                ? index > 0 && (
-                    <p key={index} prose-p="" className="pinyin pinyin_p">
-                      <span data-text></span>
-                    </p>
-                  )
-                : null}
-
-              {block.split("\n").map((line, index) => {
-                return (
-                  <PinYinText
-                    key={index}
-                    text={line}
-                    align={poem.genre === "词" ? "left" : "center"}
-                    retract={retract ? true : false}
-                    pinyin={showPinYin ? blockPinYin?.split("\n")[index] : ""}
-                    annotation={annotation}
-                  />
-                );
-              })}
-            </>
+            <PinYinText
+              key={index}
+              text={line}
+              align={poem.genre === "词" ? "left" : "center"}
+              retract={retract ? true : false}
+              pinyin={showPinYin ? blockPinYin : ""}
+              annotation={annotation}
+            />
           );
         })}
       </article>
