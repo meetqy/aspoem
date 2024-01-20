@@ -1,4 +1,4 @@
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, PackageIcon } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Badge } from "~/components/ui/badge";
@@ -44,22 +44,22 @@ export default async function AuthorPage({
             ></Link>
             <div className="flex w-full items-center justify-between text-2xl font-bold">
               {item.name}
-              <div className="flex space-x-2 font-mono">
-                <Badge
-                  variant={"default"}
-                  className="flex aspect-square w-10 items-center justify-center text-sm"
-                >
+              <div className="flex items-center text-lg font-normal text-blue-500">
+                {item?._count.poems}
+              </div>
+              {/* <div className="flex items-end font-mono">
+                <div className="text-blue-700 dark:text-blue-300">
                   {item?._count.poems}
-                </Badge>
-                <Badge
-                  variant={"secondary"}
-                  className="flex aspect-square w-10 items-center justify-center text-sm"
-                >
+                </div>
+                <div className="text-base font-normal text-muted-foreground/40">
+                  /
+                </div>
+                <div className="text-sm font-light">
                   {item?.birthDate && item.deathDate
                     ? item.deathDate - item.birthDate
                     : "?"}
-                </Badge>
-              </div>
+                </div>
+              </div> */}
             </div>
 
             <p className="line-clamp-2 text-muted-foreground">
