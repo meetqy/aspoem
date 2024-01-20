@@ -29,8 +29,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <Menu />
           </div>
 
-          <div className="mt-4 border-t border-border pt-4 font-mono">
-            <p className="px-4 text-xs">其他</p>
+          <div className="my-8 h-[1px] w-full px-4">
+            <div className="h-full w-full bg-border"></div>
+          </div>
+
+          <p className="px-4 text-xs">其他</p>
+          <div className="font-serif">
             <Nav
               isCollapsed={false}
               links={[
