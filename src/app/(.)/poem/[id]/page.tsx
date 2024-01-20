@@ -65,7 +65,7 @@ export default async function Page({ params, searchParams }: Props) {
   const blockArray = poem.content.split("\n");
 
   // 最大行的字数 大于 18个字 就缩进
-  const retract = contentPinYin.find((item) => item.length > 18);
+  const retract = blockArray.find((item) => item.length > 18);
 
   const annotation = JSON.parse(poem.annotation ?? "{}") as {
     [key in string]: string;
