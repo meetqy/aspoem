@@ -35,7 +35,7 @@ export default async function AuthorPage({
       <div className="m-auto grid grid-cols-2 gap-4 py-4">
         {data?.map((item) => (
           <div
-            className="relative flex h-36 cursor-pointer flex-col justify-between rounded-md border border-border p-4 transition-all hover:bg-muted hover:shadow-lg"
+            className="relative flex h-36 cursor-pointer flex-col justify-between rounded-md border border-border p-4 transition-all hover:bg-muted hover:shadow-md"
             key={item.id}
           >
             <Link
@@ -47,19 +47,6 @@ export default async function AuthorPage({
               <div className="flex items-center text-lg font-normal text-blue-500">
                 {item?._count.poems}
               </div>
-              {/* <div className="flex items-end font-mono">
-                <div className="text-blue-700 dark:text-blue-300">
-                  {item?._count.poems}
-                </div>
-                <div className="text-base font-normal text-muted-foreground/40">
-                  /
-                </div>
-                <div className="text-sm font-light">
-                  {item?.birthDate && item.deathDate
-                    ? item.deathDate - item.birthDate
-                    : "?"}
-                </div>
-              </div> */}
             </div>
 
             <p className="line-clamp-2 text-muted-foreground">

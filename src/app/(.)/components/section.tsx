@@ -6,7 +6,7 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
   const content = poem.content.split("\n");
 
   return (
-    <section className="group relative block cursor-pointer rounded-md border border-border bg-card p-4 text-card-foreground hover:bg-accent hover:text-accent-foreground">
+    <section className="group relative block cursor-pointer rounded-md border border-border bg-card p-4 text-card-foreground transition-all hover:bg-accent hover:text-accent-foreground hover:shadow-md">
       <div className="flex items-center justify-between">
         <div className="font-bold">
           <Link
