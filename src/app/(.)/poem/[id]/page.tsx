@@ -189,7 +189,8 @@ export default async function Page({ params, searchParams }: Props) {
         <p prose-p="">
           <Button asChild>
             <Link
-              href={`https://twitter.com/intent/tweet?text=${title}&url=https://aspoem.com/poem/${poem.id}`}
+              href={`https://twitter.com/intent/tweet?text=${title} https://aspoem.com/poem/${poem.id}`}
+              target="_blank"
             >
               <TwitterIcon className="mr-2 h-6 w-6" /> 分享到 Twitter
             </Link>
