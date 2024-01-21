@@ -36,7 +36,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const { dynasty } = poem.author;
 
-  const keywords = [poem.title, poem.author.name];
+  const keywords = [
+    poem.title,
+    poem.author.name,
+    `${poem.title}拼音版`,
+    `${poem.title}注解版`,
+    `${poem.title}译文（白话文）`,
+    `${poem.author.name}的诗词`,
+    `${poem.author.dynasty}朝诗人：${poem.author.name}`,
+  ];
 
   if (dynasty) {
     keywords.push(dynasty);
