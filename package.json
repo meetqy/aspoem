@@ -13,7 +13,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@giscus/react": "^2.4.0",
     "@prisma/client": "^5.8.1",
     "@radix-ui/react-avatar": "^1.0.4",
     "@radix-ui/react-dialog": "^1.0.5",

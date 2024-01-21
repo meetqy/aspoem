@@ -1,4 +1,4 @@
-import { ChevronRight, InfoIcon } from "lucide-react";
+import { ChevronRight, InfoIcon, TwitterIcon } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { HeaderMain } from "~/components/ui/header";
@@ -43,10 +43,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${poem.title}@${poem.author.name}${dynasty ? `·${dynasty}` : ""}`,
-    description: `《${
-      poem.title
-    }》拼音、注释、白话文。${poem.introduce?.substring(0, 50)}`,
+    title: `${poem.title}@${poem.author.name}·${dynasty} - 现代化中国诗词学习网站`,
+    description: `《${poem.title}》拼音、注释、译文（白话文），${dynasty}·${poem.author.name}的诗词。`,
     keywords,
     twitter: {
       images: `/api/og/poem/${params.id}`,
@@ -59,6 +57,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Page({ params, searchParams }: Props) {
   const poem = await getItem(params.id);
+
+  const title = `${poem.title}@${poem.author.name}·${poem.author.dynasty} - 现代化中国诗词学习网站`;
 
   const contentPinYin = poem.contentPinYin?.split("\n") ?? [];
   const showPinYin = searchParams.py === "t" ? true : false;
@@ -182,7 +182,21 @@ export default async function Page({ params, searchParams }: Props) {
           ),
         )}
 
-        <h2 id="#畅所欲言" prose-h2="" className="mt-8">
+        <h2 id="#分享" prose-h2="">
+          分享
+        </h2>
+
+        <p prose-p="">
+          <Button asChild>
+            <Link
+              href={`https://twitter.com/intent/tweet?text=${title}&url=https://aspoem.com/poem/${poem.id}`}
+            >
+              <TwitterIcon className="mr-2 h-6 w-6" /> 分享到 Twitter
+            </Link>
+          </Button>
+        </p>
+
+        <h2 id="#畅所欲言" prose-h2="">
           畅所欲言
         </h2>
         <p prose-p="">

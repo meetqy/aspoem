@@ -73,7 +73,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <ModeToggle />
             </div>
           </header>
-          <main className="m-auto max-w-screen-md">{children}</main>
+          <main className="relative m-auto max-w-screen-md">{children}</main>
         </ScrollArea>
       </div>
     </div>

@@ -93,7 +93,7 @@
   }
 
   [prose-h2] {
-    @apply scroll-m-20 border-b border-border pb-2 text-3xl font-semibold tracking-tight first:mt-0;
+    @apply mt-8 scroll-m-20 border-b border-border pb-2 text-3xl font-semibold tracking-tight first:mt-0;
   }
 
   [prose-h3] {
