@@ -89,11 +89,11 @@ export default function Page() {
         token: searchParams.get("token") ?? "",
       })
       .then((e) => {
-        setSave([...save, e.title]);
+        setSave([...save, item.title]);
       })
       .catch((e: Error) => {
         if (e.message.includes("已存在")) {
-          setSave([...save, title]);
+          setSave([...save, item.title]);
           return;
         }
 
