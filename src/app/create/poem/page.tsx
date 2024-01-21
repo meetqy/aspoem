@@ -119,6 +119,7 @@ export default function CreatePage() {
   const [introduce, setIntroduce] = useState("");
   const [translation, setTranslation] = useState("");
   const [authorId, setAuthorId] = useState<number>(-1);
+  const [format, setFormat] = useState<string>("");
 
   const [tagIds, setTagIds] = useState<number[]>([]);
 
@@ -355,8 +356,35 @@ export default function CreatePage() {
             >
               添加注解
             </Button>
-            <Input placeholder="注解格式化" className="mr-2" />
-            <Button size={"sm"}>格式化</Button>
+            <Textarea
+              placeholder="注解格式化"
+              value={format}
+              onChange={(e) => setFormat(e.target.value)}
+              className="mr-2"
+            />
+            <Button
+              size={"sm"}
+              onClick={() => {
+                const arrs = format.split("\n");
+
+                const newAnnotations = [...annotations];
+                arrs.forEach((item) => {
+                  const arr = item.split("：");
+                  if (arr.length === 2) {
+                    newAnnotations.push({
+                      keyword: arr[0] || "",
+                      content: arr[1] || "",
+                      i: newAnnotations.length,
+                    });
+                  }
+                });
+
+                console.log(newAnnotations);
+                setAnnotations(newAnnotations);
+              }}
+            >
+              格式化
+            </Button>
           </label>
           {annotations.map((item, index) => (
             <div className="grid grid-cols-4 gap-4" key={index}>
