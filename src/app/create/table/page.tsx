@@ -75,10 +75,11 @@ export default function Page() {
   }, [save]);
 
   const addPoem = (item: C, authorId: number) => {
+    const title = item.title.replace(/・/g, "·");
     poem
       .mutateAsync({
-        title: item.title,
-        titlePinYin: GeneratePinyin(item.title).replace(/(\s+)?·/g, " ."),
+        title,
+        titlePinYin: GeneratePinyin(title).replace(/(\s+)?·/g, " ."),
         genre: "词",
         content: item.content,
         contentPinYin: GeneratePinyin(item.content)
@@ -92,7 +93,7 @@ export default function Page() {
       })
       .catch((e: Error) => {
         if (e.message.includes("已存在")) {
-          setSave([...save, item.title]);
+          setSave([...save, title]);
           return;
         }
 
