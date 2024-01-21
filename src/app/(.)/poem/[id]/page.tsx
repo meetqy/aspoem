@@ -43,8 +43,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${poem.title}@${poem.author.name}·${dynasty} - 现代化中国诗词学习网站`,
-    description: `《${poem.title}》拼音、注释、译文（白话文），${dynasty}·${poem.author.name}的诗词。`,
+    title: `${poem.title}@${poem.author.name}·${dynasty} 拼音、注解、译文（白话文）- 现代化中国诗词学习网站`,
+    description: poem.content.substring(0, 50),
     keywords,
     twitter: {
       images: `/api/og/poem/${params.id}`,
@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function Page({ params, searchParams }: Props) {
   const poem = await getItem(params.id);
 
-  const title = `${poem.title}@${poem.author.name}·${poem.author.dynasty} - 现代化中国诗词学习网站`;
+  const title = `${poem.title}@${poem.author.name}·${poem.author.dynasty} 拼音、注解、译文（白话文）- 现代化中国诗词学习网站`;
 
   const contentPinYin = poem.contentPinYin?.split("\n") ?? [];
   const showPinYin = searchParams.py === "t" ? true : false;
