@@ -43,7 +43,7 @@ export default function CreatePage() {
   const router = useRouter();
   const id = params.get("id") ?? "";
   const [annotations, setAnnotations] = useState<
-    { keyword: string; content: string }[]
+    { keyword: string; content: string; i: number }[]
   >([]);
 
   const { data: poem } = api.poem.findById.useQuery(Number(id), {
@@ -140,11 +140,15 @@ export default function CreatePage() {
 
       const arr: typeof annotations = [];
 
+      let i = 0;
       for (const key in json) {
         arr.push({
           keyword: key,
           content: json[key] || "",
+          i,
         });
+
+        i++;
       }
 
       setAnnotations(arr);
@@ -339,59 +343,75 @@ export default function CreatePage() {
         </div>
 
         <div className="space-y-2">
-          <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-            注解{" "}
+          <label className="flex space-x-2 font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
             <Button
               size={"sm"}
               onClick={() => {
-                setAnnotations([...annotations, { keyword: "", content: "" }]);
+                setAnnotations([
+                  ...annotations,
+                  { keyword: "", content: "", i: annotations.length },
+                ]);
               }}
             >
               添加注解
             </Button>
+            <Input placeholder="注解格式化" className="mr-2" />
+            <Button size={"sm"}>格式化</Button>
           </label>
-          <div className="grid grid-cols-4 gap-4">
-            {annotations.map((item, index) => (
-              <>
-                <div className="col-span-1 flex items-center space-x-2">
-                  <Button
-                    size={"sm"}
-                    variant={"outline"}
-                    className="h-8 w-8 rounded-full"
-                    onClick={() => {
-                      const newAnnotations = [...annotations];
-                      newAnnotations.splice(index, 1);
-                      setAnnotations(newAnnotations);
-                    }}
-                  >
-                    -
-                  </Button>
-                  <Input
-                    placeholder="关键词"
-                    required
-                    value={item.keyword}
-                    onChange={(e) => {
-                      const newAnnotations = [...annotations];
-                      newAnnotations[index]!.keyword = e.target.value;
-                      setAnnotations(newAnnotations);
-                    }}
-                  />
-                </div>
-
+          {annotations.map((item, index) => (
+            <div className="grid grid-cols-4 gap-4" key={index}>
+              <div className="col-span-1 flex items-center space-x-2">
+                <Button
+                  size={"sm"}
+                  variant={"outline"}
+                  className="h-8 w-8 rounded-full"
+                  onClick={() => {
+                    const newAnnotations = [...annotations];
+                    newAnnotations.splice(index, 1);
+                    setAnnotations(newAnnotations);
+                  }}
+                >
+                  -
+                </Button>
                 <Input
-                  className="col-span-3"
-                  placeholder="解释"
-                  required
-                  value={item.content}
+                  value={item.i}
                   onChange={(e) => {
                     const newAnnotations = [...annotations];
-                    newAnnotations[index]!.content = e.target.value;
+                    newAnnotations[index]!.i = Number(e.target.value);
+                    setAnnotations(newAnnotations);
+                  }}
+                  onBlur={() => {
+                    // 按照 i 从小到大排序
+                    const newAnnotations = [...annotations];
+                    newAnnotations.sort((a, b) => a.i - b.i);
                     setAnnotations(newAnnotations);
                   }}
                 />
-              </>
-            ))}
-          </div>
+                <Input
+                  placeholder="关键词"
+                  required
+                  value={item.keyword}
+                  onChange={(e) => {
+                    const newAnnotations = [...annotations];
+                    newAnnotations[index]!.keyword = e.target.value;
+                    setAnnotations(newAnnotations);
+                  }}
+                />
+              </div>
+
+              <Input
+                className="col-span-3"
+                placeholder="解释"
+                required
+                value={item.content}
+                onChange={(e) => {
+                  const newAnnotations = [...annotations];
+                  newAnnotations[index]!.content = e.target.value;
+                  setAnnotations(newAnnotations);
+                }}
+              />
+            </div>
+          ))}
         </div>
 
         <div className="grid grid-cols-2 gap-x-4">
