@@ -78,13 +78,12 @@ export default function Page() {
     poem
       .mutateAsync({
         title: item.title,
-        titlePinYin: GeneratePinyin(item.title),
+        titlePinYin: GeneratePinyin(item.title).replace(/(\s+)?·/g, " ."),
         genre: "词",
         content: item.content,
         contentPinYin: GeneratePinyin(item.content)
-          .replace(/\s，/g, ",")
-          .replace(/\s。/g, ".")
-          .replace(/\n\s/g, "\n"),
+          .replace(/\n\s/g, "\n")
+          .replace(/(\s+)?(\.|,|!|、|！|。|，|；)/g, " ."),
         authorId,
         token: searchParams.get("token") ?? "",
       })
