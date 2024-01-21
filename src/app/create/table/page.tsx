@@ -4,6 +4,7 @@ import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Button } from "~/components/ui/button";
 import { api } from "~/trpc/react";
+import { pinyin as GeneratePinyin } from "pinyin-pro";
 
 type C = {
   title: string;
@@ -77,7 +78,13 @@ export default function Page() {
     poem
       .mutateAsync({
         title: item.title,
+        titlePinYin: GeneratePinyin(item.title),
+        genre: "词",
         content: item.content,
+        contentPinYin: GeneratePinyin(item.content)
+          .replace(/\s，/g, ",")
+          .replace(/\s。/g, ".")
+          .replace(/\n\s/g, "\n"),
         authorId,
         token: searchParams.get("token") ?? "",
       })
