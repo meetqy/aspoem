@@ -88,7 +88,7 @@ export default function Page() {
         authorId,
         token: searchParams.get("token") ?? "",
       })
-      .then((e) => {
+      .then(() => {
         setSave([...save, item.title]);
       })
       .catch((e: Error) => {

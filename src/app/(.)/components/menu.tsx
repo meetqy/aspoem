@@ -1,6 +1,6 @@
 "use client";
 
-import { Rows2, UserRound } from "lucide-react";
+import { Album, CircleDotIcon, Rows2, UserRound } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { Nav } from "~/components/ui/nav";
 import { api } from "~/trpc/react";
@@ -32,6 +32,13 @@ export default function Menu() {
           icon: UserRound,
           variant: /^(\/author)/.test(pathname) ? "default" : "ghost",
           href: "/author",
+        },
+        {
+          title: "词牌名",
+          icon: Album,
+          label: <CircleDotIcon className="h-5 w-5" strokeWidth={1} />,
+          variant: /^(\/ci-pai-ming)/.test(pathname) ? "default" : "ghost",
+          href: "/ci-pai-ming",
         },
       ]}
     />
