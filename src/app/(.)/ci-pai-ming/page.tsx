@@ -35,14 +35,12 @@ export default function Page() {
         </p>
       </header>
 
-      <div className="h-12 w-full"></div>
-
-      <div className="flex space-x-2 pb-4">
+      <div className="mt-12 flex space-x-2">
         <Button variant={"default"}>最受欢迎的</Button>
         <Button variant={"ghost"}>按字母排序</Button>
       </div>
 
-      <div className="grid grid-cols-1 space-y-2">
+      <div className="mt-4 grid grid-cols-1 space-y-2">
         {lists.map((item, i) => (
           <div
             key={i}
