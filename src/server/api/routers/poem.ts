@@ -123,7 +123,7 @@ export const poemRouter = createTRPCRouter({
       const orderBy: Prisma.PoemOrderByWithRelationAndSearchRelevanceInput = {};
 
       if (input.sort === "improve") {
-        orderBy.updatedAt = { sort: "desc", nulls: "last" };
+        orderBy.annotation = { sort: "desc", nulls: "first" };
       } else {
         orderBy.annotation = { sort: "asc", nulls: "last" };
       }
