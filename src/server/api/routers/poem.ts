@@ -123,9 +123,9 @@ export const poemRouter = createTRPCRouter({
       const orderBy: Prisma.PoemOrderByWithRelationAndSearchRelevanceInput = {};
 
       if (input.sort === "improve") {
-        orderBy.annotation = { sort: "asc", nulls: "last" };
-      } else {
         orderBy.updatedAt = { sort: "desc", nulls: "last" };
+      } else {
+        orderBy.annotation = { sort: "desc", nulls: "last" };
       }
 
       const data = await ctx.db.poem.findMany({

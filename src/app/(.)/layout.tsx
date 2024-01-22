@@ -3,7 +3,12 @@ import Menu from "./components/menu";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { Nav } from "~/components/ui/nav";
-import { ArrowUpRightIcon, GithubIcon, TwitterIcon } from "lucide-react";
+import {
+  ArrowUpRightIcon,
+  GithubIcon,
+  Rocket,
+  TwitterIcon,
+} from "lucide-react";
 
 const Search = dynamic(() => import("./components/search"), { ssr: false });
 const ModeToggle = dynamic(() => import("~/components/mode-toggle"), {
@@ -52,6 +57,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   icon: TwitterIcon,
                   variant: "ghost",
                   href: "https://twitter.com/intent/tweet?url=https://aspoem.com&text=%E7%8E%B0%E4%BB%A3%E5%8C%96%E4%B8%AD%E5%9B%BD%E8%AF%97%E8%AF%8D%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99",
+                  label: (
+                    <ArrowUpRightIcon className="h-4 w-4 text-muted-foreground" />
+                  ),
+                },
+                {
+                  title: "Product Hunt",
+                  icon: Rocket,
+                  variant: "ghost",
+                  href: "https://www.producthunt.com/products/aspoem-com-learn-chinese-poetry",
                   label: (
                     <ArrowUpRightIcon className="h-4 w-4 text-muted-foreground" />
                   ),
