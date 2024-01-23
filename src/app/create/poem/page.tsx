@@ -134,6 +134,7 @@ export default function CreatePage() {
       setClassify(poem.classify ?? "");
       setGenre(poem.genre ?? "");
       setTranslation(poem?.translation ?? "");
+      setIntroduce(poem?.introduce ?? "");
 
       const json = JSON.parse(poem.annotation ?? "{}") as {
         [key in string]: string;
