@@ -81,11 +81,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       <div className="flex-1 bg-gradient-to-t from-background to-muted/10">
         <header
-          className="sticky top-0 z-50 flex min-h-16 w-full flex-row-reverse items-center justify-between border-b border-border/40 bg-muted/20 pr-4 backdrop-blur"
+          className="sticky top-0 z-50 flex min-h-16 w-full flex-row-reverse items-center justify-between border-b border-border/40 bg-muted/50 pr-4 backdrop-blur"
           id="header_main"
         >
           <div className="flex items-center justify-center">
-            <div className="mr-2">
+            <div className="mr-2 hidden lg:block">
               <Search />
             </div>
             <ModeToggle />

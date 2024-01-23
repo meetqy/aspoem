@@ -5,7 +5,7 @@ import { notFound, redirect } from "next/navigation";
 import { type Sort } from "~/types";
 import Section from "./components/section";
 import { Button } from "~/components/ui/button";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, MenuIcon } from "lucide-react";
 import Link from "next/link";
 import { cn } from "~/utils";
 
@@ -46,10 +46,15 @@ export default async function IndexPage({
     <>
       <HeaderMain>
         <div className="flex h-16 flex-1 items-center justify-between pl-4">
-          <span className="text-2xl font-bold">诗词</span>
-          <div className="flex items-center">
-            <SortTabs sort={searchParams?.sort} />
-            <span className="mx-2 text-muted-foreground/40">|</span>
+          <Button size={"icon"} className="mr-2 rounded-full lg:hidden">
+            <MenuIcon className="h-5 w-5" />
+          </Button>
+          <div className="flex h-full flex-1 items-center justify-between">
+            <span className="text-2xl font-bold">诗词</span>
+            <div className="hidden items-center lg:flex">
+              <SortTabs sort={searchParams?.sort} />
+              <span className="mx-2 text-muted-foreground/40">|</span>
+            </div>
           </div>
         </div>
       </HeaderMain>
