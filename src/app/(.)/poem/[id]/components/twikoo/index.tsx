@@ -8,7 +8,7 @@ export default function Twikoo() {
     // 通过 CDN 引入 twikoo js 文件
     const cdnScript = document.createElement("script");
     cdnScript.src =
-      "https://cdn.staticfile.org/twikoo/1.6.30/twikoo.all.min.js";
+      "https://cdn.bootcdn.net/ajax/libs/twikoo/1.6.30/twikoo.all.min.js";
     cdnScript.async = true;
 
     const loadSecondScript = () => {
