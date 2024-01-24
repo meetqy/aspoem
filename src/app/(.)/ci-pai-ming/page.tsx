@@ -21,7 +21,7 @@ const lists = [
 
 export default function Page() {
   return (
-    <div className="py-8">
+    <div className="px-4 py-8">
       <header>
         <h1 prose-h1="">
           词牌名

@@ -31,7 +31,7 @@ export default async function AuthorPage({
           <span className="text-2xl font-bold">诗人</span>
         </div>
       </HeaderMain>
-      <div className="m-auto grid grid-cols-2 gap-4 py-4">
+      <div className="m-auto grid grid-cols-1 gap-4 p-4 lg:grid-cols-2">
         {data?.map((item) => (
           <div
             className="relative flex h-36 cursor-pointer flex-col justify-between rounded-md border border-border p-4 transition-all hover:bg-muted hover:shadow-md"
