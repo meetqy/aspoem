@@ -128,10 +128,10 @@ function Mobile({ className }: { className?: string }) {
   }, [pathname]);
 
   return (
-    <div className={cn(className)}>
-      <Popover open={open} onOpenChange={setOpen}>
+    <div>
+      <Popover open={open} onOpenChange={setOpen} modal>
         <PopoverTrigger asChild>
-          <Button size={"icon"} variant={"ghost"}>
+          <Button size={"icon"} variant={"ghost"} className={cn(className)}>
             <MenuIcon className="h-5 w-5" />
           </Button>
         </PopoverTrigger>
