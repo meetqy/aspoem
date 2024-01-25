@@ -24,16 +24,16 @@ export default async function IndexPage({
     return href;
   };
 
-  if (params && Number(params.page) <= 1) {
-    return redirect(toHref(`/`));
-  }
+  const pageIndex = Number(params?.page ?? 1);
+
+  if (pageIndex < 1 || isNaN(pageIndex)) return notFound();
 
   const {
     data: poems,
     page,
     hasNext,
   } = await api.poem.find.query({
-    page: Number(params?.page ?? 1) || 1,
+    page: pageIndex,
     pageSize: 12,
     sort: searchParams?.sort,
   });
