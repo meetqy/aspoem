@@ -11,12 +11,14 @@ export default async function AuthorPage({
 }: {
   params?: { page: string };
 }) {
+  const pageIndex = Number(params?.page ?? 1) || 1;
+
   const {
     data,
     page = 1,
     hasNext,
   } = await api.author.findMany.query({
-    page: Number(params?.page ?? 1),
+    page: pageIndex,
     pageSize: 12,
   });
 

@@ -16,6 +16,8 @@ export default async function IndexPage({
   params?: { page: string };
   searchParams?: { sort: Sort };
 }) {
+  const pageIndex = Number(params?.page ?? 1) || 1;
+
   const toHref = (href: string) => {
     if (searchParams?.sort) {
       return `${href}?sort=${searchParams?.sort}`;
@@ -24,7 +26,7 @@ export default async function IndexPage({
     return href;
   };
 
-  if (params && Number(params.page) <= 1) {
+  if (params && pageIndex <= 1) {
     return redirect(toHref(`/`));
   }
 
@@ -33,7 +35,7 @@ export default async function IndexPage({
     page,
     hasNext,
   } = await api.poem.find.query({
-    page: Number(params?.page ?? 1),
+    page: pageIndex,
     pageSize: 12,
     sort: searchParams?.sort,
   });
