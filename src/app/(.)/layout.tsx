@@ -1,5 +1,5 @@
 import { ScrollArea } from "~/components/ui/scroll-area";
-import Menu from "./components/menu";
+import { DesktopMenu, MobileMenu } from "./components/menu";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 
@@ -25,16 +25,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </header>
 
             <div className="mt-4">
-              <Menu />
+              <DesktopMenu />
             </div>
           </ScrollArea>
         </div>
         <div className="w-72"></div>
       </aside>
 
-      <aside className="fixed left-4 top-3 z-50 lg:hidden">
-        <Menu />
-      </aside>
+      <MobileMenu />
 
       <div className="flex-1 bg-gradient-to-t from-background to-muted/10">
         <header

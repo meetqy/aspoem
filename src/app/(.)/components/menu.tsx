@@ -21,15 +21,6 @@ import { Separator } from "~/components/ui/separator";
 import { api } from "~/trpc/react";
 import { cn } from "~/utils";
 
-export default function Menu() {
-  return (
-    <>
-      <Desktop className="hidden lg:block" />
-      <Mobile className="lg:hidden" />
-    </>
-  );
-}
-
 function Content({ className }: { className?: string }) {
   const pathname = usePathname();
   const { data: poemCount } = api.poem.count.useQuery();
@@ -110,15 +101,15 @@ function Content({ className }: { className?: string }) {
   );
 }
 
-function Desktop({ className }: { className?: string }) {
+export function DesktopMenu({ className }: { className?: string }) {
   return (
-    <div className={cn(className)}>
+    <div className={cn("hidden lg:block", className)}>
       <Content />
     </div>
   );
 }
 
-function Mobile({ className }: { className?: string }) {
+export function MobileMenu({ className }: { className?: string }) {
   const [open, setOpen] = useState(false);
 
   const pathname = usePathname();
@@ -128,10 +119,14 @@ function Mobile({ className }: { className?: string }) {
   }, [pathname]);
 
   return (
-    <div>
-      <Popover open={open} onOpenChange={setOpen} modal>
+    <div className={cn("lg:hidden", className)}>
+      <Popover open={open} onOpenChange={setOpen} modal={true}>
         <PopoverTrigger asChild>
-          <Button size={"icon"} variant={"ghost"} className={cn(className)}>
+          <Button
+            size={"icon"}
+            variant={"ghost"}
+            className="fixed left-4 top-3 z-50"
+          >
             <MenuIcon className="h-5 w-5" />
           </Button>
         </PopoverTrigger>
