@@ -94,7 +94,7 @@ const PinYinText = (props: Props) => {
                   data-text=""
                   key={i}
                   className={cn(
-                    /，|。|？|·/.test(item) && "!-px-1.5 !-mx-2",
+                    /，|。|？|·/.test(item) && "md:-px-1.5 md:-mx-2",
                     annotationKeys.includes(item) &&
                       "underline-animation char_annotation",
                   )}
@@ -115,7 +115,7 @@ const PinYinText = (props: Props) => {
             data-text=""
             key={i}
             className={cn(
-              /，|。|？|·/.test(item) && "!-px-1.5 !-mx-2",
+              /，|。|？|·/.test(item) && "md:-px-1.5 md:-mx-2",
               annotationKeys.includes(item) &&
                 "underline-animation char_annotation",
             )}
@@ -133,8 +133,8 @@ const PinYinText = (props: Props) => {
   return (
     <TagName
       {...{
-        "prose-h1": props.type === "h1" ? "" : undefined,
-        "prose-p": props.type === "p" ? "" : undefined,
+        "prose-h1": TagName === "h1" ? "" : undefined,
+        "prose-p": TagName === "p" ? "" : undefined,
         className: cn(
           "pinyin",
           `pinyin_${TagName}`,
@@ -159,9 +159,5 @@ const PinYinText = (props: Props) => {
     </TagName>
   );
 };
-
-export const defaultProps = {
-  align: "center",
-} satisfies Partial<Props>;
 
 export default PinYinText;

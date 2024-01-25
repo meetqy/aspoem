@@ -87,31 +87,38 @@
     color: transparent;
   }
 
-  [prose-h1] {
+  [prose-h1],
+  .prose-h1 {
     @apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl;
   }
 
-  [prose-h2] {
+  [prose-h2],
+  .prose-h2 {
     @apply mt-8 scroll-m-20 border-b border-border pb-2 text-3xl font-semibold tracking-tight first:mt-0;
   }
 
-  [prose-h3] {
+  [prose-h3],
+  .prose-h3 {
     @apply scroll-m-20 text-2xl font-semibold tracking-tight;
   }
 
-  [prose-p] {
+  [prose-p],
+  .prose-p {
     @apply text-lg leading-7 [&:not(:first-child)]:mt-6;
   }
 
-  [prose-blockquote] {
+  [prose-blockquote],
+  .prose-blockquote {
     @apply mt-6 border-l-2 border-border pl-6 italic;
   }
 
-  [prose-small] {
+  [prose-small],
+  .prose-blockquote {
     @apply text-sm font-medium leading-none;
   }
 
-  [prose-muted] {
+  [prose-muted],
+  .prose-blockquote {
     @apply text-sm text-muted-foreground;
   }
 }

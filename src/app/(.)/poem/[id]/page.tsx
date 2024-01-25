@@ -126,12 +126,12 @@ export default async function Page({ params, searchParams }: Props) {
           pinyin={showPinYin ? poem.titlePinYin ?? "" : ""}
           type="h1"
         />
-        <h2
-          prose-h2=""
+
+        <p
           className={cn(
-            "mt-6 !border-0",
+            "mt-4 !border-0 md:mt-6",
             showPinYin ? "mb-12" : "mb-6",
-            "transition-all",
+            "md:prose-h2 prose-h3 transition-all",
           )}
         >
           {poem.author.dynasty && (
@@ -147,38 +147,40 @@ export default async function Page({ params, searchParams }: Props) {
           >
             {poem.author.name}
           </Link>
-        </h2>
+        </p>
 
-        {poem.introduce && (
-          <blockquote
-            prose-blockquote=""
-            className={cn(
-              "bg-muted/70 py-2 text-left text-lg !not-italic text-muted-foreground transition-all",
-              showPinYin ? "mb-12" : "mb-6",
-            )}
-          >
-            {poem.introduce}
-          </blockquote>
-        )}
+        <div className="px-4 md:px-0">
+          {poem.introduce && (
+            <blockquote
+              prose-blockquote=""
+              className={cn(
+                "bg-muted/70 py-2 text-left text-lg !not-italic text-muted-foreground transition-all",
+                showPinYin ? "mb-12" : "mb-6",
+              )}
+            >
+              {poem.introduce}
+            </blockquote>
+          )}
 
-        {/* 内容 */}
-        {blockArray.map((line, index) => {
-          const blockPinYin = contentPinYin[index];
+          {/* 内容 */}
+          {blockArray.map((line, index) => {
+            const blockPinYin = contentPinYin[index];
 
-          return (
-            <PinYinText
-              key={index}
-              text={line}
-              align={poem.genre === "词" ? "left" : "center"}
-              retract={retract ? true : false}
-              pinyin={showPinYin ? blockPinYin : ""}
-              annotation={annotation}
-            />
-          );
-        })}
+            return (
+              <PinYinText
+                key={index}
+                text={line}
+                align={poem.genre === "词" ? "left" : "center"}
+                retract={retract ? true : false}
+                pinyin={showPinYin ? blockPinYin : ""}
+                annotation={annotation}
+              />
+            );
+          })}
+        </div>
       </article>
 
-      <article className="chinese mt-8">
+      <article className="chinese mt-8 px-4">
         <h2 id="#译文" prose-h2="" className="text-left">
           译文
         </h2>

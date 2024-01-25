@@ -2,7 +2,7 @@
   @apply transition-all duration-300;
 
   [data-text] {
-    @apply relative mx-0 inline-flex items-center justify-center px-1.5;
+    @apply relative mx-0 inline-flex items-center justify-center md:px-1.5;
   }
 
   [data-pinyin] {
@@ -21,7 +21,7 @@
     } */
 
     [data-text] {
-      @apply pt-6 text-7xl;
+      @apply md:pt-6 md:text-7xl;
     }
 
     [data-pinyin] {
@@ -30,8 +30,10 @@
   }
 
   &.pinyin_p {
+    @apply mt-2 md:mt-auto;
+
     &:not(:last-child) {
-      @apply mb-3;
+      @apply md:mb-3;
     }
 
     &.pinyin_show {
@@ -56,7 +58,7 @@
     }
 
     [data-text] {
-      @apply pt-4 text-3xl;
+      @apply text-xl md:pt-4 md:text-3xl;
     }
 
     [data-pinyin] {
