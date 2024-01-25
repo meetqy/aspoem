@@ -85,15 +85,18 @@ export default async function Page({ params, searchParams }: Props) {
         <div className="flex flex-1 items-center justify-between">
           <div className="flex h-16 items-center px-4">
             <nav className="flex items-center space-x-2">
-              <Link href="/" className="text-muted-foreground">
+              <Link href="/" className="flex-shrink-0 text-muted-foreground">
                 全部
               </Link>
-              <ChevronRight className="h-4 w-4" strokeWidth={1} />
-              <Link href={`/poem/${poem.id}`}>{poem.title}</Link>
+              <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
+              <Link className="line-clamp-1" href={`/poem/${poem.id}`}>
+                {poem.title}
+                {poem.title}
+              </Link>
             </nav>
           </div>
 
-          <div>
+          <div className="hidden lg:block">
             {showPinYin ? (
               <Button size={"xs"} aria-label="不显示拼音" asChild>
                 <Link href="?" replace>
