@@ -1,7 +1,7 @@
 import { HeaderMain } from "~/components/ui/header";
 import SortTabs from "./components/sort-tabs";
 import { api } from "~/trpc/server";
-import { notFound, redirect } from "next/navigation";
+import { notFound } from "next/navigation";
 import { type Sort } from "~/types";
 import Section from "./components/section";
 import { Button } from "~/components/ui/button";
