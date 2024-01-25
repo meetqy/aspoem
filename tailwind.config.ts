@@ -21,15 +21,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
-        cursive: ["stkaiti", "var(--font-st-kaiti)", "cursive"],
-        pinyin: [
-          "American Typewriter",
-          "Andale Mono",
-          "Courier New",
-          "monospace",
-          "system-ui",
-        ],
+        cursive: ["'Kaiti SC'", "var(--font-st-kaiti)"],
       },
       colors: {
         border: "hsl(var(--border))",

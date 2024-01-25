@@ -42,7 +42,7 @@ function Content({ className }: { className?: string }) {
         links={[
           {
             title: "诗词",
-            label: (poemCount ?? 0).toString(),
+            label: <span className="font-mono">{poemCount}</span>,
             icon: Rows2,
             variant:
               pathname === "/" ||
@@ -54,7 +54,7 @@ function Content({ className }: { className?: string }) {
           },
           {
             title: "诗人",
-            label: (authorCount ?? 0).toString(),
+            label: <span className="font-mono">{authorCount}</span>,
             icon: UserRound,
             variant: /^(\/author)/.test(pathname) ? "default" : "ghost",
             href: "/author",

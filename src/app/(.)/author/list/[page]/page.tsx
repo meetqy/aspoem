@@ -43,7 +43,7 @@ export default async function AuthorPage({
             ></Link>
             <div className="flex w-full items-center justify-between text-2xl font-bold">
               {item.name}
-              <div className="flex items-center text-lg font-normal text-blue-500">
+              <div className="flex items-center font-mono text-lg font-normal text-blue-500">
                 {item?._count.poems}
               </div>
             </div>

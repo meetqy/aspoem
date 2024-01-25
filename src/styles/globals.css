@@ -3,10 +3,9 @@
 @tailwind utilities;
 
 /* 
-  数字、字母 font-mono
-  拼音 font-pinyin
-  符号 font-serif
   中文 font-cursive
+  英文 font-serif
+  数字 font-mono
 */
 
 /* foreground: 文本颜色 */

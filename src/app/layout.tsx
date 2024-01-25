@@ -47,7 +47,7 @@ export default function RootLayout({
     <html lang="zh-CN">
       <body
         className={cn(
-          "min-h-screen bg-background font-cursive text-foreground antialiased",
+          "min-h-screen bg-background font-cursive font-normal text-foreground antialiased",
           fontSTKaiti.variable,
         )}
       >

@@ -17,7 +17,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <header className="h-16">
               <Link
                 href={"/"}
-                className="text-outline flex h-16 items-center justify-center text-4xl font-bold"
+                className="text-outline flex h-16 items-center justify-center font-serif text-4xl font-bold"
               >
                 AsPoem
                 <span className="text-muted-foreground">.com</span>

@@ -6,8 +6,7 @@
   }
 
   [data-pinyin] {
-    font-family: "American Typewriter", "Andale Mono", "Courier New", monospace;
-    @apply absolute left-0 top-0 w-full text-center tracking-tight;
+    @apply absolute left-0 top-0 w-full text-center font-serif tracking-tight;
   }
 
   .char_annotation {
@@ -61,7 +60,7 @@
     }
 
     [data-pinyin] {
-      @apply text-sm;
+      @apply text-base;
     }
   }
 }
