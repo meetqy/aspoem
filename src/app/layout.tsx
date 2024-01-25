@@ -6,6 +6,12 @@ import { cn } from "~/utils";
 
 import Script from "next/script";
 import { type Metadata } from "next";
+import localFont from "next/font/local";
+
+const fontSTKaiti = localFont({
+  variable: "--font-st-kaiti",
+  src: "./fonts/STKaiti.ttf",
+});
 
 export const metadata: Metadata = {
   title: "AsPoem.com - 现代化中国诗词学习网站",
@@ -42,6 +48,7 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background font-cursive text-foreground antialiased",
+          fontSTKaiti.variable,
         )}
       >
         <TRPCReactProvider>

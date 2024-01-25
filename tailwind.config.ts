@@ -22,12 +22,13 @@ export default {
     extend: {
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
-        cursive: ["Comic Sans", "Comic Sans MS", "cursive"],
+        cursive: ["stkaiti", "var(--font-st-kaiti)", "cursive"],
         pinyin: [
           "American Typewriter",
           "Andale Mono",
           "Courier New",
           "monospace",
+          "system-ui",
         ],
       },
       colors: {
