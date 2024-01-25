@@ -12,7 +12,7 @@ import Link from "next/link";
 interface NavProps {
   isCollapsed: boolean;
   links: {
-    title: string;
+    title: string | React.ReactNode;
     label?: string | React.ReactNode;
     icon: LucideIcon;
     href?: string;

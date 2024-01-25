@@ -11,6 +11,8 @@ import localFont from "next/font/local";
 const fontSTKaiti = localFont({
   variable: "--font-st-kaiti",
   src: "./fonts/STKaiti.ttf",
+  fallback: ["system-ui"],
+  preload: false,
 });
 
 export const metadata: Metadata = {

@@ -77,7 +77,7 @@ function Content({ className }: { className?: string }) {
           isCollapsed={false}
           links={[
             {
-              title: "Github",
+              title: <span className="font-serif">Github</span>,
               icon: GithubIcon,
               variant: "ghost",
               href: "https://github.com/meetqy/aspoem",
@@ -86,7 +86,7 @@ function Content({ className }: { className?: string }) {
               ),
             },
             {
-              title: "Twitter",
+              title: <span className="font-serif">Twitter</span>,
               icon: TwitterIcon,
               variant: "ghost",
               href: "https://twitter.com/intent/tweet?url=https://aspoem.com&text=%E7%8E%B0%E4%BB%A3%E5%8C%96%E4%B8%AD%E5%9B%BD%E8%AF%97%E8%AF%8D%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99",
@@ -95,7 +95,7 @@ function Content({ className }: { className?: string }) {
               ),
             },
             {
-              title: "Product Hunt",
+              title: <span className="font-serif">Product Hunt</span>,
               icon: Rocket,
               variant: "ghost",
               href: "https://www.producthunt.com/products/aspoem-com-learn-chinese-poetry",
