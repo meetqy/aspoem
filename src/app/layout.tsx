@@ -1,10 +1,10 @@
 import { ThemeProvider } from "~/components/theme-provider";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "~/styles/globals.css";
 
 import { TRPCReactProvider } from "~/trpc/react";
 import { cn } from "~/utils";
 
-import Script from "next/script";
 import { type Metadata } from "next";
 import localFont from "next/font/local";
 
@@ -63,18 +63,8 @@ export default function RootLayout({
             {children}
           </ThemeProvider>
         </TRPCReactProvider>
-
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-PYEC5EG749" />
-        <Script id="google-analytics">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-          
-            gtag('config', 'G-PYEC5EG749');
-          `}
-        </Script>
       </body>
+      <GoogleAnalytics gaId="G-PYEC5EG749" />
     </html>
   );
 }
