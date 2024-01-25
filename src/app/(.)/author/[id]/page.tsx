@@ -59,10 +59,6 @@ export default async function Page({ params, searchParams }: Props) {
     <>
       <HeaderMain>
         <div className="flex h-16 items-center px-4">
-          <Back />
-
-          <Separator orientation="vertical" className="mx-4 h-4" />
-
           <nav className="flex items-center space-x-2 text-sm">
             <span className="text-muted-foreground">作者</span>
             <ChevronRight className="h-4 w-4" strokeWidth={1} />
@@ -71,15 +67,15 @@ export default async function Page({ params, searchParams }: Props) {
         </div>
       </HeaderMain>
 
-      <header className="rounded-box m-auto flex max-w-screen-sm py-8">
-        <Avatar className="h-36 w-36">
+      <header className="rounded-box m-auto flex max-w-screen-sm px-4 py-8">
+        <Avatar className="hidden h-36 w-36 md:block">
           <AvatarFallback>
             <span className="text-3xl">{author.name}</span>
           </AvatarFallback>
         </Avatar>
 
-        <div className="ml-16 text-left">
-          <h1 className="-mx-2" prose-h1="">
+        <div className="text-left md:ml-16">
+          <h1 prose-h1="">
             <span className="text-outline">{author.name}</span>{" "}
             <span className="font-serif text-2xl font-normal capitalize !tracking-tighter">
               {author.namePinYin}
@@ -119,7 +115,7 @@ export default async function Page({ params, searchParams }: Props) {
         </div>
       </header>
 
-      <main className="mt-8">
+      <main className="w-full md:mt-8">
         <div className="flex h-16 items-center border-b border-border px-4">
           <Tabs value={searchParams?.tab ?? ""}>
             <TabsList>
@@ -140,7 +136,7 @@ export default async function Page({ params, searchParams }: Props) {
           </Tabs>
         </div>
 
-        <div>{!searchParams?.tab && <Poems authorId={author.id} />}</div>
+        {!searchParams?.tab && <Poems authorId={author.id} />}
       </main>
     </>
   );

@@ -121,10 +121,12 @@ export default async function Page({ params, searchParams }: Props) {
       </HeaderMain>
 
       <article className="py-8 text-center">
+        {/* 标题 */}
         <PinYinText
           text={poem.title}
           pinyin={showPinYin ? poem.titlePinYin ?? "" : ""}
           type="h1"
+          className="px-4"
         />
 
         <p

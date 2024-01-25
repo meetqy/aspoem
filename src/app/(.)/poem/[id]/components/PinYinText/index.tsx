@@ -13,6 +13,7 @@ interface Props {
   align?: "center" | "left";
   retract?: boolean;
   annotation?: { [key in string]: string };
+  className?: string;
 }
 
 /**
@@ -141,6 +142,7 @@ const PinYinText = (props: Props) => {
           props.align === "left" ? "text-left" : "text-center",
           props.retract && "pinyin_retract",
           props.pinyin && "pinyin_show",
+          props.className,
         ),
       }}
     >

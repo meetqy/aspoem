@@ -46,7 +46,7 @@ export default function Poems({ authorId }: { authorId: number }) {
   ];
 
   return (
-    <div className="p-4">
+    <div className="mt-8 w-screen px-4 md:w-full">
       {letters.map((char, i) => {
         const poems = json[char];
         const textColor = colors[i % colors.length]!;
@@ -63,7 +63,7 @@ export default function Poems({ authorId }: { authorId: number }) {
                 ({poems?.length})
               </span>
             </h2>
-            <div className="mb-8 flex flex-wrap gap-4 px-4">
+            <div className="mb-8 flex flex-1 flex-wrap gap-4">
               {poems?.map((poem) => {
                 return (
                   <Button
@@ -71,6 +71,7 @@ export default function Poems({ authorId }: { authorId: number }) {
                     key={poem.id}
                     variant={"secondary"}
                     size={"sm"}
+                    className="max-w-full justify-start truncate"
                   >
                     <Link href={`/poem/${poem.id}`} title={poem.title}>
                       {poem.title}
