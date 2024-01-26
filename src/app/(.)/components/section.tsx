@@ -28,8 +28,8 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
 
   return (
     <section className="group relative block cursor-pointer rounded-md border border-border bg-card p-4 text-card-foreground transition-all hover:bg-accent hover:text-accent-foreground hover:shadow-md">
-      <div className="flex items-center justify-between">
-        <div className="flex flex-1 items-center font-bold lg:flex-none">
+      <div className="flex justify-between">
+        <div className="w-full font-bold lg:w-3/5">
           <Link
             href={`/poem/${poem.id}`}
             className="underline-animation relative z-10 flex-1 text-xl font-semibold"
@@ -37,24 +37,26 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
             {poem.title}
           </Link>
 
-          <Author className="lg:ml-2" />
+          <Author className="ml-2" />
         </div>
 
-        {poem.updatedAt ? (
-          <span className="hidden text-sm font-normal text-muted-foreground lg:inline">
-            更新时间：
-            <span className="font-mono text-xs">
-              {format(poem.updatedAt, "yyyy-MM-dd")}
+        <div className="hidden flex-shrink-0 pt-1 text-sm font-normal text-muted-foreground lg:flex">
+          {poem.updatedAt ? (
+            <span>
+              更新时间：
+              <span className="font-mono text-xs">
+                {format(poem.updatedAt, "yyyy-MM-dd")}
+              </span>
             </span>
-          </span>
-        ) : (
-          <span className="hidden text-sm font-normal text-muted-foreground lg:inline">
-            创建时间：
-            <span className="font-mono text-xs">
-              {poem.createdAt && format(poem.createdAt, "yyyy-MM-dd")}
+          ) : (
+            <span>
+              创建时间：
+              <span className="font-mono text-xs">
+                {poem.createdAt && format(poem.createdAt, "yyyy-MM-dd")}
+              </span>
             </span>
-          </span>
-        )}
+          )}
+        </div>
       </div>
 
       <div className="mt-2 line-clamp-4 group-hover:text-accent-foreground">
