@@ -479,7 +479,7 @@ export default function CreatePage() {
                 title,
                 titlePinYin: titlePinYin.replace(/(\s+)?·/g, " ."),
                 contentPinYin: contentPinYin.replace(
-                  /(\s+)?(\.|,|!|、|！|。|，|；)/g,
+                  /(\s+)?(\.|,|!|、|！|。|，|；|？)/g,
                   " .",
                 ),
                 content,
