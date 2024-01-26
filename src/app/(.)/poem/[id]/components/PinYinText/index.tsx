@@ -56,7 +56,10 @@ const PinYinText = (props: Props) => {
 
   const PinYin = ({ children }: { children: React.ReactNode }) => {
     return (
-      <span data-pinyin="" className="!font-normal text-muted-foreground">
+      <span
+        data-pinyin=""
+        className="hidden !font-normal text-muted-foreground md:inline"
+      >
         {children}
       </span>
     );
