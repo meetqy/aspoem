@@ -8,6 +8,7 @@ import { cn } from "~/utils";
 import { type Metadata } from "next";
 import localFont from "next/font/local";
 import Script from "next/script";
+import MicrosoftClarity from "./MicrosoftClarity";
 
 const fontSTKaiti = localFont({
   variable: "--font-st-kaiti",
@@ -65,9 +66,7 @@ export default function RootLayout({
         </TRPCReactProvider>
       </body>
       <GoogleAnalytics gaId="G-PYEC5EG749" />
-      <Script id="clarity">
-        {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=gtm2";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","ksel7bmi48");`}
-      </Script>
+      <MicrosoftClarity id="ksel7bmi48" />
     </html>
   );
 }
