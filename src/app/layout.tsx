@@ -17,7 +17,7 @@ const fontSTKaiti = localFont({
 
 export const metadata: Metadata = {
   title: "AsPoem.com - 现代化中国诗词学习网站",
-  description: `aspoem.com是一个现代化的中国诗词学习网站，为用户提供全站搜索诗词、拼音标注、注释和白话文翻译等功能。无论您是对唐诗宋词感兴趣，还是想深入学习古代诗词的欣赏与解读，aspoem.com都是您的理想选择。我们致力于为用户提供丰富的诗词学习资源，帮助您更好地理解和鉴赏中国古典文学的精华。不仅如此，我们还推荐优质的诗词学习工具和下载资源，助您在诗词学习的道路上更上一层楼。欢迎您来到aspoem.com，开始您的中国诗词之旅！`,
+  description: `aspoem.com 是现代化的中国诗词学习网站，提供全站搜索、拼音标注、注释和白话文翻译等功能。无论您对唐诗宋词感兴趣还是想深入学习，都是您的理想选择，从这里开始您的诗歌之旅！`,
   icons: [{ rel: "icon", url: "/favicon.ico" }],
   keywords: [
     "中国诗词学习",
