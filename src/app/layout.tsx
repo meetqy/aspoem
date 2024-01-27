@@ -7,13 +7,16 @@ import { cn } from "~/utils";
 
 import { type Metadata } from "next";
 import localFont from "next/font/local";
-import Script from "next/script";
-import MicrosoftClarity from "./MicrosoftClarity";
+import dynamic from "next/dynamic";
 
 const fontSTKaiti = localFont({
   variable: "--font-st-kaiti",
   src: "./fonts/STKaiti.ttf",
   fallback: ["system-ui"],
+});
+
+const MicrosoftClarity = dynamic(() => import("./MicrosoftClarity"), {
+  ssr: false,
 });
 
 export const metadata: Metadata = {
