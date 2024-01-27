@@ -26,7 +26,7 @@ model Poem {
     authorId      Int
     // 内容分类：叙事诗、抒情诗、送别诗、边塞诗、山水田园诗、咏史诗、咏物诗、悼亡诗、讽喻诗
     classify      String?
-    // 体裁分类：诗、词、曲、赋、文言文、散文、小说、戏剧、杂文
+    // 体裁分类：诗、词、曲、赋
     genre         String?
     tags          Tag[]
     createdAt     DateTime? @default(now())
@@ -54,6 +54,9 @@ model Tag {
     id        Int       @id @default(autoincrement())
     name      String    @unique
     poems     Poem[]
+    // 1: 词牌名 2: 曲牌名 null: 正常标签
+    type      String?
+    introduce String?
     createdAt DateTime? @default(now())
     updatedAt DateTime? @updatedAt
 }
