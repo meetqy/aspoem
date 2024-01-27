@@ -46,6 +46,10 @@ export default function CreatePage() {
     { keyword: string; content: string; i: number }[]
   >([]);
 
+  const { data: tags } = api.tag.findMany.useQuery({
+    select: ["id", "name"],
+  });
+
   const { data: poem } = api.poem.findById.useQuery(Number(id), {
     refetchOnWindowFocus: false,
   });
@@ -73,12 +77,6 @@ export default function CreatePage() {
     createAuthor: api.author.create.useMutation({
       onSuccess: async () => {
         await utils.author.findMany.invalidate();
-      },
-      onError: (err) => alert(err.message),
-    }),
-    createTag: api.tag.create.useMutation({
-      onSuccess: async () => {
-        await utils.tag.find.invalidate();
       },
       onError: (err) => alert(err.message),
     }),
@@ -194,6 +192,7 @@ export default function CreatePage() {
               setTitle(simplized(title));
               setContent(simplized(content));
               setTranslation(simplized(translation));
+              setIntroduce(simplized(introduce));
             }}
           >
             繁转简
@@ -341,6 +340,31 @@ export default function CreatePage() {
               value={introduce}
               onChange={(e) => setIntroduce(e.target.value)}
             />
+          </div>
+        </div>
+
+        {/* 标签 词牌名/曲牌名 */}
+        <div className="space-y-2">
+          <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+            Tags
+          </label>
+          <div className="space-x-2">
+            {tags?.map((item) => (
+              <Button
+                key={item.id}
+                variant={tagIds.includes(item.id) ? "default" : "ghost"}
+                size={"xs"}
+                onClick={() => {
+                  if (tagIds.includes(item.id)) {
+                    setTagIds(tagIds.filter((i) => i !== item.id));
+                  } else {
+                    setTagIds([...tagIds, item.id]);
+                  }
+                }}
+              >
+                {item.name}
+              </Button>
+            ))}
           </div>
         </div>
 

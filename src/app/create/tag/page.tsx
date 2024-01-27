@@ -32,7 +32,9 @@ export default function Tag({
   const params = useSearchParams();
   const token = params.get("token") ?? "";
 
-  const { data: tag } = api.tag.findById.useQuery(id!);
+  const { data: tag } = api.tag.findById.useQuery(id!, {
+    refetchOnWindowFocus: false,
+  });
 
   useEffect(() => {
     if (localStorage.getItem("token") && !token) {
@@ -112,7 +114,7 @@ export default function Tag({
                   const item = _type[i] ?? "";
 
                   return (
-                    <SelectItem value={item} key={item}>
+                    <SelectItem value={i} key={item}>
                       {item}
                     </SelectItem>
                   );
@@ -154,7 +156,7 @@ export default function Tag({
               id,
               token,
               name,
-              type: type === " " ? "" : type,
+              type: type === " " ? undefined : (type as "1" | "2"),
               introduce,
             });
           }}
