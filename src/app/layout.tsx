@@ -7,16 +7,11 @@ import { cn } from "~/utils";
 
 import { type Metadata } from "next";
 import localFont from "next/font/local";
-import dynamic from "next/dynamic";
 
 const fontSTKaiti = localFont({
   variable: "--font-st-kaiti",
   src: "./fonts/STKaiti.ttf",
   fallback: ["system-ui"],
-});
-
-const MicrosoftClarity = dynamic(() => import("./MicrosoftClarity"), {
-  ssr: false,
 });
 
 export const metadata: Metadata = {
@@ -69,7 +64,6 @@ export default function RootLayout({
         </TRPCReactProvider>
       </body>
       <GoogleAnalytics gaId="G-PYEC5EG749" />
-      <MicrosoftClarity id="ksel7bmi48" />
     </html>
   );
 }
