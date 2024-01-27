@@ -22,6 +22,7 @@ export default {
     extend: {
       fontFamily: {
         cursive: ["'Kaiti SC'", "var(--font-st-kaiti)"],
+        serif: ["Palatino", "Times New Roman"],
       },
       colors: {
         border: "hsl(var(--border))",
