@@ -125,11 +125,11 @@ export default async function Page({ params, searchParams }: Props) {
                   </span>
                 </Link>
               </TabsTrigger>
-              <TabsTrigger value="relations" asChild>
+              {/* <TabsTrigger value="relations" asChild>
                 <Link href={`?tab=relations`} replace>
                   关系
                 </Link>
-              </TabsTrigger>
+              </TabsTrigger> */}
             </TabsList>
           </Tabs>
         </div>
