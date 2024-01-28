@@ -11,7 +11,7 @@ export async function GET(
 
   if (!poem) return notFound();
 
-  const content = poem.content.split("。");
+  const content = poem.content.split(/。|！|？/);
 
   return new ImageResponse(
     (
@@ -25,8 +25,7 @@ export async function GET(
           justifyContent: "center",
           alignItems: "center",
           flexDirection: "column",
-          padding: "40px 80px",
-          position: "relative",
+          padding: "40px 40px",
         }}
       >
         <p style={{ fontSize: 96, color: "#fff" }}>{poem.title}</p>
@@ -35,6 +34,18 @@ export async function GET(
         </p>
         <p style={{ fontSize: 48, color: "#ddd" }}>{content[0]}。</p>
         <p style={{ fontSize: 48, color: "#ddd" }}>{content[1]}。</p>
+        <p
+          style={{
+            fontSize: 18,
+            color: "#ccc",
+            width: "100%",
+            display: "flex",
+            justifyContent: "flex-end",
+            marginTop: 40,
+          }}
+        >
+          更多诗词搜索《现代化中国诗词学习网站》
+        </p>
       </div>
     ),
     {

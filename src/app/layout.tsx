@@ -70,10 +70,10 @@ export default function RootLayout({
             {children}
           </ThemeProvider>
         </TRPCReactProvider>
-      </body>
 
-      <GoogleAnalytics id={process.env.NEXT_PUBLIC_GA_ID!} />
-      <MicrosoftClarity id={process.env.NEXT_PUBLIC_MC_ID!} />
+        <GoogleAnalytics id={process.env.NEXT_PUBLIC_GA_ID!} />
+        <MicrosoftClarity id={process.env.NEXT_PUBLIC_MC_ID!} />
+      </body>
     </html>
   );
 }
