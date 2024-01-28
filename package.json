@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "next experimental-compile",
+    "build": "next build",
     "db:push": "prisma db push",
     "db:studio": "prisma studio",
     "dev": "next dev",
