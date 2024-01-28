@@ -59,8 +59,8 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
         </div>
       </div>
 
-      <div className="mt-2 line-clamp-4 group-hover:text-accent-foreground">
-        {content.slice(0, 4).map((line, index) => (
+      <div className="mt-2 line-clamp-2 group-hover:text-accent-foreground">
+        {content.slice(0, 2).map((line, index) => (
           <p key={index}>{line}</p>
         ))}
       </div>
