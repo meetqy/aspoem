@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { Button } from "~/components/ui/button";
 import { api } from "~/trpc/react";
 import { pinyin as GeneratePinyin } from "pinyin-pro";
+import { GenreSelect } from "../components/GenreSelect";
 
 type C = {
   title: string;
@@ -18,6 +19,7 @@ export default function Page() {
   const searchParams = useSearchParams();
   const [dataSource, setDataSource] = useState<C[]>();
   const utils = api.useUtils();
+  const [genre, setGenre] = useState("诗");
 
   const author = api.author.create.useMutation();
   const poem = api.poem.create.useMutation();
@@ -80,7 +82,7 @@ export default function Page() {
       .mutateAsync({
         title,
         titlePinYin: GeneratePinyin(title).replace(/(\s+)?·/g, " ."),
-        genre: "词",
+        genre,
         content: item.content,
         contentPinYin: GeneratePinyin(item.content)
           .replace(/\n\s/g, "\n")
@@ -104,7 +106,10 @@ export default function Page() {
 
   return (
     <div>
-      <header className="flex h-12">
+      <div className="sticky left-0 top-0 z-50 bg-background">
+        <GenreSelect value={genre} onChange={setGenre} />
+      </div>
+      <header className="mt-8 flex h-12">
         <div className="w-20">操作</div>
         <div className="w-20">index</div>
         <div className="w-20">author</div>
