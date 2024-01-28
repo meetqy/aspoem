@@ -1,5 +1,4 @@
 import { ThemeProvider } from "~/components/theme-provider";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import "~/styles/globals.css";
 
 import { TRPCReactProvider } from "~/trpc/react";
@@ -15,7 +14,11 @@ const fontSTKaiti = localFont({
   fallback: ["system-ui"],
 });
 
-const MicrosoftClarity = dynamic(() => import("./MicrosoftClarity"), {
+const MicrosoftClarity = dynamic(() => import("./metrics/microsoft-clarity"), {
+  ssr: false,
+});
+
+const GoogleAnalytics = dynamic(() => import("./metrics/google-analytics"), {
   ssr: false,
 });
 
@@ -68,8 +71,9 @@ export default function RootLayout({
           </ThemeProvider>
         </TRPCReactProvider>
       </body>
-      <GoogleAnalytics gaId="G-PYEC5EG749" />
-      <MicrosoftClarity id="ksel7bmi48" />
+
+      <GoogleAnalytics id={process.env.NEXT_PUBLIC_GA_ID!} />
+      <MicrosoftClarity id={process.env.NEXT_PUBLIC_MC_ID!} />
     </html>
   );
 }
