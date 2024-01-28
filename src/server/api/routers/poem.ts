@@ -238,6 +238,7 @@ export const poemRouter = createTRPCRouter({
           tags: input.tagIds && {
             connect: input.tagIds.map((id) => ({ id })),
           },
+          annotation: input.annotation,
         },
       });
     }),
