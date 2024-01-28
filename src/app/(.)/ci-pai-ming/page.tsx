@@ -8,8 +8,6 @@ export default async function Page() {
     select: ["id", "name", "introduce", "count"],
   });
 
-  console.log(tags);
-
   return (
     <div className="px-4 py-8">
       <header>
