@@ -183,6 +183,21 @@ export default async function Page({ params, searchParams }: Props) {
       </article>
 
       <article className="chinese mt-8 px-4">
+        {poem.tags.length && (
+          <div className="mt-12 flex justify-start space-x-2">
+            {poem.tags.map((item) => {
+              return (
+                <Button
+                  variant={"secondary"}
+                  key={item.id}
+                  className="text-base"
+                >
+                  {item.name}
+                </Button>
+              );
+            })}
+          </div>
+        )}
         <h2 id="#译文" prose-h2="" className="text-left">
           译文
         </h2>
