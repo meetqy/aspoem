@@ -8,13 +8,6 @@ import { Button } from "~/components/ui/button";
 import { Textarea } from "~/components/ui/textarea";
 import SearchSelect from "../components/SearchSelect";
 import { pinyin as GeneratePinyin } from "pinyin-pro";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "~/components/ui/select";
 import { GenreSelect } from "../components/GenreSelect";
 
 function charPYStr() {
@@ -481,6 +474,8 @@ export default function CreatePage() {
                 json[item.keyword] = item.content;
               });
 
+              const originTagIds = poem?.tags.map((item) => item.id) ?? [];
+
               mutation.createPoem.mutate({
                 id: id ? Number(id) : undefined,
                 token,
@@ -493,6 +488,9 @@ export default function CreatePage() {
                 content,
                 authorId,
                 tagIds,
+                disconnectTagIds: originTagIds.filter(
+                  (tag) => !tagIds.includes(tag),
+                ),
                 classify,
                 genre,
                 introduce,

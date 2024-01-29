@@ -173,6 +173,7 @@ export const poemRouter = createTRPCRouter({
         contentPinYin: z.string().optional(),
         authorId: z.number(),
         tagIds: z.array(z.number()).optional(),
+        disconnectTagIds: z.array(z.number()).optional(),
         classify: z.string().optional(),
         genre: z.string().optional(),
         introduce: z.string().optional(),
@@ -210,6 +211,7 @@ export const poemRouter = createTRPCRouter({
             annotation: input.annotation,
             tags: input.tagIds && {
               connect: input.tagIds.map((id) => ({ id })),
+              disconnect: input.disconnectTagIds?.map((id) => ({ id })),
             },
           },
         });
