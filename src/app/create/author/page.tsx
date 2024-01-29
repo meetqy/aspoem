@@ -22,7 +22,17 @@ export default function AuthorPage({
   });
   const create = api.author.create.useMutation({
     onSuccess: async () => {
-      await utils.author.findById.invalidate(id);
+      if (id) {
+        await utils.author.findById.invalidate(id);
+      } else {
+        setName("");
+        setDynasty("");
+        setNamePinYin("");
+        setIntroduce("");
+        setBirthDate(undefined);
+        setDeathDate(undefined);
+      }
+
       localStorage.setItem("token", token);
       alert("Saved!");
     },
@@ -163,8 +173,8 @@ export default function AuthorPage({
               namePinYin,
               dynasty,
               introduce,
-              birthDate,
-              deathDate,
+              birthDate: birthDate || undefined,
+              deathDate: deathDate || undefined,
             });
           }}
         >
