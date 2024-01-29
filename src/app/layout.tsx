@@ -5,15 +5,16 @@ import { TRPCReactProvider } from "~/trpc/react";
 import { cn } from "~/utils";
 
 import { type Metadata } from "next";
-import localFont from "next/font/local";
+// import localFont from "next/font/local";
 import dynamic from "next/dynamic";
+import LoadFont from "./load-font";
 
-const fontSTKaiti = localFont({
-  variable: "--font-st-kaiti",
-  src: "./fonts/STKaiti.woff2",
-  fallback: ["system-ui"],
-  preload: false,
-});
+// const fontSTKaiti = localFont({
+//   variable: "--font-st-kaiti",
+//   src: "./fonts/STKaiti.woff2",
+//   fallback: ["system-ui"],
+//   preload: false,
+// });
 
 const MicrosoftClarity = dynamic(() => import("./metrics/microsoft-clarity"), {
   ssr: false,
@@ -58,7 +59,7 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background font-cursive font-normal text-foreground antialiased",
-          fontSTKaiti.variable,
+          // fontSTKaiti.variable,
         )}
       >
         <TRPCReactProvider>
@@ -74,6 +75,7 @@ export default function RootLayout({
 
         <GoogleAnalytics id={process.env.NEXT_PUBLIC_GA_ID!} />
         <MicrosoftClarity id={process.env.NEXT_PUBLIC_MC_ID!} />
+        <LoadFont />
       </body>
     </html>
   );
