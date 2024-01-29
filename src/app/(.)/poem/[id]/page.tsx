@@ -1,4 +1,4 @@
-import { ChevronRight, InfoIcon, TwitterIcon } from "lucide-react";
+import { Album, ChevronRight, InfoIcon, TwitterIcon } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { HeaderMain } from "~/components/ui/header";
@@ -183,15 +183,16 @@ export default async function Page({ params, searchParams }: Props) {
       </article>
 
       <article className="chinese mt-8 px-4">
-        {poem.tags.length && (
+        {poem.tags.length > 0 && (
           <div className="mt-12 flex justify-start space-x-2">
             {poem.tags.map((item) => {
               return (
                 <Button
                   variant={"secondary"}
                   key={item.id}
-                  className="text-base"
+                  className={cn("text-base")}
                 >
+                  {item.type && <Album className="mr-1 h-4 w-4 opacity-70" />}
                   {item.name}
                 </Button>
               );
