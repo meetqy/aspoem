@@ -12,6 +12,7 @@ const fontSTKaiti = localFont({
   variable: "--font-st-kaiti",
   src: "./fonts/STKaiti.woff2",
   fallback: ["system-ui"],
+  preload: false,
 });
 
 const MicrosoftClarity = dynamic(() => import("./metrics/microsoft-clarity"), {
