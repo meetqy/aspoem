@@ -10,7 +10,7 @@ import dynamic from "next/dynamic";
 
 const fontSTKaiti = localFont({
   variable: "--font-st-kaiti",
-  src: "./fonts/STKaiti.ttf",
+  src: "./fonts/STKaiti.woff2",
   fallback: ["system-ui"],
 });
 
