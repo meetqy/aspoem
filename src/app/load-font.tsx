@@ -1,8 +1,6 @@
-/* eslint-disable @next/next/no-css-tags */
 "use client";
 
-import Head from "next/head";
-import { useLayoutEffect, useState } from "react";
+import { useLayoutEffect } from "react";
 
 const isSupportFontFamily = (f: string): boolean => {
   if (typeof f !== "string") {

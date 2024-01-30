@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+fonts/STKaiti/*.html
+fonts/STKaiti/*.json
+
 # dependencies
 /node_modules
 /.pnp

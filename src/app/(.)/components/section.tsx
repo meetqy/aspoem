@@ -32,7 +32,7 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
         <div className="w-full font-bold lg:w-3/5">
           <Link
             href={`/poem/${poem.id}`}
-            className="underline-animation relative z-10 flex-1 text-xl font-semibold"
+            className="underline-animation relative z-10 flex-1 text-xl"
           >
             {poem.title}
           </Link>
