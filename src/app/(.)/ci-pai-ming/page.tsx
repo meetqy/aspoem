@@ -5,7 +5,7 @@ import { cn } from "~/utils";
 export default async function Page() {
   const tags = await api.tag.findMany.query({
     type: "1",
-    select: ["id", "name", "introduce", "count"],
+    select: ["name", "introduce", "count"],
   });
 
   return (

@@ -39,7 +39,7 @@ export default function CreatePage() {
   >([]);
 
   const { data: tags } = api.tag.findMany.useQuery({
-    select: ["id", "name"],
+    select: ["name"],
   });
 
   const { data: poem } = api.poem.findById.useQuery(Number(id), {

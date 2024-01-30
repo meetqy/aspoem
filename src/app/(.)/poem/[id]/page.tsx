@@ -171,7 +171,9 @@ export default async function Page({ params, searchParams }: Props) {
               <PinYinText
                 key={index}
                 text={line}
-                align={poem.genre === "词" ? "left" : "center"}
+                align={
+                  ["词", "骈文"].includes(poem.genre ?? "") ? "left" : "center"
+                }
                 retract={retract ? true : false}
                 pinyin={showPinYin ? blockPinYin : ""}
                 annotation={annotation}
