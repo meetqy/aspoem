@@ -1,7 +1,8 @@
+/* eslint-disable @next/next/no-css-tags */
 "use client";
 
-import { useLayoutEffect } from "react";
-import "~/styles/STKaiti/result.css";
+import Head from "next/head";
+import { useLayoutEffect, useState } from "react";
 
 const isSupportFontFamily = (f: string): boolean => {
   if (typeof f !== "string") {
@@ -47,19 +48,21 @@ export default function LoadFont() {
       !isSupportFontFamily("Kaiti SC") &&
       !isSupportFontFamily("KaiTi_GB2312")
     ) {
-      const css = `:root {
-          --font-st-kaiti: "STKaiti";
-        }
+      const link = document.createElement("link");
+      link.href = "/fonts/STKaiti/result.css";
+      link.rel = "stylesheet";
+      document.head.appendChild(link);
 
-        .font-cursive {
-          font-family: var(--font-st-kaiti), cursive !important;
-        }
-        `,
-        head = document.head || document.getElementsByTagName("head")[0],
-        style = document.createElement("style");
+      const style = document.createElement("style");
+      style.innerHTML = `
+      :root {
+        --font-st-kaiti: "STKaiti";
+      }
 
-      head.appendChild(style);
-      style.appendChild(document.createTextNode(css));
+      .font-cursive {
+        font-family: var(--font-st-kaiti), cursive !important;
+      }`;
+      document.head.appendChild(style);
     }
   }, []);
 
