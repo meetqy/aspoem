@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useLayoutEffect } from "react";
+import { useLayoutEffect } from "react";
+import "~/styles/STKaiti/result.css";
 
 const isSupportFontFamily = (f: string): boolean => {
   if (typeof f !== "string") {
@@ -41,33 +42,25 @@ const isSupportFontFamily = (f: string): boolean => {
 
 export default function LoadFont() {
   useLayoutEffect(() => {
-    setTimeout(() => {
-      if (
-        !isSupportFontFamily("KaiTi") &&
-        !isSupportFontFamily("Kaiti SC") &&
-        !isSupportFontFamily("KaiTi_GB2312")
-      ) {
-        const css = `:root {
+    if (
+      !isSupportFontFamily("KaiTi") &&
+      !isSupportFontFamily("Kaiti SC") &&
+      !isSupportFontFamily("KaiTi_GB2312")
+    ) {
+      const css = `:root {
           --font-st-kaiti: "STKaiti";
         }
-        
-        @font-face {
-          font-family: "STKaiti";
-          src: url("/fonts/STKaiti.woff2") format("woff2");
-          font-display: swap;
-        }
-        
+
         .font-cursive {
           font-family: var(--font-st-kaiti), cursive !important;
         }
         `,
-          head = document.head || document.getElementsByTagName("head")[0],
-          style = document.createElement("style");
+        head = document.head || document.getElementsByTagName("head")[0],
+        style = document.createElement("style");
 
-        head.appendChild(style);
-        style.appendChild(document.createTextNode(css));
-      }
-    }, 1000);
+      head.appendChild(style);
+      style.appendChild(document.createTextNode(css));
+    }
   }, []);
 
   return null;
