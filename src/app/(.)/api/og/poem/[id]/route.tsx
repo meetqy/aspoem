@@ -11,7 +11,7 @@ export async function GET(
   }: { params: { id: number }; searchParams: { f: string } },
 ) {
   const poem = await api.poem.findById.query(Number(params.id));
-  const { f: footer = 1 } = searchParams;
+  const { f: footer = "1" } = searchParams || {};
 
   if (!poem) return notFound();
 
