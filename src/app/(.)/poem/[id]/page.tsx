@@ -9,6 +9,7 @@ import { cache } from "react";
 import { Button } from "~/components/ui/button";
 import { cn } from "~/utils";
 import dynamic from "next/dynamic";
+import { type Article, type WithContext } from "schema-dts";
 
 const Twikoo = dynamic(() => import("./components/twikoo"), {
   ssr: false,
@@ -79,8 +80,27 @@ export default async function Page({ params, searchParams }: Props) {
     [key in string]: string;
   };
 
+  const addJsonLd = (): WithContext<Article> => {
+    return {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      headline: poem.title,
+      author: {
+        "@type": "Person",
+        name: `${poem.author.dynasty}·${poem.author.name}`,
+        url: `/author/${poem.author.id}`,
+      },
+      image: [`/api/og/poem/${poem.id}?f=0`],
+    };
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(addJsonLd()) }}
+      />
+
       <HeaderMain>
         <div className="flex flex-1 items-center justify-between">
           <div className="flex h-16 items-center px-4">

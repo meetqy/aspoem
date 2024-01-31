@@ -5,9 +5,13 @@ import { api } from "~/trpc/server";
 // Image generation
 export async function GET(
   _request: Request,
-  { params }: { params: { id: number } },
+  {
+    params,
+    searchParams,
+  }: { params: { id: number }; searchParams: { f: string } },
 ) {
   const poem = await api.poem.findById.query(Number(params.id));
+  const { f: footer = 1 } = searchParams;
 
   if (!poem) return notFound();
 
@@ -34,18 +38,20 @@ export async function GET(
         </p>
         <p style={{ fontSize: 48, color: "#ddd" }}>{content[0]}。</p>
         <p style={{ fontSize: 48, color: "#ddd" }}>{content[1]}。</p>
-        <p
-          style={{
-            fontSize: 18,
-            color: "#ccc",
-            width: "100%",
-            display: "flex",
-            justifyContent: "flex-end",
-            marginTop: 40,
-          }}
-        >
-          更多诗词搜索《现代化中国诗词学习网站》
-        </p>
+        {footer === "1" && (
+          <p
+            style={{
+              fontSize: 18,
+              color: "#ccc",
+              width: "100%",
+              display: "flex",
+              justifyContent: "flex-end",
+              marginTop: 40,
+            }}
+          >
+            更多诗词搜索《现代化中国诗词学习网站》
+          </p>
+        )}
       </div>
     ),
     {
