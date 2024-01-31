@@ -7,7 +7,7 @@ import PinYinText from "./components/PinYinText";
 import { type Metadata } from "next";
 import { cache } from "react";
 import { Button } from "~/components/ui/button";
-import { cn } from "~/utils";
+import { MyHost, cn } from "~/utils";
 import dynamic from "next/dynamic";
 import { type Article, type WithContext } from "schema-dts";
 
@@ -88,9 +88,9 @@ export default async function Page({ params, searchParams }: Props) {
       author: {
         "@type": "Person",
         name: `${poem.author.dynasty}·${poem.author.name}`,
-        url: `/author/${poem.author.id}`,
+        url: `${MyHost}/author/${poem.author.id}`,
       },
-      image: [`/api/og/poem/${poem.id}?f=0`],
+      image: [`${MyHost}/api/og/poem/${poem.id}?f=0`],
     };
   };
 
