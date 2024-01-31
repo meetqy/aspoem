@@ -32,6 +32,10 @@ const getItem = cache(async (id: string) => {
 
 export const revalidate = 3600;
 
+const getTitle = (poem: Awaited<ReturnType<typeof getItem>>) => {
+  return `${poem.title}@${poem.author.name}·${poem.author.dynasty} 拼音、注解、译文（白话文）- 现代化中国诗词学习网站`;
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const poem = await getItem(params.id);
 
@@ -52,7 +56,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${poem.title}@${poem.author.name}·${dynasty} 拼音、注解、译文（白话文）- 现代化中国诗词学习网站`,
+    title: getTitle(poem),
     description: poem.content.substring(0, 50),
     keywords,
     twitter: {
@@ -67,7 +71,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function Page({ params, searchParams }: Props) {
   const poem = await getItem(params.id);
 
-  const title = `${poem.title}@${poem.author.name}·${poem.author.dynasty} 拼音、注解、译文（白话文）- 现代化中国诗词学习网站`;
+  const title = getTitle(poem);
 
   const contentPinYin = poem.contentPinYin?.split("\n") ?? [];
   const showPinYin = searchParams.py === "t" ? true : false;
@@ -84,7 +88,7 @@ export default async function Page({ params, searchParams }: Props) {
     return {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
-      headline: poem.title,
+      headline: title,
       author: {
         "@type": "Person",
         name: `${poem.author.dynasty}·${poem.author.name}`,
