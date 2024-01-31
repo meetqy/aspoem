@@ -4,11 +4,11 @@ import { PopoverTrigger } from "@radix-ui/react-popover";
 import {
   Album,
   ArrowUpRightIcon,
-  CircleDotIcon,
   GithubIcon,
   MenuIcon,
   Rocket,
   Rows2,
+  Tag,
   TwitterIcon,
   UserRound,
 } from "lucide-react";
@@ -53,9 +53,14 @@ function Content({ className }: { className?: string }) {
           {
             title: "词牌名",
             icon: Album,
-            label: <CircleDotIcon className="h-5 w-5" strokeWidth={1} />,
             variant: /^(\/ci-pai-ming)/.test(pathname) ? "default" : "ghost",
             href: "/ci-pai-ming",
+          },
+          {
+            title: "标签",
+            icon: Tag,
+            variant: /^(\/tag)/.test(pathname) ? "default" : "ghost",
+            href: "/tag",
           },
         ]}
       />
