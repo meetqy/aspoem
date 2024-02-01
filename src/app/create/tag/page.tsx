@@ -4,20 +4,8 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "~/components/ui/select";
 import { Textarea } from "~/components/ui/textarea";
 import { api } from "~/trpc/react";
-
-const _type: { [key in string]: string } = {
-  1: "词牌名",
-  2: "曲牌名",
-};
 
 export default function Tag({
   searchParams,
@@ -104,23 +92,11 @@ export default function Tag({
             >
               类型
             </label>
-            <Select value={type} onValueChange={setType}>
-              <SelectTrigger>
-                <SelectValue placeholder="选择类型" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value=" ">普通</SelectItem>
-                {Object.keys(_type).map((i) => {
-                  const item = _type[i] ?? "";
-
-                  return (
-                    <SelectItem value={i} key={item}>
-                      {item}
-                    </SelectItem>
-                  );
-                })}
-              </SelectContent>
-            </Select>
+            <Input
+              placeholder="输入类型"
+              value={type}
+              onChange={(e) => setType(e.target.value)}
+            />
           </div>
         </div>
 

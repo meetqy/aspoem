@@ -54,7 +54,7 @@ export const tagRouter = createTRPCRouter({
         id: z.number().optional(),
         token: z.string(),
         name: z.string(),
-        type: z.enum(["1", "2"]).or(z.null()).optional(),
+        type: z.string().optional(),
         introduce: z.string().optional(),
       }),
     )

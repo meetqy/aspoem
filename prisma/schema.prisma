@@ -54,7 +54,7 @@ model Tag {
     id        Int       @id @default(autoincrement())
     name      String    @unique
     poems     Poem[]
-    // 1: 词牌名 2: 曲牌名 null: 正常标签
+    // 1: 词牌名 2: 曲牌名
     type      String?
     introduce String?
     createdAt DateTime? @default(now())
