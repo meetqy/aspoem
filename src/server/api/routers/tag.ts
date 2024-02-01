@@ -35,6 +35,11 @@ export const tagRouter = createTRPCRouter({
               }
             : undefined,
         },
+        orderBy: {
+          poems: {
+            _count: "desc",
+          },
+        },
       });
     }),
 
