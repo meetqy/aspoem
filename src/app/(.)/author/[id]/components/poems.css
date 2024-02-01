@@ -77,3 +77,11 @@
     @apply bg-green-500 text-muted;
   }
 }
+
+.tag-group__title {
+  @apply font-mono;
+
+  @media (max-width: 768px) {
+    @apply sticky top-16 z-10 mx-4 flex h-16 items-center bg-background/70 backdrop-blur;
+  }
+}

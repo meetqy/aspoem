@@ -4,11 +4,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cache } from "react";
 import { Avatar, AvatarFallback } from "~/components/ui/avatar";
-import { Badge } from "~/components/ui/badge";
 import { HeaderMain } from "~/components/ui/header";
-import { Tabs, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import { api } from "~/trpc/server";
 import Poems from "./components/poems";
+import { Button } from "~/components/ui/button";
 
 type Props = {
   params: { id: string };
@@ -74,7 +73,7 @@ export default async function Page({ params, searchParams }: Props) {
 
         <div className="text-left md:ml-16">
           <h1 prose-h1="">
-            <span className="text-outline">{author.name}</span>{" "}
+            <span>{author.name}</span>{" "}
             <span className="font-serif text-2xl font-normal capitalize !tracking-tighter">
               {author.namePinYin}
             </span>
@@ -105,35 +104,13 @@ export default async function Page({ params, searchParams }: Props) {
               </Link>
             </p>
             <div className="mt-8 space-x-4">
-              <Badge>{author.dynasty}朝</Badge>
-              <Badge variant={"secondary"}>标签二</Badge>
-              <Badge variant={"secondary"}>标签三</Badge>
+              <Button variant={"secondary"}>{author.dynasty}朝</Button>
             </div>
           </div>
         </div>
       </header>
 
       <main className="w-full md:mt-8">
-        <div className="flex h-16 items-center border-b border-border px-4">
-          <Tabs value={searchParams?.tab ?? ""}>
-            <TabsList>
-              <TabsTrigger value="" asChild>
-                <Link href={`?`} replace>
-                  诗词
-                  <span className="ml-2 inline-block rounded-md bg-red-600 p-0 px-1 font-mono text-xs text-white">
-                    {author._count.poems}
-                  </span>
-                </Link>
-              </TabsTrigger>
-              {/* <TabsTrigger value="relations" asChild>
-                <Link href={`?tab=relations`} replace>
-                  关系
-                </Link>
-              </TabsTrigger> */}
-            </TabsList>
-          </Tabs>
-        </div>
-
         {!searchParams?.tab && <Poems authorId={author.id} />}
       </main>
     </>

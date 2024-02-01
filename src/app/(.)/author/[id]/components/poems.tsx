@@ -4,6 +4,7 @@ import Link from "next/link";
 import { api } from "~/trpc/react";
 import { cn } from "~/utils";
 import { Button } from "~/components/ui/button";
+import "./poems.css";
 
 export default function Poems({ authorId }: { authorId: number }) {
   const { data } = api.poem.findByAuthorId.useQuery({
@@ -46,7 +47,7 @@ export default function Poems({ authorId }: { authorId: number }) {
   ];
 
   return (
-    <div className="mt-8 w-screen px-4 md:w-full">
+    <div className="mt-8 w-full space-y-8 md:px-4">
       {letters.map((char, i) => {
         const poems = json[char];
         const textColor = colors[i % colors.length]!;
@@ -54,7 +55,7 @@ export default function Poems({ authorId }: { authorId: number }) {
         return (
           <div key={char}>
             <h2
-              className={cn(textColor, "mb-0 !border-transparent font-mono")}
+              className={cn(textColor, "tag-group__title")}
               prose-h2=""
               id={`#author-${char === "#" ? "other" : char}`}
             >
@@ -63,15 +64,13 @@ export default function Poems({ authorId }: { authorId: number }) {
                 ({poems?.length})
               </span>
             </h2>
-            <div className="mb-8 flex flex-1 flex-wrap gap-4">
+            <div prose-p="" className="flex flex-wrap gap-4 px-4 lg:px-0">
               {poems?.map((poem) => {
                 return (
                   <Button
-                    asChild
                     key={poem.id}
                     variant={"secondary"}
-                    size={"sm"}
-                    className="max-w-full justify-start truncate"
+                    className="line-clamp-1 block w-min max-w-sm truncate md:max-w-full"
                   >
                     <Link href={`/poem/${poem.id}`} title={poem.title}>
                       {poem.title}

@@ -28,7 +28,11 @@ export default async function Page() {
           {data?.map(
             (item) =>
               item._count.poems > 0 && (
-                <Button key={item.id} variant={"outline"} className="mb-2 mr-2">
+                <Button
+                  key={item.id}
+                  variant={"secondary"}
+                  className="mb-2 mr-2"
+                >
                   {item.name}
                   <sup className="ml-1 font-mono">{item._count.poems}</sup>
                 </Button>
@@ -47,7 +51,7 @@ export default async function Page() {
         </div>
       </HeaderMain>
 
-      <main className="mt-8 space-y-8">
+      <main className="mt-4 space-y-8 p-4">
         {Object.keys(types).map((item) => (
           <TagItem key={item} name={item} data={types[item]} />
         ))}
