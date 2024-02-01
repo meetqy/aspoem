@@ -1,4 +1,4 @@
-import { type Prisma } from "@prisma/client";
+import { Author, Poem, type Prisma } from "@prisma/client";
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 
@@ -119,23 +119,66 @@ export const poemRouter = createTRPCRouter({
     )
     .query(async ({ input = {}, ctx }) => {
       const { page = 1, pageSize = 28 } = input;
-
-      const orderBy: Prisma.PoemOrderByWithRelationAndSearchRelevanceInput = {};
+      let data: (Poem & { author: Author })[];
 
       if (input.sort === "improve") {
-        orderBy.annotation = { sort: "desc", nulls: "first" };
+        data = await ctx.db.poem.findMany({
+          skip: (page - 1) * pageSize,
+          take: pageSize,
+          orderBy: {
+            translation: { sort: "desc", nulls: "first" },
+          },
+          include: {
+            author: true,
+          },
+        });
       } else {
-        orderBy.updatedAt = { sort: "desc", nulls: "last" };
-      }
+        const temp: (Poem & {
+          "author.name": Author["name"];
+          "author.dynasty": Author["dynasty"];
+          "author.id": Author["id"];
+          "author.namePinYin": Author["namePinYin"];
+          "author.introduce": Author["introduce"];
+          "author.birthDate": Author["birthDate"];
+          "author.deathDate": Author["deathDate"];
+          "author.updatedAt": Author["updatedAt"];
+          "author.createdAt": Author["createdAt"];
+          author: Author;
+        })[] = await ctx.db
+          .$queryRaw`SELECT p.*, a."id" AS "author.id", a.name AS "author.name", a.dynasty as "author.dynasty", a."namePinYin" as "author.namePinYin", a."introduce" as "author.introduce", a."birthDate" as "author.birthDate", a."deathDate" as "author.deathDate", a."createdAt" as "author.createdAt", a."updatedAt" as "author.updatedAt"
+      from "Poem" p left join "Author" a ON p."authorId"=a.id
+      ORDER BY CASE WHEN p.translation IS NULL OR p.translation = '' THEN 1 ELSE 0 END, p."updatedAt" DESC
+      limit ${pageSize} offset ${(page - 1) * pageSize};`;
 
-      const data = await ctx.db.poem.findMany({
-        skip: (page - 1) * pageSize,
-        take: pageSize,
-        orderBy,
-        include: {
-          author: true,
-        },
-      });
+        data = temp.map((item) => {
+          return {
+            author: {
+              id: item["author.id"],
+              name: item["author.name"],
+              dynasty: item["author.dynasty"],
+              namePinYin: item["author.namePinYin"],
+              introduce: item["author.introduce"],
+              birthDate: item["author.birthDate"],
+              deathDate: item["author.deathDate"],
+              updatedAt: item["author.updatedAt"],
+              createdAt: item["author.createdAt"],
+            },
+            id: item.id,
+            title: item.title,
+            titlePinYin: item.titlePinYin,
+            content: item.content,
+            contentPinYin: item.contentPinYin,
+            classify: item.classify,
+            genre: item.genre,
+            introduce: item.introduce,
+            translation: item.translation,
+            annotation: item.annotation,
+            updatedAt: item.updatedAt,
+            createdAt: item.createdAt,
+            authorId: item.authorId,
+          };
+        });
+      }
 
       const total = await ctx.db.poem.count();
 
