@@ -5,7 +5,7 @@ import { cn } from "~/utils";
 
 export default async function Page() {
   const tags = await api.tag.findMany.query({
-    type: "1",
+    type: "词牌名",
     select: ["name", "introduce", "count"],
   });
 
