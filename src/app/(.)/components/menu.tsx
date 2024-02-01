@@ -4,6 +4,7 @@ import { PopoverTrigger } from "@radix-ui/react-popover";
 import {
   Album,
   ArrowUpRightIcon,
+  CircleDot,
   GithubIcon,
   MenuIcon,
   Rocket,
@@ -53,12 +54,14 @@ function Content({ className }: { className?: string }) {
           {
             title: "词牌名",
             icon: Album,
+            label: <CircleDot className="h-5 w-5" />,
             variant: /^(\/ci-pai-ming)/.test(pathname) ? "default" : "ghost",
             href: "/ci-pai-ming",
           },
           {
             title: "标签",
             icon: Tag,
+            label: <CircleDot className="h-5 w-5" />,
             variant: /^(\/tag)/.test(pathname) ? "default" : "ghost",
             href: "/tag",
           },

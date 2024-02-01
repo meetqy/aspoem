@@ -40,7 +40,7 @@ export default async function Page() {
             <div
               key={i}
               className={cn(
-                "group flex cursor-pointer items-center justify-between border-b py-4",
+                "group flex cursor-pointer items-center justify-between border-b border-border py-4",
               )}
             >
               <div className="flex-1">
