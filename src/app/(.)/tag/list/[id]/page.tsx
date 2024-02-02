@@ -1,11 +1,40 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { cache } from "react";
 import Section from "~/app/(.)/components/section";
 import { Button } from "~/components/ui/button";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
 import { cn } from "~/utils";
+
+const getItem = cache(async (id: number, page: number) => {
+  return await api.poem.findByTagId.query({
+    id,
+    page,
+  });
+});
+
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params: { id: string };
+  searchParams: { page: string };
+}) {
+  const id = Number(params.id);
+  const page = Number(searchParams.page);
+
+  if (isNaN(id) || isNaN(page) || page < 1) {
+    return notFound();
+  }
+
+  const { tag } = await getItem(id, page);
+
+  return {
+    title: `关于词牌名《${tag?.name}》的诗词 第${page}页`,
+  };
+}
 
 export default async function Page({
   params,
@@ -44,7 +73,7 @@ export default async function Page({
               replace
               className="flex-shrink-0 text-muted-foreground"
             >
-              标签
+              {tag?.type}
             </Link>
             <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
             {tag && (

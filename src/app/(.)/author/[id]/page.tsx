@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${author.dynasty}朝著名诗人，${author.name}的所有诗词（共${author._count.poems}首）`,
+    title: `${author.dynasty}·${author.name}的所有诗词（共${author._count.poems}首）`,
     description: `${author.dynasty}·${author.name}（${author.namePinYin}），${author.introduce}`,
     keywords: [
       author.name,

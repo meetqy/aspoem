@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "~/components/ui/button";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
@@ -38,7 +39,6 @@ export default async function Page() {
 
         <div className="mt-12 flex space-x-2">
           <Button variant={"default"}>最受欢迎的</Button>
-          {/* <Button variant={"ghost"}>按字母排序</Button> */}
         </div>
 
         <div className="mt-4 grid grid-cols-1 space-y-2">
@@ -46,7 +46,7 @@ export default async function Page() {
             <div
               key={i}
               className={cn(
-                "group flex cursor-pointer items-center justify-between border-b border-border py-4",
+                "group relative flex cursor-pointer items-center justify-between border-b border-border py-4",
               )}
             >
               <div className="flex-1">
@@ -59,6 +59,12 @@ export default async function Page() {
                   {item._count.poems}
                 </div>
               </div>
+
+              <Link
+                href={`/tag/list/${item.id}?page=1`}
+                title="查看详情"
+                className="pointer-events-auto absolute left-0 top-0 h-full w-full"
+              ></Link>
             </div>
           ))}
         </div>
