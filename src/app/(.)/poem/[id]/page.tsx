@@ -16,7 +16,6 @@ import { Button } from "~/components/ui/button";
 import { MyHost, cn } from "~/utils";
 import dynamic from "next/dynamic";
 import { type Article, type WithContext } from "schema-dts";
-import Image from "next/image";
 
 const Twikoo = dynamic(() => import("./components/twikoo"), {
   ssr: false,
@@ -40,7 +39,7 @@ const getItem = cache(async (id: string) => {
 export const revalidate = 3600;
 
 const getTitle = (poem: Awaited<ReturnType<typeof getItem>>) => {
-  return `${poem.title} - ${poem.author.dynasty}·${poem.author.name} 拼音、注解、译文（白话文）| 现代化中国诗词学习网站`;
+  return `${poem.title}-${poem.author.dynasty}·${poem.author.name} 拼音、注解、译文(白话文) - 现代化中国诗词学习网站`;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
