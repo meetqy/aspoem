@@ -39,8 +39,12 @@ export default async function Page({
       <HeaderMain>
         <div className="flex h-16 items-center px-4">
           <nav className="flex items-center space-x-2">
-            <Link href="/" className="flex-shrink-0 text-muted-foreground">
-              全部
+            <Link
+              href="/tag"
+              replace
+              className="flex-shrink-0 text-muted-foreground"
+            >
+              标签
             </Link>
             <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
             {tag && (

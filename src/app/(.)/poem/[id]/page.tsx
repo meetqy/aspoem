@@ -221,11 +221,14 @@ export default async function Page({ params, searchParams }: Props) {
                   variant={"secondary"}
                   key={item.id}
                   className={cn("text-base")}
+                  asChild
                 >
-                  {item.type === "词牌名" && (
-                    <Album className="mr-1 h-4 w-4 opacity-70" />
-                  )}
-                  {item.name}
+                  <Link href={`/tag/list/${item.id}?page=1`}>
+                    {item.type === "词牌名" && (
+                      <Album className="mr-1 h-4 w-4 opacity-70" />
+                    )}
+                    {item.name}
+                  </Link>
                 </Button>
               );
             })}
@@ -253,6 +256,17 @@ export default async function Page({ params, searchParams }: Props) {
           <Button asChild variant={"outline"}>
             <Link
               href={`https://twitter.com/intent/tweet?text=${title} https://aspoem.com/poem/${poem.id}`}
+              target="_blank"
+              className="dark:hidden"
+            >
+              <TwitterIcon className="mr-2 h-6 w-6 text-blue-500" /> 分享到
+              Twitter
+            </Link>
+          </Button>
+
+          <Button asChild variant={"outline"} className="hidden dark:flex">
+            <Link
+              href={`https://twitter.com/intent/tweet?text=${title} https://aspoem.com/poem/${poem.id}?dark`}
               target="_blank"
             >
               <TwitterIcon className="mr-2 h-6 w-6 text-blue-500" /> 分享到
