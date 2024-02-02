@@ -190,6 +190,41 @@ export const poemRouter = createTRPCRouter({
         total,
       };
     }),
+
+  findByTagId: publicProcedure
+    .input(
+      z.object({
+        id: z.number(),
+        page: z.number().optional().default(1),
+        pageSize: z.number().optional().default(28),
+      }),
+    )
+    .query(async ({ input, ctx }) => {
+      const { page = 1, pageSize = 28, id } = input;
+
+      const [data, total, tag] = await ctx.db.$transaction([
+        ctx.db.poem.findMany({
+          where: { tags: { some: { id } } },
+          include: { author: true },
+          skip: (page - 1) * pageSize,
+          take: pageSize,
+        }),
+        ctx.db.poem.count({
+          where: { tags: { some: { id } } },
+        }),
+        ctx.db.tag.findUnique({ where: { id } }),
+      ]);
+
+      return {
+        data,
+        page,
+        pageSize,
+        hasNext: page * pageSize < total,
+        tag,
+        total,
+      };
+    }),
+
   /**
    * 根据 id 查找诗词
    */

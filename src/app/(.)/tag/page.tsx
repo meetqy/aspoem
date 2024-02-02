@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "~/components/ui/button";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
@@ -32,9 +33,12 @@ export default async function Page() {
                   key={item.id}
                   variant={"secondary"}
                   className="mb-2 mr-2"
+                  asChild
                 >
-                  {item.name}
-                  <sup className="ml-1 font-mono">{item._count.poems}</sup>
+                  <Link href={`/tag/list/${item.id}?page=1`}>
+                    {item.name}
+                    <sup className="ml-1 font-mono">{item._count.poems}</sup>
+                  </Link>
                 </Button>
               ),
           )}
