@@ -1,4 +1,10 @@
-import { Album, ChevronRight, InfoIcon, TwitterIcon } from "lucide-react";
+import {
+  Album,
+  ChevronRight,
+  InfoIcon,
+  MousePointerSquareIcon,
+  TwitterIcon,
+} from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { HeaderMain } from "~/components/ui/header";
@@ -252,24 +258,28 @@ export default async function Page({ params, searchParams }: Props) {
               Twitter
             </Link>
           </Button>
-        </p>
 
-        <Image
-          className="mt-4 rounded-md border border-border dark:hidden"
-          alt={`${getTitle(poem)} 预览图`}
-          src={`/api/og/poem/${poem.id}`}
-          width={1200}
-          height={630}
-        />
-        <Image
-          className="mt-4 hidden rounded-md border border-border dark:block"
-          alt={`${getTitle(poem)} 暗黑预览图`}
-          src={`/api/og/poem/${poem.id}?dark`}
-          width={1200}
-          height={630}
-        />
-        <p className="mt-2 text-center text-foreground/70">
-          长按可保存到手机、分享到其他平台
+          <Button asChild variant={"outline"} className="dark:hidden">
+            <Link
+              href={`/api/og/poem/${poem.id}`}
+              target="_blank"
+              title={`${getTitle(poem)} 预览图`}
+            >
+              <MousePointerSquareIcon className="mr-2 h-6 w-6 text-destructive" />
+              获取分享图片
+            </Link>
+          </Button>
+
+          <Button asChild variant={"outline"} className="hidden dark:flex">
+            <Link
+              href={`/api/og/poem/${poem.id}?dark`}
+              target="_blank"
+              title={`${getTitle(poem)} 暗黑预览图`}
+            >
+              <MousePointerSquareIcon className="mr-2 h-6 w-6 text-destructive" />
+              获取分享图片
+            </Link>
+          </Button>
         </p>
 
         <h2 id="#畅所欲言" prose-h2="">
