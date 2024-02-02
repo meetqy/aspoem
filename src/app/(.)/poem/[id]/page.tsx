@@ -222,7 +222,9 @@ export default async function Page({ params, searchParams }: Props) {
                   key={item.id}
                   className={cn("text-base")}
                 >
-                  {item.type && <Album className="mr-1 h-4 w-4 opacity-70" />}
+                  {item.type === "词牌名" && (
+                    <Album className="mr-1 h-4 w-4 opacity-70" />
+                  )}
                   {item.name}
                 </Button>
               );
