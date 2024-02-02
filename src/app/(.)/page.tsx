@@ -8,6 +8,11 @@ import { Button } from "~/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { cn } from "~/utils";
+import { type Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "AsPoem",
+};
 
 export default async function IndexPage({
   params,

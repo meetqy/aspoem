@@ -3,6 +3,12 @@ import { Button } from "~/components/ui/button";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
 
+export async function generateMetadata() {
+  return {
+    title: `标签列表`,
+  };
+}
+
 export default async function Page() {
   const tags = await api.tag.findMany.query({
     select: ["count", "name", "type"],

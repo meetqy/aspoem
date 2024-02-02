@@ -17,7 +17,10 @@ const GoogleAnalytics = dynamic(() => import("./metrics/google-analytics"), {
 });
 
 export const metadata: Metadata = {
-  title: "AsPoem.com - 现代化中国诗词学习网站",
+  title: {
+    template: "%s | 现代化中国诗词学习网站",
+    default: "aspoem.com",
+  },
   description: `aspoem.com 是现代化的中国诗词学习网站，提供全站搜索、拼音标注、注释和白话文翻译等功能。无论您对唐诗宋词感兴趣还是想深入学习，都是您的理想选择，从这里开始您的诗歌之旅！`,
   icons: [{ rel: "icon", url: "/favicon.ico" }],
   keywords: [
