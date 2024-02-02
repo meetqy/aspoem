@@ -1,4 +1,4 @@
-import { Author, Poem, type Prisma } from "@prisma/client";
+import { type Author, type Poem } from "@prisma/client";
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 

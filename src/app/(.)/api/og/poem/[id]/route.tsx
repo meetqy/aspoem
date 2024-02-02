@@ -9,6 +9,8 @@ export async function GET(
 ) {
   const poem = await api.poem.findById.query(Number(params.id));
 
+  const isDark = _request.url.includes("dark");
+
   if (!poem) return notFound();
 
   const content = poem.content.split(/。|！|？/);
@@ -18,7 +20,8 @@ export async function GET(
       <div
         lang="zh-CN"
         style={{
-          background: "#0d0c0e",
+          background: isDark ? "#09090b" : "#fff",
+          color: isDark ? "#fff" : "#09090b",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -28,24 +31,24 @@ export async function GET(
           padding: "40px 40px",
         }}
       >
-        <p style={{ fontSize: 96, color: "#fff" }}>{poem.title}</p>
-        <p style={{ fontSize: 24, color: "#ddd", marginTop: -12 }}>
+        <p style={{ fontSize: 96 }}>{poem.title}</p>
+        <p style={{ fontSize: 32, marginTop: -12, opacity: 0.8 }}>
           {poem.author.dynasty}·{poem.author.name}
         </p>
-        <p style={{ fontSize: 48, color: "#ddd" }}>{content[0]}。</p>
-        <p style={{ fontSize: 48, color: "#ddd" }}>{content[1]}。</p>
+        <p style={{ fontSize: 48, opacity: 0.9 }}>{content[0]}。</p>
+        <p style={{ fontSize: 48, opacity: 0.9 }}>{content[1]}。</p>
         {
           <p
             style={{
               fontSize: 18,
-              color: "#ccc",
               width: "100%",
               display: "flex",
               justifyContent: "flex-end",
               marginTop: 40,
+              opacity: 0.7,
             }}
           >
-            更多诗词搜索《现代化中国诗词学习网站》
+            《现代化中国诗词学习网站》
           </p>
         }
       </div>
