@@ -176,6 +176,7 @@ export const poemRouter = createTRPCRouter({
             updatedAt: item.updatedAt,
             createdAt: item.createdAt,
             authorId: item.authorId,
+            views: item.views,
           };
         });
       }
@@ -228,15 +229,23 @@ export const poemRouter = createTRPCRouter({
   /**
    * 根据 id 查找诗词
    */
-  findById: publicProcedure.input(z.number()).query(async ({ input, ctx }) =>
-    ctx.db.poem.findUnique({
-      where: { id: input },
-      include: {
-        tags: true,
-        author: true,
-      },
-    }),
-  ),
+  findById: publicProcedure.input(z.number()).query(async ({ input, ctx }) => {
+    const [, data] = await ctx.db.$transaction([
+      ctx.db.poem.update({
+        where: { id: input },
+        data: { views: { increment: 1 } },
+      }),
+      ctx.db.poem.findUnique({
+        where: { id: input },
+        include: {
+          tags: true,
+          author: true,
+        },
+      }),
+    ]);
+
+    return data;
+  }),
   /**
    * 创建诗词
    */
