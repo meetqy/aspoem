@@ -71,6 +71,7 @@ export default function Poems({ authorId }: { authorId: number }) {
                     key={poem.id}
                     variant={"secondary"}
                     className="line-clamp-1 block w-min max-w-sm truncate md:max-w-full"
+                    asChild
                   >
                     <Link href={`/poem/${poem.id}`} title={poem.title}>
                       {poem.title}
