@@ -230,21 +230,21 @@ export const poemRouter = createTRPCRouter({
    * 根据 id 查找诗词
    */
   findById: publicProcedure.input(z.number()).query(async ({ input, ctx }) => {
-    const [, data] = await ctx.db.$transaction([
-      ctx.db.poem.update({
+    void ctx.db.poem
+      .update({
         where: { id: input },
         data: { views: { increment: 1 } },
-      }),
-      ctx.db.poem.findUnique({
-        where: { id: input },
-        include: {
-          tags: true,
-          author: true,
-        },
-      }),
-    ]);
+      })
+      .then()
+      .catch();
 
-    return data;
+    return ctx.db.poem.findUnique({
+      where: { id: input },
+      include: {
+        tags: true,
+        author: true,
+      },
+    });
   }),
   /**
    * 创建诗词
