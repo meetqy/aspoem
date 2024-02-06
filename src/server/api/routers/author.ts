@@ -19,6 +19,7 @@ export const authorRouter = createTRPCRouter({
         .object({
           page: z.number().optional().default(1),
           pageSize: z.number().optional().default(28),
+          keyword: z.string().optional(),
           select: z
             .array(
               z.enum([
@@ -51,10 +52,13 @@ export const authorRouter = createTRPCRouter({
         .optional(),
     )
     .query(async ({ ctx, input }) => {
-      const { page = 1, pageSize = 28, select = [] } = input ?? {};
+      const { page = 1, pageSize = 28, select = [], keyword } = input ?? {};
 
-      const total = await ctx.db.author.count();
+      const total = await ctx.db.author.count({
+        where: { name: { contains: keyword } },
+      });
       const data = await ctx.db.author.findMany({
+        where: { name: { contains: keyword } },
         orderBy: {
           poems: {
             _count: "desc",
