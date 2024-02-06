@@ -47,6 +47,7 @@ export default function CreatePage() {
   });
   const { data } = api.author.findMany.useQuery({
     pageSize: 999,
+    select: ["name"],
   });
 
   const authors = data?.data;

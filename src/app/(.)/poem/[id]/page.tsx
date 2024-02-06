@@ -200,9 +200,7 @@ export default async function Page({ params, searchParams }: Props) {
               <PinYinText
                 key={index}
                 text={line}
-                align={
-                  ["词", "骈文"].includes(poem.genre ?? "") ? "left" : "center"
-                }
+                align={poem.genre != "诗" ? "left" : "center"}
                 retract={retract ? true : false}
                 pinyin={showPinYin ? blockPinYin : ""}
                 annotation={annotation}
