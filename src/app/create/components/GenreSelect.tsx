@@ -6,7 +6,7 @@ import {
   SelectValue,
 } from "~/components/ui/select";
 
-const _genre = ["诗", "词", "曲", "赋", "骈文", "诗经"];
+const _genre = ["诗", "词", "曲", "赋", "骈文", "诗经", "古文"];
 
 /**
  * 选择体裁
