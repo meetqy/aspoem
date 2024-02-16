@@ -8,27 +8,27 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
 
   const Author = ({ className }: { className?: string }) => {
     return (
-      <span className={cn("font-light", className)}>
+      <div className={cn("font-light", className)}>
+        {poem.author.dynasty && (
+          <>
+            <span>{poem.author.dynasty}</span>
+            <span className="mx-1">·</span>
+          </>
+        )}
+
         <Link
           href={`/author/${poem.authorId}`}
           className="relative z-10 font-bold text-blue-700 transition-all hover:text-blue-700/70 hover:underline dark:text-blue-500 hover:dark:text-blue-500/70"
         >
-          <span className="font-serif">@</span>
           {poem.author.name}
         </Link>
-        {poem.author.dynasty && (
-          <>
-            <span className="mx-1">·</span>
-            <span>{poem.author.dynasty}</span>
-          </>
-        )}
-      </span>
+      </div>
     );
   };
 
   return (
-    <section className="group relative flex cursor-pointer flex-col justify-between rounded-md border border-border bg-card p-4 text-card-foreground transition-all hover:bg-accent hover:text-accent-foreground hover:shadow-md sm:flex-row">
-      <div className="flex-1">
+    <section className="group relative cursor-pointer justify-between rounded-md border border-border bg-card p-4 text-card-foreground transition-all hover:bg-accent hover:text-accent-foreground hover:shadow-md">
+      <div className="flex justify-between">
         <div className="w-full font-bold lg:w-3/5">
           <Link
             href={`/poem/${poem.id}`}
@@ -36,20 +36,20 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
           >
             {poem.title}
           </Link>
-
-          <Author className="ml-2" />
         </div>
 
-        <div className="mt-2 line-clamp-2 group-hover:text-accent-foreground">
-          {content.slice(0, 2).map((line, index) => (
-            <p key={index}>{line}</p>
-          ))}
+        <div className="mt-1.5 flex font-mono text-xs font-normal text-muted-foreground/50">
+          <EyeIcon className="mr-1 h-4 w-4" />
+          <span>{poem.views}</span>
         </div>
       </div>
 
-      <div className="mt-2 flex flex-shrink-0 justify-end pt-1 font-mono text-sm font-normal text-muted-foreground/50 sm:mt-0 sm:w-24">
-        <EyeIcon className="mr-1 h-5 w-5" />
-        <span>{poem.views}</span>
+      <Author className="mt-1" />
+
+      <div className="mt-2 line-clamp-2 group-hover:text-accent-foreground">
+        {content.slice(0, 2).map((line, index) => (
+          <p key={index}>{line}</p>
+        ))}
       </div>
 
       <Link
