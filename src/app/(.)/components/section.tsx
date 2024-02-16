@@ -1,6 +1,6 @@
 import { type Author, type Poem } from "@prisma/client";
+import { EyeIcon } from "lucide-react";
 import Link from "next/link";
-import { format } from "date-fns";
 import { cn } from "~/utils";
 
 export default function Section({ poem }: { poem: Poem & { author: Author } }) {
@@ -27,8 +27,8 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
   };
 
   return (
-    <section className="group relative block cursor-pointer rounded-md border border-border bg-card p-4 text-card-foreground transition-all hover:bg-accent hover:text-accent-foreground hover:shadow-md">
-      <div className="flex justify-between">
+    <section className="group relative flex cursor-pointer flex-col justify-between rounded-md border border-border bg-card p-4 text-card-foreground transition-all hover:bg-accent hover:text-accent-foreground hover:shadow-md sm:flex-row">
+      <div className="flex-1">
         <div className="w-full font-bold lg:w-3/5">
           <Link
             href={`/poem/${poem.id}`}
@@ -40,29 +40,16 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
           <Author className="ml-2" />
         </div>
 
-        <div className="hidden flex-shrink-0 pt-1 text-sm font-normal text-muted-foreground lg:flex">
-          {poem.updatedAt ? (
-            <span>
-              更新时间：
-              <span className="font-mono text-xs">
-                {format(poem.updatedAt, "yyyy-MM-dd")}
-              </span>
-            </span>
-          ) : (
-            <span>
-              创建时间：
-              <span className="font-mono text-xs">
-                {poem.createdAt && format(poem.createdAt, "yyyy-MM-dd")}
-              </span>
-            </span>
-          )}
+        <div className="mt-2 line-clamp-2 group-hover:text-accent-foreground">
+          {content.slice(0, 2).map((line, index) => (
+            <p key={index}>{line}</p>
+          ))}
         </div>
       </div>
 
-      <div className="mt-2 line-clamp-2 group-hover:text-accent-foreground">
-        {content.slice(0, 2).map((line, index) => (
-          <p key={index}>{line}</p>
-        ))}
+      <div className="mt-2 flex flex-shrink-0 justify-end pt-1 font-mono text-sm font-normal text-muted-foreground/50 sm:mt-0 sm:w-24">
+        <EyeIcon className="mr-1 h-5 w-5" />
+        <span>{poem.views}</span>
       </div>
 
       <Link
