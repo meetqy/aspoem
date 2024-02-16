@@ -170,10 +170,7 @@ export default async function Page({ params, searchParams }: Props) {
 
           <Link
             href={`/author/${poem.author.id}`}
-            className="bg-gradient-to-tr from-foreground via-muted-foreground/50 to-accent-foreground bg-clip-text no-underline"
-            style={{
-              WebkitTextFillColor: "transparent",
-            }}
+            className="underline-animation font-light"
           >
             {poem.author.name}
           </Link>
