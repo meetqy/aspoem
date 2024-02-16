@@ -8,7 +8,7 @@ export default function SortTabs({ sort }: { sort?: Sort }) {
       <TabsList className="h-8">
         <TabsTrigger value="" asChild>
           <Link href={`?`} replace>
-            推荐
+            最新
           </Link>
         </TabsTrigger>
         <TabsTrigger value="improve" asChild>

@@ -113,7 +113,7 @@ export const poemRouter = createTRPCRouter({
         .object({
           page: z.number().optional().default(1),
           pageSize: z.number().optional().default(28),
-          sort: z.enum(["updatedAt", "improve"]).optional(),
+          sort: z.enum(["updatedAt", "improve", "createdAt"]).optional(),
         })
         .optional(),
     )
@@ -133,7 +133,7 @@ export const poemRouter = createTRPCRouter({
           },
         });
       } else {
-        const temp: (Poem & {
+        let temp: (Poem & {
           "author.name": Author["name"];
           "author.dynasty": Author["dynasty"];
           "author.id": Author["id"];
@@ -144,11 +144,21 @@ export const poemRouter = createTRPCRouter({
           "author.updatedAt": Author["updatedAt"];
           "author.createdAt": Author["createdAt"];
           author: Author;
-        })[] = await ctx.db
-          .$queryRaw`SELECT p.*, a."id" AS "author.id", a.name AS "author.name", a.dynasty as "author.dynasty", a."namePinYin" as "author.namePinYin", a."introduce" as "author.introduce", a."birthDate" as "author.birthDate", a."deathDate" as "author.deathDate", a."createdAt" as "author.createdAt", a."updatedAt" as "author.updatedAt"
+        })[] = [];
+
+        if (input.sort === "updatedAt") {
+          temp = await ctx.db
+            .$queryRaw`SELECT p.*, a."id" AS "author.id", a.name AS "author.name", a.dynasty as "author.dynasty", a."namePinYin" as "author.namePinYin", a."introduce" as "author.introduce", a."birthDate" as "author.birthDate", a."deathDate" as "author.deathDate", a."createdAt" as "author.createdAt", a."updatedAt" as "author.updatedAt"
       from public."Poem" p left join public."Author" a ON p."authorId"=a.id
       ORDER BY CASE WHEN p.translation IS NULL OR p.translation = '' THEN 1 ELSE 0 END, p."updatedAt" DESC
       limit ${pageSize} offset ${(page - 1) * pageSize};`;
+        } else if (input.sort === "createdAt") {
+          temp = await ctx.db
+            .$queryRaw`SELECT p.*, a."id" AS "author.id", a.name AS "author.name", a.dynasty as "author.dynasty", a."namePinYin" as "author.namePinYin", a."introduce" as "author.introduce", a."birthDate" as "author.birthDate", a."deathDate" as "author.deathDate", a."createdAt" as "author.createdAt", a."updatedAt" as "author.updatedAt"
+      from public."Poem" p left join public."Author" a ON p."authorId"=a.id
+      ORDER BY CASE WHEN p.translation IS NULL OR p.translation = '' THEN 1 ELSE 0 END, p."createdAt" DESC
+      limit ${pageSize} offset ${(page - 1) * pageSize};`;
+        }
 
         data = temp.map((item) => {
           return {

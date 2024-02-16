@@ -1,11 +1,9 @@
 import { HeaderMain } from "~/components/ui/header";
-import SortTabs from "./components/sort-tabs";
 import { api } from "~/trpc/server";
 import { notFound } from "next/navigation";
-import { type Sort } from "~/types";
 import Section from "./components/section";
 import { Button } from "~/components/ui/button";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronsRight } from "lucide-react";
 import Link from "next/link";
 import { cn } from "~/utils";
 import { type Metadata } from "next";
@@ -16,31 +14,17 @@ export const metadata: Metadata = {
 
 export default async function IndexPage({
   params,
-  searchParams,
 }: {
   params?: { page: string };
-  searchParams?: { sort: Sort };
 }) {
-  const toHref = (href: string) => {
-    if (searchParams?.sort) {
-      return `${href}?sort=${searchParams?.sort}`;
-    }
-
-    return href;
-  };
-
   const pageIndex = Number(params?.page ?? 1);
 
   if (pageIndex < 1 || isNaN(pageIndex)) return notFound();
 
-  const {
-    data: poems,
-    page,
-    hasNext,
-  } = await api.poem.find.query({
+  const { data: poems } = await api.poem.find.query({
     page: pageIndex,
-    pageSize: 12,
-    sort: searchParams?.sort,
+    pageSize: 24,
+    sort: "updatedAt",
   });
 
   if (!poems || poems.length === 0) {
@@ -54,7 +38,9 @@ export default async function IndexPage({
           <div className="flex h-full flex-1 items-center justify-between">
             <span className="text-2xl font-bold">诗词</span>
             <div className="hidden items-center lg:flex">
-              <SortTabs sort={searchParams?.sort} />
+              <Button variant={"secondary"} size={"sm"} asChild>
+                <Link href="/list/1">全部诗词</Link>
+              </Button>
               <span className="mx-2 text-muted-foreground/40">|</span>
             </div>
           </div>
@@ -68,31 +54,9 @@ export default async function IndexPage({
       </div>
 
       <footer className="mb-4 mt-8 flex h-16 justify-between p-4">
-        <Button
-          variant="ghost"
-          className={cn("flex items-center", { "!opacity-0": page <= 1 })}
-          asChild={page > 1}
-          disabled
-        >
-          <Link
-            href={toHref(`/list/${page - 1}`)}
-            className="flex items-center"
-          >
-            <ChevronLeft className="mr-2 h-4 w-4" strokeWidth={1} />
-            上一页
-          </Link>
-        </Button>
-
-        <Button
-          variant="ghost"
-          className={cn("flex items-center", { "opacity-0": !hasNext })}
-          asChild={hasNext}
-        >
-          <Link
-            href={toHref(`/list/${page + 1}`)}
-            className="flex items-center"
-          >
-            下一页 <ChevronRight className="ml-2 h-4 w-4" strokeWidth={1} />
+        <Button variant="ghost" asChild className={cn("flex items-center")}>
+          <Link href={"/list/1"} className="flex items-center">
+            <ChevronsRight className="mr-2 h-5 w-5" strokeWidth={1} /> 全部诗词
           </Link>
         </Button>
       </footer>
