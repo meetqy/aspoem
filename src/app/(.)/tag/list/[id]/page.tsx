@@ -32,7 +32,7 @@ export async function generateMetadata({
   const { tag } = await getItem(id, page);
 
   return {
-    title: `关于词牌名《${tag?.name}》的诗词 第${page}页`,
+    title: `关于${tag?.type || "其他"}“${tag?.name}”的诗词 第${page}页`,
   };
 }
 
