@@ -6,7 +6,7 @@ import { cn } from "~/utils";
 
 export async function generateMetadata() {
   return {
-    title: `词牌名列表 - 现代化中国诗词学习网站`,
+    title: `词牌名列表`,
   };
 }
 

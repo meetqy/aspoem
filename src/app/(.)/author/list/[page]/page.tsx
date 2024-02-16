@@ -11,7 +11,7 @@ export async function generateMetadata({
   if (pageIndex < 1 || isNaN(pageIndex)) return notFound();
 
   return {
-    title: `诗人列表 第${pageIndex}页 - 现代化中国诗词学习网站`,
+    title: `诗人列表 第${pageIndex}页`,
   };
 }
 
