@@ -30,9 +30,9 @@ export const metadata: Metadata = {
     "拼音标注诗词",
     "注释诗词",
     "白话文翻译诗词",
-    "诗词学习资源",
     "学习唐诗宋词",
     "诗词学习网站推荐",
+    "poem in chinese",
   ],
   metadataBase: new URL("https://aspoem.com"),
   twitter: {
