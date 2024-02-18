@@ -102,9 +102,10 @@ export default function CreatePage() {
             title,
             authorId,
           });
+
+          await utils.poem.findById.invalidate(Number(id));
         }
 
-        await utils.poem.findById.invalidate(Number(id));
         alert("Success");
       },
       onError: (err) => alert(err.message),
