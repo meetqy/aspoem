@@ -252,23 +252,24 @@ export default async function Page({ params, searchParams }: Props) {
             <Link
               href={`https://twitter.com/intent/tweet?text=${title} https://aspoem.com/poem/${poem.id}`}
               target="_blank"
+              className="dark:hidden"
             >
               <TwitterIcon className="mr-2 h-6 w-6 text-blue-500" /> 分享到
-              Twitter 明亮
+              Twitter
             </Link>
           </Button>
 
-          <Button asChild variant={"outline"}>
+          <Button asChild variant={"outline"} className="hidden dark:flex">
             <Link
               href={`https://twitter.com/intent/tweet?text=${title} https://aspoem.com/poem/${poem.id}?dark`}
               target="_blank"
             >
-              <TwitterIcon className="mr-2 h-6 w-6 text-foreground" /> 分享到
-              Twitter 暗黑
+              <TwitterIcon className="mr-2 h-6 w-6 text-blue-500" /> 分享到
+              Twitter
             </Link>
           </Button>
 
-          <Button asChild variant={"outline"} className="dark:hidden">
+          <Button asChild variant={"outline"} className="mb-2 mr-2 dark:hidden">
             <Link
               href={`/api/og/poem/${poem.id}`}
               target="_blank"

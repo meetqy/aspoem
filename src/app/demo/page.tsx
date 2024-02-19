@@ -1,10 +1,14 @@
-"use client";
-
-import { api } from "~/trpc/react";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "~/components/ui/popover";
 
 export default function a() {
-  const { data } = api.poem.findByTagId.useQuery({ id: 11 });
-  console.log(data);
-
-  return null;
+  return (
+    <Popover>
+      <PopoverTrigger>Open</PopoverTrigger>
+      <PopoverContent>Place content for the popover here.</PopoverContent>
+    </Popover>
+  );
 }

@@ -1,10 +1,11 @@
 import { cn } from "~/utils";
-import {
-  HoverCard,
-  HoverCardContent,
-  HoverCardTrigger,
-} from "~/components/ui/hover-card";
+
 import "./index.css";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "~/components/ui/popover";
 
 interface Props {
   text: string;
@@ -75,16 +76,16 @@ const PinYinText = (props: Props) => {
         if (item.length > 1) {
           const chlild = item.split("");
           return (
-            <HoverCard key={i} openDelay={400}>
-              <HoverCardTrigger>
-                <b className="char_annotation underline-animation !from-blue-900 !to-blue-50">
+            <Popover key={i}>
+              <PopoverTrigger>
+                <b className="char_annotation underline-animation">
                   {render(chlild)}
                 </b>
-              </HoverCardTrigger>
-              <HoverCardContent>
+              </PopoverTrigger>
+              <PopoverContent>
                 {props.annotation?.[item] ?? "暂无注释"}
-              </HoverCardContent>
-            </HoverCard>
+              </PopoverContent>
+            </Popover>
           );
         }
 
@@ -92,25 +93,25 @@ const PinYinText = (props: Props) => {
 
         if (annotationKeys.includes(item)) {
           return (
-            <HoverCard key={i} openDelay={400}>
-              <HoverCardTrigger>
+            <Popover key={i}>
+              <PopoverTrigger>
                 <span
                   data-text=""
                   key={i}
                   className={cn(
                     /，|。|？|·/.test(item) && "md:-px-1.5 md:-mx-2",
                     annotationKeys.includes(item) &&
-                      "underline-animation char_annotation",
+                      "char_annotation underline-animation",
                   )}
                 >
                   <b>{item}</b>
                   {!_pinyinNoShowChar.includes(py) && <PinYin>{py}</PinYin>}
                 </span>
-              </HoverCardTrigger>
-              <HoverCardContent>
+              </PopoverTrigger>
+              <PopoverContent>
                 {props.annotation?.[item] ?? "暂无注释"}
-              </HoverCardContent>
-            </HoverCard>
+              </PopoverContent>
+            </Popover>
           );
         }
 
@@ -121,7 +122,7 @@ const PinYinText = (props: Props) => {
             className={cn(
               /，|。|？|·/.test(item) && "md:-px-1.5 md:-mx-2",
               annotationKeys.includes(item) &&
-                "underline-animation char_annotation",
+                "char_annotation underline-animation",
             )}
           >
             {item}
