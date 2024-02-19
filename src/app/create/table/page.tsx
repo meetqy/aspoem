@@ -1,6 +1,6 @@
 "use client";
 
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Button } from "~/components/ui/button";
 import { api } from "~/trpc/react";
@@ -16,29 +16,23 @@ type C = {
 };
 
 export default function Page() {
-  const searchParams = useSearchParams();
-  const [dataSource, setDataSource] = useState<C[]>();
+  const [dataSource, setDataSource] = useState<C[]>([]);
   const utils = api.useUtils();
   const [genre, setGenre] = useState("诗");
 
   const author = api.author.create.useMutation();
   const poem = api.poem.create.useMutation();
+  const params = useSearchParams();
+  const router = useRouter();
+  const token = params.get("token") ?? "";
 
   const [save, setSave] = useState<string[]>([]);
 
   useEffect(() => {
-    setSave(JSON.parse(localStorage.getItem("save") || "[]") as string[]);
-  }, []);
-
-  useEffect(() => {
-    void fetch("/content.json")
-      .then((res) => res.json())
-      .then((res) => {
-        setDataSource(
-          (res as C[]).filter((item) => !save.includes(item.title)),
-        );
-      });
-  }, [save]);
+    if (localStorage.getItem("token") && !token) {
+      router.replace(`?token=${localStorage.getItem("token")}`);
+    }
+  }, [token, router]);
 
   const { data } = api.author.findMany.useQuery({ pageSize: 999 });
   const authorNames = data?.data.map((item) => item.name) ?? [];
@@ -49,7 +43,7 @@ export default function Page() {
         .mutateAsync({
           name: item.author,
           dynasty: item.dynasty,
-          token: searchParams.get("token") ?? "",
+          token,
         })
         .then((e) => {
           addPoem(item, e.id);
@@ -68,8 +62,21 @@ export default function Page() {
   };
 
   useEffect(() => {
+    void fetch("/content.json")
+      .then((res) => res.json())
+      .then((res) => {
+        setDataSource(
+          (res as C[]).filter((item) => !save.includes(item.title)),
+        );
+
+        setSave(JSON.parse(localStorage.getItem("save") || "[]") as string[]);
+      });
+  }, []);
+
+  useEffect(() => {
+    if (save.length === 0) return;
+
     setDataSource((dataSource) => {
-      if (!dataSource) return;
       return dataSource.filter((item) => !save.includes(item.title));
     });
 
@@ -88,7 +95,7 @@ export default function Page() {
           .replace(/\n\s/g, "\n")
           .replace(/(\s+)?(\.|,|!|、|！|。|，|；)/g, " ."),
         authorId,
-        token: searchParams.get("token") ?? "",
+        token,
       })
       .then(() => {
         setSave([...save, item.title]);
