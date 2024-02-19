@@ -39,12 +39,17 @@ const isSupportFontFamily = (f: string): boolean => {
   return g(h).join("") !== g(f).join("");
 };
 
+const kaiti = ["KaiTi SC", "KaiTi", "楷体-简", "楷体"];
+
 export default function LoadFont() {
   useLayoutEffect(() => {
+    function isMobile() {
+      return "ontouchstart" in document.documentElement;
+    }
+
     if (
-      !isSupportFontFamily("KaiTi") &&
-      !isSupportFontFamily("Kaiti SC") &&
-      !isSupportFontFamily("KaiTi_GB2312")
+      kaiti.filter((f) => isSupportFontFamily(f)).length === 0 &&
+      isMobile()
     ) {
       const link = document.createElement("link");
       link.href = "/fonts/STKaiti/result.css";
