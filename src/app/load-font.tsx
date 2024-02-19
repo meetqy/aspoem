@@ -39,7 +39,7 @@ const isSupportFontFamily = (f: string): boolean => {
   return g(h).join("") !== g(f).join("");
 };
 
-const kaiti = ["KaiTi SC", "KaiTi", "楷体-简", "楷体", "SongTi SC"];
+const kaiti = ["KaiTi SC", "KaiTi", "SongTi SC"];
 
 export default function LoadFont() {
   useLayoutEffect(() => {

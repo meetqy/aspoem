@@ -20,14 +20,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        cursive: [
-          "KaiTi SC",
-          "KaiTi",
-          "楷体-简",
-          "楷体",
-          "SongTi SC",
-          "system-ui",
-        ],
+        cursive: ["KaiTi SC", "KaiTi", "SongTi SC", "cursive"],
         serif: ["Palatino", "Times New Roman"],
       },
       colors: {
