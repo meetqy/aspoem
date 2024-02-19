@@ -25,7 +25,7 @@ export default {
           "KaiTi",
           "楷体-简",
           "楷体",
-          "SongTi TC",
+          "SongTi SC",
           "system-ui",
         ],
         serif: ["Palatino", "Times New Roman"],

@@ -39,7 +39,7 @@ const isSupportFontFamily = (f: string): boolean => {
   return g(h).join("") !== g(f).join("");
 };
 
-const kaiti = ["KaiTi SC", "KaiTi", "楷体-简", "楷体"];
+const kaiti = ["KaiTi SC", "KaiTi", "楷体-简", "楷体", "SongTi SC"];
 
 export default function LoadFont() {
   useLayoutEffect(() => {
@@ -58,13 +58,10 @@ export default function LoadFont() {
 
       const style = document.createElement("style");
       style.innerHTML = `
-      :root {
-        --font-st-kaiti: "STKaiti";
-      }
-
-      .font-cursive {
-        font-family: var(--font-st-kaiti), cursive !important;
-      }`;
+        .font-bold {
+          font-weight:500;
+        }
+     `;
       document.head.appendChild(style);
     }
   }, []);
