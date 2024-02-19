@@ -58,9 +58,13 @@ export default function LoadFont() {
 
       const style = document.createElement("style");
       style.innerHTML = `
-        .font-bold {
-          font-weight:500;
-        }
+      :root {
+        --font-st-kaiti: "STKaiti";
+      }
+
+      .font-cursive {
+        font-family: var(--font-st-kaiti), cursive !important;
+      }
      `;
       document.head.appendChild(style);
     }
