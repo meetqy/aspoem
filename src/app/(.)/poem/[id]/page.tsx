@@ -1,11 +1,4 @@
-import {
-  Album,
-  BookAIcon,
-  ChevronRight,
-  InfoIcon,
-  MousePointerSquareIcon,
-  TwitterIcon,
-} from "lucide-react";
+import { Album, ChevronRight, InfoIcon, TwitterIcon } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { HeaderMain } from "~/components/ui/header";
@@ -17,8 +10,13 @@ import { Button } from "~/components/ui/button";
 import { MyHost, cn } from "~/utils";
 import dynamic from "next/dynamic";
 import { type Article, type WithContext } from "schema-dts";
+import { getPoemTitle } from "./utils";
 
 const Twikoo = dynamic(() => import("./components/twikoo"), {
+  ssr: false,
+});
+
+const SaveShareButton = dynamic(() => import("./components/xhs"), {
   ssr: false,
 });
 
@@ -39,10 +37,6 @@ const getItem = cache(async (id: string) => {
 
 export const revalidate = 3600;
 
-const getTitle = (poem: Awaited<ReturnType<typeof getItem>>) => {
-  return `${poem.title}-${poem.author.dynasty}·${poem.author.name} 拼音、注解、译文（白话文）`;
-};
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const poem = await getItem(params.id);
 
@@ -62,7 +56,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: getTitle(poem),
+    title: getPoemTitle(poem),
     description: poem.content.substring(0, 50),
     keywords,
     twitter: {
@@ -77,7 +71,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function Page({ params, searchParams }: Props) {
   const poem = await getItem(params.id);
 
-  const title = getTitle(poem);
+  const title = getPoemTitle(poem);
 
   const contentPinYin = poem.contentPinYin?.split("\n") ?? [];
   const showPinYin = searchParams.py === "t" ? true : false;
@@ -270,16 +264,7 @@ export default async function Page({ params, searchParams }: Props) {
             </Link>
           </Button>
 
-          <Button asChild variant={"outline"}>
-            <Link
-              href={`/api/og/xhs/${poem.id}`}
-              target="_blank"
-              title={`${getTitle(poem)} 小红书风格预览图`}
-            >
-              <BookAIcon className="mr-2 h-6 w-6 text-destructive" />
-              分享到小红书
-            </Link>
-          </Button>
+          <SaveShareButton data={poem} />
         </p>
 
         <h2 id="#畅所欲言" prose-h2="">

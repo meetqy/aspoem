@@ -1,16 +1,21 @@
 "use client";
 
-import domToImage from "dom-to-image";
+import { type Author, type Poem } from "@prisma/client";
+import { BookAIcon } from "lucide-react";
 import { Button } from "~/components/ui/button";
-import { api } from "~/trpc/react";
+import { createPortal } from "react-dom";
+import domToImage from "dom-to-image";
+import { useEffect, useState } from "react";
 
-const ImageDom = () => {
-  const { data: poem } = api.poem.findById.useQuery(809);
+interface Props {
+  data: Poem & { author: Author };
+}
 
-  if (!poem) return;
+const ImageDom = (props: Props) => {
+  const { data: poem } = props;
 
   const content =
-    poem?.content
+    poem.content
       .replaceAll("\n", "")
       .match(/[^。|！|？|，|；]+[。|！|？|，|；]+/g)
       ?.slice(0, 2) || [];
@@ -80,24 +85,41 @@ const ImageDom = () => {
   );
 };
 
-export default function a() {
+const SaveShareButton = (props: Props) => {
+  const { data: poem } = props;
+  const [visable, setVisable] = useState(false);
+
+  useEffect(() => {
+    if (visable) {
+      const box = document.getElementById("image-dom")!;
+
+      void domToImage.toPng(box).then((blob) => {
+        const link = document.createElement("a");
+        link.href = blob;
+        link.download = poem.id + ".png";
+        link.click();
+
+        setVisable(false);
+      });
+    }
+  }, [poem.id, visable]);
+
   return (
     <>
-      <ImageDom />
+      <div className="fixed -z-10 opacity-0">
+        {visable && createPortal(<ImageDom data={poem} />, document.body)}
+      </div>
       <Button
+        variant={"outline"}
         onClick={() => {
-          void domToImage
-            .toPng(document.getElementById("image-dom")!)
-            .then((blob) => {
-              const link = document.createElement("a");
-              link.href = blob;
-              link.download = "poem.png";
-              link.click();
-            });
+          setVisable(true);
         }}
       >
-        保存
+        <BookAIcon className="mr-2 h-6 w-6 text-destructive" />
+        分享到小红书
       </Button>
     </>
   );
-}
+};
+
+export default SaveShareButton;
