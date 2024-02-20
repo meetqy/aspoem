@@ -94,10 +94,30 @@ const SaveShareButton = (props: Props) => {
       const box = document.getElementById("image-dom")!;
 
       void domToImage.toPng(box).then((blob) => {
-        const link = document.createElement("a");
-        link.href = blob;
-        link.download = poem.id + ".png";
-        link.click();
+        const div = document.createElement("div");
+        div.style.position = "fixed";
+        div.style.top = "0";
+        div.style.left = "0";
+        div.style.width = "100%";
+        div.style.height = "100%";
+        div.style.backgroundColor = "rgba(0, 0, 0, 0.25)";
+        div.style.zIndex = "9998";
+        div.style.display = "flex";
+        div.style.justifyContent = "center";
+        div.style.alignItems = "center";
+
+        div.onclick = () => {
+          document.body.removeChild(div);
+        };
+
+        const img = new Image();
+        img.src = blob;
+        img.style.height = "90%";
+        // shadow
+        img.style.boxShadow = "0 0 10px 0 rgba(0, 0, 0, 0.25)";
+        div.appendChild(img);
+
+        document.body.appendChild(div);
 
         setVisable(false);
       });
@@ -106,9 +126,7 @@ const SaveShareButton = (props: Props) => {
 
   return (
     <>
-      <div className="fixed -z-10 opacity-0">
-        {visable && createPortal(<ImageDom data={poem} />, document.body)}
-      </div>
+      {visable && createPortal(<ImageDom data={poem} />, document.body)}
       <Button
         variant={"outline"}
         onClick={() => {

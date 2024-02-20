@@ -1,6 +1,7 @@
 "use client";
 
 import { useLayoutEffect } from "react";
+import { isMobile } from "~/utils";
 
 const isSupportFontFamily = (f: string): boolean => {
   if (typeof f !== "string") {
@@ -43,10 +44,6 @@ const kaiti = ["KaiTi SC", "KaiTi", "SongTi SC"];
 
 export default function LoadFont() {
   useLayoutEffect(() => {
-    function isMobile() {
-      return "ontouchstart" in document.documentElement;
-    }
-
     if (
       kaiti.filter((f) => isSupportFontFamily(f)).length === 0 &&
       isMobile()

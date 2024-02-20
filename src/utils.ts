@@ -5,4 +5,8 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+export function isMobile() {
+  return "ontouchstart" in document.documentElement;
+}
+
 export const MyHost = `https://aspoem.com`;
