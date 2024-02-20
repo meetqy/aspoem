@@ -1,5 +1,6 @@
 import {
   Album,
+  BookAIcon,
   ChevronRight,
   InfoIcon,
   MousePointerSquareIcon,
@@ -269,25 +270,14 @@ export default async function Page({ params, searchParams }: Props) {
             </Link>
           </Button>
 
-          <Button asChild variant={"outline"} className="mb-2 mr-2 dark:hidden">
+          <Button asChild variant={"outline"}>
             <Link
-              href={`/api/og/poem/${poem.id}`}
+              href={`/api/og/xhs/${poem.id}`}
               target="_blank"
-              title={`${getTitle(poem)} 预览图`}
+              title={`${getTitle(poem)} 小红书风格预览图`}
             >
-              <MousePointerSquareIcon className="mr-2 h-6 w-6 text-destructive" />
-              获取分享图片
-            </Link>
-          </Button>
-
-          <Button asChild variant={"outline"} className="hidden dark:flex">
-            <Link
-              href={`/api/og/poem/${poem.id}?dark`}
-              target="_blank"
-              title={`${getTitle(poem)} 暗黑预览图`}
-            >
-              <MousePointerSquareIcon className="mr-2 h-6 w-6 text-destructive" />
-              获取分享图片
+              <BookAIcon className="mr-2 h-6 w-6 text-destructive" />
+              分享到小红书
             </Link>
           </Button>
         </p>
