@@ -113,8 +113,10 @@ const SaveShareButton = (props: Props) => {
         const img = new Image();
         img.src = blob;
         img.style.height = "90%";
-        // shadow
-        img.style.boxShadow = "0 0 10px 0 rgba(0, 0, 0, 0.25)";
+        img.style.width = "auto";
+        // contain
+        img.style.objectFit = "contain";
+
         div.appendChild(img);
 
         document.body.appendChild(div);
