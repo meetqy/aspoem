@@ -1,4 +1,10 @@
-import { Album, ChevronRight, InfoIcon, TwitterIcon } from "lucide-react";
+import {
+  Album,
+  ChevronRight,
+  ClipboardCopy,
+  InfoIcon,
+  TwitterIcon,
+} from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { HeaderMain } from "~/components/ui/header";
@@ -11,6 +17,8 @@ import { MyHost, cn } from "~/utils";
 import dynamic from "next/dynamic";
 import { type Article, type WithContext } from "schema-dts";
 import { getPoemTitle } from "./utils";
+import { Separator } from "~/components/ui/separator";
+import CopyButton from "./components/Copy";
 
 const Twikoo = dynamic(() => import("./components/twikoo"), {
   ssr: false,
@@ -143,7 +151,8 @@ export default async function Page({ params, searchParams }: Props) {
         </div>
       </HeaderMain>
 
-      <article className="py-8 text-center">
+      {/* 正文 */}
+      <article className="group relative select-none py-8 text-center">
         {/* 标题 */}
         <PinYinText
           text={poem.title}
@@ -200,19 +209,20 @@ export default async function Page({ params, searchParams }: Props) {
             );
           })}
         </div>
+
+        <CopyButton
+          data={poem}
+          className="absolute right-1 top-1 transition-all group-hover:opacity-100 md:opacity-0"
+        />
       </article>
 
+      {/* 标签 */}
       <article className="chinese mt-8 px-4">
         {poem.tags.length > 0 && (
-          <div className="mt-12 flex justify-start space-x-2">
+          <div className="mt-12 flex items-center justify-start space-x-2">
             {poem.tags.map((item) => {
               return (
-                <Button
-                  variant={"secondary"}
-                  key={item.id}
-                  className={cn("text-base")}
-                  asChild
-                >
+                <Button variant={"secondary"} key={item.id} asChild>
                   <Link href={`/tag/list/${item.id}?page=1`}>
                     {item.type === "词牌名" && (
                       <Album className="mr-1 h-4 w-4 opacity-70" />
@@ -224,6 +234,7 @@ export default async function Page({ params, searchParams }: Props) {
             })}
           </div>
         )}
+
         <h2 id="#译文" prose-h2="" className="text-left">
           译文
         </h2>
