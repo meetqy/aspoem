@@ -90,9 +90,7 @@ export default async function Page({
 
       <div className="p-4">
         <h1 className="prose-h1">{tag?.name}</h1>
-        {tag?.introduce && (
-          <p className="prose-p text-muted-foreground">{tag?.introduce}</p>
-        )}
+        {tag?.introduce && <p className="prose-p">{tag?.introduce}</p>}
       </div>
 
       <div className="space-y-4 p-4">
