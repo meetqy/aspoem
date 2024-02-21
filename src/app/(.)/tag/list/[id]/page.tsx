@@ -5,6 +5,7 @@ import { cache } from "react";
 import Section from "~/app/(.)/components/section";
 import { Button } from "~/components/ui/button";
 import { HeaderMain } from "~/components/ui/header";
+import { Separator } from "~/components/ui/separator";
 import { api } from "~/trpc/server";
 import { cn } from "~/utils";
 
@@ -73,7 +74,7 @@ export default async function Page({
               replace
               className="flex-shrink-0 text-muted-foreground"
             >
-              {tag?.type}
+              {tag?.type || "其他"}
             </Link>
             <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
             {tag && (
@@ -87,6 +88,13 @@ export default async function Page({
           </nav>
         </div>
       </HeaderMain>
+
+      <div className="p-4">
+        <h1 className="prose-h1">{tag?.name}</h1>
+        {tag?.introduce && (
+          <p className="prose-p text-muted-foreground">{tag?.introduce}</p>
+        )}
+      </div>
 
       <div className="space-y-4 p-4">
         {poems.map((poem) => (

@@ -32,14 +32,10 @@ export default async function Page() {
               cí pái míng
             </span>
           </h1>
-          <p prose-p="">
+          <p className="prose-p">
             词的一种制式曲调的名称，亦即唐宋时代经常用以填词的大致固定的一部分乐曲的原名，有固定的格式与声律，决定着词的节奏与音律。
           </p>
         </header>
-
-        <div className="mt-12 flex space-x-2">
-          <Button variant={"default"}>最受欢迎的</Button>
-        </div>
 
         <div className="mt-4 grid grid-cols-1 space-y-2">
           {tags.map((item, i) => (

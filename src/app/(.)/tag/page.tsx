@@ -30,7 +30,9 @@ export default async function Page() {
   const TagItem = ({ name, data }: { name: string; data?: typeof tags }) => {
     return (
       <div>
-        <h2 prose-h2="">{name}</h2>
+        <h2 prose-h2="" id={`#${name}`}>
+          {name}
+        </h2>
         <p prose-p="">
           {data?.map(
             (item) =>
