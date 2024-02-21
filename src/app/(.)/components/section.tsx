@@ -27,12 +27,12 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
   };
 
   return (
-    <section className="group relative justify-between border-b border-border bg-card p-4 text-card-foreground transition-all">
+    <section className="group relative cursor-pointer justify-between rounded-md border border-border bg-card p-4 text-card-foreground transition-all hover:bg-accent hover:text-accent-foreground hover:shadow-md">
       <div className="flex justify-between">
         <div className="w-full font-bold lg:w-3/5">
           <Link
             href={`/poem/${poem.id}`}
-            className="underline-animation relative z-10 flex-1 text-xl text-primary"
+            className="underline-animation prose-h3 relative z-10 flex-1 text-primary"
           >
             {poem.title}
           </Link>
@@ -51,6 +51,12 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
           <p key={index}>{line}</p>
         ))}
       </div>
+
+      <Link
+        href={`/poem/${poem.id}`}
+        title="查看详情"
+        className="pointer-events-auto absolute left-0 top-0 h-full w-full"
+      />
     </section>
   );
 }

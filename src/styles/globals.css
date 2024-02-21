@@ -56,7 +56,7 @@
 
   [prose-h3],
   .prose-h3 {
-    @apply scroll-m-20 text-2xl font-semibold tracking-tight;
+    @apply scroll-m-20 text-xl font-semibold tracking-tight;
   }
 
   [prose-p],

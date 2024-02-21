@@ -88,7 +88,7 @@ export default async function Page({
         </div>
       </HeaderMain>
 
-      <div className="p-4">
+      <div className="px-4 py-8">
         <h1 className="prose-h1">{tag?.name}</h1>
         {tag?.introduce && <p className="prose-p">{tag?.introduce}</p>}
       </div>

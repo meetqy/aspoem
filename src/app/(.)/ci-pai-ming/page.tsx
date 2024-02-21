@@ -1,3 +1,4 @@
+import { EyeIcon } from "lucide-react";
 import Link from "next/link";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
@@ -36,31 +37,36 @@ export default async function Page() {
           </p>
         </header>
 
-        <div className="mt-4 grid grid-cols-1 space-y-2">
+        <div className="mt-8 grid grid-cols-1 space-y-4">
           {tags.map((item, i) => (
-            <div
+            <section
               key={i}
-              className={cn(
-                "group relative flex cursor-pointer items-center justify-between border-b border-border py-4",
-              )}
+              className="group relative cursor-pointer justify-between rounded-md border border-border bg-card p-4 text-card-foreground transition-all hover:bg-accent hover:text-accent-foreground hover:shadow-md"
             >
-              <div className="flex-1">
-                <p className="text-2xl font-bold">{item.name}</p>
-                <p className="mt-2 text-muted-foreground">{item.introduce}</p>
-              </div>
+              <div className="flex justify-between">
+                <div className="w-full font-bold lg:w-3/5">
+                  <Link
+                    href={`/tag/list/${item.id}?page=1`}
+                    className="underline-animation prose-h3 relative z-10 flex-1 text-primary"
+                  >
+                    {item.name}
+                  </Link>
+                </div>
 
-              <div className="flex h-full w-24 items-center justify-end">
-                <div className="rounded-md bg-muted px-4 py-1 font-mono text-sm text-muted-foreground transition-all group-hover:bg-primary group-hover:text-primary-foreground">
-                  {item._count.poems}
+                <div className="mt-1.5 flex font-mono text-xs font-normal text-muted-foreground/50">
+                  <EyeIcon className="mr-1 h-4 w-4" />
+                  <span>{item._count.poems}</span>
                 </div>
               </div>
+
+              <p className="mt-2 text-muted-foreground">{item.introduce}</p>
 
               <Link
                 href={`/tag/list/${item.id}?page=1`}
                 title="查看详情"
                 className="pointer-events-auto absolute left-0 top-0 h-full w-full"
-              ></Link>
-            </div>
+              />
+            </section>
           ))}
         </div>
       </div>
