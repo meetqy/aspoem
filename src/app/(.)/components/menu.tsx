@@ -31,11 +31,12 @@ function Content({ className }: { className?: string }) {
   const [style, setStyle] = useState("zinc");
 
   useEffect(() => {
-    const style = localStorage.getItem("style");
+    const style = localStorage.getItem("style") ?? "zinc";
     const body = document.body;
     body.classList.add(`theme-${style}`);
+    body.setAttribute("data-theme", style);
 
-    setStyle(style ?? "zinc");
+    setStyle(style);
   }, []);
 
   return (
@@ -136,6 +137,7 @@ function Content({ className }: { className?: string }) {
               const body = document.body;
               body.classList.remove(`theme-${style}`);
               body.classList.add(`theme-${item}`);
+              body.setAttribute("data-theme", item);
 
               setStyle(item);
               localStorage.setItem("style", item);
