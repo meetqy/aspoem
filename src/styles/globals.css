@@ -8,10 +8,15 @@
   数字 font-mono
 */
 
-/* foreground: 文本颜色 */
+/* background: 背景色 */
+/* primary: 主色 */
+/* secondary: 次色 */
 /* accent 重点突出的颜色 */
 /* muted 柔和的颜色 */
 /* destructive 破坏性的 */
+
+/* foreground: 文字颜色 以上颜色后面加上 forgeround 就是文本色 */
+
 @layer utilities {
   .underline-animation {
     @apply relative bg-gradient-to-r from-primary to-primary-foreground bg-no-repeat pb-0.5;

@@ -3,7 +3,6 @@ import "~/styles/themes.css";
 import "~/styles/globals.css";
 
 import { TRPCReactProvider } from "~/trpc/react";
-import { cn } from "~/utils";
 
 import { type Metadata } from "next";
 import dynamic from "next/dynamic";

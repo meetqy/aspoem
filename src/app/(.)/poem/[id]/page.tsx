@@ -156,7 +156,7 @@ export default async function Page({ params, searchParams }: Props) {
 
         <p
           className={cn(
-            "mt-4 !border-0 md:mt-6",
+            "mt-4 !border-0 text-secondary-foreground md:mt-6",
             showPinYin ? "mb-12" : "mb-6",
             "md:prose-h2 prose-h3 transition-all",
           )}

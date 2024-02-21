@@ -8,7 +8,7 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
 
   const Author = ({ className }: { className?: string }) => {
     return (
-      <div className={cn(className)}>
+      <div className={cn(className, "text-secondary-foreground")}>
         {poem.author.dynasty && (
           <>
             <span>{poem.author.dynasty}</span>
@@ -18,7 +18,7 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
 
         <Link
           href={`/author/${poem.authorId}`}
-          className="relative z-10 text-primary hover:underline"
+          className="relative z-10 hover:underline"
         >
           {poem.author.name}
         </Link>
@@ -27,12 +27,12 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
   };
 
   return (
-    <section className="group relative cursor-pointer justify-between rounded-md border border-border bg-card p-4 text-card-foreground transition-all hover:bg-accent hover:text-accent-foreground hover:shadow-md">
+    <section className="group relative justify-between border-b border-border bg-card p-4 text-card-foreground transition-all">
       <div className="flex justify-between">
         <div className="w-full font-bold lg:w-3/5">
           <Link
             href={`/poem/${poem.id}`}
-            className="underline-animation relative z-10 flex-1 text-xl"
+            className="underline-animation relative z-10 flex-1 text-xl text-primary"
           >
             {poem.title}
           </Link>
@@ -46,17 +46,11 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
 
       <Author className="mt-1" />
 
-      <div className="mt-2 line-clamp-2 text-secondary-foreground">
+      <div className="mt-2 line-clamp-2 text-muted-foreground">
         {content.slice(0, 2).map((line, index) => (
           <p key={index}>{line}</p>
         ))}
       </div>
-
-      <Link
-        href={`/poem/${poem.id}`}
-        title="查看详情"
-        className="pointer-events-auto absolute left-0 top-0 h-full w-full"
-      ></Link>
     </section>
   );
 }
