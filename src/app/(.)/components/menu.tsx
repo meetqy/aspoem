@@ -4,6 +4,7 @@ import { PopoverTrigger } from "@radix-ui/react-popover";
 import {
   Album,
   ArrowUpRightIcon,
+  Check,
   CircleDot,
   GithubIcon,
   MenuIcon,
@@ -26,6 +27,15 @@ function Content({ className }: { className?: string }) {
   const pathname = usePathname();
   const { data: poemCount } = api.poem.count.useQuery();
   const { data: authorCount } = api.author.count.useQuery();
+
+  const [style, setStyle] = useState("zinc");
+
+  useEffect(() => {
+    const style = localStorage.getItem("style");
+    if (style) {
+      setStyle(style);
+    }
+  }, []);
 
   return (
     <div className={cn(className)}>
@@ -70,7 +80,7 @@ function Content({ className }: { className?: string }) {
       <div className="px-4">
         <Separator className="my-4" />
       </div>
-      <p className="px-4 text-xs">其他</p>
+      <p className="px-4 text-xs">联系方式</p>
       <div className="font-serif">
         <Nav
           isCollapsed={false}
@@ -104,6 +114,37 @@ function Content({ className }: { className?: string }) {
             },
           ]}
         />
+      </div>
+
+      <div className="px-4">
+        <Separator className="my-4" />
+      </div>
+      <p className="px-4 text-xs">主题</p>
+      <div className="my-4 flex justify-between px-4">
+        {["zinc", "rose", "blue", "green", "orange"].map((item) => (
+          <Button
+            key={item}
+            variant={"default"}
+            size={"icon"}
+            className={cn(
+              `theme-${item}`,
+              "rounded-full border-2 bg-transparent hover:bg-transparent",
+              style === item ? "border-primary" : "border-transparent",
+            )}
+            onClick={() => {
+              const body = document.body;
+              body.classList.remove(`theme-${style}`);
+              body.classList.add(`theme-${item}`);
+
+              setStyle(item);
+              localStorage.setItem("style", item);
+            }}
+          >
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-primary">
+              {item === style && <Check className="h-4 w-4" />}
+            </div>
+          </Button>
+        ))}
       </div>
     </div>
   );

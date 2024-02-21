@@ -1,4 +1,5 @@
 import { ThemeProvider } from "~/components/theme-provider";
+import "~/styles/themes.css";
 import "~/styles/globals.css";
 
 import { TRPCReactProvider } from "~/trpc/react";
@@ -53,7 +54,7 @@ export default function RootLayout({
     <html lang="zh-CN">
       <body
         className={cn(
-          "min-h-screen bg-background font-cursive font-normal text-foreground antialiased",
+          "theme-blue min-h-screen bg-background font-cursive font-normal text-foreground antialiased",
         )}
       >
         <TRPCReactProvider>
