@@ -8,7 +8,7 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
 
   const Author = ({ className }: { className?: string }) => {
     return (
-      <div className={cn("font-light", className)}>
+      <div className={cn(className)}>
         {poem.author.dynasty && (
           <>
             <span>{poem.author.dynasty}</span>
@@ -18,7 +18,7 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
 
         <Link
           href={`/author/${poem.authorId}`}
-          className="relative z-10 font-bold text-blue-700 transition-all hover:text-blue-700/70 hover:underline dark:text-blue-500 hover:dark:text-blue-500/70"
+          className="relative z-10 text-primary hover:underline"
         >
           {poem.author.name}
         </Link>
@@ -46,7 +46,7 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
 
       <Author className="mt-1" />
 
-      <div className="mt-2 line-clamp-2 group-hover:text-accent-foreground">
+      <div className="mt-2 line-clamp-2 text-muted-foreground">
         {content.slice(0, 2).map((line, index) => (
           <p key={index}>{line}</p>
         ))}

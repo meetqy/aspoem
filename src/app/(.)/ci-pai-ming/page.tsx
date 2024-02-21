@@ -46,7 +46,7 @@ export default async function Page() {
             >
               <div className="flex-1">
                 <p className="text-2xl font-bold">{item.name}</p>
-                <p className="text-muted-foreground">{item.introduce}</p>
+                <p className="mt-2 text-muted-foreground">{item.introduce}</p>
               </div>
 
               <div className="flex h-full w-24 items-center justify-end">
