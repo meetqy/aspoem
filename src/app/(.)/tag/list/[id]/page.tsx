@@ -88,15 +88,17 @@ export default async function Page({
         </div>
       </HeaderMain>
 
-      <div className="px-4 py-8">
-        <h1 className="prose-h1">{tag?.name}</h1>
-        {tag?.introduce && <p className="prose-p">{tag?.introduce}</p>}
-      </div>
+      <div className="p-4">
+        <header>
+          <h1 className="prose-h1">{tag?.name}</h1>
+          {tag?.introduce && <p className="prose-p">{tag?.introduce}</p>}
+        </header>
 
-      <div className="space-y-4 p-4">
-        {poems.map((poem) => (
-          <Section poem={poem} key={poem.id} />
-        ))}
+        <div className="mt-8 space-y-4">
+          {poems.map((poem) => (
+            <Section poem={poem} key={poem.id} />
+          ))}
+        </div>
       </div>
 
       <footer className="mb-4 mt-8 flex h-16 justify-between p-4">

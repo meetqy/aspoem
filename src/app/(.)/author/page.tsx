@@ -51,11 +51,11 @@ export default async function AuthorPage({
               href={`/author/${item.id}`}
               className="absolute left-0 top-0 h-full w-full"
             ></Link>
-            <div className="flex w-full items-center justify-between text-2xl font-bold">
+            <div className="prose-h3 flex w-full items-center justify-between font-bold">
               {item.name}
-              <div className="flex items-center font-mono text-lg font-normal text-blue-500">
+              <span className="font-mono text-sm font-normal text-primary">
                 {item?._count.poems}
-              </div>
+              </span>
             </div>
 
             <p className="line-clamp-2 text-muted-foreground">

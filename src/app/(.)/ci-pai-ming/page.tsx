@@ -1,8 +1,7 @@
-import { EyeIcon } from "lucide-react";
+import { PieChart } from "lucide-react";
 import Link from "next/link";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
-import { cn } from "~/utils";
 
 export async function generateMetadata() {
   return {
@@ -24,9 +23,9 @@ export default async function Page() {
         </div>
       </HeaderMain>
 
-      <div className="px-4 py-8">
+      <div className="p-4">
         <header>
-          <h1 prose-h1="">
+          <h1 className="prose-h1">
             词牌名
             <span className="ml-1 font-mono text-xl font-normal">
               cí pái míng
@@ -53,8 +52,8 @@ export default async function Page() {
                   </Link>
                 </div>
 
-                <div className="mt-1.5 flex font-mono text-xs font-normal text-muted-foreground/50">
-                  <EyeIcon className="mr-1 h-4 w-4" />
+                <div className="mt-1 flex font-mono text-xs font-normal text-muted-foreground/50">
+                  <PieChart className="mr-1 h-4 w-4" />
                   <span>{item._count.poems}</span>
                 </div>
               </div>
