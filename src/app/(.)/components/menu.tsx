@@ -32,9 +32,10 @@ function Content({ className }: { className?: string }) {
 
   useEffect(() => {
     const style = localStorage.getItem("style");
-    if (style) {
-      setStyle(style);
-    }
+    const body = document.body;
+    body.classList.add(`theme-${style}`);
+
+    setStyle(style ?? "zinc");
   }, []);
 
   return (

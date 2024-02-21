@@ -10,7 +10,7 @@
   }
 
   .char_annotation {
-    @apply cursor-pointer text-blue-800 dark:text-blue-400;
+    @apply cursor-pointer text-primary;
   }
 
   &.pinyin_h1 {

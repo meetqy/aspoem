@@ -7,7 +7,10 @@
   英文 font-serif
   数字 font-mono
 */
-/* foreground: 文本颜色 */ /* accent 重点突出的颜色 */ /* muted 柔和的颜色 */
+
+/* foreground: 文本颜色 */
+/* accent 重点突出的颜色 */
+/* muted 柔和的颜色 */
 /* destructive 破坏性的 */
 @layer utilities {
   .underline-animation {

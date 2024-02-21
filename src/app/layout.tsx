@@ -52,11 +52,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh-CN">
-      <body
-        className={cn(
-          "theme-blue min-h-screen bg-background font-cursive font-normal text-foreground antialiased",
-        )}
-      >
+      <body className="theme-zinc min-h-screen bg-background font-cursive font-normal text-foreground antialiased">
         <TRPCReactProvider>
           <ThemeProvider
             attribute="class"

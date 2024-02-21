@@ -46,7 +46,7 @@ export default function Section({ poem }: { poem: Poem & { author: Author } }) {
 
       <Author className="mt-1" />
 
-      <div className="mt-2 line-clamp-2 text-muted-foreground">
+      <div className="mt-2 line-clamp-2 text-secondary-foreground">
         {content.slice(0, 2).map((line, index) => (
           <p key={index}>{line}</p>
         ))}
