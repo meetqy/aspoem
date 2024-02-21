@@ -26,6 +26,8 @@ const CopyButton = (props: Props) => {
           size={"icon"}
           className={cn(props.className)}
           onClick={() => {
+            const originText = `${poem.content} \n—— 《${poem.title}》${poem.author.dynasty}·${poem.author.name}`;
+
             const text = `<p>${poem.content.replaceAll(
               "\n",
               "<br/>",
@@ -36,9 +38,11 @@ const CopyButton = (props: Props) => {
             }"><b>${poem.author.name}</b></a></p>`;
 
             const blobHtml = new Blob([text], { type: "text/html" });
+            const blobText = new Blob([originText], { type: "text/plain" });
             const data = [
               new ClipboardItem({
                 ["text/html"]: blobHtml,
+                ["text/plain"]: blobText,
               }),
             ];
 

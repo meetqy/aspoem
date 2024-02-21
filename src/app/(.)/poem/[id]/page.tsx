@@ -1,10 +1,4 @@
-import {
-  Album,
-  ChevronRight,
-  ClipboardCopy,
-  InfoIcon,
-  TwitterIcon,
-} from "lucide-react";
+import { Album, ChevronRight, InfoIcon, TwitterIcon } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { HeaderMain } from "~/components/ui/header";
@@ -17,7 +11,6 @@ import { MyHost, cn } from "~/utils";
 import dynamic from "next/dynamic";
 import { type Article, type WithContext } from "schema-dts";
 import { getPoemTitle } from "./utils";
-import { Separator } from "~/components/ui/separator";
 import CopyButton from "./components/Copy";
 
 const Twikoo = dynamic(() => import("./components/twikoo"), {
