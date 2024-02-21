@@ -5,7 +5,6 @@ import { cache } from "react";
 import Section from "~/app/(.)/components/section";
 import { Button } from "~/components/ui/button";
 import { HeaderMain } from "~/components/ui/header";
-import { Separator } from "~/components/ui/separator";
 import { api } from "~/trpc/server";
 import { cn } from "~/utils";
 

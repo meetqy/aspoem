@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Button } from "~/components/ui/button";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
 import { cn } from "~/utils";
