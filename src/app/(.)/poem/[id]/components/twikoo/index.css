@@ -22,7 +22,8 @@
     @apply !text-base;
   }
 
-  .tk-main {
+  .tk-main,
+  .el-textarea__inner {
     @apply text-lg;
   }
 
