@@ -53,7 +53,7 @@ export default async function AuthorPage({
             ></Link>
             <div className="prose-h3 flex w-full items-center justify-between font-bold">
               {item.name}
-              <span className="font-mono text-sm font-normal italic text-primary">
+              <span className="font-mono text-sm font-normal  text-muted-foreground">
                 {item?._count.poems}
               </span>
             </div>
