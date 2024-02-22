@@ -74,7 +74,7 @@ export default async function Page({ params, searchParams }: Props) {
         <div className="text-left md:ml-16">
           <h1 prose-h1="">
             <span>{author.name}</span>{" "}
-            <span className="font-serif text-2xl font-normal capitalize !tracking-tighter">
+            <span className="font-mono text-xl font-normal !tracking-tighter text-muted-foreground">
               {author.namePinYin}
             </span>
           </h1>

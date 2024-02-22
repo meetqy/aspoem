@@ -145,7 +145,7 @@ export default async function Page({ params, searchParams }: Props) {
       </HeaderMain>
 
       {/* 正文 */}
-      <article className="group relative select-none py-8 text-center">
+      <article className="group relative py-8 text-center">
         {/* 标题 */}
         <PinYinText
           text={poem.title}

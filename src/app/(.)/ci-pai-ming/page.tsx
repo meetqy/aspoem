@@ -27,7 +27,7 @@ export default async function Page() {
         <header>
           <h1 className="prose-h1">
             词牌名
-            <span className="ml-1 font-mono text-xl font-normal">
+            <span className="ml-1 font-mono text-xl font-normal text-muted-foreground">
               cí pái míng
             </span>
           </h1>
