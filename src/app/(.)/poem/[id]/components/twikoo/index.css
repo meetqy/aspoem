@@ -19,7 +19,7 @@
   }
 
   .el-input--small {
-    @apply !text-base;
+    @apply !text-sm;
   }
 
   .tk-main,
