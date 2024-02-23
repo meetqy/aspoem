@@ -3,6 +3,8 @@
 
   /* 诗的内容文字 田字格 */
   &.shi {
+    @apply md:mt-4;
+
     .char {
       @apply h-12 w-12 text-3xl;
 
