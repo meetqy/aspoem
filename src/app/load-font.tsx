@@ -64,6 +64,8 @@ export default function LoadFont() {
       }
      `;
       document.head.appendChild(style);
+      // 特殊浏览器处理
+      document.body.classList.add("fuck");
     }
   }, []);
 

@@ -22,14 +22,14 @@
 
   &.title {
     .char {
-      @apply h-[4.5rem] text-5xl font-bold;
+      @apply h-[4.5rem] text-5xl font-bold md:h-[5.5rem] md:text-6xl md:font-extrabold;
 
       &.symbol {
-        @apply -mx-3 md:mx-1;
+        @apply md:mx-2;
       }
 
       rt {
-        @apply text-lg font-normal;
+        @apply text-lg font-normal md:text-2xl;
       }
     }
 
@@ -40,11 +40,7 @@
 
   &.normal {
     .char {
-      @apply text-xl;
-
-      &.symbol {
-        @apply -mx-1 md:mx-1;
-      }
+      @apply text-xl md:text-2xl;
     }
 
     .br {
@@ -58,7 +54,7 @@
 
     /* 标注 */
     rt {
-      @apply absolute top-0 text-base leading-none text-muted-foreground;
+      @apply absolute top-0 text-lg leading-none text-muted-foreground;
     }
   }
 
@@ -82,6 +78,23 @@
       content: "";
       @apply absolute bottom-0 left-1/2 w-10/12 border-b-4 border-double border-primary dark:text-destructive;
       transform: translateX(-50%);
+    }
+  }
+}
+
+/* 特殊处理移动端 字体间距 */
+.fuck {
+  .verse {
+    &.title {
+      .symbol {
+        @apply -mx-3 md:mx-1;
+      }
+    }
+
+    &.normal {
+      .symbol {
+        @apply -mx-1 md:mx-1;
+      }
     }
   }
 }

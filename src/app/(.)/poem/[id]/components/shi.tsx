@@ -21,7 +21,12 @@ export const Shi = (props: {
   return (
     <article className="group py-8">
       <div className={cn(py && "space-y-4")}>
-        <Verse variant="title" content={poem.title} py={titlePinYin} />
+        <Verse
+          variant="title"
+          content={poem.title}
+          py={titlePinYin}
+          className={cn(py ? "pt-4" : "", "px-4")}
+        />
         <Verse
           content={`${poem.author.dynasty}·${poem.author.name}`}
           className={cn(

@@ -148,7 +148,15 @@ export default async function Page({ params, searchParams }: Props) {
                 </Link>
               </Button>
             )}
-            <span className="mx-2 text-muted-foreground/40">|</span>
+            <span
+              className={cn(
+                "mx-2 text-muted-foreground/40",
+                !isShi && "hidden",
+                "md:inline-flex",
+              )}
+            >
+              |
+            </span>
           </div>
         </div>
       </HeaderMain>
