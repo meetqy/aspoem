@@ -1,0 +1,46 @@
+.verse-shi {
+  @apply flex flex-wrap justify-center;
+
+  /* 汉字 */
+  .char {
+    @apply relative flex  h-12 w-12 flex-col-reverse items-center justify-between text-3xl;
+
+    /* 符号 */
+    &.symbol {
+      @apply w-6;
+    }
+
+    /* 标注 */
+    rt {
+      @apply absolute top-0 text-base leading-none text-muted-foreground;
+    }
+  }
+
+  &.no-py {
+    .br {
+      ~ .char,
+      ~ b .char {
+        @apply mt-0;
+      }
+    }
+  }
+
+  .br {
+    @apply block w-full md:hidden;
+
+    ~ .char,
+    ~ b .char {
+      @apply mt-4 md:mt-0;
+    }
+  }
+
+  b {
+    @apply relative flex cursor-pointer font-normal;
+
+    &::before {
+      content: "";
+      @apply absolute bottom-0 left-1/2 w-10/12 border-b-4 border-double border-primary dark:text-destructive;
+      transform: translateX(-50%);
+    }
+  }
+}

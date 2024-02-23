@@ -12,6 +12,7 @@ import dynamic from "next/dynamic";
 import { type Article, type WithContext } from "schema-dts";
 import { getPoemTitle } from "./utils";
 import CopyButton from "./components/Copy";
+import VerseShi from "./components/verse/shi/verse-shi";
 
 const Twikoo = dynamic(() => import("./components/twikoo"), {
   ssr: false,
@@ -99,6 +100,8 @@ export default async function Page({ params, searchParams }: Props) {
     };
   };
 
+  const isShi = poem.genre === "诗";
+
   return (
     <>
       <script
@@ -113,14 +116,20 @@ export default async function Page({ params, searchParams }: Props) {
               <Link href="/" className="flex-shrink-0 text-muted-foreground">
                 全部
               </Link>
-              <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
-              <Link className="line-clamp-1" href={`/poem/${poem.id}`}>
+              <ChevronRight
+                className="hidden h-4 w-4 flex-shrink-0 md:block"
+                strokeWidth={1}
+              />
+              <Link
+                className="line-clamp-1 hidden md:inline"
+                href={`/poem/${poem.id}`}
+              >
                 {poem.title}
               </Link>
             </nav>
           </div>
 
-          <div className="hidden lg:block">
+          <div>
             {showPinYin ? (
               <Button size={"xs"} aria-label="不显示拼音" asChild>
                 <Link href="?" replace>
@@ -132,6 +141,7 @@ export default async function Page({ params, searchParams }: Props) {
                 size={"xs"}
                 variant="secondary"
                 aria-label="显示拼音"
+                className={cn(!isShi && "hidden", "md:inline-flex")}
                 asChild
               >
                 <Link href="?py=t" replace>
@@ -173,7 +183,7 @@ export default async function Page({ params, searchParams }: Props) {
           </Link>
         </p>
 
-        <div className="px-4 md:px-0">
+        <div className="px-4">
           {poem.introduce && (
             <blockquote
               prose-blockquote=""
@@ -185,16 +195,30 @@ export default async function Page({ params, searchParams }: Props) {
               {poem.introduce}
             </blockquote>
           )}
+        </div>
 
-          {/* 内容 */}
+        {/* 内容 */}
+        <div
+          className={cn(
+            showPinYin && "space-y-4",
+            "md:space-y-4",
+            !isShi && "px-4",
+          )}
+        >
           {blockArray.map((line, index) => {
             const blockPinYin = contentPinYin[index];
 
-            return (
+            return isShi ? (
+              <VerseShi
+                content={line}
+                annotation={annotation}
+                py={showPinYin ? blockPinYin : ""}
+              />
+            ) : (
               <PinYinText
                 key={index}
                 text={line}
-                align={poem.genre != "诗" ? "left" : "center"}
+                align={isShi ? "center" : "left"}
                 retract={retract ? true : false}
                 pinyin={showPinYin ? blockPinYin : ""}
                 annotation={annotation}
