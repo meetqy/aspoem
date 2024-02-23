@@ -6,7 +6,7 @@
     @apply md:mt-4;
 
     .char {
-      @apply h-12 w-12 text-3xl;
+      @apply h-14 w-12 text-3xl leading-none;
 
       /* 符号 */
       &.symbol {
@@ -24,14 +24,14 @@
 
   &.title {
     .char {
-      @apply h-[4.5rem] text-5xl font-bold md:h-[5.5rem] md:text-6xl md:font-extrabold;
+      @apply h-[4.5rem] text-5xl font-bold leading-none md:h-[5.5rem] md:text-6xl md:font-extrabold;
 
       &.symbol {
         @apply md:mx-2;
       }
 
       rt {
-        @apply text-lg font-normal md:text-2xl;
+        @apply text-lg font-normal !leading-none md:text-2xl;
       }
     }
 
@@ -52,11 +52,11 @@
 
   /* 汉字 */
   .char {
-    @apply relative flex flex-col-reverse items-center justify-between;
+    @apply relative flex flex-col-reverse items-center justify-start leading-none;
 
     /* 标注 */
     rt {
-      @apply absolute top-0 text-lg leading-none text-muted-foreground;
+      @apply text-lg leading-none text-muted-foreground;
     }
   }
 
@@ -65,6 +65,12 @@
       ~ .char,
       ~ b .char {
         @apply mt-0;
+      }
+    }
+
+    &.shi {
+      .char {
+        @apply h-12;
       }
     }
   }
@@ -78,7 +84,7 @@
 
     &::before {
       content: "";
-      @apply absolute bottom-0 left-1/2 w-10/12 border-b-4 border-double border-primary dark:text-destructive;
+      @apply absolute -bottom-1 left-1/2 w-9/12 border-b-4 border-double border-muted-foreground/40 dark:text-destructive;
       transform: translateX(-50%);
     }
   }
