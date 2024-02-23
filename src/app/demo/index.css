@@ -1,14 +1,48 @@
-.verse-shi {
+.verse {
   @apply flex flex-wrap justify-center;
 
-  /* 汉字 */
-  .char {
-    @apply relative flex  h-12 w-12 flex-col-reverse items-center justify-between text-3xl;
+  /* 诗的内容文字 田字格 */
+  &.shi {
+    .char {
+      @apply h-12 w-12 text-3xl;
+    }
 
     /* 符号 */
     &.symbol {
       @apply w-6;
     }
+
+    .br {
+      ~ .char,
+      ~ b .char {
+        @apply mt-4 md:mt-0;
+      }
+    }
+  }
+
+  &.title {
+    .char {
+      @apply h-[4.5rem] text-5xl font-bold;
+
+      rt {
+        @apply text-lg font-normal;
+      }
+    }
+  }
+
+  &.normal {
+    .char {
+      @apply text-xl;
+    }
+
+    .br {
+      @apply !hidden;
+    }
+  }
+
+  /* 汉字 */
+  .char {
+    @apply relative flex flex-col-reverse items-center justify-between;
 
     /* 标注 */
     rt {
@@ -27,11 +61,6 @@
 
   .br {
     @apply block w-full md:hidden;
-
-    ~ .char,
-    ~ b .char {
-      @apply mt-4 md:mt-0;
-    }
   }
 
   b {

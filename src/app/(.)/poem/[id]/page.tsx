@@ -12,7 +12,7 @@ import dynamic from "next/dynamic";
 import { type Article, type WithContext } from "schema-dts";
 import { getPoemTitle } from "./utils";
 import CopyButton from "./components/Copy";
-import VerseShi from "./components/verse/shi/verse-shi";
+import { Verse } from "~/components/verse";
 
 const Twikoo = dynamic(() => import("./components/twikoo"), {
   ssr: false,
@@ -157,11 +157,10 @@ export default async function Page({ params, searchParams }: Props) {
       {/* 正文 */}
       <article className="group relative py-8 text-center">
         {/* 标题 */}
-        <PinYinText
-          text={poem.title}
-          pinyin={showPinYin ? poem.titlePinYin ?? "" : ""}
-          type="h1"
-          className="px-4"
+        <Verse
+          variant="title"
+          content={poem.title}
+          py={showPinYin ? poem.titlePinYin ?? "" : ""}
         />
 
         <p
@@ -209,8 +208,9 @@ export default async function Page({ params, searchParams }: Props) {
             const blockPinYin = contentPinYin[index];
 
             return isShi ? (
-              <VerseShi
+              <Verse
                 content={line}
+                variant="shi"
                 annotation={annotation}
                 py={showPinYin ? blockPinYin : ""}
               />

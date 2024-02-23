@@ -8,8 +8,8 @@ import { cn } from "~/utils";
 
 import "./index.css";
 
-const cn_symbol = "，。！？；：、";
-const en_symbol = ",.!?;:,";
+const cn_symbol = "，。！？；：、·";
+const en_symbol = ",.!?;:,·";
 
 function getContent(text: string, annotation: string[]) {
   const newAnnotation: string[] = [];
@@ -41,10 +41,12 @@ function getContent(text: string, annotation: string[]) {
  * @param props
  * @returns
  */
-const VerseShi = (props: {
+export const Verse = (props: {
   content: string;
   py?: string;
   annotation?: { [key in string]: string };
+  variant?: "shi" | "title";
+  className?: string;
 }) => {
   const { annotation } = props;
 
@@ -106,7 +108,14 @@ const VerseShi = (props: {
   };
 
   return (
-    <p className={cn("verse-shi", pinyinArray.length === 0 && "no-py")}>
+    <p
+      className={cn(
+        "verse",
+        pinyinArray.length === 0 && "no-py",
+        props.variant ?? "normal",
+        props.className,
+      )}
+    >
       <Content />
     </p>
   );
@@ -144,5 +153,3 @@ const Char = (props: {
     </>
   );
 };
-
-export default VerseShi;

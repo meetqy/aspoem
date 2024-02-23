@@ -1,0 +1,75 @@
+.verse {
+  @apply flex flex-wrap justify-center;
+
+  /* 诗的内容文字 田字格 */
+  &.shi {
+    .char {
+      @apply h-12 w-12 text-3xl;
+    }
+
+    /* 符号 */
+    &.symbol {
+      @apply w-6;
+    }
+
+    .br {
+      ~ .char,
+      ~ b .char {
+        @apply mt-4 md:mt-0;
+      }
+    }
+  }
+
+  &.title {
+    .char {
+      @apply h-[4.5rem] text-5xl font-bold;
+
+      rt {
+        @apply text-lg font-normal;
+      }
+    }
+  }
+
+  &.normal {
+    .char {
+      @apply text-xl;
+    }
+
+    .br {
+      @apply !hidden;
+    }
+  }
+
+  /* 汉字 */
+  .char {
+    @apply relative flex flex-col-reverse items-center justify-between;
+
+    /* 标注 */
+    rt {
+      @apply absolute top-0 text-base leading-none text-muted-foreground;
+    }
+  }
+
+  &.no-py {
+    .br {
+      ~ .char,
+      ~ b .char {
+        @apply mt-0;
+      }
+    }
+  }
+
+  .br {
+    @apply block w-full md:hidden;
+  }
+
+  b {
+    @apply relative flex cursor-pointer font-normal;
+
+    &::before {
+      content: "";
+      @apply absolute bottom-0 left-1/2 w-10/12 border-b-4 border-double border-primary dark:text-destructive;
+      transform: translateX(-50%);
+    }
+  }
+}
