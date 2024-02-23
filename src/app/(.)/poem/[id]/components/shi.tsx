@@ -24,7 +24,10 @@ export const Shi = (props: {
         <Verse variant="title" content={poem.title} py={titlePinYin} />
         <Verse
           content={`${poem.author.dynasty}·${poem.author.name}`}
-          className={cn("!mb-6 mt-4")}
+          className={cn(
+            py ? "!mb-8" : "mb-6 mt-4",
+            "text-secondary-foreground",
+          )}
         />
         {content.map((line, index) => (
           <Verse

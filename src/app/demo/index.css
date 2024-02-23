@@ -1,15 +1,15 @@
 .verse {
-  @apply flex flex-wrap justify-center;
+  @apply flex flex-wrap justify-center transition-all;
 
   /* 诗的内容文字 田字格 */
   &.shi {
     .char {
       @apply h-12 w-12 text-3xl;
-    }
 
-    /* 符号 */
-    &.symbol {
-      @apply w-6;
+      /* 符号 */
+      &.symbol {
+        @apply w-6 text-left;
+      }
     }
 
     .br {
@@ -24,15 +24,27 @@
     .char {
       @apply h-[4.5rem] text-5xl font-bold;
 
+      &.symbol {
+        @apply -mx-3 md:mx-1;
+      }
+
       rt {
         @apply text-lg font-normal;
       }
+    }
+
+    .br {
+      @apply hidden;
     }
   }
 
   &.normal {
     .char {
       @apply text-xl;
+
+      &.symbol {
+        @apply -mx-1 md:mx-1;
+      }
     }
 
     .br {
@@ -64,7 +76,7 @@
   }
 
   b {
-    @apply relative flex cursor-pointer font-normal;
+    @apply relative flex cursor-pointer font-normal text-primary;
 
     &::before {
       content: "";
