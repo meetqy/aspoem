@@ -3,7 +3,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
-import PinYinText from "./components/PinYinText";
 import { type Metadata } from "next";
 import { cache } from "react";
 import { Button } from "~/components/ui/button";
@@ -11,8 +10,8 @@ import { MyHost, cn } from "~/utils";
 import dynamic from "next/dynamic";
 import { type Article, type WithContext } from "schema-dts";
 import { getPoemTitle } from "./utils";
-import CopyButton from "./components/Copy";
-import { Verse } from "~/components/verse";
+import { Shi } from "./components/shi";
+import { Normal } from "./components/normal";
 
 const Twikoo = dynamic(() => import("./components/twikoo"), {
   ssr: false,
@@ -155,83 +154,18 @@ export default async function Page({ params, searchParams }: Props) {
       </HeaderMain>
 
       {/* 正文 */}
-      <article className="group relative py-8 text-center">
-        {/* 标题 */}
-        <Verse
-          variant="title"
-          content={poem.title}
-          py={showPinYin ? poem.titlePinYin ?? "" : ""}
+      {isShi ? (
+        <Shi poem={poem} py={showPinYin} />
+      ) : (
+        <Normal
+          poem={poem}
+          showPinYin={showPinYin}
+          blockArray={blockArray}
+          contentPinYin={contentPinYin}
+          retract={retract}
+          annotation={annotation}
         />
-
-        <p
-          className={cn(
-            "mt-4 !border-0 text-secondary-foreground md:mt-6",
-            showPinYin ? "mb-12" : "mb-6",
-            "md:prose-h2 prose-h3 transition-all",
-          )}
-        >
-          {poem.author.dynasty && (
-            <span className="font-light">{poem.author.dynasty} · </span>
-          )}
-
-          <Link
-            href={`/author/${poem.author.id}`}
-            className="underline-animation font-light"
-          >
-            {poem.author.name}
-          </Link>
-        </p>
-
-        <div className="px-4">
-          {poem.introduce && (
-            <blockquote
-              prose-blockquote=""
-              className={cn(
-                "bg-muted/70 py-2 text-left text-lg !not-italic text-muted-foreground transition-all",
-                showPinYin ? "mb-12" : "mb-6",
-              )}
-            >
-              {poem.introduce}
-            </blockquote>
-          )}
-        </div>
-
-        {/* 内容 */}
-        <div
-          className={cn(
-            showPinYin && "space-y-4",
-            "md:space-y-4",
-            !isShi && "px-4",
-          )}
-        >
-          {blockArray.map((line, index) => {
-            const blockPinYin = contentPinYin[index];
-
-            return isShi ? (
-              <Verse
-                content={line}
-                variant="shi"
-                annotation={annotation}
-                py={showPinYin ? blockPinYin : ""}
-              />
-            ) : (
-              <PinYinText
-                key={index}
-                text={line}
-                align={isShi ? "center" : "left"}
-                retract={retract ? true : false}
-                pinyin={showPinYin ? blockPinYin : ""}
-                annotation={annotation}
-              />
-            );
-          })}
-        </div>
-
-        <CopyButton
-          data={poem}
-          className="absolute right-1 top-1 transition-all group-hover:opacity-100 md:opacity-0"
-        />
-      </article>
+      )}
 
       {/* 标签 */}
       <article className="chinese mt-8 px-4">

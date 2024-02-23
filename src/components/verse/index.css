@@ -1,5 +1,5 @@
 .verse {
-  @apply flex flex-wrap justify-center;
+  @apply flex flex-wrap justify-center transition-all;
 
   /* 诗的内容文字 田字格 */
   &.shi {
@@ -64,7 +64,7 @@
   }
 
   b {
-    @apply relative flex cursor-pointer font-normal;
+    @apply relative flex cursor-pointer font-normal text-primary;
 
     &::before {
       content: "";
