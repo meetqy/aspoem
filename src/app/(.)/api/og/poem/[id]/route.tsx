@@ -9,48 +9,78 @@ export async function GET(
 ) {
   const poem = await api.poem.findById.query(Number(params.id));
 
-  const isDark = _request.url.includes("dark");
-
   if (!poem) return notFound();
 
-  const content = poem.content.split(/。|！|？/);
+  const content = poem.content.split("\n").slice(0, 4);
 
   return new ImageResponse(
     (
       <div
         lang="zh-CN"
         style={{
-          background: isDark ? "#09090b" : "#fff",
-          color: isDark ? "#fff" : "#09090b",
+          background: "#0c0c0c",
+          color: "#fff",
           width: "100%",
           height: "100%",
           display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
           flexDirection: "column",
-          padding: "40px 40px",
+          justifyContent: "center",
+          padding: 32,
+          position: "relative",
+          fontFamily: "cursive",
         }}
       >
-        <p style={{ fontSize: 96 }}>{poem.title}</p>
-        <p style={{ fontSize: 32, marginTop: -12, opacity: 0.8 }}>
-          {poem.author.dynasty}·{poem.author.name}
+        <p
+          style={{
+            fontSize: 72,
+            display: "flex",
+            justifyContent: "center",
+            marginTop: -72,
+          }}
+        >
+          {poem.title}
         </p>
-        <p style={{ fontSize: 48, opacity: 0.9 }}>{content[0]}。</p>
-        <p style={{ fontSize: 48, opacity: 0.9 }}>{content[1]}。</p>
-        {
+        <p
+          style={{
+            fontSize: 24,
+            display: "flex",
+            justifyContent: "center",
+            marginTop: -12,
+            opacity: 0.7,
+          }}
+        >
+          {poem.author.dynasty} · {poem.author.name}
+        </p>
+
+        {content.map((_, index) => (
           <p
+            key={index}
             style={{
-              fontSize: 18,
+              fontSize: 36,
               width: "100%",
               display: "flex",
-              justifyContent: "flex-end",
-              marginTop: 40,
-              opacity: 0.7,
+              justifyContent: "center",
+              opacity: 0.8,
             }}
           >
-            《现代化中国诗词学习网站》
+            {_}
           </p>
-        }
+        ))}
+
+        <p
+          style={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "flex-end",
+            opacity: 0.7,
+            position: "absolute",
+            bottom: 18,
+            left: 32,
+            fontSize: 16,
+          }}
+        >
+          aspoem.com
+        </p>
       </div>
     ),
     {
