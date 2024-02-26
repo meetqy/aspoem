@@ -39,15 +39,14 @@ export const Body = (props: {
 
         {/* 额外信息 */}
         {poem.introduce && (
-          <blockquote
-            prose-blockquote=""
+          <p
             className={cn(
-              "py-2 text-left text-base !not-italic text-muted-foreground transition-all",
-              py ? "mb-12" : "mb-6",
+              "px-4 py-2 text-left text-base !not-italic text-muted-foreground transition-all md:px-0",
+              py && "mb-12",
             )}
           >
             {poem.introduce}
-          </blockquote>
+          </p>
         )}
 
         {content.map((line, index) => (
