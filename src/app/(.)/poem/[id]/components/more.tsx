@@ -58,7 +58,7 @@ export const More = ({
             router.push(`/poem/${item.id}`);
           }}
         >
-          <span className="line-clamp-1 text-lg font-semibold">
+          <span className="line-clamp-1 text-lg">
             {item.content.split("\n")[0]}
           </span>
           <div className="mt-4 line-clamp-1 text-end text-muted-foreground">

@@ -35,7 +35,9 @@ const CopyButton = (props: Props) => {
               poem.title
             }</b></a>》${poem.author.dynasty} · <a href="${MyHost}/author/${
               poem.author.id
-            }"><b>${poem.author.name}</b></a></p>`;
+            }"><b>${poem.author.name}</b></a></p><p><b>【译文】</b></p><p>${
+              poem.translation
+            }</p>`;
 
             const blobHtml = new Blob([text], { type: "text/html" });
             const blobText = new Blob([originText], { type: "text/plain" });
