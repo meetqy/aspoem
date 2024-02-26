@@ -1,12 +1,45 @@
 .verse {
   @apply flex flex-wrap justify-center transition-all;
 
-  /* 诗的内容文字 田字格 */
-  &.shi {
-    @apply md:mt-4;
+  /* 正文 */
+  &.body {
+    @apply justify-start;
+
+    & + .body {
+      @apply mt-6;
+    }
 
     .char {
-      @apply h-14 w-12 text-3xl leading-none;
+      @apply mt-4 h-11 w-11 justify-start text-2xl;
+
+      &.symbol {
+        @apply w-5 text-left;
+      }
+    }
+
+    .br {
+      @apply hidden;
+    }
+
+    &.no-py {
+      & + .body {
+        @apply mt-4;
+      }
+
+      .char {
+        @apply h-auto w-auto;
+
+        &.tab {
+          @apply w-6;
+        }
+      }
+    }
+  }
+
+  /* 诗的内容文字 田字格 */
+  &.shi {
+    .char {
+      @apply h-12 w-12 text-3xl;
 
       /* 符号 */
       &.symbol {
@@ -24,14 +57,14 @@
 
   &.title {
     .char {
-      @apply h-[4.5rem] text-5xl font-bold leading-none md:h-[5.5rem] md:text-6xl md:font-extrabold;
+      @apply h-[4.5rem] text-5xl font-bold;
 
       &.symbol {
-        @apply md:mx-2;
+        @apply -mx-3 md:mx-1;
       }
 
       rt {
-        @apply text-lg font-normal !leading-none md:text-2xl;
+        @apply text-lg font-normal;
       }
     }
 
@@ -42,7 +75,11 @@
 
   &.normal {
     .char {
-      @apply text-xl md:text-2xl;
+      @apply text-xl;
+
+      &.symbol {
+        @apply -mx-1 md:mx-1;
+      }
     }
 
     .br {
@@ -52,11 +89,11 @@
 
   /* 汉字 */
   .char {
-    @apply relative flex flex-col-reverse items-center justify-start leading-none;
+    @apply relative flex flex-col-reverse items-center justify-between;
 
     /* 标注 */
     rt {
-      @apply text-lg leading-none text-muted-foreground;
+      @apply absolute top-0 text-base leading-none text-muted-foreground;
     }
   }
 
@@ -65,12 +102,6 @@
       ~ .char,
       ~ b .char {
         @apply mt-0;
-      }
-    }
-
-    &.shi {
-      .char {
-        @apply h-12;
       }
     }
   }
@@ -84,25 +115,8 @@
 
     &::before {
       content: "";
-      @apply absolute -bottom-1 left-1/2 w-9/12 border-b-4 border-double border-muted-foreground/40 dark:text-destructive;
+      @apply absolute bottom-0 left-1/2 w-10/12 border-b-4 border-double border-primary dark:text-destructive;
       transform: translateX(-50%);
-    }
-  }
-}
-
-/* 特殊处理移动端 字体间距 */
-.fuck {
-  .verse {
-    &.title {
-      .symbol {
-        @apply -mx-3 md:mx-1;
-      }
-    }
-
-    &.normal {
-      .symbol {
-        @apply -mx-1 md:mx-1;
-      }
     }
   }
 }

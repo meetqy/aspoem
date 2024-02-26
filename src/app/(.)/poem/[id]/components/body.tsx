@@ -1,9 +1,9 @@
 import { type Author, type Poem } from "@prisma/client";
 import { Verse } from "~/components/verse";
 import { cn } from "~/utils";
-import CopyButton from "./Copy";
+import CopyButton from "./copy";
 
-export const Shi = (props: {
+export const Body = (props: {
   poem: Poem & { author: Author };
   py?: boolean;
 }) => {
@@ -17,6 +17,8 @@ export const Shi = (props: {
   };
 
   const titlePinYin = py ? poem.titlePinYin ?? "" : "";
+
+  const shi = poem.genre === "诗";
 
   return (
     <article className="group py-8">
@@ -34,13 +36,28 @@ export const Shi = (props: {
             "text-secondary-foreground",
           )}
         />
+
+        {/* 额外信息 */}
+        {poem.introduce && (
+          <blockquote
+            prose-blockquote=""
+            className={cn(
+              "py-2 text-left text-base !not-italic text-muted-foreground transition-all",
+              py ? "mb-12" : "mb-6",
+            )}
+          >
+            {poem.introduce}
+          </blockquote>
+        )}
+
         {content.map((line, index) => (
           <Verse
             key={line}
             content={line}
-            variant="shi"
             annotation={annotation}
+            variant={shi ? "shi" : "body"}
             py={py ? contentPinYin[index] : ""}
+            className={cn(!shi && "px-4 md:px-0")}
           />
         ))}
       </div>

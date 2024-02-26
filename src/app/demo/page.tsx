@@ -1,6 +1,6 @@
 "use client";
 
-import { Verse } from "./verse";
+import { Verse } from "~/components/verse";
 
 export default function A() {
   return (
@@ -49,13 +49,27 @@ export default function A() {
 
       <br />
       <br />
-
-      <div>
-        <Verse variant="title" content="怎么说？" />
-        <Verse content={"现代·李小龙"} className="mb-6 mt-4" />
-        <Verse variant="shi" content="嫁得瞿塘贾，朝朝误妾期。" />
-        <Verse variant="shi" content="早知潮有信，嫁与弄潮儿。" />
+      <div className="border border-border">
+        <Verse
+          variant="body"
+          content="明月几时有，把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。"
+          // py="míng yuè jǐ shí yǒu, bǎ jiǔ wèn qīng tiān . bù zhī tiān shàng gōng què , jīn xī shì hé nián . wǒ yù chéng fēng guī qù , yòu kǒng qióng lóu yù yù , gāo chù bù shèng hán . qǐ wǔ nòng qīng yǐng , hé sì zài rén jiān ."
+        />
+        <Verse
+          variant="body"
+          content="明月几时有，把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。"
+          py="míng yuè jǐ shí yǒu . bǎ jiǔ wèn qīng tiān . bù zhī tiān shàng gōng quē . jīn xī shì hé nián . wǒ yù chéng fēng guī qù . yòu kǒng qióng lóu yù yǔ . gāo chù bù shèng hán . qǐ wǔ nòng qīng yǐng . hé sì zài rén jiān . "
+          annotation={{
+            丙辰: "指公元1076年（宋神宗熙宁九年）。这一年苏轼在密州(今山东省诸城市)任太守。",
+            达旦: "到天亮。",
+            子由: "苏轼的弟弟苏辙的字。",
+            把酒: "端起酒杯。把，执、持。",
+          }}
+        />
       </div>
+
+      <br />
+      <br />
     </div>
   );
 }

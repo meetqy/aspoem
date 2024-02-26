@@ -45,13 +45,19 @@ export const Verse = (props: {
   content: string;
   py?: string;
   annotation?: { [key in string]: string };
-  variant?: "shi" | "title";
+  // body 需要首行缩进 2 个字符
+  // normal 朝代·作者
+  variant?: "shi" | "title" | "normal" | "body";
   className?: string;
 }) => {
   const { annotation } = props;
 
-  const text = getContent(props.content, Object.keys(annotation ?? {}));
-  const pinyinArray = props.py ? props.py.split(" ") : [];
+  const startWith = props.variant === "body" ? "  " : "";
+
+  const content = `${startWith}${props.content}`;
+
+  const text = getContent(content, Object.keys(annotation ?? {}));
+  const pinyinArray = props.py ? `${startWith}${props.py}`.split(" ") : [];
 
   // 注解的所有 KEY
   const annotationKeys = Object.keys(annotation ?? {});
@@ -138,7 +144,13 @@ const Char = (props: {
 }) => {
   return (
     <>
-      <ruby className={cn("char", cn_symbol.includes(props.char) && "symbol")}>
+      <ruby
+        className={cn(
+          "char",
+          cn_symbol.includes(props.char) && "symbol",
+          props.char === " " && "tab",
+        )}
+      >
         {props.char}
 
         {props.pinyin && (

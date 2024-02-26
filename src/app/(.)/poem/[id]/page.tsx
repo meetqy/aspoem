@@ -10,8 +10,7 @@ import { MyHost, cn } from "~/utils";
 import dynamic from "next/dynamic";
 import { type Article, type WithContext } from "schema-dts";
 import { getPoemTitle } from "./utils";
-import { Shi } from "./components/shi";
-import { Normal } from "./components/normal";
+import { Body } from "./components/body";
 import { More } from "./components/more";
 
 const Twikoo = dynamic(() => import("./components/twikoo"), {
@@ -75,16 +74,7 @@ export default async function Page({ params, searchParams }: Props) {
 
   const title = getPoemTitle(poem);
 
-  const contentPinYin = poem.contentPinYin?.split("\n") ?? [];
   const showPinYin = searchParams.py === "t" ? true : false;
-  const blockArray = poem.content.split("\n");
-
-  // 最大行的字数 大于 18个字 就缩进
-  const retract = blockArray.find((item) => item.length > 18);
-
-  const annotation = JSON.parse(poem.annotation ?? "{}") as {
-    [key in string]: string;
-  };
 
   const addJsonLd = (): WithContext<Article> => {
     return {
@@ -163,18 +153,7 @@ export default async function Page({ params, searchParams }: Props) {
       </HeaderMain>
 
       {/* 正文 */}
-      {isShi ? (
-        <Shi poem={poem} py={showPinYin} />
-      ) : (
-        <Normal
-          poem={poem}
-          showPinYin={showPinYin}
-          blockArray={blockArray}
-          contentPinYin={contentPinYin}
-          retract={retract}
-          annotation={annotation}
-        />
-      )}
+      {<Body poem={poem} py={showPinYin} />}
 
       {/* 标签 */}
       <article className="chinese mt-8 px-4">
