@@ -49,7 +49,7 @@ export const More = ({
   const router = useRouter();
 
   return (
-    <div className="grid grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
       {data.map((item) => (
         <div
           key={item.id}
