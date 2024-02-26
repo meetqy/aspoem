@@ -26,7 +26,7 @@ const CopyButton = (props: Props) => {
           size={"icon"}
           className={cn(props.className)}
           onClick={() => {
-            const originText = `${poem.content} \n—— 《${poem.title}》${poem.author.dynasty}·${poem.author.name}`;
+            const originText = `${poem.content} \n—— 《${poem.title}》${poem.author.dynasty}·${poem.author.name}\n【译文】\n${poem.translation}`;
 
             const text = `<p>${poem.content.replaceAll(
               "\n",
@@ -35,7 +35,7 @@ const CopyButton = (props: Props) => {
               poem.title
             }</b></a>》${poem.author.dynasty} · <a href="${MyHost}/author/${
               poem.author.id
-            }"><b>${poem.author.name}</b></a></p><p><b>【译文】</b></p><p>${
+            }"><b>${poem.author.name}</b></a></p><p><b>译文</b></p><p>${
               poem.translation
             }</p>`;
 
