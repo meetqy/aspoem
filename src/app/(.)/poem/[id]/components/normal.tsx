@@ -49,11 +49,12 @@ export const Normal = ({
       </p>
 
       <div className="px-4 md:px-0">
+        {/* 额外信息 */}
         {poem.introduce && (
           <blockquote
             prose-blockquote=""
             className={cn(
-              "bg-muted/70 py-2 text-left text-lg !not-italic text-muted-foreground transition-all",
+              "py-2 text-left text-lg !not-italic text-muted-foreground transition-all",
               showPinYin ? "mb-12" : "mb-6",
             )}
           >
