@@ -44,19 +44,29 @@ export const poemRouter = createTRPCRouter({
         page: z.number().optional().default(1),
         pageSize: z.number().optional().default(28),
         authorId: z.number(),
+        select: z
+          .array(z.enum(["title", "titlePinYin", "content", "views", "author"]))
+          .optional(),
       }),
     )
     .query(async ({ input, ctx }) => {
       const { authorId, page, pageSize } = input;
+      const select = input.select ?? ["title", "titlePinYin"];
 
-      const total = await ctx.db.poem.count();
+      const total = await ctx.db.poem.count({
+        where: { authorId },
+      });
       const data = await ctx.db.poem.findMany({
         skip: (page - 1) * pageSize,
+        take: pageSize,
         where: { authorId },
         select: {
           id: true,
-          title: true,
-          titlePinYin: true,
+          title: select.includes("title"),
+          titlePinYin: select.includes("titlePinYin"),
+          content: select.includes("content"),
+          views: select.includes("views"),
+          author: true,
         },
       });
 

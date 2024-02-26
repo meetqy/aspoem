@@ -12,6 +12,7 @@ import { type Article, type WithContext } from "schema-dts";
 import { getPoemTitle } from "./utils";
 import { Shi } from "./components/shi";
 import { Normal } from "./components/normal";
+import { More } from "./components/more";
 
 const Twikoo = dynamic(() => import("./components/twikoo"), {
   ssr: false,
@@ -236,6 +237,15 @@ export default async function Page({ params, searchParams }: Props) {
 
           <SaveShareButton data={poem} />
         </p>
+
+        <h2 id="#更多探索" className="prose-h2 mb-6">
+          更多探索
+        </h2>
+
+        <More
+          authorId={poem.authorId}
+          tagIds={poem.tags.map((item) => item.id)}
+        />
 
         <h2 id="#畅所欲言" prose-h2="">
           畅所欲言
