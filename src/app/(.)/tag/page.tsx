@@ -10,8 +10,9 @@ export async function generateMetadata() {
 }
 
 export default async function Page() {
-  const tags = await api.tag.findMany.query({
+  const { data: tags } = await api.tag.findMany.query({
     select: ["count", "name", "type"],
+    pageSize: 9999,
   });
 
   const types: {
@@ -43,7 +44,7 @@ export default async function Page() {
                   className="mb-2 mr-2"
                   asChild
                 >
-                  <Link href={`/tag/list/${item.id}?page=1`}>
+                  <Link href={`/tag/${item.id}/1`}>
                     {item.name}
                     <sup className="ml-1 font-mono">{item._count.poems}</sup>
                   </Link>
