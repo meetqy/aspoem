@@ -15,7 +15,12 @@ export const Pagination = ({ page, hasNext, prefixUrl, params }: Props) => {
   const next = `${prefixUrl}/${page + 1}`;
 
   return (
-    <footer className="mb-4 mt-8 flex h-16 justify-between p-4">
+    <footer
+      className={cn(
+        "mb-4 mt-8 flex h-16 justify-between p-4",
+        page === 1 && !hasNext && "hidden",
+      )}
+    >
       <Button
         variant="ghost"
         className={cn("flex items-center")}

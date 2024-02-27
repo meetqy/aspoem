@@ -83,6 +83,20 @@
 陋室：简
 ```
 
+## 网站结构
+
+- /list [301]
+  - /list/[page]
+- /poem/[id]
+- /author
+  - /author/[id]
+  - /author/list [301]
+    - /author/list/[page]
+- /ci-pai-ming [301]
+  - /ci-pai-ming/[page]
+- /tag
+  - /tag/[id]/[page]
+
 ## 协议
 
 AGPL 3.0

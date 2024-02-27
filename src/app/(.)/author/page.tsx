@@ -1,10 +1,8 @@
-import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Button } from "~/components/ui/button";
+import { Pagination } from "~/components/pagination";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
-import { cn } from "~/utils";
 
 export async function generateMetadata() {
   return {
@@ -65,29 +63,7 @@ export default async function AuthorPage({
         ))}
       </div>
 
-      <footer className="mb-4 mt-8 flex h-16 justify-between">
-        <Button
-          variant="ghost"
-          className={cn("flex items-center", { "!opacity-0": page <= 1 })}
-          asChild={page > 1}
-          disabled
-        >
-          <Link href={`/author/list/${page - 1}`} className="flex items-center">
-            <ChevronLeft className="mr-2 h-4 w-4" strokeWidth={1} />
-            上一页
-          </Link>
-        </Button>
-
-        <Button
-          variant="ghost"
-          className={cn("flex items-center", { "opacity-0": !hasNext })}
-          asChild={hasNext}
-        >
-          <Link href={`/author/list/${page + 1}`} className="flex items-center">
-            下一页 <ChevronRight className="ml-2 h-4 w-4" strokeWidth={1} />
-          </Link>
-        </Button>
-      </footer>
+      <Pagination page={page} hasNext={hasNext} prefixUrl="/author/list" />
     </>
   );
 }
