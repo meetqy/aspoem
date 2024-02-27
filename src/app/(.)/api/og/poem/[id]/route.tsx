@@ -52,20 +52,39 @@ export async function GET(
           {poem.author.dynasty} · {poem.author.name}
         </p>
 
-        {content.map((_, index) => (
-          <p
-            key={index}
-            style={{
-              fontSize: 36,
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              opacity: 0.8,
-            }}
-          >
-            {_}
-          </p>
-        ))}
+        {content.map((_, index) =>
+          poem.genre != "诗" ? (
+            <p
+              key={index}
+              style={{
+                fontSize: 36,
+                width: "100%",
+                opacity: 0.8,
+                display: "flex",
+                flexWrap: "wrap",
+              }}
+            >
+              <span style={{ opacity: 0 }}>啊</span>
+              <span style={{ opacity: 0 }}>啊</span>
+              {_.split("").map((item, i) => (
+                <span key={i}>{item}</span>
+              ))}
+            </p>
+          ) : (
+            <p
+              key={index}
+              style={{
+                fontSize: 36,
+                width: "100%",
+                opacity: 0.8,
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              {_}
+            </p>
+          ),
+        )}
 
         <p
           style={{
