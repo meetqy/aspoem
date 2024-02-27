@@ -3,12 +3,9 @@ import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
 import { type Sort } from "~/types";
 
-import { Button } from "~/components/ui/button";
-import { ChevronLeft, ChevronRight } from "lucide-react";
-import Link from "next/link";
-import { cn } from "~/utils";
 import SortTabs from "../../components/sort-tabs";
 import Section from "../../components/section";
+import { Pagination } from "~/components/pagination";
 
 export async function generateMetadata({
   params,
@@ -31,14 +28,6 @@ export default async function IndexPage({
   params?: { page: string };
   searchParams?: { sort: Sort };
 }) {
-  const toHref = (href: string) => {
-    if (searchParams?.sort) {
-      return `${href}?sort=${searchParams?.sort}`;
-    }
-
-    return href;
-  };
-
   const pageIndex = Number(params?.page ?? 1);
 
   if (pageIndex < 1 || isNaN(pageIndex)) return notFound();
@@ -77,35 +66,12 @@ export default async function IndexPage({
         ))}
       </div>
 
-      <footer className="mb-4 mt-8 flex h-16 justify-between p-4">
-        <Button
-          variant="ghost"
-          className={cn("flex items-center", { "!opacity-0": page <= 1 })}
-          asChild={page > 1}
-          disabled
-        >
-          <Link
-            href={toHref(`/list/${page - 1}`)}
-            className="flex items-center"
-          >
-            <ChevronLeft className="mr-2 h-4 w-4" strokeWidth={1} />
-            上一页
-          </Link>
-        </Button>
-
-        <Button
-          variant="ghost"
-          className={cn("flex items-center", { "opacity-0": !hasNext })}
-          asChild={hasNext}
-        >
-          <Link
-            href={toHref(`/list/${page + 1}`)}
-            className="flex items-center"
-          >
-            下一页 <ChevronRight className="ml-2 h-4 w-4" strokeWidth={1} />
-          </Link>
-        </Button>
-      </footer>
+      <Pagination
+        page={page}
+        hasNext={hasNext}
+        prefixUrl="/list"
+        params={searchParams?.sort && `sort=${searchParams?.sort}`}
+      />
     </>
   );
 }

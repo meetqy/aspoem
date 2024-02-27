@@ -10,37 +10,61 @@ export const tagRouter = createTRPCRouter({
             .array(z.enum(["name", "type", "introduce", "count"]))
             .optional(),
           type: z.string().or(z.null()).optional(),
+          page: z.number().optional().default(1),
+          pageSize: z.number().optional().default(28),
         })
         .optional(),
     )
-    .query(({ ctx, input = {} }) => {
+    .query(async ({ ctx, input = {} }) => {
       const { select = ["name", "type", "introduce"] } = input;
 
-      return ctx.db.tag.findMany({
-        where: {
-          type: {
-            equals: input.type,
+      const page = input.page ?? 1;
+      const pageSize = input.pageSize ?? 28;
+
+      const [total, data] = await ctx.db.$transaction([
+        ctx.db.tag.count({
+          where: {
+            type: {
+              equals: input.type,
+            },
           },
-        },
-        select: {
-          id: true,
-          name: select.includes("name"),
-          type: select.includes("type"),
-          introduce: select.includes("introduce"),
-          _count: select.includes("count")
-            ? {
-                select: {
-                  poems: true,
-                },
-              }
-            : undefined,
-        },
-        orderBy: {
-          poems: {
-            _count: "desc",
+        }),
+        ctx.db.tag.findMany({
+          where: {
+            type: {
+              equals: input.type,
+            },
           },
-        },
-      });
+          skip: (page - 1) * pageSize,
+          take: pageSize,
+          select: {
+            id: true,
+            name: select.includes("name"),
+            type: select.includes("type"),
+            introduce: select.includes("introduce"),
+            _count: select.includes("count")
+              ? {
+                  select: {
+                    poems: true,
+                  },
+                }
+              : undefined,
+          },
+          orderBy: {
+            poems: {
+              _count: "desc",
+            },
+          },
+        }),
+      ]);
+
+      return {
+        data,
+        page,
+        pageSize,
+        hasNext: page * pageSize < total,
+        total,
+      };
     }),
 
   findById: publicProcedure.input(z.number()).query(({ input, ctx }) =>
