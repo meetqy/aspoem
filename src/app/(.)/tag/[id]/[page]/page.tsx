@@ -66,10 +66,7 @@ export default async function Page({
             </Link>
             <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
             {tag && (
-              <Link
-                className="line-clamp-1"
-                href={`/tag/list/${tag.id}?page=1`}
-              >
+              <Link className="line-clamp-1" href={`/tag/${tag.id}/1`}>
                 {tag.name || "未知"}
               </Link>
             )}

@@ -46,6 +46,7 @@ export default function CreatePage() {
 
   const { data: tags } = api.tag.findMany.useQuery({
     select: ["name"],
+    pageSize: 9999,
   });
 
   const { data: poem } = api.poem.findById.useQuery(Number(id), {
@@ -344,7 +345,7 @@ export default function CreatePage() {
             Tags
           </label>
           <div className="space-x-2">
-            {tags?.map((item) => (
+            {tags?.data.map((item) => (
               <Button
                 key={item.id}
                 variant={tagIds.includes(item.id) ? "default" : "ghost"}
