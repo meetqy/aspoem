@@ -49,7 +49,7 @@
 
     .br {
       ~ .char,
-      ~ b .char {
+      ~ button .char {
         @apply mt-4 md:mt-0;
       }
     }
@@ -100,7 +100,7 @@
   &.no-py {
     .br {
       ~ .char,
-      ~ b .char {
+      ~ button .char {
         @apply mt-0;
       }
     }
@@ -110,7 +110,7 @@
     @apply block w-full md:hidden;
   }
 
-  b {
+  button {
     @apply relative flex cursor-pointer font-normal text-primary;
 
     &::before {

@@ -24,6 +24,7 @@ const CopyButton = (props: Props) => {
         <Button
           variant={"secondary"}
           size={"icon"}
+          aria-label="一键复制诗词和译文"
           className={cn(props.className)}
           onClick={() => {
             const originText = `${poem.content} \n—— 《${poem.title}》${poem.author.dynasty}·${poem.author.name}\n【译文】\n${poem.translation}`;

@@ -128,6 +128,7 @@ function Content({ className }: { className?: string }) {
             key={item}
             variant={"default"}
             size={"icon"}
+            aria-label={`${item} theme`}
             className={cn(
               `theme-${item}`,
               "rounded-full border-2 bg-transparent hover:bg-transparent",
@@ -177,6 +178,7 @@ export function MobileMenu({ className }: { className?: string }) {
           <Button
             size={"icon"}
             variant={"ghost"}
+            aria-label="menu"
             className="fixed left-4 top-3 z-50"
           >
             <MenuIcon className="h-5 w-5" />

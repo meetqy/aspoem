@@ -72,8 +72,11 @@ export const Verse = (props: {
         if (item.length > 1) {
           const chlild = item.split("");
           return (
-            <Annotation key={i} tigger={<b>{render(chlild)}</b>}>
-              {props.annotation?.[item] ?? "暂无注释"}
+            <Annotation
+              key={i}
+              tigger={<button aria-label="查看注解">{render(chlild)}</button>}
+            >
+              {props.annotation?.[item] ?? "暂无注解"}
             </Annotation>
           );
         }
@@ -86,16 +89,16 @@ export const Verse = (props: {
             <Annotation
               key={i}
               tigger={
-                <b>
+                <button aria-label="查看注解">
                   <Char
                     char={item}
                     key={i}
                     pinyin={en_symbol.includes(py) ? undefined : py}
                   />
-                </b>
+                </button>
               }
             >
-              {props.annotation?.[item] ?? "暂无注释"}
+              {props.annotation?.[item] ?? "暂无注解"}
             </Annotation>
           );
         }
