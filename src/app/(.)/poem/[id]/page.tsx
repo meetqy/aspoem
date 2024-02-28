@@ -102,20 +102,14 @@ export default async function Page({ params, searchParams }: Props) {
       <HeaderMain>
         <div className="flex flex-1 items-center justify-between">
           <div className="flex h-16 items-center px-4">
-            <nav className="flex items-center space-x-2">
-              <Link href="/" className="flex-shrink-0 text-muted-foreground">
-                全部
+            <nav className="flex items-center space-x-1 text-muted-foreground">
+              <Link href="/" className="flex-shrink-0" replace>
+                诗词
               </Link>
-              <ChevronRight
-                className="hidden h-4 w-4 flex-shrink-0 md:block"
-                strokeWidth={1}
-              />
-              <Link
-                className="line-clamp-1 hidden md:inline"
-                href={`/poem/${poem.id}`}
-              >
+              <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
+              <span className="line-clamp-1 w-28 overflow-hidden text-foreground md:w-auto">
                 {poem.title}
-              </Link>
+              </span>
             </nav>
           </div>
 

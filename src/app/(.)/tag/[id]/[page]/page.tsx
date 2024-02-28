@@ -48,6 +48,8 @@ export default async function Page({
 
   const { data: poems, tag, hasNext } = await getItem(id, page);
 
+  if (!tag) return notFound();
+
   if (poems.length < 1) {
     return notFound();
   }
@@ -56,20 +58,27 @@ export default async function Page({
     <>
       <HeaderMain>
         <div className="flex h-16 items-center px-4">
-          <nav className="flex items-center space-x-2">
-            <Link
-              href="/tag"
-              replace
-              className="flex-shrink-0 text-muted-foreground"
-            >
-              {tag?.type || "其他"}
+          <nav className="flex items-center space-x-1 text-muted-foreground">
+            <Link href="/tag" replace className="flex-shrink-0">
+              标签
             </Link>
             <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
-            {tag && (
-              <Link className="line-clamp-1" href={`/tag/${tag.id}/1`}>
-                {tag.name || "未知"}
-              </Link>
-            )}
+
+            <Link
+              href={tag.type === "词牌名" ? `/ci-pai-ming` : `/tag#${tag.type}`}
+              replace
+              className="flex-shrink-0"
+            >
+              {tag.type || "其他"}
+            </Link>
+
+            <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
+            <Link
+              className="line-clamp-1 text-foreground"
+              href={`/tag/${tag.id}/1`}
+            >
+              {tag.name}
+            </Link>
           </nav>
         </div>
       </HeaderMain>
