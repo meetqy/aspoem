@@ -67,6 +67,17 @@ export const tagRouter = createTRPCRouter({
       };
     }),
 
+  count: publicProcedure.query(async ({ ctx }) => {
+    return ctx.db.$transaction([
+      ctx.db.tag.count(),
+      ctx.db.tag.count({
+        where: {
+          type: "词牌名",
+        },
+      }),
+    ]);
+  }),
+
   findById: publicProcedure.input(z.number()).query(({ input, ctx }) =>
     ctx.db.tag.findFirst({
       where: { id: input },

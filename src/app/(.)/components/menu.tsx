@@ -5,7 +5,6 @@ import {
   Album,
   ArrowUpRightIcon,
   Check,
-  CircleDot,
   GithubIcon,
   MenuIcon,
   Rocket,
@@ -27,6 +26,7 @@ function Content({ className }: { className?: string }) {
   const pathname = usePathname();
   const { data: poemCount } = api.poem.count.useQuery();
   const { data: authorCount } = api.author.count.useQuery();
+  const { data: tagsCount } = api.tag.count.useQuery();
 
   const [style, setStyle] = useState("zinc");
 
@@ -66,14 +66,14 @@ function Content({ className }: { className?: string }) {
           {
             title: "词牌名",
             icon: Album,
-            label: <CircleDot className="h-5 w-5" />,
+            label: <span className="font-mono">{tagsCount?.[1]}</span>,
             variant: /^(\/ci-pai-ming)/.test(pathname) ? "default" : "ghost",
             href: "/ci-pai-ming",
           },
           {
             title: "标签",
             icon: Tag,
-            label: <CircleDot className="h-5 w-5" />,
+            label: <span className="font-mono">{tagsCount?.[0]}</span>,
             variant: /^(\/tag)/.test(pathname) ? "default" : "ghost",
             href: "/tag",
           },
