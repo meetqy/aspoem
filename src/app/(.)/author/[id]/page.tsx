@@ -56,10 +56,10 @@ export default async function Page({ params, searchParams }: Props) {
     <>
       <HeaderMain>
         <div className="flex h-16 items-center px-4">
-          <nav className="flex items-center space-x-2 text-sm">
-            <span className="text-muted-foreground">作者</span>
+          <nav className="flex items-center space-x-1 text-muted-foreground">
+            <Link href={`/author`}>作者</Link>
             <ChevronRight className="h-4 w-4" strokeWidth={1} />
-            <span>{author.name}</span>
+            <span className="line-clamp-1 text-foreground">{author.name}</span>
           </nav>
         </div>
       </HeaderMain>

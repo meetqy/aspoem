@@ -59,14 +59,13 @@ export default async function Page({
       <HeaderMain>
         <div className="flex h-16 items-center px-4">
           <nav className="flex items-center space-x-1 text-muted-foreground">
-            <Link href="/tag" replace className="flex-shrink-0">
+            <Link href="/tag" className="flex-shrink-0">
               标签
             </Link>
             <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
 
             <Link
               href={tag.type === "词牌名" ? `/ci-pai-ming` : `/tag#${tag.type}`}
-              replace
               className="flex-shrink-0"
             >
               {tag.type || "其他"}

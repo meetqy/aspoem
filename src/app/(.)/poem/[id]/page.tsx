@@ -103,7 +103,7 @@ export default async function Page({ params, searchParams }: Props) {
         <div className="flex flex-1 items-center justify-between">
           <div className="flex h-16 items-center px-4">
             <nav className="flex items-center space-x-1 text-muted-foreground">
-              <Link href="/" className="flex-shrink-0" replace>
+              <Link href="/" className="flex-shrink-0">
                 诗词
               </Link>
               <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
