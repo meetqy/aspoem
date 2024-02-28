@@ -19,7 +19,7 @@
 
 ## 规范
 
-- 排版规范及注意事项 https://github.com/meetqy/aspoem/issues/25
+排版规范及注意事项 https://github.com/meetqy/aspoem/issues/25
 
 ## 协议
 
