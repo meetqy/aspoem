@@ -21,9 +21,22 @@
       @apply hidden;
     }
 
+    button {
+      &::before {
+        @apply left-[52%];
+      }
+    }
+
     &.no-py {
       & + .body {
         @apply mt-4;
+      }
+
+      .br {
+        ~ .char,
+        ~ button .char {
+          @apply mt-auto;
+        }
       }
 
       .char {
@@ -55,6 +68,7 @@
     }
   }
 
+  /* 标题 */
   &.title {
     .char {
       @apply h-[4.5rem] text-5xl font-bold;
@@ -73,6 +87,7 @@
     }
   }
 
+  /* 正常 作者 */
   &.normal {
     .char {
       @apply text-xl;
@@ -97,6 +112,7 @@
     }
   }
 
+  /* 没有拼音 */
   &.no-py {
     .br {
       ~ .char,
@@ -110,6 +126,7 @@
     @apply block w-full md:hidden;
   }
 
+  /* 有标注的文字 */
   button {
     @apply relative flex cursor-pointer font-normal text-primary;
 
