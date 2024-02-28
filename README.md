@@ -1,4 +1,4 @@
-![Imgur](https://i.imgur.com/prCJu1c.png)
+![Imgur](https://i.imgur.com/WzbeuNH.png)
 
 # aspoem.com
 
