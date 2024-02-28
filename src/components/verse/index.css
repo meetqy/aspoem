@@ -40,7 +40,7 @@
       }
 
       .char {
-        @apply h-auto w-auto;
+        @apply h-10 w-auto text-2xl;
 
         &.tab {
           @apply w-6;
