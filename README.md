@@ -17,6 +17,10 @@
 
 参考 `.env.example` 配置。
 
+## 规范
+
+- 排版规范及注意事项 https://github.com/meetqy/aspoem/issues/25
+
 ## 协议
 
 AGPL 3.0
