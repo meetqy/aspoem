@@ -6,7 +6,7 @@ import { type Sort } from "~/types";
 import SortTabs from "../../components/sort-tabs";
 import Section from "../../components/section";
 import { Pagination } from "~/components/pagination";
-import { type Locale, getDictionary } from "../../dictionaries";
+import { type Locale, getDictionary } from "../../../dictionaries";
 
 export async function generateMetadata({
   params,

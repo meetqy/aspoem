@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { Pagination } from "~/components/pagination";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
-import { getDictionary, type Locale } from "../../dictionaries";
+import { getDictionary, type Locale } from "../../../dictionaries";
 
 export async function generateMetadata() {
   return {

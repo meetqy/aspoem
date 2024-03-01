@@ -2,7 +2,7 @@ import { cn } from "~/utils";
 import { Button } from "./ui/button";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { type Dictionary } from "~/app/[lang]/dictionaries";
+import { type Dictionary } from "~/app/dictionaries";
 
 interface Props {
   page: number;

@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { Button } from "~/components/ui/button";
 import { Popover, PopoverContent } from "~/components/ui/popover";
 import { cn } from "~/utils";
-import { type Locale, type Dictionary } from "../../dictionaries";
+import { type Locale, type Dictionary } from "../../../dictionaries";
 import { Content } from "./content";
 
 type Props = {

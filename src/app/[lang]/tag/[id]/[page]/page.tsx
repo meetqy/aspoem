@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cache } from "react";
 import Section from "~/app/[lang]/components/section";
-import { type Locale, getDictionary } from "~/app/[lang]/dictionaries";
+import { type Locale, getDictionary } from "~/app/dictionaries";
 import { Pagination } from "~/components/pagination";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";

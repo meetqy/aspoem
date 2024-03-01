@@ -276,20 +276,42 @@ export const poemRouter = createTRPCRouter({
         token: z.string(),
         title: z.string(),
         titlePinYin: z.string().optional(),
+        title_zh_hant: z.string().optional(),
         content: z.string(),
         contentPinYin: z.string().optional(),
+        content_zh_hant: z.string().optional(),
         authorId: z.number(),
         tagIds: z.array(z.number()).optional(),
         disconnectTagIds: z.array(z.number()).optional(),
         classify: z.string().optional(),
         genre: z.string().optional(),
         introduce: z.string().optional(),
+        introduce_zh_hant: z.string().optional(),
         translation: z.string().optional(),
+        translation_zh_hant: z.string().optional(),
         annotation: z.string().optional(),
+        annotation_zh_hant: z.string().optional(),
       }),
     )
     .mutation(async ({ input, ctx }) => {
       if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
+
+      const data = {
+        title: input.title.toLocaleLowerCase(),
+        titlePinYin: input.titlePinYin,
+        title_zh_Hant: input.title_zh_hant,
+        contentPinYin: input.contentPinYin,
+        content: input.content,
+        content_zh_Hant: input.content_zh_hant,
+        classify: input.classify,
+        genre: input.genre,
+        introduce: input.introduce,
+        introduce_zh_Hant: input.introduce_zh_hant,
+        translation: input.translation,
+        translation_zh_Hant: input.translation_zh_hant,
+        annotation: input.annotation,
+        annotation_zh_Hant: input.annotation_zh_hant,
+      };
 
       if (input.id) {
         const res = await ctx.db.poem.findMany({
@@ -304,18 +326,10 @@ export const poemRouter = createTRPCRouter({
         return ctx.db.poem.update({
           where: { id: input.id },
           data: {
-            title: input.title.toLocaleLowerCase(),
-            titlePinYin: input.titlePinYin,
-            contentPinYin: input.contentPinYin,
-            content: input.content,
+            ...data,
             author: {
               connect: { id: input.authorId },
             },
-            classify: input.classify,
-            genre: input.genre,
-            introduce: input.introduce,
-            translation: input.translation,
-            annotation: input.annotation,
             tags: input.tagIds && {
               connect: input.tagIds.map((id) => ({ id })),
               disconnect: input.disconnectTagIds?.map((id) => ({ id })),
@@ -335,19 +349,11 @@ export const poemRouter = createTRPCRouter({
 
       return ctx.db.poem.create({
         data: {
-          title: input.title.toLocaleLowerCase(),
-          titlePinYin: input.titlePinYin,
-          contentPinYin: input.contentPinYin,
-          content: input.content,
+          ...data,
           authorId: input.authorId,
-          classify: input.classify,
-          genre: input.genre,
-          introduce: input.introduce,
-          translation: input.translation,
           tags: input.tagIds && {
             connect: input.tagIds.map((id) => ({ id })),
           },
-          annotation: input.annotation,
         },
       });
     }),

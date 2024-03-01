@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { TabsTrigger, TabsList, Tabs } from "~/components/ui/tabs";
 import { type Sort } from "~/types";
-import { type Dictionary } from "../dictionaries";
+import { type Dictionary } from "../../dictionaries";
 
 export default function SortTabs({
   sort,
