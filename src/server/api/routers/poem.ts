@@ -1,6 +1,8 @@
 import { type Author, type Poem } from "@prisma/client";
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
+import { locales } from "~/dictionaries";
+import { mapKeys, omit, pick } from "lodash-es";
 
 export const poemRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),
@@ -249,23 +251,60 @@ export const poemRouter = createTRPCRouter({
   /**
    * 根据 id 查找诗词
    */
-  findById: publicProcedure.input(z.number()).query(async ({ input, ctx }) => {
-    void ctx.db.poem
-      .update({
-        where: { id: input },
-        data: { views: { increment: 1 } },
-      })
-      .then()
-      .catch();
+  findById: publicProcedure
+    .input(
+      z.object({
+        id: z.number(),
+        lang: z.enum(locales).optional(),
+      }),
+    )
+    .query(async ({ input, ctx }) => {
+      const { id } = input;
 
-    return ctx.db.poem.findUnique({
-      where: { id: input },
-      include: {
-        tags: true,
-        author: true,
-      },
-    });
-  }),
+      const lang = input.lang?.replace("-", "_");
+
+      void ctx.db.poem.update({
+        where: { id },
+        data: { views: { increment: 1 } },
+      });
+
+      const localeSelect: Record<string, boolean> = {};
+
+      ["title", "content", "introduce", "translation", "annotation"].forEach(
+        (item) => {
+          const filed = lang ? item : `${item}_${lang}`;
+          localeSelect[filed] = true;
+        },
+      );
+
+      const res = await ctx.db.poem.findUnique({
+        where: { id },
+        include: {
+          tags: true,
+          author: true,
+        },
+      });
+
+      if (!res) return;
+
+      const objs = pick(
+        res,
+        ["title", "content", "introduce", "translation", "annotation"].map(
+          (item) => `${item}_${lang}`,
+        ),
+      );
+
+      Object.keys(res).map((key) => {
+        if (key.includes("zh_Hant") || key.includes("zh_Hans")) {
+          delete res[key as keyof typeof res];
+        }
+      });
+
+      return {
+        ...res,
+        ...mapKeys(objs, (_, key) => key.replace(`_${lang}`, "")),
+      };
+    }),
   /**
    * 创建诗词
    */

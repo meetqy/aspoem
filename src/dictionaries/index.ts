@@ -1,5 +1,9 @@
 import "server-only";
 
+export const locales = ["zh-Hans", "zh-Hant"] as const;
+
+export const defaultLocale = "zh-Hans";
+
 const dictionaries = {
   "zh-Hant": () => import("./zh-Hant.json").then((module) => module.default),
   "zh-Hans": () => import("./zh-Hans.json").then((module) => module.default),

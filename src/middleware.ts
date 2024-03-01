@@ -1,9 +1,7 @@
 import { match } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
 import { type NextRequest, NextResponse } from "next/server";
-
-const locales = ["zh-Hans", "zh-Hant"];
-const defaultLocale = "zh-Hans";
+import { locales, defaultLocale } from "./dictionaries";
 
 // Get the preferred locale, similar to the above or using a library
 function getLocale() {
@@ -21,10 +19,17 @@ export function middleware(request: NextRequest) {
   );
 
   if (pathnameHasLocale) return;
-  if (/^\/create|demo|api/.test(pathname)) return;
+  if (/^\/create|demo/.test(pathname)) return;
 
   // Redirect if there is no locale trpc 不走 i18n
   const locale = getLocale();
+
+  if (pathname.startsWith("/api/trpc")) {
+    request.headers.set("accept-language", locale);
+    console.log("locale", locale, request.headers.get("accept-language"));
+
+    return NextResponse.next();
+  }
 
   request.nextUrl.pathname = `/${locale}${pathname}`;
   return NextResponse.redirect(request.nextUrl);
