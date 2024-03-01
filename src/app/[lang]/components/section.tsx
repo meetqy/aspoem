@@ -2,7 +2,7 @@ import { type Author, type Poem } from "@prisma/client";
 import { EyeIcon } from "lucide-react";
 import Link from "next/link";
 import { cn } from "~/utils";
-import { type Locale } from "../../dictionaries";
+import { type Locale } from "~/dictionaries";
 
 export default function Section({
   poem,

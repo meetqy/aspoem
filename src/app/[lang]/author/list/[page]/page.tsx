@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { type Locale, getDictionary } from "~/app/dictionaries";
+import { type Locale, getDictionary } from "~/dictionaries";
 import { Pagination } from "~/components/pagination";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";

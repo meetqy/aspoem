@@ -15,7 +15,7 @@ import { useDebounce } from "@react-hook/debounce";
 import { api } from "~/trpc/react";
 import { useRouter } from "next/navigation";
 import { CommandLoading } from "cmdk";
-import { type Locale, type Dictionary } from "../../dictionaries";
+import { type Locale, type Dictionary } from "~/dictionaries";
 
 export default function CommandDemo({
   dict,

@@ -6,7 +6,7 @@ import { Button } from "~/components/ui/button";
 import { ChevronsRight } from "lucide-react";
 import Link from "next/link";
 import { cn } from "~/utils";
-import { type Locale, getDictionary } from "../dictionaries";
+import { type Locale, getDictionary } from "~/dictionaries";
 
 export default async function IndexPage({
   params,

@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname, useRouter } from "next/navigation";
-import { type Locale, type Dictionary } from "../../../dictionaries";
+import { type Locale, type Dictionary } from "~/dictionaries";
 import { api } from "~/trpc/react";
 import { useEffect, useState } from "react";
 import { cn } from "~/utils";
