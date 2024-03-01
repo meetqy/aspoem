@@ -1,12 +1,8 @@
 "use client";
 
 import { Verse } from "~/components/verse";
-import { api } from "~/trpc/react";
 
 export default function A() {
-  const { data } = api.poem.findById.useQuery(568);
-  console.log(data);
-
   return (
     <div className="m-auto max-w-screen-md">
       <div className="space-y-4">
