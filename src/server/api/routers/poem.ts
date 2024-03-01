@@ -2,7 +2,7 @@ import { type Author, type Poem } from "@prisma/client";
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 import { locales } from "~/dictionaries";
-import { mapKeys, omit, pick } from "lodash-es";
+import { mapKeys, pick } from "lodash-es";
 
 export const poemRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),

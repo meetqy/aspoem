@@ -12,6 +12,20 @@
     "poem": "推薦",
     "all_poems": "全部詩詞"
   },
+  "poem": {
+    "title": "詩詞",
+    "pinyin": "拼音",
+    "pinyin_show": "顯示拼音",
+    "pinyin_hide": "隱藏拼音",
+    "translation": "譯文",
+    "share": "分享",
+    "more": "更多探索",
+    "comment": "暢所欲言",
+    "comment_desc1": "不同的年齡、成長環境、經歷，都會有不同的看法。",
+    "comment_desc2": "因此不存在標準答案，自己喜歡就好！歡迎留下你的隨想！👏🏻👏🏻👏🏻",
+    "report_error": "糾錯",
+    "report_error_desc": "發現錯誤，也可以在下方留言，指正哦！"
+  },
   "poem_list": {
     "title": "詩詞列表",
     "empty": "沒有找到相關詩詞",

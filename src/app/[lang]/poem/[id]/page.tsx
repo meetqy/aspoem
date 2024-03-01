@@ -12,6 +12,7 @@ import { type Article, type WithContext } from "schema-dts";
 import { getPoemTitle } from "./utils";
 import { Body } from "./components/body";
 import { More } from "./components/more";
+import { getDictionary, type Locale } from "~/dictionaries";
 
 const Twikoo = dynamic(() => import("./components/twikoo"), {
   ssr: false,
@@ -22,12 +23,15 @@ const SaveShareButton = dynamic(() => import("./components/xhs"), {
 });
 
 type Props = {
-  params: { id: string };
+  params: { id: string; lang: Locale };
   searchParams: { py?: string };
 };
 
-const getItem = cache(async (id: string) => {
-  const poem = await api.poem.findById.query(Number(id));
+const getItem = cache(async ({ id, lang }: Props["params"]) => {
+  const poem = await api.poem.findById.query({
+    id: Number(id),
+    lang,
+  });
 
   if (!poem) {
     notFound();
@@ -39,7 +43,7 @@ const getItem = cache(async (id: string) => {
 export const revalidate = 3600;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const poem = await getItem(params.id);
+  const poem = await getItem(params);
 
   const { dynasty } = poem.author;
 
@@ -67,7 +71,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function Page({ params, searchParams }: Props) {
-  const poem = await getItem(params.id);
+  const poem = await getItem(params);
+  const dict = await getDictionary(params.lang);
 
   const title = getPoemTitle(poem);
 
@@ -101,7 +106,7 @@ export default async function Page({ params, searchParams }: Props) {
           <div className="flex h-16 items-center px-4">
             <nav className="flex items-center space-x-1 text-muted-foreground">
               <Link href="/" className="flex-shrink-0">
-                诗词
+                {dict.poem.title}
               </Link>
               <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
               <span className="line-clamp-1 w-28 overflow-hidden text-foreground md:w-auto">
@@ -112,21 +117,21 @@ export default async function Page({ params, searchParams }: Props) {
 
           <div>
             {showPinYin ? (
-              <Button size={"xs"} aria-label="不显示拼音" asChild>
+              <Button size={"xs"} aria-label={dict.poem.pinyin_hide} asChild>
                 <Link href="?" replace>
-                  拼音
+                  {dict.poem.pinyin}
                 </Link>
               </Button>
             ) : (
               <Button
                 size={"xs"}
                 variant="secondary"
-                aria-label="显示拼音"
+                aria-label={dict.poem.pinyin_show}
                 className={cn(!isShi && "hidden", "md:inline-flex")}
                 asChild
               >
                 <Link href="?py=t" replace>
-                  拼音
+                  {dict.poem.pinyin}
                 </Link>
               </Button>
             )}
@@ -165,8 +170,8 @@ export default async function Page({ params, searchParams }: Props) {
           </div>
         )}
 
-        <h2 id="#译文" prose-h2="" className="text-left">
-          译文
+        <h2 id={"#" + dict.poem.translation} prose-h2="" className="text-left">
+          {dict.poem.translation}
         </h2>
 
         {(poem.translation || "暂未完善").split("\n").map((line, index) =>
@@ -179,8 +184,8 @@ export default async function Page({ params, searchParams }: Props) {
           ),
         )}
 
-        <h2 id="#分享" prose-h2="">
-          分享
+        <h2 id={"#" + dict.poem.share} prose-h2="">
+          {dict.poem.share}
         </h2>
 
         <p prose-p="" className="flex items-center space-x-4">
@@ -208,8 +213,8 @@ export default async function Page({ params, searchParams }: Props) {
           <SaveShareButton data={poem} />
         </p>
 
-        <h2 id="#更多探索" className="prose-h2 mb-6">
-          更多探索
+        <h2 id={"#" + dict.poem.more} className="prose-h2 mb-6">
+          {dict.poem.more}
         </h2>
 
         <More
@@ -217,21 +222,21 @@ export default async function Page({ params, searchParams }: Props) {
           tagIds={poem.tags.map((item) => item.id)}
         />
 
-        <h2 id="#畅所欲言" prose-h2="">
-          畅所欲言
+        <h2 id={"#" + dict.poem.comment} prose-h2="">
+          {dict.poem.comment}
         </h2>
 
         <p prose-p="">
-          不同的年龄、成长环境、经历，都会有不同的看法。
-          <b>因此不存在标准答案，自己喜欢就好！欢迎留下你的随想！👏🏻👏🏻👏🏻</b>
+          {dict.poem.comment_desc1}
+          <b>{dict.poem.comment_desc2}</b>
         </p>
 
-        <h2 id="#纠错" prose-h2="">
-          纠错
+        <h2 id={"#" + dict.poem.report_error} prose-h2="">
+          {dict.poem.report_error}
         </h2>
         <p prose-p="">
           <InfoIcon className="-mt-1 mr-2 inline-block text-destructive" />
-          发现错误，也可以在下方留言，指正哦！
+          {dict.poem.report_error_desc}
         </p>
 
         <div className="mt-12">
