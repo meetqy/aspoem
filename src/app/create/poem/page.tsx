@@ -177,13 +177,18 @@ export default function CreatePage() {
             size={"sm"}
             className="ml-2"
             onClick={() => {
-              setTitlePinYin(GeneratePinyin(title));
-              setContentPinYin(
-                GeneratePinyin(content)
-                  .replace(/\s，/g, ",")
-                  .replace(/\s。/g, ".")
-                  .replace(/\n\s/g, "\n"),
-              );
+              if (!titlePinYin) {
+                setTitlePinYin(GeneratePinyin(title));
+              }
+
+              if (!contentPinYin) {
+                setContentPinYin(
+                  GeneratePinyin(content)
+                    .replace(/\s，/g, ",")
+                    .replace(/\s。/g, ".")
+                    .replace(/\n\s/g, "\n"),
+                );
+              }
             }}
           >
             生成拼音
@@ -365,7 +370,7 @@ export default function CreatePage() {
         </div>
 
         <div className="space-y-2">
-          <label className="flex space-x-2 font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+          <div className="flex space-x-2 font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
             <Button
               size={"sm"}
               onClick={() => {
@@ -406,7 +411,7 @@ export default function CreatePage() {
             >
               格式化
             </Button>
-          </label>
+          </div>
           {annotations.map((item, index) => (
             <div className="grid grid-cols-4 gap-4" key={index}>
               <div className="col-span-1 flex items-center space-x-2">
