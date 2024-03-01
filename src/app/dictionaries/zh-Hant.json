@@ -1,0 +1,29 @@
+{
+  "menu": {
+    "poem": "詩詞",
+    "auhtor": "詩人",
+    "ci_pai_ming": "詞牌名",
+    "tag": "標籤",
+    "contact": "聯繫方式",
+    "theme": "主題",
+    "language": "語言"
+  },
+  "home": {
+    "poem": "推薦",
+    "all_poems": "全部詩詞"
+  },
+  "poem_list": {
+    "title": "詩詞列表",
+    "empty": "沒有找到相關詩詞",
+    "tab_new": "最新",
+    "tab_improve": "待完善"
+  },
+  "search": {
+    "placeholder": "查找詩人、詩詞、名句",
+    "empty": "沒有找到相關詩詞"
+  },
+  "pagination": {
+    "prev": "上一頁",
+    "next": "下一頁"
+  }
+}

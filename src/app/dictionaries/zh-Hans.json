@@ -1,0 +1,29 @@
+{
+  "menu": {
+    "poem": "诗词",
+    "auhtor": "诗人",
+    "ci_pai_ming": "词牌名",
+    "tag": "标签",
+    "contact": "联系方式",
+    "theme": "主题",
+    "language": "语言"
+  },
+  "home": {
+    "poem": "推荐",
+    "all_poems": "全部诗词"
+  },
+  "poem_list": {
+    "title": "诗词列表",
+    "empty": "没有找到相关诗词",
+    "tab_new": "最新",
+    "tab_improve": "待完善"
+  },
+  "search": {
+    "placeholder": "查找诗人、诗词、名句",
+    "empty": "没有找到相关诗词"
+  },
+  "pagination": {
+    "prev": "上一页",
+    "next": "下一页"
+  }
+}
