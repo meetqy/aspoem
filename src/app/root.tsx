@@ -15,16 +15,10 @@ const GoogleAnalytics = dynamic(() => import("./metrics/google-analytics"), {
   ssr: false,
 });
 
-export default function Root({
-  children,
-  lang,
-}: {
-  children: React.ReactNode;
-  lang: string;
-}) {
+export default function Root({ children }: { children: React.ReactNode }) {
   return (
-    <html lang={lang}>
-      <body className="theme-zinc min-h-screen bg-background font-cursive font-normal text-foreground antialiased">
+    <body className="theme-zinc min-h-screen bg-background font-cursive font-normal text-foreground antialiased">
+      <>
         <TRPCReactProvider>
           <ThemeProvider
             attribute="class"
@@ -39,7 +33,7 @@ export default function Root({
         <GoogleAnalytics id={process.env.NEXT_PUBLIC_GA_ID!} />
         <MicrosoftClarity id={process.env.NEXT_PUBLIC_MC_ID!} />
         <LoadFont />
-      </body>
-    </html>
+      </>
+    </body>
   );
 }

@@ -13,25 +13,33 @@ datasource db {
 }
 
 model Poem {
-    id            Int       @id @default(autoincrement())
-    title         String
-    titlePinYin   String?
-    content       String
-    contentPinYin String?
-    introduce     String?
-    translation   String?
+    id                  Int       @id @default(autoincrement())
+    title               String
+    titlePinYin         String?
+    title_zh_Hant       String?
+    // 内容
+    content             String
+    content_zh_Hant     String?
+    contentPinYin       String?
+    // 介绍
+    introduce           String?
+    introduce_zh_Hant   String?
+    // 译文
+    translation         String?
+    translation_zh_Hant String?
     // 注解 JSON 字符串 {文字: 解释}
-    annotation    String?
-    author        Author    @relation(fields: [authorId], references: [id])
-    authorId      Int
+    annotation          String?
+    annotation_zh_Hant  String?
+    author              Author    @relation(fields: [authorId], references: [id])
+    authorId            Int
     // 内容分类：叙事诗、抒情诗、送别诗、边塞诗、山水田园诗、咏史诗、咏物诗、悼亡诗、讽喻诗
-    classify      String?
+    classify            String?
     // 体裁分类：诗、词、曲、赋、骈文
-    genre         String?
-    tags          Tag[]
-    createdAt     DateTime? @default(now())
-    updatedAt     DateTime? @updatedAt
-    views         Int       @default(0)
+    genre               String?
+    tags                Tag[]
+    createdAt           DateTime? @default(now())
+    updatedAt           DateTime? @updatedAt
+    views               Int       @default(0)
 }
 
 model Author {

@@ -22,12 +22,13 @@ export function middleware(request: NextRequest) {
 
   if (pathnameHasLocale) return;
 
+  if (pathname.startsWith("/api/trpc")) return;
+  if (pathname.startsWith("/create")) return;
+
   // Redirect if there is no locale trpc 不走 i18n
-  if (!pathname.startsWith("/api/trpc")) {
-    const locale = getLocale();
-    request.nextUrl.pathname = `/${locale}${pathname}`;
-    return NextResponse.redirect(request.nextUrl);
-  }
+  const locale = getLocale();
+  request.nextUrl.pathname = `/${locale}${pathname}`;
+  return NextResponse.redirect(request.nextUrl);
 }
 
 export const config = {
