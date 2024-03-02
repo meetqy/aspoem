@@ -14,6 +14,10 @@ import { Body } from "./components/body";
 import { More } from "./components/more";
 import { getDictionary, type Locale } from "~/dictionaries";
 
+const AutoHant = dynamic(() => import("./components/auto-hant"), {
+  ssr: false,
+});
+
 const Twikoo = dynamic(() => import("./components/twikoo"), {
   ssr: false,
 });
@@ -245,6 +249,8 @@ export default async function Page({ params, searchParams }: Props) {
       </article>
 
       <footer className="h-16"></footer>
+
+      <AutoHant poem={poem} />
     </>
   );
 }

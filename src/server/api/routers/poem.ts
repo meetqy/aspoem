@@ -406,4 +406,43 @@ export const poemRouter = createTRPCRouter({
         },
       });
     }),
+
+  updateHant: publicProcedure
+    .input(
+      z.object({
+        title: z.string().optional(),
+        content: z.string().optional(),
+        introduce: z.string().optional(),
+        translation: z.string().optional(),
+        annotation: z.string().optional(),
+        id: z.number(),
+      }),
+    )
+    .query(async ({ ctx, input }) => {
+      const res = await ctx.db.poem.findUnique({
+        where: { id: input.id },
+      });
+
+      if (!res) return;
+
+      const json: Record<string, string> = {};
+
+      if (res.title_zh_Hant !== input.title && input.title)
+        json.title_zh_Hant = input.title;
+      if (res.content_zh_Hant !== input.content && input.content)
+        json.content_zh_Hant = input.content;
+      if (res.introduce_zh_Hant !== input.introduce && input.introduce)
+        json.introduce_zh_Hant = input.introduce;
+      if (res.translation_zh_Hant !== input.translation && input.translation)
+        json.translation_zh_Hant = input.translation;
+      if (res.annotation_zh_Hant !== input.annotation && input.annotation)
+        json.annotation_zh_Hant = input.annotation;
+
+      if (Object.keys(json).length === 0) return;
+
+      return ctx.db.poem.update({
+        where: { id: input.id },
+        data: json,
+      });
+    }),
 });
