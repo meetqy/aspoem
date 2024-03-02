@@ -38,7 +38,6 @@ export function Content({
 }) {
   const pathname = usePathname().replace(/(zh-Hans|zh-Hant)\/?/, "");
 
-  console.log(pathname);
   const { data: poemCount } = api.poem.count.useQuery();
   const { data: authorCount } = api.author.count.useQuery();
   const { data: tagsCount } = api.tag.count.useQuery();

@@ -418,7 +418,7 @@ export const poemRouter = createTRPCRouter({
         id: z.number(),
       }),
     )
-    .query(async ({ ctx, input }) => {
+    .mutation(async ({ ctx, input }) => {
       const res = await ctx.db.poem.findUnique({
         where: { id: input.id },
       });
