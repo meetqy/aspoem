@@ -19,15 +19,12 @@ export function middleware(request: NextRequest) {
   );
 
   if (pathnameHasLocale) return;
-  if (/^\/create|demo/.test(pathname)) return;
 
   // Redirect if there is no locale trpc 不走 i18n
   const locale = getLocale();
 
   if (pathname.startsWith("/api/trpc")) {
     request.headers.set("accept-language", locale);
-    console.log("locale", locale, request.headers.get("accept-language"));
-
     return NextResponse.next();
   }
 
@@ -38,7 +35,7 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     // Skip all internal paths (_next)
-    "/((?!_next).*)",
+    "/((?!_next|favicon|fonts|demo|create).*)",
     // Optional: only run on root (/) URL
     // '/'
   ],

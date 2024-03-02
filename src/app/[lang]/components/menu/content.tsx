@@ -37,6 +37,7 @@ export function Content({
   lang: Locale;
 }) {
   const pathname = usePathname().replace(/(zh-Hans|zh-Hant)\/?/, "");
+  console.log(/(\/list|poem)/.test(pathname));
   const { data: poemCount } = api.poem.count.useQuery();
   const { data: authorCount } = api.author.count.useQuery();
   const { data: tagsCount } = api.tag.count.useQuery();
@@ -63,7 +64,7 @@ export function Content({
             label: <span className="font-mono">{poemCount}</span>,
             icon: Rows2,
             variant:
-              /^(\/list|poem)/.test(pathname) ||
+              /(\/list|poem)/.test(pathname) ||
               pathname === "" ||
               pathname === "/"
                 ? "default"
@@ -74,21 +75,21 @@ export function Content({
             title: dict.menu.auhtor,
             label: <span className="font-mono">{authorCount}</span>,
             icon: UserRound,
-            variant: /^(\/author)/.test(pathname) ? "default" : "ghost",
+            variant: /(\/author)/.test(pathname) ? "default" : "ghost",
             href: `/${lang}/author`,
           },
           {
             title: dict.menu.ci_pai_ming,
             icon: Album,
             label: <span className="font-mono">{tagsCount?.[1]}</span>,
-            variant: /^(\/ci-pai-ming)/.test(pathname) ? "default" : "ghost",
+            variant: /(\/ci-pai-ming)/.test(pathname) ? "default" : "ghost",
             href: `/${lang}/ci-pai-ming`,
           },
           {
             title: dict.menu.tag,
             icon: Tag,
             label: <span className="font-mono">{tagsCount?.[0]}</span>,
-            variant: /^(\/tag)/.test(pathname) ? "default" : "ghost",
+            variant: /(\/tag)/.test(pathname) ? "default" : "ghost",
             href: `/${lang}/tag`,
           },
         ]}
