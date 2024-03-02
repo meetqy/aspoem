@@ -77,14 +77,14 @@ export function Content({
             label: <span className="font-mono">{authorCount}</span>,
             icon: UserRound,
             variant: /^(\/author)/.test(pathname) ? "default" : "ghost",
-            href: `/${lang}/author`,
+            href: `/${lang}/author/list/1`,
           },
           {
             title: dict.menu.ci_pai_ming,
             icon: Album,
             label: <span className="font-mono">{tagsCount?.[1]}</span>,
             variant: /^(\/ci-pai-ming)/.test(pathname) ? "default" : "ghost",
-            href: `/${lang}/ci-pai-ming`,
+            href: `/${lang}/ci-pai-ming/1`,
           },
           {
             title: dict.menu.tag,
