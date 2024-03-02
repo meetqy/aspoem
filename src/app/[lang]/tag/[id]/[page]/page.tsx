@@ -7,6 +7,7 @@ import { type Locale, getDictionary } from "~/dictionaries";
 import { Pagination } from "~/components/pagination";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
+import { type Metadata } from "next";
 
 interface Props {
   params: { page: string; id: string; lang: Locale };
@@ -32,11 +33,17 @@ const getItem = cache(async ({ params }: Props) => {
   };
 });
 
-export async function generateMetadata(props: Props) {
+export async function generateMetadata(props: Props): Promise<Metadata> {
   const { tag, page } = await getItem(props);
 
   return {
     title: `关于${tag?.type || "其他"}“${tag?.name}”的诗词 第${page}页`,
+    alternates: {
+      languages: {
+        "zh-Hans": `/zh-Hans/tag/${tag?.id}/${page}`,
+        "zh-Hant": `/zh-Hant/tag/${tag?.id}/${page}`,
+      },
+    },
   };
 }
 

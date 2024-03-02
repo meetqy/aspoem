@@ -7,18 +7,25 @@ import SortTabs from "../../components/sort-tabs";
 import Section from "../../components/section";
 import { Pagination } from "~/components/pagination";
 import { type Locale, getDictionary } from "~/dictionaries";
+import { type Metadata } from "next";
 
 export async function generateMetadata({
   params,
 }: {
   params: { page: string };
-}) {
+}): Promise<Metadata> {
   const pageIndex = Number(params.page);
 
   if (pageIndex < 1 || isNaN(pageIndex)) notFound();
 
   return {
     title: `诗词列表 第${pageIndex}页`,
+    alternates: {
+      languages: {
+        "zh-Hans": `/zh-Hans/list/${pageIndex}`,
+        "zh-Hant": `/zh-Hant/list/${pageIndex}`,
+      },
+    },
   };
 }
 

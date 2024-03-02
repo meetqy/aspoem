@@ -5,10 +5,17 @@ import { Pagination } from "~/components/pagination";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
 import { getDictionary, type Locale } from "~/dictionaries";
+import { type Metadata } from "next";
 
-export async function generateMetadata() {
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: `词牌名列表`,
+    alternates: {
+      languages: {
+        "zh-Hans": "/zh-Hans/ci-pai-ming",
+        "zh-Hant": "/zh-Hant/ci-pai-ming",
+      },
+    },
   };
 }
 

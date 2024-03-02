@@ -1,11 +1,15 @@
 import Link from "next/link";
+import { type Metadata } from "next/types";
 import { Button } from "~/components/ui/button";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
 
-export async function generateMetadata() {
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: `标签列表`,
+    alternates: {
+      languages: { "zh-Hans": "/zh-Hans/tag", "zh-Hant": "/zh-Hant/tag" },
+    },
   };
 }
 

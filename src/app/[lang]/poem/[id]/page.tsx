@@ -68,6 +68,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: getPoemTitle(poem),
     description: poem.content.substring(0, 50),
     keywords,
+    alternates: {
+      languages: {
+        "zh-Hans": `/poem/${params.id}`,
+        "zh-Hant": `/poem/${params.id}`,
+      },
+    },
     twitter: {
       images: `/poem/${params.id}/twitter-image`,
     },
