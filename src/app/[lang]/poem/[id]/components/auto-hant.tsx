@@ -13,11 +13,11 @@ export default function AutoHant({
   const mut = api.poem.updateHant.useMutation();
 
   useEffect(() => {
-    const hantContent = convertToHant(poem.content);
+    if (poem.is_hant) return;
 
     const json = {
       id: poem.id,
-      content: hantContent,
+      content: convertToHant(poem.content),
       title: convertToHant(poem.title),
       introduce: poem.introduce ? convertToHant(poem.introduce) : undefined,
       annotation: poem.annotation ? convertToHant(poem.annotation) : undefined,
@@ -26,10 +26,8 @@ export default function AutoHant({
         : undefined,
     };
 
-    if (hantContent !== poem.content && !poem.is_hant) {
-      mut.mutate(json);
-    }
-  }, []);
+    mut.mutate(json);
+  }, [poem, mut]);
 
   return null;
 }
