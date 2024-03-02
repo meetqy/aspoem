@@ -313,7 +313,12 @@ export const poemRouter = createTRPCRouter({
 
       if (!res) return;
 
-      return transform(res, lang);
+      const is_hant = !!res.content_zh_Hant;
+
+      return {
+        ...transform(res, lang),
+        is_hant,
+      };
     }),
   /**
    * 创建诗词

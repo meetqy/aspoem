@@ -5,22 +5,28 @@ import { useEffect } from "react";
 import { convertToHant } from "~/app/create/poem/convert";
 import { api } from "~/trpc/react";
 
-export default function AutoHant({ poem }: { poem: Poem }) {
+export default function AutoHant({
+  poem,
+}: {
+  poem: Poem & { is_hant: boolean };
+}) {
   const mut = api.poem.updateHant.useMutation();
 
-  const hantContent = convertToHant(poem.content);
-
-  const json = {
-    id: poem.id,
-    content: hantContent,
-    title: convertToHant(poem.title),
-    introduce: poem.introduce ? convertToHant(poem.introduce) : undefined,
-    annotation: poem.annotation ? convertToHant(poem.annotation) : undefined,
-    translation: poem.translation ? convertToHant(poem.translation) : undefined,
-  };
-
   useEffect(() => {
-    if (hantContent !== poem.content) {
+    const hantContent = convertToHant(poem.content);
+
+    const json = {
+      id: poem.id,
+      content: hantContent,
+      title: convertToHant(poem.title),
+      introduce: poem.introduce ? convertToHant(poem.introduce) : undefined,
+      annotation: poem.annotation ? convertToHant(poem.annotation) : undefined,
+      translation: poem.translation
+        ? convertToHant(poem.translation)
+        : undefined,
+    };
+
+    if (hantContent !== poem.content && !poem.is_hant) {
       mut.mutate(json);
     }
   }, []);
