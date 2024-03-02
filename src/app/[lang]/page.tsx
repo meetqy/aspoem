@@ -22,6 +22,7 @@ export default async function IndexPage({
     page: pageIndex,
     pageSize: 24,
     sort: "updatedAt",
+    lang: params.lang,
   });
 
   if (!poems || poems.length === 0) {

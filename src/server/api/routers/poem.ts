@@ -4,6 +4,33 @@ import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 import { locales } from "~/dictionaries";
 import { mapKeys, pick } from "lodash-es";
 
+// 处理多语言的返回值
+function transform<T extends Poem>(res: T, lang: string) {
+  const objs = pick(
+    res,
+    ["title", "content", "introduce", "translation", "annotation"].map(
+      (item) => `${item}_${lang}`,
+    ),
+  );
+
+  Object.keys(res).map((key) => {
+    if (key.includes("zh_Hant") || key.includes("zh_Hans")) {
+      delete res[key as keyof T];
+    }
+  });
+
+  const obj = mapKeys(objs, (_, key) => key.replace(`_${lang}`, ""));
+
+  return {
+    ...res,
+    title: obj.title || res.title,
+    content: obj.content || res.content,
+    introduce: obj.introduce || res.introduce,
+    translation: obj.translation || res.translation,
+    annotation: obj.annotation || res.annotation,
+  };
+}
+
 export const poemRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),
 
@@ -126,11 +153,14 @@ export const poemRouter = createTRPCRouter({
           page: z.number().optional().default(1),
           pageSize: z.number().optional().default(28),
           sort: z.enum(["updatedAt", "improve", "createdAt"]).optional(),
+          lang: z.enum(locales).optional().default("zh-Hans"),
         })
         .optional(),
     )
     .query(async ({ input = {}, ctx }) => {
       const { page = 1, pageSize = 28 } = input;
+      const lang = (input.lang || "zh-Hans").replace("-", "_");
+
       let data: (Poem & { author: Author })[];
 
       if (input.sort === "improve") {
@@ -187,14 +217,19 @@ export const poemRouter = createTRPCRouter({
             },
             id: item.id,
             title: item.title,
+            title_zh_Hant: item.title_zh_Hant,
             titlePinYin: item.titlePinYin,
             content: item.content,
+            content_zh_Hant: item.content_zh_Hant,
             contentPinYin: item.contentPinYin,
             classify: item.classify,
             genre: item.genre,
             introduce: item.introduce,
+            introduce_zh_Hant: item.introduce_zh_Hant,
             translation: item.translation,
+            translation_zh_Hant: item.translation_zh_Hant,
             annotation: item.annotation,
+            annotation_zh_Hant: item.annotation_zh_Hant,
             updatedAt: item.updatedAt,
             createdAt: item.createdAt,
             authorId: item.authorId,
@@ -206,7 +241,7 @@ export const poemRouter = createTRPCRouter({
       const total = await ctx.db.poem.count();
 
       return {
-        data,
+        data: data.map((item) => transform(item, lang)),
         page,
         pageSize,
         hasNext: page * pageSize < total,
@@ -255,27 +290,18 @@ export const poemRouter = createTRPCRouter({
     .input(
       z.object({
         id: z.number(),
-        lang: z.enum(locales).optional(),
+        lang: z.enum(locales).optional().default("zh-Hans"),
       }),
     )
     .query(async ({ input, ctx }) => {
       const { id } = input;
 
-      const lang = input.lang?.replace("-", "_");
+      const lang = input.lang.replace("-", "_");
 
       void ctx.db.poem.update({
         where: { id },
         data: { views: { increment: 1 } },
       });
-
-      const localeSelect: Record<string, boolean> = {};
-
-      ["title", "content", "introduce", "translation", "annotation"].forEach(
-        (item) => {
-          const filed = lang ? item : `${item}_${lang}`;
-          localeSelect[filed] = true;
-        },
-      );
 
       const res = await ctx.db.poem.findUnique({
         where: { id },
@@ -287,23 +313,7 @@ export const poemRouter = createTRPCRouter({
 
       if (!res) return;
 
-      const objs = pick(
-        res,
-        ["title", "content", "introduce", "translation", "annotation"].map(
-          (item) => `${item}_${lang}`,
-        ),
-      );
-
-      Object.keys(res).map((key) => {
-        if (key.includes("zh_Hant") || key.includes("zh_Hans")) {
-          delete res[key as keyof typeof res];
-        }
-      });
-
-      return {
-        ...res,
-        ...mapKeys(objs, (_, key) => key.replace(`_${lang}`, "")),
-      };
+      return transform(res, lang);
     }),
   /**
    * 创建诗词

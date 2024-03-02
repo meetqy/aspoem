@@ -3,9 +3,9 @@
 import { api } from "~/trpc/react";
 
 export default function Client() {
-  const { data } = api.poem.findById.useQuery({
-    id: 568,
+  const { data } = api.poem.find.useQuery({
     lang: "zh-Hant",
+    sort: "improve",
   });
 
   console.log(data);
