@@ -2,15 +2,23 @@ import { cn } from "~/utils";
 import { Button } from "./ui/button";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { type Dictionary } from "~/dictionaries";
 
 interface Props {
   page: number;
   hasNext: boolean;
   prefixUrl: string;
   params?: string;
+  dict: Dictionary;
 }
 
-export const Pagination = ({ page, hasNext, prefixUrl, params }: Props) => {
+export const Pagination = ({
+  page,
+  hasNext,
+  prefixUrl,
+  params,
+  dict,
+}: Props) => {
   const prev = `${prefixUrl}/${page - 1}`;
   const next = `${prefixUrl}/${page + 1}`;
 
@@ -32,7 +40,7 @@ export const Pagination = ({ page, hasNext, prefixUrl, params }: Props) => {
           className="flex items-center"
         >
           <ChevronLeft className="mr-2 h-4 w-4" strokeWidth={1} />
-          上一页
+          {dict.pagination.prev}
         </Link>
       </Button>
 
@@ -46,7 +54,8 @@ export const Pagination = ({ page, hasNext, prefixUrl, params }: Props) => {
           href={params ? `${next}?${params}` : next}
           className="flex items-center"
         >
-          下一页 <ChevronRight className="ml-2 h-4 w-4" strokeWidth={1} />
+          {dict.pagination.next}
+          <ChevronRight className="ml-2 h-4 w-4" strokeWidth={1} />
         </Link>
       </Button>
     </footer>

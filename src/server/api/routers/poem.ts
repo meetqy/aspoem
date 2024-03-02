@@ -1,6 +1,35 @@
 import { type Author, type Poem } from "@prisma/client";
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
+import { locales } from "~/dictionaries";
+import { mapKeys, pick } from "lodash-es";
+
+// 处理多语言的返回值
+function transform<T extends Poem>(res: T, lang: string) {
+  const objs = pick(
+    res,
+    ["title", "content", "introduce", "translation", "annotation"].map(
+      (item) => `${item}_${lang}`,
+    ),
+  );
+
+  Object.keys(res).map((key) => {
+    if (key.includes("zh_Hant") || key.includes("zh_Hans")) {
+      delete res[key as keyof T];
+    }
+  });
+
+  const obj = mapKeys(objs, (_, key) => key.replace(`_${lang}`, ""));
+
+  return {
+    ...res,
+    title: obj.title || res.title,
+    content: obj.content || res.content,
+    introduce: obj.introduce || res.introduce,
+    translation: obj.translation || res.translation,
+    annotation: obj.annotation || res.annotation,
+  };
+}
 
 export const poemRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),
@@ -124,11 +153,14 @@ export const poemRouter = createTRPCRouter({
           page: z.number().optional().default(1),
           pageSize: z.number().optional().default(28),
           sort: z.enum(["updatedAt", "improve", "createdAt"]).optional(),
+          lang: z.enum(locales).optional().default("zh-Hans"),
         })
         .optional(),
     )
     .query(async ({ input = {}, ctx }) => {
       const { page = 1, pageSize = 28 } = input;
+      const lang = (input.lang || "zh-Hans").replace("-", "_");
+
       let data: (Poem & { author: Author })[];
 
       if (input.sort === "improve") {
@@ -185,14 +217,19 @@ export const poemRouter = createTRPCRouter({
             },
             id: item.id,
             title: item.title,
+            title_zh_Hant: item.title_zh_Hant,
             titlePinYin: item.titlePinYin,
             content: item.content,
+            content_zh_Hant: item.content_zh_Hant,
             contentPinYin: item.contentPinYin,
             classify: item.classify,
             genre: item.genre,
             introduce: item.introduce,
+            introduce_zh_Hant: item.introduce_zh_Hant,
             translation: item.translation,
+            translation_zh_Hant: item.translation_zh_Hant,
             annotation: item.annotation,
+            annotation_zh_Hant: item.annotation_zh_Hant,
             updatedAt: item.updatedAt,
             createdAt: item.createdAt,
             authorId: item.authorId,
@@ -204,7 +241,7 @@ export const poemRouter = createTRPCRouter({
       const total = await ctx.db.poem.count();
 
       return {
-        data,
+        data: data.map((item) => transform(item, lang)),
         page,
         pageSize,
         hasNext: page * pageSize < total,
@@ -249,23 +286,35 @@ export const poemRouter = createTRPCRouter({
   /**
    * 根据 id 查找诗词
    */
-  findById: publicProcedure.input(z.number()).query(async ({ input, ctx }) => {
-    void ctx.db.poem
-      .update({
-        where: { id: input },
-        data: { views: { increment: 1 } },
-      })
-      .then()
-      .catch();
+  findById: publicProcedure
+    .input(
+      z.object({
+        id: z.number(),
+        lang: z.enum(locales).optional().default("zh-Hans"),
+      }),
+    )
+    .query(async ({ input, ctx }) => {
+      const { id } = input;
 
-    return ctx.db.poem.findUnique({
-      where: { id: input },
-      include: {
-        tags: true,
-        author: true,
-      },
-    });
-  }),
+      const lang = input.lang.replace("-", "_");
+
+      void ctx.db.poem.update({
+        where: { id },
+        data: { views: { increment: 1 } },
+      });
+
+      const res = await ctx.db.poem.findUnique({
+        where: { id },
+        include: {
+          tags: true,
+          author: true,
+        },
+      });
+
+      if (!res) return;
+
+      return transform(res, lang);
+    }),
   /**
    * 创建诗词
    */
@@ -276,20 +325,42 @@ export const poemRouter = createTRPCRouter({
         token: z.string(),
         title: z.string(),
         titlePinYin: z.string().optional(),
+        title_zh_hant: z.string().optional(),
         content: z.string(),
         contentPinYin: z.string().optional(),
+        content_zh_hant: z.string().optional(),
         authorId: z.number(),
         tagIds: z.array(z.number()).optional(),
         disconnectTagIds: z.array(z.number()).optional(),
         classify: z.string().optional(),
         genre: z.string().optional(),
         introduce: z.string().optional(),
+        introduce_zh_hant: z.string().optional(),
         translation: z.string().optional(),
+        translation_zh_hant: z.string().optional(),
         annotation: z.string().optional(),
+        annotation_zh_hant: z.string().optional(),
       }),
     )
     .mutation(async ({ input, ctx }) => {
       if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
+
+      const data = {
+        title: input.title.toLocaleLowerCase(),
+        titlePinYin: input.titlePinYin,
+        title_zh_Hant: input.title_zh_hant,
+        contentPinYin: input.contentPinYin,
+        content: input.content,
+        content_zh_Hant: input.content_zh_hant,
+        classify: input.classify,
+        genre: input.genre,
+        introduce: input.introduce,
+        introduce_zh_Hant: input.introduce_zh_hant,
+        translation: input.translation,
+        translation_zh_Hant: input.translation_zh_hant,
+        annotation: input.annotation,
+        annotation_zh_Hant: input.annotation_zh_hant,
+      };
 
       if (input.id) {
         const res = await ctx.db.poem.findMany({
@@ -304,18 +375,10 @@ export const poemRouter = createTRPCRouter({
         return ctx.db.poem.update({
           where: { id: input.id },
           data: {
-            title: input.title.toLocaleLowerCase(),
-            titlePinYin: input.titlePinYin,
-            contentPinYin: input.contentPinYin,
-            content: input.content,
+            ...data,
             author: {
               connect: { id: input.authorId },
             },
-            classify: input.classify,
-            genre: input.genre,
-            introduce: input.introduce,
-            translation: input.translation,
-            annotation: input.annotation,
             tags: input.tagIds && {
               connect: input.tagIds.map((id) => ({ id })),
               disconnect: input.disconnectTagIds?.map((id) => ({ id })),
@@ -335,20 +398,51 @@ export const poemRouter = createTRPCRouter({
 
       return ctx.db.poem.create({
         data: {
-          title: input.title.toLocaleLowerCase(),
-          titlePinYin: input.titlePinYin,
-          contentPinYin: input.contentPinYin,
-          content: input.content,
+          ...data,
           authorId: input.authorId,
-          classify: input.classify,
-          genre: input.genre,
-          introduce: input.introduce,
-          translation: input.translation,
           tags: input.tagIds && {
             connect: input.tagIds.map((id) => ({ id })),
           },
-          annotation: input.annotation,
         },
+      });
+    }),
+
+  updateHant: publicProcedure
+    .input(
+      z.object({
+        title: z.string().optional(),
+        content: z.string().optional(),
+        introduce: z.string().optional(),
+        translation: z.string().optional(),
+        annotation: z.string().optional(),
+        id: z.number(),
+      }),
+    )
+    .query(async ({ ctx, input }) => {
+      const res = await ctx.db.poem.findUnique({
+        where: { id: input.id },
+      });
+
+      if (!res) return;
+
+      const json: Record<string, string> = {};
+
+      if (res.title_zh_Hant !== input.title && input.title)
+        json.title_zh_Hant = input.title;
+      if (res.content_zh_Hant !== input.content && input.content)
+        json.content_zh_Hant = input.content;
+      if (res.introduce_zh_Hant !== input.introduce && input.introduce)
+        json.introduce_zh_Hant = input.introduce;
+      if (res.translation_zh_Hant !== input.translation && input.translation)
+        json.translation_zh_Hant = input.translation;
+      if (res.annotation_zh_Hant !== input.annotation && input.annotation)
+        json.annotation_zh_Hant = input.annotation;
+
+      if (Object.keys(json).length === 0) return;
+
+      return ctx.db.poem.update({
+        where: { id: input.id },
+        data: json,
       });
     }),
 });

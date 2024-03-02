@@ -13,7 +13,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@prisma/client": "^5.9.1",
+    "@formatjs/intl-localematcher": "^0.5.4",
+    "@prisma/client": "^5.10.2",
     "@radix-ui/react-avatar": "^1.0.4",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
@@ -40,7 +41,9 @@
     "cmdk": "^0.2.0",
     "date-fns": "^3.0.6",
     "dom-to-image": "^2.6.0",
+    "lodash-es": "^4.17.21",
     "lucide-react": "^0.303.0",
+    "negotiator": "^0.6.3",
     "next": "^14.0.4",
     "next-themes": "^0.2.1",
     "pinyin-pro": "^3.19.2",
@@ -58,6 +61,8 @@
   "devDependencies": {
     "@types/dom-to-image": "^2.6.7",
     "@types/eslint": "^8.44.7",
+    "@types/lodash-es": "^4.17.12",
+    "@types/negotiator": "^0.6.3",
     "@types/node": "^18.17.0",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
@@ -70,7 +75,7 @@
     "postcss-nesting": "^12.0.2",
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
-    "prisma": "^5.9.1",
+    "prisma": "^5.10.2",
     "tailwindcss": "^3.3.5",
     "typescript": "^5.1.6"
   },

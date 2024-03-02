@@ -71,6 +71,7 @@ export default function Page() {
 
         setSave(JSON.parse(localStorage.getItem("save") || "[]") as string[]);
       });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
