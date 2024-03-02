@@ -224,6 +224,7 @@ export default async function Page({ params, searchParams }: Props) {
         <More
           authorId={poem.authorId}
           tagIds={poem.tags.map((item) => item.id)}
+          lang={params.lang}
         />
 
         <h2 id={"#" + dict.poem.comment} prose-h2="">

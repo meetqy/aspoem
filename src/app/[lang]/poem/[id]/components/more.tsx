@@ -2,14 +2,17 @@
 
 import { useRouter } from "next/navigation";
 import { useMemo } from "react";
+import { type Locale } from "~/dictionaries";
 import { api } from "~/trpc/react";
 
 export const More = ({
   authorId,
   tagIds,
+  lang,
 }: {
   authorId: number;
   tagIds: number[];
+  lang: Locale;
 }) => {
   const { data: poems } = api.poem.findByAuthorId.useQuery({
     authorId,
@@ -55,7 +58,7 @@ export const More = ({
           key={item.id}
           className="cursor-pointer rounded-md border border-border p-4 transition-all hover:bg-accent hover:text-accent-foreground hover:shadow-md"
           onClick={() => {
-            router.push(`/poem/${item.id}`);
+            router.push(`/${lang}/poem/${item.id}`);
           }}
         >
           <span className="line-clamp-1 text-lg">
