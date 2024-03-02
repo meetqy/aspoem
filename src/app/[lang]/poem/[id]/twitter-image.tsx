@@ -1,10 +1,18 @@
 import { notFound } from "next/navigation";
 import { ImageResponse } from "next/og";
+import { type Locale } from "~/dictionaries";
 import { api } from "~/trpc/server";
 
 // Image generation
-export default async function GET({ params }: { params: { id: number } }) {
-  const poem = await api.poem.findById.query(Number(params.id));
+export default async function GET({
+  params,
+}: {
+  params: { id: number; lang: Locale };
+}) {
+  const poem = await api.poem.findById.query({
+    id: Number(params.id),
+    lang: params.lang,
+  });
 
   if (!poem) notFound();
 

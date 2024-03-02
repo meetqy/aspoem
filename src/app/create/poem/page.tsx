@@ -32,9 +32,14 @@ export default function CreatePage() {
     pageSize: 9999,
   });
 
-  const { data: poem } = api.poem.findById.useQuery(Number(id), {
-    refetchOnWindowFocus: false,
-  });
+  const { data: poem } = api.poem.findById.useQuery(
+    {
+      id: Number(id),
+    },
+    {
+      refetchOnWindowFocus: false,
+    },
+  );
 
   const [keyword, setKeyword] = useState("");
 
@@ -49,7 +54,9 @@ export default function CreatePage() {
   const mutation = {
     deletePoem: api.poem.deleteById.useMutation({
       onSuccess: async () => {
-        await utils.poem.findById.invalidate(Number(id));
+        await utils.poem.findById.invalidate({
+          id: Number(id),
+        });
         alert("Success");
       },
       onError: (err) => alert(err.message),
@@ -87,7 +94,9 @@ export default function CreatePage() {
             authorId,
           });
 
-          await utils.poem.findById.invalidate(Number(id));
+          await utils.poem.findById.invalidate({
+            id: Number(id),
+          });
         }
 
         alert("Success");
