@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.4",
-    "@prisma/client": "^5.9.1",
+    "@prisma/client": "^5.10.2",
     "@radix-ui/react-avatar": "^1.0.4",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
@@ -75,7 +75,7 @@
     "postcss-nesting": "^12.0.2",
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
-    "prisma": "^5.9.1",
+    "prisma": "^5.10.2",
     "tailwindcss": "^3.3.5",
     "typescript": "^5.1.6"
   },
