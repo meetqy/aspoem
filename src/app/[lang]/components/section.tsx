@@ -24,7 +24,7 @@ export default function Section({
         )}
 
         <Link
-          href={`/author/${poem.authorId}`}
+          href={`/${lang}/author/${poem.authorId}`}
           className="relative z-10 hover:underline"
         >
           {poem.author.name}
