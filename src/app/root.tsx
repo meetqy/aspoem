@@ -20,12 +20,15 @@ const GoogleAnalytics = dynamic(() => import("./metrics/google-analytics"), {
 export default function Root({
   children,
   lang,
+  head,
 }: {
   children: React.ReactNode;
   lang: Locale;
+  head?: React.ReactNode;
 }) {
   return (
     <html lang={lang}>
+      {head}
       <body className="theme-zinc min-h-screen bg-background font-cursive font-normal text-foreground antialiased">
         <TRPCReactProvider>
           <ThemeProvider
