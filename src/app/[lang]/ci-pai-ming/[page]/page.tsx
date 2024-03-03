@@ -66,7 +66,7 @@ export default async function Page({
               <div className="flex justify-between">
                 <div className="w-full font-bold lg:w-3/5">
                   <Link
-                    href={`/tag/${item.id}/1`}
+                    href={`/${params.lang}/tag/${item.id}/1`}
                     className="underline-animation prose-h3 relative z-10 flex-1 text-primary"
                   >
                     {item.name}
@@ -82,7 +82,7 @@ export default async function Page({
               <p className="mt-2 text-muted-foreground">{item.introduce}</p>
 
               <Link
-                href={`/tag/${item.id}/1`}
+                href={`/${params.lang}/tag/${item.id}/1`}
                 title="查看详情"
                 className="pointer-events-auto absolute left-0 top-0 h-full w-full"
               />
