@@ -27,7 +27,8 @@ export default function AutoHant({
     };
 
     mut.mutate(json);
-  }, [poem, mut]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return null;
 }
