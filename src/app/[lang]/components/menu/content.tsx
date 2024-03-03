@@ -170,6 +170,7 @@ export function Content({
         <Select
           value={lang}
           onValueChange={(value) => {
+            localStorage.setItem("lang", value);
             router.replace(`/${value}/${pathname}`);
           }}
         >
