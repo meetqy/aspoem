@@ -5,8 +5,15 @@ import { api } from "~/trpc/react";
 import { cn } from "~/utils";
 import { Button } from "~/components/ui/button";
 import "./poems.css";
+import { type Locale } from "~/dictionaries";
 
-export default function Poems({ authorId }: { authorId: number }) {
+export default function Poems({
+  authorId,
+  lang,
+}: {
+  authorId: number;
+  lang: Locale;
+}) {
   const { data } = api.poem.findByAuthorId.useQuery({
     authorId,
     pageSize: 9999,
@@ -73,7 +80,7 @@ export default function Poems({ authorId }: { authorId: number }) {
                     className="line-clamp-1 block w-min max-w-sm truncate md:max-w-full"
                     asChild
                   >
-                    <Link href={`/poem/${poem.id}`} title={poem.title}>
+                    <Link href={`/${lang}/poem/${poem.id}`} title={poem.title}>
                       {poem.title}
                     </Link>
                   </Button>

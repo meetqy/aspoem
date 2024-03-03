@@ -116,7 +116,9 @@ export default async function Page({ params, searchParams }: Props) {
       </header>
 
       <main className="w-full md:mt-8">
-        {!searchParams?.tab && <Poems authorId={author.id} />}
+        {!searchParams?.tab && (
+          <Poems lang={params.lang} authorId={author.id} />
+        )}
       </main>
 
       <footer className="h-16"></footer>
