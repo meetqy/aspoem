@@ -20,7 +20,7 @@ export async function generateMetadata({
     alternates: {
       languages: {
         "zh-Hans": `/zh-Hans/author/list/${params.page}`,
-        "zh-Hant": `/zh-Hant/author/list/1/${params.page}`,
+        "zh-Hant": `/zh-Hant/author/list/${params.page}`,
       },
       canonical: `${params.lang}/author/list/${params.page}`,
     },
