@@ -104,12 +104,13 @@ export default async function Page({ params, searchParams }: Props) {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
       headline: title,
+      url: `${MyHost}/${params.lang}/poem/${poem.id}`,
       author: {
         "@type": "Person",
         name: `${poem.author.dynasty}·${poem.author.name}`,
-        url: `${MyHost}/author/${poem.author.id}`,
+        url: `${MyHost}/${params.lang}/author/${poem.author.id}`,
       },
-      image: [`${MyHost}/api/og/poem/${poem.id}?f=0`],
+      image: [`${MyHost}/${params.lang}/poem/${params.id}/twitter-image`],
     };
   };
 
