@@ -70,12 +70,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     keywords,
     alternates: {
       languages: {
-        "zh-Hans": `/poem/${params.id}`,
-        "zh-Hant": `/poem/${params.id}`,
+        "zh-Hans": `/zh-Hans/poem/${params.id}`,
+        "zh-Hant": `/zh-Hant/poem/${params.id}`,
       },
+      canonical: `/${params.lang}/poem/${params.id}`,
     },
     twitter: {
-      images: `/poem/${params.id}/twitter-image`,
+      images: `/${params.lang}/poem/${params.id}/twitter-image`,
+      site: `${MyHost}/${params.lang}/poem/${params.id}`,
+    },
+    openGraph: {
+      url: `${MyHost}/${params.lang}/poem/${params.id}`,
+      type: "article",
+      images: {
+        url: `/${params.lang}/poem/${params.id}/twitter-image`,
+        width: 1200,
+        height: 630,
+      },
     },
   };
 }
@@ -201,7 +212,7 @@ export default async function Page({ params, searchParams }: Props) {
         <p prose-p="" className="flex items-center space-x-4">
           <Button asChild variant={"outline"}>
             <Link
-              href={`https://twitter.com/intent/tweet?text=${title} https://aspoem.com/poem/${poem.id}`}
+              href={`https://twitter.com/intent/tweet?text=${title} ${MyHost}/${params.lang}/poem/${poem.id}`}
               target="_blank"
               className="dark:hidden"
             >
@@ -212,7 +223,7 @@ export default async function Page({ params, searchParams }: Props) {
 
           <Button asChild variant={"outline"} className="hidden dark:flex">
             <Link
-              href={`https://twitter.com/intent/tweet?text=${title} https://aspoem.com/poem/${poem.id}?dark`}
+              href={`https://twitter.com/intent/tweet?text=${title} ${MyHost}/${params.lang}/poem/${poem.id}?dark`}
               target="_blank"
             >
               <TwitterIcon className="mr-2 h-6 w-6 text-blue-500" /> 分享到

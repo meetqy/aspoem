@@ -4,18 +4,26 @@ import { type Locale, getDictionary } from "~/dictionaries";
 import { Pagination } from "~/components/pagination";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
+import { type Metadata } from "next";
 
 export async function generateMetadata({
   params,
 }: {
-  params: { page: string };
-}) {
+  params: { page: string; lang: Locale };
+}): Promise<Metadata> {
   const pageIndex = Number(params.page);
 
   if (pageIndex < 1 || isNaN(pageIndex)) notFound();
 
   return {
     title: `诗人列表 第${pageIndex}页`,
+    alternates: {
+      languages: {
+        "zh-Hans": `/zh-Hans/author/list/${params.page}`,
+        "zh-Hant": `/zh-Hant/author/list/1/${params.page}`,
+      },
+      canonical: `${params.lang}/author/list/${params.page}`,
+    },
   };
 }
 

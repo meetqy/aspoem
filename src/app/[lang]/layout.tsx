@@ -5,39 +5,57 @@ import dynamic from "next/dynamic";
 import { type Locale, getDictionary } from "~/dictionaries";
 import { type Metadata } from "next/types";
 import Root from "../root";
+import { MyHost } from "~/utils";
 
 const Search = dynamic(() => import("./components/search"), { ssr: false });
 const ModeToggle = dynamic(() => import("~/components/mode-toggle"), {
   ssr: false,
 });
 
-export const metadata: Metadata = {
-  title: {
-    template: "%s | 现代化中国诗词学习网站",
-    default: "AsPoem | 现代化中国诗词学习网站",
-  },
-  description: `aspoem.com 是现代化的中国诗词学习网站，提供全站搜索、拼音标注、注释和白话文翻译等功能。无论您对唐诗宋词感兴趣还是想深入学习，都是您的理想选择，从这里开始您的诗歌之旅！`,
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
-  alternates: {
-    languages: { "zh-Hans": "/zh-Hans", "zh-Hant": "/zh-Hant" },
-  },
-  keywords: [
-    "中国诗词学习",
-    "现代化诗词网站",
-    "全站搜索诗词",
-    "拼音标注诗词",
-    "诗词注解",
-    "白话文翻译诗词",
-    "学习唐诗宋词",
-    "诗词学习网站推荐",
-    "pinyin",
-  ],
-  metadataBase: new URL("https://aspoem.com"),
-  twitter: {
-    creator: "@meetqy",
-    images: "/twitter-image",
-  },
-};
+export function generateMetadata({
+  params,
+}: {
+  params: { lang: Locale };
+}): Metadata {
+  return {
+    title: {
+      template: "%s | 现代化中国诗词学习网站",
+      default: "AsPoem | 现代化中国诗词学习网站",
+    },
+    description: `aspoem.com 是现代化的中国诗词学习网站，提供全站搜索、拼音标注、注释和白话文翻译等功能。无论您对唐诗宋词感兴趣还是想深入学习，都是您的理想选择，从这里开始您的诗歌之旅！`,
+    icons: [{ rel: "icon", url: "/favicon.ico" }],
+    alternates: {
+      languages: { "zh-Hans": "/zh-Hans", "zh-Hant": "/zh-Hant" },
+      canonical: `/${params.lang}`,
+    },
+    keywords: [
+      "中国诗词学习",
+      "现代化诗词网站",
+      "全站搜索诗词",
+      "拼音标注诗词",
+      "诗词注解",
+      "白话文翻译诗词",
+      "学习唐诗宋词",
+      "诗词学习网站推荐",
+      "pinyin",
+    ],
+    metadataBase: new URL(MyHost),
+    twitter: {
+      site: `${MyHost}/${params.lang}`,
+      creator: "@meetqy",
+      images: `/${params.lang}/twitter-image`,
+    },
+    openGraph: {
+      url: `${MyHost}/${params.lang}`,
+      type: "article",
+      images: {
+        url: `/${params.lang}/twitter-image`,
+        width: 1200,
+        height: 630,
+      },
+    },
+  };
+}
 
 export default async function Layout({
   children,
