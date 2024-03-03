@@ -8,15 +8,16 @@ import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
 import Poems from "./components/poems";
 import { Button } from "~/components/ui/button";
+import { getDictionary, type Locale } from "~/dictionaries";
 
 type Props = {
-  params: { id: string };
+  params: { id: string; lang: Locale };
   searchParams?: { tab: "relations" };
 };
 
 export const revalidate = 3600;
 
-const getItem = cache(async (id: string) => {
+const getItem = cache(async ({ id }: Props["params"]) => {
   const author = await api.author.findById.query(Number(id));
 
   if (!author) {
@@ -27,7 +28,7 @@ const getItem = cache(async (id: string) => {
 });
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const author = await getItem(params.id);
+  const author = await getItem(params);
 
   const keywords = [author.name];
 
@@ -50,14 +51,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function Page({ params, searchParams }: Props) {
-  const author = await getItem(params.id);
+  const dict = getDictionary(params.lang);
+
+  const author = await getItem(params);
 
   return (
     <>
       <HeaderMain>
         <div className="flex h-16 items-center px-4">
           <nav className="flex items-center space-x-1 text-muted-foreground">
-            <Link href={`/author`}>作者</Link>
+            <Link href={`/${params.lang}/author`}>
+              {(await dict).author_detail.title}
+            </Link>
             <ChevronRight className="h-4 w-4" strokeWidth={1} />
             <span className="line-clamp-1 text-foreground">{author.name}</span>
           </nav>

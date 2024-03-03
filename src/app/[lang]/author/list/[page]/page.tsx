@@ -46,7 +46,7 @@ export default async function AuthorPage({
     <>
       <HeaderMain>
         <div className="flex h-16 flex-1 items-center justify-between pl-4">
-          <span className="text-2xl font-bold">诗人</span>
+          <span className="text-2xl font-bold">{dict.author.title}</span>
         </div>
       </HeaderMain>
       <div className="m-auto grid grid-cols-1 gap-4 p-4 lg:grid-cols-2">
@@ -56,7 +56,7 @@ export default async function AuthorPage({
             key={item.id}
           >
             <Link
-              href={`/author/${item.id}`}
+              href={`/${params.lang}/author/${item.id}`}
               className="absolute left-0 top-0 h-full w-full"
             ></Link>
             <div className="prose-h3 flex w-full items-center justify-between font-bold">

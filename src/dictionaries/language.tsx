@@ -11,6 +11,8 @@ export const Language = () => {
   useEffect(() => {
     const lang = localStorage.getItem("lang");
 
+    if (/^\/(demo|create)/) return;
+
     if (params.lang === lang || !lang) {
       localStorage.setItem("lang", params.lang as string);
 
