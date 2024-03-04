@@ -2,13 +2,16 @@
 
 import { useEffect } from "react";
 import "./index.css";
+import { usePathname } from "next/navigation";
 
 export default function Twikoo() {
+  const pathname = usePathname().replace(/(zh-Hans|zh-Hant)\/?/, "");
+
   useEffect(() => {
     // 通过 CDN 引入 twikoo js 文件
     const cdnScript = document.createElement("script");
     cdnScript.src =
-      "https://cdn.staticfile.org/twikoo/1.6.29/twikoo.all.min.js";
+      "https://cdn.staticfile.org/twikoo/1.6.31/twikoo.all.min.js";
     cdnScript.async = true;
 
     const loadSecondScript = () => {
@@ -19,6 +22,7 @@ export default function Twikoo() {
               envId: "https://twikoo.aspoem.com/.netlify/functions/twikoo",
               el: '#twikoo-comment',
               lang: "zh-CN",
+              path: "${pathname}",
             });
           `;
       initScript.id = "twikoo-init-id"; // 添加唯一的 ID
