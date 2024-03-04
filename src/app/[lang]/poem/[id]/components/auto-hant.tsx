@@ -2,7 +2,7 @@
 
 import { type Poem } from "@prisma/client";
 import { useEffect } from "react";
-import { convertToHant } from "~/app/create/poem/convert";
+import { convertToHant } from "~/utils/convert";
 import { api } from "~/trpc/react";
 
 export default function AutoHant({

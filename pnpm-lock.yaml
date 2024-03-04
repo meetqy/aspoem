@@ -104,6 +104,9 @@ dependencies:
   next-themes:
     specifier: ^0.2.1
     version: 0.2.1(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)
+  opencc-js:
+    specifier: ^1.0.5
+    version: 1.0.5
   pinyin-pro:
     specifier: ^3.19.2
     version: 3.19.2
@@ -154,6 +157,9 @@ devDependencies:
   '@types/node':
     specifier: ^18.17.0
     version: 18.19.4
+  '@types/opencc-js':
+    specifier: ^1.0.3
+    version: 1.0.3
   '@types/react':
     specifier: ^18.2.37
     version: 18.2.46
@@ -1723,6 +1729,10 @@ packages:
     resolution: {integrity: sha512-xNzlUhzoHotIsnFoXmJB+yWmBvFZgKCI9TtPIEdYIMM1KWfwuY8zh7wvc1u1OAXlC7dlf6mZVx/s+Y5KfFz19A==}
     dependencies:
       undici-types: 5.26.5
+    dev: true
+
+  /@types/opencc-js@1.0.3:
+    resolution: {integrity: sha512-TENp7YkI2hNlc4dplhivSHj0hU4DORCK56VY7rniaSfA5f87uD3uv+kPIRuH9h64TGv976iVFi4gEHZZtS2y8Q==}
     dev: true
 
   /@types/prop-types@15.7.11:
@@ -3536,6 +3546,10 @@ packages:
     dependencies:
       wrappy: 1.0.2
     dev: true
+
+  /opencc-js@1.0.5:
+    resolution: {integrity: sha512-LD+1SoNnZdlRwtYTjnQdFrSVCAaYpuDqL5CkmOaHOkKoKh7mFxUicLTRVNLU5C+Jmi1vXQ3QL4jWdgSaa4sKjg==}
+    dev: false
 
   /optionator@0.9.3:
     resolution: {integrity: sha512-JjCoypp+jKn1ttEFExxhetCKeJt9zhAgAve5FXHixTvFDW/5aEktX9bufBKLRRMdU7bNtpLfcGu94B3cdEJgjg==}

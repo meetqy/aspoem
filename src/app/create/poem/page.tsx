@@ -15,7 +15,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "~/components/ui/select";
-import { convertToHans, convertToHant } from "./convert";
+import { convertToHans, convertToHant } from "~/utils/convert";
 
 export default function CreatePage() {
   const utils = api.useUtils();
