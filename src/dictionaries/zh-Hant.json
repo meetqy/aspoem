@@ -1,7 +1,7 @@
 {
   "menu": {
     "poem": "詩詞",
-    "auhtor": "墨客",
+    "auhtor": "詩人",
     "ci_pai_ming": "詞牌名",
     "tag": "標籤",
     "contact": "聯繫方式",
@@ -33,13 +33,13 @@
     "tab_improve": "待完善"
   },
   "author": {
-    "title": "墨客"
+    "title": "詩人"
   },
   "author_detail": {
-    "title": "墨客"
+    "title": "詩人"
   },
   "search": {
-    "placeholder": "查找墨客、詩詞、名句",
+    "placeholder": "查找詩人、詩詞、名句",
     "empty": "沒有找到相關詩詞"
   },
   "pagination": {
