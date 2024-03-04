@@ -1,1 +1,1 @@
-export type Sort = "updatedAt" | "improve";
+export type Sort = "updatedAt" | "improve" | "createdAt";

@@ -29,7 +29,7 @@ export async function generateMetadata({
 
   let text = "";
   let description = "";
-  if (searchParams?.sort === "updatedAt" || !searchParams?.sort) {
+  if (searchParams?.sort === "createdAt" || !searchParams?.sort) {
     text = getLangText({ "zh-Hans": "最新", "zh-Hant": "最新" }, params.lang);
     description = getLangText(
       {

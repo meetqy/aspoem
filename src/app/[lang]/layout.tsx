@@ -2,7 +2,12 @@ import { ScrollArea } from "~/components/ui/scroll-area";
 import { DesktopMenu, MobileMenu } from "./components/menu";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { type Locale, getDictionary } from "~/dictionaries";
+import {
+  type Locale,
+  getDictionary,
+  getMetaDataAlternates,
+  getLangText,
+} from "~/dictionaries";
 import { type Metadata } from "next/types";
 import Root from "../root";
 import { MyHost } from "~/utils";
@@ -12,33 +17,22 @@ const ModeToggle = dynamic(() => import("~/components/mode-toggle"), {
   ssr: false,
 });
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
   params: { lang: Locale };
-}): Metadata {
+}): Promise<Metadata> {
+  const dict = await getDictionary(params.lang);
+
   return {
     title: {
-      template: "%s | 现代化中国诗词学习网站",
-      default: "AsPoem | 现代化中国诗词学习网站",
+      template: `%s | ${dict.title}`,
+      default: `AsPoem | ${dict.title}`,
     },
-    description: `aspoem.com 是现代化的中国诗词学习网站，提供全站搜索、拼音标注、注释和白话文翻译等功能。无论您对唐诗宋词感兴趣还是想深入学习，都是您的理想选择，从这里开始您的诗歌之旅！`,
+    description: dict.description,
     icons: [{ rel: "icon", url: "/favicon.ico" }],
-    alternates: {
-      languages: { "zh-Hans": "/zh-Hans", "zh-Hant": "/zh-Hant" },
-      canonical: `/${params.lang}`,
-    },
-    keywords: [
-      "中国诗词学习",
-      "现代化诗词网站",
-      "全站搜索诗词",
-      "拼音标注诗词",
-      "诗词注解",
-      "白话文翻译诗词",
-      "学习唐诗宋词",
-      "诗词学习网站推荐",
-      "pinyin",
-    ],
+    alternates: getMetaDataAlternates("/", params.lang),
+    keywords: dict.keywords,
     metadataBase: new URL(MyHost),
     twitter: {
       site: `${MyHost}/${params.lang}`,
