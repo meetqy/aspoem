@@ -174,7 +174,7 @@ export function Content({
             router.replace(`/${value}/${pathname}`);
           }}
         >
-          <SelectTrigger className="w-full">
+          <SelectTrigger className="w-full" aria-label={dict.menu.language}>
             <SelectValue placeholder={dict.menu.language} />
           </SelectTrigger>
           <SelectContent>

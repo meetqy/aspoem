@@ -6,7 +6,6 @@ import {
   type Locale,
   getDictionary,
   getMetaDataAlternates,
-  getLangText,
 } from "~/dictionaries";
 import { type Metadata } from "next/types";
 import Root from "../root";
