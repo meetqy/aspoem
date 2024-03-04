@@ -3,8 +3,9 @@
 import { useEffect } from "react";
 import "./index.css";
 import { usePathname } from "next/navigation";
+import { type Locale } from "~/dictionaries";
 
-export default function Twikoo() {
+export default function Twikoo({ lang }: { lang: Locale }) {
   const pathname = usePathname().replace(/(zh-Hans|zh-Hant)\/?/, "");
 
   useEffect(() => {
@@ -21,7 +22,7 @@ export default function Twikoo() {
             twikoo.init({
               envId: "https://twikoo.aspoem.com/.netlify/functions/twikoo",
               el: '#twikoo-comment',
-              lang: "zh-CN",
+              lang: "${lang === "zh-Hans" ? "zh-cn" : "zh-tw"}",
               path: "${pathname}",
             });
           `;

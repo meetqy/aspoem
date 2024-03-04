@@ -263,7 +263,7 @@ export default async function Page({ params, searchParams }: Props) {
         </p>
 
         <div className="mt-12">
-          <Twikoo />
+          <Twikoo lang={params.lang} />
         </div>
       </article>
 
