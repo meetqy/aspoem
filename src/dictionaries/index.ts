@@ -16,3 +16,16 @@ export const getDictionary = async (locale: Locale) => {
 };
 
 export type Dictionary = Awaited<ReturnType<typeof getDictionary>>;
+
+export const getLangText = (obj: { [key in Locale]: string }, lang: Locale) =>
+  obj[lang];
+
+export const getMetaDataAlternates = (suffix: string, lang: Locale) => {
+  return {
+    languages: {
+      "zh-Hans": `/zh-Hans${suffix}`,
+      "zh-Hant": `/zh-Hant${suffix}`,
+    },
+    canonical: `/${lang}${suffix}`,
+  };
+};

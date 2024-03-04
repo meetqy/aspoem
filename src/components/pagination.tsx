@@ -19,7 +19,7 @@ export const Pagination = ({
   params,
   dict,
 }: Props) => {
-  const prev = `${prefixUrl}/${page - 1}`;
+  const prev = `${prefixUrl}/${page - 1 < 1 ? 1 : page - 1}`;
   const next = `${prefixUrl}/${page + 1}`;
 
   return (
