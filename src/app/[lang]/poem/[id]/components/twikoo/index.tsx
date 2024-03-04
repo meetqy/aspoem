@@ -45,7 +45,7 @@ export default function Twikoo() {
         document.body.removeChild(secondScript);
       }
     };
-  }, []);
+  }, [pathname]);
 
   return <div id="twikoo-comment"></div>;
 }
