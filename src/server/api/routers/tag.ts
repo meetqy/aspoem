@@ -2,6 +2,65 @@ import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 import { LangZod, transformTag } from "../utils";
 import { pick } from "lodash-es";
+import { type PrismaClient } from "@prisma/client";
+
+interface FindMany {
+  input: {
+    select: ("type" | "name" | "introduce" | "_count")[];
+    page: number;
+    pageSize: number;
+    lang: "zh-Hans" | "zh-Hant";
+    type?: string | null | undefined;
+  };
+  ctx: {
+    db: PrismaClient;
+  };
+}
+
+const findMany = async ({ ctx, input }: FindMany) => {
+  const { select, page, pageSize, lang } = input;
+
+  const [total, data] = await ctx.db.$transaction([
+    ctx.db.tag.count({
+      where: {
+        type: {
+          equals: input.type,
+        },
+      },
+    }),
+    ctx.db.tag.findMany({
+      where: {
+        type: {
+          equals: input.type,
+        },
+      },
+      skip: (page - 1) * pageSize,
+      take: pageSize,
+      include: {
+        _count: {
+          select: {
+            poems: true,
+          },
+        },
+      },
+      orderBy: {
+        poems: {
+          _count: "desc",
+        },
+      },
+    }),
+  ]);
+
+  console.log(data);
+
+  return {
+    data: data.map((item) => pick(transformTag(item, lang), [...select, "id"])),
+    page,
+    pageSize,
+    hasNext: page * pageSize < total,
+    total,
+  };
+};
 
 export const tagRouter = createTRPCRouter({
   findMany: publicProcedure
@@ -16,49 +75,27 @@ export const tagRouter = createTRPCRouter({
         lang: LangZod,
       }),
     )
+    .query(findMany),
+
+  findCiPaiMing: publicProcedure
+    .input(
+      z.object({
+        select: z
+          .array(z.enum(["name", "type", "introduce", "_count"]))
+          .default(["name", "type", "introduce"]),
+        page: z.number().default(1),
+        pageSize: z.number().default(28),
+        lang: LangZod,
+      }),
+    )
     .query(async ({ ctx, input }) => {
-      const { select, page, pageSize, lang } = input;
-
-      const [total, data] = await ctx.db.$transaction([
-        ctx.db.tag.count({
-          where: {
-            type: {
-              equals: input.type,
-            },
-          },
-        }),
-        ctx.db.tag.findMany({
-          where: {
-            type: {
-              equals: input.type,
-            },
-          },
-          skip: (page - 1) * pageSize,
-          take: pageSize,
-          include: {
-            _count: {
-              select: {
-                poems: true,
-              },
-            },
-          },
-          orderBy: {
-            poems: {
-              _count: "desc",
-            },
-          },
-        }),
-      ]);
-
-      return {
-        data: data.map((item) =>
-          pick(transformTag(item, lang), [...select, "id"]),
-        ),
-        page,
-        pageSize,
-        hasNext: page * pageSize < total,
-        total,
-      };
+      return await findMany({
+        ctx,
+        input: {
+          ...input,
+          type: "词牌名",
+        },
+      });
     }),
 
   count: publicProcedure.query(async ({ ctx }) => {
