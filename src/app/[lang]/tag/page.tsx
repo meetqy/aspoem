@@ -1,30 +1,67 @@
 import Link from "next/link";
 import { type Metadata } from "next/types";
+import { cache } from "react";
 import { Button } from "~/components/ui/button";
 import { HeaderMain } from "~/components/ui/header";
+import {
+  getDictionary,
+  getLangText,
+  getMetaDataAlternates,
+  type Locale,
+} from "~/dictionaries";
 import { api } from "~/trpc/server";
 
-export async function generateMetadata(): Promise<Metadata> {
+interface Props {
+  params: { lang: Locale };
+}
+
+const getItem = cache(async ({ params }: Props) => {
+  return await api.tag.findMany.query({
+    select: ["_count", "name", "type"],
+    pageSize: 9999,
+    lang: params.lang,
+  });
+});
+
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const { params } = props;
+  const { data: tags } = await getItem(props);
+  const dict = await getDictionary(params.lang);
+
+  const keywords = tags.slice(0, 15).map((item) => item.name);
+
   return {
-    title: `标签列表`,
-    alternates: {
-      languages: { "zh-Hans": "/zh-Hans/tag", "zh-Hant": "/zh-Hant/tag" },
-    },
+    title: getLangText(
+      {
+        "zh-Hans": "标签",
+        "zh-Hant": "標籤",
+      },
+      params.lang,
+    ),
+    description: getLangText(
+      {
+        "zh-Hans": `诗词分类常用标签包括：${keywords.join("，")}等`,
+        "zh-Hant": `詩詞分類常用標籤包括：${keywords.join("，")}等`,
+      },
+      params.lang,
+    ),
+    alternates: getMetaDataAlternates("/tag", params.lang),
+    keywords: keywords.concat(dict.point_keywords as string[]),
   };
 }
 
-export default async function Page() {
-  const { data: tags } = await api.tag.findMany.query({
-    select: ["count", "name", "type"],
-    pageSize: 9999,
-  });
+export default async function Page(props: Props) {
+  const { data: tags } = await getItem(props);
+  const dict = await getDictionary(props.params.lang);
 
   const types: {
     [key in string]: typeof tags;
   } = {};
 
   tags.map((item) => {
-    const type = item.type || "其他";
+    const type =
+      item.type ||
+      getLangText({ "zh-Hans": "其他", "zh-Hant": "其他" }, props.params.lang);
 
     const temp = types[type] || [];
     temp.push(item);
@@ -64,7 +101,7 @@ export default async function Page() {
     <>
       <HeaderMain>
         <div className="px-4">
-          <span className="text-2xl font-bold">标签</span>
+          <span className="text-2xl font-bold">{dict.menu.tag}</span>
         </div>
       </HeaderMain>
 

@@ -31,7 +31,7 @@ export default async function Page({
 
   const { data, hasNext, page } = await api.tag.findMany.query({
     type: "词牌名",
-    select: ["name", "introduce", "count"],
+    select: ["name", "introduce", "_count"],
     page: pageIndex,
     pageSize: 12,
   });

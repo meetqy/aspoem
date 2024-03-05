@@ -44,6 +44,12 @@ const getItem = cache(async ({ params }: Props) => {
 
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const { tag, page } = await getItem(props);
+  const dict = await getDictionary(props.params.lang);
+
+  const keywords = dict.point_keywords as string[];
+
+  if (tag?.name) keywords.push(tag.name);
+  if (tag?.type) keywords.push(tag.type);
 
   return {
     title: getLangText(
@@ -58,6 +64,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
       `/tag/${tag?.id}/${page}`,
       props.params.lang,
     ),
+    keywords,
   };
 }
 

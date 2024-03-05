@@ -1,27 +1,23 @@
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
-import { LangZod } from "../utils";
+import { LangZod, transformTag } from "../utils";
+import { pick } from "lodash-es";
 
 export const tagRouter = createTRPCRouter({
   findMany: publicProcedure
     .input(
-      z
-        .object({
-          select: z
-            .array(z.enum(["name", "type", "introduce", "count"]))
-            .optional(),
-          type: z.string().or(z.null()).optional(),
-          page: z.number().optional().default(1),
-          pageSize: z.number().optional().default(28),
-          lang: LangZod,
-        })
-        .optional(),
+      z.object({
+        select: z
+          .array(z.enum(["name", "type", "introduce", "_count"]))
+          .default(["name", "type", "introduce"]),
+        type: z.string().or(z.null()).optional(),
+        page: z.number().default(1),
+        pageSize: z.number().default(28),
+        lang: LangZod,
+      }),
     )
-    .query(async ({ ctx, input = {} }) => {
-      const { select = ["name", "type", "introduce"] } = input;
-
-      const page = input.page ?? 1;
-      const pageSize = input.pageSize ?? 28;
+    .query(async ({ ctx, input }) => {
+      const { select, page, pageSize, lang } = input;
 
       const [total, data] = await ctx.db.$transaction([
         ctx.db.tag.count({
@@ -39,18 +35,12 @@ export const tagRouter = createTRPCRouter({
           },
           skip: (page - 1) * pageSize,
           take: pageSize,
-          select: {
-            id: true,
-            name: select.includes("name"),
-            type: select.includes("type"),
-            introduce: select.includes("introduce"),
-            _count: select.includes("count")
-              ? {
-                  select: {
-                    poems: true,
-                  },
-                }
-              : undefined,
+          include: {
+            _count: {
+              select: {
+                poems: true,
+              },
+            },
           },
           orderBy: {
             poems: {
@@ -61,7 +51,9 @@ export const tagRouter = createTRPCRouter({
       ]);
 
       return {
-        data,
+        data: data.map((item) =>
+          pick(transformTag(item, lang), [...select, "id"]),
+        ),
         page,
         pageSize,
         hasNext: page * pageSize < total,

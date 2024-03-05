@@ -45,7 +45,7 @@ function transform<T extends Record<string, unknown>>(
 export function transformTag<T extends Tag>(res: T, lang: string) {
   lang = lang.replace("-", "_");
 
-  return transform(res, ["name", "introduce", "type"], lang) as Tag;
+  return transform(res, ["name", "introduce", "type"], lang);
 }
 
 /**
