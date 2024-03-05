@@ -46,7 +46,8 @@ export default function Twikoo({ lang }: { lang: Locale }) {
         document.body.removeChild(secondScript);
       }
     };
-  }, [pathname]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return <div id="twikoo-comment"></div>;
 }

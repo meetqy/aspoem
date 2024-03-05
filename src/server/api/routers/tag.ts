@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
+import { LangZod } from "../utils";
 
 export const tagRouter = createTRPCRouter({
   findMany: publicProcedure
@@ -12,6 +13,7 @@ export const tagRouter = createTRPCRouter({
           type: z.string().or(z.null()).optional(),
           page: z.number().optional().default(1),
           pageSize: z.number().optional().default(28),
+          lang: LangZod,
         })
         .optional(),
     )
@@ -94,30 +96,33 @@ export const tagRouter = createTRPCRouter({
         id: z.number().optional(),
         token: z.string(),
         name: z.string(),
+        name_zh_Hant: z.string().optional(),
         type: z.string().optional(),
+        type_zh_Hant: z.string().optional(),
         introduce: z.string().optional(),
+        introduce_zh_Hant: z.string().optional(),
       }),
     )
     .mutation(({ input, ctx }) => {
       if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
+      const { id } = input;
 
-      if (input.id) {
+      const objJson = {
+        ...input,
+        token: undefined,
+      };
+
+      if (id) {
+        delete objJson.id;
+
         return ctx.db.tag.update({
-          where: { id: input.id },
-          data: {
-            name: input.name,
-            type: input.type ?? null,
-            introduce: input.introduce,
-          },
+          where: { id },
+          data: objJson,
         });
       }
 
       return ctx.db.tag.create({
-        data: {
-          name: input.name,
-          type: input.type ?? null,
-          introduce: input.introduce,
-        },
+        data: objJson,
       });
     }),
 });

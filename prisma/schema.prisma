@@ -60,12 +60,15 @@ model Author {
 }
 
 model Tag {
-    id        Int       @id @default(autoincrement())
-    name      String    @unique
-    poems     Poem[]
+    id                Int       @id @default(autoincrement())
+    name              String    @unique
+    name_zh_Hant      String?
+    poems             Poem[]
     // 1: 词牌名 2: 曲牌名
-    type      String?
-    introduce String?
-    createdAt DateTime? @default(now())
-    updatedAt DateTime? @updatedAt
+    type              String?
+    type_zh_Hant      String?
+    introduce         String?
+    introduce_zh_Hant String?
+    createdAt         DateTime? @default(now())
+    updatedAt         DateTime? @updatedAt
 }

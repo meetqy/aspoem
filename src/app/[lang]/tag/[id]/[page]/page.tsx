@@ -3,7 +3,13 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cache } from "react";
 import Section from "~/app/[lang]/components/section";
-import { type Locale, getDictionary } from "~/dictionaries";
+import {
+  type Locale,
+  getDictionary,
+  getLangUrl,
+  getMetaDataAlternates,
+  getLangText,
+} from "~/dictionaries";
 import { Pagination } from "~/components/pagination";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
@@ -25,7 +31,10 @@ const getItem = cache(async ({ params }: Props) => {
     id,
     page,
     pageSize: 12,
+    lang: params.lang,
   });
+
+  if (!result) notFound();
 
   return {
     ...result,
@@ -37,40 +46,44 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   const { tag, page } = await getItem(props);
 
   return {
-    title: `关于${tag?.type || "其他"}“${tag?.name}”的诗词 第${page}页`,
-    alternates: {
-      languages: {
-        "zh-Hans": `/zh-Hans/tag/${tag?.id}/${page}`,
-        "zh-Hant": `/zh-Hant/tag/${tag?.id}/${page}`,
+    title: getLangText(
+      {
+        "zh-Hans": `关于${tag?.type || "其他"}“${tag?.name}”的诗词 第${page}页`,
+        "zh-Hant": `關於${tag?.type || "其他"}“${tag?.name}”的詩詞 第${page}頁`,
       },
-    },
+      props.params.lang,
+    ),
+    description: tag?.introduce,
+    alternates: getMetaDataAlternates(
+      `/tag/${tag?.id}/${page}`,
+      props.params.lang,
+    ),
   };
 }
 
-export default async function Page(props: Props) {
+export default async function TagDetailPage(props: Props) {
   const { data: poems, tag, hasNext, page, id } = await getItem(props);
   const { lang } = props.params;
 
   const dict = await getDictionary(lang);
-
-  if (!tag) notFound();
-
-  if (poems.length < 1) {
-    notFound();
-  }
 
   return (
     <>
       <HeaderMain>
         <div className="flex h-16 items-center px-4">
           <nav className="flex items-center space-x-1 text-muted-foreground">
-            <Link href="/tag" className="flex-shrink-0">
-              标签
+            <Link href={getLangUrl("/tag", lang)} className="flex-shrink-0">
+              {dict.menu.tag}
             </Link>
             <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
 
             <Link
-              href={tag.type === "词牌名" ? `/ci-pai-ming` : `/tag#${tag.type}`}
+              href={getLangUrl(
+                /词牌名|詞牌名/.test(tag?.type ?? "")
+                  ? `/ci-pai-ming`
+                  : `/tag#${tag.type}`,
+                lang,
+              )}
               className="flex-shrink-0"
             >
               {tag.type || "其他"}
@@ -79,7 +92,7 @@ export default async function Page(props: Props) {
             <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
             <Link
               className="line-clamp-1 text-foreground"
-              href={`tag/${tag.id}/1`}
+              href={getLangUrl(`tag/${tag.id}/1`, lang)}
             >
               {tag.name}
             </Link>

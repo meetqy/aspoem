@@ -27,6 +27,7 @@ export const More = ({
     {
       id: tagIds_0!,
       pageSize: 4,
+      lang,
     },
     {
       enabled: !!tagIds_0,

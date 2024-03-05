@@ -6,6 +6,7 @@ import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
 import { Textarea } from "~/components/ui/textarea";
 import { api } from "~/trpc/react";
+import { convertToHant } from "~/utils/convert";
 
 export default function Tag({
   searchParams,
@@ -132,8 +133,11 @@ export default function Tag({
               id,
               token,
               name,
-              type: type === " " ? undefined : (type as "1" | "2"),
+              name_zh_Hant: convertToHant(name),
+              type,
+              type_zh_Hant: convertToHant(type),
               introduce,
+              introduce_zh_Hant: convertToHant(introduce),
             });
           }}
         >

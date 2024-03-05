@@ -1,35 +1,7 @@
 import { type Author, type Poem } from "@prisma/client";
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
-import { locales } from "~/dictionaries";
-import { mapKeys, pick } from "lodash-es";
-
-// 处理多语言的返回值
-function transform<T extends Poem>(res: T, lang: string) {
-  const objs = pick(
-    res,
-    ["title", "content", "introduce", "translation", "annotation"].map(
-      (item) => `${item}_${lang}`,
-    ),
-  );
-
-  Object.keys(res).map((key) => {
-    if (key.includes("zh_Hant") || key.includes("zh_Hans")) {
-      delete res[key as keyof T];
-    }
-  });
-
-  const obj = mapKeys(objs, (_, key) => key.replace(`_${lang}`, ""));
-
-  return {
-    ...res,
-    title: obj.title || res.title,
-    content: obj.content || res.content,
-    introduce: obj.introduce || res.introduce,
-    translation: obj.translation || res.translation,
-    annotation: obj.annotation || res.annotation,
-  };
-}
+import { LangZod, transformPoem, transformTag } from "../utils";
 
 export const poemRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),
@@ -153,17 +125,17 @@ export const poemRouter = createTRPCRouter({
           page: z.number().optional().default(1),
           pageSize: z.number().optional().default(28),
           sort: z.enum(["updatedAt", "improve", "createdAt"]).optional(),
-          lang: z.enum(locales).optional().default("zh-Hans"),
+          lang: LangZod,
         })
         .optional(),
     )
     .query(async ({ input = {}, ctx }) => {
       const { page = 1, pageSize = 28 } = input;
-      const lang = (input.lang || "zh-Hans").replace("-", "_");
 
       let data: (Poem & { author: Author })[];
 
       if (input.sort === "improve") {
+        // 待优化的 待完善
         data = await ctx.db.poem.findMany({
           skip: (page - 1) * pageSize,
           take: pageSize,
@@ -189,12 +161,14 @@ export const poemRouter = createTRPCRouter({
         })[] = [];
 
         if (input.sort === "updatedAt") {
+          // 首页推荐
           temp = await ctx.db
             .$queryRaw`SELECT p.*, a."id" AS "author.id", a.name AS "author.name", a.dynasty as "author.dynasty", a."namePinYin" as "author.namePinYin", a."introduce" as "author.introduce", a."birthDate" as "author.birthDate", a."deathDate" as "author.deathDate", a."createdAt" as "author.createdAt", a."updatedAt" as "author.updatedAt"
       from public."Poem" p left join public."Author" a ON p."authorId"=a.id
       ORDER BY CASE WHEN p.translation IS NULL OR p.translation = '' THEN 1 ELSE 0 END, p."updatedAt" DESC
       limit ${pageSize} offset ${(page - 1) * pageSize};`;
         } else if (input.sort === "createdAt") {
+          // 最新
           temp = await ctx.db
             .$queryRaw`SELECT p.*, a."id" AS "author.id", a.name AS "author.name", a.dynasty as "author.dynasty", a."namePinYin" as "author.namePinYin", a."introduce" as "author.introduce", a."birthDate" as "author.birthDate", a."deathDate" as "author.deathDate", a."createdAt" as "author.createdAt", a."updatedAt" as "author.updatedAt"
       from public."Poem" p left join public."Author" a ON p."authorId"=a.id
@@ -241,7 +215,7 @@ export const poemRouter = createTRPCRouter({
       const total = await ctx.db.poem.count();
 
       return {
-        data: data.map((item) => transform(item, lang)),
+        data: data.map((item) => transformPoem(item, input.lang || "zh-Hans")),
         page,
         pageSize,
         hasNext: page * pageSize < total,
@@ -253,12 +227,13 @@ export const poemRouter = createTRPCRouter({
     .input(
       z.object({
         id: z.number(),
-        page: z.number().optional().default(1),
-        pageSize: z.number().optional().default(28),
+        page: z.number().default(1),
+        pageSize: z.number().default(28),
+        lang: LangZod,
       }),
     )
     .query(async ({ input, ctx }) => {
-      const { page = 1, pageSize = 28, id } = input;
+      const { page, pageSize, id } = input;
 
       const [data, total, tag] = await ctx.db.$transaction([
         ctx.db.poem.findMany({
@@ -273,12 +248,14 @@ export const poemRouter = createTRPCRouter({
         ctx.db.tag.findUnique({ where: { id } }),
       ]);
 
+      if (!tag) return;
+
       return {
-        data,
+        data: data.map((item) => transformPoem(item, input.lang)),
         page,
         pageSize,
         hasNext: page * pageSize < total,
-        tag,
+        tag: transformTag(tag, input.lang),
         total,
       };
     }),
@@ -290,13 +267,11 @@ export const poemRouter = createTRPCRouter({
     .input(
       z.object({
         id: z.number(),
-        lang: z.enum(locales).optional().default("zh-Hans"),
+        lang: LangZod,
       }),
     )
     .query(async ({ input, ctx }) => {
       const { id } = input;
-
-      const lang = input.lang.replace("-", "_");
 
       void ctx.db.poem.update({
         where: { id },
@@ -316,7 +291,7 @@ export const poemRouter = createTRPCRouter({
       const is_hant = !!res.content_zh_Hant;
 
       return {
-        ...transform(res, lang),
+        ...transformPoem(res, input.lang),
         is_hant,
       };
     }),
