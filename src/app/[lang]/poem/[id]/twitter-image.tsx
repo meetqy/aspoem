@@ -18,6 +18,8 @@ export default async function GET({
 
   const content = poem.content.split("\n").slice(0, 4);
 
+  const isCenter = content.findIndex((line) => line.length <= 16) > -1;
+
   return new ImageResponse(
     (
       <div
@@ -58,7 +60,20 @@ export default async function GET({
         </p>
 
         {content.map((_, index) =>
-          poem.genre != "诗" ? (
+          poem.genre === "诗" || isCenter ? (
+            <p
+              key={index}
+              style={{
+                fontSize: 36,
+                width: "100%",
+                opacity: 0.8,
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              {_}
+            </p>
+          ) : (
             <p
               key={index}
               style={{
@@ -74,19 +89,6 @@ export default async function GET({
               {_.split("").map((item, i) => (
                 <span key={i}>{item}</span>
               ))}
-            </p>
-          ) : (
-            <p
-              key={index}
-              style={{
-                fontSize: 36,
-                width: "100%",
-                opacity: 0.8,
-                display: "flex",
-                justifyContent: "center",
-              }}
-            >
-              {_}
             </p>
           ),
         )}
