@@ -12,6 +12,8 @@ export const Body = (props: {
   const content = poem.content.split("\n");
   const contentPinYin = poem.contentPinYin?.split("\n") ?? [];
 
+  const isCenter = content.findIndex((line) => line.length <= 16) > -1;
+
   const annotation = JSON.parse(poem.annotation ?? "{}") as {
     [key in string]: string;
   };
@@ -54,7 +56,7 @@ export const Body = (props: {
             key={line}
             content={line}
             annotation={annotation}
-            variant={shi ? "shi" : "body"}
+            variant={shi ? "shi" : isCenter ? "shi" : "body"}
             py={py ? contentPinYin[index] : ""}
             className={cn(!shi && "px-4 md:px-0")}
           />
