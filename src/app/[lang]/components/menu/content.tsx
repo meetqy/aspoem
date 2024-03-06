@@ -165,7 +165,7 @@ export function Content({
           </Button>
         ))}
       </div>
-      <p className="px-4 text-xs">{dict.menu.theme}</p>
+      <p className="px-4 text-xs">{dict.menu.language}</p>
       <div className="my-4 px-4">
         <Select
           value={lang}
