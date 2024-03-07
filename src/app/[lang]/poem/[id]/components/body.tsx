@@ -13,7 +13,6 @@ export const Body = (props: {
   const { py, poem } = props;
 
   const content = poem.content.split("\n");
-  console.log(content);
   const contentPinYin = poem.contentPinYin?.split("\n") ?? [];
 
   const isCenter = content.every((line) => line.length <= 16);

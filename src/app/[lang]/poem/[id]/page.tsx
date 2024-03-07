@@ -1,4 +1,11 @@
-import { Album, ChevronRight, InfoIcon, TwitterIcon } from "lucide-react";
+import {
+  Album,
+  Baby,
+  BookAIcon,
+  ChevronRight,
+  InfoIcon,
+  TwitterIcon,
+} from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { HeaderMain } from "~/components/ui/header";
@@ -14,17 +21,23 @@ import { Body } from "./components/body";
 import { More } from "./components/more";
 import { getDictionary, type Locale } from "~/dictionaries";
 
-const AutoHant = dynamic(() => import("./components/auto-hant"), {
-  ssr: false,
-});
-
 const Twikoo = dynamic(() => import("./components/twikoo"), {
   ssr: false,
 });
 
-const SaveShareButton = dynamic(() => import("./components/xhs"), {
+const SaveShareButton = dynamic(() => import("./components/share"), {
   ssr: false,
 });
+
+const DrawDefaultPreview = dynamic(
+  () => import("./components/share/draw/default"),
+  { ssr: false },
+);
+
+const DrawWuYanPreview = dynamic(
+  () => import("./components/share/draw/wu-yan"),
+  { ssr: false },
+);
 
 type Props = {
   params: { id: string; lang: Locale };
@@ -232,7 +245,27 @@ export default async function Page({ params, searchParams }: Props) {
             </Link>
           </Button>
 
-          <SaveShareButton data={poem} />
+          <SaveShareButton
+            title={
+              <>
+                <BookAIcon className="mr-2 h-6 w-6" />
+                默认分享卡片
+              </>
+            }
+          >
+            <DrawDefaultPreview data={poem} />
+          </SaveShareButton>
+
+          <SaveShareButton
+            title={
+              <>
+                <Baby className="mr-2 h-6 w-6 text-destructive" />
+                适合五言绝句
+              </>
+            }
+          >
+            <DrawWuYanPreview data={poem} />
+          </SaveShareButton>
         </p>
 
         <h2 id={"#" + dict.poem.more} className="prose-h2 mb-6">
@@ -268,8 +301,6 @@ export default async function Page({ params, searchParams }: Props) {
       </article>
 
       <footer className="h-16"></footer>
-
-      <AutoHant poem={poem} />
     </>
   );
 }
