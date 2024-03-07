@@ -13,9 +13,10 @@ export const Body = (props: {
   const { py, poem } = props;
 
   const content = poem.content.split("\n");
+  console.log(content);
   const contentPinYin = poem.contentPinYin?.split("\n") ?? [];
 
-  const isCenter = content.findIndex((line) => line.length <= 16) > -1;
+  const isCenter = content.every((line) => line.length <= 16);
 
   const annotation = JSON.parse(poem.annotation ?? "{}") as {
     [key in string]: string;
@@ -43,13 +44,6 @@ export const Body = (props: {
             {poem.author.name}
           </Link>
         </p>
-        {/* <Verse
-          content={`${poem.author.dynasty}·${poem.author.name}`}
-          className={cn(
-            py ? "!mb-8" : "mb-6 mt-4",
-            "text-secondary-foreground",
-          )}
-        /> */}
 
         {/* 额外信息 */}
         {poem.introduce && (

@@ -68,6 +68,16 @@ export const Verse = (props: {
     const render = (text: string[]) => {
       return text.map((item, i) => {
         const py = pinyinArray[pinyinIndex] ?? "";
+        const nextItem = text[i + 1] || "";
+        const nextItemIsSymbol =
+          cn_symbol.includes(nextItem) && !cn_symbol.includes(item);
+
+        let char = "";
+        if (nextItemIsSymbol) {
+          char = item + nextItem;
+        } else {
+          char = cn_symbol.includes(item) ? "" : item;
+        }
 
         if (item.length > 1) {
           const chlild = item.split("");
@@ -105,7 +115,7 @@ export const Verse = (props: {
 
         return (
           <Char
-            char={item}
+            char={char}
             key={i}
             pinyin={en_symbol.includes(py) ? undefined : py}
           />
