@@ -171,7 +171,7 @@ export default async function Page({ params, searchParams }: Props) {
       </HeaderMain>
 
       {/* 正文 */}
-      {<Body poem={poem} py={showPinYin} />}
+      {<Body poem={poem} py={showPinYin} lang={params.lang} />}
 
       {/* 标签 */}
       <article className="chinese mt-8 px-4">

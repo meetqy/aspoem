@@ -2,10 +2,13 @@ import { type Author, type Poem } from "@prisma/client";
 import { Verse } from "~/components/verse";
 import { cn } from "~/utils";
 import CopyButton from "./copy";
+import Link from "next/link";
+import { type Locale, getLangUrl } from "~/dictionaries";
 
 export const Body = (props: {
   poem: Poem & { author: Author };
   py?: boolean;
+  lang: Locale;
 }) => {
   const { py, poem } = props;
 
@@ -31,13 +34,22 @@ export const Body = (props: {
           py={titlePinYin}
           className={cn(py ? "pt-4" : "", "px-4")}
         />
-        <Verse
+        <p className={cn(py ? "!mb-8" : "mb-6 mt-4", "text-center text-xl")}>
+          {poem.author.dynasty} ·{" "}
+          <Link
+            href={getLangUrl(`/author/${poem.authorId}`, props.lang)}
+            className="hover:underline"
+          >
+            {poem.author.name}
+          </Link>
+        </p>
+        {/* <Verse
           content={`${poem.author.dynasty}·${poem.author.name}`}
           className={cn(
             py ? "!mb-8" : "mb-6 mt-4",
             "text-secondary-foreground",
           )}
-        />
+        /> */}
 
         {/* 额外信息 */}
         {poem.introduce && (
