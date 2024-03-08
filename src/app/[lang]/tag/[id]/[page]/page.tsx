@@ -46,7 +46,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   const { tag, page } = await getItem(props);
   const dict = await getDictionary(props.params.lang);
 
-  const keywords = dict.point_keywords as string[];
+  const keywords = dict.point_keywords;
 
   if (tag?.name) keywords.push(tag.name);
   if (tag?.type) keywords.push(tag.type);
@@ -124,7 +124,7 @@ export default async function TagDetailPage(props: Props) {
         page={page}
         dict={dict}
         hasNext={hasNext}
-        prefixUrl={`tag/${id}`}
+        prefixUrl={getLangUrl(`/tag/${id}`, lang)}
       />
     </>
   );
