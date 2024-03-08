@@ -1,8 +1,6 @@
 "use client";
 
-import SaveShareButton from "~/app/[lang]/poem/[id]/components/share";
 import DrawWuYanPreview from "~/app/[lang]/poem/[id]/components/share/draw/wu-yan";
-import { Button } from "~/components/ui/button";
 import { api } from "~/trpc/react";
 
 /**
