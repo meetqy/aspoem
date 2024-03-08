@@ -246,6 +246,7 @@ export default async function Page({ params, searchParams }: Props) {
           </Button>
 
           <SaveShareButton
+            scale={2}
             title={
               <>
                 <BookAIcon className="mr-2 h-6 w-6" />
@@ -256,19 +257,17 @@ export default async function Page({ params, searchParams }: Props) {
             <DrawDefaultPreview data={poem} />
           </SaveShareButton>
 
-          {poem.content.split(/，|？|。|！/).length === 5 && (
-            <SaveShareButton
-              scale={2}
-              title={
-                <>
-                  <Baby className="mr-2 h-6 w-6 text-destructive" />
-                  适合绝句
-                </>
-              }
-            >
-              <DrawWuYanPreview data={poem} className="bg-white" />
-            </SaveShareButton>
-          )}
+          <SaveShareButton
+            scale={2}
+            title={
+              <>
+                <Baby className="mr-2 h-6 w-6 text-destructive" />
+                适合绝句
+              </>
+            }
+          >
+            <DrawWuYanPreview data={poem} className="bg-white" />
+          </SaveShareButton>
         </p>
 
         <h2 id={"#" + dict.poem.more} className="prose-h2 mb-6">

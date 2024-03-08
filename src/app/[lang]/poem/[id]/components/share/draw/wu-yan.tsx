@@ -11,7 +11,8 @@ interface Props {
 export default function DrawWuYanPreview({ data, className }: Props) {
   const content = data.content
     .replace(/\n/g, "")
-    .match(/[^(？|，|。|！)]+(？|，|。|！)?|(？|，|。|！)/g);
+    .match(/[^(？|，|。|！)]+(？|，|。|！)?|(？|，|。|！)/g)
+    ?.slice(0, 4);
 
   const py = data.contentPinYin?.split(". ");
 
@@ -26,7 +27,7 @@ export default function DrawWuYanPreview({ data, className }: Props) {
         className="z-1 absolute left-0 top-0 h-full w-full"
       />
       <div className="absolute bottom-44 left-24 text-lg text-muted-foreground">
-        aspoem.com
+        aspoem
       </div>
       <div className={"flex h-full w-full justify-center py-24"}>
         <div>

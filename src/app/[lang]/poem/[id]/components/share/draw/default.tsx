@@ -16,53 +16,26 @@ const DrawDefaultPreview = (props: Props) => {
   return (
     <div
       id="draw-share-card"
-      style={{
-        height: 1440,
-        width: 1080,
-        position: "relative",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        backgroundColor: "#3d345a",
-        color: "#fff",
-      }}
+      className="relative h-[732px] w-[540px] bg-[#3d345a] p-6 text-white"
     >
-      {content.map((c, i) => {
-        return (
-          <div
-            key={i}
-            style={{
-              fontSize: 112,
-              display: "flex",
-              marginTop: i === 0 ? "-10%" : 0,
-            }}
-          >
-            {c}
-          </div>
-        );
-      })}
+      <div className="flex h-full w-full flex-col items-center justify-center">
+        <div className="-mt-12 w-full space-y-6">
+          {content.map((c, i) => {
+            return (
+              <div key={i} className="w-full text-center text-6xl">
+                {c}
+              </div>
+            );
+          })}
+        </div>
 
-      <div
-        style={{
-          marginTop: 132,
-          fontSize: 36,
-          color: "#d4ceea",
-          display: "flex",
-        }}
-      >
-        —— {poem.author.dynasty}·{poem.author.name}《{poem.title}》
+        <div className="mt-24 w-full text-end text-lg text-white/70">
+          —— {poem.author.dynasty}·{poem.author.name}《{poem.title}》
+        </div>
       </div>
 
-      <div
-        style={{
-          position: "absolute",
-          bottom: "7%",
-          fontSize: 32,
-          color: "#bbb",
-        }}
-      >
-        aspoem.com
+      <div className="absolute bottom-6 left-0 w-full text-center text-white/50">
+        aspoem
       </div>
     </div>
   );
