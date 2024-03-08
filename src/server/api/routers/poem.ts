@@ -273,10 +273,13 @@ export const poemRouter = createTRPCRouter({
     .query(async ({ input, ctx }) => {
       const { id } = input;
 
-      void ctx.db.poem.update({
-        where: { id },
-        data: { views: { increment: 1 } },
-      });
+      ctx.db.poem
+        .update({
+          where: { id },
+          data: { views: { increment: 1 } },
+        })
+        .then(console.log)
+        .catch(console.error);
 
       const res = await ctx.db.poem.findUnique({
         where: { id },
