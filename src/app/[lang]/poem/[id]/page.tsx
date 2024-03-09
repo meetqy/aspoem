@@ -267,7 +267,7 @@ export default async function Page({ params, searchParams }: Props) {
                 </>
               }
             >
-              <DrawWuYanPreview data={poem} className="bg-white" />
+              <DrawWuYanPreview data={poem} className="bg-background" />
             </SaveShareButton>
           )}
         </p>
