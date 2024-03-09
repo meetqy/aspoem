@@ -138,7 +138,7 @@ export default async function Page({ params, searchParams }: Props) {
 
       <HeaderMain>
         <div className="flex flex-1 items-center justify-between">
-          <div className="flex h-16 items-center px-4">
+          <div className="flex h-16 items-center px-2 md:px-4">
             <nav className="flex items-center space-x-1 text-muted-foreground">
               <Link href="/" className="flex-shrink-0">
                 {dict.poem.title}
@@ -223,21 +223,13 @@ export default async function Page({ params, searchParams }: Props) {
           {dict.poem.share}
         </h2>
 
-        <p prose-p="" className="flex items-center space-x-4">
-          <Button asChild variant={"outline"}>
+        <div
+          prose-p=""
+          className="flex flex-wrap items-start justify-start md:flex-row md:items-center md:space-x-4"
+        >
+          <Button asChild variant={"outline"} className="mb-2 mr-2">
             <Link
               href={`https://twitter.com/intent/tweet?text=${title} ${MyHost}/${params.lang}/poem/${poem.id}`}
-              target="_blank"
-              className="dark:hidden"
-            >
-              <TwitterIcon className="mr-2 h-6 w-6 text-blue-500" /> 分享到
-              Twitter
-            </Link>
-          </Button>
-
-          <Button asChild variant={"outline"} className="hidden dark:flex">
-            <Link
-              href={`https://twitter.com/intent/tweet?text=${title} ${MyHost}/${params.lang}/poem/${poem.id}?dark`}
               target="_blank"
             >
               <TwitterIcon className="mr-2 h-6 w-6 text-blue-500" /> 分享到
@@ -270,7 +262,7 @@ export default async function Page({ params, searchParams }: Props) {
               <DrawWuYanPreview data={poem} className="bg-background" />
             </SaveShareButton>
           )}
-        </p>
+        </div>
 
         <h2 id={"#" + dict.poem.more} className="prose-h2 mb-6">
           {dict.poem.more}
