@@ -46,7 +46,7 @@ export function MobileMenu({ className, dict, lang }: Props) {
             <MenuIcon className="h-5 w-5" />
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="p-0">
+        <PopoverContent className="w-screen">
           <Content dict={dict} lang={lang} />
         </PopoverContent>
       </Popover>

@@ -186,6 +186,7 @@ export function Content({
         </Select>
       </div>
 
+      <footer className="mt-12 h-12"></footer>
       <footer className="absolute bottom-0 flex h-12 w-full items-center px-4 text-sm text-muted-foreground">
         <Link href={`/${lang}/feedback`} className="hover:underline">
           {dict.menu.feedback}
