@@ -26,6 +26,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "~/components/ui/select";
+import Link from "next/link";
 
 export function Content({
   className,
@@ -94,6 +95,7 @@ export function Content({
           },
         ]}
       />
+
       <div className="px-4">
         <Separator className="my-4" />
       </div>
@@ -183,6 +185,12 @@ export function Content({
           </SelectContent>
         </Select>
       </div>
+
+      <footer className="absolute bottom-0 flex h-12 w-full items-center px-4 text-sm text-muted-foreground">
+        <Link href={`/${lang}/feedback`} className="hover:underline">
+          {dict.menu.feedback}
+        </Link>
+      </footer>
     </div>
   );
 }

@@ -32,7 +32,8 @@
     "tag": "标签",
     "contact": "联系方式",
     "theme": "主题",
-    "language": "语言"
+    "language": "语言",
+    "feedback": "留言"
   },
   "home": {
     "poem": "推荐",

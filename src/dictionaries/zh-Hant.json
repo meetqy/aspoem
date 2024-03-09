@@ -32,7 +32,8 @@
     "tag": "標籤",
     "contact": "聯繫方式",
     "theme": "主題",
-    "language": "語言"
+    "language": "語言",
+    "feedback": "留言"
   },
   "home": {
     "poem": "推薦",

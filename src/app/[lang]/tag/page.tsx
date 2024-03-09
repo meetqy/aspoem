@@ -46,7 +46,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
       params.lang,
     ),
     alternates: getMetaDataAlternates("/tag", params.lang),
-    keywords: keywords.concat(dict.point_keywords as string[]),
+    keywords: keywords.concat(dict.point_keywords),
   };
 }
 
