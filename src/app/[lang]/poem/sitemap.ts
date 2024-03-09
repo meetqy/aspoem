@@ -5,7 +5,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const poems = await api.poem.sitemap.query();
 
   return poems.map((poem) => ({
-    url: `https://aspoem.com/zh-Hans/poem/${poem.id}`,
+    url: `https://aspoem.com/poem/${poem.id}`,
     lastModified: new Date(poem.updatedAt ?? "2024-01-01"),
   }));
 }
