@@ -34,7 +34,7 @@ export const Body = (props: {
           py={titlePinYin}
           className={cn(py ? "pt-4" : "", "px-4")}
         />
-        <p className={cn(py ? "!mb-8" : "mb-6 mt-4", "text-center text-xl")}>
+        <p className={cn(py ? "!mb-8" : "my-4", "text-center text-xl")}>
           {poem.author.dynasty}
           <span className="dot">·</span>
           <Link
