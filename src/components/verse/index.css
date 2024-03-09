@@ -74,7 +74,7 @@
       @apply h-[4.5rem] text-5xl font-bold;
 
       &.symbol {
-        @apply -mx-3 md:mx-1;
+        @apply mx-1;
       }
 
       rt {

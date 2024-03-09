@@ -129,3 +129,21 @@
 [data-radix-focus-guard] {
   @apply !pointer-events-auto left-0 top-0 z-40 h-screen w-screen;
 }
+
+.dot {
+  @apply mx-1;
+}
+
+.fuck {
+  .dot {
+    @apply !-mx-1;
+  }
+
+  .title {
+    .char {
+      &.symbol {
+        @apply !-mx-3;
+      }
+    }
+  }
+}

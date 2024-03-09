@@ -35,7 +35,8 @@ export const Body = (props: {
           className={cn(py ? "pt-4" : "", "px-4")}
         />
         <p className={cn(py ? "!mb-8" : "mb-6 mt-4", "text-center text-xl")}>
-          {poem.author.dynasty} ·{" "}
+          {poem.author.dynasty}
+          <span className="dot">·</span>
           <Link
             href={getLangUrl(`/author/${poem.authorId}`, props.lang)}
             className="hover:underline"
