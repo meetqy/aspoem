@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { useReactToPrint } from "react-to-print";
 
 import { Button } from "~/components/ui/button";
+import { Locale } from "~/dictionaries";
 import { api } from "~/trpc/react";
 import { cn } from "~/utils";
 
@@ -45,10 +46,11 @@ const Row = ({
 export default function PrintPage({
   searchParams,
 }: {
-  searchParams: { id: string };
+  searchParams: { id: string; lang: Locale };
 }) {
   const { data: poem } = api.poem.findById.useQuery({
     id: Number(searchParams.id),
+    lang: searchParams.lang,
   });
 
   const componentRef = useRef<HTMLDivElement>(null);
