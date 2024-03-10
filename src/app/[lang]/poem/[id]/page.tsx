@@ -240,7 +240,7 @@ export default async function Page({ params, searchParams }: Props) {
               href={`https://twitter.com/intent/tweet?text=${title} ${MyHost}/${params.lang}/poem/${poem.id}`}
               target="_blank"
             >
-              <TwitterIcon className="mr-2 h-6 w-6 text-blue-500" /> 分享到
+              <TwitterIcon className="mr-2 h-6 w-6 text-primary" /> 分享到
               Twitter
             </Link>
           </Button>
@@ -249,7 +249,7 @@ export default async function Page({ params, searchParams }: Props) {
             scale={2}
             title={
               <>
-                <BookAIcon className="mr-2 h-6 w-6" />
+                <BookAIcon className="mr-2 h-6 w-6  text-primary" />
                 默认分享卡片
               </>
             }
@@ -262,7 +262,7 @@ export default async function Page({ params, searchParams }: Props) {
               scale={2}
               title={
                 <>
-                  <Baby className="mr-2 h-6 w-6 text-destructive" />
+                  <Baby className="mr-2 h-6 w-6 text-primary" />
                   适合绝句
                 </>
               }
