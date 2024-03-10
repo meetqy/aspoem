@@ -1,7 +1,6 @@
 import { type Author, type Poem } from "@prisma/client";
 import { Verse } from "~/components/verse";
 import { cn } from "~/utils";
-import CopyButton from "./copy";
 import Link from "next/link";
 import { type Locale, getLangUrl } from "~/dictionaries";
 
@@ -68,11 +67,6 @@ export const Body = (props: {
           />
         ))}
       </div>
-
-      <CopyButton
-        data={poem}
-        className="absolute right-1 top-1 transition-all group-hover:opacity-100 md:opacity-0"
-      />
     </article>
   );
 };
