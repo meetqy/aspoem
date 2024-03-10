@@ -4,7 +4,7 @@ import { type Poem, type Author } from "@prisma/client";
 import { ClipboardIcon } from "lucide-react";
 import { useState } from "react";
 import { Button } from "~/components/ui/button";
-import { Locale } from "~/dictionaries";
+import { type Locale } from "~/dictionaries";
 import { MyHost, cn } from "~/utils";
 
 interface Props {
