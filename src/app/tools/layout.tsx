@@ -13,5 +13,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <Root lang="zh-Hant">{children}</Root>;
+  return (
+    <Root lang="zh-Hans" languageComponent={false}>
+      {children}
+    </Root>
+  );
 }
