@@ -231,7 +231,7 @@ export default async function Page({ params, searchParams }: Props) {
           <Button asChild variant={"outline"} className="mb-2 mr-2 md:mb-0">
             <Link href={`/tools/print?id=${poem.id}&lang=${params.lang}`}>
               <Printer className="mr-2 h-6 w-6 text-primary" />
-              打印
+              打印（适合绝句律诗）
             </Link>
           </Button>
 

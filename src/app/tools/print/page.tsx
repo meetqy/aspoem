@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { useReactToPrint } from "react-to-print";
 
 import { Button } from "~/components/ui/button";
-import { Locale } from "~/dictionaries";
+import { type Locale } from "~/dictionaries";
 import { api } from "~/trpc/react";
 import { cn } from "~/utils";
 
