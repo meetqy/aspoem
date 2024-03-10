@@ -4,6 +4,7 @@ import {
   BookAIcon,
   ChevronRight,
   InfoIcon,
+  Printer,
   TwitterIcon,
 } from "lucide-react";
 import Link from "next/link";
@@ -219,20 +220,27 @@ export default async function Page({ params, searchParams }: Props) {
           ),
         )}
 
-        <h2 id={"#" + dict.poem.share} prose-h2="">
-          {dict.poem.share}
+        <h2 id={"#" + dict.poem.tools} prose-h2="">
+          {dict.poem.tools}
         </h2>
 
         <div
           prose-p=""
           className="flex flex-wrap items-start justify-start md:flex-row md:items-center md:space-x-4"
         >
-          <Button asChild variant={"outline"} className="mb-2 mr-2">
+          <Button asChild variant={"outline"} className="mb-2 mr-2 md:mb-0">
+            <Link href={`/tools/print?id=${poem.id}&lang=${params.lang}`}>
+              <Printer className="mr-2 h-6 w-6 text-primary" />
+              打印（适合绝句律诗）
+            </Link>
+          </Button>
+
+          <Button asChild variant={"outline"} className="mb-2 mr-2 md:mb-0">
             <Link
               href={`https://twitter.com/intent/tweet?text=${title} ${MyHost}/${params.lang}/poem/${poem.id}`}
               target="_blank"
             >
-              <TwitterIcon className="mr-2 h-6 w-6 text-blue-500" /> 分享到
+              <TwitterIcon className="mr-2 h-6 w-6 text-primary" /> 分享到
               Twitter
             </Link>
           </Button>
@@ -241,7 +249,7 @@ export default async function Page({ params, searchParams }: Props) {
             scale={2}
             title={
               <>
-                <BookAIcon className="mr-2 h-6 w-6" />
+                <BookAIcon className="mr-2 h-6 w-6  text-primary" />
                 默认分享卡片
               </>
             }
@@ -254,7 +262,7 @@ export default async function Page({ params, searchParams }: Props) {
               scale={2}
               title={
                 <>
-                  <Baby className="mr-2 h-6 w-6 text-destructive" />
+                  <Baby className="mr-2 h-6 w-6 text-primary" />
                   适合绝句
                 </>
               }

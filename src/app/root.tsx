@@ -21,10 +21,12 @@ export default function Root({
   children,
   lang,
   head,
+  languageComponent = true,
 }: {
   children: React.ReactNode;
   lang: Locale;
   head?: React.ReactNode;
+  languageComponent?: boolean;
 }) {
   return (
     <html lang={lang}>
@@ -44,7 +46,7 @@ export default function Root({
         <GoogleAnalytics id={process.env.NEXT_PUBLIC_GA_ID!} />
         <MicrosoftClarity id={process.env.NEXT_PUBLIC_MC_ID!} />
         <LoadFont />
-        <Language />
+        {languageComponent && <Language />}
       </body>
     </html>
   );
