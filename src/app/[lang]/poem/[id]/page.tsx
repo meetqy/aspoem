@@ -4,7 +4,7 @@ import {
   BookAIcon,
   ChevronRight,
   InfoIcon,
-  Printer,
+  PrinterIcon,
   TwitterIcon,
 } from "lucide-react";
 import Link from "next/link";
@@ -27,6 +27,10 @@ const Twikoo = dynamic(() => import("./components/twikoo"), {
 });
 
 const SaveShareButton = dynamic(() => import("./components/share"), {
+  ssr: false,
+});
+
+const CopyButton = dynamic(() => import("./components/copy"), {
   ssr: false,
 });
 
@@ -224,24 +228,25 @@ export default async function Page({ params, searchParams }: Props) {
           {dict.poem.tools}
         </h2>
 
-        <div
-          prose-p=""
-          className="flex flex-wrap items-start justify-start md:flex-row md:items-center md:space-x-4"
-        >
-          <Button asChild variant={"outline"} className="mb-2 mr-2 md:mb-0">
-            <Link href={`/tools/print?id=${poem.id}&lang=${params.lang}`}>
-              <Printer className="mr-2 h-6 w-6 text-primary" />
-              打印（适合绝句律诗）
-            </Link>
-          </Button>
+        <div prose-p="" className="grid grid-cols-2 gap-4 md:grid-cols-4">
+          {poem.content.split(/，|？|。|！/).length <= 9 && (
+            <Button asChild variant={"outline"}>
+              <Link href={`/tools/print?id=${poem.id}&lang=${params.lang}`}>
+                <PrinterIcon className="mr-2 h-5 w-5 text-primary" />
+                打印绝句律诗
+              </Link>
+            </Button>
+          )}
 
-          <Button asChild variant={"outline"} className="mb-2 mr-2 md:mb-0">
+          <CopyButton data={poem} lang={params.lang} />
+
+          <Button asChild variant={"outline"}>
             <Link
               href={`https://twitter.com/intent/tweet?text=${title} ${MyHost}/${params.lang}/poem/${poem.id}`}
               target="_blank"
             >
-              <TwitterIcon className="mr-2 h-6 w-6 text-primary" /> 分享到
-              Twitter
+              <TwitterIcon className="mr-2 h-5 w-5 text-primary" />
+              分享到 Twitter
             </Link>
           </Button>
 
@@ -249,7 +254,7 @@ export default async function Page({ params, searchParams }: Props) {
             scale={2}
             title={
               <>
-                <BookAIcon className="mr-2 h-6 w-6  text-primary" />
+                <BookAIcon className="mr-2 h-5 w-5 text-primary" />
                 默认分享卡片
               </>
             }
@@ -257,12 +262,12 @@ export default async function Page({ params, searchParams }: Props) {
             <DrawDefaultPreview data={poem} />
           </SaveShareButton>
 
-          {poem.content.split(/，|？|。|！/).length === 5 && (
+          {poem.content.split(/，|？|。|！/).length <= 5 && (
             <SaveShareButton
               scale={2}
               title={
                 <>
-                  <Baby className="mr-2 h-6 w-6 text-primary" />
+                  <Baby className="mr-2 h-5 w-5 text-primary" />
                   适合绝句
                 </>
               }
