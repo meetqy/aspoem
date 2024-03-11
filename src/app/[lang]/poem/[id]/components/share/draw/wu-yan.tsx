@@ -37,7 +37,7 @@ export default function DrawWuYanPreview({ data, className, bgImg }: Props) {
             variant="title"
             py={data.titlePinYin || ""}
           />
-          <p className="mb-6 mt-3 text-center text-xl">
+          <p className="relative z-20 mb-6 mt-3 text-center text-xl">
             {data.author.dynasty} · {data.author.name}
           </p>
           <div className="space-y-4">
