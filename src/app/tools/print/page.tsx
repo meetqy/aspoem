@@ -1,38 +1,52 @@
 "use client";
 
-import { useRef } from "react";
+import { chunk } from "lodash-es";
+import { useRef, useState } from "react";
 import { useReactToPrint } from "react-to-print";
 
 import { Button } from "~/components/ui/button";
 import { type Locale } from "~/dictionaries";
 import { api } from "~/trpc/react";
 import { cn } from "~/utils";
+import { type Options, ToggleOption } from "./toggle-option";
 
 const Row = ({
   text,
-  right,
+  align = "center",
   className,
+  border,
 }: {
   text: string;
-  right?: boolean;
+  align?: "left" | "right" | "center";
   className?: string;
+  border?: boolean;
 }) => {
-  const num = 11;
+  const num = 12;
   const left = Math.floor((num - text.length) / 2) + text.length;
 
   let data = text.padStart(left).padEnd(num).split("");
-  if (right) {
+  if (align === "right") {
     data = text.padStart(num).split("");
   }
 
+  if (align === "left") {
+    data = text.padEnd(num).split("");
+  }
+
   return (
-    <div className="grid w-full grid-cols-11 border-y">
+    <div
+      className={cn(
+        "grid w-full grid-cols-12 border-y",
+        !border && "border-transparent",
+      )}
+    >
       {data.map((item, index) => (
         <div
           key={index}
           className={cn(
-            "flex aspect-square items-center justify-center border-r",
+            "flex h-20 w-20 items-center justify-center border-r",
             index === 0 && "border-l",
+            !border && "border-transparent",
             className,
           )}
         >
@@ -48,14 +62,21 @@ export default function PrintPage({
 }: {
   searchParams: { id: string; lang: Locale };
 }) {
-  const { data: poem } = api.poem.findById.useQuery({
-    id: Number(searchParams.id),
-    lang: searchParams.lang,
-  });
-
   const componentRef = useRef<HTMLDivElement>(null);
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
+    pageStyle: `padding:24px`,
+  });
+
+  const [opts, setOpts] = useState<Options>({
+    translation: true,
+    py: false,
+    border: true,
+  });
+
+  const { data: poem } = api.poem.findById.useQuery({
+    id: Number(searchParams.id),
+    lang: searchParams.lang,
   });
 
   if (!poem) return null;
@@ -69,32 +90,50 @@ export default function PrintPage({
 
   if (!content) return null;
 
-  let arr = [title, author, ...content];
-  arr = [...arr, ...(new Array(12).fill("") as string[])].slice(0, 12);
+  const translation = chunk(
+    poem.translation?.replaceAll("\n", "").split(""),
+    12,
+  );
+
+  const arr = [title, author, ...content];
 
   return (
     <div className="flex">
-      <aside className="fixed top-0 flex h-full w-72 flex-col space-y-4 bg-muted p-4">
-        <Button onClick={handlePrint}>打印</Button>
+      <aside className="fixed top-0 flex h-full w-72 flex-col bg-muted p-4">
+        <p className="t mb-4 text-sm text-muted-foreground">自定义打印内容</p>
+        <ToggleOption value={opts} onChange={setOpts} />
+
+        <Button onClick={handlePrint} className="mt-12">
+          打印
+        </Button>
       </aside>
       <aside className="w-72"></aside>
-      <div className="relative m-auto min-h-[1754px] w-[1240px] origin-top-left scale-75 border border-t-0">
+
+      <div className="relative m-auto min-h-[1754px] w-[938px]">
         <div
-          className="w-full space-y-4 p-12 font-cursive text-5xl"
+          className="w-[938px] space-y-4 font-cursive text-5xl"
           ref={componentRef}
         >
           {arr.map((item, index) => (
             <Row
+              border={opts.border}
               key={index}
               text={item}
-              right={index === 1}
-              className={cn(index === 1 && "text-neutral-500")}
+              align={index === 1 ? "right" : "center"}
             />
           ))}
 
-          <p className="absolute bottom-0 left-0 flex w-full items-center justify-end p-4 text-2xl text-neutral-400">
-            aspoem.com | 现代化诗词学习网站
-          </p>
+          {opts.translation && (
+            <p className="flex h-20 items-center justify-between text-2xl text-neutral-400">
+              <span className="text-5xl text-black">译文</span>
+              aspoem.com | 现代化中国诗词学习网站
+            </p>
+          )}
+
+          {opts.translation &&
+            translation.map((item) =>
+              Row({ text: item.join(""), border: opts.border, align: "left" }),
+            )}
         </div>
       </div>
     </div>
