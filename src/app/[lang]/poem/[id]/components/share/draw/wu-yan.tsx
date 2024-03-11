@@ -30,14 +30,14 @@ export default function DrawWuYanPreview({ data, className, bgImg }: Props) {
       <div className="absolute bottom-44 left-24 text-lg text-muted-foreground">
         aspoem
       </div>
-      <div className={"flex h-full w-full justify-center py-24"}>
+      <div className={"relative z-20 flex h-full w-full justify-center py-24"}>
         <div>
           <Verse
             content={data.title}
             variant="title"
             py={data.titlePinYin || ""}
           />
-          <p className="relative z-20 mb-6 mt-3 text-center text-xl">
+          <p className="mb-6 mt-3 text-center text-xl">
             {data.author.dynasty} · {data.author.name}
           </p>
           <div className="space-y-4">
