@@ -18,12 +18,17 @@
     }
   }
 
-  .el-input--small {
-    @apply !text-sm;
+  .el-input--small,
+  .tk-tag,
+  .tk-time,
+  .tk-actions,
+  .tk-replies .tk-nick-link {
+    @apply !text-base;
   }
 
   .tk-main,
-  .el-textarea__inner {
+  .el-textarea__inner,
+  .tk-replies .tk-content {
     @apply text-lg;
   }
 
