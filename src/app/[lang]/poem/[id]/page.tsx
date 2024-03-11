@@ -255,7 +255,7 @@ export default async function Page({ params, searchParams }: Props) {
             title={
               <>
                 <BookAIcon className="mr-2 h-5 w-5 text-primary" />
-                默认分享卡片
+                分享卡片默认
               </>
             }
           >
@@ -268,11 +268,33 @@ export default async function Page({ params, searchParams }: Props) {
               title={
                 <>
                   <Baby className="mr-2 h-5 w-5 text-primary" />
-                  适合绝句
+                  分享卡片绝句 Ⅰ
                 </>
               }
             >
-              <DrawWuYanPreview data={poem} className="bg-background" />
+              <DrawWuYanPreview
+                bgImg="/share-card-bg/1.png"
+                data={poem}
+                className="bg-background"
+              />
+            </SaveShareButton>
+          )}
+
+          {poem.content.split(/，|？|。|！/).length <= 5 && (
+            <SaveShareButton
+              scale={2}
+              title={
+                <>
+                  <Baby className="mr-2 h-5 w-5 text-primary" />
+                  分享卡片绝句 Ⅱ
+                </>
+              }
+            >
+              <DrawWuYanPreview
+                bgImg="/share-card-bg/2.jpg"
+                data={poem}
+                className="bg-background"
+              />
             </SaveShareButton>
           )}
         </div>

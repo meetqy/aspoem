@@ -6,9 +6,10 @@ import { cn } from "~/utils";
 interface Props {
   data: Poem & { author: Author };
   className?: string;
+  bgImg: string;
 }
 
-export default function DrawWuYanPreview({ data, className }: Props) {
+export default function DrawWuYanPreview({ data, className, bgImg }: Props) {
   const content = data.content
     .replace(/\n/g, "")
     .match(/[^(？|，|。|！)]+(？|，|。|！)?|(？|，|。|！)/g)
@@ -22,7 +23,7 @@ export default function DrawWuYanPreview({ data, className }: Props) {
       id="draw-share-card"
     >
       <img
-        src="/share-card-bg/1.png"
+        src={bgImg}
         alt="background"
         className="z-1 absolute left-0 top-0 h-full w-full"
       />
