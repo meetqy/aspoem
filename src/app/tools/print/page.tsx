@@ -45,7 +45,7 @@ const Row = ({
         <div
           key={index}
           className={cn(
-            "flex h-20 w-20 items-center justify-center border-r",
+            "flex items-center justify-center border-r",
             index === 0 && "border-l",
             !border && "border-transparent",
             className,
@@ -65,6 +65,56 @@ const ChoosePoem = () => {
         <Link href="/">选择诗词</Link>
       </Button>
     </aside>
+  );
+};
+
+const PyRow = ({
+  py,
+  className,
+  border,
+  align,
+}: {
+  py: string;
+  className?: string;
+  align?: "left" | "right" | "center";
+  border?: boolean;
+}) => {
+  const num = 12;
+  const arr = py.split(" ");
+
+  let left = Math.floor((num - arr.length) / 2);
+
+  if (align === "right") {
+    left = num - arr.length;
+  }
+
+  const data = new Array(12).fill("").map((_, index) => {
+    return index < left ? "" : arr[index - left];
+  });
+
+  return (
+    <div
+      className={cn(
+        "mt-4 grid h-14 grid-cols-12 border-t text-3xl text-neutral-500",
+        className,
+        !border && "border-transparent",
+      )}
+    >
+      {data.map((item, index) => (
+        <div
+          key={index}
+          className="relative flex w-full items-center justify-center"
+        >
+          {border && (
+            <>
+              <div className="absolute top-1 h-3 w-full border-b-2 border-dashed"></div>
+              <div className="absolute bottom-3 h-3 w-full border-b-2 border-dashed"></div>
+            </>
+          )}
+          <span className="relative z-10">{item}</span>
+        </div>
+      ))}
+    </div>
   );
 };
 
@@ -107,50 +157,78 @@ export default function PrintPage({
   );
 
   const arr = [title, author, ...content];
+  const py = [
+    poem.titlePinYin,
+    poem.author.namePinYin,
+    ...(poem.contentPinYin ?? "").split("."),
+  ];
 
   return (
-    <div className="flex">
-      <aside className="fixed top-0 flex h-full w-72 flex-col space-y-8 bg-muted/50 p-4">
-        <Button asChild variant={"outline"}>
-          <Link href="/">重新选择诗词</Link>
-        </Button>
-        <ToggleOption value={opts} onChange={setOpts} />
-
-        <div className="absolute bottom-0 left-0 w-full p-4">
-          <Button onClick={handlePrint} className="w-full">
-            打印
+    <>
+      <div className="flex">
+        <aside className="fixed top-0 flex h-full w-72 flex-col space-y-8 bg-muted/50 p-4">
+          <Button asChild variant={"outline"}>
+            <Link href="/">重新选择诗词</Link>
           </Button>
-        </div>
-      </aside>
-      <aside className="w-72"></aside>
+          <ToggleOption value={opts} onChange={setOpts} />
 
-      <div className="relative m-auto min-h-[1754px] w-[938px]">
-        <div
-          className="w-[938px] space-y-4 font-cursive text-5xl"
-          ref={componentRef}
-        >
-          {arr.map((item, index) => (
-            <Row
-              border={opts.border}
-              key={index}
-              text={item}
-              align={index === 1 ? "right" : "center"}
-            />
-          ))}
-
-          {opts.translation && (
-            <p className="flex h-20 items-center justify-between text-2xl text-neutral-400">
-              <span className="text-5xl text-black">译文</span>
-              aspoem.com | 现代化中国诗词学习网站
-            </p>
+          {poem.content.split("\n").length > 2 && (
+            <p className="text-destructive">律诗不适合开启拼音，不信你试试！</p>
           )}
 
-          {opts.translation &&
-            translation.map((item) =>
-              Row({ text: item.join(""), border: opts.border, align: "left" }),
+          <div className="absolute bottom-0 left-0 w-full p-4">
+            <Button onClick={handlePrint} className="w-full">
+              打印
+            </Button>
+          </div>
+        </aside>
+        <aside className="w-72"></aside>
+
+        <div className="relative m-auto min-h-[1754px] w-[938px]">
+          <div
+            className="w-[938px] space-y-4 font-cursive text-5xl"
+            ref={componentRef}
+          >
+            <div
+              className={cn(opts.py ? "min-h-[1334px]" : "h-auto space-y-4")}
+            >
+              {arr.map((item, index) => (
+                <div key={index}>
+                  <PyRow
+                    py={py[index] ?? ""}
+                    align={index === 1 ? "right" : "center"}
+                    border={opts.border}
+                    className={cn(!opts.py && "hidden")}
+                  />
+                  <Row
+                    border={opts.border}
+                    className="h-20 w-20"
+                    text={item}
+                    align={index === 1 ? "right" : "center"}
+                  />
+                </div>
+              ))}
+            </div>
+
+            {opts.translation && (
+              <p className="flex h-20 items-center justify-between text-2xl text-neutral-400">
+                <span className="text-5xl text-black">译文</span>
+                aspoem.com | 现代化中国诗词学习网站
+              </p>
             )}
+
+            {opts.translation &&
+              translation.map((item) =>
+                Row({
+                  text: item.join(""),
+                  border: opts.border,
+                  align: "left",
+                  className: "h-20 w-20",
+                }),
+              )}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
