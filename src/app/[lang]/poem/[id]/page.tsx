@@ -74,7 +74,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     poem.author.name,
     `${poem.title}拼音版`,
     `${poem.title}注解版`,
-    `${poem.title}译文（白话文）`,
+    `${poem.title}译文/白话文`,
     `${poem.author.dynasty}·${poem.author.name}的诗词`,
   ];
 
@@ -84,7 +84,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: getPoemTitle(poem),
-    description: poem.content.substring(0, 50),
+    description: poem.content.substring(0, 160),
     keywords,
     alternates: {
       languages: {
