@@ -51,8 +51,6 @@ const findMany = async ({ ctx, input }: FindMany) => {
     }),
   ]);
 
-  console.log(data);
-
   return {
     data: data.map((item) => pick(transformTag(item, lang), [...select, "id"])),
     page,
@@ -94,6 +92,22 @@ export const tagRouter = createTRPCRouter({
         input: {
           ...input,
           type: "词牌名",
+        },
+      });
+    }),
+
+  sitemap: publicProcedure
+    .input(
+      z.object({
+        type: z.string(),
+      }),
+    )
+    .query(async ({ ctx, input }) => {
+      return ctx.db.tag.findMany({
+        where: { type: input.type },
+        select: {
+          id: true,
+          updatedAt: true,
         },
       });
     }),
