@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "~/components/ui/button";
+import { Checkbox } from "~/components/ui/checkbox";
 
 export type Options = {
   translation: boolean;
@@ -17,28 +17,34 @@ export const ToggleOption = (props: {
   };
 
   return (
-    <div className="space-x-2">
-      <Button
-        variant={props.value.translation ? "default" : "secondary"}
-        size={"sm"}
-        onClick={() => toggle("translation")}
-      >
-        译文
-      </Button>
-      {/* <Button
-        variant={props.value.py ? "default" : "secondary"}
-        size={"sm"}
-        onClick={() => toggle("py")}
-      >
-        拼音
-      </Button> */}
-      <Button
-        variant={props.value.border ? "default" : "secondary"}
-        size={"sm"}
-        onClick={() => toggle("border")}
-      >
-        边框
-      </Button>
+    <div>
+      <p className="mb-2 text-muted-foreground">自定义打印内容</p>
+      <div className="flex items-center space-x-2">
+        <Checkbox
+          id="translation"
+          checked={props.value.translation}
+          onCheckedChange={() => toggle("translation")}
+        />
+        <label htmlFor="translation">译文</label>
+      </div>
+
+      <div className="flex items-center space-x-2">
+        <Checkbox
+          id="py"
+          checked={props.value.py}
+          onCheckedChange={() => toggle("py")}
+        />
+        <label htmlFor="py">拼音</label>
+      </div>
+
+      <div className="flex items-center space-x-2">
+        <Checkbox
+          id="border"
+          checked={props.value.border}
+          onCheckedChange={() => toggle("border")}
+        />
+        <label htmlFor="border">边框</label>
+      </div>
     </div>
   );
 };

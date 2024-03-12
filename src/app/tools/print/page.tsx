@@ -9,6 +9,7 @@ import { type Locale } from "~/dictionaries";
 import { api } from "~/trpc/react";
 import { cn } from "~/utils";
 import { type Options, ToggleOption } from "./toggle-option";
+import Link from "next/link";
 
 const Row = ({
   text,
@@ -57,6 +58,16 @@ const Row = ({
   );
 };
 
+const ChoosePoem = () => {
+  return (
+    <aside className="fixed top-0 flex h-full w-72 flex-col bg-muted/50 p-4">
+      <Button asChild>
+        <Link href="/">选择诗词</Link>
+      </Button>
+    </aside>
+  );
+};
+
 export default function PrintPage({
   searchParams,
 }: {
@@ -79,7 +90,7 @@ export default function PrintPage({
     lang: searchParams.lang,
   });
 
-  if (!poem) return null;
+  if (!poem) return <ChoosePoem />;
 
   const title = poem.title;
   const author = `${poem.author.dynasty}·${poem.author.name}`;
@@ -88,7 +99,7 @@ export default function PrintPage({
     .replaceAll("\n", "")
     .match(/[^。|！|？|，|；]+[。|！|？|，|；]+/g);
 
-  if (!content) return null;
+  if (!content) return <ChoosePoem />;
 
   const translation = chunk(
     poem.translation?.replaceAll("\n", "").split(""),
@@ -99,13 +110,17 @@ export default function PrintPage({
 
   return (
     <div className="flex">
-      <aside className="fixed top-0 flex h-full w-72 flex-col bg-muted p-4">
-        <p className="t mb-4 text-sm text-muted-foreground">自定义打印内容</p>
+      <aside className="fixed top-0 flex h-full w-72 flex-col space-y-8 bg-muted/50 p-4">
+        <Button asChild variant={"outline"}>
+          <Link href="/">重新选择诗词</Link>
+        </Button>
         <ToggleOption value={opts} onChange={setOpts} />
 
-        <Button onClick={handlePrint} className="mt-12">
-          打印
-        </Button>
+        <div className="absolute bottom-0 left-0 w-full p-4">
+          <Button onClick={handlePrint} className="w-full">
+            打印
+          </Button>
+        </div>
       </aside>
       <aside className="w-72"></aside>
 
