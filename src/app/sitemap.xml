@@ -9,4 +9,10 @@
   <sitemap>
     <loc>https://aspoem.com/sitemap/list/sitemap.xml</loc>
   </sitemap>
+  <sitemap>
+    <loc>https://aspoem.com/sitemap/ci-pai-ming/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://aspoem.com/sitemap/tag/sitemap.xml</loc>
+  </sitemap>
 </sitemapindex>

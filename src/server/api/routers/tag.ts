@@ -99,7 +99,7 @@ export const tagRouter = createTRPCRouter({
   sitemap: publicProcedure
     .input(
       z.object({
-        type: z.string(),
+        type: z.string().optional(),
       }),
     )
     .query(async ({ ctx, input }) => {
