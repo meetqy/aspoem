@@ -172,10 +172,6 @@ export default function PrintPage({
           </Button>
           <ToggleOption value={opts} onChange={setOpts} />
 
-          {poem.content.split("\n").length > 2 && (
-            <p className="text-destructive">律诗不适合开启拼音，不信你试试！</p>
-          )}
-
           <div className="absolute bottom-0 left-0 w-full p-4">
             <Button onClick={handlePrint} className="w-full">
               打印
