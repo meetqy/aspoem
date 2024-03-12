@@ -8,7 +8,7 @@ import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
 import Poems from "./components/poems";
 import { Button } from "~/components/ui/button";
-import { getDictionary, type Locale } from "~/dictionaries";
+import { getDictionary, getLangText, type Locale } from "~/dictionaries";
 
 type Props = {
   params: { id: string; lang: Locale };
@@ -36,16 +36,41 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     keywords.push(author.dynasty);
   }
 
+  const title = getLangText(
+    {
+      "zh-Hans": `${author.dynasty}·${author.name}的诗词全集、诗集(共${author._count.poems}首)`,
+      "zh-Hant": `${author.dynasty}·${author.name}的詩詞全集、詩集(共${author._count.poems}首)`,
+    },
+    params.lang,
+  );
+
+  const description = getLangText(
+    {
+      "zh-Hans": `${author.name}(${author.namePinYin})，${author.dynasty}代著名诗人，那${author.name}的代表作有哪些呢？${author.name}一生又创作了多少诗词呢？那就跟着我一起来学习${author.name}的诗词吧！`,
+      "zh-Hant": `${author.name}(${author.namePinYin})，${author.dynasty}代著名詩人，那${author.name}的代表作有哪些呢？${author.name}一生又創作了多少詩詞呢？那就跟著我一起來學習${author.name}的詩詞吧！`,
+    },
+    params.lang,
+  );
+
   return {
-    title: `${author.dynasty}·${author.name}的所有诗词（共${author._count.poems}首）`,
-    description: `${author.dynasty}·${author.name}（${author.namePinYin}），${author.introduce}`,
+    title,
+    description,
     keywords: [
       author.name,
-      "诗词",
-      "作品精选",
-      `${author.name}的经典诗词`,
-      `${author.name}的诗词与${author.dynasty}代文学`,
-      `${author.name}的豪放诗风与独特创作风格`,
+      getLangText(
+        {
+          "zh-Hans": `学习${author.name}的诗词`,
+          "zh-Hant": `學習${author.name}的詩詞`,
+        },
+        params.lang,
+      ),
+      getLangText(
+        {
+          "zh-Hans": `${author.name}的代表作`,
+          "zh-Hant": `${author.name}的代表作`,
+        },
+        params.lang,
+      ),
     ],
   };
 }
