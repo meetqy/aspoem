@@ -127,8 +127,10 @@ export const Verse = (props: {
     return render(text);
   };
 
+  const Tag = props.variant === "title" ? "h1" : "p";
+
   return (
-    <p
+    <Tag
       className={cn(
         "verse",
         pinyinArray.length === 0 && "no-py",
@@ -137,7 +139,7 @@ export const Verse = (props: {
       )}
     >
       <Content />
-    </p>
+    </Tag>
   );
 };
 
