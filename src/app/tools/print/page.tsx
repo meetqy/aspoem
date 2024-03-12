@@ -190,7 +190,9 @@ export default function PrintPage({
             ref={componentRef}
           >
             <div
-              className={cn(opts.py ? "min-h-[1334px]" : "h-auto space-y-4")}
+              className={cn(
+                opts.py ? "min-h-[1334px] space-y-8" : "h-auto space-y-4",
+              )}
             >
               {arr.map((item, index) => (
                 <div key={index}>
