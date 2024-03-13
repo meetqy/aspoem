@@ -35,7 +35,7 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     // Skip all internal paths (_next)
-    "/((?!_next|favicon|fonts|tools|demo|create|robots|sitemap|share-card-bg).*)",
+    "/((?!_next|favicon|fonts|tools|demo|create|robots|sitemap|share-card-bg|ads).*)",
     // Optional: only run on root (/) URL
     // '/'
   ],
