@@ -23,20 +23,19 @@ export function middleware(request: NextRequest) {
   // Redirect if there is no locale trpc 不走 i18n
   const locale = getLocale();
 
-  if (pathname.startsWith("/api/trpc")) {
-    request.headers.set("accept-language", locale);
-    return NextResponse.next();
-  }
-
   request.nextUrl.pathname = `/${locale}${pathname}`;
   return NextResponse.redirect(request.nextUrl);
 }
 
 export const config = {
   matcher: [
-    // Skip all internal paths (_next)
-    "/((?!_next|favicon|fonts|tools|demo|create|robots|sitemap|share-card-bg|ads).*)",
-    // Optional: only run on root (/) URL
-    // '/'
+    "/author/:paht*",
+    "/cipaiming/:paht*",
+    "/ci-pai-ming/:paht*",
+    "/feedback/:paht*",
+    "/list/:paht*",
+    "/poem/:paht*",
+    "/tag/:paht*",
+    "/",
   ],
 };
