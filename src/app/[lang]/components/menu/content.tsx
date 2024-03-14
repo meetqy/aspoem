@@ -99,13 +99,15 @@ export function Content({
       <div className="px-4">
         <Separator className="my-4" />
       </div>
-      <p className="px-4 text-xs">{dict.menu.contact}</p>
-      <div className="font-serif">
+      <p className="px-4 text-base text-muted-foreground">
+        {dict.menu.contact}
+      </p>
+      <div>
         <Nav
           isCollapsed={false}
           links={[
             {
-              title: <span className="font-serif">Github</span>,
+              title: "Github",
               icon: GithubIcon,
               variant: "ghost",
               href: "https://github.com/meetqy/aspoem",
@@ -114,7 +116,7 @@ export function Content({
               ),
             },
             {
-              title: <span className="font-serif">Twitter</span>,
+              title: "Twitter",
               icon: TwitterIcon,
               variant: "ghost",
               href: "https://twitter.com/meetqy",
@@ -123,7 +125,7 @@ export function Content({
               ),
             },
             {
-              title: <span className="font-serif">Product Hunt</span>,
+              title: "Product Hunt",
               icon: Rocket,
               variant: "ghost",
               href: "https://www.producthunt.com/products/aspoem-com-learn-chinese-poetry",
@@ -138,7 +140,7 @@ export function Content({
       <div className="px-4">
         <Separator className="my-4" />
       </div>
-      <p className="px-4 text-xs">{dict.menu.theme}</p>
+      <p className="px-4 text-base text-muted-foreground">{dict.menu.theme}</p>
       <div className="my-4 flex justify-between px-4">
         {["zinc", "rose", "blue", "green", "orange"].map((item) => (
           <Button
@@ -167,7 +169,9 @@ export function Content({
           </Button>
         ))}
       </div>
-      <p className="px-4 text-xs">{dict.menu.language}</p>
+      <p className="px-4 text-base text-muted-foreground">
+        {dict.menu.language}
+      </p>
       <div className="my-4 px-4">
         <Select
           value={lang}
@@ -187,7 +191,7 @@ export function Content({
       </div>
 
       <footer className="mt-12 h-12"></footer>
-      <footer className="absolute bottom-0 flex h-12 w-full items-center px-4 text-sm text-muted-foreground">
+      <footer className="absolute bottom-0 flex h-12 w-full items-center bg-muted/30 px-4 text-base text-foreground">
         <Link href={`/${lang}/feedback`} className="hover:underline">
           {dict.menu.feedback}
         </Link>

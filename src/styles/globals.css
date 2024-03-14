@@ -72,7 +72,7 @@
 
   [prose-p],
   .prose-p {
-    @apply text-f100 leading-[2.25rem] [&:not(:first-child)]:mt-6;
+    @apply text-f100 [&:not(:first-child)]:mt-6;
   }
 
   [prose-blockquote],

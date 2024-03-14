@@ -209,25 +209,30 @@ export default async function Page({ params, searchParams }: Props) {
             })}
           </div>
         )}
-
         <h2 id={"#" + dict.poem.translation} prose-h2="" className="text-left">
           {dict.poem.translation}
         </h2>
 
-        {(poem.translation || "暂未完善").split("\n").map((line, index) =>
-          line ? (
-            <p key={index} className="prose-p">
-              {line}
-            </p>
-          ) : (
-            <p key={index}>&nbsp;</p>
-          ),
+        {isShi ? (
+          <p className="text-f200 mt-6 whitespace-pre-line leading-[2.25rem]">{`${poem.translation}`}</p>
+        ) : (
+          (poem.translation || "暂未完善").split("\n").map((line, index) =>
+            line ? (
+              <p
+                key={index}
+                className="text-f200 leading-[2.25rem] [&:not(:first-child)]:mt-6"
+              >
+                {line}
+              </p>
+            ) : (
+              <p key={index}>&nbsp;</p>
+            ),
+          )
         )}
 
         <h2 id={"#" + dict.poem.tools} prose-h2="">
           {dict.poem.tools}
         </h2>
-
         <div prose-p="" className="grid grid-cols-2 gap-4 md:grid-cols-4">
           {poem.content.split(/，|？|。|！/).length <= 9 && (
             <Button asChild variant={"outline"}>
@@ -298,26 +303,21 @@ export default async function Page({ params, searchParams }: Props) {
             </SaveShareButton>
           )}
         </div>
-
         <h2 id={"#" + dict.poem.more} className="prose-h2 mb-6">
           {dict.poem.more}
         </h2>
-
         <More
           authorId={poem.authorId}
           tagIds={poem.tags.map((item) => item.id)}
           lang={params.lang}
         />
-
         <h2 id={"#" + dict.poem.comment} prose-h2="">
           {dict.poem.comment}
         </h2>
-
         <p prose-p="">
           {dict.poem.comment_desc1}
           <span className="underline">{dict.poem.comment_desc2}</span>
         </p>
-
         <h2 id={"#" + dict.poem.report_error} prose-h2="">
           {dict.poem.report_error}
         </h2>
@@ -325,7 +325,6 @@ export default async function Page({ params, searchParams }: Props) {
           <InfoIcon className="-mt-1 mr-2 inline-block text-destructive" />
           {dict.poem.report_error_desc}
         </p>
-
         <div className="mt-12">
           <Twikoo lang={params.lang} />
         </div>
