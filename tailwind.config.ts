@@ -20,8 +20,12 @@ export default {
     },
     extend: {
       fontFamily: {
-        cursive: ["KaiTi SC", "KaiTi", "SongTi SC", "cursive"],
-        serif: ["Palatino", "Times New Roman"],
+        cursive: ["KaiTi SC", "KaiTi"],
+      },
+      fontSize: {
+        300: ["1.875rem", "2.25rem"],
+        200: ["1.5rem", "2rem"],
+        100: ["1.25rem", "1.75rem"],
       },
       colors: {
         border: "hsl(var(--border))",

@@ -66,7 +66,7 @@ export default async function Page(props: Props) {
     <>
       <HeaderMain>
         <div className="px-4">
-          <span className="text-2xl font-bold">{dict.menu.ci_pai_ming}</span>
+          <span className="text-200">{dict.menu.ci_pai_ming}</span>
         </div>
       </HeaderMain>
 
