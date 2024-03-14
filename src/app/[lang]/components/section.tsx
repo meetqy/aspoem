@@ -31,7 +31,7 @@ export default function Section({
         </div>
       </div>
 
-      <div className={cn("!text-f100 text-secondary-foreground/90")}>
+      <div className={cn("!text-f50 text-secondary-foreground")}>
         <span>{poem.author.dynasty}</span> ·
         <Link
           href={`/${lang}/author/${poem.authorId}`}

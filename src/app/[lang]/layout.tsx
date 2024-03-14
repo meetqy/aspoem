@@ -69,6 +69,7 @@ export default async function Layout({
                 <Link
                   href={`/${params.lang}`}
                   className="text-outline flex h-16 items-center justify-center font-serif text-[2.5rem] font-bold"
+                  style={{ fontFamily: "Palatino,Times New Roman" }}
                 >
                   AsPoem
                   <span className="text-muted-foreground">.com</span>

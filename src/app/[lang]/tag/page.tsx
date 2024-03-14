@@ -72,7 +72,7 @@ export default async function Page(props: Props) {
   const TagItem = ({ name, data }: { name: string; data?: typeof tags }) => {
     return (
       <div>
-        <h2 prose-h2="" id={`#${name}`}>
+        <h2 className="text-f300" id={`#${name}`}>
           {name}
         </h2>
         <p prose-p="">
