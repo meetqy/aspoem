@@ -31,10 +31,8 @@ export default function Section({
         </div>
       </div>
 
-      <div className={cn("!text-f50 text-secondary-foreground/90")}>
-        <span>{poem.author.dynasty}</span>
-        <span className="mx-1">·</span>
-
+      <div className={cn("!text-f100 text-secondary-foreground/90")}>
+        <span>{poem.author.dynasty}</span> ·
         <Link
           href={`/${lang}/author/${poem.authorId}`}
           className="relative z-10 hover:underline"
@@ -43,7 +41,7 @@ export default function Section({
         </Link>
       </div>
 
-      <div className="text-100 mt-2 line-clamp-2 text-muted-foreground">
+      <div className="text-f50 mt-2 line-clamp-2 text-muted-foreground">
         {content.slice(0, 2).map((line, index) => (
           <p key={index}>{line}</p>
         ))}

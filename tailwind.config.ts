@@ -23,7 +23,7 @@ export default {
         cursive: ["KaiTi SC", "KaiTi"],
       },
       fontSize: {
-        f300: ["1.875rem", "2.25rem"],
+        f300: ["3rem", "3.5rem"],
         f200: ["1.5rem", "2rem"],
         f100: ["1.25rem", "1.75rem"],
         f50: ["1.125rem", "1.5rem"],

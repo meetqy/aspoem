@@ -67,14 +67,14 @@ export default async function AuthorPage({
               href={`/${params.lang}/author/${item.id}`}
               className="absolute left-0 top-0 h-full w-full"
             ></Link>
-            <div className="prose-h3 flex w-full items-center justify-between font-bold">
+            <div className="text-f200 flex w-full items-center justify-between">
               {item.name}
               <span className="font-mono text-sm font-normal  text-muted-foreground">
                 {item?._count.poems}
               </span>
             </div>
 
-            <p className="line-clamp-2 text-muted-foreground">
+            <p className="text-f50 line-clamp-2 text-muted-foreground">
               {item.introduce || "暂未完善"}
             </p>
           </div>
