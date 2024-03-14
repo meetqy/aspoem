@@ -213,22 +213,14 @@ export default async function Page({ params, searchParams }: Props) {
           {dict.poem.translation}
         </h2>
 
-        {isShi ? (
-          <p className="text-f200 mt-6 whitespace-pre-line leading-[2.25rem]">{`${poem.translation}`}</p>
-        ) : (
-          (poem.translation || "暂未完善").split("\n").map((line, index) =>
-            line ? (
-              <p
-                key={index}
-                className="text-f200 leading-[2.25rem] [&:not(:first-child)]:mt-6"
-              >
-                {line}
-              </p>
-            ) : (
-              <p key={index}>&nbsp;</p>
-            ),
-          )
-        )}
+        {(poem.translation || "暂未完善").split("\n").map((line, index) => (
+          <p
+            key={index}
+            className="text-f200 leading-[2.25rem] [&:not(:first-child)]:mt-6"
+          >
+            {line}
+          </p>
+        ))}
 
         <h2 id={"#" + dict.poem.tools} prose-h2="">
           {dict.poem.tools}

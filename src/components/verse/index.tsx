@@ -147,7 +147,7 @@ const Annotation = (props: { tigger: ReactNode; children: ReactNode }) => {
   return (
     <Popover>
       <PopoverTrigger asChild>{props.tigger}</PopoverTrigger>
-      <PopoverContent>{props.children}</PopoverContent>
+      <PopoverContent className="text-f100">{props.children}</PopoverContent>
     </Popover>
   );
 };

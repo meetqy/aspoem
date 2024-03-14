@@ -71,14 +71,14 @@
   /* 标题 */
   &.title {
     .char {
-      @apply h-[4.5rem] text-5xl font-bold;
+      @apply h-[4.5rem] text-5xl;
 
       &.symbol {
         @apply mx-1;
       }
 
       rt {
-        @apply text-lg font-normal;
+        @apply text-base;
       }
     }
 
@@ -108,7 +108,7 @@
 
     /* 标注 */
     rt {
-      @apply absolute top-0 text-base leading-none text-muted-foreground;
+      @apply absolute top-0 font-serif text-base font-light leading-none text-muted-foreground;
     }
   }
 

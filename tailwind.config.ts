@@ -19,9 +19,6 @@ export default {
       },
     },
     extend: {
-      fontFamily: {
-        cursive: ["KaiTi SC", "KaiTi"],
-      },
       fontSize: {
         f400: ["3rem", "3.5rem"],
         f300: ["2rem", "2.5rem"],
