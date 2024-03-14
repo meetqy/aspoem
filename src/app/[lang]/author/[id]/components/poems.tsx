@@ -67,7 +67,7 @@ export default function Poems({
               id={`#author-${char === "#" ? "other" : char}`}
             >
               {char}
-              <span className="text-sm font-normal text-muted-foreground">
+              <span className="text-base font-normal text-muted-foreground">
                 ({poems?.length})
               </span>
             </h2>
