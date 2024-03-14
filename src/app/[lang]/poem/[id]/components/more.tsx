@@ -62,10 +62,10 @@ export const More = ({
             router.push(`/${lang}/poem/${item.id}`);
           }}
         >
-          <span className="line-clamp-1 text-lg">
+          <span className="text-f100 line-clamp-1">
             {item.content.split("\n")[0]}
           </span>
-          <div className="mt-4 line-clamp-1 text-end text-muted-foreground">
+          <div className="text-f50 mt-4 line-clamp-1 text-end text-muted-foreground">
             —— {item.author.dynasty}·{item.author.name}《
             <span>{item.title}</span>》
           </div>

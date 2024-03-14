@@ -315,7 +315,7 @@ export default async function Page({ params, searchParams }: Props) {
 
         <p prose-p="">
           {dict.poem.comment_desc1}
-          <b>{dict.poem.comment_desc2}</b>
+          <span className="underline">{dict.poem.comment_desc2}</span>
         </p>
 
         <h2 id={"#" + dict.poem.report_error} prose-h2="">
