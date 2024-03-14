@@ -60,7 +60,7 @@ export default async function AuthorPage({
       <div className="m-auto grid grid-cols-1 gap-4 p-4 lg:grid-cols-2">
         {data?.map((item) => (
           <div
-            className="relative flex h-36 cursor-pointer flex-col justify-between rounded-md border border-border p-4 transition-all hover:bg-muted hover:shadow-md"
+            className="relative flex h-32 cursor-pointer flex-col justify-between rounded-md border border-border p-4 transition-all hover:bg-muted hover:shadow-md"
             key={item.id}
           >
             <Link
