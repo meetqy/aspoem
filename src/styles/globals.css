@@ -77,7 +77,7 @@
 
   [prose-p],
   .prose-p {
-    @apply text-lg leading-7 [&:not(:first-child)]:mt-6;
+    @apply text-xl leading-[2rem] [&:not(:first-child)]:mt-8;
   }
 
   [prose-blockquote],

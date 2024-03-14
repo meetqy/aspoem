@@ -216,7 +216,7 @@ export default async function Page({ params, searchParams }: Props) {
 
         {(poem.translation || "暂未完善").split("\n").map((line, index) =>
           line ? (
-            <p key={index} prose-p="">
+            <p key={index} className="prose-p">
               {line}
             </p>
           ) : (
