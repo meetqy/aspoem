@@ -23,9 +23,10 @@ export default {
         cursive: ["KaiTi SC", "KaiTi"],
       },
       fontSize: {
-        300: ["1.875rem", "2.25rem"],
-        200: ["1.5rem", "2rem"],
-        100: ["1.25rem", "1.75rem"],
+        f300: ["1.875rem", "2.25rem"],
+        f200: ["1.5rem", "2rem"],
+        f100: ["1.25rem", "1.75rem"],
+        f50: ["1.125rem", "1.5rem"],
       },
       colors: {
         border: "hsl(var(--border))",

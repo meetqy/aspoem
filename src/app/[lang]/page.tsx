@@ -34,7 +34,7 @@ export default async function IndexPage({
       <HeaderMain>
         <div className="flex h-16 flex-1 items-center justify-between pl-4">
           <div className="flex h-full flex-1 items-center justify-between">
-            <span className="text-200">{dict.home.poem}</span>
+            <span className="text-f200">{dict.home.poem}</span>
             <div className="hidden items-center lg:flex">
               <Button variant={"secondary"} size={"sm"} asChild>
                 <Link href={`/${params.lang}/list/1`}>

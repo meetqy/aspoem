@@ -101,7 +101,7 @@ export default async function Page(props: Props) {
     <>
       <HeaderMain>
         <div className="px-4">
-          <span className="text-200">{dict.menu.tag}</span>
+          <span className="text-f200">{dict.menu.tag}</span>
         </div>
       </HeaderMain>
 

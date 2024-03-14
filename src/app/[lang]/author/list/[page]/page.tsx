@@ -54,7 +54,7 @@ export default async function AuthorPage({
     <>
       <HeaderMain>
         <div className="flex h-16 flex-1 items-center justify-between pl-4">
-          <span className="text-200">{dict.author.title}</span>
+          <span className="text-f200">{dict.author.title}</span>
         </div>
       </HeaderMain>
       <div className="m-auto grid grid-cols-1 gap-4 p-4 lg:grid-cols-2">
