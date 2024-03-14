@@ -78,7 +78,7 @@
       }
 
       rt {
-        @apply text-base;
+        @apply text-lg;
       }
     }
 
@@ -108,7 +108,7 @@
 
     /* 标注 */
     rt {
-      @apply absolute top-0 font-serif text-base font-light leading-none text-muted-foreground;
+      @apply absolute top-0 font-sans text-base font-light leading-none text-muted-foreground;
     }
   }
 
