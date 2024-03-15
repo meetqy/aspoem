@@ -7,11 +7,13 @@ import { useEffect, useState } from "react";
 import { cn } from "~/utils";
 import {
   Album,
+  ArrowRight,
   ArrowUpRightIcon,
   Check,
   GithubIcon,
   Rocket,
   Rows2,
+  SendIcon,
   Tag,
   TwitterIcon,
   UserRound,
@@ -107,6 +109,13 @@ export function Content({
           isCollapsed={false}
           links={[
             {
+              title: dict.menu.feedback,
+              href: `/${lang}/feedback`,
+              icon: SendIcon,
+              variant: "ghost",
+              label: <ArrowRight className="h-4 w-4 text-destructive" />,
+            },
+            {
               title: "Github",
               icon: GithubIcon,
               variant: "ghost",
@@ -189,13 +198,6 @@ export function Content({
           </SelectContent>
         </Select>
       </div>
-
-      <footer className="mt-12 h-12"></footer>
-      <footer className="absolute bottom-0 flex h-12 w-full items-center bg-muted/30 px-4 text-base text-foreground">
-        <Link href={`/${lang}/feedback`} className="hover:underline">
-          {dict.menu.feedback}
-        </Link>
-      </footer>
     </div>
   );
 }
