@@ -52,7 +52,7 @@
   /* 诗的内容文字 田字格 */
   &.shi {
     .char {
-      @apply h-12 w-12 text-3xl;
+      @apply h-14 w-[3.25rem] text-3xl md:w-12;
 
       /* 符号 */
       &.symbol {
@@ -108,12 +108,16 @@
 
     /* 标注 */
     rt {
-      @apply absolute top-0 font-sans text-base font-light leading-none text-muted-foreground;
+      @apply absolute top-0 font-serif text-base font-light leading-none text-muted-foreground;
     }
   }
 
   /* 没有拼音 */
   &.no-py {
+    .char {
+      @apply w-12;
+    }
+
     .br {
       ~ .char,
       ~ button .char {
