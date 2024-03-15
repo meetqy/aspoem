@@ -54,27 +54,27 @@ export default async function AuthorPage({
     <>
       <HeaderMain>
         <div className="flex h-16 flex-1 items-center justify-between pl-4">
-          <span className="text-2xl font-bold">{dict.author.title}</span>
+          <span className="text-f200">{dict.author.title}</span>
         </div>
       </HeaderMain>
       <div className="m-auto grid grid-cols-1 gap-4 p-4 lg:grid-cols-2">
         {data?.map((item) => (
           <div
-            className="relative flex h-36 cursor-pointer flex-col justify-between rounded-md border border-border p-4 transition-all hover:bg-muted hover:shadow-md"
+            className="relative flex h-32 cursor-pointer flex-col justify-between rounded-md border border-border p-4 transition-all hover:bg-muted hover:shadow-md"
             key={item.id}
           >
             <Link
               href={`/${params.lang}/author/${item.id}`}
               className="absolute left-0 top-0 h-full w-full"
             ></Link>
-            <div className="prose-h3 flex w-full items-center justify-between font-bold">
+            <div className="text-f200 flex w-full items-center justify-between">
               {item.name}
               <span className="font-mono text-sm font-normal  text-muted-foreground">
                 {item?._count.poems}
               </span>
             </div>
 
-            <p className="line-clamp-2 text-muted-foreground">
+            <p className="text-f50 line-clamp-2 text-muted-foreground">
               {item.introduce || "暂未完善"}
             </p>
           </div>

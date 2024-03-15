@@ -66,19 +66,19 @@ export default async function Page(props: Props) {
     <>
       <HeaderMain>
         <div className="px-4">
-          <span className="text-2xl font-bold">{dict.menu.ci_pai_ming}</span>
+          <span className="text-f200">{dict.menu.ci_pai_ming}</span>
         </div>
       </HeaderMain>
 
       <div className="p-4">
         <header>
-          <h1 className="prose-h1">
+          <h1 className="text-f400">
             {dict.menu.ci_pai_ming}
-            <span className="ml-1 font-mono text-xl font-normal text-muted-foreground">
+            <span className="text-f200 ml-1 font-mono text-muted-foreground">
               cí pái míng
             </span>
           </h1>
-          <p className="prose-p text-secondary-foreground">
+          <p className="text-f100 mt-6 text-secondary-foreground">
             {getLangText(description, params.lang)}
           </p>
         </header>
@@ -90,22 +90,24 @@ export default async function Page(props: Props) {
               className="group relative cursor-pointer justify-between rounded-md border border-border bg-card p-4 text-card-foreground transition-all hover:bg-accent hover:text-accent-foreground hover:shadow-md"
             >
               <div className="flex justify-between">
-                <div className="w-full font-bold lg:w-3/5">
+                <div className="text-f200 w-full lg:w-3/5">
                   <Link
                     href={getLangUrl(`/tag/${item.id}/1`, params.lang)}
-                    className="underline-animation prose-h3 relative z-10 flex-1 text-primary"
+                    className="underline-animation relative z-10 flex-1 text-primary"
                   >
                     {item.name}
                   </Link>
                 </div>
 
-                <div className="mt-1 flex font-mono text-xs font-normal text-muted-foreground/50">
+                <div className="mt-1 flex font-mono text-xs text-muted-foreground/50">
                   <PieChart className="mr-1 h-4 w-4" />
                   <span>{item._count.poems}</span>
                 </div>
               </div>
 
-              <p className="mt-2 text-muted-foreground">{item.introduce}</p>
+              <p className="text-f50 mt-2 text-muted-foreground">
+                {item.introduce}
+              </p>
 
               <Link
                 href={getLangUrl(`/tag/${item.id}/1`, params.lang)}

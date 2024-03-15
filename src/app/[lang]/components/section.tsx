@@ -13,33 +13,13 @@ export default function Section({
 }) {
   const content = poem.content.split("\n");
 
-  const Author = ({ className }: { className?: string }) => {
-    return (
-      <div className={cn(className, "text-secondary-foreground")}>
-        {poem.author.dynasty && (
-          <>
-            <span>{poem.author.dynasty}</span>
-            <span className="mx-1">·</span>
-          </>
-        )}
-
-        <Link
-          href={`/${lang}/author/${poem.authorId}`}
-          className="relative z-10 hover:underline"
-        >
-          {poem.author.name}
-        </Link>
-      </div>
-    );
-  };
-
   return (
     <section className="group relative cursor-pointer justify-between rounded-md border border-border bg-card p-4 text-card-foreground transition-all hover:bg-accent hover:text-accent-foreground hover:shadow-md">
       <div className="flex justify-between">
-        <div className="w-full font-bold lg:w-3/5">
+        <div className="w-full lg:w-3/5">
           <Link
             href={`/${lang}/poem/${poem.id}`}
-            className="underline-animation prose-h3 relative z-10 flex-1 text-primary"
+            className="underline-animation text-f200 relative z-10 flex-1 text-primary"
           >
             {poem.title}
           </Link>
@@ -51,9 +31,17 @@ export default function Section({
         </div>
       </div>
 
-      <Author className="mt-1" />
+      <div className={cn("!text-f50 text-secondary-foreground")}>
+        <span>{poem.author.dynasty}</span> ·
+        <Link
+          href={`/${lang}/author/${poem.authorId}`}
+          className="relative z-10 hover:underline"
+        >
+          {poem.author.name}
+        </Link>
+      </div>
 
-      <div className="mt-2 line-clamp-2 text-muted-foreground">
+      <div className="text-f50 mt-2 line-clamp-2 text-muted-foreground">
         {content.slice(0, 2).map((line, index) => (
           <p key={index}>{line}</p>
         ))}

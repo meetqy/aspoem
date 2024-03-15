@@ -93,7 +93,7 @@ export default async function IndexPage({ params, searchParams }: Props) {
       <HeaderMain>
         <div className="flex h-16 flex-1 items-center justify-between pl-4">
           <div className="flex h-full flex-1 items-center justify-between">
-            <span className="text-2xl font-bold">{dict.poem_list.title}</span>
+            <span className="text-f200">{dict.poem_list.title}</span>
             <div className="hidden items-center lg:flex">
               <SortTabs sort={searchParams?.sort} dict={dict} />
               <span className="mx-2 text-muted-foreground/40">|</span>

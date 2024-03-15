@@ -104,26 +104,23 @@ export default async function Page({ params, searchParams }: Props) {
         <div className="text-left md:ml-16">
           <h1 prose-h1="">
             <span>{author.name}</span>{" "}
-            <span className="font-mono text-xl font-normal !tracking-tighter text-muted-foreground">
+            <span className="text-f100 font-mono font-normal !tracking-tighter text-muted-foreground">
               {author.namePinYin}
             </span>
           </h1>
-          <p className="mt-4 line-clamp-3">{author.introduce}</p>
-          <div className="mt-8">
+          <p className="text-f100 mt-4 line-clamp-3 text-secondary-foreground">
+            {author.introduce}
+          </p>
+          <div className="text-f50 mt-8">
             <p className="flex items-center">
               <CalendarIcon className="h-5 w-5 text-muted-foreground" />
               <span className="ml-2">
-                <span className="font-mono text-sm">
-                  {author.birthDate ?? "?"}
-                </span>
-                年<span className="mx-2 text-muted-foreground">~</span>
-                <span className="font-mono text-sm">
-                  {author.deathDate ?? "?"}
-                </span>
-                年
+                <span className="text-f50">{author.birthDate ?? "?"}</span>年
+                <span className="mx-2 text-muted-foreground">~</span>
+                <span className="text-f50">{author.deathDate ?? "?"}</span>年
               </span>
             </p>
-            <p className="flex items-center">
+            <p className="mt-2 flex items-center">
               <LinkIcon className="h-5 w-5 text-muted-foreground" />
               <Link
                 href={`https://zh.wikipedia.org/wiki/${author.name}`}

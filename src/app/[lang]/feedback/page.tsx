@@ -13,7 +13,7 @@ export default async function FeedbackPage({
     <div>
       <HeaderMain>
         <div className="px-4">
-          <span className="text-2xl font-bold">{dict.menu.feedback}</span>
+          <span className="text-f200">{dict.menu.feedback}</span>
         </div>
       </HeaderMain>
 

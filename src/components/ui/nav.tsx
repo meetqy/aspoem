@@ -68,7 +68,7 @@ export function Nav({ links, isCollapsed }: NavProps) {
                 link.variant === "default" &&
                   "dark:bg-muted dark:text-white dark:hover:bg-muted dark:hover:text-white",
                 "justify-start",
-                "text-base",
+                "text-lg",
               )}
             >
               {link.icon && <link.icon className="mr-2 h-4 w-4" />}
