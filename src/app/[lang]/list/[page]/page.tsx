@@ -3,7 +3,7 @@ import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
 import { type Sort } from "~/types";
 
-import SortTabs from "../../components/sort-tabs";
+import SortTabs from "./sort-tabs";
 import Section from "../../components/section";
 import { Pagination } from "~/components/pagination";
 import {

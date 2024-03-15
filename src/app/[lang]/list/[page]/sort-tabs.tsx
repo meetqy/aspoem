@@ -11,7 +11,7 @@ export default function SortTabs({
   dict: Dictionary;
 }) {
   return (
-    <ToggleGroup size={"sm"} type="single" defaultValue={sort ?? ""}>
+    <ToggleGroup size={"sm"} type="single" value={sort ?? " "}>
       <ToggleGroupItem
         className="data-[state=on]:bg-primary data-[state=on]:text-primary-foreground"
         value=" "
