@@ -108,10 +108,10 @@ export default async function Page({ params, searchParams }: Props) {
               {author.namePinYin}
             </span>
           </h1>
-          <p className="text-f50 mt-4 line-clamp-3 text-secondary-foreground">
+          <p className="text-f100 mt-4 line-clamp-3 text-secondary-foreground">
             {author.introduce}
           </p>
-          <div className="mt-8">
+          <div className="text-f50 mt-8">
             <p className="flex items-center">
               <CalendarIcon className="h-5 w-5 text-muted-foreground" />
               <span className="ml-2">
@@ -120,7 +120,7 @@ export default async function Page({ params, searchParams }: Props) {
                 <span className="text-f50">{author.deathDate ?? "?"}</span>年
               </span>
             </p>
-            <p className="flex items-center">
+            <p className="mt-2 flex items-center">
               <LinkIcon className="h-5 w-5 text-muted-foreground" />
               <Link
                 href={`https://zh.wikipedia.org/wiki/${author.name}`}
