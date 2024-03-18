@@ -10,16 +10,6 @@
 
 现代化中国诗词学习网站，一个更加注重 **UI和阅读体验** 的诗词网站。
 
-## 基础技术栈
-
-- prisma
-- nextjs
-- trpc
-- tailwindcss
-- shadcn/ui
-- postgres + supabase
-- twikoo
-
 ## 参与贡献
 
 [贡献指南](./CONTRIBUTING.md)
@@ -29,7 +19,7 @@
 复制一份 `.env.example` 并将其重命名为 `.env`
 
 ``` env
-# 后台操作需要的 Token  http://localhost:3000/create?token=v0
+# 后台操作需要的 Token，  http://localhost:3000/create?token=v0
 TOKEN="v0"
 
 # 本地
@@ -42,6 +32,12 @@ NEXT_PUBLIC_GA_ID="G-PYEC5EG749"
 
 # microsoft-clarity-id 
 NEXT_PUBLIC_MC_ID="ksel7bmi48"
+```
+
+``` sh
+pnpm i 
+pnpm db:push
+pnpm dev
 ```
 
 ## 许可证
