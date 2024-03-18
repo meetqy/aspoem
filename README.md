@@ -36,7 +36,6 @@ NEXT_PUBLIC_MC_ID="ksel7bmi48"
 
 ``` sh
 pnpm i 
-pnpm db:push
 pnpm dev
 ```
 
