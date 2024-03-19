@@ -95,7 +95,7 @@ const PyRow = ({
   return (
     <div
       className={cn(
-        "mt-4 grid h-14 grid-cols-12 border-t text-3xl text-neutral-500",
+        "mt-4 grid h-14 grid-cols-12 border-t text-2xl text-neutral-500",
         className,
         !border && "border-transparent",
       )}
@@ -111,7 +111,7 @@ const PyRow = ({
               <div className="absolute bottom-3 h-3 w-full border-b-2 border-dashed"></div>
             </>
           )}
-          <span className="relative z-10">{item}</span>
+          <span className="relative z-10 font-serif font-light">{item}</span>
         </div>
       ))}
     </div>
