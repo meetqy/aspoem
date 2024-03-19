@@ -18,14 +18,16 @@ export const TagBasic = (props: Props) => {
 
   return (
     <div className="flex space-x-4 overflow-auto text-xl">
-      <div className="w-3/5 space-y-2 pr-4">
+      <div className="w-3/5 space-y-4">
         {statistics.slice(0, 10).map((item, index) => {
           const poem = item[0]!;
 
           return (
             <div
               key={poem.author.id}
-              className="relative flex h-12 items-center justify-between overflow-hidden rounded-md border border-border"
+              className={cn(
+                "relative flex h-12 items-center justify-between rounded-md border border-border",
+              )}
             >
               <div
                 className={cn(
@@ -33,7 +35,7 @@ export const TagBasic = (props: Props) => {
                   {
                     "text-3xl text-destructive": index === 0,
                     " text-2xl text-orange-500": index === 1,
-                    " text-green-500": index === 2,
+                    "text-green-500": index === 2,
                   },
                 )}
               >
@@ -61,19 +63,22 @@ export const TagBasic = (props: Props) => {
         })}
       </div>
 
-      <div className="w-2/5">
-        <p className="prose-p text-secondary-foreground">
+      <div className="flex w-2/5 flex-col justify-between space-y-4">
+        <p className="prose-p flex-1 px-2 text-secondary-foreground">
           {props.tag.introduce}
         </p>
-        <h2 className="prose-h2">统计</h2>
 
-        <p className="prose-p !text-f100">
-          共收录了 <span className="font-mono font-medium">{props.total}</span>{" "}
-          首诗，诗人{" "}
-          <span className="font-mono font-medium">{statistics.length}</span>{" "}
-          位。 其中，最多的诗人是 <b>{first!.author.name}</b>，共有{" "}
-          <span className="font-mono font-medium">{max}</span> 首诗。
-        </p>
+        <div className="px-2">
+          <h2 className="prose-h2">统计</h2>
+          <p className="prose-p !text-f100">
+            共收录了{" "}
+            <span className="font-mono font-medium">{props.total}</span>{" "}
+            首诗，诗人{" "}
+            <span className="font-mono font-medium">{statistics.length}</span>{" "}
+            位。 其中，最多的诗人是 <b>{first!.author.name}</b>，共有{" "}
+            <span className="font-mono font-medium">{max}</span> 首诗。
+          </p>
+        </div>
       </div>
     </div>
   );

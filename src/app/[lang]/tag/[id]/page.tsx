@@ -2,18 +2,12 @@ import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cache } from "react";
-import {
-  type Locale,
-  getDictionary,
-  getLangUrl,
-  getMetaDataAlternates,
-  getLangText,
-} from "~/dictionaries";
+import { type Locale, getDictionary, getLangUrl } from "~/dictionaries";
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
 import { type Metadata } from "next";
 import { TagBasic } from "./components/basic";
-import { Button } from "~/components/ui/button";
+import { cn } from "~/utils";
 
 interface Props {
   params: { id: string; lang: Locale };
@@ -63,16 +57,13 @@ export default async function TagDetailPage(props: Props) {
   const { lang } = props.params;
 
   const json: Record<string, (typeof data)[number][]> = {};
-  const jsonSum : Record<string, number> = {};
   data.forEach((item) => {
     const key = item.author.id;
 
     if (!json[key]) {
       json[key] = [];
-      jsonSum[key] = 0;
     }
 
-    jsonSum[key] += 1;
     json[key]!.push(item);
   });
 
@@ -82,14 +73,7 @@ export default async function TagDetailPage(props: Props) {
 
   const dict = await getDictionary(lang);
 
-  const authors = [];
-  statistics.forEach((item) => {
-    authors.push({
-      author: item[0]?.author,
-      count: item.length,
-      data: item,
-    });
-  });
+  const rank = statistics.map((item) => item[0]!.author.id);
 
   return (
     <>
@@ -116,7 +100,7 @@ export default async function TagDetailPage(props: Props) {
             <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
             <Link
               className="line-clamp-1 text-foreground"
-              href={getLangUrl(`tag/${tag.id}/1`, lang)}
+              href={getLangUrl(`tag/${tag.id}`, lang)}
             >
               {tag.name}
             </Link>
@@ -129,16 +113,36 @@ export default async function TagDetailPage(props: Props) {
         <TagBasic data={statistics} tag={tag} total={total} />
       </div>
 
-      <div className="mt-8 space-y-8 px-4">
-        {Object.keys(jsonSum).map((key) => {
-          const item = json[key];
+      <div className="mt-12 flex flex-wrap justify-between px-4">
+        {rank.slice(0, 10).map((key) => {
+          const item = json[key]!;
+          const author = item[0]!.author;
 
           return (
-            <div key={key} className="rounded-md border border-border p-4">
-              <h3 className="prose-h2">{item![0]?.author.name}</h3>
-              <ul className="prose-p grid list-disc grid-cols-3 gap-4">
+            <div
+              key={key}
+              className={cn("mb-12 w-full", { "w-[48%]": item.length < 6 })}
+            >
+              <h3 className={cn("prose-h1 !border-none")}>
+                {author.name}{" "}
+                <span className="ml-2 font-mono text-2xl font-normal capitalize text-muted-foreground">
+                  {author.namePinYin}
+                </span>
+              </h3>
+              <ul
+                className={cn(
+                  "prose-p grid list-disc grid-cols-3 gap-4 rounded-md bg-secondary p-4 text-secondary-foreground",
+                  {
+                    "grid-cols-1": item.length < 6,
+                  },
+                )}
+              >
                 {item?.map((poem) => (
-                  <Link href="/" key={poem.id} className="line-clamp-1">
+                  <Link
+                    href={getLangUrl(`/author/${poem.id}`, lang)}
+                    key={poem.id}
+                    className="line-clamp-1 hover:underline"
+                  >
                     {poem.title}
                   </Link>
                 ))}
@@ -147,6 +151,8 @@ export default async function TagDetailPage(props: Props) {
           );
         })}
       </div>
+
+      <footer className="h-12"></footer>
     </>
   );
 }
