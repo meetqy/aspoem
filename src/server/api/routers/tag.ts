@@ -2,7 +2,7 @@ import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 import { LangZod, transformPoem, transformTag } from "../utils";
 import { pick } from "lodash-es";
-import { Author, type PrismaClient } from "@prisma/client";
+import { type Author, type PrismaClient } from "@prisma/client";
 
 interface FindMany {
   input: {
@@ -155,6 +155,7 @@ export const tagRouter = createTRPCRouter({
             "author",
             "views",
           ]);
+          
           json.author = pick(json.author, [
             "id",
             "name",

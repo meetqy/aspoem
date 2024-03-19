@@ -85,7 +85,7 @@ export default async function Page(props: Props) {
                   className="mb-2 mr-2"
                   asChild
                 >
-                  <Link href={`tag/${item.id}/1`}>
+                  <Link href={`tag/${item.id}`}>
                     {item.name}
                     <sup className="ml-1 font-mono">{item._count.poems}</sup>
                   </Link>
