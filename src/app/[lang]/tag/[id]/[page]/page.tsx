@@ -29,8 +29,6 @@ const getItem = cache(async ({ params }: Props) => {
 
   const result = await api.poem.findByTagId.query({
     id,
-    page,
-    pageSize: 12,
     lang: params.lang,
   });
 
@@ -113,19 +111,21 @@ export default async function TagDetailPage(props: Props) {
           {tag?.introduce && <p className="prose-p">{tag?.introduce}</p>}
         </header>
 
-        <div className="mt-8 space-y-4">
+
+
+        {/* <div className="mt-8 space-y-4">
           {poems.map((poem) => (
             <Section poem={poem} key={poem.id} lang={lang} />
           ))}
-        </div>
+        </div> */}
       </div>
 
-      <Pagination
+      {/* <Pagination
         page={page}
         dict={dict}
         hasNext={hasNext}
         prefixUrl={getLangUrl(`/tag/${id}`, lang)}
-      />
+      /> */}
     </>
   );
 }
