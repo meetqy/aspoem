@@ -70,10 +70,25 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
       },
       props.params.lang,
     ),
-    description: getLangText({
-      "zh-Hans":`${tag.type || "其他"}/${tag.name}，共收录了 ${total} 首诗词，诗人 ${statistics.length} 位。 其中，最多的诗人是 ${first!.author.name}，共创作了 ${statistics[0]!.length} 首诗词。`,
-      "zh-Hant":`${tag.type || "其他"}/${tag.name}，共收錄了 ${total} 首詩詞，詩人 ${statistics.length} 位。 其中，最多的詩人是 ${first!.author.name}，共創作了 ${statistics[0]!.length} 首詩詞。`,
-    }, props.params.lang),
+    description: getLangText(
+      {
+        "zh-Hans": `${tag.type || "其他"}/${
+          tag.name
+        }，共收录了 ${total} 首诗词，诗人 ${
+          statistics.length
+        } 位。 其中，最多的诗人是 ${first!.author.name}，共创作了 ${
+          statistics[0]!.length
+        } 首诗词。`,
+        "zh-Hant": `${tag.type || "其他"}/${
+          tag.name
+        }，共收錄了 ${total} 首詩詞，詩人 ${
+          statistics.length
+        } 位。 其中，最多的詩人是 ${first!.author.name}，共創作了 ${
+          statistics[0]!.length
+        } 首詩詞。`,
+      },
+      props.params.lang,
+    ),
     alternates: getMetaDataAlternates(`/tag/${tag.id}`, props.params.lang),
   };
 }
@@ -132,25 +147,27 @@ export default async function TagDetailPage(props: Props) {
           return (
             <div
               key={key}
-              className={cn("mb-12 w-full", { "w-[48%]": item.length < 6 })}
+              className={cn("mb-12 w-full", { "lg:w-[48%]": item.length < 6 })}
             >
               <h3 className={cn("prose-h1 !border-none")}>
-                {author.name}{" "}
-                <span className="ml-2 font-serif text-[50%] font-normal capitalize text-muted-foreground">
-                  {author.namePinYin}
-                </span>
+                <Link href={getLangUrl(`/author/${author.id}`, lang)}>
+                  {author.name}{" "}
+                  <span className="ml-2 font-serif text-[50%] font-normal capitalize text-muted-foreground">
+                    {author.namePinYin}
+                  </span>
+                </Link>
               </h3>
               <ul
                 className={cn(
-                  "prose-p grid list-disc grid-cols-3 gap-4 rounded-md bg-secondary p-4 text-secondary-foreground",
+                  "prose-p grid list-disc grid-cols-2 gap-4 rounded-md bg-secondary p-4 text-secondary-foreground lg:grid-cols-3",
                   {
-                    "grid-cols-1": item.length < 6,
+                    "lg:grid-cols-1": item.length < 6,
                   },
                 )}
               >
                 {item?.map((poem) => (
                   <Link
-                    href={getLangUrl(`/author/${poem.id}`, lang)}
+                    href={getLangUrl(`/poem/${poem.id}`, lang)}
                     key={poem.id}
                     className="line-clamp-1 hover:underline"
                   >

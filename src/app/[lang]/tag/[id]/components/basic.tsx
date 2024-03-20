@@ -17,8 +17,8 @@ export const TagBasic = (props: Props) => {
   const first = statistics[0]![0];
 
   return (
-    <div className="flex space-x-4 overflow-auto text-xl">
-      <div className="w-3/5 space-y-4">
+    <div className="lg:flex lg:space-x-4 lg:space-y-0 space-y-8 overflow-auto text-xl">
+      <div className="lg:w-3/5 w-full space-y-4">
         {statistics.slice(0, 10).map((item, index) => {
           const poem = item[0]!;
 
@@ -63,7 +63,7 @@ export const TagBasic = (props: Props) => {
         })}
       </div>
 
-      <div className="flex w-2/5 flex-col justify-between space-y-4 bg-secondary rounded-md py-4 text-secondary-foreground">
+      <div className="flex lg:w-2/5 w-full flex-col justify-between space-y-4 bg-secondary rounded-md py-4 text-secondary-foreground">
         <p className="prose-p flex-1 px-4">
           {props.tag.introduce}
         </p>
