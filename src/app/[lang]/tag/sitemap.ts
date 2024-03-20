@@ -8,6 +8,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   });
 
   return data.map((poem) => ({
-    url: `https://aspoem.com/tag/${poem.id}/1/`,
+    url: `https://aspoem.com/tag/${poem.id}`,
   }));
 }

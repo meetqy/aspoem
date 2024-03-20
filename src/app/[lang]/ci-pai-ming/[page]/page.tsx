@@ -92,7 +92,7 @@ export default async function Page(props: Props) {
               <div className="flex justify-between">
                 <div className="text-f200 w-full lg:w-3/5">
                   <Link
-                    href={getLangUrl(`/tag/${item.id}/1`, params.lang)}
+                    href={getLangUrl(`/tag/${item.id}`, params.lang)}
                     className="underline-animation relative z-10 flex-1 text-primary"
                   >
                     {item.name}
@@ -110,7 +110,7 @@ export default async function Page(props: Props) {
               </p>
 
               <Link
-                href={getLangUrl(`/tag/${item.id}/1`, params.lang)}
+                href={getLangUrl(`/tag/${item.id}`, params.lang)}
                 title="查看详情"
                 className="pointer-events-auto absolute left-0 top-0 h-full w-full"
               />

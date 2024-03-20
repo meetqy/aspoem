@@ -198,7 +198,7 @@ export default async function Page({ params, searchParams }: Props) {
             {poem.tags.map((item) => {
               return (
                 <Button variant={"secondary"} key={item.id} asChild>
-                  <Link href={`/${params.lang}/tag/${item.id}/1`}>
+                  <Link href={`/${params.lang}/tag/${item.id}`}>
                     {item.type === "词牌名" && (
                       <Album className="mr-1 h-4 w-4 opacity-70" />
                     )}
