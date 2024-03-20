@@ -63,20 +63,20 @@ export const TagBasic = (props: Props) => {
         })}
       </div>
 
-      <div className="flex w-2/5 flex-col justify-between space-y-4">
-        <p className="prose-p flex-1 px-2 text-secondary-foreground">
+      <div className="flex w-2/5 flex-col justify-between space-y-4 bg-secondary rounded-md py-4 text-secondary-foreground">
+        <p className="prose-p flex-1 px-4">
           {props.tag.introduce}
         </p>
 
-        <div className="px-2">
+        <div className="px-4">
           <h2 className="prose-h2">统计</h2>
           <p className="prose-p !text-f100">
             共收录了{" "}
-            <span className="font-mono font-medium">{props.total}</span>{" "}
+            <span className="font-mono font-medium text-primary">{props.total}</span>{" "}
             首诗，诗人{" "}
-            <span className="font-mono font-medium">{statistics.length}</span>{" "}
-            位。 其中，最多的诗人是 <b>{first!.author.name}</b>，共有{" "}
-            <span className="font-mono font-medium">{max}</span> 首诗。
+            <span className="font-mono font-medium text-primary">{statistics.length}</span>{" "}
+            位。 其中，最多的诗人是 <b className="text-primary">{first!.author.name}</b>，共有{" "}
+            <span className="font-mono font-medium text-primary">{max}</span> 首诗。
           </p>
         </div>
       </div>
