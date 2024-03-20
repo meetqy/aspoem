@@ -123,7 +123,7 @@ export const tagRouter = createTRPCRouter({
     ]);
   }),
 
-  findById: publicProcedure
+  findStatisticsById: publicProcedure
     .input(
       z.object({
         id: z.number(),
@@ -168,6 +168,12 @@ export const tagRouter = createTRPCRouter({
         total,
       };
     }),
+
+  findById: publicProcedure.input(z.number()).query(({ input, ctx }) =>
+    ctx.db.tag.findFirst({
+      where: { id: input },
+    }),
+  ),  
 
   deleteById: publicProcedure
     .input(z.number())
