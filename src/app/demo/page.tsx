@@ -4,7 +4,7 @@ import { api } from "~/trpc/react";
 import { cn } from "~/utils";
 
 export default function Page() {
-  const { data } = api.tag.findById.useQuery({
+  const { data } = api.tag.findStatisticsById.useQuery({
     id: 99,
   });
 

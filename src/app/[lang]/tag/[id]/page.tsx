@@ -22,7 +22,7 @@ interface Props {
 const getItem = cache(async ({ params }: Props) => {
   const id = Number(params.id);
 
-  const result = await api.tag.findById.query({
+  const result = await api.tag.findStatisticsById.query({
     id,
     lang: params.lang,
   });
