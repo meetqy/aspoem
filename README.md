@@ -6,7 +6,7 @@
 |-|-|
 
 
-# aspoem.com
+# [aspoem.com](https://aspoem.com)
 
 现代化中国诗词学习网站，一个更加注重 **UI和阅读体验** 的诗词网站。
 
@@ -36,6 +36,51 @@ NEXT_PUBLIC_MC_ID="ksel7bmi48"
 
 ``` sh
 pnpm i 
+pnpm dev
+```
+
+### 未安装 `POSTGRES`
+
+1. `prisma/schema.prisma` 中的 
+
+``` js
+datasource db {
+    provider  = "postgresql"  
+    url       = env("POSTGRES_PRISMA_URL")
+    directUrl = env("POSTGRES_URL_NON_POOLING")
+}
+```
+
+改为
+
+``` js
+datasource db {
+    provider  = "sqlite"  
+    url       = env("POSTGRES_PRISMA_URL")
+    directUrl = env("POSTGRES_URL_NON_POOLING")
+}
+```
+
+2. `.env` 
+
+``` env
+# 本地
+POSTGRES_PRISMA_URL="postgresql://meetqy@localhost:5432/aspoem"
+POSTGRES_URL_NON_POOLING="postgresql://meetqy@localhost:5432/aspoem"
+```
+
+改为
+
+``` env
+POSTGRES_PRISMA_URL="file:./db.sqlite"
+POSTGRES_URL_NON_POOLING="file:./db.sqlite"
+```
+
+执行安装命令
+
+```sh
+pnpm i 
+pnpm db:push
 pnpm dev
 ```
 
