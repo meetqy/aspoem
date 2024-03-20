@@ -1,8 +1,8 @@
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
-import { LangZod, transformTag } from "../utils";
+import { LangZod, transformPoem, transformTag } from "../utils";
 import { pick } from "lodash-es";
-import { type PrismaClient } from "@prisma/client";
+import { type Author, type PrismaClient } from "@prisma/client";
 
 interface FindMany {
   input: {
@@ -123,11 +123,51 @@ export const tagRouter = createTRPCRouter({
     ]);
   }),
 
-  findById: publicProcedure.input(z.number()).query(({ input, ctx }) =>
-    ctx.db.tag.findFirst({
-      where: { id: input },
+  findById: publicProcedure
+    .input(
+      z.object({
+        id: z.number(),
+        lang: LangZod,
+      }),
+    )
+    .query(async ({ input, ctx }) => {
+      const { id } = input;
+
+      const [data, total, tag] = await ctx.db.$transaction([
+        ctx.db.poem.findMany({
+          where: { tags: { some: { id } } },
+          include: { author: true },
+        }),
+        ctx.db.poem.count({
+          where: { tags: { some: { id } } },
+        }),
+        ctx.db.tag.findUnique({ where: { id } }),
+      ]);
+
+      if (!tag) return;
+
+      return {
+        data: data.map((item) => {
+          const json = pick(transformPoem(item, input.lang), [
+            "id",
+            "title",
+            "titlePinYin",
+            "author",
+            "views",
+          ]);
+          
+          json.author = pick(json.author, [
+            "id",
+            "name",
+            "namePinYin",
+          ]) as Author;
+
+          return json;
+        }),
+        tag: transformTag(tag, input.lang),
+        total,
+      };
     }),
-  ),
 
   deleteById: publicProcedure
     .input(z.number())
