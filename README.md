@@ -2,9 +2,8 @@
 
 ## 移动端
 
-|![310017729-c5728ebe-2977-4471-b0e1-92cd872874ee](https://github.com/meetqy/aspoem/assets/18411315/1748c1bf-b4e9-4e69-94d7-9a83fd997804)|![310017294-502bd505-e10e-4e4c-86d8-e93f91ab7201](https://github.com/meetqy/aspoem/assets/18411315/2515bd07-7b9a-46e0-b87b-d28aa5319281)|
-|-|-|
-
+| ![310017729-c5728ebe-2977-4471-b0e1-92cd872874ee](https://github.com/meetqy/aspoem/assets/18411315/1748c1bf-b4e9-4e69-94d7-9a83fd997804) | ![310017294-502bd505-e10e-4e4c-86d8-e93f91ab7201](https://github.com/meetqy/aspoem/assets/18411315/2515bd07-7b9a-46e0-b87b-d28aa5319281) |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 
 # [aspoem.com](https://aspoem.com)
 
@@ -18,7 +17,7 @@
 
 复制一份 `.env.example` 并将其重命名为 `.env`
 
-``` env
+```env
 # 后台操作需要的 Token，  http://localhost:3000/create?token=v0
 TOKEN="v0"
 
@@ -30,22 +29,22 @@ POSTGRES_URL_NON_POOLING="postgresql://meetqy@localhost:5432/aspoem"
 # google analytics id
 NEXT_PUBLIC_GA_ID="G-PYEC5EG749"
 
-# microsoft-clarity-id 
+# microsoft-clarity-id
 NEXT_PUBLIC_MC_ID="ksel7bmi48"
 ```
 
-``` sh
-pnpm i 
+```sh
+pnpm i
 pnpm dev
 ```
 
 ### 未安装 `POSTGRES`
 
-1. `prisma/schema.prisma` 中的 
+1. `prisma/schema.prisma` 中的
 
-``` js
+```js
 datasource db {
-    provider  = "postgresql"  
+    provider  = "postgresql"
     url       = env("POSTGRES_PRISMA_URL")
     directUrl = env("POSTGRES_URL_NON_POOLING")
 }
@@ -53,17 +52,17 @@ datasource db {
 
 改为
 
-``` js
+```js
 datasource db {
-    provider  = "sqlite"  
+    provider  = "sqlite"
     url       = env("POSTGRES_PRISMA_URL")
     directUrl = env("POSTGRES_URL_NON_POOLING")
 }
 ```
 
-2. `.env` 
+2. `.env`
 
-``` env
+```env
 # 本地
 POSTGRES_PRISMA_URL="postgresql://meetqy@localhost:5432/aspoem"
 POSTGRES_URL_NON_POOLING="postgresql://meetqy@localhost:5432/aspoem"
@@ -71,15 +70,17 @@ POSTGRES_URL_NON_POOLING="postgresql://meetqy@localhost:5432/aspoem"
 
 改为
 
-``` env
+```env
 POSTGRES_PRISMA_URL="file:./db.sqlite"
 POSTGRES_URL_NON_POOLING="file:./db.sqlite"
 ```
 
+3. 将 `prisma/sample.sqlite` 改为 `db.sqlite`
+
 执行安装命令
 
 ```sh
-pnpm i 
+pnpm i
 pnpm db:push
 pnpm dev
 ```
