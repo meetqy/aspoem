@@ -164,14 +164,14 @@ export const poemRouter = createTRPCRouter({
           // 首页推荐
           temp = await ctx.db
             .$queryRaw`SELECT p.*, a."id" AS "author.id", a.name AS "author.name", a.dynasty as "author.dynasty", a."namePinYin" as "author.namePinYin", a."introduce" as "author.introduce", a."birthDate" as "author.birthDate", a."deathDate" as "author.deathDate", a."createdAt" as "author.createdAt", a."updatedAt" as "author.updatedAt"
-      from public."Poem" p left join public."Author" a ON p."authorId"=a.id
+      from "Poem" p left join "Author" a ON p."authorId"=a.id
       ORDER BY CASE WHEN p.translation IS NULL OR p.translation = '' THEN 1 ELSE 0 END, p."updatedAt" DESC
       limit ${pageSize} offset ${(page - 1) * pageSize};`;
         } else if (input.sort === "createdAt") {
           // 最新
           temp = await ctx.db
             .$queryRaw`SELECT p.*, a."id" AS "author.id", a.name AS "author.name", a.dynasty as "author.dynasty", a."namePinYin" as "author.namePinYin", a."introduce" as "author.introduce", a."birthDate" as "author.birthDate", a."deathDate" as "author.deathDate", a."createdAt" as "author.createdAt", a."updatedAt" as "author.updatedAt"
-      from public."Poem" p left join public."Author" a ON p."authorId"=a.id
+      from "Poem" p left join "Author" a ON p."authorId"=a.id
       ORDER BY CASE WHEN p.translation IS NULL OR p.translation = '' THEN 1 ELSE 0 END, p."createdAt" DESC
       limit ${pageSize} offset ${(page - 1) * pageSize};`;
         }
