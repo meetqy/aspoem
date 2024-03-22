@@ -90,7 +90,7 @@ export const poemRouter = createTRPCRouter({
   ),
 
   search: publicProcedure
-    .input(z.string().optional())
+    .input(z.string().default(""))
     .query(({ input, ctx }) => {
       return ctx.db.poem.findMany({
         where: {

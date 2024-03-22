@@ -11,6 +11,7 @@ import {
   ArrowUpRightIcon,
   Check,
   GithubIcon,
+  Printer,
   Rocket,
   Rows2,
   SendIcon,
@@ -93,6 +94,13 @@ export function Content({
             label: <span className="font-mono">{tagsCount?.[0]}</span>,
             variant: /^(\/tag)/.test(pathname) ? "default" : "ghost",
             href: `/${lang}/tag`,
+          },
+          {
+            title: dict.menu.print,
+            icon: Printer,
+            label: <ArrowRight className="h-4 w-4 text-destructive" />,
+            variant: /^(\/print)/.test(pathname) ? "default" : "ghost",
+            href: `/tools/print`,
           },
         ]}
       />

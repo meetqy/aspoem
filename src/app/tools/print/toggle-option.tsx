@@ -1,5 +1,7 @@
 "use client";
 
+import { useRouter, useSearchParams } from "next/navigation";
+import { useState } from "react";
 import { Checkbox } from "~/components/ui/checkbox";
 
 export type Options = {
@@ -8,12 +10,25 @@ export type Options = {
   border: boolean;
 };
 
-export const ToggleOption = (props: {
-  onChange?: (opt: Options) => void;
-  value: Options;
-}) => {
+export const ToggleOption = () => {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const id = searchParams.get("id");
+  console.log(id);
+
+  const [opts, setOpts] = useState<Options>({
+    translation: false,
+    py: false,
+    border: false,
+  });
+
   const toggle = (key: keyof Options) => {
-    props.onChange?.({ ...props.value, [key]: !props.value[key] });
+    setOpts({
+      ...opts,
+      [key]: !opts[key],
+    });
+
+    router.push(`?id=${id}&${key}=${!opts[key]}`);
   };
 
   return (
@@ -22,7 +37,7 @@ export const ToggleOption = (props: {
       <div className="flex items-center space-x-2">
         <Checkbox
           id="translation"
-          checked={props.value.translation}
+          checked={opts.translation}
           onCheckedChange={() => toggle("translation")}
         />
         <label htmlFor="translation">译文</label>
@@ -31,7 +46,7 @@ export const ToggleOption = (props: {
       <div className="flex items-center space-x-2">
         <Checkbox
           id="py"
-          checked={props.value.py}
+          checked={opts.py}
           onCheckedChange={() => toggle("py")}
         />
         <label htmlFor="py">拼音</label>
@@ -40,7 +55,7 @@ export const ToggleOption = (props: {
       <div className="flex items-center space-x-2">
         <Checkbox
           id="border"
-          checked={props.value.border}
+          checked={opts.border}
           onCheckedChange={() => toggle("border")}
         />
         <label htmlFor="border">边框</label>
