@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Checkbox } from "~/components/ui/checkbox";
 
 export type Options = {
@@ -14,12 +14,11 @@ export const ToggleOption = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
   const id = searchParams.get("id");
-  console.log(id);
 
   const [opts, setOpts] = useState<Options>({
-    translation: false,
-    py: false,
-    border: false,
+    translation: searchParams.get("translation") === "true",
+    py: searchParams.get("py") === "true",
+    border: searchParams.get("border") === "true",
   });
 
   const toggle = (key: keyof Options) => {
@@ -27,9 +26,13 @@ export const ToggleOption = () => {
       ...opts,
       [key]: !opts[key],
     });
-
-    router.push(`?id=${id}&${key}=${!opts[key]}`);
   };
+
+  useEffect(() => {
+    router.push(
+      `?id=${id}&translation=${opts.translation}&py=${opts.py}&border=${opts.border}`,
+    );
+  }, [opts, router, id]);
 
   return (
     <div>

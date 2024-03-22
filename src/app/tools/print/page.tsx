@@ -1,15 +1,18 @@
 import { api } from "~/trpc/server";
+import PreviewPrint from "./components/preview-print";
 
-export default function Page({
+export default async function Page({
   searchParams,
 }: {
   searchParams: { id: string };
 }) {
   const { id } = searchParams;
 
-  const poem = api.poem.findById.query({
+  const poem = await api.poem.findById.query({
     id: Number(id),
   });
 
-  return <div>{searchParams.id}</div>;
+  if (!poem) return null;
+
+  return <PreviewPrint poem={poem} />;
 }

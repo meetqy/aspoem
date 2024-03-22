@@ -1,4 +1,3 @@
-import { api } from "~/trpc/server";
 import { Aside } from "./components/aside";
 
 export default async function RootLayout({
@@ -9,7 +8,7 @@ export default async function RootLayout({
   return (
     <div className="flex h-screen">
       <Aside />
-      <main className="h-full overflow-y-auto">{children}</main>
+      <main className="m-auto h-full">{children}</main>
     </div>
   );
 }

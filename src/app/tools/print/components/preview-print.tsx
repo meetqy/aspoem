@@ -1,16 +1,13 @@
 "use client";
 
 import { chunk } from "lodash-es";
-import { useRef, useState } from "react";
-import { useReactToPrint } from "react-to-print";
+import { useRef } from "react";
 
-import { Button } from "~/components/ui/button";
-import { type Locale } from "~/dictionaries";
-import { api } from "~/trpc/react";
 import { cn } from "~/utils";
-import { type Options, ToggleOption } from "./toggle-option";
-import Link from "next/link";
-import { SelectPoem } from "./components/select-poem";
+import { type Author, type Poem } from "@prisma/client";
+import { useSearchParams } from "next/navigation";
+import { useReactToPrint } from "react-to-print";
+import { Button } from "~/components/ui/button";
 
 const Row = ({
   text,
@@ -56,16 +53,6 @@ const Row = ({
         </div>
       ))}
     </div>
-  );
-};
-
-const ChoosePoem = () => {
-  return (
-    <aside className="fixed top-0 flex h-full w-72 flex-col bg-muted/50 p-4">
-      <div>
-        <SelectPoem />
-      </div>
-    </aside>
   );
 };
 
@@ -119,29 +106,24 @@ const PyRow = ({
   );
 };
 
-export default function PrintPage({
-  searchParams,
+export default function PreviewPrint({
+  poem,
 }: {
-  searchParams: { id: string; lang: Locale };
+  poem: Poem & { author: Author };
 }) {
   const componentRef = useRef<HTMLDivElement>(null);
+  const searchParams = useSearchParams();
+
+  const opts = {
+    translation: searchParams.get("translation") === "true",
+    py: searchParams.get("py") === "true",
+    border: searchParams.get("border") === "true",
+  };
+
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
     pageStyle: `padding:24px`,
   });
-
-  const [opts, setOpts] = useState<Options>({
-    translation: true,
-    py: false,
-    border: true,
-  });
-
-  const { data: poem } = api.poem.findById.useQuery({
-    id: Number(searchParams.id),
-    lang: searchParams.lang,
-  });
-
-  if (!poem) return <ChoosePoem />;
 
   const title = poem.title;
   const author = `${poem.author.dynasty}·${poem.author.name}`;
@@ -150,7 +132,7 @@ export default function PrintPage({
     .replaceAll("\n", "")
     .match(/[^。|！|？|，|；]+[。|！|？|，|；]+/g);
 
-  if (!content) return <ChoosePoem />;
+  if (!content) return null;
 
   const translation = chunk(
     poem.translation?.replaceAll("\n", "").split(""),
@@ -166,64 +148,56 @@ export default function PrintPage({
 
   return (
     <>
-      <div className="flex">
-        <aside className="fixed top-0 flex h-full w-72 flex-col space-y-8 bg-muted/50 p-4">
-          <SelectPoem selected={poem} />
-          <ToggleOption value={opts} onChange={setOpts} />
-
-          <div className="absolute bottom-0 left-0 w-full p-4">
-            <Button onClick={handlePrint} className="w-full">
-              打印
-            </Button>
-          </div>
-        </aside>
-        <aside className="w-72"></aside>
-
-        <div className="relative m-auto min-h-[1754px] w-[938px]">
+      <Button
+        className="fixed bottom-8 left-4 w-64"
+        onClick={() => handlePrint()}
+      >
+        打印
+      </Button>
+      <div className="relative m-auto min-h-[1754px] w-[938px]">
+        <div
+          className="font-cursive w-[938px] space-y-4 text-5xl"
+          ref={componentRef}
+        >
           <div
-            className="font-cursive w-[938px] space-y-4 text-5xl"
-            ref={componentRef}
-          >
-            <div
-              className={cn(
-                opts.py ? "min-h-[1334px] space-y-8" : "h-auto space-y-4",
-              )}
-            >
-              {arr.map((item, index) => (
-                <div key={index}>
-                  <PyRow
-                    py={py[index] ?? ""}
-                    align={index === 1 ? "right" : "center"}
-                    border={opts.border}
-                    className={cn(!opts.py && "hidden")}
-                  />
-                  <Row
-                    border={opts.border}
-                    className="h-20 w-20"
-                    text={item}
-                    align={index === 1 ? "right" : "center"}
-                  />
-                </div>
-              ))}
-            </div>
-
-            {opts.translation && (
-              <p className="flex h-20 items-center justify-between text-2xl text-neutral-400">
-                <span className="text-5xl text-black">译文</span>
-                aspoem.com | 现代化中国诗词学习网站
-              </p>
+            className={cn(
+              opts.py ? "min-h-[1334px] space-y-8" : "h-auto space-y-4",
             )}
-
-            {opts.translation &&
-              translation.map((item) =>
-                Row({
-                  text: item.join(""),
-                  border: opts.border,
-                  align: "left",
-                  className: "h-20 w-20",
-                }),
-              )}
+          >
+            {arr.map((item, index) => (
+              <div key={index}>
+                <PyRow
+                  py={py[index] ?? ""}
+                  align={index === 1 ? "right" : "center"}
+                  border={opts.border}
+                  className={cn(!opts.py && "hidden")}
+                />
+                <Row
+                  border={opts.border}
+                  className="h-20 w-20"
+                  text={item}
+                  align={index === 1 ? "right" : "center"}
+                />
+              </div>
+            ))}
           </div>
+
+          {opts.translation && (
+            <p className="flex h-20 items-center justify-between text-2xl text-neutral-400">
+              <span className="text-5xl text-black">译文</span>
+              aspoem.com | 现代化中国诗词学习网站
+            </p>
+          )}
+
+          {opts.translation &&
+            translation.map((item) =>
+              Row({
+                text: item.join(""),
+                border: opts.border,
+                align: "left",
+                className: "h-20 w-20",
+              }),
+            )}
         </div>
       </div>
     </>
