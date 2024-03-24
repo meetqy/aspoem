@@ -10,7 +10,8 @@
     "dev": "next dev",
     "postinstall": "prisma generate",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "docker:start": "prisma generate && prisma db push && node prisma/seed.js && pnpm run start"
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.4",
@@ -79,6 +80,7 @@
     "eslint": "^8.54.0",
     "eslint-config-next": "^14.0.4",
     "postcss": "^8.4.31",
+    "postcss-import": "^16.1.0",
     "postcss-nesting": "^12.0.2",
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",

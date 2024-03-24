@@ -1,0 +1,24 @@
+version: "3.9"
+services:
+  aspoem:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+        - POSTGRES_PRISMA_URL=postgresql://postgres:postgres@postgres:5432/aspoem
+        - POSTGRES_URL_NON_POOLING=postgresql://postgres:postgres@postgres:5432/aspoem
+        - TOKEN=secret
+        - NEXT_PUBLIC_GA_ID=xx
+        - NEXT_PUBLIC_MC_ID=xx
+
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:16.2
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: aspoem
