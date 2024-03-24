@@ -16,13 +16,13 @@ const DrawDefaultPreview = (props: Props) => {
   return (
     <div
       id="draw-share-card"
-      className="relative h-[732px] w-[540px] bg-[#3d345a] p-6 text-white"
+      className="relative h-[600px] w-[450px] bg-[#3d345a] p-6 text-white"
     >
       <div className="flex h-full w-full flex-col items-center justify-center">
         <div className="-mt-12 w-full space-y-6">
           {content.map((c, i) => {
             return (
-              <div key={i} className="w-full text-center text-6xl">
+              <div key={i} className="w-full text-center text-5xl">
                 {c}
               </div>
             );
@@ -34,7 +34,7 @@ const DrawDefaultPreview = (props: Props) => {
         </div>
       </div>
 
-      <div className="absolute bottom-6 left-0 w-full text-center text-white/50">
+      <div className="absolute bottom-0 left-0 w-full pb-2 pr-4 text-right text-white/50">
         aspoem
       </div>
     </div>

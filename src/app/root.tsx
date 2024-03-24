@@ -9,9 +9,9 @@ import LoadFont from "./load-font";
 import { type Locale } from "~/dictionaries";
 import { Language } from "~/dictionaries/language";
 
-const MicrosoftClarity = dynamic(() => import("./metrics/microsoft-clarity"), {
-  ssr: false,
-});
+// const MicrosoftClarity = dynamic(() => import("./metrics/microsoft-clarity"), {
+//   ssr: false,
+// });
 
 const GoogleAnalytics = dynamic(() => import("./metrics/google-analytics"), {
   ssr: false,
@@ -31,7 +31,7 @@ export default function Root({
   return (
     <html lang={lang}>
       {head}
-      <body className="theme-zinc min-h-screen bg-background font-cursive font-normal text-foreground antialiased">
+      <body className="theme-zinc font-cursive min-h-screen bg-background font-normal text-foreground antialiased">
         <TRPCReactProvider>
           <ThemeProvider
             attribute="class"
@@ -44,7 +44,7 @@ export default function Root({
         </TRPCReactProvider>
 
         <GoogleAnalytics id={process.env.NEXT_PUBLIC_GA_ID!} />
-        <MicrosoftClarity id={process.env.NEXT_PUBLIC_MC_ID!} />
+        {/* <MicrosoftClarity id={process.env.NEXT_PUBLIC_MC_ID!} /> */}
         <LoadFont />
         {languageComponent && <Language />}
       </body>
