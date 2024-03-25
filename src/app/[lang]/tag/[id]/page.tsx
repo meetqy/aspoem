@@ -149,10 +149,19 @@ export default async function TagDetailPage(props: Props) {
               key={key}
               className={cn("mb-12 w-full", { "lg:w-[48%]": item.length < 6 })}
             >
-              <h3 className={cn("prose-h1 !border-none")}>
+              <h3
+                className={cn(
+                  "!border-none",
+                  item.length < 6 ? "prose-h2" : "prose-h1",
+                )}
+              >
                 <Link href={getLangUrl(`/author/${author.id}`, lang)}>
                   {author.name}{" "}
-                  <span className="ml-2 font-serif text-[50%] font-normal capitalize text-muted-foreground">
+                  <span
+                    className={
+                      "ml-2 font-serif text-[50%] font-normal tracking-widest text-muted-foreground"
+                    }
+                  >
                     {author.namePinYin}
                   </span>
                 </Link>
@@ -162,6 +171,7 @@ export default async function TagDetailPage(props: Props) {
                   "prose-p grid list-disc grid-cols-2 gap-4 rounded-md bg-secondary p-4 text-secondary-foreground lg:grid-cols-3",
                   {
                     "lg:grid-cols-1": item.length < 6,
+                    "!mt-2": item.length < 6,
                   },
                 )}
               >
