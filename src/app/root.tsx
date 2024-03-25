@@ -43,8 +43,8 @@ export default function Root({
           </ThemeProvider>
         </TRPCReactProvider>
 
-        <GoogleAnalytics id={process.env.NEXT_PUBLIC_GA_ID!} />
-        <MicrosoftClarity id={process.env.NEXT_PUBLIC_MC_ID!} />
+        <GoogleAnalytics id={process.env.NEXT_PUBLIC_GA_ID} />
+        <MicrosoftClarity id={process.env.NEXT_PUBLIC_MC_ID} />
         <LoadFont />
         {languageComponent && <Language />}
       </body>
