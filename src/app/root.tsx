@@ -9,13 +9,19 @@ import LoadFont from "./load-font";
 import { type Locale } from "~/dictionaries";
 import { Language } from "~/dictionaries/language";
 
-const MicrosoftClarity = dynamic(() => import("./metrics/microsoft-clarity"), {
-  ssr: false,
-});
+const MicrosoftClarity = dynamic(
+  () => import("~/components/metrics/microsoft-clarity"),
+  {
+    ssr: false,
+  },
+);
 
-const GoogleAnalytics = dynamic(() => import("./metrics/google-analytics"), {
-  ssr: false,
-});
+const GoogleAnalytics = dynamic(
+  () => import("~/components/metrics/google-analytics"),
+  {
+    ssr: false,
+  },
+);
 
 export default function Root({
   children,
