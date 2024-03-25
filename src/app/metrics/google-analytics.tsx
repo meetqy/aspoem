@@ -2,7 +2,9 @@
 
 import Script from "next/script";
 
-const GoogleAnalytics = ({ id }: { id: string }) => {
+const GoogleAnalytics = ({ id }: { id?: string }) => {
+  if (!id) return null;
+
   return (
     <>
       <Script

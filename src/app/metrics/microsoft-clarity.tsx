@@ -2,7 +2,9 @@
 
 import Script from "next/script";
 
-const MicrosoftClarity = ({ id }: { id: string }) => {
+const MicrosoftClarity = ({ id }: { id?: string }) => {
+  if (!id) return null;
+
   return (
     <Script
       id="microsoft-clarity-init"
