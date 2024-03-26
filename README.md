@@ -13,6 +13,7 @@
 
 - [贡献指南](./CONTRIBUTING.md)
 - [本地运行](./DEVELOPMENT.md)
+- [Docker 部署](DEVELOPMENT.md#docker部署) 由 [@odysa](https://github.com/odysa) 提供
 
 ## 许可证
 
