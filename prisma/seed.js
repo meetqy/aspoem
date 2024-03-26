@@ -52,8 +52,8 @@ async function main() {
         data: {
             title: '静夜思',
             titlePinYin: 'Jing Ye Si',
-            content: '床前明月光，疑是地上霜。举头望明月，低头思故乡。',
-            contentPinYin: 'Chuang qian ming yue guang, yi shi di shang shuang. Ju tou wang ming yue, di tou si gu xiang.',
+            content: '床前明月光，\n疑是地上霜。\n举头望明月，\n低头思故乡。',
+            contentPinYin: 'Chuang qian ming yue guang,\n yi shi di shang shuang. \nJu tou wang ming yue, \ndi tou si gu xiang.',
             author: {
                 connect: { id: author1.id },
             },
@@ -67,8 +67,8 @@ async function main() {
         data: {
             title: '春望',
             titlePinYin: 'Chun Wang',
-            content: '国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。烽火连三月，家书抵万金。白头搔更短，浑欲不胜簪。',
-            contentPinYin: 'Guo po shan he zai, cheng chun cao mu shen. Gan shi hua jian lei, hen bie niao jing xin. Feng huo lian san yue, jia shu di wan jin. Bai tou sao geng duan, hun yu bu sheng zan.',
+            content: '国破山河在，\n城春草木深。\n感时花溅泪，\n恨别鸟惊心。\n烽火连三月，\n家书抵万金。\n白头搔更短，\n浑欲不胜簪。',
+            contentPinYin: 'Guo po shan he zai, \ncheng chun cao mu shen. \nGan shi hua jian lei, \nhen bie niao jing xin. Feng huo lian san yue, \njia shu di wan jin. \nBai tou sao geng duan, \nhun yu bu sheng zan.',
             author: {
                 connect: { id: author2.id },
             },
