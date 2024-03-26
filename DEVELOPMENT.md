@@ -80,4 +80,13 @@ pnpm db:push
 pnpm dev
 ```
 
+### Docker部署
+本项目包含了 `Dockerfile` 和 `docker-compose.yml` 文件。
+`Dockfile` 用于构建 `aspoem` 服务image，`docker-compose.yml` 用于启动 `aspoem` 和一个 `PostgresSQl`。
+
+快速启动项目，执行以下命令：
+```sh
+docker compose up
+```
+
 用浏览器打开 http://localhost:3000 。
