@@ -17,8 +17,8 @@ export const TagBasic = (props: Props) => {
   const first = statistics[0]![0];
 
   return (
-    <div className="lg:flex lg:space-x-4 lg:space-y-0 space-y-8 overflow-auto text-xl">
-      <div className="lg:w-3/5 w-full space-y-4">
+    <div className="space-y-8 overflow-auto text-xl lg:flex lg:space-x-4 lg:space-y-0">
+      <div className="w-full space-y-4 rounded-md border border-border p-4 lg:w-3/5">
         {statistics.slice(0, 10).map((item, index) => {
           const poem = item[0]!;
 
@@ -63,20 +63,24 @@ export const TagBasic = (props: Props) => {
         })}
       </div>
 
-      <div className="flex lg:w-2/5 w-full flex-col justify-between space-y-4 bg-secondary rounded-md py-4 text-secondary-foreground">
-        <p className="prose-p flex-1 px-4">
-          {props.tag.introduce}
-        </p>
+      <div className="flex w-full flex-col justify-between space-y-4 rounded-md bg-secondary py-4 text-secondary-foreground lg:w-2/5">
+        <p className="prose-p flex-1 px-4">{props.tag.introduce}</p>
 
         <div className="px-4">
           <h2 className="prose-h2">统计</h2>
           <p className="prose-p !text-f100">
             共收录了{" "}
-            <span className="font-mono font-medium text-primary">{props.total}</span>{" "}
+            <span className="font-mono font-medium text-primary">
+              {props.total}
+            </span>{" "}
             首诗，诗人{" "}
-            <span className="font-mono font-medium text-primary">{statistics.length}</span>{" "}
-            位。 其中，最多的诗人是 <b className="text-primary">{first!.author.name}</b>，共有{" "}
-            <span className="font-mono font-medium text-primary">{max}</span> 首诗。
+            <span className="font-mono font-medium text-primary">
+              {statistics.length}
+            </span>{" "}
+            位。 其中，最多的诗人是{" "}
+            <b className="text-primary">{first!.author.name}</b>，共有{" "}
+            <span className="font-mono font-medium text-primary">{max}</span>{" "}
+            首诗。
           </p>
         </div>
       </div>

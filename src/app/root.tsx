@@ -9,13 +9,19 @@ import LoadFont from "./load-font";
 import { type Locale } from "~/dictionaries";
 import { Language } from "~/dictionaries/language";
 
-// const MicrosoftClarity = dynamic(() => import("./metrics/microsoft-clarity"), {
-//   ssr: false,
-// });
+const MicrosoftClarity = dynamic(
+  () => import("~/components/metrics/microsoft-clarity"),
+  {
+    ssr: false,
+  },
+);
 
-const GoogleAnalytics = dynamic(() => import("./metrics/google-analytics"), {
-  ssr: false,
-});
+const GoogleAnalytics = dynamic(
+  () => import("~/components/metrics/google-analytics"),
+  {
+    ssr: false,
+  },
+);
 
 export default function Root({
   children,
@@ -43,8 +49,8 @@ export default function Root({
           </ThemeProvider>
         </TRPCReactProvider>
 
-        <GoogleAnalytics id={process.env.NEXT_PUBLIC_GA_ID!} />
-        {/* <MicrosoftClarity id={process.env.NEXT_PUBLIC_MC_ID!} /> */}
+        <GoogleAnalytics id={process.env.NEXT_PUBLIC_GA_ID} />
+        <MicrosoftClarity id={process.env.NEXT_PUBLIC_MC_ID} />
         <LoadFont />
         {languageComponent && <Language />}
       </body>
