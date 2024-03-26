@@ -12,8 +12,8 @@ import {
 import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
 import { type Metadata } from "next";
-import { TagBasic } from "./components/basic";
 import { cn } from "~/utils";
+import { Button } from "~/components/ui/button";
 
 interface Props {
   params: { id: string; lang: Locale };
@@ -101,6 +101,9 @@ export default async function TagDetailPage(props: Props) {
 
   const rank = statistics.map((item) => item[0]!.author.id);
 
+  const max = statistics[0]?.length || 0;
+  const first = statistics[0]![0];
+
   return (
     <>
       <HeaderMain>
@@ -134,57 +137,95 @@ export default async function TagDetailPage(props: Props) {
         </div>
       </HeaderMain>
 
-      <div className="p-4">
-        <h1 className="prose-h1 mb-8">{tag.name}</h1>
-        <TagBasic data={statistics} tag={tag} total={total} />
-      </div>
+      <main className="mt-4 p-4">
+        <h1 className="prose-h1">{tag.name}</h1>
+        <p className="prose-p">{tag.introduce}</p>
 
-      <div className="mt-12 flex flex-wrap justify-between px-4">
+        <div className="mt-8 space-y-4">
+          <div className="rounded-md border border-border p-4">
+            <h2 className="prose-h2">统计</h2>
+            <p className="prose-p text-muted-foreground">
+              共收录了{" "}
+              <span className="font-mono font-medium text-primary">
+                {total}
+              </span>{" "}
+              首诗，诗人{" "}
+              <span className="font-mono font-medium text-primary">
+                {statistics.length}
+              </span>{" "}
+              位。 其中，最多的诗人是{" "}
+              <b className="text-primary">{first?.author.name}</b>
+              ，共有{" "}
+              <span className="font-mono font-medium text-primary">
+                {max}
+              </span>{" "}
+              首诗。
+            </p>
+
+            <div className="mt-6 grid h-72 grid-cols-5 gap-4 md:grid-cols-10">
+              {statistics.slice(0, 10).map((item, index) => {
+                const poem = item[0]!;
+
+                return (
+                  <div
+                    key={poem.author.id}
+                    className={cn("flex h-full w-full flex-col", {
+                      "hidden md:flex": index > 4,
+                    })}
+                  >
+                    <div className="relative m-auto w-4/5 flex-1">
+                      <div
+                        className={cn(
+                          "absolute bottom-0 left-0 -z-10 flex w-full items-start justify-center bg-primary py-2 font-mono text-f50 font-bold text-primary-foreground",
+                        )}
+                        style={{ minHeight: (item.length / max) * 100 + "%" }}
+                      >
+                        {item.length}
+                      </div>
+                    </div>
+                    <div className="flex aspect-square h-8 flex-shrink-0 items-end justify-center text-f50">
+                      {poem.author.name}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div className="mt-8 flex flex-wrap justify-between px-4">
         {rank.map((key) => {
           const item = json[key]!;
           const author = item[0]!.author;
 
           return (
-            <div
-              key={key}
-              className={cn("mb-12 w-full", { "lg:w-[48%]": item.length < 6 })}
-            >
-              <h3
-                className={cn(
-                  "!border-none",
-                  item.length < 6 ? "prose-h2" : "prose-h1",
-                )}
-              >
+            <div key={key} className={cn("mb-12 w-full")}>
+              <h2 className={"prose-h2"}>
                 <Link href={getLangUrl(`/author/${author.id}`, lang)}>
                   {author.name}{" "}
-                  <span
-                    className={
-                      "ml-2 font-serif text-[50%] font-normal tracking-widest text-muted-foreground"
-                    }
-                  >
+                  <span className="ml-2 font-mono text-[50%] text-muted-foreground">
                     {author.namePinYin}
                   </span>
                 </Link>
-              </h3>
-              <ul
-                className={cn(
-                  "prose-p grid list-disc grid-cols-2 gap-4 rounded-md bg-secondary p-4 text-secondary-foreground lg:grid-cols-3",
-                  {
-                    "lg:grid-cols-1": item.length < 6,
-                    "!mt-2": item.length < 6,
-                  },
-                )}
-              >
+              </h2>
+              <div className="prose-p flex flex-wrap gap-4 px-4 lg:px-0">
                 {item?.map((poem) => (
-                  <Link
-                    href={getLangUrl(`/poem/${poem.id}`, lang)}
+                  <Button
                     key={poem.id}
-                    className="line-clamp-1 hover:underline"
+                    variant={"secondary"}
+                    className="line-clamp-1 block w-min max-w-sm truncate md:max-w-full"
+                    asChild
                   >
-                    {poem.title}
-                  </Link>
+                    <Link
+                      href={getLangUrl(`/poem/${poem.id}`, lang)}
+                      title={poem.title}
+                    >
+                      {poem.title}
+                    </Link>
+                  </Button>
                 ))}
-              </ul>
+              </div>
             </div>
           );
         })}
