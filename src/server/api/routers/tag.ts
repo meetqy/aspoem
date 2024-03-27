@@ -155,7 +155,7 @@ export const tagRouter = createTRPCRouter({
             "author",
             "views",
           ]);
-          
+
           json.author = pick(json.author, [
             "id",
             "name",
@@ -172,8 +172,30 @@ export const tagRouter = createTRPCRouter({
   findById: publicProcedure.input(z.number()).query(({ input, ctx }) =>
     ctx.db.tag.findFirst({
       where: { id: input },
+      include: { poems: true },
     }),
-  ),  
+  ),
+
+  conntentPoemIds: publicProcedure
+    .input(
+      z.object({
+        token: z.string(),
+        ids: z.array(z.number()),
+        tagId: z.number(),
+      }),
+    )
+    .mutation(({ input, ctx }) => {
+      if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
+
+      return ctx.db.tag.update({
+        where: { id: input.tagId },
+        data: {
+          poems: {
+            connect: input.ids.map((id) => ({ id })),
+          },
+        },
+      });
+    }),
 
   deleteById: publicProcedure
     .input(z.number())
