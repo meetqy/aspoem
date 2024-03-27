@@ -1,0 +1,12 @@
+.py-line {
+  @apply mb-8 text-f200;
+  line-height: 2em;
+
+  .py-chinese-item {
+    @apply px-1.5;
+  }
+
+  rt {
+    @apply font-serif text-[60%] text-muted-foreground;
+  }
+}
