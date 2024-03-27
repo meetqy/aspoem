@@ -1,6 +1,11 @@
 .py-line {
-  @apply mb-8 text-f200;
-  line-height: 2em;
+  @apply text-f200;
+  line-height: 2.5em;
+  text-indent: 3em;
+
+  &:not(:last-child) {
+    @apply mb-8;
+  }
 
   .py-chinese-item {
     @apply px-1.5;
@@ -9,4 +14,10 @@
   rt {
     @apply font-serif text-[60%] text-muted-foreground;
   }
+}
+
+.py-line.no-py {
+  @apply text-f200;
+  line-height: 1.75em;
+  text-indent: 2em;
 }
