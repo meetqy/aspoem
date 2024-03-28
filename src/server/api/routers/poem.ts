@@ -293,8 +293,8 @@ export const poemRouter = createTRPCRouter({
       if (!res) return;
 
       // 特殊逻辑，自动标注五言绝句/七言绝句
-      const has = res.tags.find(
-        (tag) => tag.name === "五言绝句" || tag.name === "七言绝句",
+      const has = res.tags.find((tag) =>
+        ["五言绝句", "七言绝句", "五言律诗", "七言律诗"].includes(tag.name),
       );
 
       if (!has) {
