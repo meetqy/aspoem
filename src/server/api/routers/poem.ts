@@ -315,13 +315,15 @@ export const poemRouter = createTRPCRouter({
         // 律诗
         if (contentArr?.length === 8) {
           if (contentArr.every((item) => item.length === 5)) {
-            connectTagId = 106;
+            connectTagId = 105;
           }
 
           if (contentArr.every((item) => item.length === 7)) {
-            connectTagId = 107;
+            connectTagId = 108;
           }
         }
+
+        console.log(contentArr, connectTagId);
 
         if (connectTagId !== -1) {
           void ctx.db.poem
