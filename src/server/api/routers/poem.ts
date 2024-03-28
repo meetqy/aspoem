@@ -324,10 +324,14 @@ export const poemRouter = createTRPCRouter({
         }
 
         if (connectTagId !== -1) {
-          await ctx.db.poem.update({
-            where: { id },
-            data: { tags: { connect: [{ id: connectTagId }] } },
-          });
+          void ctx.db.poem
+            .update({
+              where: { id },
+              data: { tags: { connect: [{ id: connectTagId }] } },
+            })
+            .catch((e) => {
+              console.log(e);
+            });
         }
       }
 
