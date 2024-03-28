@@ -2,6 +2,7 @@ import { type Author, type Poem } from "@prisma/client";
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 import { LangZod, transformPoem, transformTag } from "../utils";
+import { splitChineseSymbol } from "~/utils";
 
 export const poemRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),
@@ -290,6 +291,45 @@ export const poemRouter = createTRPCRouter({
       });
 
       if (!res) return;
+
+      // 特殊逻辑，自动标注五言绝句/七言绝句
+      const has = res.tags.find(
+        (tag) => tag.name === "五言绝句" || tag.name === "七言绝句",
+      );
+
+      if (!has) {
+        const contentArr = splitChineseSymbol(res.content, false);
+
+        let connectTagId = -1;
+
+        // 绝句
+        if (contentArr?.length === 4) {
+          if (contentArr.every((item) => item.length === 5)) {
+            connectTagId = 109;
+          }
+          if (contentArr.every((item) => item.length === 7)) {
+            connectTagId = 110;
+          }
+        }
+
+        // 律诗
+        if (contentArr?.length === 8) {
+          if (contentArr.every((item) => item.length === 5)) {
+            connectTagId = 106;
+          }
+
+          if (contentArr.every((item) => item.length === 7)) {
+            connectTagId = 107;
+          }
+        }
+
+        if (connectTagId !== -1) {
+          await ctx.db.poem.update({
+            where: { id },
+            data: { tags: { connect: [{ id: connectTagId }] } },
+          });
+        }
+      }
 
       const is_hant = !!res.content_zh_Hant;
 

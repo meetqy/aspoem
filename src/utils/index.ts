@@ -24,3 +24,22 @@ export const colors = [
   "text-lime-500",
   "text-orange-500",
 ];
+
+/**
+ * 通过中文字符将字符串分割
+ * @param str
+ * @param separator 是否保留分隔符
+ * @returns
+ */
+export const splitChineseSymbol = (str: string, separator = true) => {
+  if (separator) {
+    return str
+      .replaceAll("\n", "")
+      .match(/[^。|！|？|，|；]+[。|！|？|，|；]+/g);
+  }
+
+  return str
+    .replaceAll("\n", "")
+    .split(/。|！|？|，|；/)
+    .filter((s) => !!s);
+};
