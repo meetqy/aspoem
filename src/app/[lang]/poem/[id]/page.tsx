@@ -194,10 +194,15 @@ export default async function Page({ params, searchParams }: Props) {
       {/* 标签 */}
       <article className="chinese mt-8 px-4">
         {poem.tags.length > 0 && (
-          <div className="mt-12 flex items-center justify-start space-x-2">
+          <div className="mt-12 flex items-center justify-start space-x-4">
             {poem.tags.map((item) => {
               return (
-                <Button variant={"secondary"} key={item.id} asChild>
+                <Button
+                  variant={"secondary"}
+                  key={item.id}
+                  asChild
+                  className="text-f50"
+                >
                   <Link href={`/${params.lang}/tag/${item.id}`}>
                     {item.type === "词牌名" && (
                       <Album className="mr-1 h-4 w-4 opacity-70" />
