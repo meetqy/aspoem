@@ -82,13 +82,10 @@ export default async function Page(props: Props) {
                 <Button
                   key={item.id}
                   variant={"secondary"}
-                  className="mb-2 mr-2"
+                  className="mb-4 mr-4"
                   asChild
                 >
-                  <Link href={`tag/${item.id}`}>
-                    {item.name}
-                    <sup className="ml-1 font-mono">{item._count.poems}</sup>
-                  </Link>
+                  <Link href={`tag/${item.id}`}>{item.name}</Link>
                 </Button>
               ),
           )}
