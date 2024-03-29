@@ -105,6 +105,7 @@ export default function CreatePage() {
     }),
   };
 
+  const [json, setJson] = useState("");
   const [title, setTitle] = useState("");
   const [titlePinYin, setTitlePinYin] = useState("");
   const [contentPinYin, setContentPinYin] = useState("");
@@ -163,10 +164,9 @@ export default function CreatePage() {
   return (
     <>
       <div className="flex flex-col space-y-2">
-        <h3 className="text-2xl font-semibold leading-none tracking-tight">
+        <h3 className="prose-h1">
           {id ? "Edit" : "Add New"} Poem
           <Button
-            size={"sm"}
             className="ml-2"
             onClick={() => {
               if (!titlePinYin) {
@@ -186,7 +186,6 @@ export default function CreatePage() {
             生成拼音
           </Button>
           <Button
-            size={"sm"}
             className="ml-2"
             onClick={() => {
               setTitle(convertToHans(title));
@@ -198,11 +197,41 @@ export default function CreatePage() {
             繁转简
           </Button>
         </h3>
-        <p className="text-muted-foreground">
+        <p className="text-f50 text-muted-foreground">
           Fill out the details htmlFor your new poem
         </p>
       </div>
-      <div className="space-y-4 p-6">
+      <div className="space-y-4 p-6 text-f50">
+        <div className="flex justify-between space-x-4">
+          <Button
+            onClick={() => {
+              const obj = JSON.parse(json) as {
+                annotation: string;
+                content: string;
+                title: string;
+                translation: string;
+              };
+
+              setTitle(obj.title);
+              setContent(obj.content.replace("\n", ""));
+              setTranslation(obj.translation.replace("译文\n", ""));
+              setFormat(obj.annotation.replace("注释\n", ""));
+            }}
+          >
+            一键填充
+          </Button>
+          <Input
+            value={json}
+            placeholder="{
+              annotation: string;
+              content: string;
+              title: string;
+              translation: string;
+            }"
+            onChange={(e) => setJson(e.target.value)}
+          />
+        </div>
+
         {/* 名字 */}
         <div className="grid grid-cols-2 gap-x-4">
           <div className="space-y-2">
@@ -345,8 +374,8 @@ export default function CreatePage() {
             {tags?.data.map((item) => (
               <Button
                 key={item.id}
+                className="text-f50"
                 variant={tagIds.includes(item.id) ? "default" : "ghost"}
-                size={"xs"}
                 onClick={() => {
                   if (tagIds.includes(item.id)) {
                     setTagIds(tagIds.filter((i) => i !== item.id));
@@ -364,7 +393,6 @@ export default function CreatePage() {
         <div className="space-y-2">
           <div className="flex space-x-2 font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
             <Button
-              size={"sm"}
               onClick={() => {
                 setAnnotations([
                   ...annotations,
@@ -381,7 +409,6 @@ export default function CreatePage() {
               className="mr-2"
             />
             <Button
-              size={"sm"}
               onClick={() => {
                 const arrs = format.split("\n");
 
@@ -408,7 +435,6 @@ export default function CreatePage() {
             <div className="grid grid-cols-4 gap-4" key={index}>
               <div className="col-span-1 flex items-center space-x-2">
                 <Button
-                  size={"sm"}
                   variant={"outline"}
                   className="h-8 w-8 rounded-full"
                   onClick={() => {
