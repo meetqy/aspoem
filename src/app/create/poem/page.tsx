@@ -164,8 +164,8 @@ export default function CreatePage() {
   return (
     <>
       <div className="flex flex-col space-y-2">
-        <h3 className="prose-h1">
-          {id ? "Edit" : "Add New"} Poem
+        <h3>
+          <span className="prose-h1">{id ? "Edit" : "Add New"} Poem</span>
           <Button
             className="ml-2"
             onClick={() => {
@@ -374,7 +374,6 @@ export default function CreatePage() {
             {tags?.data.map((item) => (
               <Button
                 key={item.id}
-                className="text-f50"
                 variant={tagIds.includes(item.id) ? "default" : "ghost"}
                 onClick={() => {
                   if (tagIds.includes(item.id)) {
