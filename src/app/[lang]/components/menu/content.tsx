@@ -158,7 +158,7 @@ export function Content({
       <div className="px-4">
         <Separator className="my-4" />
       </div>
-      <p className="px-4 text-f50 text-muted-foreground">{dict.menu.contact}</p>
+      <p className="px-4 text-f50">{dict.menu.contact}</p>
       <nav className="flex space-x-2 p-4">
         {[
           {
@@ -179,16 +179,15 @@ export function Content({
           {
             title: "留言",
             href: `/${lang}/feedback`,
-            icon: <SendIcon className="h-7 w-7" strokeWidth={1.5} />,
+            icon: (
+              <SendIcon
+                className="h-7 w-7 text-destructive"
+                strokeWidth={1.5}
+              />
+            ),
           },
         ].map(({ href, icon, title }) => (
-          <Button
-            key={href}
-            size={"icon"}
-            variant={"ghost"}
-            className="hover:bg-primary hover:text-primary-foreground"
-            aria-label={title}
-          >
+          <Button key={href} size={"icon"} variant={"ghost"} aria-label={title}>
             <Link
               aria-label={title}
               href={href}
