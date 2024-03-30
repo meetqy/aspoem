@@ -48,26 +48,20 @@
     }
   }
 
-  .text-outline {
+  .text-primary-outline {
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: hsl(var(--foreground));
-    color: transparent;
-  }
-
-  .text-outline-muted {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: hsl(var(--muted-foreground));
+    -webkit-text-stroke-color: hsl(var(--primary));
     color: transparent;
   }
 
   [prose-h1],
   .prose-h1 {
-    @apply text-f400 scroll-m-20 tracking-tight lg:text-5xl;
+    @apply scroll-m-20 text-f400 tracking-tight lg:text-5xl;
   }
 
   [prose-h2],
   .prose-h2 {
-    @apply text-f300 mt-12 scroll-m-20 border-b border-border pb-2 tracking-tight first:mt-0;
+    @apply mt-12 scroll-m-20 border-b border-border pb-2 text-f300 tracking-tight first:mt-0;
   }
 
   [prose-p],

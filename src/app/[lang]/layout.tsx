@@ -68,11 +68,11 @@ export default async function Layout({
               <header className="h-16">
                 <Link
                   href={`/${params.lang}`}
-                  className="text-outline flex h-16 items-center justify-center font-serif text-[2.5rem] font-bold"
+                  className="text-primary-outline flex h-16 items-center justify-center font-serif text-[2.5rem] font-bold"
                   style={{ fontFamily: "Palatino,Times New Roman" }}
                 >
                   AsPoem
-                  <span className="text-muted-foreground">.com</span>
+                  <span className="text-primary">.com</span>
                 </Link>
               </header>
 
