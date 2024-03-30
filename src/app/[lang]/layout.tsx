@@ -8,8 +8,8 @@ import {
   getMetaDataAlternates,
 } from "~/dictionaries";
 import { type Metadata } from "next/types";
-import Root from "../root";
 import { MyHost } from "~/utils";
+import { Language } from "~/dictionaries/language";
 
 const Search = dynamic(() => import("./components/search"), { ssr: false });
 const ModeToggle = dynamic(() => import("~/components/mode-toggle"), {
@@ -60,7 +60,7 @@ export default async function Layout({
   const dict = await getDictionary(params.lang);
 
   return (
-    <Root lang={params.lang}>
+    <>
       <div className="relative z-10 flex bg-background/20 p-0">
         <aside className="hidden lg:block">
           <div className="fixed left-0 top-0 h-screen bg-muted/50">
@@ -101,6 +101,8 @@ export default async function Layout({
           <main className="relative m-auto max-w-screen-md">{children}</main>
         </div>
       </div>
-    </Root>
+
+      <Language />
+    </>
   );
 }

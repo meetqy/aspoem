@@ -10,6 +10,7 @@ export const Language = () => {
 
   useEffect(() => {
     const lang = localStorage.getItem("lang");
+    document.documentElement.lang = lang || "zh-Hans";
 
     if (/^\/(demo|create)/.test(pathname)) return;
 

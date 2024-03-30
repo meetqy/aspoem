@@ -13,7 +13,7 @@ export default function NotFound() {
   return (
     <div className="relative m-auto flex min-h-screen max-w-screen-md flex-col items-center justify-center">
       <div className="absolute top-[30%] text-center font-mono">
-        <h1 className="prose-h1">Page Not Found !</h1>
+        <h1 className="prose-h1">Page Error !</h1>
         <p className="mt-12">
           <Button size={"lg"} asChild>
             <Link href={`/${lang}`}>
