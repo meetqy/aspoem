@@ -35,11 +35,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             {children}
           </ThemeProvider>
         </TRPCReactProvider>
-      </body>
 
-      <GoogleAnalytics id={process.env.NEXT_PUBLIC_GA_ID} />
-      <MicrosoftClarity id={process.env.NEXT_PUBLIC_MC_ID} />
-      <LoadFont />
+        <GoogleAnalytics id={process.env.NEXT_PUBLIC_GA_ID} />
+        <MicrosoftClarity id={process.env.NEXT_PUBLIC_MC_ID} />
+        <LoadFont />
+      </body>
     </html>
   );
 }
