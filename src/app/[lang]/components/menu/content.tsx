@@ -187,11 +187,17 @@ export function Content({
             ),
           },
         ].map(({ href, icon, title }) => (
-          <Button key={href} size={"icon"} variant={"ghost"} aria-label={title}>
+          <Button
+            key={href}
+            size={"icon"}
+            variant={"ghost"}
+            aria-label={title}
+            asChild
+          >
             <Link
               aria-label={title}
               href={href}
-              className="flex justify-center"
+              className="flex cursor-pointer justify-center"
             >
               {icon}
             </Link>
