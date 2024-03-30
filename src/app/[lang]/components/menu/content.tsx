@@ -7,8 +7,6 @@ import { useEffect, useState } from "react";
 import { cn } from "~/utils";
 import {
   Album,
-  ArrowRight,
-  ArrowUpRightIcon,
   Check,
   GithubIcon,
   Rocket,
@@ -28,6 +26,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "~/components/ui/select";
+import Link from "next/link";
 
 export function Content({
   className,
@@ -107,55 +106,7 @@ export function Content({
       <div className="px-4">
         <Separator className="my-4" />
       </div>
-      <p className="px-4 text-base text-muted-foreground">
-        {dict.menu.contact}
-      </p>
-      <div>
-        <Nav
-          isCollapsed={false}
-          links={[
-            {
-              title: dict.menu.feedback,
-              href: `/${lang}/feedback`,
-              icon: SendIcon,
-              variant: "ghost",
-              label: <ArrowRight className="h-4 w-4 text-destructive" />,
-            },
-            {
-              title: "Github",
-              icon: GithubIcon,
-              variant: "ghost",
-              href: "https://github.com/meetqy/aspoem",
-              label: (
-                <ArrowUpRightIcon className="h-4 w-4 text-muted-foreground" />
-              ),
-            },
-            {
-              title: "Twitter",
-              icon: TwitterIcon,
-              variant: "ghost",
-              href: "https://twitter.com/meetqy",
-              label: (
-                <ArrowUpRightIcon className="h-4 w-4 text-muted-foreground" />
-              ),
-            },
-            {
-              title: "Product Hunt",
-              icon: Rocket,
-              variant: "ghost",
-              href: "https://www.producthunt.com/products/aspoem-com-learn-chinese-poetry",
-              label: (
-                <ArrowUpRightIcon className="h-4 w-4 text-muted-foreground" />
-              ),
-            },
-          ]}
-        />
-      </div>
-
-      <div className="px-4">
-        <Separator className="my-4" />
-      </div>
-      <p className="px-4 text-base text-muted-foreground">{dict.menu.theme}</p>
+      <p className="px-4 text-f50 text-muted-foreground">{dict.menu.theme}</p>
       <div className="my-4 flex justify-between px-4">
         {["zinc", "rose", "blue", "green", "orange"].map((item) => (
           <Button
@@ -184,7 +135,7 @@ export function Content({
           </Button>
         ))}
       </div>
-      <p className="px-4 text-base text-muted-foreground">
+      <p className="px-4 text-f50 text-muted-foreground">
         {dict.menu.language}
       </p>
       <div className="my-4 px-4">
@@ -204,6 +155,50 @@ export function Content({
           </SelectContent>
         </Select>
       </div>
+      <div className="px-4">
+        <Separator className="my-4" />
+      </div>
+      <p className="px-4 text-f50 text-muted-foreground">{dict.menu.contact}</p>
+      <nav className="flex space-x-2 p-4">
+        {[
+          {
+            title: "GitHub",
+            href: "https://github.com/meetqy/aspoem",
+            icon: <GithubIcon className="h-7 w-7" strokeWidth={1.5} />,
+          },
+          {
+            title: "twitter",
+            href: "https://twitter.com/meetqy",
+            icon: <TwitterIcon className="h-7 w-7" strokeWidth={1.5} />,
+          },
+          {
+            title: `ProductHunt`,
+            href: "https://www.producthunt.com/products/aspoem-com-learn-chinese-poetry",
+            icon: <Rocket className="h-7 w-7" strokeWidth={1.5} />,
+          },
+          {
+            title: "留言",
+            href: `/${lang}/feedback`,
+            icon: <SendIcon className="h-7 w-7" strokeWidth={1.5} />,
+          },
+        ].map(({ href, icon, title }) => (
+          <Button
+            key={href}
+            size={"icon"}
+            variant={"ghost"}
+            className="hover:bg-primary hover:text-primary-foreground"
+            aria-label={title}
+          >
+            <Link
+              aria-label={title}
+              href={href}
+              className="flex justify-center"
+            >
+              {icon}
+            </Link>
+          </Button>
+        ))}
+      </nav>
     </div>
   );
 }
