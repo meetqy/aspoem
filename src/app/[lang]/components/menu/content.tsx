@@ -164,24 +164,24 @@ export function Content({
           {
             title: "GitHub",
             href: "https://github.com/meetqy/aspoem",
-            icon: <GithubIcon className="h-7 w-7" strokeWidth={1.5} />,
+            icon: <GithubIcon className="h-6 w-6" strokeWidth={1.5} />,
           },
           {
             title: "twitter",
             href: "https://twitter.com/meetqy",
-            icon: <TwitterIcon className="h-7 w-7" strokeWidth={1.5} />,
+            icon: <TwitterIcon className="h-6 w-6" strokeWidth={1.5} />,
           },
           {
             title: `ProductHunt`,
             href: "https://www.producthunt.com/products/aspoem-com-learn-chinese-poetry",
-            icon: <Rocket className="h-7 w-7" strokeWidth={1.5} />,
+            icon: <Rocket className="h-6 w-6" strokeWidth={1.5} />,
           },
           {
             title: "留言",
             href: `/${lang}/feedback`,
             icon: (
               <SendIcon
-                className="h-7 w-7 text-destructive"
+                className="h-6 w-6 text-destructive"
                 strokeWidth={1.5}
               />
             ),
