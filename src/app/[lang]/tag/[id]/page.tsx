@@ -214,7 +214,7 @@ export default async function TagDetailPage(props: Props) {
                   <Button
                     key={poem.id}
                     variant={"secondary"}
-                    className="line-clamp-1 block w-min max-w-sm truncate md:max-w-full"
+                    className="line-clamp-1 block w-min max-w-sm truncate text-f50 md:max-w-full"
                     asChild
                   >
                     <Link

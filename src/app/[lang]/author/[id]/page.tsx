@@ -104,14 +104,14 @@ export default async function Page({ params, searchParams }: Props) {
         <div className="text-left md:ml-16">
           <h1 prose-h1="">
             <span>{author.name}</span>{" "}
-            <span className="text-f100 font-mono font-normal !tracking-tighter text-muted-foreground">
+            <span className="font-mono text-f100 font-normal !tracking-tighter text-muted-foreground">
               {author.namePinYin}
             </span>
           </h1>
-          <p className="text-f100 mt-4 line-clamp-3 text-secondary-foreground">
+          <p className="mt-4 line-clamp-3 text-f100 text-secondary-foreground">
             {author.introduce}
           </p>
-          <div className="text-f50 mt-8">
+          <div className="mt-8 text-f50">
             <p className="flex items-center">
               <CalendarIcon className="h-5 w-5 text-muted-foreground" />
               <span className="ml-2">
@@ -130,7 +130,7 @@ export default async function Page({ params, searchParams }: Props) {
                 维基百科/{author.name}
               </Link>
             </p>
-            <div className="mt-8 space-x-4">
+            <div className="mt-8 space-x-4 text-f50">
               <Button variant={"secondary"}>{author.dynasty}朝</Button>
             </div>
           </div>
