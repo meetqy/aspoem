@@ -3,13 +3,14 @@ import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 import { LangZod, transformPoem, transformTag } from "../utils";
 import { pick } from "lodash-es";
 import { type Author, type PrismaClient } from "@prisma/client";
+import { type Locale } from "~/dictionaries";
 
 interface FindMany {
   input: {
     select: ("type" | "name" | "introduce" | "_count")[];
     page: number;
     pageSize: number;
-    lang: "zh-Hans" | "zh-Hant";
+    lang: Locale;
     type?: string | null | undefined;
   };
   ctx: {

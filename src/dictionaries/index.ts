@@ -40,7 +40,7 @@ export const getDictionary = async (locale: Locale = "zh-Hans") => {
 
 export type Dictionary = Awaited<ReturnType<typeof getDictionary>>;
 
-export const getLangText = (obj: { [key in Locale]: string }, lang: Locale) =>
-  obj[lang];
+export const getLangText = (obj: Record<string, string>, lang: Locale) =>
+  obj[lang] || obj[defaultLocale] || "";
 
 export const getLangUrl = (url: string, lang: Locale) => `/${lang}${url}`;

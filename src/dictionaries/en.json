@@ -57,8 +57,9 @@
   },
   "poem_list": {
     "title": "Poem List",
-    "empty": "No related poems found",
-    "tab_new": "Newest"
+    "empty": "No relevant poems found",
+    "tab_new": "Newest",
+    "tab_improve": "To be improved"
   },
   "author": {
     "title": "Poets"
