@@ -9,7 +9,7 @@ import {
 } from "~/dictionaries";
 import { type Metadata } from "next/types";
 import { MyHost } from "~/utils";
-import { Language } from "~/dictionaries/language";
+import { Language } from "~/components/language";
 
 const Search = dynamic(() => import("./components/search"), { ssr: false });
 const ModeToggle = dynamic(() => import("~/components/mode-toggle"), {

@@ -30,7 +30,6 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     "/author/:paht*",
-    "/cipaiming/:paht*",
     "/ci-pai-ming/:paht*",
     "/feedback/:paht*",
     "/list/:paht*",

@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { type Locale } from "~/dictionaries";
 
 export default function Twikoo({ lang }: { lang: Locale }) {
-  const pathname = usePathname().replace(/(zh-Hans|zh-Hant)\/?/, "");
+  const pathname = usePathname().replace(`/${lang}`, "");
 
   useEffect(() => {
     // 通过 CDN 引入 twikoo js 文件
@@ -18,11 +18,15 @@ export default function Twikoo({ lang }: { lang: Locale }) {
     const loadSecondScript = () => {
       // 执行 twikoo.init() 函数
       const initScript = document.createElement("script");
+      let _lang: string = lang;
+      lang === "zh-Hans" && (_lang = "zh-cn");
+      lang === "zh-Hant" && (_lang = "zh-tw");
+
       initScript.innerHTML = `
             twikoo.init({
               envId: "https://twikoo.aspoem.com/.netlify/functions/twikoo",
               el: '#twikoo-comment',
-              lang: "${lang === "zh-Hans" ? "zh-cn" : "zh-tw"}",
+              lang: "${_lang}",
               path: "${pathname}",
             });
           `;

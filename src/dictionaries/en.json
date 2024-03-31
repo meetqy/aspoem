@@ -1,0 +1,77 @@
+{
+  "title": "Learn Poems Website",
+  "description": "aspoem.com is a modern poetry learning website that offers a comprehensive site search feature, allowing you to quickly search for regulated verse, quatrains, and works by various poets. We have also optimized the display of pinyin annotations, annotations, and vernacular Chinese, making poetry easier to read. Additionally, we provide a poetry printing tool to assist you in better studying ancient poetry. Come and experience the charm of our website!",
+  "point_keywords": [
+    "poetry learning",
+    "learning ancient poetry",
+    "Three Hundred Tang Poems",
+    "Three Hundred Song Lyrics",
+    "Complete Works of Li Bai",
+    "Complete Works of Du Fu"
+  ],
+  "keywords": [
+    "poetry learning",
+    "learning ancient poetry",
+    "Three Hundred Tang Poems",
+    "Three Hundred Song Lyrics",
+    "Complete Works of Li Bai",
+    "Complete Works of Du Fu",
+    "ancient poetry",
+    "poetry",
+    "poet statistics",
+    "poetry search",
+    "poetry pinyin",
+    "poetry annotations",
+    "poetry translation",
+    "pinyin"
+  ],
+  "menu": {
+    "poem": "Poems",
+    "author": "Poets",
+    "ci_pai_ming": "Ci Pai Ming",
+    "tag": "Tags",
+    "contact": "Contact",
+    "theme": "Theme",
+    "language": "Language",
+    "feedback": "Feedback",
+    "print": "Print"
+  },
+  "feedback_desc": "You can check the website's update log, future plans, and discussions on new features here. At the same time, you can also leave your suggestions and opinions here.",
+  "home": {
+    "poem": "Recommended",
+    "all_poems": "All Poems"
+  },
+  "poem": {
+    "title": "Poems",
+    "pinyin": "Pinyin",
+    "pinyin_show": "Show Pinyin",
+    "pinyin_hide": "Hide Pinyin",
+    "translation": "Translation",
+    "tools": "Tools",
+    "more": "More Explore",
+    "comment": "Comment",
+    "comment_desc1": "Different ages, growth environments, and experiences will have different views.",
+    "comment_desc2": "Therefore, there is no standard answer, just like it yourself! Welcome to leave your thoughts!👏🏻👏🏻👏🏻",
+    "report_error": "Report Error",
+    "report_error_desc": "If you find an error, you can also leave a message below to correct it!"
+  },
+  "poem_list": {
+    "title": "Poem List",
+    "empty": "No related poems found",
+    "tab_new": "Newest"
+  },
+  "author": {
+    "title": "Poets"
+  },
+  "author_detail": {
+    "title": "Poets"
+  },
+  "search": {
+    "placeholder": "Search for poems, poets, etc.",
+    "empty": "No search results found"
+  },
+  "pagination": {
+    "prev": "Previous",
+    "next": "Next"
+  }
+}

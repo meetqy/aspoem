@@ -323,8 +323,6 @@ export const poemRouter = createTRPCRouter({
           }
         }
 
-        console.log(contentArr, connectTagId);
-
         if (connectTagId !== -1) {
           void ctx.db.poem
             .update({

@@ -27,7 +27,7 @@
   ],
   "menu": {
     "poem": "詩詞",
-    "auhtor": "詩人",
+    "author": "詩人",
     "ci_pai_ming": "詞牌名",
     "tag": "標籤",
     "contact": "聯繫方式",
@@ -36,6 +36,7 @@
     "feedback": "留言",
     "print": "打印"
   },
+  "feedback_desc": "可以在此處查看網站的更新日誌、未來規劃，以及對新增功能的討論。同時，也可以在此留下您的建議和意見。",
   "home": {
     "poem": "推薦",
     "all_poems": "全部詩詞"

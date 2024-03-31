@@ -37,7 +37,7 @@ export function Content({
   dict: Dictionary;
   lang: Locale;
 }) {
-  const pathname = usePathname().replace(/(zh-Hans|zh-Hant)\/?/, "");
+  const pathname = usePathname().replace(`/${lang}`, "");
 
   const { data: poemCount } = api.poem.count.useQuery();
   const { data: authorCount } = api.author.count.useQuery();
@@ -73,7 +73,7 @@ export function Content({
             href: `/${lang}`,
           },
           {
-            title: dict.menu.auhtor,
+            title: dict.menu.author,
             label: <span className="font-mono">{authorCount}</span>,
             icon: UserRound,
             variant: /^(\/author)/.test(pathname) ? "default" : "ghost",
@@ -93,13 +93,6 @@ export function Content({
             variant: /^(\/tag)/.test(pathname) ? "default" : "ghost",
             href: `/${lang}/tag`,
           },
-          // {
-          //   title: dict.menu.print,
-          //   icon: Printer,
-          //   label: <ArrowRight className="h-4 w-4 text-destructive" />,
-          //   variant: /^(\/print)/.test(pathname) ? "default" : "ghost",
-          //   href: `/tools/print`,
-          // },
         ]}
       />
 
@@ -138,7 +131,7 @@ export function Content({
       <p className="px-4 text-f50 text-muted-foreground">
         {dict.menu.language}
       </p>
-      <div className="my-4 px-4">
+      <div className="my-4 px-4 text-f50">
         <Select
           value={lang}
           onValueChange={(value) => {
@@ -152,6 +145,9 @@ export function Content({
           <SelectContent>
             <SelectItem value="zh-Hans">中文简体</SelectItem>
             <SelectItem value="zh-Hant">中文繁体</SelectItem>
+            <SelectItem value="en">English</SelectItem>
+            <SelectItem value="ko">한국어</SelectItem>
+            <SelectItem value="ja">日本語</SelectItem>
           </SelectContent>
         </Select>
       </div>
