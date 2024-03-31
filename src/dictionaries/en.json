@@ -36,6 +36,7 @@
     "feedback": "Feedback",
     "print": "Print"
   },
+  "feedback_desc": "You can check the website's update log, future plans, and discussions on new features here. At the same time, you can also leave your suggestions and opinions here.",
   "home": {
     "poem": "Recommended",
     "all_poems": "All Poems"
@@ -48,7 +49,7 @@
     "translation": "Translation",
     "tools": "Tools",
     "more": "More Explore",
-    "comment": "Speak freely",
+    "comment": "Comment",
     "comment_desc1": "Different ages, growth environments, and experiences will have different views.",
     "comment_desc2": "Therefore, there is no standard answer, just like it yourself! Welcome to leave your thoughts!👏🏻👏🏻👏🏻",
     "report_error": "Report Error",

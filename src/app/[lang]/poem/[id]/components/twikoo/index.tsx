@@ -18,11 +18,15 @@ export default function Twikoo({ lang }: { lang: Locale }) {
     const loadSecondScript = () => {
       // 执行 twikoo.init() 函数
       const initScript = document.createElement("script");
+      let _lang: string = lang;
+      lang === "zh-Hans" && (_lang = "zh-cn");
+      lang === "zh-Hant" && (_lang = "zh-tw");
+
       initScript.innerHTML = `
             twikoo.init({
               envId: "https://twikoo.aspoem.com/.netlify/functions/twikoo",
               el: '#twikoo-comment',
-              lang: "${lang === "zh-Hans" ? "zh-cn" : "zh-tw"}",
+              lang: "${_lang}",
               path: "${pathname}",
             });
           `;
