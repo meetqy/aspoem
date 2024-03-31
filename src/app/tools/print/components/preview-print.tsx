@@ -185,7 +185,7 @@ export default function PreviewPrint({
           {opts.translation && (
             <p className="flex h-20 items-center justify-between text-2xl text-neutral-400">
               <span className="text-5xl text-black">译文</span>
-              aspoem.com | 现代化中国诗词学习网站
+              aspoem.com | 现代化诗词学习网站
             </p>
           )}
 

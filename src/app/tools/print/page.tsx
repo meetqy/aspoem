@@ -19,7 +19,7 @@ export async function generateMetadata(props: Props) {
 
   if (!poem) {
     return {
-      title: "诗词打印工具 | 现代化中国诗词学习网站",
+      title: "诗词打印工具 | 现代化诗词学习网站",
       description:
         "本工具支持在线打印诗词田字格、内容、译文、拼音。允许你自由组合打印方式。",
     };
