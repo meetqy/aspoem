@@ -2,7 +2,7 @@ import { type Tag, type Poem } from "@prisma/client";
 import { mapKeys, pick } from "lodash-es";
 import { z } from "zod";
 
-export const LangZod = z.enum(["zh-Hans", "zh-Hant"]).default("zh-Hans");
+export const LangZod = z.enum(["zh-Hans", "zh-Hant", "en"]).default("zh-Hans");
 
 function transform<T extends Record<string, unknown>>(
   res: T,

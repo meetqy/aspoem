@@ -37,7 +37,7 @@ export function Content({
   dict: Dictionary;
   lang: Locale;
 }) {
-  const pathname = usePathname().replace(/(zh-Hans|zh-Hant)\/?/, "");
+  const pathname = usePathname().replace(/(zh-Hans|zh-Hant|en)\/?/, "");
 
   const { data: poemCount } = api.poem.count.useQuery();
   const { data: authorCount } = api.author.count.useQuery();
@@ -152,6 +152,7 @@ export function Content({
           <SelectContent>
             <SelectItem value="zh-Hans">中文简体</SelectItem>
             <SelectItem value="zh-Hant">中文繁体</SelectItem>
+            <SelectItem value="en">English</SelectItem>
           </SelectContent>
         </Select>
       </div>

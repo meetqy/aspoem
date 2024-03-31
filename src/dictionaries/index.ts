@@ -1,18 +1,25 @@
 import "server-only";
 
-export const locales = ["zh-Hans", "zh-Hant"] as const;
+export const locales = ["zh-Hans", "zh-Hant", "en"] as const;
 
 export const defaultLocale = "zh-Hans";
 
 const dictionaries = {
   "zh-Hant": () => import("./zh-Hant.json").then((module) => module.default),
   "zh-Hans": () => import("./zh-Hans.json").then((module) => module.default),
+  en: () => import("./en.json").then((module) => module.default),
 };
 
 export type Locale = keyof typeof dictionaries;
 
 export const getDictionary = async (locale: Locale = "zh-Hans") => {
-  return dictionaries[locale]();
+  const zhHans = await dictionaries["zh-Hans"]();
+  const result = await dictionaries[locale]();
+
+  return {
+    ...zhHans,
+    ...result,
+  };
 };
 
 export type Dictionary = Awaited<ReturnType<typeof getDictionary>>;
@@ -27,6 +34,7 @@ export const getMetaDataAlternates = (suffix: string, lang: Locale) => {
     languages: {
       "zh-Hans": `/zh-Hans${suffix}`,
       "zh-Hant": `/zh-Hant${suffix}`,
+      en: `/en${suffix}`,
     },
     canonical: `/${lang}${suffix}`,
   };
