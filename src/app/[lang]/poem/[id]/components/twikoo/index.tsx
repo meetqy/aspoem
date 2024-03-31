@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { type Locale } from "~/dictionaries";
 
 export default function Twikoo({ lang }: { lang: Locale }) {
-  const pathname = usePathname().replace(/(zh-Hans|zh-Hant)\/?/, "");
+  const pathname = usePathname().replace(`/${lang}`, "");
 
   useEffect(() => {
     // 通过 CDN 引入 twikoo js 文件

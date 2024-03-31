@@ -37,7 +37,7 @@ export function Content({
   dict: Dictionary;
   lang: Locale;
 }) {
-  const pathname = usePathname().replace(lang, "");
+  const pathname = usePathname().replace(`/${lang}`, "");
 
   const { data: poemCount } = api.poem.count.useQuery();
   const { data: authorCount } = api.author.count.useQuery();
