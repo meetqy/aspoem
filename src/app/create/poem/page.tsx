@@ -210,12 +210,14 @@ export default function CreatePage() {
                 content: string;
                 title: string;
                 translation: string;
+                author: string;
               };
 
               setTitle(obj.title);
               setContent(obj.content.replace("\n", ""));
               setTranslation(obj.translation.replace("译文\n", ""));
               setFormat(obj.annotation.replace("注释\n", ""));
+              setKeyword(obj.author);
             }}
           >
             一键填充
