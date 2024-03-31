@@ -1,11 +1,13 @@
 import "server-only";
 
 export const defaultLocale = "zh-Hans";
-export const locales = ["zh-Hans", "zh-Hant", "en"] as const;
+export const locales = ["zh-Hans", "zh-Hant", "en", "ja", "ko"] as const;
 const dictionaries = {
   "zh-Hant": () => import("./zh-Hant.json").then((module) => module.default),
   "zh-Hans": () => import("./zh-Hans.json").then((module) => module.default),
   en: () => import("./en.json").then((module) => module.default),
+  ja: () => import("./ja.json").then((module) => module.default),
+  ko: () => import("./ko.json").then((module) => module.default),
 };
 
 export type Locale = (typeof locales)[number];
@@ -14,12 +16,14 @@ export type Locale = (typeof locales)[number];
  * 生成多语言 meta hreflang 标签
  */
 export const getMetaDataAlternates = (suffix: string, lang: Locale) => {
+  const languages: Record<string, string> = {};
+
+  for (const locale of locales) {
+    languages[locale] = `/${locale}${suffix}`;
+  }
+
   return {
-    languages: {
-      "zh-Hans": `/zh-Hans${suffix}`,
-      "zh-Hant": `/zh-Hant${suffix}`,
-      en: `/en${suffix}`,
-    },
+    languages,
     canonical: `/${lang}${suffix}`,
   };
 };
