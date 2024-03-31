@@ -1,4 +1,5 @@
 import { type Author, type Poem } from "@prisma/client";
+import { random } from "lodash-es";
 
 interface Props {
   data: Poem & { author: Author };
@@ -7,11 +8,22 @@ interface Props {
 const DrawDefaultPreview = (props: Props) => {
   const { data: poem } = props;
 
-  const content =
+  const contentTemp =
     poem.content
       .replaceAll("\n", "")
-      .match(/[^。|！|？|，|；]+[。|！|？|，|；]+/g)
-      ?.slice(0, 2) || [];
+      .match(/[^。|！|？|，|；]+[。|！|？|，|；]+/g) || [];
+
+  const endRandom: number[] = [];
+
+  contentTemp.map((_, i) => {
+    const index = i + 1;
+
+    if (index % 2 === 0) endRandom.push(index);
+  });
+
+  const end = endRandom[random(0, endRandom.length - 1)] || 2;
+
+  const content = contentTemp?.slice(end - 2, end) || [];
 
   return (
     <div
