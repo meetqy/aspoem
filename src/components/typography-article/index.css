@@ -1,0 +1,27 @@
+.py-line {
+  @apply text-f200;
+  line-height: 2.5em;
+  text-indent: 3em;
+
+  &:not(:last-child) {
+    @apply mb-8;
+  }
+
+  .py-chinese-item {
+    @apply px-1.5;
+  }
+
+  b {
+    @apply relative cursor-pointer border-b border-primary/50 font-normal text-primary transition-colors dark:text-destructive;
+  }
+
+  rt {
+    @apply font-serif text-[60%] !font-normal text-muted-foreground;
+  }
+}
+
+.py-line.no-py {
+  @apply text-f200;
+  line-height: 1.75em;
+  text-indent: 2em;
+}
