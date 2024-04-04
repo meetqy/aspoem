@@ -6,6 +6,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return data.map((item) => ({
     url: `https://aspoem.com/author/${item.id}`,
-    lastModified: new Date(item.updatedAt ?? "2024-01-01"),
   }));
 }
