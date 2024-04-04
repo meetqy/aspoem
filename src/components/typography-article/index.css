@@ -12,13 +12,13 @@
   }
 
   b {
-    @apply relative cursor-pointer transition-colors hover:text-destructive;
+    @apply relative cursor-pointer font-normal text-primary transition-colors;
 
-    /* &::after {
+    &::after {
       content: "";
       text-indent: 0;
 
-      @apply absolute bottom-0 left-1/2 h-[1px] w-11/12 bg-neutral-900;
+      @apply absolute bottom-0 left-1/2 h-[1px] w-11/12 bg-primary;
       transform: translateX(-50%);
     }
 
@@ -26,9 +26,9 @@
       content: "";
       text-indent: 0;
 
-      @apply absolute bottom-0.5 left-1/2 h-[1px] w-11/12 bg-neutral-900;
+      @apply absolute bottom-0.5 left-1/2 h-[1px] w-11/12 bg-primary;
       transform: translateX(-50%);
-    } */
+    }
   }
 
   rt {

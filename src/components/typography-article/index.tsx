@@ -1,5 +1,6 @@
 import { cn } from "~/utils";
 import { AnnotationModal } from "./annotation-modal";
+import "./index.css";
 
 interface Props {
   paragraphs: string[];

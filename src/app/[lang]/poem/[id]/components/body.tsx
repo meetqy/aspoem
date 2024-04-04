@@ -3,6 +3,7 @@ import { Verse } from "~/components/verse";
 import { cn } from "~/utils";
 import Link from "next/link";
 import { type Locale, getLangUrl } from "~/dictionaries";
+import { TypographyArticle } from "~/components/typography-article";
 
 export const Body = (props: {
   poem: Poem & { author: Author };
@@ -21,8 +22,6 @@ export const Body = (props: {
   };
 
   const titlePinYin = py ? poem.titlePinYin ?? "" : "";
-
-  const shi = poem.genre === "诗";
 
   return (
     <article className="group py-8">
@@ -56,16 +55,23 @@ export const Body = (props: {
           </p>
         )}
 
-        {content.map((line, index) => (
-          <Verse
-            key={line}
-            content={line}
+        {isCenter ? (
+          content.map((line, index) => (
+            <Verse
+              key={line}
+              content={line}
+              annotation={annotation}
+              variant={"shi"}
+              py={py ? contentPinYin[index] : ""}
+            />
+          ))
+        ) : (
+          <TypographyArticle
+            paragraphs={content}
+            py_paragraphs={py ? contentPinYin : []}
             annotation={annotation}
-            variant={shi ? "shi" : isCenter ? "shi" : "body"}
-            py={py ? contentPinYin[index] : ""}
-            className={cn(!shi && "px-4 md:px-0")}
           />
-        ))}
+        )}
       </div>
     </article>
   );
