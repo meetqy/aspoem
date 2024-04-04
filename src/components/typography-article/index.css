@@ -12,23 +12,7 @@
   }
 
   b {
-    @apply relative cursor-pointer font-normal text-primary transition-colors;
-
-    &::after {
-      content: "";
-      text-indent: 0;
-
-      @apply absolute bottom-0 left-1/2 h-[1px] w-11/12 bg-primary;
-      transform: translateX(-50%);
-    }
-
-    &::before {
-      content: "";
-      text-indent: 0;
-
-      @apply absolute bottom-0.5 left-1/2 h-[1px] w-11/12 bg-primary;
-      transform: translateX(-50%);
-    }
+    @apply relative cursor-pointer border-b border-primary/50 font-normal text-primary transition-colors dark:text-destructive;
   }
 
   rt {

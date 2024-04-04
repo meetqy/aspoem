@@ -47,8 +47,8 @@ export const Body = (props: {
         {poem.introduce && (
           <p
             className={cn(
-              "px-4 py-2 text-left text-base !not-italic text-muted-foreground transition-all md:px-0",
-              py && "mb-12",
+              "px-4 py-2 text-left !text-f50 !not-italic text-muted-foreground transition-all md:px-0",
+              py ? "mb-12" : "mb-4",
             )}
           >
             {poem.introduce}
