@@ -1,4 +1,4 @@
-import { merge } from "lodash-es";
+import { defaultsDeep } from "lodash-es";
 import "server-only";
 
 export const defaultLocale = "zh-Hans";
@@ -33,7 +33,7 @@ export const getDictionary = async (locale: Locale = "zh-Hans") => {
   const zhHans = await dictionaries["zh-Hans"]();
   const result = await dictionaries[locale]();
 
-  return merge(zhHans, result);
+  return defaultsDeep(result, zhHans) as typeof zhHans;
 };
 
 export type Dictionary = Awaited<ReturnType<typeof getDictionary>>;

@@ -70,6 +70,10 @@
   "author_detail": {
     "title": "Poets"
   },
+  "ci_pai_ming": {
+    "title_meta": "Ci Pai Ming Page {0}",
+    "description": "A name for a standardized tune of a poem, that is, the original name of a large part of the music that was frequently used to fill in the poems in the Tang and Song dynasties, with a fixed format and tone, determining the rhythm and tone of the poem."
+  },
   "search": {
     "placeholder": "Search for poems, poets, etc.",
     "empty": "No search results found"

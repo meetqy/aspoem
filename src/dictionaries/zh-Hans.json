@@ -70,6 +70,10 @@
   "author_detail": {
     "title": "诗人"
   },
+  "ci_pai_ming": {
+    "title_meta": "词牌名 第 {0} 页",
+    "description": "词的一种制式曲调的名称，亦即唐宋时代经常用以填词的大致固定的一部分乐曲的原名，有固定的格式与声律，决定着词的节奏与音律。"
+  },
   "search": {
     "placeholder": "查找诗人、诗词、名句",
     "empty": "没有找到相关诗词"
