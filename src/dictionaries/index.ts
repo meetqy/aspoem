@@ -1,3 +1,4 @@
+import { assign, cloneDeep, merge } from "lodash-es";
 import "server-only";
 
 export const defaultLocale = "zh-Hans";
@@ -32,10 +33,14 @@ export const getDictionary = async (locale: Locale = "zh-Hans") => {
   const zhHans = await dictionaries["zh-Hans"]();
   const result = await dictionaries[locale]();
 
-  return {
-    ...zhHans,
-    ...result,
-  };
+  const targetLocale = cloneDeep(zhHans);
+  const keys = Object.keys(zhHans) as (keyof typeof zhHans)[];
+
+  for (const key of keys) {
+    // targetLocale[key] = result[key] || zhHans[key];
+  }
+
+  return merge(result, zhHans);
 };
 
 export type Dictionary = Awaited<ReturnType<typeof getDictionary>>;

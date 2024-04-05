@@ -35,7 +35,6 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
     title: dict.menu.tag,
     description: stringFormat(dict.tag.description, [keywords.join(",")]),
     alternates: getMetaDataAlternates("/tag", params.lang),
-    keywords: keywords.concat(dict.point_keywords),
   };
 }
 
