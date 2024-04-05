@@ -57,7 +57,10 @@
   },
   "poem_list": {
     "title": "詩のリスト",
+    "title_meta": "{0}詩のリスト ページ {1}",
     "empty": "関連する詩が見つかりませんでした",
+    "description_new": "最新の詩がここにあります、読んでみてください！",
+    "description_improve": "改善が必要な詩がここにあります、改善に協力してください！",
     "tab_new": "最新",
     "tab_improve": "改善待ち"
   },

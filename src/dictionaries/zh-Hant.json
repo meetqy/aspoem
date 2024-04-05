@@ -57,7 +57,10 @@
   },
   "poem_list": {
     "title": "詩詞列表",
+    "title_meta": "{0}詩詞列表 第 {1} 頁",
     "empty": "沒有找到相關詩詞",
+    "description_new": "最新的詩詞在這裡，快來閱讀吧！",
+    "description_improve": "需要完善的詩詞在這裡，快來幫助我們完善吧！",
     "tab_new": "最新",
     "tab_improve": "待完善"
   },

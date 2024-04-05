@@ -57,7 +57,10 @@
   },
   "poem_list": {
     "title": "Poem List",
+    "title_meta": "{0} Poem List Page {1}",
     "empty": "No relevant poems found",
+    "description_new": "The latest poems are here, come and read them!",
+    "description_improve": "The poems that need to be improved are here, come and help us improve them!",
     "tab_new": "Newest",
     "tab_improve": "To be improved"
   },

@@ -57,7 +57,10 @@
   },
   "poem_list": {
     "title": "시 목록",
+    "title_meta": "{0} 시 목록 페이지 {1}",
     "empty": "관련 시를 찾을 수 없습니다",
+    "description_new": "최신 시가 여기 있습니다. 읽어보세요!",
+    "description_improve": "보완이 필요한 시가 여기 있습니다. 보완에 도움을 주",
     "tab_new": "최신",
     "tab_improve": "보완 필요"
   },

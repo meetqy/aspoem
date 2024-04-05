@@ -57,7 +57,10 @@
   },
   "poem_list": {
     "title": "诗词列表",
+    "title_meta": "{0}诗词列表 第 {1} 页",
     "empty": "没有找到相关诗词",
+    "description_new": "最新的诗词都在这里，快来阅读吧！",
+    "description_improve": "需要完善的诗词都在这里，快来帮助我们完善吧！",
     "tab_new": "最新",
     "tab_improve": "待完善"
   },
