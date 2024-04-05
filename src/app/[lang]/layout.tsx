@@ -31,7 +31,6 @@ export async function generateMetadata({
     description: dict.description,
     icons: [{ rel: "icon", url: "/favicon.ico" }],
     alternates: getMetaDataAlternates("/", params.lang),
-    keywords: dict.keywords,
     metadataBase: new URL(MyHost),
     twitter: {
       site: `${MyHost}/${params.lang}`,
