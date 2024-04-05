@@ -28,14 +28,29 @@ export const getMetaDataAlternates = (suffix: string, lang: Locale) => {
   };
 };
 
+const defaultsConfig = (
+  de: Record<string, string | object>,
+  target: Record<string, string | object | undefined>,
+) => {
+  for (const key in de) {
+    if (target[key] === undefined) {
+      target[key] = de[key];
+    } else if (typeof de[key] === "object") {
+      defaultsConfig(
+        de[key] as Record<string, string | object>,
+        target[key] as Record<string, string | object>,
+      );
+    }
+  }
+
+  return target;
+};
+
 export const getDictionary = async (locale: Locale = "zh-Hans") => {
   const zhHans = await dictionaries["zh-Hans"]();
-  const result = await dictionaries[locale]();
+  const targetLocale = await dictionaries[locale]();
 
-  return {
-    ...zhHans,
-    ...result,
-  };
+  return defaultsConfig(zhHans, targetLocale) as typeof zhHans;
 };
 
 export type Dictionary = Awaited<ReturnType<typeof getDictionary>>;

@@ -1,30 +1,6 @@
 {
   "title": "Learn Chinese Poems Website",
-  "description": "aspoem.com is a modern poetry learning website that offers a comprehensive site search feature, allowing you to quickly search for regulated verse, quatrains, and works by various poets. We have also optimized the display of pinyin annotations, annotations, and vernacular Chinese, making poetry easier to read. Additionally, we provide a poetry printing tool to assist you in better studying ancient poetry. Come and experience the charm of our website!",
-  "point_keywords": [
-    "poetry learning",
-    "learning ancient poetry",
-    "Three Hundred Tang Poems",
-    "Three Hundred Song Lyrics",
-    "Complete Works of Li Bai",
-    "Complete Works of Du Fu"
-  ],
-  "keywords": [
-    "poetry learning",
-    "learning ancient poetry",
-    "Three Hundred Tang Poems",
-    "Three Hundred Song Lyrics",
-    "Complete Works of Li Bai",
-    "Complete Works of Du Fu",
-    "ancient poetry",
-    "poetry",
-    "poet statistics",
-    "poetry search",
-    "poetry pinyin",
-    "poetry annotations",
-    "poetry translation",
-    "pinyin"
-  ],
+  "description": "aspoem.com is a learning chinese poetry website that offers a comprehensive site search feature, allowing you to quickly search for regulated verse, quatrains, and works by various poets. We have also optimized the display of pinyin annotations, annotations, and vernacular Chinese, making poetry easier to read. Additionally, we provide a poetry printing tool to assist you in better studying ancient poetry. Come and experience the charm of our website!",
   "menu": {
     "poem": "Poems",
     "author": "Poets",
@@ -57,7 +33,10 @@
   },
   "poem_list": {
     "title": "Poem List",
+    "title_meta": "{0} Poem List Page {1}",
     "empty": "No relevant poems found",
+    "description_new": "The latest poems are here, come and read them!",
+    "description_improve": "The poems that need to be improved are here, come and help us improve them!",
     "tab_new": "Newest",
     "tab_improve": "To be improved"
   },
@@ -67,9 +46,17 @@
   "author_detail": {
     "title": "Poets"
   },
+  "ci_pai_ming": {
+    "title_meta": "Ci Pai Ming Page {0}",
+    "description": "A name for a standardized tune of a poem, that is, the original name of a large part of the music that was frequently used to fill in the poems in the Tang and Song dynasties, with a fixed format and tone, determining the rhythm and tone of the poem."
+  },
   "search": {
     "placeholder": "Search for poems, poets, etc.",
     "empty": "No search results found"
+  },
+  "tag": {
+    "title": "Tags",
+    "description": "Popular tags for poetry: {0}"
   },
   "pagination": {
     "prev": "Previous",

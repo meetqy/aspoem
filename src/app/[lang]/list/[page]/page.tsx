@@ -9,10 +9,10 @@ import { Pagination } from "~/components/pagination";
 import {
   type Locale,
   getDictionary,
-  getLangText,
   getMetaDataAlternates,
 } from "~/dictionaries";
 import { type Metadata } from "next";
+import { stringFormat } from "~/utils";
 
 interface Props {
   params: { page: string; lang: Locale };
@@ -24,44 +24,25 @@ export async function generateMetadata({
   searchParams,
 }: Props): Promise<Metadata> {
   const pageIndex = Number(params.page);
+  const dict = await getDictionary(params.lang);
 
   if (pageIndex < 1 || isNaN(pageIndex)) notFound();
 
   let text = "";
   let description = "";
   if (searchParams?.sort === "createdAt" || !searchParams?.sort) {
-    text = getLangText({ "zh-Hans": "最新", "zh-Hant": "最新" }, params.lang);
-    description = getLangText(
-      {
-        "zh-Hans": "当前诗词列表按照最近修改时间倒序排列",
-        "zh-Hant": "當前詩詞列表按照最近修改時間倒序排列",
-      },
-      params.lang,
-    );
+    text = dict.poem_list.tab_new;
+    description = dict.poem_list.description_improve;
   } else if (searchParams?.sort === "improve") {
-    text = getLangText(
-      { "zh-Hans": "待完善", "zh-Hant": "待完善" },
-      params.lang,
-    );
-    description = getLangText(
-      {
-        "zh-Hans":
-          "当前诗词列表按照完善程度倒序排列，需要完善的诗词排在最前面。",
-        "zh-Hant":
-          "當前詩詞列表按照完善程度倒序排列，需要完善的詩詞排在最前面。",
-      },
-      params.lang,
-    );
+    text = dict.poem_list.tab_improve;
+    description = dict.poem_list.description_new;
   }
 
   return {
-    title: getLangText(
-      {
-        "zh-Hans": `${text}诗词列表 第${pageIndex}页`,
-        "zh-Hant": `${text}詩詞列表 第${pageIndex}頁`,
-      },
-      params.lang,
-    ),
+    title: stringFormat(dict.poem_list.title_meta, [
+      text,
+      pageIndex.toString(),
+    ]),
     description,
     alternates: getMetaDataAlternates(`/list/${pageIndex}`, params.lang),
   };

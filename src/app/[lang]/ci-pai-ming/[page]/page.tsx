@@ -6,24 +6,17 @@ import { HeaderMain } from "~/components/ui/header";
 import { api } from "~/trpc/server";
 import {
   getDictionary,
-  getLangText,
   getLangUrl,
   getMetaDataAlternates,
   type Locale,
 } from "~/dictionaries";
 import { type Metadata } from "next";
 import { cache } from "react";
+import { stringFormat } from "~/utils";
 
 interface Props {
   params: { page: string; lang: Locale };
 }
-
-const description = {
-  "zh-Hans":
-    "词的一种制式曲调的名称，亦即唐宋时代经常用以填词的大致固定的一部分乐曲的原名，有固定的格式与声律，决定着词的节奏与音律。",
-  "zh-Hant":
-    "詞的一種制式曲調的名稱，亦即唐宋時代經常用以填詞的大致固定的一部分樂曲的原名，有固定的格式與聲律，決定着詞的節奏與音律。",
-};
 
 const getItem = cache(({ params }: Props) => {
   const pageIndex = Number(params.page || 1);
@@ -43,15 +36,9 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   const { data, page } = await getItem(props);
 
   return {
-    title: getLangText(
-      {
-        "zh-Hans": `${dict.menu.ci_pai_ming} 第${page}页`,
-        "zh-Hant": `${dict.menu.ci_pai_ming} 第${page}頁`,
-      },
-      params.lang,
-    ),
+    title: stringFormat(dict.ci_pai_ming.title_meta, [page.toString()]),
     alternates: getMetaDataAlternates(`/ci-pai-ming/${page}`, params.lang),
-    description: getLangText(description, params.lang),
+    description: dict.ci_pai_ming.description,
     keywords: data.map((item) => item.name),
   };
 }
@@ -74,12 +61,12 @@ export default async function Page(props: Props) {
         <header>
           <h1 className="text-f400">
             {dict.menu.ci_pai_ming}
-            <span className="text-f200 ml-1 font-mono text-muted-foreground">
+            <span className="ml-1 font-mono text-f200 text-muted-foreground">
               cí pái míng
             </span>
           </h1>
-          <p className="text-f100 mt-6 text-secondary-foreground">
-            {getLangText(description, params.lang)}
+          <p className="mt-6 text-f100 text-secondary-foreground">
+            {dict.ci_pai_ming.description}
           </p>
         </header>
 
@@ -90,7 +77,7 @@ export default async function Page(props: Props) {
               className="group relative cursor-pointer justify-between rounded-md border border-border bg-card p-4 text-card-foreground transition-all hover:bg-accent hover:text-accent-foreground hover:shadow-md"
             >
               <div className="flex justify-between">
-                <div className="text-f200 w-full lg:w-3/5">
+                <div className="w-full text-f200 lg:w-3/5">
                   <Link
                     href={getLangUrl(`/tag/${item.id}`, params.lang)}
                     className="underline-animation relative z-10 flex-1 text-primary"
@@ -105,7 +92,7 @@ export default async function Page(props: Props) {
                 </div>
               </div>
 
-              <p className="text-f50 mt-2 text-muted-foreground">
+              <p className="mt-2 text-f50 text-muted-foreground">
                 {item.introduce}
               </p>
 
