@@ -45,7 +45,7 @@ export const splitChineseSymbol = (str: string, separator = true) => {
 };
 
 export const stringFormat = (str: string, arr: string[]) => {
-  return str.replace(/{(\d+)}/g, (match, number: number) => {
-    return typeof arr[number] !== "undefined" ? arr[number] : match;
+  return str.replace(/{(\d+)}/g, (match = "", number: number) => {
+    return arr[number] || match;
   });
 };
