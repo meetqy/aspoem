@@ -78,6 +78,10 @@
     "placeholder": "詩人、詩、名言を検索",
     "empty": "関連する詩が見つかりませんでした"
   },
+  "tag": {
+    "title": "タグ",
+    "description": "人気のある詩のタグ: {0}"
+  },
   "pagination": {
     "prev": "前へ",
     "next": "次へ"

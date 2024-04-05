@@ -78,6 +78,10 @@
     "placeholder": "Search for poems, poets, etc.",
     "empty": "No search results found"
   },
+  "tag": {
+    "title": "Tags",
+    "description": "Popular tags for poetry: {0}"
+  },
   "pagination": {
     "prev": "Previous",
     "next": "Next"
