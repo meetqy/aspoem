@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+rt {
+  font-family: Charter, Verdana, "Andale Mono", "Diwan KufiStandardGK";
+}
+
 /* 
   中文 font-cursive
   英文 font-serif

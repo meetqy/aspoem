@@ -16,7 +16,7 @@
   }
 
   rt {
-    @apply font-serif text-[60%] !font-normal text-muted-foreground;
+    @apply text-[60%] !font-normal text-muted-foreground;
   }
 }
 
