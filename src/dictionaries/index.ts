@@ -1,13 +1,13 @@
 import "server-only";
 
 export const defaultLocale = "zh-Hans";
-export const locales = ["zh-Hans", "zh-Hant", "en", "ja", "ko"] as const;
+export const locales = ["zh-Hans", "zh-Hant"] as const;
 const dictionaries = {
   "zh-Hant": () => import("./zh-Hant.json").then((module) => module.default),
   "zh-Hans": () => import("./zh-Hans.json").then((module) => module.default),
-  en: () => import("./en.json").then((module) => module.default),
-  ja: () => import("./ja.json").then((module) => module.default),
-  ko: () => import("./ko.json").then((module) => module.default),
+  // en: () => import("./en.json").then((module) => module.default),
+  // ja: () => import("./ja.json").then((module) => module.default),
+  // ko: () => import("./ko.json").then((module) => module.default),
 };
 
 export type Locale = (typeof locales)[number];
