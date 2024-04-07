@@ -153,7 +153,7 @@ export default function Tag() {
             className="w-full"
             onClick={() => {
               create.mutate({
-                id,
+                id: id === -1 ? undefined : id,
                 token,
                 name,
                 name_zh_Hant: convertToHant(name),
