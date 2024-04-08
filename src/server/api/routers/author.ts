@@ -140,10 +140,6 @@ export const authorRouter = createTRPCRouter({
       const res = await ctx.db.author.findMany({
         where: {
           name: input.name.toLocaleLowerCase(),
-          introduce: input.introduce,
-          birthDate: input.birthDate,
-          deathDate: input.deathDate,
-          namePinYin: input.namePinYin,
           dynasty: input.dynasty,
         },
       });

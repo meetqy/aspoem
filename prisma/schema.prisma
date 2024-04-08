@@ -45,7 +45,7 @@ model Poem {
 
 model Author {
     id         Int       @id @default(autoincrement())
-    name       String    @unique
+    name       String
     namePinYin String?
     // 介绍，可使用 HTML
     introduce  String?

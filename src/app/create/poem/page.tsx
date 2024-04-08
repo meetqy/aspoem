@@ -45,7 +45,7 @@ export default function CreatePage() {
 
   // 作者
   const { data } = api.author.findMany.useQuery({
-    select: ["name"],
+    select: ["name", "dynasty"],
     keyword,
   });
 
@@ -296,7 +296,7 @@ export default function CreatePage() {
                 <SelectContent>
                   {authors?.map((item) => (
                     <SelectItem key={item.id} value={item.id.toString()}>
-                      {item.name}
+                      {item.dynasty}·{item.name}
                     </SelectItem>
                   ))}
                 </SelectContent>
