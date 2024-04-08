@@ -27,6 +27,7 @@ import {
   SelectValue,
 } from "~/components/ui/select";
 import Link from "next/link";
+import Script from "next/script";
 
 export function Content({
   className,
@@ -200,6 +201,28 @@ export function Content({
           </Button>
         ))}
       </nav>
+
+      <div>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9977752727673793"
+          crossOrigin="anonymous"
+          strategy="lazyOnload"
+        />
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-9977752727673793"
+          data-ad-slot="5627449706"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(adsbygoogle = window.adsbygoogle || []).push({});`,
+          }}
+        />
+      </div>
     </div>
   );
 }
