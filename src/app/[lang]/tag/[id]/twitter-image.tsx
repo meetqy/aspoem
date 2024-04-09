@@ -1,4 +1,3 @@
-import { random } from "lodash-es";
 import { notFound } from "next/navigation";
 import { ImageResponse } from "next/og";
 import { type Locale } from "~/dictionaries";
@@ -10,29 +9,29 @@ export default async function GET({
 }: {
   params: { id: number; lang: Locale };
 }) {
-  const poem = await api.poem.findById.query({
+  const result = await api.tag.findStatisticsById.query({
     id: Number(params.id),
     lang: params.lang,
   });
 
-  if (!poem) notFound();
+  if (!result) notFound();
 
-  const contentTemp =
-    poem.content
-      .replaceAll("\n", "")
-      .match(/[^。|！|？|，|；]+[。|！|？|，|；]+/g) || [];
+  const data = result.data;
 
-  const endRandom: number[] = [];
+  const json: Record<string, (typeof data)[number][]> = {};
+  data.forEach((item) => {
+    const key = item.author.id;
 
-  contentTemp.map((_, i) => {
-    const index = i + 1;
+    if (!json[key]) {
+      json[key] = [];
+    }
 
-    if (index % 2 === 0) endRandom.push(index);
+    json[key]!.push(item);
   });
 
-  const end = endRandom[random(0, endRandom.length - 1)] || 2;
-
-  const content = contentTemp?.slice(end - 2, end) || [];
+  const statistics = Object.entries(json)
+    .map(([_, value]) => value)
+    .sort((a, b) => b.length - a.length);
 
   return new ImageResponse(
     (
@@ -50,16 +49,22 @@ export default async function GET({
           fontFamily: "cursive",
         }}
       >
-        <p style={{ fontSize: 72, padding: "0 72px" }}>「{content[0]}</p>
+        <p style={{ fontSize: 84, justifyContent: "center" }}>
+          {result.tag.name}
+        </p>
+
         <p
           style={{
-            fontSize: 72,
-            padding: "0 72px",
-            justifyContent: "flex-end",
+            fontSize: 32,
+            justifyContent: "center",
+            opacity: 0.8,
           }}
         >
-          {content[1]}」
+          {`${result.tag.type || "其他"}/${result.tag.name}，共${
+            result.total
+          }首，诗人${statistics.length}位`}
         </p>
+
         <p
           style={{
             width: "100%",
