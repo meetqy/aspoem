@@ -34,8 +34,6 @@ export default async function GET({
 
   const content = contentTemp?.slice(end - 2, end) || [];
 
-  console.log(content);
-
   return new ImageResponse(
     (
       <div
