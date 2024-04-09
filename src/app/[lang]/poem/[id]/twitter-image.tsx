@@ -1,3 +1,4 @@
+import { random } from "lodash-es";
 import { notFound } from "next/navigation";
 import { ImageResponse } from "next/og";
 import { type Locale } from "~/dictionaries";
@@ -16,9 +17,24 @@ export default async function GET({
 
   if (!poem) notFound();
 
-  const content = poem.content.split("\n").slice(0, 4);
+  const contentTemp =
+    poem.content
+      .replaceAll("\n", "")
+      .match(/[^。|！|？|，|；]+[。|！|？|，|；]+/g) || [];
 
-  const isCenter = content.findIndex((line) => line.length <= 16) > -1;
+  const endRandom: number[] = [];
+
+  contentTemp.map((_, i) => {
+    const index = i + 1;
+
+    if (index % 2 === 0) endRandom.push(index);
+  });
+
+  const end = endRandom[random(0, endRandom.length - 1)] || 2;
+
+  const content = contentTemp?.slice(end - 2, end) || [];
+
+  console.log(content);
 
   return new ImageResponse(
     (
@@ -37,75 +53,29 @@ export default async function GET({
           fontFamily: "cursive",
         }}
       >
+        <p style={{ fontSize: 72, padding: "0 72px" }}>「{content[0]}</p>
         <p
           style={{
             fontSize: 72,
-            display: "flex",
-            justifyContent: "center",
-            marginTop: -72,
+            padding: "0 72px",
+            justifyContent: "flex-end",
           }}
         >
-          {poem.title}
+          {content[1]}」
         </p>
-        <p
-          style={{
-            fontSize: 24,
-            display: "flex",
-            justifyContent: "center",
-            marginTop: -12,
-            opacity: 0.7,
-          }}
-        >
-          {poem.author.dynasty} · {poem.author.name}
-        </p>
-
-        {content.map((_, index) =>
-          poem.genre === "诗" || isCenter ? (
-            <p
-              key={index}
-              style={{
-                fontSize: 36,
-                width: "100%",
-                opacity: 0.8,
-                display: "flex",
-                justifyContent: "center",
-              }}
-            >
-              {_}
-            </p>
-          ) : (
-            <p
-              key={index}
-              style={{
-                fontSize: 36,
-                width: "100%",
-                opacity: 0.8,
-                display: "flex",
-                flexWrap: "wrap",
-              }}
-            >
-              <span style={{ opacity: 0 }}>啊</span>
-              <span style={{ opacity: 0 }}>啊</span>
-              {_.split("").map((item, i) => (
-                <span key={i}>{item}</span>
-              ))}
-            </p>
-          ),
-        )}
-
         <p
           style={{
             width: "100%",
             display: "flex",
             justifyContent: "flex-end",
-            opacity: 0.7,
             position: "absolute",
+            opacity: 0.8,
             bottom: 18,
             left: 32,
-            fontSize: 16,
+            fontSize: 24,
           }}
         >
-          aspoem.com
+          aspoem
         </p>
       </div>
     ),
