@@ -5,8 +5,6 @@ import {
   InfoIcon,
   PrinterIcon,
   RefreshCcwDot,
-  Shuffle,
-  ShuffleIcon,
   TwitterIcon,
 } from "lucide-react";
 import Link from "next/link";

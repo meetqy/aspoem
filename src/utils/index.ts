@@ -52,7 +52,7 @@ export const stringFormat = (str: string, arr: string[]) => {
 
 export const bgCards = [
   { color: "#fff", name: 1 },
-  { color: "#fff", name: 2 },
+  { color: "#000", name: 2 },
   { color: "#fff", name: 3 },
   { color: "#000", name: 4 },
   { color: "#000", name: 5 },

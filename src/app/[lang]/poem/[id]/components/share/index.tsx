@@ -14,8 +14,10 @@ interface Props {
 }
 
 const SaveShareButton = (props: Props) => {
-  const { scale = 1 } = props;
+  let { scale = 1 } = props;
   const [visable, setVisable] = useState(false);
+
+  scale = scale / window.devicePixelRatio;
 
   useEffect(() => {
     (async () => {
