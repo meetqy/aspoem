@@ -2,17 +2,16 @@
 
 import { type Author, type Poem } from "@prisma/client";
 import { random } from "lodash-es";
-import { useEffect, useState } from "react";
-import { api } from "~/trpc/react";
-import { bgCards, r2Host, urlToBase64 } from "~/utils";
+import { cn } from "~/utils";
 
 interface Props {
   data: Poem & { author: Author };
+  className?: string;
+  style?: React.CSSProperties;
 }
 
 const DrawDefaultPreview = (props: Props) => {
   const { data: poem } = props;
-  const utils = api.useUtils();
 
   const contentTemp =
     poem.content
@@ -28,37 +27,14 @@ const DrawDefaultPreview = (props: Props) => {
   const end = endRandom[random(0, endRandom.length - 1)] || 2;
   const content = contentTemp?.slice(end - 2, end) || [];
 
-  const [bgItem, setBgItem] = useState<{
-    blob: string;
-    color: string;
-  }>({
-    blob: "",
-    color: "#000",
-  });
-
-  useEffect(() => {
-    const image = bgCards[random(0, bgCards.length - 1)];
-    if (!image) return;
-    const url = `${r2Host}/neutral-card-bg/${image.name}.jpg`;
-
-    void urlToBase64(url).then((res) => {
-      if (res) {
-        setBgItem({ blob: res, color: image.color });
-      }
-    });
-  }, []);
-
-  if (!bgItem) return null;
-
   return (
     <div
       id="draw-share-card"
-      className="relative h-[600px] w-[450px] p-6"
-      style={{
-        backgroundImage: `url(${bgItem.blob})`,
-        backgroundSize: "cover",
-        color: bgItem.color,
-      }}
+      style={props.style}
+      className={cn(
+        "fixed left-0 top-0 -z-50 h-[600px] w-[450px] bg-cover p-6 opacity-0",
+        props.className,
+      )}
     >
       <div className="flex h-full w-full flex-col items-center justify-center">
         <div className="-mt-12 w-full space-y-6">

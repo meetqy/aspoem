@@ -51,17 +51,16 @@ export const stringFormat = (str: string, arr: string[]) => {
 };
 
 export const bgCards = [
-  { color: "#000", name: 1 },
-  { color: "#000", name: 2 },
+  { color: "#fff", name: 1 },
+  { color: "#fff", name: 2 },
   { color: "#fff", name: 3 },
-  { color: "#fff", name: 4 },
+  { color: "#000", name: 4 },
   { color: "#000", name: 5 },
   { color: "#000", name: 6 },
   { color: "#000", name: 7 },
-  { color: "#fff", name: 8 },
+  { color: "#000", name: 8 },
   { color: "#000", name: 9 },
   { color: "#000", name: 10 },
-  { color: "#000", name: 11 },
 ];
 
 export const r2Host = "https://r2.aspoem.com";

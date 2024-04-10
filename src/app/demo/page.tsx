@@ -1,37 +1,29 @@
-"use client";
-
-import { api } from "~/trpc/react";
+import { api } from "~/trpc/server";
 import DrawDefaultPreview from "../[lang]/poem/[id]/components/share/draw/default";
-import SaveShareButton from "../[lang]/poem/[id]/components/share";
-import { RefreshCcwDot } from "lucide-react";
+import { bgCards } from "~/utils";
 
-export default function Page() {
-  const { data } = api.poem.findById.useQuery(
-    {
-      id: 10,
-    },
-    {
-      refetchOnWindowFocus: false,
-    },
-  );
+export default async function Page() {
+  const data = await api.poem.findById.query({
+    id: 10,
+  });
 
   if (!data) return;
 
+  const num = 9;
+  const bg = bgCards[num];
+
+  if (!bg) return;
+
   return (
     <div className="flex max-w-screen-md space-x-4 overflow-auto p-4 text-xl">
-      <SaveShareButton
-        scale={2}
-        title={
-          <>
-            <RefreshCcwDot className="mr-2 h-5 w-5 text-primary" />
-            随机摘抄卡片
-          </>
-        }
-      >
-        <DrawDefaultPreview data={data} />
-      </SaveShareButton>
-
-      <DrawDefaultPreview data={data} />
+      <DrawDefaultPreview
+        data={data}
+        style={{
+          backgroundImage: `url(https://r2.aspoem.com/neutral-card-bg/${bg.name}.jpg)`,
+          color: bg.color,
+          opacity: 1,
+        }}
+      />
     </div>
   );
 }

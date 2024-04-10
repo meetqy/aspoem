@@ -2,8 +2,10 @@
 
 import { Button } from "~/components/ui/button";
 import { createPortal } from "react-dom";
-import htmlToImage from "html-to-image";
+import * as htmlToImage from "html-to-image";
 import { useEffect, useState } from "react";
+import { random } from "lodash-es";
+import { bgCards, r2Host, urlToBase64 } from "~/utils";
 
 interface Props {
   children: React.ReactNode;
@@ -16,54 +18,60 @@ const SaveShareButton = (props: Props) => {
   const [visable, setVisable] = useState(false);
 
   useEffect(() => {
-    if (visable) {
-      const box = document.getElementById("draw-share-card")!;
+    (async () => {
+      if (visable) {
+        const image = bgCards[random(0, bgCards.length - 1)]!;
+        const url = `${r2Host}/neutral-card-bg/${image.name}.jpg`;
+        const base64 = await urlToBase64(url);
 
-      void htmlToImage
-        .toPng(box, {
-          width: box.clientWidth * scale,
-          height: box.clientHeight * scale,
-          imagePlaceholder: "https://r2.aspoem.com/neutral-card-bg/3.jpg",
-          style: {
-            width: box.clientWidth.toString(),
-            height: box.clientHeight.toString(),
-            transform: `scale(${scale})`,
-            transformOrigin: "top left",
-          },
-        })
-        .then((src) => {
-          if (!src) return;
+        const box = document.getElementById("draw-share-card")!;
 
-          const div = document.createElement("div");
-          div.style.position = "fixed";
-          div.style.top = "0";
-          div.style.left = "0";
-          div.style.width = "100%";
-          div.style.height = "100%";
-          div.style.backgroundColor = "rgba(0, 0, 0, 0.25)";
-          div.style.zIndex = "9998";
-          div.style.display = "flex";
-          div.style.justifyContent = "center";
-          div.style.alignItems = "center";
+        void htmlToImage
+          .toPng(box, {
+            width: box.clientWidth,
+            height: box.clientHeight,
+            style: {
+              color: image.color,
+              opacity: "1",
+              width: box.clientWidth.toString(),
+              height: box.clientHeight.toString(),
+              backgroundImage: `url(${base64})`,
+            },
+          })
+          .then((src) => {
+            if (!src) return;
 
-          div.onclick = () => {
-            document.body.removeChild(div);
-          };
+            const div = document.createElement("div");
+            div.style.position = "fixed";
+            div.style.top = "0";
+            div.style.left = "0";
+            div.style.width = "100%";
+            div.style.height = "100%";
+            div.style.backgroundColor = "rgba(0, 0, 0, 0.25)";
+            div.style.zIndex = "9998";
+            div.style.display = "flex";
+            div.style.justifyContent = "center";
+            div.style.alignItems = "center";
 
-          const img = new Image();
-          img.src = src;
-          img.style.height = "90%";
-          img.style.width = "auto";
-          // contain
-          img.style.objectFit = "contain";
+            div.onclick = () => {
+              document.body.removeChild(div);
+            };
 
-          div.appendChild(img);
+            const img = new Image();
+            img.src = src;
+            img.style.height = "90%";
+            img.style.width = "auto";
+            // contain
+            img.style.objectFit = "contain";
 
-          document.body.appendChild(div);
+            div.appendChild(img);
 
-          setVisable(false);
-        });
-    }
+            document.body.appendChild(div);
+
+            setVisable(false);
+          });
+      }
+    })();
   }, [scale, visable]);
 
   return (
