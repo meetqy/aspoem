@@ -49,3 +49,31 @@ export const stringFormat = (str: string, arr: string[]) => {
     return arr[number] || match;
   });
 };
+
+export const bgCards = [
+  { color: "#000", name: 1 },
+  { color: "#000", name: 2 },
+  { color: "#fff", name: 3 },
+  { color: "#fff", name: 4 },
+  { color: "#000", name: 5 },
+  { color: "#000", name: 6 },
+  { color: "#000", name: 7 },
+  { color: "#fff", name: 8 },
+  { color: "#000", name: 9 },
+  { color: "#000", name: 10 },
+  { color: "#000", name: 11 },
+];
+
+export const r2Host = "https://r2.aspoem.com";
+
+export const urlToBase64 = async (url: string) => {
+  const res = await fetch(url);
+  const blob = await res.blob();
+  const reader = new FileReader();
+  return new Promise<string>((resolve) => {
+    reader.onloadend = () => {
+      resolve(reader.result as string);
+    };
+    reader.readAsDataURL(blob);
+  });
+};

@@ -2,7 +2,7 @@
 
 import { Button } from "~/components/ui/button";
 import { createPortal } from "react-dom";
-import domToImage from "dom-to-image";
+import htmlToImage from "html-to-image";
 import { useEffect, useState } from "react";
 
 interface Props {
@@ -19,18 +19,21 @@ const SaveShareButton = (props: Props) => {
     if (visable) {
       const box = document.getElementById("draw-share-card")!;
 
-      void domToImage
-        .toBlob(box, {
+      void htmlToImage
+        .toPng(box, {
           width: box.clientWidth * scale,
           height: box.clientHeight * scale,
+          imagePlaceholder: "https://r2.aspoem.com/neutral-card-bg/3.jpg",
           style: {
-            innerWidth: box.clientWidth,
-            innerHeight: box.clientHeight,
+            width: box.clientWidth.toString(),
+            height: box.clientHeight.toString(),
             transform: `scale(${scale})`,
             transformOrigin: "top left",
           },
         })
-        .then((blob) => {
+        .then((src) => {
+          if (!src) return;
+
           const div = document.createElement("div");
           div.style.position = "fixed";
           div.style.top = "0";
@@ -48,7 +51,7 @@ const SaveShareButton = (props: Props) => {
           };
 
           const img = new Image();
-          img.src = URL.createObjectURL(blob);
+          img.src = src;
           img.style.height = "90%";
           img.style.width = "auto";
           // contain
