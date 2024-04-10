@@ -28,13 +28,13 @@ const SaveShareButton = (props: Props) => {
 
         void htmlToImage
           .toPng(box, {
-            width: box.clientWidth,
-            height: box.clientHeight,
+            width: box.clientWidth * scale,
+            height: box.clientHeight * scale,
             style: {
               color: image.color,
               opacity: "1",
-              width: box.clientWidth.toString(),
-              height: box.clientHeight.toString(),
+              transform: `scale(${scale})`,
+              transformOrigin: "top left",
               backgroundImage: `url(${base64})`,
             },
           })
