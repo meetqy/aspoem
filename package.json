@@ -46,6 +46,7 @@
     "cmdk": "^0.2.0",
     "date-fns": "^3.0.6",
     "dom-to-image": "^2.6.0",
+    "html-to-image": "^1.11.11",
     "lodash-es": "^4.17.21",
     "lucide-react": "^0.303.0",
     "negotiator": "^0.6.3",

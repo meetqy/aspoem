@@ -1,10 +1,10 @@
 import {
   Album,
   Baby,
-  BookAIcon,
   ChevronRight,
   InfoIcon,
   PrinterIcon,
+  RefreshCcwDot,
   TwitterIcon,
 } from "lucide-react";
 import Link from "next/link";
@@ -256,8 +256,8 @@ export default async function Page({ params, searchParams }: Props) {
             scale={2}
             title={
               <>
-                <BookAIcon className="mr-2 h-5 w-5 text-primary" />
-                分享卡片默认
+                <RefreshCcwDot className="mr-2 h-5 w-5 text-primary" />
+                随机摘抄卡片
               </>
             }
           >
