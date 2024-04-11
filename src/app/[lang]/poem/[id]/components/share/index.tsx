@@ -42,8 +42,11 @@ const buildPng = async (box: HTMLElement, scale: number) => {
     });
 
     if (
-      res.length !== resultBytes[resultBytes.length - 1] &&
-      resultBytes.length > 0
+      (resultBytes.length > 0 &&
+        res.length !== resultBytes[resultBytes.length - 1]) ||
+      (resultBytes.length > 2 &&
+        resultBytes[resultBytes.length - 2] ===
+          resultBytes[resultBytes.length - 1])
     ) {
       result = res;
       reBuild = false;
