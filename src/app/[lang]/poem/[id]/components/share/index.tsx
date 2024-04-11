@@ -22,6 +22,10 @@ const SaveShareButton = (props: Props) => {
       if (visable) {
         const box = document.getElementById("draw-share-card")!;
         box.style.opacity = "1";
+        const bgEl: HTMLElement = box.querySelector("#draw-share-card-bg")!;
+
+        const url = bgEl.style.backgroundImage.replace(/url\("(.+)"\)/, "$1");
+        console.log();
 
         toPng(box, {
           width: box.clientWidth * scale,
@@ -35,16 +39,10 @@ const SaveShareButton = (props: Props) => {
           if (!src) return;
 
           const div = document.createElement("div");
-          div.style.position = "fixed";
-          div.style.top = "0";
-          div.style.left = "0";
-          div.style.width = "100%";
-          div.style.height = "100%";
-          div.style.backgroundColor = "rgba(0, 0, 0, 0.25)";
-          div.style.zIndex = "9998";
-          div.style.display = "flex";
-          div.style.justifyContent = "center";
-          div.style.alignItems = "center";
+          div.setAttribute(
+            "style",
+            `position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.25); z-index: 9998; display: flex; justify-content: center; align-items: center; flex-direction: column;`,
+          );
 
           div.onclick = () => {
             document.body.removeChild(div);
@@ -58,6 +56,11 @@ const SaveShareButton = (props: Props) => {
           img.style.objectFit = "contain";
 
           div.appendChild(img);
+
+          const span = document.createElement("span");
+          span.innerText = url;
+          div.appendChild(span);
+          span.style.color = "white";
 
           document.body.appendChild(div);
 

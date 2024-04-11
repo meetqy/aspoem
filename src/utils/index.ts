@@ -1,6 +1,8 @@
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
+export * from "./bg-card";
+
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
@@ -47,24 +49,5 @@ export const splitChineseSymbol = (str: string, separator = true) => {
 export const stringFormat = (str: string, arr: string[]) => {
   return str.replace(/{(\d+)}/g, (match = "", number: number) => {
     return arr[number] || match;
-  });
-};
-
-export const bgCards = [
-  { color: "#fff", url: "https://r2.aspoem.com/neutral-card-bg/1.jpg" },
-  { color: "#000", url: "https://r2.aspoem.com/neutral-card-bg/2.jpg" },
-  { color: "white", url: "https://r2.aspoem.com/neutral-card-bg/3.jpg" },
-  { color: "black", url: "https://r2.aspoem.com/neutral-card-bg/4.jpg" },
-];
-
-export const urlToBase64 = async (url: string) => {
-  const res = await fetch(url);
-  const blob = await res.blob();
-  const reader = new FileReader();
-  return new Promise<string>((resolve) => {
-    reader.onloadend = () => {
-      resolve(reader.result as string);
-    };
-    reader.readAsDataURL(blob);
   });
 };
