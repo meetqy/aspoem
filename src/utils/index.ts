@@ -51,19 +51,11 @@ export const stringFormat = (str: string, arr: string[]) => {
 };
 
 export const bgCards = [
-  { color: "#fff", name: 1 },
-  { color: "#000", name: 2 },
-  { color: "#fff", name: 3 },
-  { color: "#000", name: 4 },
-  { color: "#000", name: 5 },
-  { color: "#000", name: 6 },
-  { color: "#000", name: 7 },
-  { color: "#000", name: 8 },
-  { color: "#000", name: 9 },
-  { color: "#000", name: 10 },
+  { color: "#fff", url: "https://r2.aspoem.com/neutral-card-bg/1.jpg" },
+  { color: "#000", url: "https://r2.aspoem.com/neutral-card-bg/2.jpg" },
+  { color: "white", url: "https://r2.aspoem.com/neutral-card-bg/3.jpg" },
+  { color: "black", url: "https://r2.aspoem.com/neutral-card-bg/4.jpg" },
 ];
-
-export const r2Host = "https://r2.aspoem.com";
 
 export const urlToBase64 = async (url: string) => {
   const res = await fetch(url);

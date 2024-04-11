@@ -2,7 +2,7 @@
 
 import { type Author, type Poem } from "@prisma/client";
 import { random } from "lodash-es";
-import { cn } from "~/utils";
+import { bgCards, cn } from "~/utils";
 
 interface Props {
   data: Poem & { author: Author };
@@ -27,33 +27,39 @@ const DrawDefaultPreview = (props: Props) => {
   const end = endRandom[random(0, endRandom.length - 1)] || 2;
   const content = contentTemp?.slice(end - 2, end) || [];
 
+  const image = bgCards[random(0, bgCards.length - 1)]!;
+
   return (
     <div
       id="draw-share-card"
-      style={props.style}
+      style={{
+        color: image.color,
+        ...props.style,
+      }}
       className={cn(
-        "fixed left-0 top-0 -z-50 h-[600px] w-[450px] bg-cover p-6 opacity-0",
+        "relative h-[600px] w-[450px] overflow-hidden rounded-md",
         props.className,
       )}
     >
-      <div className="flex h-full w-full flex-col items-center justify-center">
-        <div className="-mt-12 w-full space-y-6">
-          {content.map((c, i) => {
-            return (
-              <div key={i} className="w-full text-center text-5xl">
-                {c}
-              </div>
-            );
-          })}
+      <div
+        className="absolute -left-4 top-0 h-[105%] w-[105%] origin-center scale-105 bg-cover blur"
+        style={{
+          backgroundImage: `url(${image.url})`,
+        }}
+      />
+      <div className="relative h-full w-full p-8">
+        <div className="relative z-10 flex h-full w-full flex-col items-center justify-center">
+          <div className="-mt-12 w-full space-y-6 text-center">
+            <p className="text-5xl italic">{content[0]}</p>
+            <p className="text-5xl italic">{content[1]}</p>
+          </div>
+
+          <div className="mt-24 w-full text-end text-xl opacity-80">
+            —— {poem.author.dynasty}·{poem.author.name}《{poem.title}》
+          </div>
         </div>
 
-        <div className="mt-24 w-full text-end text-xl opacity-80">
-          —— {poem.author.dynasty}·{poem.author.name}《{poem.title}》
-        </div>
-      </div>
-
-      <div className="absolute bottom-0 left-0 w-full pb-2 pr-4 text-right opacity-60">
-        aspoem
+        <span className="absolute bottom-4 right-4 opacity-70">aspoem</span>
       </div>
     </div>
   );
