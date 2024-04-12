@@ -21,7 +21,8 @@ import { getPoemTitle } from "./utils";
 import { Body } from "./components/body";
 import { More } from "./components/more";
 import { getDictionary, type Locale } from "~/dictionaries";
-import GoFeedback from "./go-feedback";
+
+const GoFeedback = dynamic(() => import("./go-feedback"), { ssr: false });
 
 const SaveShareButton = dynamic(() => import("./components/share"), {
   ssr: false,
