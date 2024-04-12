@@ -25,11 +25,10 @@
     "translation": "翻訳",
     "tools": "ツール",
     "more": "さらに探索",
-    "comment": "コメント",
-    "comment_desc1": "異なる年齢、成長環境、経験には、異なる視点があります。",
-    "comment_desc2": "従って、標準答えは存在せず、自分が好きなものを選ぶだけでいいです！ぜひ、思いを残してください！👏🏻👏🏻👏🏻",
-    "report_error": "エラー報告",
-    "report_error_desc": "もし間違いを見つけた場合は、下にコメントして指摘してください！"
+    "report_error": "エラーを報告する",
+    "report_error_desc": "エラーを見つけた場合は、「フィードバック」をクリックして修正のためのメッセージを残してください。できるだけ早く対応いたします。",
+    "report_default_placeholder": "エラーの詩:",
+    "go_feedback": "フィードバックに移動"
   },
   "poem_list": {
     "title": "詩のリスト",

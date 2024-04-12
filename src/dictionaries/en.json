@@ -25,11 +25,10 @@
     "translation": "Translation",
     "tools": "Tools",
     "more": "More Explore",
-    "comment": "Comment",
-    "comment_desc1": "Different ages, growth environments, and experiences will have different views.",
-    "comment_desc2": "Therefore, there is no standard answer, just like it yourself! Welcome to leave your thoughts!👏🏻👏🏻👏🏻",
     "report_error": "Report Error",
-    "report_error_desc": "If you find an error, you can also leave a message below to correct it!"
+    "report_error_desc": "If you find any errors, click on 'Feedback' to leave a message for correction. I will handle it as soon as possible.",
+    "report_default_placeholder": "Error Poem:",
+    "go_feedback": "Go to Feedback"
   },
   "poem_list": {
     "title": "Poem List",

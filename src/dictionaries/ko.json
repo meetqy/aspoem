@@ -25,11 +25,10 @@
     "translation": "번역",
     "tools": "도구",
     "more": "더 많은 탐색",
-    "comment": "자유롭게 의견을 표현하세요",
-    "comment_desc1": "다른 나이, 성장 환경, 경험에 따라 다른 시각이 있을 것입니다.",
-    "comment_desc2": "따라서 표준 답변은 없습니다. 자신이 좋아하는 대로 하세요! 여러분의 생각을 남겨주세요!👏🏻👏🏻👏🏻",
     "report_error": "오류 신고",
-    "report_error_desc": "오류를 발견하신 경우 아래에 의견을 남겨주시면 감사하겠습니다!"
+    "report_error_desc": "오류를 발견하면 '의견'을 클릭하여 수정 요청 메시지를 남기세요. 가능한 빨리 처리하겠습니다.",
+    "report_default_placeholder": "오류 시:",
+    "go_feedback": "의견 남기기"
   },
   "poem_list": {
     "title": "시 목록",

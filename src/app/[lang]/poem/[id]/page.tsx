@@ -21,10 +21,7 @@ import { getPoemTitle } from "./utils";
 import { Body } from "./components/body";
 import { More } from "./components/more";
 import { getDictionary, type Locale } from "~/dictionaries";
-
-const Twikoo = dynamic(() => import("./components/twikoo"), {
-  ssr: false,
-});
+import GoFeedback from "./go-feedback";
 
 const SaveShareButton = dynamic(() => import("./components/share"), {
   ssr: false,
@@ -308,23 +305,14 @@ export default async function Page({ params, searchParams }: Props) {
           tagIds={poem.tags.map((item) => item.id)}
           lang={params.lang}
         />
-        <h2 id={"#" + dict.poem.comment} prose-h2="">
-          {dict.poem.comment}
-        </h2>
-        <p prose-p="">
-          {dict.poem.comment_desc1}
-          <span className="underline">{dict.poem.comment_desc2}</span>
-        </p>
         <h2 id={"#" + dict.poem.report_error} prose-h2="">
           {dict.poem.report_error}
         </h2>
-        <p prose-p="">
-          <InfoIcon className="-mt-1 mr-2 inline-block text-destructive" />
+        <p className="prose-p">
+          <InfoIcon className="-mt-1.5 mr-2 inline-block" />
           {dict.poem.report_error_desc}
+          <GoFeedback id={poem.id} lang={params.lang} dict={dict} />
         </p>
-        <div className="mt-12">
-          <Twikoo lang={params.lang} />
-        </div>
       </article>
 
       <footer className="h-16"></footer>

@@ -25,11 +25,10 @@
     "translation": "译文",
     "tools": "工具",
     "more": "更多探索",
-    "comment": "畅所欲言",
-    "comment_desc1": "不同的年龄、成长环境、经历，都会有不同的看法。",
-    "comment_desc2": "因此不存在标准答案，自己喜欢就好！欢迎留下你的随想！👏🏻👏🏻👏🏻",
     "report_error": "纠错",
-    "report_error_desc": "如果发现错误，也可以在下方留言，指正哦！"
+    "report_error_desc": "如果发现错误，点击“反馈”留言指正，我会尽快处理。",
+    "report_default_placeholder": "错误诗词：",
+    "go_feedback": "去反馈"
   },
   "poem_list": {
     "title": "诗词列表",
