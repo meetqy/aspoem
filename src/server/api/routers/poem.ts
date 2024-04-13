@@ -3,6 +3,7 @@ import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 import { LangZod, transformPoem, transformTag } from "../utils";
 import { splitChineseSymbol } from "~/utils";
+import { pick } from "lodash-es";
 
 export const poemRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),
@@ -203,6 +204,7 @@ export const poemRouter = createTRPCRouter({
             introduce_zh_Hant: item.introduce_zh_Hant,
             translation: item.translation,
             translation_zh_Hant: item.translation_zh_Hant,
+            translation_en: item.translation_en,
             annotation: item.annotation,
             annotation_zh_Hant: item.annotation_zh_Hant,
             updatedAt: item.updatedAt,
@@ -269,6 +271,7 @@ export const poemRouter = createTRPCRouter({
       z.object({
         id: z.number(),
         lang: LangZod,
+        selected: z.array(z.enum(["translation_en"])).optional(),
       }),
     )
     .query(async ({ input, ctx }) => {
@@ -335,12 +338,11 @@ export const poemRouter = createTRPCRouter({
         }
       }
 
-      const is_hant = !!res.content_zh_Hant;
+      if (input.selected) {
+        return pick(res, input.selected);
+      }
 
-      return {
-        ...transformPoem(res, input.lang),
-        is_hant,
-      };
+      return transformPoem(res, input.lang);
     }),
   /**
    * 创建诗词
@@ -434,38 +436,22 @@ export const poemRouter = createTRPCRouter({
       });
     }),
 
-  updateHant: publicProcedure
+  updateLocale: publicProcedure
     .input(
       z.object({
-        title: z.string().optional(),
-        content: z.string().optional(),
-        introduce: z.string().optional(),
-        translation: z.string().optional(),
-        annotation: z.string().optional(),
+        translation_en: z.string().optional(),
         id: z.number(),
+        token: z.string(),
       }),
     )
     .mutation(async ({ ctx, input }) => {
-      const res = await ctx.db.poem.findUnique({
-        where: { id: input.id },
-      });
-
-      if (!res) return;
+      if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
 
       const json: Record<string, string> = {};
 
-      if (res.title_zh_Hant !== input.title && input.title)
-        json.title_zh_Hant = input.title;
-      if (res.content_zh_Hant !== input.content && input.content)
-        json.content_zh_Hant = input.content;
-      if (res.introduce_zh_Hant !== input.introduce && input.introduce)
-        json.introduce_zh_Hant = input.introduce;
-      if (res.translation_zh_Hant !== input.translation && input.translation)
-        json.translation_zh_Hant = input.translation;
-      if (res.annotation_zh_Hant !== input.annotation && input.annotation)
-        json.annotation_zh_Hant = input.annotation;
-
-      if (Object.keys(json).length === 0) return;
+      if (input.translation_en) {
+        json.translation_en = input.translation_en;
+      }
 
       return ctx.db.poem.update({
         where: { id: input.id },

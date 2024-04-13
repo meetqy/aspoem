@@ -28,6 +28,7 @@ model Poem {
     // 译文
     translation         String?
     translation_zh_Hant String?
+    translation_en      String?
     // 注解 JSON 字符串 {文字: 解释}
     annotation          String?
     annotation_zh_Hant  String?
