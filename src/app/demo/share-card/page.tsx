@@ -26,8 +26,6 @@ export default function Page() {
       <SaveShareButton title="Preview" scale={1}>
         <DrawDefaultPreview data={data} />
       </SaveShareButton>
-
-      <DrawDefaultPreview data={data} style={{ transform: "scale(0.5)" }} />
     </div>
   );
 }
