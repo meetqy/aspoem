@@ -1,6 +1,6 @@
+import Twikoo from "~/components/twikoo";
 import { HeaderMain } from "~/components/ui/header";
 import { getDictionary, type Locale } from "~/dictionaries";
-import Twikoo from "../poem/[id]/components/twikoo";
 
 export default async function FeedbackPage({
   params,
