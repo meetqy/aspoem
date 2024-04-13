@@ -22,10 +22,12 @@ export default function Page() {
   if (!bg) return;
 
   return (
-    <div className="flex max-w-screen-md space-x-4 overflow-auto p-4 text-xl">
-      <SaveShareButton title="Preview" scale={2}>
+    <div className="flex max-w-screen-md flex-wrap space-x-4 overflow-auto p-4 text-xl">
+      <SaveShareButton title="Preview" scale={1}>
         <DrawDefaultPreview data={data} />
       </SaveShareButton>
+
+      <DrawDefaultPreview data={data} style={{ transform: "scale(0.5)" }} />
     </div>
   );
 }

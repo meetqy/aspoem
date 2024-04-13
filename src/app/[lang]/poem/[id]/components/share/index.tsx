@@ -63,6 +63,7 @@ const SaveShareButton = (props: Props) => {
   const [visable, setVisable] = useState(false);
 
   scale = scale / window.devicePixelRatio;
+  scale = scale < 1 ? 1 : scale;
 
   useEffect(() => {
     (async () => {
@@ -99,22 +100,9 @@ const SaveShareButton = (props: Props) => {
         span.innerText = url;
         div.appendChild(span);
         span.style.color = "white";
-
         document.body.appendChild(div);
 
         setVisable(false);
-
-        // toPng(box, {
-        //   width: box.clientWidth * scale,
-        //   height: box.clientHeight * scale,
-        //   cacheBust: true,
-        //   style: {
-        //     transform: `scale(${scale})`,
-        //     transformOrigin: "top left",
-        //   },
-        // }).then((src) => {
-
-        // });
       }
     })();
   }, [scale, visable]);
