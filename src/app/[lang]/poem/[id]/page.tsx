@@ -251,7 +251,7 @@ export default async function Page({ params, searchParams }: Props) {
           </Button>
 
           <SaveShareButton
-            scale={2}
+            scale={3}
             title={
               <>
                 <RefreshCcwDot className="mr-2 h-5 w-5 text-primary" />

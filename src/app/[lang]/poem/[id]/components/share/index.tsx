@@ -15,31 +15,25 @@ const buildPng = async (box: HTMLElement, scale: number) => {
   let result = "";
   const safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
+  const options = {
+    width: box.clientWidth * scale,
+    height: box.clientHeight * scale,
+    cacheBust: true,
+    style: {
+      transform: `scale(${scale})`,
+      transformOrigin: "top left",
+    },
+  };
+
   if (!safari) {
-    return await toPng(box, {
-      width: box.clientWidth * scale,
-      height: box.clientHeight * scale,
-      cacheBust: true,
-      style: {
-        transform: `scale(${scale})`,
-        transformOrigin: "top left",
-      },
-    });
+    return await toPng(box, options);
   }
 
   const resultBytes: number[] = [];
   let reBuild = true;
 
   while (reBuild) {
-    const res = await toPng(box, {
-      width: box.clientWidth * scale,
-      height: box.clientHeight * scale,
-      cacheBust: resultBytes.length === 0,
-      style: {
-        transform: `scale(${scale})`,
-        transformOrigin: "top left",
-      },
-    });
+    const res = await toPng(box, options);
 
     if (
       (resultBytes.length > 0 &&
@@ -63,15 +57,24 @@ const SaveShareButton = (props: Props) => {
   const [visable, setVisable] = useState(false);
 
   scale = scale / window.devicePixelRatio;
+  scale = scale < 1 ? 1 : scale;
 
   useEffect(() => {
     (async () => {
       if (visable) {
         const box = document.getElementById("draw-share-card")!;
         box.style.opacity = "1";
-        const bgEl: HTMLElement = box.querySelector("#draw-share-card-bg")!;
+        const bgEl: HTMLElement | HTMLImageElement = box.querySelector(
+          "#draw-share-card-bg",
+        )!;
 
-        const url = bgEl.style.backgroundImage.replace(/url\("(.+)"\)/, "$1");
+        let url = "";
+
+        if (bgEl instanceof HTMLImageElement) {
+          url = bgEl.src;
+        } else {
+          url = bgEl.style.backgroundImage.replace(/url\("(.+)"\)/, "$1");
+        }
 
         const src = await buildPng(box, scale);
         if (!src) return;
@@ -99,22 +102,9 @@ const SaveShareButton = (props: Props) => {
         span.innerText = url;
         div.appendChild(span);
         span.style.color = "white";
-
         document.body.appendChild(div);
 
         setVisable(false);
-
-        // toPng(box, {
-        //   width: box.clientWidth * scale,
-        //   height: box.clientHeight * scale,
-        //   cacheBust: true,
-        //   style: {
-        //     transform: `scale(${scale})`,
-        //     transformOrigin: "top left",
-        //   },
-        // }).then((src) => {
-
-        // });
       }
     })();
   }, [scale, visable]);
