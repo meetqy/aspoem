@@ -21,6 +21,8 @@ import { getPoemTitle } from "./utils";
 import { Body } from "./components/body";
 import { More } from "./components/more";
 import { getDictionary, type Locale } from "~/dictionaries";
+import { type Author, type Poem, type Tag } from "@prisma/client";
+import "./index.css";
 
 const GoFeedback = dynamic(() => import("./go-feedback"), { ssr: false });
 
@@ -57,7 +59,7 @@ const getItem = cache(async ({ id, lang }: Props["params"]) => {
     notFound();
   }
 
-  return poem;
+  return poem as Poem & { author: Author } & { tags: Tag[] };
 });
 
 export const revalidate = 3600;
@@ -212,18 +214,21 @@ export default async function Page({ params, searchParams }: Props) {
             })}
           </div>
         )}
-        <h2 id={"#" + dict.poem.translation} prose-h2="" className="text-left">
-          {dict.poem.translation}
-        </h2>
 
-        {(poem.translation || "暂未完善").split("\n").map((line, index) => (
-          <p
-            key={index}
-            className="text-f200 leading-[2.25rem] [&:not(:first-child)]:mt-6"
+        <div className="mt-12" id="translation">
+          <h2
+            id={"#" + dict.poem.translation}
+            className="prose-h2 mb-6 text-left"
           >
-            {line}
-          </p>
-        ))}
+            {dict.poem.translation}
+          </h2>
+
+          {(poem.translation || "暂未完善")
+            .split("\n")
+            .map((line, index) =>
+              line ? <p key={index}>{line}</p> : <br key={index} />,
+            )}
+        </div>
 
         <h2 id={"#" + dict.poem.tools} prose-h2="">
           {dict.poem.tools}

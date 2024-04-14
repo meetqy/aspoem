@@ -1,0 +1,13 @@
+#translation {
+  p {
+    @apply text-f200 leading-[2.25rem] [&:not(:first-child)]:mt-6;
+  }
+}
+
+html[lang="en"] {
+  #translation {
+    p {
+      @apply mt-2 font-sans text-f100 font-normal;
+    }
+  }
+}
