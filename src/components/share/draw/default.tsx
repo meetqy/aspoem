@@ -11,10 +11,11 @@ interface Props {
   data: Poem & { author: Author };
   className?: string;
   style?: React.CSSProperties;
+  id?: string;
 }
 
 const DrawDefaultPreview = (props: Props) => {
-  const { data: poem } = props;
+  const { data: poem, id = "draw-share-card" } = props;
 
   const contentTemp =
     poem.content
@@ -32,48 +33,33 @@ const DrawDefaultPreview = (props: Props) => {
 
   const image = bgCardsImages[random(0, bgCardsImages.length - 1)]!;
 
-  const a = () => (
-    <div
-      className="absolute -left-4 top-0 h-[105%] w-[105%] origin-center scale-105 bg-cover blur"
-      id="draw-share-card-bg"
-      style={{
-        backgroundImage: `url(${image.url})`,
-      }}
-    />
-  );
-
-  const b = () => (
-    <>
-      <img
-        id="draw-share-card-bg"
-        className="absolute left-0 right-0 top-0 aspect-[3/4] h-full rounded-md backdrop-blur-none"
-        src={"https://source.unsplash.com/random/1080?wallpapers"}
-        style={{ objectFit: "cover" }}
-      />
-      <div
-        className="absolute left-0 right-0 top-0 h-full rounded-md opacity-60 backdrop-blur-none"
-        style={{ backgroundColor: "#1F2937" }}
-      />
-    </>
-  );
-
-  const arr = [
-    { color: image.color, component: a },
-    { color: "white", component: b },
-  ];
-
-  const Background = (arr[Math.round(Math.random()) % 2 === 0 ? 0 : 1] ||
-    arr[1])!;
+  const Background = {
+    color: "white",
+    component: () => (
+      <>
+        <img
+          id="draw-share-card-bg"
+          className="absolute left-0 right-0 top-0 aspect-[3/4] h-full backdrop-blur-none"
+          src={image.url}
+          style={{ objectFit: "cover" }}
+        />
+        <div
+          className="absolute left-0 right-0 top-0 h-full opacity-60 backdrop-blur-none"
+          style={{ backgroundColor: "#1F2937" }}
+        />
+      </>
+    ),
+  };
 
   return (
     <div
-      id="draw-share-card"
+      id={id}
       style={{
         color: Background.color,
         ...props.style,
       }}
       className={cn(
-        "relative aspect-[3/4] w-96 overflow-hidden rounded-md",
+        "relative aspect-[3/4] w-96 overflow-hidden",
         props.className,
       )}
     >

@@ -26,7 +26,7 @@ import "./index.css";
 
 const GoFeedback = dynamic(() => import("./go-feedback"), { ssr: false });
 
-const SaveShareButton = dynamic(() => import("./components/share"), {
+const SaveShareButton = dynamic(() => import("~/components/share"), {
   ssr: false,
 });
 
@@ -35,12 +35,12 @@ const CopyButton = dynamic(() => import("./components/copy"), {
 });
 
 const DrawDefaultPreview = dynamic(
-  () => import("./components/share/draw/default"),
+  () => import("~/components/share/draw/default"),
   { ssr: false },
 );
 
 const DrawWuYanPreview = dynamic(
-  () => import("./components/share/draw/wu-yan"),
+  () => import("~/components/share/draw/wu-yan"),
   { ssr: false },
 );
 

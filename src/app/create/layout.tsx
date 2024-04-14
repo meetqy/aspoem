@@ -9,10 +9,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   const navs = [
     { title: "诗词", path: "/create/poem" },
-    { title: "更新诗词英语", path: "/create/poem-en" },
+    { title: "更新诗词-英语", path: "/create/poem-en" },
     { title: "作者", path: "/create/author" },
     { title: "标签", path: "/create/tag" },
     { title: "表格", path: "/create/table" },
+    { title: "生成卡片", path: "/create/gen-card" },
   ];
 
   return (

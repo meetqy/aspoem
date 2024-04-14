@@ -42,6 +42,15 @@ model Poem {
     createdAt           DateTime? @default(now())
     updatedAt           DateTime? @updatedAt
     views               Int       @default(0)
+    cards               Card[]
+}
+
+model Card {
+    id        Int       @id @default(autoincrement())
+    createdAt DateTime? @default(now())
+    updatedAt DateTime? @updatedAt
+    poem      Poem      @relation(fields: [poemId], references: [id])
+    poemId    Int
 }
 
 model Author {
