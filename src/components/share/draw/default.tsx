@@ -37,11 +37,13 @@ const DrawDefaultPreview = (props: Props) => {
     color: "white",
     component: () => (
       <>
-        <img
+        <div
           id="draw-share-card-bg"
           className="absolute left-0 right-0 top-0 aspect-[3/4] h-full backdrop-blur-none"
-          src={image.url}
-          style={{ objectFit: "cover" }}
+          style={{
+            backgroundImage: `url(${image})`,
+            backgroundSize: "cover",
+          }}
         />
         <div
           className="absolute left-0 right-0 top-0 h-full opacity-60 backdrop-blur-none"

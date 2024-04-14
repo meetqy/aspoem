@@ -9,31 +9,29 @@ export const otherRouter = createTRPCRouter({
       }),
     )
     .query(async ({ ctx, input }) => {
+      const where = {
+        AND: [
+          { tags: { some: { name: "五言绝句" } } },
+          {
+            cards: { none: {} },
+          },
+        ],
+      };
+
       const result = await ctx.db.poem.findMany({
-        where: {
-          AND: [
-            { tags: { some: { name: "七言绝句" } } },
-            {
-              cards: { none: {} },
-            },
-          ],
-        },
+        where,
         include: {
           author: true,
         },
-        skip: (input.page - 1) * 20,
-        take: 20,
+        orderBy: {
+          id: "asc",
+        },
+        skip: (input.page - 1) * 100,
+        take: 100,
       });
 
       const count = await ctx.db.poem.count({
-        where: {
-          AND: [
-            { tags: { some: { name: "七言绝句" } } },
-            {
-              cards: { none: {} },
-            },
-          ],
-        },
+        where,
       });
 
       return {

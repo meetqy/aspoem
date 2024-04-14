@@ -20,7 +20,7 @@ export default function GenCardPage() {
 
   const { data: poems, total } = data;
 
-  const totalPage = Math.ceil(total / 20);
+  const totalPage = Math.ceil(total / 100);
 
   const download = async (id: number) => {
     const card = document.getElementById(`draw-share-card-${id}`);
@@ -30,6 +30,7 @@ export default function GenCardPage() {
       const blob = await toBlob(card, {
         width: card.clientWidth * 2,
         height: card.clientHeight * 2,
+        cacheBust: true,
         style: {
           transform: "scale(2)",
           transformOrigin: "top left",
@@ -59,7 +60,7 @@ export default function GenCardPage() {
     <div>
       <h1 className="prose-h1">生成卡片</h1>
       <div className="mt-4">
-        <Button onClick={gen}>一键生成</Button>
+        <Button onClick={gen}>一键生成 ({poems.length})</Button>
 
         <div className="mt-2 space-x-2">
           {new Array(totalPage).fill(0).map((_, index) => (
