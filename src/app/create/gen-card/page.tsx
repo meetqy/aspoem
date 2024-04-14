@@ -75,7 +75,7 @@ export default function GenCardPage() {
         </div>
       </div>
       <div className="mt-8 grid grid-cols-3 gap-2 gap-y-8">
-        {poems.map((item) => (
+        {poems.map((item, i) => (
           <DrawDefaultPreview
             key={item.id}
             data={item}

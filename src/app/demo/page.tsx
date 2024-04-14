@@ -1,14 +1,20 @@
 "use client";
 
-import { api } from "~/trpc/react";
+import { useEffect } from "react";
+import { Random } from "unsplash-js/dist/methods/photos/types";
+import { unsplash } from "~/utils/unsplash";
 
 export default function Page() {
-  const { data: poem } = api.poem.findById.useQuery({
-    id: 292,
-    lang: "en",
-  });
+  useEffect(() => {
+    (async () => {
+      const res = await unsplash.photos.getRandom({ count: 100 });
 
-  console.log(poem);
+      const result = res.response as Random[];
+
+      const urls = result.map((item) => item.urls.regular);
+      console.log(urls);
+    })();
+  });
 
   return <div></div>;
 }
