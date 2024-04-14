@@ -11,6 +11,7 @@ interface Props {
   className?: string;
   style?: React.CSSProperties;
   id?: string;
+  bgImage?: string;
 }
 
 const DrawDefaultPreview = (props: Props) => {
@@ -30,6 +31,9 @@ const DrawDefaultPreview = (props: Props) => {
   const end = endRandom[random(0, endRandom.length - 1)] || 2;
   const content = contentTemp?.slice(end - 2, end) || [];
 
+  const image =
+    props.bgImage || "https://source.unsplash.com/random/1080?wallpapers";
+
   const Background = {
     color: "white",
     component: () => (
@@ -38,7 +42,7 @@ const DrawDefaultPreview = (props: Props) => {
           id="draw-share-card-bg"
           className="absolute left-0 right-0 top-0 aspect-[3/4] h-full backdrop-blur-none"
           style={{
-            backgroundImage: `url(https://source.unsplash.com/random/1080)`,
+            backgroundImage: `url(${image})`,
             backgroundSize: "cover",
           }}
         />
@@ -75,7 +79,7 @@ const DrawDefaultPreview = (props: Props) => {
           </div>
         </div>
 
-        <span className="absolute bottom-4 right-4 opacity-70">aspoem</span>
+        <span className="absolute bottom-2 right-2 opacity-70">aspoem</span>
       </div>
     </div>
   );

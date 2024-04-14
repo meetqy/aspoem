@@ -1,17 +1,21 @@
 import { createApi } from "unsplash-js";
 import { type Random } from "unsplash-js/dist/methods/photos/types";
 
-export const unsplash = createApi({
-  accessKey: "gLWHfOhV8pF7J3Hj1_2GKHtpt0pAvFdTkkrMIMzj3Bg",
-});
-
-export const getRandom = async () => {
-  const res = await unsplash.photos.getRandom({
-    count: 100,
-    collectionIds: ["wallpapers", "nature", "textures-patterns"],
+export const unsplash =
+  process.env.UNSPLASH_ACCESS_KEY &&
+  createApi({
+    accessKey: process.env.UNSPLASH_ACCESS_KEY,
   });
 
-  const result = res.response as Random[];
+export const getRandom = async () => {
+  if (unsplash) {
+    const res = await unsplash.photos.getRandom({
+      count: 30,
+      collectionIds: ["wallpapers", "nature", "textures-patterns"],
+    });
 
-  return result.map((item) => item.urls.regular);
+    const result = res.response as Random[];
+
+    return result.map((item) => item.urls.regular);
+  }
 };

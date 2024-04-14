@@ -18,9 +18,9 @@ export default function GenCardPage() {
 
   if (!data) return <div>loading...</div>;
 
-  const { data: poems, total } = data;
+  const { data: poems, urls, pageCount } = data;
 
-  const totalPage = Math.ceil(total / 100);
+  if (!urls) return <div>loading...</div>;
 
   const download = async (id: number) => {
     const card = document.getElementById(`draw-share-card-${id}`);
@@ -63,7 +63,7 @@ export default function GenCardPage() {
         <Button onClick={gen}>一键生成 ({poems.length})</Button>
 
         <div className="mt-2 space-x-2">
-          {new Array(totalPage).fill(0).map((_, index) => (
+          {new Array(pageCount).fill(0).map((_, index) => (
             <Button
               key={index}
               variant={page === index + 1 ? "default" : "outline"}
@@ -79,6 +79,7 @@ export default function GenCardPage() {
           <DrawDefaultPreview
             key={item.id}
             data={item}
+            bgImage={urls[i]}
             id={`draw-share-card-${item.id}`}
           />
         ))}
