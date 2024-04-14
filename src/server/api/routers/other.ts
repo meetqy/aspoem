@@ -11,7 +11,7 @@ export const otherRouter = createTRPCRouter({
     .query(async ({ ctx, input }) => {
       const where = {
         AND: [
-          { tags: { some: { name: "五言律诗" } } },
+          { tags: { some: { name: "七言律诗" } } },
           {
             cards: { none: {} },
           },

@@ -5,7 +5,6 @@
 import { type Author, type Poem } from "@prisma/client";
 import { random } from "lodash-es";
 import { cn } from "~/utils";
-import bgCardsImages from "~/utils/bg-card";
 
 interface Props {
   data: Poem & { author: Author };
@@ -31,8 +30,6 @@ const DrawDefaultPreview = (props: Props) => {
   const end = endRandom[random(0, endRandom.length - 1)] || 2;
   const content = contentTemp?.slice(end - 2, end) || [];
 
-  const image = bgCardsImages[random(0, bgCardsImages.length - 1)]!;
-
   const Background = {
     color: "white",
     component: () => (
@@ -41,7 +38,7 @@ const DrawDefaultPreview = (props: Props) => {
           id="draw-share-card-bg"
           className="absolute left-0 right-0 top-0 aspect-[3/4] h-full backdrop-blur-none"
           style={{
-            backgroundImage: `url(${image})`,
+            backgroundImage: `url(https://source.unsplash.com/random/1080)`,
             backgroundSize: "cover",
           }}
         />
