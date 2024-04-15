@@ -47,6 +47,7 @@ model Poem {
 
 model Card {
     id        Int       @id @default(autoincrement())
+    url       String    @unique
     createdAt DateTime? @default(now())
     updatedAt DateTime? @updatedAt
     poem      Poem      @relation(fields: [poemId], references: [id])

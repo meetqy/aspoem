@@ -2,12 +2,12 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import { type Author, type Poem } from "@prisma/client";
+import { type Author } from "@prisma/client";
 import { random } from "lodash-es";
 import { cn } from "~/utils";
 
 interface Props {
-  data: Poem & { author: Author };
+  data: { author: Author; content: string; title: string; id: number };
   className?: string;
   style?: React.CSSProperties;
   id?: string;
