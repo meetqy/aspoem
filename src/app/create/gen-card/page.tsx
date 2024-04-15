@@ -1,12 +1,12 @@
 "use client";
 
 import { toBlob } from "html-to-image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import DrawDefaultPreview from "~/components/share/draw/default";
 import { Button } from "~/components/ui/button";
 import { api } from "~/trpc/react";
 import { uid } from "uid";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { type Author } from "@prisma/client";
 
 interface Props {
@@ -18,19 +18,29 @@ export default function GenCardPage() {
   const [page, setPage] = useState(1);
   const params = useSearchParams();
   const token = params.get("token") ?? "";
+  const router = useRouter();
+  const tagName = params.get("tagName") ?? "七言律诗";
+
+  useEffect(() => {
+    if (localStorage.getItem("token") && !token) {
+      router.replace(`?token=${localStorage.getItem("token")}`);
+    }
+  }, [router, token]);
 
   const { data } = api.card.getGenerateCard.useQuery(
-    { page, token },
+    { page, token, tagName },
     { refetchOnWindowFocus: false },
   );
 
   if (!data) return null;
-  const { data: poems, pageCount, urls } = data;
+  const { data: poems, pageCount, urls, total } = data;
   if (!urls) return null;
 
   return (
     <div>
-      <h1 className="prose-h1">生成卡片</h1>
+      <h1 className="prose-h1">
+        生成卡片 {tagName} ({total})
+      </h1>
       <div className="mt-4">
         <GenCard poems={poems} urls={urls} token={token} />
 
