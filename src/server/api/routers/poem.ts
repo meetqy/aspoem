@@ -3,7 +3,6 @@ import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 import { LangZod, transformPoem, transformTag } from "../utils";
 import { splitChineseSymbol } from "~/utils";
-import { pick } from "lodash-es";
 
 export const poemRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),
@@ -271,7 +270,6 @@ export const poemRouter = createTRPCRouter({
       z.object({
         id: z.number(),
         lang: LangZod,
-        selected: z.array(z.enum(["translation_en"])).optional(),
       }),
     )
     .query(async ({ input, ctx }) => {
@@ -338,11 +336,24 @@ export const poemRouter = createTRPCRouter({
         }
       }
 
-      if (input.selected) {
-        return pick(res, input.selected);
-      }
-
       return transformPoem(res, input.lang);
+    }),
+
+  findByIdSelected: publicProcedure
+    .input(
+      z.object({
+        id: z.number(),
+        selected: z.array(z.enum(["translation_en"])).default([]),
+      }),
+    )
+    .query(async ({ input, ctx }) => {
+      return ctx.db.poem.findUnique({
+        where: { id: input.id },
+        select: {
+          id: true,
+          translation_en: input.selected.includes("translation_en"),
+        },
+      });
     }),
   /**
    * 创建诗词

@@ -2,9 +2,9 @@
 
 import { api } from "~/trpc/react";
 import { random } from "lodash-es";
-import SaveShareButton from "~/app/[lang]/poem/[id]/components/share";
-import DrawDefaultPreview from "~/app/[lang]/poem/[id]/components/share/draw/default";
 import bgCardsImages from "~/utils/bg-card";
+import SaveShareButton from "~/components/share";
+import DrawDefaultPreview from "~/components/share/draw/default";
 
 export default function Page() {
   const { data } = api.poem.findById.useQuery(
