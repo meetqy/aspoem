@@ -11,7 +11,6 @@ export const getRandom = async () => {
   if (unsplash) {
     const res = await unsplash.photos.getRandom({
       count: 30,
-      collectionIds: ["wallpapers", "nature", "textures-patterns"],
     });
 
     const result = res.response as Random[];
