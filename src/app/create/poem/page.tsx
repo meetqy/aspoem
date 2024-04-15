@@ -16,6 +16,7 @@ import {
   SelectValue,
 } from "~/components/ui/select";
 import { convertToHans, convertToHant } from "~/utils/convert";
+import { type Author, type Poem, type Tag } from "@prisma/client";
 
 export default function CreatePage() {
   const utils = api.useUtils();
@@ -32,7 +33,7 @@ export default function CreatePage() {
     pageSize: 9999,
   });
 
-  const { data: poem } = api.poem.findById.useQuery(
+  const { data: poemT } = api.poem.findById.useQuery(
     {
       id: Number(id),
     },
@@ -40,6 +41,8 @@ export default function CreatePage() {
       refetchOnWindowFocus: false,
     },
   );
+
+  const poem = poemT as Poem & { author: Author; tags: Tag[] };
 
   const [keyword, setKeyword] = useState("");
 

@@ -12,7 +12,7 @@ export default function CreatePage() {
   const router = useRouter();
   const id = params.get("id") ?? "";
 
-  const { data: poem } = api.poem.findById.useQuery(
+  const { data: poem } = api.poem.findByIdSelected.useQuery(
     {
       id: Number(id),
       selected: ["translation_en"],

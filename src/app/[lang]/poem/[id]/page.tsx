@@ -21,12 +21,11 @@ import { getPoemTitle } from "./utils";
 import { Body } from "./components/body";
 import { More } from "./components/more";
 import { getDictionary, type Locale } from "~/dictionaries";
-import { type Author, type Poem, type Tag } from "@prisma/client";
 import "./index.css";
 
 const GoFeedback = dynamic(() => import("./go-feedback"), { ssr: false });
 
-const SaveShareButton = dynamic(() => import("./components/share"), {
+const SaveShareButton = dynamic(() => import("~/components/share"), {
   ssr: false,
 });
 
@@ -35,12 +34,12 @@ const CopyButton = dynamic(() => import("./components/copy"), {
 });
 
 const DrawDefaultPreview = dynamic(
-  () => import("./components/share/draw/default"),
+  () => import("~/components/share/draw/default"),
   { ssr: false },
 );
 
 const DrawWuYanPreview = dynamic(
-  () => import("./components/share/draw/wu-yan"),
+  () => import("~/components/share/draw/wu-yan"),
   { ssr: false },
 );
 
@@ -59,7 +58,7 @@ const getItem = cache(async ({ id, lang }: Props["params"]) => {
     notFound();
   }
 
-  return poem as Poem & { author: Author } & { tags: Tag[] };
+  return poem;
 });
 
 export const revalidate = 3600;
