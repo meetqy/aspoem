@@ -147,6 +147,18 @@ export const poemRouter = createTRPCRouter({
             author: true,
           },
         });
+      } else if (input.sort === "updatedAt") {
+        // 首页推荐
+        data = await ctx.db.poem.findMany({
+          orderBy: {
+            updatedAt: "desc",
+          },
+          include: {
+            author: true,
+          },
+          skip: (page - 1) * pageSize,
+          take: pageSize,
+        });
       } else {
         let temp: (Poem & {
           "author.name": Author["name"];
@@ -161,14 +173,7 @@ export const poemRouter = createTRPCRouter({
           author: Author;
         })[] = [];
 
-        if (input.sort === "updatedAt") {
-          // 首页推荐
-          temp = await ctx.db
-            .$queryRaw`SELECT p.*, a."id" AS "author.id", a.name AS "author.name", a.dynasty as "author.dynasty", a."namePinYin" as "author.namePinYin", a."introduce" as "author.introduce", a."birthDate" as "author.birthDate", a."deathDate" as "author.deathDate", a."createdAt" as "author.createdAt", a."updatedAt" as "author.updatedAt"
-      from "Poem" p left join "Author" a ON p."authorId"=a.id
-      ORDER BY CASE WHEN p.translation IS NULL OR p.translation = '' THEN 1 ELSE 0 END, p."updatedAt" DESC
-      limit ${pageSize} offset ${(page - 1) * pageSize};`;
-        } else if (input.sort === "createdAt") {
+        if (input.sort === "createdAt") {
           // 最新
           temp = await ctx.db
             .$queryRaw`SELECT p.*, a."id" AS "author.id", a.name AS "author.name", a.dynasty as "author.dynasty", a."namePinYin" as "author.namePinYin", a."introduce" as "author.introduce", a."birthDate" as "author.birthDate", a."deathDate" as "author.deathDate", a."createdAt" as "author.createdAt", a."updatedAt" as "author.updatedAt"
