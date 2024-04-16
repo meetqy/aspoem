@@ -14,7 +14,7 @@ import { api } from "~/trpc/server";
 import { type Metadata } from "next";
 import { cache } from "react";
 import { Button } from "~/components/ui/button";
-import { MyHost, R2Host, cn } from "~/utils";
+import { MyHost, cn } from "~/utils";
 import dynamic from "next/dynamic";
 import { type Article, type WithContext } from "schema-dts";
 import { getPoemTitle } from "./utils";
@@ -22,7 +22,6 @@ import { Body } from "./components/body";
 import { More } from "./components/more";
 import { getDictionary, type Locale } from "~/dictionaries";
 import "./index.css";
-import Image from "next/image";
 import ShowPoemCard from "./components/show-poem-card";
 
 const GoFeedback = dynamic(() => import("./go-feedback"), { ssr: false });
