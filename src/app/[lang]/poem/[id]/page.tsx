@@ -14,7 +14,7 @@ import { api } from "~/trpc/server";
 import { type Metadata } from "next";
 import { cache } from "react";
 import { Button } from "~/components/ui/button";
-import { MyHost, cn } from "~/utils";
+import { MyHost, R2Host, cn } from "~/utils";
 import dynamic from "next/dynamic";
 import { type Article, type WithContext } from "schema-dts";
 import { getPoemTitle } from "./utils";
@@ -22,6 +22,7 @@ import { Body } from "./components/body";
 import { More } from "./components/more";
 import { getDictionary, type Locale } from "~/dictionaries";
 import "./index.css";
+import Image from "next/image";
 
 const GoFeedback = dynamic(() => import("./go-feedback"), { ssr: false });
 
@@ -66,25 +67,9 @@ export const revalidate = 3600;
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const poem = await getItem(params);
 
-  const { dynasty } = poem.author;
-
-  const keywords = [
-    poem.title,
-    poem.author.name,
-    `${poem.title}拼音版`,
-    `${poem.title}注解版`,
-    `${poem.title}译文/白话文`,
-    `${poem.author.dynasty}·${poem.author.name}的诗词`,
-  ];
-
-  if (dynasty) {
-    keywords.push(dynasty);
-  }
-
   return {
     title: getPoemTitle(poem),
     description: poem.content.substring(0, 160),
-    keywords,
     alternates: {
       languages: {
         "zh-Hans": `/zh-Hans/poem/${params.id}`,
@@ -233,17 +218,7 @@ export default async function Page({ params, searchParams }: Props) {
           {dict.poem.tools}
         </h2>
         <div prose-p="" className="grid grid-cols-2 gap-4 md:grid-cols-4">
-          {poem.content.split(/，|？|。|！/).length <= 9 && (
-            <Button asChild variant={"outline"}>
-              <Link href={`/tools/print?id=${poem.id}&lang=${params.lang}`}>
-                <PrinterIcon className="mr-2 h-5 w-5 text-primary" />
-                打印绝句律诗
-              </Link>
-            </Button>
-          )}
-
           <CopyButton data={poem} lang={params.lang} />
-
           <Button asChild variant={"outline"}>
             <Link
               href={`https://twitter.com/intent/tweet?text=${title} ${MyHost}/${params.lang}/poem/${poem.id}`}
@@ -253,7 +228,6 @@ export default async function Page({ params, searchParams }: Props) {
               分享到 Twitter
             </Link>
           </Button>
-
           <SaveShareButton
             scale={3}
             title={
@@ -265,6 +239,15 @@ export default async function Page({ params, searchParams }: Props) {
           >
             <DrawDefaultPreview data={poem} />
           </SaveShareButton>
+
+          {poem.content.split(/，|？|。|！/).length <= 9 && (
+            <Button asChild variant={"outline"}>
+              <Link href={`/tools/print?id=${poem.id}&lang=${params.lang}`}>
+                <PrinterIcon className="mr-2 h-5 w-5 text-primary" />
+                打印绝句律诗
+              </Link>
+            </Button>
+          )}
 
           {poem.content.split(/，|？|。|！/).length <= 5 && (
             <SaveShareButton
@@ -302,6 +285,32 @@ export default async function Page({ params, searchParams }: Props) {
             </SaveShareButton>
           )}
         </div>
+        <h2 id="#摘抄壁纸" className="prose-h2 mb-6">
+          摘抄卡片
+        </h2>
+
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
+          {poem.cards.map((item) => (
+            <Link
+              key={item.url}
+              className="relative aspect-[3/4]"
+              href={`${R2Host}/aspoem/${item.url}.png`}
+              target="_blank"
+            >
+              <Image
+                className="m-auto rounded-md shadow-md"
+                src={`${R2Host}/aspoem/${item.url}_xs.webp`}
+                fill={true}
+                quality={100}
+                alt="摘抄卡片"
+              />
+            </Link>
+          ))}
+        </div>
+        <p className="prose-p text-muted-foreground">
+          点击可查看高清大图，支持免费下载。
+        </p>
+
         <h2 id={"#" + dict.poem.more} className="prose-h2 mb-6">
           {dict.poem.more}
         </h2>
