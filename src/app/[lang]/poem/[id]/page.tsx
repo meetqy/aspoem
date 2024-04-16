@@ -23,6 +23,7 @@ import { More } from "./components/more";
 import { getDictionary, type Locale } from "~/dictionaries";
 import "./index.css";
 import Image from "next/image";
+import ShowPoemCard from "./components/show-poem-card";
 
 const GoFeedback = dynamic(() => import("./go-feedback"), { ssr: false });
 
@@ -285,31 +286,8 @@ export default async function Page({ params, searchParams }: Props) {
             </SaveShareButton>
           )}
         </div>
-        <h2 id="#摘抄壁纸" className="prose-h2 mb-6">
-          摘抄卡片
-        </h2>
 
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
-          {poem.cards.map((item) => (
-            <Link
-              key={item.url}
-              className="relative aspect-[3/4]"
-              href={`${R2Host}/aspoem/${item.url}.png`}
-              target="_blank"
-            >
-              <Image
-                className="m-auto rounded-md shadow-md"
-                src={`${R2Host}/aspoem/${item.url}_xs.webp`}
-                fill={true}
-                quality={100}
-                alt="摘抄卡片"
-              />
-            </Link>
-          ))}
-        </div>
-        <p className="prose-p text-muted-foreground">
-          点击可查看高清大图，支持免费下载。
-        </p>
+        {poem.cards.length > 0 && ShowPoemCard({ poem })}
 
         <h2 id={"#" + dict.poem.more} className="prose-h2 mb-6">
           {dict.poem.more}
