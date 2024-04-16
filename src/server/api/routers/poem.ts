@@ -149,16 +149,17 @@ export const poemRouter = createTRPCRouter({
         });
       } else if (input.sort === "updatedAt") {
         // 首页推荐
-        data = await ctx.db.poem.findMany({
+        const temp = await ctx.db.poem.findMany({
           orderBy: {
             updatedAt: "desc",
           },
           include: {
             author: true,
           },
-          skip: (page - 1) * pageSize,
-          take: pageSize,
+          take: 500,
         });
+
+        data = temp.filter((item) => item.translation).slice(0, pageSize);
       } else {
         let temp: (Poem & {
           "author.name": Author["name"];
