@@ -10,6 +10,7 @@ export function isMobile() {
 }
 
 export const MyHost = `https://aspoem.com`;
+export const R2Host = `https://r2.aspoem.com`;
 
 /** 可用其他颜色 */
 export const colors = [

@@ -294,6 +294,7 @@ export const poemRouter = createTRPCRouter({
         include: {
           tags: true,
           author: true,
+          cards: true,
         },
       });
 
