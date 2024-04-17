@@ -113,7 +113,6 @@ const GenCard = ({ poems, token }: Props & { token: string }) => {
   const gen = async () => {
     for (const item of poems) {
       await download(item.id);
-      break;
     }
   };
 
