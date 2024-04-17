@@ -50,6 +50,7 @@ model Card {
     url       String    @unique
     createdAt DateTime? @default(now())
     updatedAt DateTime? @updatedAt
+    content   String?
     poem      Poem      @relation(fields: [poemId], references: [id])
     poemId    Int
 }

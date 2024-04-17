@@ -62,6 +62,7 @@ export const cardRouter = createTRPCRouter({
       z.object({
         token: z.string(),
         poemId: z.number(),
+        content: z.string(),
         url: z.string(),
       }),
     )
@@ -74,6 +75,7 @@ export const cardRouter = createTRPCRouter({
         data: {
           poemId: input.poemId,
           url: input.url,
+          content: input.content,
         },
       });
     }),
