@@ -91,6 +91,7 @@ const GenCard = ({ poems, token }: Props & { token: string }) => {
       if (!blob) return;
 
       const name = `${id}-${uid()}`;
+      const content = card.innerText?.split("——")[0]?.replace(/\n+/g, "") || "";
 
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
@@ -102,6 +103,7 @@ const GenCard = ({ poems, token }: Props & { token: string }) => {
         token,
         url: name,
         poemId: id,
+        content,
       });
     } catch (e) {
       console.error(e);
@@ -111,6 +113,7 @@ const GenCard = ({ poems, token }: Props & { token: string }) => {
   const gen = async () => {
     for (const item of poems) {
       await download(item.id);
+      break;
     }
   };
 
