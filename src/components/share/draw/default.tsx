@@ -75,7 +75,8 @@ const DrawDefaultPreview = (props: Props) => {
           </div>
 
           <div className="mt-12 w-full text-end text-lg opacity-80">
-            —— {poem.author.dynasty}·{poem.author.name}《{poem.title}》
+            —— {poem.author.dynasty}·{poem.author.name}《
+            {poem.title.substring(0, 10)}》
           </div>
         </div>
 
