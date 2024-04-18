@@ -91,7 +91,7 @@ export default async function Layout({
             id="header_main"
           >
             <div className="flex items-center justify-center">
-              <div className="mr-2 hidden lg:block">
+              <div className="mr-2">
                 <Search dict={dict} lang={params.lang} />
               </div>
               <ModeToggle />
