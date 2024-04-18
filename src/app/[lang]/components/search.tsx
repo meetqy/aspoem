@@ -16,8 +16,9 @@ import { api } from "~/trpc/react";
 import { useRouter } from "next/navigation";
 import { CommandLoading } from "cmdk";
 import { type Locale, type Dictionary } from "~/dictionaries";
+import { Search } from "lucide-react";
 
-export default function CommandDemo({
+export default function SearchDialog({
   dict,
   lang,
 }: {
@@ -52,18 +53,29 @@ export default function CommandDemo({
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button
-          variant={"outline"}
-          className="relative h-8 w-64 justify-between bg-transparent text-base"
-          onClick={() => setOpen(true)}
-        >
-          <span>{dict.search.placeholder}...</span>
-          <kbd className="pointer-events-none absolute right-2 hidden h-5 select-none items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex">
-            <span className="text-xs">⌘</span>K
-          </kbd>
-        </Button>
+        <>
+          <Button
+            variant={"outline"}
+            className="relative hidden h-8 w-64 justify-between bg-transparent text-base lg:flex"
+            onClick={() => setOpen(true)}
+          >
+            <span>{dict.search.placeholder}...</span>
+            <kbd className="pointer-events-none absolute right-2 hidden h-5 select-none items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex">
+              <span className="text-xs">⌘</span>K
+            </kbd>
+          </Button>
+
+          <Button
+            size={"sm"}
+            variant={"outline"}
+            className="h-8 w-8 p-0 lg:hidden"
+            onClick={() => setOpen(true)}
+          >
+            <Search className="h-4 w-4" />
+          </Button>
+        </>
       </DialogTrigger>
-      <DialogContent className="h-[488px] max-w-screen-md p-0 text-lg">
+      <DialogContent className="h-[80%] max-w-screen-md p-0 text-lg lg:h-[488px]">
         <Command>
           <CommandInput
             placeholder={`${dict.search.placeholder}...`}
@@ -71,7 +83,7 @@ export default function CommandDemo({
             className="py-8 text-lg"
             onValueChange={setValue}
           />
-          <CommandList className="max-h-[488px]">
+          <CommandList className="max-h-[100%] lg:max-h-[488px]">
             <CommandEmpty>{dict.search.empty}</CommandEmpty>
             {isLoading && <CommandLoading />}
             <CommandGroup>
@@ -91,26 +103,31 @@ export default function CommandDemo({
                     }}
                   >
                     <span
+                      className="line-clamp-1"
                       dangerouslySetInnerHTML={{
-                        __html: item.title.replace(value, (e) => {
-                          return `<span class="text-blue-500 bg-blue-50">${e}</span>`;
-                        }),
+                        __html: item.title
+                          .substring(0, 15)
+                          .replace(value, (e) => {
+                            return `<span class="text-blue-500 bg-blue-50">${e}</span>`;
+                          }),
                       }}
                     />
-                    <span className="mx-0.5 text-muted-foreground/50">|</span>
-                    <span
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        router.push(`/${lang}/author/${item.author.id}`);
-                        setOpen(false);
-                      }}
-                      className="cursor-pointer hover:underline"
-                      dangerouslySetInnerHTML={{
-                        __html: item.author.name.replace(value, (e) => {
-                          return `<span class="text-blue-500 bg-blue-50">${e}</span>`;
-                        }),
-                      }}
-                    />
+                    <span>
+                      <span className="mx-0.5 text-muted-foreground/50">|</span>
+                      <span
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          router.push(`/${lang}/author/${item.author.id}`);
+                          setOpen(false);
+                        }}
+                        className="cursor-pointer hover:underline"
+                        dangerouslySetInnerHTML={{
+                          __html: item.author.name.replace(value, (e) => {
+                            return `<span class="text-blue-500 bg-blue-50">${e}</span>`;
+                          }),
+                        }}
+                      />
+                    </span>
                     {value && content && (
                       <span className="line-clamp-1 flex-1">
                         <span className="mx-0.5 text-muted-foreground/50">
