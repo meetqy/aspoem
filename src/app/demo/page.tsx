@@ -1,4 +1,3 @@
-import { api } from "~/trpc/react";
 import SearchDialog from "../[lang]/components/search";
 import { getDictionary } from "~/dictionaries";
 
