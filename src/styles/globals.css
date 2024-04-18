@@ -33,16 +33,6 @@ rt {
 /* foreground: 文字颜色 以上颜色后面加上 forgeround 就是文本色 */
 
 [data-theme="zinc"] {
-  .pinyin .char_annotation {
-    @apply relative;
-
-    &::before {
-      content: "";
-      @apply absolute bottom-0 left-1/2 w-10/12 border-b-2 border-dashed border-primary dark:text-destructive;
-      transform: translateX(-50%);
-    }
-  }
-
   .underline-animation {
     @apply from-transparent to-transparent;
   }
@@ -124,10 +114,6 @@ rt {
 }
 
 /* loading page end */
-
-[role="dialog"] {
-  @apply top-[40%];
-}
 
 /* popover 遮罩 */
 [data-radix-focus-guard] {
