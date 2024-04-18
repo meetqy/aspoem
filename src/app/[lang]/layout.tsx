@@ -10,6 +10,7 @@ import {
 import { type Metadata } from "next/types";
 import { MyHost } from "~/utils";
 import { Language } from "~/components/language";
+import { Logo } from "~/components/logo";
 
 const Search = dynamic(() => import("./components/search"), { ssr: false });
 const ModeToggle = dynamic(() => import("~/components/mode-toggle"), {
@@ -65,14 +66,7 @@ export default async function Layout({
           <div className="fixed left-0 top-0 h-screen bg-muted/50">
             <ScrollArea className="sticky top-0 h-full w-72 border-border">
               <header className="h-16">
-                <Link
-                  href={`/${params.lang}`}
-                  className="text-primary-outline flex h-16 items-center justify-center font-serif text-[2.5rem] font-bold"
-                  style={{ fontFamily: "Palatino,Times New Roman" }}
-                >
-                  AsPoem
-                  <span className="text-primary">.com</span>
-                </Link>
+                <Logo lang={params.lang} />
               </header>
 
               <div>

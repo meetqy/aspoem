@@ -1,14 +1,18 @@
 "use client";
 
-import { PopoverTrigger } from "@radix-ui/react-popover";
 import { MenuIcon } from "lucide-react";
-import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
 import { Button } from "~/components/ui/button";
-import { Popover, PopoverContent } from "~/components/ui/popover";
 import { cn } from "~/utils";
 import { type Locale, type Dictionary } from "~/dictionaries";
 import { Content } from "./content";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "~/components/ui/sheet";
+import { Logo } from "~/components/logo";
 
 type Props = {
   className?: string;
@@ -24,19 +28,11 @@ export function DesktopMenu({ className, dict, lang }: Props) {
   );
 }
 
-export function MobileMenu({ className, dict, lang }: Props) {
-  const [open, setOpen] = useState(false);
-
-  const pathname = usePathname();
-
-  useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
-
+export function MobileMenu({ dict, lang }: Props) {
   return (
-    <div className={cn("lg:hidden", className)}>
-      <Popover open={open} onOpenChange={setOpen} modal={true}>
-        <PopoverTrigger asChild>
+    <div className="lg:hidden">
+      <Sheet>
+        <SheetTrigger asChild>
           <Button
             size={"icon"}
             variant={"ghost"}
@@ -45,11 +41,16 @@ export function MobileMenu({ className, dict, lang }: Props) {
           >
             <MenuIcon className="h-5 w-5" />
           </Button>
-        </PopoverTrigger>
-        <PopoverContent className="w-screen">
+        </SheetTrigger>
+        <SheetContent side={"left"} className="border-border px-0">
+          <SheetHeader>
+            <SheetTitle asChild>
+              <Logo lang={lang} />
+            </SheetTitle>
+          </SheetHeader>
           <Content dict={dict} lang={lang} />
-        </PopoverContent>
-      </Popover>
+        </SheetContent>
+      </Sheet>
     </div>
   );
 }
