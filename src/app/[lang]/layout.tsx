@@ -1,6 +1,5 @@
 import { ScrollArea } from "~/components/ui/scroll-area";
 import { DesktopMenu, MobileMenu } from "./components/menu";
-import Link from "next/link";
 import dynamic from "next/dynamic";
 import {
   type Locale,
