@@ -9,6 +9,7 @@ import {
   Album,
   Check,
   GithubIcon,
+  Quote,
   Rocket,
   Rows2,
   SendIcon,
@@ -92,6 +93,13 @@ export function Content({
             label: <span className="font-mono">{tagsCount?.[0]}</span>,
             variant: /^(\/tag)/.test(pathname) ? "default" : "ghost",
             href: `/${lang}/tag`,
+          },
+          {
+            title: "片段",
+            icon: Quote,
+            label: <span className="font-mono">{tagsCount?.[0]}</span>,
+            variant: /^(\/quota)/.test(pathname) ? "default" : "ghost",
+            href: `/${lang}/quota/1`,
           },
         ]}
       />
