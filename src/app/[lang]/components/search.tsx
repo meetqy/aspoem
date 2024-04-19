@@ -68,7 +68,7 @@ export default function SearchDialog({
           <Button
             size={"sm"}
             variant={"outline"}
-            className="h-8 w-8 p-0 lg:hidden"
+            className="h-8 w-8 bg-transparent p-0 lg:hidden"
             onClick={() => setOpen(true)}
           >
             <Search className="h-4 w-4" />

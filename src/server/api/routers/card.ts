@@ -79,4 +79,38 @@ export const cardRouter = createTRPCRouter({
         },
       });
     }),
+
+  find: publicProcedure
+    .input(
+      z.object({
+        page: z.number().default(1),
+        pageSize: z.number().default(28),
+      }),
+    )
+    .query(async ({ ctx, input }) => {
+      const { page, pageSize } = input;
+
+      const [data, total] = await ctx.db.$transaction([
+        ctx.db.card.findMany({
+          take: pageSize,
+          skip: (page - 1) * pageSize,
+          orderBy: {
+            id: "desc",
+          },
+        }),
+        ctx.db.card.count(),
+      ]);
+
+      return {
+        data,
+        hasNext: page * pageSize < total,
+        total,
+        page,
+        pageSize,
+      };
+    }),
+
+  count: publicProcedure.query(async ({ ctx }) => {
+    return ctx.db.card.count();
+  }),
 });
