@@ -43,6 +43,7 @@ export function Content({
   const { data: poemCount } = api.poem.count.useQuery();
   const { data: authorCount } = api.author.count.useQuery();
   const { data: tagsCount } = api.tag.count.useQuery();
+  const { data: cardCount } = api.card.count.useQuery();
   const router = useRouter();
 
   const [style, setStyle] = useState("zinc");
@@ -97,7 +98,7 @@ export function Content({
           {
             title: "片段",
             icon: Quote,
-            label: <span className="font-mono">{tagsCount?.[0]}</span>,
+            label: <span className="font-mono">{cardCount}</span>,
             variant: /^(\/quota)/.test(pathname) ? "default" : "ghost",
             href: `/${lang}/quota/1`,
           },

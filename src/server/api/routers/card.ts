@@ -109,4 +109,8 @@ export const cardRouter = createTRPCRouter({
         pageSize,
       };
     }),
+
+  count: publicProcedure.query(async ({ ctx }) => {
+    return ctx.db.card.count();
+  }),
 });
