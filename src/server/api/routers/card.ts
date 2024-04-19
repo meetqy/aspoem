@@ -110,6 +110,19 @@ export const cardRouter = createTRPCRouter({
       };
     }),
 
+  random: publicProcedure.query(async ({ ctx }) => {
+    const count = await ctx.db.card.count();
+    const skip = Math.floor(Math.random() * count);
+
+    return ctx.db.card.findMany({
+      take: 30,
+      skip: skip,
+      orderBy: {
+        id: "desc",
+      },
+    });
+  }),
+
   count: publicProcedure.query(async ({ ctx }) => {
     return ctx.db.card.count();
   }),

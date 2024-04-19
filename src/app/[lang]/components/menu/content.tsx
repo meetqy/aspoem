@@ -100,7 +100,7 @@ export function Content({
             icon: Quote,
             label: <span className="font-mono">{cardCount}</span>,
             variant: /^(\/quota)/.test(pathname) ? "default" : "ghost",
-            href: `/${lang}/quota/1`,
+            href: `/${lang}/quota`,
           },
         ]}
       />
