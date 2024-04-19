@@ -117,6 +117,15 @@ export const cardRouter = createTRPCRouter({
     return ctx.db.card.findMany({
       take: 30,
       skip: skip,
+      select: {
+        id: true,
+        content: true,
+        url: true,
+        poemId: true,
+        poem: {
+          select: { title: true },
+        },
+      },
       orderBy: {
         id: "desc",
       },

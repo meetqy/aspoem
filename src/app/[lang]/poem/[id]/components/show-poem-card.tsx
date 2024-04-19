@@ -10,7 +10,7 @@ export default function ShowPoemCard({
 }) {
   return (
     <>
-      <h2 id="#摘抄壁纸" className="prose-h2">
+      <h2 id="#摘抄卡片" className="prose-h2">
         摘抄卡片
       </h2>
 
@@ -24,6 +24,7 @@ export default function ShowPoemCard({
             key={item.url}
             className="relative aspect-[3/4]"
             href={`${R2Host}/aspoem/${item.url}.png`}
+            title="查看原图"
             target="_blank"
           >
             <Image
@@ -31,7 +32,7 @@ export default function ShowPoemCard({
               src={`${R2Host}/aspoem/${item.url}_xs.webp`}
               fill={true}
               quality={100}
-              alt="摘抄卡片"
+              alt={`《${poem.title}》 | 诗词摘抄片段`}
             />
           </Link>
         ))}
