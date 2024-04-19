@@ -80,7 +80,7 @@ export default async function Layout({
 
         <div className="flex-1 bg-gradient-to-t from-background to-muted/10">
           <header
-            className="sticky top-0 z-40 flex min-h-16 w-full flex-row-reverse items-center justify-between border-b border-border/50 pl-14 pr-4 backdrop-blur lg:pl-0"
+            className="sticky top-0 z-40 flex min-h-16 w-full flex-row-reverse items-center justify-between border-b border-border/50 bg-background/70 pl-14 pr-4 backdrop-blur lg:pl-0"
             id="header_main"
           >
             <div className="flex items-center justify-center">

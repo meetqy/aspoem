@@ -21,12 +21,13 @@ export default async function Page({
     <>
       <HeaderMain>
         <div className="flex items-center px-4">
-          随机诗词片段
+          <span className="text-f200">诗词片段</span>
           <Button
             asChild
             variant={"outline"}
             size={"sm"}
-            className="ml-4 h-8 w-8 p-0"
+            className="ml-4 h-8 w-8 border-transparent bg-transparent p-0 lg:border-border"
+            aria-label="随机诗词片段"
           >
             <Link href={`/${params.lang}/quota?t=${Date.now()}`}>
               <ShuffleIcon className="h-4 w-4" />
@@ -34,7 +35,7 @@ export default async function Page({
           </Button>
         </div>
       </HeaderMain>
-      <div className="py-4">
+      <div className="p-4">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
           {data.map((item) => (
             <Link
