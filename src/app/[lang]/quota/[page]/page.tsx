@@ -29,11 +29,12 @@ export default async function Page({
           <Link
             href={`/${params.lang}/poem/${item.poemId}`}
             key={item.id}
+            title={item.content || "诗词片段摘抄"}
             className="relative block aspect-[3/4] cursor-pointer overflow-hidden rounded-md shadow-md"
           >
             <Image
               key={item.id}
-              alt={item.content || "摘抄卡片"}
+              alt={item.content || "诗词片段摘抄"}
               src={`${R2Host}/aspoem/${item.url}_md.webp`}
               fill
               priority
