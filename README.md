@@ -13,6 +13,15 @@
 - [本地运行](./DEVELOPMENT.md)
 - [Docker 部署](DEVELOPMENT.md#docker部署) 由 [@odysa](https://github.com/odysa) 提供
 
+## 赞赏
+
+“您的赞赏，让我知道这是有价值的”
+
+|WeChat|AliPay|
+|-|-|
+|<img alt="WeChat 赞赏" src="https://r2.aspoem.com/coffee/WeChat.JPG" />|<img alt="AliPay 赞赏" src="https://r2.aspoem.com/coffee/AliPay.PNG" />|
+
+
 ## 许可证
 
 对于个人用户，许可证持有者授予其使用本开源项目的权利，遵守 [GNU Affero General Public License（AGPL）3.0](./LICENSE) 版本的条款和条件。
