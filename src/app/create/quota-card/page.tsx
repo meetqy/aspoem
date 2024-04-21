@@ -1,13 +1,14 @@
 "use client";
 
 import { toBlob } from "html-to-image";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import DrawDefaultPreview from "~/components/share/draw/default";
 import { Button } from "~/components/ui/button";
 import { api } from "~/trpc/react";
 import { uid } from "uid";
 import { useRouter, useSearchParams } from "next/navigation";
 import { type Author } from "@prisma/client";
+import { Textarea } from "~/components/ui/textarea";
 
 interface Props {
   poems: { id: number; author: Author; title: string; content: string }[];
@@ -15,11 +16,19 @@ interface Props {
 }
 
 export default function GenCardPage() {
-  const [page, setPage] = useState(1);
   const params = useSearchParams();
   const token = params.get("token") ?? "";
   const router = useRouter();
-  const tagName = params.get("tagName") ?? "七言律诗";
+  const [content, setContent] = useState("");
+  const quotas = useMemo(
+    () => (content ? (JSON.parse(content) as string[]) : []),
+    [content],
+  );
+
+  const { data } = api.card.findNeedCreateByQuota.useQuery(
+    { token, quotas },
+    { enabled: quotas.length > 0, refetchOnWindowFocus: false },
+  );
 
   useEffect(() => {
     if (localStorage.getItem("token") && !token) {
@@ -27,48 +36,44 @@ export default function GenCardPage() {
     }
   }, [router, token]);
 
-  const { data } = api.card.getGenerateCard.useQuery(
-    { page, token, tagName },
-    { refetchOnWindowFocus: false },
-  );
-
-  if (!data) return null;
-  const { data: poems, pageCount, urls, total } = data;
-  if (!urls) return null;
-
   return (
     <div>
-      <h1 className="prose-h1">
-        生成卡片 {tagName} ({total})
-      </h1>
-      <div className="mt-4">
-        <GenCard poems={poems} urls={urls} token={token} />
+      <h1 className="prose-h1">名句转片段</h1>
 
-        <div className="mt-2 space-x-2">
-          {new Array(pageCount).fill(0).map((_, index) => (
-            <Button
-              key={index}
-              variant={page === index + 1 ? "default" : "outline"}
-              onClick={() => setPage(index + 1)}
-            >
-              {index + 1}
-            </Button>
-          ))}
-        </div>
+      {data?.urls && (
+        <GenCard poems={data.data} urls={data.urls} token={token} />
+      )}
+
+      <div className="mt-4">
+        <Textarea
+          placeholder="输入内容"
+          required
+          value={content}
+          className="h-32"
+          onChange={(e) => setContent(e.target.value)}
+        />
       </div>
-      <div className="mt-8 grid grid-cols-3 gap-2 gap-y-8">
-        {poems.map((item, i) => (
-          <DrawDefaultPreview
-            key={item.id}
-            data={item}
-            bgImage={urls[i]}
-            id={`draw-share-card-${item.id}`}
-          />
-        ))}
-      </div>
+
+      {data?.urls && <ListPreview poems={data.data} urls={data.urls} />}
     </div>
   );
 }
+
+const ListPreview = ({ poems, urls }: Props) => {
+  return (
+    <div className="mt-8 grid grid-cols-3 gap-2 gap-y-8">
+      {poems.map((item, i) => (
+        <DrawDefaultPreview
+          key={item.id}
+          data={item}
+          bgImage={urls[i]}
+          random={false}
+          id={`draw-share-card-${item.id}-${i}`}
+        />
+      ))}
+    </div>
+  );
+};
 
 const GenCard = ({ poems, token }: Props & { token: string }) => {
   const cardMutation = api.card.createCardItem.useMutation();

@@ -14,6 +14,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     { title: "标签", path: "/create/tag" },
     { title: "表格", path: "/create/table" },
     { title: "生成卡片", path: "/create/gen-card" },
+    { title: "生成卡片-名句", path: "/create/quota-card" },
   ];
 
   return (

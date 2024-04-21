@@ -135,4 +135,77 @@ export const cardRouter = createTRPCRouter({
   count: publicProcedure.query(async ({ ctx }) => {
     return ctx.db.card.count();
   }),
+
+  findNeedCreateByQuota: publicProcedure
+    .input(
+      z.object({
+        token: z.string(),
+        quotas: z.array(z.string()),
+      }),
+    )
+    .query(async ({ ctx, input }) => {
+      if (input.token !== process.env.TOKEN) {
+        throw new Error("token error");
+      }
+
+      if (!input.quotas.length) {
+        throw new Error("quotas is empty");
+      }
+
+      const result = await ctx.db.$transaction(
+        input.quotas.map((item) =>
+          ctx.db.poem.findFirst({
+            where: {
+              content: {
+                contains: item,
+              },
+            },
+            select: {
+              id: true,
+              title: true,
+              content: true,
+              author: true,
+            },
+          }),
+        ),
+      );
+
+      const exist = await ctx.db.$transaction(
+        input.quotas.map((item) =>
+          ctx.db.card.findFirst({
+            where: {
+              content: { contains: item },
+            },
+            select: {
+              id: true,
+            },
+          }),
+        ),
+      );
+
+      const urls = await getRandom();
+
+      type Result = Exclude<(typeof result)[number], null>;
+
+      const data = result
+        .map((item, index) => {
+          if (item) {
+            item.content = input.quotas[index]!;
+          }
+
+          return item;
+        })
+        .filter((item, index) => {
+          if (!item) return false;
+          if (exist[index]) return false;
+
+          return true;
+        })
+        .slice(0, 30) as Result[];
+
+      return {
+        data,
+        urls,
+      };
+    }),
 });
