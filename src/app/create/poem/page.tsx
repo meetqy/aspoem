@@ -323,6 +323,11 @@ export default function CreatePage() {
               required
               value={content}
               className="h-32"
+              onBlur={() => {
+                setContent((v) => {
+                  return v.replace(/\n+|(\n\s+)|(\s+\n)/g, "\n");
+                });
+              }}
               onChange={(e) => setContent(e.target.value)}
             />
           </div>
@@ -354,6 +359,11 @@ export default function CreatePage() {
               placeholder="白话文"
               required
               value={translation}
+              onBlur={() => {
+                setTranslation((v) => {
+                  return v.replace(/\n+|(\n\s+)|(\s+\n)/g, "\n");
+                });
+              }}
               onChange={(e) => setTranslation(e.target.value)}
             />
           </div>
