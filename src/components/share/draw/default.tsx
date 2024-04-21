@@ -12,24 +12,31 @@ interface Props {
   style?: React.CSSProperties;
   id?: string;
   bgImage?: string;
+  random?: boolean;
 }
 
 const DrawDefaultPreview = (props: Props) => {
   const { data: poem, id = "draw-share-card" } = props;
+  const { random: isRandom = true } = props;
 
-  const contentTemp =
-    poem.content
-      .replaceAll("\n", "")
-      .match(/[^。|！|？|，|；]+[。|！|？|，|；]+/g) || [];
-  const endRandom: number[] = [];
-  contentTemp.map((_, i) => {
-    const index = i + 1;
+  let content = (poem.content.match(/[^。|！|？|，|；]+[。|！|？|，|；]+/g) ||
+    []) as string[];
 
-    if (index % 2 === 0) endRandom.push(index);
-  });
+  if (isRandom) {
+    const contentTemp =
+      poem.content
+        .replaceAll("\n", "")
+        .match(/[^。|！|？|，|；]+[。|！|？|，|；]+/g) || [];
+    const endRandom: number[] = [];
+    contentTemp.map((_, i) => {
+      const index = i + 1;
 
-  const end = endRandom[random(0, endRandom.length - 1)] || 2;
-  const content = contentTemp?.slice(end - 2, end) || [];
+      if (index % 2 === 0) endRandom.push(index);
+    });
+
+    const end = endRandom[random(0, endRandom.length - 1)] || 2;
+    content = contentTemp?.slice(end - 2, end) || [];
+  }
 
   const image =
     props.bgImage || "https://source.unsplash.com/random/1080?wallpapers";
@@ -70,8 +77,9 @@ const DrawDefaultPreview = (props: Props) => {
       <div className="relative h-full w-full p-4">
         <div className="relative z-10 flex h-full w-full flex-col items-center justify-center">
           <div className="w-full space-y-4 text-center text-4xl italic">
-            <p>{content[0]}</p>
-            <p>{content[1]}</p>
+            {content.map((item, i) => (
+              <p key={i}>{item}</p>
+            ))}
           </div>
 
           <div className="mt-12 w-full text-end text-lg opacity-80">
