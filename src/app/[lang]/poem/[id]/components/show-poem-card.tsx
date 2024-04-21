@@ -29,7 +29,7 @@ export default function ShowPoemCard({
           >
             <Image
               className="m-auto rounded-md shadow-md"
-              src={`${R2Host}/aspoem/${item.url}_xs.webp`}
+              src={`${R2Host}/aspoem/${item.url}_md.webp`}
               fill={true}
               quality={100}
               alt={`《${poem.title}》 | 诗词摘抄片段`}
