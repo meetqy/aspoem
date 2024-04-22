@@ -62,7 +62,7 @@ export default function GenCardPage() {
             key={item.id}
             data={item}
             bgImage={urls[i]}
-            id={`draw-share-card-${item.id}`}
+            id={`draw-share-card-${item.id}-${i}`}
           />
         ))}
       </div>
@@ -113,6 +113,7 @@ const GenCard = ({ poems, token }: Props & { token: string }) => {
   const gen = async () => {
     for (let i = 0; i < poems.length; i++) {
       const item = poems[i]!;
+      console.log(item);
       await download(item.id, i);
     }
   };
