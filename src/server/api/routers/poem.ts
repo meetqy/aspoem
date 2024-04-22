@@ -37,6 +37,7 @@ export const poemRouter = createTRPCRouter({
     )
     .mutation(async ({ input, ctx }) => {
       if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
+      await ctx.db.card.deleteMany({ where: { poemId: input.id } });
       return ctx.db.poem.delete({ where: { id: input.id } });
     }),
 
