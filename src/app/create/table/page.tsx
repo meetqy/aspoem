@@ -147,7 +147,11 @@ export default function Page() {
       </div>
       <div className="mt-4 space-x-2">
         {new Array(Math.ceil(dataSource.length / 50)).fill(0).map((_, i) => (
-          <Button variant={i + 1 === page ? "default" : "outline"} key={i}>
+          <Button
+            onClick={() => setPage(i + 1)}
+            variant={i + 1 === page ? "default" : "outline"}
+            key={i}
+          >
             {i + 1}
           </Button>
         ))}
