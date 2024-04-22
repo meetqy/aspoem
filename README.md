@@ -9,11 +9,9 @@
 
 ## 数据来源
 
-- [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry)
-- [古诗文网](https://www.gushiwen.cn/)
-- [OpenCC](https://github.com/BYVoid/OpenCC)
-- 文心一言
-- ChatGPT
+- [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) | [古诗文网](https://www.gushiwen.cn/) 
+- [OpenCC](https://github.com/BYVoid/OpenCC) | [pinyin-pro](https://github.com/zh-lx/pinyin-pro)
+- 文心一言 | ChatGPT
 
 ## 参与贡献
 
