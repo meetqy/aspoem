@@ -36,6 +36,7 @@ export default function Page() {
 
   const { data } = api.author.findMany.useQuery({ pageSize: 999 });
   const authorNames = data?.data.map((item) => item.name) ?? [];
+  const [page, setPage] = useState(1);
 
   const add = (item: C) => {
     if (!authorNames.includes(item.author)) {
@@ -62,7 +63,7 @@ export default function Page() {
   };
 
   useEffect(() => {
-    void fetch("/content.json")
+    void fetch("https://r2.aspoem.com/content.json")
       .then((res) => res.json())
       .then((res) => {
         setDataSource(
@@ -112,10 +113,44 @@ export default function Page() {
       });
   };
 
+  const pageData = dataSource.slice((page - 1) * 50, page * 50);
+
+  const checked = () => {
+    Promise.all(
+      pageData.map((item) =>
+        utils.poem.checkedExist.fetch({
+          title: item.title,
+          authorName: item.author,
+        }),
+      ),
+    ).then((res) => {
+      const _save: string[] = [];
+      res.map((_, i) => {
+        const item = pageData[i]!;
+
+        if (_) {
+          _save.push(item.title);
+        }
+      });
+
+      setSave([...save, ..._save]);
+    });
+  };
+
   return (
     <div>
       <div className="sticky left-0 top-0 z-50 bg-background">
         <GenreSelect value={genre} onChange={setGenre} />
+      </div>
+      <div className="mt-4">
+        <Button onClick={checked}>一键检测添加</Button>
+      </div>
+      <div className="mt-4 space-x-2">
+        {new Array(Math.ceil(dataSource.length / 50)).fill(0).map((_, i) => (
+          <Button variant={i + 1 === page ? "default" : "outline"} key={i}>
+            {i + 1}
+          </Button>
+        ))}
       </div>
       <header className="mt-8 flex h-12">
         <div className="w-20">操作</div>
@@ -126,7 +161,7 @@ export default function Page() {
         <div className="flex-1">content</div>
       </header>
       <main>
-        {dataSource?.map((item, i) => (
+        {pageData?.map((item, i) => (
           <div className="flex h-12 border-b" key={i}>
             <div className="w-20">
               <Button variant={"outline"} size={"sm"} onClick={() => add(item)}>

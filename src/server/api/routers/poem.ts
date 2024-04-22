@@ -455,6 +455,26 @@ export const poemRouter = createTRPCRouter({
       });
     }),
 
+  checkedExist: publicProcedure
+    .input(
+      z.object({
+        title: z.string(),
+        authorName: z.string(),
+      }),
+    )
+    .query(async ({ ctx, input }) => {
+      const res = await ctx.db.poem.findFirst({
+        where: {
+          title: input.title.toLocaleLowerCase(),
+          author: {
+            name: input.authorName,
+          },
+        },
+      });
+
+      return res ? true : false;
+    }),
+
   updateLocale: publicProcedure
     .input(
       z.object({
