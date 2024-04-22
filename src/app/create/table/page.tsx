@@ -6,6 +6,7 @@ import { Button } from "~/components/ui/button";
 import { api } from "~/trpc/react";
 import { pinyin as GeneratePinyin } from "pinyin-pro";
 import { GenreSelect } from "../components/GenreSelect";
+import { Input } from "~/components/ui/input";
 
 type C = {
   title: string;
@@ -19,6 +20,7 @@ export default function Page() {
   const [dataSource, setDataSource] = useState<C[]>([]);
   const utils = api.useUtils();
   const [genre, setGenre] = useState("诗");
+  const [dynasty, setDynasty] = useState("唐");
 
   const author = api.author.create.useMutation();
   const poem = api.poem.create.useMutation();
@@ -43,7 +45,7 @@ export default function Page() {
       author
         .mutateAsync({
           name: item.author,
-          dynasty: item.dynasty,
+          dynasty: dynasty || item.dynasty,
           token,
         })
         .then((e) => {
@@ -143,6 +145,7 @@ export default function Page() {
         <GenreSelect value={genre} onChange={setGenre} />
       </div>
       <div className="mt-4">
+        <Input value={dynasty} onChange={(e) => setDynasty(e.target.value)} />
         <Button onClick={checked}>一键检测添加</Button>
       </div>
       <div className="mt-4 space-x-2">
