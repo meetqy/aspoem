@@ -107,6 +107,21 @@ export const authorRouter = createTRPCRouter({
     }),
   ),
 
+  findNotPoem: publicProcedure.query(async ({ ctx }) =>
+    ctx.db.author.findMany({
+      where: {
+        poems: {
+          none: {},
+        },
+      },
+      select: {
+        id: true,
+        name: true,
+        dynasty: true,
+      },
+    }),
+  ),
+
   create: publicProcedure
     .input(
       z.object({
@@ -151,6 +166,21 @@ export const authorRouter = createTRPCRouter({
           name: input.name.toLocaleLowerCase(),
           dynasty: input.dynasty,
         },
+      });
+    }),
+
+  deleteById: publicProcedure
+    .input(
+      z.object({
+        token: z.string(),
+        id: z.number(),
+      }),
+    )
+    .mutation(({ input, ctx }) => {
+      if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
+
+      return ctx.db.author.delete({
+        where: { id: input.id },
       });
     }),
 });
