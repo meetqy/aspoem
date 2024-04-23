@@ -55,6 +55,11 @@ export default function CreatePage() {
   const authors = data?.data;
 
   const mutation = {
+    genTranslate: api.poem.genTranslation.useMutation({
+      onSuccess(data) {
+        setTranslation(data);
+      },
+    }),
     deletePoem: api.poem.deleteById.useMutation({
       onSuccess: async () => {
         await utils.poem.findById.invalidate({
@@ -316,7 +321,7 @@ export default function CreatePage() {
         <div className="grid grid-cols-2 gap-x-4">
           <div className="space-y-2">
             <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-              <span className="text-red-500">*</span> 内容
+              <span className="text-red-500">*</span> 内容{" "}
             </label>
             <Textarea
               placeholder="输入内容"
@@ -354,6 +359,24 @@ export default function CreatePage() {
           <div className="space-y-2">
             <label className="font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
               译文
+              <Button
+                className="ml-2"
+                size={"sm"}
+                onClick={() => {
+                  if (mutation.genTranslate.isLoading) return;
+                  if (!content) {
+                    alert("请输入内容");
+                    return;
+                  }
+
+                  mutation.genTranslate.mutate({
+                    token,
+                    content,
+                  });
+                }}
+              >
+                生成
+              </Button>
             </label>
             <Textarea
               placeholder="白话文"
