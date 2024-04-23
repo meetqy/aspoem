@@ -6,6 +6,7 @@ import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
 import { Textarea } from "~/components/ui/textarea";
 import { api } from "~/trpc/react";
+import { pinyin as GeneratePinyin } from "pinyin-pro";
 
 export default function AuthorPage({
   searchParams,
@@ -177,7 +178,7 @@ export default function AuthorPage({
               id,
               token,
               name,
-              namePinYin,
+              namePinYin: namePinYin || GeneratePinyin(name),
               dynasty,
               introduce,
               birthDate: birthDate || undefined,
