@@ -7,6 +7,12 @@
 | ![310017729-c5728ebe-2977-4471-b0e1-92cd872874ee](https://github.com/meetqy/aspoem/assets/18411315/1748c1bf-b4e9-4e69-94d7-9a83fd997804) | ![310017294-502bd505-e10e-4e4c-86d8-e93f91ab7201](https://github.com/meetqy/aspoem/assets/18411315/2515bd07-7b9a-46e0-b87b-d28aa5319281) |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 
+## 数据来源
+
+- [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) | [古诗文网](https://www.gushiwen.cn/) 
+- [OpenCC](https://github.com/BYVoid/OpenCC) | [pinyin-pro](https://github.com/zh-lx/pinyin-pro)
+- 文心一言 | ChatGPT
+
 ## 参与贡献
 
 - [贡献指南](./CONTRIBUTING.md)
