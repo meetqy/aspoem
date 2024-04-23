@@ -162,62 +162,15 @@ export const poemRouter = createTRPCRouter({
 
         data = temp.filter((item) => item.translation).slice(0, pageSize);
       } else {
-        let temp: (Poem & {
-          "author.name": Author["name"];
-          "author.dynasty": Author["dynasty"];
-          "author.id": Author["id"];
-          "author.namePinYin": Author["namePinYin"];
-          "author.introduce": Author["introduce"];
-          "author.birthDate": Author["birthDate"];
-          "author.deathDate": Author["deathDate"];
-          "author.updatedAt": Author["updatedAt"];
-          "author.createdAt": Author["createdAt"];
-          author: Author;
-        })[] = [];
-
-        if (input.sort === "createdAt") {
-          // 最新
-          temp = await ctx.db
-            .$queryRaw`SELECT p.*, a."id" AS "author.id", a.name AS "author.name", a.dynasty as "author.dynasty", a."namePinYin" as "author.namePinYin", a."introduce" as "author.introduce", a."birthDate" as "author.birthDate", a."deathDate" as "author.deathDate", a."createdAt" as "author.createdAt", a."updatedAt" as "author.updatedAt"
-      from "Poem" p left join "Author" a ON p."authorId"=a.id
-      ORDER BY CASE WHEN p.translation IS NULL OR p.translation = '' THEN 1 ELSE 0 END, p."createdAt" DESC
-      limit ${pageSize} offset ${(page - 1) * pageSize};`;
-        }
-
-        data = temp.map((item) => {
-          return {
-            author: {
-              id: item["author.id"],
-              name: item["author.name"],
-              dynasty: item["author.dynasty"],
-              namePinYin: item["author.namePinYin"],
-              introduce: item["author.introduce"],
-              birthDate: item["author.birthDate"],
-              deathDate: item["author.deathDate"],
-              updatedAt: item["author.updatedAt"],
-              createdAt: item["author.createdAt"],
-            },
-            id: item.id,
-            title: item.title,
-            title_zh_Hant: item.title_zh_Hant,
-            titlePinYin: item.titlePinYin,
-            content: item.content,
-            content_zh_Hant: item.content_zh_Hant,
-            contentPinYin: item.contentPinYin,
-            classify: item.classify,
-            genre: item.genre,
-            introduce: item.introduce,
-            introduce_zh_Hant: item.introduce_zh_Hant,
-            translation: item.translation,
-            translation_zh_Hant: item.translation_zh_Hant,
-            translation_en: item.translation_en,
-            annotation: item.annotation,
-            annotation_zh_Hant: item.annotation_zh_Hant,
-            updatedAt: item.updatedAt,
-            createdAt: item.createdAt,
-            authorId: item.authorId,
-            views: item.views,
-          };
+        data = await ctx.db.poem.findMany({
+          orderBy: {
+            createdAt: "desc",
+          },
+          include: {
+            author: true,
+          },
+          skip: (page - 1) * pageSize,
+          take: pageSize,
         });
       }
 

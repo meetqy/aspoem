@@ -128,11 +128,12 @@ export const authorRouter = createTRPCRouter({
         token: z.string(),
         id: z.number().optional(),
         name: z.string(),
+        name_zh_Hant: z.string().optional(),
         birthDate: z.number().optional(),
         deathDate: z.number().optional(),
         introduce: z.string().optional(),
         namePinYin: z.string().optional(),
-        dynasty: z.string().optional(),
+        dynasty: z.string(),
       }),
     )
     .mutation(async ({ input, ctx }) => {
@@ -143,6 +144,7 @@ export const authorRouter = createTRPCRouter({
           where: { id: input.id },
           data: {
             name: input.name.toLocaleLowerCase(),
+            name_zh_Hant: input.name_zh_Hant,
             introduce: input.introduce,
             birthDate: input.birthDate,
             deathDate: input.deathDate,
@@ -164,6 +166,7 @@ export const authorRouter = createTRPCRouter({
       return ctx.db.author.create({
         data: {
           name: input.name.toLocaleLowerCase(),
+          name_zh_Hant: input.name_zh_Hant,
           dynasty: input.dynasty,
         },
       });

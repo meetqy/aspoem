@@ -56,20 +56,21 @@ model Card {
 }
 
 model Author {
-    id         Int       @id @default(autoincrement())
-    name       String
-    namePinYin String?
+    id           Int       @id @default(autoincrement())
+    name         String
+    name_zh_Hant String?
+    namePinYin   String?
     // 介绍，可使用 HTML
-    introduce  String?
+    introduce    String?
     // 出生日期
-    birthDate  Int?
+    birthDate    Int?
     // 死亡日期
-    deathDate  Int?
+    deathDate    Int?
     // 朝代
-    dynasty    String?
-    poems      Poem[]
-    createdAt  DateTime? @default(now())
-    updatedAt  DateTime? @updatedAt
+    dynasty      String?
+    poems        Poem[]
+    createdAt    DateTime? @default(now())
+    updatedAt    DateTime? @updatedAt
 }
 
 model Tag {
