@@ -4,6 +4,69 @@ import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
 import { LangZod, transformPoem, transformTag } from "../utils";
 import { splitChineseSymbol } from "~/utils";
 
+let token: {
+  access_token: string;
+  expires_in: number;
+  time: number;
+};
+
+const getToken = async () => {
+  if (!token || token.time + token.expires_in * 1000 < Date.now()) {
+    const res = await fetch(
+      `https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=${process.env.BAIDU_YIYAN_API_KEY}&client_secret=${process.env.BAIDU_YIYAN_SECRET_KEY}`,
+      { method: "POST" },
+    );
+
+    const data = (await res.json()) as {
+      access_token: string;
+      expires_in: number;
+    };
+
+    token = {
+      ...data,
+      time: Date.now(),
+    };
+  }
+
+  return token;
+};
+
+const getTranslation = async (content: string) => {
+  const _token = await getToken();
+
+  const res = await fetch(
+    `https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/ernie-3.5-8k-preview?access_token=${_token.access_token}`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        messages: [
+          {
+            role: "user",
+            content:
+              "你只需要将我发送的诗词内容进行白话文翻译，不需要赏析，不需要任何多余内容，只需要白话文翻译。不需要加上描述性文字“希望能符合我的要求”类似的结束语。不需要“以下是 xxx “的开始语， 确认请回复“确认”",
+          },
+          {
+            role: "assistant",
+            content:
+              "确认。请提供您需要翻译的诗词内容，我会直接将其翻译成白话文。",
+          },
+          {
+            role: "user",
+            content: content,
+          },
+        ],
+      }),
+    },
+  );
+
+  const json = (await res.json()) as { result: string };
+
+  return json.result;
+};
+
 export const poemRouter = createTRPCRouter({
   count: publicProcedure.query(({ ctx }) => ctx.db.poem.count()),
 
@@ -220,6 +283,23 @@ export const poemRouter = createTRPCRouter({
         tag: transformTag(tag, input.lang),
         total,
       };
+    }),
+
+  /**
+   * 文心一言生成诗词译文
+   */
+  genTranslation: publicProcedure
+    .input(
+      z.object({
+        token: z.string(),
+        content: z.string(),
+      }),
+    )
+    .mutation(async ({ input }) => {
+      if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
+
+      const translation = await getTranslation(input.content);
+      return translation;
     }),
 
   /**
