@@ -25,7 +25,7 @@
 
 |WeChat|AliPay|
 |-|-|
-|<img alt="WeChat 赞赏" src="https://r2.aspoem.com/coffee/WeChat.JPG" />|<img alt="AliPay 赞赏" src="https://r2.aspoem.com/coffee/AliPay.PNG" />|
+|<img alt="WeChat 赞赏" width="200" src="https://r2.aspoem.com/coffee/WeChat.JPG" />|<img alt="AliPay 赞赏" width='200' src="https://r2.aspoem.com/coffee/AliPay.PNG" />|
 
 
 ## 许可证
