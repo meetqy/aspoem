@@ -45,12 +45,12 @@ export default function Page() {
   const [page, setPage] = useState(1);
 
   const add = (item: C) => {
-    if (!authorNames.includes(item.author)) {
-      const hans = convertToHans(item.author);
+    const authorNameHans = convertToHans(item.author);
+    if (!authorNames.includes(authorNameHans)) {
       author
         .mutateAsync({
-          name: hans,
-          namePinYin: GeneratePinyin(hans),
+          name: authorNameHans,
+          namePinYin: GeneratePinyin(authorNameHans),
           name_zh_Hant: item.author,
           dynasty: dynasty || item.dynasty,
           token,
@@ -64,7 +64,7 @@ export default function Page() {
           alert(e);
         });
     } else {
-      const authorId = data?.data.find((e) => e.name === item.author)?.id;
+      const authorId = data?.data.find((e) => e.name === authorNameHans)?.id;
       if (authorId) {
         addPoem(item, authorId);
       }
