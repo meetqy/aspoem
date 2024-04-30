@@ -139,7 +139,7 @@ export default async function Page({ params, searchParams }: Props) {
             </nav>
           </div>
 
-          <div className="min-w-24">
+          <div className="flex justify-end items-center min-w-24">
             {showPinYin ? (
               <Button size={"xs"} aria-label={dict.poem.pinyin_hide} asChild>
                 <Link href="?" replace>
