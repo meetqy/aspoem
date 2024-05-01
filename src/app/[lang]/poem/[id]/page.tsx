@@ -133,13 +133,13 @@ export default async function Page({ params, searchParams }: Props) {
                 {dict.poem.title}
               </Link>
               <ChevronRight className="h-4 w-4 flex-shrink-0" strokeWidth={1} />
-              <span className="line-clamp-1 w-28 overflow-hidden text-foreground md:w-auto">
+              <span className="line-clamp-1 overflow-hidden text-foreground">
                 {poem.title}
               </span>
             </nav>
           </div>
 
-          <div>
+          <div className="flex justify-end items-center min-w-24">
             {showPinYin ? (
               <Button size={"xs"} aria-label={dict.poem.pinyin_hide} asChild>
                 <Link href="?" replace>
