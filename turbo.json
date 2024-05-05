@@ -1,19 +1,21 @@
 {
   "$schema": "https://turborepo.org/schema.json",
+  "experimentalUI": true,
   "globalDependencies": ["**/.env"],
   "pipeline": {
     "topo": {
       "dependsOn": ["^topo"]
     },
-    "db:generate": {
-      "cache": false
-    },
-    "db:push": {
-      "cache": false
-    },
     "build": {
-      "dependsOn": ["^build", "^db:generate"],
-      "outputs": [".next/**", "!.next/cache/**", "next-env.d.ts", ".expo/**"]
+      "dependsOn": ["^build"],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**",
+        "next-env.d.ts",
+        ".expo/**",
+        ".output/**",
+        ".vercel/output/**"
+      ]
     },
     "dev": {
       "persistent": true,
@@ -28,7 +30,7 @@
       "outputs": ["node_modules/.cache/.eslintcache"]
     },
     "typecheck": {
-      "dependsOn": ["^topo", "^db:generate"],
+      "dependsOn": ["^topo"],
       "outputs": ["node_modules/.cache/tsbuildinfo.json"]
     },
     "clean": {
@@ -40,9 +42,9 @@
   },
   "globalEnv": [
     "DATABASE_URL",
-    "DISCORD_CLIENT_ID",
-    "DISCORD_CLIENT_SECRET",
-    "NEXTAUTH_SECRET",
-    "NEXTAUTH_URL"
+    "AUTH_DISCORD_ID",
+    "AUTH_DISCORD_SECRET",
+    "AUTH_REDIRECT_PROXY_URL",
+    "AUTH_SECRET"
   ]
 }

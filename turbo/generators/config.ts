@@ -1,5 +1,12 @@
 import { execSync } from "node:child_process";
-import type { PackageJson, PlopTypes } from "@turbo/gen";
+import type { PlopTypes } from "@turbo/gen";
+
+interface PackageJson {
+  name: string;
+  scripts: Record<string, string>;
+  dependencies: Record<string, string>;
+  devDependencies: Record<string, string>;
+}
 
 export default function generator(plop: PlopTypes.NodePlopAPI): void {
   plop.setGenerator("init", {
@@ -9,7 +16,7 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
         type: "input",
         name: "name",
         message:
-          "What is the name of the package? (You can skip the `@aspoem/` prefix)",
+          "What is the name of the package? (You can skip the `@acme/` prefix)",
       },
       {
         type: "input",
@@ -21,11 +28,16 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
     actions: [
       (answers) => {
         if ("name" in answers && typeof answers.name === "string") {
-          if (answers.name.startsWith("@aspoem/")) {
-            answers.name = answers.name.replace("@aspoem/", "");
+          if (answers.name.startsWith("@acme/")) {
+            answers.name = answers.name.replace("@acme/", "");
           }
         }
         return "Config sanitized";
+      },
+      {
+        type: "add",
+        path: "packages/{{ name }}/eslint.config.js",
+        templateFile: "templates/eslint.config.js.hbs",
       },
       {
         type: "add",
@@ -36,11 +48,6 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
         type: "add",
         path: "packages/{{ name }}/tsconfig.json",
         templateFile: "templates/tsconfig.json.hbs",
-      },
-      {
-        type: "add",
-        path: "packages/{{ name }}/index.ts",
-        template: "export * from './src';",
       },
       {
         type: "add",
@@ -72,9 +79,10 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
          * Install deps and format everything
          */
         if ("name" in answers && typeof answers.name === "string") {
-          execSync("pnpm manypkg fix", {
-            stdio: "inherit",
-          });
+          // execSync("pnpm dlx sherif@latest --fix", {
+          //   stdio: "inherit",
+          // });
+          execSync("pnpm i", { stdio: "inherit" });
           execSync(
             `pnpm prettier --write packages/${answers.name}/** --list-different`,
           );

@@ -1,3 +1,3 @@
-export { GET, POST } from "@aspoem/auth";
+export { GET, POST } from "@acme/auth";
 
 export const runtime = "edge";

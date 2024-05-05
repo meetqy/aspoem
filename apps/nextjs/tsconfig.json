@@ -1,5 +1,5 @@
 {
-  "extends": "@aspoem/tsconfig/base.json",
+  "extends": "@acme/tsconfig/base.json",
   "compilerOptions": {
     "lib": ["es2022", "dom", "dom.iterable"],
     "jsx": "preserve",
@@ -12,5 +12,5 @@
     "module": "esnext"
   },
   "include": [".", ".next/types/**/*.ts"],
-  "exclude": ["node_modules", "eslint.config.js"]
+  "exclude": ["node_modules"]
 }

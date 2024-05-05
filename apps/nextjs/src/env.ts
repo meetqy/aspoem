@@ -1,8 +1,9 @@
+/* eslint-disable no-restricted-properties */
 import { createEnv } from "@t3-oss/env-nextjs";
 import { vercel } from "@t3-oss/env-nextjs/presets";
 import { z } from "zod";
 
-import { env as authEnv } from "@aspoem/auth/env";
+import { env as authEnv } from "@acme/auth/env";
 
 export const env = createEnv({
   extends: [authEnv, vercel()],
@@ -15,7 +16,12 @@ export const env = createEnv({
    * Specify your server-side environment variables schema here.
    * This way you can ensure the app isn't built with invalid env vars.
    */
-  server: {},
+  server: {
+    DB_HOST: z.string(),
+    DB_NAME: z.string(),
+    DB_PASSWORD: z.string(),
+    DB_USERNAME: z.string(),
+  },
 
   /**
    * Specify your client-side environment variables schema here.

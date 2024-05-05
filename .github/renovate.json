@@ -3,7 +3,7 @@
   "extends": ["config:base"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["^@aspoem/"],
+      "matchPackagePatterns": ["^@acme/"],
       "enabled": false
     }
   ],

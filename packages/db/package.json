@@ -1,38 +1,42 @@
 {
-  "name": "@aspoem/db",
+  "name": "@acme/db",
   "version": "0.1.0",
   "private": true,
-  "main": "./index.ts",
-  "types": "./index.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./src/index.ts"
+    }
+  },
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
     "clean": "rm -rf .turbo node_modules",
-    "lint": "eslint .",
-    "format": "prettier --check \"**/*.{mjs,ts,md,json}\"",
-    "generate": "pnpm with-env prisma generate",
-    "push": "pnpm with-env prisma db push --skip-generate",
-    "studio": "pnpm with-env prisma studio --port 5556",
-    "typecheck": "tsc --noEmit",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "lint": "eslint",
+    "push": "pnpm with-env drizzle-kit push:mysql --config src/config.ts",
+    "studio": "pnpm with-env drizzle-kit studio --config src/config.ts",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false",
     "with-env": "dotenv -e ../../.env --"
   },
   "dependencies": {
-    "@prisma/client": "^5.13.0"
+    "@planetscale/database": "^1.16.0",
+    "@t3-oss/env-core": "^0.10.1",
+    "drizzle-orm": "^0.30.4",
+    "zod": "^3.23.0"
   },
   "devDependencies": {
-    "@aspoem/eslint-config": "workspace:*",
-    "@aspoem/prettier-config": "workspace:*",
-    "@aspoem/tsconfig": "workspace:*",
-    "dotenv-cli": "^7.3.0",
-    "eslint": "^8.50.0",
-    "prettier": "^3.0.3",
-    "prisma": "^5.13.0",
-    "typescript": "^5.2.2"
+    "@acme/eslint-config": "workspace:*",
+    "@acme/prettier-config": "workspace:*",
+    "@acme/tsconfig": "workspace:*",
+    "dotenv-cli": "^7.4.1",
+    "drizzle-kit": "^0.20.14",
+    "eslint": "^9.0.0",
+    "mysql2": "^3.9.7",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
   },
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "@aspoem/eslint-config/base"
-    ]
-  },
-  "prettier": "@aspoem/prettier-config"
+  "prettier": "@acme/prettier-config"
 }

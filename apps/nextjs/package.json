@@ -1,5 +1,5 @@
 {
-  "name": "@aspoem/nextjs",
+  "name": "@acme/nextjs",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -14,9 +14,11 @@
     "with-env": "dotenv -e ../../.env --"
   },
   "dependencies": {
-    "@aspoem/api": "workspace:*",
-    "@aspoem/auth": "workspace:*",
-    "@aspoem/db": "workspace:*",
+    "@acme/api": "workspace:*",
+    "@acme/auth": "workspace:*",
+    "@acme/db": "workspace:*",
+    "@acme/ui": "workspace:*",
+    "@acme/validators": "workspace:*",
     "@t3-oss/env-nextjs": "^0.10.0",
     "@tanstack/react-query": "^5.32.0",
     "@trpc/client": "11.0.0-rc.364",
@@ -30,10 +32,10 @@
     "zod": "^3.23.0"
   },
   "devDependencies": {
-    "@aspoem/eslint-config": "workspace:*",
-    "@aspoem/prettier-config": "workspace:*",
-    "@aspoem/tailwind-config": "workspace:*",
-    "@aspoem/tsconfig": "workspace:*",
+    "@acme/eslint-config": "workspace:*",
+    "@acme/prettier-config": "workspace:*",
+    "@acme/tailwind-config": "workspace:*",
+    "@acme/tsconfig": "workspace:*",
     "@types/node": "^20.12.5",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
@@ -44,5 +46,5 @@
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5"
   },
-  "prettier": "@aspoem/prettier-config"
+  "prettier": "@acme/prettier-config"
 }

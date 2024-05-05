@@ -13,11 +13,16 @@ coverage
 out/
 next-env.d.ts
 
+# nitro
+.nitro/
+.output/
+
 # expo
 .expo/
-dist/
 expo-env.d.ts
 apps/expo/.gitignore
+apps/expo/ios
+apps/expo/android
 
 # production
 build
@@ -41,6 +46,7 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+dist/
 
 # turbo
 .turbo

@@ -1,18 +1,21 @@
-# create-t3-turbo-with-prisma
+# create-t3-turbo
 
 > **Note**
 > Due to high demand, this repo now uses the `app` directory with some new experimental features. If you want to use the more traditional `pages` router, [check out the repo before the update](https://github.com/t3-oss/create-t3-turbo/tree/414aff131ca124573e721f3779df3edb64989fd4).
 
+> **Note**
+> OAuth deployments are now working for preview deployments. Read [deployment guide](https://github.com/t3-oss/create-t3-turbo#auth-proxy) and [check out the source](./apps/auth-proxy) to learn more!
+
 ## Installation
 
-There are two ways of initializing an app using the `create-t3-turbo-with-prisma` starter. You can either use this repository as a template:
+There are two ways of initializing an app using the `create-t3-turbo` starter. You can either use this repository as a template:
 
 ![use-as-template](https://github.com/t3-oss/create-t3-turbo/assets/51714798/bb6c2e5d-d8b6-416e-aeb3-b3e50e2ca994)
 
 or use Turbo's CLI to init your project (use PNPM as package manager):
 
 ```bash
-npx create-turbo@latest -e https://github.com/Security2431/create-t3-turbo-with-prisma
+npx create-turbo@latest -e https://github.com/t3-oss/create-t3-turbo
 ```
 
 ## About
@@ -28,24 +31,29 @@ It uses [Turborepo](https://turborepo.org) and contains:
 .vscode
   └─ Recommended extensions and settings for VSCode users
 apps
+  ├─ auth-proxy
+  |   ├─ Nitro server to proxy OAuth requests in preview deployments
+  |   └─ Uses Auth.js Core
   ├─ expo
   |   ├─ Expo SDK 49
   |   ├─ React Native using React 18
   |   ├─ Navigation using Expo Router
-  |   ├─ Tailwind using Nativewind
+  |   ├─ Tailwind using NativeWind
   |   └─ Typesafe API calls using tRPC
   └─ next.js
-      ├─ Next.js 13
+      ├─ Next.js 14
       ├─ React 18
       ├─ Tailwind CSS
       └─ E2E Typesafe API Server & Client
 packages
   ├─ api
-  |   └─ tRPC v10 router definition
+  |   └─ tRPC v11 router definition
   ├─ auth
   |   └─ Authentication using next-auth. **NOTE: Only for Next.js app, not Expo**
-  └─ db
-      └─ typesafe db-calls using Prisma
+  ├─ db
+  |   └─ Typesafe db calls using Drizzle & Planetscale
+  └─ ui
+      └─ Start of a UI package for the webapp using shadcn-ui
 tooling
   ├─ eslint
   |   └─ shared, fine-grained, eslint presets
@@ -57,12 +65,12 @@ tooling
       └─ shared tsconfig you can extend from
 ```
 
-> In this template, we use `@aspoem` as a placeholder for package names. As a user, you might want to replace it with your own organization or project name. You can use find-and-replace to change all the instances of `@aspoem` to something like `@my-company` or `@project-name`.
+> In this template, we use `@acme` as a placeholder for package names. As a user, you might want to replace it with your own organization or project name. You can use find-and-replace to change all the instances of `@acme` to something like `@my-company` or `@project-name`.
 
 ## Quick Start
 
 > **Note**
-> The [db](./packages/db) package is preconfigured to use [MongoDB](https://www.mongodb.com/) database. If you're using something else, update the schema.prisma provider in [prisma](./packages/db/prisma).
+> The [db](./packages/db) package is preconfigured to use PlanetScale and is **edge-bound** with the [database.js](https://github.com/planetscale/database-js) driver. If you're using something else, make the necessary modifications to the [schema](./packages/db/src/schema) as well as the [client](./packages/db/src/index.ts) and the [drizzle config](./packages/db/drizzle.config.ts). If you want to switch to non-edge database driver, remove `export const runtime = "edge";` [from all pages and api routes](https://github.com/t3-oss/create-t3-turbo/issues/634#issuecomment-1730240214).
 
 To get it running, follow the steps below:
 
@@ -76,7 +84,7 @@ pnpm i
 # There is an `.env.example` in the root directory you can use for reference
 cp .env.example .env
 
-# Push the Prisma schema to the database
+# Push the Drizzle schema to the database
 pnpm db:push
 ```
 
@@ -106,9 +114,17 @@ pnpm db:push
 
 3. Run `pnpm dev` at the project root folder.
 
-> **TIP:** It might be easier to run each app in separate terminal windows so you get the logs from each app separately. This is also required if you want your terminals to be interactive, e.g. to access the Expo QR code. You can run `pnpm --filter expo dev` and `pnpm --filter nextjs dev` to run each app in a separate terminal window.
+### 3a. When it's time to add a new UI component
 
-### 3. When it's time to add a new package
+Run the `ui-add` script to add a new UI component using the interactive `shadcn/ui` CLI:
+
+```bash
+pnpm ui-add
+```
+
+When the component(s) has been installed, you should be good to go and start using it in your app.
+
+### 3b. When it's time to add a new package
 
 To add a new package, simply run `pnpm turbo gen init` in the monorepo root. This will prompt you for a package name as well as if you want to install any dependencies to the new package (of course you can also do this yourself later).
 
@@ -116,11 +132,11 @@ The generator sets up the `package.json`, `tsconfig.json` and a `index.ts`, as w
 
 ## FAQ
 
-### Can you include Solito?
+### Does the starter include Solito?
 
-No. Solito will not be included in this repo. It is a great tool if you want to share code between your Next.js and Expo app. However, the main purpose of this repo is not the integration between Next.js and Expo — it's the codesplitting of your T3 App into a monorepo. The Expo app is just a bonus example of how you can utilize the monorepo with multiple apps but can just as well be any app such as Vite, Electron, etc.
+No. Solito will not be included in this repo. It is a great tool if you want to share code between your Next.js and Expo app. However, the main purpose of this repo is not the integration between Next.js and Expo — it's the code splitting of your T3 App into a monorepo. The Expo app is just a bonus example of how you can utilize the monorepo with multiple apps but can just as well be any app such as Vite, Electron, etc.
 
-Integrating Solito into this repo isn't hard, and there are a few [offical templates](https://github.com/nandorojo/solito/tree/master/example-monorepos) by the creators of Solito that you can use as a reference.
+Integrating Solito into this repo isn't hard, and there are a few [official templates](https://github.com/nandorojo/solito/tree/master/example-monorepos) by the creators of Solito that you can use as a reference.
 
 ### What auth solution should I use instead of Next-Auth.js for Expo?
 
@@ -149,15 +165,22 @@ If you need to share runtime code between the client and server, such as input v
 
 Let's deploy the Next.js application to [Vercel](https://vercel.com). If you've never deployed a Turborepo app there, don't worry, the steps are quite straightforward. You can also read the [official Turborepo guide](https://vercel.com/docs/concepts/monorepos/turborepo) on deploying to Vercel.
 
-1. Create a new project on Vercel, select the `apps/nextjs` folder as the root directory and apply the following build settings:
-
-   <img width="927" alt="Vercel deployment settings" src="https://user-images.githubusercontent.com/11340449/201974887-b6403a32-5570-4ce6-b146-c486c0dbd244.png">
-
-   > The install command filters out the expo package and saves us a few seconds (and cache size) of dependency installation. The build command utilizes Turbo to build the application.
+1. Create a new project on Vercel, select the `apps/nextjs` folder as the root directory. Vercel's zero-config system should handle all configurations for you.
 
 2. Add your `DATABASE_URL` environment variable.
 
 3. Done! Your app should successfully deploy. Assign your domain and use that instead of `localhost` for the `url` in the Expo app so that your Expo app can communicate with your backend when you are not in development.
+
+### Auth Proxy
+
+The auth proxy is a Nitro server that proxies OAuth requests in preview deployments. This is required for the Next.js app to be able to authenticate users in preview deployments. The auth proxy is not used for OAuth requests in production deployments. To get it running, it's easiest to use Vercel Edge functions. See the [Nitro docs](https://nitro.unjs.io/deploy/providers/vercel#vercel-edge-functions) for how to deploy Nitro to Vercel.
+
+Then, there are some environment variables you need to set in order to get OAuth working:
+
+- For the Next.js app, set `AUTH_REDIRECT_PROXY_URL` to the URL of the auth proxy.
+- For the auth proxy server, set `AUTH_REDIRECT_PROXY_URL` to the same as above, as well as `AUTH_DISCORD_ID`, `AUTH_DISCORD_SECRET` (or the equivalent for your OAuth provider(s)). Lastly, set `AUTH_SECRET` **to the same value as in the Next.js app** for preview environments.
+
+Read more about the setup in [the auth proxy README](./apps/auth-proxy/README.md).
 
 ### Expo
 
@@ -165,7 +188,7 @@ Deploying your Expo application works slightly differently compared to Next.js o
 
 1. Make sure to modify the `getBaseUrl` function to point to your backend's production URL:
 
-   <https://github.com/Security2431/create-t3-turbo-with-prisma/blob/main/apps/expo/src/utils/api.tsx#L20-L40>
+   <https://github.com/t3-oss/create-t3-turbo/blob/656965aff7db271e5e080242c4a3ce4dad5d25f8/apps/expo/src/utils/api.tsx#L20-L37>
 
 2. Let's start by setting up [EAS Build](https://docs.expo.dev/build/introduction), which is short for Expo Application Services. The build service helps you create builds of your app, without requiring a full native development setup. The commands below are a summary of [Creating your first build](https://docs.expo.dev/build/setup).
 
