@@ -8,7 +8,7 @@ importers:
 
   .:
     dependencies:
-      '@acme/prettier-config':
+      '@aspoem/prettier-config':
         specifier: ^0.1.0
         version: link:tooling/prettier
       '@manypkg/cli':
@@ -90,19 +90,19 @@ importers:
         specifier: 1.13.1
         version: 1.13.1
     devDependencies:
-      '@acme/api':
+      '@aspoem/api':
         specifier: ^0.1.0
         version: link:../../packages/api
-      '@acme/eslint-config':
+      '@aspoem/eslint-config':
         specifier: ^0.2.0
         version: link:../../tooling/eslint
-      '@acme/prettier-config':
+      '@aspoem/prettier-config':
         specifier: ^0.1.0
         version: link:../../tooling/prettier
-      '@acme/tailwind-config':
+      '@aspoem/tailwind-config':
         specifier: ^0.1.0
         version: link:../../tooling/tailwind
-      '@acme/tsconfig':
+      '@aspoem/tsconfig':
         specifier: ^0.1.0
         version: link:../../tooling/typescript
       '@babel/core':
@@ -138,13 +138,13 @@ importers:
 
   apps/nextjs:
     dependencies:
-      '@acme/api':
+      '@aspoem/api':
         specifier: ^0.1.0
         version: link:../../packages/api
-      '@acme/auth':
+      '@aspoem/auth':
         specifier: ^0.1.0
         version: link:../../packages/auth
-      '@acme/db':
+      '@aspoem/db':
         specifier: ^0.1.0
         version: link:../../packages/db
       '@t3-oss/env-nextjs':
@@ -187,16 +187,16 @@ importers:
         specifier: ^3.22.2
         version: 3.22.2
     devDependencies:
-      '@acme/eslint-config':
+      '@aspoem/eslint-config':
         specifier: ^0.2.0
         version: link:../../tooling/eslint
-      '@acme/prettier-config':
+      '@aspoem/prettier-config':
         specifier: ^0.1.0
         version: link:../../tooling/prettier
-      '@acme/tailwind-config':
+      '@aspoem/tailwind-config':
         specifier: ^0.1.0
         version: link:../../tooling/tailwind
-      '@acme/tsconfig':
+      '@aspoem/tsconfig':
         specifier: ^0.1.0
         version: link:../../tooling/typescript
       '@types/node':
@@ -226,10 +226,10 @@ importers:
 
   packages/api:
     dependencies:
-      '@acme/auth':
+      '@aspoem/auth':
         specifier: ^0.1.0
         version: link:../auth
-      '@acme/db':
+      '@aspoem/db':
         specifier: ^0.1.0
         version: link:../db
       '@trpc/client':
@@ -245,13 +245,13 @@ importers:
         specifier: ^3.22.2
         version: 3.22.2
     devDependencies:
-      '@acme/eslint-config':
+      '@aspoem/eslint-config':
         specifier: ^0.2.0
         version: link:../../tooling/eslint
-      '@acme/prettier-config':
+      '@aspoem/prettier-config':
         specifier: ^0.1.0
         version: link:../../tooling/prettier
-      '@acme/tsconfig':
+      '@aspoem/tsconfig':
         specifier: ^0.1.0
         version: link:../../tooling/typescript
       eslint:
@@ -266,7 +266,7 @@ importers:
 
   packages/auth:
     dependencies:
-      '@acme/db':
+      '@aspoem/db':
         specifier: ^0.1.0
         version: link:../db
       '@auth/core':
@@ -294,13 +294,13 @@ importers:
         specifier: ^3.22.2
         version: 3.22.2
     devDependencies:
-      '@acme/eslint-config':
+      '@aspoem/eslint-config':
         specifier: ^0.2.0
         version: link:../../tooling/eslint
-      '@acme/prettier-config':
+      '@aspoem/prettier-config':
         specifier: ^0.1.0
         version: link:../../tooling/prettier
-      '@acme/tsconfig':
+      '@aspoem/tsconfig':
         specifier: ^0.1.0
         version: link:../../tooling/typescript
       eslint:
@@ -319,13 +319,13 @@ importers:
         specifier: ^5.13.0
         version: 5.13.0(prisma@5.13.0)
     devDependencies:
-      '@acme/eslint-config':
+      '@aspoem/eslint-config':
         specifier: ^0.2.0
         version: link:../../tooling/eslint
-      '@acme/prettier-config':
+      '@aspoem/prettier-config':
         specifier: ^0.1.0
         version: link:../../tooling/prettier
-      '@acme/tsconfig':
+      '@aspoem/tsconfig':
         specifier: ^0.1.0
         version: link:../../tooling/typescript
       dotenv-cli:
@@ -377,10 +377,10 @@ importers:
         specifier: ^4.6.0
         version: 4.6.0(eslint@8.50.0)
     devDependencies:
-      '@acme/prettier-config':
+      '@aspoem/prettier-config':
         specifier: ^0.1.0
         version: link:../prettier
-      '@acme/tsconfig':
+      '@aspoem/tsconfig':
         specifier: ^0.1.0
         version: link:../typescript
       eslint:
@@ -402,7 +402,7 @@ importers:
         specifier: ^0.5.4
         version: 0.5.4(@ianvs/prettier-plugin-sort-imports@4.1.0)(prettier@3.0.3)
     devDependencies:
-      '@acme/tsconfig':
+      '@aspoem/tsconfig':
         specifier: ^0.1.0
         version: link:../typescript
       typescript:
@@ -421,13 +421,13 @@ importers:
         specifier: 3.3.2
         version: 3.3.2
     devDependencies:
-      '@acme/eslint-config':
+      '@aspoem/eslint-config':
         specifier: ^0.2.0
         version: link:../eslint
-      '@acme/prettier-config':
+      '@aspoem/prettier-config':
         specifier: ^0.1.0
         version: link:../prettier
-      '@acme/tsconfig':
+      '@aspoem/tsconfig':
         specifier: ^0.1.0
         version: link:../typescript
       eslint:

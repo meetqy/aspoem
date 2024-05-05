@@ -1,4 +1,4 @@
-export { GET, POST } from "@acme/auth";
+export { GET, POST } from "@aspoem/auth";
 
 // @note If you wanna enable edge runtime, either
 // - https://auth-docs-git-feat-nextjs-auth-authjs.vercel.app/guides/upgrade-to-v5#edge-compatibility

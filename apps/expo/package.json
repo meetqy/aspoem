@@ -1,5 +1,5 @@
 {
-  "name": "@acme/expo",
+  "name": "@aspoem/expo",
   "version": "0.1.0",
   "private": true,
   "main": "index.tsx",
@@ -37,11 +37,11 @@
     "superjson": "1.13.1"
   },
   "devDependencies": {
-    "@acme/api": "^0.1.0",
-    "@acme/eslint-config": "^0.2.0",
-    "@acme/prettier-config": "^0.1.0",
-    "@acme/tailwind-config": "^0.1.0",
-    "@acme/tsconfig": "^0.1.0",
+    "@aspoem/api": "^0.1.0",
+    "@aspoem/eslint-config": "^0.2.0",
+    "@aspoem/prettier-config": "^0.1.0",
+    "@aspoem/tailwind-config": "^0.1.0",
+    "@aspoem/tsconfig": "^0.1.0",
     "@babel/core": "^7.23.0",
     "@babel/preset-env": "^7.22.20",
     "@babel/runtime": "^7.23.1",
@@ -56,9 +56,9 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@acme/eslint-config/base",
-      "@acme/eslint-config/react"
+      "@aspoem/eslint-config/base",
+      "@aspoem/eslint-config/react"
     ]
   },
-  "prettier": "@acme/prettier-config"
+  "prettier": "@aspoem/prettier-config"
 }

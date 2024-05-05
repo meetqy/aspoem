@@ -3,7 +3,7 @@ import type { DefaultSession } from "@auth/core/types";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import NextAuth from "next-auth";
 
-import { prisma } from "@acme/db";
+import { prisma } from "@aspoem/db";
 
 import { env } from "./env.mjs";
 

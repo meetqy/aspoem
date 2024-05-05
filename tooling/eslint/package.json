@@ -1,5 +1,5 @@
 {
-  "name": "@acme/eslint-config",
+  "name": "@aspoem/eslint-config",
   "version": "0.2.0",
   "private": true,
   "license": "MIT",
@@ -27,8 +27,8 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "@acme/prettier-config": "^0.1.0",
-    "@acme/tsconfig": "^0.1.0",
+    "@aspoem/prettier-config": "^0.1.0",
+    "@aspoem/tsconfig": "^0.1.0",
     "eslint": "^8.50.0",
     "typescript": "^5.2.2"
   },
@@ -38,5 +38,5 @@
       "./base.js"
     ]
   },
-  "prettier": "@acme/prettier-config"
+  "prettier": "@aspoem/prettier-config"
 }
