@@ -17,7 +17,6 @@
     "@aspoem/api": "workspace:*",
     "@aspoem/auth": "workspace:*",
     "@aspoem/db": "workspace:*",
-    "@aspoem/validators": "workspace:*",
     "@t3-oss/env-nextjs": "^0.10.0",
     "@tanstack/react-query": "^5.32.0",
     "@trpc/client": "11.0.0-rc.364",

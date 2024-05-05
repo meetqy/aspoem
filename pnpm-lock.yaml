@@ -38,9 +38,6 @@ importers:
       '@aspoem/db':
         specifier: workspace:*
         version: link:../../packages/db
-      '@aspoem/validators':
-        specifier: workspace:*
-        version: link:../../packages/validators
       '@t3-oss/env-nextjs':
         specifier: ^0.10.0
         version: 0.10.0(typescript@5.4.5)(zod@3.23.6)
@@ -123,9 +120,6 @@ importers:
       '@aspoem/db':
         specifier: workspace:*
         version: link:../db
-      '@aspoem/validators':
-        specifier: workspace:*
-        version: link:../validators
       '@trpc/server':
         specifier: 11.0.0-rc.364
         version: 11.0.0-rc.364
@@ -232,31 +226,6 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
 
-  packages/validators:
-    dependencies:
-      zod:
-        specifier: ^3.23.0
-        version: 3.23.6
-    devDependencies:
-      '@aspoem/eslint-config':
-        specifier: workspace:*
-        version: link:../../tooling/eslint
-      '@aspoem/prettier-config':
-        specifier: workspace:*
-        version: link:../../tooling/prettier
-      '@aspoem/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/typescript
-      eslint:
-        specifier: ^9.0.0
-        version: 9.2.0
-      prettier:
-        specifier: ^3.2.5
-        version: 3.2.5
-      typescript:
-        specifier: ^5.4.5
-        version: 5.4.5
-
   tooling/eslint:
     dependencies:
       '@next/eslint-plugin-next':
@@ -296,8 +265,6 @@ importers:
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
-
-  tooling/github: {}
 
   tooling/prettier:
     dependencies:

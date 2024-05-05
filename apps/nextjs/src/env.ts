@@ -1,4 +1,3 @@
-/* eslint-disable no-restricted-properties */
 import { createEnv } from "@t3-oss/env-nextjs";
 import { vercel } from "@t3-oss/env-nextjs/presets";
 import { z } from "zod";
@@ -16,9 +15,7 @@ export const env = createEnv({
    * Specify your server-side environment variables schema here.
    * This way you can ensure the app isn't built with invalid env vars.
    */
-  // server: {
-  //   DATABASE_URL: z.string(),
-  // },
+  server: {},
 
   /**
    * Specify your client-side environment variables schema here.

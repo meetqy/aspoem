@@ -21,7 +21,6 @@
   "dependencies": {
     "@aspoem/auth": "workspace:*",
     "@aspoem/db": "workspace:*",
-    "@aspoem/validators": "workspace:*",
     "@trpc/server": "11.0.0-rc.364",
     "superjson": "2.2.1",
     "zod": "^3.23.0"
