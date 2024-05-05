@@ -19,9 +19,9 @@
     "@prisma/client": "^5.13.0"
   },
   "devDependencies": {
-    "@aspoem/eslint-config": "^0.2.0",
-    "@aspoem/prettier-config": "^0.1.0",
-    "@aspoem/tsconfig": "^0.1.0",
+    "@aspoem/eslint-config": "workspace:*",
+    "@aspoem/prettier-config": "workspace:*",
+    "@aspoem/tsconfig": "workspace:*",
     "dotenv-cli": "^7.3.0",
     "eslint": "^8.50.0",
     "prettier": "^3.0.3",

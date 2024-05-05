@@ -31,10 +31,10 @@
     "zod": "^3.22.2"
   },
   "devDependencies": {
-    "@aspoem/eslint-config": "^0.2.0",
-    "@aspoem/prettier-config": "^0.1.0",
-    "@aspoem/tailwind-config": "^0.1.0",
-    "@aspoem/tsconfig": "^0.1.0",
+    "@aspoem/eslint-config": "workspace:*",
+    "@aspoem/prettier-config": "workspace:*",
+    "@aspoem/tailwind-config": "workspace:*",
+    "@aspoem/tsconfig": "workspace:*",
     "@types/node": "^18.17.19",
     "@types/react": "^18.2.25",
     "@types/react-dom": "^18.2.10",

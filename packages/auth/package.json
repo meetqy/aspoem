@@ -23,9 +23,9 @@
     "zod": "^3.22.2"
   },
   "devDependencies": {
-    "@aspoem/eslint-config": "^0.2.0",
-    "@aspoem/prettier-config": "^0.1.0",
-    "@aspoem/tsconfig": "^0.1.0",
+    "@aspoem/eslint-config": "workspace:*",
+    "@aspoem/prettier-config": "workspace:*",
+    "@aspoem/tsconfig": "workspace:*",
     "eslint": "^8.50.0",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"

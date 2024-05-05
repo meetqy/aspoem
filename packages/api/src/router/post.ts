@@ -1,27 +1,40 @@
+import type { TRPCRouterRecord } from "@trpc/server";
 import { z } from "zod";
 
-import { createTRPCRouter, protectedProcedure, publicProcedure } from "../trpc";
+import { desc, eq, schema } from "@aspoem/db";
+import { CreatePostSchema } from "@aspoem/validators";
 
-export const postRouter = createTRPCRouter({
+import { protectedProcedure, publicProcedure } from "../trpc";
+
+export const postRouter = {
   all: publicProcedure.query(({ ctx }) => {
-    return ctx.prisma.post.findMany({ orderBy: { id: "desc" } });
+    // return ctx.db.select().from(schema.post).orderBy(desc(schema.post.id));
+    return ctx.db.query.post.findMany({
+      orderBy: desc(schema.post.id),
+      limit: 10,
+    });
   }),
+
   byId: publicProcedure
-    .input(z.object({ id: z.string() }))
+    .input(z.object({ id: z.number() }))
     .query(({ ctx, input }) => {
-      return ctx.prisma.post.findFirst({ where: { id: input.id } });
+      // return ctx.db
+      //   .select()
+      //   .from(schema.post)
+      //   .where(eq(schema.post.id, input.id));
+
+      return ctx.db.query.post.findFirst({
+        where: eq(schema.post.id, input.id),
+      });
     }),
-  create: publicProcedure
-    .input(
-      z.object({
-        title: z.string().min(1),
-        content: z.string().min(1),
-      }),
-    )
+
+  create: protectedProcedure
+    .input(CreatePostSchema)
     .mutation(({ ctx, input }) => {
-      return ctx.prisma.post.create({ data: input });
+      return ctx.db.insert(schema.post).values(input);
     }),
-  delete: protectedProcedure.input(z.string()).mutation(({ ctx, input }) => {
-    return ctx.prisma.post.delete({ where: { id: input } });
+
+  delete: protectedProcedure.input(z.number()).mutation(({ ctx, input }) => {
+    return ctx.db.delete(schema.post).where(eq(schema.post.id, input));
   }),
-});
+} satisfies TRPCRouterRecord;
