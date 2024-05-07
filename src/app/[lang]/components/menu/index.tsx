@@ -22,7 +22,12 @@ type Props = {
 
 export function DesktopMenu({ className, dict, lang }: Props) {
   return (
-    <div className={cn("hidden lg:block", className)}>
+    <div
+      className={cn(
+        "relative hidden min-h-[calc(100vh-16rem)] lg:block",
+        className,
+      )}
+    >
       <Content dict={dict} lang={lang} />
     </div>
   );
@@ -42,7 +47,10 @@ export function MobileMenu({ dict, lang }: Props) {
             <MenuIcon className="h-5 w-5" />
           </Button>
         </SheetTrigger>
-        <SheetContent side={"left"} className="border-border px-0">
+        <SheetContent
+          side={"left"}
+          className="overflow-y-auto border-border px-0"
+        >
           <SheetHeader>
             <SheetTitle asChild>
               <Logo lang={lang} />

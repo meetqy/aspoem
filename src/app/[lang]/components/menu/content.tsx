@@ -209,6 +209,14 @@ export function Content({
           </Button>
         ))}
       </nav>
+      <div className="px-4">
+        <Separator className="mb-4" />
+      </div>
+      <div className="text-md px-4 font-sans">
+        <Link href={"http://beian.miit.gov.cn/"} target="_blank">
+          蜀ICP备2023009496号-2
+        </Link>
+      </div>
     </div>
   );
 }
