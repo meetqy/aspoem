@@ -108,7 +108,7 @@ export default async function Page({ params, searchParams }: Props) {
               {author.namePinYin}
             </span>
           </h1>
-          <p className="mt-4 line-clamp-3 text-f100 text-secondary-foreground">
+          <p className="mt-4 text-f100 text-secondary-foreground">
             {author.introduce}
           </p>
           <div className="mt-8 text-f50">
