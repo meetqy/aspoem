@@ -1,5 +1,0 @@
-.authors_grids {
-  > div {
-    @apply relative cursor-pointer overflow-hidden rounded-md;
-  }
-}
