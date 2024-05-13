@@ -1,0 +1,297 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::admin::user",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "firstname",
+      "defaultSortBy": "firstname",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "firstname": {
+        "edit": {
+          "label": "firstname",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "firstname",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "lastname": {
+        "edit": {
+          "label": "lastname",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "lastname",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "username": {
+        "edit": {
+          "label": "username",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "username",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "email": {
+        "edit": {
+          "label": "email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "password": {
+        "edit": {
+          "label": "password",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "password",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "resetPasswordToken": {
+        "edit": {
+          "label": "resetPasswordToken",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "resetPasswordToken",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "registrationToken": {
+        "edit": {
+          "label": "registrationToken",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "registrationToken",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "isActive": {
+        "edit": {
+          "label": "isActive",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "isActive",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "roles": {
+        "edit": {
+          "label": "roles",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "roles",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "blocked": {
+        "edit": {
+          "label": "blocked",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "blocked",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "preferedLanguage": {
+        "edit": {
+          "label": "preferedLanguage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "preferedLanguage",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "firstname",
+        "lastname",
+        "username"
+      ],
+      "edit": [
+        [
+          {
+            "name": "firstname",
+            "size": 6
+          },
+          {
+            "name": "lastname",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "username",
+            "size": 6
+          },
+          {
+            "name": "email",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "password",
+            "size": 6
+          },
+          {
+            "name": "isActive",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "roles",
+            "size": 6
+          },
+          {
+            "name": "blocked",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "preferedLanguage",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "admin::user"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

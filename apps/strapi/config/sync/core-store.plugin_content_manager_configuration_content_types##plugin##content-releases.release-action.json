@@ -1,0 +1,193 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::plugin::content-releases.release-action",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "contentType",
+      "defaultSortBy": "contentType",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "type": {
+        "edit": {
+          "label": "type",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "type",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "contentType": {
+        "edit": {
+          "label": "contentType",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contentType",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "locale": {
+        "edit": {
+          "label": "locale",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "locale",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "release": {
+        "edit": {
+          "label": "release",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "release",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "isEntryValid": {
+        "edit": {
+          "label": "isEntryValid",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "isEntryValid",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "type",
+        "contentType",
+        "locale"
+      ],
+      "edit": [
+        [
+          {
+            "name": "type",
+            "size": 6
+          },
+          {
+            "name": "contentType",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "locale",
+            "size": 6
+          },
+          {
+            "name": "release",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "isEntryValid",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "uid": "plugin::content-releases.release-action"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

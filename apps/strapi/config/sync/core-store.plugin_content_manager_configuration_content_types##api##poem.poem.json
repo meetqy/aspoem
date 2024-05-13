@@ -1,0 +1,291 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::poem.poem",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titlePinyin": {
+        "edit": {
+          "label": "titlePinyin",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titlePinyin",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "content": {
+        "edit": {
+          "label": "content",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "content",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "contentPinyin": {
+        "edit": {
+          "label": "contentPinyin",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contentPinyin",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "translation": {
+        "edit": {
+          "label": "translation",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "translation",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "annotation": {
+        "edit": {
+          "label": "annotation",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "annotation",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "poet": {
+        "edit": {
+          "label": "poet",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "poet",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "excerpt": {
+        "edit": {
+          "label": "excerpt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "content"
+        },
+        "list": {
+          "label": "excerpt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "tags": {
+        "edit": {
+          "label": "tags",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "tags",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "extra": {
+        "edit": {
+          "label": "extra",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "extra",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 6
+          },
+          {
+            "name": "titlePinyin",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "content",
+            "size": 6
+          },
+          {
+            "name": "contentPinyin",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "tags",
+            "size": 4
+          },
+          {
+            "name": "poet",
+            "size": 4
+          },
+          {
+            "name": "excerpt",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "translation",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "annotation",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "extra",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "title",
+        "titlePinyin",
+        "content"
+      ]
+    },
+    "uid": "api::poem.poem"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

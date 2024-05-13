@@ -1,0 +1,213 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::plugin::upload.folder",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "name",
+      "defaultSortBy": "name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "pathId": {
+        "edit": {
+          "label": "pathId",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "pathId",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "parent": {
+        "edit": {
+          "label": "parent",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "parent",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "children": {
+        "edit": {
+          "label": "children",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "children",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "files": {
+        "edit": {
+          "label": "files",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "files",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "path": {
+        "edit": {
+          "label": "path",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "path",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "name",
+        "pathId",
+        "parent"
+      ],
+      "edit": [
+        [
+          {
+            "name": "name",
+            "size": 6
+          },
+          {
+            "name": "pathId",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "parent",
+            "size": 6
+          },
+          {
+            "name": "children",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "files",
+            "size": 6
+          },
+          {
+            "name": "path",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "plugin::upload.folder"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

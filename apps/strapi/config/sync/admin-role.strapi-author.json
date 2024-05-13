@@ -1,0 +1,161 @@
+{
+  "name": "Author",
+  "code": "strapi-author",
+  "description": "Authors can manage the content they have created.",
+  "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::poem.poem",
+      "properties": {
+        "fields": [
+          "title",
+          "titlePinyin",
+          "content",
+          "contentPinyin",
+          "translation",
+          "annotation",
+          "poet"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::poem.poem",
+      "properties": {
+        "fields": [
+          "title",
+          "titlePinyin",
+          "content",
+          "contentPinyin",
+          "translation",
+          "annotation",
+          "poet"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::poem.poem",
+      "properties": {
+        "fields": [
+          "title",
+          "titlePinyin",
+          "content",
+          "contentPinyin",
+          "translation",
+          "annotation",
+          "poet"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::poet.poet",
+      "properties": {
+        "fields": [
+          "name",
+          "namePinyin",
+          "dynasty",
+          "poems",
+          "desc"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::poet.poet",
+      "properties": {
+        "fields": [
+          "name",
+          "namePinyin",
+          "dynasty",
+          "poems",
+          "desc"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::poet.poet",
+      "properties": {
+        "fields": [
+          "name",
+          "namePinyin",
+          "dynasty",
+          "poems",
+          "desc"
+        ]
+      },
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::upload.assets.copy-link",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.create",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.download",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.update",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": [
+        "admin::is-creator"
+      ]
+    },
+    {
+      "action": "plugin::upload.configure-view",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.read",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": [
+        "admin::is-creator"
+      ]
+    }
+  ]
+}

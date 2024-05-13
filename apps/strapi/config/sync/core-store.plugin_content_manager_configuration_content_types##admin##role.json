@@ -1,0 +1,194 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::admin::role",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "name",
+      "defaultSortBy": "name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "code": {
+        "edit": {
+          "label": "code",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "code",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "description": {
+        "edit": {
+          "label": "description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "description",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "users": {
+        "edit": {
+          "label": "users",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "users",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "permissions": {
+        "edit": {
+          "label": "permissions",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "action"
+        },
+        "list": {
+          "label": "permissions",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "name",
+        "code",
+        "description"
+      ],
+      "edit": [
+        [
+          {
+            "name": "name",
+            "size": 6
+          },
+          {
+            "name": "code",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "description",
+            "size": 6
+          },
+          {
+            "name": "users",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "permissions",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "admin::role"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

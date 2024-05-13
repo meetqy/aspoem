@@ -1,0 +1,405 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::plugin::upload.file",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "name",
+      "defaultSortBy": "name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "alternativeText": {
+        "edit": {
+          "label": "alternativeText",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "alternativeText",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "caption": {
+        "edit": {
+          "label": "caption",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "caption",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "width": {
+        "edit": {
+          "label": "width",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "width",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "height": {
+        "edit": {
+          "label": "height",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "height",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "formats": {
+        "edit": {
+          "label": "formats",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "formats",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "hash": {
+        "edit": {
+          "label": "hash",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "hash",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ext": {
+        "edit": {
+          "label": "ext",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ext",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "mime": {
+        "edit": {
+          "label": "mime",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "mime",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "size": {
+        "edit": {
+          "label": "size",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "size",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "url": {
+        "edit": {
+          "label": "url",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "url",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "previewUrl": {
+        "edit": {
+          "label": "previewUrl",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "previewUrl",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "provider": {
+        "edit": {
+          "label": "provider",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "provider",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "provider_metadata": {
+        "edit": {
+          "label": "provider_metadata",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "provider_metadata",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "folder": {
+        "edit": {
+          "label": "folder",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "folder",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "folderPath": {
+        "edit": {
+          "label": "folderPath",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "folderPath",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "name",
+        "alternativeText",
+        "caption"
+      ],
+      "edit": [
+        [
+          {
+            "name": "name",
+            "size": 6
+          },
+          {
+            "name": "alternativeText",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "caption",
+            "size": 6
+          },
+          {
+            "name": "width",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "height",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "formats",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "hash",
+            "size": 6
+          },
+          {
+            "name": "ext",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "mime",
+            "size": 6
+          },
+          {
+            "name": "size",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "url",
+            "size": 6
+          },
+          {
+            "name": "previewUrl",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "provider",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "provider_metadata",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "folder",
+            "size": 6
+          },
+          {
+            "name": "folderPath",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "plugin::upload.file"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

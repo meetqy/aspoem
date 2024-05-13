@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "excerpts",
+  "info": {
+    "singularName": "excerpt",
+    "pluralName": "excerpts",
+    "displayName": "Excerpt"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "poems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::poem.poem",
+      "mappedBy": "excerpt"
+    }
+  }
+}

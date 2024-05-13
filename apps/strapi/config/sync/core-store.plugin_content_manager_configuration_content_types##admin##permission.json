@@ -1,0 +1,217 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::admin::permission",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "action",
+      "defaultSortBy": "action",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "action": {
+        "edit": {
+          "label": "action",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "action",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "actionParameters": {
+        "edit": {
+          "label": "actionParameters",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "actionParameters",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "subject": {
+        "edit": {
+          "label": "subject",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "subject",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "properties": {
+        "edit": {
+          "label": "properties",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "properties",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "conditions": {
+        "edit": {
+          "label": "conditions",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "conditions",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "role": {
+        "edit": {
+          "label": "role",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "role",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "action",
+        "subject",
+        "role"
+      ],
+      "edit": [
+        [
+          {
+            "name": "action",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "actionParameters",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "subject",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "properties",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "conditions",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "role",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "admin::permission"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

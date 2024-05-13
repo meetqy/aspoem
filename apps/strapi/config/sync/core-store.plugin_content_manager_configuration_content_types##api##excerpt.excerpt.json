@@ -1,0 +1,155 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::excerpt.excerpt",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "content",
+      "defaultSortBy": "content",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "content": {
+        "edit": {
+          "label": "content",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "content",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "images": {
+        "edit": {
+          "label": "images",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "images",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "poems": {
+        "edit": {
+          "label": "poems",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "title"
+        },
+        "list": {
+          "label": "poems",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "content",
+        "images",
+        "createdAt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "content",
+            "size": 6
+          },
+          {
+            "name": "images",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "poems",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "api::excerpt.excerpt"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

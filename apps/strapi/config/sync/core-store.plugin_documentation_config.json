@@ -1,0 +1,9 @@
+{
+  "key": "plugin_documentation_config",
+  "value": {
+    "restrictedAccess": false
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

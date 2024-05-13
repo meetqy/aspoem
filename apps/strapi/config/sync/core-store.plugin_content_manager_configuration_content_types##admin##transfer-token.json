@@ -1,0 +1,231 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::admin::transfer-token",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "name",
+      "defaultSortBy": "name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "description": {
+        "edit": {
+          "label": "description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "description",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "accessKey": {
+        "edit": {
+          "label": "accessKey",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "accessKey",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "lastUsedAt": {
+        "edit": {
+          "label": "lastUsedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "lastUsedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "permissions": {
+        "edit": {
+          "label": "permissions",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "action"
+        },
+        "list": {
+          "label": "permissions",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "expiresAt": {
+        "edit": {
+          "label": "expiresAt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "expiresAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "lifespan": {
+        "edit": {
+          "label": "lifespan",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "lifespan",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "name",
+        "description",
+        "accessKey"
+      ],
+      "edit": [
+        [
+          {
+            "name": "name",
+            "size": 6
+          },
+          {
+            "name": "description",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "accessKey",
+            "size": 6
+          },
+          {
+            "name": "lastUsedAt",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "permissions",
+            "size": 6
+          },
+          {
+            "name": "expiresAt",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "lifespan",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "uid": "admin::transfer-token"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
