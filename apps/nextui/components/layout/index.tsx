@@ -28,7 +28,7 @@ export function SideBarLayout() {
         <div className="flex h-8 w-8 items-center justify-center rounded-full bg-foreground">
           <AcmeLogo className="text-background" />
         </div>
-        <span className="text-small font-bold uppercase">Acme</span>
+        <span className="text-2xl">AsPoem</span>
       </div>
       <ScrollShadow className="h-full max-h-full py-[10vh]">
         <Sidebar defaultSelectedKey="home" items={items} />

@@ -3,14 +3,9 @@ import { Metadata, Viewport } from "next";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
-import { Navbar } from "@/components/navbar/index";
-import { Link } from "@nextui-org/link";
 import clsx from "clsx";
-import { Footer } from "@/components/footer";
 import { SideBarLayout } from "@/components/layout";
-import Sidebar from "@/components/layout/sidebar";
-import { items } from "@/components/layout/sidebar-items";
-import { Input, Kbd, ScrollShadow } from "@nextui-org/react";
+import { Input, Kbd } from "@nextui-org/react";
 import { SearchIcon } from "@/components/icons";
 
 export const metadata: Metadata = {
