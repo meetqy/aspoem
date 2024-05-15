@@ -1,15 +1,16 @@
-import type {ReviewType} from "./review";
+import type { ReviewType } from "./review";
 
 const reviews: ReviewType[] = [
   {
     user: {
-      name: "John Doe",
+      name: "李白",
       avatar: "https://i.pravatar.cc/150?u=a04258114e29026708c",
     },
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 5,
-    title: "Great product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    title: "登金陵凤凰台",
+    content:
+      "凤凰台上凤凰游，凤去台空江自流。\n吴宫花草埋幽径，晋代衣冠成古丘。",
   },
   {
     user: {
@@ -19,7 +20,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 4,
     title: "Fantastic product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
   {
     user: {
@@ -29,7 +31,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 3,
     title: "Beautiful product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
   {
     user: {
@@ -39,7 +42,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 2,
     title: "Average product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
   {
     user: {
@@ -49,7 +53,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 1,
     title: "Disappointing product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
   {
     user: {
@@ -59,7 +64,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 5,
     title: "Great product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
   {
     user: {
@@ -69,7 +75,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 4,
     title: "Good product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
   {
     user: {
@@ -79,7 +86,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 3,
     title: "Average product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
   {
     user: {
@@ -89,7 +97,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 2,
     title: "Bad product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
 ];
 

@@ -1,9 +1,6 @@
 "use client";
 
 import React from "react";
-import { User } from "@nextui-org/react";
-import { Icon } from "@iconify/react";
-import { cn } from "@/utils/cn";
 
 export type ReviewType = {
   user: {
@@ -21,44 +18,14 @@ export type ReviewProps = React.HTMLAttributes<HTMLDivElement> & ReviewType;
 const Review = React.forwardRef<HTMLDivElement, ReviewProps>(
   ({ children, user, title, content, rating, createdAt, ...props }, ref) => (
     <div ref={ref} {...props}>
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <User
-            avatarProps={{
-              src: user.avatar,
-            }}
-            classNames={{
-              name: "font-medium",
-              description: "text-small",
-            }}
-            description={new Intl.DateTimeFormat("en-US", {
-              month: "long",
-              day: "numeric",
-              year: "numeric",
-            }).format(new Date(createdAt))}
-            name={user.name}
-          />
-        </div>
-        <div className="flex items-center gap-1">
-          {Array.from({ length: 5 }, (_, i) => {
-            const isSelected = i + 1 <= rating;
-
-            return (
-              <Icon
-                key={i}
-                className={cn(
-                  "text-lg sm:text-xl",
-                  isSelected ? "text-warning" : "text-default-200"
-                )}
-                icon="solar:star-bold"
-              />
-            );
-          })}
-        </div>
-      </div>
-      <div className="mt-4 w-full">
-        <p className="font-medium text-default-900">{title}</p>
-        <p className="mt-2 text-default-500">{content || children}</p>
+      <div className="w-full">
+        <p className="font-medium text-default-900">登金陵凤凰台</p>
+        <p
+          className="mt-2 text-default-500"
+          dangerouslySetInnerHTML={{
+            __html: `凤凰台上凤凰游，凤去台空江自流。<br/>吴宫花草埋幽径，晋代衣冠成古丘。`,
+          }}
+        ></p>
       </div>
     </div>
   )
