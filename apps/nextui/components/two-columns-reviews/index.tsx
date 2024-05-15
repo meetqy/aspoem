@@ -5,12 +5,10 @@ import reviews from "./reviews";
 
 export default function TwoColumnsReviews() {
   return (
-    <section className="mx-auto w-full max-w-6xl md:px-6 lg:px-8">
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-        {reviews.map((review, index) => (
-          <CardReview key={index} {...review} />
-        ))}
-      </div>
+    <section className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:px-0 px-4 max-w-screen-lg mx-auto">
+      {reviews.map((review, index) => (
+        <CardReview key={index} {...review} />
+      ))}
     </section>
   );
 }
