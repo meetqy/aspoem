@@ -14,7 +14,7 @@ export const SelectLanguage = ({ className }: { className?: string }) => {
       defaultSelectedKeys={["zh-Hant"]}
       labelPlacement="outside"
       className={cn("w-32", className)}
-      aria-label="Select language"
+      aria-label="选择语言"
     >
       {(lang) => (
         <SelectItem key={lang.value} textValue={lang.name}>
