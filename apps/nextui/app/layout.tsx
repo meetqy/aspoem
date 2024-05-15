@@ -7,6 +7,10 @@ import { Navbar } from "@/components/navbar/index";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 import { Footer } from "@/components/footer";
+import { SideBarLayout } from "@/components/layout";
+import Sidebar from "@/components/layout/sidebar";
+import { items } from "@/components/layout/sidebar-items";
+import { ScrollShadow } from "@nextui-org/react";
 
 export const metadata: Metadata = {
   title: {
@@ -41,14 +45,12 @@ export default function RootLayout({
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <div className="relative flex flex-col h-screen">
-            <Navbar />
-
-            <main className="container mx-auto max-w-screen-xl">
-              {children}
-            </main>
-
-            <Footer />
+          <div className="container mx-auto flex justify-center">
+            <SideBarLayout />
+            <main className="flex-1 h-[3000px]"></main>
+            <aside className="w-72 h-screen border-x-small border-divider sticky top-0 right-0">
+              123
+            </aside>
           </div>
         </Providers>
       </body>
