@@ -11,11 +11,11 @@ export default function Component(props: CardProps) {
       {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item) => {
         return (
           <Card key={item} className="w-full" {...props}>
-            <CardBody className="flex flex-row flex-wrap p-0 sm:flex-nowrap">
+            <CardBody className="flex flex-row flex-wrap p-0 lg:flex-nowrap">
               <Image
                 removeWrapper
                 alt="Acme Creators"
-                className="h-auto w-full flex-none object-cover object-top md:w-48"
+                className="h-auto w-full flex-none object-cover object-top lg:w-48"
                 src="https://nextuipro.nyc3.cdn.digitaloceanspaces.com/components-images/hero-card-complete.jpeg"
               />
               <div className="px-4 py-5">

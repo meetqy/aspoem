@@ -120,7 +120,7 @@ export default function SidebarOffCanvasResponsive({
         <header className="flex h-16 items-center gap-2 border-b-small border-divider px-4">
           <Button
             isIconOnly
-            className="flex sm:hidden"
+            className="flex md:hidden"
             size="sm"
             variant="light"
             onPress={onOpen}
