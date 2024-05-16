@@ -27,20 +27,24 @@ export const viewport: Viewport = {
 
 export default function RootLayout({
   children,
+  title,
 }: {
   children: React.ReactNode;
+  title: React.ReactNode | string;
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
       <body
         className={clsx(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-background text-foreground font-sans antialiased",
           fontSans.variable
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <SidebarOffCanvasResponsive>{children}</SidebarOffCanvasResponsive>
+          <SidebarOffCanvasResponsive title={title}>
+            {children}
+          </SidebarOffCanvasResponsive>
           <CenteredFooterWithSocialLinks />
         </Providers>
       </body>

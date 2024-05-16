@@ -88,7 +88,7 @@ export const sectionItems: SidebarItem[] = [
     title: "基础",
     items: [
       {
-        key: "home",
+        key: "/",
         href: "/",
         icon: "solar:home-2-linear",
         title: "推荐",

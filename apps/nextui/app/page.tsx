@@ -1,8 +1,5 @@
 import ActionsCards from "@/components/actions-cards";
-import type { CardProps } from "@nextui-org/react";
 
-import React from "react";
-
-export default function Component(props: CardProps) {
+export default function Page() {
   return <ActionsCards />;
 }

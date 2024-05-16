@@ -34,12 +34,14 @@ import MarketplaceCard from "../marketplace-card";
  */
 export default function SidebarOffCanvasResponsive({
   children,
+  title,
 }: {
   children: React.ReactNode;
+  title: React.ReactNode | string;
 }) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
   const pathname = usePathname();
-  const currentPath = pathname.split("/")?.[1];
+  const currentPath = pathname.split("/")?.[1] || "/";
 
   const content = (
     <div className="relative flex h-full w-72 flex-1 flex-col p-6">
@@ -67,7 +69,7 @@ export default function SidebarOffCanvasResponsive({
       <Spacer y={8} />
 
       <Sidebar
-        defaultSelectedKey="home"
+        defaultSelectedKey="/"
         items={sectionItemsWithTeams}
         selectedKeys={[currentPath]}
       />
@@ -106,7 +108,7 @@ export default function SidebarOffCanvasResponsive({
   );
 
   return (
-    <div className="flex container max-w-screen-xl mx-auto min-h-dvh">
+    <div className="flex container mx-auto max-w-screen-xl min-h-dvh">
       <SidebarDrawer
         className="!border-r-small border-divider sticky top-0 left-0 h-dvh"
         isOpen={isOpen}
@@ -114,7 +116,7 @@ export default function SidebarOffCanvasResponsive({
       >
         {content}
       </SidebarDrawer>
-      <div className="w-full flex-1 flex-col border-r">
+      <div className="w-full flex-1 flex-col border-r border-divider">
         <header className="flex h-16 items-center gap-2 border-b-small border-divider px-4">
           <Button
             isIconOnly
@@ -130,22 +132,30 @@ export default function SidebarOffCanvasResponsive({
               width={24}
             />
           </Button>
-          <h2 className="text-medium font-medium text-default-700">Overview</h2>
+
+          {/* header */}
+          {typeof title === "string" ? (
+            <h2 className="text-medium font-medium text-default-700">
+              {title}
+            </h2>
+          ) : (
+            title
+          )}
         </header>
-        <main className="mt-4 h-full w-full overflow-visible p-4">
+        <main className="h-full w-full overflow-visible p-4">
           <div className="flex min-h-screen w-full flex-col gap-4">
             {children}
           </div>
         </main>
       </div>
 
-      <div className="w-80 xl:flex hidden py-4 pl-8 sticky top-0 h-screen gap-8 flex-col">
+      <aside className="w-80 xl:flex hidden py-4 pl-8 sticky top-0 h-screen gap-8 flex-col">
         <Input size="lg" placeholder="Command + K Search..." />
 
         <MarketplaceCard title="标签推荐" />
         <MarketplaceCard title="诗人推荐" />
         <MarketplaceCard title="词牌名推荐" />
-      </div>
+      </aside>
     </div>
   );
 }
