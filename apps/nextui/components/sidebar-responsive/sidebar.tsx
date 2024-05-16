@@ -202,7 +202,7 @@ const Sidebar = React.forwardRef<HTMLElement, SidebarProps>(
           </ListboxItem>
         );
       },
-      [isCompact, hideEndContent, iconClassName]
+      [isCompact, hideEndContent, iconClassName, items]
     );
 
     const renderItem = React.useCallback(
