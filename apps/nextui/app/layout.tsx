@@ -5,6 +5,7 @@ import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import clsx from "clsx";
 import SidebarOffCanvasResponsive from "@/components/sidebar-off-canvas-responsive";
+import CenteredFooterWithSocialLinks from "@/components/centered-footer-with-social-links";
 
 export const metadata: Metadata = {
   title: {
@@ -40,6 +41,7 @@ export default function RootLayout({
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <SidebarOffCanvasResponsive />
+          <CenteredFooterWithSocialLinks />
         </Providers>
       </body>
     </html>

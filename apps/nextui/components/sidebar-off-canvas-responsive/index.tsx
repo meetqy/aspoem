@@ -1,7 +1,13 @@
 "use client";
 
 import React from "react";
-import { Avatar, Button, Spacer, useDisclosure } from "@nextui-org/react";
+import {
+  Avatar,
+  Button,
+  Input,
+  Spacer,
+  useDisclosure,
+} from "@nextui-org/react";
 import { Icon } from "@iconify/react";
 
 import { AcmeLogo } from "./acme";
@@ -9,6 +15,8 @@ import { sectionItemsWithTeams } from "./sidebar-items";
 import SidebarDrawer from "./sidebar-drawer";
 
 import Sidebar from "./sidebar";
+import ActionsCards from "../actions-cards";
+import MarketplaceCard from "../marketplace-card";
 
 /**
  * 💡 TIP: You can use the usePathname hook from Next.js App Router to get the current pathname
@@ -87,16 +95,16 @@ export default function SidebarOffCanvasResponsive() {
   );
 
   return (
-    <div className="flex h-dvh w-full container mx-auto">
+    <div className="flex container max-w-screen-xl mx-auto min-h-dvh">
       <SidebarDrawer
-        className=" !border-r-small border-divider"
+        className="!border-r-small border-divider sticky top-0 left-0 h-dvh"
         isOpen={isOpen}
         onOpenChange={onOpenChange}
       >
         {content}
       </SidebarDrawer>
-      <div className="w-full flex-1 flex-col p-4">
-        <header className="flex h-16 items-center gap-2 rounded-medium border-small border-divider px-4">
+      <div className="w-full flex-1 flex-col border-r">
+        <header className="flex h-16 items-center gap-2 border-b-small border-divider px-4">
           <Button
             isIconOnly
             className="flex sm:hidden"
@@ -113,9 +121,19 @@ export default function SidebarOffCanvasResponsive() {
           </Button>
           <h2 className="text-medium font-medium text-default-700">Overview</h2>
         </header>
-        <main className="mt-4 h-full w-full overflow-visible">
-          <div className="flex h-[90%] w-full flex-col gap-4 rounded-medium border-small border-divider" />
+        <main className="mt-4 h-full w-full overflow-visible p-4">
+          <div className="flex min-h-screen w-full flex-col gap-4">
+            <ActionsCards />
+          </div>
         </main>
+      </div>
+
+      <div className="w-80 xl:flex hidden py-4 pl-8 sticky top-0 h-screen gap-8 flex-col">
+        <Input size="lg" placeholder="Command + K Search..." />
+
+        <MarketplaceCard title="标签推荐" />
+        <MarketplaceCard title="诗人推荐" />
+        <MarketplaceCard title="词牌名推荐" />
       </div>
     </div>
   );
