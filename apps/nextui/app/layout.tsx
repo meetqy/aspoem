@@ -40,7 +40,7 @@ export default function RootLayout({
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <SidebarOffCanvasResponsive />
+          <SidebarOffCanvasResponsive>{children}</SidebarOffCanvasResponsive>
           <CenteredFooterWithSocialLinks />
         </Providers>
       </body>

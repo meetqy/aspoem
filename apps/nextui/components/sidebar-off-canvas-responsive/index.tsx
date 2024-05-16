@@ -9,13 +9,14 @@ import {
   useDisclosure,
 } from "@nextui-org/react";
 import { Icon } from "@iconify/react";
+import { usePathname } from "next/navigation";
 
 import { AcmeLogo } from "./acme";
 import { sectionItemsWithTeams } from "./sidebar-items";
 import SidebarDrawer from "./sidebar-drawer";
 
 import Sidebar from "./sidebar";
-import ActionsCards from "../actions-cards";
+
 import MarketplaceCard from "../marketplace-card";
 
 /**
@@ -31,8 +32,14 @@ import MarketplaceCard from "../marketplace-card";
  * <Sidebar defaultSelectedKey="home" selectedKeys={[currentPath]} />
  * ```
  */
-export default function SidebarOffCanvasResponsive() {
+export default function SidebarOffCanvasResponsive({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
+  const pathname = usePathname();
+  const currentPath = pathname.split("/")?.[1];
 
   const content = (
     <div className="relative flex h-full w-72 flex-1 flex-col p-6">
@@ -59,7 +66,11 @@ export default function SidebarOffCanvasResponsive() {
 
       <Spacer y={8} />
 
-      <Sidebar defaultSelectedKey="home" items={sectionItemsWithTeams} />
+      <Sidebar
+        defaultSelectedKey="home"
+        items={sectionItemsWithTeams}
+        selectedKeys={[currentPath]}
+      />
 
       <Spacer y={8} />
       <div className="mt-auto flex flex-col">
@@ -123,7 +134,7 @@ export default function SidebarOffCanvasResponsive() {
         </header>
         <main className="mt-4 h-full w-full overflow-visible p-4">
           <div className="flex min-h-screen w-full flex-col gap-4">
-            <ActionsCards />
+            {children}
           </div>
         </main>
       </div>

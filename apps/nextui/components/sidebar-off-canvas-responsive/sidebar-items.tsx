@@ -89,7 +89,7 @@ export const sectionItems: SidebarItem[] = [
     items: [
       {
         key: "home",
-        href: "#",
+        href: "/",
         icon: "solar:home-2-linear",
         title: "推荐",
         endContent: (
@@ -101,8 +101,8 @@ export const sectionItems: SidebarItem[] = [
         ),
       },
       {
-        key: "projects",
-        href: "#",
+        key: "poem",
+        href: "/poem/list",
         icon: "solar:widget-2-outline",
         title: "诗文",
       },
