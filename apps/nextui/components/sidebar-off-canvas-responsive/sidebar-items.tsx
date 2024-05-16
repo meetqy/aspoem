@@ -1,7 +1,7 @@
-import {Chip} from "@nextui-org/react";
-import {Icon} from "@iconify/react";
+import { Chip } from "@nextui-org/react";
+import { Icon } from "@iconify/react";
 
-import {type SidebarItem, SidebarItemType} from "./sidebar";
+import { type SidebarItem, SidebarItemType } from "./sidebar";
 import TeamAvatar from "./team-avatar";
 
 /**
@@ -20,9 +20,6 @@ export const items: SidebarItem[] = [
     href: "#",
     icon: "solar:widget-2-outline",
     title: "Projects",
-    endContent: (
-      <Icon className="text-default-400" icon="solar:add-circle-line-duotone" width={24} />
-    ),
   },
   {
     key: "tasks",
@@ -30,7 +27,11 @@ export const items: SidebarItem[] = [
     icon: "solar:checklist-minimalistic-outline",
     title: "Tasks",
     endContent: (
-      <Icon className="text-default-400" icon="solar:add-circle-line-duotone" width={24} />
+      <Icon
+        className="text-default-400"
+        icon="solar:add-circle-line-duotone"
+        width={24}
+      />
     ),
   },
   {
@@ -84,106 +85,68 @@ export const items: SidebarItem[] = [
 export const sectionItems: SidebarItem[] = [
   {
     key: "overview",
-    title: "Overview",
+    title: "基础",
     items: [
       {
         key: "home",
         href: "#",
         icon: "solar:home-2-linear",
-        title: "Home",
+        title: "推荐",
+        endContent: (
+          <Icon
+            className="text-default-500"
+            icon="solar:fire-bold-duotone"
+            width={24}
+          />
+        ),
       },
       {
         key: "projects",
         href: "#",
         icon: "solar:widget-2-outline",
-        title: "Projects",
-        endContent: (
-          <Icon className="text-default-400" icon="solar:add-circle-line-duotone" width={24} />
-        ),
+        title: "诗文",
       },
       {
         key: "tasks",
         href: "#",
         icon: "solar:checklist-minimalistic-outline",
-        title: "Tasks",
-        endContent: (
-          <Icon className="text-default-400" icon="solar:add-circle-line-duotone" width={24} />
-        ),
+        title: "诗人",
       },
       {
         key: "team",
         href: "#",
         icon: "solar:users-group-two-rounded-outline",
-        title: "Team",
+        title: "书籍",
       },
       {
         key: "tracker",
         href: "#",
         icon: "solar:sort-by-time-linear",
-        title: "Tracker",
-        endContent: (
-          <Chip size="sm" variant="flat">
-            New
-          </Chip>
-        ),
+        title: "标签",
       },
     ],
   },
   {
     key: "organization",
-    title: "Organization",
+    title: "工具",
     items: [
       {
         key: "cap_table",
         href: "#",
-        title: "Cap Table",
+        title: "AI 作诗",
         icon: "solar:pie-chart-2-outline",
-        items: [
-          {
-            key: "shareholders",
-            href: "#",
-            title: "Shareholders",
-          },
-          {
-            key: "note_holders",
-            href: "#",
-            title: "Note Holders",
-          },
-          {
-            key: "transactions_log",
-            href: "#",
-            title: "Transactions Log",
-          },
-        ],
       },
       {
         key: "analytics",
         href: "#",
         icon: "solar:chart-outline",
-        title: "Analytics",
+        title: "诗词卡片",
       },
       {
         key: "perks",
         href: "/perks",
         icon: "solar:gift-linear",
-        title: "Perks",
-        endContent: (
-          <Chip size="sm" variant="flat">
-            3
-          </Chip>
-        ),
-      },
-      {
-        key: "expenses",
-        href: "#",
-        icon: "solar:bill-list-outline",
-        title: "Expenses",
-      },
-      {
-        key: "settings",
-        href: "/settings",
-        icon: "solar:settings-outline",
-        title: "Settings",
+        title: "打印",
       },
     ],
   },
@@ -193,25 +156,25 @@ export const sectionItemsWithTeams: SidebarItem[] = [
   ...sectionItems,
   {
     key: "your-teams",
-    title: "Your Teams",
+    title: "联系我",
     items: [
       {
         key: "nextui",
         href: "#",
-        title: "NextUI",
-        startContent: <TeamAvatar name="Next UI" />,
-      },
-      {
-        key: "tailwind-variants",
-        href: "#",
-        title: "Tailwind Variants",
-        startContent: <TeamAvatar name="Tailwind Variants" />,
+        title: "Twitter",
+        startContent: <TeamAvatar name="Twitter" />,
       },
       {
         key: "nextui-pro",
         href: "#",
-        title: "NextUI Pro",
-        startContent: <TeamAvatar name="NextUI Pro" />,
+        title: "Github",
+        startContent: <TeamAvatar name="Github" />,
+      },
+      {
+        key: "tailwind-variants",
+        href: "#",
+        title: "留言",
+        startContent: <TeamAvatar name="Liu Yan" />,
       },
     ],
   },
@@ -266,7 +229,11 @@ export const brandItems: SidebarItem[] = [
         icon: "solar:sort-by-time-linear",
         title: "Tracker",
         endContent: (
-          <Chip className="bg-primary-foreground font-medium text-primary" size="sm" variant="flat">
+          <Chip
+            className="bg-primary-foreground font-medium text-primary"
+            size="sm"
+            variant="flat"
+          >
             New
           </Chip>
         ),
@@ -400,7 +367,11 @@ export const sectionNestedItems: SidebarItem[] = [
     icon: "solar:widget-2-outline",
     title: "Projects",
     endContent: (
-      <Icon className="text-default-400" icon="solar:add-circle-line-duotone" width={24} />
+      <Icon
+        className="text-default-400"
+        icon="solar:add-circle-line-duotone"
+        width={24}
+      />
     ),
   },
   {
@@ -409,7 +380,11 @@ export const sectionNestedItems: SidebarItem[] = [
     icon: "solar:checklist-minimalistic-outline",
     title: "Tasks",
     endContent: (
-      <Icon className="text-default-400" icon="solar:add-circle-line-duotone" width={24} />
+      <Icon
+        className="text-default-400"
+        icon="solar:add-circle-line-duotone"
+        width={24}
+      />
     ),
   },
   {
