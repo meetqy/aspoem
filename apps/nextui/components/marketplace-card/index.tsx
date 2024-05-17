@@ -16,11 +16,7 @@ import { AcmeLogo } from "./acme";
 
 export default function MarketplaceCard(props: CardProps & { title?: string }) {
   return (
-    <Card
-      className="border-small border-default-100 p-3"
-      shadow="sm"
-      {...props}
-    >
+    <Card className="border-small p-3" shadow="none" {...props}>
       <CardBody className="px-4 pb-1">
         <div className="flex items-center justify-between gap-2">
           <div className="flex max-w-[80%] flex-col gap-1">

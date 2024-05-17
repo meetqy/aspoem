@@ -142,15 +142,13 @@ export default function SidebarOffCanvasResponsive({
             title
           )}
         </header>
-        <main className="h-full w-full overflow-visible p-4">
-          <div className="flex min-h-screen w-full flex-col gap-4">
-            {children}
-          </div>
+        <main className="h-full w-full overflow-visible">
+          <div className="flex min-h-screen w-full flex-col">{children}</div>
         </main>
       </div>
 
-      <aside className="w-80 xl:flex hidden py-4 pl-8 sticky top-0 h-screen gap-8 flex-col">
-        <Input size="lg" placeholder="Command + K Search..." />
+      <aside className="w-80 xl:flex hidden py-4 pl-8 sticky top-0 h-screen gap-4 flex-col">
+        <Input size="lg" placeholder="Command + K Search..." className="mb-4" />
 
         <MarketplaceCard title="标签推荐" />
         <MarketplaceCard title="诗人推荐" />

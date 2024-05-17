@@ -7,13 +7,14 @@ import { Card, Image, CardBody } from "@nextui-org/react";
 
 export default function Component(props: CardProps) {
   return (
-    <div className="grid grid-cols-1 gap-4 px-2">
+    <div className="grid grid-cols-1 gap-4 ">
       {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item) => {
         return (
-          <Card key={item} className="w-full" {...props}>
+          <Card key={item} className="w-full" radius="none" {...props}>
             <CardBody className="flex flex-row flex-wrap p-0 lg:flex-nowrap">
               <Image
                 removeWrapper
+                radius="none"
                 alt="Acme Creators"
                 className="h-auto w-full flex-none object-cover object-top lg:w-48"
                 src="https://nextuipro.nyc3.cdn.digitaloceanspaces.com/components-images/hero-card-complete.jpeg"
