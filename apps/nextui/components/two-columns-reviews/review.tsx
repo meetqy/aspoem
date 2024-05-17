@@ -38,7 +38,9 @@ const Review = React.forwardRef<HTMLDivElement, ReviewProps>(
         </div>
       </div>
       <div className="mt-4 w-full">
-        <p className="mt-2 text-default-500">{content || children}</p>
+        <p className="mt-2 text-default-500 line-clamp-3">
+          {content || children}
+        </p>
       </div>
     </div>
   )

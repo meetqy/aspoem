@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Button, Chip, User } from "@nextui-org/react";
+import { Button, Chip, Image, User } from "@nextui-org/react";
 import { Icon } from "@iconify/react";
 
 export type ReviewType = {
@@ -21,9 +21,13 @@ const Review = React.forwardRef<HTMLDivElement, ReviewProps>(
   ({ children, user, title, content, rating, createdAt, ...props }, ref) => (
     <div ref={ref} {...props}>
       <div className="w-full">
-        <p className="text-default-900 font-medium text-large">{title}</p>
-        <p className="text-default-500 mt-2 mb-4">唐·李白</p>
-        <p className="text-default-600">
+        <p className="text-large font-medium">
+          {title}{" "}
+          <span className="font-normal text-small text-default-500">
+            唐·李白
+          </span>
+        </p>
+        <p className="mt-4">
           宫粉雕痕，仙云堕影，无人野水荒湾。
           <br />
           古石埋香，金沙锁骨连环。
@@ -33,14 +37,18 @@ const Review = React.forwardRef<HTMLDivElement, ReviewProps>(
           半飘零，庭上黄昏，月冷阑干。
         </p>
       </div>
+      <Image
+        alt=""
+        className="mt-4 border-small shadow-medium max-h-96"
+        src="https://r2.aspoem.com/aspoem/2256-6a905ab9fc3.png"
+      />
       <div className="flex items-center gap-2 mt-8">
-        {Array.from({ length: 5 }, (_, i) => {
-          return (
-            <Chip variant="dot" key={i} color="default">
-              数据
-            </Chip>
-          );
-        })}
+        <Chip color="primary" variant="flat">
+          唐诗三百首
+        </Chip>
+        <Chip color="primary" variant="flat">
+          水调歌头
+        </Chip>
       </div>
     </div>
   )

@@ -13,7 +13,7 @@ export default function DismissableCard(props: CardProps) {
           removeWrapper
           alt="Acme Creators"
           className="h-auto w-full max-h-96 rounded-b-none aspect-[4/3] object-cover"
-          src="https://images.unsplash.com/photo-1549675584-91f19337af3d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="https://r2.aspoem.com/aspoem/2256-6a905ab9fc3.png"
         />
         <div className="flex flex-col p-4">
           <h3 className="text-large">离歌辞五首·其二</h3>

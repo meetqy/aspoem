@@ -1,4 +1,4 @@
-import type {ReviewType} from "./review";
+import type { ReviewType } from "./review";
 
 const reviews: ReviewType[] = [
   {
@@ -9,7 +9,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 5,
     title: "Great product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "北宋诗人，草堂居士，耕读陕州，诗风清淡。辽国求其诗集，真宗欲用，其拒绝。与寇准交往，劝其淡泊名利。卒后皇帝追赠，草堂山庄被誉为陕州八景之一。",
   },
   {
     user: {
@@ -19,7 +20,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 4,
     title: "Fantastic product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "北宋名相，与白居易、张仁愿并称“渭南三贤”。他力主真宗亲征，促成“澶渊之盟”，",
   },
   {
     user: {
@@ -29,7 +31,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 3,
     title: "Beautiful product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
   {
     user: {
@@ -39,7 +42,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 2,
     title: "Average product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
   {
     user: {
@@ -49,7 +53,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 1,
     title: "Disappointing product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
   {
     user: {
@@ -59,7 +64,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 5,
     title: "Great product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
   {
     user: {
@@ -69,7 +75,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 4,
     title: "Good product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
   {
     user: {
@@ -79,7 +86,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 3,
     title: "Average product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
   {
     user: {
@@ -89,7 +97,8 @@ const reviews: ReviewType[] = [
     createdAt: "2021-08-01T12:00:00.000Z",
     rating: 2,
     title: "Bad product",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
   },
 ];
 
