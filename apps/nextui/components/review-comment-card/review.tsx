@@ -23,11 +23,11 @@ const Review = React.forwardRef<HTMLDivElement, ReviewProps>(
       <div className="w-full">
         <p className="text-large font-medium">
           {title}{" "}
-          <span className="font-normal text-small text-default-500">
+          <span className="font-normal text-small text-default-500 ml-2">
             唐·李白
           </span>
         </p>
-        <p className="mt-4">
+        <p className="mt-1">
           宫粉雕痕，仙云堕影，无人野水荒湾。
           <br />
           古石埋香，金沙锁骨连环。
@@ -42,7 +42,7 @@ const Review = React.forwardRef<HTMLDivElement, ReviewProps>(
         className="mt-4 border-small shadow-medium max-h-96"
         src="https://r2.aspoem.com/aspoem/2256-6a905ab9fc3.png"
       />
-      <div className="flex items-center gap-2 mt-8">
+      <div className="flex items-center gap-2 mt-4">
         <Chip color="primary" variant="flat">
           唐诗三百首
         </Chip>

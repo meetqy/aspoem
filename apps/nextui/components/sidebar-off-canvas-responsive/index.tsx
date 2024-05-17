@@ -116,8 +116,8 @@ export default function SidebarOffCanvasResponsive({
       >
         {content}
       </SidebarDrawer>
-      <div className="w-full flex-1 flex-col border-r border-divider">
-        <header className="flex h-16 items-center gap-2 border-b-small border-divider px-4">
+      <div className="w-full flex-1 flex-col border-r-small">
+        <header className="flex h-16 items-center gap-2 border-b-small px-4">
           <Button
             isIconOnly
             className="flex md:hidden"
