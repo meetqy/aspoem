@@ -1,9 +1,5 @@
-"use client";
+import ReviewCommentCard from "@/components/review-comment-card";
 
-import type { CardProps } from "@nextui-org/react";
-
-import React from "react";
-
-export default function Component(props: CardProps) {
-  return <div>poemlist</div>;
+export default function Page() {
+  return new Array(20).fill(0).map((_, i) => <ReviewCommentCard key={i} />);
 }

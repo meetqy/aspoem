@@ -20,33 +20,23 @@ export type ReviewProps = React.HTMLAttributes<HTMLDivElement> & ReviewType;
 const Review = React.forwardRef<HTMLDivElement, ReviewProps>(
   ({ children, user, title, content, rating, createdAt, ...props }, ref) => (
     <div ref={ref} {...props}>
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <User
-            avatarProps={{
-              src: user.avatar,
-            }}
-            classNames={{
-              name: "font-medium",
-              description: "text-small",
-            }}
-            description={new Intl.DateTimeFormat("en-US", {
-              month: "long",
-              day: "numeric",
-              year: "numeric",
-            }).format(new Date(createdAt))}
-            name={user.name}
-          />
-        </div>
-      </div>
-      <div className="mt-4 w-full">
-        <p className="font-medium text-default-900">{title}</p>
-        <p className="mt-2 text-default-500">{content || children}</p>
+      <div className="w-full">
+        <p className="text-default-900 font-medium text-large">{title}</p>
+        <p className="text-default-500 mt-2 mb-4">唐·李白</p>
+        <p className="text-default-600">
+          宫粉雕痕，仙云堕影，无人野水荒湾。
+          <br />
+          古石埋香，金沙锁骨连环。
+          <br />
+          南楼不恨吹横笛，恨晓风、千里关山。
+          <br />
+          半飘零，庭上黄昏，月冷阑干。
+        </p>
       </div>
       <div className="flex items-center gap-2 mt-8">
         {Array.from({ length: 5 }, (_, i) => {
           return (
-            <Chip variant="dot" key={i} color="primary">
+            <Chip variant="dot" key={i} color="default">
               数据
             </Chip>
           );

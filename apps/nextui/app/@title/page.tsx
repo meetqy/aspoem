@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div className="text-large">推荐</div>;
+  return <div className="text-large font-medium">推荐</div>;
 }
