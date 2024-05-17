@@ -1,5 +1,11 @@
-import ReviewCommentCard from "@/components/review-comment-card";
+import DismissableCard from "@/components/dismissable-card";
 
 export default function Page() {
-  return new Array(20).fill(0).map((_, i) => <ReviewCommentCard key={i} />);
+  return (
+    <div className="gap-4 grid p-4 grid-cols-2">
+      {new Array(20).fill(0).map((_, i) => (
+        <DismissableCard key={i} />
+      ))}
+    </div>
+  );
 }
