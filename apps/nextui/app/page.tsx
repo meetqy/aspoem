@@ -1,5 +1,4 @@
 import DismissableCard2 from "@/components/dismissable-card2";
-import ReviewCommentCard from "@/components/review-comment-card";
 
 export default function Page() {
   return (

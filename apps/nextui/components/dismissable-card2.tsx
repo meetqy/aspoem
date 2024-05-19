@@ -1,13 +1,11 @@
 "use client";
 
-import type { CardProps } from "@nextui-org/react";
-
 import React from "react";
 import { Card, Image, CardBody, Chip } from "@nextui-org/react";
 
-export default function DismissableCard2(props: CardProps) {
+export default function DismissableCard2() {
   return (
-    <Card className="w-full cursor-pointer" {...props}>
+    <Card className="w-full cursor-pointer">
       <CardBody className="flex flex-row flex-wrap p-0 md:flex-nowrap">
         <Image
           removeWrapper
