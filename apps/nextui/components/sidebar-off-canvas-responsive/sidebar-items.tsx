@@ -101,12 +101,6 @@ export const sectionItems: SidebarItem[] = [
         ),
       },
       {
-        key: "poem",
-        href: "/poem/list",
-        icon: "solar:widget-2-outline",
-        title: "诗文",
-      },
-      {
         key: "poet",
         href: "/poet/list",
         icon: "solar:checklist-minimalistic-outline",
