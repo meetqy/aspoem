@@ -18,7 +18,7 @@ import { Icon } from "@iconify/react";
 
 export default function Component(props: CardProps) {
   return (
-    <div className="gap-4 p-4 grid grid-cols-1">
+    <div className="lg:gap-6 gap-4 grid grid-cols-1 lg:mt-8 mt-4 lg:px-0 px-4 max-w-screen-sm w-full mx-auto">
       {Array.from({ length: 20 }).map((_, i) => (
         <Card key={i} className="p-3" shadow="md">
           <CardHeader className="flex flex-col items-start gap-2 pb-6">

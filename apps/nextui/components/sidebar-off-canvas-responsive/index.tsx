@@ -108,7 +108,7 @@ export default function SidebarOffCanvasResponsive({
   );
 
   return (
-    <div className="flex container mx-auto max-w-screen-xl min-h-dvh">
+    <div className="flex container mx-auto min-h-dvh">
       <SidebarDrawer
         className="!border-r-small border-divider sticky top-0 left-0 h-dvh"
         isOpen={isOpen}
@@ -143,7 +143,9 @@ export default function SidebarOffCanvasResponsive({
           )}
         </header>
         <main className="h-full w-full overflow-visible">
-          <div className="flex min-h-screen w-full flex-col">{children}</div>
+          <div className="flex min-h-screen w-full mx-auto flex-col">
+            {children}
+          </div>
         </main>
       </div>
 

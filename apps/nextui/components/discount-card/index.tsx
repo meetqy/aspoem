@@ -8,7 +8,7 @@ import { Icon } from "@iconify/react";
 
 export default function DiscountCard(props: CardProps) {
   return (
-    <Card {...props} className="relative w-full max-w-[400px] pb-[200px]">
+    <Card {...props} className="relative w-full pb-[200px]">
       <CardBody>
         <Image
           alt="xxx"
