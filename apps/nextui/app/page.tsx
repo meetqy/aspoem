@@ -29,6 +29,17 @@ export default async function Page() {
       {data.map((item, i) => (
         <Card className="w-full cursor-pointer" key={item.id}>
           <CardBody className="flex flex-row flex-wrap p-0 md:flex-nowrap">
+            <Image
+              removeWrapper
+              alt="Acme Creators"
+              className={cn(
+                "h-auto lg:w-1/3 flex-none object-cover object-top"
+                // {
+                //   hidden: i % 3 == 0,
+                // }
+              )}
+              src="https://r2.aspoem.com/aspoem/2256-6a905ab9fc3.png"
+            />
             <div className="px-4 py-5 flex flex-col justify-between">
               <div>
                 <h3 className="text-large font-medium">
