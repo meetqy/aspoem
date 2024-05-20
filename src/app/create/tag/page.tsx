@@ -21,6 +21,13 @@ export default function Tag() {
   const { data: tag } = api.tag.findById.useQuery(id, {
     refetchOnWindowFocus: false,
   });
+  const [ads, setAds] = useState<{
+    adsUrl?: string | undefined;
+    adsImage?: string | undefined;
+    adsTitle?: string | undefined;
+    adsContent?: string | undefined;
+    adsPrice?: number | undefined;
+  }>({});
 
   const connectPoemIds = api.tag.conntentPoemIds.useMutation({
     onSuccess: () => {
@@ -108,6 +115,39 @@ export default function Tag() {
           />
         </div>
 
+        <div className="space-y-2">
+          <label>Ads</label>
+          <div className="grid grid-cols-3 gap-4">
+            <Input
+              placeholder="ads url"
+              value={ads?.adsUrl}
+              onChange={(e) => setAds({ ...ads, adsUrl: e.target.value })}
+            />
+            <Input
+              placeholder="ads image"
+              value={ads.adsImage}
+              onChange={(e) => setAds({ ...ads, adsImage: e.target.value })}
+            />
+            <Input
+              placeholder="ads title"
+              value={ads.adsTitle}
+              onChange={(e) => setAds({ ...ads, adsTitle: e.target.value })}
+            />
+            <Input
+              placeholder="ads content"
+              value={ads.adsContent}
+              onChange={(e) => setAds({ ...ads, adsContent: e.target.value })}
+            />
+            <Input
+              placeholder="ads price"
+              value={ads.adsPrice}
+              onChange={(e) =>
+                setAds({ ...ads, adsPrice: Number(e.target.value) })
+              }
+            />
+          </div>
+        </div>
+
         <div className="mt-8">
           <div className="flex flex-col space-y-2">
             <h3 className="text-f300">批量关联诗词</h3>
@@ -161,6 +201,11 @@ export default function Tag() {
                 type_zh_Hant: convertToHant(type),
                 introduce,
                 introduce_zh_Hant: convertToHant(introduce),
+                adsUrl: ads.adsUrl,
+                adsImage: ads.adsImage,
+                adsTitle: ads.adsTitle,
+                adsContent: ads.adsContent,
+                adsPrice: ads.adsPrice,
               });
             }}
           >

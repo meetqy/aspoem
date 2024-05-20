@@ -213,6 +213,11 @@ export const tagRouter = createTRPCRouter({
         type_zh_Hant: z.string().optional(),
         introduce: z.string().optional(),
         introduce_zh_Hant: z.string().optional(),
+        adsUrl: z.string().optional(),
+        adsImage: z.string().optional(),
+        adsTitle: z.string().optional(),
+        adsContent: z.string().optional(),
+        adsPrice: z.number().optional(),
       }),
     )
     .mutation(({ input, ctx }) => {

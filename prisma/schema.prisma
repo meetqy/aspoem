@@ -83,6 +83,12 @@ model Tag {
     type_zh_Hant      String?
     introduce         String?
     introduce_zh_Hant String?
+    // ads
+    adsImage          String?
+    adsTitle          String?
+    adsContent        String?
+    adsPrice          Int?
+    adsUrl            String?
     createdAt         DateTime? @default(now())
     updatedAt         DateTime? @updatedAt
 }

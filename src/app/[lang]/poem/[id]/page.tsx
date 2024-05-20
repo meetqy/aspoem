@@ -23,6 +23,7 @@ import { More } from "./components/more";
 import { getDictionary, type Locale } from "~/dictionaries";
 import "./index.css";
 import ShowPoemCard from "./components/show-poem-card";
+import { JDAds } from "./ads";
 
 const GoFeedback = dynamic(() => import("./go-feedback"), { ssr: false });
 
@@ -139,7 +140,7 @@ export default async function Page({ params, searchParams }: Props) {
             </nav>
           </div>
 
-          <div className="flex justify-end items-center min-w-24">
+          <div className="flex min-w-24 items-center justify-end">
             {showPinYin ? (
               <Button size={"xs"} aria-label={dict.poem.pinyin_hide} asChild>
                 <Link href="?" replace>
@@ -287,6 +288,17 @@ export default async function Page({ params, searchParams }: Props) {
         </div>
 
         {poem.cards.length > 0 && ShowPoemCard({ poem })}
+
+        <h2 id="相关书籍" className="prose-h2">
+          相关书籍
+        </h2>
+        <div className="prose-p relative overflow-hidden">
+          {poem.tags
+            .filter((item) => item.adsUrl)
+            .map((item) => (
+              <JDAds key={item.id} tag={item} />
+            ))}
+        </div>
 
         <h2 id={"#" + dict.poem.more} className="prose-h2 mb-6">
           {dict.poem.more}
