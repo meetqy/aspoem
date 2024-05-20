@@ -224,6 +224,8 @@ export const tagRouter = createTRPCRouter({
       if (input.token !== process.env.TOKEN) throw new Error("Invalid token");
       const { id } = input;
 
+      console.log(input.adsPrice);
+
       const objJson = {
         ...input,
         token: undefined,

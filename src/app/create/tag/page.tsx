@@ -26,7 +26,7 @@ export default function Tag() {
     adsImage?: string | undefined;
     adsTitle?: string | undefined;
     adsContent?: string | undefined;
-    adsPrice?: number | undefined;
+    adsPrice?: string | undefined;
   }>({});
 
   const connectPoemIds = api.tag.conntentPoemIds.useMutation({
@@ -69,6 +69,13 @@ export default function Tag() {
       setName(tag.name);
       setIntroduce(tag.introduce ?? "");
       setType(tag.type ?? " ");
+      setAds({
+        adsUrl: tag.adsUrl || undefined,
+        adsImage: tag.adsImage || undefined,
+        adsTitle: tag.adsTitle || undefined,
+        adsContent: tag.adsContent || undefined,
+        adsPrice: tag.adsPrice?.toString() || undefined,
+      });
     }
   }, [tag]);
 
@@ -141,9 +148,7 @@ export default function Tag() {
             <Input
               placeholder="ads price"
               value={ads.adsPrice}
-              onChange={(e) =>
-                setAds({ ...ads, adsPrice: Number(e.target.value) })
-              }
+              onChange={(e) => setAds({ ...ads, adsPrice: e.target.value })}
             />
           </div>
         </div>
@@ -192,6 +197,7 @@ export default function Tag() {
           <Button
             className="w-full"
             onClick={() => {
+              console.log(Number(ads.adsPrice));
               create.mutate({
                 id: id === -1 ? undefined : id,
                 token,
@@ -205,7 +211,7 @@ export default function Tag() {
                 adsImage: ads.adsImage,
                 adsTitle: ads.adsTitle,
                 adsContent: ads.adsContent,
-                adsPrice: ads.adsPrice,
+                adsPrice: Number(ads.adsPrice),
               });
             }}
           >
