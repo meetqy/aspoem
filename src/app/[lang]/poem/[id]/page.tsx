@@ -119,6 +119,8 @@ export default async function Page({ params, searchParams }: Props) {
 
   const isShi = poem.genre === "诗";
 
+  const ads = poem.tags.filter((item) => item.adsUrl);
+
   return (
     <>
       <script
@@ -289,16 +291,18 @@ export default async function Page({ params, searchParams }: Props) {
 
         {poem.cards.length > 0 && ShowPoemCard({ poem })}
 
-        <h2 id="相关书籍" className="prose-h2">
-          相关书籍
-        </h2>
-        <div className="prose-p relative overflow-hidden">
-          {poem.tags
-            .filter((item) => item.adsUrl)
-            .map((item) => (
-              <JDAds key={item.id} tag={item} />
-            ))}
-        </div>
+        {ads.length > 0 && (
+          <>
+            <h2 id="相关书籍" className="prose-h2">
+              相关书籍
+            </h2>
+            <div className="prose-p relative overflow-hidden">
+              {ads.map((item) => (
+                <JDAds key={item.id} tag={item} />
+              ))}
+            </div>
+          </>
+        )}
 
         <h2 id={"#" + dict.poem.more} className="prose-h2 mb-6">
           {dict.poem.more}
