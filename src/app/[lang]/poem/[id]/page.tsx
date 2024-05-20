@@ -296,7 +296,7 @@ export default async function Page({ params, searchParams }: Props) {
             <h2 id="相关书籍" className="prose-h2">
               相关书籍
             </h2>
-            <div className="prose-p relative overflow-hidden">
+            <div className="prose-p relative grid gap-4 overflow-hidden md:grid-cols-2">
               {ads.map((item) => (
                 <JDAds key={item.id} tag={item} />
               ))}
