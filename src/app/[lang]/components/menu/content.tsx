@@ -154,9 +154,6 @@ export function Content({
           <SelectContent>
             <SelectItem value="zh-Hans">中文简体</SelectItem>
             <SelectItem value="zh-Hant">中文繁体</SelectItem>
-            <SelectItem value="en">English</SelectItem>
-            <SelectItem value="ko">한국어</SelectItem>
-            <SelectItem value="ja">日本語</SelectItem>
           </SelectContent>
         </Select>
       </div>
