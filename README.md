@@ -7,6 +7,8 @@
 | ![310017729-c5728ebe-2977-4471-b0e1-92cd872874ee](https://github.com/meetqy/aspoem/assets/18411315/1748c1bf-b4e9-4e69-94d7-9a83fd997804) | ![310017294-502bd505-e10e-4e4c-86d8-e93f91ab7201](https://github.com/meetqy/aspoem/assets/18411315/2515bd07-7b9a-46e0-b87b-d28aa5319281) |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 
+<a href="https://hellogithub.com/repository/ca765afd047741b884513e3811fbb5d4" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=ca765afd047741b884513e3811fbb5d4&claim_uid=5Flg6I2oHsSUdEk" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 ## 数据来源
 
 - [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) | [古诗文网](https://www.gushiwen.cn/) 
