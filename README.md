@@ -1,4 +1,4 @@
-# [AsPoem](https://aspoem.com)
+# [AsPoem](https://aspoem.com) [V1版本](https://github.com/meetqy/aspoem/tree/v1) 正在开发中
 
 现代化诗词学习网站，一个更加注重 **UI和阅读体验** 的诗词网站。
 
