@@ -7,7 +7,7 @@
       "searchable": true,
       "pageSize": 10,
       "mainField": "title",
-      "defaultSortBy": "author_py",
+      "defaultSortBy": "updatedAt",
       "defaultSortOrder": "DESC"
     },
     "metadatas": {
@@ -117,6 +117,20 @@
           "sortable": true
         }
       },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -194,11 +208,17 @@
         ],
         [
           {
-            "name": "title_py",
+            "name": "slug",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "author_py",
             "size": 6
           },
           {
-            "name": "author_py",
+            "name": "title_py",
             "size": 6
           }
         ],
@@ -217,7 +237,8 @@
         "id",
         "author",
         "dynasty",
-        "title"
+        "title",
+        "content"
       ]
     },
     "uid": "api::poem.poem"

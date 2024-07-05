@@ -15,11 +15,12 @@
           "content_py",
           "dynasty",
           "author",
-          "author_py"
+          "author_py",
+          "slug"
         ],
         "locales": [
-          "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "zh-Hans"
         ]
       },
       "conditions": []
@@ -30,8 +31,8 @@
       "subject": "api::poem.poem",
       "properties": {
         "locales": [
-          "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "zh-Hans"
         ]
       },
       "conditions": []
@@ -42,8 +43,8 @@
       "subject": "api::poem.poem",
       "properties": {
         "locales": [
-          "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "zh-Hans"
         ]
       },
       "conditions": []
@@ -60,11 +61,12 @@
           "content_py",
           "dynasty",
           "author",
-          "author_py"
+          "author_py",
+          "slug"
         ],
         "locales": [
-          "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "zh-Hans"
         ]
       },
       "conditions": []
@@ -81,11 +83,12 @@
           "content_py",
           "dynasty",
           "author",
-          "author_py"
+          "author_py",
+          "slug"
         ],
         "locales": [
-          "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "zh-Hans"
         ]
       },
       "conditions": []

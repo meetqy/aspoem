@@ -394,7 +394,6 @@ export interface ApiPoemPoem extends Schema.CollectionType {
         };
       }>;
     title_py: Attribute.String &
-      Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
@@ -421,7 +420,12 @@ export interface ApiPoemPoem extends Schema.CollectionType {
         };
       }>;
     author_py: Attribute.String &
-      Attribute.Required &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
+    slug: Attribute.String &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: false;

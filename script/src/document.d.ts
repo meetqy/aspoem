@@ -1320,22 +1320,22 @@ export interface components {
         PoemLocalizationRequest: {
             title: string;
             content: string;
-            title_py: string;
+            title_py?: string;
             content_py?: string;
             dynasty: string;
             author: string;
-            author_py: string;
+            author_py?: string;
             locale: string;
         };
         PoemRequest: {
             data: {
                 title: string;
                 content: string;
-                title_py: string;
+                title_py?: string;
                 content_py?: string;
                 dynasty: string;
                 author: string;
-                author_py: string;
+                author_py?: string;
                 locale?: string;
             };
         };
@@ -1380,11 +1380,11 @@ export interface components {
         Poem: {
             title: string;
             content: string;
-            title_py: string;
+            title_py?: string;
             content_py?: string;
             dynasty: string;
             author: string;
-            author_py: string;
+            author_py?: string;
             /** Format: date-time */
             createdAt?: string;
             /** Format: date-time */

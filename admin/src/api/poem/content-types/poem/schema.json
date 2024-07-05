@@ -41,7 +41,7 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": false
     },
     "content_py": {
       "pluginOptions": {
@@ -77,7 +77,15 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": false
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
     }
   }
 }
