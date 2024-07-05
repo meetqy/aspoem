@@ -4,6 +4,96 @@
   "description": "Editors can manage and publish contents including those of other users.",
   "permissions": [
     {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::author.author",
+      "properties": {
+        "fields": [
+          "name",
+          "name_py",
+          "poems",
+          "dynasty"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::author.author",
+      "properties": {
+        "fields": [
+          "name",
+          "name_py",
+          "poems",
+          "dynasty"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::author.author",
+      "properties": {
+        "fields": [
+          "name",
+          "name_py",
+          "poems",
+          "dynasty"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::poem.poem",
+      "properties": {
+        "fields": [
+          "name",
+          "content",
+          "name_py",
+          "content_py",
+          "author",
+          "dynasty"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::poem.poem",
+      "properties": {
+        "fields": [
+          "name",
+          "content",
+          "name_py",
+          "content_py",
+          "author",
+          "dynasty"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::poem.poem",
+      "properties": {
+        "fields": [
+          "name",
+          "content",
+          "name_py",
+          "content_py",
+          "author",
+          "dynasty"
+        ]
+      },
+      "conditions": []
+    },
+    {
       "action": "plugin::upload.assets.copy-link",
       "actionParameters": {},
       "subject": null,

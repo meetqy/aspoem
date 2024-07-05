@@ -397,11 +397,13 @@ export interface ApiAuthorAuthor extends Schema.CollectionType {
       'oneToMany',
       'api::poem.poem'
     >;
-    dynasty: Attribute.Relation<
-      'api::author.author',
-      'manyToOne',
-      'api::dynasty.dynasty'
-    >;
+    dynasty: Attribute.String &
+      Attribute.Required &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
@@ -422,45 +424,6 @@ export interface ApiAuthorAuthor extends Schema.CollectionType {
       'api::author.author'
     >;
     locale: Attribute.String;
-  };
-}
-
-export interface ApiDynastyDynasty extends Schema.CollectionType {
-  collectionName: 'dynasties';
-  info: {
-    singularName: 'dynasty';
-    pluralName: 'dynasties';
-    displayName: 'Dynasty';
-  };
-  options: {
-    draftAndPublish: false;
-  };
-  attributes: {
-    name: Attribute.String & Attribute.Required;
-    authors: Attribute.Relation<
-      'api::dynasty.dynasty',
-      'oneToMany',
-      'api::author.author'
-    >;
-    poems: Attribute.Relation<
-      'api::dynasty.dynasty',
-      'oneToMany',
-      'api::poem.poem'
-    >;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::dynasty.dynasty',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::dynasty.dynasty',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
   };
 }
 
@@ -512,11 +475,13 @@ export interface ApiPoemPoem extends Schema.CollectionType {
       'manyToOne',
       'api::author.author'
     >;
-    dynasty: Attribute.Relation<
-      'api::poem.poem',
-      'manyToOne',
-      'api::dynasty.dynasty'
-    >;
+    dynasty: Attribute.String &
+      Attribute.Required &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -970,7 +935,6 @@ declare module '@strapi/types' {
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'api::author.author': ApiAuthorAuthor;
-      'api::dynasty.dynasty': ApiDynastyDynasty;
       'api::poem.poem': ApiPoemPoem;
       'plugin::upload.file': PluginUploadFile;
       'plugin::upload.folder': PluginUploadFolder;

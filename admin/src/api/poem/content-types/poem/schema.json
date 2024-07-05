@@ -57,10 +57,13 @@
       "inversedBy": "poems"
     },
     "dynasty": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::dynasty.dynasty",
-      "inversedBy": "poems"
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }

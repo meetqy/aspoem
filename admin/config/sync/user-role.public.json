@@ -4,24 +4,6 @@
   "type": "public",
   "permissions": [
     {
-      "action": "api::author.author.find"
-    },
-    {
-      "action": "api::author.author.findOne"
-    },
-    {
-      "action": "api::dynasty.dynasty.find"
-    },
-    {
-      "action": "api::dynasty.dynasty.findOne"
-    },
-    {
-      "action": "api::poem.poem.find"
-    },
-    {
-      "action": "api::poem.poem.findOne"
-    },
-    {
       "action": "plugin::users-permissions.auth.callback"
     },
     {

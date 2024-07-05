@@ -40,10 +40,13 @@
       "mappedBy": "author"
     },
     "dynasty": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::dynasty.dynasty",
-      "inversedBy": "authors"
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }

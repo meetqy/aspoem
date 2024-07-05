@@ -1,6 +1,3 @@
 {
-  "compilerOptions": {
-    "resolveJsonModule": true
-  },
   "include": ["src/**/*.ts"]
 }

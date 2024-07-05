@@ -12,6 +12,7 @@
     "globby": "^14.0.2",
     "lodash": "^4.17.21",
     "openapi-fetch": "^0.10.2",
+    "pinyin-pro": "^3.23.0",
     "qs": "^6.12.2",
     "vite-node": "^1.6.0"
   },

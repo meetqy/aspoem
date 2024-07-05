@@ -15,8 +15,8 @@
           "dynasty"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -27,8 +27,8 @@
       "subject": "api::author.author",
       "properties": {
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -45,8 +45,8 @@
           "dynasty"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -63,54 +63,8 @@
           "dynasty"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "actionParameters": {},
-      "subject": "api::dynasty.dynasty",
-      "properties": {
-        "fields": [
-          "name",
-          "authors",
-          "poems"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "actionParameters": {},
-      "subject": "api::dynasty.dynasty",
-      "properties": {},
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "actionParameters": {},
-      "subject": "api::dynasty.dynasty",
-      "properties": {
-        "fields": [
-          "name",
-          "authors",
-          "poems"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "actionParameters": {},
-      "subject": "api::dynasty.dynasty",
-      "properties": {
-        "fields": [
-          "name",
-          "authors",
-          "poems"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -129,8 +83,8 @@
           "dynasty"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -141,8 +95,8 @@
       "subject": "api::poem.poem",
       "properties": {
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -153,8 +107,8 @@
       "subject": "api::poem.poem",
       "properties": {
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -173,8 +127,8 @@
           "dynasty"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -193,8 +147,8 @@
           "dynasty"
         ],
         "locales": [
-          "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "zh-Hant"
         ]
       },
       "conditions": []

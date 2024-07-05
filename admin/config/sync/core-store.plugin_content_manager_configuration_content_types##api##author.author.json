@@ -7,8 +7,8 @@
       "searchable": true,
       "pageSize": 10,
       "mainField": "name",
-      "defaultSortBy": "name",
-      "defaultSortOrder": "ASC"
+      "defaultSortBy": "updatedAt",
+      "defaultSortOrder": "DESC"
     },
     "metadatas": {
       "id": {
@@ -68,8 +68,7 @@
           "description": "",
           "placeholder": "",
           "visible": true,
-          "editable": true,
-          "mainField": "name"
+          "editable": true
         },
         "list": {
           "label": "dynasty",
@@ -137,33 +136,33 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "name",
-        "name_py",
-        "createdAt"
-      ],
       "edit": [
         [
           {
             "name": "name",
-            "size": 6
+            "size": 4
           },
           {
             "name": "name_py",
-            "size": 6
+            "size": 4
+          },
+          {
+            "name": "dynasty",
+            "size": 4
           }
         ],
         [
           {
             "name": "poems",
-            "size": 6
-          },
-          {
-            "name": "dynasty",
-            "size": 6
+            "size": 12
           }
         ]
+      ],
+      "list": [
+        "id",
+        "name",
+        "name_py",
+        "poems"
       ]
     },
     "uid": "api::author.author"
