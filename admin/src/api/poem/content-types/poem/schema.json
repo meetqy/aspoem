@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "name": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -34,13 +34,14 @@
       "type": "text",
       "required": true
     },
-    "name_py": {
+    "title_py": {
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "content_py": {
       "pluginOptions": {
@@ -50,13 +51,26 @@
       },
       "type": "text"
     },
-    "author": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::author.author",
-      "inversedBy": "poems"
-    },
     "dynasty": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "author_py": {
       "pluginOptions": {
         "i18n": {
           "localized": false

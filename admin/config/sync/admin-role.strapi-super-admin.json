@@ -6,81 +6,16 @@
     {
       "action": "plugin::content-manager.explorer.create",
       "actionParameters": {},
-      "subject": "api::author.author",
-      "properties": {
-        "fields": [
-          "name",
-          "name_py",
-          "poems",
-          "dynasty"
-        ],
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "actionParameters": {},
-      "subject": "api::author.author",
-      "properties": {
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "actionParameters": {},
-      "subject": "api::author.author",
-      "properties": {
-        "fields": [
-          "name",
-          "name_py",
-          "poems",
-          "dynasty"
-        ],
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "actionParameters": {},
-      "subject": "api::author.author",
-      "properties": {
-        "fields": [
-          "name",
-          "name_py",
-          "poems",
-          "dynasty"
-        ],
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "actionParameters": {},
       "subject": "api::poem.poem",
       "properties": {
         "fields": [
-          "name",
+          "title",
           "content",
-          "name_py",
+          "title_py",
           "content_py",
+          "dynasty",
           "author",
-          "dynasty"
+          "author_py"
         ],
         "locales": [
           "zh-Hans",
@@ -119,12 +54,13 @@
       "subject": "api::poem.poem",
       "properties": {
         "fields": [
-          "name",
+          "title",
           "content",
-          "name_py",
+          "title_py",
           "content_py",
+          "dynasty",
           "author",
-          "dynasty"
+          "author_py"
         ],
         "locales": [
           "zh-Hans",
@@ -139,12 +75,13 @@
       "subject": "api::poem.poem",
       "properties": {
         "fields": [
-          "name",
+          "title",
           "content",
-          "name_py",
+          "title_py",
           "content_py",
+          "dynasty",
           "author",
-          "dynasty"
+          "author_py"
         ],
         "locales": [
           "zh-Hans",

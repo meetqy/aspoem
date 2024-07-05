@@ -362,71 +362,6 @@ export interface AdminTransferTokenPermission extends Schema.CollectionType {
   };
 }
 
-export interface ApiAuthorAuthor extends Schema.CollectionType {
-  collectionName: 'authors';
-  info: {
-    singularName: 'author';
-    pluralName: 'authors';
-    displayName: 'Author';
-    description: '';
-  };
-  options: {
-    draftAndPublish: false;
-  };
-  pluginOptions: {
-    i18n: {
-      localized: true;
-    };
-  };
-  attributes: {
-    name: Attribute.String &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    name_py: Attribute.String &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
-    poems: Attribute.Relation<
-      'api::author.author',
-      'oneToMany',
-      'api::poem.poem'
-    >;
-    dynasty: Attribute.String &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::author.author',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::author.author',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::author.author',
-      'oneToMany',
-      'api::author.author'
-    >;
-    locale: Attribute.String;
-  };
-}
-
 export interface ApiPoemPoem extends Schema.CollectionType {
   collectionName: 'poems';
   info: {
@@ -444,7 +379,7 @@ export interface ApiPoemPoem extends Schema.CollectionType {
     };
   };
   attributes: {
-    name: Attribute.String &
+    title: Attribute.String &
       Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
@@ -458,7 +393,8 @@ export interface ApiPoemPoem extends Schema.CollectionType {
           localized: true;
         };
       }>;
-    name_py: Attribute.String &
+    title_py: Attribute.String &
+      Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
@@ -470,12 +406,21 @@ export interface ApiPoemPoem extends Schema.CollectionType {
           localized: false;
         };
       }>;
-    author: Attribute.Relation<
-      'api::poem.poem',
-      'manyToOne',
-      'api::author.author'
-    >;
     dynasty: Attribute.String &
+      Attribute.Required &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
+    author: Attribute.String &
+      Attribute.Required &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    author_py: Attribute.String &
       Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
@@ -934,7 +879,6 @@ declare module '@strapi/types' {
       'admin::api-token-permission': AdminApiTokenPermission;
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
-      'api::author.author': ApiAuthorAuthor;
       'api::poem.poem': ApiPoemPoem;
       'plugin::upload.file': PluginUploadFile;
       'plugin::upload.folder': PluginUploadFolder;

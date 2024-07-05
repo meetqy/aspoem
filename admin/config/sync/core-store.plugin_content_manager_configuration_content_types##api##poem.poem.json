@@ -6,8 +6,8 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "name",
-      "defaultSortBy": "updatedAt",
+      "mainField": "title",
+      "defaultSortBy": "author_py",
       "defaultSortOrder": "DESC"
     },
     "metadatas": {
@@ -19,16 +19,16 @@
           "sortable": true
         }
       },
-      "name": {
+      "title": {
         "edit": {
-          "label": "name",
+          "label": "title",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "name",
+          "label": "title",
           "searchable": true,
           "sortable": true
         }
@@ -47,16 +47,16 @@
           "sortable": true
         }
       },
-      "name_py": {
+      "title_py": {
         "edit": {
-          "label": "name_py",
+          "label": "title_py",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "name_py",
+          "label": "title_py",
           "searchable": true,
           "sortable": true
         }
@@ -75,21 +75,6 @@
           "sortable": true
         }
       },
-      "author": {
-        "edit": {
-          "label": "author",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true,
-          "mainField": "name"
-        },
-        "list": {
-          "label": "author",
-          "searchable": true,
-          "sortable": true
-        }
-      },
       "dynasty": {
         "edit": {
           "label": "dynasty",
@@ -100,6 +85,34 @@
         },
         "list": {
           "label": "dynasty",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "author": {
+        "edit": {
+          "label": "author",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "author",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "author_py": {
+        "edit": {
+          "label": "author_py",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "author_py",
           "searchable": true,
           "sortable": true
         }
@@ -167,16 +180,26 @@
       "edit": [
         [
           {
-            "name": "name",
+            "name": "title",
             "size": 4
           },
           {
-            "name": "name_py",
+            "name": "author",
             "size": 4
           },
           {
             "name": "dynasty",
             "size": 4
+          }
+        ],
+        [
+          {
+            "name": "title_py",
+            "size": 6
+          },
+          {
+            "name": "author_py",
+            "size": 6
           }
         ],
         [
@@ -188,19 +211,13 @@
             "name": "content_py",
             "size": 6
           }
-        ],
-        [
-          {
-            "name": "author",
-            "size": 12
-          }
         ]
       ],
       "list": [
         "id",
-        "name",
+        "author",
         "dynasty",
-        "content"
+        "title"
       ]
     },
     "uid": "api::poem.poem"

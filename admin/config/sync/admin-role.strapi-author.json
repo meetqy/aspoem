@@ -6,63 +6,16 @@
     {
       "action": "plugin::content-manager.explorer.create",
       "actionParameters": {},
-      "subject": "api::author.author",
-      "properties": {
-        "fields": [
-          "name",
-          "name_py",
-          "poems",
-          "dynasty"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "actionParameters": {},
-      "subject": "api::author.author",
-      "properties": {
-        "fields": [
-          "name",
-          "name_py",
-          "poems",
-          "dynasty"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "actionParameters": {},
-      "subject": "api::author.author",
-      "properties": {
-        "fields": [
-          "name",
-          "name_py",
-          "poems",
-          "dynasty"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "actionParameters": {},
       "subject": "api::poem.poem",
       "properties": {
         "fields": [
-          "name",
           "content",
-          "name_py",
           "content_py",
+          "dynasty",
           "author",
-          "dynasty"
+          "author_py",
+          "title",
+          "title_py"
         ]
       },
       "conditions": [
@@ -75,12 +28,13 @@
       "subject": "api::poem.poem",
       "properties": {
         "fields": [
-          "name",
           "content",
-          "name_py",
           "content_py",
+          "dynasty",
           "author",
-          "dynasty"
+          "author_py",
+          "title",
+          "title_py"
         ]
       },
       "conditions": [
@@ -93,12 +47,13 @@
       "subject": "api::poem.poem",
       "properties": {
         "fields": [
-          "name",
           "content",
-          "name_py",
           "content_py",
+          "dynasty",
           "author",
-          "dynasty"
+          "author_py",
+          "title",
+          "title_py"
         ]
       },
       "conditions": [
