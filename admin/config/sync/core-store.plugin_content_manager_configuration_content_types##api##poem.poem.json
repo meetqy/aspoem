@@ -234,11 +234,10 @@
         ]
       ],
       "list": [
-        "id",
         "author",
         "dynasty",
         "title",
-        "content"
+        "slug"
       ]
     },
     "uid": "api::poem.poem"

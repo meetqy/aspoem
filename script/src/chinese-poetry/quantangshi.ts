@@ -8,14 +8,18 @@ import slugify from "slugify";
 // 匹配中文字符
 const chinese = /^([\u4e00-\u9fa5])+$/;
 
-const ignore = /□|𮪃|𣆟|无名氏|佚名|無名氏|不詳|不详/;
+const ignore =
+  /□|𮪃|𣆟|□|无名氏|佚名|無名氏|不詳|不详|𧍧|𥷑|𤱶|𠁼||𮭗|𥳌|𦱊|𥱧|𥉍|𡼭|𣂏/;
 
 const contentIgnore = /（/;
 const titleIgnore = /。/;
 
-export async function createTangAuthor() {
+// 中文符号连在一起的
+const chineseSymbol = /(（|）|，|。|；){1}\n?(（|）|，|。|；){1}/;
+
+export async function create(filename, dynasty) {
   const files = await globby(
-    path.join(__dirname, "./全唐诗/poet.tang.57000.json")
+    path.join(__dirname, `./全唐诗/poet.${filename}.*.json`)
   );
 
   try {
@@ -24,7 +28,10 @@ export async function createTangAuthor() {
 
       try {
         for (const item of json) {
-          const paragraphs = item.paragraphs.join("\n").replace(/。\n。/, "。");
+          const paragraphs = item.paragraphs.join("\n");
+          if (chineseSymbol.test(paragraphs)) {
+            continue;
+          }
 
           if (
             item.author &&
@@ -32,13 +39,14 @@ export async function createTangAuthor() {
             paragraphs &&
             chinese.test(item.author) &&
             !titleIgnore.test(item.title) &&
+            !ignore.test(item.title) &&
             !ignore.test(item.author) &&
             !ignore.test(paragraphs) &&
             !contentIgnore.test(paragraphs)
           ) {
             const slug = pinyin(`${item.author}${item.title}`, {
               toneType: "none",
-            });
+            }).replace(/○/, "ling");
 
             const res = await strapi.POST("/poems", {
               // @ts-ignore
@@ -51,7 +59,7 @@ export async function createTangAuthor() {
                   content_py: pinyin(paragraphs),
                   author: item.author,
                   author_py: pinyin(item.author),
-                  dynasty: "唐",
+                  dynasty,
                 },
               },
             });

@@ -1,11 +1,10 @@
-import { createTangAuthor } from "./chinese-poetry";
-import { strapi } from "./strapi";
+import { create } from "./chinese-poetry";
 
 async function main() {
-  // 创建朝代
-  // await genDynasties();
-  // 创建唐诗作者
-  await createTangAuthor();
+  // 创建唐
+  await create("tang", "唐");
+  // 创建宋
+  await create("song", "宋");
 }
 
 main();

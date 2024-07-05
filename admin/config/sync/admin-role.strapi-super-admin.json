@@ -20,7 +20,8 @@
         ],
         "locales": [
           "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "en"
         ]
       },
       "conditions": []
@@ -32,7 +33,8 @@
       "properties": {
         "locales": [
           "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "en"
         ]
       },
       "conditions": []
@@ -44,7 +46,8 @@
       "properties": {
         "locales": [
           "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "en"
         ]
       },
       "conditions": []
@@ -66,7 +69,8 @@
         ],
         "locales": [
           "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "en"
         ]
       },
       "conditions": []
@@ -88,7 +92,8 @@
         ],
         "locales": [
           "zh-Hant",
-          "zh-Hans"
+          "zh-Hans",
+          "en"
         ]
       },
       "conditions": []
