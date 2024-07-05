@@ -34,10 +34,6 @@
 
 ## 许可证
 
-对于个人用户，许可证持有者授予其使用本开源项目的权利，遵守 [GNU Affero General Public License（AGPL）3.0](./LICENSE) 版本的条款和条件。
+遵守 [GNU Affero General Public License（AGPL）3.0](./LICENSE) 版本的条款和条件。
 
-### 商业许可证
 
-对于用户进行盈利或商业用途的情况，用户必须购买商业许可证，以获得相应的商业使用权。
-
-请联系: meetqy@icloud.com
