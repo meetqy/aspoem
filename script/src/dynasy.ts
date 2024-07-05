@@ -21,6 +21,7 @@ const chineseDynasties = [
 export const genDynasties = async () => {
   const res = await Promise.all(
     chineseDynasties.map((dynasty) => {
+      // @ts-ignore
       return strapi.POST("/dynasties", {
         body: {
           data: {
