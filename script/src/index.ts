@@ -1,10 +1,10 @@
+import { createTang } from "./chinese-poetry";
 import { genDynasties } from "./dynasy";
 import { strapi } from "./strapi";
 
-// strapi.GET("/poems/{id}");
-
 async function main() {
-  await genDynasties();
+  // await genDynasties();
+  createTang();
 }
 
 main();

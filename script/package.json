@@ -4,10 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "vite-node src/index.ts"
+    "start": "export NODE_OPTIONS='--max-old-space-size=8192' &&vite-node src/index.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "globby": "^14.0.2",
+    "lodash": "^4.17.21",
     "openapi-fetch": "^0.10.2",
     "qs": "^6.12.2",
     "vite-node": "^1.6.0"
