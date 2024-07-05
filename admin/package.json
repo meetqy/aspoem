@@ -1,5 +1,5 @@
 {
-  "name": "aspoem-strapi",
+  "name": "admin",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -10,31 +10,30 @@
   "scripts": {
     "build": "strapi build",
     "cs": "config-sync",
+    "deploy": "strapi deploy",
     "develop": "strapi develop",
     "start": "strapi start",
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "4.24.1",
-    "@strapi/plugin-documentation": "^4.24.1",
-    "@strapi/plugin-i18n": "4.24.1",
-    "@strapi/plugin-users-permissions": "4.24.1",
-    "@strapi/strapi": "4.24.1",
+    "@strapi/plugin-cloud": "4.25.2",
+    "@strapi/plugin-documentation": "^4.25.2",
+    "@strapi/plugin-i18n": "4.25.2",
+    "@strapi/plugin-users-permissions": "4.25.2",
+    "@strapi/strapi": "4.25.2",
     "better-sqlite3": "8.6.0",
-    "pg": "^8.11.5",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
     "strapi-plugin-config-sync": "^1.2.5",
-    "strapi-plugin-import-export-entries": "^1.23.1",
     "styled-components": "5.3.3"
   },
   "devDependencies": {},
   "engines": {
-    "node": "20.x",
+    "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "e99c20de-ca95-4179-af18-6a09847d660a"
+    "uuid": "f64894bb-1ea0-4255-b870-85cce7656838"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::poem.poem",
+  "key": "plugin_content_manager_configuration_content_types::api::author.author",
   "value": {
     "settings": {
       "bulkable": true,
@@ -33,20 +33,6 @@
           "sortable": true
         }
       },
-      "content": {
-        "edit": {
-          "label": "content",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "content",
-          "searchable": true,
-          "sortable": true
-        }
-      },
       "name_py": {
         "edit": {
           "label": "name_py",
@@ -61,23 +47,9 @@
           "sortable": true
         }
       },
-      "content_py": {
+      "poems": {
         "edit": {
-          "label": "content_py",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "content_py",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "author": {
-        "edit": {
-          "label": "author",
+          "label": "poems",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -85,9 +57,9 @@
           "mainField": "name"
         },
         "list": {
-          "label": "author",
-          "searchable": true,
-          "sortable": true
+          "label": "poems",
+          "searchable": false,
+          "sortable": false
         }
       },
       "createdAt": {
@@ -150,6 +122,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "name",
+        "name_py",
+        "createdAt"
+      ],
       "edit": [
         [
           {
@@ -163,29 +141,13 @@
         ],
         [
           {
-            "name": "content",
-            "size": 6
-          },
-          {
-            "name": "content_py",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "author",
+            "name": "poems",
             "size": 6
           }
         ]
-      ],
-      "list": [
-        "id",
-        "name",
-        "content",
-        "createdAt"
       ]
     },
-    "uid": "api::poem.poem"
+    "uid": "api::author.author"
   },
   "type": "object",
   "environment": null,

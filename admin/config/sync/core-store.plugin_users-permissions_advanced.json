@@ -5,8 +5,8 @@
     "allow_register": true,
     "email_confirmation": false,
     "email_reset_password": null,
-    "email_confirmation_redirection": "",
-    "default_role": "public"
+    "email_confirmation_redirection": null,
+    "default_role": "authenticated"
   },
   "type": "object",
   "environment": null,

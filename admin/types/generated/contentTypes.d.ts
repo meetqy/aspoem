@@ -362,6 +362,177 @@ export interface AdminTransferTokenPermission extends Schema.CollectionType {
   };
 }
 
+export interface ApiAuthorAuthor extends Schema.CollectionType {
+  collectionName: 'authors';
+  info: {
+    singularName: 'author';
+    pluralName: 'authors';
+    displayName: 'Author';
+    description: '';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  pluginOptions: {
+    i18n: {
+      localized: true;
+    };
+  };
+  attributes: {
+    name: Attribute.String &
+      Attribute.Required &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    name_py: Attribute.String &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
+    poems: Attribute.Relation<
+      'api::author.author',
+      'oneToMany',
+      'api::poem.poem'
+    >;
+    dynasty: Attribute.Relation<
+      'api::author.author',
+      'manyToOne',
+      'api::dynasty.dynasty'
+    >;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::author.author',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::author.author',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    localizations: Attribute.Relation<
+      'api::author.author',
+      'oneToMany',
+      'api::author.author'
+    >;
+    locale: Attribute.String;
+  };
+}
+
+export interface ApiDynastyDynasty extends Schema.CollectionType {
+  collectionName: 'dynasties';
+  info: {
+    singularName: 'dynasty';
+    pluralName: 'dynasties';
+    displayName: 'Dynasty';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  attributes: {
+    name: Attribute.String & Attribute.Required;
+    authors: Attribute.Relation<
+      'api::dynasty.dynasty',
+      'oneToMany',
+      'api::author.author'
+    >;
+    poems: Attribute.Relation<
+      'api::dynasty.dynasty',
+      'oneToMany',
+      'api::poem.poem'
+    >;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::dynasty.dynasty',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::dynasty.dynasty',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiPoemPoem extends Schema.CollectionType {
+  collectionName: 'poems';
+  info: {
+    singularName: 'poem';
+    pluralName: 'poems';
+    displayName: 'Poem';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  pluginOptions: {
+    i18n: {
+      localized: true;
+    };
+  };
+  attributes: {
+    name: Attribute.String &
+      Attribute.Required &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    content: Attribute.Text &
+      Attribute.Required &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    name_py: Attribute.String &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
+    content_py: Attribute.Text &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
+    author: Attribute.Relation<
+      'api::poem.poem',
+      'manyToOne',
+      'api::author.author'
+    >;
+    dynasty: Attribute.Relation<
+      'api::poem.poem',
+      'manyToOne',
+      'api::dynasty.dynasty'
+    >;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<'api::poem.poem', 'oneToOne', 'admin::user'> &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<'api::poem.poem', 'oneToOne', 'admin::user'> &
+      Attribute.Private;
+    localizations: Attribute.Relation<
+      'api::poem.poem',
+      'oneToMany',
+      'api::poem.poem'
+    >;
+    locale: Attribute.String;
+  };
+}
+
 export interface PluginUploadFile extends Schema.CollectionType {
   collectionName: 'files';
   info: {
@@ -788,277 +959,6 @@ export interface PluginUsersPermissionsUser extends Schema.CollectionType {
   };
 }
 
-export interface ApiExcerptExcerpt extends Schema.CollectionType {
-  collectionName: 'excerpts';
-  info: {
-    singularName: 'excerpt';
-    pluralName: 'excerpts';
-    displayName: 'Excerpt';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  pluginOptions: {
-    i18n: {
-      localized: true;
-    };
-  };
-  attributes: {
-    content: Attribute.String &
-      Attribute.Required &
-      Attribute.Unique &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    images: Attribute.Media &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    poems: Attribute.Relation<
-      'api::excerpt.excerpt',
-      'oneToMany',
-      'api::poem.poem'
-    >;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::excerpt.excerpt',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::excerpt.excerpt',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::excerpt.excerpt',
-      'oneToMany',
-      'api::excerpt.excerpt'
-    >;
-    locale: Attribute.String;
-  };
-}
-
-export interface ApiPoemPoem extends Schema.CollectionType {
-  collectionName: 'poems';
-  info: {
-    singularName: 'poem';
-    pluralName: 'poems';
-    displayName: 'Poem';
-    description: '';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  pluginOptions: {
-    i18n: {
-      localized: true;
-    };
-  };
-  attributes: {
-    title: Attribute.Text &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    titlePinyin: Attribute.Text &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
-    content: Attribute.Text &
-      Attribute.Required &
-      Attribute.Unique &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    contentPinyin: Attribute.Text &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
-    translation: Attribute.Text &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    annotation: Attribute.JSON &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    poet: Attribute.Relation<'api::poem.poem', 'manyToOne', 'api::poet.poet'>;
-    excerpt: Attribute.Relation<
-      'api::poem.poem',
-      'manyToOne',
-      'api::excerpt.excerpt'
-    >;
-    tags: Attribute.Relation<'api::poem.poem', 'manyToMany', 'api::tag.tag'>;
-    extra: Attribute.Text &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<'api::poem.poem', 'oneToOne', 'admin::user'> &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<'api::poem.poem', 'oneToOne', 'admin::user'> &
-      Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::poem.poem',
-      'oneToMany',
-      'api::poem.poem'
-    >;
-    locale: Attribute.String;
-  };
-}
-
-export interface ApiPoetPoet extends Schema.CollectionType {
-  collectionName: 'poets';
-  info: {
-    singularName: 'poet';
-    pluralName: 'poets';
-    displayName: 'Poet';
-    description: '';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  pluginOptions: {
-    i18n: {
-      localized: true;
-    };
-  };
-  attributes: {
-    name: Attribute.String &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    namePinyin: Attribute.String &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
-    dynasty: Attribute.Enumeration<
-      [
-        'a.\u590F',
-        'b.\u5546',
-        'c.\u5468',
-        'd.\u79E6',
-        'e.\u6C49',
-        'f.\u4E09\u56FD',
-        'g.\u664B',
-        'h.\u5357\u5317',
-        'i.\u968B',
-        'j.\u5510',
-        'k.\u4E94\u4EE3',
-        'l.\u5341\u56FD',
-        'm.\u5B8B',
-        'n.\u8FBD',
-        'o.\u897F\u590F',
-        'p.\u91D1',
-        'q.\u5143',
-        'r.\u660E',
-        's.\u6E05'
-      ]
-    > &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
-    poems: Attribute.Relation<'api::poet.poet', 'oneToMany', 'api::poem.poem'>;
-    desc: Attribute.Text &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<'api::poet.poet', 'oneToOne', 'admin::user'> &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<'api::poet.poet', 'oneToOne', 'admin::user'> &
-      Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::poet.poet',
-      'oneToMany',
-      'api::poet.poet'
-    >;
-    locale: Attribute.String;
-  };
-}
-
-export interface ApiTagTag extends Schema.CollectionType {
-  collectionName: 'tags';
-  info: {
-    singularName: 'tag';
-    pluralName: 'tags';
-    displayName: 'Tag';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  pluginOptions: {
-    i18n: {
-      localized: true;
-    };
-  };
-  attributes: {
-    name: Attribute.String &
-      Attribute.Required &
-      Attribute.Unique &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    poems: Attribute.Relation<'api::tag.tag', 'manyToMany', 'api::poem.poem'>;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<'api::tag.tag', 'oneToOne', 'admin::user'> &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<'api::tag.tag', 'oneToOne', 'admin::user'> &
-      Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::tag.tag',
-      'oneToMany',
-      'api::tag.tag'
-    >;
-    locale: Attribute.String;
-  };
-}
-
 declare module '@strapi/types' {
   export module Shared {
     export interface ContentTypes {
@@ -1069,6 +969,9 @@ declare module '@strapi/types' {
       'admin::api-token-permission': AdminApiTokenPermission;
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
+      'api::author.author': ApiAuthorAuthor;
+      'api::dynasty.dynasty': ApiDynastyDynasty;
+      'api::poem.poem': ApiPoemPoem;
       'plugin::upload.file': PluginUploadFile;
       'plugin::upload.folder': PluginUploadFolder;
       'plugin::content-releases.release': PluginContentReleasesRelease;
@@ -1077,10 +980,6 @@ declare module '@strapi/types' {
       'plugin::users-permissions.permission': PluginUsersPermissionsPermission;
       'plugin::users-permissions.role': PluginUsersPermissionsRole;
       'plugin::users-permissions.user': PluginUsersPermissionsUser;
-      'api::excerpt.excerpt': ApiExcerptExcerpt;
-      'api::poem.poem': ApiPoemPoem;
-      'api::poet.poet': ApiPoetPoet;
-      'api::tag.tag': ApiTagTag;
     }
   }
 }

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dynasties",
+  "info": {
+    "singularName": "dynasty",
+    "pluralName": "dynasties",
+    "displayName": "Dynasty"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "authors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::author.author",
+      "mappedBy": "dynasty"
+    },
+    "poems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::poem.poem",
+      "mappedBy": "dynasty"
+    }
+  }
+}

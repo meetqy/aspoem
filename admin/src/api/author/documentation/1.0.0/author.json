@@ -1,5 +1,5 @@
 {
-  "/poems": {
+  "/authors": {
     "get": {
       "responses": {
         "200": {
@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PoemListResponse"
+                "$ref": "#/components/schemas/AuthorListResponse"
               }
             }
           }
@@ -64,7 +64,7 @@
         }
       },
       "tags": [
-        "Poem"
+        "Author"
       ],
       "parameters": [
         {
@@ -170,7 +170,7 @@
           }
         }
       ],
-      "operationId": "get/poems"
+      "operationId": "get/authors"
     },
     "post": {
       "responses": {
@@ -179,7 +179,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PoemResponse"
+                "$ref": "#/components/schemas/AuthorResponse"
               }
             }
           }
@@ -236,23 +236,23 @@
         }
       },
       "tags": [
-        "Poem"
+        "Author"
       ],
       "parameters": [],
-      "operationId": "post/poems",
+      "operationId": "post/authors",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/PoemRequest"
+              "$ref": "#/components/schemas/AuthorRequest"
             }
           }
         }
       }
     }
   },
-  "/poems/{id}": {
+  "/authors/{id}": {
     "get": {
       "responses": {
         "200": {
@@ -260,7 +260,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PoemResponse"
+                "$ref": "#/components/schemas/AuthorResponse"
               }
             }
           }
@@ -317,7 +317,7 @@
         }
       },
       "tags": [
-        "Poem"
+        "Author"
       ],
       "parameters": [
         {
@@ -331,7 +331,7 @@
           }
         }
       ],
-      "operationId": "get/poems/{id}"
+      "operationId": "get/authors/{id}"
     },
     "put": {
       "responses": {
@@ -340,7 +340,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PoemResponse"
+                "$ref": "#/components/schemas/AuthorResponse"
               }
             }
           }
@@ -397,7 +397,7 @@
         }
       },
       "tags": [
-        "Poem"
+        "Author"
       ],
       "parameters": [
         {
@@ -411,13 +411,13 @@
           }
         }
       ],
-      "operationId": "put/poems/{id}",
+      "operationId": "put/authors/{id}",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/PoemRequest"
+              "$ref": "#/components/schemas/AuthorRequest"
             }
           }
         }
@@ -488,7 +488,7 @@
         }
       },
       "tags": [
-        "Poem"
+        "Author"
       ],
       "parameters": [
         {
@@ -502,10 +502,10 @@
           }
         }
       ],
-      "operationId": "delete/poems/{id}"
+      "operationId": "delete/authors/{id}"
     }
   },
-  "/poems/{id}/localizations": {
+  "/authors/{id}/localizations": {
     "post": {
       "responses": {
         "200": {
@@ -513,7 +513,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PoemLocalizationResponse"
+                "$ref": "#/components/schemas/AuthorLocalizationResponse"
               }
             }
           }
@@ -570,7 +570,7 @@
         }
       },
       "tags": [
-        "Poem"
+        "Author"
       ],
       "parameters": [
         {
@@ -584,13 +584,13 @@
           }
         }
       ],
-      "operationId": "post/poems/{id}/localizations",
+      "operationId": "post/authors/{id}/localizations",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/PoemLocalizationRequest"
+              "$ref": "#/components/schemas/AuthorLocalizationRequest"
             }
           }
         }

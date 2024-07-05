@@ -6,16 +6,16 @@
     {
       "action": "plugin::content-manager.explorer.create",
       "actionParameters": {},
-      "subject": "api::excerpt.excerpt",
+      "subject": "api::author.author",
       "properties": {
         "fields": [
-          "content",
-          "images",
+          "name",
+          "name_py",
           "poems"
         ],
         "locales": [
-          "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "zh-Hans"
         ]
       },
       "conditions": []
@@ -23,23 +23,11 @@
     {
       "action": "plugin::content-manager.explorer.delete",
       "actionParameters": {},
-      "subject": "api::excerpt.excerpt",
+      "subject": "api::author.author",
       "properties": {
         "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "actionParameters": {},
-      "subject": "api::excerpt.excerpt",
-      "properties": {
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "zh-Hans"
         ]
       },
       "conditions": []
@@ -47,16 +35,16 @@
     {
       "action": "plugin::content-manager.explorer.read",
       "actionParameters": {},
-      "subject": "api::excerpt.excerpt",
+      "subject": "api::author.author",
       "properties": {
         "fields": [
-          "content",
-          "images",
+          "name",
+          "name_py",
           "poems"
         ],
         "locales": [
-          "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "zh-Hans"
         ]
       },
       "conditions": []
@@ -64,16 +52,16 @@
     {
       "action": "plugin::content-manager.explorer.update",
       "actionParameters": {},
-      "subject": "api::excerpt.excerpt",
+      "subject": "api::author.author",
       "properties": {
         "fields": [
-          "content",
-          "images",
+          "name",
+          "name_py",
           "poems"
         ],
         "locales": [
-          "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "zh-Hans"
         ]
       },
       "conditions": []
@@ -84,20 +72,15 @@
       "subject": "api::poem.poem",
       "properties": {
         "fields": [
-          "title",
-          "titlePinyin",
+          "name",
           "content",
-          "contentPinyin",
-          "translation",
-          "annotation",
-          "poet",
-          "excerpt",
-          "tags",
-          "extra"
+          "name_py",
+          "content_py",
+          "author"
         ],
         "locales": [
-          "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "zh-Hans"
         ]
       },
       "conditions": []
@@ -108,8 +91,8 @@
       "subject": "api::poem.poem",
       "properties": {
         "locales": [
-          "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "zh-Hans"
         ]
       },
       "conditions": []
@@ -120,8 +103,8 @@
       "subject": "api::poem.poem",
       "properties": {
         "locales": [
-          "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "zh-Hans"
         ]
       },
       "conditions": []
@@ -132,20 +115,15 @@
       "subject": "api::poem.poem",
       "properties": {
         "fields": [
-          "title",
-          "titlePinyin",
+          "name",
           "content",
-          "contentPinyin",
-          "translation",
-          "annotation",
-          "poet",
-          "excerpt",
-          "tags",
-          "extra"
+          "name_py",
+          "content_py",
+          "author"
         ],
         "locales": [
-          "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "zh-Hans"
         ]
       },
       "conditions": []
@@ -156,173 +134,15 @@
       "subject": "api::poem.poem",
       "properties": {
         "fields": [
-          "title",
-          "titlePinyin",
+          "name",
           "content",
-          "contentPinyin",
-          "translation",
-          "annotation",
-          "poet",
-          "excerpt",
-          "tags",
-          "extra"
+          "name_py",
+          "content_py",
+          "author"
         ],
         "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "actionParameters": {},
-      "subject": "api::poet.poet",
-      "properties": {
-        "fields": [
-          "name",
-          "namePinyin",
-          "dynasty",
-          "poems",
-          "desc"
-        ],
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "actionParameters": {},
-      "subject": "api::poet.poet",
-      "properties": {
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "actionParameters": {},
-      "subject": "api::poet.poet",
-      "properties": {
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "actionParameters": {},
-      "subject": "api::poet.poet",
-      "properties": {
-        "fields": [
-          "name",
-          "namePinyin",
-          "dynasty",
-          "poems",
-          "desc"
-        ],
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "actionParameters": {},
-      "subject": "api::poet.poet",
-      "properties": {
-        "fields": [
-          "name",
-          "namePinyin",
-          "dynasty",
-          "poems",
-          "desc"
-        ],
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "actionParameters": {},
-      "subject": "api::tag.tag",
-      "properties": {
-        "fields": [
-          "name",
-          "poems"
-        ],
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "actionParameters": {},
-      "subject": "api::tag.tag",
-      "properties": {
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "actionParameters": {},
-      "subject": "api::tag.tag",
-      "properties": {
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "actionParameters": {},
-      "subject": "api::tag.tag",
-      "properties": {
-        "fields": [
-          "name",
-          "poems"
-        ],
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "actionParameters": {},
-      "subject": "api::tag.tag",
-      "properties": {
-        "fields": [
-          "name",
-          "poems"
-        ],
-        "locales": [
-          "zh-Hans",
-          "zh-Hant"
+          "zh-Hant",
+          "zh-Hans"
         ]
       },
       "conditions": []
@@ -680,20 +500,6 @@
     },
     {
       "action": "plugin::i18n.locale.update",
-      "actionParameters": {},
-      "subject": null,
-      "properties": {},
-      "conditions": []
-    },
-    {
-      "action": "plugin::import-export-entries.export",
-      "actionParameters": {},
-      "subject": null,
-      "properties": {},
-      "conditions": []
-    },
-    {
-      "action": "plugin::import-export-entries.import",
       "actionParameters": {},
       "subject": null,
       "properties": {},

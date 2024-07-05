@@ -4,18 +4,6 @@
   "type": "public",
   "permissions": [
     {
-      "action": "api::excerpt.excerpt.find"
-    },
-    {
-      "action": "api::poem.poem.find"
-    },
-    {
-      "action": "api::poet.poet.find"
-    },
-    {
-      "action": "api::tag.tag.find"
-    },
-    {
       "action": "plugin::users-permissions.auth.callback"
     },
     {
