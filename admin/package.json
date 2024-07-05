@@ -13,7 +13,8 @@
     "deploy": "strapi deploy",
     "develop": "strapi develop",
     "start": "strapi start",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "types:generate": "openapi-typescript ./src/extensions/documentation/documentation/1.0.0/full_documentation.json -o types/document.d.ts"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "4.25.2",
@@ -22,6 +23,7 @@
     "@strapi/plugin-users-permissions": "4.25.2",
     "@strapi/strapi": "4.25.2",
     "better-sqlite3": "8.6.0",
+    "openapi-typescript": "^7.0.2",
     "pg": "^8.12.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
