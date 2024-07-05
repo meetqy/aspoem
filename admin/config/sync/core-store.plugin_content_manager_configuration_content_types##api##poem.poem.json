@@ -90,6 +90,21 @@
           "sortable": true
         }
       },
+      "dynasty": {
+        "edit": {
+          "label": "dynasty",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "dynasty",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -150,6 +165,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "name",
+        "content",
+        "createdAt"
+      ],
       "edit": [
         [
           {
@@ -175,14 +196,12 @@
           {
             "name": "author",
             "size": 6
+          },
+          {
+            "name": "dynasty",
+            "size": 6
           }
         ]
-      ],
-      "list": [
-        "id",
-        "name",
-        "content",
-        "createdAt"
       ]
     },
     "uid": "api::poem.poem"

@@ -11,7 +11,8 @@
         "fields": [
           "name",
           "name_py",
-          "poems"
+          "poems",
+          "dynasty"
         ],
         "locales": [
           "zh-Hant",
@@ -40,7 +41,8 @@
         "fields": [
           "name",
           "name_py",
-          "poems"
+          "poems",
+          "dynasty"
         ],
         "locales": [
           "zh-Hant",
@@ -57,11 +59,58 @@
         "fields": [
           "name",
           "name_py",
-          "poems"
+          "poems",
+          "dynasty"
         ],
         "locales": [
           "zh-Hant",
           "zh-Hans"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::dynasty.dynasty",
+      "properties": {
+        "fields": [
+          "name",
+          "authors",
+          "poems"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::dynasty.dynasty",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::dynasty.dynasty",
+      "properties": {
+        "fields": [
+          "name",
+          "authors",
+          "poems"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::dynasty.dynasty",
+      "properties": {
+        "fields": [
+          "name",
+          "authors",
+          "poems"
         ]
       },
       "conditions": []
@@ -76,7 +125,8 @@
           "content",
           "name_py",
           "content_py",
-          "author"
+          "author",
+          "dynasty"
         ],
         "locales": [
           "zh-Hant",
@@ -119,7 +169,8 @@
           "content",
           "name_py",
           "content_py",
-          "author"
+          "author",
+          "dynasty"
         ],
         "locales": [
           "zh-Hant",
@@ -138,7 +189,8 @@
           "content",
           "name_py",
           "content_py",
-          "author"
+          "author",
+          "dynasty"
         ],
         "locales": [
           "zh-Hant",
