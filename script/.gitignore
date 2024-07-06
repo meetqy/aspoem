@@ -1,5 +1,4 @@
 node_modules
 .env
 *.d.ts
-src/chinese-poetry
-!src/chinese-poetry/*
+src/chinese-poetry/data/**/*
