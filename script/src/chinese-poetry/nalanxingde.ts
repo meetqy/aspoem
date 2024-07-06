@@ -6,21 +6,20 @@ import { strapi } from "../strapi";
 import slugify from "slugify";
 import { OpenCC } from "opencc";
 
-// 匹配中文字符
-const chinese = /^([\u4e00-\u9fa5])+$/;
-
-const ignore = /□|𮪃|𣆟|□|𧍧|𥷑|𤱶|𠁼||𮭗|𥳌|𦱊|𥱧|𥉍|𡼭|𣂏/;
-
-const contentIgnore = /（/;
-const titleIgnore = /。/;
-
 const converterToHant = new OpenCC("s2t.json");
 
+// 匹配中文字符
+const chinese = /^([\u4e00-\u9fa5])+$/;
+const ignore = /□|𮪃|𣆟|□|𧍧|𥷑|𤱶|𠁼||𮭗|𥳌|𦱊|𥱧|𥉍|𡼭|𣂏/;
+const contentIgnore = /（/;
+const titleIgnore = /。/;
 // 中文符号连在一起的
 const chineseSymbol = /(（|）|，|。|；){1}\n?(（|）|，|。|；){1}/;
 
-export async function create(path, dynasty) {
-  const files = await globby(path);
+export async function createNaLan(dynasty) {
+  const files = await globby([
+    path.join(__dirname, `./data/纳兰性德/纳兰性德诗集.json`),
+  ]);
 
   try {
     for (const f of files) {
@@ -28,7 +27,7 @@ export async function create(path, dynasty) {
 
       try {
         for (const item of json) {
-          const paragraphs = item.paragraphs.join("\n");
+          const paragraphs = item.para.join("\n");
           if (chineseSymbol.test(paragraphs)) {
             continue;
           }
@@ -57,7 +56,7 @@ export async function create(path, dynasty) {
                   title_py: pinyin(item.title).replace(/○/g, "líng"),
                   content: converterToHant.convertSync(paragraphs),
                   content_py: pinyin(paragraphs),
-                  author: item.author,
+                  author: converterToHant.convertSync(item.author),
                   author_py: pinyin(item.author),
                   dynasty,
                 },
