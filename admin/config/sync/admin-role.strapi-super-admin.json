@@ -19,9 +19,9 @@
           "slug"
         ],
         "locales": [
-          "zh-Hant",
+          "en",
           "zh-Hans",
-          "en"
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -32,9 +32,9 @@
       "subject": "api::poem.poem",
       "properties": {
         "locales": [
-          "zh-Hant",
+          "en",
           "zh-Hans",
-          "en"
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -45,9 +45,9 @@
       "subject": "api::poem.poem",
       "properties": {
         "locales": [
-          "zh-Hant",
+          "en",
           "zh-Hans",
-          "en"
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -68,9 +68,9 @@
           "slug"
         ],
         "locales": [
-          "zh-Hant",
+          "en",
           "zh-Hans",
-          "en"
+          "zh-Hant"
         ]
       },
       "conditions": []
@@ -91,9 +91,9 @@
           "slug"
         ],
         "locales": [
-          "zh-Hant",
+          "en",
           "zh-Hans",
-          "en"
+          "zh-Hant"
         ]
       },
       "conditions": []
