@@ -58,7 +58,9 @@ export async function create(
               body: {
                 data: {
                   slug: slugify(slug),
-                  title: converterToHant.convertSync(item[titleKey]),
+                  title: converterToHant
+                    .convertSync(item[titleKey])
+                    .replace(/《|》|[|]/g, ""),
                   title_py: pinyin(item[titleKey]).replace(/○/g, "líng"),
                   content: converterToHant.convertSync(paragraphs),
                   content_py: pinyin(paragraphs),
