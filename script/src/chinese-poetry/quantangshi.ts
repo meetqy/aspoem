@@ -8,8 +8,7 @@ import slugify from "slugify";
 // 匹配中文字符
 const chinese = /^([\u4e00-\u9fa5])+$/;
 
-const ignore =
-  /□|𮪃|𣆟|□|无名氏|佚名|無名氏|不詳|不详|𧍧|𥷑|𤱶|𠁼||𮭗|𥳌|𦱊|𥱧|𥉍|𡼭|𣂏/;
+const ignore = /□|𮪃|𣆟|□|𧍧|𥷑|𤱶|𠁼||𮭗|𥳌|𦱊|𥱧|𥉍|𡼭|𣂏/;
 
 const contentIgnore = /（/;
 const titleIgnore = /。/;
