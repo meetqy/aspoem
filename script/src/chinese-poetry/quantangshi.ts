@@ -19,7 +19,12 @@ const converterToHant = new OpenCC("s2t.json");
 // 中文符号连在一起的
 const chineseSymbol = /(（|）|，|。|；){1}\n?(（|）|，|。|；){1}/;
 
-export async function create(path, dynasty) {
+export async function create(
+  path,
+  dynasty,
+  titleKey = "title",
+  contentKey = "paragraphs"
+) {
   const files = await globby(path);
 
   try {
@@ -28,23 +33,23 @@ export async function create(path, dynasty) {
 
       try {
         for (const item of json) {
-          const paragraphs = item.paragraphs.join("\n");
+          const paragraphs = item[contentKey].join("\n");
           if (chineseSymbol.test(paragraphs)) {
             continue;
           }
 
           if (
             item.author &&
-            item.title &&
+            item[titleKey] &&
             paragraphs &&
             chinese.test(item.author) &&
-            !titleIgnore.test(item.title) &&
-            !ignore.test(item.title) &&
+            !titleIgnore.test(item[titleKey]) &&
+            !ignore.test(item[titleKey]) &&
             !ignore.test(item.author) &&
             !ignore.test(paragraphs) &&
             !contentIgnore.test(paragraphs)
           ) {
-            const slug = pinyin(`${item.author}${item.title}`, {
+            const slug = pinyin(`${item.author}${item[titleKey]}`, {
               toneType: "none",
             }).replace(/○/, "ling");
 
@@ -53,11 +58,11 @@ export async function create(path, dynasty) {
               body: {
                 data: {
                   slug: slugify(slug),
-                  title: converterToHant.convertSync(item.title),
-                  title_py: pinyin(item.title).replace(/○/g, "líng"),
+                  title: converterToHant.convertSync(item[titleKey]),
+                  title_py: pinyin(item[titleKey]).replace(/○/g, "líng"),
                   content: converterToHant.convertSync(paragraphs),
                   content_py: pinyin(paragraphs),
-                  author: item.author,
+                  author: converterToHant.convertSync(item.author),
                   author_py: pinyin(item.author),
                   dynasty,
                 },
