@@ -18,7 +18,7 @@ const chineseSymbol = /(（|）|，|。|；){1}\n?(（|）|，|。|；){1}/;
 
 export async function create(filename, dynasty) {
   const files = await globby(
-    path.join(__dirname, `./全唐诗/poet.${filename}.*.json`)
+    path.join(__dirname, `./data/全唐诗/poet.${filename}.*.json`)
   );
 
   try {

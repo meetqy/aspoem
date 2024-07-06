@@ -4,6 +4,9 @@ import { readJsonSync } from "fs-extra";
 import { pinyin } from "pinyin-pro";
 import { strapi } from "../strapi";
 import slugify from "slugify";
+import { OpenCC } from "opencc";
+
+const converterToHant = new OpenCC("s2t.json");
 
 // 匹配中文字符
 const chinese = /^([\u4e00-\u9fa5])+$/;
@@ -13,10 +16,10 @@ const titleIgnore = /。/;
 // 中文符号连在一起的
 const chineseSymbol = /(（|）|，|。|；){1}\n?(（|）|，|。|；){1}/;
 
-export async function createSongCi(filename, dynasty) {
+export async function createSongCi(dynasty) {
   const files = await globby([
-    // path.join(__dirname, `./宋词/ci.song.*.json`),
-    path.join(__dirname, `./宋词/宋词三百首.json`),
+    path.join(__dirname, `./data/宋词/ci.song.*.json`),
+    path.join(__dirname, `./data/宋词/宋词三百首.json`),
   ]);
 
   try {
@@ -32,16 +35,16 @@ export async function createSongCi(filename, dynasty) {
 
           if (
             item.author &&
-            item.title &&
+            item.rhythmic &&
             paragraphs &&
             chinese.test(item.author) &&
-            !titleIgnore.test(item.title) &&
-            !ignore.test(item.title) &&
+            !titleIgnore.test(item.rhythmic) &&
+            !ignore.test(item.rhythmic) &&
             !ignore.test(item.author) &&
             !ignore.test(paragraphs) &&
             !contentIgnore.test(paragraphs)
           ) {
-            const slug = pinyin(`${item.author}${item.title}`, {
+            const slug = pinyin(`${item.author}${item.rhythmic}`, {
               toneType: "none",
             }).replace(/○/, "ling");
 
@@ -50,9 +53,9 @@ export async function createSongCi(filename, dynasty) {
               body: {
                 data: {
                   slug: slugify(slug),
-                  title: item.title,
-                  title_py: pinyin(item.title).replace(/○/g, "líng"),
-                  content: paragraphs,
+                  title: converterToHant.convertSync(item.rhythmic),
+                  title_py: pinyin(item.rhythmic).replace(/○/g, "líng"),
+                  content: converterToHant.convertSync(paragraphs),
                   content_py: pinyin(paragraphs),
                   author: item.author,
                   author_py: pinyin(item.author),
