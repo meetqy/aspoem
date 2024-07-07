@@ -1,56 +1,45 @@
-import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code";
-import { button as buttonStyles } from "@nextui-org/theme";
+"use client";
 
-import { siteConfig } from "@/config/site";
-import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 
 export default function Home() {
+  const targetRef = useRef(null);
+
+  const { scrollYProgress } = useScroll({
+    target: targetRef,
+    offset: ["end end", "end start"],
+  });
+
+  const bgMarker = useTransform(scrollYProgress, [0, 0.2], ["#fff", "#00f"]);
+  const textMarker = useTransform(scrollYProgress, [0, 0.1], ["#333", "#fff"]);
+
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-      <div className="inline-block max-w-lg text-center justify-center">
-        <h1 className={title()}>Make&nbsp;</h1>
-        <h1 className={title({ color: "violet" })}>beautiful&nbsp;</h1>
-        <br />
-        <h1 className={title()}>
-          websites regardless of your design experience.
-        </h1>
-        <h2 className={subtitle({ class: "mt-4" })}>
-          Beautiful, fast and modern React UI library.
-        </h2>
-      </div>
+    <>
+      <motion.section
+        className="relative h-screen py-16 w-full"
+        ref={targetRef}
+      >
+        <motion.div className="container max-w-7xl fixed -translate-x-2/1 text-center">
+          <h1 className="text-5xl">宿金沙江</h1>
+          <p className="text-2xl mt-2 mb-4">明·杨慎</p>
+          <div className="text-3xl grid gap-y-4">
+            <p>
+              <motion.span
+                style={{ backgroundColor: bgMarker, color: textMarker }}
+              >
+                往年
+              </motion.span>
+              曾向嘉陵宿，驿楼东畔阑干曲。
+            </p>
+            <p>江声彻夜搅离愁，月色中天照幽独。</p>
+            <p>岂意飘零瘴海头，嘉陵回首转悠悠。</p>
+            <p>江声月色那堪说，肠断金沙万里楼。</p>
+          </div>
+        </motion.div>
+      </motion.section>
 
-      <div className="flex gap-3">
-        <Link
-          isExternal
-          className={buttonStyles({
-            color: "primary",
-            radius: "full",
-            variant: "shadow",
-          })}
-          href={siteConfig.links.docs}
-        >
-          Documentation
-        </Link>
-        <Link
-          isExternal
-          className={buttonStyles({ variant: "bordered", radius: "full" })}
-          href={siteConfig.links.github}
-        >
-          <GithubIcon size={20} />
-          GitHub
-        </Link>
-      </div>
-
-      <div className="mt-8">
-        <Snippet hideCopyButton hideSymbol variant="bordered">
-          <span>
-            Get started by editing <Code color="primary">app/page.tsx</Code>
-          </span>
-        </Snippet>
-      </div>
-    </section>
+      <div style={{ height: 3000 }}>213</div>
+    </>
   );
 }

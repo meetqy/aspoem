@@ -373,64 +373,18 @@ export interface ApiPoemPoem extends Schema.CollectionType {
   options: {
     draftAndPublish: true;
   };
-  pluginOptions: {
-    i18n: {
-      localized: true;
-    };
-  };
   attributes: {
-    title: Attribute.String &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    content: Attribute.Text &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    title_py: Attribute.String &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
-    content_py: Attribute.Text &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
-    dynasty: Attribute.String &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
-    author: Attribute.String &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    author_py: Attribute.String &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
-    slug: Attribute.String &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: false;
-        };
-      }>;
+    title: Attribute.String & Attribute.Required;
+    content: Attribute.Text & Attribute.Required;
+    title_py: Attribute.String;
+    content_py: Attribute.Text;
+    dynasty: Attribute.String & Attribute.Required;
+    author: Attribute.String & Attribute.Required;
+    author_py: Attribute.String;
+    slug: Attribute.String;
+    title_hant: Attribute.String;
+    content_hant: Attribute.Text;
+    author_hant: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -438,12 +392,6 @@ export interface ApiPoemPoem extends Schema.CollectionType {
       Attribute.Private;
     updatedBy: Attribute.Relation<'api::poem.poem', 'oneToOne', 'admin::user'> &
       Attribute.Private;
-    localizations: Attribute.Relation<
-      'api::poem.poem',
-      'oneToMany',
-      'api::poem.poem'
-    >;
-    locale: Attribute.String;
   };
 }
 

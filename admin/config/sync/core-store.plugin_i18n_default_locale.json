@@ -1,6 +1,6 @@
 {
   "key": "plugin_i18n_default_locale",
-  "value": "zh-Hant",
+  "value": "zh-Hans",
   "type": "string",
   "environment": null,
   "tag": null

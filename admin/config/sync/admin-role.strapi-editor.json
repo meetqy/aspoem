@@ -9,15 +9,33 @@
       "subject": "api::poem.poem",
       "properties": {
         "fields": [
+          "title",
           "content",
+          "title_py",
           "content_py",
           "dynasty",
           "author",
           "author_py",
-          "title",
-          "title_py"
+          "slug",
+          "title_hant",
+          "content_hant",
+          "author_hant"
         ]
       },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::poem.poem",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::poem.poem",
+      "properties": {},
       "conditions": []
     },
     {
@@ -26,13 +44,17 @@
       "subject": "api::poem.poem",
       "properties": {
         "fields": [
+          "title",
           "content",
+          "title_py",
           "content_py",
           "dynasty",
           "author",
           "author_py",
-          "title",
-          "title_py"
+          "slug",
+          "title_hant",
+          "content_hant",
+          "author_hant"
         ]
       },
       "conditions": []
@@ -43,13 +65,17 @@
       "subject": "api::poem.poem",
       "properties": {
         "fields": [
+          "title",
           "content",
+          "title_py",
           "content_py",
           "dynasty",
           "author",
           "author_py",
-          "title",
-          "title_py"
+          "slug",
+          "title_hant",
+          "content_hant",
+          "author_hant"
         ]
       },
       "conditions": []

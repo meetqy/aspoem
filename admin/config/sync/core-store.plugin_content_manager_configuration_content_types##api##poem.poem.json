@@ -7,8 +7,8 @@
       "searchable": true,
       "pageSize": 10,
       "mainField": "title",
-      "defaultSortBy": "updatedAt",
-      "defaultSortOrder": "DESC"
+      "defaultSortBy": "title",
+      "defaultSortOrder": "ASC"
     },
     "metadatas": {
       "id": {
@@ -131,6 +131,48 @@
           "sortable": true
         }
       },
+      "title_hant": {
+        "edit": {
+          "label": "title_hant",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title_hant",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "content_hant": {
+        "edit": {
+          "label": "content_hant",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "content_hant",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "author_hant": {
+        "edit": {
+          "label": "author_hant",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "author_hant",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -195,30 +237,20 @@
         [
           {
             "name": "title",
-            "size": 4
+            "size": 6
           },
+          {
+            "name": "title_hant",
+            "size": 6
+          }
+        ],
+        [
           {
             "name": "author",
-            "size": 4
-          },
-          {
-            "name": "dynasty",
-            "size": 4
-          }
-        ],
-        [
-          {
-            "name": "slug",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "author_py",
             "size": 6
           },
           {
-            "name": "title_py",
+            "name": "author_hant",
             "size": 6
           }
         ],
@@ -228,16 +260,42 @@
             "size": 6
           },
           {
-            "name": "content_py",
+            "name": "content_hant",
             "size": 6
+          }
+        ],
+        [
+          {
+            "name": "dynasty",
+            "size": 6
+          },
+          {
+            "name": "slug",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "title_py",
+            "size": 6
+          },
+          {
+            "name": "author_py",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "content_py",
+            "size": 12
           }
         ]
       ],
       "list": [
-        "author",
-        "dynasty",
+        "id",
         "title",
-        "slug"
+        "content",
+        "title_py"
       ]
     },
     "uid": "api::poem.poem"

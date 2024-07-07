@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-07-06T08:18:20.871Z"
+    "x-generation-date": "2024-07-07T02:05:56.018Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -86,45 +86,6 @@
           }
         }
       },
-      "PoemLocalizationRequest": {
-        "required": [
-          "title",
-          "content",
-          "dynasty",
-          "author",
-          "locale"
-        ],
-        "type": "object",
-        "properties": {
-          "title": {
-            "type": "string"
-          },
-          "content": {
-            "type": "string"
-          },
-          "title_py": {
-            "type": "string"
-          },
-          "content_py": {
-            "type": "string"
-          },
-          "dynasty": {
-            "type": "string"
-          },
-          "author": {
-            "type": "string"
-          },
-          "author_py": {
-            "type": "string"
-          },
-          "slug": {
-            "type": "string"
-          },
-          "locale": {
-            "type": "string"
-          }
-        }
-      },
       "PoemRequest": {
         "type": "object",
         "required": [
@@ -164,76 +125,14 @@
               "slug": {
                 "type": "string"
               },
-              "locale": {
+              "title_hant": {
                 "type": "string"
-              }
-            }
-          }
-        }
-      },
-      "PoemResponseDataObjectLocalized": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "number"
-          },
-          "attributes": {
-            "$ref": "#/components/schemas/Poem"
-          }
-        }
-      },
-      "PoemLocalizationResponse": {
-        "type": "object",
-        "properties": {
-          "data": {
-            "$ref": "#/components/schemas/PoemResponseDataObjectLocalized"
-          },
-          "meta": {
-            "type": "object"
-          }
-        }
-      },
-      "PoemListResponseDataItemLocalized": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "number"
-          },
-          "attributes": {
-            "$ref": "#/components/schemas/Poem"
-          }
-        }
-      },
-      "PoemLocalizationListResponse": {
-        "type": "object",
-        "properties": {
-          "data": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/PoemListResponseDataItemLocalized"
-            }
-          },
-          "meta": {
-            "type": "object",
-            "properties": {
-              "pagination": {
-                "type": "object",
-                "properties": {
-                  "page": {
-                    "type": "integer"
-                  },
-                  "pageSize": {
-                    "type": "integer",
-                    "minimum": 25
-                  },
-                  "pageCount": {
-                    "type": "integer",
-                    "maximum": 1
-                  },
-                  "total": {
-                    "type": "integer"
-                  }
-                }
+              },
+              "content_hant": {
+                "type": "string"
+              },
+              "author_hant": {
+                "type": "string"
               }
             }
           }
@@ -316,6 +215,15 @@
             "type": "string"
           },
           "slug": {
+            "type": "string"
+          },
+          "title_hant": {
+            "type": "string"
+          },
+          "content_hant": {
+            "type": "string"
+          },
+          "author_hant": {
             "type": "string"
           },
           "createdAt": {
@@ -615,20 +523,6 @@
                 }
               }
             }
-          },
-          "localizations": {
-            "type": "object",
-            "properties": {
-              "data": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/PoemListResponseDataItemLocalized"
-                }
-              }
-            }
-          },
-          "locale": {
-            "type": "string"
           }
         }
       },
@@ -1366,98 +1260,6 @@
           }
         ],
         "operationId": "delete/poems/{id}"
-      }
-    },
-    "/poems/{id}/localizations": {
-      "post": {
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PoemLocalizationResponse"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "500": {
-            "description": "Internal Server Error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        },
-        "tags": [
-          "Poem"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "",
-            "deprecated": false,
-            "required": true,
-            "schema": {
-              "type": "number"
-            }
-          }
-        ],
-        "operationId": "post/poems/{id}/localizations",
-        "requestBody": {
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PoemLocalizationRequest"
-              }
-            }
-          }
-        }
       }
     },
     "/upload": {
