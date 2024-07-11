@@ -17,11 +17,11 @@
     "types:generate": "openapi-typescript ./src/extensions/documentation/documentation/1.0.0/full_documentation.json -o types/document.d.ts"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "4.25.2",
-    "@strapi/plugin-documentation": "^4.25.2",
-    "@strapi/plugin-i18n": "4.25.2",
-    "@strapi/plugin-users-permissions": "4.25.2",
-    "@strapi/strapi": "4.25.2",
+    "@strapi/plugin-cloud": "4.25.3",
+    "@strapi/plugin-documentation": "^4.25.3",
+    "@strapi/plugin-i18n": "4.25.3",
+    "@strapi/plugin-users-permissions": "4.25.3",
+    "@strapi/strapi": "4.25.3",
     "better-sqlite3": "8.6.0",
     "openapi-typescript": "^7.0.2",
     "pg": "^8.12.0",
