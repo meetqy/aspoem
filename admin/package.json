@@ -29,6 +29,7 @@
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
     "strapi-plugin-config-sync": "^1.2.5",
+    "strapi-plugin-import-export-entries": "^1.23.1",
     "styled-components": "5.3.3"
   },
   "devDependencies": {},

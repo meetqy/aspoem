@@ -439,6 +439,20 @@
       "conditions": []
     },
     {
+      "action": "plugin::import-export-entries.export",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::import-export-entries.import",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
       "action": "plugin::upload.assets.copy-link",
       "actionParameters": {},
       "subject": null,
