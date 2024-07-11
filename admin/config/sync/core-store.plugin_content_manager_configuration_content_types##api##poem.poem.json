@@ -294,8 +294,8 @@
       "list": [
         "id",
         "title",
-        "content",
-        "title_py"
+        "title_py",
+        "content_py"
       ]
     },
     "uid": "api::poem.poem"

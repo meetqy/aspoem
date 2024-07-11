@@ -1,6 +1,5 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
-import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 
 import { Providers } from "./providers";
@@ -42,9 +41,15 @@ export default function RootLayout({
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          {/* <Navbar /> */}
-          <main className="container mx-auto max-w-7xl flex-grow">
-            {children}
+          <Navbar />
+          <main className="container mx-auto flex">
+            <aside className="w-72 bg-content1 h-[calc(100vh-8rem)] sticky top-[6rem] border-r border-default-100">
+              {/*  */}
+            </aside>
+            <div className="flex-1">{children}</div>
+            <aside className="w-72 sticky bg-content1 h-[calc(100vh-8rem)] top-[6rem] border-l border-default-100">
+              {/*  */}
+            </aside>
           </main>
         </Providers>
       </body>

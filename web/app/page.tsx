@@ -1,45 +1,30 @@
 "use client";
 
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
-
 export default function Home() {
-  const targetRef = useRef(null);
+  const py = `lóng sì qú táng huì ， jiāng yī bái dì shēn 。 
+ zhōng nián cháng qǐ xiá ， měi yè bì tōng lín 。 
+ shōu huò cí shuāng zhǔ ， fēn míng zài xī cén 。 
+ gāo zhāi fēi yì chǔ ， xiù qì huō fán jīn 。`;
 
-  const { scrollYProgress } = useScroll({
-    target: targetRef,
-    offset: ["end end", "end start"],
-  });
-
-  const bgMarker = useTransform(scrollYProgress, [0, 0.2], ["#fff", "#00f"]);
-  const textMarker = useTransform(scrollYProgress, [0, 0.1], ["#333", "#fff"]);
+  const text = `龙似瞿唐会，江依白帝深。
+终年常起峡，每夜必通林。
+收获辞霜渚，分明在夕岑。
+高斋非一处，秀气豁烦襟。`;
 
   return (
     <>
-      <motion.section
-        className="relative h-screen py-16 w-full"
-        ref={targetRef}
-      >
-        <motion.div className="container max-w-7xl fixed -translate-x-2/1 text-center">
-          <h1 className="text-5xl">宿金沙江</h1>
-          <p className="text-2xl mt-2 mb-4">明·杨慎</p>
-          <div className="text-3xl grid gap-y-4">
-            <p>
-              <motion.span
-                style={{ backgroundColor: bgMarker, color: textMarker }}
-              >
-                往年
-              </motion.span>
-              曾向嘉陵宿，驿楼东畔阑干曲。
-            </p>
-            <p>江声彻夜搅离愁，月色中天照幽独。</p>
-            <p>岂意飘零瘴海头，嘉陵回首转悠悠。</p>
-            <p>江声月色那堪说，肠断金沙万里楼。</p>
+      <section className="relative h-screen py-16 w-full">
+        <div className="container max-w-7xl text-center">
+          <h1 className="text-6xl"> 云 </h1>
+          <p className="text-2xl mt-2 mb-6">唐·杜甫</p>
+          <div className="text-3xl grid gap-y-4 tracking-widest">
+            <p>龙似瞿唐会，江依白帝深。</p>
+            <p>终年常起峡，每夜必通林。</p>
+            <p>收获辞霜渚，分明在夕岑。</p>
+            <p>高斋非一处，秀气豁烦襟。</p>
           </div>
-        </motion.div>
-      </motion.section>
-
-      <div style={{ height: 3000 }}>213</div>
+        </div>
+      </section>
     </>
   );
 }
