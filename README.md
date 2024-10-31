@@ -49,5 +49,5 @@
 
 ## 交流群
 
-![IMG_9919](https://github.com/user-attachments/assets/1e65ecd7-0dfc-4cd4-b1f2-c4b1f0982c9b)
+<img src="https://github.com/user-attachments/assets/1e65ecd7-0dfc-4cd4-b1f2-c4b1f0982c9b" width="256" />
 
