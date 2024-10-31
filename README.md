@@ -43,10 +43,11 @@
 | Jonas| 大佬加油 ～| +9.9|
 | ** 志|~|+9.9|
 
-
-
 ## 许可证
 
 遵守 [GNU Affero General Public License（AGPL）3.0](./LICENSE) 版本的条款和条件。
 
+## 交流群
+
+![IMG_9919](https://github.com/user-attachments/assets/1e65ecd7-0dfc-4cd4-b1f2-c4b1f0982c9b)
 
