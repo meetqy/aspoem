@@ -33,6 +33,8 @@
 |-|-|
 |<img alt="WeChat 赞赏" width="200" src="https://r2.aspoem.com/coffee/WeChat.JPG" />|<img alt="AliPay 赞赏" width='200' src="https://r2.aspoem.com/coffee/AliPay.PNG" />|
 
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+
 ### 赞赏列表
 
 | 用户   | 留言                              | 金额  |
