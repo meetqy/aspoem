@@ -86,7 +86,11 @@ pnpm dev
 
 快速启动项目，执行以下命令：
 ```sh
-docker compose up
+docker compose up -d;
 ```
 
-用浏览器打开 http://localhost:3000 。
+用浏览器打开 http://localhost:3000/create/poem?token=secret 。
+
+添加了诗词信息后，再访问首页 http://localhost:3000 就可以看到正常的页面了。
+
+
