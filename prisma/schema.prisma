@@ -1,0 +1,46 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Dynasty {
+  唐
+  宋
+  元
+  明
+  清
+}
+
+model Author {
+  id        String    @id @default(cuid())
+  name      String
+  dynasty   Dynasty
+  poems     Poem[]
+  birthDate DateTime?
+  deathDate DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+
+  @@index([name, dynasty])
+  @@map("authors")
+}
+
+model Poem {
+  id      String @id @default(cuid())
+  title   String
+  content String
+
+  authorId String
+  author   Author @relation(fields: [authorId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+
+  @@index([title])
+  @@map("poems")
+}
