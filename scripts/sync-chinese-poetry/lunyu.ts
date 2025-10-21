@@ -1,14 +1,14 @@
 import { db } from "@/server/db";
 import { Dynasty } from "@/types";
 
-import data from "../../chinese-poetry-master/曹操诗集/caocao.json";
+import data from "../../chinese-poetry-master/论语/lunyu.json";
 
 const _author = {
-  name: "曹操",
-  dynasty: Dynasty.东汉末年,
+  name: "孔子",
+  dynasty: Dynasty.春秋,
 };
 
-export const syncCaoCaoPoems = async () => {
+export const syncLunyuPoems = async () => {
   // 创建 作者记录
   let author = await db.author.findFirst({
     where: _author,
@@ -24,13 +24,13 @@ export const syncCaoCaoPoems = async () => {
     data.map((poem) =>
       db.poem.create({
         data: {
-          title: poem.title,
+          title: poem.chapter,
           paragraphs: poem.paragraphs.join("\n"),
           authorId: author.id,
         },
       }),
     ),
   ).then(() => {
-    console.log("曹操诗集同步完成", "chinese-poetry-master/曹操诗集/caocao.json");
+    console.log("论语同步完成", "chinese-poetry-master/论语/lunyu.json");
   });
 };

@@ -7,20 +7,10 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-enum Dynasty {
-  战国时期
-  东汉末年
-  唐
-  宋
-  元
-  明
-  清
-}
-
 model Author {
-  id      String  @id @default(cuid())
-  name    String
-  dynasty Dynasty
+  id      String @id @default(cuid())
+  name    String // 如果是论语这类的，直接创建 孔子及其弟子
+  dynasty String
 
   birthDate DateTime?
   deathDate DateTime?
@@ -34,10 +24,10 @@ model Author {
 }
 
 model Poem {
-  id         String   @id @default(cuid())
+  id         String  @id @default(cuid())
   title      String
   section    String?
-  paragraphs String[]
+  paragraphs String
 
   authorId String
   author   Author @relation(fields: [authorId], references: [id], onDelete: Cascade)

@@ -1,10 +1,11 @@
 import { db } from "@/server/db";
+import { Dynasty } from "@/types";
 
 import data from "../../chinese-poetry-master/楚辞/chuci.json";
 
 const _author = {
   name: "屈原",
-  dynasty: "战国时期" as Dynasty,
+  dynasty: Dynasty.战国,
 };
 
 export const syncChuCiPoems = async () => {
@@ -24,7 +25,7 @@ export const syncChuCiPoems = async () => {
       db.poem.create({
         data: {
           title: poem.title,
-          paragraphs: poem.content,
+          paragraphs: poem.content.join("\n"),
           section: poem.section,
           authorId: author.id,
         },
