@@ -14,7 +14,7 @@
     "db:dev": "prisma migrate dev --schema=./prisma/",
     "db:deploy": "prisma migrate deploy --schema=./prisma/",
     "db:push": "prisma db push --schema=./prisma/",
-    "db:studio": "prisma studio --schema=./prisma/",
+    "db:studio": "prisma studio --schema=./prisma/ --browser none",
     "dev": "next dev --turbo -p3002",
     "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,mdx}\" --cache",
     "format:write": "prettier --write \"**/*.{ts,tsx,js,jsx,mdx}\" --cache",
@@ -24,6 +24,7 @@
     "preview": "next build && next start",
     "start": "next start",
     "typecheck": "tsc --noEmit",
+    "sync:chinese-poetry": "tsx scripts/sync-chinese-poetry/index.ts",
     "next:upgrade": "pnpm i next@latest react@latest react-dom@latest eslint-config-next@latest",
     "ui:upgrade": "for file in src/components/ui/*.tsx; do npx shadcn@latest add -y -o $(basename \"$file\" .tsx); done"
   },

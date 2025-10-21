@@ -8,6 +8,8 @@ datasource db {
 }
 
 enum Dynasty {
+  战国时期
+  东汉末年
   唐
   宋
   元
@@ -16,24 +18,26 @@ enum Dynasty {
 }
 
 model Author {
-  id        String    @id @default(cuid())
-  name      String
-  dynasty   Dynasty
-  poems     Poem[]
+  id      String  @id @default(cuid())
+  name    String
+  dynasty Dynasty
+
   birthDate DateTime?
   deathDate DateTime?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @default(now()) @updatedAt
+  poems     Poem[]
 
   @@index([name, dynasty])
   @@map("authors")
 }
 
 model Poem {
-  id      String @id @default(cuid())
-  title   String
-  content String
+  id         String   @id @default(cuid())
+  title      String
+  section    String?
+  paragraphs String[]
 
   authorId String
   author   Author @relation(fields: [authorId], references: [id], onDelete: Cascade)
