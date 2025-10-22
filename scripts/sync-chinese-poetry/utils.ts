@@ -3,15 +3,36 @@ import { Converter } from "opencc-js";
 import { db } from "@/server/db";
 
 export const createAuthor = async (name: string, dynastyName: string) => {
+  if (dynastyName != "近现代") {
+    dynastyName = dynastyName.replace("代", "").replace("朝", "");
+    dynastyName = await toCn(dynastyName);
+  }
+
+  name = await toCn(name);
+
   // 首先查找或创建朝代
   let dynasty = await db.dynasty.findUnique({
     where: { name: dynastyName },
   });
 
   if (!dynasty) {
-    dynasty = await db.dynasty.create({
-      data: { name: dynastyName },
-    });
+    try {
+      dynasty = await db.dynasty.upsert({
+        where: { name: dynastyName },
+        update: {},
+        create: { name: dynastyName },
+      });
+    } catch (error) {
+      // 处理并发创建朝代时可能出现的冲突
+      dynasty = await db.dynasty.findUnique({
+        where: { name: dynastyName },
+      });
+
+      if (!dynasty) {
+        console.error("创建朝代失败:", error, dynastyName);
+        throw error;
+      }
+    }
   }
 
   // 查找是否已存在该作者
@@ -57,7 +78,7 @@ export const createCategory = async (name: string, parentId?: string) => {
   return category.id;
 };
 
-export const formatParagraphs = async (str: string[] | string) => {
+export const toCn = async (str: string[] | string) => {
   const converter = await Converter({ from: "tw", to: "cn" });
 
   const lines = Array.isArray(str) ? str : [str];
@@ -71,14 +92,20 @@ export const createPoem = async ({
   paragraphs,
   authorId,
   categoryId,
+  source,
+  section,
 }: {
   title: string;
   paragraphs: string[] | string;
   authorId: string;
   categoryId?: string;
+  source?: string;
+  section?: string;
 }) => {
-  title = await formatParagraphs(title);
-  const _paragraphs = await formatParagraphs(paragraphs);
+  title = await toCn(title);
+  const _paragraphs = await toCn(paragraphs);
+  source = source ? await toCn(source) : undefined;
+  section = section ? await toCn(section) : undefined;
 
   const poem = await db.poem.create({
     data: {
@@ -86,6 +113,8 @@ export const createPoem = async ({
       paragraphs: _paragraphs,
       authorId,
       categoryId,
+      source,
+      section,
     },
   });
 

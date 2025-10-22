@@ -1,7 +1,7 @@
 import { Dynasty } from "@/types";
 
 import dataBaijiaxing from "../../../chinese-poetry-master/蒙学/baijiaxing.json";
-import { createAuthor, createCategory, createPoem, formatParagraphs } from "../utils";
+import { createAuthor, createCategory, createPoem } from "../utils";
 
 export const syncBaijiaxing = async () => {
   const categoryId = await createCategory("蒙学");

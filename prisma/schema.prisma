@@ -58,9 +58,11 @@ model Category {
 }
 
 model Poem {
-  id         String @id @default(cuid())
+  id         String  @id @default(cuid())
   title      String
   paragraphs String
+  source     String?
+  section    String? // 章节，如古文观止的卷名，同 chapter，可以与 title 一样
 
   authorId String
   author   Author @relation(fields: [authorId], references: [id], onDelete: Cascade)
