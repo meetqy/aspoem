@@ -6,6 +6,7 @@ import { syncLunyu } from "./lunyu";
 import { syncBaijiaxing } from "./mengxue/baijiaxing";
 import { syncDizigui } from "./mengxue/dizigui";
 import { syncGuwenguanzhi } from "./mengxue/guwenguanzhi";
+import { syncQianjiashi } from "./mengxue/qianjiashi";
 
 function main() {
   // 初始化朝代
@@ -20,12 +21,13 @@ function main() {
     ),
   ).then(() => {
     console.log("朝代初始化完成");
-    syncCaocao();
-    syncChuci();
-    syncLunyu();
-    syncBaijiaxing();
-    syncDizigui();
-    syncGuwenguanzhi();
+    // syncCaocao();
+    // syncChuci();
+    // syncLunyu();
+    // syncBaijiaxing();
+    // syncDizigui();
+    // syncGuwenguanzhi();
+    syncQianjiashi();
   });
 }
 

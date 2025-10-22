@@ -3,93 +3,49 @@ import { Converter } from "opencc-js";
 import { db } from "@/server/db";
 
 export const createAuthor = async (name: string, dynastyName: string) => {
-  if (dynastyName != "近现代") {
-    dynastyName = dynastyName.replace("代", "").replace("朝", "");
-    dynastyName = await toCn(dynastyName);
-  }
-
-  name = await toCn(name);
-
-  // 首先查找或创建朝代
-  let dynasty = await db.dynasty.findUnique({
-    where: { name: dynastyName },
-  });
-
-  if (!dynasty) {
-    try {
-      dynasty = await db.dynasty.upsert({
-        where: { name: dynastyName },
-        update: {},
-        create: { name: dynastyName },
-      });
-    } catch (error) {
-      // 处理并发创建朝代时可能出现的冲突
-      dynasty = await db.dynasty.findUnique({
-        where: { name: dynastyName },
-      });
-
-      if (!dynasty) {
-        console.error("创建朝代失败:", error, dynastyName);
-        throw error;
-      }
+  try {
+    if (dynastyName != "近现代") {
+      dynastyName = dynastyName.replace("代", "").replace("朝", "");
+      dynastyName = await toCn(dynastyName);
     }
-  }
 
-  // 查找是否已存在该作者
-  let author = await db.author.findFirst({
-    where: {
-      name,
-      dynastyId: dynasty.id,
-    },
-  });
+    name = await toCn(name);
 
-  // 如果不存在则创建新作者
-  if (!author) {
-    author = await db.author.create({
-      data: {
-        name,
-        dynastyId: dynasty.id,
-      },
+    // 首先查找或创建朝代
+    const dynasty = await db.dynasty.upsert({
+      where: { name: dynastyName },
+      update: { name: dynastyName },
+      create: { name: dynastyName },
     });
-  }
 
-  return author.id;
+    const author = await db.author.upsert({
+      where: { name, dynastyId: dynasty.id },
+      update: { name, dynastyId: dynasty.id },
+      create: { name, dynastyId: dynasty.id },
+    });
+
+    return author.id;
+  } catch (error) {
+    console.log("\n ------------------------- 创建作者失败: ------------------------- \n");
+    console.log(name, dynastyName);
+    console.log("\n ------------------------- 创建作者失败: ------------------------- \n");
+    throw error;
+  }
 };
 
 export const createCategory = async (name: string, parentId?: string) => {
   name = await toCn(name);
-  // 查找是否已存在该分类
-  let category = await db.category.findFirst({
+  const category = await db.category.upsert({
     where: {
       name,
       parentId: parentId || null,
     },
+    update: { name },
+    create: {
+      name,
+      parentId: parentId || null,
+    },
   });
-
-  // 如果不存在则创建新分类
-  if (!category) {
-    try {
-      category = await db.category.create({
-        data: {
-          name,
-          parentId: parentId || null,
-        },
-      });
-    } catch (error) {
-      // 处理并发创建分类时可能出现的冲突
-      category = await db.category.findFirst({
-        where: {
-          name,
-          parentId: parentId || null,
-        },
-      });
-
-      if (!category) {
-        console.error("创建分类失败:", error, name);
-        throw error;
-      }
-    }
-  }
 
   return category.id;
 };

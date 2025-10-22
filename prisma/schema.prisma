@@ -22,7 +22,7 @@ model dynasty {
 
 model Author {
   id   String @id @default(cuid())
-  name String // 如果是论语这类的，直接创建 孔子及其弟子
+  name String @unique // 如果是论语这类的，直接创建 孔子及其弟子
 
   birthDate DateTime?
   deathDate DateTime?
