@@ -2,7 +2,7 @@ import { db } from "@/server/db";
 
 import data from "../../chinese-poetry-master/楚辞/chuci.json";
 
-import { createAuthor } from "./utils";
+import { createAuthor, createPoem } from "./utils";
 
 const _authors = [
   { name: "屈原", dynasty: "楚" },
@@ -66,13 +66,11 @@ export const syncChuci = async () => {
         // 获取对应的 section 分类 ID
         const categoryId = sectionCategoryMap.get(poem.section);
 
-        return db.poem.create({
-          data: {
-            title: poem.title,
-            paragraphs: poem.content.join("\n"),
-            authorId: authorId!,
-            categoryId: categoryId,
-          },
+        return createPoem({
+          title: poem.title,
+          paragraphs: poem.content,
+          authorId: authorId!,
+          categoryId: categoryId,
         });
       }),
     );

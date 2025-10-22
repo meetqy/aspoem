@@ -1,9 +1,8 @@
-import { db } from "@/server/db";
 import { Dynasty } from "@/types";
 
 import data from "../../chinese-poetry-master/曹操诗集/caocao.json";
 
-import { createAuthor } from "./utils";
+import { createAuthor, createPoem } from "./utils";
 
 const _author = {
   name: "曹操",
@@ -14,13 +13,11 @@ export const syncCaocao = async () => {
   const authorId = await createAuthor(_author.name, _author.dynasty);
 
   Promise.all(
-    data.map((poem) =>
-      db.poem.create({
-        data: {
-          title: poem.title,
-          paragraphs: poem.paragraphs.join("\n"),
-          authorId: authorId,
-        },
+    data.map(async (poem) =>
+      createPoem({
+        title: poem.title,
+        paragraphs: poem.paragraphs,
+        authorId,
       }),
     ),
   ).then(() => {

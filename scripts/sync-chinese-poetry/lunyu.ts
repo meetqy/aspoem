@@ -1,9 +1,8 @@
-import { db } from "@/server/db";
 import { Dynasty } from "@/types";
 
 import data from "../../chinese-poetry-master/论语/lunyu.json";
 
-import { createAuthor } from "./utils";
+import { createAuthor, createPoem } from "./utils";
 
 const _author = {
   name: "孔子及其弟子",
@@ -15,12 +14,10 @@ export const syncLunyu = async () => {
 
   Promise.all(
     data.map((poem) =>
-      db.poem.create({
-        data: {
-          title: poem.chapter,
-          paragraphs: poem.paragraphs.join("\n"),
-          authorId,
-        },
+      createPoem({
+        title: poem.chapter,
+        paragraphs: poem.paragraphs,
+        authorId,
       }),
     ),
   ).then(() => {

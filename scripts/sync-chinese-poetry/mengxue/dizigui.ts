@@ -1,8 +1,7 @@
-import { db } from "@/server/db";
 import { Dynasty } from "@/types";
 
 import dataDizigui from "../../../chinese-poetry-master/蒙学/dizigui.json";
-import { createAuthor, createCategory } from "../utils";
+import { createAuthor, createCategory, createPoem, formatParagraphs } from "../utils";
 
 export const syncDizigui = async () => {
   const categoryId = await createCategory("蒙学");
@@ -23,16 +22,12 @@ export const syncDizigui = async () => {
     paragraphs += "\n";
   });
 
-  db.poem
-    .create({
-      data: {
-        title: dataDizigui.title,
-        paragraphs,
-        authorId,
-        categoryId,
-      },
-    })
-    .then((res) => {
-      console.log("弟子规同步完成", res.id);
-    });
+  createPoem({
+    title: dataDizigui.title,
+    paragraphs,
+    authorId,
+    categoryId,
+  }).then(() => {
+    console.log("弟子规同步完成");
+  });
 };

@@ -57,7 +57,37 @@ export const createCategory = async (name: string, parentId?: string) => {
   return category.id;
 };
 
-export const toCn = async (str: string) => {
+export const formatParagraphs = async (str: string[] | string) => {
   const converter = await Converter({ from: "tw", to: "cn" });
-  return converter(str);
+
+  const lines = Array.isArray(str) ? str : [str];
+  const converted = lines.map((line) => converter(line));
+
+  return converted.join("\n");
+};
+
+export const createPoem = async ({
+  title,
+  paragraphs,
+  authorId,
+  categoryId,
+}: {
+  title: string;
+  paragraphs: string[] | string;
+  authorId: string;
+  categoryId?: string;
+}) => {
+  title = await formatParagraphs(title);
+  const _paragraphs = await formatParagraphs(paragraphs);
+
+  const poem = await db.poem.create({
+    data: {
+      title,
+      paragraphs: _paragraphs,
+      authorId,
+      categoryId,
+    },
+  });
+
+  return poem.id;
 };
