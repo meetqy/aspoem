@@ -7,10 +7,22 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model dynasty {
+  id   String @id @default(cuid())
+  name String @unique
+
+  authors Author[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+
+  @@index([name])
+  @@map("dynasties")
+}
+
 model Author {
-  id      String @id @default(cuid())
-  name    String // 如果是论语这类的，直接创建 孔子及其弟子
-  dynasty String
+  id   String @id @default(cuid())
+  name String // 如果是论语这类的，直接创建 孔子及其弟子
 
   birthDate DateTime?
   deathDate DateTime?
@@ -19,22 +31,47 @@ model Author {
   updatedAt DateTime @default(now()) @updatedAt
   poems     Poem[]
 
-  @@index([name, dynasty])
+  dynasty   dynasty? @relation(fields: [dynastyId], references: [id])
+  dynastyId String?
+
   @@map("authors")
 }
 
+model Category {
+  id          String  @id @default(cuid())
+  name        String
+  description String?
+
+  // 自引用关系，支持子分类
+  parentId String?
+  parent   Category?  @relation("CategoryHierarchy", fields: [parentId], references: [id])
+  children Category[] @relation("CategoryHierarchy")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+
+  poems Poem[]
+
+  @@index([name])
+  @@index([parentId])
+  @@map("categories")
+}
+
 model Poem {
-  id         String  @id @default(cuid())
+  id         String @id @default(cuid())
   title      String
-  section    String?
   paragraphs String
 
   authorId String
   author   Author @relation(fields: [authorId], references: [id], onDelete: Cascade)
 
+  categoryId String?
+  category   Category? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+
   createdAt DateTime @default(now())
   updatedAt DateTime @default(now()) @updatedAt
 
   @@index([title])
+  @@index([categoryId])
   @@map("poems")
 }
