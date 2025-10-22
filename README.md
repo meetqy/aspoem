@@ -1,6 +1,9 @@
-# Create T3 App
+# [AsPoem](https://aspoem.com)
+
+开源、免费的现代化诗词学习网站
+
+## 同步 chinese-poetry 到 Prisma PG 中
 
 ```shell
-# init admin user
-pnpm seed
+pnpm sync:chinese-poetry
 ```
