@@ -39,7 +39,7 @@ model Author {
 
 model Category {
   id          String  @id @default(cuid())
-  name        String
+  name        String  @unique
   description String?
 
   // 自引用关系，支持子分类

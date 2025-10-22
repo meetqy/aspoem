@@ -1,11 +1,10 @@
 import { Dynasty } from "@/types";
 
 import dataDizigui from "../../../chinese-poetry-master/蒙学/dizigui.json";
-import { createAuthor, createCategory, createPoem } from "../utils";
+import { createAuthor, createPoem } from "../utils";
 
 export const syncDizigui = async () => {
   try {
-    const categoryId = await createCategory("蒙学");
     const _author = {
       name: "李毓秀",
       dynasty: Dynasty.清,
@@ -20,7 +19,6 @@ export const syncDizigui = async () => {
           title: chapter.chapter,
           paragraphs: chapter.paragraphs,
           authorId,
-          categoryId,
           section: chapter.chapter, // chapter 对应 poem 中的 section
         });
       }),

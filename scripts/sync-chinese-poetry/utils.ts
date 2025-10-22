@@ -57,6 +57,7 @@ export const createAuthor = async (name: string, dynastyName: string) => {
 };
 
 export const createCategory = async (name: string, parentId?: string) => {
+  name = await toCn(name);
   // 查找是否已存在该分类
   let category = await db.category.findFirst({
     where: {
@@ -67,12 +68,27 @@ export const createCategory = async (name: string, parentId?: string) => {
 
   // 如果不存在则创建新分类
   if (!category) {
-    category = await db.category.create({
-      data: {
-        name,
-        parentId: parentId || null,
-      },
-    });
+    try {
+      category = await db.category.create({
+        data: {
+          name,
+          parentId: parentId || null,
+        },
+      });
+    } catch (error) {
+      // 处理并发创建分类时可能出现的冲突
+      category = await db.category.findFirst({
+        where: {
+          name,
+          parentId: parentId || null,
+        },
+      });
+
+      if (!category) {
+        console.error("创建分类失败:", error, name);
+        throw error;
+      }
+    }
   }
 
   return category.id;

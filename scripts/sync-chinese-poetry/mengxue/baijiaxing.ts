@@ -1,11 +1,9 @@
 import { Dynasty } from "@/types";
 
 import dataBaijiaxing from "../../../chinese-poetry-master/蒙学/baijiaxing.json";
-import { createAuthor, createCategory, createPoem } from "../utils";
+import { createAuthor, createPoem } from "../utils";
 
 export const syncBaijiaxing = async () => {
-  const categoryId = await createCategory("蒙学");
-
   const _author = {
     name: "佚名",
     dynasty: Dynasty.北宋,
@@ -17,7 +15,6 @@ export const syncBaijiaxing = async () => {
     title: dataBaijiaxing.title,
     paragraphs: dataBaijiaxing.paragraphs,
     authorId,
-    categoryId,
   }).then(() => {
     console.log("百家姓同步完成");
   });
