@@ -1,14 +1,15 @@
-import { syncCaoCaoPoems } from "./caocao";
+import { syncCaocao } from "./caocao";
 import { syncChuci } from "./chuci";
-import { syncLunyuPoems } from "./lunyu";
-import { syncBaijiaxing, syncDizigui } from "./mengxue";
+import { syncLunyu } from "./lunyu";
+import { syncBaijiaxing } from "./mengxue/baijiaxing";
+import { syncDizigui } from "./mengxue/dizigui";
 
 function main() {
-  // syncCaoCaoPoems();
+  syncCaocao();
   syncChuci();
-  // syncLunyuPoems();
-  // syncBaijiaxing();
-  // syncDizigui();
+  syncLunyu();
+  syncBaijiaxing();
+  syncDizigui();
 }
 
 main();

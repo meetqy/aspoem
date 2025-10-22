@@ -65,6 +65,9 @@ importers:
       next-themes:
         specifier: ^0.4.6
         version: 0.4.6(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      opencc-js:
+        specifier: ^1.0.5
+        version: 1.0.5
       react:
         specifier: ^19.2.0
         version: 19.2.0
@@ -102,6 +105,9 @@ importers:
       '@types/node':
         specifier: ^20.14.10
         version: 20.19.16
+      '@types/opencc-js':
+        specifier: ^1.0.3
+        version: 1.0.3
       '@types/react':
         specifier: ^19.0.0
         version: 19.1.13
@@ -1380,6 +1386,9 @@ packages:
 
   '@types/node@20.19.16':
     resolution: {integrity: sha512-VS6TTONVdgwJwtJr7U+ghEjpfmQdqehLLpg/iMYGOd1+ilaFjdBJwFuPggJ4EAYPDCzWfDUHoIxyVnu+tOWVuQ==}
+
+  '@types/opencc-js@1.0.3':
+    resolution: {integrity: sha512-TENp7YkI2hNlc4dplhivSHj0hU4DORCK56VY7rniaSfA5f87uD3uv+kPIRuH9h64TGv976iVFi4gEHZZtS2y8Q==}
 
   '@types/prompts@2.4.9':
     resolution: {integrity: sha512-qTxFi6Buiu8+50/+3DGIWLHM6QuWsEKugJnnP6iv2Mc4ncxE4A/OJkjuVOA+5X0X1S/nq5VJRa8Lu+nwcvbrKA==}
@@ -2808,6 +2817,9 @@ packages:
   open@10.2.0:
     resolution: {integrity: sha512-YgBpdJHPyQ2UE5x+hlSXcnejzAvD0b22U2OuAP+8OnlJT+PjWPxtgmGqKKc+RgTM63U9gN0YzrYc71R2WT/hTA==}
     engines: {node: '>=18'}
+
+  opencc-js@1.0.5:
+    resolution: {integrity: sha512-LD+1SoNnZdlRwtYTjnQdFrSVCAaYpuDqL5CkmOaHOkKoKh7mFxUicLTRVNLU5C+Jmi1vXQ3QL4jWdgSaa4sKjg==}
 
   optionator@0.9.4:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
@@ -4702,6 +4714,8 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
+  '@types/opencc-js@1.0.3': {}
+
   '@types/prompts@2.4.9':
     dependencies:
       '@types/node': 20.19.16
@@ -6203,6 +6217,8 @@ snapshots:
       define-lazy-prop: 3.0.0
       is-inside-container: 1.0.0
       wsl-utils: 0.1.0
+
+  opencc-js@1.0.5: {}
 
   optionator@0.9.4:
     dependencies:

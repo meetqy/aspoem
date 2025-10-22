@@ -1,3 +1,5 @@
+import { Converter } from "opencc-js";
+
 import { db } from "@/server/db";
 
 export const createAuthor = async (name: string, dynastyName: string) => {
@@ -31,4 +33,31 @@ export const createAuthor = async (name: string, dynastyName: string) => {
   }
 
   return author.id;
+};
+
+export const createCategory = async (name: string, parentId?: string) => {
+  // 查找是否已存在该分类
+  let category = await db.category.findFirst({
+    where: {
+      name,
+      parentId: parentId || null,
+    },
+  });
+
+  // 如果不存在则创建新分类
+  if (!category) {
+    category = await db.category.create({
+      data: {
+        name,
+        parentId: parentId || null,
+      },
+    });
+  }
+
+  return category.id;
+};
+
+export const toCn = async (str: string) => {
+  const converter = await Converter({ from: "tw", to: "cn" });
+  return converter(str);
 };

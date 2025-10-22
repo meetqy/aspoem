@@ -3,22 +3,15 @@ import { Dynasty } from "@/types";
 
 import data from "../../chinese-poetry-master/曹操诗集/caocao.json";
 
+import { createAuthor } from "./utils";
+
 const _author = {
   name: "曹操",
   dynasty: Dynasty.东汉末年,
 };
 
-export const syncCaoCaoPoems = async () => {
-  // 创建 作者记录
-  let author = await db.author.findFirst({
-    where: _author,
-  });
-
-  if (!author) {
-    author = await db.author.create({
-      data: _author,
-    });
-  }
+export const syncCaocao = async () => {
+  const authorId = await createAuthor(_author.name, _author.dynasty);
 
   Promise.all(
     data.map((poem) =>
@@ -26,7 +19,7 @@ export const syncCaoCaoPoems = async () => {
         data: {
           title: poem.title,
           paragraphs: poem.paragraphs.join("\n"),
-          authorId: author.id,
+          authorId: authorId,
         },
       }),
     ),

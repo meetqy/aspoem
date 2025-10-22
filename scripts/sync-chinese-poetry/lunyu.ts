@@ -3,22 +3,15 @@ import { Dynasty } from "@/types";
 
 import data from "../../chinese-poetry-master/论语/lunyu.json";
 
+import { createAuthor } from "./utils";
+
 const _author = {
-  name: "孔子",
+  name: "孔子及其弟子",
   dynasty: Dynasty.春秋,
 };
 
-export const syncLunyuPoems = async () => {
-  // 创建 作者记录
-  let author = await db.author.findFirst({
-    where: _author,
-  });
-
-  if (!author) {
-    author = await db.author.create({
-      data: _author,
-    });
-  }
+export const syncLunyu = async () => {
+  const authorId = await createAuthor(_author.name, _author.dynasty);
 
   Promise.all(
     data.map((poem) =>
@@ -26,7 +19,7 @@ export const syncLunyuPoems = async () => {
         data: {
           title: poem.chapter,
           paragraphs: poem.paragraphs.join("\n"),
-          authorId: author.id,
+          authorId,
         },
       }),
     ),
