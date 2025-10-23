@@ -15,7 +15,7 @@
     "db:deploy": "prisma migrate deploy --schema=./prisma/",
     "db:push": "prisma db push --schema=./prisma/",
     "db:studio": "prisma studio --schema=./prisma/ --browser none",
-    "dev": "next dev --turbo -p3002",
+    "dev": "next dev --turbo -p3333",
     "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,mdx}\" --cache",
     "format:write": "prettier --write \"**/*.{ts,tsx,js,jsx,mdx}\" --cache",
     "postinstall": "prisma generate --schema=./prisma/",
