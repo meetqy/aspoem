@@ -1,7 +1,6 @@
-import { getPoemSlugs } from '@/lib/data/poems'
+import { allPoems } from 'contentlayer/generated'
 
 export default async function Home() {
-  const slugs = await getPoemSlugs()
-  console.log(slugs)
+  console.log(allPoems)
   return <div>123</div>
 }
