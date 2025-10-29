@@ -1,35 +1,28 @@
-import { NavigationMenuLink, NavigationMenuList } from '@radix-ui/react-navigation-menu'
-import Link from 'next/link'
-import { LogoIcon } from '@/components/logo'
-import { Button } from '@/components/ui/button'
-import { NavigationMenu, NavigationMenuItem } from '@/components/ui/navigation-menu'
+import { Header } from '@/components/header'
+import { Sidebar, SidebarContent, SidebarGroup, SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div>
-      <header className="h-16 bg-background/90 backdrop-blur-md">
-        <div className="container flex items-center h-full">
-          <Button asChild className="flex items-center" variant="ghost" size="icon-lg">
-            <Link href="/">
-              <LogoIcon className="size-6" />
-            </Link>
-          </Button>
+    <div className="bg-background">
+      <Header />
 
-          <div className="flex-1">
-            <NavigationMenu>
-              <NavigationMenuList>
-                <NavigationMenuItem>
-                  <NavigationMenuLink asChild>
-                    <Link href="/docs">推荐</Link>
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu>
-          </div>
-        </div>
-
-      </header>
-      <main>{children}</main>
+      <div className="container mx-auto">
+        <SidebarProvider className="relative h-[calc(100vh-4rem)]">
+          <Sidebar side="left" className="relative">
+            <div className="size-full bg-red-500">23213</div>
+          </Sidebar>
+          <SidebarContent>
+            <SidebarGroup>
+              <SidebarTrigger />
+              {children}
+            </SidebarGroup>
+            <SidebarGroup>2</SidebarGroup>
+          </SidebarContent>
+          <Sidebar side="right" className="relative">
+            <div className="size-full bg-blue-500">23213</div>
+          </Sidebar>
+        </SidebarProvider>
+      </div>
     </div>
   )
 }

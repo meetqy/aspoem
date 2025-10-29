@@ -11,7 +11,7 @@
 
 @layer utilities {
   .container {
-    @apply mx-auto max-w-screen-lg px-4;
+    @apply mx-auto px-4 max-w-screen-2xl;
   }
 }
 
