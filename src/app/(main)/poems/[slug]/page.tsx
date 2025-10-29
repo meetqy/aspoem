@@ -1,6 +1,6 @@
 import { Sidebar, SidebarContent, SidebarProvider } from '@/components/ui/sidebar'
 
-export default function Page() {
+export default async function Page() {
   return (
     <div className="flex flex-1 flex-col">
       <SidebarProvider className="container mx-auto">
