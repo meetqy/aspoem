@@ -228,3 +228,20 @@
     @apply bg-background text-foreground;
   }
 }
+
+#nprogress {
+  .bar {
+    background: var(--color-primary) !important;
+  }
+
+  .spinner-icon {
+    border-top-color: var(--color-primary) !important;
+    border-left-color: var(--color-primary) !important;
+  }
+
+  .peg {
+    box-shadow:
+      0 0 10px var(--primary-foreground),
+      0 0 5px var(--primary-foreground) !important;
+  }
+}

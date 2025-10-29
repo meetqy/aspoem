@@ -2,8 +2,9 @@ import type { Metadata } from 'next'
 
 import { Geist, Geist_Mono } from 'next/font/google'
 
-import { Toaster } from '@/components/ui/sonner'
+import NextTopLoader from 'nextjs-toploader'
 
+import { Toaster } from '@/components/ui/sonner'
 import { TRPCReactProvider } from '@/trpc/react'
 import '@/styles/globals.css'
 
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           {children}
 
           <Toaster richColors position="top-right" />
+          <NextTopLoader />
         </TRPCReactProvider>
       </body>
     </html>
