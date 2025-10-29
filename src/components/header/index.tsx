@@ -7,12 +7,12 @@ import { Button } from '@/components/ui/button'
 
 export function Header() {
   return (
-    <header className="h-16 bg-background/90 backdrop-blur-md sticky top-0 z-50">
+    <header className="bg-background sticky top-0 z-50 w-full h-16">
       <div className="container flex items-center justify-between h-full">
-        <div className="w-2/3 flex items-center gap-4">
+        <div className="w-2/3 flex items-center">
           <Button asChild className="flex items-center" variant="ghost" size="icon-lg">
             <Link href="/">
-              <LogoIcon className="size-8" />
+              <LogoIcon />
             </Link>
           </Button>
           <Menu />
