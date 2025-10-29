@@ -1,13 +1,13 @@
 {
   "name": "basic-template",
+  "type": "module",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.15.1",
   "engines": {
     "node": ">=22.20.0",
     "pnpm": ">=10.15.1"
   },
-  "packageManager": "pnpm@10.15.1",
-  "type": "module",
   "scripts": {
     "build": "pnpm db:deploy && next build",
     "check": "eslint . && tsc --noEmit",
@@ -16,8 +16,6 @@
     "db:push": "prisma db push --schema=./prisma/",
     "db:studio": "prisma studio --schema=./prisma/ --browser none",
     "dev": "next dev --turbo -p3333",
-    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,mdx}\" --cache",
-    "format:write": "prettier --write \"**/*.{ts,tsx,js,jsx,mdx}\" --cache",
     "postinstall": "prisma generate --schema=./prisma/",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
@@ -60,24 +58,24 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^6.1.0",
     "@better-auth/cli": "^1.3.11",
+    "@eslint-react/eslint-plugin": "^2.2.3",
     "@tailwindcss/postcss": "^4.0.15",
     "@types/node": "^20.14.10",
     "@types/opencc-js": "^1.0.3",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
-    "eslint": "^9.23.0",
-    "eslint-config-next": "16.0.1",
-    "eslint-plugin-import": "^2.32.0",
+    "eslint": "^9.38.0",
+    "eslint-plugin-format": "^1.0.2",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
     "postcss": "^8.5.3",
-    "prettier": "^3.5.3",
-    "prettier-plugin-tailwindcss": "^0.6.11",
     "prisma": "^6.17.1",
     "tailwindcss": "^4.0.15",
     "tsx": "^4.20.5",
     "tw-animate-css": "^1.3.8",
-    "typescript": "^5.8.2",
-    "typescript-eslint": "^8.27.0"
+    "typescript": "^5.8.2"
   },
   "ct3aMetadata": {
     "initVersion": "7.39.3"

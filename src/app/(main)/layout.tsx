@@ -1,8 +1,8 @@
-import { AppSidebar } from "@/components/app-sidebar";
-import { SidebarInset, SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
-import { navMain } from "@/lib/nav-main";
+import { AppSidebar } from '@/components/app-sidebar'
+import { SidebarInset, SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
+import { navMain } from '@/lib/nav-main'
 
-export default function Layout({ children, breadcrumb }: { children: React.ReactNode; breadcrumb: React.ReactNode }) {
+export default function Layout({ children, breadcrumb }: { children: React.ReactNode, breadcrumb: React.ReactNode }) {
   return (
     <SidebarProvider>
       <AppSidebar items={navMain} />
@@ -14,5 +14,5 @@ export default function Layout({ children, breadcrumb }: { children: React.React
         <main className="relative flex-1 p-4">{children}</main>
       </SidebarInset>
     </SidebarProvider>
-  );
+  )
 }

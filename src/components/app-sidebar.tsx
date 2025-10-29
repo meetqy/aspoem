@@ -1,6 +1,6 @@
-import * as React from "react";
+import Link from 'next/link'
 
-import Link from "next/link";
+import * as React from 'react'
 
 import {
   Sidebar,
@@ -14,19 +14,19 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
   SidebarRail,
-} from "@/components/ui/sidebar";
+} from '@/components/ui/sidebar'
 
 interface NavItemType {
-  title: string;
-  url: string;
-  isActive?: boolean;
-  items?: NavItemType[];
+  title: string
+  url: string
+  isActive?: boolean
+  items?: NavItemType[]
 }
 
 type Props = {
-  items: NavItemType[];
-  title?: string;
-} & React.ComponentProps<typeof Sidebar>;
+  items: NavItemType[]
+  title?: string
+} & React.ComponentProps<typeof Sidebar>
 
 export function AppSidebar({ ...props }: Props) {
   return (
@@ -36,7 +36,7 @@ export function AppSidebar({ ...props }: Props) {
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild className="flex justify-center">
               <Link className="font-mono !text-3xl font-semibold tracking-widest" href="/">
-                {props.title ?? "ZCOLORING"}
+                {props.title ?? 'ZCOLORING'}
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
@@ -45,24 +45,26 @@ export function AppSidebar({ ...props }: Props) {
       <SidebarContent>
         <SidebarGroup>
           <SidebarMenu>
-            {props.items.map((item) => (
+            {props.items.map(item => (
               <SidebarMenuItem key={item.title}>
                 <SidebarMenuButton asChild>
                   <Link href={item.url} className="font-medium">
                     {item.title}
                   </Link>
                 </SidebarMenuButton>
-                {item.items?.length ? (
-                  <SidebarMenuSub>
-                    {item.items.map((item) => (
-                      <SidebarMenuSubItem key={item.title}>
-                        <SidebarMenuSubButton asChild isActive={item.isActive}>
-                          <Link href={item.url}>{item.title}</Link>
-                        </SidebarMenuSubButton>
-                      </SidebarMenuSubItem>
-                    ))}
-                  </SidebarMenuSub>
-                ) : null}
+                {item.items?.length
+                  ? (
+                      <SidebarMenuSub>
+                        {item.items.map(item => (
+                          <SidebarMenuSubItem key={item.title}>
+                            <SidebarMenuSubButton asChild isActive={item.isActive}>
+                              <Link href={item.url}>{item.title}</Link>
+                            </SidebarMenuSubButton>
+                          </SidebarMenuSubItem>
+                        ))}
+                      </SidebarMenuSub>
+                    )
+                  : null}
               </SidebarMenuItem>
             ))}
           </SidebarMenu>
@@ -70,5 +72,5 @@ export function AppSidebar({ ...props }: Props) {
       </SidebarContent>
       <SidebarRail />
     </Sidebar>
-  );
+  )
 }

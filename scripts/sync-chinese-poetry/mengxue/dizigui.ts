@@ -1,16 +1,16 @@
-import { Dynasty } from "@/types";
+import { Dynasty } from '@/types'
 
-import dataDizigui from "../../../chinese-poetry-master/蒙学/dizigui.json";
-import { createAuthor, createPoem } from "../utils";
+import dataDizigui from '../../../chinese-poetry-master/蒙学/dizigui.json'
+import { createAuthor, createPoem } from '../utils'
 
-export const syncDizigui = async () => {
+export async function syncDizigui() {
   try {
     const _author = {
-      name: "李毓秀",
+      name: '李毓秀',
       dynasty: Dynasty.清,
-    };
+    }
 
-    const authorId = await createAuthor(_author.name, _author.dynasty);
+    const authorId = await createAuthor(_author.name, _author.dynasty)
 
     // 遍历弟子规的各个章节
     await Promise.all(
@@ -20,13 +20,14 @@ export const syncDizigui = async () => {
           paragraphs: chapter.paragraphs,
           authorId,
           section: chapter.chapter, // chapter 对应 poem 中的 section
-        });
+        })
       }),
-    );
+    )
 
-    console.log(`弟子规同步完成: ${dataDizigui.content.length} 个章节已导入`);
-  } catch (error) {
-    console.error("弟子规同步失败:", error);
-    throw error;
+    console.log(`弟子规同步完成: ${dataDizigui.content.length} 个章节已导入`)
   }
-};
+  catch (error) {
+    console.error('弟子规同步失败:', error)
+    throw error
+  }
+}
