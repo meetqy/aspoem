@@ -23,7 +23,6 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "sync:chinese-poetry": "tsx scripts/sync-chinese-poetry/index.ts",
-    "next:upgrade": "pnpm i next@latest react@latest react-dom@latest eslint-config-next@latest",
     "ui:upgrade": "for file in src/components/ui/*.tsx; do npx shadcn@latest add -y -o $(basename \"$file\" .tsx); done"
   },
   "dependencies": {
@@ -32,6 +31,7 @@
     "@prisma/client": "^6.17.1",
     "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-navigation-menu": "^1.2.14",
     "@radix-ui/react-separator": "^1.1.7",
     "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/react-tooltip": "^1.2.8",
