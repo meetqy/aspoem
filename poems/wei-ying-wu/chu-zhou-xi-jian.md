@@ -1,0 +1,23 @@
+---
+id: wei-ying-wu-chu-zhou-xi-jian
+title: 滁州西澗
+titleSlug: chu-zhou-xi-jian
+author: 韋應物
+authorSlug: wei-ying-wu
+dynasty: 唐
+dynastySlug: tang
+tags: ["七言絕句","千家诗","蒙学"]
+---
+
+## 正文
+
+- du2 lian2 you1 cao3 jian4 bian1 sheng1 ， shang4 you3 huang2 li2 shen1 shu4 ming2 。
+- 獨憐幽草澗邊生，上有黃鸝深樹鳴。
+- chun1 chao2 dai4 yu3 wan3 lai2 ji2 ， ye3 du4 wu2 ren2 zhou1 zi4 heng2 。
+- 春潮帶雨晚來急，野渡無人舟自橫。
+
+## 注释
+
+## 译文
+
+## 赏析

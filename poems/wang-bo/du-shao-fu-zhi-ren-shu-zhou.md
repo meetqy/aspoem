@@ -1,0 +1,27 @@
+---
+id: wang-bo-du-shao-fu-zhi-ren-shu-zhou
+title: 杜少府之任蜀州
+titleSlug: du-shao-fu-zhi-ren-shu-zhou
+author: 王勃
+authorSlug: wang-bo
+dynasty: 唐
+dynastySlug: tang
+tags: ["五言律詩","千家诗","蒙学"]
+---
+
+## 正文
+
+- cheng2 que4 fu3 san1 qin2 ， feng1 yan1 wang4 wu3 jin1 。
+- 城闕輔三秦，風煙望五津。
+- yu3 jun1 li2 bie2 yi4 ， tong2 shi4 huan4 you2 ren2 。
+- 與君離別意，同是宦遊人。
+- hai3 nei4 cun2 zhi1 ji3 ， tian1 ya2 ruo4 bi3 lin2 。
+- 海內存知己，天涯若比鄰。
+- wu2 wei2 zai4 qi2 lu4 ， er2 nü3 gong4 zhan1 jin1 。
+- 無爲在歧路，兒女共沾巾。
+
+## 注释
+
+## 译文
+
+## 赏析

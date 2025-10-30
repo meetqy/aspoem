@@ -1,0 +1,23 @@
+---
+id: li-ang-gong-zhong-ti
+title: 宮中題
+titleSlug: gong-zhong-ti
+author: 李昂
+authorSlug: li-ang
+dynasty: 唐
+dynastySlug: tang
+tags: ["五言絕句","千家诗","蒙学"]
+---
+
+## 正文
+
+- nian3 lu4 sheng1 qiu1 cao3 ， shang4 lin2 hua1 man3 zhi1 。
+- 輦路生秋草，上林花滿枝。
+- ping2 gao1 he2 xian4 yi4 ， wu2 fu4 shi4 chen2 zhi1 。
+- 憑高何限意，無復侍臣知。
+
+## 注释
+
+## 译文
+
+## 赏析

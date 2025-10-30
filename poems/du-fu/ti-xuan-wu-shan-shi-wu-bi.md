@@ -1,0 +1,27 @@
+---
+id: du-fu-ti-xuan-wu-shan-shi-wu-bi
+title: 題玄武禪師屋壁
+titleSlug: ti-xuan-wu-shan-shi-wu-bi
+author: 杜甫
+authorSlug: du-fu
+dynasty: 唐
+dynastySlug: tang
+tags: ["五言律詩","千家诗","蒙学"]
+---
+
+## 正文
+
+- he2 nian2 gu4 hu3 tou2 ， man3 bi4 hua4 cang1 zhou1 。
+- 何年顧虎頭，滿壁畫滄州。
+- chi4 ri4 shi2 lin2 qi4 ， qing1 tian1 jiang1 hai3 liu2 。
+- 赤日石林氣，青天江海流。
+- xi1 fei1 chang2 jin4 he4 ， bei1 du4 bu4 jing1 ou1 。
+- 錫飛常近鶴，杯渡不驚鷗。
+- si4 de2 lu2 shan1 lu4 ， zhen1 sui2 hui4 yuan3 you2 。
+- 似得廬山路，真隨惠遠遊。
+
+## 注释
+
+## 译文
+
+## 赏析

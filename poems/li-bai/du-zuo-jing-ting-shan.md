@@ -1,0 +1,23 @@
+---
+id: li-bai-du-zuo-jing-ting-shan
+title: 獨坐敬亭山
+titleSlug: du-zuo-jing-ting-shan
+author: 李白
+authorSlug: li-bai
+dynasty: 唐
+dynastySlug: tang
+tags: ["五言絕句","千家诗","蒙学"]
+---
+
+## 正文
+
+- zhong4 niao3 gao1 fei1 jin4 ， gu1 yun2 du2 qu4 xian2 。
+- 衆鳥高飛盡，孤雲獨去閒。
+- xiang1 kan4 liang3 bu2 yan4 ， zhi3 you3 jing4 ting2 shan1 。
+- 相看兩不厭，只有敬亭山。
+
+## 注释
+
+## 译文
+
+## 赏析

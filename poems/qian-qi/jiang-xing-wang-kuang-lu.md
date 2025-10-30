@@ -1,0 +1,23 @@
+---
+id: qian-qi-jiang-xing-wang-kuang-lu
+title: 江行望匡廬
+titleSlug: jiang-xing-wang-kuang-lu
+author: 錢起
+authorSlug: qian-qi
+dynasty: 唐
+dynastySlug: tang
+tags: ["五言絕句","千家诗","蒙学"]
+---
+
+## 正文
+
+- zhi3 chi3 chou2 feng1 yu3 ， kuang1 lu2 bu4 ke3 deng1 。
+- 咫尺愁風雨，匡廬不可登。
+- zhi1 yi2 yun2 wu4 ku1 ， you2 you3 liu4 chao2 seng1 。
+- 只疑雲霧窟，猶有六朝僧。
+
+## 注释
+
+## 译文
+
+## 赏析
