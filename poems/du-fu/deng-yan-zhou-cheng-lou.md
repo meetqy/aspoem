@@ -11,13 +11,13 @@ tags: ["五言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- dong1 jun4 qu1 ting2 ri4 ， nan2 lou2 zong4 mu4 chu1。
+- dong1 jun4 qu1 ting2 ri4 ， nan2 lou2 zong4 mu4 chu1 。
 - 東郡趨庭日，南樓縱目初。
-- fu2 yun2 lian2 hai3 dai4 ， ping2 ye3 ru4 qing1 xu2。
+- fu2 yun2 lian2 hai3 dai4 ， ping2 ye3 ru4 qing1 xu2 。
 - 浮雲連海岱，平野入青徐。
-- gu1 zhang4 qin2 bei1 zai4 ， huang1 cheng2 lu3 dian4 yu2。
+- gu1 zhang4 qin2 bei1 zai4 ， huang1 cheng2 lu3 dian4 yu2 。
 - 孤嶂秦碑在，荒城魯殿餘。
-- cong2 lai2 duo1 gu3 yi4 ， lin2 tiao4 du2 chou2 chu2。
+- cong2 lai2 duo1 gu3 yi4 ， lin2 tiao4 du2 chou2 chu2 。
 - 從來多古意，臨眺獨躊躇。
 
 ## 注释

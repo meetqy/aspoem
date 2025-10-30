@@ -19,7 +19,7 @@ tags: []
 - 姱女倡兮容与
 - chun1 lan2 xi1 qiu1 ju2 ，
 - 春兰兮秋菊，
-- chang2 wu2 jue2 xi1 zhong1 gu3。
+- chang2 wu2 jue2 xi1 zhong1 gu3 。
 - 长无绝兮终古。
 
 ## 注释

@@ -11,13 +11,13 @@ tags: ["五言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- lian2 bu4 qu1 dan1 bi4 ， fen1 cao2 xian4 zi3 wei1。
+- lian2 bu4 qu1 dan1 bi4 ， fen1 cao2 xian4 zi3 wei1 。
 - 聯步趨丹陛，分曹限紫薇。
-- xiao3 sui2 tian1 zhang4 ru4 ， mu4 re3 yu4 xiang1 gui1。
+- xiao3 sui2 tian1 zhang4 ru4 ， mu4 re3 yu4 xiang1 gui1 。
 - 曉隨天仗入，暮惹御香歸。
-- bai2 fa4 bei1 hua1 luo4 ， qing1 yun2 xian4 niao3 fei1。
+- bai2 fa4 bei1 hua1 luo4 ， qing1 yun2 xian4 niao3 fei1 。
 - 白髮悲花落，青雲羨鳥飛。
-- sheng4 chao2 wu2 que4 shi4 ， zi4 jue2 jian4 shu1 xi1。
+- sheng4 chao2 wu2 que4 shi4 ， zi4 jue2 jian4 shu1 xi1 。
 - 聖朝無闕事，自覺諫書稀。
 
 ## 注释

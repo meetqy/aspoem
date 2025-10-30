@@ -11,13 +11,13 @@ tags: ["七言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- nan2 bei3 shan1 tou2 duo1 mu4 tian2 ， qing1 ming2 ji4 sao3 ge4 fen1 ran2。
+- nan2 bei3 shan1 tou2 duo1 mu4 tian2 ， qing1 ming2 ji4 sao3 ge4 fen1 ran2 。
 - 南北山頭多墓田，清明祭掃各紛然。
-- zhi3 hui1 fei1 zuo4 bai2 hu2 die2 ， lei4 xue4 ran3 cheng2 hong2 du4 jian1。
+- zhi3 hui1 fei1 zuo4 bai2 hu2 die2 ， lei4 xue4 ran3 cheng2 hong2 du4 jian1 。
 - 紙灰飛作白蝴蝶，淚血染成紅杜鵑。
-- ri4 luo4 hu2 li0 mian2 zhong3 shang4 ， ye4 gui1 er2 nü3 xiao4 deng1 qian2。
+- ri4 luo4 hu2 li0 mian2 zhong3 shang4 ， ye4 gui1 er2 nü3 xiao4 deng1 qian2 。
 - 日落狐狸眠冢上，夜歸兒女笑燈前。
-- ren2 sheng1 you3 jiu3 xu1 dang1 zui4 ， yi4 di1 he2 ceng2 dao4 jiu3 quan2。
+- ren2 sheng1 you3 jiu3 xu1 dang1 zui4 ， yi4 di1 he2 ceng2 dao4 jiu3 quan2 。
 - 人生有酒須當醉，一滴何曾到九泉。
 
 ## 注释

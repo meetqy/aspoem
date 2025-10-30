@@ -11,9 +11,9 @@ tags: ["五言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- lin2 zhong1 guan1 yi4 ba4 ， xi1 shang4 dui4 ou1 xian2。
+- lin2 zhong1 guan1 yi4 ba4 ， xi1 shang4 dui4 ou1 xian2 。
 - 林中觀易罷，溪上對鷗閒。
-- chu3 su2 rao2 ci2 ke4 ， he2 ren2 zui4 wang3 huan2。
+- chu3 su2 rao2 ci2 ke4 ， he2 ren2 zui4 wang3 huan2 。
 - 楚俗饒詞客，何人最往還。
 
 ## 注释

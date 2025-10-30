@@ -33,7 +33,7 @@ tags: []
 - 青云衣兮白霓裳，举长矢兮射天狼
 - cao1 yu2 hu2 xi1 fan3 lun2 jiang4 ， yuan2 bei3 dou4 xi1 zhuo2 gui4 jiang1
 - 操余弧兮反沦降，援北斗兮酌桂浆
-- zhuan4 yu2 pei4 xi1 gao1 chi2 xiang2 ， yao3 ming2 ming2 xi1 yi3 dong1 xing2。
+- zhuan4 yu2 pei4 xi1 gao1 chi2 xiang2 ， yao3 ming2 ming2 xi1 yi3 dong1 xing2 。
 - 撰余辔兮高驰翔，杳冥冥兮以东行。
 
 ## 注释

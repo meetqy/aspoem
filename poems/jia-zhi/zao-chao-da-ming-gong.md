@@ -11,13 +11,13 @@ tags: ["七言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- yin2 zhu2 chao2 tian1 zi3 mo4 chang2 ， jin4 cheng2 chun1 se4 xiao3 cang1 cang1。
+- yin2 zhu2 chao2 tian1 zi3 mo4 chang2 ， jin4 cheng2 chun1 se4 xiao3 cang1 cang1 。
 - 銀燭朝天紫陌長，禁城春色曉蒼蒼。
-- qian1 tiao2 ruo4 liu3 chui2 qing1 suo3 ， bai3 zhuan4 liu2 ying1 rao4 jian4 zhang1。
+- qian1 tiao2 ruo4 liu3 chui2 qing1 suo3 ， bai3 zhuan4 liu2 ying1 rao4 jian4 zhang1 。
 - 千條弱柳垂青鎖，百囀流鶯繞建章。
-- jian4 pei4 sheng1 sui2 yu4 chi2 bu4 ， yi1 guan1 shen1 re3 yu4 lu2 xiang1。
+- jian4 pei4 sheng1 sui2 yu4 chi2 bu4 ， yi1 guan1 shen1 re3 yu4 lu2 xiang1 。
 - 劍佩聲隨玉墀步，衣冠身惹御爐香。
-- gong4 mu4 en1 bo1 feng4 chi2 shang4 ， zhao1 zhao1 ran3 han4 shi4 jun1 wang2。
+- gong4 mu4 en1 bo1 feng4 chi2 shang4 ， zhao1 zhao1 ran3 han4 shi4 jun1 wang2 。
 - 共沐恩波鳳池上，朝朝染翰侍君王。
 
 ## 注释

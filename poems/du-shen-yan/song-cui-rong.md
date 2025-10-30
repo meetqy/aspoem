@@ -11,13 +11,13 @@ tags: ["五言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- jun1 wang2 xing2 chu1 jiang1 ， shu1 ji4 yuan3 cong2 zhi3。
+- jun1 wang2 xing2 chu1 jiang1 ， shu1 ji4 yuan3 cong2 zhi3 。
 - 君王行出將，書記遠從徵。
-- zu3 zhang4 lian2 he2 que4 ， jun1 hui1 dong4 luo4 cheng2。
+- zu3 zhang4 lian2 he2 que4 ， jun1 hui1 dong4 luo4 cheng2 。
 - 祖帳連河闕，軍麾動洛城。
-- jing1 qi2 chao2 shuo4 qi4 ， jia1 chui1 ye4 bian1 sheng1。
+- jing1 qi2 chao2 shuo4 qi4 ， jia1 chui1 ye4 bian1 sheng1 。
 - 旌旗朝朔氣，笳吹夜邊聲。
-- zuo4 jue2 yan1 chen2 shao3 ， qiu1 feng1 gu3 bei3 ping2。
+- zuo4 jue2 yan1 chen2 shao3 ， qiu1 feng1 gu3 bei3 ping2 。
 - 坐覺煙塵少，秋風古北平。
 
 ## 注释

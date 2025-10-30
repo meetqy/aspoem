@@ -11,13 +11,13 @@ tags: ["五言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- yu3 lai2 zhan1 xi2 shang4 ， feng1 ji2 da3 chuan2 tou2。
+- yu3 lai2 zhan1 xi2 shang4 ， feng1 ji2 da3 chuan2 tou2 。
 - 雨來沾席上，風急打船頭。
-- yue4 nü3 hong2 qun2 shi1 ， yan4 ji1 cui4 dai4 chou2。
+- yue4 nü3 hong2 qun2 shi1 ， yan4 ji1 cui4 dai4 chou2 。
 - 越女紅裙溼，燕姬翠黛愁。
-- lan3 qin1 di1 liu3 xi4 ， man4 juan3 lang4 hua1 fu2。
+- lan3 qin1 di1 liu3 xi4 ， man4 juan3 lang4 hua1 fu2 。
 - 纜侵堤柳系，幔捲浪花浮。
-- gui1 lu4 fan1 xiao1 sa4 ， bei1 tang2 wu3 yue4 qiu1。
+- gui1 lu4 fan1 xiao1 sa4 ， bei1 tang2 wu3 yue4 qiu1 。
 - 歸路翻蕭颯，陂塘五月秋。
 
 ## 注释

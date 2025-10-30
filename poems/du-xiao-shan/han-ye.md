@@ -11,9 +11,9 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- han2 ye4 ke4 lai2 cha2 dang1 jiu3 ， zhu2 lu2 tang1 fei4 huo3 chu1 hong2。
+- han2 ye4 ke4 lai2 cha2 dang1 jiu3 ， zhu2 lu2 tang1 fei4 huo3 chu1 hong2 。
 - 寒夜客來茶當酒，竹爐湯沸火初紅。
-- xun2 chang2 yi2 yang4 chuang1 qian2 yue4 ， cai2 you3 mei2 hua1 bian4 bu4 tong2。
+- xun2 chang2 yi2 yang4 chuang1 qian2 yue4 ， cai2 you3 mei2 hua1 bian4 bu4 tong2 。
 - 尋常一樣窗前月，纔有梅花便不同。
 
 ## 注释

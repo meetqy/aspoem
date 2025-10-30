@@ -11,9 +11,9 @@ tags: ["五言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- da4 dao4 zhi2 ru2 fa1 ， chun1 lai2 jia1 qi4 duo1。
+- da4 dao4 zhi2 ru2 fa1 ， chun1 lai2 jia1 qi4 duo1 。
 - 大道直如發，春來佳氣多。
-- wu3 ling2 gui4 gong1 zi3 ， shuang1 shuang1 wu1 yu4 ke1。
+- wu3 ling2 gui4 gong1 zi3 ， shuang1 shuang1 wu1 yu4 ke1 。
 - 五陵貴公子，雙雙嗚玉珂。
 
 ## 注释

@@ -11,13 +11,13 @@ tags: ["七言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- cha1 ji2 bian1 li2 jin3 hu4 chi2 ， yang3 cheng2 han2 bi4 ying4 lian2 yi1。
+- cha1 ji2 bian1 li2 jin3 hu4 chi2 ， yang3 cheng2 han2 bi4 ying4 lian2 yi1 。
 - 插棘編籬謹護持，養成寒碧映漣漪。
-- qing1 feng1 lüe4 di4 qiu1 xian1 dao4 ， chi4 ri4 xing2 tian1 wu3 bu4 zhi1。
+- qing1 feng1 lüe4 di4 qiu1 xian1 dao4 ， chi4 ri4 xing2 tian1 wu3 bu4 zhi1 。
 - 清風掠地秋先到，赤日行天午不知。
-- jie3 tuo4 shi2 wen2 sheng1 su4 su4 ， fang4 shao1 chu1 jian4 ying3 li2 li2。
+- jie3 tuo4 shi2 wen2 sheng1 su4 su4 ， fang4 shao1 chu1 jian4 ying3 li2 li2 。
 - 解籜時聞聲簌簌，放梢初見影離離。
-- gui1 xian2 wo3 yu4 bin1 lai2 ci3 ， zhen3 dian4 reng2 jiao4 dao4 chu3 sui2。
+- gui1 xian2 wo3 yu4 bin1 lai2 ci3 ， zhen3 dian4 reng2 jiao4 dao4 chu3 sui2 。
 - 歸閒我欲頻來此，枕簟仍教到處隨。
 
 ## 注释

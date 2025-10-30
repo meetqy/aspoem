@@ -37,7 +37,7 @@ tags: []
 - 结桂枝兮延伫，羌愈思兮愁人
 - chou2 ren2 xi1 nai4 he2 ， yuan4 ruo4 jin1 xi1 wu2 kui1
 - 愁人兮奈何，愿若今兮无亏
-- gu4 ren2 ming4 xi1 you3 dang1 ， shu2 li2 he2 xi1 he2 wei4？
+- gu4 ren2 ming4 xi1 you3 dang1 ， shu2 li2 he2 xi1 he2 wei4 ？
 - 固人命兮有当，孰离合兮何为？
 
 ## 注释

@@ -29,7 +29,7 @@ tags: []
 - 流澌纷兮将来下
 - zi3 jiao1 shou3 xi1 dong1 xing2 ， song4 mei3 ren2 xi1 nan2 pu3
 - 子交手兮东行，送美人兮南浦
-- bo1 tao1 tao1 xi1 lai2 ying2 ， yu2 lin2 lin2 xi1 ying4 yu3。
+- bo1 tao1 tao1 xi1 lai2 ying2 ， yu2 lin2 lin2 xi1 ying4 yu3 。
 - 波滔滔兮来迎，鱼鳞鳞兮媵予。
 
 ## 注释

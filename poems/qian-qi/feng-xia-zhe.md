@@ -11,9 +11,9 @@ tags: ["五言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- yan4 zhao4 bei1 ge1 shi4 ， xiang1 feng2 ju4 meng4 jia1。
+- yan4 zhao4 bei1 ge1 shi4 ， xiang1 feng2 ju4 meng4 jia1 。
 - 燕趙悲歌士，相逢劇孟家。
-- cun4 xin1 yan2 bu2 jin4 ， qian2 lu4 ri4 jiang1 xie2。
+- cun4 xin1 yan2 bu2 jin4 ， qian2 lu4 ri4 jiang1 xie2 。
 - 寸心言不盡，前路日將斜。
 
 ## 注释

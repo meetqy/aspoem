@@ -11,9 +11,9 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- san3 jing4 yang2 hua1 pu1 bai2 zhan1 ， dian3 xi1 he2 ye4 die2 qing1 qian2。
+- san3 jing4 yang2 hua1 pu1 bai2 zhan1 ， dian3 xi1 he2 ye4 die2 qing1 qian2 。
 - 糝徑楊花鋪白氈，點溪荷葉疊青錢。
-- sun3 gen1 zhi4 zi3 wu2 ren2 jian4 ， sha1 shang4 fu2 chu2 bang4 mu3 mian2。
+- sun3 gen1 zhi4 zi3 wu2 ren2 jian4 ， sha1 shang4 fu2 chu2 bang4 mu3 mian2 。
 - 筍根稚子無人見，沙上鳧雛傍母眠。
 
 ## 注释

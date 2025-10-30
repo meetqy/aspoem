@@ -11,9 +11,9 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- bai3 mu3 ting2 zhong1 ban4 shi4 tai2 ， tao2 hua1 jing4 jin4 cai4 hua1 kai1。
+- bai3 mu3 ting2 zhong1 ban4 shi4 tai2 ， tao2 hua1 jing4 jin4 cai4 hua1 kai1 。
 - 百畝庭中半是苔，桃花淨盡菜花開。
-- zhong3 tao2 dao4 shi4 gui1 he2 chu3 ， qian2 du4 liu2 lang2 jin1 you4 lai2。
+- zhong3 tao2 dao4 shi4 gui1 he2 chu3 ， qian2 du4 liu2 lang2 jin1 you4 lai2 。
 - 種桃道士歸何處，前度劉郎今又來。
 
 ## 注释

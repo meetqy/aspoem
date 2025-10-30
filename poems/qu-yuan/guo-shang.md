@@ -27,7 +27,7 @@ tags: []
 - 带长剑兮挟秦弓，首身离兮心不惩
 - cheng2 ji4 yong3 xi1 you4 yi3 wu3 ， zhong1 gang1 qiang2 xi1 bu4 ke3 ling2
 - 诚既勇兮又以武，终刚强兮不可凌
-- shen1 ji4 si3 xi1 shen2 yi3 ling2 ， hun2 po4 yi4 xi1 wei4 gui3 xiong2。
+- shen1 ji4 si3 xi1 shen2 yi3 ling2 ， hun2 po4 yi4 xi1 wei4 gui3 xiong2 。
 - 身既死兮神以灵，魂魄毅兮为鬼雄。
 
 ## 注释
