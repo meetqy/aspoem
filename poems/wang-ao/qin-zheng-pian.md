@@ -6,7 +6,7 @@ author: 王鏊
 authorSlug: wang-ao
 dynasty: 明代
 dynastySlug: ming-dai
-tags: ["卷十二・明文","古文观止"]
+tags: ["卷十二・明文","古文观止","蒙学"]
 ---
 
 ## 正文

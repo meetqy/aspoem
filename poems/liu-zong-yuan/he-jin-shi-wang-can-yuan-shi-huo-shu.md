@@ -6,7 +6,7 @@ author: 柳宗元
 authorSlug: liu-zong-yuan
 dynasty: 唐代
 dynastySlug: tang-dai
-tags: ["卷九・唐宋文","古文观止"]
+tags: ["卷九・唐宋文","古文观止","蒙学"]
 ---
 
 ## 正文

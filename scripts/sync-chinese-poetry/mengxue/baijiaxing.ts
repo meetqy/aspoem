@@ -14,5 +14,6 @@ export async function syncBaijiaxing() {
     paragraphs: dataBaijiaxing.paragraphs,
     author: _author.name,
     dynasty: _author.dynasty,
+    tags: ['蒙学'],
   })
 }

@@ -6,7 +6,7 @@ author: 李毓秀
 authorSlug: li-yu-xiu
 dynasty: 清
 dynastySlug: qing
-tags: []
+tags: ["蒙学"]
 ---
 
 ## 正文

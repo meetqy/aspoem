@@ -6,7 +6,7 @@ author: 宋玉
 authorSlug: song-yu
 dynasty: 先秦
 dynastySlug: xian-qin
-tags: ["卷四・戰國文","古文观止"]
+tags: ["卷四・戰國文","古文观止","蒙学"]
 ---
 
 ## 正文

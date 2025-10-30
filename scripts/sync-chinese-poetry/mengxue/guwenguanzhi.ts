@@ -29,7 +29,7 @@ export async function syncGuwenguanzhi() {
             paragraphs: chapter.paragraphs,
             author: authorName,
             dynasty,
-            tags: [section.title, '古文观止'], // 将分类作为标签
+            tags: [section.title, '古文观止', '蒙学'], // 将分类作为标签
           })
         }),
       ),
@@ -38,7 +38,6 @@ export async function syncGuwenguanzhi() {
     const totalChapters = dataGuwenguanzhi.content.reduce((sum, section) => sum + section.content.length, 0)
 
     console.log(`古文观止同步完成: ${totalChapters} 篇文章已导入`)
-    console.log('数据源: chinese-poetry-master/蒙学/guwenguanzhi.json')
   }
   catch (error) {
     console.error('古文观止同步失败:', error)

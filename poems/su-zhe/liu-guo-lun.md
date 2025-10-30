@@ -6,7 +6,7 @@ author: 蘇轍
 authorSlug: su-zhe
 dynasty: 宋代
 dynastySlug: song-dai
-tags: ["卷十一・宋文","古文观止"]
+tags: ["卷十一・宋文","古文观止","蒙学"]
 ---
 
 ## 正文

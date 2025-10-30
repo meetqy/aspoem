@@ -6,7 +6,7 @@ author: 左丘明
 authorSlug: zuo-qiu-ming
 dynasty: 先秦
 dynastySlug: xian-qin
-tags: ["卷三・周文","古文观止"]
+tags: ["卷三・周文","古文观止","蒙学"]
 ---
 
 ## 正文

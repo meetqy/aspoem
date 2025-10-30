@@ -6,7 +6,7 @@ author: 孔稚珪
 authorSlug: kong-zhi-gui
 dynasty: 南北朝
 dynastySlug: nan-bei-chao
-tags: ["卷七・六朝唐文","古文观止"]
+tags: ["卷七・六朝唐文","古文观止","蒙学"]
 ---
 
 ## 正文

@@ -6,7 +6,7 @@ author: 宗臣
 authorSlug: zong-chen
 dynasty: 明代
 dynastySlug: ming-dai
-tags: ["卷十二・明文","古文观止"]
+tags: ["卷十二・明文","古文观止","蒙学"]
 ---
 
 ## 正文

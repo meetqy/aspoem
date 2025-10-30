@@ -6,7 +6,7 @@ author: 劉禹錫
 authorSlug: liu-yu-xi
 dynasty: 唐代
 dynastySlug: tang-dai
-tags: ["卷七・六朝唐文","古文观止"]
+tags: ["卷七・六朝唐文","古文观止","蒙学"]
 ---
 
 ## 正文

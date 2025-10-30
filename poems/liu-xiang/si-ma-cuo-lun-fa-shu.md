@@ -6,7 +6,7 @@ author: 劉向
 authorSlug: liu-xiang
 dynasty: 兩漢
 dynastySlug: liang-han
-tags: ["卷四・戰國文","古文观止"]
+tags: ["卷四・戰國文","古文观止","蒙学"]
 ---
 
 ## 正文

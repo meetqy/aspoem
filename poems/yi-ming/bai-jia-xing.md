@@ -6,7 +6,7 @@ author: 佚名
 authorSlug: yi-ming
 dynasty: 北宋
 dynastySlug: bei-song
-tags: []
+tags: ["蒙学"]
 ---
 
 ## 正文

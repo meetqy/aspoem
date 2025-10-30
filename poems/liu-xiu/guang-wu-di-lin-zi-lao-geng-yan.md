@@ -6,7 +6,7 @@ author: 劉秀
 authorSlug: liu-xiu
 dynasty: 兩漢
 dynastySlug: liang-han
-tags: ["卷六・漢文","古文观止"]
+tags: ["卷六・漢文","古文观止","蒙学"]
 ---
 
 ## 正文

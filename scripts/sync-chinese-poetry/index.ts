@@ -25,8 +25,8 @@ function main() {
     syncChuci()
     syncBaijiaxing()
     syncDizigui()
-    // syncQianjiashi()
     syncGuwenguanzhi()
+    // syncQianjiashi()
   })
 }
 

@@ -6,7 +6,7 @@ author: 蘇軾
 authorSlug: su-shi
 dynasty: 宋代
 dynastySlug: song-dai
-tags: ["卷十・宋文","古文观止"]
+tags: ["卷十・宋文","古文观止","蒙学"]
 ---
 
 ## 正文

@@ -6,7 +6,7 @@ author: 王羲之
 authorSlug: wang-xi-zhi
 dynasty: 魏晉
 dynastySlug: wei-jin
-tags: ["卷七・六朝唐文","古文观止"]
+tags: ["卷七・六朝唐文","古文观止","蒙学"]
 ---
 
 ## 正文

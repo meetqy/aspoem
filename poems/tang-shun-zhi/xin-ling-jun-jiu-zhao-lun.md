@@ -6,7 +6,7 @@ author: 唐順之
 authorSlug: tang-shun-zhi
 dynasty: 明代
 dynastySlug: ming-dai
-tags: ["卷十二・明文","古文观止"]
+tags: ["卷十二・明文","古文观止","蒙学"]
 ---
 
 ## 正文

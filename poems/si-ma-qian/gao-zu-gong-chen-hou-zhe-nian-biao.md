@@ -6,7 +6,7 @@ author: 司馬遷
 authorSlug: si-ma-qian
 dynasty: 兩漢
 dynastySlug: liang-han
-tags: ["卷五・漢文","古文观止"]
+tags: ["卷五・漢文","古文观止","蒙学"]
 ---
 
 ## 正文
