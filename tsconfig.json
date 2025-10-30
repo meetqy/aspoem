@@ -19,8 +19,7 @@
     ],
     /* Path Aliases */
     "paths": {
-      "@/*": ["./src/*"],
-      "contentlayer/generated": ["./.contentlayer/generated"]
+      "@/*": ["./src/*"]
     },
     "resolveJsonModule": true,
     "allowJs": true,
@@ -43,8 +42,7 @@
     "**/*.cjs",
     "**/*.js",
     ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts",
-    ".contentlayer/generated"
+    ".next/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

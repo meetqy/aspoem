@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../contentlayer.config.ts"],
+  "sourcesContent": ["import { defineDocumentType, makeSource } from 'contentlayer2/source-files'\n\nexport const Poem = defineDocumentType(() => ({\n  name: 'Poem',\n  filePathPattern: `poems/**/*.md`,\n  fields: {\n    title: { type: 'string', required: true },\n  },\n  computedFields: {\n    url: { type: 'string', resolve: poem => `/poems/${poem._raw.flattenedPath}` },\n  },\n}))\n\nexport default makeSource({ contentDirPath: 'poems', documentTypes: [Poem] })\n"],
+  "mappings": ";AAAA,SAAS,oBAAoB,kBAAkB;AAExC,IAAM,OAAO,mBAAmB,OAAO;AAAA,EAC5C,MAAM;AAAA,EACN,iBAAiB;AAAA,EACjB,QAAQ;AAAA,IACN,OAAO,EAAE,MAAM,UAAU,UAAU,KAAK;AAAA,EAC1C;AAAA,EACA,gBAAgB;AAAA,IACd,KAAK,EAAE,MAAM,UAAU,SAAS,UAAQ,UAAU,KAAK,KAAK,aAAa,GAAG;AAAA,EAC9E;AACF,EAAE;AAEF,IAAO,8BAAQ,WAAW,EAAE,gBAAgB,SAAS,eAAe,CAAC,IAAI,EAAE,CAAC;",
+  "names": []
+}

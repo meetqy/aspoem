@@ -1,0 +1,17 @@
+{
+  "title": "寒食",
+  "body": {
+    "raw": "\n## 正文\n\n- 春城無處不飛花，寒食東風御柳斜。\n- 日暮漢宮傳蠟燭，輕煙散入五侯家。\n\n## 拼音\n\n- chun1 cheng2 wu2 chu3 bu4 fei1 hua1 ， han2 shi2 dong1 feng1 yu4 liu3 xie2 。\n- ri4 mu4 han4 gong1 chuan2 la4 zhu2 ， qing1 yan1 san4 ru4 wu3 hou2 jia1 。\n\n## 注释\n\n## 译文\n\n## 赏析\n",
+    "html": "<h2>正文</h2>\n<ul>\n<li>春城無處不飛花，寒食東風御柳斜。</li>\n<li>日暮漢宮傳蠟燭，輕煙散入五侯家。</li>\n</ul>\n<h2>拼音</h2>\n<ul>\n<li>chun1 cheng2 wu2 chu3 bu4 fei1 hua1 ， han2 shi2 dong1 feng1 yu4 liu3 xie2 。</li>\n<li>ri4 mu4 han4 gong1 chuan2 la4 zhu2 ， qing1 yan1 san4 ru4 wu3 hou2 jia1 。</li>\n</ul>\n<h2>注释</h2>\n<h2>译文</h2>\n<h2>赏析</h2>"
+  },
+  "_id": "han-hong/han-shi.md",
+  "_raw": {
+    "sourceFilePath": "han-hong/han-shi.md",
+    "sourceFileName": "han-shi.md",
+    "sourceFileDir": "han-hong",
+    "contentType": "markdown",
+    "flattenedPath": "han-hong/han-shi"
+  },
+  "type": "Poem",
+  "url": "/poems/han-hong/han-shi"
+}
