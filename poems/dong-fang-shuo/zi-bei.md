@@ -68,10 +68,10 @@ tags: []
 - yan4 bai2 yu4 yi3 wei2 mian4 xi1 ， huai2 wan3 yan3 yi3 wei2 xin1 。
 - xie2 qi4 ru4 er2 gan3 nei4 xi1 ， shi1 yu4 se4 er2 wai4 yin2 。
 - he2 qing1 yun2 zhi1 liu2 lan2 xi1 ， wei1 shuang1 jiang4 zhi1 meng2 meng2 。
-- xu2 feng1 zhi4 er2 pai2 huai2 xi1 ， ji2 feng1 guo4 zhi1 tang1 tang1 。
+- xu2 feng1 zhi4 er2 pai2 huai2 xi1 ， ji2 feng1 guo4 zhi1 shang1 shang1 。
 - wen2 nan2 fan1 le4 er2 yu4 wang3 xi1 ， zhi4 hui4 ji1 er2 qie3 zhi3 。
 - jian4 han2 zhong4 er2 su4 zhi1 xi1 ， wen4 tian1 dao4 zhi1 suo3 zai4 ？
-- jie4 fu2 yun2 yi3 song4 yu3 xi1 ， zai3 ci2 ni2 er2 wei4 jing1 。
+- jie4 fu2 yun2 yi3 song4 yu3 xi1 ， zai3 ci2 ni2 er2 wei2 jing1 。
 - jia4 qing1 long2 yi3 chi2 wu4 xi1 ， ban1 yan3 yan3 zhi1 ming2 ming2 。
 - hu1 rong2 rong2 qi2 an1 zhi1 xi1 ， chao1 huang1 hu1 qi2 yan1 ru2 ？
 - ku3 zhong4 ren2 zhi1 nan2 xin4 xi1 ， yuan4 li2 qun2 er2 yuan3 ju3 。
@@ -79,7 +79,7 @@ tags: []
 - guan1 tian1 huo3 zhi1 yan2 yang2 xi1 ， ting1 da4 he4 zhi1 bo1 sheng1 。
 - yin3 ba1 wei2 yi3 zi4 dao4 xi1 ， han2 hang4 xie4 yi3 chang2 sheng1 。
 - ju1 bu2 le4 yi3 shi2 si1 xi1 ， shi2 cao3 mu4 zhi1 qiu1 shi2 。
-- yin3 jun1 ruo4 zhi1 chao2 lu4 xi1 ， gou4 gui4 mu4 er2 wei4 shi4 。
+- yin3 jun1 ruo4 zhi1 zhao1 lu4 xi1 ， gou4 gui4 mu4 er2 wei2 shi4 。
 - za2 ju2 you4 yi3 wei2 you4 xi1 ， lie4 xin1 yi2 yu3 jiao1 zhen1 。
 - kun1 he4 gu1 er2 ye4 hao4 xi1 ， ai1 ju1 zhe3 zhi1 cheng2 zhen1 。
 

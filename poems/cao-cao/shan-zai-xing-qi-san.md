@@ -24,7 +24,7 @@ tags: []
 
 ## 拼音
 
-- chao2 ri4 le4 xiang1 le4 ， han1 yin3 bu4 zhi1 zui4 。
+- zhao1 ri4 le4 xiang1 le4 ， han1 yin3 bu4 zhi1 zui4 。
 - bei1 xian2 ji1 xin1 sheng1 ， chang2 di2 chui1 qing1 qi4 。
 - xian2 ge1 gan3 ren2 chang2 ， si4 zuo4 jie1 huan1 yue4 。
 - liao2 liao2 gao1 tang2 shang4 ， liang2 feng1 ru4 wo3 shi4 。

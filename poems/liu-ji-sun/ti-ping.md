@@ -16,7 +16,7 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 拼音
 
-- ni2 nan2 yan4 zi0 yu3 liang2 jian4 ， di3 shi4 lai2 jing1 meng4 li3 xian2 。
+- ni2 nan2 yan4 zi3 yu3 liang2 jian4 ， di3 shi4 lai2 jing1 meng4 li3 xian2 。
 - shuo1 yu3 pang2 ren2 hun2 bu4 jie3 ， zhang4 li2 xie2 jiu3 kan4 zhi1 shan1 。
 
 ## 注释

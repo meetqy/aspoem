@@ -40,7 +40,7 @@ tags: []
 - feng1 xi2 xi2 xi1 he2 nuan3 ， bai3 cao3 meng2 xi1 hua2 rong2 。
 - jin3 tu2 mao4 xi1 fu2 shu1 ， heng2 zhi3 diao1 xi1 ying2 ming2 。
 - min3 zhen1 liang2 xi1 yu4 hai4 ， jiang1 yao1 zhe2 xi1 sui4 mi2 。
-- shi2 hun4 hun4 xi1 jiao1 zan4 ， ai1 dang1 shi4 xi1 mo4 zhi1 。
+- shi2 hun4 hun0 xi1 jiao1 zan4 ， ai1 dang1 shi4 xi1 mo4 zhi1 。
 - lan3 wang3 xi1 xi1 jun4 yan4 ， yi4 qu1 ru3 xi1 xi4 lei2 。
 - guan3 shu4 fu4 xi1 zhi4 gu4 ， bai3 mao4 yi4 xi1 chuan2 mai4 。
 - zao1 huan2 miu4 xi1 shi2 ju3 ， cai2 de2 yong4 xi1 lie4 shi1 。

@@ -32,7 +32,7 @@ tags: []
 - wang2 zhe3 xian2 qie3 ming2 ， zai3 xiang4 gu3 gong1 jie1 zhong1 liang2 。
 - xian2 li3 rang4 ， min2 wu2 suo3 zheng1 song4 。
 - san1 nian2 geng1 you3 jiu3 nian2 chu3 ， cang1 gu3 man3 ying2 。
-- ban1 bai2 bu2 fu4 zai4 。
+- ban1 bai2 bu2 fu4 zai3 。
 - yu3 ze2 ru2 ci3 ， bai3 gu3 yong4 cheng2 。
 - que4 zou3 ma3 ， yi3 fen4 qi2 tu3 tian2 。
 - jue2 gong1 hou2 bai3 zi0 nan2 ， xian2 ai4 qi2 min2 ， yi3 chu4 zhi4 you1 ming2 。

@@ -56,12 +56,12 @@ tags: []
 - nian4 yu2 bang1 zhi1 heng2 xian4 xi1 ， zong1 gui3 shen2 zhi1 wu2 ci4 。
 - min3 xian1 si4 zhi1 zhong1 jue2 xi1 ， xin1 huang2 huo4 er2 zi4 bei1 。
 - liao2 fu2 you2 yu2 shan1 xia2 xi1 ， bu4 zhou1 liu2 yu2 jiang1 pan4 。
-- lin2 shen1 shui3 er2 chang2 xiao4 xi1 ， qie3 tang3 yang2 er2 fan2 guan1 。
+- lin2 shen1 shui3 er2 chang2 xiao4 xi1 ， qie3 chang2 yang2 er2 fan2 guan1 。
 - xing1 li2 sao1 zhi1 wei1 wen2 xi1 ， ji4 ling2 xiu1 zhi1 yi1 wu4 。
 - hai2 yu2 che1 yu2 nan2 ying3 xi1 ， fu4 wang3 gui3 yu2 chu1 gu3 。
 - dao4 xiu1 yuan3 qi2 nan2 qian1 xi1 ， shang1 yu2 xin1 zhi1 bu4 neng2 yi3 。
 - bei4 san1 wu3 zhi1 dian3 xing2 xi1 ， jue2 hong2 fan4 zhi1 pi4 ji4 。
-- bo1 gui1 ju3 yi3 bei4 du4 xi1 ， cuo4 quan2 heng2 er2 ren4 yi4 。
+- bo1 gui1 ju0 yi3 bei4 du4 xi1 ， cuo4 quan2 heng2 er2 ren4 yi4 。
 - cao1 sheng2 mo4 er2 fang4 qi4 xi1 ， qing1 rong2 xing4 er2 shi4 ce4 。
 - gan1 tang2 ku1 yu2 feng1 cao3 xi1 ， li2 ji2 shu4 yu2 zhong1 ting2 。
 - xi1 shi1 chi4 yu2 bei3 gong1 xi1 ， pi3 sui1 yi3 yu2 mi2 ying2 。
@@ -70,7 +70,7 @@ tags: []
 - gai4 jian4 zi1 yi3 yong3 tan4 xi1 ， yu4 deng1 jie1 er2 hu2 yi2 。
 - cheng2 bai2 shui3 er2 gao1 wu4 xi1 ， yin1 xi3 chi2 er2 chang2 ci2 。
 - tan4 yue1 ：
-- tang3 yang2 lu2 ban3 zhao3 shui3 shen1 xi1 ， rong2 yu3 han4 zhu3 ti4 yin2 yin2 xi1 ， zhong1 ya2 yi3 si3 shui2 wei4 sheng1 xi1 ？
+- chang2 yang2 lu2 ban3 zhao3 shui3 shen1 xi1 ， rong2 yu3 han4 zhu3 ti4 yin2 yin2 xi1 ， zhong1 ya2 yi3 si3 shui2 wei4 sheng1 xi1 ？
 - xian1 a1 bu2 yu4 yan1 shu1 qing2 xi1 ， ceng2 ai1 qi1 xi1 xin1 li2 li2 xi1 ， hai2 gu4 gao1 qiu1 qi4 ru2 sa3 xi1 。
 
 ## 注释

@@ -17,7 +17,7 @@ tags: ["五言絕句","千家诗","蒙学"]
 ## 拼音
 
 - fan3 zhao4 ru4 lü2 xiang4 ， you1 lai2 shui2 gong4 yu3 。
-- gu3 dao4 shao3 ren2 xing2 ， qiu1 feng1 dong4 he2 shu3 。
+- gu3 dao4 shao3 ren2 hang2 ， qiu1 feng1 dong4 he2 shu3 。
 
 ## 注释
 

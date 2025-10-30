@@ -62,13 +62,13 @@ tags: []
 - wai4 pang2 huang2 er2 you2 lan3 xi1 ， nei4 ce4 yin3 er2 han2 ai1 。
 - liao2 xu1 yu2 yi3 shi2 wang4 xi1 ， xin1 jian4 jian4 qi2 fan2 cuo4 。
 - yuan2 jia3 huang2 yi3 shu1 you1 xi1 ， zhi4 yu1 yu4 qi2 nan2 shi4 。
-- tan4 《 li2 sao1 》 yi3 yang2 yi4 xi1 ， you2 wei4 dan1 yu2 《 jiu3 zhang1 》 。
+- tan4 《 li2 sao1 》 yi3 yang2 yi4 xi1 ， you2 wei4 dan1 yu2 《 jiu3 zhang1 》。
 - chang2 xu1 xi1 yi3 yu2 yi4 xi1 ， ti4 heng2 ji2 er2 cheng2 xing2 。
 - shang1 ming2 zhu1 zhi1 fu4 ni2 xi1 ， yu2 yan3 ji1 zhi1 jian1 cang2 。
 - tong2 nu2 luo2 yu3 cheng2 zang3 xi1 ， za2 ban1 bo2 yu3 ta4 rong2 。
 - ge3 lei3 lei2 yu2 gui4 shu4 xi1 ， chi1 xiao1 ji2 yu2 mu4 lan2 。
 - wo4 cu4 tan2 yu2 lang2 miao4 xi1 ， lü4 kui2 fang4 hu1 shan1 jian1 。
-- e4 yu2 shi4 zhi1 xiao1 《 shao2 》 xi1 ， hao3 yi2 feng1 zhi1 《 ji1 chu3 》 。
+- e4 yu2 shi4 zhi1 xiao1 《 shao2 》 xi1 ， hao3 yi2 feng1 zhi1 《 ji1 chu3 》。
 - qian2 zhou1 ding3 yu2 jiang1 huai2 xi1 ， cuan4 tu3 xin2 yu2 zhong1 yu3 。
 - qie3 ren2 xin1 zhi1 chi2 jiu4 xi1 ， er2 bu4 ke3 bao3 zhang3 。
 - zhan1 bi3 nan2 dao4 xi1 ， zheng1 fu1 xiao1 xing2 。

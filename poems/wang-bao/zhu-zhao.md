@@ -35,7 +35,7 @@ tags: []
 - bei1 zai1 yu2 jie1 xi1 ， xin1 nei4 qie1 cuo1 。
 - kuan3 dong1 er2 sheng1 xi1 ， diao1 bi3 ye4 ke1 。
 - wa3 li4 jin4 bao3 xi1 ， juan1 qi4 sui2 he2 。
-- qian1 dao1 li4 yu4 xi1 ， dun4 qi4 tai4 a1 。
+- qian1 dao1 li4 yu4 xi1 ， dun4 qi4 tai4 e1 。
 - ji4 chui2 liang3 er3 xi1 ， zhong1 ban3 cuo1 tuo2 。
 - jian3 lü2 fu2 jia4 xi1 ， wu2 yong4 ri4 duo1 。
 - xiu1 jie2 chu4 you1 xi1 ， gui4 chong3 sha1 mo2 。
@@ -49,7 +49,7 @@ tags: []
 - hai2 gu4 shi4 su2 xi1 ， huai4 bai4 wang3 luo2 。
 - juan4 pei4 jiang1 shi4 xi1 ， ti4 liu2 pang1 duo4 。
 - luan4 yue1 ： huang2 men2 kai1 xi1 zhao4 xia4 tu3 ， zhu1 hui4 chu2 xi1 lan2 zhi3 du3 。
-- si4 ning4 fang4 xi1 hou4 de2 yu3 ， sheng4 shun4 she4 xi1 zhao1 yao2 xu4 ， shu2 neng2 ruo4 xi1 yuan2 wei4 fu3 。
+- si4 ning4 fang4 xi1 hou4 de2 yu3 ， sheng4 shun4 she4 xi1 zhao1 yao2 xu4 ， shu2 neng2 ruo4 xi1 yuan2 wei2 fu3 。
 
 ## 注释
 

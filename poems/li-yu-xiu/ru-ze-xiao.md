@@ -28,19 +28,19 @@ tags: ["蒙学"]
 
 ## 拼音
 
-- fu4 mu3 hu1   ying1 wu4 huan3   fu4 mu3 ming4   xing2 wu4 lan3
-- fu4 mu3 jiao4   xu1 jing4 ting1   fu4 mu3 ze2   xu1 shun4 cheng2
-- dong1 ze2 wen1   xia4 ze2 qing4   chen2 ze2 sheng3   hun1 ze2 ding4
-- chu1 bi4 gao4   fan3 bi4 mian4   ju1 you3 chang2   ye4 wu2 bian4
-- shi4 sui1 xiao3   wu4 shan4 wei2   gou3 shan4 wei2   zi3 dao4 kui1
-- wu4 sui1 xiao3   wu4 si1 cang2   gou3 si1 cang2   qin1 xin1 shang1
-- qin1 suo3 hao3   li4 wei2 ju4   qin1 suo3 e4   jin3 wei2 qu4
-- shen1 you3 shang1   yi2 qin1 you1   de2 you3 shang1   yi2 qin1 xiu1
-- qin1 ai4 wo3   xiao4 he2 nan2   qin1 zeng1 wo3   xiao4 fang1 xian2
-- qin1 you3 guo4   jian4 shi3 geng4   yi2 wu2 se4   rou2 wu2 sheng1
-- jian4 bu2 ru4   yue4 fu4 jian4   hao4 qi4 sui2   ta4 wu2 yuan4
-- qin1 you3 ji2   yao4 xian1 chang2   zhou4 ye4 shi4   bu4 li2 chuang2
-- sang1 san1 nian2   chang2 bei1 yan4   ju1 chu3 bian4   jiu3 rou4 jue2
+- fu4 mu3 hu1   ying1 wu4 huan3   fu4 mu3 ming4   xing2 wu4 lan3 
+- fu4 mu3 jiao4   xu1 jing4 ting1   fu4 mu3 ze2   xu1 shun4 cheng2 
+- dong1 ze2 wen1   xia4 ze2 qing4   chen2 ze2 sheng3   hun1 ze2 ding4 
+- chu1 bi4 gao4   fan3 bi4 mian4   ju1 you3 chang2   ye4 wu2 bian4 
+- shi4 sui1 xiao3   wu4 shan4 wei2   gou3 shan4 wei2   zi3 dao4 kui1 
+- wu4 sui1 xiao3   wu4 si1 cang2   gou3 si1 cang2   qin1 xin1 shang1 
+- qin1 suo3 hao3   li4 wei2 ju4   qin1 suo3 e4   jin3 wei2 qu4 
+- shen1 you3 shang1   yi2 qin1 you1   de2 you3 shang1   yi2 qin1 xiu1 
+- qin1 ai4 wo3   xiao4 he2 nan2   qin1 zeng1 wo3   xiao4 fang1 xian2 
+- qin1 you3 guo4   jian4 shi3 geng4   yi2 wu2 se4   rou2 wu2 sheng1 
+- jian4 bu2 ru4   yue4 fu4 jian4   hao4 qi4 sui2   ta4 wu2 yuan4 
+- qin1 you3 ji2   yao4 xian1 chang2   zhou4 ye4 shi4   bu4 li2 chuang2 
+- sang1 san1 nian2   chang2 bei1 ye4   ju1 chu3 bian4   jiu3 rou4 jue2 
 - sang1 jin4 li3   ji4 jin4 cheng2   shi4 si3 zhe3   ru2 shi4 sheng1
 
 ## 注释

@@ -67,10 +67,10 @@ tags: []
 - wan3 xiong1 qi4 yu2 ze2 zhou1 xi1 ， bo2 li4 du4 yu2 kuang1 lu4 。
 - qi2 lin2 ben1 yu2 jiu3 gao1 xi1 ， xiong2 pi2 qun2 er2 yi4 you4 。
 - zhe2 fang1 zhi1 yu3 qiong2 hua2 xi1 ， shu4 zhi3 ji2 yu3 xin1 chai2 。
-- jue2 quan2 hui4 yu3 she4 gan4 xi1 ， yun2 li2 huo4 yu3 rang2 he2 。
+- jue2 quan2 hui4 yu3 she4 gan1 xi1 ， yun2 li2 huo4 yu3 rang2 he2 。
 - xi1 jin1 shi4 qi2 he2 shu1 xi1 ， yuan3 jin4 si1 er2 bu4 tong2 。
 - huo4 chen2 lun2 qi2 wu2 suo3 da2 xi1 ， huo4 qing1 ji1 qi2 wu2 suo3 tong1 。
-- ai1 yu2 sheng1 zhi1 bu4 dang1 xi1 ， du2 meng2 du2 er2 feng2 you2 。
+- ai1 yu2 sheng1 zhi1 bu2 dang4 xi1 ， du2 meng2 du2 er2 feng2 you2 。
 - sui1 jian3 jian3 yi3 shen1 zhi4 xi1 ， jun1 guai1 cha4 er2 ping2 zhi1 。
 - cheng2 xi1 fang1 zhi1 fei1 fei1 xi1 ， fan3 yi3 zi1 wei4 fu3 ye3 。
 - huai2 jiao1 liao2 zhi1 she4 she4 xi1 ， nai3 feng2 fen1 yi3 li2 gou4 ye3 。

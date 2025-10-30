@@ -60,19 +60,19 @@ tags: []
 - ming2 ming2 ri4 yue4 guang1 ， he2 suo3 bu4 guang1 zhao1 ！
 - er4 yi2 he2 sheng4 hua4 ， gui4 zhe3 du2 ren2 bu4 ？
 - wan4 guo2 lü4 tu3 ， mo4 fei1 wang2 chen2 。
-- ren2 yi4 wei4 ming2 ， li3 yue4 wei4 rong2 。
+- ren2 yi4 wei2 ming2 ， li3 yue4 wei4 rong2 。
 - ge1 yi3 yan2 zhi4 ， ming2 ming2 ri4 yue4 guan1 。
 - si4 shi2 geng4 shi4 qu4 ， zhou4 ye4 yi3 cheng2 sui4 。
 - si4 shi2 geng4 shi4 qu4 ， zhou4 ye4 yi3 cheng2 sui4 。
 - da4 ren2 xian1 tian1 er2 tian1 fu2 wei2 。
 - bu4 qi1 nian2 wang3 ， you1 shi4 bu2 zhi4 。
-- cun2 wang2 you3 ming4 ， lü4 zhi1 wei4 chi1 。
+- cun2 wang2 you3 ming4 ， lü4 zhi1 wei2 chi1 。
 - ge1 yi3 yan2 zhi4 ， si4 shi2 geng4 shi4 qu4 。
 - qi1 qi1 yu4 he2 nian4 ！ huan1 xiao4 yi4 suo3 zhi1 。
 - qi1 qi1 yu4 he2 nian4 ！ huan1 xiao4 yi4 suo3 zhi1 。
 - zhuang4 sheng4 zhi4 yu2 ， shu1 bu2 zai4 lai2 。
 - ai4 shi2 jin4 qu4 ， jiang1 yi3 hui4 shui2 ？
-- fan4 fan4 fang4 yi4 ， yi4 tong2 he2 wei4 ！
+- fan4 fan4 fang4 yi4 ， yi4 tong2 he2 wei2 ！
 - ge1 yi3 yan2 zhi4 ， qi1 qi1 yu4 he2 nian4 ！
 
 ## 注释

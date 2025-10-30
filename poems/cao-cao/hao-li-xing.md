@@ -24,8 +24,8 @@ tags: []
 
 - guan1 dong1 you3 yi4 shi4 ， xing1 bing1 tao3 qun2 xiong1 。
 - chu1 qi1 hui4 meng2 jin1 ， nai3 xin1 zai4 xian2 yang2 。
-- jun1 he2 li4 bu4 qi2 ， chou2 chu2 er2 yan4 xing2 。
-- shi4 li4 shi3 ren2 zheng1 ， si4 hai2 zi4 xiang1 qiang1 。
+- jun1 he2 li4 bu4 qi2 ， chou2 chu2 er2 yan4 hang2 。
+- shi4 li0 shi3 ren2 zheng1 ， si4 hai2 zi4 xiang1 qiang1 。
 - huai2 nan2 di4 cheng1 hao4 ， ke4 xi3 wu1 bei3 fang1 。
 - kai3 jia3 sheng1 ji3 shi1 ， wan4 xing4 yi3 si3 wang2 。
 - bai2 gu3 lu4 wu1 ye3 ， qian1 li3 wu2 ji1 ming2 。

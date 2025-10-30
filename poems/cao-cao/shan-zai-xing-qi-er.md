@@ -35,7 +35,7 @@ tags: []
 - wo3 yuan4 yu2 tian1 qiong2 ， lang2 xie2 qing1 ce4 zuo3 。
 - sui1 yu4 jie2 zhong1 cheng2 ， xin1 gong1 gui1 qi2 chu3 。
 - kuai4 ren2 you2 wei4 tan4 ， bao4 qing2 bu4 de2 xu4 。
-- xian3 xing2 tian1 jiao4 ren2 ， shui2 zhi1 mo4 bu2 xu4 。
+- xian3 xing2 tian1 jiao1 ren2 ， shui2 zhi1 mo4 bu2 xu4 。
 - wo3 yuan4 he2 shi2 sui2 ？ ci3 tan4 yi4 nan2 chu4 。
 - jin1 wo3 jiang1 he2 zhao4 yu2 guang1 yao4 ？ shi4 xian2 bu4 ru2 yu3 。
 

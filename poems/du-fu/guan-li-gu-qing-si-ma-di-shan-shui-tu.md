@@ -20,7 +20,7 @@ tags: ["五言律詩","千家诗","蒙学"]
 
 - fang1 zhang4 hun2 lian2 shui3 ， tian1 tai2 zong3 ying4 yun2 。
 - ren2 jian4 chang2 jian4 hua4 ， lao3 qu4 xian4 kong1 wen2 。
-- fan4 li2 zhou1 pian1 xiao3 ， wang2 qiao2 he4 bu4 qun2 。
+- fan4 li3 zhou1 pian1 xiao3 ， wang2 qiao2 he4 bu4 qun2 。
 - ci3 sheng1 sui2 wan4 wu4 ， he2 chu3 chu1 chen2 fen1 。
 
 ## 注释

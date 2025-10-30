@@ -79,7 +79,7 @@ tags: []
 - wei2 jia1 ren2 zhi1 yong3 dou1 xi1 ， geng4 tong3 shi4 yi3 zi4 kuang4 。
 - miao3 yuan3 zhi4 zhi1 suo3 ji2 xi1 ， lian2 fu2 yun2 zhi1 xiang1 yang2 。
 - jie4 miao3 zhi4 zhi1 suo3 huo4 xi1 ， qie4 fu4 shi1 zhi1 suo3 ming2 。
-- wei2 jia1 ren2 zhi1 du2 huai2 xi1 ， zhe2 ruo4 jiao1 yi3 zi4 chu4 。
+- wei2 jia1 ren2 zhi1 du2 huai2 xi1 ， zhe2 ruo4 jiao1 yi3 zi4 chu3 。
 - ceng2 xu1 xi1 zhi1 jie1 jie1 xi1 ， du2 yin3 fu2 er2 si1 lü4 。
 - ti4 qi4 jiao1 er2 qi1 qi1 xi1 ， si1 bu4 mian2 yi3 zhi4 shu3 。
 - zhong1 chang2 ye4 zhi1 man4 man4 xi1 ， yan3 ci3 ai1 er2 bu2 qu4 。
@@ -87,7 +87,7 @@ tags: []
 - shang1 tai4 xi1 zhi1 min3 lian2 xi1 ， qi4 yu2 yi4 er2 bu4 ke3 zhi3 。
 - jiu1 si1 xin1 yi3 wei2 rang3 xi1 ， bian1 chou2 ku3 yi3 wei2 ying1 。
 - zhe2 ruo4 mu4 yi3 bi4 guang1 xi1 ， sui2 piao1 feng1 zhi1 suo3 reng2 。
-- cun2 pang2 fo2 er2 bu2 jian4 xi1 ， xin1 yong3 yue4 qi2 ruo4 tang1 。
+- cun2 fang3 fu2 er2 bu2 jian4 xi1 ， xin1 yong3 yue4 qi2 ruo4 tang1 。
 - fu3 pei4 ren4 yi3 an4 zhi4 xi1 ， chao1 wang3 wang3 er2 sui4 xing2 。
 - sui4 hu1 hu1 qi2 ruo4 tui2 xi1 ， shi2 yi4 ran3 ran3 er2 jiang1 zhi4 。
 - fan2 heng2 gao3 er2 jie2 li2 xi1 ， fang1 yi3 xie1 er2 bu4 bi3 。

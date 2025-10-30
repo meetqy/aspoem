@@ -32,7 +32,7 @@ tags: []
 
 - shi4 hun4 xi1 ming2 hun1 ， wei2 jun1 xi1 gui1 zhen1 。
 - cheng2 long2 xi1 yan3 jian3 ， gao1 hui2 xiang2 xi1 shang4 zhen1 。
-- xi2 ying1 yi1 xi1 ti2 【 si1 xi2 】 ， pi1 hua2 shang0 xi1 fang1 fen1 。
+- xi2 ying1 yi1 xi1 ti2 【 si1 xi2 】， pi1 hua2 shang0 xi1 fang1 fen1 。
 - deng1 yang2 jiao3 xi1 fu2 yu2 ， fu2 yun2 mo4 xi1 zi4 yu2 。
 - wo4 shen2 jing1 xi1 yong1 rong2 ， yu3 shen2 ren2 xi1 xiang1 xu1 。
 - liu2 xing1 zhui4 xi1 cheng2 yu3 ， jin4 lin2 pan4 xi1 shang4 qiu1 xu1 。

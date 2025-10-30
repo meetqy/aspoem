@@ -81,7 +81,7 @@ tags: []
 - du2 yuan1 yi4 er2 wu2 ji2 xi1 ， shang1 jing1 shen2 er2 shou4 yao1 。
 - huang2 tian1 ji4 bu4 chun2 ming4 xi1 ， yu2 sheng1 zhong1 wu2 suo3 yi1 。
 - yuan4 zi4 chen2 yu2 jiang1 liu2 xi1 ， jue2 heng2 liu2 er2 jing4 shi4 。
-- ning2 wei4 jiang1 hai3 zhi1 ni2 tu2 xi1 ， an1 neng2 jiu3 jian4 ci3 zhuo2 shi4 ？
+- ning4 wei2 jiang1 hai3 zhi1 ni2 tu2 xi1 ， an1 neng2 jiu3 jian4 ci3 zhuo2 shi4 ？
 
 ## 注释
 

@@ -53,7 +53,7 @@ tags: []
 - qing2 kai3 kai3 er2 chang2 huai2 xi1 ， xin4 shang4 huang2 er2 zhi4 zheng4 。
 - he2 wu3 yue4 yu3 ba1 ling2 xi1 ， xun4 jiu3 qi2 yu3 liu4 shen2 。
 - zhi3 lie4 su4 yi3 bai2 qing2 xi1 ， su4 wu3 di4 yi3 zhi4 ci2 。
-- bei3 dou4 wei4 wo3 zhe2 zhong1 xi1 ， tai4 yi2 wei4 yu2 ting1 zhi1 。
+- bei3 dou3 wei4 wo3 zhe2 zhong1 xi1 ， tai4 yi2 wei4 yu2 ting1 zhi1 。
 - yun2 fu2 yin1 yang2 zhi1 zheng4 dao4 xi1 ， yu4 hou4 tu3 zhi1 zhong1 he2 。
 - pei4 cang1 long2 zhi1 you4 qiu2 xi1 ， dai4 yin3 hong2 zhi1 wei1 she2 。
 - ye4 hui4 xing1 zhi1 hao4 gan4 xi1 ， fu3 zhu1 jue2 yu3 jun4 yi4 。

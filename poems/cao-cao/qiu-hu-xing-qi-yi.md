@@ -58,7 +58,7 @@ tags: []
 - qu4 qu4 bu4 ke3 zhui1 ， chang2 hen4 xiang1 qian1 pan1 。
 - ye4 ye4 an1 de2 mei4 ， chou2 chang4 yi3 zi4 lian2 。
 - zheng4 er2 bu4 jue2 ， ci2 fu4 yi1 yin1 。
-- jing1 zhuan4 suo3 guo4 ， xi1 lai2 suo3 chuan2 。
+- jing1 zhuan4 suo3 guo4 ， xi1 lai2 suo3 zhuan4 。
 - ge1 yi3 yan2 zhi4 ， qu4 qu4 bu4 ke3 zhui1 。
 
 ## 注释

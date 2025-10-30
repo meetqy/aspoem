@@ -16,7 +16,7 @@ tags: ["蒙学"]
 
 ## 拼音
 
-- di4 zi3 gui1   sheng4 ren2 xun4   shou3 xiao4 di4   ci4 jin3 xin4
+- di4 zi3 gui1   sheng4 ren2 xun4   shou3 xiao4 di4   ci4 jin3 xin4 
 - fan4 ai4 zhong4   er2 qin1 ren2   you3 yu2 li4   ze2 xue2 wen2
 
 ## 注释

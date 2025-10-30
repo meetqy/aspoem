@@ -29,6 +29,7 @@
   "dependencies": {
     "@auth/prisma-adapter": "^2.7.2",
     "@hookform/resolvers": "^5.2.2",
+    "@pinyin-pro/data": "^1.2.0",
     "@prisma/client": "^6.18.0",
     "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-label": "^2.1.7",

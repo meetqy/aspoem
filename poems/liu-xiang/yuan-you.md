@@ -77,7 +77,7 @@ tags: []
 - huai2 lan2 chai3 zhi1 fen1 fang1 xi1 ， du4 bei4 li2 er2 zhe2 zhi1 。
 - zhang1 jiang4 wei2 yi3 chan1 chan1 xi1 ， feng1 yi4 yi4 er2 bi4 zhi1 。
 - ri4 tun1 tun1 qi2 xi1 she4 xi1 ， yang2 yan4 yan4 er2 fu4 gu4 。
-- liao2 jia3 ri4 yi3 xu1 yu2 xi1 ， he2 sao1 sao1 er2 zi4 gu4 。
+- liao2 jia4 ri4 yi3 xu1 yu2 xi1 ， he2 sao1 sao1 er2 zi4 gu4 。
 - tan4 yue1 ：
 - pi4 bi3 jiao1 long2 cheng2 yun2 fu2 xi1 ， fan4 yin2 hong4 rong2 fen1 ruo4 wu4 xi1 。
 - chan2 yuan2 jiao1 ge2 lei2 dong4 dian4 fa1 sa4 gao1 ju3 xi1 。

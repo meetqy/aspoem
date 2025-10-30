@@ -29,7 +29,7 @@ tags: []
 - jue2 chu1 sheng1 ，
 - zao4 hua4 zhi1 tao2 wu4 ， mo4 bu4 you3 zhong1 qi1 。
 - mo4 bu4 you3 zhong1 qi1 。
-- sheng4 xian2 bu4 neng2 mian3 ， he2 wei4 huai2 ci3 you1 ？
+- sheng4 xian2 bu4 neng2 mian3 ， he2 wei2 huai2 ci3 you1 ？
 - yuan4 chi1 long2 zhi1 jia4 ， si1 xiang3 kun1 lun2 ju1 。
 - si1 xiang3 kun1 lun2 ju1 。
 - jian4 qi1 yu2 yu1 guai4 ， zhi4 yi4 zai4 peng2 lai2 。

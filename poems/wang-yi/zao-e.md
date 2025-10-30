@@ -37,7 +37,7 @@ tags: []
 - zhi3 zheng4 yi4 xi1 wei4 qu3 ， zi3 yu4 bi4 xi1 wei4 shi2 。
 - chi1 diao1 you2 xi1 hua2 wu1 ， jun4 yi4 qi1 xi1 chai2 cu4 。
 - qi3 fen4 xun4 xi1 ben1 zou3 ， wei2 qun2 xiao3 xi1 xi3 gou4 。
-- zai3 qing1 yun2 xi1 shang4 sheng1 ， shi4 zhao1 ming2 xi1 suo3 chu4 。
+- zai3 qing1 yun2 xi1 shang4 sheng1 ， shi4 zhao1 ming2 xi1 suo3 chu3 。
 - nie4 tian1 qu2 xi1 chang2 qu1 ， zhong3 jiu3 yang2 xi1 xi4 dang4 。
 - yue4 yun2 han4 xi1 nan2 ji4 ， mo4 yu2 ma3 xi1 he2 gu3 。
 - yun2 ni2 fen1 xi1 an3 yi4 ， can1 chen2 hui2 xi1 dian1 dao3 。

@@ -56,7 +56,7 @@ tags: []
 - fang1 yi4 yi4 er2 zhong1 bai4 xi1 ， ming2 mi2 san4 er2 bu4 zhang1 。
 - bei4 yu4 men2 yi3 ben1 wu4 xi1 ， jian3 li2 you2 er2 gan1 gou4 。
 - ruo4 long2 feng2 zhi1 chen2 shou3 xi1 ， wang2 zi3 bi3 gan1 zhi1 feng2 hai3 。
-- nian4 she4 ji4 zhi1 ji3 wei1 xi1 ， fan3 wei4 chou2 er2 jian4 yuan4 。
+- nian4 she4 ji4 zhi1 ji3 wei1 xi1 ， fan3 wei2 chou2 er2 jian4 yuan4 。
 - si1 guo2 jia1 zhi1 li2 ju3 xi1 ， gong1 huo4 qian1 er2 jie2 nan2 。
 - ruo4 qing1 ying2 zhi1 wei3 zhi4 xi1 ， jin4 li2 ji1 zhi1 fan3 qing2 。
 - kong3 deng1 jie1 zhi1 feng2 dai4 xi1 ， gu4 tui4 fu2 yu2 mo4 ting2 。

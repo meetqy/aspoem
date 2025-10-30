@@ -21,7 +21,7 @@ tags: ["七言律詩","千家诗","蒙学"]
 - da4 jiang1 nan2 zheng1 dan3 qi4 hao2 ， yao1 heng2 qiu1 shui3 yan4 ling2 dao1 。
 - feng1 chui1 tuo2 gu3 shan1 he2 dong4 ， dian4 shan3 jing1 qi2 ri4 yue4 gao1 。
 - tian1 shang4 qi2 lin2 yuan2 you3 zhong3 ， xue2 zhong1 lou2 yi3 qi3 neng2 tao2 。
-- tai4 ping2 dai4 zhao4 gui1 lai2 ri4 ， zhen4 yu3 xian1 sheng1 jie3 zhan4 pao2 。
+- tai4 ping2 dai4 zhao4 gui1 lai2 ri4 ， zhen4 yu3 xian1 sheng0 jie3 zhan4 pao2 。
 
 ## 注释
 

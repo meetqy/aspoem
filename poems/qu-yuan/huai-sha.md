@@ -65,13 +65,13 @@ tags: []
 - zhang1 hua4 zhi4 mo4 xi1 ， qian2 tu2 wei4 gai3 。
 - nei4 hou4 zhi4 zheng4 xi1 ， da4 ren2 suo3 sheng4 。
 - qiao3 chui2 bu4 zhuo2 xi1 ， shu2 cha2 qi2 bo1 zheng4 。
-- xuan2 wen2 chu4 you1 xi1 ， meng1 sou3 wei4 zhi1 bu4 zhang1
+- xuan2 wen2 chu4 you1 xi1 ， meng1 sou3 wei4 zhi1 bu4 zhang1 
 - li2 lou2 wei1 di4 xi1 ， gu3 yi3 wei2 wu2 ming2 。
-- bian4 bai2 yi3 wei2 hei1 xi1 ， dao3 shang4 yi3 wei2 xia4 。
+- bian4 bai2 yi3 wei2 hei1 xi1 ， dao3 shang4 yi3 wei4 xia4 。
 - feng4 huang2 zai4 nu2 xi1 ， ji1 wu4 xiang2 wu3 。
-- tong2 rou2 yu4 shi2 xi1 ， yi2 gai4 er2 xiang1 liang2 。
+- tong2 rou2 yu4 shi2 xi1 ， yi2 gai4 er2 xiang1 liang4 。
 - fu1 wei2 dang3 ren2 zhi1 bi3 gu4 xi1 ， qiang1 bu4 zhi1 yu2 zhi1 suo3 zang1 。
-- ren4 zhong4 zai3 sheng4 xi1 ， xian4 zhi4 er2 bu2 ji4 。
+- ren4 zhong4 zai4 sheng4 xi1 ， xian4 zhi4 er2 bu2 ji4 。
 - huai2 jin3 wo4 yu2 xi1 ， qiong2 bu4 zhi1 suo3 shi4 。
 - yi4 quan3 zhi1 qun2 fei4 xi1 ， fei4 suo3 guai4 ye3 。
 - fei1 jun4 yi2 jie2 xi1 ， gu4 yong1 tai4 ye3 。

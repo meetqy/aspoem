@@ -144,7 +144,7 @@ tags: []
 
 ## 拼音
 
-- bei1 zai1 ， qiu1 zhi1 wei4 qi4 ye3 ！ xiao1 se4 xi1 cao3 mu4 yao2 luo4 er2 bian4 shuai1 。
+- bei1 zai1 ， qiu1 zhi1 wei2 qi4 ye3 ！ xiao1 se4 xi1 cao3 mu4 yao2 luo4 er2 bian4 shuai1 。
 - liao2 li4 xi1 ruo4 zai4 yuan3 xing2 ， deng1 shan1 lin2 shui3 xi1 song4 jiang1 gui1 。
 - jue2 liao2 xi1 tian1 gao1 er2 qi4 qing1 ， ji4 liao2 xi1 shou1 liao2 er2 shui3 qing1 。
 - can3 qi1 zeng1 xi1 xi1 ， bao2 han2 zhi1 zhong1 ren2 ， chuang4 huang3 kuang3 liang4 xi1 ， qu4 gu4 er2 jiu4 xin1 。
@@ -215,10 +215,10 @@ tags: []
 - xing4 yu2 lou4 yi3 bian3 qian3 xi1 ， xin4 wei4 da2 hu1 cong2 rong2 。
 - qie4 mei3 shen1 bao1 xu1 zhi1 qi4 sheng4 xi1 ， kong3 shi2 shi4 zhi1 bu2 gu4 。
 - he2 shi2 su2 zhi1 gong1 qiao3 xi1 ？
-- mie4 gui1 ju3 er2 gai3 zao2 ！ du2 geng3 jie4 er2 bu4 sui2 xi1 ， yuan2 mu4 xian1 sheng4 zhi1 yi2 jiao4 。
+- mie4 gui1 ju0 er2 gai3 zao2 ！ du2 geng3 jie4 er2 bu4 sui2 xi1 ， yuan2 mu4 xian1 sheng4 zhi1 yi2 jiao4 。
 - chu4 zhuo2 shi4 er2 xian3 rong2 xi1 ， fei1 yu2 xin1 zhi1 suo3 le4 。
 - yu3 qi2 wu2 yi4 er2 you3 ming2 xi1 ， ning2 qiong2 chu4 er2 shou3 gao1 。
-- shi2 bu4 tou1 er2 wei4 bao3 xi1 ， yi1 bu4 gou3 er2 wei4 wen1 。
+- shi2 bu4 tou1 er2 wei2 bao3 xi1 ， yi1 bu4 gou3 er2 wei2 wen1 。
 - qie4 mu4 shi1 ren2 zhi1 yi2 feng1 xi1 ， yuan2 tuo1 zhi4 hu1 su4 can1 。
 - jian3 chong1 jue4 er2 wu2 duan1 xi1 ， bo2 mang3 mang3 er2 wu2 yin2 。
 - wu2 yi1 qiu2 yi3 yu4 dong1 xi1 ， kong3 ke4 si3 bu4 de2 jian4 hu1 yang2 chun1 。
@@ -271,8 +271,8 @@ tags: []
 - zuo3 zhu1 que4 zhi1 ba2 ba2 xi1 ， you4 cang1 long2 zhi1 qu2 qu2 。
 - shu3 lei2 shi1 zhi1 tian2 tian2 xi1 ， tong1 fei1 lian2 zhi1 ya2 ya2 。
 - qian2 qing1 liang2 zhi1 qiang1 qiang1 xi1 ， hou4 zi1 cheng2 zhi1 cong2 cong2 。
-- zai3 yun2 qi2 zhi1 wei3 she2 xi1 ， hu4 tun2 qi2 zhi1 rong2 rong2 。
-- ji4 zhuan1 zhuan1 zhi1 bu4 ke3 hua4 xi1 ， yuan2 sui4 tui1 er2 wei4 zang1 。
+- zai3 yun2 qi2 zhi1 wei1 yi2 xi1 ， hu4 tun2 qi2 zhi1 rong2 rong2 。
+- ji4 zhuan1 zhuan1 zhi1 bu4 ke3 hua4 xi1 ， yuan2 sui4 tui1 er2 wei2 zang1 。
 - lai4 huang2 tian1 zhi1 hou4 de2 xi1 ， hai2 ji2 jun1 zhi1 wu2 yang4 ！
 
 ## 注释

@@ -17,7 +17,7 @@ tags: ["七言絕句","千家诗","蒙学"]
 ## 拼音
 
 - ao4 li4 shen1 xian2 xiao4 wu3 hou2 ， xi1 jiang1 qu3 zhu2 qi3 gao1 lou2 。
-- nan2 feng1 bu2 yong4 pu2 kui2 shan4 ， sha1 mao4 xian2 mian2 dui4 shui3 ou1 。
+- nan2 feng1 bu2 yong4 pu2 kui2 shan1 ， sha1 mao4 xian2 mian2 dui4 shui3 ou1 。
 
 ## 注释
 

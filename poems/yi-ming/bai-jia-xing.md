@@ -139,7 +139,7 @@ tags: ["蒙学"]
 - wan4 si4 si1 ma3 ， shang4 guan1 ou1 yang2 。
 - xia4 hou2 zhu1 ge3 ， wen2 ren2 dong1 fang1 。
 - he4 lian2 huang2 fu3 ， wei4 chi2 gong1 yang2 。
-- dan4 tai2 gong1 ye3 ， zong1 zheng4 pu2 yang2 。
+- tan2 tai2 gong1 ye3 ， zong1 zheng4 pu2 yang2 。
 - chun2 yu2 dan1 yu2 ， tai4 shu1 shen1 tu2 。
 - gong1 sun1 zhong4 sun1 ， xuan1 yuan2 ling2 hu2 。
 - zhong1 li2 yu3 wen2 ， chang2 sun1 mu4 rong2 。

@@ -17,7 +17,7 @@ tags: ["七言絕句","千家诗","蒙学"]
 ## 拼音
 
 - chong2 chong2 die2 die2 shang4 yao2 tai2 ， ji1 du4 hu1 tong2 sao3 bu4 kai1 。
-- gang1 bei4 tai4 yang2 shou1 shi2 qu4 ， que4 jiao4 ming2 yue4 song4 jiang1 lai2 。
+- gang1 bei4 tai4 yang2 shou1 shi0 qu4 ， que4 jiao4 ming2 yue4 song4 jiang1 lai2 。
 
 ## 注释
 

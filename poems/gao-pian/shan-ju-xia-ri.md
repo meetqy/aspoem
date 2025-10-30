@@ -16,7 +16,7 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 拼音
 
-- lü4 shu4 yin1 nong2 xia4 ri4 chang2 ， lou2 tai2 dao3 ying3 ru4 chi2 tang2 。
+- lü4 shu4 yin1 nong2 xia4 ri4 chang2 ， lou2 tai2 dao4 ying3 ru4 chi2 tang2 。
 - shui3 jing1 lian2 dong4 wei1 feng1 qi3 ， man3 jia4 qiang2 wei1 yi2 yuan4 xiang1 。
 
 ## 注释

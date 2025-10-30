@@ -64,19 +64,19 @@ tags: []
 ## 拼音
 
 - yuan4 ling2 xiu1 zhi1 hao4 dang4 xi1 ， fu1 he2 zhi2 cao1 zhi1 bu2 gu4 ？
-- bei1 tai4 shan1 zhi1 wei4 huang2 xi1 ， shu2 jiang1 he2 zhi1 ke3 he2 ？
+- bei1 tai4 shan1 zhi1 wei2 huang2 xi1 ， shu2 jiang1 he2 zhi1 ke3 he2 ？
 - yuan4 cheng2 xian2 er2 xiao4 zhi4 xi1 ， kong3 fan4 ji4 er2 gan1 hui4 。
 - zu2 fu3 qing2 yi3 ji4 mo4 xi1 ， ran2 chao1 chang4 er2 zi4 bei1 。
 - yu4 yu3 shi2 qi2 tong2 kui4 xi1 ， guan4 yu2 yan3 yu3 zhu1 ji1 。
 - nu2 jun4 za2 er2 bu4 fen1 xi1 ， fu2 ba4 niu2 er2 can1 ji4 。
 - nian2 tao1 tao1 er2 zi4 yuan3 xi1 ， shou4 ran3 ran3 er2 yu4 shuai1 。
 - xin1 tu2 tan2 er2 fan2 yuan1 xi1 ， jian3 chao1 yao2 er2 wu2 ji4 。
-- gu4 shi2 su2 zhi1 gong1 qiao3 xi1 ， mie4 gui1 ju3 er2 gai3 cuo4 。
+- gu4 shi2 su2 zhi1 gong1 qiao3 xi1 ， mie4 gui1 ju0 er2 gai3 cuo4 。
 - xi4 qi2 ji4 er2 bu4 cheng2 xi1 ， ce4 nu2 dai4 er2 qu3 lu4 。
 - dang1 shi4 qi3 wu2 qi2 ji4 xi1 ， cheng2 wu2 wang2 liang2 zhi1 shan4 yu4 。
 - jian4 zhi2 pei4 zhe3 fei1 qi2 ren2 xi1 ， gu4 ju1 tiao4 er2 yuan3 qu4 。
 - bu4 liang2 zao2 er2 zheng4 rui4 xi1 ， kong3 ju3 yue1 zhi1 bu4 tong2 。
-- bu2 lun4 shi4 er2 gao1 ju3 xi1 ， kong3 cao1 xing2 zhi1 bu4 tiao2 。
+- bu2 lun4 shi4 er2 gao1 ju3 xi1 ， kong3 cao1 xing2 zhi1 bu2 diao4 。
 - hu2 gong1 chi2 er2 bu4 zhang1 xi1 ， shu2 yun2 zhi1 qi2 suo3 zhi4 ？
 - wu2 qing1 wei1 zhi1 huan4 nan4 xi1 ， yan1 zhi1 xian2 shi4 zhi1 suo3 si3 ？
 - su2 tui1 ning4 er2 jin4 fu4 xi1 ， jie2 xing2 zhang1 er2 bu2 zhu4 。
@@ -86,7 +86,7 @@ tags: []
 - qi4 peng2 xian2 zhi1 yu2 le4 xi1 ， mie4 qiao3 chui2 zhi1 sheng2 mo4 。
 - kun1 lu4 za2 yu2 zou1 zheng1 xi1 ， ji1 peng2 shi3 yi3 she4 ge2 。
 - jia4 jian3 lü2 er2 wu2 ce4 xi1 ， you4 he2 lu4 zhi1 neng2 ji2 ？
-- yi3 zhi2 zhen1 er2 wei4 diao4 xi1 ， you4 he2 yu2 zhi1 neng2 de2 ？
+- yi3 zhi2 zhen1 er2 wei2 diao4 xi1 ， you4 he2 yu2 zhi1 neng2 de2 ？
 - bo2 ya2 zhi1 jue2 xian2 xi1 ， wu2 zhong1 zi3 qi1 er2 ting1 zhi1 。
 - he2 bao4 pu2 er2 qi4 xue4 xi1 ， an1 de2 liang2 gong1 er2 pou1 zhi1 ？
 - tong2 yin1 zhe3 xiang1 he2 xi1 ， tong2 lei4 zhe3 xiang1 si4 。
@@ -101,13 +101,13 @@ tags: []
 - yu4 he2 kou3 er2 wu2 yan2 xi1 ， chang2 bei4 jun1 zhi1 hou4 de2 。
 - du2 bian4 yuan1 er2 huai2 du2 xi1 ， chou2 yu4 yu4 zhi1 yan1 ji2 ？
 - nian4 san1 nian2 zhi1 ji1 si1 xi1 ， yuan4 yi1 jian4 er2 chen2 ci2 。
-- bu4 ji2 jun1 er2 cheng3 shuo1 xi1 ， shi4 shu2 ke3 wei4 ming2 zhi1 ？
+- bu4 ji2 jun1 er2 cheng3 shuo1 xi1 ， shi4 shu2 ke3 wei2 ming2 zhi1 ？
 - shen1 qin3 ji2 er2 ri4 chou2 xi1 ， qing2 chen2 yi4 er2 bu4 yang2 。
 - zhong4 ren2 mo4 ke3 yu3 lun4 dao4 xi1 ， bei1 jing1 shen2 zhi1 bu4 tong1 。
 - luan4 yue1 ： luan2 huang2 kong3 feng4 ri4 yi3 yuan3 xi1 ， chu4 fu2 jia4 e2 。
 - ji1 wu4 man3 tang2 tan2 xi1 ， tuo2 min3 you2 hu1 hua2 chi2 。
 - yao4 niao3 ben1 wang2 xi1 ， teng2 jia4 tuo2 tuo2 。
-- qian1 dao1 jin4 yu4 xi1 ， yao2 qi4 tai4 a1 。
+- qian1 dao1 jin4 yu4 xi1 ， yao2 qi4 tai4 e1 。
 - ba2 qian1 xuan2 zhi1 xi1 ， lie4 shu4 yu4 he2 。
 - ju2 you4 wei3 ku1 xi1 ， ku3 li3 yi3 ni3 。
 - bian1 ou1 deng1 yu2 ming2 tang2 xi1 ， zhou1 ding3 qian2 qian2 hu1 shen1 yuan1 。

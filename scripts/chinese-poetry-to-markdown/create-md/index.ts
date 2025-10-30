@@ -1,11 +1,13 @@
 import { writeFileSync } from 'node:fs'
 import { join } from 'node:path'
+import CompleteDict from '@pinyin-pro/data/complete'
 import { ensureDirSync } from 'fs-extra'
-import { pinyin } from 'pinyin-pro'
+import { addDict, pinyin } from 'pinyin-pro'
 import { replacePunctuation, splitLine } from './format'
 
+addDict(CompleteDict)
+
 const POEMS_DIR = join(process.cwd(), 'poems') // 你的 MDX 诗词文件根目录
-console.log(POEMS_DIR)
 
 interface Poem {
   title: string
@@ -61,7 +63,7 @@ ${content}
 
 ## 拼音
 
-${pinyin(content, { toneType: 'num' }).replace(/-(\s)+/g, '- ').replace(/\n\s+/g, '\n')}
+${pinyin(content, { toneType: 'num', nonZh: 'consecutive' }).replace(/-(\s)+/g, '- ').replace(/\n\s+/g, '\n')}
 
 ## 注释
 

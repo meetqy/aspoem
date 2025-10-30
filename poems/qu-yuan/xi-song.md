@@ -86,8 +86,8 @@ tags: []
 - gu4 zhong4 kou3 qi2 shuo4 jin1 xi1 ， chu1 ruo4 shi4 er2 feng2 dai4 。
 - cheng2 yu2 geng1 zhe3 er2 chui1 ji1 xi1 ， he2 bu2 bian4 ci3 zhi4 ye3 ？
 - yu4 shi4 jie1 er2 deng1 tian1 xi1 ， you2 you3 nang3 zhi1 tai4 ye3 。
-- zhong4 hai4 ju4 yi3 li2 xin1 xi1 ， you4 he2 yi3 wei2 ci3 ban4 ye3 ？
-- tong2 ji2 er2 yi4 lu4 xi1 ， you4 he2 yi3 wei2 ci3 yuan2 ye3 ？
+- zhong4 hai4 ju4 yi3 li2 xin1 xi1 ， you4 he2 yi3 wei4 ci3 ban4 ye3 ？
+- tong2 ji2 er2 yi4 lu4 xi1 ， you4 he2 yi3 wei4 ci3 yuan2 ye3 ？
 - jin4 shen1 sheng1 zhi1 xiao4 zi3 xi1 ， fu4 xin4 chan2 er2 bu4 hao3 。
 - xing2 xing4 zhi2 er2 bu2 yu4 xi1 ， gun3 gong1 yong4 er2 bu2 jiu4 。
 - wu2 wen2 zuo4 zhong1 yi3 zao4 yuan4 xi1 ， hu1 wei4 zhi1 guo4 yan2 。

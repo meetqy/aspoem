@@ -25,7 +25,7 @@ tags: []
 - xian2 shi4 qiong2 er2 yin3 chu4 xi1 ， lian2 fang1 zheng4 er2 bu4 rong2 。
 - zi3 xu1 jian4 er2 mi2 qu1 xi1 ， bi3 gan1 zhong1 er2 pou1 xin1 。
 - zi3 tui1 zi4 ge1 er2 si4 jun1 xi1 ， de2 ri4 wang4 er2 yuan4 shen1 。
-- xing2 ming2 bai2 er2 yue1 hei1 xi1 ， jing1 ji2 ju4 er2 cheng2 lin2 。
+- xing2 ming2 bai0 er2 yue1 hei1 xi1 ， jing1 ji2 ju4 er2 cheng2 lin2 。
 - jiang1 li2 qi4 yu2 qiong2 xiang4 xi1 ， ji2 li2 man4 hu1 dong1 xiang1 。
 - xian2 zhe3 bi4 er2 bu2 jian4 xi1 ， chan2 yu2 jin4 er2 xiang1 peng2 。
 - xiao1 xiao1 bing4 jin4 er2 ju4 ming2 xi1 ， feng4 huang2 fei1 er2 gao1 xiang2 。

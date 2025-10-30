@@ -29,9 +29,9 @@ tags: []
 ## 拼音
 
 - gu3 gong1 dan3 fu3 ， ji1 de2 chui2 ren2 。
-- si1 hong2 yi2 dao4 ， zhe2 wang2 yu2 bin1 。
+- si1 hong2 yi1 dao4 ， zhe2 wang2 yu2 bin1 。
 - tai4 bo2 zhong4 yong1 ， wang2 de2 zhi1 ren2 。
-- xing2 shi1 bai3 shi4 ， duan4 fa1 wen2 shen1 。
+- xing2 shi1 bai3 shi4 ， duan4 fa4 wen2 shen1 。
 - bo2 yi2 shu1 qi2 ， gu3 zhi1 yi2 xian2 。
 - rang4 guo2 bu2 yong4 ， e4 cu2 shou3 shan1 。
 - zhi4 zai1 shan1 fu3 ， xiang1 bi3 xuan1 wang2 。
@@ -40,7 +40,7 @@ tags: []
 - hou4 ren4 shu4 diao1 ， chong2 liu2 chu1 hu4 。
 - yan4 zi3 ping2 zhong4 ， ji1 de2 jian1 ren2 。
 - yu3 shi4 shen3 de2 ， wei4 bi4 si1 ming4 。
-- zhong4 ni2 zhi1 shi4 ， zhu3 guo2 wei4 jun1 。
+- zhong4 ni2 zhi1 shi4 ， zhu3 guo2 wei2 jun1 。
 - sui2 zhi4 yin3 jiu3 ， yang2 bo1 shi3 guan1 。
 
 ## 注释

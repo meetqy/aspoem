@@ -22,7 +22,7 @@ tags: []
 ## 拼音
 
 - you2 jun1 shan1 ， shen4 wei2 zhen1 。
-- cui1 wei2 zha3 ge4 ， er3 zi4 wei4 shen2 。
+- cui1 wei2 zha3 ge4 ， er3 zi4 wei2 shen2 。
 - nai3 dao4 wang2 mu3 tai2 ， jin1 jie1 yu4 wei4 tang2 ， zhi1 cao3 sheng1 dian4 pang2 。
 - dong1 xi1 xiang1 ， ke4 man3 tang2 。
 - zhu3 ren2 dang1 xing2 shang1 ， zuo4 zhe3 chang2 shou4 ju4 he2 yang1 。

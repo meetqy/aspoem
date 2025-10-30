@@ -56,7 +56,7 @@ tags: []
 - guan1 jiang1 he2 zhi1 yu1 qu3 xi1 ， li2 si4 hai3 zhi1 zhan1 ru2 。
 - pan1 bei3 ji2 er2 yi4 xi1 xi1 ， xi1 hang4 xie4 yi3 chong1 xu1 。
 - fei1 zhu1 niao3 shi3 xian1 qu1 xi1 ， jia4 tai4 yi1 zhi1 xiang4 yu2 。
-- cang1 long2 you4 qiu2 yu2 zuo3 can1 xi1 ， bai2 hu3 cheng3 er2 wei4 you4 fei1 。
+- cang1 long2 you4 qiu2 yu2 zuo3 can1 xi1 ， bai2 hu3 cheng3 er2 wei2 you4 fei1 。
 - jian4 ri4 yue4 yi3 wei2 gai4 xi1 ， zai3 yu4 nü3 yu2 hou4 che1 。
 - chi2 wu4 yu2 yao3 ming2 zhi1 zhong1 xi1 ， xiu1 xi0 hu1 kun1 lun2 zhi1 xu1 。
 - le4 qiong2 ji2 er2 bu2 yan4 xi1 ， yuan4 cong2 rong2 hu1 shen2 ming2 。
@@ -80,7 +80,7 @@ tags: []
 - fang1 shi4 su2 zhi1 you1 hun1 xi1 ， xuan4 bai2 hei1 zhi1 mei3 e4 。
 - fang4 shan1 yuan1 zhi1 gui1 yu4 xi1 ， xiang1 yu3 gui4 fu1 li4 shi2 。
 - mei2 bo2 shu4 jian4 er2 zhi4 hai3 xi1 ， lai2 ge2 shun4 zhi4 er2 yong4 guo2 。
-- bei1 ren2 ren2 zhi1 jin4 jie2 xi1 ， fan3 wei4 xiao3 ren2 zhi1 suo3 zei2 。
+- bei1 ren2 ren2 zhi1 jin4 jie2 xi1 ， fan3 wei2 xiao3 ren2 zhi1 suo3 zei2 。
 - bi3 gan1 zhong1 jian4 er2 pou1 xin1 xi1 ， ji1 zi3 bei4 fa1 er2 yang2 kuang2 。
 - shui3 bei4 liu2 er2 yuan2 jie2 xi1 ， mu4 qu4 gen1 er2 bu4 chang2 。
 - fei1 zhong4 qu1 yi3 lü4 nan2 xi1 ， xi1 shang1 shen1 zhi1 wu2 gong1 。

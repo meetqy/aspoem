@@ -40,32 +40,32 @@ tags: []
 
 ## 拼音
 
-- yang2 huo4 yu4 jian4 kong3 zi3 ， kong3 zi3 bu2 jian4 ， gui1 kong3 zi3 tun2 。 kong3 zi3 shi2 qi2 wang2 ye3 er2 wang3 bai4 zhi1 ， yu4 zhu1 tu2 。 wei4 kong3 zi3 yue1 ： “ lai2 ， yu3 yu3 er3 yan2 。 ”   yue1 ： “ huai2 qi2 bao3 er2 mi2 qi2 bang1 ， ke3 wei4 ren2 hu1 ？ ”   yue1 ： “ bu4 ke3 。 ” “ hao3 cong2 shi4 er2 ji2 shi1 shi2 ， ke3 wei4 zhi1 hu1 ？ ”   yue1 ： “ bu4 ke3 ！ ” “ ri4 yue4 shi4 yi3 ， sui4 bu4 wo3 yu3 ！ ”   kong3 zi3 yue1 ： “ nuo4 ， wu2 jiang1 shi4 yi3 。 ”
-- zi3 yue1 ： “ xing4 xiang1 jin4 ye3 ， xi2 xiang1 yuan3 ye3 。 ”
-- zi3 yue1 ： “ wei2 shang4 zhi1 yu3 xia4 yu2 bu4 yi2 。 ”
-- zi3 zhi1 wu3 cheng2 ， wen2 xian2 ge1 zhi1 sheng1 。 fu1 zi3 wan3 er3 er2 xiao4 ， yue1 ： “ ge1 ji1 yan1 yong4 niu2 dao1 ？ ”   zi3 you2 dui4 yue1 ： “ xi1 zhe3 yan3 ye3 wen2 zhu1 fu1 zi3 yue1 ： ‘ jun1 zi3 xue2 dao4 ze2 ai4 ren2 ， xiao3 ren2 xue2 dao4 ze2 yi4 shi3 ye3 。 ’ ”   zi3 yue1 ： “ er4 san1 zi3 ， yan3 zhi1 yan2 shi4 ye3 ！ qian2 yan2 xi4 zhi1 er3 。 ”
-- gong1 shan1 fu2 rao3 yi3 fei4 pan4 ， zhao4 ， zi3 yu4 wang3 。 zi3 lu4 bu4 shuo1 ， yue1 ： “ mo4 zhi1 ye3 yi3 ， he2 bi4 gong1 shan1 shi4 zhi1 zhi1 ye3 ？ ”   zi3 yue1 ： “ fu1 zhao4 wo3 zhe3 er2 qi3 tu2 zai1 ？ ru2 you3 yong4 wo3 zhe3 ， wu2 qi2 wei4 dong1 zhou1 hu1 ！ ”
-- zi3 zhang1 wen4 ren2 yu2 kong3 zi3 ， kong3 zi3 yue1 ： “ neng2 xing2 wu3 zhe3 yu2 tian1 xia4 wei4 ren2 yi3 。 ”   qing3 wen4 zhi1 ， yue1 ： “ gong1 、 kuan1 、 xin4 、 min3 、 hui4 。 gong1 ze2 bu4 wu3 ， kuan1 ze2 de2 zhong4 ， xin4 ze2 ren2 ren4 yan1 ， min3 ze2 you3 gong1 ， hui4 ze2 zu2 yi3 shi3 ren2 。 ”
-- fo2 xi1 zhao4 ， zi3 yu4 wang3 。 zi3 lu4 yue1 ： “ xi1 zhe3 you2 ye3 wen2 zhu1 fu1 zi3 yue1 ： ‘ qin1 yu2 qi2 shen1 wei4 bu2 shan4 zhe3 ， jun1 zi3 bu2 ru4 ye3 。 ’ fo2 xi1 yi3 zhong1 mu4 pan4 ， zi3 zhi1 wang3 ye3 ， ru2 zhi1 he2 ？ ”   zi3 yue1 ： “ ran2 ， you3 shi4 yan2 ye3 。 bu4 yue1 jian1 hu1 ， mo2 er2 bu4 lin2 ； bu4 yue1 bai2 hu1 ， nie4 er2 bu4 zi1 。 wu2 qi3 pao2 gua1 ye3 zai1 ？ yan1 neng2 xi4 er2 bu4 shi2 ？ ”
-- zi3 yue1 ： “ you2 ye3 ， nü3 wen2 liu4 yan2 liu4 bi4 yi3 hu1 ？ ”   dui4 yue1 ： “ wei4 ye3 。 ” “ ju1 ！ wu2 yu3 nü3 。 hao3 ren2 bu4 hao4 xue2 ， qi2 bi4 ye3 yu2 ； hao3 zhi1 bu4 hao4 xue2 ， qi2 bi4 ye3 dang4 ； hao3 xin4 bu4 hao3 xue2 ， qi2 bi4 ye3 zei2 ； hao3 zhi2 bu4 hao4 xue2 ， qi2 bi4 ye3 jiao3 ； hao3 yong3 bu4 hao4 xue2 ， qi2 bi4 ye3 luan4 ； hao3 gang1 bu4 hao4 xue2 ， qi2 bi4 ye3 kuang2 。 ”
-- zi3 yue1 ： “ xiao3 zi0 he2 mo4 xue2 fu1 《 shi1 》 ？ 《 shi1 》 ke3 yi3 xing1 ， ke3 yi3 guan1 ， ke3 yi3 qun2 ， ke3 yi3 yuan4 。 er3 zhi1 shi4 fu4 ， yuan3 zhi1 shi4 jun1 ， duo1 shi2 yu2 niao3 shou4 cao3 mu4 zhi1 ming2 。 ”
-- zi3 wei4 bo2 yu2 yue1 ： “ nü3 wei4 《 zhou1 nan2 》 、 《 zhao4 nan2 》 yi3 hu1 ？ ren2 er2 bu2 wei4 《 zhou1 nan2 》 、 《 zhao4 nan2 》 ， qi2 you2 zheng4 qiang2 mian4 er2 li4 ye3 yu3 ！ ”
-- zi3 yue1 ： “ li3 yun2 li3 yun2 ， yu4 bo2 yun2 hu1 zai1 ？ le4 yun2 le4 yun2 ， zhong1 gu3 yun2 hu1 zai1 ？ ”
-- zi3 yue1 ： “ se4 li4 er2 nei4 ren3 ， pi4 zhu1 xiao3 ren2 ， qi2 you2 chuan1 yu2 zhi1 dao4 ye3 yu3 ？ ”
-- zi3 yue1 ： “ xiang1 yuan4 ， de2 zhi1 zei2 ye3 。 ”
-- zi3 yue1 ： “ dao4 ting1 er2 tu2 shuo1 ， de2 zhi1 qi4 ye3 。 ”
-- zi3 yue1 ： “ bi3 fu1 ke3 yu3 shi4 jun1 ye3 yu3 zai1 ？ qi2 wei4 de2 zhi1 ye3 ， huan4 de2 zhi1 ； ji4 de2 zhi1 ， huan4 shi1 zhi1 。 gou3 huan4 shi1 zhi1 ， wu2 suo3 bu2 zhi4 yi3 。 ”
-- zi3 yue1 ： “ gu3 zhe3 min2 you3 san1 ji2 ， jin1 ye3 huo4 shi4 zhi1 wang2 ye3 。 gu3 zhi1 kuang2 ye3 si4 ， jin1 zhi1 kuang2 ye3 dang4 ； gu3 zhi1 jin1 ye3 lian2 ， jin1 zhi1 jin1 ye3 fen4 li4 ； gu3 zhi1 yu2 ye3 zhi2 ， jin1 zhi1 yu2 ye3 zha4 er2 yi3 yi3 。 ”
-- zi3 yue1 ： “ qiao3 yan2 ling4 se4 ， xian1 yi3 ren2 。 ”
-- zi3 yue1 ： “ e4 zi3 zhi1 duo2 zhu1 ye3 ， e4 zheng4 sheng1 zhi1 luan4 ya3 yue4 ye3 ， e4 li4 kou3 zhi1 fu4 bang1 jia1 zhe3 。 ”
-- zi3 yue1 ： “ yu3 yu4 wu2 yan2 。 ”   zi3 gong4 yue1 ： “ zi3 ru2 bu4 yan2 ， ze2 xiao3 zi0 he2 shu4 yan1 ？ ”   zi3 yue1 ： “ tian1 he2 yan2 zai1 ？ si4 shi2 xing2 yan1 ， bai3 wu4 sheng1 yan1 ， tian1 he2 yan2 zai1 ？ ”
+- yang2 huo4 yu4 jian4 kong3 zi3 ， kong3 zi3 bu2 jian4 ， gui1 kong3 zi3 tun2 。 kong3 zi3 shi2 qi2 wang2 ye3 er2 wang3 bai4 zhi1 ， yu4 zhu1 tu2 。 wei4 kong3 zi3 yue1 ：“ lai2 ， yu3 yu3 er3 yan2 。”  yue1 ：“ huai2 qi2 bao3 er2 mi2 qi2 bang1 ， ke3 wei4 ren2 hu1 ？”  yue1 ：“ bu4 ke3 。”“ hao3 cong2 shi4 er2 ji2 shi1 shi2 ， ke3 wei4 zhi1 hu1 ？”  yue1 ：“ bu4 ke3 ！”“ ri4 yue4 shi4 yi3 ， sui4 bu4 wo3 yu3 ！”  kong3 zi3 yue1 ：“ nuo4 ， wu2 jiang1 shi4 yi3 。”
+- zi3 yue1 ：“ xing4 xiang1 jin4 ye3 ， xi2 xiang1 yuan3 ye3 。”
+- zi3 yue1 ：“ wei2 shang4 zhi1 yu3 xia4 yu2 bu4 yi2 。”
+- zi3 zhi1 wu3 cheng2 ， wen2 xian2 ge1 zhi1 sheng1 。 fu1 zi3 wan3 er3 er2 xiao4 ， yue1 ：“ ge1 ji1 yan1 yong4 niu2 dao1 ？”  zi3 you2 dui4 yue1 ：“ xi1 zhe3 yan3 ye3 wen2 zhu1 fu1 zi3 yue1 ：‘ jun1 zi3 xue2 dao4 ze2 ai4 ren0 ， xiao3 ren2 xue2 dao4 ze2 yi4 shi3 ye3 。’”  zi3 yue1 ：“ er4 san1 zi3 ， yan3 zhi1 yan2 shi4 ye3 ！ qian2 yan2 xi4 zhi1 er3 。”
+- gong1 shan1 fu2 rao3 yi3 fei4 pan4 ， zhao4 ， zi3 yu4 wang3 。 zi3 lu4 bu4 shuo1 ， yue1 ：“ mo4 zhi1 ye3 yi3 ， he2 bi4 gong1 shan1 shi4 zhi1 zhi1 ye3 ？”  zi3 yue1 ：“ fu1 zhao4 wo3 zhe3 er2 qi3 tu2 zai1 ？ ru2 you3 yong4 wo3 zhe3 ， wu2 qi2 wei4 dong1 zhou1 hu1 ！”
+- zi3 zhang1 wen4 ren2 yu2 kong3 zi3 ， kong3 zi3 yue1 ：“ neng2 xing2 wu3 zhe3 yu2 tian1 xia4 wei4 ren2 yi3 。”  qing3 wen4 zhi1 ， yue1 ：“ gong1 、 kuan1 、 xin4 、 min3 、 hui4 。 gong1 ze2 bu4 wu3 ， kuan1 ze2 de2 zhong4 ， xin4 ze2 ren2 ren4 yan1 ， min3 ze2 you3 gong1 ， hui4 ze2 zu2 yi3 shi3 ren2 。”
+- fo2 xi1 zhao4 ， zi3 yu4 wang3 。 zi3 lu4 yue1 ：“ xi1 zhe3 you2 ye3 wen2 zhu1 fu1 zi3 yue1 ：‘ qin1 yu2 qi2 shen1 wei2 bu2 shan4 zhe3 ， jun1 zi3 bu2 ru4 ye3 。’ fo2 xi1 yi3 zhong1 mu4 pan4 ， zi3 zhi1 wang3 ye3 ， ru2 zhi1 he2 ？”  zi3 yue1 ：“ ran2 ， you3 shi4 yan2 ye3 。 bu4 yue1 jian1 hu1 ， mo2 er2 bu4 lin2 ； bu4 yue1 bai2 hu1 ， nie4 er2 bu4 zi1 。 wu2 qi3 pao2 gua1 ye3 zai1 ？ yan1 neng2 xi4 er2 bu4 shi2 ？”
+- zi3 yue1 ：“ you2 ye3 ， nü3 wen2 liu4 yan2 liu4 bi4 yi3 hu1 ？”  dui4 yue1 ：“ wei4 ye3 。”“ ju1 ！ wu2 yu3 nü3 。 hao3 ren2 bu4 hao3 xue2 ， qi2 bi4 ye3 yu2 ； hao3 zhi1 bu4 hao3 xue2 ， qi2 bi4 ye3 dang4 ； hao3 xin4 bu4 hao3 xue2 ， qi2 bi4 ye3 zei2 ； hao3 zhi2 bu4 hao3 xue2 ， qi2 bi4 ye3 jiao3 ； hao3 yong3 bu4 hao3 xue2 ， qi2 bi4 ye3 luan4 ； hao3 gang1 bu4 hao3 xue2 ， qi2 bi4 ye3 kuang2 。”
+- zi3 yue1 ：“ xiao3 zi0 he2 mo4 xue2 fu1 《 shi1 》？《 shi1 》 ke3 yi3 xing1 ， ke3 yi3 guan1 ， ke3 yi3 qun2 ， ke3 yi3 yuan4 。 er3 zhi1 shi4 fu4 ， yuan3 zhi1 shi4 jun1 ， duo1 shi2 yu2 niao3 shou4 cao3 mu4 zhi1 ming2 。”
+- zi3 wei4 bo2 yu2 yue1 ：“ nü3 wei4 《 zhou1 nan2 》、《 zhao4 nan2 》 yi3 hu1 ？ ren2 er2 bu4 wei2 《 zhou1 nan2 》、《 zhao4 nan2 》， qi2 you2 zheng4 qiang2 mian4 er2 li4 ye3 yu3 ！”
+- zi3 yue1 ：“ li3 yun2 li3 yun2 ， yu4 bo2 yun2 hu1 zai1 ？ le4 yun2 le4 yun2 ， zhong1 gu3 yun2 hu1 zai1 ？”
+- zi3 yue1 ：“ se4 li4 er2 nei4 ren3 ， pi4 zhu1 xiao3 ren2 ， qi2 you2 chuan1 yu2 zhi1 dao4 ye3 yu3 ？”
+- zi3 yue1 ：“ xiang1 yuan4 ， de2 zhi1 zei2 ye3 。”
+- zi3 yue1 ：“ dao4 ting1 er2 tu2 shuo1 ， de2 zhi1 qi4 ye3 。”
+- zi3 yue1 ：“ bi3 fu1 ke3 yu3 shi4 jun1 ye3 yu3 zai1 ？ qi2 wei4 de2 zhi1 ye3 ， huan4 de2 zhi1 ； ji4 de2 zhi1 ， huan4 shi1 zhi1 。 gou3 huan4 shi1 zhi1 ， wu2 suo3 bu2 zhi4 yi3 。”
+- zi3 yue1 ：“ gu3 zhe3 min2 you3 san1 ji2 ， jin1 ye3 huo4 shi4 zhi1 wang2 ye3 。 gu3 zhi1 kuang2 ye3 si4 ， jin1 zhi1 kuang2 ye3 dang4 ； gu3 zhi1 jin1 ye3 lian2 ， jin1 zhi1 jin1 ye3 fen4 li4 ； gu3 zhi1 yu2 ye3 zhi2 ， jin1 zhi1 yu2 ye3 zha4 er2 yi3 yi3 。”
+- zi3 yue1 ：“ qiao3 yan2 ling4 se4 ， xian1 yi3 ren2 。”
+- zi3 yue1 ：“ e4 zi3 zhi1 duo2 zhu1 ye3 ， e4 zheng4 sheng1 zhi1 luan4 ya3 yue4 ye3 ， e4 li4 kou3 zhi1 fu4 bang1 jia1 zhe3 。”
+- zi3 yue1 ：“ yu3 yu4 wu2 yan2 。”  zi3 gong4 yue1 ：“ zi3 ru2 bu4 yan2 ， ze2 xiao3 zi0 he2 shu4 yan1 ？”  zi3 yue1 ：“ tian1 he2 yan2 zai1 ？ si4 shi2 xing2 yan1 ， bai3 wu4 sheng1 yan1 ， tian1 he2 yan2 zai1 ？”
 - ru2 bei1 yu4 jian4 kong3 zi3 ， kong3 zi3 ci2 yi3 ji2 。 jiang1 ming4 zhe3 chu1 hu4 ， qu3 se4 er2 ge1 ， shi3 zhi1 wen2 zhi1 。
-- zai3 wo3 wen4 ： “ san1 nian2 zhi1 sang4 ， qi1 yi3 jiu3 yi3 ！ jun1 zi3 san1 nian2 bu2 wei4 li3 ， li3 bi4 huai4 ； san1 nian2 bu2 wei4 le4 ， le4 bi4 beng1 。 jiu4 gu3 ji4 mei2 ， xin1 gu3 ji4 sheng1 ， zuan4 sui4 gai3 huo3 ， qi1 ke3 yi3 yi3 。 ”   zi3 yue1 ： “ shi2 fu1 dao4 ， yi1 fu1 jin3 ， yu2 nü3 an1 hu1 ？ ”   yue1 ： “ an1 ！ ” “ nü3 an1 ze2 wei4 zhi1 ！ fu1 jun1 zi3 zhi1 ju1 sang1 ， shi2 zhi3 bu4 gan1 ， wen2 le4 bu0 le4 ， ju1 chu4 bu4 an1 ， gu4 bu2 wei4 ye3 。 jin1 nü3 an1 ， ze2 wei4 zhi1 ！ ”   zai3 wo3 chu1 ， zi3 yue1 ： “ yu3 zhi1 bu4 ren2 ye3 ！ zi3 sheng1 san1 nian2 ， ran2 hou4 mian3 yu2 fu4 mu3 zhi1 huai2 。 fu1 san1 nian2 zhi1 sang4 ， tian1 xia4 zhi1 tong1 sang4 ye3 ， yu3 ye3 you3 san1 nian2 zhi1 ai4 yu2 qi2 fu4 mu3 hu1 ！ ”
-- zi3 yue1 ： “ bao3 shi2 zhong1 ri4 ， wu2 suo3 yong4 xin1 ， nan2 yi3 zai1 ！ bu4 you3 bo2 yi4 zhe3 hu1 ？ wei4 zhi1 you2 xian2 hu1 yi3 。 ”
-- zi3 lu4 yue1 ： “ jun1 zi3 shang4 yong3 hu1 ？ ”   zi3 yue1 ： “ jun1 zi3 yi4 yi3 wei2 shang4 。 jun1 zi3 you3 yong3 er2 wu2 yi4 wei4 luan4 ， xiao3 ren2 you3 yong3 er2 wu2 yi4 wei4 dao4 。 ”
-- zi3 gong4 yue1 ： “ jun1 zi3 yi4 you3 e4 hu1 ？ ”   zi3 yue1 ： “ you3 e4 。 e4 cheng1 ren2 zhi1 e4 zhe3 ， wu4 ju1 xia4 liu2 er2 shan4 shang4 zhe3 ， e4 yong3 er2 wu2 li3 zhe3 ， e4 guo3 gan3 er2 zhi4 zhe3 。 ”   yue1 ： “ ci4 ye3 yi4 you3 e4 hu1 ？ ” “ e4 jiao3 yi3 wei2 zhi1 zhe3 ， e4 bu4 sun1 yi3 wei2 yong3 zhe3 ， e4 jie2 yi3 wei2 zhi2 zhe3 。 ”
-- zi3 yue1 ： “ wei2 nü3 zi3 yu3 xiao3 ren2 wei2 nan2 yang3 ye3 ， jin4 zhi1 ze2 bu4 sun1 ， yuan3 zhi1 ze2 yuan4 。 ”
-- zi3 yue1 ： “ nian2 si4 shi2 er2 jian4 e4 yan1 ， qi2 zhong1 ye3 yi3 。 ”
+- zai3 wo3 wen4 ：“ san1 nian2 zhi1 sang4 ， qi1 yi3 jiu3 yi3 ！ jun1 zi3 san1 nian2 bu4 wei2 li3 ， li3 bi4 huai4 ； san1 nian2 bu4 wei2 le4 ， le4 bi4 beng1 。 jiu4 gu3 ji4 mei2 ， xin1 gu3 ji4 sheng1 ， zuan4 sui4 gai3 huo3 ， qi1 ke3 yi3 yi3 。”  zi3 yue1 ：“ shi2 fu1 dao4 ， yi1 fu1 jin3 ， yu2 nü3 an1 hu1 ？”  yue1 ：“ an1 ！”“ nü3 an1 ze2 wei4 zhi1 ！ fu1 jun1 zi3 zhi1 ju1 sang1 ， shi2 zhi3 bu4 gan1 ， wen2 le4 bu2 le4 ， ju1 chu4 bu4 an1 ， gu4 bu4 wei2 ye3 。 jin1 nü3 an1 ， ze2 wei4 zhi1 ！”  zai3 wo3 chu1 ， zi3 yue1 ：“ yu3 zhi1 bu4 ren2 ye3 ！ zi3 sheng1 san1 nian2 ， ran2 hou4 mian3 yu2 fu4 mu3 zhi1 huai2 。 fu1 san1 nian2 zhi1 sang4 ， tian1 xia4 zhi1 tong1 sang4 ye3 ， yu3 ye3 you3 san1 nian2 zhi1 ai4 yu2 qi2 fu4 mu3 hu1 ！”
+- zi3 yue1 ：“ bao3 shi2 zhong1 ri4 ， wu2 suo3 yong4 xin1 ， nan2 yi3 zai1 ！ bu4 you3 bo2 yi4 zhe3 hu1 ？ wei4 zhi1 you2 xian2 hu1 yi3 。”
+- zi3 lu4 yue1 ：“ jun1 zi3 shang4 yong3 hu1 ？”  zi3 yue1 ：“ jun1 zi3 yi4 yi3 wei2 shang4 。 jun1 zi3 you3 yong3 er2 wu2 yi4 wei4 luan4 ， xiao3 ren2 you3 yong3 er2 wu2 yi4 wei4 dao4 。”
+- zi3 gong4 yue1 ：“ jun1 zi3 yi4 you3 e4 hu1 ？”  zi3 yue1 ：“ you3 e4 。 e4 cheng1 ren2 zhi1 e4 zhe3 ， wu4 ju1 xia4 liu2 er2 shan4 shang4 zhe3 ， e4 yong3 er2 wu2 li3 zhe3 ， e4 guo3 gan3 er2 zhi4 zhe3 。”  yue1 ：“ ci4 ye3 yi4 you3 e4 hu1 ？”“ e4 jiao3 yi3 wei2 zhi1 zhe3 ， e4 bu4 sun1 yi3 wei2 yong3 zhe3 ， e4 jie2 yi3 wei2 zhi2 zhe3 。”
+- zi3 yue1 ：“ wei2 nü3 zi3 yu3 xiao3 ren2 wei2 nan2 yang3 ye3 ， jin4 zhi1 ze2 bu4 sun1 ， yuan3 zhi1 ze2 yuan4 。”
+- zi3 yue1 ：“ nian2 si4 shi2 er2 jian4 e4 yan1 ， qi2 zhong1 ye3 yi3 。”
 
 ## 注释
 

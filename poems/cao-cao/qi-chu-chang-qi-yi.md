@@ -28,7 +28,7 @@ tags: []
 
 ## 拼音
 
-- hua2 yin1 shan1 ， zi4 yi3 wei2 da4 。
+- hua4 yin1 shan1 ， zi4 yi3 wei2 da4 。
 - gao1 bai3 zhang4 ， fu2 yun2 wei4 zhi1 gai4 。
 - xian1 ren2 yu4 lai2 ， chu1 sui2 feng1 ， lie4 zhi1 yu3 。
 - chui1 wo3 dong4 xiao1 ， gu3 se4 qin2 ， he2 yin2 yin2 ！

@@ -134,7 +134,7 @@ tags: []
 - hun2 hu1 wu2 nan2 ！ nan2 you3 yan2 huo3 qian1 li3 ， fu4 she2 yan2 zhi1 。
 - shan1 lin2 xian3 ai4 ， hu3 bao4 wan1 zhi1 。
 - yu2 yong1 duan3 hu2 ， wang2 hui1 qian1 zhi1 。
-- hun2 hu1 wu2 nan2 ！ yu4 shang1 gong1 zhi1
+- hun2 hu1 wu2 nan2 ！ yu4 shang1 gong1 zhi1 
 - hun2 hu1 wu2 xi1 ！ xi1 fang1 liu2 sha1 ， mang3 yang2 yang2 zhi1 。
 - shi3 shou3 zong4 mu4 ， bei4 fa1 rang2 zhi1 。
 - chang2 zhua3 ju4 ya2 ， ei1 xiao4 kuang2 zhi1 。
@@ -164,8 +164,8 @@ tags: []
 - wu2 li3 bai2 nie4 ， he2 chu3 li4 zhi1 。
 - hun2 hu1 gui1 lai2 ！ bu2 ju4 ti4 zhi1 。
 - dai4 qin2 zheng4 wei4 ， ming2 yu2 zhang1 zhi1 。
-- fu2 xi4 《 jia4 bian4 》 ， chu3 《 lao2 shang1 》 zhi1 。
-- ou1 he2 《 yang2 a1 》 ， zhao4 xiao1 chang4 zhi1 。
+- fu2 xi4 《 jia4 bian4 》， chu3 《 lao2 shang1 》 zhi1 。
+- ou1 he2 《 yang2 a1 》， zhao4 xiao1 chang4 zhi1 。
 - hun2 hu1 gui1 lai2 ！ ding4 kong1 sang1 zhi1 。
 - er4 ba1 jie1 wu3 ， tou2 shi1 fu4 zhi1 。
 - kou4 zhong1 tiao2 qing4 ， yu2 ren2 luan4 zhi1 。

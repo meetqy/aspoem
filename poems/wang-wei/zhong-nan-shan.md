@@ -18,7 +18,7 @@ tags: ["五言律詩","千家诗","蒙学"]
 
 ## 拼音
 
-- tai4 yi3 jin4 tian1 dou1 ， lian2 shan1 dao4 hai3 yu2 。
+- tai4 yi3 jin4 tian1 du1 ， lian2 shan1 dao4 hai3 yu2 。
 - bai2 yun2 hui2 wang4 he2 ， qing1 ai3 ru4 kan4 wu2 。
 - fen1 ye3 zhong1 feng1 bian4 ， yin1 qing2 zhong4 he4 shu1 。
 - yu4 tou2 he2 chu3 su4 ， ge2 shui3 wen4 qiao2 fu1 。

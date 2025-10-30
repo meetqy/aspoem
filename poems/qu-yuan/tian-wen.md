@@ -222,7 +222,7 @@ tags: []
 - shang4 xia4 wei4 xing2 ， he2 you2 kao3 zhi1 ？
 - ming2 zhao1 meng2 an4 ， shui2 neng2 ji2 zhi1 ？
 - feng2 yi4 wei2 xiang4 ， he2 yi3 shi2 zhi1 ？
-- ming2 ming2 an4 an4 ， wei2 shi2 he2 wei4 ？
+- ming2 ming2 an4 an4 ， wei2 shi2 he2 wei2 ？
 - yin1 yang2 san1 he2 ， he2 ben3 he2 hua4 ？
 - huan2 ze2 jiu3 chong2 ， shu2 ying2 du4 zhi1 ？
 - wei2 zi1 he2 gong1 ， shu2 chu1 zuo4 zhi1 ？
@@ -245,8 +245,8 @@ tags: []
 - he2 kai1 er2 ming2 ？
 - jiao3 su4 wei4 dan4 ， yao4 ling2 an1 cang2 ？
 - bu2 ren4 gu3 hong2 ， shi1 he2 yi3 shang4 zhi1 ？
-- qian1 yue1
-- “ he2 you1 ， he2 bu2 ke4 er2 xing2 zhi1 ？ ”
+- qian1 yue1 
+- “ he2 you1 ， he2 bu2 ke4 er2 xing2 zhi1 ？”
 - chi1 gui1 ye4 xian2 ， gun3 he2 ting1 yan1 ？
 - shun4 yu4 cheng2 gong1 ， di4 he2 xing2 yan1 ？
 - yong3 e4 zai4 yu3 shan1 ， fu1 he2 san1 nian2 bu4 shi1 ？
@@ -296,7 +296,7 @@ tags: []
 - he2 qi3 wei2 you1 ， er2 neng2 ju1 shi4 da2 ？
 - jie1 gui1 she4 ju1 ， er2 wu2 hai4 jue2 gong1 。
 - he2 hou4 yi4 zuo4 ge2 ， er2 yu3 bo1 jiang4 ？
-- qi3 ji2 bin1 shang1 ， 《 jiu3 bian4 》 《 jiu3 ge1 》 。
+- qi3 ji2 bin1 shang1 ，《 jiu3 bian4 》《 jiu3 ge1 》。
 - he2 qin2 zi3 tu2 mu3 ， er2 si3 fen1 jing4 di4 ？
 - di4 jiang4 yi2 yi4 ， ge2 nie4 xia4 min2 。
 - hu2 she4 fu1 he2 bo2 ， er2 qi1 bi3 luo4 pin2 ？
@@ -305,7 +305,7 @@ tags: []
 - zhuo2 qu3 chun2 hu2 ， xuan4 qi1 yuan2 mou2 。
 - he2 yi4 zhi1 she4 ge2 ， er2 jiao1 tun1 kui2 zhi1 ？
 - zu3 qiong2 xi1 zheng1 ， yan2 he2 yue4 yan1 ？
-- hua4 er2 wei4 huang2 xiong2 ， wu1 he2 huo2 yan1 ？
+- hua4 er2 wei2 huang2 xiong2 ， wu1 he2 huo2 yan1 ？
 - xian2 bo1 ju4 shu3 ， pu2 guan4 shi4 ying2 。
 - he2 you2 bing4 tou2 ， er2 gun3 ji2 xiu1 ying2 ？
 - bai2 ni2 ying1 fu2 ， hu2 wei4 ci3 tang2 ？
@@ -317,7 +317,7 @@ tags: []
 - ao2 dai4 shan1 bian4 ， he2 yi3 an1 zhi1 ？
 - shi4 zhou1 ling2 xing2 ， he2 zhi1 qian1 zhi1 ？
 - wei2 jiao1 zai4 hu4 ， he2 qiu2 yu2 sao3 ？
-- he2 shao3 kang1 zhu2 quan3 ， er2 dian1 yun3 jue2 shou3 ？
+- he2 shao4 kang1 zhu2 quan3 ， er2 dian1 yun3 jue2 shou3 ？
 - nü3 qi2 feng4 shang0 ， er2 guan3 tong2 yuan2 zhi3 。
 - he2 dian1 yi4 jue2 shou3 ， er2 qin1 yi3 feng2 dai4 ？
 - tang1 mou2 yi4 lü3 ， he2 yi3 hou4 zhi1 ？
@@ -328,7 +328,7 @@ tags: []
 - yao2 bu4 yao2 gao4 ， er4 nü3 he2 qin1 ？
 - jue2 meng2 zai4 chu1 ， he2 suo3 yi4 yan1 ？
 - huang2 tai2 shi2 cheng2 ， shui2 suo3 ji2 yan1 ？
-- deng1 li4 wei4 di4 ， shu2 dao4 shang4 zhi1 ？
+- deng1 li4 wei2 di4 ， shu2 dao4 shang4 zhi1 ？
 - nü3 wa1 you3 ti3 ， shu2 zhi4 jiang4 zhi1 ？
 - shun4 fu2 jue2 di4 ， zhong1 ran2 wei2 hai4 。
 - he2 si4 quan3 shi3 ， er2 jue2 shen1 bu4 wei1 bai4 ？
@@ -368,7 +368,7 @@ tags: []
 - bing4 qu1 ji1 yi4 ， he2 yi3 jiang1 zhi1 ？
 - zhao1 hou4 cheng2 you2 ， nan2 tu3 yuan2 di3 。
 - jue2 li4 wei2 he2 ， feng2 bi3 bai2 zhi4 ？
-- mu4 wang2 qiao3 mei2 ， fu1 he2 wei4 zhou1 liu2 ？
+- mu4 wang2 qiao3 mei2 ， fu1 he2 wei2 zhou1 liu2 ？
 - huan2 li3 tian1 xia4 ， fu1 he2 suo3 qiu2 ？
 - yao1 fu1 ye4 xuan4 ， he2 hao4 yu2 shi4 ？
 - zhou1 you1 shui2 zhu1 ？

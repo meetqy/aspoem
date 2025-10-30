@@ -29,8 +29,8 @@ tags: []
 - lin2 bu4 rong2 xi1 ming2 tiao2 ， yu2 he2 liu2 xi1 zhong1 zhou1 ？
 - tao2 jia1 yue4 xi1 zong3 jia4 ， qian1 yu4 ying1 xi1 zi4 xiu1 。
 - jie2 rong2 chai3 xi1 wei1 shi4 ， jiang1 qu4 zheng1 xi1 yuan3 you2 。
-- jing4 dai4 tu3 xi1 wei4 que1 ， li4 jiu3 qu1 xi1 qian1 niu2 。
-- liao2 jia3 ri4 xi1 xiang1 yang2 ， yi2 guang1 yao4 xi1 zhou1 liu2 。
+- jing4 dai4 tu3 xi1 wei4 que4 ， li4 jiu3 qu1 xi1 qian1 niu2 。
+- liao2 jia4 ri4 xi1 xiang1 yang2 ， yi2 guang1 yao4 xi1 zhou1 liu2 。
 - wang4 tai4 yi4 xi1 yan1 xi1 ， yu1 yu2 pei4 xi1 zi4 xiu1 。
 - xi1 bai2 ri4 xi1 jiao3 jiao3 ， mi2 yuan3 lu4 xi1 you1 you1 。
 - gu4 lie4 bei4 xi1 piao3 piao3 ， guan1 you1 yun2 xi1 chen2 fu2 。

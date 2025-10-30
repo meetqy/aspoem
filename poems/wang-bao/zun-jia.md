@@ -42,7 +42,7 @@ tags: []
 - shui3 yue4 xi1 yu2 jing1 ， ji4 yi3 xi1 wei1 cai4 。
 - yun2 qi2 xi1 dian4 wu4 ， shu1 hu1 xi1 rong2 yi4 。
 - he2 bo2 xi1 kai1 men2 ， ying2 yu2 xi1 huan1 xin1 。
-- gu4 nian4 xi1 jiu4 dou1 ， huai2 hen4 xi1 jian1 nan2 。
+- gu4 nian4 xi1 jiu4 du1 ， huai2 hen4 xi1 jian1 nan2 。
 - qie4 ai1 xi1 fu2 ping2 ， fan4 yin2 xi1 wu2 gen1 。
 
 ## 注释

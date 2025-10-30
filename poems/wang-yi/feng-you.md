@@ -49,7 +49,7 @@ tags: []
 - zou3 chang4 wang3 xi1 zha4 dong1 xi1 ， yu4 cuan4 fu2 xi1 qi2 yan1 ru2 ？
 - nian4 ling2 gui1 xi1 yu4 zhong4 shen1 ， yuan2 jie2 jie2 xi1 ge2 wu2 you2 。
 - wang4 jiu4 bang1 xi1 lu4 wei1 sui2 ， you1 xin1 qiao1 xi1 zhi4 qin2 qu2 。
-- hun2 qiong2 qiong2 xi1 bu4 huang2 mei4 ， mu4 mo4 mo4 xi1 wu4 zhong1 chao2 。
+- hun2 qiong2 qiong2 xi1 bu4 huang2 mei4 ， mu4 mo4 mo4 xi1 wu4 zhong1 zhao1 。
 
 ## 注释
 

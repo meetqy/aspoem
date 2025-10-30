@@ -17,7 +17,7 @@ tags: ["五言絕句","千家诗","蒙学"]
 ## 拼音
 
 - bi4 xian2 chu1 ba4 xiang1 ， le4 sheng4 qie3 xian2 bei1 。
-- wei2 wen4 men2 qian2 ke4 ， jin1 chao2 ji1 ge4 lai2 。
+- wei2 wen4 men2 qian2 ke4 ， jin1 zhao1 ji1 ge4 lai2 。
 
 ## 注释
 

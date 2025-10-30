@@ -17,7 +17,7 @@ tags: ["七言絕句","千家诗","蒙学"]
 ## 拼音
 
 - ru3 ya1 chi2 tang2 shui3 qian3 shen1 ， shu2 mei2 tian1 qi4 ban4 qing2 yin1 。
-- dong1 yuan2 zai4 jiu3 xi1 yuan2 zui4 ， zhai1 jin4 pi2 pa2 yi2 shu4 jin1 。
+- dong1 yuan2 zai4 jiu3 xi1 yuan2 zui4 ， zhai1 jin4 pi2 pa0 yi2 shu4 jin1 。
 
 ## 注释
 

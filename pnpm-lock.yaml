@@ -18,6 +18,9 @@ importers:
       '@hookform/resolvers':
         specifier: ^5.2.2
         version: 5.2.2(react-hook-form@7.62.0(react@19.2.0))
+      '@pinyin-pro/data':
+        specifier: ^1.2.0
+        version: 1.2.0
       '@prisma/client':
         specifier: ^6.18.0
         version: 6.18.0(prisma@6.18.0(typescript@5.9.2))(typescript@5.9.2)
@@ -1265,6 +1268,9 @@ packages:
 
   '@peculiar/x509@1.14.0':
     resolution: {integrity: sha512-Yc4PDxN3OrxUPiXgU63c+ZRXKGE8YKF2McTciYhUHFtHVB0KMnjeFSU0qpztGhsp4P0uKix4+J2xEpIEDu8oXg==}
+
+  '@pinyin-pro/data@1.2.0':
+    resolution: {integrity: sha512-Aw59BsYYV6jD1oMbT7eikQkmNssCBr548DLI+YOAGo6XWPR3Bxq1Zokj6RBLM5zCVT35yuvjo6Tv5q7VdTNZQQ==}
 
   '@pkgr/core@0.1.2':
     resolution: {integrity: sha512-fdDH1LSGfZdTH2sxdpVMw31BanV28K/Gry0cVFxaNP77neJSkd82mM8ErPNYs9e+0O7SdHBLTDzDgwUuy18RnQ==}
@@ -6163,6 +6169,8 @@ snapshots:
       reflect-metadata: 0.2.2
       tslib: 2.8.1
       tsyringe: 4.10.0
+
+  '@pinyin-pro/data@1.2.0': {}
 
   '@pkgr/core@0.1.2': {}
 

@@ -56,11 +56,11 @@ tags: []
 - gao1 xin1 zhi1 ling2 sheng4 xi1 ， zao1 xuan2 niao3 er2 zhi4 yi2 。
 - yu4 bian4 jie2 yi3 cong2 su2 xi1 ， kui4 yi4 chu1 er2 qu1 zhi4 。
 - du2 li4 nian2 er2 li2 min3 xi1 ， qiang1 ping2 xin1 you2 wei4 hua4 。
-- ning2 yin3 min3 er2 shou4 kao3 xi1 ， he2 bian4 yi4 zhi1 ke3 wei4 ！
+- ning2 yin3 min3 er2 shou4 kao3 xi1 ， he2 bian4 yi4 zhi1 ke3 wei2 ！
 - zhi1 qian2 zhe2 zhi1 bu2 sui4 xi1 ， wei4 gai3 ci3 du4 。
 - che1 ji4 fu4 er2 ma3 dian1 xi1 ， jian3 du2 huai2 ci3 yi4 lu4 。
 - le4 qi2 ji4 er2 geng4 jia4 xi1 ， zao4 fu4 wei4 wo3 cao1 zhi1 ，
-- qian1 qun1 ci4 er2 wu4 qu1 xi1 ， liao2 jia3 ri4 yi3 xu1 shi4 shi2 。
+- qian1 qun1 ci4 er2 wu4 qu1 xi1 ， liao2 jia4 ri4 yi3 xu1 shi4 shi2 。
 - zhi3 bo1 zhong3 zhi1 xi1 wei1 xi1 ， yu3 xun1 huang2 yi3 wei2 qi1 。
 - kai1 chun1 fa1 sui4 xi1 ， bai2 ri4 chu1 zhi1 you1 you1 。
 - wu2 jiang1 dang4 zhi4 er2 yu2 le4 xi1 ， zun1 jiang1 xia4 yi3 yu2 you1 。
@@ -73,7 +73,7 @@ tags: []
 - fang1 yu3 ze2 qi2 za2 rou2 xi1 ， qiang1 fang1 hua2 zi4 zhong1 chu1 。
 - fen1 yu4 yu4 qi2 yuan3 zheng1 xi1 ， man3 nei4 er2 wai4 yang2 。
 - qing2 yu3 zhi4 xin4 ke3 bao3 xi1 ， qiang1 ju1 bi4 er2 wen2 zhang1 。
-- ling4 bi4 li4 yi3 wei4 li3 xi1 ， dan4 ju3 zhi3 er2 yuan2 mu4 。
+- ling4 bi4 li4 yi3 wei2 li3 xi1 ， dan4 ju3 zhi3 er2 yuan2 mu4 。
 - yin1 fu2 rong2 er2 wei4 mei2 xi1 ， dan4 qian1 shang0 er2 ru2 zu2 。
 - deng1 gao1 wu2 bu4 shuo1 xi1 ， ru4 xia4 wu2 bu4 neng2 。
 - gu4 zhen4 xing2 zhi1 bu4 fu2 xi1 ， ran2 rong2 yu3 er2 hu2 yi2 。

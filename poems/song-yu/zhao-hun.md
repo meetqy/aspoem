@@ -150,9 +150,9 @@ tags: []
 - zhen4 you4 qing1 yi3 lian2 jie2 xi1 ， shen1 fu2 yi4 er2 wei4 mo4 。
 - zhu3 ci3 sheng4 de2 xi1 ， qian1 yu2 su2 er2 wu2 hui4 。
 - shang4 wu2 suo3 kao3 ci3 sheng4 de2 xi1 ， chang2 li2 yang1 er2 chou2 ku3 。
-- di4 gao4 wu1 yang2 yue1 ： “ you3 ren2 zai4 xia4 ， wo3 yu4 fu3 zhi1 。 hun2 po4 li2 san4 ， ru3 shi4 yu3 zhi1 。 ”
-- wu1 yang2 dui4 yue1 ： “ zhang3 meng4 ！ shang4 di4 qi2 nan2 cong2 。 ruo4 bi4 shi4 yu3 zhi1 ， kong3 hou4 zhi1 xie4 ， bu4 neng2 fu4 yong4 。 ”
-- wu1 yang2 yan1 nai3 xia4 zhao1 yue1 ： hun2 xi1 gui1 lai2 ！ qu4 jun1 zhi1 heng2 gan1 ， he2 wei4 si4 fang1 xie1 ？
+- di4 gao4 wu1 yang2 yue1 ：“ you3 ren2 zai4 xia4 ， wo3 yu4 fu3 zhi1 。 hun2 po4 li2 san4 ， ru3 shi4 yu3 zhi1 。”
+- wu1 yang2 dui4 yue1 ：“ zhang3 meng4 ！ shang4 di4 qi2 nan2 cong2 。 ruo4 bi4 shi4 yu3 zhi1 ， kong3 hou4 zhi1 xie4 ， bu4 neng2 fu4 yong4 。”
+- wu1 yang2 yan1 nai3 xia4 zhao1 yue1 ： hun2 xi1 gui1 lai2 ！ qu4 jun1 zhi1 heng2 gan1 ， he2 wei2 si4 fang1 xie1 ？
 - she4 jun1 zhi1 le4 chu4 ， er2 li2 bi3 bu4 xiang2 xie1 ！ hun2 xi1 gui1 lai2 ！ dong1 fang1 bu4 ke3 yi3 tuo1 xie1 。
 - chang2 ren2 qian1 ren4 ， wei2 hun2 shi4 suo3 xie1 。
 - shi2 ri4 dai4 chu1 ， liu2 jin1 shuo4 shi2 xie1 。
@@ -169,7 +169,7 @@ tags: []
 - chi4 yi3 ruo4 xiang4 ， xuan2 feng1 ruo4 hu2 xie1 。
 - wu3 gu3 bu4 sheng1 ， cong2 jian1 shi4 shi2 xie1 。
 - qi2 tu3 lan4 ren2 ， qiu2 shui3 wu2 suo3 de2 xie1 。
-- pang2 yang2 wu2 suo3 yi3 ， guang3 da4 wu2 suo3 ji2 xie1 。
+- fang3 yang2 wu2 suo3 yi3 ， guang3 da4 wu2 suo3 ji2 xie1 。
 - gui1 lai2 xi1 ！ kong3 zi4 yi2 zei2 xie1 。
 - hun2 xi1 gui1 lai2 ！ bei3 fang1 bu4 ke3 yi3 zhi3 xie1 。
 - zeng1 bing1 e2 e2 ， fei1 xue3 qian1 li3 xie1 。
@@ -240,7 +240,7 @@ tags: []
 - gui1 lai2 fan3 gu4 shi4 ， jing4 er2 wu2 fang2 xie1 。
 - yao2 xiu1 wei4 tong1 ， nü3 le4 luo2 xie1 。
 - chen2 zhong1 an4 gu3 ， zao4 xin1 ge1 xie1 。
-- 《 she4 jiang1 》 《 cai3 ling2 》 ， fa1 《 yang2 he2 》 xie1 。
+- 《 she4 jiang1 》《 cai3 ling2 》， fa1 《 yang2 he2 》 xie1 。
 - mei3 ren2 ji4 zui4 ， zhu1 yan2 tuo2 xie1 。
 - xi1 guang1 miao3 shi4 ， mu4 ceng2 bo1 xie1 。
 - bei4 wen2 fu2 xian1 ， li4 er2 bu4 qi2 xie1 。

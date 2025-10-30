@@ -23,7 +23,7 @@ tags: []
 ## 拼音
 
 - wei2 han4 nian4 er4 shi4 ， suo3 ren4 cheng2 bu4 liang2 。
-- mu4 hou2 er2 guan4 dai4 ， zhi1 xiao3 er2 mou2 jiang1 。
+- mu4 hou2 er2 guan1 dai4 ， zhi1 xiao3 er2 mou2 jiang1 。
 - you2 yu4 bu4 gan3 duan4 ， yin1 shou4 zhi2 jun1 wang2 。
 - bai2 hong2 wei4 guan4 ri4 ， ji3 yi4 xian1 shou4 yang1 。
 - zei2 chen2 chi2 guo2 bing3 ， sha1 zhu3 mie4 yu3 jing1 。
