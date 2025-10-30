@@ -1,0 +1,29 @@
+---
+id: zong-chen-bao-liu-yi-zhang-shu
+title: 報劉一丈書
+titleSlug: bao-liu-yi-zhang-shu
+author: 宗臣
+authorSlug: zong-chen
+dynasty: 明代
+dynastySlug: ming-dai
+tags: ["卷十二・明文","古文观止"]
+---
+
+## 正文
+
+- shu4 qian1 li3 wai4 ， de2 chang2 zhe3 shi2 ci4 yi4 shu1 ， yi3 wei4 chang2 xiang3 ， ji2 yi4 shen4 xing4 yi3 ； he2 zhi4 geng4 ru3 kui4 yi2 ， ze2 bu4 cai2 yi4   jiang1 he2 yi3 bao4 yan1 ？ shu1 zhong1 qing2 yi4 shen4 yin1 ， ji2 chang2 zhe3 zhi1 bu2 wang4 lao3 fu4 ， zhi1 lao3 fu4 zhi1 nian4 chang2 zhe3 shen1 ye3 。
+- 數千裏外，得長者時賜一書，以慰長想，即亦甚幸矣；何至更辱饋遺，則不才益 將何以報焉？書中情意甚殷，即長者之不忘老父，知老父之念長者深也。
+- zhi4 yi3 「 shang4 xia4   xiang1 fu2 ， cai2 de2 cheng1 wei4 」 yu3 bu4 cai2 ， ze2 bu4 cai2 you3 shen1 gan3 yan1 。   fu1 cai2 de2 bu4 cheng1 ， gu4 zi4 zhi1 zhi1 yi3 ； zhi4 wu1 bu4 fu2 zhi1 bing4 ， ze2 you2 bu4 cai2 wei2 shen4 。
+- 至以「上下 相孚，才德稱位」語不才，則不才有深感焉。 夫才德不稱，固自知之矣；至於不孚之病，則尤不才爲甚。
+- qie3 jin1 zhi1 suo3 wei4 fu2 zhe3 ， he2 zai1 ？ ri4 xi1 ce4 ma3 ， hou4 quan2 zhe3 zhi1 men2 。 men2 zhe3 gu4 bu2 ru4 ， ze2 gan1 yan2 mei4 ci2 ， zuo4 fu4 ren2 zhuang4 ， xiu4 jin1 yi3 si1 zhi1 。 ji2 men2 zhe3 chi2 ci4 ru4 ， er2 zhu3 ren2 you4 bu4 ji2 chu1 jian4 ； li4 jiu4 zhong1 pu2 ma3 zhi1 jian4 ， e4 qi4 xi2 yi1 xiu4 ， ji2 ji1 han2 du2 re4 bu4 ke3 ren3 ， bu2 qu4 ye3   。 di3 mu4 ， ze2 qian2 suo3 shou4 zeng4 jin1 zhe3 ， chu1 bao4 ke4 yue1 ： 「 xiang4 gong0 juan4 ， xie4 ke4 yi3 ！ ke4 qing3 ming2 ri4 lai2 ！ 」 ji2 ming2 ri4 ，   you4 bu4 gan3 bu4 lai2 。 ye4 pi1 yi1 zuo4 ， wen2 ji1 ming2 ， ji2 qi3 guan4 zhi4 ， zou3 ma3 di3 men2 ； men2 zhe3 nu4 yue1 ： 「 wei2 shui2 ？ 」 ze2 yue1   ： 「 zuo2 ri4 zhi1 ke4 lai2 。 」 ze2 you4 nu4 yue1 ： 「 he2 ke4 zhi1 qin2 ye3 ？ qi3 you3 xiang4 gong0 ci3 shi2 chu1 jian4 ke4 hu1 ？ 」 ke4 xin1 chi3 zhi1   ， qiang2 ren3 er2 yu3 yan2 yue1 ： 「 wang2 nai4 he2 yi3 ， gu1 rong2 wo3 ru4 ！ 」 men2 zhe3 you4 de2 suo3 zeng4 jin1 ， ze2 qi3 er2 ru4 zhi1 ； you4 li4 xiang4   suo3 li4 jiu4 zhong1 。   xing4 zhu3 zhe3 chu1 ， nan2 mian4 zhao4 jian4 ， ze2 jing1 zou3 pu2 fu2 jie1 xia4 。 zhu3 zhe3 yue1 ： 「 jin4 ！ 」 ze2 zai4 bai4 ， gu4 chi2 bu4 qi3 ；   qi3 ze2 shang4 suo3 shang4 shou4 jin1 。 zhu3 zhe3 gu4 bu2 shou4 ， ze2 gu4 qing3 。 zhu3 zhe3 gu4 gu4 bu2 shou4 ， ze2 you4 gu4 qing3 ， ran2 hou4 ming4 li4 na4 zhi1 。   ze2 you4 zai4 bai4 ， you4 gu4 chi2 bu4 qi3 ； qi3 ze2 wu3 liu4 yi1 shi3 chu1 。 chu1 yi1 men2 zhe3 yue1 ： 「 guan1 ren2 xing4 gu4 wo3 ， ta1 ri4 lai2 ， xing4   wu2 zu3 wo3 ye3 ！ 」 men2 zhe3 da2 yi1 。 da4 xi3 ben1 chu1 ， ma3 shang4 yu4 suo3 jiao1 shi2 ， ji2 yang2 bian1 yu3 yue1 ： 「 shi4 zi4 xiang1 gong1 jia0 lai2 ，   xiang4 gong0 hou4 wo3 ， hou4 wo3 ！ 」 qie3 xu1 yan2 zhuang4 。 ji2 suo3 jiao1 shi2 ， yi4 xin1 wei4 xiang4 gong0 hou4 zhi1 yi3 。 xiang4 gong0 you4 shao1 shao1 yu3 ren2 yue1 ： 「 mou3 ye3 xian2 ！ mou3 ye3 xian2 ！ 」 wen2 zhe3 yi4 xin1 xu1 jiao1 zan4 zhi1 。
+- 且今之所謂孚者，何哉？日夕策馬，候權者之門。門者故不入，則甘言媚詞，作婦人狀，袖金以私之。即門者持刺入，而主人又不即出見；立廄中僕馬之間，惡氣襲衣袖，即飢寒毒熱不可忍，不去也 。抵暮，則前所受贈金者，出報客曰：「相公倦，謝客矣！客請明日來！」即明日， 又不敢不來。夜披衣坐，聞雞鳴，即起盥櫛，走馬抵門；門者怒曰：「爲誰？」則曰 ：「昨日之客來。」則又怒曰：「何客之勤也？豈有相公此時出見客乎？」客心恥之 ，強忍而與言曰：「亡奈何矣，姑容我入！」門者又得所贈金，則起而入之；又立向 所立廄中。 幸主者出，南面召見，則驚走匍匐階下。主者曰：「進！」則再拜，故遲不起； 起則上所上壽金。主者故不受，則固請。主者故固不受，則又固請，然後命吏納之。 則又再拜，又故遲不起；起則五六揖始出。出揖門者曰：「官人幸顧我，他日來，幸 無阻我也！」門者答揖。大喜奔出，馬上遇所交識，即揚鞭語曰：「適自相公家來， 相公厚我，厚我！」且虛言狀。即所交識，亦心畏相公厚之矣。相公又稍稍語人曰：「某也賢！某也賢！」聞者亦心許交贊之。
+- ci3 shi4 suo3 wei4 shang4 xia4 xiang1 fu2 ye3 ， chang2 zhe3 wei4 pu2 neng2 zhi1 hu1 ？ qian2 suo3 wei4 quan2 men2 zhe3 ， zi4 sui4 shi2 fu2 la4 ， yi2 ci4 zhi1 wai4 ， ji2 jing1 nian2 bu4 wang3 ye3 。 xian2 dao4 jing1 qi2 men2 ， ze2 yi4 yan3 er3   bi4 mu4 ， yue4 ma3 ji2 zou3 guo4 zhi1 ， ruo4 you3 suo3 zhui1 zhu2 zhe3 ， si1 ze2 pu2 zhi1 bian3 zhong1 ， yi3 ci3 chang2 bu2 jian4 yi2 wu1 chang2 li4 ， pu2 ze2 yu4   yi4 bu2 gu4 ye3 。 mei3 da4 yan2 yue1 ： 「 ren2 sheng1 you3 ming4 ， wu2 wei2 you3 ming4 ， wu2 wei2 shou3 fen1 er2 yi3 。 」 chang2 zhe3 wen2 zhi1 ， de2 wu2 yan4   qi2 wei2 yu1 hu1 ？
+- 此世所謂上下相孚也，長者謂僕能之乎？前所謂權門者，自歲時伏臘，一刺之外，即經年不往也。閒道經其門，則亦掩耳 閉目，躍馬疾走過之，若有所追逐者，斯則僕之褊衷，以此長不見怡於長吏，僕則愈 益不顧也。每大言曰：「人生有命，吾惟有命，吾惟守分而已。」長者聞之，得無厭 其爲迂乎？
+- xiang1 yuan2 duo1 gu4 ， bu4 neng2 bu2 dong4 ke4 zi3 zhi1 chou2 。 zhi4 wu1 chang2 zhe3 zhi1 bao4 cai2 er2 kun4 ， ze2 you4 ling4 wo3 chuang4 ran2 you3 gan3 。 tian1 zhi1 yu3 xian1 sheng1 zhe3 shen4 hou4 ， wang2 lun4 chang2 zhe3 bu2 yu4 qing1 qi4 zhi1 ， ji2 tian1 yi4 yi4 bu2 yu4 chang2 zhe3 zhi1 qing1 qi4 zhi1 ye3 ， xing4 ning2 xin1 zai1 ！
+- 鄉園多故，不能不動客子之愁。至於長者之抱才而困，則又令我愴然有感。天之與先生者甚厚，亡論長者不欲輕棄之，即天意亦不欲長者之輕棄之也，幸寧心哉！
+
+## 注释
+
+## 译文
+
+## 赏析

@@ -1,7 +1,7 @@
 import { Dynasty } from '@/types'
 
 import dataDizigui from '../../../chinese-poetry-master/蒙学/dizigui.json'
-import { createAuthor, createPoem } from '../utils'
+import { createMdContent } from '../create-md'
 
 export async function syncDizigui() {
   try {
@@ -10,16 +10,14 @@ export async function syncDizigui() {
       dynasty: Dynasty.清,
     }
 
-    const authorId = await createAuthor(_author.name, _author.dynasty)
-
     // 遍历弟子规的各个章节
     await Promise.all(
       dataDizigui.content.map(async (chapter) => {
-        return createPoem({
+        return createMdContent({
           title: chapter.chapter,
           paragraphs: chapter.paragraphs,
-          authorId,
-          section: chapter.chapter, // chapter 对应 poem 中的 section
+          author: _author.name,
+          dynasty: _author.dynasty,
         })
       }),
     )

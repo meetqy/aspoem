@@ -1,7 +1,7 @@
 import { Dynasty } from '@/types'
 
 import dataBaijiaxing from '../../../chinese-poetry-master/蒙学/baijiaxing.json'
-import { createAuthor, createPoem } from '../utils'
+import { createMdContent } from '../create-md'
 
 export async function syncBaijiaxing() {
   const _author = {
@@ -9,13 +9,10 @@ export async function syncBaijiaxing() {
     dynasty: Dynasty.北宋,
   }
 
-  const authorId = await createAuthor(_author.name, _author.dynasty)
-
-  createPoem({
-    title: dataBaijiaxing.title,
+  createMdContent({
+    title: '百家姓',
     paragraphs: dataBaijiaxing.paragraphs,
-    authorId,
-  }).then(() => {
-    console.log('百家姓同步完成')
+    author: _author.name,
+    dynasty: _author.dynasty,
   })
 }

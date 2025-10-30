@@ -1,0 +1,25 @@
+---
+id: si-ma-guang-jian-yuan-ti-ming-ji
+title: 諫院題名記
+titleSlug: jian-yuan-ti-ming-ji
+author: 司馬光
+authorSlug: si-ma-guang
+dynasty: 宋代
+dynastySlug: song-dai
+tags: ["卷九・唐宋文","古文观止"]
+---
+
+## 正文
+
+- gu3 zhe3 jian4 wu2 guan1 ， zi4 gong1 qing1 dai4 fu0 ， zhi4 wu1 gong1 shang1 ， wu2 bu4 de2 jian4 zhe3 。 han4 xing1 yi3 lai2 ， shi3 zhi4 guan1 。
+- 古者諫無官，自公卿大夫，至於工商，無不得諫者。漢興以來，始置官。
+- fu1 yi3 tian1 xia4 zhi1 zheng4 ， si4 hai3 zhi1 zhong4 ， de2 shi1 li4 bing4 ， cui4 wu1 yi4 guan1 shi3 yan2 zhi1 ， qi2 wei2 ren4 yi4 zhong4 yi3 。 ju1 shi4 guan1 zhe3 ， chang2 zhi4 qi2 da4 ， she4 qi2 xi4 ； xian1 qi2 ji2 ， hou4 qi2 huan3 ； zhuan1 li4 guo2 jia1 er2 bu4 wei2 shen1 mou2 。 bi3 ji2 ji2 wu1 ming2 zhe3 ， you2 ji2 ji2 wu1 li4 ye3 ， qi2 jian4 xiang1 qu4 he2 yuan3 zai1 ！
+- 夫以天下之政，四海之衆，得失利病，萃於一官使言之，其爲任亦重矣。居是官者，常志其大，舍其細；先其急，後其緩；專利國家而不爲身謀。彼汲汲於名者，猶汲汲於利也，其間相去何遠哉！
+- tian1 xi3 chu1 ， zhen1 zong1 zhao4 zhi4 jian4 guan1 liu4 yuan2 ， ze2 qi2 zhi2 shi4 。 qing4 li4 zhong1 ， qian2 jun1 shi3 shu1 qi2 ming2 wu1 ban3 ， guang1 kong3 jiu3 er2 man4 mie4 。 jia1 you4 ba1 nian2 ， ke4 wu1 shi2 。 hou4 zhi1 ren2 jiang1 li4 zhi3 qi2 ming2 er2 yi4 zhi1 yue1 ： “ mou3 ye3 zhong1 ， mou3 ye3 zha4 ， mou3 ye3 zhi2 ， mou3 ye3 qu3 。 ” wu1 hu1 ！ ke3 bu2 ju4 zai1 ！
+- 天禧初，真宗詔置諫官六員，責其職事。慶曆中，錢君始書其名於版，光恐久而漫滅。嘉祐八年，刻於石。後之人將歷指其名而議之曰：“某也忠，某也詐，某也直，某也曲。”嗚呼！可不懼哉！
+
+## 注释
+
+## 译文
+
+## 赏析

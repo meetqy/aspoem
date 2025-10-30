@@ -2,6 +2,10 @@ import { db } from '@/server/db'
 import { syncCaocao } from './caocao'
 import { syncChuci } from './chuci'
 import { syncLunyu } from './lunyu'
+import { syncBaijiaxing } from './mengxue/baijiaxing'
+import { syncDizigui } from './mengxue/dizigui'
+import { syncGuwenguanzhi } from './mengxue/guwenguanzhi'
+import { syncQianjiashi } from './mengxue/qianjiashi'
 
 function main() {
   // 初始化朝代
@@ -19,10 +23,10 @@ function main() {
     syncCaocao()
     syncLunyu()
     syncChuci()
-    // syncBaijiaxing();
-    // syncDizigui();
-    // syncGuwenguanzhi();
+    syncBaijiaxing()
+    syncDizigui()
     // syncQianjiashi()
+    syncGuwenguanzhi()
   })
 }
 
