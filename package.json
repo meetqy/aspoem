@@ -81,6 +81,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "fs-extra": "^11.3.2",
+    "pangu": "^7.2.0",
     "postcss": "^8.5.3",
     "prisma": "^6.18.0",
     "tailwindcss": "^4.0.15",

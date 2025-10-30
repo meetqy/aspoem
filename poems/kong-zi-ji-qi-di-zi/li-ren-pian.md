@@ -40,7 +40,7 @@ tags: []
 - zi3 yue1 ： “ bu2 huan4 wu2 wei4 ， huan4 suo3 yi3 li4 。 bu2 huan4 mo4 ji3 zhi1 ， qiu2 wei4 ke3 zhi1 ye3 。 ”
 - 子曰：“不患无位，患所以立。不患莫己知，求为可知也。”
 - zi3 yue1 ： “ can1 hu1 ！ wu2 dao4 yi1 yi3 guan4 zhi1 。 ” ceng2 zi3 yue1 ： “ wei2 。 ” zi3 chu1 ， men2 ren2 wen4 yue1 ： “ he2 wei4 ye3 ？ ” ceng2 zi3 yue1 ： “ fu1 zi3 zhi1 dao4 ， zhong1 shu4 er2 yi3 yi3 。 ”
-- 子曰：“参乎！吾道一以贯之。”曾子曰：“唯。”子出，门人问曰：“何谓也？”曾子曰：“夫子之道，忠恕而已矣。”
+- 子曰：“参乎！吾道一以贯之。” 曾子曰：“唯。” 子出，门人问曰：“何谓也？” 曾子曰：“夫子之道，忠恕而已矣。”
 - zi3 yue1 ： “ jun1 zi3 yu4 yu2 yi4 ， xiao3 ren2 yu4 yu2 li4 。 ”
 - 子曰：“君子喻于义，小人喻于利。”
 - zi3 yue1 ： “ jian4 xian2 si1 qi2 yan1 ， jian4 bu4 xian2 er2 nei4 zi4 xing3 ye3 。 ”

@@ -78,7 +78,7 @@ tags: []
 - jian4 wang2 zi3 er2 su4 zhi1 xi1 ， shen3 yi1 qi4 zhi1 he2 de2 。
 - 见王子而宿之兮，审壹气之和德。
 - yue1 “ dao4 ke3 shou4 xi1 ， bu4 ke3 chuan2
-- 曰“道可受兮，不可传
+- 曰 “道可受兮，不可传
 - qi2 xiao3 wu2 nei4 xi1 ， qi2 da4 wu2 yin2 。
 - 其小无内兮，其大无垠。
 - wu2 hua2 er2 hun2 xi1 ， bi3 jiang1 zi4 ran2

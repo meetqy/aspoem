@@ -24,7 +24,7 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - dui4 yue1 ： “ yan2 ， shen1 zhi1 wen2 ye3 。 shen1 jiang1 yin3 ， yan1 yong4 wen2 zhi1 ？ shi4 qiu2 xian3 ye3 。 ”
 - 對曰：“言，身之文也。身將隱，焉用文之？是求顯也。”
 - qi2 mu3 yue1 ： “ neng2 ru2 shi4 hu1 ？ yu3 ru3 xie2 yin3 。 ” sui4 yin3 er2 si3 。
-- 其母曰：“能如是乎？與汝偕隱。”遂隱而死。
+- 其母曰：“能如是乎？與汝偕隱。” 遂隱而死。
 - jin4 hou2 qiu2 zhi1 ， bu2 huo4 ， yi3 mian2 shang4 （ di4 ming2 ） wei2 zhi1 tian2 。 yue1 ： “ yi3 zhi4 wu2 guo4 ， qie3 jing1 shan4 ren2 。 ”
 - 晉侯求之，不獲，以綿上（地名）爲之田。曰：“以志吾過，且旌善人。”
 

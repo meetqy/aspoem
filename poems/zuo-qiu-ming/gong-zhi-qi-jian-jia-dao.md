@@ -36,7 +36,7 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - dui4 yue1 ： “ tong2 yao2 yue1 ： ‘ bing3 zhi1 chen2 ， long2 wei3 fu2 chen2 ， jun1 fu2 zhen4 zhen4 ， qu3 guo2 zhi1 qi2 。 chun2 zhi1 bi4 bi4 ， tian1 ce4 dun4 dun4 ， huo3 zhong1 cheng2 jun1 ， guo2 gong1 qi2 ben1 。 ’ qi2 jiu3 yue4 、 shi2 yue4 zhi1 jiao1 hu1 ！ bing3 zi3 dan4 ， ri4 zai4 wei3 ， yue4 zai4 ce4 ， chun2 huo3 zhong1 ， bi4 shi4 shi2 ye3 。 ”
 - 對曰：“童謠曰：‘丙之晨，龍尾伏辰，均服振振，取虢之旂。鶉之賁賁，天策燉燉，火中成軍，虢公其奔。’其九月、十月之交乎！丙子旦，日在尾，月在策，鶉火中，必是時也。”
 - dong1 ， shi2 er4 yue4 bing3 zi3 shuo4 ， jin4 mie4 guo2 ， guo2 gong1 chou3 ben1 jing1 shi1 。 shi1 huan2 ， guan3 wu1 yu2 ， sui4 xi2 yu2 ， mie4 zhi1 , zhi2 yu2 gong1 . ji2 qi2 dai4 fu0 jing3 bo2 ， cong2 ying4 qin2 mu4 ji1 。 er2 xiu1 yu2 si4 ， qie3 gui1 qi2 zhi2 gong4 wu1 wang2 ， gu4 shu1 yue1 ： “ jin4 ren2 zhi2 yu2 gong1 。 ” zui4 yu2 gong1 ， yan2 yi4 ye3 。
-- 冬，十二月丙子朔，晉滅虢，虢公醜奔京師。師還，館於虞，遂襲虞，滅之，執虞公。及其大夫井伯，從媵秦穆姬。而修虞祀，且歸其職貢於王，故書曰：“晉人執虞公。”罪虞公，言易也。
+- 冬，十二月丙子朔，晉滅虢，虢公醜奔京師。師還，館於虞，遂襲虞，滅之，執虞公。及其大夫井伯，從媵秦穆姬。而修虞祀，且歸其職貢於王，故書曰：“晉人執虞公。” 罪虞公，言易也。
 
 ## 注释
 

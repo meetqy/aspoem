@@ -20,7 +20,7 @@ tags: ["卷三・周文","古文观止","蒙学"]
 - you3 bu2 ji4 ， ze2 xiu1 yi4 ； you3 bu2 si4 ， ze2 xiu1 yan2 ； you3 bu4 xiang3 ， ze2 xiu1 wen2 ； you3 bu2 gong4 ， ze2 xiu1 ming2 ； you3 bu4 wang2 ， ze2 xiu1 de2 。 xu4 cheng2 er2 you3 bu2 zhi4 ， ze2 xiu1 xing2 。 wu1 shi4 hu1 you3 xing2 bu2 ji4 ， fa2 bu2 si4 ， zhi3 bu4 xiang3 ， rang4 bu2 gong4 ， gao4 bu4 wang2 。 wu1 shi4 hu1 you3 xing2 fa2 zhi1 pi4 ， you3 gong1 fa2 zhi1 bing1 ， you3 zhi3 tao3 zhi1 bei4 ， you3 wei1 rang4 zhi1 ling4 ， you3 wen2 gao4 zhi1 ci2 。 bu4 ling4 chen2 ci2 ， er2 you4 bu2 zhi4 ， ze2 you4 zeng1 xiu1 wu1 de2 ， wu2 qin2 min2 wu1 yuan3 。
 - 有不祭，則修意；有不祀，則修言；有不享，則修文；有不貢，則脩名；有不王，則修德。序成而有不至，則修刑。於是乎有刑不祭，伐不祀，徵不享，讓不貢，告不王。於是乎有刑罰之闢，有攻伐之兵，有徵討之備，有威讓之令，有文告之辭。布令陳辭，而又不至，則又增修於德，無勤民於遠。
 - shi4 yi3 jin4 wu2 bu4 ting1 ， yuan3 wu2 bu4 fu2 。 jin1 zi4 da4 bi4 、 bo2 shi4 zhi1 zhong1 ye3 ， quan3 rong2 shi4 yi3 qi2 zhi2 lai2 wang2 ， tian1 zi3 yue1 ： ‘ yu3 bi4 yi3 bu4 xiang3 zhi3 zhi1 ’ ， qie3 guan1 zhi1 bing1 ， qi2 wu2 nai3 fei4 xian1 wang2 zhi1 xun4 ， er2 wang2 ji1 dun4 hu1 ？ wu2 wen2 fu1 quan3 rong2 shu4 dun1 ， neng2 shuai4 jiu4 de2 ， er2 shou3 zhong1 chun2 gu4 ， qi2 you3 yi3 yu4 wo3 yi3 。 ” wang2 bu4 ting1 ， sui4 zhi3 zhi1 ， de2 si4 bai2 lang2 、 si4 bai2 lu4 yi3 gui1 。 zi4 shi4 huang1 fu2 zhe3 bu2 zhi4 。
-- 是以近無不聽，遠無不服。今自大畢、伯士之終也，犬戎氏以其職來王，天子曰：‘予必以不享徵之’，且觀之兵，其無乃廢先王之訓，而王幾頓乎？吾聞夫犬戎樹惇，能帥舊德，而守終純固，其有以御我矣。”王不聽，遂徵之，得四白狼、四白鹿以歸。自是荒服者不至。
+- 是以近無不聽，遠無不服。今自大畢、伯士之終也，犬戎氏以其職來王，天子曰：‘予必以不享徵之’，且觀之兵，其無乃廢先王之訓，而王幾頓乎？吾聞夫犬戎樹惇，能帥舊德，而守終純固，其有以御我矣。” 王不聽，遂徵之，得四白狼、四白鹿以歸。自是荒服者不至。
 
 ## 注释
 

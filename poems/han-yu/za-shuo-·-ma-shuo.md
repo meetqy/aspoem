@@ -24,7 +24,7 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - )
 - ）
 - ce4 zhi1 bu4 yi3 qi2 dao4 ， shi2 zhi1 bu4 neng2 jin4 qi2 cai2 ， ming2 zhi1 er2 bu4 neng2 tong1 qi2 yi4 ， zhi2 ce4 er2 lin2 zhi1 ， yue1 ： “ tian1 xia4 wu2 ma3 ！ ” wu1 hu1 ！ qi2 zhen1 wu2 ma3 xie2 ？ qi2 zhen1 bu4 zhi1 ma3 ye3 ！
-- 策之不以其道，食之不能盡其材，鳴之而不能通其意，執策而臨之，曰：“天下無馬！”嗚呼！其真無馬邪？其真不知馬也！
+- 策之不以其道，食之不能盡其材，鳴之而不能通其意，執策而臨之，曰：“天下無馬！” 嗚呼！其真無馬邪？其真不知馬也！
 
 ## 注释
 

@@ -32,7 +32,7 @@ tags: []
 - zi3 yu2 shi4 ri4 ku1 ， ze2 bu4 ge1 。
 - 子于是日哭，则不歌。
 - zi3 wei4 yan2 yuan1 yue1 ： “ yong4 zhi1 ze2 xing2 ， she4 zhi1 ze2 cang2 ， wei2 wo3 yu3 er3 you3 shi4 fu1 ！ ” zi3 lu4 yue1 ： “ zi3 xing2 san1 jun1 ， ze2 shui2 yu3 ？ ” zi3 yue1 ： “ bao4 hu3 ping2 he2 ， si3 er2 wu2 hui3 zhe3 ， wu2 bu4 yu3 ye3 。 bi4 ye3 lin2 shi4 er2 ju4 ， hao3 mou2 er2 cheng2 zhe3 ye3 。 ”
-- 子谓颜渊曰：“用之则行，舍之则藏，惟我与尔有是夫！”子路曰：“子行三军，则谁与？”子曰：“暴虎冯河，死而无悔者，吾不与也。必也临事而惧，好谋而成者也。”
+- 子谓颜渊曰：“用之则行，舍之则藏，惟我与尔有是夫！” 子路曰：“子行三军，则谁与？” 子曰：“暴虎冯河，死而无悔者，吾不与也。必也临事而惧，好谋而成者也。”
 - zi3 yue1 ： “ fu4 er2 ke3 qiu2 ye3 ， sui1 zhi2 bian1 zhi1 shi4 ， wu2 yi4 wei4 zhi1 。 ru2 bu4 ke3 qiu2 ， cong2 wu2 suo3 hao3 。 ”
 - 子曰：“富而可求也，虽执鞭之士，吾亦为之。如不可求，从吾所好。”
 - zi3 zhi1 suo3 shen4 ： qi2 ， zhan4 ， ji2 。
@@ -40,7 +40,7 @@ tags: []
 - zi3 zai4 qi2 wen2 《 shao2 》 ， san1 yue4 bu4 zhi1 rou4 wei4 ， yue1 ： “ bu4 tu2 wei4 le4 zhi1 zhi4 yu2 si1 ye3 。 ”
 - 子在齐闻《韶》，三月不知肉味，曰：“不图为乐之至于斯也。”
 - ran3 you3 yue1 ： “ fu1 zi3 wei4 wei4 jun1 hu1 ？ ” zi3 gong4 yue1 ： “ nuo4 ， wu2 jiang1 wen4 zhi1 。 ” ru4 ， yue1 ： “ bo2 yi2 、 shu1 qi2 he2 ren2 ye3 ？ ” yue1 ： “ gu3 zhi1 xian2 ren2 ye3 。 ” yue1 ： “ yuan4 hu1 ？ ” yue1 ： “ qiu2 ren2 er2 de2 ren2 ， you4 he2 yuan4 ？ ” chu1 ， yue1 ： “ fu1 zi3 bu2 wei4 ye3 。 ”
-- 冉有曰：“夫子为卫君乎？”子贡曰：“诺，吾将问之。”入，曰：“伯夷、叔齐何人也？”曰：“古之贤人也。”曰：“怨乎？”曰：“求仁而得仁，又何怨？”出，曰：“夫子不为也。”
+- 冉有曰：“夫子为卫君乎？” 子贡曰：“诺，吾将问之。” 入，曰：“伯夷、叔齐何人也？” 曰：“古之贤人也。” 曰：“怨乎？” 曰：“求仁而得仁，又何怨？” 出，曰：“夫子不为也。”
 - zi3 yue1 ： “ fan4 shu1 shi2 yin3 shui3 ， qu1 gong1 er2 zhen3 zhi1 ， le4 yi4 zai4 qi2 zhong1 yi3 。 bu2 yi4 er2 fu4 qie3 gui4 ， yu2 wo3 ru2 fu2 yun2 。 ”
 - 子曰：“饭疏食饮水，曲肱而枕之，乐亦在其中矣。不义而富且贵，于我如浮云。”
 - zi3 yue1 ： “ jia1 wo3 shu4 nian2 ， wu3 shi2 yi3 xue2 《 yi4 》 ， ke3 yi3 wu2 da4 guo4 yi3 。 ”
@@ -62,7 +62,7 @@ tags: []
 - zi3 yi3 si4 jiao4 ： wen2 ， xing2 ， zhong1 ， xin4 。
 - 子以四教：文，行，忠，信。
 - zi3 yue1 ： “ sheng4 ren2 ， wu2 bu4 de2 er2 jian4 zhi1 yi3 ； de2 jian4 jun1 zi3 zhe3 si1 ke3 yi3 。 ” zi3 yue1 ： “ shan4 ren2 ， wu2 bu4 de2 er2 jian4 zhi1 yi3 ， de2 jian4 you3 heng2 zhe3 si1 ke3 yi3 。 wang2 er2 wei4 you3 ， xu1 er2 wei4 ying2 ， yue1 er2 wei4 tai4 ， nan2 hu1 you3 heng2 hu1 。 ”
-- 子曰：“圣人，吾不得而见之矣；得见君子者斯可矣。”子曰：“善人，吾不得而见之矣，得见有恒者斯可矣。亡而为有，虚而为盈，约而为泰，难乎有恒乎。”
+- 子曰：“圣人，吾不得而见之矣；得见君子者斯可矣。” 子曰：“善人，吾不得而见之矣，得见有恒者斯可矣。亡而为有，虚而为盈，约而为泰，难乎有恒乎。”
 - zi3 diao4 er2 bu4 gang1 ， yi4 bu2 she4 su4 。
 - 子钓而不纲，弋不射宿。
 - zi3 yue1 ： “ gai4 you3 bu4 zhi1 er2 zuo4 zhi1 zhe3 ， wo3 wu2 shi4 ye3 。 duo1 wen2 ， ze2 qi2 shan4 zhe3 er2 cong2 zhi1 ； duo1 jian4 er2 shi2 zhi1 ， zhi1 zhi1 ci4 ye3 。 ”
@@ -72,15 +72,15 @@ tags: []
 - zi3 yue1 ： “ ren2 yuan3 hu1 zai1 ？ wo3 yu4 ren2 ， si1 ren2 zhi4 yi3 。 ”
 - 子曰：“仁远乎哉？我欲仁，斯仁至矣。”
 - chen2 si1 bai4 wen4 ： “ zhao1 gong1 zhi1 li3 hu1 ？ ” kong3 zi3 yue1 ： “ zhi1 li3 。 ” kong3 zi3 tui4 ， yi1 wu1 ma3 qi1 er2 jin4 zhi1 ， yue1 ： “ wu2 wen2 jun1 zi3 bu4 dang3 ， jun1 zi3 yi4 dang3 hu1 ？ jun1 qu3 yu2 wu2 ， wei4 tong2 xing4 ， wei4 zhi1 wu2 meng4 zi3 。 jun1 er2 zhi1 li3 ， shu2 bu4 zhi1 li3 ？ ” wu1 ma3 qi1 yi3 gao4 ， zi3 yue1 ： “ qiu1 ye3 xing4 ， gou3 you3 guo4 ， ren2 bi4 zhi1 zhi1 。 ”
-- 陈司败问：“昭公知礼乎？”孔子曰：“知礼。”孔子退，揖巫马期而进之，曰：“吾闻君子不党，君子亦党乎？君取于吴，为同姓，谓之吴孟子。君而知礼，孰不知礼？”巫马期以告，子曰：“丘也幸，苟有过，人必知之。”
+- 陈司败问：“昭公知礼乎？” 孔子曰：“知礼。” 孔子退，揖巫马期而进之，曰：“吾闻君子不党，君子亦党乎？君取于吴，为同姓，谓之吴孟子。君而知礼，孰不知礼？” 巫马期以告，子曰：“丘也幸，苟有过，人必知之。”
 - zi3 yu3 ren2 ge1 er2 shan4 ， bi4 shi3 fan3 zhi1 ， er2 hou4 he2 zhi1 。
 - 子与人歌而善，必使反之，而后和之。
 - zi3 yue1 ： “ wen2 ， mo4 wu2 you2 ren2 ye3 。 gong1 xing2 jun1 zi3 ， ze2 wu2 wei4 zhi1 you3 de2 。 ”
 - 子曰：“文，莫吾犹人也。躬行君子，则吾未之有得。”
 - zi3 yue1 ： “ ruo4 sheng4 yu3 ren2 ， ze2 wu2 qi3 gan3 ？ yi4 wei4 zhi1 bu2 yan4 ， hui4 ren2 bu2 juan4 ， ze2 ke3 wei4 yun2 er3 yi3 yi3 。 ” gong1 xi1 hua2 yue1 ： “ zheng4 wei2 di4 zi3 bu4 neng2 xue2 ye3 。 ”
-- 子曰：“若圣与仁，则吾岂敢？抑为之不厌，诲人不倦，则可谓云尔已矣。”公西华曰：“正唯弟子不能学也。”
+- 子曰：“若圣与仁，则吾岂敢？抑为之不厌，诲人不倦，则可谓云尔已矣。” 公西华曰：“正唯弟子不能学也。”
 - zi3 ji2 bing4 ， zi3 lu4 qing3 dao3 。 zi3 yue1 ： “ you3 zhu1 ？ ” zi3 lu4 dui4 yue1 ： “ you3 zhi1 。 《 lei3 》 yue1 ： ‘ dao3 er3 yu2 shang4 xia4 shen2 qi2 。 ’ ” zi3 yue1 ： “ qiu1 zhi1 dao3 jiu3 yi3 。 ”
-- 子疾病，子路请祷。子曰：“有诸？”子路对曰：“有之。《诔》曰：‘祷尔于上下神祇。’”子曰：“丘之祷久矣。”
+- 子疾病，子路请祷。子曰：“有诸？” 子路对曰：“有之。《诔》曰：‘祷尔于上下神祇。’” 子曰：“丘之祷久矣。”
 - zi3 yue1 ： “ she1 ze2 bu4 sun1 ， jian3 ze2 gu4 。 yu3 qi2 bu4 sun1 ye3 ， ning2 gu4 。 ”
 - 子曰：“奢则不孙，俭则固。与其不孙也，宁固。”
 - zi3 yue1 ： “ jun1 zi3 tan3 dang4 dang4 ， xiao3 ren2 chang2 qi1 qi1 。 ”

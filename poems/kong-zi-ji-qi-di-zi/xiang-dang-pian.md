@@ -44,7 +44,7 @@ tags: []
 - kang1 zi3 kui4 yao4 ， bai4 er2 shou4 zhi1 。 yue1 ： “ qiu1 wei4 da2 ， bu4 gan3 chang2 。 ”
 - 康子馈药，拜而受之。曰：“丘未达，不敢尝。”
 - jiu4 fen2 ， zi3 tui4 chao2 ， yue1 ： “ shang1 ren2 hu1 ？ ” bu2 wen4 ma3 。
-- 厩焚，子退朝，曰：“伤人乎？”不问马。
+- 厩焚，子退朝，曰：“伤人乎？” 不问马。
 - jun1 ci4 shi2 ， bi4 zheng4 xi2 xian1 chang2 zhi1 ； jun1 ci4 xing1 ， bi4 shu2 er2 jian4 zhi1 ； jun1 ci4 sheng1 ， bi4 chu4 zhi1 。 shi4 shi2 yu2 jun1 ， jun1 ji4 ， xian1 fan4 。
 - 君赐食，必正席先尝之；君赐腥，必熟而荐之；君赐生，必畜之。侍食于君，君祭，先饭。
 - ji2 ， jun1 shi4 zhi1 ， dong1 shou3 ， jia1 chao2 fu2 ， tuo1 shen1 。
@@ -64,7 +64,7 @@ tags: []
 - sheng1 che1 ， bi4 zheng4 li4 ， zhi2 sui2 。 che1 zhong1 bu2 nei4 gu4 ， bu4 ji2 yan2 ， bu4 qin1 zhi3 。
 - 升车，必正立，执绥。车中不内顾，不疾言，不亲指。
 - se4 si1 ju3 yi3 ， xiang2 er2 hou4 ji2 。 yue1 ： “ shan1 liang2 ci2 zhi4 ， shi2 zai1 shi2 zai1 ！ ” zi3 lu4 gong4 zhi1 ， san1 xiu4 er2 zuo4 。
-- 色斯举矣，翔而后集。曰：“山梁雌雉，时哉时哉！”子路共之，三嗅而作。
+- 色斯举矣，翔而后集。曰：“山梁雌雉，时哉时哉！” 子路共之，三嗅而作。
 
 ## 注释
 

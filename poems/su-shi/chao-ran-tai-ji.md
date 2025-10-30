@@ -22,7 +22,7 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - er2 yuan2 zhi1 bei3 ， yin1 cheng2 yi3 wei2 tai2 zhe3 jiu4 yi3 ， shao1 qi4 er2 xin1 zhi1 。 shi2 xiang1 yu3 deng1 lan3 ， fang4 yi4 si4 zhi4 yan1 。 nan2 wang4 ma3 er3 、 chang2 shan1 ， chu1 mei2 yin3 jian4 ， ruo4 jin4 ruo4 yuan3 ， shu4 ji1 you3 yin3 jun1 zi3 hu1 ！ er2 qi2 dong1 ze2 lu2 shan1 ， qin2 ren2 lu2 ao2 zhi1 suo3 cong2 dun4 ye3 。 xi1 wang4 mu4 ling2 ， yin3 ran2 ru2 cheng2 guo1 ， shi1 shang4 fu4 、 qi2 huan2 gong1 zhi1 yi2 lie4 ， you2 you3 cun2 zhe3 。 bei3 fu3 wei2 shui3 ， kai3 ran2 tai4 xi1 ， si1 huai2 yin1 zhi1 gong1 ， er2 diao4 qi2 bu4 zhong1 。 tai2 gao1 er2 an1 ， shen1 er2 ming2 ， xia4 liang2 er2 dong1 wen1 。 yu3 xue3 zhi1 chao2 ， feng1 yue4 zhi1 xi1 ， yu3 wei4 chang2 bu2 zai4 ， ke4 wei4 chang2 bu4 cong2 。 xie2 yuan2 shu1 ， qu3 chi2 yu2 ， niang4 shu2 jiu3 ， yue4 tuo1 su4 er2 shi2 zhi1 ， yue1 ： “ le4 zai1 you2 hu1 ！ "
 - 而園之北，因城以爲臺者舊矣，稍葺而新之。時相與登覽，放意肆志焉。南望馬耳、常山，出沒隱見，若近若遠，庶幾有隱君子乎！而其東則廬山，秦人盧敖之所從遁也。西望穆陵，隱然如城郭，師尚父、齊桓公之遺烈，猶有存者。北俯濰水，慨然太息，思淮陰之功，而吊其不終。臺高而安，深而明，夏涼而冬溫。雨雪之朝，風月之夕，予未嘗不在，客未嘗不從。擷園蔬，取池魚，釀秫酒，瀹脫粟而食之，曰：“樂哉遊乎！"
 - fang1 shi4 shi2 ， yu3 di4 zi3 you2 ， shi4 zai4 ji4 nan2 ， wen2 er2 fu4 zhi1 ， qie3 ming2 qi2 tai2 yue1 “ chao1 ran2 ” ， yi3 jian4 yu2 zhi1 wu2 suo3 wang3 er2 bu2 le4 zhe3 ， gai4 you2 wu1 wu4 zhi1 wai4 ye3 。
-- 方是時，予弟子由，適在濟南，聞而賦之，且名其臺曰“超然”，以見餘之無所往而不樂者，蓋遊於物之外也。
+- 方是時，予弟子由，適在濟南，聞而賦之，且名其臺曰 “超然”，以見餘之無所往而不樂者，蓋遊於物之外也。
 
 ## 注释
 

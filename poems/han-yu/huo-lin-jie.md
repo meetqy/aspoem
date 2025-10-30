@@ -18,7 +18,7 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - jiao3 zhe3 wu2 zhi1 qi2 wei2 niu2 ， lie4 zhe3 wu2 zhi1 qi2 wei2 ma3 ， quan3 shi3 chai2 lang2 mi2 lu4 ， wu2 zhi1 qi2 wei2 quan3 shi3 chai2 lang2 mi2 lu4 。 wei2 lin2 ye3 ， bu4 ke3 zhi1 。 bu4 ke3 zhi1 ， ze2 qi2 wei4 zhi1 bu4 xiang2 ye3 yi4 yi2 。 sui1 ran2 ， lin2 zhi1 chu1 ， bi4 you3 sheng4 ren2 zai4 hu1 wei4 。 lin2 wei2 sheng4 ren2 chu1 ye3 。 sheng4 ren2 zhe3 ， bi4 zhi1 lin2 ， lin2 zhi1 guo3 bu4 wei2 bu4 xiang2 ye3 。
 - 角者吾知其爲牛，鬣者吾知其爲馬，犬豕豺狼麋鹿，吾知其爲犬豕豺狼麋鹿。惟麟也，不可知。不可知，則其謂之不祥也亦宜。雖然，麟之出，必有聖人在乎位。麟爲聖人出也。聖人者，必知麟，麟之果不爲不祥也。
 - you4 yue1 ： “ lin2 zhi1 suo3 yi3 wei2 lin2 zhe3 ， yi3 de2 bu4 yi3 xing2 。 ” ruo4 lin2 zhi1 chu1 bu2 dai4 sheng4 ren2 ， ze2 wei4 zhi1 bu4 xiang2 ye3 yi4 yi2 。
-- 又曰：“麟之所以爲麟者，以德不以形。”若麟之出不待聖人，則謂之不祥也亦宜。
+- 又曰：“麟之所以爲麟者，以德不以形。” 若麟之出不待聖人，則謂之不祥也亦宜。
 
 ## 注释
 

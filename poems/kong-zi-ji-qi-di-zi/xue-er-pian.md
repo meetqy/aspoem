@@ -30,7 +30,7 @@ tags: []
 - ceng2 zi3 yue1 ： “ shen4 zhong1 zhui1 yuan3 ， min2 de2 gui1 hou4 yi3 。 ”
 - 曾子曰：“慎终追远，民德归厚矣。”
 - zi3 qin2 wen4 yu2 zi3 gong4 yue1 ： “ fu1 zi3 zhi4 yu2 shi4 bang1 ye3 ， bi4 wen2 qi2 zheng4 ， qiu2 zhi1 yu3 ， yi4 yu3 zhi1 yu3 ？ ” zi3 gong4 yue1 ： “ fu1 zi3 wen1 、 liang2 、 gong1 、 jian3 、 rang4 yi3 de2 zhi1 。 fu1 zi3 zhi1 qiu2 zhi1 ye3 ， qi2 zhu1 yi4 hu1 ren2 zhi1 qiu2 zhi1 yu3 ？ ”
-- 子禽问于子贡曰：“夫子至于是邦也，必闻其政，求之与，抑与之与？”子贡曰：“夫子温、良、恭、俭、让以得之。夫子之求之也，其诸异乎人之求之与？”
+- 子禽问于子贡曰：“夫子至于是邦也，必闻其政，求之与，抑与之与？” 子贡曰：“夫子温、良、恭、俭、让以得之。夫子之求之也，其诸异乎人之求之与？”
 - zi3 yue1 ： “ fu4 zai4 ， guan1 qi2 zhi4 ； fu4 mei2 ， guan1 qi2 xing2 ； san1 nian2 wu2 gai3 yu2 fu4 zhi1 dao4 ， ke3 wei4 xiao4 yi3 。 ”
 - 子曰：“父在，观其志；父没，观其行；三年无改于父之道，可谓孝矣。”
 - you3 zi3 yue1 ： “ li3 zhi1 yong4 ， he2 wei4 gui4 。 xian1 wang2 zhi1 dao4 ， si1 wei4 mei3 ， xiao3 da4 you2 zhi1 。 you3 suo3 bu4 xing2 ， zhi1 he2 er2 he2 ， bu4 yi3 li3 jie2 zhi1 ， yi4 bu4 ke3 xing2 ye3 。 ”
@@ -40,7 +40,7 @@ tags: []
 - zi3 yue1 ： “ jun1 zi3 shi2 wu2 qiu2 bao3 ， ju1 wu2 qiu2 an1 ， min3 yu2 shi4 er2 shen4 yu2 yan2 ， jiu4 you3 dao4 er2 zheng4 yan1 。 ke3 wei4 hao4 xue2 ye3 yi3 。 ”
 - 子曰：“君子食无求饱，居无求安，敏于事而慎于言，就有道而正焉。可谓好学也已。”
 - zi3 gong4 yue1 ： “ pin2 er2 wu2 chan3 ， fu4 er2 wu2 jiao1 ， he2 ru2 ？ ” zi3 yue1 ： “ ke3 ye3 。 wei4 ruo4 pin2 er2 le4 ， fu4 er2 hao3 li3 zhe3 ye3 。 ” zi3 gong4 yue1 ： “ 《 shi1 》 yun2 ： ‘ ru2 qie1 ru2 cuo1 ， ru2 zhuo2 ru2 mo2 ’ ， qi2 si1 zhi1 wei4 yu3 ？ ” zi3 yue1 ： “ ci4 ye3 ， shi3 ke3 yu3 yan2 《 shi1 》 yi3 yi3 ， gao4 zhu1 wang3 er2 zhi1 lai2 zhe3 。 ”
-- 子贡曰：“贫而无谄，富而无骄，何如？”子曰：“可也。未若贫而乐，富而好礼者也。”子贡曰：“《诗》云：‘如切如磋，如琢如磨’，其斯之谓与？”子曰：“赐也，始可与言《诗》已矣，告诸往而知来者。”
+- 子贡曰：“贫而无谄，富而无骄，何如？” 子曰：“可也。未若贫而乐，富而好礼者也。” 子贡曰：“《诗》云：‘如切如磋，如琢如磨’，其斯之谓与？” 子曰：“赐也，始可与言《诗》已矣，告诸往而知来者。”
 - zi3 yue1 ： “ bu2 huan4 ren2 zhi1 bu4 ji3 zhi1 ， huan4 bu4 zhi1 ren2 ye3 。 ”
 - 子曰：“不患人之不己知，患不知人也。”
 

@@ -169,6 +169,9 @@ importers:
       fs-extra:
         specifier: ^11.3.2
         version: 11.3.2
+      pangu:
+        specifier: ^7.2.0
+        version: 7.2.0
       postcss:
         specifier: ^8.5.3
         version: 8.5.6
@@ -3991,6 +3994,11 @@ packages:
 
   package-manager-detector@1.5.0:
     resolution: {integrity: sha512-uBj69dVlYe/+wxj8JOpr97XfsxH/eumMt6HqjNTmJDf/6NO9s+0uxeOneIz3AsPt2m6y9PqzDzd3ATcU17MNfw==}
+
+  pangu@7.2.0:
+    resolution: {integrity: sha512-ak81fYnTD36UvRxp6yNmCyV8T/s9dtv/OS9LjTNwh3TMo5i1OhtLmFDxyw1rTZWAnfrj/00gtl883+RE2r+4tA==}
+    engines: {node: '>=18.0.0'}
+    hasBin: true
 
   parent-module@1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
@@ -9392,6 +9400,8 @@ snapshots:
       p-limit: 3.1.0
 
   package-manager-detector@1.5.0: {}
+
+  pangu@7.2.0: {}
 
   parent-module@1.0.1:
     dependencies:

@@ -1,3 +1,5 @@
+import pangu from 'pangu'
+
 export function replacePunctuation(text: string) {
   const enSymbols = [',', '.', ';', ':', '?', '!', '"', '"', '\'', '\'', '(', ')', '[', ']', '<', '>']
   const cnSymbols = ['，', '。', '；', '：', '？', '！', '"', '"', '\'', '\'', '（', '）', '【', '】', '《', '》']
@@ -12,9 +14,14 @@ export function replacePunctuation(text: string) {
   result = result.replace(/\s+([，。；：？！"'（）【】《》])/g, ' $1') // 符号前有多个空格，保留一个
   result = result.replace(/([，。；：？！"'（）【】《》])\s+/g, '$1 ') // 符号后有多个空格，保留一个
 
+  // 删除所有不规则空白符号
+  // eslint-disable-next-line no-irregular-whitespace
+  result = result.replace(/[\u00A0\u1680\u180E\u2000-\u200B\u202F\u205F\u3000\uFEFF]/g, '').replaceAll(`　`, '')
+
   return result
 }
 
 export function splitLine(text: string) {
-  return text.split(/[\n\r]+/).map(line => line.trim()).filter(line => line.length > 0)
+  const spacedText = pangu.spacingText(text) // 使用 pangu 进行中英文间距处理
+  return spacedText.split(/[\n\r]+/).map(line => line.trim()).filter(line => line.length > 0)
 }

@@ -20,7 +20,7 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - zhi4 ruo4 chun1 he2 jing3 ming2 ， bo1 lan2 bu4 jing1 ， shang4 xia4 tian1 guang1 ， yi2 bi4 wan4 qing3 ； sha1 ou1 xiang2 ji2 ， jin3 lin2 you2 yong3 ； an4 zhi3 ting1 lan2 ， yu4 yu4 qing1 qing1 。 er2 huo4 chang2 yan1 yi4 kong1 ， hao4 yue4 qian1 li3 ， fu2 guang1 yue4 jin1 ， jing4 ying3 chen2 bi4 ， yu2 ge1 hu4 da2 ， ci3 le4 he2 ji2 ！ deng1 si1 lou2 ye3 ， ze2 you3 xin1 kuang4 shen2 yi2 ， chong3 ru3 xie2 wang4 ， ba3 jiu3 lin2 feng1 ， qi2 xi3 yang2 yang2 zhe3 yi3 。
 - 至若春和景明，波瀾不驚，上下天光，一碧萬頃；沙鷗翔集，錦鱗游泳；岸芷汀蘭，郁郁青青。而或長煙一空，皓月千里，浮光躍金，靜影沉璧，漁歌互答，此樂何極！登斯樓也，則有心曠神怡，寵辱偕忘，把酒臨風，其喜洋洋者矣。
 - jie1 fu1 ！ yu3 chang2 qiu2 gu3 ren2 ren2 zhi1 xin1 ， huo4 yi4 er4 zhe3 zhi1 wei2 ， he2 zai1 ？ bu4 yi3 wu4 xi3 ， bu4 yi3 ji3 bei1 ； ju1 miao4 tang2 zhi1 gao1 ze2 you1 qi2 min2 ； chu3 jiang1 hu2 zhi1 yuan3 ze2 you1 qi2 jun1 。 shi4 jin4 yi4 you1 ， tui4 yi4 you1 。 ran2 ze2 he2 shi2 er2 le4 ye1 ？ qi2 bi4 yue1 ： “ xian1 tian1 xia4 zhi1 you1 er2 you1 ， hou4 tian1 xia4 zhi1 le4 er2 le4 ” hu1 。 yi1 ！ wei1 si1 ren2 ， wu2 shui2 yu3 gui1 ？
-- 嗟夫！予嘗求古仁人之心，或異二者之爲，何哉？不以物喜，不以己悲；居廟堂之高則憂其民；處江湖之遠則憂其君。是進亦憂，退亦憂。然則何時而樂耶？其必曰：“先天下之憂而憂，後天下之樂而樂”乎。噫！微斯人，吾誰與歸？
+- 嗟夫！予嘗求古仁人之心，或異二者之爲，何哉？不以物喜，不以己悲；居廟堂之高則憂其民；處江湖之遠則憂其君。是進亦憂，退亦憂。然則何時而樂耶？其必曰：“先天下之憂而憂，後天下之樂而樂” 乎。噫！微斯人，吾誰與歸？
 - shi2 liu4 nian2 jiu3 yue4 shi2 wu3 ri4 。
 - 時六年九月十五日。
 

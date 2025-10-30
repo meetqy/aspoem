@@ -50,7 +50,7 @@ tags: []
 - zi3 yue1 ： “ da4 zai1 yao2 zhi1 wei4 jun1 ye3 ！ wei1 wei1 hu1 ， wei2 tian1 wei4 da4 ， wei2 yao2 ze2 zhi1 。 dang4 dang4 hu1 ， min2 wu2 neng2 ming2 yan1 。 wei1 wei1 hu1 qi2 you3 cheng2 gong1 ye3 ， huan4 hu1 qi2 you3 wen2 zhang1 ！ ”
 - 子曰：“大哉尧之为君也！巍巍乎，唯天为大，唯尧则之。荡荡乎，民无能名焉。巍巍乎其有成功也，焕乎其有文章！”
 - shun4 you3 chen2 wu3 ren2 er2 tian1 xia4 zhi4 。 wu3 wang2 yue1 ： “ yu3 you3 luan4 chen2 shi2 ren2 。 ” kong3 zi3 yue1 ： “ cai2 nan2 ， bu4 qi2 ran2 hu1 ？ tang2 yu2 zhi1 ji4 ， yu2 si1 wei4 sheng4 ； you3 fu4 ren2 yan1 ， jiu3 ren2 er2 yi3 。 san1 fen1 tian1 xia4 you3 qi2 er4 ， yi3 fu2 shi4 yin1 。 zhou1 zhi1 de2 ， qi2 ke3 wei4 zhi4 de2 ye3 yi3 yi3 。 ”
-- 舜有臣五人而天下治。武王曰：“予有乱臣十人。”孔子曰：“才难，不其然乎？唐虞之际，于斯为盛；有妇人焉，九人而已。三分天下有其二，以服事殷。周之德，其可谓至德也已矣。”
+- 舜有臣五人而天下治。武王曰：“予有乱臣十人。” 孔子曰：“才难，不其然乎？唐虞之际，于斯为盛；有妇人焉，九人而已。三分天下有其二，以服事殷。周之德，其可谓至德也已矣。”
 - zi3 yue1 ： “ yu3 ， wu2 wu2 jian4 ran2 yi3 。 fei1 yin3 shi2 er2 zhi4 xiao4 hu1 gui3 shen2 ， e4 yi1 fu0 er2 zhi4 mei3 hu1 fu3 mian3 ， bei1 gong1 shi4 er2 jin4 li4 hu1 gou1 xu4 。 yu3 ， wu2 wu2 jian4 ran2 yi3 。 ”
 - 子曰：“禹，吾无间然矣。菲饮食而致孝乎鬼神，恶衣服而致美乎黼冕，卑宫室而尽力乎沟洫。禹，吾无间然矣。”
 
