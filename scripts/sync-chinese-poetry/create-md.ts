@@ -18,10 +18,34 @@ function genSlug(text: string) {
   return pinyin(text, { toneType: 'none' }).replace(/\s+/g, '-').toLowerCase()
 }
 
+function escapeMarkdown(paragraphs: string | string[]) {
+  const replacePunctuation = (text: string) => {
+    const enSymbols = [',', '.', ';', ':', '?', '!', '"', '"', '\'', '\'', '(', ')', '[', ']', '<', '>']
+    const cnSymbols = ['，', '。', '；', '：', '？', '！', '"', '"', '\'', '\'', '（', '）', '【', '】', '《', '》']
+
+    let result = text
+    enSymbols.forEach((en, i) => {
+      result = result.replace(new RegExp(`\\${en}`, 'g'), cnSymbols[i]!)
+    })
+
+    return result
+  }
+
+  return Array.isArray(paragraphs)
+    ? paragraphs.map((p) => {
+        const line = replacePunctuation(p)
+        const linePinyin = pinyin(p, { toneType: 'num' })
+        return `- ${linePinyin}\n- ${line}`
+      }).join('\n')
+    : replacePunctuation(paragraphs)
+}
+
 export function createMdContent(poem: Poem) {
   const titleSlug = genSlug(poem.title)
   const authorSlug = genSlug(poem.author)
   const dynastySlug = genSlug(poem.dynasty)
+
+  const content = escapeMarkdown(poem.paragraphs)
 
   const id = `${authorSlug}-${titleSlug}`
 
@@ -36,9 +60,9 @@ dynastySlug: ${dynastySlug}
 tags: ${JSON.stringify(poem.tags || [])}
 ---
 
-# 正文
+## 正文
 
-${Array.isArray(poem.paragraphs) ? poem.paragraphs.map(p => `- ${p}`).join('\n') : poem.paragraphs}
+${content}
 
 ## 注释
 

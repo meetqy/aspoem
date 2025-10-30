@@ -9,14 +9,21 @@ dynastySlug: dong-han-mo-nian
 tags: []
 ---
 
-# 正文
+## 正文
 
+- shen2 gui1 sui1 shou4 ， you2 you3 jing4 shi2 。
 - 神龟虽寿，犹有竟时。
-- 腾蛇乘雾，终为土灰。(腾 一作：螣)
+- teng2 she2 cheng2 wu4 ， zhong1 wei4 tu3 hui1 。 ( teng2   yi2 zuo4 ： teng2 )
+- 腾蛇乘雾，终为土灰。（腾 一作：螣）
+- lao3 ji4 fu2 li4 ， zhi4 zai4 qian1 li3 。
 - 老骥伏枥，志在千里。
+- lie4 shi4 mu4 nian2 ， zhuang4 xin1 bu4 yi3 。
 - 烈士暮年，壮心不已。
+- ying2 suo1 zhi1 qi1 ， bu2 dan4 zai4 tian1 ；
 - 盈缩之期，不但在天；
+- yang3 yi2 zhi1 fu2 ， ke3 de2 yong3 nian2 。
 - 养怡之福，可得永年。
+- xing4 shen4 zhi4 zai1 ， ge1 yi3 yong3 zhi4 。
 - 幸甚至哉，歌以咏志。
 
 ## 注释

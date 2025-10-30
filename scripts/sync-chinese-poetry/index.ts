@@ -1,5 +1,6 @@
 import { db } from '@/server/db'
 import { syncCaocao } from './caocao'
+import { syncChuci } from './chuci'
 import { syncLunyu } from './lunyu'
 
 function main() {
@@ -17,7 +18,7 @@ function main() {
     console.log('朝代初始化完成')
     syncCaocao()
     syncLunyu()
-    // syncChuci();
+    syncChuci()
     // syncBaijiaxing();
     // syncDizigui();
     // syncGuwenguanzhi();
