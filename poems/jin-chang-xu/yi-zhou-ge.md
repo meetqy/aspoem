@@ -11,9 +11,9 @@ tags: ["五言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- da3 qi3 huang2 ying1 er2 ， mo4 jiao4 zhi1 shang4 ti2 。
+- da3 qi3 huang2 ying1 er2 ， mo4 jiao4 zhi1 shang4 ti2。
 - 打起黃鶯兒，莫教枝上啼。
-- ti2 shi2 jing1 qie4 meng4 ， bu4 de2 dao4 liao2 xi1 。
+- ti2 shi2 jing1 qie4 meng4 ， bu4 de2 dao4 liao2 xi1。
 - 啼時驚妾夢，不得到遼西。
 
 ## 注释

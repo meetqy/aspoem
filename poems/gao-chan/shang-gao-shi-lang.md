@@ -11,9 +11,9 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- tian1 shang4 bi4 tao2 he2 lu4 zhong3 ， ri4 bian1 hong2 xing4 yi3 yun2 zai1 。
+- tian1 shang4 bi4 tao2 he2 lu4 zhong3 ， ri4 bian1 hong2 xing4 yi3 yun2 zai1。
 - 天上碧桃和露種，日邊紅杏倚雲栽。
-- fu2 rong2 sheng1 zai4 qiu1 jiang1 shang4 ， bu2 xiang4 dong1 feng1 yuan4 wei4 kai1 。
+- fu2 rong2 sheng1 zai4 qiu1 jiang1 shang4 ， bu2 xiang4 dong1 feng1 yuan4 wei4 kai1。
 - 芙蓉生在秋江上，不向東風怨未開。
 
 ## 注释

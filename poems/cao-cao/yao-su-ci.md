@@ -11,9 +11,9 @@ tags: []
 
 ## 正文
 
-- weng4 zhong1 wu2 dou4 chu3 ， fa1 qie4 wu2 chi3 zeng1 。
+- weng4 zhong1 wu2 dou4 chu3 ， fa1 qie4 wu2 chi3 zeng1。
 - 瓮中无斗储，发箧无尺缯。
-- you3 lai2 cong2 wo3 dai4 ， bu4 zhi1 suo3 yi3 ying4 。
+- you3 lai2 cong2 wo3 dai4 ， bu4 zhi1 suo3 yi3 ying4。
 - 友来从我贷，不知所以应。
 
 ## 注释

@@ -11,13 +11,13 @@ tags: ["五言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- shi4 shang4 man4 xiang1 shi2 ， ci3 weng1 shu1 bu4 ran2 。
+- shi4 shang4 man4 xiang1 shi2 ， ci3 weng1 shu1 bu4 ran2。
 - 世上漫相識，此翁殊不然。
-- xing1 lai2 shu1 zi4 sheng4 ， zui4 hou4 yu3 you2 dian1 。
+- xing1 lai2 shu1 zi4 sheng4 ， zui4 hou4 yu3 you2 dian1。
 - 興來書自聖，醉後語尤顛。
-- bai2 fa4 lao3 xian2 shi4 ， qing1 yun2 zai4 mu4 qian2 。
+- bai2 fa4 lao3 xian2 shi4 ， qing1 yun2 zai4 mu4 qian2。
 - 白髮老閒事，青雲在目前。
-- chuang2 tou2 yi4 hu2 jiu3 ， neng2 geng4 ji1 hui2 mian2 。
+- chuang2 tou2 yi4 hu2 jiu3 ， neng2 geng4 ji1 hui2 mian2。
 - 牀頭一壺酒，能更幾回眠。
 
 ## 注释

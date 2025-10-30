@@ -11,9 +11,9 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- yun2 dan4 feng1 qing1 jin4 wu3 tian1 ， bang4 hua1 sui2 liu3 guo4 qian2 chuan1 。
+- yun2 dan4 feng1 qing1 jin4 wu3 tian1 ， bang4 hua1 sui2 liu3 guo4 qian2 chuan1。
 - 雲淡風輕近午天，傍花隨柳過前川。
-- shi2 ren2 bu4 shi2 yu2 xin1 le4 ， jiang1 wei4 tou1 xian2 xue2 shao4 nian2 。
+- shi2 ren2 bu4 shi2 yu2 xin1 le4 ， jiang1 wei4 tou1 xian2 xue2 shao4 nian2。
 - 時人不識餘心樂，將謂偷閒學少年。
 
 ## 注释

@@ -11,9 +11,9 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- mao2 yan2 chang2 sao3 jing4 wu2 tai2 ， hua1 mu4 cheng2 qi1 shou3 zi4 zai1 。
+- mao2 yan2 chang2 sao3 jing4 wu2 tai2 ， hua1 mu4 cheng2 qi1 shou3 zi4 zai1。
 - 茅檐常掃淨無苔，花木成蹊手自栽。
-- yi4 shui3 hu4 tian2 jiang1 lü4 rao4 ， liang3 shan1 pai2 ta4 song4 qing1 lai2 。
+- yi4 shui3 hu4 tian2 jiang1 lü4 rao4 ， liang3 shan1 pai2 ta4 song4 qing1 lai2。
 - 一水護田將綠繞，兩山排闥送青來。
 
 ## 注释

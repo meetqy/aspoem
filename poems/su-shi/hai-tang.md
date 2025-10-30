@@ -11,9 +11,9 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- dong1 feng1 niao3 niao3 fan4 chong2 guang1 ， xiang1 wu4 kong1 meng2 yue4 zhuan3 lang2 。
+- dong1 feng1 niao3 niao3 fan4 chong2 guang1 ， xiang1 wu4 kong1 meng2 yue4 zhuan3 lang2。
 - 東風嫋嫋泛崇光，香霧空濛月轉廊。
-- zhi1 kong3 ye4 shen1 hua1 shui4 qu4 ， gu4 shao1 gao1 zhu2 zhao4 hong2 zhuang1 。
+- zhi1 kong3 ye4 shen1 hua1 shui4 qu4 ， gu4 shao1 gao1 zhu2 zhao4 hong2 zhuang1。
 - 只恐夜深花睡去，故燒高燭照紅妝。
 
 ## 注释

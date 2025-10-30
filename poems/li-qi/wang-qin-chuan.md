@@ -11,13 +11,13 @@ tags: ["五言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- qin2 chuan1 chao2 wang4 jiong3 ， ri4 chu1 zheng4 dong1 feng1 。
+- qin2 chuan1 chao2 wang4 jiong3 ， ri4 chu1 zheng4 dong1 feng1。
 - 秦川朝望迥，日出正東峯。
-- yuan3 jin4 shan1 he2 jing4 ， wei1 yi2 cheng2 que4 zhong4 。
+- yuan3 jin4 shan1 he2 jing4 ， wei1 yi2 cheng2 que4 zhong4。
 - 遠近山河淨，逶迤城闕重。
-- qiu1 sheng1 wan4 hu4 zhu2 ， han2 se4 wu3 ling2 song1 。
+- qiu1 sheng1 wan4 hu4 zhu2 ， han2 se4 wu3 ling2 song1。
 - 秋聲萬戶竹，寒色五陵鬆。
-- you3 ke4 gui1 yu2 tan4 ， qi1 qi2 shuang1 lu4 nong2 。
+- you3 ke4 gui1 yu2 tan4 ， qi1 qi2 shuang1 lu4 nong2。
 - 有客歸歟嘆，悽其霜露濃。
 
 ## 注释

@@ -11,13 +11,13 @@ tags: ["五言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- bu4 zhi1 xiang1 ji1 si4 ， shu4 li3 ru4 yun2 feng1 。
+- bu4 zhi1 xiang1 ji1 si4 ， shu4 li3 ru4 yun2 feng1。
 - 不知香積寺，數裏入雲峯。
-- gu3 mu4 wu2 ren2 jing4 ， shen1 shan1 he2 chu3 zhong1 。
+- gu3 mu4 wu2 ren2 jing4 ， shen1 shan1 he2 chu3 zhong1。
 - 古木無人徑，深山何處鐘。
-- quan2 sheng1 yan4 wei1 shi2 ， ri4 se4 leng3 qing1 song1 。
+- quan2 sheng1 yan4 wei1 shi2 ， ri4 se4 leng3 qing1 song1。
 - 泉聲咽危石，日色冷青松。
-- bo2 mu4 kong1 tan2 qu3 ， an1 shan4 zhi4 du2 long2 。
+- bo2 mu4 kong1 tan2 qu3 ， an1 shan4 zhi4 du2 long2。
 - 薄暮空潭曲，安禪製毒龍。
 
 ## 注释

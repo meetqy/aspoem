@@ -11,9 +11,9 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- qing1 ming2 shi2 jie2 yu3 fen1 fen1 ， lu4 shang0 xing2 ren2 yu4 duan4 hun2 。
+- qing1 ming2 shi2 jie2 yu3 fen1 fen1 ， lu4 shang0 xing2 ren2 yu4 duan4 hun2。
 - 清明時節雨紛紛，路上行人慾斷魂。
-- jie4 wen4 jiu3 jia1 he2 chu3 you3 ， mu4 tong2 yao2 zhi3 xing4 hua1 cun1 。
+- jie4 wen4 jiu3 jia1 he2 chu3 you3 ， mu4 tong2 yao2 zhi3 xing4 hua1 cun1。
 - 借問酒家何處有，牧童遙指杏花村。
 
 ## 注释

@@ -25,7 +25,7 @@ tags: []
 - 陈竽瑟兮浩倡
 - ling2 yan3 jian3 xi1 jiao1 fu2 ， fang1 fei1 fei1 xi1 man3 tang2
 - 灵偃蹇兮姣服，芳菲菲兮满堂
-- wu3 yin1 fen1 xi1 fan2 hui4 ， jun1 xin1 xin1 xi1 le4 kang1 。
+- wu3 yin1 fen1 xi1 fan2 hui4 ， jun1 xin1 xin1 xi1 le4 kang1。
 - 五音纷兮繁会，君欣欣兮乐康。
 
 ## 注释

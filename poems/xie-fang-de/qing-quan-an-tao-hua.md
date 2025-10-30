@@ -11,9 +11,9 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- xun2 de2 tao2 yuan2 hao3 bi4 qin2 ， tao2 hong2 you4 shi4 yi4 nian2 chun1 。
+- xun2 de2 tao2 yuan2 hao3 bi4 qin2 ， tao2 hong2 you4 shi4 yi4 nian2 chun1。
 - 尋得桃源好避秦，桃紅又是一年春。
-- hua1 fei1 mo4 qian3 sui2 liu2 shui3 ， pa4 you3 yu2 lang2 lai2 wen4 jin1 。
+- hua1 fei1 mo4 qian3 sui2 liu2 shui3 ， pa4 you3 yu2 lang2 lai2 wen4 jin1。
 - 花飛莫遣隨流水，怕有漁郎來問津。
 
 ## 注释

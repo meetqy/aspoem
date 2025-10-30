@@ -45,7 +45,7 @@ tags: []
 - 日月安属？
 - lie4 xing1 an1 chen2 ？
 - 列星安陈？
-- chu1 zi4 tang1 gu3 ， ci4 yu2 meng2 si4 。
+- chu1 zi4 tang1 gu3 ， ci4 yu2 meng2 si4。
 - 出自汤谷，次于蒙汜。
 - zi4 ming2 ji2 hui4 ， suo3 xing2 ji3 li3 ？
 - 自明及晦，所行几里？
@@ -79,7 +79,7 @@ tags: []
 - 永遏在羽山，夫何三年不施？
 - bo2 yu3 bi4 gun3 ， fu1 he2 yi3 bian4 hua4 ？
 - 伯禹愎鲧，夫何以变化？
-- zuan3 jiu4 qian2 xu4 ， sui4 cheng2 kao3 gong1 。
+- zuan3 jiu4 qian2 xu4 ， sui4 cheng2 kao3 gong1。
 - 纂就前绪，遂成考功。
 - he2 xu4 chu1 ji4 ye4 ， er2 jue2 mou2 bu4 tong2 ？
 - 何续初继业，而厥谋不同？
@@ -153,35 +153,35 @@ tags: []
 - 羿焉彃日？
 - wu1 yan1 jie3 yu3 ？
 - 乌焉解羽？
-- yu3 zhi1 li4 xian4 gong1 ， jiang4 sheng3 xia4 tu3 si4 fang1 。
+- yu3 zhi1 li4 xian4 gong1 ， jiang4 sheng3 xia4 tu3 si4 fang1。
 - 禹之力献功，降省下土四方。
 - yan1 de2 bi3 tu2 shan1 nü3 ， er2 tong1 zhi1 wu1 tai2 sang1 ？
 - 焉得彼嵞山女，而通之於台桑？
-- min3 fei1 pi3 he2 ， jue2 shen1 shi4 ji4 。
+- min3 fei1 pi3 he2 ， jue2 shen1 shi4 ji4。
 - 闵妃匹合，厥身是继。
 - hu2 wei2 shi4 bu4 tong2 wei4 ， er2 kuai4 chao2 bao3 ？
 - 胡维嗜不同味，而快鼌饱？
-- qi3 dai4 yi4 zuo4 hou4 ， zu2 ran2 li2 nie4 。
+- qi3 dai4 yi4 zuo4 hou4 ， zu2 ran2 li2 nie4。
 - 启代益作后，卒然离蠥。
 - he2 qi3 wei2 you1 ， er2 neng2 ju1 shi4 da2 ？
 - 何启惟忧，而能拘是达？
-- jie1 gui1 she4 ju1 ， er2 wu2 hai4 jue2 gong1 。
+- jie1 gui1 she4 ju1 ， er2 wu2 hai4 jue2 gong1。
 - 皆归射鞫，而无害厥躬。
 - he2 hou4 yi4 zuo4 ge2 ， er2 yu3 bo1 jiang4 ？
 - 何后益作革，而禹播降？
-- qi3 ji2 bin1 shang1 ， 《 jiu3 bian4 》 《 jiu3 ge1 》 。
+- qi3 ji2 bin1 shang1 ， 《 jiu3 bian4 》 《 jiu3 ge1 》。
 - 启棘宾商，《九辨》《九歌》。
 - he2 qin2 zi3 tu2 mu3 ， er2 si3 fen1 jing4 di4 ？
 - 何勤子屠母，而死分竟地？
-- di4 jiang4 yi2 yi4 ， ge2 nie4 xia4 min2 。
+- di4 jiang4 yi2 yi4 ， ge2 nie4 xia4 min2。
 - 帝降夷羿，革孽夏民。
 - hu2 she4 fu1 he2 bo2 ， er2 qi1 bi3 luo4 pin2 ？
 - 胡射夫河伯，而妻彼雒嫔？
-- feng2 yao2 li4 jue2 ， feng1 xi1 shi4 she4 。
+- feng2 yao2 li4 jue2 ， feng1 xi1 shi4 she4。
 - 冯珧利决，封豨是射。
 - he2 xian4 zheng1 rou4 zhi1 gao1 ， er2 hou4 di4 bu2 ruo4 ？
 - 何献蒸肉之膏，而后帝不若？
-- zhuo2 qu3 chun2 hu2 ， xuan4 qi1 yuan2 mou2 。
+- zhuo2 qu3 chun2 hu2 ， xuan4 qi1 yuan2 mou2。
 - 浞娶纯狐，眩妻爰谋。
 - he2 yi4 zhi1 she4 ge2 ， er2 jiao1 tun1 kui2 zhi1 ？
 - 何羿之射革，而交吞揆之？
@@ -189,7 +189,7 @@ tags: []
 - 阻穷西征，岩何越焉？
 - hua4 er2 wei4 huang2 xiong2 ， wu1 he2 huo2 yan1 ？
 - 化而为黄熊，巫何活焉？
-- xian2 bo1 ju4 shu3 ， pu2 guan4 shi4 ying2 。
+- xian2 bo1 ju4 shu3 ， pu2 guan4 shi4 ying2。
 - 咸播秬黍，莆雚是营。
 - he2 you2 bing4 tou2 ， er2 gun3 ji2 xiu1 ying2 ？
 - 何由并投，而鲧疾修盈？
@@ -197,7 +197,7 @@ tags: []
 - 白蜺婴茀，胡为此堂？
 - an1 de2 fu1 liang2 yao4 ， bu4 neng2 gu4 zang1 ？
 - 安得夫良药，不能固臧？
-- tian1 shi4 cong2 heng2 ， yang2 li2 yuan2 si3 。
+- tian1 shi4 cong2 heng2 ， yang2 li2 yuan2 si3。
 - 天式从横，阳离爰死。
 - da4 niao3 he2 ming2 ， fu1 yan1 sang4 jue2 ti3 ？
 - 大鸟何鸣，夫焉丧厥体？
@@ -213,7 +213,7 @@ tags: []
 - 惟浇在户，何求于嫂？
 - he2 shao3 kang1 zhu2 quan3 ， er2 dian1 yun3 jue2 shou3 ？
 - 何少康逐犬，而颠陨厥首？
-- nü3 qi2 feng4 shang0 ， er2 guan3 tong2 yuan2 zhi3 。
+- nü3 qi2 feng4 shang0 ， er2 guan3 tong2 yuan2 zhi3。
 - 女歧缝裳，而馆同爰止。
 - he2 dian1 yi4 jue2 shou3 ， er2 qin1 yi3 feng2 dai4 ？
 - 何颠易厥首，而亲以逢殆？
@@ -237,19 +237,19 @@ tags: []
 - 登立为帝，孰道尚之？
 - nü3 wa1 you3 ti3 ， shu2 zhi4 jiang4 zhi1 ？
 - 女娲有体，孰制匠之？
-- shun4 fu2 jue2 di4 ， zhong1 ran2 wei2 hai4 。
+- shun4 fu2 jue2 di4 ， zhong1 ran2 wei2 hai4。
 - 舜服厥弟，终然为害。
 - he2 si4 quan3 shi3 ， er2 jue2 shen1 bu4 wei1 bai4 ？
 - 何肆犬豕，而厥身不危败？
-- wu2 huo4 qi4 gu3 ， nan2 yue4 shi4 zhi3 。
+- wu2 huo4 qi4 gu3 ， nan2 yue4 shi4 zhi3。
 - 吴获迄古，南岳是止。
 - shu2 qi1 qu4 si1 ， de2 liang3 nan2 zi3 ？
 - 孰期去斯，得两男子？
-- yuan2 hu2 shi4 yu4 ， hou4 di4 shi4 xiang3 。
+- yuan2 hu2 shi4 yu4 ， hou4 di4 shi4 xiang3。
 - 缘鹄饰玉，后帝是飨。
 - he2 cheng2 mou2 xia4 jie2 ， zhong1 yi3 mie4 sang4 ？
 - 何承谋夏桀，终以灭丧？
-- di4 nai3 jiang4 guan1 ， xia4 feng2 yi1 zhi4 。
+- di4 nai3 jiang4 guan1 ， xia4 feng2 yi1 zhi4。
 - 帝乃降观，下逢伊挚。
 - he2 tiao2 fang4 zhi4 fa2 ， er2 li2 fu2 da4 shuo1 ？
 - 何条放致罚，而黎服大说？
@@ -257,7 +257,7 @@ tags: []
 - 简狄在台，喾何宜？
 - xuan2 niao3 zhi4 yi2 ， nü3 he2 xi3 ？
 - 玄鸟致贻，女何喜？
-- gai1 bing3 ji4 de2 ， jue2 fu4 shi4 zang1 。
+- gai1 bing3 ji4 de2 ， jue2 fu4 shi4 zang1。
 - 该秉季德，厥父是臧。
 - hu2 zhong1 bi4 yu2 you3 hu4 ， mu4 fu1 niu2 yang2 ？
 - 胡终弊于有扈，牧夫牛羊？
@@ -273,19 +273,19 @@ tags: []
 - 恒秉季德，焉得夫朴牛？
 - he2 wang3 ying2 ban1 lu4 ， bu2 dan4 hai2 lai2 ？
 - 何往营班禄，不但还来？
-- hun1 wei1 xun2 ji4 ， you3 di2 bu4 ning2 。
+- hun1 wei1 xun2 ji4 ， you3 di2 bu4 ning2。
 - 昏微循迹，有狄不宁。
 - he2 fan2 niao3 cui4 ji2 ， fu4 zi3 si4 qing2 ？
 - 何繁鸟萃棘，负子肆情？
-- xuan4 di4 bing4 yin2 ， wei1 hai4 jue2 xiong1 。
+- xuan4 di4 bing4 yin2 ， wei1 hai4 jue2 xiong1。
 - 眩弟并淫，危害厥兄。
 - he2 bian4 hua4 yi3 zuo4 zha4 ， er2 hou4 si4 feng2 chang2 ？
 - 何变化以作诈，而后嗣逢长？
-- cheng2 tang1 dong1 xun2 ， you3 shen1 yuan2 ji2 。
+- cheng2 tang1 dong1 xun2 ， you3 shen1 yuan2 ji2。
 - 成汤东巡，有莘爰极。
 - he2 qi3 bi3 xiao3 chen2 ， er2 ji2 fei1 shi4 de2 ？
 - 何乞彼小臣，而吉妃是得？
-- shui3 bin1 zhi1 mu4 ， de2 bi3 xiao3 zi0 。
+- shui3 bin1 zhi1 mu4 ， de2 bi3 xiao3 zi0。
 - 水滨之木，得彼小子。
 - fu1 he2 e4 zhi1 ， ying4 you3 shen1 zhi1 fu4 ？
 - 夫何恶之，媵有莘之妇？
@@ -297,7 +297,7 @@ tags: []
 - 会朝争盟，何践吾期？
 - cang1 niao3 qun2 fei1 ， shu2 shi3 cui4 zhi1 ？
 - 苍鸟群飞，孰使萃之？
-- lie4 ji1 zhou4 gong1 ， shu1 dan4 bu4 jia1 。
+- lie4 ji1 zhou4 gong1 ， shu1 dan4 bu4 jia1。
 - 列击纣躬，叔旦不嘉。
 - he2 qin1 kui2 fa1 zu2 ， zhou1 zhi1 ming4 yi3 zi1 jie1 ？
 - 何亲揆发足，周之命以咨嗟？
@@ -309,7 +309,7 @@ tags: []
 - 争遣伐器，何以行之？
 - bing4 qu1 ji1 yi4 ， he2 yi3 jiang1 zhi1 ？
 - 并驱击翼，何以将之？
-- zhao1 hou4 cheng2 you2 ， nan2 tu3 yuan2 di3 。
+- zhao1 hou4 cheng2 you2 ， nan2 tu3 yuan2 di3。
 - 昭后成游，南土爰底。
 - jue2 li4 wei2 he2 ， feng2 bi3 bai2 zhi4 ？
 - 厥利惟何，逢彼白雉？
@@ -325,7 +325,7 @@ tags: []
 - 焉得夫褒姒？
 - tian1 ming4 fan3 ce4 ， he2 fa2 he2 you4 ？
 - 天命反侧，何罚何佑？
-- qi2 huan2 jiu3 hui4 ， zu2 ran2 shen1 sha1 。
+- qi2 huan2 jiu3 hui4 ， zu2 ran2 shen1 sha1。
 - 齐桓九会，卒然身杀。
 - bi3 wang2 zhou4 zhi1 gong1 ， shu2 shi3 luan4 huo4 ？
 - 彼王纣之躬，孰使乱惑？
@@ -347,7 +347,7 @@ tags: []
 - 何冯弓挟矢，殊能将之？
 - ji4 jing1 di4 qie4 ji1 ， he2 feng2 chang2 zhi1 ？
 - 既惊帝切激，何逢长之？
-- bo2 chang1 hao4 shuai1 ， bing3 bian1 zuo4 mu4 。
+- bo2 chang1 hao4 shuai1 ， bing3 bian1 zuo4 mu4。
 - 伯昌号衰，秉鞭作牧。
 - he2 ling4 che4 bi3 qi2 she4 ， ming4 you3 yin1 guo2 ？
 - 何令彻彼岐社，命有殷国？
@@ -355,7 +355,7 @@ tags: []
 - 迁藏就岐，何能依？
 - yin1 you3 huo4 fu4 ， he2 suo3 ji1 ？
 - 殷有惑妇，何所讥？
-- shou4 ci4 zi1 hai3 ， xi1 bo2 shang4 gao4 。
+- shou4 ci4 zi1 hai3 ， xi1 bo2 shang4 gao4。
 - 受赐兹醢，西伯上告。
 - he2 qin1 jiu4 shang4 di4 fa2 ， yin1 zhi1 ming4 yi3 bu2 jiu4 ？
 - 何亲就上帝罚，殷之命以不救？
@@ -375,11 +375,11 @@ tags: []
 - 皇天集命，惟何戒之？
 - shou4 li3 tian1 xia4 ， you4 shi3 zhi4 dai4 zhi1 ？
 - 受礼天下，又使至代之？
-- chu1 tang1 chen2 zhi4 ， hou4 zi1 cheng2 fu3 。
+- chu1 tang1 chen2 zhi4 ， hou4 zi1 cheng2 fu3。
 - 初汤臣挚，后兹承辅。
 - he2 zu2 guan1 tang1 ， zun1 shi2 zong1 xu4 ？
 - 何卒官汤，尊食宗绪？
-- xun1 he2 meng4 sheng1 ， shao3 li2 san4 wang2 。
+- xun1 he2 meng4 sheng1 ， shao3 li2 san4 wang2。
 - 勋阖梦生，少离散亡。
 - he2 zhuang4 wu3 li4 ， neng2 liu2 jue2 yan2 ？
 - 何壮武历，能流厥严？
@@ -409,11 +409,11 @@ tags: []
 - 荆勋作师，夫何长？
 - wu4 guo4 gai3 geng4 ， wo3 you4 he2 yan2 ？
 - 悟过改更，我又何言？
-- wu2 guang1 zheng1 guo2 ， jiu3 yu2 shi4 sheng4 。
+- wu2 guang1 zheng1 guo2 ， jiu3 yu2 shi4 sheng4。
 - 吴光争国，久余是胜。
 - he2 huan2 chuan1 zi4 lü2 she4 qiu1 ling2 ， yuan2 chu1 zi3 wen2 ？
 - 何环穿自闾社丘陵，爰出子文？
-- wu2 gao4 du3 ao2 yi3 bu4 chang2 。
+- wu2 gao4 du3 ao2 yi3 bu4 chang2。
 - 吾告堵敖以不长。
 - he2 shi4 shang4 zi4 yu3 ， zhong1 ming2 mi2 zhang1 ？
 - 何试上自予，忠名弥彰？

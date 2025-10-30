@@ -11,28 +11,250 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 
 ## 正文
 
-- tai4 shi3 gong1 niu2 ma3 zou3 si1 ma3 qian1 ， zai4 bai4 yan2 。
+- tai4 shi3 gong1 niu2 ma3 zou3 si1 ma3 qian1 ， zai4 bai4 yan2。
 - 太史公牛馬走司馬遷，再拜言。
-- shao3 qing1 zu2 xia4 ： nang3 zhe3 ru3 ci4 shu1 ， jiao4 yi3 shen4 wu1 jie1 wu4 ， tui1 xian2 jin4 shi4 wei2 wu4 ， yi4 qi4 qin2 qin2 ken3 ken3 。 ruo4 wang4 pu2 bu4 xiang1 shi1 ， er2 yong4 liu2 su2 ren2 zhi1 yan2 ， pu2 fei1 gan3 ru2 ci3 ye3 。 pu2 sui1 ba4 nu2 ， yi4 chang2 ce4 wen2 chang2 zhe3 zhi1 yi2 feng1 yi3 。 gu4 zi4 yi3 wei2 shen1 can2 chu3 hui4 ， dong4 er2 jian4 you2 ， yu4 yi4 fan3 sun3 ， shi4 yi3 du2 yu4 yi4 er2 wu2 shui2 yu3 。 yan4 yue1 ： “ shui2 wei2 wei2 zhi1 ？ shu2 ling4 ting1 zhi1 ？ ” gai4 zhong1 zi3 qi1 si3 ， bo2 ya2 zhong1 shen1 bu2 fu4 gu3 qin2 。 he2 ze2 ？ shi4 wei2 zhi1 ji3 zhe3 yong4 ， nü3 wei2 shuo1 ji3 zhe3 rong2 。 ruo4 pu2 da4 zhi4 yi3 kui1 que1 yi3 ， sui1 cai2 huai2 sui2 he2 ， xing2 ruo4 you2 yi2 ， zhong1 bu4 ke3 yi3 wei2 rong2 ， shi4 zu2 yi3 fa1 xiao4 er2 zi4 dian3 er3 。
-- 少卿足下：曩者辱賜書，教以慎於接物，推賢進士爲務，意氣勤勤懇懇。若望僕不相師，而用流俗人之言，僕非敢如此也。僕雖罷駑，亦嘗側聞長者之遺風矣。顧自以爲身殘處穢，動而見尤，欲益反損，是以獨鬱悒而無誰語。諺曰：“誰爲爲之？孰令聽之？”蓋鍾子期死，伯牙終身不復鼓琴。何則？士爲知己者用，女爲說己者容。若僕大質已虧缺矣，雖材懷隨和，行若由夷，終不可以爲榮，適足以發笑而自點耳。
-- shu1 ci2 yi2 da2 ， hui4 dong1 cong2 shang4 lai2 ， you4 po4 jian4 shi4 ， xiang1 jian4 ri4 qian3 ， zu2 zu2 wu2 xu1 yu2 zhi1 jian4 ， de2 jie2 zhi3 yi4 。 jin1 shao3 qing1 bao4 bu2 ce4 zhi1 zui4 ， she4 xun2 yue4 ， po4 ji4 dong1 ， pu2 you4 bao2 cong2 shang4 yong1 ， kong3 zu2 ran2 bu4 ke3 wei2 hui4 ， shi4 pu2 zhong1 yi3 bu4 de2 shu1 fen4 men4 yi3 xiao3 zuo3 you4 ， ze2 chang2 shi4 zhe3 hun2 po4 si1 hen4 wu2 qiong2 。 qing3 lüe4 chen2 gu4 lou4 。 que4 ran2 jiu3 bu2 bao4 ， xing4 wu4 wei2 guo4 。
-- 書辭宜答，會東從上來，又迫賤事，相見日淺，卒卒無須臾之間，得竭指意。今少卿抱不測之罪，涉旬月，迫季冬，僕又薄從上雍，恐卒然不可爲諱，是僕終已不得舒憤懣以曉左右，則長逝者魂魄私恨無窮。請略陳固陋。闕然久不報，幸勿爲過。
-- pu2 wen2 zhi1 ： xiu1 shen1 zhe3 ， zhi4 zhi1 fu2 ye3 ； ai4 shi1 zhe3 ， ren2 zhi1 duan1 ye3 ； qu3 yu3 zhe3 ， yi4 zhi1 biao3 ye3 ； chi3 ru3 zhe3 ， yong3 zhi1 jue2 ye3 ； li4 ming2 zhe3 ， xing2 zhi1 ji2 ye3 。 shi4 you3 ci3 wu3 zhe3 ， ran2 hou4 ke3 yi3 tuo1 wu1 shi4 ， lie4 wu1 jun1 zi3 zhi1 lin2 yi3 。 gu4 huo4 mo4 can3 wu1 yu4 li4 ， bei1 mo4 tong4 wu1 shang1 xin1 ， xing2 mo4 chou3 wu1 ru3 xian1 ， gou4 mo4 da4 wu1 gong1 xing2 。 xing2 yu2 zhi1 ren2 ， wu2 suo3 bi3 shu4 ， fei1 yi2 shi4 ye3 ， suo3 cong2 lai2 yuan3 yi3 。 xi1 wei4 ling2 gong1 yu3 yong1 qu2 tong2 zai4 ， kong3 zi3 shi4 chen2 ； shang1 yang1 yin1 jing3 jian1 jian4 ， zhao4 liang2 han2 xin1 ； tong2 zi3 can1 cheng2 ， yuan2 si1 bian4 se4 ： zi4 gu3 er2 chi3 zhi1 ！ fu1 yi3 zhong1 cai2 zhi1 ren2 ， shi4 you3 guan1 wu1 huan4 shu4 ， mo4 bu4 shang1 qi4 ， er2 kuang4 wu1 kang1 kai3 zhi1 shi4 hu1 ！ ru2 jin1 chao2 ting2 sui1 fa2 ren2 ， nai4 he2 ling4 dao1 ju4 zhi1 yu2 ， jian4 tian1 xia4 zhi1 hao2 jun4 zai1 ！ pu2 lai4 xian1 ren2 xu4 ye4 ， de2 dai4 zui4 nian3 gu3 xia4 ， er4 shi2 yu2 nian2 yi3 。 suo3 yi3 zi4 wei2 ： shang4 zhi1 ， bu4 neng2 na4 zhong1 xiao4 xin4 ， you3 qi2 ce4 cai2 li4 zhi1 yu4 ， zi4 jie2 ming2 zhu3 ； ci4 zhi1 ， you4 bu4 neng2 shi2 yi2 bu3 que4 ， zhao1 xian2 jin4 neng2 ， xian3 yan2 xue2 zhi1 shi4 ； wai4 zhi1 ， bu4 neng2 bei4 hang2 wu3 ， gong1 cheng2 ye3 zhan4 ， you3 zhan3 jiang1 qian1 qi2 zhi1 gong1 ； xia4 zhi1 ， bu4 neng2 ji1 ri4 lei4 lao2 ， qu3 zun1 guan1 hou4 lu4 ， yi3 wei2 zong1 zu2 jiao1 you2 guang1 chong3 。 si4 zhe3 wu2 yi2 sui4 ， gou3 he2 qu3 rong2 ， wu2 suo3 duan3 chang2 zhi1 xiao4 ， ke3 jian4 wu1 ci3 yi3 。 xiang1 zhe3 ， pu2 yi4 chang2 ce4 xia4 dai4 fu0 zhi1 lie4 ， pei2 wai4 ting2 mo4 yi4 。 bu4 yi3 ci3 shi2 yin3 wei2 gang1 ， jin4 si1 lü4 ， jin1 yi3 kui1 xing2 wei2 sao3 chu2 zhi1 li4 ， zai4 ta4 rong2 zhi1 zhong1 ， nai3 yu4 yang3 shou3 shen1 mei2 ， lun4 lie4 shi4 fei1 ， bu2 yi4 qing1 chao2 ting2 、 xiu1 dang1 shi4 zhi1 shi4 xie2 ？ jie1 hu1 ！ jie1 hu1 ！ ru2 pu2 shang4 he2 yan2 zai1 ！ shang4 he2 yan2 zai1 ！
-- 僕聞之：修身者，智之符也；愛施者，仁之端也；取予者，義之表也；恥辱者，勇之決也；立名者，行之極也。士有此五者，然後可以託於世，列於君子之林矣。故禍莫憯於欲利，悲莫痛於傷心，行莫醜於辱先，詬莫大於宮刑。刑餘之人，無所比數，非一世也，所從來遠矣。昔衛靈公與雍渠同載，孔子適陳；商鞅因景監見，趙良寒心；同子參乘，袁絲變色：自古而恥之！夫以中材之人，事有關於宦豎，莫不傷氣，而況於慷慨之士乎！如今朝廷雖乏人，奈何令刀鋸之餘，薦天下之豪俊哉！僕賴先人緒業，得待罪輦轂下，二十餘年矣。所以自惟：上之，不能納忠效信，有奇策材力之譽，自結明主；次之，又不能拾遺補闕，招賢進能，顯巖穴之士；外之，不能備行伍，攻城野戰，有斬將搴旗之功；下之，不能積日累勞，取尊官厚祿，以爲宗族交遊光寵。四者無一遂，苟合取容，無所短長之效，可見於此矣。鄉者，僕亦嘗廁下大夫之列，陪外廷末議。不以此時引維綱，盡思慮，今已虧形爲掃除之隸，在闒茸之中，乃欲仰首伸眉，論列是非，不亦輕朝廷、羞當世之士邪？嗟乎！嗟乎！如僕尚何言哉！尚何言哉！
-- qie3 shi4 ben3 mo4 wei4 yi4 ming2 ye3 。 pu2 shao3 fu4 bu4 ji1 zhi1 cai2 ， chang2 wu2 xiang1 qu3 zhi1 yu4 ， zhu3 shang4 xing4 yi3 xian1 ren2 zhi1 gu4 ， shi3 de2 feng4 bao2 ji4 ， chu1 ru4 zhou1 wei4 zhi1 zhong1 。 pu2 yi3 wei2 dai4 pen2 he2 yi3 wang4 tian1 ， gu4 jue2 bin1 ke4 zhi1 zhi1 ， wang4 shi4 jia1 zhi1 ye4 ， ri4 ye4 si1 jie2 qi2 bu2 xiao4 zhi1 cai2 li4 ， wu4 yi4 xin1 ying2 zhi2 ， yi3 qiu2 qin1 mei4 wu1 zhu3 shang4 。 er2 shi4 nai3 you3 da4 miu4 bu4 ran2 zhe3 ！
-- 且事本末未易明也。僕少負不羈之才，長無鄉曲之譽，主上幸以先人之故，使得奉薄伎，出入周衛之中。僕以爲戴盆何以望天，故絕賓客之知，忘室家之業，日夜思竭其不肖之材力，務一心營職，以求親媚於主上。而事乃有大謬不然者！
-- fu1 pu2 yu3 li3 ling2 ju4 ju1 men2 xia4 ， su4 fei1 neng2 xiang1 shan4 ye3 。 qu4 she4 yi4 lu4 ， wei4 chang2 xian2 bei1 jiu3 ， jie1 yin1 qin2 zhi1 yu2 huan1 。 ran2 pu2 guan1 qi2 wei2 ren2 ， zi4 shou3 qi2 shi4 ， shi4 qin1 xiao4 ， yu3 shi4 xin4 ， lin2 cai2 lian2 ， qu3 yu3 yi4 ， fen1 bie2 you3 rang4 ， gong1 jian3 xia4 ren2 ， chang2 si1 fen4 bu2 gu4 shen1 ， yi3 xun4 guo2 jia1 zhi1 ji2 。 qi2 su4 suo3 xu4 ji1 ye3 ， pu2 yi3 wei2 you3 guo2 shi4 zhi1 feng1 。 fu1 ren2 chen2 chu1 wan4 si3 bu2 gu4 yi4 sheng1 zhi1 ji4 ， fu4 gong1 jia0 zhi1 nan2 ， si1 yi3 qi2 yi3 。 jin1 ju3 shi4 yi2 bu4 dang1 ， er2 quan2 qu1 bao3 qi1 zi3 zhi1 chen2 sui2 er2 mei2 nie4 qi2 duan3 ， pu2 cheng2 si1 xin1 tong4 zhi1 。 qie3 li3 ling2 ti2 bu4 zu2 bu4 man3 wu3 qian1 ， shen1 jian4 rong2 ma3 zhi1 di4 ， zu2 li4 wang2 ting2 ， chui2 er3 hu3 kou3 ， heng2 tiao1 qiang2 hu2 ， yang3 yi4 wan4 zhi1 shi1 ， yu3 dan1 yu2 lian2 zhan4 shi2 you3 yu2 ri4 ， suo3 sha1 guo4 dang1 。 lu3 jiu4 si3 fu2 shang1 bu4 gei3 ， zhan1 qiu2 zhi1 jun1 chang2 xian2 zhen4 bu4 ， nai3 xi1 zhi3 qi2 zuo3 、 you4 xian2 wang2 ， ju3 yin3 gong1 zhi1 min2 ， yi4 guo2 gong4 gong1 er2 wei2 zhi1 。 zhuan3 dou4 qian1 li3 ， shi3 jin4 dao4 qiong2 ， jiu4 bing1 bu2 zhi4 ， shi4 zu2 si3 shang1 ru2 ji1 。 ran2 ling2 yi4 hu1 lao2 jun1 ， shi4 wu2 bu4 qi3 ， gong1 zi4 liu2 ti4 ， mei4 xue4 yin3 qi4 ， geng4 zhang1 kong1 quan1 ， mao4 bai2 ren4 ， bei3 shou3 zheng1 si3 di2 zhe3 。 ling2 wei4 mei2 shi2 ， shi3 you3 lai2 bao4 ， han4 gong1 qing1 wang2 hou2 jie1 feng4 shang1 shang4 shou4 。 hou4 shu4 ri4 ， ling2 bai4 shu1 wen2 ， zhu3 shang4 wei2 zhi1 shi2 bu4 gan1 wei4 ， ting1 chao2 bu4 yi2 。 da4 chen2 you1 ju4 ， bu4 zhi1 suo3 chu1 。 pu2 qie4 bu2 zi4 liao4 qi2 bei1 jian4 ， jian4 zhu3 shang4 can3 qi1 da2 dao4 ， cheng2 yu4 xiao4 qi2 kuan3 kuan3 zhi1 yu2 ， yi3 wei2 li3 ling2 su4 yu3 shi4 da4 fu1 jue2 gan1 fen1 shao3 ， neng2 de2 ren2 zhi1 si3 li4 ， sui1 gu3 zhi1 ming2 jiang1 ， bu4 neng2 guo4 ye3 。 shen1 sui1 xian4 bai4 ， bi3 guan1 qi2 yi4 ， qie3 yu4 de2 qi2 dang1 er2 bao4 wu1 han4 。 shi4 yi3 wu2 ke3 nai4 he2 ， qi2 suo3 cui1 bai4 ， gong1 yi4 zu2 yi3 bao4 wu1 tian1 xia4 yi3 。 pu2 huai2 yu4 chen2 zhi1 ， er2 wei4 you3 lu4 ， shi4 hui4 zhao4 wen4 ， ji2 yi3 ci3 zhi3 ， tui1 yan2 ling2 zhi1 gong1 ， yu4 yi3 guang3 zhu3 shang4 zhi1 yi4 ， sai1 ya2 zi4 zhi1 ci2 。 wei4 neng2 jin4 ming2 ， ming2 zhu3 bu4 xiao3 ， yi3 wei2 pu2 ju3 er4 shi1 ， er2 wei2 li3 ling2 you2 shuo1 ， sui4 xia4 wu1 li3 。 quan2 quan2 zhi1 zhong1 ， zhong1 bu4 neng2 zi4 lie4 。 yin1 wei2 wu1 shang4 ， zu2 cong2 li4 yi4 。 jia1 pin2 ， huo4 lu4 bu4 zu2 yi3 zi4 shu2 ， jiao1 you2 mo4 jiu4 ， zuo3 you4 qin1 jin4 bu4 wei2 yi4 yan2 。 shen1 fei1 mu4 shi2 ， du2 yu3 fa3 li4 wei2 wu3 ， shen1 you1 ling2 yu3 zhi1 zhong1 ， shui2 ke3 gao4 shuo4 zhe3 ！ ci3 zhen1 shao3 qing1 suo3 qin1 jian4 ， pu2 xing2 shi4 qi3 bu4 ran2 hu1 ？ li3 ling2 ji4 sheng1 jiang4 ， tui2 qi2 jia1 sheng1 ， er2 pu2 you4 er4 zhi1 can2 shi4 ， zhong4 wei2 tian1 xia4 guan1 xiao4 。 bei1 fu1 ！ bei1 fu1 ！ shi4 wei4 yi4 yi1 er4 wei2 su2 ren2 yan2 ye3 。
-- 夫僕與李陵俱居門下，素非能相善也。趣舍異路，未嘗銜杯酒，接殷勤之餘歡。然僕觀其爲人，自守奇士，事親孝，與士信，臨財廉，取予義，分別有讓，恭儉下人，常思奮不顧身，以徇國家之急。其素所蓄積也，僕以爲有國士之風。夫人臣出萬死不顧一生之計，赴公家之難，斯已奇矣。今舉事一不當，而全軀保妻子之臣隨而媒孽其短，僕誠私心痛之。且李陵提步卒不滿五千，深踐戎馬之地，足歷王庭，垂餌虎口，橫挑強胡，仰億萬之師，與單于連戰十有餘日，所殺過當。虜救死扶傷不給，旃裘之君長鹹震怖，乃悉徵其左、右賢王，舉引弓之民，一國共攻而圍之。轉鬥千里，矢盡道窮，救兵不至，士卒死傷如積。然陵一呼勞軍，士無不起，躬自流涕，沬血飲泣，更張空弮，冒白刃，北首爭死敵者。陵未沒時，使有來報，漢公卿王侯皆奉觴上壽。後數日，陵敗書聞，主上爲之食不甘味，聽朝不怡。大臣憂懼，不知所出。僕竊不自料其卑賤，見主上慘悽怛悼，誠欲效其款款之愚，以爲李陵素與士大夫絕甘分少，能得人之死力，雖古之名將，不能過也。身雖陷敗，彼觀其意，且欲得其當而報於漢。事已無可奈何，其所摧敗，功亦足以暴於天下矣。僕懷欲陳之，而未有路，適會召問，即以此指，推言陵之功，欲以廣主上之意，塞睚眥之辭。未能盡明，明主不曉，以爲僕沮貳師，而爲李陵遊說，遂下於理。拳拳之忠，終不能自列。因爲誣上，卒從吏議。家貧，貨賂不足以自贖，交遊莫救，左右親近不爲一言。身非木石，獨與法吏爲伍，深幽囹圄之中，誰可告愬者！此真少卿所親見，僕行事豈不然乎？李陵既生降，隤其家聲，而僕又佴之蠶室，重爲天下觀笑。悲夫！悲夫！事未易一二爲俗人言也。
-- pu2 zhi1 xian1 fei1 you3 pou1 fu2 dan1 shu1 zhi1 gong1 ， wen2 shi3 xing1 li4 ， jin4 hu1 bu3 zhu4 zhi1 jian4 ， gu4 zhu3 shang4 suo3 xi4 nong4 ， chang4 you1 suo3 chu4 ， liu2 su2 zhi1 suo3 qing1 ye3 。 jia3 ling4 pu2 fu2 fa3 shou4 zhu1 ， ruo4 jiu3 niu2 wang2 yi4 mao2 ， yu3 lou2 yi3 he2 yi3 yi4 ？ er2 shi4 you4 bu4 yu3 neng2 si3 jie2 zhe3 bi3 ， te4 yi3 wei2 zhi4 qiong2 zui4 ji2 ， bu4 neng2 zi4 mian3 ， zu2 jiu4 si3 er3 。 he2 ye3 ？ su4 suo3 zi4 shu4 li4 shi3 ran2 ye3 。 ren2 gu4 you3 yi4 si3 ， huo4 zhong4 wu1 tai4 shan1 ， huo4 qing1 wu1 hong2 mao2 ， yong4 zhi1 suo3 qu1 yi4 ye3 。 tai4 shang4 bu4 ru3 xian1 ， qi2 ci4 bu4 ru3 shen1 ， qi2 ci4 bu4 ru3 li3 se4 ， qi2 ci4 bu4 ru3 ci2 ling4 ， qi2 ci4 qu1 ti3 shou4 ru3 ， qi2 ci4 yi4 fu2 shou4 ru3 ， qi2 ci4 guan1 mu4 suo3 、 bei4 chui2 chu3 shou4 ru3 ， qi2 ci4 ti1 mao2 fa4 、 ying1 jin1 tie3 shou4 ru3 ， qi2 ci4 hui3 ji1 fu1 、 duan4 zhi1 ti3 shou4 ru3 ， zui4 xia4 fu3 xing2 ji2 yi3 ！ chuan2 yue1 “ xing2 bu2 shang4 dai4 fu0 。 ” ci3 yan2 shi4 jie2 bu4 ke3 bu4 mian3 li4 ye3 。 meng3 hu3 zai4 shen1 shan1 ， bai3 shou4 zhen4 kong3 ， ji2 zai4 jian4 jing3 zhi1 zhong1 ， yao2 wei3 er2 qiu2 shi2 ， ji1 wei1 yue1 zhi1 jian4 ye3 。 gu4 shi4 you3 hua4 di4 wei2 lao2 ， shi4 bu4 ke3 ru4 ； xiao1 mu4 wei2 li4 ， yi4 bu4 ke3 dui4 ， ding4 ji4 wu1 xian1 ye3 。 jin1 jiao1 shou3 zu2 ， shou4 mu4 suo3 ， bao4 ji1 fu1 ， shou4 bang3 chui2 ， you1 wu1 huan2 qiang2 zhi1 zhong1 。 dang1 ci3 zhi1 shi2 ， jian4 yu4 li4 ze2 tou2 qiang1 di4 ， shi4 tu2 li4 ze2 xin1 ti4 xi1 。 he2 zhe3 ？ ji1 wei1 yue1 zhi1 shi4 ye3 。 ji2 yi3 zhi4 shi4 ， yan2 bu4 ru3 zhe3 ， suo3 wei4 qiang2 yan2 er3 ， he2 zu2 gui4 hu1 ！ qie3 xi1 bo2 ， bo2 ye3 ， ju1 wu1 you3 li3 ； li3 si1 ， xiang1 ye3 ， ju4 wu1 wu3 xing2 ； huai2 yin1 ， wang2 ye3 ， shou4 xie4 wu1 chen2 ； peng2 yue4 、 zhang1 ao2 ， nan2 mian4 cheng1 gu1 ， xi4 yu4 di3 zui4 ； jiang4 hou2 zhu1 zhu1 lü3 ， quan2 qing1 wu3 bo2 ， qiu2 wu1 qing3 shi4 ； wei4 qi2 ， da4 jiang1 ye3 ， yi1 zhe3 yi1 ， guan1 san1 mu4 ； ji4 bu4 wei2 zhu1 jia1 qian2 nu2 ； guan4 fu1 shou4 ru3 wu1 ju1 shi4 。 ci3 ren2 jie1 shen1 zhi4 wang2 hou2 jiang1 xiang1 ， sheng1 wen2 lin2 guo2 ， ji2 zui4 zhi4 wang3 jia1 ， bu4 neng2 yin3 jue2 zi4 cai2 ， zai4 chen2 ai1 zhi1 zhong1 。 gu3 jin1 yi4 ti3 ， an1 zai4 qi2 bu4 ru3 ye3 ？ you2 ci3 yan2 zhi1 ， yong3 qie4 ， shi4 ye3 ； qiang2 ruo4 ， xing2 ye3 。 shen3 yi3 ， he2 zu2 guai4 hu1 ？ fu1 ren2 bu4 neng2 zao3 zi4 cai2 sheng2 mo4 zhi1 wai4 ， yi3 shao1 ling2 chi2 ， zhi4 wu1 bian1 chui2 zhi1 jian4 ， nai3 yu4 yin3 jie2 ， si1 bu2 yi4 yuan3 hu1 ！ gu3 ren2 suo3 yi3 zhong4 shi1 xing2 yu2 dai4 fu0 zhe3 ， dai4 wei2 ci3 ye3 。
-- 僕之先非有剖符丹書之功，文史星曆，近乎卜祝之間，固主上所戲弄，倡優所畜，流俗之所輕也。假令僕伏法受誅，若九牛亡一毛，與螻蟻何以異？而世又不與能死節者比，特以爲智窮罪極，不能自免，卒就死耳。何也？素所自樹立使然也。人固有一死，或重於泰山，或輕於鴻毛，用之所趨異也。太上不辱先，其次不辱身，其次不辱理色，其次不辱辭令，其次詘體受辱，其次易服受辱，其次關木索、被箠楚受辱，其次剔毛髮、嬰金鐵受辱，其次毀肌膚、斷肢體受辱，最下腐刑極矣！傳曰“刑不上大夫。”此言士節不可不勉厲也。猛虎在深山，百獸震恐，及在檻阱之中，搖尾而求食，積威約之漸也。故士有畫地爲牢，勢不可入；削木爲吏，議不可對，定計於鮮也。今交手足，受木索，暴肌膚，受榜箠，幽於圜牆之中。當此之時，見獄吏則頭搶地，視徒隸則心惕息。何者？積威約之勢也。及以至是，言不辱者，所謂強顏耳，曷足貴乎！且西伯，伯也，拘於羑里；李斯，相也，具於五刑；淮陰，王也，受械於陳；彭越、張敖，南面稱孤，繫獄抵罪；絳侯誅諸呂，權傾五伯，囚於請室；魏其，大將也，衣赭衣，關三木；季布爲朱家鉗奴；灌夫受辱於居室。此人皆身至王侯將相，聲聞鄰國，及罪至罔加，不能引決自裁，在塵埃之中。古今一體，安在其不辱也？由此言之，勇怯，勢也；強弱，形也。審矣，何足怪乎？夫人不能早自裁繩墨之外，以稍陵遲，至於鞭箠之間，乃欲引節，斯不亦遠乎！古人所以重施刑于大夫者，殆爲此也。
-- fu1 ren2 qing2 mo4 bu4 tan1 sheng1 e4 si3 ， nian4 fu4 mu3 ， gu4 qi1 zi3 ， zhi4 ji1 wu1 yi4 li3 zhe3 bu4 ran2 ， nai3 you3 suo3 bu4 de2 yi3 ye3 。 jin1 pu2 bu2 xing4 ， zao3 shi1 fu4 mu3 ， wu2 xiong1 di4 zhi1 qin1 ， du2 shen1 gu1 li4 ， shao3 qing1 shi4 pu2 wu1 qi1 zi3 he2 ru2 zai1 ？ qie3 yong3 zhe3 bu2 bi4 si3 jie2 ， qie4 fu1 mu4 yi4 ， he2 chu3 bu4 mian3 yan1 ！ pu2 sui1 qie4 nuo4 ， yu4 gou3 huo2 ， yi4 po1 shi2 qu4 jiu4 zhi1 fen1 yi3 ， he2 zhi4 zi4 chen2 ni4 lei2 xie4 zhi1 ru3 zai1 ！ qie3 fu1 zang1 huo4 bi4 qie4 ， you2 neng2 yin3 jue2 ， kuang4 pu2 zhi1 bu4 de2 yi3 hu1 ？ suo3 yi3 yin3 ren3 gou3 huo2 ， you1 wu1 fen4 tu3 zhi1 zhong1 er2 bu4 ci2 zhe3 ， hen4 si1 xin1 you3 suo3 bu2 jin4 ， bi3 lou4 mei2 shi4 ， er2 wen2 cai3 bu4 biao3 wu1 hou4 ye3 。
-- 夫人情莫不貪生惡死，念父母，顧妻子，至激於義理者不然，乃有所不得已也。今僕不幸，早失父母，無兄弟之親，獨身孤立，少卿視僕於妻子何如哉？且勇者不必死節，怯夫慕義，何處不勉焉！僕雖怯懦，欲苟活，亦頗識去就之分矣，何至自沉溺縲紲之辱哉！且夫臧獲婢妾，猶能引決，況僕之不得已乎？所以隱忍苟活，幽於糞土之中而不辭者，恨私心有所不盡，鄙陋沒世，而文采不表於後也。
-- gu3 zhe3 fu4 gui4 er2 ming2 mo2 mie4 ， bu4 ke3 sheng4 ji4 ， wei2 ti4 tang3 fei1 chang2 zhi1 ren2 cheng1 yan1 。 gai4 wen2 wang2 ju1 er2 yan3 《 zhou1 yi4 》 ； zhong4 ni2 e4 er2 zuo4 《 chun1 qiu1 》 ； qu1 yuan2 fang4 zhu2 ， nai3 fu4 《 li2 sao1 》 ； zuo3 qiu1 shi1 ming2 ， jue2 you3 《 guo2 yu3 》 ； sun1 zi3 bin4 jiao3 ， 《 bing1 fa3 》 xiu1 lie4 ； bu4 wei2 qian1 shu3 ， shi4 chuan2 《 lü3 lan3 》 ； han2 fei1 qiu2 qin2 ， 《 shuo1 nan2 》 《 gu1 fen4 》 ； 《 shi1 》 san1 bai3 pian1 ， da4 di3 sheng4 xian2 fa1 fen4 zhi1 suo3 wei2 zuo4 ye3 。 ci3 ren2 jie1 yi4 you3 suo3 yu4 jie2 ， bu4 de2 tong1 qi2 dao4 ， gu4 shu4 wang3 shi4 、 si1 lai2 zhe3 。 nai3 ru2 zuo3 qiu1 wu2 mu4 ， sun1 zi3 duan4 zu2 ， zhong1 bu4 ke3 yong4 ， tui4 er2 lun4 shu1 ce4 ， yi3 shu1 qi2 fen4 ， si1 chui2 kong1 wen2 yi3 zi4 jian4 。
-- 古者富貴而名摩滅，不可勝記，唯倜儻非常之人稱焉。蓋文王拘而演《周易》；仲尼厄而作《春秋》；屈原放逐，乃賦《離騷》；左丘失明，厥有《國語》；孫子臏腳，《兵法》修列；不韋遷蜀，世傳《呂覽》；韓非囚秦，《說難》《孤憤》；《詩》三百篇，大底聖賢發憤之所爲作也。此人皆意有所鬱結，不得通其道，故述往事、思來者。乃如左丘無目，孫子斷足，終不可用，退而論書策，以舒其憤，思垂空文以自見。
-- pu2 qie4 bu2 xun4 ， jin4 zi4 tuo1 wu1 wu2 neng2 zhi1 ci2 ， wang3 luo2 tian1 xia4 fang4 shi1 jiu4 wen2 ， lüe4 kao3 qi2 xing2 shi4 ， zong1 qi2 zhong1 shi3 ， ji1 qi2 cheng2 bai4 xing1 huai4 zhi1 ji4 ， shang4 ji4 xuan1 yuan2 ， xia4 zhi4 wu1 zi1 ， wei2 shi2 biao3 ， ben3 ji4 shi2 er4 ， shu1 ba1 zhang1 ， shi4 jia1 san1 shi2 ， lie4 chuan2 qi1 shi2 ， fan2 bai3 san1 shi2 pian1 。 yi4 yu4 yi3 jiu1 tian1 ren2 zhi1 ji4 ， tong1 gu3 jin1 zhi1 bian4 ， cheng2 yi4 jia1 zhi1 yan2 。 cao3 chuang4 wei4 jiu4 ， hui4 zao1 ci3 huo4 ， xi1 qi2 bu4 cheng2 ， shi4 yi3 jiu4 ji2 xing2 er2 wu2 yun4 se4 。 pu2 cheng2 yi3 zhu4 ci3 shu1 ， cang2 zhi1 ming2 shan1 ， chuan2 zhi1 qi2 ren2 ， tong1 yi4 da4 dou1 ， ze2 pu2 chang2 qian2 ru3 zhi1 ze2 ， sui1 wan4 bei4 lu4 ， qi3 you3 hui3 zai1 ！ ran2 ci3 ke3 wei2 zhi4 zhe3 dao4 ， nan2 wei2 su2 ren2 yan2 ye3 ！
-- 僕竊不遜，近自託於無能之辭，網羅天下放失舊聞，略考其行事，綜其終始，稽其成敗興壞之紀，上計軒轅，下至於茲，爲十表，本紀十二，書八章，世家三十，列傳七十，凡百三十篇。亦欲以究天人之際，通古今之變，成一家之言。草創未就，會遭此禍，惜其不成，是以就極刑而無慍色。僕誠以著此書，藏之名山，傳之其人，通邑大都，則僕償前辱之責，雖萬被戮，豈有悔哉！然此可爲智者道，難爲俗人言也！
-- qie3 fu4 xia4 wei4 yi4 ju1 ， xia4 liu2 duo1 bang4 yi4 。 pu2 yi3 kou3 yu3 yu4 zao1 ci3 huo4 ， zhong4 wei2 xiang1 dang3 suo3 xiao4 ， yi3 wu1 ru3 xian1 ren2 ， yi4 he2 mian4 mu4 fu4 shang4 fu4 mu3 zhi1 qiu1 mu4 hu1 ？ sui1 lei4 bai3 shi4 ， gou4 mi2 shen4 er3 ！ shi4 yi3 chang2 yi2 ri4 er2 jiu3 hui2 ， ju1 ze2 hu1 hu1 ruo4 you3 suo3 wang2 ， chu1 ze2 bu4 zhi1 qi2 suo3 wang3 。 mei3 nian4 si1 chi3 ， han4 wei4 chang2 bu4 fa1 bei4 zhan1 yi1 ye3 ！ shen1 zhi2 wei2 gui1 ge2 zhi1 chen2 ， ning2 de2 zi4 yin3 shen1 cang2 wu1 yan2 xue2 xie2 ？ gu4 qie3 cong2 su2 fu2 chen2 ， yu3 shi2 fu3 yang3 ， yi3 tong1 qi2 kuang2 huo4 。 jin1 shao3 qing1 nai3 jiao4 yi3 tui1 xian2 jin4 shi4 ， wu2 nai3 yu3 pu2 si1 xin1 la4 miu4 hu1 ？ jin1 sui1 yu4 zi4 diao1 zhuo2 ， man4 ci2 yi3 zi4 shi4 ， wu2 yi4 ， wu1 su2 bu2 xin4 ， shi4 zu2 qu3 ru3 er3 。 yao4 zhi1 ， si3 ri4 ran2 hou4 shi4 fei1 nai3 ding4 。 shu1 bu4 neng2 xi1 yi4 ， gu4 lüe4 chen2 gu4 lou4 。 jin3 zai4 bai4 。
-- 且負下未易居，下流多謗議。僕以口語遇遭此禍，重爲鄉黨所笑，以污辱先人，亦何面目覆上父母之丘墓乎？雖累百世，垢彌甚耳！是以腸一日而九回，居則忽忽若有所亡，出則不知其所往。每念斯恥，汗未嘗不發背沾衣也！身直爲閨閣之臣，寧得自引深藏於巖穴邪？故且從俗浮沉，與時俯仰，以通其狂惑。今少卿乃教以推賢進士，無乃與僕私心剌謬乎？今雖欲自雕琢，曼辭以自飾，無益，於俗不信，適足取辱耳。要之，死日然後是非乃定。書不能悉意，故略陳固陋。謹再拜。
+- shao3 qing1 zu2 xia4 ： nang3 zhe3 ru3 ci4 shu1 ， jiao4 yi3 shen4 wu1 jie1 wu4 ， tui1 xian2 jin4 shi4 wei2 wu4 ， yi4 qi4 qin2 qin2 ken3 ken3。
+- 少卿足下：曩者辱賜書，教以慎於接物，推賢進士爲務，意氣勤勤懇懇。
+- ruo4 wang4 pu2 bu4 xiang1 shi1 ， er2 yong4 liu2 su2 ren2 zhi1 yan2 ， pu2 fei1 gan3 ru2 ci3 ye3。
+- 若望僕不相師，而用流俗人之言，僕非敢如此也。
+- pu2 sui1 ba4 nu2 ， yi4 chang2 ce4 wen2 chang2 zhe3 zhi1 yi2 feng1 yi3。
+- 僕雖罷駑，亦嘗側聞長者之遺風矣。
+- gu4 zi4 yi3 wei2 shen1 can2 chu3 hui4 ， dong4 er2 jian4 you2 ， yu4 yi4 fan3 sun3 ， shi4 yi3 du2 yu4 yi4 er2 wu2 shui2 yu3。
+- 顧自以爲身殘處穢，動而見尤，欲益反損，是以獨鬱悒而無誰語。
+- yan4 yue1 ： “ shui2 wei2 wei2 zhi1 ？ shu2 ling4 ting1 zhi1 ？ ” gai4 zhong1 zi3 qi1 si3 ， bo2 ya2 zhong1 shen1 bu2 fu4 gu3 qin2。
+- 諺曰：“誰爲爲之？孰令聽之？”蓋鍾子期死，伯牙終身不復鼓琴。
+- he2 ze2 ？ shi4 wei2 zhi1 ji3 zhe3 yong4 ， nü3 wei2 shuo1 ji3 zhe3 rong2。
+- 何則？士爲知己者用，女爲說己者容。
+- ruo4 pu2 da4 zhi4 yi3 kui1 que1 yi3 ， sui1 cai2 huai2 sui2 he2 ， xing2 ruo4 you2 yi2 ， zhong1 bu4 ke3 yi3 wei2 rong2 ， shi4 zu2 yi3 fa1 xiao4 er2 zi4 dian3 er3。
+- 若僕大質已虧缺矣，雖材懷隨和，行若由夷，終不可以爲榮，適足以發笑而自點耳。
+- shu1 ci2 yi2 da2 ， hui4 dong1 cong2 shang4 lai2 ， you4 po4 jian4 shi4 ， xiang1 jian4 ri4 qian3 ， zu2 zu2 wu2 xu1 yu2 zhi1 jian4 ， de2 jie2 zhi3 yi4。
+- 書辭宜答，會東從上來，又迫賤事，相見日淺，卒卒無須臾之間，得竭指意。
+- jin1 shao3 qing1 bao4 bu2 ce4 zhi1 zui4 ， she4 xun2 yue4 ， po4 ji4 dong1 ， pu2 you4 bao2 cong2 shang4 yong1 ， kong3 zu2 ran2 bu4 ke3 wei2 hui4 ， shi4 pu2 zhong1 yi3 bu4 de2 shu1 fen4 men4 yi3 xiao3 zuo3 you4 ， ze2 chang2 shi4 zhe3 hun2 po4 si1 hen4 wu2 qiong2。
+- 今少卿抱不測之罪，涉旬月，迫季冬，僕又薄從上雍，恐卒然不可爲諱，是僕終已不得舒憤懣以曉左右，則長逝者魂魄私恨無窮。
+- qing3 lüe4 chen2 gu4 lou4。
+- 請略陳固陋。
+- que4 ran2 jiu3 bu2 bao4 ， xing4 wu4 wei2 guo4。
+- 闕然久不報，幸勿爲過。
+- pu2 wen2 zhi1 ： xiu1 shen1 zhe3 ， zhi4 zhi1 fu2 ye3；
+- 僕聞之：修身者，智之符也；
+- ai4 shi1 zhe3 ， ren2 zhi1 duan1 ye3；
+- 愛施者，仁之端也；
+- qu3 yu3 zhe3 ， yi4 zhi1 biao3 ye3；
+- 取予者，義之表也；
+- chi3 ru3 zhe3 ， yong3 zhi1 jue2 ye3；
+- 恥辱者，勇之決也；
+- li4 ming2 zhe3 ， xing2 zhi1 ji2 ye3。
+- 立名者，行之極也。
+- shi4 you3 ci3 wu3 zhe3 ， ran2 hou4 ke3 yi3 tuo1 wu1 shi4 ， lie4 wu1 jun1 zi3 zhi1 lin2 yi3。
+- 士有此五者，然後可以託於世，列於君子之林矣。
+- gu4 huo4 mo4 can3 wu1 yu4 li4 ， bei1 mo4 tong4 wu1 shang1 xin1 ， xing2 mo4 chou3 wu1 ru3 xian1 ， gou4 mo4 da4 wu1 gong1 xing2。
+- 故禍莫憯於欲利，悲莫痛於傷心，行莫醜於辱先，詬莫大於宮刑。
+- xing2 yu2 zhi1 ren2 ， wu2 suo3 bi3 shu4 ， fei1 yi2 shi4 ye3 ， suo3 cong2 lai2 yuan3 yi3。
+- 刑餘之人，無所比數，非一世也，所從來遠矣。
+- xi1 wei4 ling2 gong1 yu3 yong1 qu2 tong2 zai4 ， kong3 zi3 shi4 chen2；
+- 昔衛靈公與雍渠同載，孔子適陳；
+- shang1 yang1 yin1 jing3 jian1 jian4 ， zhao4 liang2 han2 xin1；
+- 商鞅因景監見，趙良寒心；
+- tong2 zi3 can1 cheng2 ， yuan2 si1 bian4 se4 ： zi4 gu3 er2 chi3 zhi1！
+- 同子參乘，袁絲變色：自古而恥之！
+- fu1 yi3 zhong1 cai2 zhi1 ren2 ， shi4 you3 guan1 wu1 huan4 shu4 ， mo4 bu4 shang1 qi4 ， er2 kuang4 wu1 kang1 kai3 zhi1 shi4 hu1！
+- 夫以中材之人，事有關於宦豎，莫不傷氣，而況於慷慨之士乎！
+- ru2 jin1 chao2 ting2 sui1 fa2 ren2 ， nai4 he2 ling4 dao1 ju4 zhi1 yu2 ， jian4 tian1 xia4 zhi1 hao2 jun4 zai1！
+- 如今朝廷雖乏人，奈何令刀鋸之餘，薦天下之豪俊哉！
+- pu2 lai4 xian1 ren2 xu4 ye4 ， de2 dai4 zui4 nian3 gu3 xia4 ， er4 shi2 yu2 nian2 yi3。
+- 僕賴先人緒業，得待罪輦轂下，二十餘年矣。
+- suo3 yi3 zi4 wei2 ： shang4 zhi1 ， bu4 neng2 na4 zhong1 xiao4 xin4 ， you3 qi2 ce4 cai2 li4 zhi1 yu4 ， zi4 jie2 ming2 zhu3；
+- 所以自惟：上之，不能納忠效信，有奇策材力之譽，自結明主；
+- ci4 zhi1 ， you4 bu4 neng2 shi2 yi2 bu3 que4 ， zhao1 xian2 jin4 neng2 ， xian3 yan2 xue2 zhi1 shi4；
+- 次之，又不能拾遺補闕，招賢進能，顯巖穴之士；
+- wai4 zhi1 ， bu4 neng2 bei4 hang2 wu3 ， gong1 cheng2 ye3 zhan4 ， you3 zhan3 jiang1 qian1 qi2 zhi1 gong1；
+- 外之，不能備行伍，攻城野戰，有斬將搴旗之功；
+- xia4 zhi1 ， bu4 neng2 ji1 ri4 lei4 lao2 ， qu3 zun1 guan1 hou4 lu4 ， yi3 wei2 zong1 zu2 jiao1 you2 guang1 chong3。
+- 下之，不能積日累勞，取尊官厚祿，以爲宗族交遊光寵。
+- si4 zhe3 wu2 yi2 sui4 ， gou3 he2 qu3 rong2 ， wu2 suo3 duan3 chang2 zhi1 xiao4 ， ke3 jian4 wu1 ci3 yi3。
+- 四者無一遂，苟合取容，無所短長之效，可見於此矣。
+- xiang1 zhe3 ， pu2 yi4 chang2 ce4 xia4 dai4 fu0 zhi1 lie4 ， pei2 wai4 ting2 mo4 yi4。
+- 鄉者，僕亦嘗廁下大夫之列，陪外廷末議。
+- bu4 yi3 ci3 shi2 yin3 wei2 gang1 ， jin4 si1 lü4 ， jin1 yi3 kui1 xing2 wei2 sao3 chu2 zhi1 li4 ， zai4 ta4 rong2 zhi1 zhong1 ， nai3 yu4 yang3 shou3 shen1 mei2 ， lun4 lie4 shi4 fei1 ， bu2 yi4 qing1 chao2 ting2 、 xiu1 dang1 shi4 zhi1 shi4 xie2 ？ jie1 hu1！
+- 不以此時引維綱，盡思慮，今已虧形爲掃除之隸，在闒茸之中，乃欲仰首伸眉，論列是非，不亦輕朝廷、羞當世之士邪？嗟乎！
+- jie1 hu1！
+- 嗟乎！
+- ru2 pu2 shang4 he2 yan2 zai1！
+- 如僕尚何言哉！
+- shang4 he2 yan2 zai1！
+- 尚何言哉！
+- qie3 shi4 ben3 mo4 wei4 yi4 ming2 ye3。
+- 且事本末未易明也。
+- pu2 shao3 fu4 bu4 ji1 zhi1 cai2 ， chang2 wu2 xiang1 qu3 zhi1 yu4 ， zhu3 shang4 xing4 yi3 xian1 ren2 zhi1 gu4 ， shi3 de2 feng4 bao2 ji4 ， chu1 ru4 zhou1 wei4 zhi1 zhong1。
+- 僕少負不羈之才，長無鄉曲之譽，主上幸以先人之故，使得奉薄伎，出入周衛之中。
+- pu2 yi3 wei2 dai4 pen2 he2 yi3 wang4 tian1 ， gu4 jue2 bin1 ke4 zhi1 zhi1 ， wang4 shi4 jia1 zhi1 ye4 ， ri4 ye4 si1 jie2 qi2 bu2 xiao4 zhi1 cai2 li4 ， wu4 yi4 xin1 ying2 zhi2 ， yi3 qiu2 qin1 mei4 wu1 zhu3 shang4。
+- 僕以爲戴盆何以望天，故絕賓客之知，忘室家之業，日夜思竭其不肖之材力，務一心營職，以求親媚於主上。
+- er2 shi4 nai3 you3 da4 miu4 bu4 ran2 zhe3！
+- 而事乃有大謬不然者！
+- fu1 pu2 yu3 li3 ling2 ju4 ju1 men2 xia4 ， su4 fei1 neng2 xiang1 shan4 ye3。
+- 夫僕與李陵俱居門下，素非能相善也。
+- qu4 she4 yi4 lu4 ， wei4 chang2 xian2 bei1 jiu3 ， jie1 yin1 qin2 zhi1 yu2 huan1。
+- 趣舍異路，未嘗銜杯酒，接殷勤之餘歡。
+- ran2 pu2 guan1 qi2 wei2 ren2 ， zi4 shou3 qi2 shi4 ， shi4 qin1 xiao4 ， yu3 shi4 xin4 ， lin2 cai2 lian2 ， qu3 yu3 yi4 ， fen1 bie2 you3 rang4 ， gong1 jian3 xia4 ren2 ， chang2 si1 fen4 bu2 gu4 shen1 ， yi3 xun4 guo2 jia1 zhi1 ji2。
+- 然僕觀其爲人，自守奇士，事親孝，與士信，臨財廉，取予義，分別有讓，恭儉下人，常思奮不顧身，以徇國家之急。
+- qi2 su4 suo3 xu4 ji1 ye3 ， pu2 yi3 wei2 you3 guo2 shi4 zhi1 feng1。
+- 其素所蓄積也，僕以爲有國士之風。
+- fu1 ren2 chen2 chu1 wan4 si3 bu2 gu4 yi4 sheng1 zhi1 ji4 ， fu4 gong1 jia0 zhi1 nan2 ， si1 yi3 qi2 yi3。
+- 夫人臣出萬死不顧一生之計，赴公家之難，斯已奇矣。
+- jin1 ju3 shi4 yi2 bu4 dang1 ， er2 quan2 qu1 bao3 qi1 zi3 zhi1 chen2 sui2 er2 mei2 nie4 qi2 duan3 ， pu2 cheng2 si1 xin1 tong4 zhi1。
+- 今舉事一不當，而全軀保妻子之臣隨而媒孽其短，僕誠私心痛之。
+- qie3 li3 ling2 ti2 bu4 zu2 bu4 man3 wu3 qian1 ， shen1 jian4 rong2 ma3 zhi1 di4 ， zu2 li4 wang2 ting2 ， chui2 er3 hu3 kou3 ， heng2 tiao1 qiang2 hu2 ， yang3 yi4 wan4 zhi1 shi1 ， yu3 dan1 yu2 lian2 zhan4 shi2 you3 yu2 ri4 ， suo3 sha1 guo4 dang1。
+- 且李陵提步卒不滿五千，深踐戎馬之地，足歷王庭，垂餌虎口，橫挑強胡，仰億萬之師，與單于連戰十有餘日，所殺過當。
+- lu3 jiu4 si3 fu2 shang1 bu4 gei3 ， zhan1 qiu2 zhi1 jun1 chang2 xian2 zhen4 bu4 ， nai3 xi1 zhi3 qi2 zuo3 、 you4 xian2 wang2 ， ju3 yin3 gong1 zhi1 min2 ， yi4 guo2 gong4 gong1 er2 wei2 zhi1。
+- 虜救死扶傷不給，旃裘之君長鹹震怖，乃悉徵其左、右賢王，舉引弓之民，一國共攻而圍之。
+- zhuan3 dou4 qian1 li3 ， shi3 jin4 dao4 qiong2 ， jiu4 bing1 bu2 zhi4 ， shi4 zu2 si3 shang1 ru2 ji1。
+- 轉鬥千里，矢盡道窮，救兵不至，士卒死傷如積。
+- ran2 ling2 yi4 hu1 lao2 jun1 ， shi4 wu2 bu4 qi3 ， gong1 zi4 liu2 ti4 ， mei4 xue4 yin3 qi4 ， geng4 zhang1 kong1 quan1 ， mao4 bai2 ren4 ， bei3 shou3 zheng1 si3 di2 zhe3。
+- 然陵一呼勞軍，士無不起，躬自流涕，沬血飲泣，更張空弮，冒白刃，北首爭死敵者。
+- ling2 wei4 mei2 shi2 ， shi3 you3 lai2 bao4 ， han4 gong1 qing1 wang2 hou2 jie1 feng4 shang1 shang4 shou4。
+- 陵未沒時，使有來報，漢公卿王侯皆奉觴上壽。
+- hou4 shu4 ri4 ， ling2 bai4 shu1 wen2 ， zhu3 shang4 wei2 zhi1 shi2 bu4 gan1 wei4 ， ting1 chao2 bu4 yi2。
+- 後數日，陵敗書聞，主上爲之食不甘味，聽朝不怡。
+- da4 chen2 you1 ju4 ， bu4 zhi1 suo3 chu1。
+- 大臣憂懼，不知所出。
+- pu2 qie4 bu2 zi4 liao4 qi2 bei1 jian4 ， jian4 zhu3 shang4 can3 qi1 da2 dao4 ， cheng2 yu4 xiao4 qi2 kuan3 kuan3 zhi1 yu2 ， yi3 wei2 li3 ling2 su4 yu3 shi4 da4 fu1 jue2 gan1 fen1 shao3 ， neng2 de2 ren2 zhi1 si3 li4 ， sui1 gu3 zhi1 ming2 jiang1 ， bu4 neng2 guo4 ye3。
+- 僕竊不自料其卑賤，見主上慘悽怛悼，誠欲效其款款之愚，以爲李陵素與士大夫絕甘分少，能得人之死力，雖古之名將，不能過也。
+- shen1 sui1 xian4 bai4 ， bi3 guan1 qi2 yi4 ， qie3 yu4 de2 qi2 dang1 er2 bao4 wu1 han4。
+- 身雖陷敗，彼觀其意，且欲得其當而報於漢。
+- shi4 yi3 wu2 ke3 nai4 he2 ， qi2 suo3 cui1 bai4 ， gong1 yi4 zu2 yi3 bao4 wu1 tian1 xia4 yi3。
+- 事已無可奈何，其所摧敗，功亦足以暴於天下矣。
+- pu2 huai2 yu4 chen2 zhi1 ， er2 wei4 you3 lu4 ， shi4 hui4 zhao4 wen4 ， ji2 yi3 ci3 zhi3 ， tui1 yan2 ling2 zhi1 gong1 ， yu4 yi3 guang3 zhu3 shang4 zhi1 yi4 ， sai1 ya2 zi4 zhi1 ci2。
+- 僕懷欲陳之，而未有路，適會召問，即以此指，推言陵之功，欲以廣主上之意，塞睚眥之辭。
+- wei4 neng2 jin4 ming2 ， ming2 zhu3 bu4 xiao3 ， yi3 wei2 pu2 ju3 er4 shi1 ， er2 wei2 li3 ling2 you2 shuo1 ， sui4 xia4 wu1 li3。
+- 未能盡明，明主不曉，以爲僕沮貳師，而爲李陵遊說，遂下於理。
+- quan2 quan2 zhi1 zhong1 ， zhong1 bu4 neng2 zi4 lie4。
+- 拳拳之忠，終不能自列。
+- yin1 wei2 wu1 shang4 ， zu2 cong2 li4 yi4。
+- 因爲誣上，卒從吏議。
+- jia1 pin2 ， huo4 lu4 bu4 zu2 yi3 zi4 shu2 ， jiao1 you2 mo4 jiu4 ， zuo3 you4 qin1 jin4 bu4 wei2 yi4 yan2。
+- 家貧，貨賂不足以自贖，交遊莫救，左右親近不爲一言。
+- shen1 fei1 mu4 shi2 ， du2 yu3 fa3 li4 wei2 wu3 ， shen1 you1 ling2 yu3 zhi1 zhong1 ， shui2 ke3 gao4 shuo4 zhe3！
+- 身非木石，獨與法吏爲伍，深幽囹圄之中，誰可告愬者！
+- ci3 zhen1 shao3 qing1 suo3 qin1 jian4 ， pu2 xing2 shi4 qi3 bu4 ran2 hu1 ？ li3 ling2 ji4 sheng1 jiang4 ， tui2 qi2 jia1 sheng1 ， er2 pu2 you4 er4 zhi1 can2 shi4 ， zhong4 wei2 tian1 xia4 guan1 xiao4。
+- 此真少卿所親見，僕行事豈不然乎？李陵既生降，隤其家聲，而僕又佴之蠶室，重爲天下觀笑。
+- bei1 fu1！
+- 悲夫！
+- bei1 fu1！
+- 悲夫！
+- shi4 wei4 yi4 yi1 er4 wei2 su2 ren2 yan2 ye3。
+- 事未易一二爲俗人言也。
+- pu2 zhi1 xian1 fei1 you3 pou1 fu2 dan1 shu1 zhi1 gong1 ， wen2 shi3 xing1 li4 ， jin4 hu1 bu3 zhu4 zhi1 jian4 ， gu4 zhu3 shang4 suo3 xi4 nong4 ， chang4 you1 suo3 chu4 ， liu2 su2 zhi1 suo3 qing1 ye3。
+- 僕之先非有剖符丹書之功，文史星曆，近乎卜祝之間，固主上所戲弄，倡優所畜，流俗之所輕也。
+- jia3 ling4 pu2 fu2 fa3 shou4 zhu1 ， ruo4 jiu3 niu2 wang2 yi4 mao2 ， yu3 lou2 yi3 he2 yi3 yi4 ？ er2 shi4 you4 bu4 yu3 neng2 si3 jie2 zhe3 bi3 ， te4 yi3 wei2 zhi4 qiong2 zui4 ji2 ， bu4 neng2 zi4 mian3 ， zu2 jiu4 si3 er3。
+- 假令僕伏法受誅，若九牛亡一毛，與螻蟻何以異？而世又不與能死節者比，特以爲智窮罪極，不能自免，卒就死耳。
+- he2 ye3 ？ su4 suo3 zi4 shu4 li4 shi3 ran2 ye3。
+- 何也？素所自樹立使然也。
+- ren2 gu4 you3 yi4 si3 ， huo4 zhong4 wu1 tai4 shan1 ， huo4 qing1 wu1 hong2 mao2 ， yong4 zhi1 suo3 qu1 yi4 ye3。
+- 人固有一死，或重於泰山，或輕於鴻毛，用之所趨異也。
+- tai4 shang4 bu4 ru3 xian1 ， qi2 ci4 bu4 ru3 shen1 ， qi2 ci4 bu4 ru3 li3 se4 ， qi2 ci4 bu4 ru3 ci2 ling4 ， qi2 ci4 qu1 ti3 shou4 ru3 ， qi2 ci4 yi4 fu2 shou4 ru3 ， qi2 ci4 guan1 mu4 suo3 、 bei4 chui2 chu3 shou4 ru3 ， qi2 ci4 ti1 mao2 fa4 、 ying1 jin1 tie3 shou4 ru3 ， qi2 ci4 hui3 ji1 fu1 、 duan4 zhi1 ti3 shou4 ru3 ， zui4 xia4 fu3 xing2 ji2 yi3！
+- 太上不辱先，其次不辱身，其次不辱理色，其次不辱辭令，其次詘體受辱，其次易服受辱，其次關木索、被箠楚受辱，其次剔毛髮、嬰金鐵受辱，其次毀肌膚、斷肢體受辱，最下腐刑極矣！
+- chuan2 yue1 “ xing2 bu2 shang4 dai4 fu0。
+- 傳曰“刑不上大夫。
+- ” ci3 yan2 shi4 jie2 bu4 ke3 bu4 mian3 li4 ye3。
+- ”此言士節不可不勉厲也。
+- meng3 hu3 zai4 shen1 shan1 ， bai3 shou4 zhen4 kong3 ， ji2 zai4 jian4 jing3 zhi1 zhong1 ， yao2 wei3 er2 qiu2 shi2 ， ji1 wei1 yue1 zhi1 jian4 ye3。
+- 猛虎在深山，百獸震恐，及在檻阱之中，搖尾而求食，積威約之漸也。
+- gu4 shi4 you3 hua4 di4 wei2 lao2 ， shi4 bu4 ke3 ru4；
+- 故士有畫地爲牢，勢不可入；
+- xiao1 mu4 wei2 li4 ， yi4 bu4 ke3 dui4 ， ding4 ji4 wu1 xian1 ye3。
+- 削木爲吏，議不可對，定計於鮮也。
+- jin1 jiao1 shou3 zu2 ， shou4 mu4 suo3 ， bao4 ji1 fu1 ， shou4 bang3 chui2 ， you1 wu1 huan2 qiang2 zhi1 zhong1。
+- 今交手足，受木索，暴肌膚，受榜箠，幽於圜牆之中。
+- dang1 ci3 zhi1 shi2 ， jian4 yu4 li4 ze2 tou2 qiang1 di4 ， shi4 tu2 li4 ze2 xin1 ti4 xi1。
+- 當此之時，見獄吏則頭搶地，視徒隸則心惕息。
+- he2 zhe3 ？ ji1 wei1 yue1 zhi1 shi4 ye3。
+- 何者？積威約之勢也。
+- ji2 yi3 zhi4 shi4 ， yan2 bu4 ru3 zhe3 ， suo3 wei4 qiang2 yan2 er3 ， he2 zu2 gui4 hu1！
+- 及以至是，言不辱者，所謂強顏耳，曷足貴乎！
+- qie3 xi1 bo2 ， bo2 ye3 ， ju1 wu1 you3 li3；
+- 且西伯，伯也，拘於羑里；
+- li3 si1 ， xiang1 ye3 ， ju4 wu1 wu3 xing2；
+- 李斯，相也，具於五刑；
+- huai2 yin1 ， wang2 ye3 ， shou4 xie4 wu1 chen2；
+- 淮陰，王也，受械於陳；
+- peng2 yue4 、 zhang1 ao2 ， nan2 mian4 cheng1 gu1 ， xi4 yu4 di3 zui4；
+- 彭越、張敖，南面稱孤，繫獄抵罪；
+- jiang4 hou2 zhu1 zhu1 lü3 ， quan2 qing1 wu3 bo2 ， qiu2 wu1 qing3 shi4；
+- 絳侯誅諸呂，權傾五伯，囚於請室；
+- wei4 qi2 ， da4 jiang1 ye3 ， yi1 zhe3 yi1 ， guan1 san1 mu4；
+- 魏其，大將也，衣赭衣，關三木；
+- ji4 bu4 wei2 zhu1 jia1 qian2 nu2；
+- 季布爲朱家鉗奴；
+- guan4 fu1 shou4 ru3 wu1 ju1 shi4。
+- 灌夫受辱於居室。
+- ci3 ren2 jie1 shen1 zhi4 wang2 hou2 jiang1 xiang1 ， sheng1 wen2 lin2 guo2 ， ji2 zui4 zhi4 wang3 jia1 ， bu4 neng2 yin3 jue2 zi4 cai2 ， zai4 chen2 ai1 zhi1 zhong1。
+- 此人皆身至王侯將相，聲聞鄰國，及罪至罔加，不能引決自裁，在塵埃之中。
+- gu3 jin1 yi4 ti3 ， an1 zai4 qi2 bu4 ru3 ye3 ？ you2 ci3 yan2 zhi1 ， yong3 qie4 ， shi4 ye3；
+- 古今一體，安在其不辱也？由此言之，勇怯，勢也；
+- qiang2 ruo4 ， xing2 ye3。
+- 強弱，形也。
+- shen3 yi3 ， he2 zu2 guai4 hu1 ？ fu1 ren2 bu4 neng2 zao3 zi4 cai2 sheng2 mo4 zhi1 wai4 ， yi3 shao1 ling2 chi2 ， zhi4 wu1 bian1 chui2 zhi1 jian4 ， nai3 yu4 yin3 jie2 ， si1 bu2 yi4 yuan3 hu1！
+- 審矣，何足怪乎？夫人不能早自裁繩墨之外，以稍陵遲，至於鞭箠之間，乃欲引節，斯不亦遠乎！
+- gu3 ren2 suo3 yi3 zhong4 shi1 xing2 yu2 dai4 fu0 zhe3 ， dai4 wei2 ci3 ye3。
+- 古人所以重施刑于大夫者，殆爲此也。
+- fu1 ren2 qing2 mo4 bu4 tan1 sheng1 e4 si3 ， nian4 fu4 mu3 ， gu4 qi1 zi3 ， zhi4 ji1 wu1 yi4 li3 zhe3 bu4 ran2 ， nai3 you3 suo3 bu4 de2 yi3 ye3。
+- 夫人情莫不貪生惡死，念父母，顧妻子，至激於義理者不然，乃有所不得已也。
+- jin1 pu2 bu2 xing4 ， zao3 shi1 fu4 mu3 ， wu2 xiong1 di4 zhi1 qin1 ， du2 shen1 gu1 li4 ， shao3 qing1 shi4 pu2 wu1 qi1 zi3 he2 ru2 zai1 ？ qie3 yong3 zhe3 bu2 bi4 si3 jie2 ， qie4 fu1 mu4 yi4 ， he2 chu3 bu4 mian3 yan1！
+- 今僕不幸，早失父母，無兄弟之親，獨身孤立，少卿視僕於妻子何如哉？且勇者不必死節，怯夫慕義，何處不勉焉！
+- pu2 sui1 qie4 nuo4 ， yu4 gou3 huo2 ， yi4 po1 shi2 qu4 jiu4 zhi1 fen1 yi3 ， he2 zhi4 zi4 chen2 ni4 lei2 xie4 zhi1 ru3 zai1！
+- 僕雖怯懦，欲苟活，亦頗識去就之分矣，何至自沉溺縲紲之辱哉！
+- qie3 fu1 zang1 huo4 bi4 qie4 ， you2 neng2 yin3 jue2 ， kuang4 pu2 zhi1 bu4 de2 yi3 hu1 ？ suo3 yi3 yin3 ren3 gou3 huo2 ， you1 wu1 fen4 tu3 zhi1 zhong1 er2 bu4 ci2 zhe3 ， hen4 si1 xin1 you3 suo3 bu2 jin4 ， bi3 lou4 mei2 shi4 ， er2 wen2 cai3 bu4 biao3 wu1 hou4 ye3。
+- 且夫臧獲婢妾，猶能引決，況僕之不得已乎？所以隱忍苟活，幽於糞土之中而不辭者，恨私心有所不盡，鄙陋沒世，而文采不表於後也。
+- gu3 zhe3 fu4 gui4 er2 ming2 mo2 mie4 ， bu4 ke3 sheng4 ji4 ， wei2 ti4 tang3 fei1 chang2 zhi1 ren2 cheng1 yan1。
+- 古者富貴而名摩滅，不可勝記，唯倜儻非常之人稱焉。
+- gai4 wen2 wang2 ju1 er2 yan3 《 zhou1 yi4 》；
+- 蓋文王拘而演《周易》；
+- zhong4 ni2 e4 er2 zuo4 《 chun1 qiu1 》；
+- 仲尼厄而作《春秋》；
+- qu1 yuan2 fang4 zhu2 ， nai3 fu4 《 li2 sao1 》；
+- 屈原放逐，乃賦《離騷》；
+- zuo3 qiu1 shi1 ming2 ， jue2 you3 《 guo2 yu3 》；
+- 左丘失明，厥有《國語》；
+- sun1 zi3 bin4 jiao3 ， 《 bing1 fa3 》 xiu1 lie4；
+- 孫子臏腳，《兵法》修列；
+- bu4 wei2 qian1 shu3 ， shi4 chuan2 《 lü3 lan3 》；
+- 不韋遷蜀，世傳《呂覽》；
+- han2 fei1 qiu2 qin2 ， 《 shuo1 nan2 》 《 gu1 fen4 》；
+- 韓非囚秦，《說難》《孤憤》；
+- 《 shi1 》 san1 bai3 pian1 ， da4 di3 sheng4 xian2 fa1 fen4 zhi1 suo3 wei2 zuo4 ye3。
+- 《詩》三百篇，大底聖賢發憤之所爲作也。
+- ci3 ren2 jie1 yi4 you3 suo3 yu4 jie2 ， bu4 de2 tong1 qi2 dao4 ， gu4 shu4 wang3 shi4 、 si1 lai2 zhe3。
+- 此人皆意有所鬱結，不得通其道，故述往事、思來者。
+- nai3 ru2 zuo3 qiu1 wu2 mu4 ， sun1 zi3 duan4 zu2 ， zhong1 bu4 ke3 yong4 ， tui4 er2 lun4 shu1 ce4 ， yi3 shu1 qi2 fen4 ， si1 chui2 kong1 wen2 yi3 zi4 jian4。
+- 乃如左丘無目，孫子斷足，終不可用，退而論書策，以舒其憤，思垂空文以自見。
+- pu2 qie4 bu2 xun4 ， jin4 zi4 tuo1 wu1 wu2 neng2 zhi1 ci2 ， wang3 luo2 tian1 xia4 fang4 shi1 jiu4 wen2 ， lüe4 kao3 qi2 xing2 shi4 ， zong1 qi2 zhong1 shi3 ， ji1 qi2 cheng2 bai4 xing1 huai4 zhi1 ji4 ， shang4 ji4 xuan1 yuan2 ， xia4 zhi4 wu1 zi1 ， wei2 shi2 biao3 ， ben3 ji4 shi2 er4 ， shu1 ba1 zhang1 ， shi4 jia1 san1 shi2 ， lie4 chuan2 qi1 shi2 ， fan2 bai3 san1 shi2 pian1。
+- 僕竊不遜，近自託於無能之辭，網羅天下放失舊聞，略考其行事，綜其終始，稽其成敗興壞之紀，上計軒轅，下至於茲，爲十表，本紀十二，書八章，世家三十，列傳七十，凡百三十篇。
+- yi4 yu4 yi3 jiu1 tian1 ren2 zhi1 ji4 ， tong1 gu3 jin1 zhi1 bian4 ， cheng2 yi4 jia1 zhi1 yan2。
+- 亦欲以究天人之際，通古今之變，成一家之言。
+- cao3 chuang4 wei4 jiu4 ， hui4 zao1 ci3 huo4 ， xi1 qi2 bu4 cheng2 ， shi4 yi3 jiu4 ji2 xing2 er2 wu2 yun4 se4。
+- 草創未就，會遭此禍，惜其不成，是以就極刑而無慍色。
+- pu2 cheng2 yi3 zhu4 ci3 shu1 ， cang2 zhi1 ming2 shan1 ， chuan2 zhi1 qi2 ren2 ， tong1 yi4 da4 dou1 ， ze2 pu2 chang2 qian2 ru3 zhi1 ze2 ， sui1 wan4 bei4 lu4 ， qi3 you3 hui3 zai1！
+- 僕誠以著此書，藏之名山，傳之其人，通邑大都，則僕償前辱之責，雖萬被戮，豈有悔哉！
+- ran2 ci3 ke3 wei2 zhi4 zhe3 dao4 ， nan2 wei2 su2 ren2 yan2 ye3！
+- 然此可爲智者道，難爲俗人言也！
+- qie3 fu4 xia4 wei4 yi4 ju1 ， xia4 liu2 duo1 bang4 yi4。
+- 且負下未易居，下流多謗議。
+- pu2 yi3 kou3 yu3 yu4 zao1 ci3 huo4 ， zhong4 wei2 xiang1 dang3 suo3 xiao4 ， yi3 wu1 ru3 xian1 ren2 ， yi4 he2 mian4 mu4 fu4 shang4 fu4 mu3 zhi1 qiu1 mu4 hu1 ？ sui1 lei4 bai3 shi4 ， gou4 mi2 shen4 er3！
+- 僕以口語遇遭此禍，重爲鄉黨所笑，以污辱先人，亦何面目覆上父母之丘墓乎？雖累百世，垢彌甚耳！
+- shi4 yi3 chang2 yi2 ri4 er2 jiu3 hui2 ， ju1 ze2 hu1 hu1 ruo4 you3 suo3 wang2 ， chu1 ze2 bu4 zhi1 qi2 suo3 wang3。
+- 是以腸一日而九回，居則忽忽若有所亡，出則不知其所往。
+- mei3 nian4 si1 chi3 ， han4 wei4 chang2 bu4 fa1 bei4 zhan1 yi1 ye3！
+- 每念斯恥，汗未嘗不發背沾衣也！
+- shen1 zhi2 wei2 gui1 ge2 zhi1 chen2 ， ning2 de2 zi4 yin3 shen1 cang2 wu1 yan2 xue2 xie2 ？ gu4 qie3 cong2 su2 fu2 chen2 ， yu3 shi2 fu3 yang3 ， yi3 tong1 qi2 kuang2 huo4。
+- 身直爲閨閣之臣，寧得自引深藏於巖穴邪？故且從俗浮沉，與時俯仰，以通其狂惑。
+- jin1 shao3 qing1 nai3 jiao4 yi3 tui1 xian2 jin4 shi4 ， wu2 nai3 yu3 pu2 si1 xin1 la4 miu4 hu1 ？ jin1 sui1 yu4 zi4 diao1 zhuo2 ， man4 ci2 yi3 zi4 shi4 ， wu2 yi4 ， wu1 su2 bu2 xin4 ， shi4 zu2 qu3 ru3 er3。
+- 今少卿乃教以推賢進士，無乃與僕私心剌謬乎？今雖欲自雕琢，曼辭以自飾，無益，於俗不信，適足取辱耳。
+- yao4 zhi1 ， si3 ri4 ran2 hou4 shi4 fei1 nai3 ding4。
+- 要之，死日然後是非乃定。
+- shu1 bu4 neng2 xi1 yi4 ， gu4 lüe4 chen2 gu4 lou4。
+- 書不能悉意，故略陳固陋。
+- jin3 zai4 bai4。
+- 謹再拜。
 
 ## 注释
 

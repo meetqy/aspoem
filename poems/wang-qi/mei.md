@@ -11,9 +11,9 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- bu2 shou4 chen2 ai1 ban4 dian3 qin1 ， zhu2 li2 mao2 she4 zi4 gan1 xin1 。
+- bu2 shou4 chen2 ai1 ban4 dian3 qin1 ， zhu2 li2 mao2 she4 zi4 gan1 xin1。
 - 不受塵埃半點侵，竹籬茅舍自甘心。
-- zhi1 yin1 wu4 shi2 lin2 he2 jing4 ， re3 de2 shi1 ren2 shuo1 dao4 jin1 。
+- zhi1 yin1 wu4 shi2 lin2 he2 jing4 ， re3 de2 shi1 ren2 shuo1 dao4 jin1。
 - 只因誤識林和靖，惹得詩人說到今。
 
 ## 注释

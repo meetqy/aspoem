@@ -11,20 +11,22 @@ tags: []
 
 ## 正文
 
-- xiang1 tu3 bu4 tong2 ， he2 shuo4 long2 dong1 。
+- xiang1 tu3 bu4 tong2 ， he2 shuo4 long2 dong1。
 - 乡土不同，河朔隆冬。
-- liu2 si1 fu2 piao1 ， zhou1 chuan2 xing2 nan2 。
+- liu2 si1 fu2 piao1 ， zhou1 chuan2 xing2 nan2。
 - 流澌浮漂，舟船行难。
-- zhui1 bu2 ru4 di4 ， feng1 lai4 shen1 ao4 。
+- zhui1 bu2 ru4 di4 ， feng1 lai4 shen1 ao4。
 - 锥不入地，蘴藾深奥。
-- shui3 jie2 bu4 liu2 ， bing1 jian1 ke3 dao3 。
+- shui3 jie2 bu4 liu2 ， bing1 jian1 ke3 dao3。
 - 水竭不流，冰坚可蹈。
-- shi4 yin3 zhe3 pin2 ， yong3 xia2 qing1 fei1 。
+- shi4 yin3 zhe3 pin2 ， yong3 xia2 qing1 fei1。
 - 士隐者贫，勇侠轻非。
-- xin1 chang2 tan4 yuan4 ， qi1 qi1 duo1 bei1 。
+- xin1 chang2 tan4 yuan4 ， qi1 qi1 duo1 bei1。
 - 心常叹怨，戚戚多悲。
-- xing4 shen4 zhi4 zai1 ！ ge1 yi3 yong3 zhi4 。
-- 幸甚至哉！歌以咏志。
+- xing4 shen4 zhi4 zai1！
+- 幸甚至哉！
+- ge1 yi3 yong3 zhi4。
+- 歌以咏志。
 
 ## 注释
 

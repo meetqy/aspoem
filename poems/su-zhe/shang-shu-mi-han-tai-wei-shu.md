@@ -11,14 +11,50 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 
 ## 正文
 
-- tai4 wei4 zhi2 shi4 ： zhe2 sheng1 hao3 wei2 wen2 ， si1 zhi1 zhi4 shen1 。 yi3 wei2 wen2 zhe3 qi4 zhi1 suo3 xing2 ， ran2 wen2 bu4 ke3 yi3 xue2 er2 neng2 ， qi4 ke3 yi3 yang3 er2 zhi4 。 meng4 zi3 yue1 ： “ wo3 shan4 yang3 wu2 hao4 ran2 zhi1 qi4 。 ” jin1 guan1 qi2 wen2 zhang1 ， kuan1 hou4 hong2 bo2 ， chong1 hu1 tian1 di4 zhi1 jian4 ， cheng1 qi2 qi4 zhi1 xiao3 da4 。 tai4 shi3 gong1 xing2 tian1 xia4 ， zhou1 lan3 si4 hai3 ming2 shan1 da4 chuan1 ， yu3 yan4 、 zhao4 jian4 hao2 jun4 jiao1 you2 ， gu4 qi2 wen2 shu1 dang4 ， po1 you3 qi2 qi4 。 ci3 er4 zi3 zhe3 ， qi3 chang2 zhi2 bi3 xue2 wei2 ru2 ci3 zhi1 wen2 zai1 ？ qi2 qi4 chong1 hu1 qi2 zhong1 er2 yi4 hu1 qi2 mao4 ， dong4 hu1 qi2 yan2 er2 jian4 hu1 qi2 wen2 ， er2 bu2 zi4 zhi1 ye3 。
-- 太尉執事：轍生好爲文，思之至深。以爲文者氣之所形，然文不可以學而能，氣可以養而致。孟子曰：“我善養吾浩然之氣。”今觀其文章，寬厚宏博，充乎天地之間，稱其氣之小大。太史公行天下，周覽四海名山大川，與燕、趙間豪俊交遊，故其文疏蕩，頗有奇氣。此二子者，豈嘗執筆學爲如此之文哉？其氣充乎其中而溢乎其貌，動乎其言而見乎其文，而不自知也。
-- zhe2 sheng1 shi2 you3 jiu3 nian2 yi3 。 qi2 ju1 jia1 suo3 yu3 you2 zhe3 ， bu2 guo4 qi2 lin2 li3 xiang1 dang3 zhi1 ren2 ； suo3 jian4 bu2 guo4 shu4 bai3 li3 zhi1 jian4 ， wu2 gao1 shan1 da4 ye3 ke3 deng1 lan3 yi3 zi4 guang3 ； bai3 shi4 zhi1 shu1 ， sui1 wu2 suo3 bu4 du2 ， ran2 jie1 gu3 ren2 zhi1 chen2 ji4 ， bu4 zu2 yi3 ji1 fa1 qi2 zhi4 qi4 。 kong3 sui4 gu3 mei2 ， gu4 jue2 ran2 she3 qu4 ， qiu2 tian1 xia4 qi2 wen2 zhuang4 guan1 ， yi3 zhi1 tian1 di4 zhi1 guang3 da4 。 guo4 qin2 、 han4 zhi1 gu4 du1 ， zi4 guan1 zhong1 nan2 、 song1 、 hua2 zhi1 gao1 ， bei3 gu4 huang2 he2 zhi1 ben1 liu2 ， kai3 ran2 xiang3 jian4 gu3 zhi1 hao2 jie2 。 zhi4 jing1 shi1 ， yang3 guan1 tian1 zi3 gong1 que4 zhi1 zhuang4 ， yu3 cang1 lin3 、 fu3 ku4 、 cheng2 chi2 、 yuan4 you4 zhi1 fu4 qie3 da4 ye3 ， er2 hou4 zhi1 tian1 xia4 zhi1 ju4 li2 。 jian4 han4 lin2 ou1 yang2 gong1 ， ting1 qi2 yi4 lun4 zhi1 hong2 bian4 ， guan1 qi2 rong2 mao4 zhi1 xiu4 wei3 ， yu3 qi2 men2 ren2 xian2 shi4 da4 fu1 you2 ， er2 hou4 zhi1 tian1 xia4 zhi1 wen2 zhang1 ju4 hu1 ci3 ye3 。 tai4 wei4 yi3 cai2 lüe4 guan1 tian1 xia4 ， tian1 xia4 zhi1 suo3 shi4 yi3 wu2 you1 ， si4 yi2 zhi1 suo3 dan4 yi3 bu4 gan3 fa1 ， ru4 ze2 zhou1 gong1 、 zhao4 gong1 ， chu1 ze2 fang1 shu1 、 zhao4 hu3 。 er2 zhe2 ye3 wei4 zhi1 jian4 yan1 。
-- 轍生十有九年矣。其居家所與遊者，不過其鄰里鄉黨之人；所見不過數百里之間，無高山大野可登覽以自廣；百氏之書，雖無所不讀，然皆古人之陳跡，不足以激發其志氣。恐遂汩沒，故決然捨去，求天下奇聞壯觀，以知天地之廣大。過秦、漢之故都，恣觀終南、嵩、華之高，北顧黃河之奔流，慨然想見古之豪傑。至京師，仰觀天子宮闕之壯，與倉廩、府庫、城池、苑囿之富且大也，而後知天下之巨麗。見翰林歐陽公，聽其議論之宏辯，觀其容貌之秀偉，與其門人賢士大夫遊，而後知天下之文章聚乎此也。太尉以才略冠天下，天下之所恃以無憂，四夷之所憚以不敢發，入則周公、召公，出則方叔、召虎。而轍也未之見焉。
-- qie3 fu1 ren2 zhi1 xue2 ye3 ， bu2 zhi4 qi2 da4 ， sui1 duo1 er2 he2 wei2 ？ zhe2 zhi1 lai2 ye3 ， yu2 shan1 jian4 zhong1 nan2 、 song1 、 hua2 zhi1 gao1 ， wu1 shui3 jian4 huang2 he2 zhi1 da4 qie3 shen1 ， wu1 ren2 jian4 ou1 yang2 gong1 ， er2 you2 yi3 wei2 wei4 jian4 tai4 wei4 ye3 。 gu4 yuan4 de2 guan1 xian2 ren2 zhi1 guang1 yao4 ， wen2 yi4 yan2 yi3 zi4 zhuang4 ， ran2 hou4 ke3 yi3 jin4 tian1 xia4 zhi1 da4 guan1 er2 wu2 han4 zhe3 yi3 。
-- 且夫人之學也，不志其大，雖多而何爲？轍之來也，于山見終南、嵩、華之高，於水見黃河之大且深，於人見歐陽公，而猶以爲未見太尉也。故願得觀賢人之光耀，聞一言以自壯，然後可以盡天下之大觀而無憾者矣。
-- zhe2 nian2 shao4 ， wei4 neng2 tong1 xi2 li4 shi4 。 xiang4 zhi1 lai2 ， fei1 you3 qu3 wu1 dou4 sheng1 zhi1 lu4 ， ou3 ran2 de2 zhi1 ， fei1 qi2 suo3 le4 。 ran2 xing4 de2 ci4 gui1 dai4 xuan3 ， shi3 de0 you1 you2 shu4 nian2 zhi1 jian4 ， jiang1 yi3 yi4 zhi4 qi2 wen2 ， qie3 xue2 wei2 zheng4 。 tai4 wei4 gou3 yi3 wei2 ke3 jiao4 er2 ru3 jiao4 zhi1 ， you4 xing4 yi3 ！
-- 轍年少，未能通習吏事。向之來，非有取於斗升之祿，偶然得之，非其所樂。然幸得賜歸待選，使得優遊數年之間，將以益治其文，且學爲政。太尉苟以爲可教而辱教之，又幸矣！
+- tai4 wei4 zhi2 shi4 ： zhe2 sheng1 hao3 wei2 wen2 ， si1 zhi1 zhi4 shen1。
+- 太尉執事：轍生好爲文，思之至深。
+- yi3 wei2 wen2 zhe3 qi4 zhi1 suo3 xing2 ， ran2 wen2 bu4 ke3 yi3 xue2 er2 neng2 ， qi4 ke3 yi3 yang3 er2 zhi4。
+- 以爲文者氣之所形，然文不可以學而能，氣可以養而致。
+- meng4 zi3 yue1 ： “ wo3 shan4 yang3 wu2 hao4 ran2 zhi1 qi4。
+- 孟子曰：“我善養吾浩然之氣。
+- ” jin1 guan1 qi2 wen2 zhang1 ， kuan1 hou4 hong2 bo2 ， chong1 hu1 tian1 di4 zhi1 jian4 ， cheng1 qi2 qi4 zhi1 xiao3 da4。
+- ”今觀其文章，寬厚宏博，充乎天地之間，稱其氣之小大。
+- tai4 shi3 gong1 xing2 tian1 xia4 ， zhou1 lan3 si4 hai3 ming2 shan1 da4 chuan1 ， yu3 yan4 、 zhao4 jian4 hao2 jun4 jiao1 you2 ， gu4 qi2 wen2 shu1 dang4 ， po1 you3 qi2 qi4。
+- 太史公行天下，周覽四海名山大川，與燕、趙間豪俊交遊，故其文疏蕩，頗有奇氣。
+- ci3 er4 zi3 zhe3 ， qi3 chang2 zhi2 bi3 xue2 wei2 ru2 ci3 zhi1 wen2 zai1 ？ qi2 qi4 chong1 hu1 qi2 zhong1 er2 yi4 hu1 qi2 mao4 ， dong4 hu1 qi2 yan2 er2 jian4 hu1 qi2 wen2 ， er2 bu2 zi4 zhi1 ye3。
+- 此二子者，豈嘗執筆學爲如此之文哉？其氣充乎其中而溢乎其貌，動乎其言而見乎其文，而不自知也。
+- zhe2 sheng1 shi2 you3 jiu3 nian2 yi3。
+- 轍生十有九年矣。
+- qi2 ju1 jia1 suo3 yu3 you2 zhe3 ， bu2 guo4 qi2 lin2 li3 xiang1 dang3 zhi1 ren2；
+- 其居家所與遊者，不過其鄰里鄉黨之人；
+- suo3 jian4 bu2 guo4 shu4 bai3 li3 zhi1 jian4 ， wu2 gao1 shan1 da4 ye3 ke3 deng1 lan3 yi3 zi4 guang3；
+- 所見不過數百里之間，無高山大野可登覽以自廣；
+- bai3 shi4 zhi1 shu1 ， sui1 wu2 suo3 bu4 du2 ， ran2 jie1 gu3 ren2 zhi1 chen2 ji4 ， bu4 zu2 yi3 ji1 fa1 qi2 zhi4 qi4。
+- 百氏之書，雖無所不讀，然皆古人之陳跡，不足以激發其志氣。
+- kong3 sui4 gu3 mei2 ， gu4 jue2 ran2 she3 qu4 ， qiu2 tian1 xia4 qi2 wen2 zhuang4 guan1 ， yi3 zhi1 tian1 di4 zhi1 guang3 da4。
+- 恐遂汩沒，故決然捨去，求天下奇聞壯觀，以知天地之廣大。
+- guo4 qin2 、 han4 zhi1 gu4 du1 ， zi4 guan1 zhong1 nan2 、 song1 、 hua2 zhi1 gao1 ， bei3 gu4 huang2 he2 zhi1 ben1 liu2 ， kai3 ran2 xiang3 jian4 gu3 zhi1 hao2 jie2。
+- 過秦、漢之故都，恣觀終南、嵩、華之高，北顧黃河之奔流，慨然想見古之豪傑。
+- zhi4 jing1 shi1 ， yang3 guan1 tian1 zi3 gong1 que4 zhi1 zhuang4 ， yu3 cang1 lin3 、 fu3 ku4 、 cheng2 chi2 、 yuan4 you4 zhi1 fu4 qie3 da4 ye3 ， er2 hou4 zhi1 tian1 xia4 zhi1 ju4 li2。
+- 至京師，仰觀天子宮闕之壯，與倉廩、府庫、城池、苑囿之富且大也，而後知天下之巨麗。
+- jian4 han4 lin2 ou1 yang2 gong1 ， ting1 qi2 yi4 lun4 zhi1 hong2 bian4 ， guan1 qi2 rong2 mao4 zhi1 xiu4 wei3 ， yu3 qi2 men2 ren2 xian2 shi4 da4 fu1 you2 ， er2 hou4 zhi1 tian1 xia4 zhi1 wen2 zhang1 ju4 hu1 ci3 ye3。
+- 見翰林歐陽公，聽其議論之宏辯，觀其容貌之秀偉，與其門人賢士大夫遊，而後知天下之文章聚乎此也。
+- tai4 wei4 yi3 cai2 lüe4 guan1 tian1 xia4 ， tian1 xia4 zhi1 suo3 shi4 yi3 wu2 you1 ， si4 yi2 zhi1 suo3 dan4 yi3 bu4 gan3 fa1 ， ru4 ze2 zhou1 gong1 、 zhao4 gong1 ， chu1 ze2 fang1 shu1 、 zhao4 hu3。
+- 太尉以才略冠天下，天下之所恃以無憂，四夷之所憚以不敢發，入則周公、召公，出則方叔、召虎。
+- er2 zhe2 ye3 wei4 zhi1 jian4 yan1。
+- 而轍也未之見焉。
+- qie3 fu1 ren2 zhi1 xue2 ye3 ， bu2 zhi4 qi2 da4 ， sui1 duo1 er2 he2 wei2 ？ zhe2 zhi1 lai2 ye3 ， yu2 shan1 jian4 zhong1 nan2 、 song1 、 hua2 zhi1 gao1 ， wu1 shui3 jian4 huang2 he2 zhi1 da4 qie3 shen1 ， wu1 ren2 jian4 ou1 yang2 gong1 ， er2 you2 yi3 wei2 wei4 jian4 tai4 wei4 ye3。
+- 且夫人之學也，不志其大，雖多而何爲？轍之來也，于山見終南、嵩、華之高，於水見黃河之大且深，於人見歐陽公，而猶以爲未見太尉也。
+- gu4 yuan4 de2 guan1 xian2 ren2 zhi1 guang1 yao4 ， wen2 yi4 yan2 yi3 zi4 zhuang4 ， ran2 hou4 ke3 yi3 jin4 tian1 xia4 zhi1 da4 guan1 er2 wu2 han4 zhe3 yi3。
+- 故願得觀賢人之光耀，聞一言以自壯，然後可以盡天下之大觀而無憾者矣。
+- zhe2 nian2 shao4 ， wei4 neng2 tong1 xi2 li4 shi4。
+- 轍年少，未能通習吏事。
+- xiang4 zhi1 lai2 ， fei1 you3 qu3 wu1 dou4 sheng1 zhi1 lu4 ， ou3 ran2 de2 zhi1 ， fei1 qi2 suo3 le4。
+- 向之來，非有取於斗升之祿，偶然得之，非其所樂。
+- ran2 xing4 de2 ci4 gui1 dai4 xuan3 ， shi3 de0 you1 you2 shu4 nian2 zhi1 jian4 ， jiang1 yi3 yi4 zhi4 qi2 wen2 ， qie3 xue2 wei2 zheng4。
+- 然幸得賜歸待選，使得優遊數年之間，將以益治其文，且學爲政。
+- tai4 wei4 gou3 yi3 wei2 ke3 jiao4 er2 ru3 jiao4 zhi1 ， you4 xing4 yi3！
+- 太尉苟以爲可教而辱教之，又幸矣！
 
 ## 注释
 

@@ -11,13 +11,13 @@ tags: ["五言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- du2 you3 huan4 you2 ren2 ， pian1 jing1 wu4 hou4 xin1 。
+- du2 you3 huan4 you2 ren2 ， pian1 jing1 wu4 hou4 xin1。
 - 獨有宦遊人，偏驚物候新。
-- yun2 xia2 chu1 hai3 shu3 ， mei2 liu3 du4 jiang1 chun1 。
+- yun2 xia2 chu1 hai3 shu3 ， mei2 liu3 du4 jiang1 chun1。
 - 雲霞出海曙，梅柳渡江春。
-- shu1 qi4 cui1 huang2 niao3 ， qing2 guang1 zhuan3 lü4 pin2 。
+- shu1 qi4 cui1 huang2 niao3 ， qing2 guang1 zhuan3 lü4 pin2。
 - 淑氣催黃鳥，晴光轉綠蘋。
-- hu1 wen2 ge1 gu3 diao4 ， gui1 si1 yu4 zhan1 jin1 。
+- hu1 wen2 ge1 gu3 diao4 ， gui1 si1 yu4 zhan1 jin1。
 - 忽聞歌古調，歸思欲沾巾。
 
 ## 注释

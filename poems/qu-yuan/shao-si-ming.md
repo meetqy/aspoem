@@ -35,7 +35,7 @@ tags: []
 - 望美人兮未来，临风怳兮浩歌
 - kong3 gai4 xi1 cui4 jing1 ， deng1 jiu3 tian1 xi1 fu3 hui4 xing1
 - 孔盖兮翠旌，登九天兮抚彗星
-- song3 chang2 jian4 xi1 yong1 you4 ai4 ， sun1 du2 yi2 xi1 wei4 min2 zheng4 。
+- song3 chang2 jian4 xi1 yong1 you4 ai4 ， sun1 du2 yi2 xi1 wei4 min2 zheng4。
 - 竦长剑兮拥幼艾，荪独宜兮为民正。
 
 ## 注释

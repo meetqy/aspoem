@@ -11,9 +11,9 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- he2 jin4 yi3 wu2 qing2 yu3 gai4 ， ju2 can2 you2 you3 ao4 shuang1 zhi1 。
+- he2 jin4 yi3 wu2 qing2 yu3 gai4 ， ju2 can2 you2 you3 ao4 shuang1 zhi1。
 - 荷盡已無擎雨蓋，菊殘猶有傲霜枝。
-- yi4 nian2 hao3 jing3 jun1 xu1 ji4 ， zui4 shi4 cheng2 huang2 ju2 lü4 shi2 。
+- yi4 nian2 hao3 jing3 jun1 xu1 ji4 ， zui4 shi4 cheng2 huang2 ju2 lü4 shi2。
 - 一年好景君須記，最是橙黃橘綠時。
 
 ## 注释

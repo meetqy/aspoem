@@ -11,9 +11,9 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- chang1 he2 qian1 men2 wan4 hu4 kai1 ， san1 lang2 shen3 zui4 da3 qiu2 hui2 。
+- chang1 he2 qian1 men2 wan4 hu4 kai1 ， san1 lang2 shen3 zui4 da3 qiu2 hui2。
 - 閶闔千門萬戶開，三郎沈醉打球回。
-- jiu3 ling2 yi3 lao3 han2 xiu1 si3 ， wu2 fu4 ming2 chao2 jian4 shu1 lai2 。
+- jiu3 ling2 yi3 lao3 han2 xiu1 si3 ， wu2 fu4 ming2 chao2 jian4 shu1 lai2。
 - 九齡已老韓休死，無復明朝諫疏來。
 
 ## 注释

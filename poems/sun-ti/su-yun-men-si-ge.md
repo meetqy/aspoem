@@ -11,13 +11,13 @@ tags: ["五言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- xiang1 ge2 dong1 shan1 xia4 ， yan1 hua1 xiang4 wai4 you1 。
+- xiang1 ge2 dong1 shan1 xia4 ， yan1 hua1 xiang4 wai4 you1。
 - 香閣東山下，煙花象外幽。
-- xuan2 deng1 qian1 zhang4 xi1 ， juan4 man4 wu3 hu2 qiu1 。
+- xuan2 deng1 qian1 zhang4 xi1 ， juan4 man4 wu3 hu2 qiu1。
 - 懸燈千嶂夕，卷幔五湖秋。
-- hua4 bi4 yu2 hong2 yan4 ， sha1 chuang1 su4 dou4 niu2 。
+- hua4 bi4 yu2 hong2 yan4 ， sha1 chuang1 su4 dou4 niu2。
 - 畫壁餘鴻雁，紗窗宿鬥牛。
-- geng4 yi2 tian1 lu4 jin4 ， meng4 yu3 bai2 yun2 you2 。
+- geng4 yi2 tian1 lu4 jin4 ， meng4 yu3 bai2 yun2 you2。
 - 更疑天路近，夢與白雲遊。
 
 ## 注释

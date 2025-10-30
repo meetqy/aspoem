@@ -11,9 +11,9 @@ tags: ["五言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- he2 chu3 qiu1 feng1 zhi4 ， xiao1 xiao1 song4 yan4 qun2 。
+- he2 chu3 qiu1 feng1 zhi4 ， xiao1 xiao1 song4 yan4 qun2。
 - 何處秋風至，蕭蕭送雁羣。
-- chao2 lai2 ru4 ting2 shu4 ， gu1 ke4 zui4 xian1 wen2 。
+- chao2 lai2 ru4 ting2 shu4 ， gu1 ke4 zui4 xian1 wen2。
 - 朝來入庭樹，孤客最先聞。
 
 ## 注释

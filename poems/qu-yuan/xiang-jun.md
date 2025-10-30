@@ -47,7 +47,7 @@ tags: []
 - 捐余玦兮江中，遗余佩兮醴浦
 - cai3 fang1 zhou1 xi1 du4 ruo4 ， jiang1 yi3 yi2 xi1 xia4 nü3
 - 采芳洲兮杜若，将以遗兮下女
-- shi2 bu4 ke3 xi1 zai4 de2 ， liao2 xiao1 yao2 xi1 rong2 yu3 。
+- shi2 bu4 ke3 xi1 zai4 de2 ， liao2 xiao1 yao2 xi1 rong2 yu3。
 - 时不可兮再得，聊逍遥兮容与。
 
 ## 注释

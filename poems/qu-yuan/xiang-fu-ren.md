@@ -49,7 +49,7 @@ tags: []
 - 捐余袂兮江中，遗余褋兮醴浦
 - qian1 ting1 zhou1 xi1 du4 ruo4 ， jiang1 yi3 yi2 xi1 yuan3 zhe3
 - 搴汀洲兮杜若，将以遗兮远者
-- shi2 bu4 ke3 xi1 zhou4 de2 ， liao2 xiao1 yao2 xi1 rong2 yu3 ！
+- shi2 bu4 ke3 xi1 zhou4 de2 ， liao2 xiao1 yao2 xi1 rong2 yu3！
 - 时不可兮骤得，聊逍遥兮容与！
 
 ## 注释

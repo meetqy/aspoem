@@ -37,7 +37,7 @@ tags: []
 - 君思我兮然疑作
 - lei2 tian2 tian2 xi1 yu3 ming2 ming2 ， yuan2 jiu1 jiu1 xi1 you4 ye4 ming2
 - 雷填填兮雨冥冥，猿啾啾兮狖夜鸣
-- feng1 sa4 sa4 xi1 mu4 xiao1 xiao1 ， si1 gong1 zi3 xi1 tu2 li2 you1 。
+- feng1 sa4 sa4 xi1 mu4 xiao1 xiao1 ， si1 gong1 zi3 xi1 tu2 li2 you1。
 - 风飒飒兮木萧萧，思公子兮徒离忧。
 
 ## 注释

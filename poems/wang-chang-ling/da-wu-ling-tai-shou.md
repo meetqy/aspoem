@@ -11,9 +11,9 @@ tags: ["五言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- zhang4 jian4 xing2 qian1 li3 ， wei1 qu1 gan3 yi4 yan2 。
+- zhang4 jian4 xing2 qian1 li3 ， wei1 qu1 gan3 yi4 yan2。
 - 仗劍行千里，微軀敢一言。
-- ceng2 wei2 da4 liang2 ke4 ， bu2 fu4 xin4 ling2 en1 。
+- ceng2 wei2 da4 liang2 ke4 ， bu2 fu4 xin4 ling2 en1。
 - 曾爲大梁客，不負信陵恩。
 
 ## 注释
