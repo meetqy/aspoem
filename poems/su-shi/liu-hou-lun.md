@@ -41,8 +41,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 子房不忍忿忿之心，以匹夫之力而逞於一擊之間；
 - dang1 ci3 zhi1 shi2 ， zi3 fang2 zhi1 bu4 si3 zhe3 ， qi2 jian4 bu4 neng2 rong2 fa1 ， gai4 yi4 yi3 wei1 yi3。
 - 當此之時，子房之不死者，其間不能容發，蓋亦已危矣。
-- qian1 jin1 zhi1 zi3 ， bu4 si3 wu1 dao4 zei2 ， he2 zhe3 ？ qi2 shen1 zhi1 ke3 ai4 ， er2 dao4 zei2 zhi1 bu4 zu2 yi3 si3 ye3。
-- 千金之子，不死於盜賊，何者？其身之可愛，而盜賊之不足以死也。
+- qian1 jin1 zhi1 zi3 ， bu4 si3 wu1 dao4 zei2 ， he2 zhe3？
+- 千金之子，不死於盜賊，何者？
+- qi2 shen1 zhi1 ke3 ai4 ， er2 dao4 zei2 zhi1 bu4 zu2 yi3 si3 ye3。
+- 其身之可愛，而盜賊之不足以死也。
 - zi3 fang2 yi3 gai4 shi4 zhi1 cai2 ， bu4 wei2 yi1 yin3 、 tai4 gong1 zhi1 mou2 ， er2 te4 chu1 wu1 jing1 ke1 、 nie4 zheng4 zhi1 ji4 ， yi3 jiao3 xing4 wu1 bu4 si3 ， ci3 yi2 shang4 lao3 ren2 suo3 wei2 shen1 xi1 zhe3 ye3。
 - 子房以蓋世之才，不爲伊尹、太公之謀，而特出於荊軻、聶政之計，以僥倖於不死，此圯上老人所爲深惜者也。
 - shi4 gu4 ju4 ao4 xian1 tian3 er2 shen1 zhe2 zhi1。
@@ -63,8 +65,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 且夫有報人之志，而不能下人者，是匹夫之剛也。
 - fu1 lao3 ren2 zhe3 ， yi3 wei2 zi3 fang2 cai2 you3 yu2 ， er2 you1 qi2 du4 liang4 zhi1 bu4 zu2 ， gu4 shen1 zhe2 qi2 shao3 nian2 gang1 rui4 zhi1 qi4 ， shi3 zhi1 ren3 xiao3 fen4 er2 jiu4 da4 mou2。
 - 夫老人者，以爲子房纔有餘，而憂其度量之不足，故深折其少年剛銳之氣，使之忍小忿而就大謀。
-- he2 ze2 ？ fei1 you3 sheng1 ping2 zhi1 su4 ， zu2 ran2 xiang1 yu4 wu1 cao3 ye3 zhi1 jian4 ， er2 ming4 yi3 pu2 qie4 zhi1 yi4 ， you2 ran2 er2 bu2 guai4 zhe3 ， ci3 gu4 qin2 huang2 zhi1 suo3 bu4 neng2 jing1 ， er2 xiang4 ji2 zhi1 suo3 bu4 neng2 nu4 ye3。
-- 何則？非有生平之素，卒然相遇於草野之間，而命以僕妾之役，油然而不怪者，此固秦皇之所不能驚，而項籍之所不能怒也。
+- he2 ze2？
+- 何則？
+- fei1 you3 sheng1 ping2 zhi1 su4 ， zu2 ran2 xiang1 yu4 wu1 cao3 ye3 zhi1 jian4 ， er2 ming4 yi3 pu2 qie4 zhi1 yi4 ， you2 ran2 er2 bu2 guai4 zhe3 ， ci3 gu4 qin2 huang2 zhi1 suo3 bu4 neng2 jing1 ， er2 xiang4 ji2 zhi1 suo3 bu4 neng2 nu4 ye3。
+- 非有生平之素，卒然相遇於草野之間，而命以僕妾之役，油然而不怪者，此固秦皇之所不能驚，而項籍之所不能怒也。
 - guan1 fu1 gao1 zu3 zhi1 suo3 yi3 sheng4 ， er2 xiang4 ji2 zhi1 suo3 yi3 bai4 zhe3 ， zai4 neng2 ren3 yu3 bu4 neng2 ren3 zhi1 jian4 er2 yi3 yi3。
 - 觀夫高祖之所以勝，而項籍之所以敗者，在能忍與不能忍之間而已矣。
 - xiang4 ji2 wei2 bu4 neng2 ren3 ， shi4 yi3 bai3 zhan4 bai3 sheng4 er2 qing1 yong4 qi2 feng1；
@@ -73,7 +77,7 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 高祖忍之，養其全鋒而待其弊，此子房教之也。
 - dang1 huai2 yin1 po4 qi2 er2 yu4 zi4 wang2 ， gao1 zu3 fa1 nu4 ， jian4 wu1 ci2 se4。
 - 當淮陰破齊而欲自王，高祖發怒，見於詞色。
-- you2 ci3 guan1 zhi1 ， you2 you3 gang1 qiang2 bu4 ren3 zhi1 qi4 ， fei1 zi3 fang2 qi2 shui2 quan2 zhi1 ？
+- you2 ci3 guan1 zhi1 ， you2 you3 gang1 qiang2 bu4 ren3 zhi1 qi4 ， fei1 zi3 fang2 qi2 shui2 quan2 zhi1？
 - 由此觀之，猶有剛強不忍之氣，非子房其誰全之？
 - tai4 shi3 gong1 yi2 zi3 fang2 yi3 wei2 kui2 wu2 qi2 wei3 ， er2 qi2 zhuang4 mao4 nai3 ru2 fu4 ren2 nü3 zi3 ， bu4 cheng1 qi2 zhi4 qi4。
 - 太史公疑子房以爲魁梧奇偉，而其狀貌乃如婦人女子，不稱其志氣。

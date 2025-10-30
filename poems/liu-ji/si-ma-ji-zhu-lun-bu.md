@@ -13,8 +13,10 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 
 - dong1 ling2 hou2 ji4 fei4 ， guo4 si1 ma3 ji4 zhu3 er2 bu3 yan1。
 - 東陵侯既廢，過司馬季主而卜焉。
-- ji4 zhu3 yue1 ： “ jun1 hou2 he2 bu3 ye3 ？ ” dong1 ling2 hou2 yue1 ： “ jiu3 wo4 zhe3 si1 qi3 ， jiu3 zhe2 zhe3 si1 qi3 ， jiu3 men4 zhe3 si1 ti4。
-- 季主曰：“君侯何卜也？”東陵侯曰：“久臥者思起，久蟄者思啓，久懣者思嚏。
+- ji4 zhu3 yue1 ： “ jun1 hou2 he2 bu3 ye3？
+- 季主曰：“君侯何卜也？
+- ” dong1 ling2 hou2 yue1 ： “ jiu3 wo4 zhe3 si1 qi3 ， jiu3 zhe2 zhe3 si1 qi3 ， jiu3 men4 zhe3 si1 ti4。
+- ”東陵侯曰：“久臥者思起，久蟄者思啓，久懣者思嚏。
 - wu2 wen2 zhi1 xu4 ji2 ze2 xie4 ， bi4 ji2 ze2 da2。
 - 吾聞之蓄極則泄，閟極則達。
 - re4 ji2 ze2 feng1 ， yong1 ji2 ze2 tong1。
@@ -23,20 +25,30 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 一冬一春，靡屈不伸，一起一伏，無往不復。
 - pu2 qie4 you3 yi2 ， yuan4 shou4 jiao4 yan1。
 - 僕竊有疑，願受教焉。
-- ” ji4 zhu3 yue1 ： “ ruo4 shi4 ， ze2 jun1 hou2 yi3 yu4 zhi1 yi3 ， you4 he2 bu3 wei2 ？ ” dong1 ling2 hou2 yue1 ： “ pu2 wei4 jiu1 qi2 ao4 ye3 ， yuan4 xian1 sheng1 zu2 jiao4 zhi1。
-- ”季主曰：“若是，則君侯已喻之矣，又何卜爲？”東陵侯曰：“僕未究其奧也，願先生卒教之。
+- ” ji4 zhu3 yue1 ： “ ruo4 shi4 ， ze2 jun1 hou2 yi3 yu4 zhi1 yi3 ， you4 he2 bu3 wei2？
+- ”季主曰：“若是，則君侯已喻之矣，又何卜爲？
+- ” dong1 ling2 hou2 yue1 ： “ pu2 wei4 jiu1 qi2 ao4 ye3 ， yuan4 xian1 sheng1 zu2 jiao4 zhi1。
+- ”東陵侯曰：“僕未究其奧也，願先生卒教之。
 - ” ji4 zhu3 nai3 yan2 yue1 ： “ wu1 hu1！
 - ”季主乃言曰：“嗚呼！
-- tian1 dao4 he2 qin1 ？ wei2 de2 zhi1 qin1；
-- 天道何親？惟德之親；
-- gui3 shen2 he2 ling2 ？ yin1 ren2 er2 ling2。
-- 鬼神何靈？因人而靈。
+- tian1 dao4 he2 qin1？
+- 天道何親？
+- wei2 de2 zhi1 qin1；
+- 惟德之親；
+- gui3 shen2 he2 ling2？
+- 鬼神何靈？
+- yin1 ren2 er2 ling2。
+- 因人而靈。
 - fu1 shi1 ， ku1 cao3 ye3；
 - 夫蓍，枯草也；
 - gui1 ， ku1 gu3 ye3 ， wu4 ye3。
 - 龜，枯骨也，物也。
-- ren2 ， ling2 wu1 wu4 zhe3 ye3 ， he2 bu2 zi4 ting1 er2 ting1 wu1 wu4 hu1 ？ qie3 jun1 hou2 he2 bu4 si1 xi1 zhe3 ye3 ？ you3 xi1 zhe3 bi4 you3 jin1 ri4 ， shi4 gu4 sui4 wa3 tui2 yuan2 ， xi1 ri4 zhi1 ge1 lou2 wu3 guan3 ye3；
-- 人，靈於物者也，何不自聽而聽於物乎？且君侯何不思昔者也？有昔者必有今日，是故碎瓦頹垣，昔日之歌樓舞館也；
+- ren2 ， ling2 wu1 wu4 zhe3 ye3 ， he2 bu2 zi4 ting1 er2 ting1 wu1 wu4 hu1？
+- 人，靈於物者也，何不自聽而聽於物乎？
+- qie3 jun1 hou2 he2 bu4 si1 xi1 zhe3 ye3？
+- 且君侯何不思昔者也？
+- you3 xi1 zhe3 bi4 you3 jin1 ri4 ， shi4 gu4 sui4 wa3 tui2 yuan2 ， xi1 ri4 zhi1 ge1 lou2 wu3 guan3 ye3；
+- 有昔者必有今日，是故碎瓦頹垣，昔日之歌樓舞館也；
 - huang1 zhen1 duan4 geng3 ， xi1 ri4 zhi1 qiong2 rui2 yu4 shu4 ye3；
 - 荒榛斷梗，昔日之瓊蕤玉樹也；
 - lu4 qiong2 feng1 chan2 ， xi1 ri4 zhi1 feng4 sheng1 long2 di2 ye3；
@@ -59,8 +71,10 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 激湍之下，必有深潭；
 - gao1 qiu1 zhi1 xia4 ， bi4 you3 jun4 gu3。
 - 高丘之下，必有浚谷。
-- jun1 hou2 yi4 zhi1 zhi1 yi3 ， he2 yi3 bu3 wei2 ？ ”
-- 君侯亦知之矣，何以卜爲？”
+- jun1 hou2 yi4 zhi1 zhi1 yi3 ， he2 yi3 bu3 wei2？
+- 君侯亦知之矣，何以卜爲？
+- ”
+- ”
 
 ## 注释
 

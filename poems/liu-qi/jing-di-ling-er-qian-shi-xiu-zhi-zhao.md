@@ -27,8 +27,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 不受獻，減太官，省繇賦，欲天下務農蠶，素有畜積，以備災害；
 - qiang2 wu2 rang3 ruo4 ， zhong4 wu2 bao4 gua3 ， lao3 qi2 yi3 shou4 zhong1 ， you4 gu1 de2 sui4 chang2。
 - 強毋攘弱，衆毋暴寡，老耆以壽終，幼孤得遂長。
-- jin1 sui4 huo4 bu4 deng1 ， min2 shi2 po1 gua3 ， qi2 jiu4 an1 zai4 ？ huo4 zha4 wei3 wei2 li4 ， li4 yi3 huo4 lu4 wei2 shi4 ， yu2 duo2 bai3 xing4 ， qin1 mu4 wan4 min2。
-- 今歲或不登，民食頗寡，其咎安在？或詐僞爲吏，吏以貨賂爲市，漁奪百姓，侵牟萬民。
+- jin1 sui4 huo4 bu4 deng1 ， min2 shi2 po1 gua3 ， qi2 jiu4 an1 zai4？
+- 今歲或不登，民食頗寡，其咎安在？
+- huo4 zha4 wei3 wei2 li4 ， li4 yi3 huo4 lu4 wei2 shi4 ， yu2 duo2 bai3 xing4 ， qin1 mu4 wan4 min2。
+- 或詐僞爲吏，吏以貨賂爲市，漁奪百姓，侵牟萬民。
 - xian4 cheng2 ， chang2 li4 ye3 ， jian1 fa3 yu3 dao4 dao4 ， shen4 wu2 wei4 ye3！
 - 縣丞，長吏也，奸法與盜盜，甚無謂也！
 - qi2 ling4 er4 qian1 shi2 xiu1 qi2 zhi2！

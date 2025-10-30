@@ -45,8 +45,10 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 入者附之，出者污之。
 - yi1！
 - 噫！
-- hou4 zhi1 ren2 qi2 yu4 wen2 ren2 yi4 dao4 de2 zhi1 shuo1 ， shu2 cong2 er2 ting1 zhi1 ？ lao3 zhe3 yue1 ： “ kong3 zi3 ， wu2 shi1 zhi1 di4 zi3 ye3。
-- 後之人其欲聞仁義道德之說，孰從而聽之？老者曰：“孔子，吾師之弟子也。
+- hou4 zhi1 ren2 qi2 yu4 wen2 ren2 yi4 dao4 de2 zhi1 shuo1 ， shu2 cong2 er2 ting1 zhi1？
+- 後之人其欲聞仁義道德之說，孰從而聽之？
+- lao3 zhe3 yue1 ： “ kong3 zi3 ， wu2 shi1 zhi1 di4 zi3 ye3。
+- 老者曰：“孔子，吾師之弟子也。
 - ” fo2 zhe3 yue1 ： “ kong3 zi3 ， wu2 shi1 zhi1 di4 zi3 ye3。
 - ”佛者曰：“孔子，吾師之弟子也。
 - ” wei2 kong3 zi3 zhe3 ， xi2 wen2 qi2 shuo1 ， le4 qi2 dan4 er2 zi4 xiao3 ye3 ， yi4 yue1 “ wu2 shi1 yi4 chang2 shi1 zhi1 ” yun2 er3。
@@ -55,7 +57,7 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 不惟舉之於口，而又筆之於其書。
 - yi1！
 - 噫！
-- hou4 zhi1 ren2 sui1 yu4 wen2 ren2 yi4 dao4 de2 zhi1 shuo1 ， qi2 shu2 cong2 er2 qiu2 zhi1 ？
+- hou4 zhi1 ren2 sui1 yu4 wen2 ren2 yi4 dao4 de2 zhi1 shuo1 ， qi2 shu2 cong2 er2 qiu2 zhi1？
 - 後之人雖欲聞仁義道德之說，其孰從而求之？
 - shen4 yi3 ， ren2 zhi1 hao3 guai4 ye3 ， bu4 qiu2 qi2 duan1 ， bu2 xun4 qi2 mo4 ， wei2 guai4 zhi1 yu4 wen2。
 - 甚矣，人之好怪也，不求其端，不訊其末，惟怪之慾聞。
@@ -69,7 +71,7 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 工之家一，而用器之家六。
 - jia3 zhi1 jia1 yi1 ， er2 zi1 yan1 zhi1 jia1 liu4。
 - 賈之家一，而資焉之家六。
-- nai4 zhi1 he2 min2 bu4 qiong2 qie3 dao4 ye3 ？
+- nai4 zhi1 he2 min2 bu4 qiong2 qie3 dao4 ye3？
 - 奈之何民不窮且盜也？
 - gu3 zhi1 shi2 ， ren2 zhi1 hai4 duo1 yi3。
 - 古之時，人之害多矣。
@@ -101,8 +103,10 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 其亦不思而已矣。
 - ru2 gu3 zhi1 wu2 sheng4 ren2 ， ren2 zhi1 lei4 mie4 jiu3 yi3。
 - 如古之無聖人，人之類滅久矣。
-- he2 ye3 ？ wu2 yu3 mao2 lin2 jie4 yi3 ju1 han2 re4 ye3 ， wu2 zhao3 ya2 yi3 zheng1 shi2 ye3。
-- 何也？無羽毛鱗介以居寒熱也，無爪牙以爭食也。
+- he2 ye3？
+- 何也？
+- wu2 yu3 mao2 lin2 jie4 yi3 ju1 han2 re4 ye3 ， wu2 zhao3 ya2 yi3 zheng1 shi2 ye3。
+- 無羽毛鱗介以居寒熱也，無爪牙以爭食也。
 - shi4 gu4 jun1 zhe3 ， chu1 ling4 zhe3 ye3；
 - 是故君者，出令者也；
 - chen2 zhe3 ， xing2 jun1 zhi1 ling4 er2 zhi4 zhi1 min2 zhe3 ye3；
@@ -127,8 +131,14 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 帝之與王，其號雖殊，其所以爲聖一也。
 - xia4 ge3 er2 dong1 qiu2 ， ke3 yin3 er2 ji1 shi2 ， qi2 shi4 sui1 shu1 ， qi2 suo3 yi3 wei2 zhi4 yi1 ye3。
 - 夏葛而冬裘，渴飲而飢食，其事雖殊，其所以爲智一也。
-- jin1 qi2 yan2 yue1 ： “ he2 bu4 wei2 tai4 gu3 zhi1 wu2 shi4 ” ？ ” shi4 yi4 ze2 dong1 zhi1 qiu2 zhe3 yue1 ： “ he2 bu4 wei2 ge3 zhi1 zhi1 yi4 ye3 ？ ” ze2 ji1 zhi1 shi2 zhe3 yue1 ： “ he2 bu4 wei2 yin3 zhi1 zhi1 yi4 ye3 ？ ” chuan2 yue1 ： “ gu3 zhi1 yu4 ming2 ming2 de2 wu1 tian1 xia4 zhe3 ， xian1 zhi4 qi2 guo2；
-- 今其言曰：“曷不爲太古之無事”？”是亦責冬之裘者曰：“曷不爲葛之之易也？”責飢之食者曰：“曷不爲飲之之易也？”傳曰：“古之慾明明德於天下者，先治其國；
+- jin1 qi2 yan2 yue1 ： “ he2 bu4 wei2 tai4 gu3 zhi1 wu2 shi4 ”？
+- 今其言曰：“曷不爲太古之無事”？
+- ” shi4 yi4 ze2 dong1 zhi1 qiu2 zhe3 yue1 ： “ he2 bu4 wei2 ge3 zhi1 zhi1 yi4 ye3？
+- ”是亦責冬之裘者曰：“曷不爲葛之之易也？
+- ” ze2 ji1 zhi1 shi2 zhe3 yue1 ： “ he2 bu4 wei2 yin3 zhi1 zhi1 yi4 ye3？
+- ”責飢之食者曰：“曷不爲飲之之易也？
+- ” chuan2 yue1 ： “ gu3 zhi1 yu4 ming2 ming2 de2 wu1 tian1 xia4 zhe3 ， xian1 zhi4 qi2 guo2；
+- ”傳曰：“古之慾明明德於天下者，先治其國；
 - yu4 zhi4 qi2 guo2 zhe3 ， xian1 qi2 qi2 jia1；
 - 欲治其國者，先齊其家；
 - yu4 qi2 qi2 jia1 zhe3 ， xian1 xiu1 qi2 shen1；
@@ -145,10 +155,12 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 孔子之作《春秋》也，諸侯用夷禮則夷之，進於中國則中國之。
 - jing1 yue1 ： “ yi2 di2 zhi1 you3 jun1 ， bu4 ru2 zhu1 xia4 zhi1 wang2。
 - 經曰：“夷狄之有君，不如諸夏之亡。
-- ” 《 shi1 》 yue1 ： rong2 di2 shi4 ying1 ， jing1 shu1 shi4 cheng2 ” jin1 ye3 ju3 yi2 di2 zhi1 fa3 ， er2 jia1 zhi1 xian1 wang2 zhi1 jiao4 zhi1 shang4 ， ji1 he2 qi2 bu4 xu1 er2 wei2 yi2 ye3 ？
+- ” 《 shi1 》 yue1 ： rong2 di2 shi4 ying1 ， jing1 shu1 shi4 cheng2 ” jin1 ye3 ju3 yi2 di2 zhi1 fa3 ， er2 jia1 zhi1 xian1 wang2 zhi1 jiao4 zhi1 shang4 ， ji1 he2 qi2 bu4 xu1 er2 wei2 yi2 ye3？
 - ”《詩》曰：戎狄是膺，荊舒是懲”今也舉夷狄之法，而加之先王之教之上，幾何其不胥而爲夷也？
-- fu1 suo3 wei4 xian1 wang2 zhi1 jiao4 zhe3 ， he2 ye3 ？ bo2 ai4 zhi1 wei4 ren2 ， xing2 er2 yi2 zhi1 zhi1 wei4 yi4。
-- 夫所謂先王之教者，何也？博愛之謂仁，行而宜之之謂義。
+- fu1 suo3 wei4 xian1 wang2 zhi1 jiao4 zhe3 ， he2 ye3？
+- 夫所謂先王之教者，何也？
+- bo2 ai4 zhi1 wei4 ren2 ， xing2 er2 yi2 zhi1 zhi1 wei4 yi4。
+- 博愛之謂仁，行而宜之之謂義。
 - you2 shi4 er2 zhi1 yan1 zhi1 wei4 dao4。
 - 由是而之焉之謂道。
 - zu2 hu1 ji3 wu2 dai4 wu1 wai4 zhi1 wei4 de2。
@@ -181,8 +193,10 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 是故生則得其情，死則盡其常。
 - xiao4 yan1 er2 tian1 shen2 jia3 ， miao4 yan1 er2 ren2 gui3 xiang3。
 - 效焉而天神假，廟焉而人鬼饗。
-- yue1 ： “ si1 dao4 ye3 ， he2 dao4 ye3 ？ ” yue1 ： “ si1 wu2 suo3 wei4 dao4 ye3 ， fei1 xiang4 suo3 wei4 lao3 yu3 fo2 zhi1 dao4 ye3。
-- 曰：“斯道也，何道也？”曰：“斯吾所謂道也，非向所謂老與佛之道也。
+- yue1 ： “ si1 dao4 ye3 ， he2 dao4 ye3？
+- 曰：“斯道也，何道也？
+- ” yue1 ： “ si1 wu2 suo3 wei4 dao4 ye3 ， fei1 xiang4 suo3 wei4 lao3 yu3 fo2 zhi1 dao4 ye3。
+- ”曰：“斯吾所謂道也，非向所謂老與佛之道也。
 - yao2 yi3 shi4 chuan2 zhi1 shun4 ， shun4 yi3 shi4 chuan2 zhi1 yu3 ， yu3 yi3 shi4 chuan2 zhi1 tang1 ， tang1 yi3 shi4 chuan2 zhi1 wen2 、 wu3 、 zhou1 gong1 ， wen2 、 wu3 、 zhou1 gong1 chuan2 zhi1 kong3 zi3 ， kong3 zi3 chuan2 zhi1 meng4 ke1 ， ke1 zhi1 si3 ， bu4 de2 qi2 chuan2 yan1。
 - 堯以是傳之舜，舜以是傳之禹，禹以是傳之湯，湯以是傳之文、武、周公，文、武、周公傳之孔子，孔子傳之孟軻，軻之死，不得其傳焉。
 - xun2 yu3 yang2 ye3 ， ze2 yan1 er2 bu4 jing1 ， yu3 yan1 er2 bu4 xiang2。
@@ -191,8 +205,10 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 由周公而上，上而爲君，故其事行。
 - you2 zhou1 gong1 er2 xia4 ， xia4 er2 wei2 chen2 ， gu4 qi2 shuo1 chang2。
 - 由周公而下，下而爲臣，故其說長。
-- ran2 ze2 ru2 zhi1 he2 er2 ke3 ye3 ？ yue1 ： “ bu4 sai1 bu4 liu2 ， bu4 zhi3 bu4 xing2。
-- 然則如之何而可也？曰：“不塞不流，不止不行。
+- ran2 ze2 ru2 zhi1 he2 er2 ke3 ye3？
+- 然則如之何而可也？
+- yue1 ： “ bu4 sai1 bu4 liu2 ， bu4 zhi3 bu4 xing2。
+- 曰：“不塞不流，不止不行。
 - ren2 qi2 ren2 ， huo3 qi2 shu1 ， lu2 qi2 ju1。
 - 人其人，火其書，廬其居。
 - ming2 xian1 wang2 zhi1 dao4 yi3 dao4 zhi1 ， guan1 gua3 gu1 du2 fei4 ji2 zhe3 you3 yang3 ye3。

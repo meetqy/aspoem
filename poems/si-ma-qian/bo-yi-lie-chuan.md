@@ -25,14 +25,20 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 而說者曰：“堯讓天下於許由，許由不受，恥之逃隱。
 - ji2 xia4 zhi1 shi2 ， you3 bian4 sui2 、 wu4 guang1 zhe3。
 - 及夏之時，有卞隨、務光者。
-- ” ci3 he2 yi3 cheng1 yan1 ？ tai4 shi3 gong1 yue1 ： yu2 deng1 ji1 shan1 ， qi2 shang4 gai4 you3 xu1 you2 zhong3 yun2。
-- ”此何以稱焉？太史公曰：餘登箕山，其上蓋有許由冢雲。
+- ” ci3 he2 yi3 cheng1 yan1？
+- ”此何以稱焉？
+- tai4 shi3 gong1 yue1 ： yu2 deng1 ji1 shan1 ， qi2 shang4 gai4 you3 xu1 you2 zhong3 yun2。
+- 太史公曰：餘登箕山，其上蓋有許由冢雲。
 - kong3 zi3 xu4 lie4 gu3 zhi1 ren2 sheng4 xian2 ren2 ， ru2 wu2 tai4 bo2 、 bo2 yi2 zhi1 lun2 xiang2 yi3。
 - 孔子序列古之仁聖賢人，如吳太伯、伯夷之倫詳矣。
-- yu2 yi3 suo3 wen2 ， you2 、 guang1 yi4 zhi4 gao1 ， qi2 wen2 ci2 bu4 shao3 gai4 jian4 ， he2 zai1 ？ kong3 zi3 yue1 ： “ bo2 yi2 、 shu1 qi2 ， bu2 nian4 jiu4 e4 ， yuan4 shi4 yong4 xi1。
-- 餘以所聞，由、光義至高，其文辭不少概見，何哉？孔子曰：“伯夷、叔齊，不念舊惡，怨是用希。
-- ” “ qiu2 ren2 de2 ren2 ， you4 he2 yuan4 hu1 ？ ” yu2 bei1 bo2 yi2 zhi1 yi4 ， du3 yi4 shi1 ke3 yi4 yan1。
-- ”“求仁得仁，又何怨乎？”餘悲伯夷之意，睹軼詩可異焉。
+- yu2 yi3 suo3 wen2 ， you2 、 guang1 yi4 zhi4 gao1 ， qi2 wen2 ci2 bu4 shao3 gai4 jian4 ， he2 zai1？
+- 餘以所聞，由、光義至高，其文辭不少概見，何哉？
+- kong3 zi3 yue1 ： “ bo2 yi2 、 shu1 qi2 ， bu2 nian4 jiu4 e4 ， yuan4 shi4 yong4 xi1。
+- 孔子曰：“伯夷、叔齊，不念舊惡，怨是用希。
+- ” “ qiu2 ren2 de2 ren2 ， you4 he2 yuan4 hu1？
+- ”“求仁得仁，又何怨乎？
+- ” yu2 bei1 bo2 yi2 zhi1 yi4 ， du3 yi4 shi1 ke3 yi4 yan1。
+- ”餘悲伯夷之意，睹軼詩可異焉。
 - qi2 chuan2 yue1 ： bo2 yi2 、 shu1 qi2 ， gu1 zhu2 jun1 zhi1 er4 zi3 ye3。
 - 其傳曰：伯夷、叔齊，孤竹君之二子也。
 - fu4 yu4 li4 shu1 qi2。
@@ -51,8 +57,12 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 於是伯夷、叔齊聞西伯昌善養老，“盍往歸焉！
 - ” ji2 zhi4 ， xi1 bo2 zu2 ， wu3 wang2 zai4 mu4 zhu3 ， hao4 wei2 wen2 wang2 ， dong1 fa2 zhou4。
 - ”及至，西伯卒，武王載木主，號爲文王，東伐紂。
-- bo2 yi2 、 shu1 qi2 kou4 ma3 er2 jian4 yue1 ： “ fu4 si3 bu2 zang4 ， yuan2 ji2 gan1 ge1 ， ke3 wei4 xiao4 hu1 ？ yi3 chen2 shi4 jun1 ， ke3 wei4 ren2 hu1 ？ ” zuo3 you4 yu4 bing1 zhi1。
-- 伯夷、叔齊叩馬而諫曰：“父死不葬，爰及干戈，可謂孝乎？以臣弒君，可謂仁乎？”左右欲兵之。
+- bo2 yi2 、 shu1 qi2 kou4 ma3 er2 jian4 yue1 ： “ fu4 si3 bu2 zang4 ， yuan2 ji2 gan1 ge1 ， ke3 wei4 xiao4 hu1？
+- 伯夷、叔齊叩馬而諫曰：“父死不葬，爰及干戈，可謂孝乎？
+- yi3 chen2 shi4 jun1 ， ke3 wei4 ren2 hu1？
+- 以臣弒君，可謂仁乎？
+- ” zuo3 you4 yu4 bing1 zhi1。
+- ”左右欲兵之。
 - tai4 gong1 yue1 ： “ ci3 yi4 ren2 ye3。
 - 太公曰：“此義人也。
 - ” fu2 er2 qu4 zhi1。
@@ -63,25 +73,35 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 及餓且死，作歌，其辭曰：“登彼西山兮，採其薇矣。
 - yi3 bao4 yi4 bao4 xi1 ， bu4 zhi1 qi2 fei1 yi3。
 - 以暴易暴兮，不知其非矣。
-- shen2 nong2 、 yu2 、 xia4 hu1 yan1 mei2 xi1 ， wo3 an1 shi4 gui1 yi3 ？ yu2 jie1 cu2 xi1 ， ming4 zhi1 shuai1 yi3。
-- 神農、虞、夏忽焉沒兮，我安適歸矣？于嗟徂兮，命之衰矣。
+- shen2 nong2 、 yu2 、 xia4 hu1 yan1 mei2 xi1 ， wo3 an1 shi4 gui1 yi3？
+- 神農、虞、夏忽焉沒兮，我安適歸矣？
+- yu2 jie1 cu2 xi1 ， ming4 zhi1 shuai1 yi3。
+- 于嗟徂兮，命之衰矣。
 - ” sui4 e4 si3 wu1 shou3 yang2 shan1。
 - ”遂餓死於首陽山。
-- you2 ci3 guan1 zhi1 ， yuan4 xie2 fei1 xie2 ？   huo4 yue1 ： “ tian1 dao4 wu2 qin1 ， chang2 yu3 shan4 ren2。
-- 由此觀之，怨邪非邪？ 或曰：“天道無親，常與善人。
-- ” ruo4 bo2 yi2 、 shu1 qi2 ， ke3 wei4 shan4 ren2 zhe3 fei1 xie2 ？ ji1 ren2 jie2 xing2 ， ru2 ci3 er2 e4 si3。
-- ”若伯夷、叔齊，可謂善人者非邪？積仁潔行，如此而餓死。
+- you2 ci3 guan1 zhi1 ， yuan4 xie2 fei1 xie2？
+- 由此觀之，怨邪非邪？
+- huo4 yue1 ： “ tian1 dao4 wu2 qin1 ， chang2 yu3 shan4 ren2。
+- 或曰：“天道無親，常與善人。
+- ” ruo4 bo2 yi2 、 shu1 qi2 ， ke3 wei4 shan4 ren2 zhe3 fei1 xie2？
+- ”若伯夷、叔齊，可謂善人者非邪？
+- ji1 ren2 jie2 xing2 ， ru2 ci3 er2 e4 si3。
+- 積仁潔行，如此而餓死。
 - qie3 qi1 shi2 zi3 zhi1 tu2 ， zhong4 ni2 du2 jian4 yan2 yuan1 wei2 hao3 xue2。
 - 且七十子之徒，仲尼獨薦顏淵爲好學。
 - ran2 hui2 ye3 lü3 kong1 ， zao1 kang1 bu2 yan4 ， er2 zu2 zao3 yao1。
 - 然回也屢空，糟糠不厭，而卒蚤夭。
-- tian1 zhi1 bao4 shi1 shan4 ren2 ， qi2 he2 ru2 zai1 ？ dao4 zhi2 ri4 sha1 bu4 gu1 ， gan1 ren2 zhi1 rou4 ， bao4 li4 zi4 sui1 ， ju4 dang3 shu4 qian1 ren2 ， heng2 xing2 tian1 xia4 ， jing4 yi3 shou4 zhong1 ， shi4 zun1 he2 de2 zai1 ？ ci3 qi2 you2 da4 zhang1 ming2 jiao4 zhu4 zhe3 ye3。
-- 天之報施善人，其何如哉？盜跖日殺不辜，肝人之肉，暴戾恣睢，聚黨數千人，橫行天下，竟以壽終，是遵何德哉？此其尤大彰明較著者也。
+- tian1 zhi1 bao4 shi1 shan4 ren2 ， qi2 he2 ru2 zai1？
+- 天之報施善人，其何如哉？
+- dao4 zhi2 ri4 sha1 bu4 gu1 ， gan1 ren2 zhi1 rou4 ， bao4 li4 zi4 sui1 ， ju4 dang3 shu4 qian1 ren2 ， heng2 xing2 tian1 xia4 ， jing4 yi3 shou4 zhong1 ， shi4 zun1 he2 de2 zai1？
+- 盜跖日殺不辜，肝人之肉，暴戾恣睢，聚黨數千人，橫行天下，竟以壽終，是遵何德哉？
+- ci3 qi2 you2 da4 zhang1 ming2 jiao4 zhu4 zhe3 ye3。
+- 此其尤大彰明較著者也。
 - ruo4 zhi4 jin4 shi4 ， cao1 xing2 bu4 gui3 ， zhuan1 fan4 ji4 hui4 ， er2 zhong1 shen1 yi4 le4 ， fu4 hou4 lei4 shi4 bu4 jue2。
 - 若至近世，操行不軌，專犯忌諱，而終身逸樂，富厚累世不絕。
 - huo4 ze2 di4 er2 dao3 zhi1 ， shi2 ran2 hou4 chu1 yan2 ， xing2 bu4 you2 jing4 ， fei1 gong1 zheng4 bu4 fa1 fen4 ， er2 yu4 huo4 zai1 zhe3 ， bu4 ke3 sheng4 shu4 ye3。
 - 或擇地而蹈之，時然後出言，行不由徑，非公正不發憤，而遇禍災者，不可勝數也。
-- yu2 shen4 huo4 yan1 ， tang3 suo3 wei4 tian1 dao4 ， shi4 xie2 fei1 xie2 ？
+- yu2 shen4 huo4 yan1 ， tang3 suo3 wei4 tian1 dao4 ， shi4 xie2 fei1 xie2？
 - 餘甚惑焉，倘所謂天道，是邪非邪？
 - zi3 yue1 ： “ dao4 bu4 tong2 ， bu4 xiang1 wei2 mou2。
 - 子曰：“道不同，不相爲謀。
@@ -95,8 +115,10 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - ”“歲寒，然後知松柏之後凋。
 - ” ju3 shi4 hun4 zhuo2 ， qing1 shi4 nai3 jian4。
 - ”舉世混濁，清士乃見。
-- qi3 yi3 qi2 zhong4 ruo4 bi3 ， qi2 qing1 ruo4 ci3 zai1 ？ “ jun1 zi3 ji2 mei2 shi4 er2 ming2 bu4 cheng1 yan1。
-- 豈以其重若彼，其輕若此哉？“君子疾沒世而名不稱焉。
+- qi3 yi3 qi2 zhong4 ruo4 bi3 ， qi2 qing1 ruo4 ci3 zai1？
+- 豈以其重若彼，其輕若此哉？
+- “ jun1 zi3 ji2 mei2 shi4 er2 ming2 bu4 cheng1 yan1。
+- “君子疾沒世而名不稱焉。
 - ” jia3 zi3 yue1 ： “ tan1 fu1 xun4 cai2 ， lie4 shi4 xun4 ming2 ， kua1 zhe3 si3 quan2 ， zhong4 shu4 feng2 sheng1。
 - ”賈子曰：“貪夫徇財，烈士徇名，誇者死權，衆庶馮生。
 - ” tong2 ming2 xiang1 zhao4 ， tong2 lei4 xiang1 qiu2。

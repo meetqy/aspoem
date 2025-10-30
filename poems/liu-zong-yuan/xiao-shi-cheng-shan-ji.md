@@ -29,8 +29,10 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 及是，愈以爲誠有。
 - you4 guai4 qi2 bu4 wei2 zhi1 zhong1 zhou1 ， er2 lie4 shi4 yi2 di2 ， geng4 qian1 bai3 nian2 bu4 de2 yi2 shou4 qi2 ji4 ， shi4 gu4 lao2 er2 wu2 yong4。
 - 又怪其不爲之中州，而列是夷狄，更千百年不得一售其伎，是固勞而無用。
-- shen2 zhe3 tang3 bu4 yi2 ru2 shi4 ， ze2 qi2 guo3 wu2 hu1 ？ huo4 yue1 ： “ yi3 wei4 fu1 xian2 er2 ru3 wu1 ci3 zhe3。
-- 神者儻不宜如是，則其果無乎？或曰：“以慰夫賢而辱於此者。
+- shen2 zhe3 tang3 bu4 yi2 ru2 shi4 ， ze2 qi2 guo3 wu2 hu1？
+- 神者儻不宜如是，則其果無乎？
+- huo4 yue1 ： “ yi3 wei4 fu1 xian2 er2 ru3 wu1 ci3 zhe3。
+- 或曰：“以慰夫賢而辱於此者。
 - ” huo4 yue1 ： “ qi2 qi4 zhi1 ling2 ， bu4 wei2 wei3 ren2 , er2 du2 wei2 shi4 wu4 ， gu4 chu3 zhi1 nan2 shao3 ren2 er2 duo1 shi2。
 - ”或曰：“其氣之靈，不爲偉人，而獨爲是物，故楚之南少人而多石。
 - ” shi4 er4 zhe3 ， yu2 wei4 xin4 zhi1。

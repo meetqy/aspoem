@@ -43,14 +43,22 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 其流風遺蹟，亦足以稱快世俗。
 - xi1 chu3 xiang1 wang2 cong2 song4 yu4 、 jing3 cha4 wu1 lan2 tai2 zhi1 gong1 ， you3 feng1 sa4 ran2 zhi4 zhe3 ， wang2 pi1 jin1 dang1 zhi1 ， yue1 ： “ kuai4 zai1 ci3 feng1！
 - 昔楚襄王從宋玉、景差於蘭臺之宮，有風颯然至者，王披襟當之，曰：“快哉此風！
-- gua3 ren2 suo3 yu3 shu4 ren2 gong4 zhe3 ye1 ？ ” song4 yu4 yue1 ： “ ci3 du2 da4 wang2 zhi1 xiong2 feng1 er3 ， shu4 ren2 an1 de2 gong4 zhi1！
-- 寡人所與庶人共者耶？”宋玉曰：“此獨大王之雄風耳，庶人安得共之！
+- gua3 ren2 suo3 yu3 shu4 ren2 gong4 zhe3 ye1？
+- 寡人所與庶人共者耶？
+- ” song4 yu4 yue1 ： “ ci3 du2 da4 wang2 zhi1 xiong2 feng1 er3 ， shu4 ren2 an1 de2 gong4 zhi1！
+- ”宋玉曰：“此獨大王之雄風耳，庶人安得共之！
 - ” yu4 zhi1 yan2 gai4 you3 feng3 yan1。
 - ”玉之言蓋有諷焉。
 - fu1 feng1 wu2 ci2 xiong2 zhi1 yi4 ， er2 ren2 you3 yu4 ， bu2 yu4 zhi1 bian4；
 - 夫風無雌雄之異，而人有遇，不遇之變；
-- chu3 wang2 zhi1 suo3 yi3 wei2 le4 ， yu3 shu4 ren2 zhi1 suo3 yi3 wei2 you1 ， ci3 ze2 ren2 zhi1 bian4 ye3 ， er2 feng1 he2 yu3 yan1 ？ shi4 sheng1 wu1 shi4 ， shi3 qi2 zhong1 bu2 zi4 de2 ， jiang1 he2 wang3 er2 fei1 bing4 ？ shi3 qi2 zhong1 tan3 ran2 ， bu4 yi3 wu4 shang1 xing4 ， jiang1 he2 shi4 er2 fei1 kuai4 ？ jin1 zhang1 jun1 bu4 yi3 zhe2 wei2 huan4 ， qie4 hui4 ji4 zhi1 yu2 gong1 ， er2 zi4 fang4 shan1 shui3 zhi1 jian4 ， ci3 qi2 zhong1 yi2 you3 yi3 guo4 ren2 zhe3。
-- 楚王之所以爲樂，與庶人之所以爲憂，此則人之變也，而風何與焉？士生於世，使其中不自得，將何往而非病？使其中坦然，不以物傷性，將何適而非快？今張君不以謫爲患，竊會計之餘功，而自放山水之間，此其中宜有以過人者。
+- chu3 wang2 zhi1 suo3 yi3 wei2 le4 ， yu3 shu4 ren2 zhi1 suo3 yi3 wei2 you1 ， ci3 ze2 ren2 zhi1 bian4 ye3 ， er2 feng1 he2 yu3 yan1？
+- 楚王之所以爲樂，與庶人之所以爲憂，此則人之變也，而風何與焉？
+- shi4 sheng1 wu1 shi4 ， shi3 qi2 zhong1 bu2 zi4 de2 ， jiang1 he2 wang3 er2 fei1 bing4？
+- 士生於世，使其中不自得，將何往而非病？
+- shi3 qi2 zhong1 tan3 ran2 ， bu4 yi3 wu4 shang1 xing4 ， jiang1 he2 shi4 er2 fei1 kuai4？
+- 使其中坦然，不以物傷性，將何適而非快？
+- jin1 zhang1 jun1 bu4 yi3 zhe2 wei2 huan4 ， qie4 hui4 ji4 zhi1 yu2 gong1 ， er2 zi4 fang4 shan1 shui3 zhi1 jian4 ， ci3 qi2 zhong1 yi2 you3 yi3 guo4 ren2 zhe3。
+- 今張君不以謫爲患，竊會計之餘功，而自放山水之間，此其中宜有以過人者。
 - jiang1 peng2 hu4 weng4 you3 wu2 suo3 bu2 kuai4；
 - 將蓬戶甕牖無所不快；
 - er2 kuang4 hu1 zhuo2 chang2 jiang1 zhi1 qing1 liu2 ， yi1 xi1 shan1 zhi1 bai2 yun2   ， qiong2 er3 mu4 zhi1 sheng4 yi3 zi4 shi4 ye3 zai1！

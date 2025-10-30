@@ -109,8 +109,10 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 關山難越，誰悲失路之人；
 - ping2 shui3 xiang1 feng2 ， jin4 shi4 ta1 xiang1 zhi1 ke4。
 - 萍水相逢，盡是他鄉之客。
-- huai2 di4 hun1 er2 bu2 jian4 ， feng4 xuan1 shi4 yi3 he2 nian2 ？ ( yao2 jin1 fu3 chang4   yi2 zuo4 ： yao2 yin2 fu3 chang4 )
-- 懷帝閽而不見，奉宣室以何年？（遙襟甫暢 一作：遙吟俯暢）
+- huai2 di4 hun1 er2 bu2 jian4 ， feng4 xuan1 shi4 yi3 he2 nian2？
+- 懷帝閽而不見，奉宣室以何年？
+- ( yao2 jin1 fu3 chang4   yi2 zuo4 ： yao2 yin2 fu3 chang4 )
+- （遙襟甫暢 一作：遙吟俯暢）
 - jie1 hu1！
 - 嗟乎！
 - shi2 yun4 bu4 qi2 ， ming4 tu2 duo1 chuan3。
@@ -119,10 +121,14 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 馮唐易老，李廣難封。
 - qu1 jia3 yi4 wu1 chang2 sha1 ， fei1 wu2 sheng4 zhu3；
 - 屈賈誼於長沙，非無聖主；
-- cuan4 liang2 hong2 wu1 hai3 qu3 ， qi3 fa2 ming2 shi2 ？ suo3 lai4 jun1 zi3 jian4 ji1 ， da2 ren2 zhi1 ming4。
-- 竄梁鴻於海曲，豈乏明時？所賴君子見機，達人知命。
-- lao3 dang1 yi4 zhuang4 ， ning2 yi2 bai2 shou3 zhi1 xin1 ？ qiong2 qie3 yi4 jian1 ， bu2 zhui4 qing1 yun2 zhi1 zhi4。
-- 老當益壯，寧移白首之心？窮且益堅，不墜青雲之志。
+- cuan4 liang2 hong2 wu1 hai3 qu3 ， qi3 fa2 ming2 shi2？
+- 竄梁鴻於海曲，豈乏明時？
+- suo3 lai4 jun1 zi3 jian4 ji1 ， da2 ren2 zhi1 ming4。
+- 所賴君子見機，達人知命。
+- lao3 dang1 yi4 zhuang4 ， ning2 yi2 bai2 shou3 zhi1 xin1？
+- 老當益壯，寧移白首之心？
+- qiong2 qie3 yi4 jian1 ， bu2 zhui4 qing1 yun2 zhi1 zhi4。
+- 窮且益堅，不墜青雲之志。
 - zhuo2 tan1 quan2 er2 jue2 shuang3 ， chu3 he2 zhe2 yi3 you2 huan1。
 - 酌貪泉而覺爽，處涸轍以猶歡。
 - bei3 hai3 sui1 she1 ， fu2 yao2 ke3 jie1；
@@ -151,7 +157,7 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 今茲捧袂，喜託龍門。
 - yang2 yi4 bu4 feng2 ， fu3 ling2 yun2 er2 zi4 xi1；
 - 楊意不逢，撫凌雲而自惜；
-- zhong1 qi1 ji4 yu4 ， zou4 liu2 shui3 yi3 he2 can2 ？
+- zhong1 qi1 ji4 yu4 ， zou4 liu2 shui3 yi3 he2 can2？
 - 鍾期既遇，奏流水以何慚？
 - wu1 hu1！
 - 嗚乎！
@@ -175,8 +181,10 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 畫棟朝飛南浦雲，珠簾暮卷西山雨。
 - xian2 yun2 tan2 ying3 ri4 you1 you1 ， wu4 huan4 xing1 yi2 ji1 du4 qiu1。
 - 閒雲潭影日悠悠，物換星移幾度秋。
-- ge2 zhong1 di4 zi3 jin1 he2 zai4 ？ jian4 wai4 chang2 jiang1 kong1 zi4 liu2。
-- 閣中帝子今何在？檻外長江空自流。
+- ge2 zhong1 di4 zi3 jin1 he2 zai4？
+- 閣中帝子今何在？
+- jian4 wai4 chang2 jiang1 kong1 zi4 liu2。
+- 檻外長江空自流。
 
 ## 注释
 

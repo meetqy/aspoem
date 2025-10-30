@@ -47,7 +47,7 @@ tags: []
 - 倚结軨兮长太息，涕潺湲兮下霑轼。
 - kang1 kai3 jue2 xi1 bu4 de2 ， zhong1 mao4 luan4 xi1 mi2 huo4。
 - 忼慨绝兮不得，中瞀乱兮迷惑。
-- si1 zi4 lian2 xi1 he2 ji2 ？
+- si1 zi4 lian2 xi1 he2 ji2？
 - 私自怜兮何极？
 - xin1 peng1 peng1 xi1 liang4 zhi2。
 - 心怦怦兮谅直。
@@ -95,17 +95,17 @@ tags: []
 - 心闵怜之惨悽兮，愿一见而有明。
 - zhong4 wu2 yuan4 er2 sheng1 li2 xi1 ， zhong1 jie2 zhen3 er2 zeng1 shang1。
 - 重无怨而生离兮，中结轸而增伤。
-- qi3 bu2 yu4 tao2 er2 si1 jun1 xi1 ？
+- qi3 bu2 yu4 tao2 er2 si1 jun1 xi1？
 - 岂不郁陶而思君兮？
 - jun1 zhi1 men2 yi3 jiu3 chong2！
 - 君之门以九重！
 - meng3 quan3 yin2 yin2 er2 ying2 fei4 xi1 ， guan1 liang2 bi4 er2 bu4 tong1。
 - 猛犬狺狺而迎吠兮，关梁闭而不通。
-- huang2 tian1 yin2 yi4 er2 qiu1 lin2 xi1 ， hou4 tu3 he2 shi2 er2 de2 gan1 ？
+- huang2 tian1 yin2 yi4 er2 qiu1 lin2 xi1 ， hou4 tu3 he2 shi2 er2 de2 gan1？
 - 皇天淫溢而秋霖兮，后土何时而得漧？
 - kuai4 du2 shou3 ci3 wu2 ze2 xi1 ， yang3 fu2 yun2 er2 yong3 tan4！
 - 塊独守此无泽兮，仰浮云而永叹！
-- he2 shi2 su2 zhi1 gong1 qiao3 xi1 ？
+- he2 shi2 su2 zhi1 gong1 qiao3 xi1？
 - 何时俗之工巧兮？
 - bei4 sheng2 mo4 er2 gai3 cuo4！
 - 背绳墨而改错！
@@ -125,23 +125,23 @@ tags: []
 - 原衔枚而无言兮，尝被君之渥洽。
 - tai4 gong1 jiu3 shi2 nai3 xian3 rong2 xi1 ， cheng2 wei4 yu4 qi2 pi3 he2。
 - 太公九十乃显荣兮，诚未遇其匹合。
-- wei4 qi2 ji4 xi1 an1 gui1 ？
+- wei4 qi2 ji4 xi1 an1 gui1？
 - 谓骐骥兮安归？
-- wei4 feng4 huang2 xi1 an1 qi1 ？
+- wei4 feng4 huang2 xi1 an1 qi1？
 - 谓凤皇兮安棲？
 - bian4 gu3 yi4 su2 xi1 shi4 shuai1 ， jin1 zhi1 xiang1 zhe3 xi1 ju3 fei2。
 - 变古易俗兮世衰，今之相者兮举肥。
 - qi2 ji4 fu2 ni4 er2 bu2 jian4 xi1 ， feng4 huang2 gao1 fei1 er2 bu2 xia4。
 - 骐骥伏匿而不见兮，凤皇高飞而不下。
-- niao3 shou4 you2 zhi1 huai2 de2 xi1 ， he2 yun2 xian2 shi4 zhi1 bu2 chu4 ？
+- niao3 shou4 you2 zhi1 huai2 de2 xi1 ， he2 yun2 xian2 shi4 zhi1 bu2 chu4？
 - 鸟兽犹知怀德兮，何云贤士之不处？
 - ji4 bu2 zhou4 jin4 er2 qiu2 fu2 xi1 ， feng4 yi4 bu4 tan1 wei4 er2 wang4 shi2。
 - 骥不骤进而求服兮，凤亦不贪餧而妄食。
-- jun1 qi4 yuan3 er2 bu4 cha2 xi1 ， sui1 yuan2 zhong1 qi2 yan1 de2 ？
+- jun1 qi4 yuan3 er2 bu4 cha2 xi1 ， sui1 yuan2 zhong1 qi2 yan1 de2？
 - 君弃远而不察兮，虽原忠其焉得？
 - yu4 ji4 mo4 er2 jue2 duan1 xi1 ， qie4 bu4 gan3 wang4 chu1 zhi1 hou4 de2。
 - 欲寂漠而绝端兮，窃不敢忘初之厚德。
-- du2 bei1 chou2 qi2 shang1 ren2 xi1 ， feng2 yu4 yu4 qi2 he2 ji2 ？
+- du2 bei1 chou2 qi2 shang1 ren2 xi1 ， feng2 yu4 yu4 qi2 he2 ji2？
 - 独悲愁其伤人兮，冯郁郁其何极？
 - shuang1 lu4 can3 qi1 er2 jiao1 xia4 xi1 ， xin1 shang4 xing4 qi2 fu2 ji4。
 - 霜露惨悽而交下兮，心尚幸其弗济。
@@ -159,7 +159,7 @@ tags: []
 - 性愚陋以褊浅兮，信未达乎从容。
 - qie4 mei3 shen1 bao1 xu1 zhi1 qi4 sheng4 xi1 ， kong3 shi2 shi4 zhi1 bu2 gu4。
 - 窃美申包胥之气盛兮，恐时世之不固。
-- he2 shi2 su2 zhi1 gong1 qiao3 xi1 ？
+- he2 shi2 su2 zhi1 gong1 qiao3 xi1？
 - 何时俗之工巧兮？
 - mie4 gui1 ju3 er2 gai3 zao2！
 - 灭规矩而改凿！
@@ -195,7 +195,7 @@ tags: []
 - 年洋洋以日往兮，老嵺廓而无处。
 - shi4 wei3 wei3 er2 ji4 jin4 xi1 ， jian3 yan1 liu2 er2 chou2 chu2。
 - 事亹亹而觊进兮，蹇淹留而踌躇。
-- he2 fan2 lan4 zhi1 fu2 yun2 xi1 ？
+- he2 fan2 lan4 zhi1 fu2 yun2 xi1？
 - 何氾滥之浮云兮？
 - biao1 yong1 bi4 ci3 ming2 yue4。
 - 猋壅蔽此明月。
@@ -207,7 +207,7 @@ tags: []
 - 窃不自聊而原忠兮，或黕点而汙之。
 - yao2 shun4 zhi1 kang4 xing2 xi1 ， liao4 ming2 ming2 er2 bao2 tian1。
 - 尧舜之抗行兮，瞭冥冥而薄天。
-- he2 xian3 xi1 zhi1 ji2 du4 xi1 ？
+- he2 xian3 xi1 zhi1 ji2 du4 xi1？
 - 何险巇之嫉妒兮？
 - bei4 yi3 bu4 ci2 zhi1 wei3 ming2。
 - 被以不慈之伪名。
@@ -237,11 +237,11 @@ tags: []
 - 卒壅蔽此浮云，下暗漠而无光。
 - yao2 shun4 jie1 you3 suo3 ju3 ren4 xi1 ， gu4 gao1 zhen3 er2 zi4 shi4。
 - 尧舜皆有所举任兮，故高枕而自适。
-- liang4 wu2 yuan4 yu2 tian1 xia4 xi1 ， xin1 yan1 qu3 ci3 chu4 ti4 ？
+- liang4 wu2 yuan4 yu2 tian1 xia4 xi1 ， xin1 yan1 qu3 ci3 chu4 ti4？
 - 谅无怨于天下兮，心焉取此怵惕？
-- cheng2 qi2 ji4 zhi1 liu2 liu2 xi1 ， yu4 an1 yong4 fu1 qiang2 ce4 ？
+- cheng2 qi2 ji4 zhi1 liu2 liu2 xi1 ， yu4 an1 yong4 fu1 qiang2 ce4？
 - 乘骐骥之浏浏兮，驭安用夫强策？
-- liang4 cheng2 guo1 zhi1 bu4 zu2 shi4 xi1 ， sui1 zhong4 jie4 zhi1 he2 yi4 ？
+- liang4 cheng2 guo1 zhi1 bu4 zu2 shi4 xi1 ， sui1 zhong4 jie4 zhi1 he2 yi4？
 - 谅城郭之不足恃兮，虽重介之何益？
 - zhan1 yi4 yi4 er2 wu2 zhong1 xi1 ， tun2 hun1 hun1 er2 chou2 yue1。
 - 邅翼翼而无终兮，忳惛惛而愁约。
@@ -251,13 +251,13 @@ tags: []
 - 原沉滞而不见兮，尚欲布名乎天下。
 - ran2 huang2 yang2 er2 bu2 yu4 xi1 ， zhi2 kou4 mao4 er2 zi4 ku3。
 - 然潢洋而不遇兮，直怐愗而自苦。
-- mang3 yang2 yang2 er2 wu2 ji2 xi1 ， hu1 ao2 xiang2 zhi1 yan1 bao2 ？
+- mang3 yang2 yang2 er2 wu2 ji2 xi1 ， hu1 ao2 xiang2 zhi1 yan1 bao2？
 - 莽洋洋而无极兮，忽翱翔之焉薄？
-- guo2 you3 ji4 er2 bu4 zhi1 cheng2 xi1 ， yan1 huang2 huang2 er2 geng4 suo3 ？
+- guo2 you3 ji4 er2 bu4 zhi1 cheng2 xi1 ， yan1 huang2 huang2 er2 geng4 suo3？
 - 国有骥而不知乘兮，焉皇皇而更索？
 - ning2 qi1 ou1 yu2 che1 xia4 xi1 ， huan2 gong1 wen2 er2 zhi1 zhi1。
 - 宁戚讴于车下兮，桓公闻而知之。
-- wu2 bo2 le4 zhi1 xiang1 shan4 xi1 ， jin1 shui2 shi3 hu1 yu4 zhi1 ？
+- wu2 bo2 le4 zhi1 xiang1 shan4 xi1 ， jin1 shui2 shi3 hu1 yu4 zhi1？
 - 无伯乐之相善兮，今谁使乎誉之？
 - wang3 liu2 ti4 yi3 liao2 lü4 xi1 ， wei2 zhu4 yi4 er2 de2 zhi1。
 - 罔流涕以聊虑兮，惟著意而得之。

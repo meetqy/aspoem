@@ -19,8 +19,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 衆言朋興，朕志自定。
 - wai4 luan4 bu2 zuo4 ， bian4 qie3 zhong1 qi3 ， bu4 ke3 yi3 wen2 ling4 ， you4 bu4 ke3 yi3 wu3 jing4 ， wei2 zhen4 yi1 er4 da4 li4。
 - 外亂不作，變且中起，不可以文令，又不可以武競，惟朕一二大吏。
-- shu2 wei2 neng2 chu3 zi1 wen2 wu3 zhi1 jian4 ， qi2 ming4 wang3 fu3 zhen4 shi1 ？ ” nai3 tui1 yue1 ： zhang1 gong1 fang1 ping2 qi2 ren2。
-- 孰爲能處茲文武之間，其命往撫朕師？”乃推曰：張公方平其人。
+- shu2 wei2 neng2 chu3 zi1 wen2 wu3 zhi1 jian4 ， qi2 ming4 wang3 fu3 zhen4 shi1？
+- 孰爲能處茲文武之間，其命往撫朕師？
+- ” nai3 tui1 yue1 ： zhang1 gong1 fang1 ping2 qi2 ren2。
+- ”乃推曰：張公方平其人。
 - tian1 zi3 yue1 ： “ ran2。
 - 天子曰：“然。
 - ” gong1 yi3 qin1 ci2 ， bu4 ke3 ， sui4 xing2。
@@ -73,8 +75,12 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - ”
 - su1 xun2 you4 yue1 ： “ gong1 zhi1 en1 zai4 er3 xin1 ， er3 si3 zai4 er3 zi3 sun1 ， qi2 gong1 ye4 zai4 shi3 guan1 ， wu2 yi3 xiang4 wei2 ye3。
 - 蘇洵又曰：“公之恩在爾心，爾死在爾子孫，其功業在史官，無以像爲也。
-- qie3 gong1 yi4 bu2 yu4 ， ru2 he2 ？ ” jie1 yue1 ： “ gong1 ze2 he2 shi4 wu1 si1 ？ sui1 ran2 ， wu1 wo3 xin1 you3 bu2 shi4 yan1。
-- 且公意不欲，如何？”皆曰：“公則何事於斯？雖然，於我心有不釋焉。
+- qie3 gong1 yi4 bu2 yu4 ， ru2 he2？
+- 且公意不欲，如何？
+- ” jie1 yue1 ： “ gong1 ze2 he2 shi4 wu1 si1？
+- ”皆曰：“公則何事於斯？
+- sui1 ran2 ， wu1 wo3 xin1 you3 bu2 shi4 yan1。
+- 雖然，於我心有不釋焉。
 - jin1 fu1 ping2 ju1 wen2 yi2 shan4 ， bi4 wen4 qi2 ren2 zhi1 xing4 ming2 yu3 qi2 xiang1 li3 zhi1 suo3 zai4 ， yi3 zhi4 wu1 qi2 chang2 duan3 da4 xiao3 mei3 e4 zhi1 zhuang4 ， shen4 zhe3 huo4 jie2 qi2 ping2 sheng1 suo3 shi4 hao4 ， yi3 xiang3 jian4 qi2 wei2 ren2。
 - 今夫平居聞一善，必問其人之姓名與其鄉里之所在，以至於其長短大小美惡之狀，甚者或詰其平生所嗜好，以想見其爲人。
 - er2 shi3 guan1 yi4 shu1 zhi1 wu1 qi2 chuan2 ， yi4 shi3 tian1 xia4 zhi1 ren2 ， si1 zhi1 wu1 xin1 ， ze2 cun2 zhi1 wu1 mu4；
@@ -129,8 +135,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 嗟我婦子，樂此歲豐。
 - gong1 zai4 chao2 ting2 ， tian1 zi3 gu3 gong1。
 - 公在朝廷，天子股肱。
-- tian1 zi3 yue1 gui1 ， gong1 gan3 bu4 cheng2 ？ zuo4 tang2 yan2 yan2 ， you3 wu3 you3 ting2。
-- 天子曰歸，公敢不承？作堂嚴嚴，有廡有庭。
+- tian1 zi3 yue1 gui1 ， gong1 gan3 bu4 cheng2？
+- 天子曰歸，公敢不承？
+- zuo4 tang2 yan2 yan2 ， you3 wu3 you3 ting2。
+- 作堂嚴嚴，有廡有庭。
 - gong1 xiang4 zai4 zhong1 ， chao2 fu2 guan1 ying1。
 - 公像在中，朝服冠纓。
 - xi1 ren2 xiang1 gao4 ， wu2 gan3 yi4 huang1。

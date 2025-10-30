@@ -25,10 +25,14 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 聲名烈烈，雖愚夫愚婦莫不知其爲忠臣義士也。
 - wu1 hu1！
 - 嗚呼！
-- rang4 zhi1 si3 gu4 zhong1 yi3 ， xi1 hu1 chu3 si3 zhi1 dao4 you3 wei4 zhong1 zhe3 cun2 yan1 — — he2 ye3 ？ guan1 qi2 qi1 shen1 tun1 tan4 ， wei4 qi2 you3 yue1 ： “ fan2 wu2 suo3 wei2 zhe3 ji2 nan2 ， jiang1 yi3 kui4 tian1 xia4 hou4 shi4 zhi1 wei2 ren2 chen2 er2 huai2 er4 xin1 zhe3 ye3。
-- 讓之死固忠矣，惜乎處死之道有未忠者存焉——何也？觀其漆身吞炭，謂其友曰：“凡吾所爲者極難，將以愧天下後世之爲人臣而懷二心者也。
-- ” wei4 fei1 zhong1 ke3 hu1 ？ ji2 guan1 qi2 zhan3 yi1 san1 yue4 ， xiang1 zi3 ze2 yi3 bu4 si3 wu1 zhong1 hang2 shi4 ， er2 du2 si3 wu1 zhi4 bo2。
-- ”謂非忠可乎？及觀其斬衣三躍，襄子責以不死於中行氏，而獨死於智伯。
+- rang4 zhi1 si3 gu4 zhong1 yi3 ， xi1 hu1 chu3 si3 zhi1 dao4 you3 wei4 zhong1 zhe3 cun2 yan1 — — he2 ye3？
+- 讓之死固忠矣，惜乎處死之道有未忠者存焉——何也？
+- guan1 qi2 qi1 shen1 tun1 tan4 ， wei4 qi2 you3 yue1 ： “ fan2 wu2 suo3 wei2 zhe3 ji2 nan2 ， jiang1 yi3 kui4 tian1 xia4 hou4 shi4 zhi1 wei2 ren2 chen2 er2 huai2 er4 xin1 zhe3 ye3。
+- 觀其漆身吞炭，謂其友曰：“凡吾所爲者極難，將以愧天下後世之爲人臣而懷二心者也。
+- ” wei4 fei1 zhong1 ke3 hu1？
+- ”謂非忠可乎？
+- ji2 guan1 qi2 zhan3 yi1 san1 yue4 ， xiang1 zi3 ze2 yi3 bu4 si3 wu1 zhong1 hang2 shi4 ， er2 du2 si3 wu1 zhi4 bo2。
+- 及觀其斬衣三躍，襄子責以不死於中行氏，而獨死於智伯。
 - rang4 ying1 yue1 ： “ zhong1 hang2 shi4 yi3 zhong4 ren2 dai4 wo3 ， wo3 gu4 yi3 zhong4 ren2 bao4 zhi1；
 - 讓應曰：“中行氏以衆人待我，我故以衆人報之；
 - zhi4 bo2 yi3 guo2 shi4 dai4 wo3 ， wo3 gu4 yi3 guo2 shi4 bao4 zhi1。
@@ -65,12 +69,14 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 伯雖頑冥不靈，感其至誠，庶幾復悟。
 - he2 han2 、 wei4 ， shi4 zhao4 wei2 ， bao3 quan2 zhi4 zong1 ， shou3 qi2 ji4 si4。
 - 和韓、魏，釋趙圍，保全智宗，守其祭祀。
-- ruo4 ran2 ， ze2 rang4 sui1 si3 you2 sheng1 ye3 ， qi3 bu2 sheng4 wu1 zhan3 yi1 er2 si3 hu1 ？
+- ruo4 ran2 ， ze2 rang4 sui1 si3 you2 sheng1 ye3 ， qi3 bu2 sheng4 wu1 zhan3 yi1 er2 si3 hu1？
 - 若然，則讓雖死猶生也，豈不勝於斬衣而死乎？
 - rang4 wu1 ci3 shi2 ， ceng2 wu2 yi4 yu3 kai1 wu4 zhu3 xin1 ， shi4 bo2 zhi1 wei1 wang2 ， you2 yue4 ren2 shi4 qin2 ren2 zhi1 fei2 ji2 ye3。
 - 讓於此時，曾無一語開悟主心，視伯之危亡，猶越人視秦人之肥瘠也。
-- xiu4 shou3 pang2 guan1 ， zuo4 dai4 cheng2 bai4 ， guo2 shi4 zhi1 bao4 ， ceng2 ruo4 shi4 hu1 ？ zhi4 bo2 ji4 si3 ， er2 nai3 bu2 sheng4 xue4 qi4 zhi1 xing4 xing4 ， gan1 zi4 fu4 wu1 ci4 ke4 zhi1 liu2。
-- 袖手旁觀，坐待成敗，國士之報，曾若是乎？智伯既死，而乃不勝血氣之悻悻，甘自附於刺客之流。
+- xiu4 shou3 pang2 guan1 ， zuo4 dai4 cheng2 bai4 ， guo2 shi4 zhi1 bao4 ， ceng2 ruo4 shi4 hu1？
+- 袖手旁觀，坐待成敗，國士之報，曾若是乎？
+- zhi4 bo2 ji4 si3 ， er2 nai3 bu2 sheng4 xue4 qi4 zhi1 xing4 xing4 ， gan1 zi4 fu4 wu1 ci4 ke4 zhi1 liu2。
+- 智伯既死，而乃不勝血氣之悻悻，甘自附於刺客之流。
 - he2 zu2 dao4 zai1 ， he2 zu2 dao4 zai1！
 - 何足道哉，何足道哉！
 - sui1 ran2 ， yi3 guo2 shi4 er2 lun4 ， yu4 rang4 gu4 bu4 zu2 yi3 dang1 yi3；

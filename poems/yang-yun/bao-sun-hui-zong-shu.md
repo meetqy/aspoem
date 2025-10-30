@@ -33,8 +33,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 曾不能以此時有所建明，以宣德化，又不能與羣僚同心並力，陪輔朝庭之遺忘，已負竊位素餐之責久矣。
 - huai2 lu4 tan1 shi4 ， bu4 neng2 zi4 tui4 ， sui4 zao1 bian4 gu4 ， heng2 bei4 kou3 yu3 ， shen1 you1 bei3 que4 ， qi1 zi3 man3 yu4。
 - 懷祿貪勢，不能自退，遂遭變故，橫被口語，身幽北闕，妻子滿獄。
-- dang1 ci3 zhi1 shi2 ， zi4 yi3 yi2 mie4 bu4 zu2 yi3 sai1 ze2 ， qi3 yi4 de2 quan2 shou3 ling3 ， fu4 feng4 xian1 ren2 zhi1 qiu1 mu4 hu1 ？ fu2 wei2 sheng4 zhu3 zhi1 en1 bu4 ke3 sheng4 liang2。
-- 當此之時，自以夷滅不足以塞責，豈意得全首領，復奉先人之丘墓乎？伏惟聖主之恩不可勝量。
+- dang1 ci3 zhi1 shi2 ， zi4 yi3 yi2 mie4 bu4 zu2 yi3 sai1 ze2 ， qi3 yi4 de2 quan2 shou3 ling3 ， fu4 feng4 xian1 ren2 zhi1 qiu1 mu4 hu1？
+- 當此之時，自以夷滅不足以塞責，豈意得全首領，復奉先人之丘墓乎？
+- fu2 wei2 sheng4 zhu3 zhi1 en1 bu4 ke3 sheng4 liang2。
+- 伏惟聖主之恩不可勝量。
 - jun1 zi3 you2 dao4 ， le4 yi3 wang4 you1；
 - 君子游道，樂以忘憂；
 - xiao3 ren2 quan2 qu1 ， shuo1 yi3 wang4 zui4。
@@ -75,16 +77,20 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 此賈豎之事，污辱之處，惲親行之。
 - xia4 liu2 zhi1 ren2 ， zhong4 hui3 suo3 gui1 ， bu4 han2 er2 li4。
 - 下流之人，衆毀所歸，不寒而慄。
-- sui1 ya3 zhi1 yun4 zhe3 ， you2 sui2 feng1 er2 mi2 ， shang4 he2 cheng1 yu4 zhi1 you3 ？ dong3 sheng1 bu4 yun2 hu1 ： “ ming2 ming2 qiu2 ren2 yi4 ， chang2 kong3 bu4 neng2 hua4 min2 zhe3 ， qing1 dai4 fu0 zhi1 yi4 ye3。
-- 雖雅知惲者，猶隨風而靡，尚何稱譽之有？董生不云乎：“明明求仁義，常恐不能化民者，卿大夫之意也。
+- sui1 ya3 zhi1 yun4 zhe3 ， you2 sui2 feng1 er2 mi2 ， shang4 he2 cheng1 yu4 zhi1 you3？
+- 雖雅知惲者，猶隨風而靡，尚何稱譽之有？
+- dong3 sheng1 bu4 yun2 hu1 ： “ ming2 ming2 qiu2 ren2 yi4 ， chang2 kong3 bu4 neng2 hua4 min2 zhe3 ， qing1 dai4 fu0 zhi1 yi4 ye3。
+- 董生不云乎：“明明求仁義，常恐不能化民者，卿大夫之意也。
 - ming2 ming2 qiu2 cai2 li4 ， chang2 kong3 kun4 fa2 zhe3 ， shu4 ren2 zhi1 shi4 ye3。
 - 明明求財利，常恐睏乏者，庶人之事也。
 - ” gu4 dao4 bu4 tong2 ， bu4 xiang1 wei2 mou2 ， jin1 zi3 shang4 an1 de2 yi3 qing1 dai4 fu0 zhi1 zhi4 er2 ze2 pu2 zai1！
 - ”故道不同，不相爲謀，今子尚安得以卿大夫之制而責僕哉！
 - fu1 xi1 he2 wei4 tu3 ， wen2 hou2 suo3 xing1 ， you3 duan4 gan4 mu4 、 tian2 zi3 fang1 zhi1 yi2 feng1 ， piao1 ran2 jie1 you3 jie2 gai4 ， zhi1 qu4 jiu4 zhi1 fen1。
 - 夫西河魏土，文侯所興，有段幹木、田子方之遺風，漂然皆有節概，知去就之分。
-- qing3 zhe3 zu2 xia4 li2 jiu4 tu3 ， lin2 an1 ding4 ， an1 ding4 shan1 gu3 zhi1 jian4 ， kun1 rong2 jiu4 rang3 ， zi3 di4 tan1 bi3 ， qi3 xi2 su2 zhi1 yi2 ren2 zai1 ？ wu1 jin1 nai3 du3 zi3 zhi1 zhi4 yi3！
-- 頃者足下離舊土，臨安定，安定山谷之間，昆戎舊壤，子弟貪鄙，豈習俗之移人哉？於今乃睹子之志矣！
+- qing3 zhe3 zu2 xia4 li2 jiu4 tu3 ， lin2 an1 ding4 ， an1 ding4 shan1 gu3 zhi1 jian4 ， kun1 rong2 jiu4 rang3 ， zi3 di4 tan1 bi3 ， qi3 xi2 su2 zhi1 yi2 ren2 zai1？
+- 頃者足下離舊土，臨安定，安定山谷之間，昆戎舊壤，子弟貪鄙，豈習俗之移人哉？
+- wu1 jin1 nai3 du3 zi3 zhi1 zhi4 yi3！
+- 於今乃睹子之志矣！
 - fang1 dang1 sheng4 han4 zhi1 long2 ， yuan4 mian3 zhan1 ， wu2 duo1 tan2。
 - 方當盛漢之隆，願勉旃，毋多談。
 

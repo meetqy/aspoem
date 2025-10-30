@@ -17,14 +17,18 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 淮之南有賢人焉，字正之，非今所謂賢人者，予慕而友之。
 - er4 xian2 ren2 zhe3 ， zu2 wei4 chang2 xiang1 guo4 ye3 ， kou3 wei4 chang2 xiang1 yu3 ye3 ， ci2 bi4 wei4 chang2 xiang1 jie1 ye3。
 - 二賢人者，足未嘗相過也，口未嘗相語也，辭幣未嘗相接也。
-- qi2 shi1 ruo4 you3 ， qi3 jin4 tong2 zai1 ？ yu3 kao3 qi2 yan2 xing2 ， qi2 bu4 xiang1 si4 zhe3 ， he2 qi2 shao3 ye3！
-- 其師若友，豈盡同哉？予考其言行，其不相似者，何其少也！
+- qi2 shi1 ruo4 you3 ， qi3 jin4 tong2 zai1？
+- 其師若友，豈盡同哉？
+- yu3 kao3 qi2 yan2 xing2 ， qi2 bu4 xiang1 si4 zhe3 ， he2 qi2 shao3 ye3！
+- 予考其言行，其不相似者，何其少也！
 - yue1 ： xue2 sheng4 ren2 er2 yi3 yi3。
 - 曰：學聖人而已矣。
 - ” xue2 sheng4 ren2 ， ze2 qi2 shi1 ruo4 you3 ， bi4 xue2 sheng4 ren2 zhe3。
 - ”學聖人，則其師若友，必學聖人者。
-- sheng4 ren2 zhi1 yan2 xing2 ， qi3 you3 er4 zai1 ？ qi2 xiang1 si4 ye3 shi4 ran2。
-- 聖人之言行，豈有二哉？其相似也適然。
+- sheng4 ren2 zhi1 yan2 xing2 ， qi3 you3 er4 zai1？
+- 聖人之言行，豈有二哉？
+- qi2 xiang1 si4 ye3 shi4 ran2。
+- 其相似也適然。
 - yu3 zai4 huai2 nan2 ， wei2 zheng4 zhi1 dao4 zi3 gu4 ， zheng4 zhi1 bu4 yu3 yi2 ye3。
 - 予在淮南，爲正之道子固，正之不予疑也。
 - huan2 jiang1 nan2 ， wei2 zi3 gu4 dao4 zheng4 zhi1 ， zi3 gu4 yi4 yi3 wei2 ran2。
@@ -35,8 +39,10 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 子固作《懷友》一首遺予，其大略欲相扳以至乎中庸而後已。
 - zheng4 zhi1 gai4 yi4 chang2 yun2 er3。
 - 正之蓋亦常云爾。
-- fu1 an1 qu1 xu2 xing2 ， lin4 zhong1 yong1 zhi1 ting2 ， er2 zao4 wu1 qi2 tang2 ， she4 er4 xian2 ren2 zhe3 er2 shui2 zai1 ？ yu3 xi1 fei1 gan3 zi4 bi4 qi2 you3 zhi4 ye3 ， yi4 yuan4 cong2 shi4 wu1 zuo3 you4 yan1 er3。
-- 夫安驅徐行，轥中庸之庭，而造於其堂，舍二賢人者而誰哉？予昔非敢自必其有至也，亦願從事於左右焉爾。
+- fu1 an1 qu1 xu2 xing2 ， lin4 zhong1 yong1 zhi1 ting2 ， er2 zao4 wu1 qi2 tang2 ， she4 er4 xian2 ren2 zhe3 er2 shui2 zai1？
+- 夫安驅徐行，轥中庸之庭，而造於其堂，舍二賢人者而誰哉？
+- yu3 xi1 fei1 gan3 zi4 bi4 qi2 you3 zhi4 ye3 ， yi4 yuan4 cong2 shi4 wu1 zuo3 you4 yan1 er3。
+- 予昔非敢自必其有至也，亦願從事於左右焉爾。
 - fu3 er2 jin4 zhi1 ， qi2 ke3 ye3。
 - 輔而進之，其可也。
 - yi1！

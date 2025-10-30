@@ -59,8 +59,10 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 南連百越，北盡三河，鐵騎成羣，玉軸相接。
 - hai3 ling2 hong2 su4 ， cang1 chu3 zhi1 ji1 mi2 qiong2；
 - 海陵紅粟，倉儲之積靡窮；
-- jiang1 pu3 huang2 qi2 ， kuang1 fu4 zhi1 gong1 he2 yuan3 ？ ban1 sheng1 dong4 er2 bei3 feng1 qi3 ， jian4 qi4 chong1 er2 nan2 dou4 ping2。
-- 江浦黃旗，匡復之功何遠？班聲動而北風起，劍氣衝而南鬥平。
+- jiang1 pu3 huang2 qi2 ， kuang1 fu4 zhi1 gong1 he2 yuan3？
+- 江浦黃旗，匡復之功何遠？
+- ban1 sheng1 dong4 er2 bei3 feng1 qi3 ， jian4 qi4 chong1 er2 nan2 dou4 ping2。
+- 班聲動而北風起，劍氣衝而南鬥平。
 - yin1 wu1 ze2 shan1 yue4 beng1 tui2 ， chi4 zha4 ze2 feng1 yun2 bian4 se4。
 - 喑嗚則山嶽崩頹，叱吒則風雲變色。
 - yi3 ci3 zhi4 di2 ， he2 di2 bu4 cui1；
@@ -69,8 +71,12 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 以此圖功，何功不克！
 - gong1 deng3 huo4 jia1 chuan2 han4 jue2 ， huo4 di4 xie2 zhou1 qin1 ， huo4 ying1 zhong4 ji4 wu1 zhao3 ya2 ， huo4 shou4 gu4 ming4 wu1 xuan1 shi4。
 - 公等或家傳漢爵，或地協周親，或膺重寄於爪牙，或受顧命於宣室。
-- yan2 you2 zai4 er3 ， zhong1 qi3 wang4 xin1 ？ yi4 pou2 zhi1 tu3 wei4 qian2 ， liu4 chi3 zhi1 gu1 he2 tuo1 ？ tang3 neng2 zhuan3 huo4 wei2 fu2 ， song4 wang3 shi4 ju1 ， gong4 li4 qin2 wang2 zhi1 xun1 ， wu2 fei4 jiu4 jun1 zhi1 ming4 ， fan2 zhu1 jue2 shang3 ， tong2 zhi3 shan1 he2。
-- 言猶在耳，忠豈忘心？一抔之土未乾，六尺之孤何託？倘能轉禍爲福，送往事居，共立勤王之勳，無廢舊君之命，凡諸爵賞，同指山河。
+- yan2 you2 zai4 er3 ， zhong1 qi3 wang4 xin1？
+- 言猶在耳，忠豈忘心？
+- yi4 pou2 zhi1 tu3 wei4 qian2 ， liu4 chi3 zhi1 gu1 he2 tuo1？
+- 一抔之土未乾，六尺之孤何託？
+- tang3 neng2 zhuan3 huo4 wei2 fu2 ， song4 wang3 shi4 ju1 ， gong4 li4 qin2 wang2 zhi1 xun1 ， wu2 fei4 jiu4 jun1 zhi1 ming4 ， fan2 zhu1 jue2 shang3 ， tong2 zhi3 shan1 he2。
+- 倘能轉禍爲福，送往事居，共立勤王之勳，無廢舊君之命，凡諸爵賞，同指山河。
 - ruo4 qi2 juan4 lian4 qiong2 cheng2 ， pai2 huai2 qi2 lu4 ， zuo4 mei4 xian1 ji1 zhi1 zhao4 ， bi4 yi2 hou4 zhi4 zhi1 zhu1。
 - 若其眷戀窮城，徘徊歧路，坐昧先幾之兆，必貽後至之誅。
 - qing3 kan4 jin1 ri4 zhi1 yu4 zhong1 ， jing4 shi4 shui2 jia1 zhi1 tian1 xia4！

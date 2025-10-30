@@ -23,8 +23,10 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 趙誠發使尊秦昭王爲帝，秦必喜，罷兵去。
 - ” ping2 yuan2 jun1 you2 yu4 wei4 you3 suo3 jue2。
 - ”平原君猶豫未有所決。
-- ci3 shi2 lu3 zhong4 lian2 shi4 you2 zhao4 ， hui4 qin2 wei2 zhao4 ， wen2 wei4 jiang1 yu4 ling4 zhao4 zun1 qin2 wei2 di4 ， nai3 jian4 ping2 yuan2 jun1 ， yue1 ： “ shi4 jiang1 nai4 he2 yi3 ？ ” ping2 yuan2 jun1 yue1 ： “ sheng4 ye3 he2 gan3 yan2 shi4！
-- 此時魯仲連適遊趙，會秦圍趙，聞魏將欲令趙尊秦爲帝，乃見平原君，曰：“事將奈何矣？”平原君曰：“勝也何敢言事！
+- ci3 shi2 lu3 zhong4 lian2 shi4 you2 zhao4 ， hui4 qin2 wei2 zhao4 ， wen2 wei4 jiang1 yu4 ling4 zhao4 zun1 qin2 wei2 di4 ， nai3 jian4 ping2 yuan2 jun1 ， yue1 ： “ shi4 jiang1 nai4 he2 yi3？
+- 此時魯仲連適遊趙，會秦圍趙，聞魏將欲令趙尊秦爲帝，乃見平原君，曰：“事將奈何矣？
+- ” ping2 yuan2 jun1 yue1 ： “ sheng4 ye3 he2 gan3 yan2 shi4！
+- ”平原君曰：“勝也何敢言事！
 - bai3 wan4 zhi1 zhong4 zhe2 wu1 wai4 ， jin1 you4 nei4 wei2 han2 dan1 er2 bu2 qu4。
 - 百萬之衆折於外，今又內圍邯鄲而不去。
 - wei4 wang2 shi3 ke4 jiang1 jun1 xin1 yuan2 yan3 ling4 zhao4 di4 qin2 ， jin1 qi2 ren2 zai4 shi4。
@@ -33,8 +35,10 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 勝也何敢言事！
 - ” lu3 lian2 yue1 ： “ shi3 wu2 yi3 jun1 wei2 tian1 xia4 zhi1 xian2 gong1 zi3 ye3 ， wu2 nai3 jin1 ran2 hou4 zhi1 jun1 fei1 tian1 xia4 zhi1 xian2 gong1 zi3 ye3。
 - ”魯連曰：“始吾以君爲天下之賢公子也，吾乃今然後知君非天下之賢公子也。
-- liang2 ke4 xin1 yuan2 yan3 an1 zai4 ？ wu2 qing3 wei2 jun1 ze2 er2 gui1 zhi1！
-- 樑客辛垣衍安在？吾請爲君責而歸之！
+- liang2 ke4 xin1 yuan2 yan3 an1 zai4？
+- 樑客辛垣衍安在？
+- wu2 qing3 wei2 jun1 ze2 er2 gui1 zhi1！
+- 吾請爲君責而歸之！
 - ” ping2 yuan2 jun1 yue1 ： “ sheng4 qing3 wei2 zhao4 er2 jian4 zhi1 wu1 xian1 sheng1。
 - ”平原君曰：“勝請爲召而見之於先生。
 - ”
@@ -53,24 +57,32 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 魯連見辛垣衍而無言。
 - xin1 yuan2 yan3 yue1 ： “ wu2 shi4 ju1 ci3 wei2 cheng2 zhi1 zhong1 zhe3 ， jie1 you3 qiu2 wu1 ping2 yuan2 jun1 zhe3 ye3。
 - 辛垣衍曰：“吾視居此圍城之中者，皆有求於平原君者也。
-- jin1 wu2 shi4 xian1 sheng1 zhi1 yu4 mao4 ， fei1 you3 qiu2 wu1 ping2 yuan2 jun1 zhe3 ， he2 wei2 jiu3 ju1 ci3 wei2 cheng2 zhong1 er2 bu2 qu4 ye3 ？ ” lu3 lian2 yue1 ： “ shi4 yi3 bao4 jiao1 wu2 cong2 rong2 er2 si3 zhe3 ， jie1 fei1 ye3。
-- 今吾視先生之玉貌，非有求於平原君者，曷爲久居此圍城中而不去也？”魯連曰：“世以鮑焦無從容而死者，皆非也。
+- jin1 wu2 shi4 xian1 sheng1 zhi1 yu4 mao4 ， fei1 you3 qiu2 wu1 ping2 yuan2 jun1 zhe3 ， he2 wei2 jiu3 ju1 ci3 wei2 cheng2 zhong1 er2 bu2 qu4 ye3？
+- 今吾視先生之玉貌，非有求於平原君者，曷爲久居此圍城中而不去也？
+- ” lu3 lian2 yue1 ： “ shi4 yi3 bao4 jiao1 wu2 cong2 rong2 er2 si3 zhe3 ， jie1 fei1 ye3。
+- ”魯連曰：“世以鮑焦無從容而死者，皆非也。
 - jin1 zhong4 ren2 bu4 zhi1 ， ze2 wei2 yi4 shen1。
 - 今衆人不知，則爲一身。
 - bi3 qin2 ， qi4 li3 yi4 ， shang4 shou3 gong1 zhi1 guo2 ye3 ， quan2 shi3 qi2 shi4 ， lu3 shi3 qi2 min2 ， bi3 ze2 si4 ran2 er2 wei2 di4 ， guo4 er2 sui4 zheng4 wu1 tian1 xia4 ， ze2 lian2 you3 fu4 dong1 hai3 er2 si3 er3 ， wu2 bu4 ren3 wei2 zhi1 min2 ye3！
 - 彼秦，棄禮義，上首功之國也，權使其士，虜使其民，彼則肆然而爲帝，過而遂正於天下，則連有赴東海而死耳，吾不忍爲之民也！
 - suo3 wei2 jian4 jiang1 jun1 zhe3 ， yu4 yi3 zhu4 zhao4 ye3。
 - 所爲見將軍者，欲以助趙也。
-- ” xin1 yuan2 yan3 yue1 ： “ xian1 sheng1 zhu4 zhi1 nai4 he2 ？ ” lu3 lian2 yue1 ： “ wu2 jiang1 shi3 liang2 ji2 yan4 zhu4 zhi1 ， qi2 chu3 ze2 gu4 zhu4 zhi1 yi3。
-- ”辛垣衍曰：“先生助之奈何？”魯連曰：“吾將使樑及燕助之，齊楚則固助之矣。
+- ” xin1 yuan2 yan3 yue1 ： “ xian1 sheng1 zhu4 zhi1 nai4 he2？
+- ”辛垣衍曰：“先生助之奈何？
+- ” lu3 lian2 yue1 ： “ wu2 jiang1 shi3 liang2 ji2 yan4 zhu4 zhi1 ， qi2 chu3 ze2 gu4 zhu4 zhi1 yi3。
+- ”魯連曰：“吾將使樑及燕助之，齊楚則固助之矣。
 - ” xin1 yuan2 yan3 yue1 ： “ yan4 ze2 wu2 qing3 yi3 cong2 yi3；
 - ”辛垣衍曰：“燕則吾請以從矣；
-- ruo4 nai3 liang2 ， ze2 wu2 liang2 ren2 ye3 ， xian1 sheng1 e4 neng2 shi3 liang2 zhu4 zhi1 ye1 ？ ” lu3 lian2 yue1 ： “ liang2 wei4 du3 qin2 cheng1 di4 zhi1 hai4 gu4 ye3；
-- 若乃樑，則吾樑人也，先生惡能使樑助之耶？”魯連曰：“樑未睹秦稱帝之害故也；
+- ruo4 nai3 liang2 ， ze2 wu2 liang2 ren2 ye3 ， xian1 sheng1 e4 neng2 shi3 liang2 zhu4 zhi1 ye1？
+- 若乃樑，則吾樑人也，先生惡能使樑助之耶？
+- ” lu3 lian2 yue1 ： “ liang2 wei4 du3 qin2 cheng1 di4 zhi1 hai4 gu4 ye3；
+- ”魯連曰：“樑未睹秦稱帝之害故也；
 - shi3 liang2 du3 qin2 cheng1 di4 zhi1 hai4 ， ze2 bi4 zhu4 zhao4 yi3。
 - 使樑睹秦稱帝之害，則必助趙矣。
-- ” xin1 yuan2 yan3 yue1 ： “ qin2 cheng1 di4 zhi1 hai4 jiang1 nai4 he2 ？ ” lu3 zhong4 lian2 yue1 ： “ xi1 qi2 wei1 wang2 chang2 wei2 ren2 yi4 yi3 ， lü4 tian1 xia4 zhu1 hou2 er2 chao2 zhou1。
-- ”辛垣衍曰：“秦稱帝之害將奈何？”魯仲連曰：“昔齊威王嘗爲仁義矣，率天下諸侯而朝周。
+- ” xin1 yuan2 yan3 yue1 ： “ qin2 cheng1 di4 zhi1 hai4 jiang1 nai4 he2？
+- ”辛垣衍曰：“秦稱帝之害將奈何？
+- ” lu3 zhong4 lian2 yue1 ： “ xi1 qi2 wei1 wang2 chang2 wei2 ren2 yi4 yi3 ， lü4 tian1 xia4 zhu1 hou2 er2 chao2 zhou1。
+- ”魯仲連曰：“昔齊威王嘗爲仁義矣，率天下諸侯而朝周。
 - zhou1 pin2 qie3 wei1 ， zhu1 hou2 mo4 chao2 ， er2 qi2 du2 chao2 zhi1。
 - 周貧且微，諸侯莫朝，而齊獨朝之。
 - ju1 sui4 yu2 ， zhou1 lie4 wang2 beng1 ， zhu1 hou2 jie1 diao4 ， qi2 hou4 wang3。
@@ -89,18 +101,26 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 彼天子固然，其無足怪。
 - ”
 - ”
-- xin1 yuan2 yan3 yue1 ： “ xian1 sheng1 du2 wei4 jian4 fu1 pu2 hu1 ？ shi2 ren2 er2 cong2 yi4 ren2 zhe3 ， ning2 li4 bu2 sheng4 、 zhi4 bu2 ruo4 xie2 ？ wei4 zhi1 ye3。
-- 辛垣衍曰：“先生獨未見夫僕乎？十人而從一人者，寧力不勝、智不若邪？畏之也。
-- ” lu3 zhong4 lian2 yue1 ： “ ran2 liang2 zhi1 bi3 wu1 qin2 ， ruo4 pu2 xie2 ？ ” xin1 yuan2 yan3 yue1 ： “ ran2。
-- ”魯仲連曰：“然樑之比於秦，若僕邪？”辛垣衍曰：“然。
+- xin1 yuan2 yan3 yue1 ： “ xian1 sheng1 du2 wei4 jian4 fu1 pu2 hu1？
+- 辛垣衍曰：“先生獨未見夫僕乎？
+- shi2 ren2 er2 cong2 yi4 ren2 zhe3 ， ning2 li4 bu2 sheng4 、 zhi4 bu2 ruo4 xie2？
+- 十人而從一人者，寧力不勝、智不若邪？
+- wei4 zhi1 ye3。
+- 畏之也。
+- ” lu3 zhong4 lian2 yue1 ： “ ran2 liang2 zhi1 bi3 wu1 qin2 ， ruo4 pu2 xie2？
+- ”魯仲連曰：“然樑之比於秦，若僕邪？
+- ” xin1 yuan2 yan3 yue1 ： “ ran2。
+- ”辛垣衍曰：“然。
 - ” lu3 zhong4 lian2 yue1 ： “ ran2 ze2 wu2 jiang1 shi3 qin2 wang2 peng1 hai3 liang2 wang2！
 - ”魯仲連曰：“然則吾將使秦王烹醢樑王！
 - ” xin1 yuan2 yan3 yang4 ran2 bu2 yue4 ， yue1 ： “ xi1！
 - ”辛垣衍怏然不悅，曰：“嘻！
 - yi4 tai4 shen4 yi3 ， xian1 sheng1 zhi1 yan2 ye3！
 - 亦太甚矣，先生之言也！
-- xian1 sheng1 you4 e4 neng2 shi3 qin2 wang2 peng1 hai3 liang2 wang2 ？ ” lu3 zhong4 lian2 yue1 ： “ gu4 ye3！
-- 先生又惡能使秦王烹醢樑王？”魯仲連曰：“固也！
+- xian1 sheng1 you4 e4 neng2 shi3 qin2 wang2 peng1 hai3 liang2 wang2？
+- 先生又惡能使秦王烹醢樑王？
+- ” lu3 zhong4 lian2 yue1 ： “ gu4 ye3！
+- ”魯仲連曰：“固也！
 - dai4 wu2 yan2 zhi1 ： xi1 zhe3 gui3 hou2 、 e4 hou2 、 wen2 wang2 ， zhou4 zhi1 san1 gong1 ye3。
 - 待吾言之：昔者鬼侯、鄂侯、文王，紂之三公也。
 - gui3 hou2 you3 zi3 er2 hao3 ， gu4 ru4 zhi1 wu1 zhou4 ， zhou4 yi3 wei2 e4 ， hai3 gui3 hou2；
@@ -109,12 +129,18 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 鄂侯爭之急，辨之疾，故脯侯；
 - wen2 wang2 wen2 zhi1 ， kui4 ran2 er2 tan4 ， gu4 ju1 zhi1 wu1 you3 li3 zhi1 ku4 bai3 ri4 ， er2 yu4 ling4 zhi1 si3。
 - 文王聞之，喟然而嘆，故拘之於牖里之庫百日，而欲令之死。
-- he2 wei2 yu3 ren2 ju4 cheng1 di4 wang2 ， zu2 jiu4 pu2 hai3 zhi1 di4 ye3 ？ “
-- 曷爲與人俱稱帝王，卒就脯醢之地也？“
-- “ qi2 min3 wang2 jiang1 zhi1 lu3 ， yi2 wei2 zi3 zhi2 ce4 er2 cong2 ， wei4 lu3 ren2 yue1 ： ‘ zi3 jiang1 he2 yi3 dai4 wu2 jun1 ？ ’ lu3 ren2 yue1 ： ‘ wu2 jiang1 yi3 shi2 tai4 lao2 dai4 zi3 zhi1 jun1。
-- “齊閔王將之魯，夷維子執策而從，謂魯人曰：‘子將何以待吾君？’魯人曰：‘吾將以十太牢待子之君。
-- ’ yi2 wei2 zi3 yue1 ： ‘ zi3 an1 qu3 li3 er2 lai2 dai4 wu2 jun1 ？ bi3 wu2 jun1 zhe3 ， tian1 zi3 ye3。
-- ’夷維子曰：‘子安取禮而來待吾君？彼吾君者，天子也。
+- he2 wei2 yu3 ren2 ju4 cheng1 di4 wang2 ， zu2 jiu4 pu2 hai3 zhi1 di4 ye3？
+- 曷爲與人俱稱帝王，卒就脯醢之地也？
+- “
+- “
+- “ qi2 min3 wang2 jiang1 zhi1 lu3 ， yi2 wei2 zi3 zhi2 ce4 er2 cong2 ， wei4 lu3 ren2 yue1 ： ‘ zi3 jiang1 he2 yi3 dai4 wu2 jun1？
+- “齊閔王將之魯，夷維子執策而從，謂魯人曰：‘子將何以待吾君？
+- ’ lu3 ren2 yue1 ： ‘ wu2 jiang1 yi3 shi2 tai4 lao2 dai4 zi3 zhi1 jun1。
+- ’魯人曰：‘吾將以十太牢待子之君。
+- ’ yi2 wei2 zi3 yue1 ： ‘ zi3 an1 qu3 li3 er2 lai2 dai4 wu2 jun1？
+- ’夷維子曰：‘子安取禮而來待吾君？
+- bi3 wu2 jun1 zhe3 ， tian1 zi3 ye3。
+- 彼吾君者，天子也。
 - tian1 zi3 xun2 shou4 ， zhu1 hou2 pi4 she4 ， na4 guan3 jian4 ， she4 ren4 bao4 ji1 ， shi4 shan4 wu1 tang2 xia4；
 - 天子巡狩，諸侯闢舍，納筦鍵，攝衽抱幾，視膳於堂下；
 - tian1 zi3 yi3 shi2 ， er2 ting1 tui4 chao2 ye3。
@@ -139,8 +165,12 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 睹其一戰而勝，欲從而帝之，是使三晉之大臣，不如鄒、魯之僕妾也。
 - “ qie3 qin2 wu2 yi3 er2 di4 ， ze2 qie3 bian4 yi4 zhu1 hou2 zhi1 da4 chen2 ， bi3 jiang1 duo2 qi2 suo3 wei4 bu2 xiao4 ， er2 yu3 qi2 suo3 wei4 xian2 ， duo2 qi2 suo3 zeng1 ， er2 yu3 qi2 suo3 ai4；
 - “且秦無已而帝，則且變易諸侯之大臣，彼將奪其所謂不肖，而予其所謂賢，奪其所憎，而與其所愛；
-- bi3 you4 jiang1 shi3 qi2 zi3 nü3 chan2 qie4 ， wei2 zhu1 hou2 fei1 ji1 ， chu3 liang2 zhi1 gong1 ， liang2 wang2 an1 de2 yan4 ran2 er2 yi3 hu1 ？ er2 jiang1 jun1 you4 he2 yi3 de2 gu4 chong3 hu1 ？ ”
-- 彼又將使其子女讒妾，爲諸侯妃姬，處樑之宮，樑王安得晏然而已乎？而將軍又何以得故寵乎？”
+- bi3 you4 jiang1 shi3 qi2 zi3 nü3 chan2 qie4 ， wei2 zhu1 hou2 fei1 ji1 ， chu3 liang2 zhi1 gong1 ， liang2 wang2 an1 de2 yan4 ran2 er2 yi3 hu1？
+- 彼又將使其子女讒妾，爲諸侯妃姬，處樑之宮，樑王安得晏然而已乎？
+- er2 jiang1 jun1 you4 he2 yi3 de2 gu4 chong3 hu1？
+- 而將軍又何以得故寵乎？
+- ”
+- ”
 - wu1 shi4 xin1 yuan2 yan3 qi3 ， zai4 bai4 xie4 yue1 ： “ shi3 yi3 xian1 sheng1 wei2 yong1 ren2 ， wu2 nai3 jin1 ri4 er2 zhi1 xian1 sheng1 wei2 tian1 xia4 zhi1 shi4 ye3！
 - 於是辛垣衍起，再拜謝曰：“始以先生爲庸人，吾乃今日而知先生爲天下之士也！
 - wu2 qing3 qu4 ， bu4 gan3 fu4 yan2 di4 qin2！

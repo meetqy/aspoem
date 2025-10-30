@@ -39,13 +39,15 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 故在書曰“以箕子歸作《洪範》”，法授聖也。
 - ji2 feng1 chao2 xian1 ， tui1 dao4 xun4 su2 ， wei2 de2 wu2 lou4 ， wei2 ren2 wu2 yuan3 ， yong4 guang3 yin1 si4 ， bi3 yi2 wei2 hua2 ， hua4 ji2 min2 ye3。
 - 及封朝鮮，推道訓俗，惟德無陋，惟人無遠，用廣殷祀，俾夷爲華，化及民也。
-- lü4 shi4 da4 dao4 ， cong2 wu1 jue2 gong1 ， tian1 di4 bian4 hua4 ， wo3 de2 qi2 zheng4 ， qi2 da4 ren2 yu2 ？
+- lü4 shi4 da4 dao4 ， cong2 wu1 jue2 gong1 ， tian1 di4 bian4 hua4 ， wo3 de2 qi2 zheng4 ， qi2 da4 ren2 yu2？
 - 率是大道，叢於厥躬，天地變化，我得其正，其大人歟？
 - wu1 hu1！
 - 嗚乎！
-- dang1 qi2 zhou1 shi2 wei4 zhi4 ， yin1 si4 wei4 tian3 ， bi3 gan1 yi3 si3 ， wei1 zi3 yi3 qu4 ， xiang4 shi3 zhou4 e4 wei4 ren3 er2 zi4 bi4 ， wu3 geng1 nian4 luan4 yi3 tu2 cun2 ， guo2 wu2 qi2 ren2 ， shui2 yu3 xing1 li3 ？ shi4 gu4 ren2 shi4 zhi1 huo4 ran2 zhe3 ye3。
-- 當其周時未至，殷祀未殄，比干已死，微子已去，向使紂惡未稔而自斃，武庚念亂以圖存，國無其人，誰與興理？是固人事之或然者也。
-- ran2 ze2 xian1 sheng1 yin3 ren3 er2 wei2 ci3 ， qi2 you3 zhi4 wu1 si1 hu1 ？
+- dang1 qi2 zhou1 shi2 wei4 zhi4 ， yin1 si4 wei4 tian3 ， bi3 gan1 yi3 si3 ， wei1 zi3 yi3 qu4 ， xiang4 shi3 zhou4 e4 wei4 ren3 er2 zi4 bi4 ， wu3 geng1 nian4 luan4 yi3 tu2 cun2 ， guo2 wu2 qi2 ren2 ， shui2 yu3 xing1 li3？
+- 當其周時未至，殷祀未殄，比干已死，微子已去，向使紂惡未稔而自斃，武庚念亂以圖存，國無其人，誰與興理？
+- shi4 gu4 ren2 shi4 zhi1 huo4 ran2 zhe3 ye3。
+- 是固人事之或然者也。
+- ran2 ze2 xian1 sheng1 yin3 ren3 er2 wei2 ci3 ， qi2 you3 zhi4 wu1 si1 hu1？
 - 然則先生隱忍而爲此，其有志於斯乎？
 - tang2 mou3 nian2 ， zuo4 miao4 ji2 jun4 ， sui4 shi2 zhi4 si4 ， jia1 xian1 sheng1 du2 lie4 wu1 yi4 xiang4 ， zuo4 shi4 song4 yun2 ：
 - 唐某年，作廟汲郡，歲時致祀，嘉先生獨列於易象，作是頌雲：

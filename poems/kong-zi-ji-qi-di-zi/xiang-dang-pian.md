@@ -125,8 +125,10 @@ tags: []
 - 曰：“丘未达，不敢尝。
 - ”
 - ”
-- jiu4 fen2 ， zi3 tui4 chao2 ， yue1 ： “ shang1 ren2 hu1 ？ ” bu2 wen4 ma3。
-- 厩焚，子退朝，曰：“伤人乎？”不问马。
+- jiu4 fen2 ， zi3 tui4 chao2 ， yue1 ： “ shang1 ren2 hu1？
+- 厩焚，子退朝，曰：“伤人乎？
+- ” bu2 wen4 ma3。
+- ”不问马。
 - jun1 ci4 shi2 ， bi4 zheng4 xi2 xian1 chang2 zhi1；
 - 君赐食，必正席先尝之；
 - jun1 ci4 xing1 ， bi4 shu2 er2 jian4 zhi1；

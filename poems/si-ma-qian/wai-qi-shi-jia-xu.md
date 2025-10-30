@@ -27,15 +27,19 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 禮之用，唯婚姻爲兢兢。
 - fu1 le4 diao4 er2 si4 shi2 he2 ， yin1 yang2 zhi1 bian4 ， wan4 wu4 zhi1 tong3 ye3。
 - 夫樂調而四時和，陰陽之變，萬物之統也。
-- ke3 bu2 shen4 yu3 ？ ren2 neng2 hong2 dao4 ， wu2 ru2 ming4 he2。
-- 可不慎與？人能弘道，無如命何。
+- ke3 bu2 shen4 yu3？
+- 可不慎與？
+- ren2 neng2 hong2 dao4 ， wu2 ru2 ming4 he2。
+- 人能弘道，無如命何。
 - shen4 zai1 ， fei1 pi3 zhi1 ai4 ， jun1 bu4 neng2 de2 zhi1 wu1 chen2 ， fu4 bu4 neng2 de2 zhi1 wu1 zi3 ， kuang4 bei1 bu4 hu1！
 - 甚哉，妃匹之愛，君不能得之於臣，父不能得之於子，況卑不乎！
 - ji2 huan1 he2 yi3 ， huo4 bu4 neng2 cheng2 zi3 xing4；
 - 即歡合矣，或不能成子姓；
-- neng2 cheng2 zi3 xing4 yi3 ， huo4 bu4 neng2 yao4 zhong1 ： qi3 fei1 ming4 ye3 zai1 ？ kong3 zi3 han3 cheng1 ming4 ， gai4 nan2 yan2 zhi1 ye3。
-- 能成子姓矣，或不能要終：豈非命也哉？孔子罕稱命，蓋難言之也。
-- fei1 tong1 you1 ming2 ， e4 neng2 shi2 hu1 xing4 ming4 zai1 ？
+- neng2 cheng2 zi3 xing4 yi3 ， huo4 bu4 neng2 yao4 zhong1 ： qi3 fei1 ming4 ye3 zai1？
+- 能成子姓矣，或不能要終：豈非命也哉？
+- kong3 zi3 han3 cheng1 ming4 ， gai4 nan2 yan2 zhi1 ye3。
+- 孔子罕稱命，蓋難言之也。
+- fei1 tong1 you1 ming2 ， e4 neng2 shi2 hu1 xing4 ming4 zai1？
 - 非通幽明，惡能識乎性命哉？
 
 ## 注释

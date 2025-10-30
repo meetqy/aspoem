@@ -43,7 +43,7 @@ tags: []
 - 明明日月光，何所不光昭！
 - ming2 ming2 ri4 yue4 guang1 ， he2 suo3 bu4 guang1 zhao1！
 - 明明日月光，何所不光昭！
-- er4 yi2 he2 sheng4 hua4 ， gui4 zhe3 du2 ren2 bu4 ？
+- er4 yi2 he2 sheng4 hua4 ， gui4 zhe3 du2 ren2 bu4？
 - 二仪合圣化，贵者独人不？
 - wan4 guo2 lü4 tu3 ， mo4 fei1 wang2 chen2。
 - 万国率土，莫非王臣。
@@ -73,7 +73,7 @@ tags: []
 - 欢笑意所之。
 - zhuang4 sheng4 zhi4 yu2 ， shu1 bu2 zai4 lai2。
 - 壮盛智愚，殊不再来。
-- ai4 shi2 jin4 qu4 ， jiang1 yi3 hui4 shui2 ？
+- ai4 shi2 jin4 qu4 ， jiang1 yi3 hui4 shui2？
 - 爱时进趣，将以惠谁？
 - fan4 fan4 fang4 yi4 ， yi4 tong2 he2 wei4！
 - 泛泛放逸，亦同何为！

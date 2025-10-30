@@ -61,7 +61,7 @@ tags: []
 - 或忠信而死节兮，或訑谩而不疑。
 - fu2 xing3 cha2 er2 an4 shi2 xi1 ， ting1 chan2 ren2 zhi1 xu1 ci2。
 - 弗省察而按实兮，听谗人之虚辞。
-- fang1 yu3 ze2 qi2 za2 rou2 xi1 ， shu2 shen1 dan4 er2 bie2 zhi1 ？
+- fang1 yu3 ze2 qi2 za2 rou2 xi1 ， shu2 shen1 dan4 er2 bie2 zhi1？
 - 芳与泽其杂糅兮，孰申旦而别之？
 - he2 fang1 cao3 zhi1 zao3 yao1 xi1 ， wei1 shuang1 jiang4 er2 xia4 jie4。
 - 何芳草之早殀兮，微霜降而下戒。

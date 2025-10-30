@@ -71,8 +71,10 @@ tags: ["卷三・周文","古文观止","蒙学"]
 - 布令陳辭，而又不至，則又增修於德，無勤民於遠。
 - shi4 yi3 jin4 wu2 bu4 ting1 ， yuan3 wu2 bu4 fu2。
 - 是以近無不聽，遠無不服。
-- jin1 zi4 da4 bi4 、 bo2 shi4 zhi1 zhong1 ye3 ， quan3 rong2 shi4 yi3 qi2 zhi2 lai2 wang2 ， tian1 zi3 yue1 ： ‘ yu3 bi4 yi3 bu4 xiang3 zhi3 zhi1 ’ ， qie3 guan1 zhi1 bing1 ， qi2 wu2 nai3 fei4 xian1 wang2 zhi1 xun4 ， er2 wang2 ji1 dun4 hu1 ？ wu2 wen2 fu1 quan3 rong2 shu4 dun1 ， neng2 shuai4 jiu4 de2 ， er2 shou3 zhong1 chun2 gu4 ， qi2 you3 yi3 yu4 wo3 yi3。
-- 今自大畢、伯士之終也，犬戎氏以其職來王，天子曰：‘予必以不享徵之’，且觀之兵，其無乃廢先王之訓，而王幾頓乎？吾聞夫犬戎樹惇，能帥舊德，而守終純固，其有以御我矣。
+- jin1 zi4 da4 bi4 、 bo2 shi4 zhi1 zhong1 ye3 ， quan3 rong2 shi4 yi3 qi2 zhi2 lai2 wang2 ， tian1 zi3 yue1 ： ‘ yu3 bi4 yi3 bu4 xiang3 zhi3 zhi1 ’ ， qie3 guan1 zhi1 bing1 ， qi2 wu2 nai3 fei4 xian1 wang2 zhi1 xun4 ， er2 wang2 ji1 dun4 hu1？
+- 今自大畢、伯士之終也，犬戎氏以其職來王，天子曰：‘予必以不享徵之’，且觀之兵，其無乃廢先王之訓，而王幾頓乎？
+- wu2 wen2 fu1 quan3 rong2 shu4 dun1 ， neng2 shuai4 jiu4 de2 ， er2 shou3 zhong1 chun2 gu4 ， qi2 you3 yi3 yu4 wo3 yi3。
+- 吾聞夫犬戎樹惇，能帥舊德，而守終純固，其有以御我矣。
 - ” wang2 bu4 ting1 ， sui4 zhi3 zhi1 ， de2 si4 bai2 lang2 、 si4 bai2 lu4 yi3 gui1。
 - ”王不聽，遂徵之，得四白狼、四白鹿以歸。
 - zi4 shi4 huang1 fu2 zhe3 bu2 zhi4。

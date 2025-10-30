@@ -59,7 +59,7 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 銘曰：有拔而起之，莫擠而止之。
 - wu1 hu1 xu1 jun1！
 - 嗚呼許君！
-- er2 yi3 wu1 si1 ， shui2 huo4 shi3 zhi1 ？
+- er2 yi3 wu1 si1 ， shui2 huo4 shi3 zhi1？
 - 而已於斯，誰或使之？
 
 ## 注释

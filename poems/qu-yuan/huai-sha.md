@@ -59,9 +59,9 @@ tags: []
 - 重仁袭义兮，谨厚以为丰。
 - zhong4 hua2 bu4 ke3 e4 xi1 ， shu2 zhi1 yu2 zhi1 cong2 rong2！
 - 重华不可遌兮，孰知余之从容！
-- gu3 gu4 you3 bu2 bing4 xi1 ， qi3 zhi1 qi2 he2 gu4 ye3 ？
+- gu3 gu4 you3 bu2 bing4 xi1 ， qi3 zhi1 qi2 he2 gu4 ye3？
 - 古固有不并兮，岂知其何故也？
-- tang1 yu3 jiu3 yuan3 xi1 ， miao3 er2 bu4 ke3 mu4 ye3 ？
+- tang1 yu3 jiu3 yuan3 xi1 ， miao3 er2 bu4 ke3 mu4 ye3？
 - 汤禹久远兮，邈而不可慕也？
 - cheng2 wei2 gai3 fen4 xi1 ， yi4 xin1 er2 zi4 qiang2。
 - 惩违改忿兮，抑心而自强。
@@ -83,7 +83,7 @@ tags: []
 - 伯乐既没，骥焉程兮。
 - min2 sheng1 bing3 ming4 ， ge4 you3 suo3 cuo4 xi1。
 - 民生禀命，各有所错兮。
-- ding4 xin1 guang3 zhi4 ， yu2 he2 suo3 wei4 ju4 xi1 ？
+- ding4 xin1 guang3 zhi4 ， yu2 he2 suo3 wei4 ju4 xi1？
 - 定心广志，余何所畏惧兮？
 - ceng2 shang1 yuan2 ai1 ， yong3 tan4 kui4 xi1。
 - 曾伤爰哀，永叹喟兮。

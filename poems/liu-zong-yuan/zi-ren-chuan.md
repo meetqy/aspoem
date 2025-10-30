@@ -127,8 +127,10 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 猶梓人而不知繩墨之曲直，規矩之方圓，尋引之短長，姑奪衆工之斧斤刀鋸以佐其藝，又不能備其工，以至敗績，用而無所成也，不亦謬歟！
 - huo4 yue1 ： 「 bi3 zhu3 wei2 shi4 zhe3 ， tang3 huo4 fa1 qi2 si1 zhi4 ， qian1 zhi4 zi3 ren2 zhi1 lü4 ， duo2 qi2 shi4 shou3 ， er2 dao4 mou2 shi4 yong4。
 - 或曰：「彼主爲室者，儻或發其私智，牽制梓人之慮，奪其世守，而道謀是用。
-- sui1 bu4 neng2 cheng2 gong1 ， qi3 qi2 zui4 ye1 ？ yi4 zai4 ren4 zhi1 er2 yi3！
-- 雖不能成功，豈其罪耶？亦在任之而已！
+- sui1 bu4 neng2 cheng2 gong1 ， qi3 qi2 zui4 ye1？
+- 雖不能成功，豈其罪耶？
+- yi4 zai4 ren4 zhi1 er2 yi3！
+- 亦在任之而已！
 - 」
 - 」
 - yu2 yue1 ： 「 bu4 ran2！
@@ -143,8 +145,12 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 不屈吾道，是誠良梓人耳！
 - qi2 huo4 shi4 qi2 huo4 li4 ， ren3 er2 bu4 neng2 she3 ye3 ， sang1 qi2 zhi4 liang2 ， qu1 er2 bu4 neng2 shou3 ye3 ， dong4 rao2 wu1 huai4 ， ze2 yue1 ： 『 fei1 wo3 zui4 ye3 』！
 - 其或嗜其貨利，忍而不能捨也，喪其制量，屈而不能守也，棟橈屋壞，則曰：『非我罪也』！
-- ke3 hu1 zai1 ？ ke3 hu1 zai1 ？ 」
-- 可乎哉？可乎哉？」
+- ke3 hu1 zai1？
+- 可乎哉？
+- ke3 hu1 zai1？
+- 可乎哉？
+- 」
+- 」
 - yu2 wei4 zi3 ren2 zhi1 dao4 lei4 wu1 xiang1 ， gu4 shu1 er2 cang2 zhi1。
 - 餘謂梓人之道類於相，故書而藏之。
 - zi3 ren2 ， gai4 gu3 zhi1 shen3 qu3 mian4 shi4 zhe3 ， jin1 wei4 zhi1 「 dou1 liao4 jiang4 」 yun2。

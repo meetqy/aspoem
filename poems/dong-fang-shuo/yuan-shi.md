@@ -19,7 +19,7 @@ tags: []
 - 枭鸮既以成群兮，玄鹤弭翼而屏移。
 - peng2 ai4 qin1 ru4 yu4 yu2 chuang2 zi3 xi1 ， ma3 lan2 chen3 chuo1 er2 ri4 jia1。
 - 蓬艾亲入御于床笫兮，马兰踸踔而日加。
-- qi4 juan1 yao4 zhi3 yu3 du4 heng2 xi1 ， yu2 nai4 shi4 zhi1 bu4 zhi1 fang1 he2 ？
+- qi4 juan1 yao4 zhi3 yu3 du4 heng2 xi1 ， yu2 nai4 shi4 zhi1 bu4 zhi1 fang1 he2？
 - 弃捐药芷与杜衡兮，余柰世之不知芳何？
 - he2 zhou1 dao4 zhi1 ping2 yi4 xi1 ， ran2 wu2 hui4 er2 xian3 xi4。
 - 何周道之平易兮，然芜秽而险戏。
@@ -55,13 +55,13 @@ tags: []
 - 悲楚人之和氏兮，献宝玉以为石。
 - yu4 li4 wu3 zhi1 bu4 cha2 xi1 ， qiang1 liang3 zu2 yi3 bi4 zhuo2。
 - 遇厉武之不察兮，羌两足以毕斮。
-- xiao3 ren2 zhi1 ju1 shi4 xi1 ， shi4 zhong1 zheng4 zhi1 he2 ruo4 ？
+- xiao3 ren2 zhi1 ju1 shi4 xi1 ， shi4 zhong1 zheng4 zhi1 he2 ruo4？
 - 小人之居势兮，视忠正之何若？
 - gai3 qian2 sheng4 zhi1 fa3 du4 xi1 ， xi3 nie4 ru2 er2 wang4 zuo4。
 - 改前圣之法度兮，喜嗫嚅而妄作。
 - qin1 chan2 yu2 er2 shu1 xian2 sheng4 xi1 ， song4 wei4 lü2 ju1 wei4 chou3 e4。
 - 亲谗谀而疏贤圣兮，讼谓闾娵为丑恶。
-- yu2 jin4 xi2 er2 bi4 yuan3 xi1 ， shu2 zhi1 cha2 qi2 hei1 bai2 ？
+- yu2 jin4 xi2 er2 bi4 yuan3 xi1 ， shu2 zhi1 cha2 qi2 hei1 bai2？
 - 愉近习而蔽远兮，孰知察其黑白？
 - zu2 bu4 de2 xiao4 qi2 xin1 rong2 xi1 ， an1 miao3 miao3 er2 wu2 suo3 gui1 bao2。
 - 卒不得效其心容兮，安眇眇而无所归薄。
@@ -77,7 +77,7 @@ tags: []
 - 皇天既不纯命兮，余生终无所依。
 - yuan4 zi4 chen2 yu2 jiang1 liu2 xi1 ， jue2 heng2 liu2 er2 jing4 shi4。
 - 愿自沉于江流兮，绝横流而径逝。
-- ning2 wei4 jiang1 hai3 zhi1 ni2 tu2 xi1 ， an1 neng2 jiu3 jian4 ci3 zhuo2 shi4 ？
+- ning2 wei4 jiang1 hai3 zhi1 ni2 tu2 xi1 ， an1 neng2 jiu3 jian4 ci3 zhuo2 shi4？
 - 宁为江海之泥涂兮，安能久见此浊世？
 
 ## 注释

@@ -23,14 +23,18 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - ”敬執賓主之禮，范雎辭讓。
 - shi4 ri4 jian4 fan4 ju1 ， jian4 zhe3 wu2 bu2 bian4 se4 yi4 rong2 zhe3。
 - 是日見范雎，見者無不變色易容者。
-- qin2 wang2 ping2 zuo3 you4 ， gong1 zhong1 xu1 wu2 ren2 ， qin2 wang2 gui4 er2 qing3 yue1 ： “ xian1 sheng1 he2 yi3 xing4 jiao4 gua3 ren2 ？ ” fan4 ju1 yue1 ： “ wei2 wei2。
-- 秦王屏左右，宮中虛無人，秦王跪而請曰：“先生何以幸教寡人？”范雎曰：“唯唯。
+- qin2 wang2 ping2 zuo3 you4 ， gong1 zhong1 xu1 wu2 ren2 ， qin2 wang2 gui4 er2 qing3 yue1 ： “ xian1 sheng1 he2 yi3 xing4 jiao4 gua3 ren2？
+- 秦王屏左右，宮中虛無人，秦王跪而請曰：“先生何以幸教寡人？
+- ” fan4 ju1 yue1 ： “ wei2 wei2。
+- ”范雎曰：“唯唯。
 - ” you3 jian4 ， qin2 wang2 fu4 qing3 ， fan4 ju1 yue1 ： “ wei2 wei2。
 - ”有間，秦王復請，范雎曰：“唯唯。
 - ” ruo4 shi4 zhe3 san1。
 - ”若是者三。
-- qin2 wang2 ji4 yue1 ： “ xian1 sheng1 bu2 xing4 jiao4 gua3 ren2 hu1 ？ ”
-- 秦王跽曰：“先生不幸教寡人乎？”
+- qin2 wang2 ji4 yue1 ： “ xian1 sheng1 bu2 xing4 jiao4 gua3 ren2 hu1？
+- 秦王跽曰：“先生不幸教寡人乎？
+- ”
+- ”
 - fan4 ju1 xie4 yue1 ： “ fei1 gan3 ran2 ye3。
 - 范雎謝曰：“非敢然也。
 - chen2 wen2 shi3 shi2 lü3 shang4 zhi1 yu4 wen2 wang2 ye3 ， shen1 wei2 yu2 fu4 er2 diao4 wu1 wei4 yang2 zhi1 bin1 er3。
@@ -55,12 +59,18 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 五帝之聖而死，三王之仁而死，五伯之賢而死，烏獲之力而死，奔、育之勇焉而死。
 - si3 zhe3 ， ren2 zhi1 suo3 bi4 bu4 mian3 ye3。
 - 死者，人之所必不免也。
-- chu3 bi4 ran2 zhi1 shi4 ， ke3 yi3 shao3 you3 bu3 wu1 qin2 ， ci3 chen2 zhi1 suo3 da4 yuan4 ye3 ， chen2 he2 huan4 hu1 ？ wu3 zi3 xu1 tuo2 zai4 er2 chu1 zhao1 guan1 ， ye4 xing2 er2 zhou4 fu2 ， zhi4 wu1 ling2 shui3 ， wu2 yi3 er3 qi2 kou3 ， zuo4 xing2 pu2 fu2 ， qi3 shi2 wu1 wu2 shi4 ， zu2 xing1 wu2 guo2 ， he2 lu2 wei2 ba4。
-- 處必然之勢，可以少有補於秦，此臣之所大願也，臣何患乎？伍子胥橐載而出昭關，夜行而晝伏，至於蔆水，無以餌其口，坐行蒲伏，乞食於吳市，卒興吳國，闔廬爲霸。
-- shi3 chen2 de2 jin4 mou2 ru2 wu3 zi3 xu1 ， jia1 zhi1 yi3 you1 qiu2 ， zhong1 shen1 bu2 fu4 jian4 ， shi4 chen2 shuo1 zhi1 xing2 ye3 ， chen2 he2 you1 hu1 ？ ji1 zi3 、 jie1 yu2 ， qi1 shen1 er2 wei2 li4 ， bei4 fa4 er2 wei2 kuang2 ， wu2 yi4 wu1 yin1 、 chu3。
-- 使臣得進謀如伍子胥，加之以幽囚，終身不復見，是臣說之行也，臣何憂乎？箕子、接輿，漆身而爲厲，被髮而爲狂，無益於殷、楚。
-- shi3 chen2 de2 tong2 hang2 wu1 ji1 zi3 、 jie1 yu2 ， qi1 shen1 ke3 yi3 bu3 suo3 xian2 zhi1 zhu3 ， shi4 chen2 zhi1 da4 rong2 ye3 ， chen2 you4 he2 chi3 hu1 ？ chen2 zhi1 suo3 kong3 zhe3 ， du2 kong3 chen2 si3 zhi1 hou4 ， tian1 xia4 jian4 chen2 jin4 zhong1 er2 shen1 jue3 ye3 ， shi4 yi3 du4 kou3 guo3 zu2 ， mo4 ken3 ji2 qin2 er3。
-- 使臣得同行於箕子、接輿，漆身可以補所賢之主，是臣之大榮也，臣又何恥乎？臣之所恐者，獨恐臣死之後，天下見臣盡忠而身蹶也，是以杜口裹足，莫肯即秦耳。
+- chu3 bi4 ran2 zhi1 shi4 ， ke3 yi3 shao3 you3 bu3 wu1 qin2 ， ci3 chen2 zhi1 suo3 da4 yuan4 ye3 ， chen2 he2 huan4 hu1？
+- 處必然之勢，可以少有補於秦，此臣之所大願也，臣何患乎？
+- wu3 zi3 xu1 tuo2 zai4 er2 chu1 zhao1 guan1 ， ye4 xing2 er2 zhou4 fu2 ， zhi4 wu1 ling2 shui3 ， wu2 yi3 er3 qi2 kou3 ， zuo4 xing2 pu2 fu2 ， qi3 shi2 wu1 wu2 shi4 ， zu2 xing1 wu2 guo2 ， he2 lu2 wei2 ba4。
+- 伍子胥橐載而出昭關，夜行而晝伏，至於蔆水，無以餌其口，坐行蒲伏，乞食於吳市，卒興吳國，闔廬爲霸。
+- shi3 chen2 de2 jin4 mou2 ru2 wu3 zi3 xu1 ， jia1 zhi1 yi3 you1 qiu2 ， zhong1 shen1 bu2 fu4 jian4 ， shi4 chen2 shuo1 zhi1 xing2 ye3 ， chen2 he2 you1 hu1？
+- 使臣得進謀如伍子胥，加之以幽囚，終身不復見，是臣說之行也，臣何憂乎？
+- ji1 zi3 、 jie1 yu2 ， qi1 shen1 er2 wei2 li4 ， bei4 fa4 er2 wei2 kuang2 ， wu2 yi4 wu1 yin1 、 chu3。
+- 箕子、接輿，漆身而爲厲，被髮而爲狂，無益於殷、楚。
+- shi3 chen2 de2 tong2 hang2 wu1 ji1 zi3 、 jie1 yu2 ， qi1 shen1 ke3 yi3 bu3 suo3 xian2 zhi1 zhu3 ， shi4 chen2 zhi1 da4 rong2 ye3 ， chen2 you4 he2 chi3 hu1？
+- 使臣得同行於箕子、接輿，漆身可以補所賢之主，是臣之大榮也，臣又何恥乎？
+- chen2 zhi1 suo3 kong3 zhe3 ， du2 kong3 chen2 si3 zhi1 hou4 ， tian1 xia4 jian4 chen2 jin4 zhong1 er2 shen1 jue3 ye3 ， shi4 yi3 du4 kou3 guo3 zu2 ， mo4 ken3 ji2 qin2 er3。
+- 臣之所恐者，獨恐臣死之後，天下見臣盡忠而身蹶也，是以杜口裹足，莫肯即秦耳。
 - zu2 xia4 shang4 wei4 tai4 hou4 zhi1 yan2 ， xia4 huo4 jian1 chen2 zhi1 tai4 ， ju1 shen1 gong1 zhi1 zhong1 ， bu4 li2 bao3 fu4 zhi1 shou3 ， zhong1 shen1 an4 huo4 ， wu2 yu3 zhao4 jian1 ， da4 zhe3 zong1 miao4 mie4 fu4 ， xiao3 zhe3 shen1 yi3 gu1 wei1。
 - 足下上畏太后之嚴，下惑奸臣之態，居深宮之中，不離保傅之手，終身闇惑，無與照奸，大者宗廟滅覆，小者身以孤危。
 - ci3 chen2 zhi1 suo3 kong3 er3！

@@ -21,8 +21,10 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - ”今觀其文章，寬厚宏博，充乎天地之間，稱其氣之小大。
 - tai4 shi3 gong1 xing2 tian1 xia4 ， zhou1 lan3 si4 hai3 ming2 shan1 da4 chuan1 ， yu3 yan4 、 zhao4 jian4 hao2 jun4 jiao1 you2 ， gu4 qi2 wen2 shu1 dang4 ， po1 you3 qi2 qi4。
 - 太史公行天下，周覽四海名山大川，與燕、趙間豪俊交遊，故其文疏蕩，頗有奇氣。
-- ci3 er4 zi3 zhe3 ， qi3 chang2 zhi2 bi3 xue2 wei2 ru2 ci3 zhi1 wen2 zai1 ？ qi2 qi4 chong1 hu1 qi2 zhong1 er2 yi4 hu1 qi2 mao4 ， dong4 hu1 qi2 yan2 er2 jian4 hu1 qi2 wen2 ， er2 bu2 zi4 zhi1 ye3。
-- 此二子者，豈嘗執筆學爲如此之文哉？其氣充乎其中而溢乎其貌，動乎其言而見乎其文，而不自知也。
+- ci3 er4 zi3 zhe3 ， qi3 chang2 zhi2 bi3 xue2 wei2 ru2 ci3 zhi1 wen2 zai1？
+- 此二子者，豈嘗執筆學爲如此之文哉？
+- qi2 qi4 chong1 hu1 qi2 zhong1 er2 yi4 hu1 qi2 mao4 ， dong4 hu1 qi2 yan2 er2 jian4 hu1 qi2 wen2 ， er2 bu2 zi4 zhi1 ye3。
+- 其氣充乎其中而溢乎其貌，動乎其言而見乎其文，而不自知也。
 - zhe2 sheng1 shi2 you3 jiu3 nian2 yi3。
 - 轍生十有九年矣。
 - qi2 ju1 jia1 suo3 yu3 you2 zhe3 ， bu2 guo4 qi2 lin2 li3 xiang1 dang3 zhi1 ren2；
@@ -43,8 +45,10 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 太尉以才略冠天下，天下之所恃以無憂，四夷之所憚以不敢發，入則周公、召公，出則方叔、召虎。
 - er2 zhe2 ye3 wei4 zhi1 jian4 yan1。
 - 而轍也未之見焉。
-- qie3 fu1 ren2 zhi1 xue2 ye3 ， bu2 zhi4 qi2 da4 ， sui1 duo1 er2 he2 wei2 ？ zhe2 zhi1 lai2 ye3 ， yu2 shan1 jian4 zhong1 nan2 、 song1 、 hua2 zhi1 gao1 ， wu1 shui3 jian4 huang2 he2 zhi1 da4 qie3 shen1 ， wu1 ren2 jian4 ou1 yang2 gong1 ， er2 you2 yi3 wei2 wei4 jian4 tai4 wei4 ye3。
-- 且夫人之學也，不志其大，雖多而何爲？轍之來也，于山見終南、嵩、華之高，於水見黃河之大且深，於人見歐陽公，而猶以爲未見太尉也。
+- qie3 fu1 ren2 zhi1 xue2 ye3 ， bu2 zhi4 qi2 da4 ， sui1 duo1 er2 he2 wei2？
+- 且夫人之學也，不志其大，雖多而何爲？
+- zhe2 zhi1 lai2 ye3 ， yu2 shan1 jian4 zhong1 nan2 、 song1 、 hua2 zhi1 gao1 ， wu1 shui3 jian4 huang2 he2 zhi1 da4 qie3 shen1 ， wu1 ren2 jian4 ou1 yang2 gong1 ， er2 you2 yi3 wei2 wei4 jian4 tai4 wei4 ye3。
+- 轍之來也，于山見終南、嵩、華之高，於水見黃河之大且深，於人見歐陽公，而猶以爲未見太尉也。
 - gu4 yuan4 de2 guan1 xian2 ren2 zhi1 guang1 yao4 ， wen2 yi4 yan2 yi3 zi4 zhuang4 ， ran2 hou4 ke3 yi3 jin4 tian1 xia4 zhi1 da4 guan1 er2 wu2 han4 zhe3 yi3。
 - 故願得觀賢人之光耀，聞一言以自壯，然後可以盡天下之大觀而無憾者矣。
 - zhe2 nian2 shao4 ， wei4 neng2 tong1 xi2 li4 shi4。

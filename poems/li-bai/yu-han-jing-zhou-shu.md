@@ -41,7 +41,7 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 必若接之以高宴，縱之以清談，請日試萬言，倚馬可待。
 - jin1 tian1 xia4 yi3 jun1 hou2 wei2 wen2 zhang1 zhi1 si1 ming4 ， ren2 wu4 zhi1 quan2 heng2 ， yi4 jing1 pin3 ti2 ， bian4 zuo4 jia1 shi4。
 - 今天下以君侯爲文章之司命，人物之權衡，一經品題，便作佳士。
-- er2 jun1 hou2 he2 xi1 jie1 qian2 ying2 chi3 zhi1 di4 ， bu4 shi3 bai2 yang2 mei2 tu3 qi4 ， ji1 ang2 qing1 yun2 ye1 ？
+- er2 jun1 hou2 he2 xi1 jie1 qian2 ying2 chi3 zhi1 di4 ， bu4 shi3 bai2 yang2 mei2 tu3 qi4 ， ji1 ang2 qing1 yun2 ye1？
 - 而君侯何惜階前盈尺之地，不使白揚眉吐氣，激昂青雲耶？
 - xi1 wang2 zi3 shi1 wei2 yu4 zhou1 ， wei4 xia4 ju1 ， ji2 pi4 xun2 ci2 ming2 ， ji4 xia4 ju1 ， you4 pi4 kong3 wen2 ju3；
 - 昔王子師爲豫州，未下車，即闢荀慈明，既下車，又闢孔文舉；
@@ -53,8 +53,12 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 白每觀其銜恩撫躬，忠義奮發，以此感激，知君侯推赤心於諸賢腹中，所以不歸他人，而願委身國士。
 - tang3 ji2 nan2 you3 yong4 ， gan3 xiao4 wei1 qu1。
 - 儻急難有用，敢效微軀。
-- qie3 ren2 fei1 yao2 shun4 ， shui2 neng2 jin4 shan4 ？ bai2 mo2 you2 chou2 hua4 ， an1 neng2 zi4 jin1 ？ zhi4 wu1 zhi4 zuo4 ， ji1 cheng2 juan4 zhou2 ， ze2 yu4 chen2 hui4 shi4 ting1。
-- 且人非堯舜，誰能盡善？白謨猷籌畫，安能自矜？至於製作，積成卷軸，則欲塵穢視聽。
+- qie3 ren2 fei1 yao2 shun4 ， shui2 neng2 jin4 shan4？
+- 且人非堯舜，誰能盡善？
+- bai2 mo2 you2 chou2 hua4 ， an1 neng2 zi4 jin1？
+- 白謨猷籌畫，安能自矜？
+- zhi4 wu1 zhi4 zuo4 ， ji1 cheng2 juan4 zhou2 ， ze2 yu4 chen2 hui4 shi4 ting1。
+- 至於製作，積成卷軸，則欲塵穢視聽。
 - kong3 diao1 chong2 xiao3 ji4 ， bu4 he2 da4 ren2。
 - 恐雕蟲小技，不合大人。
 - ruo4 ci4 guan1 chu2 rao2 ， qing3 gei3 zhi3 mo4 ， jian1 zhi1 shu1 ren2 ， ran2 hou4 tui4 sao3 xian2 xuan1 ， shan4 xie3 cheng2 shang4。

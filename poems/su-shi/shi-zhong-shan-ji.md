@@ -25,7 +25,7 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 自以爲得之矣。
 - ran2 shi4 shuo1 ye3 ， yu2 you2 yi2 zhi1。
 - 然是說也，餘尤疑之。
-- shi2 zhi1 keng1 ran2 you3 sheng1 zhe3 ， suo3 zai4 jie1 shi4 ye3 ， er2 ci3 du2 yi3 zhong1 ming2 ， he2 zai1 ？
+- shi2 zhi1 keng1 ran2 you3 sheng1 zhe3 ， suo3 zai4 jie1 shi4 ye3 ， er2 ci3 du2 yi3 zhong1 ming2 ， he2 zai1？
 - 石之鏗然有聲者，所在皆是也，而此獨以鍾名，何哉？
 - yuan2 feng1 qi1 nian2 liu4 yue4 ding1 chou3 ， yu2 zi4 qi2 an1 zhou1 xing2 shi4 lin2 ru3 ， er2 chang2 zi3 mai4 jiang1 fu4 rao2 zhi1 de2 xing1 wei4 ， song4 zhi1 zhi4 hu2 kou3 ， yin1 de2 guan1 suo3 wei4 shi2 zhong1 zhe3。
 - 元豐七年六月丁丑，餘自齊安舟行適臨汝，而長子邁將赴饒之德興尉，送之至湖口，因得觀所謂石鍾者。
@@ -49,16 +49,20 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 徐而察之，則山下皆石穴罅，不知其淺深，微波入焉，涵淡澎湃而爲此也。
 - zhou1 hui2 zhi4 liang3 shan1 jian4 ， jiang1 ru4 gang3 kou3 ， you3 da4 shi2 dang1 zhong1 liu2 ， ke3 zuo4 bai3 ren2 ， kong1 zhong1 er2 duo1 qiao4 ， yu3 feng1 shui3 xiang1 tun1 tu3 ， you3 kuan3 kan3 tang1 ta4 zhi1 sheng1 ， yu3 xiang4 zhi1 ceng1 hong2 zhe3 xiang1 ying1 ， ru2 le4 zuo4 yan1。
 - 舟回至兩山間，將入港口，有大石當中流，可坐百人，空中而多竅，與風水相吞吐，有窾坎鏜鞳之聲，與向之噌吰者相應，如樂作焉。
-- yin1 xiao4 wei4 mai4 yue1 ： “ ru3 shi2 zhi1 hu1 ？ ceng1 hong2 zhe3 ， zhou1 jing3 wang2 zhi1 wu2 she4 ye3；
-- 因笑謂邁曰：“汝識之乎？噌吰者，周景王之無射也；
+- yin1 xiao4 wei4 mai4 yue1 ： “ ru3 shi2 zhi1 hu1？
+- 因笑謂邁曰：“汝識之乎？
+- ceng1 hong2 zhe3 ， zhou1 jing3 wang2 zhi1 wu2 she4 ye3；
+- 噌吰者，周景王之無射也；
 - kuan3 kan3 tang1 ta4 zhe3 ， wei4 zhuang1 zi3 zhi1 ge1 zhong1 ye3。
 - 窾坎鏜鞳者，魏莊子之歌鐘也。
 - gu3 zhi1 ren2 bu4 yu2 qi1 ye3！
 - 古之人不餘欺也！
 - ”
 - ”
-- shi4 bu2 mu4 jian4 er3 wen2 ， er2 yi4 duan4 qi2 you3 wu2 ， ke3 hu1 ？ li4 yuan2 zhi1 suo3 jian4 wen2 ， dai4 yu3 yu2 tong2 ， er2 yan2 zhi1 bu4 xiang2；
-- 事不目見耳聞，而臆斷其有無，可乎？酈元之所見聞，殆與餘同，而言之不詳；
+- shi4 bu2 mu4 jian4 er3 wen2 ， er2 yi4 duan4 qi2 you3 wu2 ， ke3 hu1？
+- 事不目見耳聞，而臆斷其有無，可乎？
+- li4 yuan2 zhi1 suo3 jian4 wen2 ， dai4 yu3 yu2 tong2 ， er2 yan2 zhi1 bu4 xiang2；
+- 酈元之所見聞，殆與餘同，而言之不詳；
 - shi4 da4 fu1 zhong1 bu4 ken3 yi3 xiao3 zhou1 ye4 bo2 jue2 bi4 zhi1 xia4 ， gu4 mo4 neng2 zhi1；
 - 士大夫終不肯以小舟夜泊絕壁之下，故莫能知；
 - er2 yu2 gong1 shui3 shi1 sui1 zhi1 er2 bu4 neng2 yan2。

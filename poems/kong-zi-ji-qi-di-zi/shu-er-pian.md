@@ -15,8 +15,10 @@ tags: []
 - 子曰：“述而不作，信而好古，窃比于我老彭。
 - ”
 - ”
-- zi3 yue1 ： “ mo4 er2 shi2 zhi1 ， xue2 er2 bu2 yan4 ， hui4 ren2 bu2 juan4 ， he2 you3 yu2 wo3 zai1 ？ ”
-- 子曰：“默而识之，学而不厌，诲人不倦，何有于我哉？”
+- zi3 yue1 ： “ mo4 er2 shi2 zhi1 ， xue2 er2 bu2 yan4 ， hui4 ren2 bu2 juan4 ， he2 you3 yu2 wo3 zai1？
+- 子曰：“默而识之，学而不厌，诲人不倦，何有于我哉？
+- ”
+- ”
 - zi3 yue1 ： “ de2 zhi1 bu4 xiu1 ， xue2 zhi1 bu4 jiang3 ， wen2 yi4 bu4 neng2 xi3 ， bu2 shan4 bu4 neng2 gai3 ， shi4 wu2 you1 ye3。
 - 子曰：“德之不修，学之不讲，闻义不能徙，不善不能改，是吾忧也。
 - ”
@@ -47,8 +49,10 @@ tags: []
 - 子于是日哭，则不歌。
 - zi3 wei4 yan2 yuan1 yue1 ： “ yong4 zhi1 ze2 xing2 ， she4 zhi1 ze2 cang2 ， wei2 wo3 yu3 er3 you3 shi4 fu1！
 - 子谓颜渊曰：“用之则行，舍之则藏，惟我与尔有是夫！
-- ” zi3 lu4 yue1 ： “ zi3 xing2 san1 jun1 ， ze2 shui2 yu3 ？ ” zi3 yue1 ： “ bao4 hu3 ping2 he2 ， si3 er2 wu2 hui3 zhe3 ， wu2 bu4 yu3 ye3。
-- ”子路曰：“子行三军，则谁与？”子曰：“暴虎冯河，死而无悔者，吾不与也。
+- ” zi3 lu4 yue1 ： “ zi3 xing2 san1 jun1 ， ze2 shui2 yu3？
+- ”子路曰：“子行三军，则谁与？
+- ” zi3 yue1 ： “ bao4 hu3 ping2 he2 ， si3 er2 wu2 hui3 zhe3 ， wu2 bu4 yu3 ye3。
+- ”子曰：“暴虎冯河，死而无悔者，吾不与也。
 - bi4 ye3 lin2 shi4 er2 ju4 ， hao3 mou2 er2 cheng2 zhe3 ye3。
 - 必也临事而惧，好谋而成者也。
 - ”
@@ -65,12 +69,20 @@ tags: []
 - 子在齐闻《韶》，三月不知肉味，曰：“不图为乐之至于斯也。
 - ”
 - ”
-- ran3 you3 yue1 ： “ fu1 zi3 wei4 wei4 jun1 hu1 ？ ” zi3 gong4 yue1 ： “ nuo4 ， wu2 jiang1 wen4 zhi1。
-- 冉有曰：“夫子为卫君乎？”子贡曰：“诺，吾将问之。
-- ” ru4 ， yue1 ： “ bo2 yi2 、 shu1 qi2 he2 ren2 ye3 ？ ” yue1 ： “ gu3 zhi1 xian2 ren2 ye3。
-- ”入，曰：“伯夷、叔齐何人也？”曰：“古之贤人也。
-- ” yue1 ： “ yuan4 hu1 ？ ” yue1 ： “ qiu2 ren2 er2 de2 ren2 ， you4 he2 yuan4 ？ ” chu1 ， yue1 ： “ fu1 zi3 bu2 wei4 ye3。
-- ”曰：“怨乎？”曰：“求仁而得仁，又何怨？”出，曰：“夫子不为也。
+- ran3 you3 yue1 ： “ fu1 zi3 wei4 wei4 jun1 hu1？
+- 冉有曰：“夫子为卫君乎？
+- ” zi3 gong4 yue1 ： “ nuo4 ， wu2 jiang1 wen4 zhi1。
+- ”子贡曰：“诺，吾将问之。
+- ” ru4 ， yue1 ： “ bo2 yi2 、 shu1 qi2 he2 ren2 ye3？
+- ”入，曰：“伯夷、叔齐何人也？
+- ” yue1 ： “ gu3 zhi1 xian2 ren2 ye3。
+- ”曰：“古之贤人也。
+- ” yue1 ： “ yuan4 hu1？
+- ”曰：“怨乎？
+- ” yue1 ： “ qiu2 ren2 er2 de2 ren2 ， you4 he2 yuan4？
+- ”曰：“求仁而得仁，又何怨？
+- ” chu1 ， yue1 ： “ fu1 zi3 bu2 wei4 ye3。
+- ”出，曰：“夫子不为也。
 - ”
 - ”
 - zi3 yue1 ： “ fan4 shu1 shi2 yin3 shui3 ， qu1 gong1 er2 zhen3 zhi1 ， le4 yi4 zai4 qi2 zhong1 yi3。
@@ -103,10 +115,14 @@ tags: []
 - 择其善者而从之，其不善者而改之。
 - ”
 - ”
-- zi3 yue1 ： “ tian1 sheng1 de2 yu2 yu3 ， huan2 tui2 qi2 ru2 yu3 he2 ？ ”
-- 子曰：“天生德于予，桓魋其如予何？”
-- zi3 yue1 ： “ er4 san1 zi3 yi3 wo3 wei4 yin3 hu1 ？ wu2 wu2 yin3 hu1 er3！
-- 子曰：“二三子以我为隐乎？吾无隐乎尔！
+- zi3 yue1 ： “ tian1 sheng1 de2 yu2 yu3 ， huan2 tui2 qi2 ru2 yu3 he2？
+- 子曰：“天生德于予，桓魋其如予何？
+- ”
+- ”
+- zi3 yue1 ： “ er4 san1 zi3 yi3 wo3 wei4 yin3 hu1？
+- 子曰：“二三子以我为隐乎？
+- wu2 wu2 yin3 hu1 er3！
+- 吾无隐乎尔！
 - wu2 wu2 xing2 er2 bu4 yu3 er4 san1 zi3 zhe3 ， shi4 qiu1 ye3。
 - 吾无行而不与二三子者，是丘也。
 - ”
@@ -135,20 +151,30 @@ tags: []
 - ”
 - hu4 xiang1 nan2 yu3 yan2 ， tong2 zi3 jian4 ， men2 ren2 huo4。
 - 互乡难与言，童子见，门人惑。
-- zi3 yue1 ： “ yu3 qi2 jin4 ye3 ， bu4 yu3 qi2 tui4 ye3 ， wei2 he2 shen4 ？ ren2 jie2 ji3 yi3 jin4 ， yu3 qi2 jie2 ye3 ， bu4 bao3 qi2 wang3 ye3。
-- 子曰：“与其进也，不与其退也，唯何甚？人洁己以进，与其洁也，不保其往也。
+- zi3 yue1 ： “ yu3 qi2 jin4 ye3 ， bu4 yu3 qi2 tui4 ye3 ， wei2 he2 shen4？
+- 子曰：“与其进也，不与其退也，唯何甚？
+- ren2 jie2 ji3 yi3 jin4 ， yu3 qi2 jie2 ye3 ， bu4 bao3 qi2 wang3 ye3。
+- 人洁己以进，与其洁也，不保其往也。
 - ”
 - ”
-- zi3 yue1 ： “ ren2 yuan3 hu1 zai1 ？ wo3 yu4 ren2 ， si1 ren2 zhi4 yi3。
-- 子曰：“仁远乎哉？我欲仁，斯仁至矣。
+- zi3 yue1 ： “ ren2 yuan3 hu1 zai1？
+- 子曰：“仁远乎哉？
+- wo3 yu4 ren2 ， si1 ren2 zhi4 yi3。
+- 我欲仁，斯仁至矣。
 - ”
 - ”
-- chen2 si1 bai4 wen4 ： “ zhao1 gong1 zhi1 li3 hu1 ？ ” kong3 zi3 yue1 ： “ zhi1 li3。
-- 陈司败问：“昭公知礼乎？”孔子曰：“知礼。
-- ” kong3 zi3 tui4 ， yi1 wu1 ma3 qi1 er2 jin4 zhi1 ， yue1 ： “ wu2 wen2 jun1 zi3 bu4 dang3 ， jun1 zi3 yi4 dang3 hu1 ？ jun1 qu3 yu2 wu2 ， wei4 tong2 xing4 ， wei4 zhi1 wu2 meng4 zi3。
-- ”孔子退，揖巫马期而进之，曰：“吾闻君子不党，君子亦党乎？君取于吴，为同姓，谓之吴孟子。
-- jun1 er2 zhi1 li3 ， shu2 bu4 zhi1 li3 ？ ” wu1 ma3 qi1 yi3 gao4 ， zi3 yue1 ： “ qiu1 ye3 xing4 ， gou3 you3 guo4 ， ren2 bi4 zhi1 zhi1。
-- 君而知礼，孰不知礼？”巫马期以告，子曰：“丘也幸，苟有过，人必知之。
+- chen2 si1 bai4 wen4 ： “ zhao1 gong1 zhi1 li3 hu1？
+- 陈司败问：“昭公知礼乎？
+- ” kong3 zi3 yue1 ： “ zhi1 li3。
+- ”孔子曰：“知礼。
+- ” kong3 zi3 tui4 ， yi1 wu1 ma3 qi1 er2 jin4 zhi1 ， yue1 ： “ wu2 wen2 jun1 zi3 bu4 dang3 ， jun1 zi3 yi4 dang3 hu1？
+- ”孔子退，揖巫马期而进之，曰：“吾闻君子不党，君子亦党乎？
+- jun1 qu3 yu2 wu2 ， wei4 tong2 xing4 ， wei4 zhi1 wu2 meng4 zi3。
+- 君取于吴，为同姓，谓之吴孟子。
+- jun1 er2 zhi1 li3 ， shu2 bu4 zhi1 li3？
+- 君而知礼，孰不知礼？
+- ” wu1 ma3 qi1 yi3 gao4 ， zi3 yue1 ： “ qiu1 ye3 xing4 ， gou3 you3 guo4 ， ren2 bi4 zhi1 zhi1。
+- ”巫马期以告，子曰：“丘也幸，苟有过，人必知之。
 - ”
 - ”
 - zi3 yu3 ren2 ge1 er2 shan4 ， bi4 shi3 fan3 zhi1 ， er2 hou4 he2 zhi1。
@@ -159,16 +185,20 @@ tags: []
 - 躬行君子，则吾未之有得。
 - ”
 - ”
-- zi3 yue1 ： “ ruo4 sheng4 yu3 ren2 ， ze2 wu2 qi3 gan3 ？ yi4 wei4 zhi1 bu2 yan4 ， hui4 ren2 bu2 juan4 ， ze2 ke3 wei4 yun2 er3 yi3 yi3。
-- 子曰：“若圣与仁，则吾岂敢？抑为之不厌，诲人不倦，则可谓云尔已矣。
+- zi3 yue1 ： “ ruo4 sheng4 yu3 ren2 ， ze2 wu2 qi3 gan3？
+- 子曰：“若圣与仁，则吾岂敢？
+- yi4 wei4 zhi1 bu2 yan4 ， hui4 ren2 bu2 juan4 ， ze2 ke3 wei4 yun2 er3 yi3 yi3。
+- 抑为之不厌，诲人不倦，则可谓云尔已矣。
 - ” gong1 xi1 hua2 yue1 ： “ zheng4 wei2 di4 zi3 bu4 neng2 xue2 ye3。
 - ”公西华曰：“正唯弟子不能学也。
 - ”
 - ”
 - zi3 ji2 bing4 ， zi3 lu4 qing3 dao3。
 - 子疾病，子路请祷。
-- zi3 yue1 ： “ you3 zhu1 ？ ” zi3 lu4 dui4 yue1 ： “ you3 zhi1。
-- 子曰：“有诸？”子路对曰：“有之。
+- zi3 yue1 ： “ you3 zhu1？
+- 子曰：“有诸？
+- ” zi3 lu4 dui4 yue1 ： “ you3 zhi1。
+- ”子路对曰：“有之。
 - 《 lei3 》 yue1 ： ‘ dao3 er3 yu2 shang4 xia4 shen2 qi2。
 - 《诔》曰：‘祷尔于上下神祇。
 - ’ ” zi3 yue1 ： “ qiu1 zhi1 dao3 jiu3 yi3。

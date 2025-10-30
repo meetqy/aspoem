@@ -57,8 +57,10 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 有志與力，而又不隨以怠，至於幽暗昏惑而無物以相之，亦不能至也。
 - ran2 li4 zu2 yi3 zhi4 yan1 ， wu1 ren2 wei2 ke3 ji1 ， er2 zai4 ji3 wei2 you3 hui3；
 - 然力足以至焉，於人爲可譏，而在己爲有悔；
-- jin4 wu2 zhi4 ye3 er2 bu4 neng2 zhi4 zhe3 ， ke3 yi3 wu2 hui3 yi3 ， qi2 shu2 neng2 ji1 zhi1 hu1 ？ ci3 yu2 zhi1 suo3 de2 ye3！
-- 盡吾志也而不能至者，可以無悔矣，其孰能譏之乎？此餘之所得也！
+- jin4 wu2 zhi4 ye3 er2 bu4 neng2 zhi4 zhe3 ， ke3 yi3 wu2 hui3 yi3 ， qi2 shu2 neng2 ji1 zhi1 hu1？
+- 盡吾志也而不能至者，可以無悔矣，其孰能譏之乎？
+- ci3 yu2 zhi1 suo3 de2 ye3！
+- 此餘之所得也！
 - yu2 wu1 pu2 bei1 ， you4 yi3 bei1 fu1 gu3 shu1 zhi1 bu4 cun2 ， hou4 shi4 zhi1 miu4 qi2 chuan2 er2 mo4 neng2 ming2 zhe3 ， he2 ke3 sheng4 dao4 ye3 zai1！
 - 餘於僕碑，又以悲夫古書之不存，後世之謬其傳而莫能名者，何可勝道也哉！
 - ci3 suo3 yi3 xue2 zhe3 bu4 ke3 yi3 bu4 shen1 si1 er2 shen4 qu3 zhi1 ye3。

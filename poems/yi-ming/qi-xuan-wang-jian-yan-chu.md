@@ -21,14 +21,22 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 左右曰：“王，人君也。
 - chu4 ， ren2 chen2 ye3。
 - 斶，人臣也。
-- wang2 yue1 ‘ chu4 qian2 ’ ， yi4 yue1 ‘ wang2 qian2 ’ ， ke3 hu1 ？ ” chu4 dui4 yue1 ： “ fu1 chu4 qian2 wei2 mu4 shi4 ， wang2 qian2 wei2 qu1 shi4。
-- 王曰‘斶前’，亦曰‘王前’，可乎？”斶對曰：“夫斶前爲慕勢，王前爲趨士。
+- wang2 yue1 ‘ chu4 qian2 ’ ， yi4 yue1 ‘ wang2 qian2 ’ ， ke3 hu1？
+- 王曰‘斶前’，亦曰‘王前’，可乎？
+- ” chu4 dui4 yue1 ： “ fu1 chu4 qian2 wei2 mu4 shi4 ， wang2 qian2 wei2 qu1 shi4。
+- ”斶對曰：“夫斶前爲慕勢，王前爲趨士。
 - yu3 shi3 chu4 wei2 mu4 shi4 ， bu4 ru2 shi3 wang2 wei2 qu1 shi4。
 - 與使斶爲慕勢，不如使王爲趨士。
-- ” wang2 fen4 ran2 zuo4 se4 yue1 ： “ wang2 zhe3 gui4 hu1 ？ shi4 gui4 hu1 ？ ” dui4 yue1 ： “ shi4 gui4 er3 ， wang2 zhe3 bu2 gui4。
-- ”王忿然作色曰：“王者貴乎？士貴乎？”對曰：“士貴耳，王者不貴。
-- ” wang2 yue1 ： “ you3 shuo1 hu1 ？ ” chu4 yue1 ： “ you3。
-- ”王曰：“有說乎？”斶曰：“有。
+- ” wang2 fen4 ran2 zuo4 se4 yue1 ： “ wang2 zhe3 gui4 hu1？
+- ”王忿然作色曰：“王者貴乎？
+- shi4 gui4 hu1？
+- 士貴乎？
+- ” dui4 yue1 ： “ shi4 gui4 er3 ， wang2 zhe3 bu2 gui4。
+- ”對曰：“士貴耳，王者不貴。
+- ” wang2 yue1 ： “ you3 shuo1 hu1？
+- ”王曰：“有說乎？
+- ” chu4 yue1 ： “ you3。
+- ”斶曰：“有。
 - xi1 zhe3 qin2 gong1 qi2 ， ling4 yue1 ： ‘ you3 gan3 qu4 liu3 xia4 ji4 long3 wu3 shi2 bu4 er2 qiao2 cai3 zhe3 ， si3 bu2 she4。
 - 昔者秦攻齊，令曰：‘有敢去柳下季壟五十步而樵採者，死不赦。
 - ’ ling4 yue1 ： ‘ you3 neng2 de2 qi2 wang2 tou2 zhe3 ， feng1 wan4 hu4 hou2 ， ci4 jin1 qian1 yi4。
@@ -57,16 +65,22 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 斶對曰：“不然。
 - chu4 wen2 gu3 da4 yu3 zhi1 shi2 ， zhu1 hou2 wan4 guo2。
 - 斶聞古大禹之時，諸侯萬國。
-- he2 ze2 ？ de2 hou4 zhi1 dao4 ， de2 gui4 shi4 zhi1 li4 ye3。
-- 何則？德厚之道，得貴士之力也。
+- he2 ze2？
+- 何則？
+- de2 hou4 zhi1 dao4 ， de2 gui4 shi4 zhi1 li4 ye3。
+- 德厚之道，得貴士之力也。
 - gu4 shun4 qi3 nong2 mu3 ， chu1 wu1 yue4 bi3 ， er2 wei2 tian1 zi3。
 - 故舜起農畝，出於嶽鄙，而爲天子。
 - ji2 tang1 zhi1 shi2 ， zhu1 hou2 san1 qian1。
 - 及湯之時，諸侯三千。
 - dang1 jin1 zhi1 shi4 ， nan2 mian4 cheng1 gua3 zhe3 ， nai3 er4 shi2 si4。
 - 當今之世，南面稱寡者，乃二十四。
-- you2 ci3 guan1 zhi1 ， fei1 dei3 shi1 zhi1 ce4 yu3 ？ shao1 shao1 zhu1 mie4 ， mie4 wang2 wu2 zu2 zhi1 shi2 ， yu4 wei2 jian1 men2 、 lü2 li3 ， an1 ke3 de2 er2 you3 hu1 zai1 ？ shi4 gu4 《 yi4 chuan2 》 bu4 yun2 hu1。
-- 由此觀之，非得失之策與？稍稍誅滅，滅亡無族之時，欲爲監門、閭里，安可得而有乎哉？是故《易傳》不云乎。
+- you2 ci3 guan1 zhi1 ， fei1 dei3 shi1 zhi1 ce4 yu3？
+- 由此觀之，非得失之策與？
+- shao1 shao1 zhu1 mie4 ， mie4 wang2 wu2 zu2 zhi1 shi2 ， yu4 wei2 jian1 men2 、 lü2 li3 ， an1 ke3 de2 er2 you3 hu1 zai1？
+- 稍稍誅滅，滅亡無族之時，欲爲監門、閭里，安可得而有乎哉？
+- shi4 gu4 《 yi4 chuan2 》 bu4 yun2 hu1。
+- 是故《易傳》不云乎。
 - ’ ju1 shang4 wei4 ， wei4 de2 qi2 shi2 ， yi3 xi3 qi2 wei2 ming2 zhe3 ， bi4 yi3 jiao1 she1 wei2 xing2。
 - ’居上位，未得其實，以喜其爲名者，必以驕奢爲行。
 - ju4 man4 jiao1 she1 ， ze2 xiong1 zhong1 zhi1。
@@ -93,8 +107,12 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 老子曰：‘雖貴，必以賤爲本；
 - sui1 gao1 ， bi4 yi3 xia4 wei2 ji1。
 - 雖高，必以下爲基。
-- shi4 yi3 hou2 wang2 cheng1 gu1 gua3 bu4 gu3 ， shi4 qi2 jian4 bi4 ben3 wu1 ？ ’ fei1 fu1 gu1 gua3 zhe3 ， ren2 zhi1 kun4 jian4 xia4 wei4 ye3 ， er2 hou2 wang2 yi3 zi4 wei4 ， qi3 fei1 xia4 ren2 er2 zun1 gui4 shi4 yu3 ？ fu1 yao2 chuan2 shun4 ， shun4 chuan2 fu4 yu3 ， zhou1 cheng2 wang2 ren4 zhou1 gong1 dan4 ， er2 shi4 shi4 cheng1 yue1 ming2 zhu3 ， shi4 yi3 ming2 hu1 shi4 zhi1 gui4 ye3。
-- 是以侯王稱孤寡不穀，是其賤必本於？’非夫孤寡者，人之困賤下位也，而侯王以自謂，豈非下人而尊貴士與？夫堯傳舜，舜傳傅禹，周成王任周公旦，而世世稱曰明主，是以明乎士之貴也。
+- shi4 yi3 hou2 wang2 cheng1 gu1 gua3 bu4 gu3 ， shi4 qi2 jian4 bi4 ben3 wu1？
+- 是以侯王稱孤寡不穀，是其賤必本於？
+- ’ fei1 fu1 gu1 gua3 zhe3 ， ren2 zhi1 kun4 jian4 xia4 wei4 ye3 ， er2 hou2 wang2 yi3 zi4 wei4 ， qi3 fei1 xia4 ren2 er2 zun1 gui4 shi4 yu3？
+- ’非夫孤寡者，人之困賤下位也，而侯王以自謂，豈非下人而尊貴士與？
+- fu1 yao2 chuan2 shun4 ， shun4 chuan2 fu4 yu3 ， zhou1 cheng2 wang2 ren4 zhou1 gong1 dan4 ， er2 shi4 shi4 cheng1 yue1 ming2 zhu3 ， shi4 yi3 ming2 hu1 shi4 zhi1 gui4 ye3。
+- 夫堯傳舜，舜傳傅禹，周成王任周公旦，而世世稱曰明主，是以明乎士之貴也。
 - ”
 - ”
 - xuan1 wang2 yue1 ： “ jie1 hu1！

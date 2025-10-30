@@ -107,8 +107,10 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 弗謝，入閨。
 - jiu3 zhi1 ， yue4 shi2 fu4 qing3 jue2。
 - 久之，越石父請絕。
-- yan4 zi3 ju4 ran2 ， she4 yi1 guan1 xie4 yue1 ： “ ying1 sui1 bu4 ren2 ， mian3 zi3 wu1 si1 he2 zi3 qiu2 jue2 zhi1 su4 ye3 ？ ” shi2 fu4 yue1 ： “ bu4 ran2。
-- 晏子懼然，攝衣冠謝曰：“嬰雖不仁，免子於緦何子求絕之速也？”石父曰：“不然。
+- yan4 zi3 ju4 ran2 ， she4 yi1 guan1 xie4 yue1 ： “ ying1 sui1 bu4 ren2 ， mian3 zi3 wu1 si1 he2 zi3 qiu2 jue2 zhi1 su4 ye3？
+- 晏子懼然，攝衣冠謝曰：“嬰雖不仁，免子於緦何子求絕之速也？
+- ” shi2 fu4 yue1 ： “ bu4 ran2。
+- ”石父曰：“不然。
 - wu2 wen2 jun1 zi3 qu1 wu1 bu4 zhi1 ji3 er2 xin4 wu1 zhi1 ji3 zhe3。
 - 吾聞君子詘於不知己而信於知己者。
 - fang1 wu2 zai4 lei2 xie4 zhong1 ， bi3 bu4 zhi1 wo3 ye3。
@@ -147,12 +149,16 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 至其書，世多有之，是以不論，論其軼事。
 - guan3 zhong4 shi4 suo3 wei4 xian2 chen2 ， ran2 kong3 zi3 xiao3 zhi1。
 - 管仲世所謂賢臣，然孔子小之。
-- qi3 yi3 wei2 zhou1 dao4 shuai1 wei1 ， huan2 gong1 ji4 xian2 ， er2 bu4 mian3 zhi1 zhi4 wang2 ， nai3 cheng1 ba4 zai1 ？ yu3 yue1 “ jiang1 shun4 qi2 mei3 ， kuang1 jiu4 qi2 e4 ， gu4 shang4 xia4 neng2 xiang1 qin1 ye3 ”。
-- 豈以爲周道衰微，桓公既賢，而不勉之至王，乃稱霸哉？語曰“將順其美，匡救其惡，故上下能相親也”。
-- qi3 guan3 zhong4 zhi1 wei4 hu1 ？
+- qi3 yi3 wei2 zhou1 dao4 shuai1 wei1 ， huan2 gong1 ji4 xian2 ， er2 bu4 mian3 zhi1 zhi4 wang2 ， nai3 cheng1 ba4 zai1？
+- 豈以爲周道衰微，桓公既賢，而不勉之至王，乃稱霸哉？
+- yu3 yue1 “ jiang1 shun4 qi2 mei3 ， kuang1 jiu4 qi2 e4 ， gu4 shang4 xia4 neng2 xiang1 qin1 ye3 ”。
+- 語曰“將順其美，匡救其惡，故上下能相親也”。
+- qi3 guan3 zhong4 zhi1 wei4 hu1？
 - 豈管仲之謂乎？
-- fang1 yan4 zi3 fu2 zhuang1 gong1 shi1 ku1 zhi1 ， cheng2 li3 ran2 hou4 qu4 ， qi3 suo3 wei4 “ jian4 yi4 bu4 wei2 wu2 yong3 ” zhe3 xie2 ？ zhi4 qi2 jian4 shuo1 ， fan4 jun1 zhi1 yan2 ， ci3 suo3 wei4 “ jin4 si1 jin4 zhong1 ， tui4 si1 bu3 guo4 ” zhe3 zai1！
-- 方晏子伏莊公屍哭之，成禮然後去，豈所謂“見義不爲無勇”者邪？至其諫說，犯君之顏，此所謂“進思盡忠，退思補過”者哉！
+- fang1 yan4 zi3 fu2 zhuang1 gong1 shi1 ku1 zhi1 ， cheng2 li3 ran2 hou4 qu4 ， qi3 suo3 wei4 “ jian4 yi4 bu4 wei2 wu2 yong3 ” zhe3 xie2？
+- 方晏子伏莊公屍哭之，成禮然後去，豈所謂“見義不爲無勇”者邪？
+- zhi4 qi2 jian4 shuo1 ， fan4 jun1 zhi1 yan2 ， ci3 suo3 wei4 “ jin4 si1 jin4 zhong1 ， tui4 si1 bu3 guo4 ” zhe3 zai1！
+- 至其諫說，犯君之顏，此所謂“進思盡忠，退思補過”者哉！
 - jia3 ling4 yan4 zi3 er2 zai4 ， yu2 sui1 wei2 zhi1 zhi2 bian1 ， suo3 xin1 mu4 yan1。
 - 假令晏子而在，餘雖爲之執鞭，所忻慕焉。
 

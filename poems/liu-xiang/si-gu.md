@@ -65,7 +65,7 @@ tags: []
 - 乘白水而高骛兮，因徙弛而长词。
 - tan4 yue1 ：
 - 叹曰：
-- tang3 yang2 lu2 ban3 zhao3 shui3 shen1 xi1 ， rong2 yu3 han4 zhu3 ti4 yin2 yin2 xi1 ， zhong1 ya2 yi3 si3 shui2 wei4 sheng1 xi1 ？
+- tang3 yang2 lu2 ban3 zhao3 shui3 shen1 xi1 ， rong2 yu3 han4 zhu3 ti4 yin2 yin2 xi1 ， zhong1 ya2 yi3 si3 shui2 wei4 sheng1 xi1？
 - 倘佯垆阪沼水深兮，容与汉渚涕淫淫兮，锺牙已死谁为声兮？
 - xian1 a1 bu2 yu4 yan1 shu1 qing2 xi1 ， ceng2 ai1 qi1 xi1 xin1 li2 li2 xi1 ， hai2 gu4 gao1 qiu1 qi4 ru2 sa3 xi1。
 - 纤阿不御焉舒情兮，曾哀悽欷心离离兮，还顾高丘泣如洒兮。

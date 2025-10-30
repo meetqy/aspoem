@@ -44,8 +44,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - feng1 su2 yin3 shi2 yi4 yi2。
 - 風俗飲食異宜。
 - yi3 duo1 ji2 zhi1 ti3 ， you3 bu4 ping2 zhi1 xin1 ， ju1 yi4 yi2 zhi1 su2 ， qi2 neng2 yu4 yu4 yi3 jiu3 hu1 ? ran2 yu4 ping2 qi2 xin1 yi3 yang3 qi2 ji2 ， wu1 qin2 yi4 jiang1 you3 de2 yan1。
-- 以多疾之體，有不平之心，居異宜之俗，其能鬱郁以久乎？然欲平其心以養其疾，於琴亦將有得焉。
+- 以多疾之體，有不平之心，居異宜之俗，其能鬱郁以久乎？
 - gu4 yu3 zuo4 《 qin2 shuo1 》 yi3 zeng4 qi2 xing2 ， qie3 yao1 dao4 zi1 zhuo2 jiu3 ， jin4 qin2 yi3 wei2 bie2。
+- 然欲平其心以養其疾，於琴亦將有得焉。
+- 
 - 故予作《琴說》以贈其行，且邀道滋酌酒，進琴以爲別。
 
 ## 注释

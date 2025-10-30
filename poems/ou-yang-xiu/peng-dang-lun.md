@@ -17,8 +17,10 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 大凡君子與君子以同道爲朋，小人與小人以同利爲朋，此自然之理也。
 - ran2 chen2 wei4 xiao3 ren2 wu2 peng2 ， wei2 jun1 zi3 ze2 you3 zhi1。
 - 然臣謂小人無朋，惟君子則有之。
-- qi2 gu4 he2 zai1 ？ xiao3 ren2 suo3 hao3 zhe3 lu4 li4 ye3 ， suo3 tan1 zhe3 cai2 huo4 ye3。
-- 其故何哉？小人所好者祿利也，所貪者財貨也。
+- qi2 gu4 he2 zai1？
+- 其故何哉？
+- xiao3 ren2 suo3 hao3 zhe3 lu4 li4 ye3 ， suo3 tan1 zhe3 cai2 huo4 ye3。
+- 小人所好者祿利也，所貪者財貨也。
 - dang1 qi2 tong2 li4 zhi1 shi2 ， zan4 xiang1 dang3 yin3 yi3 wei2 peng2 zhe3 ， wei3 ye3；
 - 當其同利之時，暫相黨引以爲朋者，僞也；
 - ji2 qi2 jian4 li4 er2 zheng1 xian1 ， huo4 li4 jin4 er2 jiao1 shu1 ， ze2 fan3 xiang1 zei2 hai4 ， sui1 qi2 xiong1 di4 qin1 qi1 ， bu4 neng2 zi4 bao3。

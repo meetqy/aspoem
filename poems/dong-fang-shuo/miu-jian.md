@@ -11,9 +11,9 @@ tags: []
 
 ## 正文
 
-- yuan4 ling2 xiu1 zhi1 hao4 dang4 xi1 ， fu1 he2 zhi2 cao1 zhi1 bu2 gu4 ？
+- yuan4 ling2 xiu1 zhi1 hao4 dang4 xi1 ， fu1 he2 zhi2 cao1 zhi1 bu2 gu4？
 - 怨灵修之浩荡兮，夫何执操之不固？
-- bei1 tai4 shan1 zhi1 wei4 huang2 xi1 ， shu2 jiang1 he2 zhi1 ke3 he2 ？
+- bei1 tai4 shan1 zhi1 wei4 huang2 xi1 ， shu2 jiang1 he2 zhi1 ke3 he2？
 - 悲太山之为隍兮，孰江河之可涸？
 - yuan4 cheng2 xian2 er2 xiao4 zhi4 xi1 ， kong3 fan4 ji4 er2 gan1 hui4。
 - 愿承闲而效志兮，恐犯忌而干讳。
@@ -39,9 +39,9 @@ tags: []
 - 不量凿而正枘兮，恐矩矱之不同。
 - bu2 lun4 shi4 er2 gao1 ju3 xi1 ， kong3 cao1 xing2 zhi1 bu4 tiao2。
 - 不论世而高举兮，恐操行之不调。
-- hu2 gong1 chi2 er2 bu4 zhang1 xi1 ， shu2 yun2 zhi1 qi2 suo3 zhi4 ？
+- hu2 gong1 chi2 er2 bu4 zhang1 xi1 ， shu2 yun2 zhi1 qi2 suo3 zhi4？
 - 弧弓弛而不张兮，孰云知其所至？
-- wu2 qing1 wei1 zhi1 huan4 nan4 xi1 ， yan1 zhi1 xian2 shi4 zhi1 suo3 si3 ？
+- wu2 qing1 wei1 zhi1 huan4 nan4 xi1 ， yan1 zhi1 xian2 shi4 zhi1 suo3 si3？
 - 无倾危之患难兮，焉知贤士之所死？
 - su2 tui1 ning4 er2 jin4 fu4 xi1 ， jie2 xing2 zhang1 er2 bu2 zhu4。
 - 俗推佞而进富兮，节行张而不著。
@@ -55,13 +55,13 @@ tags: []
 - 弃彭咸之娱乐兮，灭巧倕之绳墨。
 - kun1 lu4 za2 yu2 zou1 zheng1 xi1 ， ji1 peng2 shi3 yi3 she4 ge2。
 - 菎蕗杂于黀蒸兮，机蓬矢以射革。
-- jia4 jian3 lü2 er2 wu2 ce4 xi1 ， you4 he2 lu4 zhi1 neng2 ji2 ？
+- jia4 jian3 lü2 er2 wu2 ce4 xi1 ， you4 he2 lu4 zhi1 neng2 ji2？
 - 驾蹇驴而无策兮，又何路之能极？
-- yi3 zhi2 zhen1 er2 wei4 diao4 xi1 ， you4 he2 yu2 zhi1 neng2 de2 ？
+- yi3 zhi2 zhen1 er2 wei4 diao4 xi1 ， you4 he2 yu2 zhi1 neng2 de2？
 - 以直鍼而为钓兮，又何鱼之能得？
 - bo2 ya2 zhi1 jue2 xian2 xi1 ， wu2 zhong1 zi3 qi1 er2 ting1 zhi1。
 - 伯牙之绝弦兮，无锺子期而听之。
-- he2 bao4 pu2 er2 qi4 xue4 xi1 ， an1 de2 liang2 gong1 er2 pou1 zhi1 ？
+- he2 bao4 pu2 er2 qi4 xue4 xi1 ， an1 de2 liang2 gong1 er2 pou1 zhi1？
 - 和抱璞而泣血兮，安得良工而剖之？
 - tong2 yin1 zhe3 xiang1 he2 xi1 ， tong2 lei4 zhe3 xiang1 si4。
 - 同音者相和兮，同类者相似。
@@ -83,11 +83,11 @@ tags: []
 - 经浊世而不得志兮，愿侧身岩穴而自讬。
 - yu4 he2 kou3 er2 wu2 yan2 xi1 ， chang2 bei4 jun1 zhi1 hou4 de2。
 - 欲阖口而无言兮，尝被君之厚德。
-- du2 bian4 yuan1 er2 huai2 du2 xi1 ， chou2 yu4 yu4 zhi1 yan1 ji2 ？
+- du2 bian4 yuan1 er2 huai2 du2 xi1 ， chou2 yu4 yu4 zhi1 yan1 ji2？
 - 独便悁而怀毒兮，愁郁郁之焉极？
 - nian4 san1 nian2 zhi1 ji1 si1 xi1 ， yuan4 yi1 jian4 er2 chen2 ci2。
 - 念三年之积思兮，愿壹见而陈辞。
-- bu4 ji2 jun1 er2 cheng3 shuo1 xi1 ， shi4 shu2 ke3 wei4 ming2 zhi1 ？
+- bu4 ji2 jun1 er2 cheng3 shuo1 xi1 ， shi4 shu2 ke3 wei4 ming2 zhi1？
 - 不及君而骋说兮，世孰可为明之？
 - shen1 qin3 ji2 er2 ri4 chou2 xi1 ， qing2 chen2 yi4 er2 bu4 yang2。
 - 身寝疾而日愁兮，情沉抑而不扬。

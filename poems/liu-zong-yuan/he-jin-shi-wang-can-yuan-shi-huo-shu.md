@@ -63,15 +63,17 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 宥而彰之，使夫蓄於心者，鹹得開其喙；
 - fa1 ce4 jue2 ke1 zhe3 ， shou4 zi3 er2 bu2 li4。
 - 發策決科者，授子而不慄。
-- sui1 yu4 ru2 xiang4 zhi1 xu4 suo1 shou4 wu3 ， qi2 ke3 de2 hu1 ？ wu1 zi1 wu2 you3 wang4 wu1 zi3 ， shi4 yi3 zhong1 nai3 da4 xi3 ye3。
-- 雖欲如向之蓄縮受侮，其可得乎？於茲吾有望於子，是以終乃大喜也。
+- sui1 yu4 ru2 xiang4 zhi1 xu4 suo1 shou4 wu3 ， qi2 ke3 de2 hu1？
+- 雖欲如向之蓄縮受侮，其可得乎？
+- wu1 zi1 wu2 you3 wang4 wu1 zi3 ， shi4 yi3 zhong1 nai3 da4 xi3 ye3。
+- 於茲吾有望於子，是以終乃大喜也。
 - gu3 zhe3 lie4 guo2 you3 zai1 ， tong2 wei4 zhe3 jie1 xiang1 diao4。
 - 古者列國有災，同位者皆相吊。
 - xu1 bu2 diao4 zai1 ， jun1 zi3 e4 zhi1。
 - 許不弔災，君子惡之。
 - jin1 wu2 zhi1 suo3 chen2 ruo4 shi4 ， you3 yi3 yi4 hu1 gu3 ， gu4 jiang1 diao4 er2 geng4 yi3 he4 ye3。
 - 今吾之所陳若是，有以異乎古，故將吊而更以賀也。
-- yan2 、 ceng2 zhi1 yang3 ， qi2 wei2 le4 ye3 da4 yi3 ， you4 he2 que4 yan1 ？
+- yan2 、 ceng2 zhi1 yang3 ， qi2 wei2 le4 ye3 da4 yi3 ， you4 he2 que4 yan1？
 - 顏、曾之養，其爲樂也大矣，又何闕焉？
 - zu2 xia4 qian2 zhang1 yao4 pu2 wen2 zhang1 gu3 shu1 ， ji2 bu2 wang4 ， hou4 de2 shu4 shi2 pian1 nai3 bing4 wang3 er3。
 - 足下前章要僕文章古書，極不忘，候得數十篇乃並往耳。

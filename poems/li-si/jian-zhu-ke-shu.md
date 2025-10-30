@@ -31,8 +31,10 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 向使四君卻客而不內，疏士而不用，是使國無富利之實，而秦無強大之名也。
 - jin1 bi4 xia4 zhi4 kun1 shan1 zhi1 yu4 ， you3 sui2 he2 zhi1 bao3 ， chui2 ming2 yue4 zhi1 zhu1 ， fu2 tai4 a1 zhi1 jian4 ， cheng2 xian1 li2 zhi1 ma3 ， jian4 cui4 feng4 zhi1 qi2 ， shu4 ling2 tuo2 zhi1 gu3。
 - 今陛下致崑山之玉，有隨和之寶，垂明月之珠，服太阿之劍，乘纖離之馬，建翠鳳之旗，樹靈鼉之鼓。
-- ci3 shu4 bao3 zhe3 ， qin2 bu4 sheng1 yi4 yan1 ， er2 bi4 xia4 shuo1 zhi1 ， he2 ye3 ？ bi4 qin2 guo2 zhi1 suo3 sheng1 ran2 hou4 ke3 ， ze2 shi4 ye4 guang1 zhi1 bi4 ， bu2 shi4 chao2 ting2；
-- 此數寶者，秦不生一焉，而陛下說之，何也？必秦國之所生然後可，則是夜光之璧，不飾朝廷；
+- ci3 shu4 bao3 zhe3 ， qin2 bu4 sheng1 yi4 yan1 ， er2 bi4 xia4 shuo1 zhi1 ， he2 ye3？
+- 此數寶者，秦不生一焉，而陛下說之，何也？
+- bi4 qin2 guo2 zhi1 suo3 sheng1 ran2 hou4 ke3 ， ze2 shi4 ye4 guang1 zhi1 bi4 ， bu2 shi4 chao2 ting2；
+- 必秦國之所生然後可，則是夜光之璧，不飾朝廷；
 - xi1 xiang4 zhi1 qi4 ， bu4 wei2 wan2 hao3；
 - 犀象之器，不爲玩好；
 - zheng4 、 wei4 zhi1 nü3 bu4 chong1 hou4 gong1 ， er2 jun4 liang2 kuai4 ti2 bu4 shi2 wai4 jiu4 ， jiang1 nan2 jin1 xi1 bu4 wei2 yong4 ， xi1 shu3 dan1 qing1 bu4 wei2 cai3。
@@ -43,8 +45,10 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 夫擊甕叩缶彈箏搏髀，而歌呼嗚嗚快耳者，真秦之聲也；
 - 《 zheng4 》 、 《 wei4 》 、 《 sang1 jian4 》 ， 《 shao2 》 、 《 yu2 》 、 《 wu3 》 、 《 xiang4 》 zhe3 ， yi4 guo2 zhi1 le4 ye3。
 - 《鄭》、《衛》、《桑間》，《韶》、《虞》、《武》、《象》者，異國之樂也。
-- jin1 qi4 ji1 weng4 kou4 fou3 er2 jiu4 《 zheng4 》 、 《 wei4 》 ， tui4 dan4 zheng1 er2 qu3 《 zhao1 》 、 《 yu2 》 ， ruo4 shi4 zhe3 he2 ye3 ？ kuai4 yi4 dang1 qian2 ， shi4 guan1 er2 yi3 yi3。
-- 今棄擊甕叩缶而就《鄭》、《衛》，退彈箏而取《昭》、《虞》，若是者何也？快意當前，適觀而已矣。
+- jin1 qi4 ji1 weng4 kou4 fou3 er2 jiu4 《 zheng4 》 、 《 wei4 》 ， tui4 dan4 zheng1 er2 qu3 《 zhao1 》 、 《 yu2 》 ， ruo4 shi4 zhe3 he2 ye3？
+- 今棄擊甕叩缶而就《鄭》、《衛》，退彈箏而取《昭》、《虞》，若是者何也？
+- kuai4 yi4 dang1 qian2 ， shi4 guan1 er2 yi3 yi3。
+- 快意當前，適觀而已矣。
 - jin1 qu3 ren2 ze2 bu4 ran2。
 - 今取人則不然。
 - bu2 wen4 ke3 fou3 ， bu2 lun4 qu1 zhi2 ， fei1 qin2 zhe3 qu4 ， wei2 ke4 zhe3 zhu2。

@@ -31,8 +31,16 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 秦既稱帝，患兵革不休，以有諸侯也，於是無尺土之封，墮壞名城，銷鋒鏑，鋤豪傑，維萬世之安。
 - ran2 wang2 ji4 zhi1 xing1 ， qi3 wu1 lü2 xiang4 ， he2 cong2 tao3 fa2 ， yi4 wu1 san1 dai4。
 - 然王跡之興，起於閭巷，合從討伐，軼於三代。
-- xiang1 qin2 zhi1 jin4 ， shi4 zu2 yi3 zi1 xian2 zhe3 wei2 qu1 chu2 nan2 er3 ， gu4 fen4 fa1 qi2 suo3 wei2 tian1 xia4 xiong2 ， an1 zai4 wu2 tu3 bu4 wang2 ？ ci3 nai3 chuan2 zhi1 suo3 wei4 da4 sheng4 hu1 ？ qi3 fei1 tian1 zai1 ？ qi3 fei1 tian1 zai1 ？ fei1 da4 sheng4 shu2 neng2 dang1 ci3 shou4 ming4 er2 di4 zhe3 hu1 ？
-- 鄉秦之禁，適足以資賢者爲驅除難耳，故奮發其所爲天下雄，安在無土不王？此乃傳之所謂大聖乎？豈非天哉？豈非天哉？非大聖孰能當此受命而帝者乎？
+- xiang1 qin2 zhi1 jin4 ， shi4 zu2 yi3 zi1 xian2 zhe3 wei2 qu1 chu2 nan2 er3 ， gu4 fen4 fa1 qi2 suo3 wei2 tian1 xia4 xiong2 ， an1 zai4 wu2 tu3 bu4 wang2？
+- 鄉秦之禁，適足以資賢者爲驅除難耳，故奮發其所爲天下雄，安在無土不王？
+- ci3 nai3 chuan2 zhi1 suo3 wei4 da4 sheng4 hu1？
+- 此乃傳之所謂大聖乎？
+- qi3 fei1 tian1 zai1？
+- 豈非天哉？
+- qi3 fei1 tian1 zai1？
+- 豈非天哉？
+- fei1 da4 sheng4 shu2 neng2 dang1 ci3 shou4 ming4 er2 di4 zhe3 hu1？
+- 非大聖孰能當此受命而帝者乎？
 
 ## 注释
 

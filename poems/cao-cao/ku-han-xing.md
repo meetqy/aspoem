@@ -25,8 +25,10 @@ tags: []
 - 溪谷少人民，雪落何霏霏！
 - yan2 jing3 chang2 tan4 xi1 ， yuan3 xing2 duo1 suo3 huai2。
 - 延颈长叹息，远行多所怀。
-- wo3 xin1 he2 fu2 yu4 ？ si1 yu4 yi4 dong1 gui1。
-- 我心何怫郁？思欲一东归。
+- wo3 xin1 he2 fu2 yu4？
+- 我心何怫郁？
+- si1 yu4 yi4 dong1 gui1。
+- 思欲一东归。
 - shui3 shen1 qiao2 liang2 jue2 ， zhong1 lu4 zheng4 pai2 huai2。
 - 水深桥梁绝，中路正徘徊。
 - mi2 huo4 shi1 gu4 lu4 ， bo2 mu4 wu2 su4 qi1。

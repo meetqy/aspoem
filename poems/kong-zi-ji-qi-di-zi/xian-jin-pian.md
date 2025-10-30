@@ -43,8 +43,10 @@ tags: []
 - ”
 - nan2 rong2 san1 fu4 bai2 gui1 ， kong3 zi3 yi3 qi2 xiong1 zhi1 zi3 qi1 zhi1。
 - 南容三复白圭，孔子以其兄之子妻之。
-- ji4 kang1 zi3 wen4 ： “ di4 zi3 shu2 wei4 hao4 xue2 ？ ” kong3 zi3 dui4 yue1 ： “ you3 yan2 hui2 zhe3 hao4 xue2 ， bu2 xing4 duan3 ming4 si3 yi3 ， jin1 ye3 ze2 wang2。
-- 季康子问：“弟子孰为好学？”孔子对曰：“有颜回者好学，不幸短命死矣，今也则亡。
+- ji4 kang1 zi3 wen4 ： “ di4 zi3 shu2 wei4 hao4 xue2？
+- 季康子问：“弟子孰为好学？
+- ” kong3 zi3 dui4 yue1 ： “ you3 yan2 hui2 zhe3 hao4 xue2 ， bu2 xing4 duan3 ming4 si3 yi3 ， jin1 ye3 ze2 wang2。
+- ”孔子对曰：“有颜回者好学，不幸短命死矣，今也则亡。
 - ”
 - ”
 - yan2 yuan1 si3 ， yan2 lu4 qing3 zi3 zhi1 che1 yi3 wei2 zhi1 guo3。
@@ -69,8 +71,12 @@ tags: []
 - ”
 - yan2 yuan1 si3 ， zi3 ku1 zhi1 tong4 ， cong2 zhe3 yue1 ： “ zi3 tong4 yi3！
 - 颜渊死，子哭之恸，从者曰：“子恸矣！
-- ” yue1 ： “ you3 tong4 hu1 ？ fei1 fu1 ren2 zhi1 wei4 tong4 er2 shui2 wei4 ？ ”
-- ”曰：“有恸乎？非夫人之为恸而谁为？”
+- ” yue1 ： “ you3 tong4 hu1？
+- ”曰：“有恸乎？
+- fei1 fu1 ren2 zhi1 wei4 tong4 er2 shui2 wei4？
+- 非夫人之为恸而谁为？
+- ”
+- ”
 - yan2 yuan1 si3 ， men2 ren2 yu4 hou4 zang4 zhi1 ， zi3 yue1 ： “ bu4 ke3。
 - 颜渊死，门人欲厚葬之，子曰：“不可。
 - ” men2 ren2 hou4 zang4 zhi1 ， zi3 yue1 ： “ hui2 ye3 shi4 yu3 you2 fu4 ye3 ， yu3 bu4 de2 shi4 you2 zi3 ye3。
@@ -79,10 +85,14 @@ tags: []
 - 非我也，夫二三子也！
 - ”
 - ”
-- ji4 lu4 wen4 shi4 gui3 shen2 ， zi3 yue1 ： “ wei4 neng2 shi4 ren2 ， yan1 neng2 shi4 gui3 ？ ” , yue1 ： “ gan3 wen4 si3。
-- 季路问事鬼神，子曰：“未能事人，焉能事鬼？”，曰：“敢问死。
-- ” yue1 ： “ wei4 zhi1 sheng1 ， yan1 zhi1 si3 ？ ”
-- ”曰：“未知生，焉知死？”
+- ji4 lu4 wen4 shi4 gui3 shen2 ， zi3 yue1 ： “ wei4 neng2 shi4 ren2 ， yan1 neng2 shi4 gui3？
+- 季路问事鬼神，子曰：“未能事人，焉能事鬼？
+- ” , yue1 ： “ gan3 wen4 si3。
+- ”，曰：“敢问死。
+- ” yue1 ： “ wei4 zhi1 sheng1 ， yan1 zhi1 si3？
+- ”曰：“未知生，焉知死？
+- ”
+- ”
 - min3 zi3 shi4 ce4 ， yin2 yin2 ru2 ye3；
 - 闵子侍侧，訚訚如也；
 - zi3 lu4 ， xing2 xing2 ru2 ye3；
@@ -95,18 +105,28 @@ tags: []
 - “若由也，不得其死然。
 - ”
 - ”
-- lu3 ren2 wei2 chang2 fu3 ， min3 zi3 qian1 yue1 ： “ reng2 jiu4 guan4 ru2 zhi1 he2 ？ he2 bi4 gai3 zuo4 ？ ” zi3 yue1 ： “ fu1 ren2 bu4 yan2 ， yan2 bi4 you3 zhong4。
-- 鲁人为长府，闵子骞曰：“仍旧贯如之何？何必改作？”子曰：“夫人不言，言必有中。
+- lu3 ren2 wei2 chang2 fu3 ， min3 zi3 qian1 yue1 ： “ reng2 jiu4 guan4 ru2 zhi1 he2？
+- 鲁人为长府，闵子骞曰：“仍旧贯如之何？
+- he2 bi4 gai3 zuo4？
+- 何必改作？
+- ” zi3 yue1 ： “ fu1 ren2 bu4 yan2 ， yan2 bi4 you3 zhong4。
+- ”子曰：“夫人不言，言必有中。
 - ”
 - ”
-- zi3 yue1 ： “ you2 zhi1 se4 xi1 wei4 yu2 qiu1 zhi1 men2 ？ ” men2 ren2 bu2 jing4 zi3 lu4 ， zi3 yue1 ： “ you2 ye3 sheng1 tang2 yi3 ， wei4 ru4 yu2 shi4 ye3。
-- 子曰：“由之瑟奚为于丘之门？”门人不敬子路，子曰：“由也升堂矣，未入于室也。
+- zi3 yue1 ： “ you2 zhi1 se4 xi1 wei4 yu2 qiu1 zhi1 men2？
+- 子曰：“由之瑟奚为于丘之门？
+- ” men2 ren2 bu2 jing4 zi3 lu4 ， zi3 yue1 ： “ you2 ye3 sheng1 tang2 yi3 ， wei4 ru4 yu2 shi4 ye3。
+- ”门人不敬子路，子曰：“由也升堂矣，未入于室也。
 - ”
 - ”
-- zi3 gong4 wen4 ： “ shi1 yu3 shang1 ye3 shu2 xian2 ？ ” zi3 yue1 ： “ shi1 ye3 guo4 ， shang1 ye3 bu4 ji2。
-- 子贡问：“师与商也孰贤？”子曰：“师也过，商也不及。
-- ” yue1 ： “ ran2 ze2 shi1 yu4 yu3 ？ ” zi3 yue1 ： “ guo4 you2 bu4 ji2。
-- ”曰：“然则师愈与？”子曰：“过犹不及。
+- zi3 gong4 wen4 ： “ shi1 yu3 shang1 ye3 shu2 xian2？
+- 子贡问：“师与商也孰贤？
+- ” zi3 yue1 ： “ shi1 ye3 guo4 ， shang1 ye3 bu4 ji2。
+- ”子曰：“师也过，商也不及。
+- ” yue1 ： “ ran2 ze2 shi1 yu4 yu3？
+- ”曰：“然则师愈与？
+- ” zi3 yue1 ： “ guo4 you2 bu4 ji2。
+- ”子曰：“过犹不及。
 - ”
 - ”
 - ji4 shi4 fu4 yu2 zhou1 gong1 ， er2 qiu2 ye3 wei4 zhi1 ju4 lian3 er2 fu4 yi4 zhi1。
@@ -127,10 +147,18 @@ tags: []
 - 子张问善人之道，子曰：“不践迹，亦不入于室。
 - ”
 - ”
-- zi3 yue1 ： “ lun4 du3 shi4 yu3 ， jun1 zi3 zhe3 hu1 ， se4 zhuang1 zhe3 hu1 ？ ”
-- 子曰：“论笃是与，君子者乎，色庄者乎？”
-- zi3 lu4 wen4 ： “ wen2 si1 xing2 zhu1 ？ ” zi3 yue1 ： “ you3 fu4 xiong1 zai4 ， ru2 zhi1 he2 qi2 wen2 si1 xing2 zhi1 ？ ” ran3 you3 wen4 ： “ wen2 si1 xing2 zhu1 ？ ” zi3 yue1 ： “ wen2 si1 xing2 zhi1。
-- 子路问：“闻斯行诸？”子曰：“有父兄在，如之何其闻斯行之？”冉有问：“闻斯行诸？”子曰：“闻斯行之。
+- zi3 yue1 ： “ lun4 du3 shi4 yu3 ， jun1 zi3 zhe3 hu1 ， se4 zhuang1 zhe3 hu1？
+- 子曰：“论笃是与，君子者乎，色庄者乎？
+- ”
+- ”
+- zi3 lu4 wen4 ： “ wen2 si1 xing2 zhu1？
+- 子路问：“闻斯行诸？
+- ” zi3 yue1 ： “ you3 fu4 xiong1 zai4 ， ru2 zhi1 he2 qi2 wen2 si1 xing2 zhi1？
+- ”子曰：“有父兄在，如之何其闻斯行之？
+- ” ran3 you3 wen4 ： “ wen2 si1 xing2 zhu1？
+- ”冉有问：“闻斯行诸？
+- ” zi3 yue1 ： “ wen2 si1 xing2 zhi1。
+- ”子曰：“闻斯行之。
 - gong1 xi1 hua2 yue1 ： “ you2 ye3 wen4 wen2 si1 xing2 zhu1 ， zi3 yue1 ‘ you3 fu4 xiong1 zai4 ’；
 - 公西华曰：“由也问闻斯行诸，子曰‘有父兄在’；
 - qiu2 ye3 wen4 wen2 si1 xing2 zhu1 ， zi3 yue1 ‘ wen2 si1 xing2 zhi1 ’。
@@ -151,14 +179,18 @@ tags: []
 - ”曰：“子在，回何敢死！
 - ”
 - ”
-- ji4 zi3 ran2 wen4 ： “ zhong4 you2 、 ran3 qiu2 ke3 wei4 da4 chen2 yu3 ？ ” zi3 yue1 ： “ wu2 yi3 zi3 wei4 yi4 zhi1 wen4 ， ceng2 you2 yu3 qiu2 zhi1 wen4。
-- 季子然问：“仲由、冉求可谓大臣与？”子曰：“吾以子为异之问，曾由与求之问。
+- ji4 zi3 ran2 wen4 ： “ zhong4 you2 、 ran3 qiu2 ke3 wei4 da4 chen2 yu3？
+- 季子然问：“仲由、冉求可谓大臣与？
+- ” zi3 yue1 ： “ wu2 yi3 zi3 wei4 yi4 zhi1 wen4 ， ceng2 you2 yu3 qiu2 zhi1 wen4。
+- ”子曰：“吾以子为异之问，曾由与求之问。
 - suo3 wei4 da4 chen2 zhe3 ， yi3 dao4 shi4 jun1 ， bu4 ke3 ze2 zhi3。
 - 所谓大臣者，以道事君，不可则止。
 - jin1 you2 yu3 qiu2 ye3 ， ke3 wei4 ju4 chen2 yi3。
 - 今由与求也，可谓具臣矣。
-- ” yue1 ： “ ran2 ze2 cong2 zhi1 zhe3 yu3 ？ ” zi3 yue1 ： “ shi4 fu4 yu3 jun1 ， yi4 bu4 cong2 ye3。
-- ”曰：“然则从之者与？”子曰：“弑父与君，亦不从也。
+- ” yue1 ： “ ran2 ze2 cong2 zhi1 zhe3 yu3？
+- ”曰：“然则从之者与？
+- ” zi3 yue1 ： “ shi4 fu4 yu3 jun1 ， yi4 bu4 cong2 ye3。
+- ”子曰：“弑父与君，亦不从也。
 - ”
 - ”
 - zi3 lu4 shi3 zi3 gao1 wei4 fei4 zai3 ， zi3 yue1 ： “ zei2 fu1 ren2 zhi1 zi3。
@@ -171,36 +203,60 @@ tags: []
 - ”
 - zi3 lu4 、 ceng2 xi1 、 ran3 you3 、 gong1 xi1 hua2 shi4 zuo4 ， zi3 yue1 ： “ yi3 wu2 yi2 ri4 chang2 hu1 er3 ， wu2 wu2 yi3 ye3。
 - 子路、曾皙、冉有、公西华侍坐，子曰：“以吾一日长乎尔，毋吾以也。
-- ju1 ze2 yue1 ‘ bu4 wu2 zhi1 ye3 ’ ru2 huo4 zhi1 er3 ， ze2 he2 yi3 zai1 ？ ” zi3 lu4 lü4 er3 er2 dui4 yue1 ： “ qian1 cheng2 zhi1 guo2 ， she4 hu1 da4 guo2 zhi1 jian1 ， jia1 zhi1 yi3 shi1 lü3 ， yin1 zhi1 yi3 ji1 jin3 ， you2 ye3 wei4 zhi1 ， bi3 ji2 san1 nian2 ， ke3 shi3 you3 yong3 ， qie3 zhi1 fang1 ye3。
-- 居则曰‘不吾知也’如或知尔，则何以哉？”子路率尔而对曰：“千乘之国，摄乎大国之间，加之以师旅，因之以饥馑，由也为之，比及三年，可使有勇，且知方也。
+- ju1 ze2 yue1 ‘ bu4 wu2 zhi1 ye3 ’ ru2 huo4 zhi1 er3 ， ze2 he2 yi3 zai1？
+- 居则曰‘不吾知也’如或知尔，则何以哉？
+- ” zi3 lu4 lü4 er3 er2 dui4 yue1 ： “ qian1 cheng2 zhi1 guo2 ， she4 hu1 da4 guo2 zhi1 jian1 ， jia1 zhi1 yi3 shi1 lü3 ， yin1 zhi1 yi3 ji1 jin3 ， you2 ye3 wei4 zhi1 ， bi3 ji2 san1 nian2 ， ke3 shi3 you3 yong3 ， qie3 zhi1 fang1 ye3。
+- ”子路率尔而对曰：“千乘之国，摄乎大国之间，加之以师旅，因之以饥馑，由也为之，比及三年，可使有勇，且知方也。
 - ” fu1 zi3 shen3 zhi1。
 - ”夫子哂之。
-- “ qiu2 ， er3 he2 ru2 ？ ” dui4 yue1 ： “ fang1 liu4 qi1 shi2 ， ru2 wu3 liu4 shi2 ， qiu2 ye3 wei4 zhi1 ， bi3 ji2 san1 nian2 ， ke3 shi3 zu2 min2。
-- “求，尔何如？”对曰：“方六七十，如五六十，求也为之，比及三年，可使足民。
+- “ qiu2 ， er3 he2 ru2？
+- “求，尔何如？
+- ” dui4 yue1 ： “ fang1 liu4 qi1 shi2 ， ru2 wu3 liu4 shi2 ， qiu2 ye3 wei4 zhi1 ， bi3 ji2 san1 nian2 ， ke3 shi3 zu2 min2。
+- ”对曰：“方六七十，如五六十，求也为之，比及三年，可使足民。
 - ru2 qi2 li3 yue4 ， yi3 si4 jun1 zi3。
 - 如其礼乐，以俟君子。
 - ” “ chi4！
 - ”“赤！
-- er3 he2 ru2 ？ ” dui4 yue1 ： “ fei1 yue1 neng2 zhi1 ， yuan4 xue2 yan1。
-- 尔何如？”对曰：“非曰能之，愿学焉。
+- er3 he2 ru2？
+- 尔何如？
+- ” dui4 yue1 ： “ fei1 yue1 neng2 zhi1 ， yuan4 xue2 yan1。
+- ”对曰：“非曰能之，愿学焉。
 - zong1 miao4 zhi1 shi4 ， ru2 hui4 tong2 ， duan1 zhang1 fu3 ， yuan4 wei4 xiao3 xiang1 yan1。
 - 宗庙之事，如会同，端章甫，愿为小相焉。
-- ” “ dian3 ， er3 he2 ru2 ？ ” gu3 se4 xi1 ， keng1 er3 ， she4 se4 er2 zuo4 ， dui4 yue1 ： “ yi4 hu1 san1 zi3 zhe3 zhi1 zhuan4。
-- ”“点，尔何如？”鼓瑟希，铿尔，舍瑟而作，对曰：“异乎三子者之撰。
-- ” zi3 yue1 ： “ he2 shang1 hu1 ？ yi4 ge4 yan2 qi2 zhi4 ye3。
-- ”子曰：“何伤乎？亦各言其志也。
+- ” “ dian3 ， er3 he2 ru2？
+- ”“点，尔何如？
+- ” gu3 se4 xi1 ， keng1 er3 ， she4 se4 er2 zuo4 ， dui4 yue1 ： “ yi4 hu1 san1 zi3 zhe3 zhi1 zhuan4。
+- ”鼓瑟希，铿尔，舍瑟而作，对曰：“异乎三子者之撰。
+- ” zi3 yue1 ： “ he2 shang1 hu1？
+- ”子曰：“何伤乎？
+- yi4 ge4 yan2 qi2 zhi4 ye3。
+- 亦各言其志也。
 - ” yue1 ： “ mu4 chun1 zhe3 ， chun1 fu2 ji4 cheng2 ， guan1 zhe3 wu3 liu4 ren2 ， tong2 zi3 liu4 qi1 ren2 ， yu4 hu1 yi2 ， feng1 hu1 wu3 yu2 ， yong3 er2 gui1。
 - ”曰：“暮春者，春服既成，冠者五六人，童子六七人，浴乎沂，风乎舞雩，咏而归。
 - ” fu1 zi3 kui4 ran2 tan4 yue1 ： “ wu2 yu3 dian3 ye3！
 - ”夫子喟然叹曰：“吾与点也！
 - ” san1 zi3 zhe3 chu1 ， ceng2 xi1 hou4。
 - ”三子者出，曾皙后。
-- ceng2 xi1 yue1 ： “ fu1 san1 zi3 zhe3 zhi1 yan2 he2 ru2 ？ ” zi3 yue1 ： “ yi4 ge4 yan2 qi2 zhi4 ye3 yi3 yi3。
-- 曾皙曰：“夫三子者之言何如？”子曰：“亦各言其志也已矣。
-- ” yue1 ： “ fu1 zi3 he2 shen3 you2 ye3 ？ ” yue1 ： “ wei4 guo2 yi3 li3 ， qi2 yan2 bu2 rang4 ， shi4 gu4 shen3 zhi1。
-- ”曰：“夫子何哂由也？”曰：“为国以礼，其言不让，是故哂之。
-- ” “ wei2 qiu2 ze2 fei1 bang1 ye3 yu3 ？ ” “ an1 jian4 fang1 liu4 qi1 shi2 、 ru2 wu3 liu4 shi2 er2 fei1 bang1 ye3 zhe3 ？ ” “ wei2 chi4 ze2 fei1 bang1 ye3 yu3 ？ ” “ zong1 miao4 hui4 tong2 ， fei1 zhu1 hou2 er2 he2 ？ chi4 ye3 wei4 zhi1 xiao3 ， shu2 neng2 wei4 zhi1 da4 ？ ”
-- ”“唯求则非邦也与？”“安见方六七十、如五六十而非邦也者？”“唯赤则非邦也与？”“宗庙会同，非诸侯而何？赤也为之小，孰能为之大？”
+- ceng2 xi1 yue1 ： “ fu1 san1 zi3 zhe3 zhi1 yan2 he2 ru2？
+- 曾皙曰：“夫三子者之言何如？
+- ” zi3 yue1 ： “ yi4 ge4 yan2 qi2 zhi4 ye3 yi3 yi3。
+- ”子曰：“亦各言其志也已矣。
+- ” yue1 ： “ fu1 zi3 he2 shen3 you2 ye3？
+- ”曰：“夫子何哂由也？
+- ” yue1 ： “ wei4 guo2 yi3 li3 ， qi2 yan2 bu2 rang4 ， shi4 gu4 shen3 zhi1。
+- ”曰：“为国以礼，其言不让，是故哂之。
+- ” “ wei2 qiu2 ze2 fei1 bang1 ye3 yu3？
+- ”“唯求则非邦也与？
+- ” “ an1 jian4 fang1 liu4 qi1 shi2 、 ru2 wu3 liu4 shi2 er2 fei1 bang1 ye3 zhe3？
+- ”“安见方六七十、如五六十而非邦也者？
+- ” “ wei2 chi4 ze2 fei1 bang1 ye3 yu3？
+- ”“唯赤则非邦也与？
+- ” “ zong1 miao4 hui4 tong2 ， fei1 zhu1 hou2 er2 he2？
+- ”“宗庙会同，非诸侯而何？
+- chi4 ye3 wei4 zhi1 xiao3 ， shu2 neng2 wei4 zhi1 da4？
+- 赤也为之小，孰能为之大？
+- ”
+- ”
 
 ## 注释
 

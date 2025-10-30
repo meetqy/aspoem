@@ -33,8 +33,10 @@ tags: []
 - 孟懿子问孝，子曰：“无违。
 - ” fan2 chi2 yu4 ， zi3 gao4 zhi1 yue1 ： “ meng4 sun1 wen4 xiao4 yu2 wo3 ， wo3 dui4 yue1 ‘ wu2 wei2 ’。
 - ”樊迟御，子告之曰：“孟孙问孝于我，我对曰‘无违’。
-- ” fan2 chi2 yue1 ： “ he2 wei4 ye3 ？ ” zi3 yue1 ： “ sheng1 ， shi4 zhi1 yi3 li3；
-- ”樊迟曰：“何谓也？”子曰：“生，事之以礼；
+- ” fan2 chi2 yue1 ： “ he2 wei4 ye3？
+- ”樊迟曰：“何谓也？
+- ” zi3 yue1 ： “ sheng1 ， shi4 zhi1 yi3 li3；
+- ”子曰：“生，事之以礼；
 - si3 ， zang4 zhi1 yi3 li3 ， ji4 zhi1 yi3 li3。
 - 死，葬之以礼，祭之以礼。
 - ”
@@ -51,24 +53,32 @@ tags: []
 - 子曰：“今之孝者，是谓能养。
 - zhi4 yu2 quan3 ma3 jie1 neng2 you3 yang3；
 - 至于犬马皆能有养；
-- bu2 jing4 ， he2 yi3 bie2 hu1 ？ ”
-- 不敬，何以别乎？”
+- bu2 jing4 ， he2 yi3 bie2 hu1？
+- 不敬，何以别乎？
+- ”
+- ”
 - zi3 xia4 wen4 xiao4。
 - 子夏问孝。
 - zi3 yue1 ： “ se4 nan2。
 - 子曰：“色难。
 - you3 shi4 ， di4 zi3 fu2 qi2 lao2；
 - 有事，弟子服其劳；
-- you3 jiu3 shi2 ， xian1 sheng1 zhuan4 ， ceng2 shi4 yi3 wei2 xiao4 hu1 ？ ”
-- 有酒食，先生馔，曾是以为孝乎？”
+- you3 jiu3 shi2 ， xian1 sheng1 zhuan4 ， ceng2 shi4 yi3 wei2 xiao4 hu1？
+- 有酒食，先生馔，曾是以为孝乎？
+- ”
+- ”
 - zi3 yue1 ： “ wu2 yu3 hui2 yan2 zhong1 ri4 ， bu4 wei2 ， ru2 yu2。
 - 子曰：“吾与回言终日，不违，如愚。
 - tui4 er2 sheng3 qi2 si1 ， yi4 zu2 yi3 fa1 ， hui2 ye3 bu4 yu2。
 - 退而省其私，亦足以发，回也不愚。
 - ”
 - ”
-- zi3 yue1 ： “ shi4 qi2 suo3 yi3 ， guan1 qi2 suo3 you2 ， cha2 qi2 suo3 an1 ， ren2 yan1 sou1 zai1 ？ ren2 yan1 sou1 zai1 ？ ”
-- 子曰：“视其所以，观其所由，察其所安，人焉廋哉？人焉廋哉？”
+- zi3 yue1 ： “ shi4 qi2 suo3 yi3 ， guan1 qi2 suo3 you2 ， cha2 qi2 suo3 an1 ， ren2 yan1 sou1 zai1？
+- 子曰：“视其所以，观其所由，察其所安，人焉廋哉？
+- ren2 yan1 sou1 zai1？
+- 人焉廋哉？
+- ”
+- ”
 - zi3 yue1 ： “ wen1 gu4 er2 zhi1 xin1 ， ke3 yi3 wei2 shi1 yi3。
 - 子曰：“温故而知新，可以为师矣。
 - ”
@@ -111,30 +121,42 @@ tags: []
 - 言寡尤，行寡悔，禄在其中矣。
 - ”
 - ”
-- ai1 gong1 wen4 yue1 ： “ he2 wei4 ze2 min2 fu2 ？ ” kong3 zi3 dui4 yue1 ： “ ju3 zhi2 cuo4 zhu1 wang3 ， ze2 min2 fu2；
-- 哀公问曰：“何为则民服？”孔子对曰：“举直错诸枉，则民服；
+- ai1 gong1 wen4 yue1 ： “ he2 wei4 ze2 min2 fu2？
+- 哀公问曰：“何为则民服？
+- ” kong3 zi3 dui4 yue1 ： “ ju3 zhi2 cuo4 zhu1 wang3 ， ze2 min2 fu2；
+- ”孔子对曰：“举直错诸枉，则民服；
 - ju3 wang3 cuo4 zhu1 zhi2 ， ze2 min2 bu4 fu2。
 - 举枉错诸直，则民不服。
 - ”
 - ”
-- ji4 kang1 zi3 wen4 ： “ shi3 min2 jing4 、 zhong1 yi3 quan4 ， ru2 zhi1 he2 ？ ” zi3 yue1 ： “ lin2 zhi1 yi3 zhuang1 ， ze2 jing4；
-- 季康子问：“使民敬、忠以劝，如之何？”子曰：“临之以庄，则敬；
+- ji4 kang1 zi3 wen4 ： “ shi3 min2 jing4 、 zhong1 yi3 quan4 ， ru2 zhi1 he2？
+- 季康子问：“使民敬、忠以劝，如之何？
+- ” zi3 yue1 ： “ lin2 zhi1 yi3 zhuang1 ， ze2 jing4；
+- ”子曰：“临之以庄，则敬；
 - xiao4 ci2 ， ze2 zhong1；
 - 孝慈，则忠；
 - ju3 shan4 er2 jiao4 bu4 neng2 ， ze2 quan4。
 - 举善而教不能，则劝。
 - ”
 - ”
-- huo4 wei4 kong3 zi3 yue1 ： “ zi3 xi1 bu2 wei2 zheng4 ？ ” zi3 yue1 ： “ 《 shu1 》 yun2 ： ‘ xiao4 hu1 wei2 xiao4 ， you3 yu2 xiong1 di4 ， shi1 yu2 you3 zheng4。
-- 或谓孔子曰：“子奚不为政？”子曰：“《书》云：‘孝乎惟孝，友于兄弟，施于有政。
-- ’ shi4 yi4 wei2 zheng4 ， xi1 qi2 wei4 wei2 zheng4 ？ ”
-- ’是亦为政，奚其为为政？”
+- huo4 wei4 kong3 zi3 yue1 ： “ zi3 xi1 bu2 wei2 zheng4？
+- 或谓孔子曰：“子奚不为政？
+- ” zi3 yue1 ： “ 《 shu1 》 yun2 ： ‘ xiao4 hu1 wei2 xiao4 ， you3 yu2 xiong1 di4 ， shi1 yu2 you3 zheng4。
+- ”子曰：“《书》云：‘孝乎惟孝，友于兄弟，施于有政。
+- ’ shi4 yi4 wei2 zheng4 ， xi1 qi2 wei4 wei2 zheng4？
+- ’是亦为政，奚其为为政？
+- ”
+- ”
 - zi3 yue1 ： “ ren2 er2 wu2 xin4 ， bu4 zhi1 qi2 ke3 ye3。
 - 子曰：“人而无信，不知其可也。
-- da4 che1 wu2 ni2 ， xiao3 che1 wu2 yue4 ， qi2 he2 yi3 xing2 zhi1 zai1 ？ ”
-- 大车无輗，小车无軏，其何以行之哉？”
-- zi3 zhang1 wen4 ： “ shi2 shi4 ke3 zhi1 ye3 ？ ” zi3 yue1 ： “ yin1 yin1 yu2 xia4 li3 ， suo3 sun3 yi4 ， ke3 zhi1 ye3；
-- 子张问：“十世可知也？”子曰：“殷因于夏礼，所损益，可知也；
+- da4 che1 wu2 ni2 ， xiao3 che1 wu2 yue4 ， qi2 he2 yi3 xing2 zhi1 zai1？
+- 大车无輗，小车无軏，其何以行之哉？
+- ”
+- ”
+- zi3 zhang1 wen4 ： “ shi2 shi4 ke3 zhi1 ye3？
+- 子张问：“十世可知也？
+- ” zi3 yue1 ： “ yin1 yin1 yu2 xia4 li3 ， suo3 sun3 yi4 ， ke3 zhi1 ye3；
+- ”子曰：“殷因于夏礼，所损益，可知也；
 - zhou1 yin1 yu2 yin1 li3 ， suo3 sun3 yi4 ， ke3 zhi1 ye3。
 - 周因于殷礼，所损益，可知也。
 - qi2 huo4 ji4 zhou1 zhe3 ， sui1 bai3 shi4 ， ke3 zhi1 ye3。

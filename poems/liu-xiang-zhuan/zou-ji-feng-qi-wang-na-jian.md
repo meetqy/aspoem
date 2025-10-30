@@ -13,14 +13,20 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 
 - zou1 ji4 xiu1 ba1 chi3 you3 yu2 ， er2 xing2 mao4 yi4 li2。
 - 鄒忌修八尺有餘，而形貌昳麗。
-- chao2 fu2 yi1 guan1 ， kui1 jing4 ， wei4 qi2 qi1 yue1 ： “ wo3 shu2 yu3 cheng2 bei3 xu2 gong1 mei3 ？ ” qi2 qi1 yue1 ： “ jun1 mei3 shen4 ， xu2 gong1 he2 neng2 ji2 jun1 ye3！
-- 朝服衣冠，窺鏡，謂其妻曰：“我孰與城北徐公美？”其妻曰：“君美甚，徐公何能及君也！
+- chao2 fu2 yi1 guan1 ， kui1 jing4 ， wei4 qi2 qi1 yue1 ： “ wo3 shu2 yu3 cheng2 bei3 xu2 gong1 mei3？
+- 朝服衣冠，窺鏡，謂其妻曰：“我孰與城北徐公美？
+- ” qi2 qi1 yue1 ： “ jun1 mei3 shen4 ， xu2 gong1 he2 neng2 ji2 jun1 ye3！
+- ”其妻曰：“君美甚，徐公何能及君也！
 - ” cheng2 bei3 xu2 gong1 ， qi2 guo2 zhi1 mei3 li2 zhe3 ye3。
 - ”城北徐公，齊國之美麗者也。
-- ji4 bu2 zi4 xin4 ， er2 fu4 wen4 qi2 qie4 yue1 ： “ wu2 shu2 yu3 xu2 gong1 mei3 ？ ” qie4 yue1 ： “ xu2 gong1 he2 neng2 ji2 jun1 ye3！
-- 忌不自信，而復問其妾曰：“吾孰與徐公美？”妾曰：“徐公何能及君也！
-- ” dan4 ri4 ， ke4 cong2 wai4 lai2 ， yu3 zuo4 tan2 ， wen4 zhi1 ke4 yue1 ： “ wu2 yu3 xu2 gong1 shu2 mei3 ？ ” ke4 yue1 ： “ xu2 gong1 bu2 ruo4 jun1 zhi1 mei3 ye3。
-- ”旦日，客從外來，與坐談，問之客曰：“吾與徐公孰美？”客曰：“徐公不若君之美也。
+- ji4 bu2 zi4 xin4 ， er2 fu4 wen4 qi2 qie4 yue1 ： “ wu2 shu2 yu3 xu2 gong1 mei3？
+- 忌不自信，而復問其妾曰：“吾孰與徐公美？
+- ” qie4 yue1 ： “ xu2 gong1 he2 neng2 ji2 jun1 ye3！
+- ”妾曰：“徐公何能及君也！
+- ” dan4 ri4 ， ke4 cong2 wai4 lai2 ， yu3 zuo4 tan2 ， wen4 zhi1 ke4 yue1 ： “ wu2 yu3 xu2 gong1 shu2 mei3？
+- ”旦日，客從外來，與坐談，問之客曰：“吾與徐公孰美？
+- ” ke4 yue1 ： “ xu2 gong1 bu2 ruo4 jun1 zhi1 mei3 ye3。
+- ”客曰：“徐公不若君之美也。
 - ” ming2 ri4 xu2 gong1 lai2 ， shu2 shi4 zhi1 ， zi4 yi3 wei2 bu4 ru2；
 - ”明日徐公來，孰視之，自以爲不如；
 - kui1 jing4 er2 zi4 shi4 ， you4 fu2 ru2 yuan3 shen4。

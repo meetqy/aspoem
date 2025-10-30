@@ -15,14 +15,18 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 古之學者必有師。
 - shi1 zhe3 ， suo3 yi3 chuan2 dao4 shou4 ye4 jie3 huo4 ye3。
 - 師者，所以傳道受業解惑也。
-- ren2 fei1 sheng1 er2 zhi1 zhi1 zhe3 ， shu2 neng2 wu2 huo4 ？ huo4 er2 bu4 cong2 shi1 ， qi2 wei2 huo4 ye3 ， zhong1 bu4 jie3 yi3。
-- 人非生而知之者，孰能無惑？惑而不從師，其爲惑也，終不解矣。
+- ren2 fei1 sheng1 er2 zhi1 zhi1 zhe3 ， shu2 neng2 wu2 huo4？
+- 人非生而知之者，孰能無惑？
+- huo4 er2 bu4 cong2 shi1 ， qi2 wei2 huo4 ye3 ， zhong1 bu4 jie3 yi3。
+- 惑而不從師，其爲惑也，終不解矣。
 - sheng1 hu1 wu2 qian2 ， qi2 wen2 dao4 ye3 gu4 xian1 hu1 wu2 ， wu2 cong2 er2 shi1 zhi1；
 - 生乎吾前，其聞道也固先乎吾，吾從而師之；
 - sheng1 hu1 wu2 hou4 ， qi2 wen2 dao4 ye3 yi4 xian1 hu1 wu2 ， wu2 cong2 er2 shi1 zhi1。
 - 生乎吾後，其聞道也亦先乎吾，吾從而師之。
-- wu2 shi1 dao4 ye3 ， fu1 yong1 zhi1 qi2 nian2 zhi1 xian1 hou4 sheng1 wu1 wu2 hu1 ？ shi4 gu4 wu2 gui4 wu2 jian4 ， wu2 chang2 wu2 shao3 ， dao4 zhi1 suo3 cun2 ， shi1 zhi1 suo3 cun2 ye3。
-- 吾師道也，夫庸知其年之先後生於吾乎？是故無貴無賤，無長無少，道之所存，師之所存也。
+- wu2 shi1 dao4 ye3 ， fu1 yong1 zhi1 qi2 nian2 zhi1 xian1 hou4 sheng1 wu1 wu2 hu1？
+- 吾師道也，夫庸知其年之先後生於吾乎？
+- shi4 gu4 wu2 gui4 wu2 jian4 ， wu2 chang2 wu2 shao3 ， dao4 zhi1 suo3 cun2 ， shi1 zhi1 suo3 cun2 ye3。
+- 是故無貴無賤，無長無少，道之所存，師之所存也。
 - jie1 hu1！
 - 嗟乎！
 - shi1 dao4 zhi1 bu4 chuan2 ye3 jiu3 yi3！
@@ -35,8 +39,10 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 今之衆人，其下聖人也亦遠矣，而恥學於師。
 - shi4 gu4 sheng4 yi4 sheng4 ， yu2 yi4 yu2。
 - 是故聖益聖，愚益愚。
-- sheng4 ren2 zhi1 suo3 yi3 wei2 sheng4 ， yu2 ren2 zhi1 suo3 yi3 wei2 yu2 ， qi2 jie1 chu1 wu1 ci3 hu1 ？ ai4 qi2 zi3 ， ze2 shi1 er2 jiao4 zhi1；
-- 聖人之所以爲聖，愚人之所以爲愚，其皆出於此乎？愛其子，擇師而教之；
+- sheng4 ren2 zhi1 suo3 yi3 wei2 sheng4 ， yu2 ren2 zhi1 suo3 yi3 wei2 yu2 ， qi2 jie1 chu1 wu1 ci3 hu1？
+- 聖人之所以爲聖，愚人之所以爲愚，其皆出於此乎？
+- ai4 qi2 zi3 ， ze2 shi1 er2 jiao4 zhi1；
+- 愛其子，擇師而教之；
 - wu1 qi2 shen1 ye3 ， ze2 chi3 shi1 yan1 ， huo4 yi3。
 - 於其身也，則恥師焉，惑矣。
 - bi3 tong2 zi3 zhi1 shi1 ， shou4 zhi1 shu1 er2 xi2 qi2 ju4 du2 zhe3 ， fei1 wu2 suo3 wei4 chuan2 qi2 dao4 jie3 qi2 huo4 zhe3 ye3。

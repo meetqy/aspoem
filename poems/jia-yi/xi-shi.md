@@ -85,7 +85,7 @@ tags: []
 - 循四极而回周兮，见盛德而後下。
 - bi3 sheng4 ren2 zhi1 shen2 de2 xi1 ， yuan3 zhuo2 shi4 er2 zi4 cang2。
 - 彼圣人之神德兮，远浊世而自藏。
-- shi3 qi2 lin2 ke3 de2 ji1 er2 xi4 xi1 ， you4 he2 yi3 yi4 hu1 quan3 yang2 ？
+- shi3 qi2 lin2 ke3 de2 ji1 er2 xi4 xi1 ， you4 he2 yi3 yi4 hu1 quan3 yang2？
 - 使麒麟可得羁而係兮，又何以异虖犬羊？
 
 ## 注释

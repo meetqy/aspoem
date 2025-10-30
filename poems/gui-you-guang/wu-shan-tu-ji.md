@@ -40,8 +40,10 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - yi4 shi2 wu2 min2 jiang1 ze2 sheng4 wu1 yan2 luan2 zhi1 jian4 ， shi1 zhu4 wu1 fu2 tu2 、 lao3 zi3 zhi1 gong1 ye3 ， gu4 yi2。
 - 異時吾民將擇勝於巖巒之間，尸祝於浮屠、老子之宮也，固宜。
 - er2 jun1 ze2 yi4 ji4 qu4 yi3 ， he2 fu4 quan2 quan2 wu1 ci3 shan1 zai1 ? xi1 su1 zi3 zhan1 cheng1 han2 wei4 gong1 qu4 huang2 zhou1 si4 shi2 yu2 nian2 er2 si1 zhi1 bu2 wang4 ， zhi4 yi3 wei2 《 si1 huang2 zhou1 》 shi1 ， zi3 zhan1 wei2 huang2 ren2 ke4 zhi1 wu1 shi2。
-- 而君則亦既去矣，何復惓惓於此山哉？昔蘇子瞻稱韓魏公去黃州四十餘年而思之不忘，至以爲《思黃州》詩，子瞻爲黃人刻之於石。
+- 而君則亦既去矣，何復惓惓於此山哉？
 - ran2 hou4 zhi1 xian2 zhe3 wu1 qi2 suo3 zhi4 ， bu4 du2 shi3 qi2 ren2 zhi1 bu4 ren3 wang4 er2 yi3 ， yi4 bu4 neng2 zi4 wang4 wu1 qi2 ren2 ye3。
+- 昔蘇子瞻稱韓魏公去黃州四十餘年而思之不忘，至以爲《思黃州》詩，子瞻爲黃人刻之於石。
+- 
 - 然後知賢者於其所至，不獨使其人之不忍忘而已，亦不能自忘於其人也。
 - jun1 jin1 qu4 xian4 yi3 san1 nian2 yi3。
 - 君今去縣已三年矣。

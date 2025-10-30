@@ -11,12 +11,18 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 
 ## 正文
 
-- tian1 ke3 bi4 hu1 ？ xian2 zhe3 bu2 bi4 gui4 ， ren2 zhe3 bu2 bi4 shou4。
-- 天可必乎？賢者不必貴，仁者不必壽。
-- tian1 bu4 ke3 bi4 hu1 ？ ren2 zhe3 bi4 you3 hou4。
-- 天不可必乎？仁者必有後。
-- er4 zhe3 jiang1 an1 qu3 zhong1 zai1 ？ wu2 wen2 zhi1 shen1 bao1 xu1 yue1 ： “ ren2 ding4 zhe3 sheng4 tian1 ， tian1 ding4 yi4 neng2 sheng4 ren2。
-- 二者將安取衷哉？吾聞之申包胥曰：“人定者勝天，天定亦能勝人。
+- tian1 ke3 bi4 hu1？
+- 天可必乎？
+- xian2 zhe3 bu2 bi4 gui4 ， ren2 zhe3 bu2 bi4 shou4。
+- 賢者不必貴，仁者不必壽。
+- tian1 bu4 ke3 bi4 hu1？
+- 天不可必乎？
+- ren2 zhe3 bi4 you3 hou4。
+- 仁者必有後。
+- er4 zhe3 jiang1 an1 qu3 zhong1 zai1？
+- 二者將安取衷哉？
+- wu2 wen2 zhi1 shen1 bao1 xu1 yue1 ： “ ren2 ding4 zhe3 sheng4 tian1 ， tian1 ding4 yi4 neng2 sheng4 ren2。
+- 吾聞之申包胥曰：“人定者勝天，天定亦能勝人。
 - ” shi4 zhi1 lun4 tian1 zhe3 ， jie1 bu2 dai4 qi2 ding4 er2 qiu2 zhi1 ， gu4 yi3 tian1 wei2 mang2 mang2。
 - ”世之論天者，皆不待其定而求之，故以天爲茫茫。
 - shan4 zhe3 yi3 dai4 ， e4 zhe3 yi3 si4。
@@ -49,8 +55,10 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 吾不及見魏公，而見其子懿敏公，以直諫事仁宗皇帝，出入侍從將帥三十餘年，位不滿其德。
 - tian1 jiang1 fu4 xing1 wang2 shi4 ye3 yu2！
 - 天將復興王氏也歟！
-- he2 qi2 zi3 sun1 zhi1 duo1 xian2 ye3 ？ shi4 you3 yi3 jin4 gong1 bi3 li3 qi1 yun2 zhe3 ， qi2 xiong2 cai2 zhi2 qi4 ， zhen1 bu4 xiang1 shang4 xia4。
-- 何其子孫之多賢也？世有以晉公比李棲筠者，其雄才直氣，真不相上下。
+- he2 qi2 zi3 sun1 zhi1 duo1 xian2 ye3？
+- 何其子孫之多賢也？
+- shi4 you3 yi3 jin4 gong1 bi3 li3 qi1 yun2 zhe3 ， qi2 xiong2 cai2 zhi2 qi4 ， zhen1 bu4 xiang1 shang4 xia4。
+- 世有以晉公比李棲筠者，其雄才直氣，真不相上下。
 - er2 qi1 yun2 zhi1 zi3 ji2 fu3 ， qi2 sun1 de2 yu4 ， gong1 ming2 fu4 gui4 ， lüe4 yu3 wang2 shi4 deng3；
 - 而棲筠之子吉甫，其孫德裕，功名富貴，略與王氏等；
 - er2 zhong1 shu4 ren2 hou4 ， bu4 ji2 wei4 gong1 fu4 zi3。
@@ -71,10 +79,14 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 既相真宗，四方砥平。
 - gui1 shi4 qi2 jia1 ， huai2 yin1 man3 ting2。
 - 歸視其家，槐陰滿庭。
-- wu2 chai2 xiao3 ren2 ， chao2 bu4 ji2 xi1 ， xiang1 shi2 she4 li4 ， huang2 xu4 jue2 de2 ？ shu4 ji1 jiao3 xing4 ， bu4 zhong3 er2 huo4。
-- 吾儕小人，朝不及夕，相時射利，皇恤厥德？庶幾僥倖，不種而獲。
-- bu4 you3 jun1 zi3 ， qi2 he2 neng2 guo2 ？ wang2 cheng2 zhi1 dong1 ， jin4 gong1 suo3 lu2；
-- 不有君子，其何能國？王城之東，晉公所廬；
+- wu2 chai2 xiao3 ren2 ， chao2 bu4 ji2 xi1 ， xiang1 shi2 she4 li4 ， huang2 xu4 jue2 de2？
+- 吾儕小人，朝不及夕，相時射利，皇恤厥德？
+- shu4 ji1 jiao3 xing4 ， bu4 zhong3 er2 huo4。
+- 庶幾僥倖，不種而獲。
+- bu4 you3 jun1 zi3 ， qi2 he2 neng2 guo2？
+- 不有君子，其何能國？
+- wang2 cheng2 zhi1 dong1 ， jin4 gong1 suo3 lu2；
+- 王城之東，晉公所廬；
 - yu4 yu4 san1 huai2 ， wei2 de2 zhi1 fu2。
 - 鬱郁三槐，惟德之符。
 - wu1 hu1 xiu1 zai1！

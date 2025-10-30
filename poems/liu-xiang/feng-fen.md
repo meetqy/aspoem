@@ -33,7 +33,7 @@ tags: []
 - 辞灵修而陨志兮，吟泽畔之江滨。
 - jiao1 gui4 luo2 yi3 dian1 fu4 xi1 ， you3 jie2 xin4 er2 gui1 cheng2。
 - 椒桂罗以颠覆兮，有竭信而归诚。
-- chan2 fu1 ai3 ai3 er2 man4 zhu4 xi1 ， he2 qi2 bu4 shu1 yu3 qing2 ？
+- chan2 fu1 ai3 ai3 er2 man4 zhu4 xi1 ， he2 qi2 bu4 shu1 yu3 qing2？
 - 谗夫蔼蔼而漫著兮，曷其不舒予情？
 - shi3 jie2 yan2 yu2 miao4 tang2 xi1 ， xin4 zhong1 tu2 er2 pan4 zhi1。
 - 始结言于庙堂兮，信中涂而叛之。

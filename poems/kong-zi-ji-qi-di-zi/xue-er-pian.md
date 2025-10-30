@@ -11,8 +11,14 @@ tags: []
 
 ## 正文
 
-- zi3 yue1 ： “ xue2 er2 shi2 xi2 zhi1 ， bu2 yi4 shuo1 hu1 ？ you3 peng2 zi4 yuan3 fang1 lai2 ， bu2 yi4 le4 hu1 ？ ren2 bu4 zhi1 er2 bu2 yun4 ， bu2 yi4 jun1 zi3 hu1 ？ ”
-- 子曰：“学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？”
+- zi3 yue1 ： “ xue2 er2 shi2 xi2 zhi1 ， bu2 yi4 shuo1 hu1？
+- 子曰：“学而时习之，不亦说乎？
+- you3 peng2 zi4 yuan3 fang1 lai2 ， bu2 yi4 le4 hu1？
+- 有朋自远方来，不亦乐乎？
+- ren2 bu4 zhi1 er2 bu2 yun4 ， bu2 yi4 jun1 zi3 hu1？
+- 人不知而不愠，不亦君子乎？
+- ”
+- ”
 - you3 zi3 yue1 ： “ qi2 wei4 ren2 ye3 xiao4 di4 ， er2 hao3 fan4 shang4 zhe3 ， xian1 yi3；
 - 有子曰：“其为人也孝弟，而好犯上者，鲜矣；
 - bu4 hao3 fan4 shang4 er2 hao3 zuo4 luan4 zhe3 ， wei4 zhi1 you3 ye3。
@@ -27,8 +33,14 @@ tags: []
 - 子曰：“巧言令色，鲜矣仁！
 - ”
 - ”
-- ceng2 zi3 yue1 ： “ wu2 ri4 san1 sheng3 wu2 shen1 ： wei4 ren2 mou2 er2 bu4 zhong1 hu1 ？ yu3 peng2 you3 jiao1 er2 bu2 xin4 hu1 ？ chuan2 bu4 xi2 hu1 ？ ”
-- 曾子曰：“吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？传不习乎？”
+- ceng2 zi3 yue1 ： “ wu2 ri4 san1 sheng3 wu2 shen1 ： wei4 ren2 mou2 er2 bu4 zhong1 hu1？
+- 曾子曰：“吾日三省吾身：为人谋而不忠乎？
+- yu3 peng2 you3 jiao1 er2 bu2 xin4 hu1？
+- 与朋友交而不信乎？
+- chuan2 bu4 xi2 hu1？
+- 传不习乎？
+- ”
+- ”
 - zi3 yue1 ： “ dao4 qian1 cheng2 zhi1 guo2 ， jing4 shi4 er2 xin4 ， jie2 yong4 er2 ai4 ren2 ， shi3 min2 yi3 shi2。
 - 子曰：“道千乘之国，敬事而信，节用而爱人，使民以时。
 - ”
@@ -59,10 +71,14 @@ tags: []
 - 曾子曰：“慎终追远，民德归厚矣。
 - ”
 - ”
-- zi3 qin2 wen4 yu2 zi3 gong4 yue1 ： “ fu1 zi3 zhi4 yu2 shi4 bang1 ye3 ， bi4 wen2 qi2 zheng4 ， qiu2 zhi1 yu3 ， yi4 yu3 zhi1 yu3 ？ ” zi3 gong4 yue1 ： “ fu1 zi3 wen1 、 liang2 、 gong1 、 jian3 、 rang4 yi3 de2 zhi1。
-- 子禽问于子贡曰：“夫子至于是邦也，必闻其政，求之与，抑与之与？”子贡曰：“夫子温、良、恭、俭、让以得之。
-- fu1 zi3 zhi1 qiu2 zhi1 ye3 ， qi2 zhu1 yi4 hu1 ren2 zhi1 qiu2 zhi1 yu3 ？ ”
-- 夫子之求之也，其诸异乎人之求之与？”
+- zi3 qin2 wen4 yu2 zi3 gong4 yue1 ： “ fu1 zi3 zhi4 yu2 shi4 bang1 ye3 ， bi4 wen2 qi2 zheng4 ， qiu2 zhi1 yu3 ， yi4 yu3 zhi1 yu3？
+- 子禽问于子贡曰：“夫子至于是邦也，必闻其政，求之与，抑与之与？
+- ” zi3 gong4 yue1 ： “ fu1 zi3 wen1 、 liang2 、 gong1 、 jian3 、 rang4 yi3 de2 zhi1。
+- ”子贡曰：“夫子温、良、恭、俭、让以得之。
+- fu1 zi3 zhi1 qiu2 zhi1 ye3 ， qi2 zhu1 yi4 hu1 ren2 zhi1 qiu2 zhi1 yu3？
+- 夫子之求之也，其诸异乎人之求之与？
+- ”
+- ”
 - zi3 yue1 ： “ fu4 zai4 ， guan1 qi2 zhi4；
 - 子曰：“父在，观其志；
 - fu4 mei2 ， guan1 qi2 xing2；
@@ -93,12 +109,16 @@ tags: []
 - 可谓好学也已。
 - ”
 - ”
-- zi3 gong4 yue1 ： “ pin2 er2 wu2 chan3 ， fu4 er2 wu2 jiao1 ， he2 ru2 ？ ” zi3 yue1 ： “ ke3 ye3。
-- 子贡曰：“贫而无谄，富而无骄，何如？”子曰：“可也。
+- zi3 gong4 yue1 ： “ pin2 er2 wu2 chan3 ， fu4 er2 wu2 jiao1 ， he2 ru2？
+- 子贡曰：“贫而无谄，富而无骄，何如？
+- ” zi3 yue1 ： “ ke3 ye3。
+- ”子曰：“可也。
 - wei4 ruo4 pin2 er2 le4 ， fu4 er2 hao3 li3 zhe3 ye3。
 - 未若贫而乐，富而好礼者也。
-- ” zi3 gong4 yue1 ： “ 《 shi1 》 yun2 ： ‘ ru2 qie1 ru2 cuo1 ， ru2 zhuo2 ru2 mo2 ’ ， qi2 si1 zhi1 wei4 yu3 ？ ” zi3 yue1 ： “ ci4 ye3 ， shi3 ke3 yu3 yan2 《 shi1 》 yi3 yi3 ， gao4 zhu1 wang3 er2 zhi1 lai2 zhe3。
-- ”子贡曰：“《诗》云：‘如切如磋，如琢如磨’，其斯之谓与？”子曰：“赐也，始可与言《诗》已矣，告诸往而知来者。
+- ” zi3 gong4 yue1 ： “ 《 shi1 》 yun2 ： ‘ ru2 qie1 ru2 cuo1 ， ru2 zhuo2 ru2 mo2 ’ ， qi2 si1 zhi1 wei4 yu3？
+- ”子贡曰：“《诗》云：‘如切如磋，如琢如磨’，其斯之谓与？
+- ” zi3 yue1 ： “ ci4 ye3 ， shi3 ke3 yu3 yan2 《 shi1 》 yi3 yi3 ， gao4 zhu1 wang3 er2 zhi1 lai2 zhe3。
+- ”子曰：“赐也，始可与言《诗》已矣，告诸往而知来者。
 - ”
 - ”
 - zi3 yue1 ： “ bu2 huan4 ren2 zhi1 bu4 ji3 zhi1 ， huan4 bu4 zhi1 ren2 ye3。

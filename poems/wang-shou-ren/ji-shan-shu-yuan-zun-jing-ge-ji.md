@@ -87,7 +87,7 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 是猶富家之子孫，不務守視享用其產業庫藏之實積，日遺忘散失，至於窶人丐夫，而猶囂囂然指其記籍。
 - yue1 ： “ si1 wu2 chan3 ye4 ku4 cang2 zhi1 ji1 ye3！
 - 曰：“斯吾產業庫藏之積也！
-- ” he2 yi3 yi4 wu1 shi4 ？
+- ” he2 yi3 yi4 wu1 shi4？
 - ”何以異於是？
 - wu1 hu1！
 - 嗚呼！
@@ -99,7 +99,7 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 習訓詁，傳記誦，沒溺於淺聞小見，以塗天下之耳目，是謂侮經；
 - chi3 yin2 ci2 ， jing4 gui3 bian4 ， shi4 jian1 xin1 dao4 xing2 ， zhu2 shi4 long3 duan4 ， er2 you2 zi4 yi3 wei2 tong1 jing1 ， shi4 wei4 zei2 jing1。
 - 侈淫辭，競詭辯，飾奸心盜行，逐世壟斷，而猶自以爲通經，是謂賊經。
-- ruo4 shi4 zhe3 ， shi4 bing4 qi2 suo3 wei4 ji4 ji2 zhe3 er2 ge1 lie4 qi4 hui3 zhi1 yi3 ， ning2 fu4 zhi1 suo3 yi3 wei2 zun1 jing1 ye3 hu1 ？
+- ruo4 shi4 zhe3 ， shi4 bing4 qi2 suo3 wei4 ji4 ji2 zhe3 er2 ge1 lie4 qi4 hui3 zhi1 yi3 ， ning2 fu4 zhi1 suo3 yi3 wei2 zun1 jing1 ye3 hu1？
 - 若是者，是並其所謂記籍者而割裂棄毀之矣，寧復知所以爲尊經也乎？
 - yue4 cheng2 jiu4 you3 ji1 shan1 shu1 yuan4 ， zai4 wo4 long2 xi1 gang3 ， huang1 fei4 jiu3 yi3。
 - 越城舊有稽山書院，在臥龍西崗，荒廢久矣。

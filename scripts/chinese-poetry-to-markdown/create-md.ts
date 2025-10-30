@@ -28,12 +28,17 @@ function escapeMarkdown(paragraphs: string | string[]) {
       result = result.replace(new RegExp(`\\${en}`, 'g'), cnSymbols[i]!)
     })
 
+    // 清理符号前后的多余空格，只保留一个
+    result = result.replace(/\s+([，。；：？！"'（）【】《》])\s+/g, ' $1 ') // 符号前后有多个空格，保留一个
+    result = result.replace(/\s+([，。；：？！"'（）【】《》])/g, ' $1') // 符号前有多个空格，保留一个
+    result = result.replace(/([，。；：？！"'（）【】《》])\s+/g, '$1 ') // 符号后有多个空格，保留一个
+
     return result
   }
 
   const splitLine = (text: string) => {
     // 按照句号、分号、感叹号分隔文本
-    return text.split(/([。；！])/).reduce((acc: string[], part, index) => {
+    return text.split(/([。；！？])/).reduce((acc: string[], part, index) => {
       if (index % 2 === 0) {
         // 文本部分
         if (part.trim()) {

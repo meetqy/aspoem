@@ -47,8 +47,10 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 疾痛慘怛，未嘗不呼父母也。
 - qu1 ping2 zheng4 dao4 zhi2 xing2 ， jie2 zhong1 jin4 zhi4 ， yi3 shi4 qi2 jun1 ， chan2 ren2 jian4 zhi1 ， ke3 wei4 qiong2 yi3。
 - 屈平正道直行，竭忠盡智，以事其君，讒人間之，可謂窮矣。
-- xin4 er2 jian4 yi2 ， zhong1 er2 bei4 bang4 ， neng2 wu2 yuan4 hu1 ？ qu1 ping2 zhi1 zuo4 《 li2 sao1 》 ， gai4 zi4 yuan4 sheng1 ye3。
-- 信而見疑，忠而被謗，能無怨乎？屈平之作《離騷》，蓋自怨生也。
+- xin4 er2 jian4 yi2 ， zhong1 er2 bei4 bang4 ， neng2 wu2 yuan4 hu1？
+- 信而見疑，忠而被謗，能無怨乎？
+- qu1 ping2 zhi1 zuo4 《 li2 sao1 》 ， gai4 zi4 yuan4 sheng1 ye3。
+- 屈平之作《離騷》，蓋自怨生也。
 - 《 guo2 feng1 》 hao4 se4 er2 bu4 yin2 ， 《 xiao3 ya3 》 yuan4 fei3 er2 bu2 luan4。
 - 《國風》好色而不淫，《小雅》怨誹而不亂。
 - ruo4 《 li2 sao1 》 zhe3 ， ke3 wei4 jian1 zhi1 yi3。
@@ -103,8 +105,10 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - ”如楚，又因厚幣用事者臣靳尚，而設詭辯於懷王之寵姬鄭袖。
 - huai2 wang2 jing4 ting1 zheng4 xiu4 ， fu4 shi4 qu4 zhang1 yi2。
 - 懷王竟聽鄭袖，復釋去張儀。
-- shi4 shi2 qu1 yuan2 ji4 shu1 ， bu2 fu4 zai4 wei4 ， shi3 wu1 qi2 ， gu4 fan3 ， jian4 huai2 wang2 yue1 ： “ he2 bu4 sha1 zhang1 yi2 ？ ” huai2 wang2 hui3 ， zhui1 zhang1 yi2 ， bu4 ji2。
-- 是時屈原既疏，不復在位，使於齊，顧反，諫懷王曰：“何不殺張儀？”懷王悔，追張儀，不及。
+- shi4 shi2 qu1 yuan2 ji4 shu1 ， bu2 fu4 zai4 wei4 ， shi3 wu1 qi2 ， gu4 fan3 ， jian4 huai2 wang2 yue1 ： “ he2 bu4 sha1 zhang1 yi2？
+- 是時屈原既疏，不復在位，使於齊，顧反，諫懷王曰：“何不殺張儀？
+- ” huai2 wang2 hui3 ， zhui1 zhang1 yi2 ， bu4 ji2。
+- ”懷王悔，追張儀，不及。
 - qi2 hou4 ， zhu1 hou2 gong4 ji1 chu3 ， da4 po4 zhi1 ， sha1 qi2 jiang1 tang2 mo4。
 - 其後，諸侯共擊楚，大破之，殺其將唐眜。
 - shi2 qin2 zhao1 wang2 yu3 chu3 hun1 ， yu4 yu3 huai2 wang2 hui4。
@@ -157,16 +161,30 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 頃襄王怒而遷之。
 - qu1 yuan2 zhi4 wu1 jiang1 bin1 ， bei4 fa4 xing2 yin2 ze2 pan4 ， yan2 se4 qiao2 cui4 ， xing2 rong2 ku1 gao3。
 - 屈原至於江濱，被髮行吟澤畔，顏色憔悴，形容枯槁。
-- yu2 fu4 jian4 er2 wen4 zhi1 yue1 ： “ zi3 fei1 san1 lü2 dai4 fu0 yu2 ？ he2 gu4 er2 zhi4 ci3 ？ ” qu1 yuan2 yue1 ： “ ju3 shi4 jie1 zhuo2 er2 wo3 du2 qing1 ， zhong4 ren2 jie1 zui4 er2 wo3 du2 xing3 ， shi4 yi3 jian4 fang4。
-- 漁父見而問之曰：“子非三閭大夫歟？何故而至此？”屈原曰：“舉世皆濁而我獨清，衆人皆醉而我獨醒，是以見放。
+- yu2 fu4 jian4 er2 wen4 zhi1 yue1 ： “ zi3 fei1 san1 lü2 dai4 fu0 yu2？
+- 漁父見而問之曰：“子非三閭大夫歟？
+- he2 gu4 er2 zhi4 ci3？
+- 何故而至此？
+- ” qu1 yuan2 yue1 ： “ ju3 shi4 jie1 zhuo2 er2 wo3 du2 qing1 ， zhong4 ren2 jie1 zui4 er2 wo3 du2 xing3 ， shi4 yi3 jian4 fang4。
+- ”屈原曰：“舉世皆濁而我獨清，衆人皆醉而我獨醒，是以見放。
 - ” yu2 fu4 yue1 ： “ fu1 sheng4 ren2 zhe3 ， bu4 ning2 zhi4 wu1 wu4 ， er2 neng2 yu3 shi4 tui1 yi2。
 - ”漁父曰：“夫聖人者，不凝滯於物，而能與世推移。
-- ju3 shi4 jie1 zhuo2 ， he2 bu4 sui2 qi2 liu2 er2 yang2 qi2 bo1 ？ zhong4 ren2 jie1 zui4 ， he2 bu4 bu3 qi2 zao1 er2 chuo4 qi2 li2 ？ he2 gu4 huai2 jin3 wo4 yu2 ， er2 zi4 ling4 jian4 fang4 wei2 ？ ” qu1 yuan2 yue1 ： “ wu2 wen2 zhi1 ， xin1 mu4 zhe3 bi4 dan4 guan1 ， xin1 yu4 zhe3 bi4 zhen4 yi1。
-- 舉世皆濁，何不隨其流而揚其波？衆人皆醉，何不哺其糟而啜其醨？何故懷瑾握瑜，而自令見放爲？”屈原曰：“吾聞之，新沐者必彈冠，新浴者必振衣。
-- ren2 you4 shui2 neng2 yi3 shen1 zhi1 cha2 cha2 ， shou4 wu4 zhi1 wen4 wen4 zhe3 hu1 ？ ning2 fu4 chang2 liu2 er2 zang4 hu1 jiang1 yu2 fu4 zhong1 er3。
-- 人又誰能以身之察察，受物之汶汶者乎？寧赴常流而葬乎江魚腹中耳。
-- you4 an1 neng2 yi3 hao4 hao4 zhi1 bai2 ， er2 meng2 shi4 zhi1 wen1 huo4 hu1 ？ ” nai3 zuo4 《 huai2 sha1 》 zhi1 fu4。
-- 又安能以皓皓之白，而蒙世之溫蠖乎？”乃作《懷沙》之賦。
+- ju3 shi4 jie1 zhuo2 ， he2 bu4 sui2 qi2 liu2 er2 yang2 qi2 bo1？
+- 舉世皆濁，何不隨其流而揚其波？
+- zhong4 ren2 jie1 zui4 ， he2 bu4 bu3 qi2 zao1 er2 chuo4 qi2 li2？
+- 衆人皆醉，何不哺其糟而啜其醨？
+- he2 gu4 huai2 jin3 wo4 yu2 ， er2 zi4 ling4 jian4 fang4 wei2？
+- 何故懷瑾握瑜，而自令見放爲？
+- ” qu1 yuan2 yue1 ： “ wu2 wen2 zhi1 ， xin1 mu4 zhe3 bi4 dan4 guan1 ， xin1 yu4 zhe3 bi4 zhen4 yi1。
+- ”屈原曰：“吾聞之，新沐者必彈冠，新浴者必振衣。
+- ren2 you4 shui2 neng2 yi3 shen1 zhi1 cha2 cha2 ， shou4 wu4 zhi1 wen4 wen4 zhe3 hu1？
+- 人又誰能以身之察察，受物之汶汶者乎？
+- ning2 fu4 chang2 liu2 er2 zang4 hu1 jiang1 yu2 fu4 zhong1 er3。
+- 寧赴常流而葬乎江魚腹中耳。
+- you4 an1 neng2 yi3 hao4 hao4 zhi1 bai2 ， er2 meng2 shi4 zhi1 wen1 huo4 hu1？
+- 又安能以皓皓之白，而蒙世之溫蠖乎？
+- ” nai3 zuo4 《 huai2 sha1 》 zhi1 fu4。
+- ”乃作《懷沙》之賦。
 - wu1 shi4 huai2 shi2 ， sui4 zi4 tou2 mi4 luo2 yi3 si3。
 - 於是懷石，遂自投汨羅以死。
 - qu1 yuan2 ji4 si3 zhi1 hou4 ， chu3 you3 song4 yu4 、 tang2 le4 、 jing3 cha4 zhi1 tu2 zhe3 ， jie1 hao3 ci2 er2 yi3 fu4 jian4 cheng1。

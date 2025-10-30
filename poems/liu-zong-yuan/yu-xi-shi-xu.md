@@ -43,8 +43,10 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 嘉木異石錯置，皆山水之奇者，以予故，鹹以愚辱焉。
 - fu1 shui3 ， zhi4 zhe3 le4 ye3。
 - 夫水，智者樂也。
-- jin1 shi4 xi1 du2 jian4 ru3 wu1 yu2 ， he2 zai1 ？ gai4 qi2 liu2 shen4 xia4 ， bu4 ke3 yi3 gai4 guan4。
-- 今是溪獨見辱於愚，何哉？蓋其流甚下，不可以溉灌。
+- jin1 shi4 xi1 du2 jian4 ru3 wu1 yu2 ， he2 zai1？
+- 今是溪獨見辱於愚，何哉？
+- gai4 qi2 liu2 shen4 xia4 ， bu4 ke3 yi3 gai4 guan4。
+- 蓋其流甚下，不可以溉灌。
 - you4 jun4 ji2 duo1 di3 shi2 ， da4 zhou1 bu4 ke3 ru4 ye3。
 - 又峻急多坻石，大舟不可入也。
 - you1 sui4 qian3 xia2 ， jiao1 long2 bu2 xie4 ， bu4 neng2 xing1 yun2 yu3 ， wu2 yi3 li4 shi4 ， er2 shi4 lei4 wu1 yu3 ， ran2 ze2 sui1 ru3 er2 yu2 zhi1 ， ke3 ye3。

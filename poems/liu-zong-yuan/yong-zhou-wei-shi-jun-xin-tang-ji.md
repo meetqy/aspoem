@@ -61,8 +61,20 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 已乃延客入觀，繼以宴娛。
 - huo4 zan4 qie3 he4 yue1 ： “ jian4 gong1 zhi1 zuo4 ， zhi1 gong1 zhi1 zhi4。
 - 或贊且賀曰：“見公之作，知公之志。
-- gong1 zhi1 yin1 tu3 er2 de2 sheng4 ， qi3 bu2 yu4 yin1 su2 yi3 cheng2 hua4 ？ gong1 zhi1 ze2 e4 er2 qu3 mei3 ， qi3 bu2 yu4 chu2 can2 er2 you4 ren2 ？ gong1 zhi1 juan1 zhuo2 er2 liu2 qing1 ， qi3 bu2 yu4 fei4 tan1 er2 li4 lian2 ？ gong1 zhi1 ju1 gao1 yi3 wang4 yuan3 ， qi3 bu2 yu4 jia1 fu3 er2 hu4 xiao3 ？ fu1 ran2 ， ze2 shi4 tang2 ye3 ， qi3 du2 cao3 mu4 tu3 shi2 shui3 quan2 zhi1 shi4 yu2 ？ shan1 yuan2 lin2 lu4 zhi1 guan1 yu2 ？ jiang1 shi3 ji4 gong1 zhi1 li3 zhe3 ， shi4 qi2 xi4 zhi1 qi2 da4 ye3。
-- 公之因土而得勝，豈不欲因俗以成化？公之擇惡而取美，豈不欲除殘而佑仁？公之蠲濁而流清，豈不欲廢貪而立廉？公之居高以望遠，豈不欲家撫而戶曉？夫然，則是堂也，豈獨草木土石水泉之適歟？山原林麓之觀歟？將使繼公之理者，視其細知其大也。
+- gong1 zhi1 yin1 tu3 er2 de2 sheng4 ， qi3 bu2 yu4 yin1 su2 yi3 cheng2 hua4？
+- 公之因土而得勝，豈不欲因俗以成化？
+- gong1 zhi1 ze2 e4 er2 qu3 mei3 ， qi3 bu2 yu4 chu2 can2 er2 you4 ren2？
+- 公之擇惡而取美，豈不欲除殘而佑仁？
+- gong1 zhi1 juan1 zhuo2 er2 liu2 qing1 ， qi3 bu2 yu4 fei4 tan1 er2 li4 lian2？
+- 公之蠲濁而流清，豈不欲廢貪而立廉？
+- gong1 zhi1 ju1 gao1 yi3 wang4 yuan3 ， qi3 bu2 yu4 jia1 fu3 er2 hu4 xiao3？
+- 公之居高以望遠，豈不欲家撫而戶曉？
+- fu1 ran2 ， ze2 shi4 tang2 ye3 ， qi3 du2 cao3 mu4 tu3 shi2 shui3 quan2 zhi1 shi4 yu2？
+- 夫然，則是堂也，豈獨草木土石水泉之適歟？
+- shan1 yuan2 lin2 lu4 zhi1 guan1 yu2？
+- 山原林麓之觀歟？
+- jiang1 shi3 ji4 gong1 zhi1 li3 zhe3 ， shi4 qi2 xi4 zhi1 qi2 da4 ye3。
+- 將使繼公之理者，視其細知其大也。
 - ” zong1 yuan2 qing3 zhi4 zhu1 shi2 ， cuo4 zhu1 bi4 ， bian1 yi3 wei2 er4 qian1 shi2 kai3 fa3。
 - ”宗元請志諸石，措諸壁，編以爲二千石楷法。
 

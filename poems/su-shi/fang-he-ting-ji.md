@@ -35,8 +35,10 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 故名之曰“放鶴亭”。
 - jun4 shou3 su1 shi4 ， shi2 cong2 bin1 zuo3 liao2 li4 wang3 jian4 shan1 ren2 ， yin3 jiu3 wu1 si1 ting2 er2 le4 zhi1。
 - 郡守蘇軾，時從賓佐僚吏往見山人，飲酒於斯亭而樂之。
-- yi4 shan1 ren2 er2 gao4 zhi1 yue1 ： “ zi3 zhi1 yin3 ju1 zhi1 le4 hu1 ？ sui1 nan2 mian4 zhi1 jun1 ， wei4 ke3 yu3 yi4 ye3。
-- 挹山人而告之曰：“子知隱居之樂乎？雖南面之君，未可與易也。
+- yi4 shan1 ren2 er2 gao4 zhi1 yue1 ： “ zi3 zhi1 yin3 ju1 zhi1 le4 hu1？
+- 挹山人而告之曰：“子知隱居之樂乎？
+- sui1 nan2 mian4 zhi1 jun1 ， wei4 ke3 yu3 yi4 ye3。
+- 雖南面之君，未可與易也。
 - 《 yi4 》 yue1 ： ‘ ming2 he4 zai4 yin1 ， qi2 zi3 he2 zhi1。
 - 《易》曰：‘鳴鶴在陰，其子和之。
 - ’   《 shi1 》 yue1 ： ‘ he4 ming2 wu1 jiu3 gao1 ， sheng1 wen2 wu1 tian1。
@@ -55,8 +57,10 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 嗟夫！
 - nan2 mian4 zhi1 jun1 ， sui1 qing1 yuan3 xian2 fang4 ru2 he4 zhe3 ， you2 bu4 de2 hao3 ， hao3 zhi1 ze2 wang2 qi2 guo2；
 - 南面之君，雖清遠閒放如鶴者，猶不得好，好之則亡其國；
-- er2 shan1 lin2 dun4 shi4 zhi1 shi4 ， sui1 huang1 huo4 bai4 luan4 ru2 jiu3 zhe3 ， you2 bu4 neng2 wei2 hai4 ， er2 kuang4 wu1 he4 hu1 ？ you2 ci3 guan1 zhi1 ， qi2 wei2 le4 wei4 ke3 yi3 tong2 ri4 er2 yu3 ye3。
-- 而山林遁世之士，雖荒惑敗亂如酒者，猶不能爲害，而況於鶴乎？由此觀之，其爲樂未可以同日而語也。
+- er2 shan1 lin2 dun4 shi4 zhi1 shi4 ， sui1 huang1 huo4 bai4 luan4 ru2 jiu3 zhe3 ， you2 bu4 neng2 wei2 hai4 ， er2 kuang4 wu1 he4 hu1？
+- 而山林遁世之士，雖荒惑敗亂如酒者，猶不能爲害，而況於鶴乎？
+- you2 ci3 guan1 zhi1 ， qi2 wei2 le4 wei4 ke3 yi3 tong2 ri4 er2 yu3 ye3。
+- 由此觀之，其爲樂未可以同日而語也。
 - ” shan1 ren2 xin1 ran2 er2 xiao4 yue1 ： “ you3 shi4 zai1！
 - ”山人忻然而笑曰：“有是哉！
 - ” nai3 zuo4 fang4 he4 、 zhao1 he4 zhi1 ge1 yue1 ：

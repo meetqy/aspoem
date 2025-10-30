@@ -33,8 +33,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 修嘗考其山川，按其圖記，升高以望清流之關，欲求輝、鳳就擒之所。
 - er2 gu4 lao3 jie1 wu2 zai4 ye3 ， gai4 tian1 xia4 zhi1 ping2 jiu3 yi3。
 - 而故老皆無在也，蓋天下之平久矣。
-- zi4 tang2 shi1 qi2 zheng4 ， hai3 nei4 fen1 lie4 ， hao2 jie2 bing4 qi3 er2 zheng1 ， suo3 zai4 wei2 di2 guo2 zhe3 ， he2 ke3 sheng4 shu4 ？ ji2 song4 shou4 tian1 ming4 ， sheng4 ren2 chu1 er2 si4 hai3 yi1。
-- 自唐失其政，海內分裂，豪傑並起而爭，所在爲敵國者，何可勝數？及宋受天命，聖人出而四海一。
+- zi4 tang2 shi1 qi2 zheng4 ， hai3 nei4 fen1 lie4 ， hao2 jie2 bing4 qi3 er2 zheng1 ， suo3 zai4 wei2 di2 guo2 zhe3 ， he2 ke3 sheng4 shu4？
+- 自唐失其政，海內分裂，豪傑並起而爭，所在爲敵國者，何可勝數？
+- ji2 song4 shou4 tian1 ming4 ， sheng4 ren2 chu1 er2 si4 hai3 yi1。
+- 及宋受天命，聖人出而四海一。
 - xiang4 zhi1 ping2 shi4 xian3 zu3 ， chan3 xiao1 xiao1 mo2 ， bai3 nian2 zhi1 jian4 ， mo4 ran2 tu2 jian4 shan1 gao1 er2 shui3 qing1。
 - 向之憑恃險阻，鏟削消磨，百年之間，漠然徒見山高而水清。
 - yu4 wen4 qi2 shi4 ， er2 yi2 lao3 jin4 yi3！

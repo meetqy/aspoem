@@ -17,7 +17,7 @@ tags: []
 - 物有微而陨性兮，声有隐而先倡。
 - fu1 he2 peng2 xian2 zhi1 zao4 si1 xi1 ， ji4 zhi4 jie4 er2 bu2 wang4！
 - 夫何彭咸之造思兮，暨志介而不忘！
-- wan4 bian4 qi2 qing2 qi3 ke3 gai4 xi1 ， shu2 xu1 wei3 zhi1 ke3 chang2 ？
+- wan4 bian4 qi2 qing2 qi3 ke3 gai4 xi1 ， shu2 xu1 wei3 zhi1 ke3 chang2？
 - 万变其情岂可盖兮，孰虚伪之可长？
 - niao3 shou4 ming2 yi3 hao4 qun2 xi1 ， cao3 ju1 bi3 er2 bu4 fang1。
 - 鸟兽鸣以号群兮，草苴比而不芳。
@@ -95,7 +95,7 @@ tags: []
 - 惮涌湍之礚礚兮，听波声之汹汹。
 - fen1 rong2 rong2 zhi1 wu2 jing1 xi1 ， wang3 mang2 mang2 zhi1 wu2 ji4。
 - 纷容容之无经兮，罔芒芒之无纪。
-- ya4 yang2 yang2 zhi1 wu2 cong2 xi1 ， chi2 wei3 yi2 zhi1 yan1 zhi3 ？
+- ya4 yang2 yang2 zhi1 wu2 cong2 xi1 ， chi2 wei3 yi2 zhi1 yan1 zhi3？
 - 轧洋洋之无从兮，驰委移之焉止？
 - piao1 fan1 fan1 qi2 shang4 xia4 xi1 ， yi4 yao2 yao2 qi2 zuo3 you4。
 - 漂翻翻其上下兮，翼遥遥其左右。
@@ -117,7 +117,7 @@ tags: []
 - 浮江淮而入海兮，从子胥而自适。
 - wang4 da4 he2 zhi1 zhou1 zhu3 xi1 ， bei1 shen1 tu2 zhi1 kang4 ji4。
 - 望大河之洲渚兮，悲申徒之抗迹。
-- zhou4 jian4 jun1 er2 bu4 ting1 xi1 ， zhong4 ren4 shi2 zhi1 he2 yi4 ？
+- zhou4 jian4 jun1 er2 bu4 ting1 xi1 ， zhong4 ren4 shi2 zhi1 he2 yi4？
 - 骤谏君而不听兮，重任石之何益？
 - xin1 gua4 jie2 er2 bu4 jie3 xi1 ， si1 jian3 chan3 er2 bu2 shi4。
 - 心絓结而不解兮，思蹇产而不释。

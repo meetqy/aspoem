@@ -75,8 +75,10 @@ tags: ["卷三・周文","古文观止","蒙学"]
 - 無功而祀之，非仁也；
 - bu4 zhi1 er2 bu2 wen4 ， fei1 zhi1 ye3。
 - 不知而不問，非知也。
-- jin1 zi1 hai3 qi2 you3 zai1 hu1 ？ fu1 guang3 chuan1 zhi1 niao3 shou4 ， heng2 zhi1 er2 bi4 qi2 zai1 ye3。
-- 今茲海其有災乎？夫廣川之鳥獸，恆知而避其災也。
+- jin1 zi1 hai3 qi2 you3 zai1 hu1？
+- 今茲海其有災乎？
+- fu1 guang3 chuan1 zhi1 niao3 shou4 ， heng2 zhi1 er2 bi4 qi2 zai1 ye3。
+- 夫廣川之鳥獸，恆知而避其災也。
 - ”
 - ”
 - shi4 sui4 ye3 ， hai3 duo1 da4 feng1 ， dong1 nuan3。

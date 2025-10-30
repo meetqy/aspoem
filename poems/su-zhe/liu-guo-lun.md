@@ -35,8 +35,10 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 而秦之攻燕、趙，未嘗有韓、魏之憂，則韓、魏之附秦故也。
 - fu1 han2 、 wei4 zhu1 hou2 zhi1 zhang4 ， er2 shi3 qin2 ren2 de2 chu1 ru4 wu1 qi2 jian4 ， ci3 qi3 zhi1 tian1 xia4 zhi1 shi4 xie2！
 - 夫韓、魏諸侯之障，而使秦人得出入於其間，此豈知天下之勢邪！
-- wei3 qu1 qu1 zhi1 han2 、 wei4 ， yi3 dang1 qiang2 hu3 lang2 zhi1 qin2 ， bi3 an1 de2 bu4 zhe2 er2 ru4 wu1 qin2 zai1 ？ han2 、 wei4 zhe2 er2 ru4 wu1 qin2 ， ran2 hou4 qin2 ren2 de2 tong1 qi2 bing1 wu1 dong1 zhu1 hou2 ， er2 shi3 tian1 xia4 pian1 shou4 qi2 huo4。
-- 委區區之韓、魏，以當強虎狼之秦，彼安得不折而入於秦哉？韓、魏折而入於秦，然後秦人得通其兵於東諸侯，而使天下偏受其禍。
+- wei3 qu1 qu1 zhi1 han2 、 wei4 ， yi3 dang1 qiang2 hu3 lang2 zhi1 qin2 ， bi3 an1 de2 bu4 zhe2 er2 ru4 wu1 qin2 zai1？
+- 委區區之韓、魏，以當強虎狼之秦，彼安得不折而入於秦哉？
+- han2 、 wei4 zhe2 er2 ru4 wu1 qin2 ， ran2 hou4 qin2 ren2 de2 tong1 qi2 bing1 wu1 dong1 zhu1 hou2 ， er2 shi3 tian1 xia4 pian1 shou4 qi2 huo4。
+- 韓、魏折而入於秦，然後秦人得通其兵於東諸侯，而使天下偏受其禍。
 - fu1 han2 、 wei4 bu4 neng2 du2 dang1 qin2 ， er2 tian1 xia4 zhi1 zhu1 hou2 ， jie4 zhi1 yi3 bi4 qi2 xi1 ， gu4 mo4 ru2 hou4 han2 qin1 wei4 yi3 bin4 qin2。
 - 夫韓、魏不能獨當秦，而天下之諸侯，藉之以蔽其西，故莫如厚韓親魏以擯秦。
 - qin2 ren2 bu4 gan3 yu2 han2 、 wei4 yi3 kui1 qi2 、 chu3 、 yan4 、 zhao4 zhi1 guo2 ， er2 qi2 、 chu3 、 yan4 、 zhao4 zhi1 guo2 ， yin1 de2 yi3 zi4 wan2 wu1 qi2 jian4 yi3。

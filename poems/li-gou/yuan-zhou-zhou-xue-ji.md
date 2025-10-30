@@ -46,30 +46,32 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - she4 cai4 qie3 you3 ri4 ， xu1 jiang1 li3 gou4 shen3 wu1 zhong4 yue1 ： “ wei2 si4 dai4 zhi1 xue2 ， kao3 zhu1 jing1 ke3 jian4 yi3。
 - 舍菜且有日，盱江李覯諗於衆曰：“惟四代之學，考諸經可見已。
 - qin2 yi3 shan1 xi1 ao2 liu4 guo2 ， yu4 di4 wan4 shi4 ， liu2 shi4 yi4 hu1 ， er2 guan1 men2 bu4 shou3 ， wu3 fu1 jian4 jiang1 ， mai4 jiang4 kong3 hou4 ， he2 ye1 ? shi1 shu1 zhi1 dao4 fei4 ， ren2 wei2 jian4 li4 er2 bu4 wen2 yi4 yan1 er3。
-- 秦以山西鏖六國，欲帝萬世，劉氏一呼，而關門不守，武夫健將，賣降恐後，何耶？詩書之道廢，人惟見利而不聞義焉耳。
+- 秦以山西鏖六國，欲帝萬世，劉氏一呼，而關門不守，武夫健將，賣降恐後，何耶？
 - xiao4 wu3 cheng2 feng1 fu4 ， shi4 zu3 chu1 rong2 xing2 ， jie1 zi1 zi1 xue2 shu4。
-- 孝武乘豐富，世祖出戎行，皆孳孳學術。
+- 詩書之道廢，人惟見利而不聞義焉耳。
 - su2 hua4 zhi1 hou4 ， yan2 wu1 ling2 、 xian4。
-- 俗化之厚，延於靈、獻。
+- 孝武乘豐富，世祖出戎行，皆孳孳學術。
 - cao3 mao2 wei1 yan2 zhe3 ， zhe2 shou3 er2 bu4 hui3；
-- 草茅危言者，折首而不悔；
+- 俗化之厚，延於靈、獻。
 - gong1 lie4 zhen4 zhu3 zhe3 ， wen2 ming4 er2 shi4 bing1；
-- 功烈震主者，聞命而釋兵；
+- 草茅危言者，折首而不悔；
 - qun2 xiong2 xiang1 shi4 ， bu4 gan3 qu4 chen2 wei4 ， shang4 shu4 shi2 nian2。
-- 羣雄相視，不敢去臣位，尚數十年。
+- 功烈震主者，聞命而釋兵；
 - jiao4 dao4 zhi1 jie2 ren2 xin1 ru2 ci3。
-- 教道之結人心如此。
+- 羣雄相視，不敢去臣位，尚數十年。
 - jin1 dai4 zao1 sheng4 shen2 ， er3 yuan2 de2 xian2 jun1 ， bi3 er3 you2 xiang2 xu4 ， jian4 gu3 ren2 zhi1 ji4。
-- 今代遭聖神，爾袁得賢君，俾爾由庠序，踐古人之跡。
+- 教道之結人心如此。
 - tian1 xia4 zhi4 ， ze2 tan2 li3 le4 yi3 tao2 wu2 min2 ： yi4 you3 bu2 xing4 ， you2 dang1 zhang4 da4 jie2 ， wei2 chen2 si3 zhong1 ， wei2 zi3 si3 xiao4。
-- 天下治，則譚禮樂以陶吾民：一有不幸，尤當仗大節，爲臣死忠，爲子死孝。
+- 今代遭聖神，爾袁得賢君，俾爾由庠序，踐古人之跡。
 - shi3 ren2 you3 suo3 lai4 ， qie3 you3 suo3 fa3。
-- 使人有所賴，且有所法。
+- 天下治，則譚禮樂以陶吾民：一有不幸，尤當仗大節，爲臣死忠，爲子死孝。
 - shi4 sui1 chao2 jia1 jiao4 xue2 zhi1 yi4。
-- 是睢朝家教學之意。
+- 使人有所賴，且有所法。
 - ruo4 qi2 nong4 bi3 mo4 yi3 jiao3 li4 da2 er2 yi3 ， qi3 tu2 er4 san1 zi3 zhi1 xiu1 ， yi4 yi4 wei2 guo2 zhe3 zhi1 you1。
-- 若其弄筆墨以徼利達而已，豈徒二三子之羞，抑亦爲國者之憂。
+- 是睢朝家教學之意。
 - ”
+- 若其弄筆墨以徼利達而已，豈徒二三子之羞，抑亦爲國者之憂。
+- 
 - ”
 - ci3 nian2 shi2 zhi4 he2 jia3 wu3 ， xia4 mou3 yue4 jia3 zi3 ji4。
 - 此年實至和甲午，夏某月甲子記。

@@ -27,8 +27,10 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 齊威王之時喜隱，好爲淫樂長夜之飲，沉湎不治，委政卿大夫。
 - bai3 guan1 huang1 luan4 ， zhu1 hou2 bing4 qin1 ， guo2 qie3 wei1 wang2 ， zai4 wu1 dan4 mu4 ， zuo3 you4 mo4 gan3 jian4。
 - 百官荒亂，諸侯並侵，國且危亡，在於旦暮，左右莫敢諫。
-- chun2 yu2 kun1 shuo1 zhi1 yi3 yin3 yue1 ： “ guo2 zhong1 you3 da4 niao3 ， zhi3 wang2 zhi1 ting2 ， san1 nian2 bu4 fei1 you4 bu4 wu1 ， wang2 zhi1 ci3 niao3 he2 ye3 ？ ” wang2 yue1 ： “ ci3 niao3 bu4 fei1 ze2 yi3 ， yi4 fei1 chong1 tian1；
-- 淳于髡說之以隱曰：“國中有大鳥，止王之庭，三年不蜚又不嗚，王知此鳥何也？”王曰：“此鳥不飛則已，一飛沖天；
+- chun2 yu2 kun1 shuo1 zhi1 yi3 yin3 yue1 ： “ guo2 zhong1 you3 da4 niao3 ， zhi3 wang2 zhi1 ting2 ， san1 nian2 bu4 fei1 you4 bu4 wu1 ， wang2 zhi1 ci3 niao3 he2 ye3？
+- 淳于髡說之以隱曰：“國中有大鳥，止王之庭，三年不蜚又不嗚，王知此鳥何也？
+- ” wang2 yue1 ： “ ci3 niao3 bu4 fei1 ze2 yi3 ， yi4 fei1 chong1 tian1；
+- ”王曰：“此鳥不飛則已，一飛沖天；
 - bu4 ming2 ze2 yi3 ， yi4 ming2 jing1 ren2。
 - 不鳴則已，一鳴驚人。
 - ” wu1 shi4 nai3 chao2 zhu1 xian4 ling4 chang2 qi1 shi2 er4 ren2 ， shang3 yi4 ren2 ， zhu1 yi4 ren2 ， fen4 bing1 er2 chu1。
@@ -45,10 +47,14 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 齊王使淳于髡之趙請救兵，齎金百斤，車馬十駟。
 - chun2 yu2 kun1 yang3 tian1 da4 xiao4 ， guan1 ying1 suo3 jue2。
 - 淳于髡仰天大笑，冠纓索絕。
-- wang2 yue1 ： “ xian1 sheng1 shao3 zhi1 hu1 ？ ” kun1 yue1 ： “ he2 gan3！
-- 王曰：“先生少之乎？”髡曰：“何敢！
-- ” wang2 yue1 ： “ xiao4 qi3 you3 shuo1 hu1 ？ ” kun1 yue1 ： “ jin1 zhe3 chen2 cong2 dong1 fang1 lai2 ， jian4 dao4 pang2 you3 rang2 tian2 zhe3 ， cao1 yi4 tun2 ti2 ， jiu3 yi4 yu2 ， zhu4 yue1 ： ‘ ou1 ju4 man3 gou1 ， wu1 xie2 man3 ju1 ， wu3 gu3 fan1 shu2 ， rang2 rang2 man3 jia1。
-- ”王曰：“笑豈有說乎？”髡曰：“今者臣從東方來，見道旁有禳田者，操一豚蹄，酒一盂，祝曰：‘甌窶滿篝，污邪滿車，五穀蕃熟，穰穰滿家。
+- wang2 yue1 ： “ xian1 sheng1 shao3 zhi1 hu1？
+- 王曰：“先生少之乎？
+- ” kun1 yue1 ： “ he2 gan3！
+- ”髡曰：“何敢！
+- ” wang2 yue1 ： “ xiao4 qi3 you3 shuo1 hu1？
+- ”王曰：“笑豈有說乎？
+- ” kun1 yue1 ： “ jin1 zhe3 chen2 cong2 dong1 fang1 lai2 ， jian4 dao4 pang2 you3 rang2 tian2 zhe3 ， cao1 yi4 tun2 ti2 ， jiu3 yi4 yu2 ， zhu4 yue1 ： ‘ ou1 ju4 man3 gou1 ， wu1 xie2 man3 ju1 ， wu3 gu3 fan1 shu2 ， rang2 rang2 man3 jia1。
+- ”髡曰：“今者臣從東方來，見道旁有禳田者，操一豚蹄，酒一盂，祝曰：‘甌窶滿篝，污邪滿車，五穀蕃熟，穰穰滿家。
 - ’ chen2 jian4 qi2 suo3 chi2 zhe3 xia2 er2 suo3 yu4 zhe3 she1 ， gu4 xiao4 zhi1。
 - ’臣見其所持者狹而所欲者奢，故笑之。
 - ” wu1 shi4 qi2 wei1 wang2 nai3 yi4 ji1 huang2 jin1 qian1 yi4 ， bai2 bi4 shi2 shuang1 ， ju1 ma3 bai3 si4。
@@ -61,12 +67,16 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 楚聞之，夜引兵而去。
 - wei1 wang2 da4 yue4 ， zhi4 jiu3 hou4 gong1 ， zhao4 kun1 ci4 zhi1 jiu3。
 - 威王大悅，置酒後宮，召髡賜之酒。
-- wen4 yue1 ： “ xian1 sheng1 neng2 yin3 ji1 he2 er2 zui4 ？ ” dui4 yue1 ： “ chen2 yin3 yi4 dou3 yi4 zui4 ， yi4 shi2 yi4 zui4。
-- 問曰：“先生能飲幾何而醉？”對曰：“臣飲一斗亦醉，一石亦醉。
+- wen4 yue1 ： “ xian1 sheng1 neng2 yin3 ji1 he2 er2 zui4？
+- 問曰：“先生能飲幾何而醉？
+- ” dui4 yue1 ： “ chen2 yin3 yi4 dou3 yi4 zui4 ， yi4 shi2 yi4 zui4。
+- ”對曰：“臣飲一斗亦醉，一石亦醉。
 - ” wei1 wang2 yue1 ： “ xian1 sheng1 yin3 yi4 dou3 er2 zui4 ， e4 neng2 yin3 yi4 shi2 zai1！
 - ”威王曰：“先生飲一斗而醉，惡能飲一石哉！
-- qi2 shuo1 ke3 de2 wen2 hu1 ？ ” kun1 yue1 ： “ ci4 jiu3 da4 wang2 zhi1 qian2 ， zhi2 fa3 zai4 bang4 ， yu4 shi3 zai4 hou4 ， kun1 kong3 ju4 fu3 fu2 er2 yin3 ， bu2 guo4 yi4 dou3 jing4 zui4 yi3。
-- 其說可得聞乎？”髡曰：“賜酒大王之前，執法在傍，御史在後，髡恐懼俯伏而飲，不過一斗徑醉矣。
+- qi2 shuo1 ke3 de2 wen2 hu1？
+- 其說可得聞乎？
+- ” kun1 yue1 ： “ ci4 jiu3 da4 wang2 zhi1 qian2 ， zhi2 fa3 zai4 bang4 ， yu4 shi3 zai4 hou4 ， kun1 kong3 ju4 fu3 fu2 er2 yin3 ， bu2 guo4 yi4 dou3 jing4 zui4 yi3。
+- ”髡曰：“賜酒大王之前，執法在傍，御史在後，髡恐懼俯伏而飲，不過一斗徑醉矣。
 - ruo4 qin1 you3 yan2 ke4 ， kun1 juan3 gou1 ju1  ， shi4 jiu3 wu1 qian2 ， shi2 ci4 yu2 li4 ， feng4 shang1 shang4 shou4 ， shu4 qi3 ， yin3 bu2 guo4 er4 dou3 jing4 zui4 yi3。
 - 若親有嚴客，髡帣韝鞠，侍酒於前，時賜餘瀝，奉觴上壽，數起，飲不過二斗徑醉矣。
 - ruo4 peng2 you3 jiao1 you2 ， jiu3 bu4 xiang1 jian4 ， zu2 ran2 xiang1 du3 ， huan1 ran2 dao4 gu4 ， si1 qing2 xiang1 yu3 ， yin3 ke3 wu3 liu4 dou4 jing4 zui4 yi3。

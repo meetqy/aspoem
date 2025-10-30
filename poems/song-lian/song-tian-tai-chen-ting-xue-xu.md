@@ -49,12 +49,18 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 及年壯方可出，而四方兵起，無所投足。
 - dai3 jin1 sheng4 zhu3 xing1 er2 yu3 nei4 ding4 ， ji2 hai3 zhi1 ji4 ， he2 wei2 yi4 jia1 ， er2 yu3 chi3 yi4 jia1 mao4 yi3。
 - 逮今聖主興而宇內定，極海之際，合爲一家，而予齒益加耄矣。
-- yu4 ru2 ting2 xue2 zhi1 you2 ， shang4 ke3 de2 hu1 ？
+- yu4 ru2 ting2 xue2 zhi1 you2 ， shang4 ke3 de2 hu1？
 - 欲如庭學之遊，尚可得乎？
 - ran2 wu2 wen2 gu3 zhi1 xian2 shi4 ， ruo4 yan2 hui2 、 yuan2 xian4 ， jie1 zuo4 shou3 lou4 shi4 ， peng2 hao1 mei2 hu4 ， er2 zhi4 yi4 chang2 chong1 ran2 ， you3 ruo4 nang2 kuo4 wu1 tian1 di4 zhe3。
 - 然吾聞古之賢士，若顏回、原憲，皆坐守陋室，蓬蒿沒戶，而志意常充然，有若囊括於天地者。
-- ci3 qi2 gu4 he2 ye3 ？ de2 wu2 you3 chu1 wu1 shan1 shui3 zhi1 wai4 zhe3 hu1 ？ ting2 xue2 qi2 shi4 gui1 er2 qiu2 yan1 ？ gou3 you3 suo3 de2 ， ze2 yi3 gao4 yu3 ， yu3 jiang1 bu4 yi2 kui4 er2 yi3 ye3！
-- 此其故何也？得無有出於山水之外者乎？庭學其試歸而求焉？苟有所得，則以告予，予將不一愧而已也！
+- ci3 qi2 gu4 he2 ye3？
+- 此其故何也？
+- de2 wu2 you3 chu1 wu1 shan1 shui3 zhi1 wai4 zhe3 hu1？
+- 得無有出於山水之外者乎？
+- ting2 xue2 qi2 shi4 gui1 er2 qiu2 yan1？
+- 庭學其試歸而求焉？
+- gou3 you3 suo3 de2 ， ze2 yi3 gao4 yu3 ， yu3 jiang1 bu4 yi2 kui4 er2 yi3 ye3！
+- 苟有所得，則以告予，予將不一愧而已也！
 
 ## 注释
 

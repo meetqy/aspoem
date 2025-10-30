@@ -17,12 +17,16 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 公將戰。
 - cao2 gui4 qing3 jian4。
 - 曹劌請見。
-- qi2 xiang1 ren2 yue1 ： “ rou4 shi2 zhe3 mou2 zhi1 ， you4 he2 jian4 yan1 ？ ” gui4 yue1 ： “ rou4 shi2 zhe3 bi3 ， wei4 neng2 yuan3 mou2。
-- 其鄉人曰：“肉食者謀之，又何間焉？”劌曰：“肉食者鄙，未能遠謀。
+- qi2 xiang1 ren2 yue1 ： “ rou4 shi2 zhe3 mou2 zhi1 ， you4 he2 jian4 yan1？
+- 其鄉人曰：“肉食者謀之，又何間焉？
+- ” gui4 yue1 ： “ rou4 shi2 zhe3 bi3 ， wei4 neng2 yuan3 mou2。
+- ”劌曰：“肉食者鄙，未能遠謀。
 - ” nai3 ru4 jian4。
 - ”乃入見。
-- wen4 ： “ he2 yi3 zhan4 ？ ” gong1 yue1 ： “ yi1 shi2 suo3 an1 ， fu2 gan3 zhuan1 ye3 ， bi4 yi3 fen1 ren2。
-- 問：“何以戰？”公曰：“衣食所安，弗敢專也，必以分人。
+- wen4 ： “ he2 yi3 zhan4？
+- 問：“何以戰？
+- ” gong1 yue1 ： “ yi1 shi2 suo3 an1 ， fu2 gan3 zhuan1 ye3 ， bi4 yi3 fen1 ren2。
+- ”公曰：“衣食所安，弗敢專也，必以分人。
 - ” dui4 yue1 ： “ xiao3 hui4 wei4 bian4 ， min2 fu2 cong2 ye3。
 - ”對曰：“小惠未遍，民弗從也。
 - ” gong1 yue1 ： “ xi1 sheng1 yu4 bo2 ， fu2 gan3 jia1 ye3 ， bi4 yi3 xin4。

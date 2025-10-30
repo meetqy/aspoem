@@ -85,8 +85,10 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - ’諸侯備聞此言，斯是用痛心疾首，暱就寡人。
 - gua3 ren2 shuai4 yi3 ting1 ming4 ， wei2 hao3 shi4 qiu2。
 - 寡人帥以聽命，唯好是求。
-- jun1 ruo4 hui4 gu4 zhu1 hou2 ， jin1 ai1 gua3 ren2 ， er2 ci4 zhi1 meng2 ， ze2 gua3 ren2 zhi1 yuan4 ye3 ， qi2 cheng2 ning2 zhu1 hou2 yi3 tui4 ， qi3 gan3 jiao3 luan4 ？ jun1 ruo4 bu4 shi1 da4 hui4 ， gua3 ren2 bu2 ning4 ， qi2 bu4 neng2 yi3 zhu1 hou2 tui4 yi3。
-- 君若惠顧諸侯，矜哀寡人，而賜之盟，則寡人之願也，其承寧諸侯以退，豈敢徼亂？君若不施大惠，寡人不佞，其不能以諸侯退矣。
+- jun1 ruo4 hui4 gu4 zhu1 hou2 ， jin1 ai1 gua3 ren2 ， er2 ci4 zhi1 meng2 ， ze2 gua3 ren2 zhi1 yuan4 ye3 ， qi2 cheng2 ning2 zhu1 hou2 yi3 tui4 ， qi3 gan3 jiao3 luan4？
+- 君若惠顧諸侯，矜哀寡人，而賜之盟，則寡人之願也，其承寧諸侯以退，豈敢徼亂？
+- jun1 ruo4 bu4 shi1 da4 hui4 ， gua3 ren2 bu2 ning4 ， qi2 bu4 neng2 yi3 zhu1 hou2 tui4 yi3。
+- 君若不施大惠，寡人不佞，其不能以諸侯退矣。
 - gan3 jin4 bu4 zhi1 zhi2 shi4 ， bi3 zhi2 shi4 shi2 tu2 li4 zhi1。
 - 敢盡布之執事，俾執事實圖利之。
 - ”

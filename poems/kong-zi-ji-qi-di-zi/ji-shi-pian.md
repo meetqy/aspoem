@@ -13,14 +13,22 @@ tags: []
 
 - ji4 shi4 jiang1 fa2 zhuan1 yu2 ， ran3 you3 、 ji4 lu4 jian4 yu2 kong3 zi3 ， yue1 ： “ ji4 shi4 jiang1 you3 shi4 yu2 zhuan1 yu2。
 - 季氏将伐颛臾，冉有、季路见于孔子，曰：“季氏将有事于颛臾。
-- ” kong3 zi3 yue1 ： “ qiu2 ， wu2 nai3 er3 shi4 guo4 yu3 ？ fu1 zhuan1 yu2 ， xi1 zhe3 xian1 wang2 yi3 wei2 dong1 meng2 zhu3 ， qie3 zai4 bang1 yu4 zhi1 zhong1 yi3 ， shi4 she4 ji4 zhi1 chen2 ye3。
-- ”孔子曰：“求，无乃尔是过与？夫颛臾，昔者先王以为东蒙主，且在邦域之中矣，是社稷之臣也。
-- he2 yi3 fa2 wei4 ？ ” ran3 you3 yue1 ： “ fu1 zi3 yu4 zhi1 ， wu2 er4 chen2 zhe3 jie1 bu2 yu4 ye3。
-- 何以伐为？”冉有曰：“夫子欲之，吾二臣者皆不欲也。
+- ” kong3 zi3 yue1 ： “ qiu2 ， wu2 nai3 er3 shi4 guo4 yu3？
+- ”孔子曰：“求，无乃尔是过与？
+- fu1 zhuan1 yu2 ， xi1 zhe3 xian1 wang2 yi3 wei2 dong1 meng2 zhu3 ， qie3 zai4 bang1 yu4 zhi1 zhong1 yi3 ， shi4 she4 ji4 zhi1 chen2 ye3。
+- 夫颛臾，昔者先王以为东蒙主，且在邦域之中矣，是社稷之臣也。
+- he2 yi3 fa2 wei4？
+- 何以伐为？
+- ” ran3 you3 yue1 ： “ fu1 zi3 yu4 zhi1 ， wu2 er4 chen2 zhe3 jie1 bu2 yu4 ye3。
+- ”冉有曰：“夫子欲之，吾二臣者皆不欲也。
 - ” kong3 zi3 yue1 ： “ qiu2 ， zhou1 ren4 you3 yan2 yue1 ： ‘ chen2 li4 jiu4 lie4 ， bu4 neng2 zhe3 zhi3。
 - ”孔子曰：“求，周任有言曰：‘陈力就列，不能者止。
-- ’ wei1 er2 bu4 chi2 ， dian1 er2 bu4 fu2 ， ze2 jiang1 yan1 yong4 bi3 xiang1 yi3 ？ qie3 er3 yan2 guo4 yi3 ， hu3 si4 chu1 yu2 xia2 ， gui1 yu4 hui3 yu2 du2 zhong1 ， shi4 shui2 zhi1 guo4 yu3 ？ ” ran3 you3 yue1 ： “ jin1 fu1 zhuan1 yu2 gu4 er2 jin4 yu2 fei4 ， jin1 bu4 qu3 ， hou4 shi4 bi4 wei4 zi3 sun1 you1。
-- ’危而不持，颠而不扶，则将焉用彼相矣？且尔言过矣，虎兕出于柙，龟玉毁于椟中，是谁之过与？”冉有曰：“今夫颛臾固而近于费，今不取，后世必为子孙忧。
+- ’ wei1 er2 bu4 chi2 ， dian1 er2 bu4 fu2 ， ze2 jiang1 yan1 yong4 bi3 xiang1 yi3？
+- ’危而不持，颠而不扶，则将焉用彼相矣？
+- qie3 er3 yan2 guo4 yi3 ， hu3 si4 chu1 yu2 xia2 ， gui1 yu4 hui3 yu2 du2 zhong1 ， shi4 shui2 zhi1 guo4 yu3？
+- 且尔言过矣，虎兕出于柙，龟玉毁于椟中，是谁之过与？
+- ” ran3 you3 yue1 ： “ jin1 fu1 zhuan1 yu2 gu4 er2 jin4 yu2 fei4 ， jin1 bu4 qu3 ， hou4 shi4 bi4 wei4 zi3 sun1 you1。
+- ”冉有曰：“今夫颛臾固而近于费，今不取，后世必为子孙忧。
 - ” kong3 zi3 yue1 ： “ qiu2 ， jun1 zi3 ji2 fu1 she4 yue1 yu4 zhi1 er2 bi4 wei4 zhi1 ci2。
 - ”孔子曰：“求，君子疾夫舍曰欲之而必为之辞。
 - qiu1 ye3 wen2 ， you3 guo2 you3 jia1 zhe3 ， bu2 huan4 gua3 er2 huan4 bu4 jun1 ， bu2 huan4 pin2 er2 huan4 bu4 an1。
@@ -117,18 +125,26 @@ tags: []
 - 齐景公有马千驷，死之日，民无德而称焉；
 - bo2 yi2 、 shu1 qi2 e4 yu2 shou3 yang2 zhi1 xia4 ， min2 dao4 yu2 jin1 cheng1 zhi1。
 - 伯夷、叔齐饿于首阳之下，民到于今称之。
-- qi2 si1 zhi1 wei4 yu3 ？ ”
-- 其斯之谓与？”
-- chen2 kang4 wen4 yu2 bo2 yu2 yue1 ： “ zi3 yi4 you3 yi4 wen2 hu1 ？ ” dui4 yue1 ： “ wei4 ye3。
-- 陈亢问于伯鱼曰：“子亦有异闻乎？”对曰：“未也。
-- chang2 du2 li4 ， li3 qu1 er2 guo4 ting2 ， yue1 ： ‘ xue2 《 shi1 》 hu1 ？ ’ dui4 yue1 ： ‘ wei4 ye3。
-- 尝独立，鲤趋而过庭，曰：‘学《诗》乎？’对曰：‘未也。
+- qi2 si1 zhi1 wei4 yu3？
+- 其斯之谓与？
+- ”
+- ”
+- chen2 kang4 wen4 yu2 bo2 yu2 yue1 ： “ zi3 yi4 you3 yi4 wen2 hu1？
+- 陈亢问于伯鱼曰：“子亦有异闻乎？
+- ” dui4 yue1 ： “ wei4 ye3。
+- ”对曰：“未也。
+- chang2 du2 li4 ， li3 qu1 er2 guo4 ting2 ， yue1 ： ‘ xue2 《 shi1 》 hu1？
+- 尝独立，鲤趋而过庭，曰：‘学《诗》乎？
+- ’ dui4 yue1 ： ‘ wei4 ye3。
+- ’对曰：‘未也。
 - ’ ‘ bu4 xue2 《 shi1 》 ， wu2 yi3 yan2。
 - ’‘不学《诗》，无以言。
 - ’ li3 tui4 er2 xue2 《 shi1 》。
 - ’鲤退而学《诗》。
-- ta1 ri4 ， you4 du2 li4 ， li3 qu1 er2 guo4 ting2 ， yue1 ： ‘ xue2 《 li3 》 hu1 ？ ’ dui4 yue1 ： ‘ wei4 ye3。
-- 他日，又独立，鲤趋而过庭，曰：‘学《礼》乎？’对曰：‘未也。
+- ta1 ri4 ， you4 du2 li4 ， li3 qu1 er2 guo4 ting2 ， yue1 ： ‘ xue2 《 li3 》 hu1？
+- 他日，又独立，鲤趋而过庭，曰：‘学《礼》乎？
+- ’ dui4 yue1 ： ‘ wei4 ye3。
+- ’对曰：‘未也。
 - ’ ‘ bu4 xue2 《 li3 》 ， wu2 yi3 li4。
 - ’‘不学《礼》，无以立。
 - ’ li3 tui4 er2 xue2 《 li3 》。

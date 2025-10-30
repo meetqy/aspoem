@@ -13,14 +13,18 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 
 - tai4 shi3 gong1 yue1 ： “ xian1 ren2 you3 yan2 ： ‘ zi4 zhou1 gong1 zu2 wu3 bai3 sui4 er2 you3 kong3 zi3。
 - 太史公曰：“先人有言：‘自周公卒五百歲而有孔子。
-- kong3 zi3 zu2 hou4 zhi4 wu1 jin1 wu3 bai3 sui4 ， you3 neng2 shao4 ming2 shi4 、 zheng4 《 yi4 chuan2 》 ， ji4 《 chun1 qiu1 》 、 ben3 《 shi1 》 、 《 shu1 》 、 《 li3 》 、 《 le4 》 zhi1 ji4 ？ ’ ” yi4 zai4 si1 hu1！
-- 孔子卒後至於今五百歲，有能紹明世、正《易傳》，繼《春秋》、本《詩》、《書》、《禮》、《樂》之際？’”意在斯乎！
+- kong3 zi3 zu2 hou4 zhi4 wu1 jin1 wu3 bai3 sui4 ， you3 neng2 shao4 ming2 shi4 、 zheng4 《 yi4 chuan2 》 ， ji4 《 chun1 qiu1 》 、 ben3 《 shi1 》 、 《 shu1 》 、 《 li3 》 、 《 le4 》 zhi1 ji4？
+- 孔子卒後至於今五百歲，有能紹明世、正《易傳》，繼《春秋》、本《詩》、《書》、《禮》、《樂》之際？
+- ’ ” yi4 zai4 si1 hu1！
+- ’”意在斯乎！
 - yi4 zai4 si1 hu1！
 - 意在斯乎！
 - xiao3 zi0 he2 gan3 rang4 yan1！
 - 小子何敢讓焉！
-- shang4 dai4 fu0 hu2 sui4 yue1 ： “ xi1 kong3 zi3 he2 wei2 er2 zuo4 《 chun1 qiu1 》 zai1 ” ？ tai4 shi3 gong1 yue1 ： “ yu2 wen2 dong3 sheng1 yue1 ： ‘ zhou1 dao4 shuai1 fei4 ， kong3 zi3 wei2 lu3 si1 kou4 ， zhu1 hou2 hai4 zi3 ， dai4 fu0 yong1 zhi1。
-- 上大夫壺遂曰：“昔孔子何爲而作《春秋》哉”？太史公曰：“餘聞董生曰：‘周道衰廢，孔子爲魯司寇，諸侯害子，大夫雍之。
+- shang4 dai4 fu0 hu2 sui4 yue1 ： “ xi1 kong3 zi3 he2 wei2 er2 zuo4 《 chun1 qiu1 》 zai1 ”？
+- 上大夫壺遂曰：“昔孔子何爲而作《春秋》哉”？
+- tai4 shi3 gong1 yue1 ： “ yu2 wen2 dong3 sheng1 yue1 ： ‘ zhou1 dao4 shuai1 fei4 ， kong3 zi3 wei2 lu3 si1 kou4 ， zhu1 hou2 hai4 zi3 ， dai4 fu0 yong1 zhi1。
+- 太史公曰：“餘聞董生曰：‘周道衰廢，孔子爲魯司寇，諸侯害子，大夫雍之。
 - kong3 zi3 zhi1 yan2 zhi1 bu2 yong4 ， dao4 zhi1 bu4 xing2 ye3 ， shi4 fei1 er4 bai3 si4 shi2 er4 nian2 zhi1 zhong1 ， yi3 wei2 tian1 xia4 yi2 biao3 ， bian3 tian1 zi3 ， tui4 zhu1 hou2 ， tao3 dai4 fu0 ， yi3 da2 wang2 shi4 er2 yi3 yi3。
 - 孔子知言之不用，道之不行也，是非二百四十二年之中，以爲天下儀表，貶天子，退諸侯，討大夫，以達王事而已矣。
 - ’ zi3 yue1 ： ‘ wo3 yu4 zai4 zhi1 kong1 yan2 ， bu4 ru2 jian4 zhi1 wu1 xing2 shi4 zhi1 shen1 qie4 zhu4 ming2 ye3。
@@ -83,8 +87,10 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - ”
 - hu2 sui4 yue1 ： “ kong3 zi3 zhi1 shi2 ， shang4 wu2 ming2 jun1 ， xia4 bu4 de2 ren4 yong4 ， gu4 zuo4 《 chun1 qiu1 》 ， chui2 kong1 wen2 yi3 duan4 li3 yi4 ， dang1 yi4 wang2 zhi1 fa3。
 - 壺遂曰：“孔子之時，上無明君，下不得任用，故作《春秋》，垂空文以斷禮義，當一王之法。
-- jin1 fu1 zi3 shang4 yu4 ming2 tian1 zi3 ， xia4 de2 shou3 zhi2 ， wan4 shi4 ji4 ju4 ， xian2 ge4 xu4 qi2 yi2 ， fu1 zi3 suo3 lun4 ， yu4 yi3 he2 ming2 ？ ”
-- 今夫子上遇明天子，下得守職，萬事既具，鹹各序其宜，夫子所論，欲以何明？”
+- jin1 fu1 zi3 shang4 yu4 ming2 tian1 zi3 ， xia4 de2 shou3 zhi2 ， wan4 shi4 ji4 ju4 ， xian2 ge4 xu4 qi2 yi2 ， fu1 zi3 suo3 lun4 ， yu4 yi3 he2 ming2？
+- 今夫子上遇明天子，下得守職，萬事既具，鹹各序其宜，夫子所論，欲以何明？
+- ”
+- ”
 - tai4 shi3 gong1 yue1 ： “ wei2 wei2 ， fou3 fou3 ， bu4 ran2。
 - 太史公曰：“唯唯，否否，不然。
 - yu2 wen2 zhi1 xian1 ren2 yue1 ： ‘ fu2 xi1 zhi4 chun2 hou4 ， zuo4 《 yi4 》 ba1 gua4。

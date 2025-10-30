@@ -33,8 +33,10 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 遂錫嘉名爲“閱江”雲。
 - deng1 lan3 zhi1 qing3 ， wan4 xiang4 sen1 lie4 ， qian1 zai4 zhi1 bi4 ， yi2 dan4 xuan1 lu4。
 - 登覽之頃，萬象森列，千載之祕，一旦軒露。
-- qi3 fei1 tian1 zao4 di4 she4 ， yi3 si4 da4 yi4 tong3 zhi1 jun1 ， er2 kai1 qian1 wan4 shi4 zhi1 wei3 guan1 zhe3 yu2 ？ dang1 feng1 ri4 qing1 mei3 ， fa3 jia4 xing4 lin2 ， sheng1 qi2 chong2 jiao1 ， ping2 lan2 yao2 zhu3 ， bi4 you1 ran2 er2 dong4 xia2 si1。
-- 豈非天造地設，以俟大一統之君，而開千萬世之偉觀者歟？當風日清美，法駕幸臨，升其崇椒，憑闌遙矚，必悠然而動遐思。
+- qi3 fei1 tian1 zao4 di4 she4 ， yi3 si4 da4 yi4 tong3 zhi1 jun1 ， er2 kai1 qian1 wan4 shi4 zhi1 wei3 guan1 zhe3 yu2？
+- 豈非天造地設，以俟大一統之君，而開千萬世之偉觀者歟？
+- dang1 feng1 ri4 qing1 mei3 ， fa3 jia4 xing4 lin2 ， sheng1 qi2 chong2 jiao1 ， ping2 lan2 yao2 zhu3 ， bi4 you1 ran2 er2 dong4 xia2 si1。
+- 當風日清美，法駕幸臨，升其崇椒，憑闌遙矚，必悠然而動遐思。
 - jian4 jiang1 han4 zhi1 chao2 zong1 ， zhu1 hou2 zhi1 shu4 zhi2 ， cheng2 chi2 zhi1 gao1 shen1 ， guan1 e4 zhi1 yan2 gu4 ， bi4 yue1 ： “ ci3 zhen4 mu4 feng1 zhi4 yu3 、 zhan4 sheng4 gong1 qu3 zhi1 suo3 zhi4 ye3。
 - 見江漢之朝宗，諸侯之述職，城池之高深，關阨之嚴固，必曰：“此朕沐風櫛雨、戰勝攻取之所致也。
 - ” zhong1 xia4 zhi1 guang3 ， yi4 si1 you3 yi3 bao3 zhi1。
@@ -49,8 +51,10 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - ”萬方之民，益思有以安之。
 - chu4 lei4 er2 si1 ， bu4 yi1 er2 zu2。
 - 觸類而思，不一而足。
-- chen2 zhi1 si1 lou2 zhi1 jian4 ， huang2 shang0 suo3 yi3 fa1 shu1 jing1 shen2 ， yin1 wu4 xing1 gan3 ， wu2 bu2 yu4 qi2 zhi4 zhi4 zhi1 si1 ， xi1 ci3 yue4 fu1 chang2 jiang1 er2 yi3 zai1 ？ bi3 lin2 chun1 、 jie2 qi3 ， fei1 fu2 hua2 yi3；
-- 臣知斯樓之建，皇上所以發舒精神，因物興感，無不寓其致治之思，奚此閱夫長江而已哉？彼臨春、結綺，非弗華矣；
+- chen2 zhi1 si1 lou2 zhi1 jian4 ， huang2 shang0 suo3 yi3 fa1 shu1 jing1 shen2 ， yin1 wu4 xing1 gan3 ， wu2 bu2 yu4 qi2 zhi4 zhi4 zhi1 si1 ， xi1 ci3 yue4 fu1 chang2 jiang1 er2 yi3 zai1？
+- 臣知斯樓之建，皇上所以發舒精神，因物興感，無不寓其致治之思，奚此閱夫長江而已哉？
+- bi3 lin2 chun1 、 jie2 qi3 ， fei1 fu2 hua2 yi3；
+- 彼臨春、結綺，非弗華矣；
 - qi2 yun2 、 luo4 xing1 ， fei1 bu4 gao1 yi3。
 - 齊雲、落星，非不高矣。
 - bu2 guo4 le4 guan3 xian2 zhi1 yin2 xiang3 ， cang2 yan4 zhao4 zhi1 yan4 ji1。
@@ -61,9 +65,11 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 雖然，長江發源岷山，委蛇七千餘里而始入海，白涌碧翻，六朝之時，往往倚之爲天塹；
 - jin1 ze2 nan2 bei3 yi4 jia1 ， shi4 wei2 an1 liu2 ， wu2 suo3 shi4 hu1 zhan4 zheng1 yi3。
 - 今則南北一家，視爲安流，無所事乎戰爭矣。
-- ran2 ze2 ， guo3 shui2 zhi1 li4 yu2 ？ feng2 ye4 zhi1 shi4 ， you3 deng1 si1 lou2 er2 yue4 si1 jiang1 zhe3 ， dang1 si1 di4 de2 ru2 tian1 ， dang4 dang4 nan2 ming2 ， yu3 shen2 yu3 shu1 zao2 zhi1 gong1 tong2 yi4 wang3 ji2。
-- 然則，果誰之力歟？逢掖之士，有登斯樓而閱斯江者，當思帝德如天，蕩蕩難名，與神禹疏鑿之功同一罔極。
-- zhong1 jun1 bao4 shang4 zhi1 xin1 ， qi2 you3 bu4 you2 ran2 er2 xing1 zhe3 ye1 ？
+- ran2 ze2 ， guo3 shui2 zhi1 li4 yu2？
+- 然則，果誰之力歟？
+- feng2 ye4 zhi1 shi4 ， you3 deng1 si1 lou2 er2 yue4 si1 jiang1 zhe3 ， dang1 si1 di4 de2 ru2 tian1 ， dang4 dang4 nan2 ming2 ， yu3 shen2 yu3 shu1 zao2 zhi1 gong1 tong2 yi4 wang3 ji2。
+- 逢掖之士，有登斯樓而閱斯江者，當思帝德如天，蕩蕩難名，與神禹疏鑿之功同一罔極。
+- zhong1 jun1 bao4 shang4 zhi1 xin1 ， qi2 you3 bu4 you2 ran2 er2 xing1 zhe3 ye1？
 - 忠君報上之心，其有不油然而興者耶？
 - chen2 bu4 min3 ， feng4 zhi3 zhuan4 ji4 ， yu4 shang4 tui1 xiao1 gan4 tu2 zhi4 zhi1 qie4 zhe3 ， le4 zhu1 zhen1 min2。
 - 臣不敏，奉旨撰記，欲上推宵旰圖治之切者，勒諸貞珉。

@@ -23,14 +23,20 @@ tags: ["卷三・周文","古文观止","蒙学"]
 - 舅犯曰：“孺子其辭焉。
 - sang1 ren2 wu2 bao3 ， ren2 qin1 yi3 wei2 bao3。
 - 喪人無寶，仁親以爲寶。
-- fu4 si3 zhi1 wei4 he2 ？ you4 yin1 yi3 wei2 li4 ， er2 tian1 xia4 qi2 shu2 neng2 shuo1 zhi1 ？ ru2 zi3 qi2 ci2 yan1！
-- 父死之謂何？又因以爲利，而天下其孰能說之？孺子其辭焉！
+- fu4 si3 zhi1 wei4 he2？
+- 父死之謂何？
+- you4 yin1 yi3 wei2 li4 ， er2 tian1 xia4 qi2 shu2 neng2 shuo1 zhi1？
+- 又因以爲利，而天下其孰能說之？
+- ru2 zi3 qi2 ci2 yan1！
+- 孺子其辭焉！
 - ” gong1 zi3 zhong4 er3 dui4 ke4 yue1 ： “ jun1 hui4 diao4 wang2 chen2 zhong4 er3。
 - ”公子重耳對客曰：“君惠吊亡臣重耳。
 - shen1 sang1 fu4 si3 ， bu4 de2 yu3 wu1 ku1 qi4 zhi1 ai1 ， yi3 wei2 jun1 you1。
 - 身喪父死，不得與於哭泣之哀，以爲君憂。
-- fu4 si3 zhi1 wei4 he2 ？ huo4 gan3 you3 ta1 zhi4 ， yi3 ru3 jun1 yi4。
-- 父死之謂何？或敢有他志，以辱君義。
+- fu4 si3 zhi1 wei4 he2？
+- 父死之謂何？
+- huo4 gan3 you3 ta1 zhi4 ， yi3 ru3 jun1 yi4。
+- 或敢有他志，以辱君義。
 - ” ji1 sang3 er2 bu2 bai4 ， ku1 er2 qi3 ， qi3 er2 bu4 si1。
 - ”稽顙而不拜，哭而起，起而不私。
 - zi3 xian3 yi3 zhi4 ming4 wu1 mu4 gong1。

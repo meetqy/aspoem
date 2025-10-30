@@ -19,16 +19,20 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 其觸於物也，鏦鏦錚錚，金鐵皆鳴；
 - you4 ru2 fu4 di2 zhi1 bing1 ， xian2 mei2 ji2 zou3 ， bu4 wen2 hao4 ling4 ， dan4 wen2 ren2 ma3 zhi1 xing2 sheng1。
 - 又如赴敵之兵，銜枚疾走，不聞號令，但聞人馬之行聲。
-- yu3 wei4 tong2 zi3 ： “ ci3 he2 sheng1 ye3 ？ ru3 chu1 shi4 zhi1。
-- 予謂童子：“此何聲也？汝出視之。
+- yu3 wei4 tong2 zi3 ： “ ci3 he2 sheng1 ye3？
+- 予謂童子：“此何聲也？
+- ru3 chu1 shi4 zhi1。
+- 汝出視之。
 - ” tong2 zi3 yue1 ： “ xing1 yue4 jiao3 jie2 ， ming2 he2 zai4 tian1 ， si4 wu2 ren2 sheng1 ， sheng1 zai4 shu4 jian4。
 - ”童子曰：“星月皎潔，明河在天，四無人聲，聲在樹間。
 - ”
 - ”
 - yu2 yue1 ： “ yi1 xi1 bei1 zai1！
 - 餘曰：“噫嘻悲哉！
-- ci3 qiu1 sheng1 ye3 ， hu2 wei2 er2 lai2 zai1 ？ gai4 fu1 qiu1 zhi1 wei2 zhuang4 ye3 ： qi2 se4 can3 dan4 ， yan1 fei1 yun2 lian3；
-- 此秋聲也，胡爲而來哉？蓋夫秋之爲狀也：其色慘淡，煙霏雲斂；
+- ci3 qiu1 sheng1 ye3 ， hu2 wei2 er2 lai2 zai1？
+- 此秋聲也，胡爲而來哉？
+- gai4 fu1 qiu1 zhi1 wei2 zhuang4 ye3 ： qi2 se4 can3 dan4 ， yan1 fei1 yun2 lian3；
+- 蓋夫秋之爲狀也：其色慘淡，煙霏雲斂；
 - qi2 rong2 qing1 ming2 ， tian1 gao1 ri4 jing1；
 - 其容清明，天高日晶；
 - qi2 qi4 li4 lie4 ， bian1 ren2 ji1 gu3；
@@ -69,8 +73,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 而況思其力之所不及，憂其智之所不能；
 - yi2 qi2 wo4 ran2 dan1 zhe3 wei2 gao3 mu4 ， yi1 ran2 hei1 zhe3 wei2 xing1 xing1。
 - 宜其渥然丹者爲槁木，黟然黑者爲星星。
-- nai4 he2 yi3 fei1 jin1 shi2 zhi1 zhi4 ， yu4 yu3 cao3 mu4 er2 zheng1 rong2 ？ nian4 shui2 wei2 zhi1 qiang1 zei2 ， yi4 he2 hen4 hu1 qiu1 sheng1！
-- 奈何以非金石之質，欲與草木而爭榮？念誰爲之戕賊，亦何恨乎秋聲！
+- nai4 he2 yi3 fei1 jin1 shi2 zhi1 zhi4 ， yu4 yu3 cao3 mu4 er2 zheng1 rong2？
+- 奈何以非金石之質，欲與草木而爭榮？
+- nian4 shui2 wei2 zhi1 qiang1 zei2 ， yi4 he2 hen4 hu1 qiu1 sheng1！
+- 念誰爲之戕賊，亦何恨乎秋聲！
 - ”
 - ”
 - tong2 zi3 mo4 dui4 ， chui2 tou2 er2 shui4。

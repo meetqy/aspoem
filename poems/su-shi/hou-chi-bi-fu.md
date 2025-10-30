@@ -21,8 +21,10 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 已而嘆曰：“有客無酒，有酒無餚，月白風 清，如此良夜何！
 - ” ke4 yue1 ： “ jin1 zhe3 bo2 mu4 ， ju3 wang3 de2 yu2 ， ju4 kou3 xi4 lin2 ， zhuang4 ru2 song1 jiang1 zhi1 lu2。
 - ”客曰：“今者薄暮，舉網得魚，巨口細鱗，狀如松江之鱸。
-- gu4 an1 suo3 de2 jiu3   hu1 ？ ” gui1 er2 mou2 zhu1 fu4。
-- 顧安所得酒 乎？”歸而謀諸婦。
+- gu4 an1 suo3 de2 jiu3   hu1？
+- 顧安所得酒 乎？
+- ” gui1 er2 mou2 zhu1 fu4。
+- ”歸而謀諸婦。
 - fu4 yue1 ： “ wo3 you3 dou4 jiu3 ， cang2 zhi1 jiu3 yi3 ， yi3 dai4 zi3 bu4 shi2 zhi1 xu1。
 - 婦曰：“我有斗酒，藏之久矣，以待子不時之需。
 - ” wu1 shi4 xie2 jiu3 yu3 yu2 ， fu4   you2 wu1 chi4 bi4 zhi1 xia4。
@@ -51,16 +53,20 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 翅如車輪，玄裳縞衣，戛然長鳴，掠予舟而西也。
 - xu1 yu2 ke4 qu4 ， yu3 yi4 jiu4 shui4。
 - 須臾客去，予亦就睡。
-- meng4 yi2 dao4 shi4 ， yu3 yi1 pian2 xian1 ， guo4 lin2 gao1 zhi1 xia4 ， yi1 yu3 er2 yan2 yue1 ： “ chi4 bi4 zhi1 you2 le4   hu1 ？ ” wen4 qi2 xing4 ming2 ， fu3 er2 bu4 da2。
-- 夢一道士，羽衣蹁躚，過臨皋之下，揖予而言曰：“赤壁之遊樂 乎？”問其姓名，俯而不答。
+- meng4 yi2 dao4 shi4 ， yu3 yi1 pian2 xian1 ， guo4 lin2 gao1 zhi1 xia4 ， yi1 yu3 er2 yan2 yue1 ： “ chi4 bi4 zhi1 you2 le4   hu1？
+- 夢一道士，羽衣蹁躚，過臨皋之下，揖予而言曰：“赤壁之遊樂 乎？
+- ” wen4 qi2 xing4 ming2 ， fu3 er2 bu4 da2。
+- ”問其姓名，俯而不答。
 - “ wu1 hu1！
 - “嗚呼！
 - yi1 xi1！
 - 噫嘻！
 - wo3 zhi1 zhi1 yi3。
 - 我知之矣。
-- chou2 xi1 zhi1 ye4 ， fei1 ming2 er2 guo4 wo3 zhe3 ， fei1 zi3 ye3   xie2 ？ ” dao4 shi4 gu4 xiao4 ， yu3 yi4 jing1 wu4。
-- 疇昔之夜，飛鳴而過我者，非子也 邪？”道士顧笑，予亦驚寤。
+- chou2 xi1 zhi1 ye4 ， fei1 ming2 er2 guo4 wo3 zhe3 ， fei1 zi3 ye3   xie2？
+- 疇昔之夜，飛鳴而過我者，非子也 邪？
+- ” dao4 shi4 gu4 xiao4 ， yu3 yi4 jing1 wu4。
+- ”道士顧笑，予亦驚寤。
 - kai1 hu4 shi4 zhi1 ， bu2 jian4 qi2 chu3。
 - 開戶視之，不見其處。
 

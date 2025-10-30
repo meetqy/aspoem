@@ -19,8 +19,14 @@ tags: []
 - ”
 - liu3 xia4 hui4 wei4 shi4 shi1 ， san1 chu4。
 - 柳下惠为士师，三黜。
-- ren2 yue1 ： “ zi3 wei4 ke3 yi3 qu4 hu1 ？ ” yue1 ： “ zhi2 dao4 er2 shi4 ren2 ， yan1 wang3 er2 bu4 san1 chu4 ？ wang3 dao4 er2 shi4 ren2 ， he2 bi4 qu4 fu4 mu3 zhi1 bang1 ？ ”
-- 人曰：“子未可以去乎？”曰：“直道而事人，焉往而不三黜？枉道而事人，何必去父母之邦？”
+- ren2 yue1 ： “ zi3 wei4 ke3 yi3 qu4 hu1？
+- 人曰：“子未可以去乎？
+- ” yue1 ： “ zhi2 dao4 er2 shi4 ren2 ， yan1 wang3 er2 bu4 san1 chu4？
+- ”曰：“直道而事人，焉往而不三黜？
+- wang3 dao4 er2 shi4 ren2 ， he2 bi4 qu4 fu4 mu3 zhi1 bang1？
+- 枉道而事人，何必去父母之邦？
+- ”
+- ”
 - qi2 jing3 gong1 dai4 kong3 zi3 yue1 ： “ ruo4 ji4 shi4 ， ze2 wu2 bu4 neng2。
 - 齐景公待孔子曰：“若季氏，则吾不能。
 - ” yi3 ji4 、 meng4 zhi1 jian1 dai4 zhi1 ， yue1 ： “ wu2 lao3 yi3 ， bu4 neng2 yong4 ye3。
@@ -31,34 +37,54 @@ tags: []
 - 齐人归女乐，季桓子受之，三日不朝，孔子行。
 - ”
 - ”
-- chu3 kuang2 jie1 yu2 ge1 er2 guo4 kong3 zi3 yue1 ： “ feng4 xi1 feng4 xi1 ， he2 de2 zhi1 shuai1 ？ wang3 zhe3 bu4 ke3 jian4 ， lai2 zhe3 you2 ke3 zhui1。
-- 楚狂接舆歌而过孔子曰：“凤兮凤兮，何德之衰？往者不可谏，来者犹可追。
+- chu3 kuang2 jie1 yu2 ge1 er2 guo4 kong3 zi3 yue1 ： “ feng4 xi1 feng4 xi1 ， he2 de2 zhi1 shuai1？
+- 楚狂接舆歌而过孔子曰：“凤兮凤兮，何德之衰？
+- wang3 zhe3 bu4 ke3 jian4 ， lai2 zhe3 you2 ke3 zhui1。
+- 往者不可谏，来者犹可追。
 - yi3 er2 yi3 er2 ， jin1 zhi1 cong2 zheng4 zhe3 dai4 er2！
 - 已而已而，今之从政者殆而！
 - ” kong3 zi3 xia4 ， yu4 yu3 zhi1 yan2 ， qu1 er2 pi4 zhi1 ， bu4 de2 yu3 zhi1 yan2。
 - ”孔子下，欲与之言，趋而辟之，不得与之言。
 - chang2 ju3 、 jie2 ni4 ou3 er2 geng1 ， kong3 zi3 guo4 zhi1 ， shi3 zi3 lu4 wen4 jin1 yan1。
 - 长沮、桀溺耦而耕，孔子过之，使子路问津焉。
-- chang2 ju3 yue1 ： “ fu1 zhi2 yu2 zhe3 wei4 shui2 ？ ” zi3 lu4 yue1 ： “ wei4 kong3 qiu1。
-- 长沮曰：“夫执舆者为谁？”子路曰：“为孔丘。
-- ” yue1 ： “ shi4 lu3 kong3 qiu1 yu3 ？ ” yue1 ： “ shi4 ye3。
-- ”曰：“是鲁孔丘与？”曰：“是也。
+- chang2 ju3 yue1 ： “ fu1 zhi2 yu2 zhe3 wei4 shui2？
+- 长沮曰：“夫执舆者为谁？
+- ” zi3 lu4 yue1 ： “ wei4 kong3 qiu1。
+- ”子路曰：“为孔丘。
+- ” yue1 ： “ shi4 lu3 kong3 qiu1 yu3？
+- ”曰：“是鲁孔丘与？
+- ” yue1 ： “ shi4 ye3。
+- ”曰：“是也。
 - ” yue1 ： “ shi4 zhi1 jin1 yi3。
 - ”曰：“是知津矣。
-- ” wen4 yu2 jie2 ni4 ， jie2 ni4 yue1 ： “ zi3 wei4 shui2 ？ ” yue1 ： “ wei4 zhong4 you2。
-- ”问于桀溺，桀溺曰：“子为谁？”曰：“为仲由。
-- ” yue1 ： “ shi4 lu3 kong3 qiu1 zhi1 tu2 yu3 ？ ” dui4 yue1 ： “ ran2。
-- ”曰：“是鲁孔丘之徒与？”对曰：“然。
-- ” yue1 ： “ tao1 tao1 zhe3 tian1 xia4 jie1 shi4 ye3 ， er2 shui2 yi3 yi4 zhi1 ？ qie3 er2 yu3 qi2 cong2 pi4 ren2 zhi1 shi4 ye3 ， qi3 ruo4 cong2 pi4 shi4 zhi1 shi4 ？ ” you1 er2 bu2 chuo4。
-- ”曰：“滔滔者天下皆是也，而谁以易之？且而与其从辟人之士也，岂若从辟世之士？”耰而不辍。
-- zi3 lu4 xing2 yi3 gao4 ， fu1 zi3 wu3 ran2 yue1 ： “ niao3 shou4 bu4 ke3 yu3 tong2 qun2 ， wu2 fei1 si1 ren2 zhi1 tu2 yu3 er2 shui2 yu3 ？ tian1 xia4 you3 dao4 ， qiu1 bu4 yu3 yi4 ye3。
-- 子路行以告，夫子怃然曰：“鸟兽不可与同群，吾非斯人之徒与而谁与？天下有道，丘不与易也。
+- ” wen4 yu2 jie2 ni4 ， jie2 ni4 yue1 ： “ zi3 wei4 shui2？
+- ”问于桀溺，桀溺曰：“子为谁？
+- ” yue1 ： “ wei4 zhong4 you2。
+- ”曰：“为仲由。
+- ” yue1 ： “ shi4 lu3 kong3 qiu1 zhi1 tu2 yu3？
+- ”曰：“是鲁孔丘之徒与？
+- ” dui4 yue1 ： “ ran2。
+- ”对曰：“然。
+- ” yue1 ： “ tao1 tao1 zhe3 tian1 xia4 jie1 shi4 ye3 ， er2 shui2 yi3 yi4 zhi1？
+- ”曰：“滔滔者天下皆是也，而谁以易之？
+- qie3 er2 yu3 qi2 cong2 pi4 ren2 zhi1 shi4 ye3 ， qi3 ruo4 cong2 pi4 shi4 zhi1 shi4？
+- 且而与其从辟人之士也，岂若从辟世之士？
+- ” you1 er2 bu2 chuo4。
+- ”耰而不辍。
+- zi3 lu4 xing2 yi3 gao4 ， fu1 zi3 wu3 ran2 yue1 ： “ niao3 shou4 bu4 ke3 yu3 tong2 qun2 ， wu2 fei1 si1 ren2 zhi1 tu2 yu3 er2 shui2 yu3？
+- 子路行以告，夫子怃然曰：“鸟兽不可与同群，吾非斯人之徒与而谁与？
+- tian1 xia4 you3 dao4 ， qiu1 bu4 yu3 yi4 ye3。
+- 天下有道，丘不与易也。
 - ”
 - ”
 - zi3 lu4 cong2 er2 hou4 ， yu4 zhang4 ren2 ， yi3 zhang4 he2 diao4。
 - 子路从而后，遇丈人，以杖荷蓧。
-- zi3 lu4 wen4 yue1 ： “ zi3 jian4 fu1 zi3 hu1 ？ ” zhang4 ren2 yue1 ： “ si4 ti3 bu4 qin2 ， wu3 gu3 bu4 fen1 ， shu2 wei4 fu1 zi3 ？ ” zhi2 qi2 zhang4 er2 yun2 ， zi3 lu4 gong3 er2 li4。
-- 子路问曰：“子见夫子乎？”丈人曰：“四体不勤，五谷不分，孰为夫子？”植其杖而芸，子路拱而立。
+- zi3 lu4 wen4 yue1 ： “ zi3 jian4 fu1 zi3 hu1？
+- 子路问曰：“子见夫子乎？
+- ” zhang4 ren2 yue1 ： “ si4 ti3 bu4 qin2 ， wu3 gu3 bu4 fen1 ， shu2 wei4 fu1 zi3？
+- ”丈人曰：“四体不勤，五谷不分，孰为夫子？
+- ” zhi2 qi2 zhang4 er2 yun2 ， zi3 lu4 gong3 er2 li4。
+- ”植其杖而芸，子路拱而立。
 - zhi3 zi3 lu4 su4 ， sha1 ji1 wei2 shu3 er2 shi2 zhi1 ， jian4 qi2 er4 zi3 yan1。
 - 止子路宿，杀鸡为黍而食之，见其二子焉。
 - ming2 ri4 ， zi3 lu4 xing2 yi3 gao4 ， zi3 yue1 ： “ yin3 zhe3 ye3。
@@ -67,8 +93,10 @@ tags: []
 - ”使子路反见之，至则行矣。
 - zi3 lu4 yue1 ： “ bu2 shi4 wu2 yi4。
 - 子路曰：“不仕无义。
-- chang2 you4 zhi1 jie2 bu4 ke3 fei4 ye3 ， jun1 chen2 zhi1 yi4 ru2 zhi1 he2 qi2 fei4 zhi1 ？ yu4 jie2 qi2 shen1 er2 luan4 da4 lun2。
-- 长幼之节不可废也，君臣之义如之何其废之？欲洁其身而乱大伦。
+- chang2 you4 zhi1 jie2 bu4 ke3 fei4 ye3 ， jun1 chen2 zhi1 yi4 ru2 zhi1 he2 qi2 fei4 zhi1？
+- 长幼之节不可废也，君臣之义如之何其废之？
+- yu4 jie2 qi2 shen1 er2 luan4 da4 lun2。
+- 欲洁其身而乱大伦。
 - jun1 zi3 zhi1 shi4 ye3 ， xing2 qi2 yi4 ye3 ， dao4 zhi1 bu4 xing2 yi3 zhi1 zhi1 yi3。
 - 君子之仕也，行其义也，道之不行已知之矣。
 - ”

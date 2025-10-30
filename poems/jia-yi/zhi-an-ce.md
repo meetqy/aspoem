@@ -23,8 +23,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 本末舛逆，首尾衡決，國制搶攘，非甚有紀，胡可謂治！
 - bi4 xia4 he2 bu4 yi2 ling4 chen2 de2 shu2 shu4 zhi1 wu1 qian2 ， yin1 chen2 zhi4 an1 zhi1 ce4 ， shi4 xiang2 ze2 yan1！
 - 陛下何不一令臣得熟數之於前，因陳治安之策，試詳擇焉！
-- fu1 she4 lie4 zhi1 yu2 ， yu3 an1 wei1 zhi1 ji1 shu2 ji2 ？ shi3 wei2 zhi4 lao2 zhi4 lü4 ， ku3 shen1 ti3 ， fa2 zhong1 gu3 zhi1 le4 ， wu4 wei2 ke3 ye3。
-- 夫射獵之娛，與安危之機孰急？使爲治勞智慮，苦身體，乏鐘鼓之樂，勿爲可也。
+- fu1 she4 lie4 zhi1 yu2 ， yu3 an1 wei1 zhi1 ji1 shu2 ji2？
+- 夫射獵之娛，與安危之機孰急？
+- shi3 wei2 zhi4 lao2 zhi4 lü4 ， ku3 shen1 ti3 ， fa2 zhong1 gu3 zhi1 le4 ， wu4 wei2 ke3 ye3。
+- 使爲治勞智慮，苦身體，乏鐘鼓之樂，勿爲可也。
 - le4 yu3 jin1 tong2 ， er2 jia1 zhi1 zhu1 hou2 gui3 dao4 ， bing1 ge2 bu2 dong4 ， min2 bao3 shou3 ling3 ， xiong1 xu4 bin1 fu2 ， si4 huang1 xiang1 feng1 ， bai3 xing4 su4 pu3 ， yu4 song4 shuai1 xi1。
 - 樂與今同，而加之諸侯軌道，兵革不動，民保首領，匈敘賓服，四荒鄉風，百姓素樸，獄訟衰息。
 - da4 shu4 ji4 de2 ， ze2 tian1 xia4 shun4 zhi4 ， hai3 nei4 zhi1 qi4 ， qing1 he2 xian2 li3 ， sheng1 wei2 ming2 di4 ， mei2 wei2 ming2 shen2 ， ming2 yu4 zhi1 mei3 ， chui2 wu1 wu2 qiong2。
@@ -49,20 +51,28 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 今或親弟謀爲東帝，親兄之子西鄉而擊，今吳又見告矣。
 - tian1 zi3 chun1 qiu1 ding3 sheng4 ， xing2 yi4 wei4 guo4 ， de2 ze2 you3 jia1 yan1 ， you2 shang4 ru2 shi4 ， kuang4 mo4 da4 zhu1 hou2 quan2 li4 qie3 shi2 ci3 zhe3 hu1！
 - 天子春秋鼎盛，行義未過，德澤有加焉，猶尚如是，況莫大諸侯權力且十此者乎！
-- ran2 er2 tian1 xia4 shao3 an1 ， he2 ye3 ？ da4 guo2 zhi1 wang2 you4 ruo4 wei4 zhuang4 ， han4 zhi1 suo3 zhi4 fu4 xiang1 fang1 wo4 qi2 shi4。
-- 然而天下少安，何也？大國之王幼弱未壯，漢之所置傅相方握其事。
-- shu4 nian2 zhi1 hou4 ， zhu1 hou2 zhi1 wang2 da4 di3 jie1 guan1 ， xue4 qi4 fang1 gang1 ， han4 zhi1 fu4 xiang1 cheng1 bing4 er2 ci4 ba4 ， bi3 zi4 cheng2 wei4 yi3 shang4 bian4 zhi4 si1 ren2 ， ru2 ci3 ， you3 yi4 huai2 nan2 、 ji4 bei3 zhi1 wei2 xie2 ？ ci3 shi2 er2 yu4 wei2 zhi4 an1 ， sui1 yao2 shun4 bu2 zhi4。
-- 數年之後，諸侯之王大抵皆冠，血氣方剛，漢之傅相稱病而賜罷，彼自丞尉以上徧置私人，如此，有異淮南、濟北之爲邪？此時而欲爲治安，雖堯舜不治。
+- ran2 er2 tian1 xia4 shao3 an1 ， he2 ye3？
+- 然而天下少安，何也？
+- da4 guo2 zhi1 wang2 you4 ruo4 wei4 zhuang4 ， han4 zhi1 suo3 zhi4 fu4 xiang1 fang1 wo4 qi2 shi4。
+- 大國之王幼弱未壯，漢之所置傅相方握其事。
+- shu4 nian2 zhi1 hou4 ， zhu1 hou2 zhi1 wang2 da4 di3 jie1 guan1 ， xue4 qi4 fang1 gang1 ， han4 zhi1 fu4 xiang1 cheng1 bing4 er2 ci4 ba4 ， bi3 zi4 cheng2 wei4 yi3 shang4 bian4 zhi4 si1 ren2 ， ru2 ci3 ， you3 yi4 huai2 nan2 、 ji4 bei3 zhi1 wei2 xie2？
+- 數年之後，諸侯之王大抵皆冠，血氣方剛，漢之傅相稱病而賜罷，彼自丞尉以上徧置私人，如此，有異淮南、濟北之爲邪？
+- ci3 shi2 er2 yu4 wei2 zhi4 an1 ， sui1 yao2 shun4 bu2 zhi4。
+- 此時而欲爲治安，雖堯舜不治。
 - huang2 di4 yue1 ： “ ri4 zhong1 bi4 wei4 ， cao1 dao1 bi4 ge1。
 - 黃帝曰：“日中必熭，操刀必割。
 - ” jin1 ling4 ci3 dao4 shun4 ， er2 quan2 an1 shen4 yi4；
 - ”今令此道順，而全安甚易；
 - bu4 ken3 zao3 wei2 ， yi3 nai3 duo4 gu3 rou4 zhi1 shu3 er2 kang4 jing3 zhi1 ， qi3 you3 yi4 qin2 zhi1 ji4 shi4 hu1！
 - 不肯早爲，已乃墮骨肉之屬而抗剄之，豈有異秦之季世乎！
-- fu1 yi3 tian1 zi3 zhi1 wei4 ， cheng2 jin1 zhi1 shi2 ， yin1 tian1 zhi1 zhu4 ， shang4 dan4 yi3 wei1 wei2 an1 ， yi3 luan4 wei2 zhi4 ， jia3 she4 bi4 xia4 ju1 qi2 huan2 zhi1 chu3 ， jiang1 bu4 he2 zhu1 hou2 er2 kuang1 tian1 xia4 hu1 ？ chen2 you4 yi3 zhi1 bi4 xia4 you3 suo3 bi4 bu4 neng2 yi3。
-- 夫以天子之位，乘今之時，因天之助，尚憚以危爲安，以亂爲治，假設陛下居齊桓之處，將不合諸侯而匡天下乎？臣又以知陛下有所必不能矣。
-- jia3 she4 tian1 xia4 ru2 nang3 shi2 ， huai2 yin1 hou2 shang4 wang2 chu3 ， qing2 bu4 wang2 huai2 nan2 ， peng2 yue4 wang2 liang2 ， han2 xin4 wang2 han2 ， zhang1 ao2 wang2 zhao4 ， guan4 gao1 wei2 xiang1 ， lu2 wan3 wang2 yan4 ， chen2 xi1 zai4 dai4 ， ling4 ci3 liu4 qi1 gong1 zhe3 jie1 wang2 yang4 ， dang1 shi4 shi2 er2 bi4 xia4 ji2 tian1 zi3 wei4 ， neng2 zi4 an1 hu1 ？ chen2 you3 yi3 zhi1 bi4 xia4 zhi1 bu4 neng2 ye3。
-- 假設天下如曩時，淮陰侯尚王楚，黥布王淮南，彭越王樑，韓信王韓，張敖王趙，貫高爲相，盧綰王燕，陳狶在代，令此六七公者皆亡恙，當是時而陛下即天子位，能自安乎？臣有以知陛下之不能也。
+- fu1 yi3 tian1 zi3 zhi1 wei4 ， cheng2 jin1 zhi1 shi2 ， yin1 tian1 zhi1 zhu4 ， shang4 dan4 yi3 wei1 wei2 an1 ， yi3 luan4 wei2 zhi4 ， jia3 she4 bi4 xia4 ju1 qi2 huan2 zhi1 chu3 ， jiang1 bu4 he2 zhu1 hou2 er2 kuang1 tian1 xia4 hu1？
+- 夫以天子之位，乘今之時，因天之助，尚憚以危爲安，以亂爲治，假設陛下居齊桓之處，將不合諸侯而匡天下乎？
+- chen2 you4 yi3 zhi1 bi4 xia4 you3 suo3 bi4 bu4 neng2 yi3。
+- 臣又以知陛下有所必不能矣。
+- jia3 she4 tian1 xia4 ru2 nang3 shi2 ， huai2 yin1 hou2 shang4 wang2 chu3 ， qing2 bu4 wang2 huai2 nan2 ， peng2 yue4 wang2 liang2 ， han2 xin4 wang2 han2 ， zhang1 ao2 wang2 zhao4 ， guan4 gao1 wei2 xiang1 ， lu2 wan3 wang2 yan4 ， chen2 xi1 zai4 dai4 ， ling4 ci3 liu4 qi1 gong1 zhe3 jie1 wang2 yang4 ， dang1 shi4 shi2 er2 bi4 xia4 ji2 tian1 zi3 wei4 ， neng2 zi4 an1 hu1？
+- 假設天下如曩時，淮陰侯尚王楚，黥布王淮南，彭越王樑，韓信王韓，張敖王趙，貫高爲相，盧綰王燕，陳狶在代，令此六七公者皆亡恙，當是時而陛下即天子位，能自安乎？
+- chen2 you3 yi3 zhi1 bi4 xia4 zhi1 bu4 neng2 ye3。
+- 臣有以知陛下之不能也。
 - tian1 xia4 yao2 luan4 ， gao1 huang2 di4 yu3 zhu1 gong1 bing4 qi3 ， fei1 you3 ze4 shi4 zhi1 shi4 yi3 yu4 xi2 zhi1 ye3。
 - 天下餚亂，高皇帝與諸公倂起，非有仄室之勢以豫席之也。
 - zhu1 gong1 xing4 zhe3 nai3 wei2 zhong1 juan1 ， qi2 ci4 jin3 de2 she4 ren2 ， cai2 zhi1 bu4 dai3 zhi4 yuan3 ye3。
@@ -75,8 +85,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 然尚有可諉者，曰疏。
 - chen2 qing3 shi4 yan2 qi2 qin1 zhe3。
 - 臣請試言其親者。
-- jia3 ling4 dao4 hui4 wang2 wang2 qi2 ， yuan2 wang2 wang2 chu3 ， zhong1 zi3 wang2 zhao4 ， you1 wang2 wang2 huai2 yang2 ， gong4 wang2 wang2 liang2 ， ling2 wang2 wang2 yan4 ， li4 wang2 wang2 huai2 nan2 ， liu4 qi1 gui4 ren2 jie1 wang2 yang4 ， dang1 shi4 shi2 bi4 xia4 ji2 wei4 ， neng2 wei2 zhi4 hu1 ？ chen2 you4 zhi1 bi4 xia4 zhi1 bu4 neng2 ye3。
-- 假令悼惠王王齊，元王王楚，中子王趙，幽王王淮陽，共王王樑，靈王王燕，厲王王淮南，六七貴人皆亡恙，當是時陛下即位，能爲治乎？臣又知陛下之不能也。
+- jia3 ling4 dao4 hui4 wang2 wang2 qi2 ， yuan2 wang2 wang2 chu3 ， zhong1 zi3 wang2 zhao4 ， you1 wang2 wang2 huai2 yang2 ， gong4 wang2 wang2 liang2 ， ling2 wang2 wang2 yan4 ， li4 wang2 wang2 huai2 nan2 ， liu4 qi1 gui4 ren2 jie1 wang2 yang4 ， dang1 shi4 shi2 bi4 xia4 ji2 wei4 ， neng2 wei2 zhi4 hu1？
+- 假令悼惠王王齊，元王王楚，中子王趙，幽王王淮陽，共王王樑，靈王王燕，厲王王淮南，六七貴人皆亡恙，當是時陛下即位，能爲治乎？
+- chen2 you4 zhi1 bi4 xia4 zhi1 bu4 neng2 ye3。
+- 臣又知陛下之不能也。
 - ruo4 ci3 zhu1 wang2 ， sui1 ming2 wei2 chen2 ， shi2 jie1 you3 bu4 yi1 kun1 di4 zhi1 xin1 ， lü4 wu2 bu2 di4 zhi4 er2 tian1 zi3 zi4 wei2 zhe3。
 - 若此諸王，雖名爲臣，實皆有布衣昆弟之心，慮無不帝制而天子自爲者。
 - shan4 jue2 ren2 ， she4 si3 zui4 ， shen4 zhe3 huo4 dai4 huang2 wu1 ， han4 fa3 ling4 fei1 xing2 ye3。
@@ -87,7 +99,7 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 幸而來至，法安可得加！
 - dong4 yi4 qin1 qi1 ， tian1 xia4 huan2 shi4 er2 qi3 ， bi4 xia4 zhi1 chen2 sui1 you3 han4 ru2 feng2 jing4 zhe3 ， shi4 qi3 qi2 kou3 ， bi3 shou3 yi3 xian4 qi2 xiong1 yi3。
 - 動一親戚，天下圜視而起，陛下之臣雖有悍如馮敬者，適啓其口，匕首已陷其胸矣。
-- bi4 xia4 sui1 xian2 ， shui2 yu3 ling3 ci3 ？
+- bi4 xia4 sui1 xian2 ， shui2 yu3 ling3 ci3？
 - 陛下雖賢，誰與領此？
 - gu4 shu1 zhe3 bi4 wei1 ， qin1 zhe3 bi4 luan4 ， yi3 ran2 zhi1 xiao4 ye3。
 - 故疏者必危，親者必亂，已然之效也。
@@ -107,8 +119,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 權勢法制，人主之斤斧也。
 - jin1 zhu1 hou2 wang2 jie1 zhong4 kuan1 bi4 ye3 ， shi4 jin1 fu3 zhi1 yong4 ， er2 yu4 ying1 yi3 mang2 ren4 ， chen2 yi3 wei2 bu4 que1 ze2 zhe2。
 - 今諸侯王皆衆髖髀也，釋斤斧之用，而欲嬰以芒刃，臣以爲不缺則折。
-- hu2 bu2 yong4 zhi1 huai2 nan2 、 ji4 bei3 ？ shi4 bu4 ke3 ye3。
-- 胡不用之淮南、濟北？勢不可也。
+- hu2 bu2 yong4 zhi1 huai2 nan2 、 ji4 bei3？
+- 胡不用之淮南、濟北？
+- shi4 bu4 ke3 ye3。
+- 勢不可也。
 - chen2 qie4 ji4 qian2 shi4 ， da4 di3 qiang2 zhe3 xian1 fan3 ， huai2 yin1 wang2 chu3 zui4 qiang2 ， ze2 zui4 xian1 fan3；
 - 臣竊跡前事，大抵強者先反，淮陰王楚最強，則最先反；
 - han2 xin4 yi3 hu2 ， ze2 you4 fan3；
@@ -157,7 +171,7 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 臥赤子天下之上而安，植遺腹，朝委裘，而天下不亂。
 - dang1 shi2 da4 zhi4 ， hou4 shi4 song4 sheng4。
 - 當時大治，後世誦聖。
-- yi1 dong4 er2 wu3 ye4 fu4 ， bi4 xia4 shui2 dan4 er2 jiu3 bu4 wei2 ci3 ？
+- yi1 dong4 er2 wu3 ye4 fu4 ， bi4 xia4 shui2 dan4 er2 jiu3 bu4 wei2 ci3？
 - 壹動而五業附，陛下誰憚而久不爲此？
 - tian1 xia4 zhi1 shi4 fang1 bing4 da4 zhong3。
 - 天下之勢方病大瘇。
@@ -179,18 +193,24 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 可痛哭者，此病是也。
 - tian1 xia4 zhi1 shi4 fang1 dao3 xian4。
 - 天下之勢方倒縣。
-- fan2 tian1 zi3 zhe3 ， tian1 xia4 zhi1 shou3 ， he2 ye3 ？ shang4 ye3。
-- 凡天子者，天下之首，何也？上也。
-- man2 yi2 zhe3 ， tian1 xia4 zhi1 zu2 ， he2 ye3 ？ xia4 ye3。
-- 蠻夷者，天下之足，何也？下也。
+- fan2 tian1 zi3 zhe3 ， tian1 xia4 zhi1 shou3 ， he2 ye3？
+- 凡天子者，天下之首，何也？
+- shang4 ye3。
+- 上也。
+- man2 yi2 zhe3 ， tian1 xia4 zhi1 zu2 ， he2 ye3？
+- 蠻夷者，天下之足，何也？
+- xia4 ye3。
+- 下也。
 - jin1 xiong1 nu2 man4 wu3 qin1 lüe4 ， zhi4 bu2 jing4 ye3 ， wei2 tian1 xia4 huan4 ， zhi4 wang2 yi3 ye3 ， er2 han4 sui4 jin1 xu4 cai3 zeng1 yi3 feng4 zhi1。
 - 今匈奴嫚娒侵掠，至不敬也，爲天下患，至亡已也，而漢歲金絮採繒以奉之。
 - yi2 di2 zhi3 ling4 ， shi4 zhu3 shang4 zhi1 cao1 ye3；
 - 夷狄徵令，是主上之操也；
 - tian1 zi3 gong4 gong4 ， shi4 chen2 xia4 zhi1 li3 ye3。
 - 天子共貢，是臣下之禮也。
-- zu2 fan3 ju1 shang4 ， shou3 gu4 ju1 xia4 ， dao3 xian4 ru2 ci3 ， mo4 zhi1 neng2 jie3 ， you2 wei2 guo2 you3 ren2 hu1 ？ fei1 dan3 dao3 xian4 er2 yi3 ， you4 lei4 pi4 ， qie3 bing4 fei4。
-- 足反居上，首顧居下，倒縣如此，莫之能解，猶爲國有人乎？非亶倒縣而已，又類闢，且病痱。
+- zu2 fan3 ju1 shang4 ， shou3 gu4 ju1 xia4 ， dao3 xian4 ru2 ci3 ， mo4 zhi1 neng2 jie3 ， you2 wei2 guo2 you3 ren2 hu1？
+- 足反居上，首顧居下，倒縣如此，莫之能解，猶爲國有人乎？
+- fei1 dan3 dao3 xian4 er2 yi3 ， you4 lei4 pi4 ， qie3 bing4 fei4。
+- 非亶倒縣而已，又類闢，且病痱。
 - fu1 pi4 zhe3 yi2 mian4 bing4 ， fei4 zhe3 yi4 fang1 tong4。
 - 夫闢者一面病，痱者一方痛。
 - jin1 xi1 bian1 bei3 bian1 zhi1 jun4 ， sui1 you3 chang2 jue2 bu4 qing1 de2 fu4 ， wu3 chi3 yi3 shang4 bu4 qing1 de2 xi1 ， chi4 hou4 wang4 feng1 sui4 bu4 de2 wo4 ， jiang1 li4 bei4 jie4 zhou4 er2 shui4 ， chen2 gu4 yue1 yi4 fang1 bing4 yi3。
@@ -203,8 +223,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 進謀者率以爲是，固不可解也，亡具甚矣。
 - chen2 qie4 liao4 xiong1 nu2 zhi1 zhong4 bu2 guo4 han4 yi2 da4 xian4 ， yi3 tian1 xia4 zhi1 da4 kun4 wu1 yi2 xian4 zhi1 zhong4 ， shen4 wei2 zhi2 shi4 zhe3 xiu1 zhi1。
 - 臣竊料匈奴之衆不過漢一大縣，以天下之大困於一縣之衆，甚爲執事者羞之。
-- bi4 xia4 he2 bu2 shi4 yi3 chen2 wei2 shu3 guo2 zhi1 guan1 yi3 zhu3 xiong1 nu2 ？ xing2 chen2 zhi1 ji4 ， qing3 bi4 xi4 dan1 yu2 zhi1 jing3 er2 zhi4 qi2 ming4 ， fu2 zhong1 hang2 shuo1 er2 chi1 qi2 bei4 ， ju3 xiong1 nu2 zhi1 zhong4 wei2 shang4 zhi1 ling4。
-- 陛下何不試以臣爲屬國之官以主匈奴？行臣之計，請必系單于之頸而制其命，伏中行說而笞其背，舉匈奴之衆唯上之令。
+- bi4 xia4 he2 bu2 shi4 yi3 chen2 wei2 shu3 guo2 zhi1 guan1 yi3 zhu3 xiong1 nu2？
+- 陛下何不試以臣爲屬國之官以主匈奴？
+- xing2 chen2 zhi1 ji4 ， qing3 bi4 xi4 dan1 yu2 zhi1 jing3 er2 zhi4 qi2 ming4 ， fu2 zhong1 hang2 shuo1 er2 chi1 qi2 bei4 ， ju3 xiong1 nu2 zhi1 zhong4 wei2 shang4 zhi1 ling4。
+- 行臣之計，請必系單于之頸而制其命，伏中行說而笞其背，舉匈奴之衆唯上之令。
 - jin1 bu2 lie4 meng3 di2 er2 lie4 tian2 zhi4 ， bu4 bo2 fan3 kou4 er2 bo2 chu4 tu2 ， wan2 xi4 yu2 er2 bu4 tu2 da4 huan4 ， fei1 suo3 yi3 wei2 an1 ye3。
 - 今不獵猛敵而獵田彘，不搏反寇而搏畜菟，玩細娛而不圖大患，非所以爲安也。
 - de2 ke3 yuan3 shi1 ， wei1 ke3 yuan3 jia1 ， er2 zhi2 shu4 bai3 li3 wai4 wei1 ling4 bu2 xin4 ， ke3 wei2 liu2 ti4 zhe3 ci3 ye3。
@@ -219,8 +241,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 且帝之身自衣皁綈，而富民牆屋被文繡；
 - tian1 zi3 zhi1 hou4 yi3 yuan2 qi2 ling3 ， shu4 ren2 nie4 qie4 yuan2 qi2 lü3 ： ci3 chen2 suo3 wei4 chuan3 ye3。
 - 天子之後以緣其領，庶人孽妾緣其履：此臣所謂舛也。
-- fu1 bai3 ren2 zuo4 zhi1 bu4 neng2 yi1 yi4 ren2 ， yu4 tian1 xia4 wang2 han2 ， hu2 ke3 de2 ye3 ？ yi4 ren2 geng1 zhi1 ， shi2 ren2 ju4 er2 shi2 zhi1 ， yu4 tian1 xia4 wang2 ji1 ， bu4 ke3 de2 ye3。
-- 夫百人作之不能衣一人，欲天下亡寒，胡可得也？一人耕之，十人聚而食之，欲天下亡飢，不可得也。
+- fu1 bai3 ren2 zuo4 zhi1 bu4 neng2 yi1 yi4 ren2 ， yu4 tian1 xia4 wang2 han2 ， hu2 ke3 de2 ye3？
+- 夫百人作之不能衣一人，欲天下亡寒，胡可得也？
+- yi4 ren2 geng1 zhi1 ， shi2 ren2 ju4 er2 shi2 zhi1 ， yu4 tian1 xia4 wang2 ji1 ， bu4 ke3 de2 ye3。
+- 一人耕之，十人聚而食之，欲天下亡飢，不可得也。
 - ji1 han2 qie4 wu1 min2 zhi1 ji1 fu1 ， yu4 qi2 wang2 wei2 jian1 xie2 ， bu4 ke3 de2 ye3。
 - 飢寒切於民之肌膚，欲其亡爲奸邪，不可得也。
 - guo2 yi3 qu1 yi3 ， dao4 zei2 zhi2 xu1 shi2 er3 ， ran2 er2 xian4 ji4 zhe3 yue1 “ wu2 dong4 ” ， wei2 da4 er3。
@@ -301,8 +325,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 周爲天子，三十餘世，而秦受之。
 - qin2 wei2 tian1 zi3 ， er4 shi4 er2 wang2。
 - 秦爲天子，二世而亡。
-- ren2 xing4 bu2 shen4 xiang1 yuan3 ye3 ， he2 san1 dai4 zhi1 jun1 you3 dao4 zhi1 chang2 ， er2 qin2 wu2 dao4 zhi1 bao4 ye3 ？ qi2 gu4 ke3 zhi1 ye3。
-- 人性不甚相遠也，何三代之君有道之長，而秦無道之暴也？其故可知也。
+- ren2 xing4 bu2 shen4 xiang1 yuan3 ye3 ， he2 san1 dai4 zhi1 jun1 you3 dao4 zhi1 chang2 ， er2 qin2 wu2 dao4 zhi1 bao4 ye3？
+- 人性不甚相遠也，何三代之君有道之長，而秦無道之暴也？
+- qi2 gu4 ke3 zhi1 ye3。
+- 其故可知也。
 - gu3 zhi1 wang2 zhe3 ， tai4 zi3 nai3 sheng1 ， gu4 ju3 yi3 li3 ， shi3 shi4 fu4 zhi1 ， you3 si1 qi2 su4 duan1 mian3 ， jian4 zhi1 nan2 jiao1 ， jian4 wu1 tian1 ye3。
 - 古之王者，太子乃生，固舉以禮，使士負之，有司齊肅端冕，見之南郊，見於天也。
 - guo4 que4 ze2 xia4 ， guo4 miao4 ze2 qu1 ， xiao4 zi3 zhi1 dao4 ye3。
@@ -379,8 +405,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 使趙高傅胡亥而教之獄，所習者非斬劓人，則夷人之三族也。
 - gu4 hu2 hai4 jin1 ri4 ji2 wei4 er2 ming2 ri4 she4 ren2 ， zhong1 jian4 zhe3 wei4 zhi1 fei3 bang4 ， shen1 ji4 zhe3 wei4 zhi1 yao1 yan2 ， qi2 shi4 sha1 ren2 ruo4 ai4 cao3 jian1 ran2。
 - 故胡亥今日即位而明日射人，忠諫者謂之誹謗，深計者謂之妖言，其視殺人若艾草菅然。
-- qi3 wei2 hu2 hai4 zhi1 xing4 e4 zai1 ？ bi3 qi2 suo3 yi3 dao4 zhi1 zhe3 fei1 qi2 li3 gu4 ye3。
-- 豈惟胡亥之性惡哉？彼其所以道之者非其理故也。
+- qi3 wei2 hu2 hai4 zhi1 xing4 e4 zai1？
+- 豈惟胡亥之性惡哉？
+- bi3 qi2 suo3 yi3 dao4 zhi1 zhe3 fei1 qi2 li3 gu4 ye3。
+- 彼其所以道之者非其理故也。
 - bi3 yan4 yue1 ： “ bu4 xi2 wei2 li4 ， shi4 yi3 cheng2 shi4。
 - 鄙諺曰：“不習爲吏，視已成事。
 - ” you4 yue1 ： “ qian2 ju1 fu4 ， hou4 ju1 jie4。
@@ -419,8 +447,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 凡人之智，能見已然，不能見將然。
 - fu1 li3 zhe3 jin4 wu1 jiang1 ran2 zhi1 qian2 ， er2 fa3 zhe3 jin4 wu1 ji3 ran2 zhi1 hou4 ， shi4 gu4 fa3 zhi1 suo3 yong4 yi4 jian4 ， er2 li3 zhi1 suo3 wei2 sheng1 nan2 zhi1 ye3。
 - 夫禮者禁於將然之前，而法者禁於己然之後，是故法之所用易見，而禮之所爲生難知也。
-- ruo4 fu1 qing4 shang3 yi3 quan4 shan4 ， xing2 fa2 yi3 cheng2 e4 ， xian1 wang2 zhi2 ci3 zhi1 zheng4 ， jian1 ru2 jin1 shi2 ， xing2 ci3 zhi1 ling4 ， xin4 ru2 si4 shi2 ， ju4 ci3 zhi1 gong1 ， wu2 si1 ru2 tian1 di4 er3 ， qi3 gu4 bu2 yong4 zai1 ？ ran2 er2 yue1 li3 yun2 li3 yun2 zhe3 ， gui4 jue2 e4 wu1 wei4 meng2 ， er2 qi3 jiao4 wu1 wei1 miao3 ， shi3 min2 ri4 qian1 shan4 yuan3 zui4 er2 bu2 zi4 zhi1 ye3。
-- 若夫慶賞以勸善，刑罰以懲惡，先王執此之政，堅如金石，行此之令，信如四時，據此之公，無私如天地耳，豈顧不用哉？然而曰禮雲禮雲者，貴絕惡於未萌，而起教於微眇，使民日遷善遠罪而不自知也。
+- ruo4 fu1 qing4 shang3 yi3 quan4 shan4 ， xing2 fa2 yi3 cheng2 e4 ， xian1 wang2 zhi2 ci3 zhi1 zheng4 ， jian1 ru2 jin1 shi2 ， xing2 ci3 zhi1 ling4 ， xin4 ru2 si4 shi2 ， ju4 ci3 zhi1 gong1 ， wu2 si1 ru2 tian1 di4 er3 ， qi3 gu4 bu2 yong4 zai1？
+- 若夫慶賞以勸善，刑罰以懲惡，先王執此之政，堅如金石，行此之令，信如四時，據此之公，無私如天地耳，豈顧不用哉？
+- ran2 er2 yue1 li3 yun2 li3 yun2 zhe3 ， gui4 jue2 e4 wu1 wei4 meng2 ， er2 qi3 jiao4 wu1 wei1 miao3 ， shi3 min2 ri4 qian1 shan4 yuan3 zui4 er2 bu2 zi4 zhi1 ye3。
+- 然而曰禮雲禮雲者，貴絕惡於未萌，而起教於微眇，使民日遷善遠罪而不自知也。
 - kong3 wu1 yue1 ： “ ting1 song4 ， wu2 you2 ren2 ye3 ， bi4 ye3 shi3 wu2 song4 hu1！
 - 孔於曰：“聽訟，吾猶人也，必也使毋訟乎！
 - ” wei2 ren2 zhu3 ji4 zhe3 ， mo4 ru2 xian1 shen3 qu3 she3 ， qu3 she3 zhi1 ji2 ding4 wu1 nei4 ， er2 an1 wei1 zhi1 meng2 ying1 wu1 wai4 yi3。
@@ -461,7 +491,7 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 是非其明效大驗邪！
 - ren2 zhi1 yan2 yue1 ： “ ting1 yan2 zhi1 dao4 ， bi4 yi3 qi2 shi4 guan1 zhi1 ， ze2 yan2 zhe3 mo4 gan3 wang4 yan2。
 - 人之言曰：“聽言之道，必以其事觀之，則言者莫敢妄言。
-- ” jin1 huo4 yan2 li3 yi4 zhi1 bu4 ru2 fa3 ling4 ， jiao4 hua4 zhi1 bu4 ru2 xing2 fa2 ， ren2 zhu3 hu2 bu4 yin3 yin1 、 zhou1 、 qin2 shi4 yi3 guan1 zhi1 ye3 ？
+- ” jin1 huo4 yan2 li3 yi4 zhi1 bu4 ru2 fa3 ling4 ， jiao4 hua4 zhi1 bu4 ru2 xing2 fa2 ， ren2 zhu3 hu2 bu4 yin3 yin1 、 zhou1 、 qin2 shi4 yi3 guan1 zhi1 ye3？
 - ”今或言禮誼之不如法令，教化之不如刑罰，人主胡不引殷、周、秦事以觀之也？
 - ren2 zhu3 zhi1 zun1 pi4 ru2 tang2 ， qun2 chen2 ru2 bi4 ， zhong4 shu4 ru2 di4。
 - 人主之尊譬如堂，羣臣如陛，衆庶如地。
@@ -489,8 +519,14 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 君之寵臣雖或有過，刑戮之罪不加其身者，尊君之故也。
 - ci3 suo3 yi3 wei2 zhu3 shang4 yu4 yuan3 bu2 jing4 ye3 ， suo3 yi3 ti3 mao4 da4 chen2 er2 li4 qi2 jie2 ye3。
 - 此所以爲主上豫遠不敬也，所以體貌大臣而厲其節也。
-- jin1 zi4 wang2 hou2 san1 gong1 zhi1 gui4 ， jie1 tian1 zi3 zhi1 suo3 gai3 rong2 er2 li3 zhi1 ye3 ， gu3 tian1 zi3 zhi1 suo3 wei4 bo2 fu4 、 bo2 jiu4 ye3 ， er2 ling4 yu3 zhong4 shu4 tong2 qing2 yi4   yue4 chi1   qi4 shi4 zhi1 fa3 ， ran2 ze2 tang2 bu4 wang2 bi4 hu1 ？ bei4 lu4 ru3 zhe3 bu2 tai4 po4 hu1 ？ lian2 chi3 bu4 xing2 ， da4 chen2 wu2 nai3 wo4 zhong4 quan2 ， da4 guan1 er2 you3 tu2 li4 wang2 chi3 zhi1 xin1 hu1 ？ fu1 wang4 yi2 zhi1 shi4 ， er4 shi4 jian4 dang1 yi3 zhong4 fa3 zhe3 ， tou2 shu3 er2 bu2 ji4 qi4 zhi1 xi2 ye3。
-- 今自王侯三公之貴，皆天子之所改容而禮之也，古天子之所謂伯父、伯舅也，而令與衆庶同黥劓 刖笞 棄市之法，然則堂不亡陛乎？被戮辱者不泰迫乎？廉恥不行，大臣無乃握重權，大官而有徒隸亡恥之心乎？夫望夷之事，二世見當以重法者，投鼠而不忌器之習也。
+- jin1 zi4 wang2 hou2 san1 gong1 zhi1 gui4 ， jie1 tian1 zi3 zhi1 suo3 gai3 rong2 er2 li3 zhi1 ye3 ， gu3 tian1 zi3 zhi1 suo3 wei4 bo2 fu4 、 bo2 jiu4 ye3 ， er2 ling4 yu3 zhong4 shu4 tong2 qing2 yi4   yue4 chi1   qi4 shi4 zhi1 fa3 ， ran2 ze2 tang2 bu4 wang2 bi4 hu1？
+- 今自王侯三公之貴，皆天子之所改容而禮之也，古天子之所謂伯父、伯舅也，而令與衆庶同黥劓 刖笞 棄市之法，然則堂不亡陛乎？
+- bei4 lu4 ru3 zhe3 bu2 tai4 po4 hu1？
+- 被戮辱者不泰迫乎？
+- lian2 chi3 bu4 xing2 ， da4 chen2 wu2 nai3 wo4 zhong4 quan2 ， da4 guan1 er2 you3 tu2 li4 wang2 chi3 zhi1 xin1 hu1？
+- 廉恥不行，大臣無乃握重權，大官而有徒隸亡恥之心乎？
+- fu1 wang4 yi2 zhi1 shi4 ， er4 shi4 jian4 dang1 yi3 zhong4 fa3 zhe3 ， tou2 shu3 er2 bu2 ji4 qi4 zhi1 xi2 ye3。
+- 夫望夷之事，二世見當以重法者，投鼠而不忌器之習也。
 - chen2 wen2 zhi1 ， lü3 sui1 xian1 bu4 jia1 wu1 zhen3 ， guan1 sui1 bi4 bu4 yi3 ju1 lü3。
 - 臣聞之，履雖鮮不加於枕，冠雖敝不以苴履。
 - fu1 chang2 yi3 zai4 gui4 chong3 zhi1 wei4 ， tian1 zi3 gai3 rong2 er2 ti3 mao4 zhi1 yi3 ， li4 min2 chang2 fu3 fu2 yi3 jing4 wei4 zhi1 yi3 ， jin1 er2 you3 guo4 ， di4 ling4 fei4 zhi1 ke3 ye3 ， tui4 zhi1 ke3 ye3 ， ci4 zhi1 si3 ke3 ye3 ， mie4 zhi1 ke3 ye3；
@@ -523,8 +559,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 主上有患，則吾苟免而已，立而觀之耳；
 - you3 bian4 wu2 shen1 zhe3 ， ze2 qi1 mai4 er2 li4 zhi1 er3。
 - 有便吾身者，則欺賣而利之耳。
-- ren2 zhu3 jiang1 he2 bian4 wu1 ci3 ？ qun2 xia4 zhi4 zhong4 ， er2 zhu3 shang4 zhi4 shao3 ye3 ， suo3 tuo1 cai2 qi4 zhi2 ye4 zhe3 cui4 wu1 qun2 xia4 ye3。
-- 人主將何便於此？羣下至衆，而主上至少也，所託財器職業者粹於羣下也。
+- ren2 zhu3 jiang1 he2 bian4 wu1 ci3？
+- 人主將何便於此？
+- qun2 xia4 zhi4 zhong4 ， er2 zhu3 shang4 zhi4 shao3 ye3 ， suo3 tuo1 cai2 qi4 zhi2 ye4 zhe3 cui4 wu1 qun2 xia4 ye3。
+- 羣下至衆，而主上至少也，所託財器職業者粹於羣下也。
 - ju4 wang2 chi3 ， ju4 gou3 wang4 ， ze2 zhu3 shang4 zui4 bing4。
 - 俱亡恥，俱苟妄，則主上最病。
 - gu4 gu3 zhe3 li3 bu4 ji2 shu4 ren2 ， xing2 bu2 zhi4 dai4 fu0 ， suo3 yi3 li4 chong3 chen2 zhi1 jie2 ye3。

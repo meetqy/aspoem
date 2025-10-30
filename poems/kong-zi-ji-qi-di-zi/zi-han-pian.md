@@ -17,8 +17,12 @@ tags: []
 - 达巷党人曰：“大哉孔子！
 - bo2 xue2 er2 wu2 suo3 cheng2 ming2。
 - 博学而无所成名。
-- ” zi3 wen2 zhi1 ， wei4 men2 di4 zi3 yue1 ： “ wu2 he2 zhi2 ？ zhi2 yu4 hu1 ， zhi2 she4 hu1 ？ wu2 zhi2 yu4 yi3。
-- ”子闻之，谓门弟子曰：“吾何执？执御乎，执射乎？吾执御矣。
+- ” zi3 wen2 zhi1 ， wei4 men2 di4 zi3 yue1 ： “ wu2 he2 zhi2？
+- ”子闻之，谓门弟子曰：“吾何执？
+- zhi2 yu4 hu1 ， zhi2 she4 hu1？
+- 执御乎，执射乎？
+- wu2 zhi2 yu4 yi3。
+- 吾执御矣。
 - ”
 - ”
 - zi3 yue1 ： “ ma2 mian3 ， li3 ye3；
@@ -35,24 +39,36 @@ tags: []
 - ”
 - zi3 jue2 si4 ： wu2 yi4 、 wu2 bi4 、 wu2 gu4 、 wu2 wo3。
 - 子绝四：毋意、毋必、毋固、毋我。
-- zi3 wei4 yu2 kuang1 ， yue1 ： “ wen2 wang2 ji4 mei2 ， wen2 bu2 zai4 zi1 hu1 ？ tian1 zhi1 jiang1 sang4 si1 wen2 ye3 ， hou4 si3 zhe3 bu4 de2 yu3 yu2 si1 wen2 ye3；
-- 子畏于匡，曰：“文王既没，文不在兹乎？天之将丧斯文也，后死者不得与于斯文也；
-- tian1 zhi1 wei4 sang4 si1 wen2 ye3 ， kuang1 ren2 qi2 ru2 yu3 he2 ？ ”
-- 天之未丧斯文也，匡人其如予何？”
-- tai4 zai3 wen4 yu2 zi3 gong4 yue1 ： “ fu1 zi3 sheng4 zhe3 yu3 ， he2 qi2 duo1 neng2 ye3 ？ ” zi3 gong4 yue1 ： “ gu4 tian1 zong4 zhi1 jiang1 sheng4 ， you4 duo1 neng2 ye3。
-- 太宰问于子贡曰：“夫子圣者与，何其多能也？”子贡曰：“固天纵之将圣，又多能也。
-- ” zi3 wen2 zhi1 ， yue1 ： “ tai4 zai3 zhi1 wo3 hu1 ？ wu2 shao3 ye3 jian4 ， gu4 duo1 neng2 bi3 shi4。
-- ”子闻之，曰：“太宰知我乎？吾少也贱，故多能鄙事。
-- jun1 zi3 duo1 hu1 zai1 ？ bu4 duo1 ye3。
-- 君子多乎哉？不多也。
+- zi3 wei4 yu2 kuang1 ， yue1 ： “ wen2 wang2 ji4 mei2 ， wen2 bu2 zai4 zi1 hu1？
+- 子畏于匡，曰：“文王既没，文不在兹乎？
+- tian1 zhi1 jiang1 sang4 si1 wen2 ye3 ， hou4 si3 zhe3 bu4 de2 yu3 yu2 si1 wen2 ye3；
+- 天之将丧斯文也，后死者不得与于斯文也；
+- tian1 zhi1 wei4 sang4 si1 wen2 ye3 ， kuang1 ren2 qi2 ru2 yu3 he2？
+- 天之未丧斯文也，匡人其如予何？
+- ”
+- ”
+- tai4 zai3 wen4 yu2 zi3 gong4 yue1 ： “ fu1 zi3 sheng4 zhe3 yu3 ， he2 qi2 duo1 neng2 ye3？
+- 太宰问于子贡曰：“夫子圣者与，何其多能也？
+- ” zi3 gong4 yue1 ： “ gu4 tian1 zong4 zhi1 jiang1 sheng4 ， you4 duo1 neng2 ye3。
+- ”子贡曰：“固天纵之将圣，又多能也。
+- ” zi3 wen2 zhi1 ， yue1 ： “ tai4 zai3 zhi1 wo3 hu1？
+- ”子闻之，曰：“太宰知我乎？
+- wu2 shao3 ye3 jian4 ， gu4 duo1 neng2 bi3 shi4。
+- 吾少也贱，故多能鄙事。
+- jun1 zi3 duo1 hu1 zai1？
+- 君子多乎哉？
+- bu4 duo1 ye3。
+- 不多也。
 - ”
 - ”
 - lao2 yue1 ： “ zi3 yun2 ： ‘ wu2 bu2 shi4 ， gu4 yi4。
 - 牢曰：“子云：‘吾不试，故艺。
 - ’ ”
 - ’”
-- zi3 yue1 ： “ wu2 you3 zhi1 hu1 zai1 ？ wu2 zhi1 ye3。
-- 子曰：“吾有知乎哉？无知也。
+- zi3 yue1 ： “ wu2 you3 zhi1 hu1 zai1？
+- 子曰：“吾有知乎哉？
+- wu2 zhi1 ye3。
+- 无知也。
 - you3 bi3 fu1 wen4 yu2 wo3 ， kong1 kong1 ru2 ye3。
 - 有鄙夫问于我，空空如也。
 - wo3 kou4 qi2 liang3 duan1 er2 jie2 yan1。
@@ -79,28 +95,42 @@ tags: []
 - 子疾病，子路使门人为臣。
 - bing4 jian1 ， yue1 ： “ jiu3 yi3 zai1 ， you2 zhi1 xing2 zha4 ye3！
 - 病间，曰：“久矣哉，由之行诈也！
-- wu2 chen2 er2 wei4 you3 chen2 ， wu2 shui2 qi1 ？ qi1 tian1 hu1 ？ qie3 yu3 yu3 qi2 si3 yu2 chen2 zhi1 shou3 ye3 ， wu2 ning2 si3 yu2 er4 san1 zi3 zhi1 shou3 hu1！
-- 无臣而为有臣，吾谁欺？欺天乎？且予与其死于臣之手也，无宁死于二三子之手乎！
-- qie3 yu3 zong4 bu4 de2 da4 zang4 ， yu3 si3 yu2 dao4 lu4 hu1 ？ ”
-- 且予纵不得大葬，予死于道路乎？”
-- zi3 gong4 yue1 ： “ you3 mei3 yu4 yu2 si1 ， yun4 du2 er2 cang2 zhu1 ？ qiu2 shan4 jia3 er2 gu1 zhu1 ？ ” zi3 yue1 ： “ gu1 zhi1 zai1 ， gu1 zhi1 zai1！
-- 子贡曰：“有美玉于斯，韫椟而藏诸？求善贾而沽诸？”子曰：“沽之哉，沽之哉！
+- wu2 chen2 er2 wei4 you3 chen2 ， wu2 shui2 qi1？
+- 无臣而为有臣，吾谁欺？
+- qi1 tian1 hu1？
+- 欺天乎？
+- qie3 yu3 yu3 qi2 si3 yu2 chen2 zhi1 shou3 ye3 ， wu2 ning2 si3 yu2 er4 san1 zi3 zhi1 shou3 hu1！
+- 且予与其死于臣之手也，无宁死于二三子之手乎！
+- qie3 yu3 zong4 bu4 de2 da4 zang4 ， yu3 si3 yu2 dao4 lu4 hu1？
+- 且予纵不得大葬，予死于道路乎？
+- ”
+- ”
+- zi3 gong4 yue1 ： “ you3 mei3 yu4 yu2 si1 ， yun4 du2 er2 cang2 zhu1？
+- 子贡曰：“有美玉于斯，韫椟而藏诸？
+- qiu2 shan4 jia3 er2 gu1 zhu1？
+- 求善贾而沽诸？
+- ” zi3 yue1 ： “ gu1 zhi1 zai1 ， gu1 zhi1 zai1！
+- ”子曰：“沽之哉，沽之哉！
 - wo3 dai4 jia3 zhe3 ye3。
 - 我待贾者也。
 - ”
 - ”
 - zi3 yu4 ju1 jiu3 yi2。
 - 子欲居九夷。
-- huo4 yue1 ： “ lou4 ， ru2 zhi1 he2 ？ ” zi3 yue1 ： “ jun1 zi3 ju1 zhi1 ， he2 lou4 zhi1 you3！
-- 或曰：“陋，如之何？”子曰：“君子居之，何陋之有！
+- huo4 yue1 ： “ lou4 ， ru2 zhi1 he2？
+- 或曰：“陋，如之何？
+- ” zi3 yue1 ： “ jun1 zi3 ju1 zhi1 ， he2 lou4 zhi1 you3！
+- ”子曰：“君子居之，何陋之有！
 - ”
 - ”
 - zi3 yue1 ： “ wu2 zi4 wei4 fan3 lu3 ， ran2 hou4 le4 zheng4 ， 《 ya3 》 、 《 song4 》 ge4 de2 qi2 suo3。
 - 子曰：“吾自卫反鲁，然后乐正，《雅》、《颂》各得其所。
 - ”
 - ”
-- zi3 yue1 ： “ chu1 ze2 shi4 gong1 qing1 ， ru4 ze2 shi4 fu4 xiong1 ， sang1 shi4 bu4 gan3 bu4 mian3 ， bu2 wei4 jiu3 kun4 ， he2 you3 yu2 wo3 zai1 ？ ”
-- 子曰：“出则事公卿，入则事父兄，丧事不敢不勉，不为酒困，何有于我哉？”
+- zi3 yue1 ： “ chu1 ze2 shi4 gong1 qing1 ， ru4 ze2 shi4 fu4 xiong1 ， sang1 shi4 bu4 gan3 bu4 mian3 ， bu2 wei4 jiu3 kun4 ， he2 you3 yu2 wo3 zai1？
+- 子曰：“出则事公卿，入则事父兄，丧事不敢不勉，不为酒困，何有于我哉？
+- ”
+- ”
 - zi3 zai4 chuan1 shang4 yue1 ： “ shi4 zhe3 ru2 si1 fu1！
 - 子在川上曰：“逝者如斯夫！
 - bu2 she4 zhou4 ye4。
@@ -131,14 +161,20 @@ tags: []
 - 子曰：“苗而不秀者有矣夫，秀而不实者有矣夫。
 - ”
 - ”
-- zi3 yue1 ： “ hou4 sheng1 ke3 wei4 ， yan1 zhi1 lai2 zhe3 zhi1 bu4 ru2 jin1 ye3 ？ si4 shi2 、 wu3 shi2 er2 wu2 wen2 yan1 ， si1 yi4 bu4 zu2 wei4 ye3 yi3。
-- 子曰：“后生可畏，焉知来者之不如今也？四十、五十而无闻焉，斯亦不足畏也已。
+- zi3 yue1 ： “ hou4 sheng1 ke3 wei4 ， yan1 zhi1 lai2 zhe3 zhi1 bu4 ru2 jin1 ye3？
+- 子曰：“后生可畏，焉知来者之不如今也？
+- si4 shi2 、 wu3 shi2 er2 wu2 wen2 yan1 ， si1 yi4 bu4 zu2 wei4 ye3 yi3。
+- 四十、五十而无闻焉，斯亦不足畏也已。
 - ”
 - ”
-- zi3 yue1 ： “ fa3 yu3 zhi1 yan2 ， neng2 wu2 cong2 hu1 ？ gai3 zhi1 wei4 gui4。
-- 子曰：“法语之言，能无从乎？改之为贵。
-- xun4 yu3 zhi1 yan2 ， neng2 wu2 shuo1 hu1 ？ yi4 zhi1 wei4 gui4。
-- 巽与之言，能无说乎？绎之为贵。
+- zi3 yue1 ： “ fa3 yu3 zhi1 yan2 ， neng2 wu2 cong2 hu1？
+- 子曰：“法语之言，能无从乎？
+- gai3 zhi1 wei4 gui4。
+- 改之为贵。
+- xun4 yu3 zhi1 yan2 ， neng2 wu2 shuo1 hu1？
+- 巽与之言，能无说乎？
+- yi4 zhi1 wei4 gui4。
+- 绎之为贵。
 - shuo1 er2 bu2 yi4 ， cong2 er2 bu4 gai3 ， wu2 mo4 ru2 zhi1 he2 ye3 yi3 yi3。
 - 说而不绎，从而不改，吾末如之何也已矣。
 - ”
@@ -155,8 +191,12 @@ tags: []
 - ”
 - zi3 yue1 ： “ yi1 bi4 wen1 pao2 ， yu3 yi1 hu2 mo4 zhe3 li4 er2 bu4 chi3 zhe3 ， qi2 you2 ye3 yu3！
 - 子曰：“衣敝缊袍，与衣狐貉者立而不耻者，其由也与！
-- ‘ bu2 zhi4 bu4 qiu2 ， he2 yong4 bu4 zang1 ？ ’ ” zi3 lu4 zhong1 shen1 song4 zhi1 ， zi3 yue1 ： “ shi4 dao4 ye3 ， he2 zu2 yi3 zang1 ？ ”
-- ‘不忮不求，何用不臧？’”子路终身诵之，子曰：“是道也，何足以臧？”
+- ‘ bu2 zhi4 bu4 qiu2 ， he2 yong4 bu4 zang1？
+- ‘不忮不求，何用不臧？
+- ’ ” zi3 lu4 zhong1 shen1 song4 zhi1 ， zi3 yue1 ： “ shi4 dao4 ye3 ， he2 zu2 yi3 zang1？
+- ’”子路终身诵之，子曰：“是道也，何足以臧？
+- ”
+- ”
 - zi3 yue1 ： “ sui4 han2 ， ran2 hou4 zhi1 song1 bai3 zhi1 hou4 diao1 ye3。
 - 子曰：“岁寒，然后知松柏之后凋也。
 - ”
@@ -175,8 +215,10 @@ tags: []
 - ”
 - “ tang2 di4 zhi1 hua2 ， pian1 qi2 fan3 er2。
 - “唐棣之华，偏其反而。
-- qi3 bu4 er3 si1 ？ shi4 shi4 yuan3 er3。
-- 岂不尔思？室是远尔。
+- qi3 bu4 er3 si1？
+- 岂不尔思？
+- shi4 shi4 yuan3 er3。
+- 室是远尔。
 - ” zi3 yue1 ： “ wei4 zhi1 si1 ye3 ， fu1 he2 yuan3 zhi1 you3。
 - ”子曰：“未之思也，夫何远之有。
 - ”

@@ -41,10 +41,16 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - 昔文公與秦伐鄭，秦人竊與鄭盟而舍戍焉，於是乎有餚之師。
 - jin4 yu4 qi2 shang4 ， rong2 kang4 qi2 xia4 ， qin2 shi1 bu2 fu4 ， wo3 zhu1 rong2 shi2 ran2。
 - 晉御其上，戎亢其下，秦師不復，我諸戎實然。
-- pi4 ru2 bu3 lu4 ， jin4 ren2 jiao3 zhi1 ， zhu1 rong2 ji3 zhi1 ， yu3 jin4 bo2 zhi1 ， rong2 he2 yi3 bu4 mian3 ？ zi4 shi4 yi3 lai2 ， jin4 zhi1 bai3 yi4 ， yu3 wo3 zhu1 rong2 xiang1 ji4 wu1 shi2 ， yi3 cong2 zhi2 zheng4 ， you2 yao2 zhi4 ye3 ， qi3 gan3 li2 ti4 ？ jin1 guan1 zhi1 shi1 lü3 ， wu2 nai3 shi2 you3 suo3 que4 ， yi3 xie2 zhu1 hou2 ， er2 zui4 wo3 zhu1 rong2。
-- 譬如捕鹿，晉人角之，諸戎掎之，與晉踣之，戎何以不免？自是以來，晉之百役，與我諸戎相繼於時，以從執政，猶餚志也，豈敢離逷？今官之師旅，無乃實有所闕，以攜諸侯，而罪我諸戎。
-- wo3 zhu1 rong2 yin3 shi2 yi1 fu0 bu4 yu3 hua2 tong2 ， zhi4 bi4 bu4 tong1 ， yan2 yu3 bu4 da2 ， he2 e4 zhi1 neng2 wei2 ？ bu4 yu3 wu1 hui4 ， yi4 wu2 meng2 yan1。
-- 我諸戎飲食衣服不與華同，贄幣不通，言語不達，何惡之能爲？不與於會，亦無瞢焉。
+- pi4 ru2 bu3 lu4 ， jin4 ren2 jiao3 zhi1 ， zhu1 rong2 ji3 zhi1 ， yu3 jin4 bo2 zhi1 ， rong2 he2 yi3 bu4 mian3？
+- 譬如捕鹿，晉人角之，諸戎掎之，與晉踣之，戎何以不免？
+- zi4 shi4 yi3 lai2 ， jin4 zhi1 bai3 yi4 ， yu3 wo3 zhu1 rong2 xiang1 ji4 wu1 shi2 ， yi3 cong2 zhi2 zheng4 ， you2 yao2 zhi4 ye3 ， qi3 gan3 li2 ti4？
+- 自是以來，晉之百役，與我諸戎相繼於時，以從執政，猶餚志也，豈敢離逷？
+- jin1 guan1 zhi1 shi1 lü3 ， wu2 nai3 shi2 you3 suo3 que4 ， yi3 xie2 zhu1 hou2 ， er2 zui4 wo3 zhu1 rong2。
+- 今官之師旅，無乃實有所闕，以攜諸侯，而罪我諸戎。
+- wo3 zhu1 rong2 yin3 shi2 yi1 fu0 bu4 yu3 hua2 tong2 ， zhi4 bi4 bu4 tong1 ， yan2 yu3 bu4 da2 ， he2 e4 zhi1 neng2 wei2？
+- 我諸戎飲食衣服不與華同，贄幣不通，言語不達，何惡之能爲？
+- bu4 yu3 wu1 hui4 ， yi4 wu2 meng2 yan1。
+- 不與於會，亦無瞢焉。
 - ” fu4 《 qing1 ying2 》 er2 tui4。
 - ”賦《青蠅》而退。
 - xuan1 zi3 ci2 yan1 ， shi3 ji2 shi4 wu1 hui4 ， cheng2 kai3 ti4 ye3。

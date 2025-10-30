@@ -23,15 +23,15 @@ tags: []
 - 作为清角韵，意中迷烦。
 - ge1 yi3 yan2 zhi4 ， chen2 shang4 san4 guan1 shan1。
 - 歌以言志，晨上散关山。
-- you3 he2 san1 lao3 gong1 ， zu2 lai2 zai4 wo3 pang2 ？
+- you3 he2 san1 lao3 gong1 ， zu2 lai2 zai4 wo3 pang2？
 - 有何三老公，卒来在我旁？
-- you3 he2 san1 lao3 gong1 ， zu2 lai2 zai4 wo3 pang2 ？
+- you3 he2 san1 lao3 gong1 ， zu2 lai2 zai4 wo3 pang2？
 - 有何三老公，卒来在我旁？
 - fu4 yan3 bei4 qiu2 ， si4 fei1 heng2 ren2。
 - 负揜被裘，似非恒人。
-- wei4 qing1 yun2 he2 kun4 ku3 yi3 zi4 yuan4 ， huang2 huang2 suo3 yu4 ， lai2 dao4 ci3 jian1 ？
+- wei4 qing1 yun2 he2 kun4 ku3 yi3 zi4 yuan4 ， huang2 huang2 suo3 yu4 ， lai2 dao4 ci3 jian1？
 - 谓卿云何困苦以自怨，徨徨所欲，来到此间？
-- ge1 yi3 yan2 zhi4 ， you3 he2 san1 lao3 gong1 ？
+- ge1 yi3 yan2 zhi4 ， you3 he2 san1 lao3 gong1？
 - 歌以言志，有何三老公？
 - wo3 ju1 kun1 lun2 shan1 ， suo3 wei4 zhe3 zhen1 ren2。
 - 我居昆仑山，所谓者真人。

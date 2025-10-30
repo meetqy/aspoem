@@ -11,8 +11,10 @@ tags: ["卷三・周文","古文观止","蒙学"]
 
 ## 正文
 
-- you3 zi3 wen4 wu1 ceng2 zi3 yue1 ： “ wen4 sang1 wu1 fu1 zi3 hu1 ？ ” yue1 ： “ wen2 zhi1 yi3 ： ‘ sang1 yu4 su4 pin2 ， si3 yu4 su4 xiu3 ’。
-- 有子問於曾子曰：“問喪於夫子乎？”曰：“聞之矣：‘喪欲速貧，死欲速朽’。
+- you3 zi3 wen4 wu1 ceng2 zi3 yue1 ： “ wen4 sang1 wu1 fu1 zi3 hu1？
+- 有子問於曾子曰：“問喪於夫子乎？
+- ” yue1 ： “ wen2 zhi1 yi3 ： ‘ sang1 yu4 su4 pin2 ， si3 yu4 su4 xiu3 ’。
+- ”曰：“聞之矣：‘喪欲速貧，死欲速朽’。
 - ” you3 zi3 yue1 ： “ shi4 fei1 jun1 zi3 zhi1 yan2 ye3。
 - ”有子曰：“是非君子之言也。
 - ” ceng2 zi3 yue1 ： “ can1 ye3 wen2 zhu1 fu1 zi3 ye3。
@@ -51,8 +53,10 @@ tags: ["卷三・周文","古文观止","蒙学"]
 - 有子曰：“然！
 - wu2 gu4 yue1 fei1 fu1 zi3 zhi1 yan2 ye3。
 - 吾固曰非夫子之言也。
-- ” ceng2 zi3 yue1 ： “ zi3 he2 yi3 zhi1 zhi1 ？ ” you3 zi3 yue1 ： “ fu1 zi3 zhi4 wu1 zhong1 du1 ： si4 cun4 zhi1 guan1 ， wu3 cun4 zhi1 guo3。
-- ”曾子曰：“子何以知之？”有子曰：“夫子制於中都：四寸之棺，五寸之槨。
+- ” ceng2 zi3 yue1 ： “ zi3 he2 yi3 zhi1 zhi1？
+- ”曾子曰：“子何以知之？
+- ” you3 zi3 yue1 ： “ fu1 zi3 zhi4 wu1 zhong1 du1 ： si4 cun4 zhi1 guan1 ， wu3 cun4 zhi1 guo3。
+- ”有子曰：“夫子制於中都：四寸之棺，五寸之槨。
 - yi3 si1 zhi1 bu2 yu4 su4 xiu3 ye3。
 - 以斯知不欲速朽也。
 - xi1 zhe3 fu1 zi3 shi1 lu3 si1 kou4 ， jiang1 zhi1 jing1 ， gai4 xian1 zhi1 yi3 zi3 xia4 ， you4 shen1 zhi1 yi3 ran3 you3。

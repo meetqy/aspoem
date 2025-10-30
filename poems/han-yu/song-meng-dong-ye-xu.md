@@ -35,7 +35,7 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 維天之於時也亦然，擇其善鳴者而假之鳴。
 - shi4 gu4 yi3 niao3 ming2 chun1 ， yi3 lei2 ming2 xia4 ， yi3 chong2 ming2 qiu1 ， yi3 feng1 ming2 dong1。
 - 是故以鳥鳴春，以雷鳴夏，以蟲鳴秋，以風鳴冬。
-- si4 shi2 zhi1 xiang1 tui1 duo2 ， qi2 bi4 you3 bu4 de2 qi2 ping2 zhe3 hu1 ？
+- si4 shi2 zhi1 xiang1 tui1 duo2 ， qi2 bi4 you3 bu4 de2 qi2 ping2 zhe3 hu1？
 - 四時之相推敓，其必有不得其平者乎？
 - qi2 wu1 ren2 ye3 yi4 ran2。
 - 其於人也亦然。
@@ -73,8 +73,10 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 就其善者，其聲清以浮，其節數以急，其辭淫以哀，其志弛以肆；
 - qi2 wei2 yan2 ye3 ， luan4 za2 er2 wu2 zhang1。
 - 其爲言也，亂雜而無章。
-- jiang1 tian1 chou3 qi2 de2 mo4 zhi1 gu4 xie2 ？ he2 wei2 hu1 bu4 ming2 qi2 shan4 ming2 zhe3 ye3！
-- 將天醜其德莫之顧邪？何爲乎不鳴其善鳴者也！
+- jiang1 tian1 chou3 qi2 de2 mo4 zhi1 gu4 xie2？
+- 將天醜其德莫之顧邪？
+- he2 wei2 hu1 bu4 ming2 qi2 shan4 ming2 zhe3 ye3！
+- 何爲乎不鳴其善鳴者也！
 - tang2 zhi1 you3 tian1 xia4 ， chen2 zi3 ang2 、 su1 yuan2 ming2 、 yuan2 jie2 、 li3 bai2 、 du4 fu3 、 li3 guan1 ， jie1 yi3 qi2 suo3 neng2 ming2。
 - 唐之有天下，陳子昂、蘇源明、元結、李白、杜甫、李觀，皆以其所能鳴。
 - qi2 cun2 er2 zai4 xia4 zhe3 ， meng4 jiao1 dong1 ye3 shi3 yi3 qi2 shi1 ming2。
@@ -85,8 +87,10 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 從吾遊者，李翱、張籍其尤也。
 - san1 zi3 zhe3 zhi1 ming2 xin4 shan4 yi3。
 - 三子者之鳴信善矣。
-- yi4 bu4 zhi1 tian1 jiang1 he2 qi2 sheng1 ， er2 shi3 ming2 guo2 jia1 zhi1 sheng4 xie2 ， yi4 jiang1 qiong2 e4 qi2 shen1 ， si1 chou2 qi2 xin1 chang2 ， er2 shi3 zi4 ming2 qi2 bu2 xing4 xie2 ？ san1 zi3 zhe3 zhi1 ming4 ， ze2 xuan2 hu1 tian1 yi3。
-- 抑不知天將和其聲，而使鳴國家之盛邪，抑將窮餓其身，思愁其心腸，而使自鳴其不幸邪？三子者之命，則懸乎天矣。
+- yi4 bu4 zhi1 tian1 jiang1 he2 qi2 sheng1 ， er2 shi3 ming2 guo2 jia1 zhi1 sheng4 xie2 ， yi4 jiang1 qiong2 e4 qi2 shen1 ， si1 chou2 qi2 xin1 chang2 ， er2 shi3 zi4 ming2 qi2 bu2 xing4 xie2？
+- 抑不知天將和其聲，而使鳴國家之盛邪，抑將窮餓其身，思愁其心腸，而使自鳴其不幸邪？
+- san1 zi3 zhe3 zhi1 ming4 ， ze2 xuan2 hu1 tian1 yi3。
+- 三子者之命，則懸乎天矣。
 - qi2 zai4 shang4 ye3 xi1 yi3 xi3 ， qi2 zai4 xia4 ye3 xi1 yi3 bei1！
 - 其在上也奚以喜，其在下也奚以悲！
 - dong1 ye3 zhi1 yi4 wu1 jiang1 nan2 ye3 ， you3 ruo4 bu2 shi4 ran2 zhe3 ， gu4 wu2 dao4 qi2 wu1 tian1 zhe3 yi3 jie3 zhi1。

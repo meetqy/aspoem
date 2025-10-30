@@ -21,7 +21,7 @@ tags: []
 - 虽怀一介志，是时其能与！
 - shou3 qiong2 zhe3 pin2 jian4 ， wan3 tan4 lei4 ru2 yu3。
 - 守穷者贫贱，惋叹泪如雨。
-- qi4 ti4 yu2 bei1 fu1 ， qi3 huo2 an1 neng2 du3 ？
+- qi4 ti4 yu2 bei1 fu1 ， qi3 huo2 an1 neng2 du3？
 - 泣涕于悲夫，乞活安能睹？
 - wo3 yuan4 yu2 tian1 qiong2 ， lang2 xie2 qing1 ce4 zuo3。
 - 我愿于天穷，琅邪倾侧左。
@@ -31,10 +31,14 @@ tags: []
 - 快人由为叹，抱情不得叙。
 - xian3 xing2 tian1 jiao4 ren2 ， shui2 zhi1 mo4 bu2 xu4。
 - 显行天教人，谁知莫不绪。
-- wo3 yuan4 he2 shi2 sui2 ？ ci3 tan4 yi4 nan2 chu4。
-- 我愿何时随？此叹亦难处。
-- jin1 wo3 jiang1 he2 zhao4 yu2 guang1 yao4 ？ shi4 xian2 bu4 ru2 yu3。
-- 今我将何照于光曜？释衔不如雨。
+- wo3 yuan4 he2 shi2 sui2？
+- 我愿何时随？
+- ci3 tan4 yi4 nan2 chu4。
+- 此叹亦难处。
+- jin1 wo3 jiang1 he2 zhao4 yu2 guang1 yao4？
+- 今我将何照于光曜？
+- shi4 xian2 bu4 ru2 yu3。
+- 释衔不如雨。
 
 ## 注释
 

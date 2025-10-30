@@ -24,13 +24,17 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - shen3 yan4 zhao4 zhi1 shi4 chu1 hu1 qi2 xing4 zhe3 zai1！
 - 矧燕趙之士出乎其性者哉！
 - ran2 wu2 chang2 wen2 feng1 su2 yu3 hua4 yi2 yi4 ， wu2 e4 zhi1 qi2 jin1 bu2 yi4 wu1 gu3 suo3 yun2 xie2 ? liao2 yi3 wu2 zi3 zhi1 xing2 bu3 zhi1 ye3。
-- 然吾嘗聞風俗與化移易，吾惡知其今不異於古所云邪？聊以吾子之行卜之也。
+- 然吾嘗聞風俗與化移易，吾惡知其今不異於古所云邪？
 - dong3 sheng1 mian3 hu1 zai1！
+- 聊以吾子之行卜之也。
+- 
 - 董生勉乎哉！
 - wu2 yin1 zi3 you3 suo3 gan3 yi3。
 - 吾因子有所感矣。
-- wei2 wo3 diao4 wang4 zhu1 jun1 zhi1 mu4 ， er2 guan1 wu1 qi2 shi4 ， fu4 you3 xi1 shi2 tu2 gou3 zhe3 hu1 ？ wei2 wo3 xie4 yue1 ： “ ming2 tian1 zi3 zai4 shang4 ， ke3 yi3 chu1 er2 shi4 yi3。
-- 爲我吊望諸君之墓，而觀於其市，復有昔時屠狗者乎？爲我謝曰：“明天子在上，可以出而仕矣。
+- wei2 wo3 diao4 wang4 zhu1 jun1 zhi1 mu4 ， er2 guan1 wu1 qi2 shi4 ， fu4 you3 xi1 shi2 tu2 gou3 zhe3 hu1？
+- 爲我吊望諸君之墓，而觀於其市，復有昔時屠狗者乎？
+- wei2 wo3 xie4 yue1 ： “ ming2 tian1 zi3 zai4 shang4 ， ke3 yi3 chu1 er2 shi4 yi3。
+- 爲我謝曰：“明天子在上，可以出而仕矣。
 - ”
 - ”
 

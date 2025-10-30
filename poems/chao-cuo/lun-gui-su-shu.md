@@ -15,8 +15,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 聖王在上，而民不凍飢者，非能耕而食之，織而衣之也，爲開其資財之道也。
 - gu4 yao2 、 yu3 you3 jiu3 nian2 zhi1 shui3 ， tang1 you3 qi1 nian2 zhi1 han4 ， er2 guo2 wang2 juan1 ji2 zhe3 ， yi3 chu4 ji1 duo1 er2 bei4 xian1 ju4 ye3。
 - 故堯、禹有九年之水，湯有七年之旱，而國亡捐瘠者，以畜積多而備先具也。
-- jin1 hai3 nei4 wei2 yi1 ， tu3 di4 ren2 min2 zhi1 zhong4 bu2 bi4 tang1 、 yu3 ， jia1 yi3 wang2 tian1 zai1 shu4 nian2 zhi1 shui3 han4 ， er2 chu4 ji1 wei4 ji2 zhe3 ， he2 ye3 ？ di4 you3 yi2 li4 ， min2 you3 yu2 li4 ， sheng1 gu3 zhi1 tu3 wei4 jin4 ken3 ， shan1 ze2 zhi1 li4 wei4 jin4 chu1 ye3 ， you2 shi2 zhi1 min2 wei4 jin4 gui1 nong2 ye3。
-- 今海內爲一，土地人民之衆不避湯、禹，加以亡天災數年之水旱，而畜積未及者，何也？地有遺利，民有餘力，生谷之土未盡墾，山澤之利未盡出也，遊食之民未盡歸農也。
+- jin1 hai3 nei4 wei2 yi1 ， tu3 di4 ren2 min2 zhi1 zhong4 bu2 bi4 tang1 、 yu3 ， jia1 yi3 wang2 tian1 zai1 shu4 nian2 zhi1 shui3 han4 ， er2 chu4 ji1 wei4 ji2 zhe3 ， he2 ye3？
+- 今海內爲一，土地人民之衆不避湯、禹，加以亡天災數年之水旱，而畜積未及者，何也？
+- di4 you3 yi2 li4 ， min2 you3 yu2 li4 ， sheng1 gu3 zhi1 tu3 wei4 jin4 ken3 ， shan1 ze2 zhi1 li4 wei4 jin4 chu1 ye3 ， you2 shi2 zhi1 min2 wei4 jin4 gui1 nong2 ye3。
+- 地有遺利，民有餘力，生谷之土未盡墾，山澤之利未盡出也，遊食之民未盡歸農也。
 - min2 pin2 ， ze2 jian1 xie2 sheng1。
 - 民貧，則奸邪生。
 - pin2 sheng1 wu1 bu4 zu2 ， bu4 zu2 sheng1 wu1 bu4 nong2 ， bu4 nong2 ze2 bu4 di4 zhu4 ， bu4 di4 zhu4 ze2 li2 xiang1 qing1 jia1 ， min2 ru2 niao3 shou4。
@@ -31,8 +33,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 飢寒至身，不顧廉恥。
 - ren2 qing2 yi2 ri4 bu2 zai4 shi2 ze2 ji1 ， zhong1 sui4 bu2 zhi4 yi1 ze2 han2。
 - 人情一日不再食則飢，終歲不製衣則寒。
-- fu1 fu4 ji1 bu4 de2 shi2 ， fu1 han2 bu4 de2 yi1 ， sui1 ci2 mu3 bu4 neng2 bao3 qi2 zi3 ， jun1 an1 neng2 yi3 you3 qi2 min2 zai1 ？ ming2 zhu3 zhi1 qi2 ran2 ye3 ， gu4 wu4 min2 wu1 nong2 sang1 ， bao2 fu4 lian3 ， guang3 chu4 ji1 ， yi3 shi2 cang1 lin3 ， bei4 shui3 han4 ，   gu4 min2 ke3 de2 er2 you3 ye3。
-- 夫腹飢不得食，膚寒不得衣，雖慈母不能保其子，君安能以有其民哉？明主知其然也，故務民於農桑，薄賦斂，廣畜積，以實倉廩，備水旱， 故民可得而有也。
+- fu1 fu4 ji1 bu4 de2 shi2 ， fu1 han2 bu4 de2 yi1 ， sui1 ci2 mu3 bu4 neng2 bao3 qi2 zi3 ， jun1 an1 neng2 yi3 you3 qi2 min2 zai1？
+- 夫腹飢不得食，膚寒不得衣，雖慈母不能保其子，君安能以有其民哉？
+- ming2 zhu3 zhi1 qi2 ran2 ye3 ， gu4 wu4 min2 wu1 nong2 sang1 ， bao2 fu4 lian3 ， guang3 chu4 ji1 ， yi3 shi2 cang1 lin3 ， bei4 shui3 han4 ，   gu4 min2 ke3 de2 er2 you3 ye3。
+- 明主知其然也，故務民於農桑，薄賦斂，廣畜積，以實倉廩，備水旱， 故民可得而有也。
 - min2 zhe3 ， zai4 shang4 suo3 yi3 mu4 zhi1 ， qu1 li4 ru2 shui3 zou3 xia4 ， si4 fang1 wu2 ze2 ye3。
 - 民者，在上所以牧之，趨利如水走下，四方無擇也。
 - fu1 zhu1 yu4 jin1 yin2 ， ji1 bu4 ke3 shi2 ， han2 bu4 ke3 yi1 ， ran2 er2 zhong4 gui4 zhi1 zhe3 ， yi3 shang4 yong4 zhi1 gu4 ye3。

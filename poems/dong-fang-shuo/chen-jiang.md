@@ -81,7 +81,7 @@ tags: []
 - 离忧患而乃寤兮，若纵火于秋蓬。
 - ye4 shi1 zhi1 er2 bu2 jiu4 xi1 ， shang4 he2 lun4 hu1 huo4 xiong1。
 - 业失之而不救兮，尚何论乎祸凶。
-- bi3 li2 pan4 er2 peng2 dang3 xi1 ， du2 xing2 zhi1 shi4 qi2 he2 wang4 ？
+- bi3 li2 pan4 er2 peng2 dang3 xi1 ， du2 xing2 zhi1 shi4 qi2 he2 wang4？
 - 彼离畔而朋党兮，独行之士其何望？
 - ri4 jian4 ran3 er2 bu2 zi4 zhi1 xi1 ， qiu1 hao2 wei1 zai1 er2 bian4 rong2。
 - 日渐染而不自知兮，秋毫微哉而变容。

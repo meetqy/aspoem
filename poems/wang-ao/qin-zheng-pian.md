@@ -27,10 +27,14 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 上下之間，章奏批答相關接，刑名法度相維持而已。
 - fei1 du2 yan2 xi2 gu4 shi4 ， yi4 qi2 di4 shi4 shi3 ran2。
 - 非獨沿襲故事，亦其地勢使然。
-- he2 ye3 ？ guo2 jia1 chang2 chao2 wu1 feng4 tian1 men2 ， wei4 chang2 yi2 ri4 fei4 ， ke3 wei4 qin2 yi3。
-- 何也？國家常朝於奉天門，未嘗一日廢，可謂勤矣。
-- ran2 tang2 bi4 xuan2 jue2 ， wei1 yi2 he4 yi4 ， yu4 shi3 jiu1 yi2 ， hong2 lu2 ju3 bu4 ru2 fa3 ， tong1 zheng4 si1 yin3 zou4 ， shang4 te4 shi4 zhi1 ， xie4 en1 jian4 ci2 ， tuan1 tuan1 er2 tui4 ， shang4 he2 chang2 zhi4 yi2 shi4 ， xia4 he2 chang2 jin4 yi4 yan2 zai1 ？ ci3 wu2 ta1 ， di4 shi4 xuan2 jue2 ， suo3 wei4 tang2 shang4 yuan3 wu1 wan4 li3 ， sui1 yu4 yan2 wu2 you2 yan2 ye3。
-- 然堂陛懸絕，威儀赫奕，御史糾儀，鴻臚舉不如法，通政司引奏，上特視之，謝恩見辭，湍湍而退，上何嘗治一事，下何嘗進一言哉？此無他，地勢懸絕，所謂堂上遠於萬里，雖欲言無由言也。
+- he2 ye3？
+- 何也？
+- guo2 jia1 chang2 chao2 wu1 feng4 tian1 men2 ， wei4 chang2 yi2 ri4 fei4 ， ke3 wei4 qin2 yi3。
+- 國家常朝於奉天門，未嘗一日廢，可謂勤矣。
+- ran2 tang2 bi4 xuan2 jue2 ， wei1 yi2 he4 yi4 ， yu4 shi3 jiu1 yi2 ， hong2 lu2 ju3 bu4 ru2 fa3 ， tong1 zheng4 si1 yin3 zou4 ， shang4 te4 shi4 zhi1 ， xie4 en1 jian4 ci2 ， tuan1 tuan1 er2 tui4 ， shang4 he2 chang2 zhi4 yi2 shi4 ， xia4 he2 chang2 jin4 yi4 yan2 zai1？
+- 然堂陛懸絕，威儀赫奕，御史糾儀，鴻臚舉不如法，通政司引奏，上特視之，謝恩見辭，湍湍而退，上何嘗治一事，下何嘗進一言哉？
+- ci3 wu2 ta1 ， di4 shi4 xuan2 jue2 ， suo3 wei4 tang2 shang4 yuan3 wu1 wan4 li3 ， sui1 yu4 yan2 wu2 you2 yan2 ye3。
+- 此無他，地勢懸絕，所謂堂上遠於萬里，雖欲言無由言也。
 - yu2 yi3 wei2 yu4 shang4 xia4 zhi1 jiao1 ， mo4 ruo4 fu4 gu3 nei4 chao2 zhi1 fa3。
 - 愚以爲欲上下之交，莫若復古內朝之法。
 - gai4 zhou1 zhi1 shi2 you3 san1 chao2 ： ku4 men2 zhi1 wai4 wei2 zheng4 chao2 ， xun2 mou2 da4 chen2 zai4 yan1；
@@ -75,10 +79,14 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 常日則奉天門，即古之外朝也。
 - er2 nei4 chao2 du2 que1。
 - 而內朝獨缺。
-- ran2 fei1 que1 ye3 ， hua2 gai4 、 jin3 shen1 、 wu3 ying1 deng3 dian4 ， qi3 fei1 nei4 chao2 zhi1 yi2 zhi4 hu1 ？ hong2 wu3 zhong1 ru2 song4 lian2 、 liu2 ji1 ， yong3 le4 yi3 lai2 ru2 yang2 shi4 qi2 、 yang2 rong2 deng3 ， ri4 shi4 zuo3 you4 ， da4 chen2 jian3 yi4 、 xia4 yuan2 ji2 deng3 ， chang2 zou4 dui4 bian4 dian4。
-- 然非缺也，華蓋、謹身、武英等殿，豈非內朝之遺制乎？洪武中如宋濂、劉基，永樂以來如楊士奇、楊榮等，日侍左右，大臣蹇義、夏元吉等，常奏對便殿。
-- wu1 si1 shi2 ye3 ， qi3 you3 yong1 ge2 zhi1 huan4 zai1 ？ jin1 nei4 chao2 wei4 fu4 ， lin2 yu4 chang2 chao2 zhi1 hou4 ， ren2 chen2 wu2 fu4 jin4 jian4 ， san1 dian4 gao1 bi4 ， xian1 huo4 kui1 yan1。
-- 於斯時也，豈有壅隔之患哉？今內朝未復，臨御常朝之後，人臣無復進見，三殿高閟，鮮或窺焉。
+- ran2 fei1 que1 ye3 ， hua2 gai4 、 jin3 shen1 、 wu3 ying1 deng3 dian4 ， qi3 fei1 nei4 chao2 zhi1 yi2 zhi4 hu1？
+- 然非缺也，華蓋、謹身、武英等殿，豈非內朝之遺制乎？
+- hong2 wu3 zhong1 ru2 song4 lian2 、 liu2 ji1 ， yong3 le4 yi3 lai2 ru2 yang2 shi4 qi2 、 yang2 rong2 deng3 ， ri4 shi4 zuo3 you4 ， da4 chen2 jian3 yi4 、 xia4 yuan2 ji2 deng3 ， chang2 zou4 dui4 bian4 dian4。
+- 洪武中如宋濂、劉基，永樂以來如楊士奇、楊榮等，日侍左右，大臣蹇義、夏元吉等，常奏對便殿。
+- wu1 si1 shi2 ye3 ， qi3 you3 yong1 ge2 zhi1 huan4 zai1？
+- 於斯時也，豈有壅隔之患哉？
+- jin1 nei4 chao2 wei4 fu4 ， lin2 yu4 chang2 chao2 zhi1 hou4 ， ren2 chen2 wu2 fu4 jin4 jian4 ， san1 dian4 gao1 bi4 ， xian1 huo4 kui1 yan1。
+- 今內朝未復，臨御常朝之後，人臣無復進見，三殿高閟，鮮或窺焉。
 - gu4 shang4 xia4 zhi1 qing2 ， yong1 er2 bu4 tong1；
 - 故上下之情，壅而不通；
 - tian1 xia4 zhi1 bi4 ， you2 shi4 er2 ji1。
@@ -101,8 +109,10 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 陛下雖身居九重，而天下之事燦然畢陳於前。
 - wai4 chao2 suo3 yi3 zheng4 shang4 xia4 zhi1 fen1 ， nei4 chao2 suo3 yi3 tong1 yuan3 jin4 zhi1 qing2。
 - 外朝所以正上下之分，內朝所以通遠近之情。
-- ru2 ci3 ， qi3 you3 jin4 shi2 yong1 ge2 zhi1 bi4 zai1 ？ tang2 、 yu2 zhi1 shi2 ， ming2 mu4 da2 cong1 ， jia1 yan2 wang3 fu2 ， ye3 wu2 yi2 xian2 ， yi4 bu2 guo4 shi4 er2 yi3。
-- 如此，豈有近時壅隔之弊哉？唐、虞之時，明目達聰，嘉言罔伏，野無遺賢，亦不過是而已。
+- ru2 ci3 ， qi3 you3 jin4 shi2 yong1 ge2 zhi1 bi4 zai1？
+- 如此，豈有近時壅隔之弊哉？
+- tang2 、 yu2 zhi1 shi2 ， ming2 mu4 da2 cong1 ， jia1 yan2 wang3 fu2 ， ye3 wu2 yi2 xian2 ， yi4 bu2 guo4 shi4 er2 yi3。
+- 唐、虞之時，明目達聰，嘉言罔伏，野無遺賢，亦不過是而已。
 
 ## 注释
 

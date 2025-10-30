@@ -41,10 +41,14 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 而君之故人俞君，於是裒輯其生平所著若干卷，刻而傳之。
 - er2 qi2 zi3 xiang1 ， lai2 qing3 yu3 xu4 zhi1 shou3 jian3。
 - 而其子襄，來請予序之首簡。
-- mao2 zi3 shou4 du2 er2 ti2 zhi1 yue1 ： ruo4 jun1 zhe3 ， fei1 gu3 zhi1 zhi4 shi4 zhi1 yi2 hu1 zai1 ？ kong3 zi3 shan1 《 shi1 》 ， zi4 《 xiao3 bian4 》 zhi1 yuan4 qin1 ， 《 xiang4 bo2 》 zhi1 ci4 chan2 er2 xia4 ， qi2 jian4 zhong1 chen2 、 gua3 fu4 、 you1 ren2 、 dui4 shi4 zhi1 shen2 ， bing4 lie4 zhi1 wei2 “ feng1 ” ， shu1 zhi1 wei2 “ ya3 ” ， bu4 ke3 sheng4 shu4。
-- 茅子受讀而題之曰：若君者，非古之志士之遺乎哉？孔子刪《詩》，自《小弁》之怨親，《巷伯》之刺讒而下，其間忠臣、寡婦、幽人、懟士之什，並列之爲“風”，疏之爲“雅”，不可勝數。
-- qi3 jie1 gu3 zhi1 zhong1 sheng1 ye3 zai1 ？ ran2 kong3 zi3 bu2 ju4 yi2 zhi1 zhe3 ， te4 min3 qi2 ren2 ， jin1 qi2 zhi4。
-- 豈皆古之中聲也哉？然孔子不遽遺之者，特憫其人，矜其志。
+- mao2 zi3 shou4 du2 er2 ti2 zhi1 yue1 ： ruo4 jun1 zhe3 ， fei1 gu3 zhi1 zhi4 shi4 zhi1 yi2 hu1 zai1？
+- 茅子受讀而題之曰：若君者，非古之志士之遺乎哉？
+- kong3 zi3 shan1 《 shi1 》 ， zi4 《 xiao3 bian4 》 zhi1 yuan4 qin1 ， 《 xiang4 bo2 》 zhi1 ci4 chan2 er2 xia4 ， qi2 jian4 zhong1 chen2 、 gua3 fu4 、 you1 ren2 、 dui4 shi4 zhi1 shen2 ， bing4 lie4 zhi1 wei2 “ feng1 ” ， shu1 zhi1 wei2 “ ya3 ” ， bu4 ke3 sheng4 shu4。
+- 孔子刪《詩》，自《小弁》之怨親，《巷伯》之刺讒而下，其間忠臣、寡婦、幽人、懟士之什，並列之爲“風”，疏之爲“雅”，不可勝數。
+- qi3 jie1 gu3 zhi1 zhong1 sheng1 ye3 zai1？
+- 豈皆古之中聲也哉？
+- ran2 kong3 zi3 bu2 ju4 yi2 zhi1 zhe3 ， te4 min3 qi2 ren2 ， jin1 qi2 zhi4。
+- 然孔子不遽遺之者，特憫其人，矜其志。
 - you2 yue1 “ fa1 hu1 qing2 ， zhi3 hu1 li3 yi4 ” ， “ yan2 zhi1 zhe3 wu2 zui4 ， wen2 zhi1 zhe3 zu2 yi3 wei2 jie4 ” yan1 er3。
 - 猶曰“發乎情，止乎禮義”，“言之者無罪，聞之者足以爲戒”焉耳。
 - yu3 chang2 an4 ci4 chun1 qiu1 yi3 lai2 ， qu1 yuan2 zhi1 《 sao1 》 yi2 wu1 yuan4 ， wu3 xu1 zhi1 jian4 yi2 wu1 xie2 ， jia3 yi4 zhi1 《 shu1 》 yi2 wu1 ji1 ， shu1 ye4 zhi1 shi1 yi2 wu1 fen4 ， liu2 fen2 zhi1 dui4 yi2 wu1 kang4。
@@ -57,8 +61,10 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 嗚呼！
 - ji2 zhong1 suo3 zai4 《 ming2 jian4 》 、 《 chou2 bian1 》 zhu1 shen2 ， shi4 ling4 hou4 zhi1 ren2 du2 zhi1 ， qi2 zu2 yi3 han2 zei2 chen2 zhi1 dan3 ， er2 yue4 sai1 yuan2 zhan4 shi4 zhi1 ma3 ， er2 zuo4 zhi1 kai4 ye3 ， gu4 yi3！
 - 集中所載《鳴劍》、《籌邊》諸什，試令後之人讀之，其足以寒賊臣之膽，而躍塞垣戰士之馬，而作之愾也，固矣！
-- ta1 ri4 guo2 jia1 cai3 feng1 zhe3 zhi1 shi3 chu1 er2 lan3 guan1 yan1 ， qi2 neng2 yi2 zhi1 ye3 hu1 ？ yu3 jin3 shi2 zhi1。
-- 他日國家採風者之使出而覽觀焉，其能遺之也乎？予謹識之。
+- ta1 ri4 guo2 jia1 cai3 feng1 zhe3 zhi1 shi3 chu1 er2 lan3 guan1 yan1 ， qi2 neng2 yi2 zhi1 ye3 hu1？
+- 他日國家採風者之使出而覽觀焉，其能遺之也乎？
+- yu3 jin3 shi2 zhi1。
+- 予謹識之。
 - zhi4 wu1 wen2 ci2 zhi1 gong1 bu0 gong1 ， ji2 dang1 gu3 zuo4 zhe3 zhi1 zhi3 yu3 fou3 ， fei1 suo3 yi3 lun4 jun1 zhi1 da4 zhe3 ye3 ， yu3 gu4 bu2 zhu4。
 - 至於文詞之工不工，及當古作者之旨與否，非所以論君之大者也，予故不著。
 - jia1 jing4 gui3 hai4 meng4 chun1 wang4 ri4 gui1 an1 mao2 kun1 bai4 shou3 xu4。

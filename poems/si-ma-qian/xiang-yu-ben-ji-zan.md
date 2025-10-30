@@ -15,8 +15,12 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 太史公曰：吾聞之周生曰：“舜目蓋重瞳子。
 - ” you4 wen2 xiang4 yu3 yi4 zhong4 tong2 zi3。
 - ”又聞項羽亦重瞳子。
-- yu3 qi3 qi2 miao2 yi4 xie2 ？ he2 xing1 zhi1 bao4 ye3 ？ fu1 qin2 shi1 qi2 zheng4 ， chen2 she4 shou3 nan2 ， hao2 jie2 feng1 qi3 ， xiang1 yu3 bing4 zheng1 ， bu4 ke3 sheng4 shu4。
-- 羽豈其苗裔邪？何興之暴也？夫秦失其政，陳涉首難，豪傑蜂起，相與並爭，不可勝數。
+- yu3 qi3 qi2 miao2 yi4 xie2？
+- 羽豈其苗裔邪？
+- he2 xing1 zhi1 bao4 ye3？
+- 何興之暴也？
+- fu1 qin2 shi1 qi2 zheng4 ， chen2 she4 shou3 nan2 ， hao2 jie2 feng1 qi3 ， xiang1 yu3 bing4 zheng1 ， bu4 ke3 sheng4 shu4。
+- 夫秦失其政，陳涉首難，豪傑蜂起，相與並爭，不可勝數。
 - ran2 yu3 fei1 you3 chi3 cun4 ， cheng2 shi4 qi3 long3 mu3 zhi1 zhong1 ， san1 nian2 ， sui4 jiang1 wu3 zhu1 hou2 mie4 qin2 ， fen1 lie4 tian1 xia4 er2 feng1 wang2 hou2 ， zheng4 you2 yu3 chu1 ， hao4 wei2 ba4 wang2 ， wei4 sui1 bu4 zhong1 ， jin4 gu3 yi3 lai2 ， wei4 chang2 you3 ye3。
 - 然羽非有尺寸，乘勢起隴畝之中，三年，遂將五諸侯滅秦，分裂天下而封王侯，政由羽出，號爲霸王，位雖不終，近古以來，未嘗有也。
 - ji2 yu3 bei4 guan1 huai2 chu3 ， fang4 zhu2 yi4 di4 er2 zi4 li4 ， yuan4 wang2 hou2 pan4 ji3 ， nan2 yi3。

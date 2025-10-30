@@ -39,8 +39,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 風悽露下，走磷飛螢！
 - dan4 jian4 mu4 tong2 qiao2 sou3 ， ge1 yin2 shang4 xia4 ， yu3 fu1 jing1 qin2 hai4 shou4 ， bei1 ming2 zhi2 zhu2 er2 yi1 ying1。
 - 但見牧童樵叟，歌吟上下，與夫驚禽駭獸，悲鳴躑躅而咿嚶。
-- jin1 gu4 ru2 ci3 ， geng4 qian1 qiu1 er2 wan4 sui4 xi1 ， an1 zhi1 qi2 bu4 xue2 cang2 gu1 mo4 yu3 wu2 sheng1 ？ ci3 zi4 gu3 sheng4 xian2 yi4 jie1 ran2 xi1 ， du2 bu2 jian4 fu1 lei4 lei4 hu1 kuang4 ye3 yu3 huang1 cheng2！
-- 今固如此，更千秋而萬歲兮，安知其不穴藏孤貉與鼯鼪？此自古聖賢亦皆然兮，獨不見夫累累乎曠野與荒城！
+- jin1 gu4 ru2 ci3 ， geng4 qian1 qiu1 er2 wan4 sui4 xi1 ， an1 zhi1 qi2 bu4 xue2 cang2 gu1 mo4 yu3 wu2 sheng1？
+- 今固如此，更千秋而萬歲兮，安知其不穴藏孤貉與鼯鼪？
+- ci3 zi4 gu3 sheng4 xian2 yi4 jie1 ran2 xi1 ， du2 bu2 jian4 fu1 lei4 lei4 hu1 kuang4 ye3 yu3 huang1 cheng2！
+- 此自古聖賢亦皆然兮，獨不見夫累累乎曠野與荒城！
 - wu1 hu1 man4 qing1！
 - 嗚呼曼卿！
 - sheng4 shuai1 zhi1 li3 ， wu2 gu4 zhi1 qi2 ru2 ci3 ， er2 gan3 nian4 chou2 xi1 ， bei1 liang2 qi1 chuang4 ， bu4 jue2 lin2 feng1 er2 yun3 ti4 zhe3 ， you3 kui4 hu1 tai4 shang4 zhi1 wang4 qing2。

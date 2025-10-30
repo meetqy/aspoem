@@ -67,14 +67,20 @@ tags: []
 - ”
 - ceng2 zi3 yue1 ： “ ke3 yi3 tuo1 liu4 chi3 zhi1 gu1 ， ke3 yi3 ji4 bai3 li3 zhi1 ming4 ， lin2 da4 jie2 er2 bu4 ke3 duo2 ye3。
 - 曾子曰：“可以托六尺之孤，可以寄百里之命，临大节而不可夺也。
-- jun1 zi3 ren2 yu3 ？ jun1 zi3 ren2 ye3。
-- 君子人与？君子人也。
+- jun1 zi3 ren2 yu3？
+- 君子人与？
+- jun1 zi3 ren2 ye3。
+- 君子人也。
 - ”
 - ”
 - ceng2 zi3 yue1 ： “ shi4 bu4 ke3 yi3 bu4 hong2 yi4 ， ren4 zhong4 er2 dao4 yuan3。
 - 曾子曰：“士不可以不弘毅，任重而道远。
-- ren2 yi3 wei2 ji3 ren4 ， bu2 yi4 zhong4 hu1 ？ si3 er2 hou4 yi3 ， bu2 yi4 yuan3 hu1 ？ ”
-- 仁以为己任，不亦重乎？死而后已，不亦远乎？”
+- ren2 yi3 wei2 ji3 ren4 ， bu2 yi4 zhong4 hu1？
+- 仁以为己任，不亦重乎？
+- si3 er2 hou4 yi3 ， bu2 yi4 yuan3 hu1？
+- 死而后已，不亦远乎？
+- ”
+- ”
 - zi3 yue1 ： “ xing1 yu2 《 shi1 》 ， li4 yu2 li3 ， cheng2 yu2 le4。
 - 子曰：“兴于《诗》，立于礼，成于乐。
 - ”
@@ -145,8 +151,10 @@ tags: []
 - 舜有臣五人而天下治。
 - wu3 wang2 yue1 ： “ yu3 you3 luan4 chen2 shi2 ren2。
 - 武王曰：“予有乱臣十人。
-- ” kong3 zi3 yue1 ： “ cai2 nan2 ， bu4 qi2 ran2 hu1 ？ tang2 yu2 zhi1 ji4 ， yu2 si1 wei4 sheng4；
-- ”孔子曰：“才难，不其然乎？唐虞之际，于斯为盛；
+- ” kong3 zi3 yue1 ： “ cai2 nan2 ， bu4 qi2 ran2 hu1？
+- ”孔子曰：“才难，不其然乎？
+- tang2 yu2 zhi1 ji4 ， yu2 si1 wei4 sheng4；
+- 唐虞之际，于斯为盛；
 - you3 fu4 ren2 yan1 ， jiu3 ren2 er2 yi3。
 - 有妇人焉，九人而已。
 - san1 fen1 tian1 xia4 you3 qi2 er4 ， yi3 fu2 shi4 yin1。

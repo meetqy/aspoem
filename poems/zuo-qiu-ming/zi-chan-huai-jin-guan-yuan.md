@@ -17,10 +17,14 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - 子產使盡壞其館之垣，而納車馬焉。
 - shi4 wen2 bo2 rang4 zhi1 ， yue1 ： “ bi4 yi4 yi3 zheng4 xing2 zhi1 bu4 xiu1 ， kou4 dao4 chong1 chi4 ， wu2 ruo4 zhu1 hou2 zhi1 shu3 ru3 zai4 gua3 jun1 zhe3 he2 ， shi4 yi3 ling4 li4 ren2 wan2 ke4 suo3 guan3 ， gao1 qi2 han4   hong2 ， hou4 qi2 qiang2 yuan2 ， yi3 wu2 you1 ke4 shi3。
 - 士文伯讓之，曰：“敝邑以政刑之不修，寇盜充斥，無若諸侯之屬辱在寡君者何，是以令吏人完客所館，高其閈 閎，厚其牆垣，以無憂客使。
-- jin1 wu2 zi3 huai4 zhi1 ， sui1 cong2 zhe3 neng2 jie4 ， qi2 ruo4 yi4 ke4 he2 ？ yi3 bi4 yi4 zhi1 wei2 meng2 zhu3 ， shan4 wan2 qi4 qiang2 ， yi3 dai4 bin1 ke4。
-- 今吾子壞之，雖從者能戒，其若異客何？以敝邑之爲盟主，繕完葺牆，以待賓客。
-- ruo4 jie1 hui3 zhi1 ， qi2 he2 yi3 gong4 ming4 ？ gua3 jun1 shi3 gai4 qing3 ming4。
-- 若皆毀之，其何以共命？寡君使匄請命。
+- jin1 wu2 zi3 huai4 zhi1 ， sui1 cong2 zhe3 neng2 jie4 ， qi2 ruo4 yi4 ke4 he2？
+- 今吾子壞之，雖從者能戒，其若異客何？
+- yi3 bi4 yi4 zhi1 wei2 meng2 zhu3 ， shan4 wan2 qi4 qiang2 ， yi3 dai4 bin1 ke4。
+- 以敝邑之爲盟主，繕完葺牆，以待賓客。
+- ruo4 jie1 hui3 zhi1 ， qi2 he2 yi3 gong4 ming4？
+- 若皆毀之，其何以共命？
+- gua3 jun1 shi3 gai4 qing3 ming4。
+- 寡君使匄請命。
 - dui4 yue1 ： “ yi3 bi4 yi4 bian3 xiao3 ， jie4 wu1 da4 guo2 ， zhu1 qiu2 wu2 shi2 ， shi4 yi3 bu4 gan3 ning2 ju1 ， xi1 suo3 bi4 fu4 ， yi3 lai2 hui4 shi2 shi4。
 - 對曰：“以敝邑褊小，介於大國，誅求無時，是以不敢寧居，悉索敝賦，以來會時事。
 - feng2 zhi2 shi4 zhi1 bu4 xian2 ， er2 wei4 de2 jian4；
@@ -59,10 +63,14 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - 賓見無時，命不可知。
 - ruo4 you4 wu4 huai4 ， shi4 wu2 suo3 cang2 bi4 yi3 zhong4 zui4 ye3。
 - 若又勿壞，是無所藏幣以重罪也。
-- gan3 qing3 zhi2 shi4 ， jiang1 he2 suo3 ming4 zhi1 ？ sui1 jun1 zhi1 you3 lu3 sang1 ， yi4 bi4 yi4 zhi1 you1 ye3。
-- 敢請執事，將何所命之？雖君之有魯喪，亦敝邑之憂也。
-- ruo4 huo4 jian4 bi4 ， xiu1 yuan2 er2 xing2 ， jun1 zhi1 hui4 ye3 ， gan3 dan4 qin2 lao2 ？ ”
-- 若獲薦幣，修垣而行，君之惠也，敢憚勤勞？”
+- gan3 qing3 zhi2 shi4 ， jiang1 he2 suo3 ming4 zhi1？
+- 敢請執事，將何所命之？
+- sui1 jun1 zhi1 you3 lu3 sang1 ， yi4 bi4 yi4 zhi1 you1 ye3。
+- 雖君之有魯喪，亦敝邑之憂也。
+- ruo4 huo4 jian4 bi4 ， xiu1 yuan2 er2 xing2 ， jun1 zhi1 hui4 ye3 ， gan3 dan4 qin2 lao2？
+- 若獲薦幣，修垣而行，君之惠也，敢憚勤勞？
+- ”
+- ”
 - wen2 bo2 fu4 ming4。
 - 文伯覆命。
 - zhao4 wen2 zi3 yue1 ： “ xin4。
@@ -77,8 +85,10 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - 乃築諸侯之館。
 - shu1 xiang4 yue1 ： “ ci2 zhi1 bu4 ke3 yi3 yi3 ye3 ru2 shi4 fu1！
 - 叔向曰：“辭之不可以已也如是夫！
-- zi3 chan3 you3 ci2 ， zhu1 hou2 lai4 zhi1 ， ruo4 zhi1 he2 qi2 shi4 ci2 ye3 ？ 《 shi1 》 yue1 ： ‘ ci2 zhi1 ji2 yi3 ， min2 zhi1 xie2 yi3；
-- 子產有辭，諸侯賴之，若之何其釋辭也？《詩》曰：‘辭之輯矣，民之協矣；
+- zi3 chan3 you3 ci2 ， zhu1 hou2 lai4 zhi1 ， ruo4 zhi1 he2 qi2 shi4 ci2 ye3？
+- 子產有辭，諸侯賴之，若之何其釋辭也？
+- 《 shi1 》 yue1 ： ‘ ci2 zhi1 ji2 yi3 ， min2 zhi1 xie2 yi3；
+- 《詩》曰：‘辭之輯矣，民之協矣；
 - ci2 zhi1 yi4 yi3 ， min2 zhi1 mo4 yi3。
 - 辭之懌矣，民之莫矣。
 - ’ qi2 zhi1 zhi1 yi3。

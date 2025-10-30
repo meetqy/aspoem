@@ -39,8 +39,10 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - 使女艾諜澆，使季杼誘豷，遂滅過、戈，復禹之績。
 - si4 xia4 pei4 tian1 ， bu4 shi1 jiu4 wu4。
 - 祀夏配天，不失舊物。
-- jin1 wu2 bu4 ru2 guo4 ， er2 yue4 da4 wu1 shao3 kang1 ， huo4 jiang1 feng1 zhi1 ， bu2 yi4 nan2 hu1 ？ gou1 jian4 neng2 qin1 er2 wu4 shi1 ， shi1 bu4 shi1 ren2 ， qin1 bu2 qi4 lao2 ， yu3 wo3 tong2 rang3 er2 shi4 wei2 chou2 chou2。
-- 今吳不如過，而越大於少康，或將豐之，不亦難乎？勾踐能親而務施，施不失人，親不棄勞，與我同壤而世爲仇讎。
+- jin1 wu2 bu4 ru2 guo4 ， er2 yue4 da4 wu1 shao3 kang1 ， huo4 jiang1 feng1 zhi1 ， bu2 yi4 nan2 hu1？
+- 今吳不如過，而越大於少康，或將豐之，不亦難乎？
+- gou1 jian4 neng2 qin1 er2 wu4 shi1 ， shi1 bu4 shi1 ren2 ， qin1 bu2 qi4 lao2 ， yu3 wo3 tong2 rang3 er2 shi4 wei2 chou2 chou2。
+- 勾踐能親而務施，施不失人，親不棄勞，與我同壤而世爲仇讎。
 - wu1 shi4 hu1 ke4 er2 fu2 qu3 ， jiang1 you4 cun2 zhi1 ， wei2 tian1 er2 chang2 kou4 chou2 ， hou4 sui1 hui3 zhi1 ， bu4 ke3 shi2 yi3。
 - 於是乎克而弗取，將又存之，違天而長寇讎，後雖悔之，不可食已。
 - ji1 zhi1 shuai1 ye3 ， ri4 ke3 si4 ye3。

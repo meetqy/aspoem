@@ -17,8 +17,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 以先帝之明，量臣之才，固知臣伐賊，才弱敵強也。
 - ran2 bu4 fa2 zei2 ， wang2 ye4 yi4 wang2。
 - 然不伐賊，王業亦亡。
-- wei2 zuo4 er2 dai4 wang2 ， shu2 yu3 fa2 zhi1 ？ shi4 gu4 tuo1 chen2 er2 fu2 yi2 ye3。
-- 惟坐而待亡，孰與伐之？是故託臣而弗疑也。
+- wei2 zuo4 er2 dai4 wang2 ， shu2 yu3 fa2 zhi1？
+- 惟坐而待亡，孰與伐之？
+- shi4 gu4 tuo1 chen2 er2 fu2 yi2 ye3。
+- 是故託臣而弗疑也。
 - chen2 shou4 ming4 zhi1 ri4 ， qin3 bu4 an1 xi2 ， shi2 bu4 gan1 wei4。
 - 臣受命之日，寢不安席，食不甘味。
 - si1 wei2 bei3 zheng1。
@@ -43,14 +45,18 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 曹操智計，殊絕於人，其用兵也，彷彿孫、吳，然困於南陽，險於烏巢，危於祁連，逼於黎陽，幾敗北山，殆死潼關，然後僞定一時耳。
 - kuang4 chen2 cai2 ruo4 ， er2 yu4 yi3 bu4 wei1 er2 ding4 zhi1 ， ci3 chen2 zhi1 wei4 jie3 san1 ye3。
 - 況臣才弱，而欲以不危而定之，此臣之未解三也。
-- cao2 cao1 wu3 gong1 chang1 ba4 bu2 xia4 ， si4 yue4 chao2 hu2 bu4 cheng2 ， ren4 yong4 li3 fu2 er2 li3 fu2 tu2 zhi1 ， wei3 ren4 xia4 hou2 er2 xia4 hou2 bai4 wang2 ， xian1 di4 mei3 cheng1 cao1 wei2 neng2 ， you2 you3 ci3 shi1 ， kuang4 chen2 nu2 xia4 ， he2 neng2 bi4 sheng4 ？ ci3 chen2 zhi1 wei4 jie3 si4 ye3。
-- 曹操五攻昌霸不下，四越巢湖不成，任用李服而李服圖之，委任夏侯而夏侯敗亡，先帝每稱操爲能，猶有此失，況臣駑下，何能必勝？此臣之未解四也。
+- cao2 cao1 wu3 gong1 chang1 ba4 bu2 xia4 ， si4 yue4 chao2 hu2 bu4 cheng2 ， ren4 yong4 li3 fu2 er2 li3 fu2 tu2 zhi1 ， wei3 ren4 xia4 hou2 er2 xia4 hou2 bai4 wang2 ， xian1 di4 mei3 cheng1 cao1 wei2 neng2 ， you2 you3 ci3 shi1 ， kuang4 chen2 nu2 xia4 ， he2 neng2 bi4 sheng4？
+- 曹操五攻昌霸不下，四越巢湖不成，任用李服而李服圖之，委任夏侯而夏侯敗亡，先帝每稱操爲能，猶有此失，況臣駑下，何能必勝？
+- ci3 chen2 zhi1 wei4 jie3 si4 ye3。
+- 此臣之未解四也。
 - zi4 chen2 dao4 han4 zhong1 ， zhong1 jian4 qi1 nian2 er3 ， ran2 sang1 zhao4 yun2 、 yang2 qun2 、 ma3 yu4 、 yan2 zhi1 、 ding1 li4 、 bai2 shou4 、 liu2 he2 、 deng4 tong2 deng3 ji2 qu3 chang2 、 tun2 jiang1 qi1 shi2 yu2 ren2 ， tu1 jiang1 、 wu2 qian2 、 cong2 sou3 、 qing1 qiang1 、 san4 qi2 、 wu3 qi2 yi4 qian1 yu2 ren2。
 - 自臣到漢中，中間期年耳，然喪趙雲、陽羣、馬玉、閻芝、丁立、白壽、劉郃、鄧銅等及曲長、屯將七十餘人，突將、無前、賨叟、青羌、散騎、武騎一千餘人。
 - ci3 jie1 shu4 shi2 nian2 zhi1 nei4 suo3 jiu1 he2 si4 fang1 zhi1 jing1 rui4 ， fei1 yi4 zhou1 zhi1 suo3 you3；
 - 此皆數十年之內所糾合四方之精銳，非一州之所有；
-- ruo4 fu4 shu4 nian2 ， ze2 sun3 san1 fen1 zhi1 er4 ye3 ， dang1 he2 yi3 tu2 di2 ？ ci3 chen2 zhi1 wei4 jie3 wu3 ye3。
-- 若複數年，則損三分之二也，當何以圖敵？此臣之未解五也。
+- ruo4 fu4 shu4 nian2 ， ze2 sun3 san1 fen1 zhi1 er4 ye3 ， dang1 he2 yi3 tu2 di2？
+- 若複數年，則損三分之二也，當何以圖敵？
+- ci3 chen2 zhi1 wei4 jie3 wu3 ye3。
+- 此臣之未解五也。
 - jin1 min2 qiong2 bing1 pi2 ， er2 shi4 bu4 ke3 xi1；
 - 今民窮兵疲，而事不可息；
 - shi4 bu4 ke3 xi1 ， ze2 zhu4 yu3 xing2 lao2 fei4 zheng4 deng3。

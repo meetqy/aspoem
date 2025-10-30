@@ -41,8 +41,12 @@ tags: ["卷三・周文","古文观止","蒙学"]
 - 口之宣言也，善敗於是乎興。
 - xing2 shan4 er2 bei4 bai4 ， qi2 suo3 yi3 fu4 cai2 yong4 yi1 shi2 zhe3 ye3。
 - 行善而備敗，其所以阜財用衣食者也。
-- fu1 min2 lü4 zhi1 wu1 xin1 er2 xuan1 zhi1 wu1 kou3 ， cheng2 er2 xing2 zhi1 ， hu2 ke3 yong1 ye3 ？ ruo4 yong1 qi2 kou3 ， qi2 yu3 neng2 ji1 he2 ？ ”
-- 夫民慮之於心而宣之於口，成而行之，胡可壅也？若壅其口，其與能幾何？”
+- fu1 min2 lü4 zhi1 wu1 xin1 er2 xuan1 zhi1 wu1 kou3 ， cheng2 er2 xing2 zhi1 ， hu2 ke3 yong1 ye3？
+- 夫民慮之於心而宣之於口，成而行之，胡可壅也？
+- ruo4 yong1 qi2 kou3 ， qi2 yu3 neng2 ji1 he2？
+- 若壅其口，其與能幾何？
+- ”
+- ”
 - wang2 bu4 ting1 ， wu1 shi4 guo2 ren2 mo4 gan3 chu1 yan2。
 - 王不聽，於是國人莫敢出言。
 - san1 nian2 ， nai3 liu2 wang2 wu1 zhi4。

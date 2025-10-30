@@ -23,8 +23,10 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 鱷魚之涵淹卵育於此，亦固其所。
 - jin1 tian1 zi3 si4 tang2 wei4 ， shen2 sheng4 ci2 wu3 ， si4 hai3 zhi1 wai4 ， liu4 he2 zhi1 nei4 ， jie1 fu3 er2 you3 zhi1；
 - 今天子嗣唐位，神聖慈武，四海之外，六合之內，皆撫而有之；
-- kuang4 yu3 ji4 suo3 yan3 ， yang2 zhou1 zhi1 jin4 di4 ， ci4 shi3 、 xian4 ling4 zhi1 suo3 zhi4 ， chu1 gong4 fu4 yi3 gong4 tian1 di4 zong1 miao4 bai3 shen2 zhi1 si4 zhi1 rang3 zhe3 zai1 ？ e4 yu2 qi2 bu4 ke3 yu3 ci4 shi3 za2 chu3 ci3 tu3 ye3。
-- 況禹跡所揜，揚州之近地，刺史、縣令之所治，出貢賦以供天地宗廟百神之祀之壤者哉？鱷魚其不可與刺史雜處此土也。
+- kuang4 yu3 ji4 suo3 yan3 ， yang2 zhou1 zhi1 jin4 di4 ， ci4 shi3 、 xian4 ling4 zhi1 suo3 zhi4 ， chu1 gong4 fu4 yi3 gong4 tian1 di4 zong1 miao4 bai3 shen2 zhi1 si4 zhi1 rang3 zhe3 zai1？
+- 況禹跡所揜，揚州之近地，刺史、縣令之所治，出貢賦以供天地宗廟百神之祀之壤者哉？
+- e4 yu2 qi2 bu4 ke3 yu3 ci4 shi3 za2 chu3 ci3 tu3 ye3。
+- 鱷魚其不可與刺史雜處此土也。
 - ci4 shi3 shou4 tian1 zi3 ming4 ， shou3 ci3 tu3 ， zhi4 ci3 min2 ， er2 e4 yu2 han4 ran2 bu4 an1 xi1 tan2 ， ju4 chu3 shi2 min2 chu4 、 xiong2 、 shi3 、 lu4 、 zhang1 ， yi3 fei2 qi2 shen1 ， yi3 zhong3 qi2 zi3 sun1；
 - 刺史受天子命，守此土，治此民，而鱷魚睅然不安溪潭，據處食民畜、熊、豕、鹿、獐，以肥其身，以種其子孫；
 - yu3 ci4 shi3 kang4 ju4 ， zheng1 wei2 chang2 xiong2；

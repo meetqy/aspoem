@@ -13,7 +13,7 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 - mu4 yun2 shou1 jin4 yi4 qing1 han2 ， yin2 han4 wu2 sheng1 zhuan3 yu4 pan2。
 - 暮雲收盡溢清寒，銀漢無聲轉玉盤。
-- ci3 sheng1 ci3 ye4 bu4 chang2 hao3 ， ming2 yue4 ming2 nian2 he2 chu3 kan4 ？
+- ci3 sheng1 ci3 ye4 bu4 chang2 hao3 ， ming2 yue4 ming2 nian2 he2 chu3 kan4？
 - 此生此夜不長好，明月明年何處看？
 
 ## 注释

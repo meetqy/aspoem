@@ -43,10 +43,18 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 餘音嫋嫋，不絕如縷。
 - wu3 you1 he4 zhi1 qian2 jiao1 ， qi4 gu1 zhou1 zhi1 li2 fu4。
 - 舞幽壑之潛蛟，泣孤舟之嫠婦。
-- su1 zi3 qiao3 ran2 ， zheng4 jin1 wei1 zuo4 ， er2 wen4 ke4 yue1 ： “ he2 wei2 qi2 ran2 ye3 ？ ” ke4 yue1 ： “ ‘ yue4 ming2 xing1 xi1 ， wu1 que4 nan2 fei1。
-- 蘇子愀然，正襟危坐，而問客曰：“何爲其然也？”客曰：“‘月明星稀，烏鵲南飛。
-- ’ ci3 fei1 cao2 meng4 de2 zhi1 shi1 hu1 ？ xi1 wang4 xia4 kou3 ， dong1 wang4 wu3 chang1 ， shan1 chuan1 xiang1 mou2 ， yu4 hu1 cang1 cang1 ， ci3 fei1 meng4 de2 zhi1 kun4 wu1 zhou1 lang2 zhe3 hu1 ？ fang1 qi2 po4 jing1 zhou1 ， xia4 jiang1 ling2 ， shun4 liu2 er2 dong1 ye3 ， zhu2 lu2 qian1 li3 ， jing1 qi2 bi4 kong1 ， shi1 jiu3 lin2 jiang1 ， heng2 shuo4 fu4 shi1 ， gu4 yi2 shi4 zhi1 xiong2 ye3 ， er2 jin1 an1 zai4 zai1 ？ kuang4 wu2 yu3 zi3 yu2 qiao2 wu1 jiang1 zhu3 zhi1 shang4 ， lü3 yu2 xia1 er2 you3 mi2 lu4 ， jia4 yi2 ye4 zhi1 pian1 zhou1 ， ju3 pao2 zun1 yi3 xiang1 shu3。
-- ’此非曹孟德之詩乎？西望夏口，東望武昌，山川相繆，鬱乎蒼蒼，此非孟德之困於周郎者乎？方其破荊州，下江陵，順流而東也，舳艫千里，旌旗蔽空，釃酒臨江，橫槊賦詩，固一世之雄也，而今安在哉？況吾與子漁樵於江渚之上，侶魚蝦而友麋鹿，駕一葉之扁舟，舉匏樽以相屬。
+- su1 zi3 qiao3 ran2 ， zheng4 jin1 wei1 zuo4 ， er2 wen4 ke4 yue1 ： “ he2 wei2 qi2 ran2 ye3？
+- 蘇子愀然，正襟危坐，而問客曰：“何爲其然也？
+- ” ke4 yue1 ： “ ‘ yue4 ming2 xing1 xi1 ， wu1 que4 nan2 fei1。
+- ”客曰：“‘月明星稀，烏鵲南飛。
+- ’ ci3 fei1 cao2 meng4 de2 zhi1 shi1 hu1？
+- ’此非曹孟德之詩乎？
+- xi1 wang4 xia4 kou3 ， dong1 wang4 wu3 chang1 ， shan1 chuan1 xiang1 mou2 ， yu4 hu1 cang1 cang1 ， ci3 fei1 meng4 de2 zhi1 kun4 wu1 zhou1 lang2 zhe3 hu1？
+- 西望夏口，東望武昌，山川相繆，鬱乎蒼蒼，此非孟德之困於周郎者乎？
+- fang1 qi2 po4 jing1 zhou1 ， xia4 jiang1 ling2 ， shun4 liu2 er2 dong1 ye3 ， zhu2 lu2 qian1 li3 ， jing1 qi2 bi4 kong1 ， shi1 jiu3 lin2 jiang1 ， heng2 shuo4 fu4 shi1 ， gu4 yi2 shi4 zhi1 xiong2 ye3 ， er2 jin1 an1 zai4 zai1？
+- 方其破荊州，下江陵，順流而東也，舳艫千里，旌旗蔽空，釃酒臨江，橫槊賦詩，固一世之雄也，而今安在哉？
+- kuang4 wu2 yu3 zi3 yu2 qiao2 wu1 jiang1 zhu3 zhi1 shang4 ， lü3 yu2 xia1 er2 you3 mi2 lu4 ， jia4 yi2 ye4 zhi1 pian1 zhou1 ， ju3 pao2 zun1 yi3 xiang1 shu3。
+- 況吾與子漁樵於江渚之上，侶魚蝦而友麋鹿，駕一葉之扁舟，舉匏樽以相屬。
 - ji4 fu2 you2 wu1 tian1 di4 ， miao3 cang1 hai3 zhi1 yi2 su4。
 - 寄蜉蝣於天地，渺滄海之一粟。
 - ai1 wu2 sheng1 zhi1 xu1 yu2 ， xian4 chang2   jiang1 zhi1 wu2 qiong2。
@@ -57,8 +65,10 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 知不可乎驟得，託遺響於悲風。
 - ”
 - ”
-- su1 zi3 yue1 ： “ ke4 yi4 zhi1 fu1 shui3 yu3 yue4 hu1 ？ shi4 zhe3 ru2 si1 ， er2 wei4 chang2 wang3 ye3；
-- 蘇子曰：“客亦知夫水與月乎？逝者如斯，而未嘗往也；
+- su1 zi3 yue1 ： “ ke4 yi4 zhi1 fu1 shui3 yu3 yue4 hu1？
+- 蘇子曰：“客亦知夫水與月乎？
+- shi4 zhe3 ru2 si1 ， er2 wei4 chang2 wang3 ye3；
+- 逝者如斯，而未嘗往也；
 - ying2 xu1 zhe3 ru2 bi3 ， er2 zu2 mo4 xiao1 chang2 ye3。
 - 盈虛者如彼，而卒莫消長也。
 - gai4 jiang1 zi4 qi2 bian4 zhe3 er2 guan1 zhi1 ， ze2 tian1 di4 ceng2 bu4 neng2 yi3 yi2 shun4；

@@ -23,8 +23,10 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 佔小善者率以錄，名一藝者無不庸。
 - pa2 luo2 ti1 jue2 ， gua1 gou4 mo2 guang1。
 - 爬羅剔抉，刮垢磨光。
-- gai4 you3 xing4 er2 huo4 xuan3 ， shu2 yun2 duo1 er2 bu4 yang2 ？ zhu1 sheng1 ye4 huan4 bu4 neng2 jing1 ， wu2 huan4 you3 si1 zhi1 bu4 ming2；
-- 蓋有幸而獲選，孰雲多而不揚？諸生業患不能精，無患有司之不明；
+- gai4 you3 xing4 er2 huo4 xuan3 ， shu2 yun2 duo1 er2 bu4 yang2？
+- 蓋有幸而獲選，孰雲多而不揚？
+- zhu1 sheng1 ye4 huan4 bu4 neng2 jing1 ， wu2 huan4 you3 si1 zhi1 bu4 ming2；
+- 諸生業患不能精，無患有司之不明；
 - xing2 huan4 bu4 neng2 cheng2 ， wu2 huan4 you3 si1 zhi1 bu4 gong1。
 - 行患不能成，無患有司之不公。
 - ”
@@ -89,8 +91,10 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 冬暖而兒號寒，年豐而妻啼飢。
 - tou2 tong2 chi3 huo1 ， jing4 si3 he2 bi4。
 - 頭童齒豁，竟死何裨。
-- bu4 zhi1 lü4 ci3 ， er2 fan3 jiao4 ren2 wei2 ？ ”
-- 不知慮此，而反教人爲？”
+- bu4 zhi1 lü4 ci3 ， er2 fan3 jiao4 ren2 wei2？
+- 不知慮此，而反教人爲？
+- ”
+- ”
 - xian1 sheng1 yue1 ： “ yu4 ， zi3 lai2 qian2！
 - 先生曰：“籲，子來前！
 - fu1 da4 mu4 wei2 mang2 ， xi4 mu4 wei2 jue2 ， bo2 lu2 、 zhu1 ru2 ， wei1 、 nie4 、 dian4 、 xie1 ， ge4 de2 qi2 yi2 ， shi1 yi3 cheng2 shi4 zhe3 ， jiang4 shi4 zhi1 gong1 ye3。
@@ -103,8 +107,10 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 昔者孟軻好辯，孔道以明，轍環天下，卒老於行。
 - xun2 qing1 shou3 zheng4 ， da4 lun4 shi4 hong2 ， tao2 chan2 wu1 chu3 ， fei4 si3 lan2 ling2。
 - 荀卿守正，大論是弘，逃讒於楚，廢死蘭陵。
-- shi4 er4 ru2 zhe3 ， tu3 ci2 wei2 jing1 ， ju3 zu2 wei2 fa3 ， jue2 lei4 li2 lun2 ， you1 ru4 sheng4 yu4 ， qi2 yu4 wu1 shi4 he2 ru2 ye3 ？ jin1 xian1 sheng1 xue2 sui1 qin2 er2 bu4 yao2 qi2 tong3 ， yan2 sui1 duo1 er2 bu2 yao4 qi2 zhong1 ， wen2 sui1 qi2 er2 bu2 ji4 wu1 yong4 ， xing2 sui1 xiu1 er2 bu4 xian3 wu1 zhong4。
-- 是二儒者，吐辭爲經，舉足爲法，絕類離倫，優入聖域，其遇於世何如也？今先生學雖勤而不繇其統，言雖多而不要其中，文雖奇而不濟於用，行雖修而不顯於衆。
+- shi4 er4 ru2 zhe3 ， tu3 ci2 wei2 jing1 ， ju3 zu2 wei2 fa3 ， jue2 lei4 li2 lun2 ， you1 ru4 sheng4 yu4 ， qi2 yu4 wu1 shi4 he2 ru2 ye3？
+- 是二儒者，吐辭爲經，舉足爲法，絕類離倫，優入聖域，其遇於世何如也？
+- jin1 xian1 sheng1 xue2 sui1 qin2 er2 bu4 yao2 qi2 tong3 ， yan2 sui1 duo1 er2 bu2 yao4 qi2 zhong1 ， wen2 sui1 qi2 er2 bu2 ji4 wu1 yong4 ， xing2 sui1 xiu1 er2 bu4 xian3 wu1 zhong4。
+- 今先生學雖勤而不繇其統，言雖多而不要其中，文雖奇而不濟於用，行雖修而不顯於衆。
 - you2 qie3 yue4 fei4 feng4 qian2 ， sui4 mi2 lin3 su4；
 - 猶且月費俸錢，歲靡廩粟；
 - zi3 bu4 zhi1 geng1 ， fu4 bu4 zhi1 zhi1；
@@ -113,8 +119,10 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 乘馬從徒，安坐而食。
 - zhong3 chang2 tu2 zhi1 yi4 yi4 ， kui1 chen2 bian1 yi3 dao4 qie4。
 - 踵常途之役役，窺陳編以盜竊。
-- ran2 er2 sheng4 zhu3 bu4 jia1 zhu1 ， zai3 chen2 bu2 jian4 chi4 ， zi1 fei1 qi2 xing4 yu2 ？ dong4 er2 de2 bang4 ， ming2 yi4 sui2 zhi1。
-- 然而聖主不加誅，宰臣不見斥，茲非其幸歟？動而得謗，名亦隨之。
+- ran2 er2 sheng4 zhu3 bu4 jia1 zhu1 ， zai3 chen2 bu2 jian4 chi4 ， zi1 fei1 qi2 xing4 yu2？
+- 然而聖主不加誅，宰臣不見斥，茲非其幸歟？
+- dong4 er2 de2 bang4 ， ming2 yi4 sui2 zhi1。
+- 動而得謗，名亦隨之。
 - tou2 xian2 zhi4 san4 ， nai3 fen1 zhi1 yi2。
 - 投閒置散，乃分之宜。
 - ruo4 fu1 shang1 cai2 hui4 zhi1 you3 wang2 ， ji4 ban1 zi1 zhi1 chong2 bi4 ， wang4 ji3 liang2 zhi1 suo3 cheng1 ， zhi3 qian2 ren2 zhi1 xia2 ci1 ， shi4 suo3 wei4 jie2 jiang4 shi4 zhi1 bu4 yi3 yi4 wei2 ying2 ， er2 zi1 yi1 shi1 yi3 chang1 yang2 yin3 nian2 ， yu4 jin4 qi2 xi1 ling2 ye3。

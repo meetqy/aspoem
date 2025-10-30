@@ -39,15 +39,17 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 夫秦王既按圖以予城，又設九賓，齋而受璧，其勢不得不予城。
 - bi4 ru4 er2 cheng2 fu2 yu3 ， xiang1 ru2 ze2 qian2 qing3 yue1 ： “ chen2 gu4 zhi1 da4 wang2 zhi1 fu2 yu3 cheng2 ye3。
 - 璧入而城弗予，相如則前請曰：“臣固知大王之弗予城也。
-- fu1 bi4 fei1 zhao4 bi4 hu1 ？ er2 shi2 wu3 cheng2 qin2 bao3 ye3。
-- 夫璧非趙璧乎？而十五城秦寶也。
+- fu1 bi4 fei1 zhao4 bi4 hu1？
+- 夫璧非趙璧乎？
+- er2 shi2 wu3 cheng2 qin2 bao3 ye3。
+- 而十五城秦寶也。
 - jin1 shi3 da4 wang2 yi3 bi4 gu4 ， er2 wang2 qi2 shi2 wu3 cheng2 ， shi2 wu3 cheng2 zhi1 zi3 di4 ， jie1 hou4 yuan4 da4 wang2 yi3 qi4 wo3 ru2 cao3 jie4 ye3。
 - 今使大王以璧故，而亡其十五城，十五城之子弟，皆厚怨大王以棄我如草芥也。
 - da4 wang2 fu2 yu3 cheng2 ， er2 dai4 zhao4 bi4 ， yi3 yi2 bi4 gu4 ， er2 shi1 xin4 wu1 tian1 xia4 ， chen2 qing3 jiu4 si3 wu1 guo2 ， yi3 ming2 da4 wang2 zhi1 shi1 xin4！
 - 大王弗與城，而紿趙璧，以一璧故，而失信於天下，臣請就死於國，以明大王之失信！
 - ” qin2 wang2 wei4 bi4 bu4 fan3 bi4 ye3。
 - ”秦王未必不返璧也。
-- jin1 nai4 he2 shi3 she4 ren2 huai2 er2 tao2 zhi1 ， er2 gui1 zhi2 wu1 qin2 ？
+- jin1 nai4 he2 shi3 she4 ren2 huai2 er2 tao2 zhi1 ， er2 gui1 zhi2 wu1 qin2？
 - 今奈何使舍人懷而逃之，而歸直於秦？
 - shi4 shi2 qin2 yi4 wei4 yu4 yu3 zhao4 jue2 er3。
 - 是時秦意未欲與趙絕耳。

@@ -43,8 +43,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 不養其心，一戰而勝，不可用矣。
 - fan2 jiang1 yu4 zhi4 er2 yan2 ， fan2 shi4 yu4 yu2。
 - 凡將欲智而嚴，凡士欲愚。
-- zhi4 ze2 bu4 ke3 ce4 ， yan2 ze2 bu4 ke3 fan4 ， gu4 shi4 jie1 wei3 ji3 er2 ting1 ming4 ， fu1 an1 de2 bu4 yu2 ？ fu1 wei2 shi4 yu2 ， er2 hou4 ke3 yu3 zhi1 jie1 si3。
-- 智則不可測，嚴則不可犯，故士皆委己而聽命，夫安得不愚？夫惟士愚，而後可與之皆死。
+- zhi4 ze2 bu4 ke3 ce4 ， yan2 ze2 bu4 ke3 fan4 ， gu4 shi4 jie1 wei3 ji3 er2 ting1 ming4 ， fu1 an1 de2 bu4 yu2？
+- 智則不可測，嚴則不可犯，故士皆委己而聽命，夫安得不愚？
+- fu1 wei2 shi4 yu2 ， er2 hou4 ke3 yu3 zhi1 jie1 si3。
+- 夫惟士愚，而後可與之皆死。
 - fan2 bing1 zhi1 dong4 ， zhi1 di2 zhi1 zhu3 ， zhi1 di2 zhi1 jiang1 ， er2 hou4 ke3 yi3 dong4 wu1 xian3。
 - 凡兵之動，知敵之主，知敵之將，而後可以動於險。
 - deng4 ai4 zhui4 bing1 wu1 shu3 zhong1 ， fei1 liu2 shan4 zhi1 yong1 ， ze2 bai3 wan4 zhi1 shi1 ke3 yi3 zuo4 fu4 ， bi3 gu4 you3 suo3 wu3 er2 dong4 ye3。
@@ -65,8 +67,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 兵有長短，敵我一也。
 - gan3 wen4 ： “ wu2 zhi1 suo3 chang2 ， wu2 chu1 er2 yong4 zhi1 ， bi3 jiang1 bu4 yu3 wu2 xiao4；
 - 敢問：“吾之所長，吾出而用之，彼將不與吾校；
-- wu2 zhi1 suo3 duan3 ， wu2 bi4 er2 zhi4 zhi1 ， bi3 jiang1 qiang2 yu3 wu2 jiao3 ， nai4 he2 ？ ” yue1 ： “ wu2 zhi1 suo3 duan3 ， wu2 kang4 er2 bao4 zhi1 ， shi3 zhi1 yi2 er2 que4；
-- 吾之所短，吾蔽而置之，彼將強與吾角，奈何？”曰：“吾之所短，吾抗而暴之，使之疑而卻；
+- wu2 zhi1 suo3 duan3 ， wu2 bi4 er2 zhi4 zhi1 ， bi3 jiang1 qiang2 yu3 wu2 jiao3 ， nai4 he2？
+- 吾之所短，吾蔽而置之，彼將強與吾角，奈何？
+- ” yue1 ： “ wu2 zhi1 suo3 duan3 ， wu2 kang4 er2 bao4 zhi1 ， shi3 zhi1 yi2 er2 que4；
+- ”曰：“吾之所短，吾抗而暴之，使之疑而卻；
 - wu2 zhi1 suo3 chang2 ， wu2 yin1 er2 yang3 zhi1 ， shi3 zhi1 xia2 er2 duo4 qi2 zhong1。
 - 吾之所長，吾陰而養之，使之狎而墮其中。
 - ci3 yong4 chang2 duan3 zhi1 shu4 ye3。

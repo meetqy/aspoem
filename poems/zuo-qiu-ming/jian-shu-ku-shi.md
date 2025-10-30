@@ -27,12 +27,16 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - ”穆公訪諸蹇叔。
 - jian3 shu1 yue1 ： “ lao2 shi1 yi3 xi2 yuan3 ， fei1 suo3 wen2 ye3。
 - 蹇叔曰：“勞師以襲遠，非所聞也。
-- shi1 lao2 li4 jie2 ， yuan3 zhu3 bei4 zhi1 ， wu2 nai3 bu4 ke3 hu1 ？ shi1 zhi1 suo3 wei2 ， zheng4 bi4 zhi1 zhi1。
-- 師勞力竭，遠主備之，無乃不可乎？師之所爲，鄭必知之。
+- shi1 lao2 li4 jie2 ， yuan3 zhu3 bei4 zhi1 ， wu2 nai3 bu4 ke3 hu1？
+- 師勞力竭，遠主備之，無乃不可乎？
+- shi1 zhi1 suo3 wei2 ， zheng4 bi4 zhi1 zhi1。
+- 師之所爲，鄭必知之。
 - qin2 er2 wu2 suo3 ， bi4 you3 bei4 xin1。
 - 勤而無所，必有悖心。
-- qie3 xing2 qian1 li3 ， qi2 shui2 bu4 zhi1 ？ ” gong1 ci2 yan1。
-- 且行千里，其誰不知？”公辭焉。
+- qie3 xing2 qian1 li3 ， qi2 shui2 bu4 zhi1？
+- 且行千里，其誰不知？
+- ” gong1 ci2 yan1。
+- ”公辭焉。
 - zhao4 meng4 ming2 、   xi1 qi3 、 bai2 yi3 shi3 chu1 shi1 wu1 dong1 men2 zhi1 wai4。
 - 召孟明、 西乞、白乙使出師於東門之外。
 - jian3 shu1 ku1 zhi1 yue1 ： “ meng4 zi3！
@@ -50,7 +54,9 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - qi2 nan2 ling2 ， xia4 hou4 gao1 zhi1 mu4 di4；
 - 其南陵，夏後皋之墓地；
 - qi2 bei3 ling2 ， wen2 wang2 zhi1 suo3 pi4 feng1 yu3 ye3 ， bi4 si3 shi4 jian4 ， yu2 shou1 er3 gu3 yan1 ? qin2 shi1 sui4 dong1。
-- 其北陵，文王之所闢風雨也，必死是間，餘收爾骨焉？秦師遂東。
+- 其北陵，文王之所闢風雨也，必死是間，餘收爾骨焉？
+- 
+- 秦師遂東。
 
 ## 注释
 

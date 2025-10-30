@@ -27,8 +27,10 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 往往鬼哭，天陰則聞。
 - ” shang1 xin1 zai1！
 - ”傷心哉！
-- qin2 yu2 han4 yu2 ？ jiang1 jin4 dai4 yu2 ？
-- 秦歟漢歟？將近代歟？
+- qin2 yu2 han4 yu2？
+- 秦歟漢歟？
+- jiang1 jin4 dai4 yu2？
+- 將近代歟？
 - wu2 wen2 fu1 qi2 wei4 yao2 shu4 ， jing1 han2 zhao4 mu4。
 - 吾聞夫齊魏徭戍，荊韓召募。
 - wan4 li3 ben1 zou3 ， lian2 nian2 bao4 lu4。
@@ -37,8 +39,10 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 沙草晨牧，河冰夜渡。
 - di4 kuo4 tian1 chang2 ， bu4 zhi1 gui1 lu4。
 - 地闊天長，不知歸路。
-- ji4 shen1 feng1 ren4 ， bi4 yi4 shui2 shuo4 ？ qin2 han4 er2 huan2 ， duo1 shi4 si4 yi2 ， zhong1 zhou1 hao4 yi4 ， wu2 shi4 wu2 zhi1。
-- 寄身鋒刃，腷臆誰愬？秦漢而還，多事四夷，中州耗斁，無世無之。
+- ji4 shen1 feng1 ren4 ， bi4 yi4 shui2 shuo4？
+- 寄身鋒刃，腷臆誰愬？
+- qin2 han4 er2 huan2 ， duo1 shi4 si4 yi2 ， zhong1 zhou1 hao4 yi4 ， wu2 shi4 wu2 zhi1。
+- 秦漢而還，多事四夷，中州耗斁，無世無之。
 - gu3 cheng1 rong2 xia4 ， bu2 kang4 wang2 shi1。
 - 古稱戎夏，不抗王師。
 - wen2 jiao4 shi1 xuan1 ， wu3 chen2 yong4 qi2。
@@ -111,14 +115,22 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 荼毒生民，萬里朱殷。
 - han4 ji1 xiong1 nu2 ， sui1 de2 yin1 shan1 ， zhen3 hai2 bian4 ye3 ， gong1 bu4 bu3 huan4。
 - 漢擊匈奴，雖得陰山，枕骸徧野，功不補患。
-- cang1 cang1 zheng1 min2 ， shui2 wu2 fu4 mu3 ？ ti2 xie2 peng3 fu4 ， wei4 qi2 bu2 shou4。
-- 蒼蒼蒸民，誰無父母？提攜捧負，畏其不壽。
-- shui2 wu2 xiong1 di4 ？ ru2 zu2 ru2 shou3。
-- 誰無兄弟？如足如手。
-- shui2 wu2 fu1 fu4 ？ ru2 bin1 ru2 you3。
-- 誰無夫婦？如賓如友。
-- sheng1 ye3 he2 en1 ， sha1 zhi1 he2 jiu4 ？ qi2 cun2 qi2 mei2 ， jia1 mo4 wen2 zhi1。
-- 生也何恩，殺之何咎？其存其沒，家莫聞知。
+- cang1 cang1 zheng1 min2 ， shui2 wu2 fu4 mu3？
+- 蒼蒼蒸民，誰無父母？
+- ti2 xie2 peng3 fu4 ， wei4 qi2 bu2 shou4。
+- 提攜捧負，畏其不壽。
+- shui2 wu2 xiong1 di4？
+- 誰無兄弟？
+- ru2 zu2 ru2 shou3。
+- 如足如手。
+- shui2 wu2 fu1 fu4？
+- 誰無夫婦？
+- ru2 bin1 ru2 you3。
+- 如賓如友。
+- sheng1 ye3 he2 en1 ， sha1 zhi1 he2 jiu4？
+- 生也何恩，殺之何咎？
+- qi2 cun2 qi2 mei2 ， jia1 mo4 wen2 zhi1。
+- 其存其沒，家莫聞知。
 - ren2 huo4 you3 yan2 ， jiang1 xin4 jiang1 yi2。
 - 人或有言，將信將疑。
 - yuan1 yuan1 xin1 mu4 ， wu4 mei4 jian4 zhi1。
@@ -133,10 +145,14 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 必有凶年，人其流離。
 - wu1 hu1 yi1 xi1！
 - 嗚呼噫嘻！
-- shi2 ye1 ming4 ye1 ？ cong2 gu3 ru2 si1！
-- 時耶命耶？從古如斯！
-- wei2 zhi1 nai4 he2 ？ shou3 zai4 si4 yi2。
-- 爲之奈何？守在四夷。
+- shi2 ye1 ming4 ye1？
+- 時耶命耶？
+- cong2 gu3 ru2 si1！
+- 從古如斯！
+- wei2 zhi1 nai4 he2？
+- 爲之奈何？
+- shou3 zai4 si4 yi2。
+- 守在四夷。
 
 ## 注释
 

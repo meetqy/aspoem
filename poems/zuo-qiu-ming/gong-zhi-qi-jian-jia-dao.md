@@ -19,12 +19,16 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 虢亡，虞必從之。
 - jin4 bu4 ke3 qi3 ， kou4 bu4 ke3 wan2。
 - 晉不可啓，寇不可翫。
-- yi1 zhi1 wei4 shen4 ， qi2 ke3 zai4 hu1 ？ yan4 suo3 wei4 ‘ fu3 ju1 xiang1 yi1 ， chun2 wang2 chi3 han2 ’ zhe3 ， qi2 yu2 、 guo2 zhi1 wei4 ye3。
-- 一之謂甚，其可再乎？諺所謂‘輔車相依，脣亡齒寒’者，其虞、虢之謂也。
+- yi1 zhi1 wei4 shen4 ， qi2 ke3 zai4 hu1？
+- 一之謂甚，其可再乎？
+- yan4 suo3 wei4 ‘ fu3 ju1 xiang1 yi1 ， chun2 wang2 chi3 han2 ’ zhe3 ， qi2 yu2 、 guo2 zhi1 wei4 ye3。
+- 諺所謂‘輔車相依，脣亡齒寒’者，其虞、虢之謂也。
 - ”
 - ”
-- gong1 yue1 ： “ jin4 ， wu2 zong1 ye3 ， qi3 hai4 wo3 zai1 ？ ”
-- 公曰：“晉，吾宗也，豈害我哉？”
+- gong1 yue1 ： “ jin4 ， wu2 zong1 ye3 ， qi3 hai4 wo3 zai1？
+- 公曰：“晉，吾宗也，豈害我哉？
+- ”
+- ”
 - dui4 yue1 ： “ da4 bo2 、 yu2 zhong4 ， da4 wang2 zhi1 zhao1 ye3。
 - 對曰：“大伯、虞仲，大王之昭也。
 - da4 bo2 bu4 cong2 ， shi4 yi3 bu2 si4。
@@ -33,8 +37,16 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 虢仲、虢叔，王季之穆也，爲文王卿士，勳在王室，藏於盟府。
 - jiang1 guo2 shi4 mie4 ， he2 ai4 wu1 yu2！
 - 將虢是滅，何愛於虞！
-- qie3 yu2 neng2 qin1 wu1 huan2 、 zhuang1 hu1 ？ qi2 ai4 zhi1 ye3 ， huan2 、 zhuang1 zhi1 zu2 he2 zui4 ？ er2 yi3 wei2 lu4 ， bu4 wei2 bi1 hu1 ？ qin1 yi3 chong3 bi1 ， you2 shang4 hai4 zhi1 ， kuang4 yi3 guo2 hu1 ？ ”
-- 且虞能親於桓、莊乎？其愛之也，桓、莊之族何罪？而以爲戮，不唯逼乎？親以寵逼，猶尚害之，況以國乎？”
+- qie3 yu2 neng2 qin1 wu1 huan2 、 zhuang1 hu1？
+- 且虞能親於桓、莊乎？
+- qi2 ai4 zhi1 ye3 ， huan2 、 zhuang1 zhi1 zu2 he2 zui4？
+- 其愛之也，桓、莊之族何罪？
+- er2 yi3 wei2 lu4 ， bu4 wei2 bi1 hu1？
+- 而以爲戮，不唯逼乎？
+- qin1 yi3 chong3 bi1 ， you2 shang4 hai4 zhi1 ， kuang4 yi3 guo2 hu1？
+- 親以寵逼，猶尚害之，況以國乎？
+- ”
+- ”
 - gong1 yue1 ： “ wu2 xiang3 si4 feng1 jie2 ， shen2 bi4 ju4 wo3。
 - 公曰：“吾享祀豐潔，神必據我。
 - ”
@@ -51,8 +63,10 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - ’如是，則非德，民不和，神不享矣。
 - shen2 suo3 feng2 yi1 ， jiang1 zai4 de2 yi3。
 - 神所馮依，將在德矣。
-- ruo4 jin4 qu3 yu2 ， er2 ming2 de2 yi3 jian4 xin1 xiang1 ， shen2 qi2 tu3 zhi1 hu1 ？ ”
-- 若晉取虞，而明德以薦馨香，神其吐之乎？”
+- ruo4 jin4 qu3 yu2 ， er2 ming2 de2 yi3 jian4 xin1 xiang1 ， shen2 qi2 tu3 zhi1 hu1？
+- 若晉取虞，而明德以薦馨香，神其吐之乎？
+- ”
+- ”
 - fu2 ting1 ， xu1 jin4 shi3。
 - 弗聽，許晉使。
 - gong1 zhi1 qi2 yi3 qi2 zu2 xing2 ， yue1 ： “ yu2 bu2 la4 yi3。
@@ -61,14 +75,18 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 在此行也，晉不更舉矣。
 - ”
 - ”
-- ba1 yue4 jia3 wu3 ， jin4 hou2 wei2 shang4 yang2 ， wen4 wu1 bu3 yan3 yue1 ： “ wu2 qi2 ji4 hu1 ？ ”
-- 八月甲午，晉侯圍上陽，問於卜偃曰：“吾其濟乎？”
+- ba1 yue4 jia3 wu3 ， jin4 hou2 wei2 shang4 yang2 ， wen4 wu1 bu3 yan3 yue1 ： “ wu2 qi2 ji4 hu1？
+- 八月甲午，晉侯圍上陽，問於卜偃曰：“吾其濟乎？
+- ”
+- ”
 - dui4 yue1 ： “ ke4 zhi1。
 - 對曰：“克之。
 - ”
 - ”
-- gong1 yue1 ： “ he2 shi2 ？ ”
-- 公曰：“何時？”
+- gong1 yue1 ： “ he2 shi2？
+- 公曰：“何時？
+- ”
+- ”
 - dui4 yue1 ： “ tong2 yao2 yue1 ： ‘ bing3 zhi1 chen2 ， long2 wei3 fu2 chen2 ， jun1 fu2 zhen4 zhen4 ， qu3 guo2 zhi1 qi2。
 - 對曰：“童謠曰：‘丙之晨，龍尾伏辰，均服振振，取虢之旂。
 - chun2 zhi1 bi4 bi4 ， tian1 ce4 dun4 dun4 ， huo3 zhong1 cheng2 jun1 ， guo2 gong1 qi2 ben1。

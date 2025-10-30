@@ -55,14 +55,20 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - ”子魚曰：“君未知戰。
 - qing2 di2 zhi1 ren2 ， ai4 er2 bu2 lie4 ， tian1 zan4 wo3 ye3。
 - 勍敵之人，隘而不列，天讚我也。
-- zu3 er2 gu3 zhi1 ， bu2 yi4 ke3 hu1 ？ you2 you3 ju4 yan1！
-- 阻而鼓之，不亦可乎？猶有懼焉！
+- zu3 er2 gu3 zhi1 ， bu2 yi4 ke3 hu1？
+- 阻而鼓之，不亦可乎？
+- you2 you3 ju4 yan1！
+- 猶有懼焉！
 - qie3 jin1 zhi1 qing2 zhe3 ， jie1 wo3 di2 ye3。
 - 且今之勍者，皆我敵也。
-- sui1 ji2 hu2 gou3 ， huo4 ze2 qu3 zhi1 ， he2 you3 wu1 er4 mao2 ？ ming2 chi3 jiao4 zhan4 ， qiu2 sha1 di2 ye3。
-- 雖及胡耇，獲則取之，何有於二毛？明恥教戰，求殺敵也。
-- shang1 wei4 ji2 si3 ， ru2 he2 wu4 zhong4 ？ ruo4 ai4 zhong4 shang1 ， ze2 ru2 wu4 shang1；
-- 傷未及死，如何勿重？若愛重傷，則如勿傷；
+- sui1 ji2 hu2 gou3 ， huo4 ze2 qu3 zhi1 ， he2 you3 wu1 er4 mao2？
+- 雖及胡耇，獲則取之，何有於二毛？
+- ming2 chi3 jiao4 zhan4 ， qiu2 sha1 di2 ye3。
+- 明恥教戰，求殺敵也。
+- shang1 wei4 ji2 si3 ， ru2 he2 wu4 zhong4？
+- 傷未及死，如何勿重？
+- ruo4 ai4 zhong4 shang1 ， ze2 ru2 wu4 shang1；
+- 若愛重傷，則如勿傷；
 - ai4 qi2 er4 mao2 ， ze2 ru2 fu2 yan1。
 - 愛其二毛，則如服焉。
 - san1 jun1 yi3 li4 yong4 ye3 ， jin1 gu3 yi3 sheng1 qi4 ye3。

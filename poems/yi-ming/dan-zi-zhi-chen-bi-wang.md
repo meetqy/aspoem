@@ -25,8 +25,10 @@ tags: ["卷三・周文","古文观止","蒙学"]
 - 及陳，陳靈公與孔寧、儀行父南冠以如夏氏，留賓不見。
 - dan1 zi3 gui1 ， gao4 wang2 yue1 ： “ chen2 hou2 bu4 you3 da4 jiu4 ， guo2 bi4 wang2。
 - 單子歸，告王曰：“陳侯不有大咎，國必亡。
-- ” wang2 yue1 ： “ he2 gu4 ？ ” dui4 yue1 ： “ fu1 chen2 jiao3 jian4 er2 yu3 bi4 ， tian1 gen1 jian4 er2 shui3 he2 ， ben3 jian4 er2 cao3 mu4 jie2 jie3 ， si4 jian4 er2 yun3 shuang1 ， huo3 jian4 er2 qing1 feng1 jie4 han2。
-- ”王曰：“何故？”對曰：“夫辰角見而雨畢，天根見而水涸，本見而草木節解，駟見而隕霜，火見而清風戒寒。
+- ” wang2 yue1 ： “ he2 gu4？
+- ”王曰：“何故？
+- ” dui4 yue1 ： “ fu1 chen2 jiao3 jian4 er2 yu3 bi4 ， tian1 gen1 jian4 er2 shui3 he2 ， ben3 jian4 er2 cao3 mu4 jie2 jie3 ， si4 jian4 er2 yun3 shuang1 ， huo3 jian4 er2 qing1 feng1 jie4 han2。
+- ”對曰：“夫辰角見而雨畢，天根見而水涸，本見而草木節解，駟見而隕霜，火見而清風戒寒。
 - gu4 《 xian1 wang2 zhi1 jiao4 》 yue1 ： ‘ yu3 bi4 er2 chu2 dao4 ， shui3 he2 er2 cheng2 liang2 ， cao3 mu4 jie2 jie3 er2 bei4 cang2 ， yun3 shuang1 er2 dong1 qiu2 ju4 ， qing1 feng1 zhi4 er2 xiu1 cheng2 guo1 gong1 shi4。
 - 故《先王之教》曰：‘雨畢而除道，水涸而成樑，草木節解而備藏，隕霜而冬裘具，清風至而修城郭宮室。
 - ’ gu4 《 xia4 ling4 》 yue1 ： ‘ jiu3 yue4 chu2 dao4 ， shi2 yue4 cheng2 liang2。
@@ -63,14 +65,22 @@ tags: ["卷三・周文","古文观止","蒙学"]
 - ’今雖朝也不才，有分族於周，承王命以爲過賓於陳，而司事莫至，是蔑先王之官也。
 - “ 《 xian1 wang2 zhi1 ling4 》 you3 zhi1 yue1 ： ‘ tian1 dao4 shang3 shan4 er2 fa2 yin2 ， gu4 fan2 wo3 zao4 guo2 ， wu2 cong2 fei1 yi2 ， wu2 ji2 tao1 yin2 ， ge4 shou3 er3 dian3 ， yi3 cheng2 tian1 xiu1。
 - “《先王之令》有之曰：‘天道賞善而罰淫，故凡我造國，無從非彝，無即慆淫，各守爾典，以承天休。
-- ’ jin1 chen2 hou2 bu2 nian4 yin4 xu4 zhi1 chang2 ， qi4 qi2 kang4 li4 fei1 pin2 ， er2 shuai4 qi2 qing1 zuo3 yi3 yin2 wu1 xia4 shi4 ， bu2 yi4 pin2 xing4 yi3 hu1 ？ chen2 ， wo3 da4 ji1 zhi1 hou4 ye3。
-- ’今陳侯不念胤續之常，棄其伉儷妃嬪，而帥其卿佐以淫於夏氏，不亦嬪姓矣乎？陳，我大姬之後也。
-- qi4 gun3 mian3 er2 nan2 guan1 yi3 chu1 ， bu2 yi4 jian3 yi2 hu1 ？ shi4 you4 fan4 xian1 wang2 zhi1 ling4 ye3。
-- 棄袞冕而南冠以出，不亦簡彝乎？是又犯先王之令也。
+- ’ jin1 chen2 hou2 bu2 nian4 yin4 xu4 zhi1 chang2 ， qi4 qi2 kang4 li4 fei1 pin2 ， er2 shuai4 qi2 qing1 zuo3 yi3 yin2 wu1 xia4 shi4 ， bu2 yi4 pin2 xing4 yi3 hu1？
+- ’今陳侯不念胤續之常，棄其伉儷妃嬪，而帥其卿佐以淫於夏氏，不亦嬪姓矣乎？
+- chen2 ， wo3 da4 ji1 zhi1 hou4 ye3。
+- 陳，我大姬之後也。
+- qi4 gun3 mian3 er2 nan2 guan1 yi3 chu1 ， bu2 yi4 jian3 yi2 hu1？
+- 棄袞冕而南冠以出，不亦簡彝乎？
+- shi4 you4 fan4 xian1 wang2 zhi1 ling4 ye3。
+- 是又犯先王之令也。
 - “ xi1 xian1 wang2 zhi1 jiao4 ， mao4 shuai4 qi2 de2 ye3 ， you2 kong3 yun3 yue4。
 - “昔先王之教，懋帥其德也，猶恐殞越。
-- ruo4 fei4 qi2 jiao4 er2 qi4 qi2 zhi4 ， mie4 qi2 guan1 er2 fan4 qi2 ling4 ， jiang1 he2 yi3 shou3 guo2 ？ ju1 da4 guo2 zhi1 　 ， er2 wu2 ci3 si4 zhe3 ， qi2 neng2 jiu3 hu1 ？ ”
-- 若廢其教而棄其制，蔑其官而犯其令，將何以守國？居大國之　，而無此四者，其能久乎？”
+- ruo4 fei4 qi2 jiao4 er2 qi4 qi2 zhi4 ， mie4 qi2 guan1 er2 fan4 qi2 ling4 ， jiang1 he2 yi3 shou3 guo2？
+- 若廢其教而棄其制，蔑其官而犯其令，將何以守國？
+- ju1 da4 guo2 zhi1 　 ， er2 wu2 ci3 si4 zhe3 ， qi2 neng2 jiu3 hu1？
+- 居大國之 ，而無此四者，其能久乎？
+- ”
+- ”
 - liu4 nian2 ， dan1 zi3 ru2 chu3。
 - 六年，單子如楚。
 - ba1 nian2 ， chen2 hou2 sha1 wu1 xia4 shi4。

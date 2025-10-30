@@ -19,8 +19,10 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 公使讓之，且辭焉，曰：“蒲城之役，君命一宿，女即至。
 - qi2 hou4 yu2 cong2 di2 jun1 yi3 tian2 wei4 bin1 ， nü3 wei2 hui4 gong1 lai2 qiu2 sha1 yu2 ， ming4 nü3 san1 su4 ， nü3 zhong1 su4 zhi4。
 - 其後餘從狄君以田渭濱，女爲惠公來求殺餘，命女三宿，女中宿至。
-- sui1 you3 jun1 ming4 he2 qi2 su4 ye3 ？ fu1 qu1 you2 zai4 ， nü3 qi2 xing2 hu1！
-- 雖有君命何其速也？夫袪猶在，女其行乎！
+- sui1 you3 jun1 ming4 he2 qi2 su4 ye3？
+- 雖有君命何其速也？
+- fu1 qu1 you2 zai4 ， nü3 qi2 xing2 hu1！
+- 夫袪猶在，女其行乎！
 - ” dui4 yue1 ： “ chen2 wei4 jun1 zhi1 ru4 ye3 ， qi2 zhi1 zhi1 yi3。
 - ”對曰：“臣謂君之入也，其知之矣。
 - ruo4 you2 wei4 ye3 ， you4 jiang1 ji2 nan2。
@@ -29,12 +31,18 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 君命無二，古之制也。
 - chu2 jun1 zhi1 e4 ， wei2 li4 shi4 shi4。
 - 除君之惡，唯力是視。
-- pu2 ren2 、 di2 ren2 、 yu2 he2 you3 yan1 ？ ji2 wei4 ， qi2 wu2 pu2 、 di2 hu1！
-- 蒲人、狄人、餘何有焉？即位，其無蒲、狄乎！
+- pu2 ren2 、 di2 ren2 、 yu2 he2 you3 yan1？
+- 蒲人、狄人、餘何有焉？
+- ji2 wei4 ， qi2 wu2 pu2 、 di2 hu1！
+- 即位，其無蒲、狄乎！
 - qi2 huan2 gong1 zhi4 she4 gou1 ， er2 shi3 guan3 zhong4 xiang1。
 - 齊桓公置射鉤，而使管仲相。
-- jun1 ruo4 yi4 zhi1 ， he2 ru3 ming4 yan1 ？ xing2 zhe3 shen4 zhong4 ， qi3 wei2 xing2 chen2 ？ ” gong1 jian4 zhi1 ， yi3 nan2 gao4。
-- 君若易之，何辱命焉？行者甚衆，豈唯刑臣？”公見之，以難告。
+- jun1 ruo4 yi4 zhi1 ， he2 ru3 ming4 yan1？
+- 君若易之，何辱命焉？
+- xing2 zhe3 shen4 zhong4 ， qi3 wei2 xing2 chen2？
+- 行者甚衆，豈唯刑臣？
+- ” gong1 jian4 zhi1 ， yi3 nan2 gao4。
+- ”公見之，以難告。
 - jin4 hou2 qian2 hui4 qin2 bo2 wu1 wang2 cheng2。
 - 晉侯潛會秦伯於王城。
 - ji3 chou3 hui4 ， gong1 gong1 huo3。

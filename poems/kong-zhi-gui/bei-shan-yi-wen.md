@@ -55,8 +55,10 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 敲撲喧囂犯其慮，牒訴倥傯裝其懷。
 - qin2 ge1 ji4 duan4 ， jiu3 fu4 wu2 xu4 ， chang2 chou2 mou2 wu1 jie2 ke4 ， mei3 fen1 lun2 wu1 zhe2 yu4 ， long2 zhang1 zhao4 wu1 wang3 tu2 ， jia4 zhuo2 lu3 wu1 qian2 lu4 ， xi1 zong1 san1 fu3 hao2 ， chi2 sheng1 jiu3 zhou1 mu4。
 - 琴歌既斷，酒賦無續，常綢繆於結課，每紛綸於折獄，籠張趙於往圖，架卓魯於前籙，希蹤三輔豪，馳聲九州牧。
-- shi3 wo3 gao1 xia2 gu1 ying4 ， ming2 yue4 du2 ju3 ， qing1 song1 luo4 yin1 ， bai2 yun2 shui2 lü3 ？ jian4 hu4 cui1 jue2 wu2 yu3 gui1 ， shi2 jing4 huang1 liang2 tu2 yan2 zhu4。
-- 使我高霞孤映，明月獨舉，青松落陰，白雲誰侶？磵戶摧絕無與歸，石徑荒涼徒延佇。
+- shi3 wo3 gao1 xia2 gu1 ying4 ， ming2 yue4 du2 ju3 ， qing1 song1 luo4 yin1 ， bai2 yun2 shui2 lü3？
+- 使我高霞孤映，明月獨舉，青松落陰，白雲誰侶？
+- jian4 hu4 cui1 jue2 wu2 yu3 gui1 ， shi2 jing4 huang1 liang2 tu2 yan2 zhu4。
+- 磵戶摧絕無與歸，石徑荒涼徒延佇。
 - zhi4 wu1 huan2 biao1 ru4 mu4 ， xie3 wu4 chu1 ying2 ， hui4 zhang4 kong1 xi1 ye4 he4 yuan4 ， shan1 ren2 qu4 xi1 xiao3 yuan2 jing1。
 - 至於還飆入幕，寫霧出楹，蕙帳空兮夜鶴怨，山人去兮曉猨驚。
 - xi1 wen2 tou2 zan1 yi4 hai3 an4 ， jin1 jian4 jie3 lan2 fu4 chen2 ying1。

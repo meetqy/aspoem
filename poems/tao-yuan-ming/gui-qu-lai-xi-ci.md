@@ -25,8 +25,10 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 故便求之。
 - ji2 shao3 ri4 ， juan4 ran2 you3 gui1 yu2 zhi1 qing2。
 - 及少日，眷然有歸歟之情。
-- he2 ze2 ？ zhi4 xing4 zi4 ran2 ， fei1 jiao3 li4 suo3 de2。
-- 何則？質性自然，非矯厲所得。
+- he2 ze2？
+- 何則？
+- zhi4 xing4 zi4 ran2 ， fei1 jiao3 li4 suo3 de2。
+- 質性自然，非矯厲所得。
 - ji1 dong4 sui1 qie4 ， wei2 ji3 jiao1 bing4。
 - 飢凍雖切，違己交病。
 - chang2 cong2 ren2 shi4 ， jie1 kou3 fu4 zi4 yi4。
@@ -43,8 +45,12 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 因事順心，命篇曰《歸去來兮》。
 - yi3 si4 sui4 shi2 yi1 yue4 ye3。
 - 乙巳歲十一月也。
-- gui1 qu4 lai2 xi1 ， tian2 yuan2 jiang1 wu2 hu2 bu4 gui1 ？ ji4 zi4 yi3 xin1 wei2 xing2 yi4 ， xi1 chou2 chang4 er2 du2 bei1 ？ wu4 yi3 wang3 zhi1 bu2 jian4 ， zhi1 lai2 zhe3 zhi1 ke3 zhui1。
-- 歸去來兮，田園將蕪胡不歸？既自以心爲形役，奚惆悵而獨悲？悟已往之不諫，知來者之可追。
+- gui1 qu4 lai2 xi1 ， tian2 yuan2 jiang1 wu2 hu2 bu4 gui1？
+- 歸去來兮，田園將蕪胡不歸？
+- ji4 zi4 yi3 xin1 wei2 xing2 yi4 ， xi1 chou2 chang4 er2 du2 bei1？
+- 既自以心爲形役，奚惆悵而獨悲？
+- wu4 yi3 wang3 zhi1 bu2 jian4 ， zhi1 lai2 zhe3 zhi1 ke3 zhui1。
+- 悟已往之不諫，知來者之可追。
 - shi2 mi2 tu2 qi2 wei4 yuan3 ， jue2 jin1 shi4 er2 zuo2 fei1。
 - 實迷途其未遠，覺今是而昨非。
 - zhou1 yao2 yao2 yi3 qing1 yang2 ， feng1 piao1 piao1 er2 chui1 yi1。
@@ -73,8 +79,10 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 景翳翳以將入，撫孤鬆而盤桓。
 - gui1 qu4 lai2 xi1 ， qing3 xi1 jiao1 yi3 jue2 you2。
 - 歸去來兮，請息交以絕遊。
-- shi4 yu3 wo3 er2 xiang1 wei2 ， fu4 jia4 yan2 xi1 yan1 qiu2 ？ yue4 qin1 qi1 zhi1 qing2 hua4 ， le4 qin2 shu1 yi3 xiao1 you1。
-- 世與我而相違，復駕言兮焉求？悅親戚之情話，樂琴書以消憂。
+- shi4 yu3 wo3 er2 xiang1 wei2 ， fu4 jia4 yan2 xi1 yan1 qiu2？
+- 世與我而相違，復駕言兮焉求？
+- yue4 qin1 qi1 zhi1 qing2 hua4 ， le4 qin2 shu1 yi3 xiao1 you1。
+- 悅親戚之情話，樂琴書以消憂。
 - nong2 ren2 gao4 yu2 yi3 chun1 ji2 ， jiang1 you3 shi4 wu1 xi1 chou2。
 - 農人告餘以春及，將有事於西疇。
 - huo4 ming4 jin1 ju1 ， huo4 zhao4 gu1 zhou1。
@@ -87,8 +95,14 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 善萬物之得時，感吾生之行休。
 - yi3 yi3 hu1！
 - 已矣乎！
-- yu4 xing2 yu3 nei4 fu4 ji1 shi2 ？ he2 bu4 wei3 xin1 ren4 qu4 liu2 ？ hu2 wei2 hu1 huang2 huang2 yu4 he2 zhi1 ？ fu4 gui4 fei1 wu2 yuan4 ， di4 xiang1 bu4 ke3 qi1。
-- 寓形宇內復幾時？曷不委心任去留？胡爲乎遑遑欲何之？富貴非吾願，帝鄉不可期。
+- yu4 xing2 yu3 nei4 fu4 ji1 shi2？
+- 寓形宇內復幾時？
+- he2 bu4 wei3 xin1 ren4 qu4 liu2？
+- 曷不委心任去留？
+- hu2 wei2 hu1 huang2 huang2 yu4 he2 zhi1？
+- 胡爲乎遑遑欲何之？
+- fu4 gui4 fei1 wu2 yuan4 ， di4 xiang1 bu4 ke3 qi1。
+- 富貴非吾願，帝鄉不可期。
 - huai2 liang2 chen2 yi3 gu1 wang3 ， huo4 zhi2 zhang4 er2 yun2 zi3。
 - 懷良辰以孤往，或植杖而耘耔。
 - deng1 dong1 gao1 yi3 shu1 xiao4 ， lin2 qing1 liu2 er2 fu4 shi1。

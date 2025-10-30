@@ -27,7 +27,7 @@ tags: []
 - 慊慊下白屋，吐握不可失。
 - zhong4 bin1 bao3 man3 gui1 ， zhu3 ren2 ku3 bu4 xi1。
 - 众宾饱满归，主人苦不悉。
-- bi3 yi4 xiang2 yun2 han4 ， luo2 zhe3 an1 suo3 ji1 ？
+- bi3 yi4 xiang2 yun2 han4 ， luo2 zhe3 an1 suo3 ji1？
 - 比翼翔云汉，罗者安所羁？
 - chong1 jing4 de2 zi4 ran2 ， rong2 hua2 he2 zu2 wei4！
 - 冲静得自然，荣华何足为！

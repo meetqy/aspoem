@@ -37,14 +37,20 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 文物以紀之，聲明以發之，以臨照百官，百官於是乎戒懼，而不敢易紀律。
 - jin1 mie4 de2 li4 wei2 ， er2 zhi4 qi2 lu4 qi4 wu1 da4 miao4 ， yi3 ming2 shi4 bai3 guan1。
 - 今滅德立違，而置其賂器於大廟，以明示百官。
-- bai3 guan1 xiang4 zhi1 ， qi2 you4 he2 zhu1 yan1 ？ guo2 jia1 zhi1 bai4 ， you2 guan1 xie2 ye3；
-- 百官象之，其又何誅焉？國家之敗，由官邪也；
+- bai3 guan1 xiang4 zhi1 ， qi2 you4 he2 zhu1 yan1？
+- 百官象之，其又何誅焉？
+- guo2 jia1 zhi1 bai4 ， you2 guan1 xie2 ye3；
+- 國家之敗，由官邪也；
 - guan1 zhi1 shi1 de2 ， chong3 lu4 zhang1 ye3。
 - 官之失德，寵賂章也。
 - gao4 ding3 zai4 miao4 ， zhang1 shu2 shen4 yan1 ? wu3 wang2 ke4 shang1 ， qian1 jiu3 ding3 wu1 luo4 yi4 ， yi4 shi4 you2 huo4 fei1 zhi1 ， er2 kuang4 jiang1 zhao1 wei2 luan4 zhi1 lu4 qi4 wu1 da4 miao4。
-- 郜鼎在廟，章孰甚焉？武王克商，遷九鼎於雒邑，義士猶或非之，而況將昭違亂之賂器於大廟。
+- 郜鼎在廟，章孰甚焉？
 - qi2 ruo4 zhi1 he2 ? ” gong1 bu4 ting1。
-- 其若之何？”公不聽。
+- 武王克商，遷九鼎於雒邑，義士猶或非之，而況將昭違亂之賂器於大廟。
+- 
+- 其若之何？
+- 
+- ”公不聽。
 
 ## 注释
 

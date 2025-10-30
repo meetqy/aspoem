@@ -11,7 +11,7 @@ tags: []
 
 ## 正文
 
-- lin2 bu4 rong2 xi1 ming2 tiao2 ， yu2 he2 liu2 xi1 zhong1 zhou1 ？
+- lin2 bu4 rong2 xi1 ming2 tiao2 ， yu2 he2 liu2 xi1 zhong1 zhou1？
 - 林不容兮鸣蜩，余何留兮中州？
 - tao2 jia1 yue4 xi1 zong3 jia4 ， qian1 yu4 ying1 xi1 zi4 xiu1。
 - 陶嘉月兮总驾，搴玉英兮自修。

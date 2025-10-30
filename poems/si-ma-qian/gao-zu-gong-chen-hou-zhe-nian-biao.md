@@ -25,8 +25,10 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 《書》曰“協和萬國”，遷於夏、商，或數千歲。
 - gai4 zhou1 feng1 ba1 bai3 ， you1 、 li4 zhi1 hou4 ， jian4 wu1 《 chun1 qiu1 》。
 - 蓋周封八百，幽、厲之後，見於《春秋》。
-- 《 shang4 shu1 》 you3 tang2 yu2 zhi1 hou2 bo2 ， li4 san1 dai4 qian1 you3 yu2 zai4 ， zi4 quan2 yi3 fan1 wei4 tian1 zi3 ， qi3 fei1 du3 wu1 ren2 yi4 、 feng4 shang4 fa3 zai1 ？ han4 xing1 ， gong1 chen2 shou4 feng1 zhe3 bai3 you3 yu2 ren2。
-- 《尚書》有唐虞之侯伯，歷三代千有餘載，自全以蕃衛天子，豈非篤於仁義、奉上法哉？漢興，功臣受封者百有餘人。
+- 《 shang4 shu1 》 you3 tang2 yu2 zhi1 hou2 bo2 ， li4 san1 dai4 qian1 you3 yu2 zai4 ， zi4 quan2 yi3 fan1 wei4 tian1 zi3 ， qi3 fei1 du3 wu1 ren2 yi4 、 feng4 shang4 fa3 zai1？
+- 《尚書》有唐虞之侯伯，歷三代千有餘載，自全以蕃衛天子，豈非篤於仁義、奉上法哉？
+- han4 xing1 ， gong1 chen2 shou4 feng1 zhe3 bai3 you3 yu2 ren2。
+- 漢興，功臣受封者百有餘人。
 - tian1 xia4 chu1 ding4 ， gu4 dai4 cheng2 ming2 dou1 san4 wang2 ， hu4 kou3 ke3 de2 er2 shu4 zhe3 shi2 er4 san1 ， shi4 yi3 da4 hou2 bu2 guo4 wan4 jia1 ， xiao3 zhe3 wu3 liu4 bai3 hu4。
 - 天下初定，故大城名都散亡，戶口可得而數者十二三，是以大侯不過萬家，小者五六百戶。
 - hou4 shu4 shi4 ， min2 xian2 gui1 xiang1 li3 ， hu4 yi4 xi1 ， xiao1 、 cao2 、 jiang4 、 guan4 zhi1 shu3 huo4 zhi4 si4 wan4 ， xiao3 hou2 zi4 bei4 ， fu4 hou4 ru2 zhi1。
@@ -39,8 +41,12 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 罔亦少密焉，然皆身無兢兢於當世之禁雲。
 - ju1 jin1 zhi1 shi4 ， zhi4 gu3 zhi1 dao4 ， suo3 yi3 zi4 jing4 ye3 ， wei4 bi4 jin4 tong2。
 - 居今之世，志古之道，所以自鏡也，未必盡同。
-- di4 wang2 zhe3 ge4 shu1 li3 er2 yi4 wu4 ， yao4 yi3 cheng2 gong1 wei2 tong3 ji4 ， qi3 ke3 gun3 hu1 ？ guan1 suo3 yi3 de2 zun1 chong3 ji2 suo3 yi3 fei4 ru3 ， yi4 dang1 shi4 de2 shi1 zhi1 lin2 ye3 ， he2 bi4 jiu4 wen2 ？ wu1 shi4 jin3 qi2 zhong1 shi3 ， biao3 jian4 qi2 wen2 ， po1 you3 suo3 bu2 jin4 ben3 mo4 ， zhu4 qi2 ming2 ， yi2 zhe3 que4 zhi1。
-- 帝王者各殊禮而異務，要以成功爲統紀，豈可緄乎？觀所以得尊寵及所以廢辱，亦當世得失之林也，何必舊聞？於是謹其終始，表見其文，頗有所不盡本末，著其明，疑者闕之。
+- di4 wang2 zhe3 ge4 shu1 li3 er2 yi4 wu4 ， yao4 yi3 cheng2 gong1 wei2 tong3 ji4 ， qi3 ke3 gun3 hu1？
+- 帝王者各殊禮而異務，要以成功爲統紀，豈可緄乎？
+- guan1 suo3 yi3 de2 zun1 chong3 ji2 suo3 yi3 fei4 ru3 ， yi4 dang1 shi4 de2 shi1 zhi1 lin2 ye3 ， he2 bi4 jiu4 wen2？
+- 觀所以得尊寵及所以廢辱，亦當世得失之林也，何必舊聞？
+- wu1 shi4 jin3 qi2 zhong1 shi3 ， biao3 jian4 qi2 wen2 ， po1 you3 suo3 bu2 jin4 ben3 mo4 ， zhu4 qi2 ming2 ， yi2 zhe3 que4 zhi1。
+- 於是謹其終始，表見其文，頗有所不盡本末，著其明，疑者闕之。
 - hou4 you3 jun1 zi3 ， yu4 tui1 er2 lie4 zhi1 ， de2 yi3 lan3 yan1。
 - 後有君子，欲推而列之，得以覽焉。
 

@@ -39,8 +39,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 及仇讎已滅，天下已定，一夫夜呼，亂者四應，倉皇東出，未及見賊而士卒離散，君臣相顧，不知所歸。
 - zhi4 wu1 shi4 tian1 duan4 fa4 ， qi4 xia4 zhan1 jin1 ， he2 qi2 shuai1 ye3！
 - 至於誓天斷髮，泣下沾襟，何其衰也！
-- qi3 de2 zhi1 nan2 er2 shi1 zhi1 yi4 yu2 ？ yi4 ben3 qi2 cheng2 bai4 zhi1 ji4 ， er2 jie1 zi4 wu1 ren2 yu2 ？
-- 豈得之難而失之易歟？抑本其成敗之跡，而皆自於人歟？
+- qi3 de2 zhi1 nan2 er2 shi1 zhi1 yi4 yu2？
+- 豈得之難而失之易歟？
+- yi4 ben3 qi2 cheng2 bai4 zhi1 ji4 ， er2 jie1 zi4 wu1 ren2 yu2？
+- 抑本其成敗之跡，而皆自於人歟？
 - 《 shu1 》 yue1 ： “ man3 zhao1 sun3 ， qian1 de2 yi4。
 - 《書》曰：“滿招損，謙得益。
 - ” you1 lao2 ke3 yi3 xing1 guo2 ， yi4 yu4 ke3 yi3 wang2 shen1 ， zi4 ran2 zhi1 li3 ye3。

@@ -11,7 +11,7 @@ tags: []
 
 ## 正文
 
-- huang2 tian1 zhi1 bu4 chun2 ming4 xi1 ， he2 bai3 xing4 zhi1 zhen4 qian1 ？
+- huang2 tian1 zhi1 bu4 chun2 ming4 xi1 ， he2 bai3 xing4 zhi1 zhen4 qian1？
 - 皇天之不纯命兮，何百姓之震愆？
 - min2 li2 san4 er2 xiang1 shi1 xi1 ， fang1 zhong4 chun1 er2 dong1 qian1。
 - 民离散而相失兮，方仲春而东迁。
@@ -19,7 +19,7 @@ tags: []
 - 去故乡而就远兮，遵江夏以流亡。
 - chu1 guo2 men2 er2 zhen3 huai2 xi1 ， jia3 zhi1 chao2 wu2 yi3 xing2。
 - 出国门而轸怀兮，甲之鼂吾以行。
-- fa1 ying3 dou1 er2 qu4 lü2 xi1 ， chao1 huang1 hu1 qi2 yan1 ji2 ？
+- fa1 ying3 dou1 er2 qu4 lü2 xi1 ， chao1 huang1 hu1 qi2 yan1 ji2？
 - 发郢都而去闾兮，怊荒忽其焉极？
 - ji2 qi2 yang2 yi3 rong2 yu3 xi1 ， ai1 jian4 jun1 er2 bu2 zai4 de2。
 - 楫齐扬以容与兮，哀见君而不再得。
@@ -47,9 +47,9 @@ tags: []
 - 登大坟以远望兮，聊以舒吾忧心。
 - ai1 zhou1 tu3 zhi1 ping2 le4 xi1 ， bei1 jiang1 jie4 zhi1 yi2 feng1。
 - 哀州土之平乐兮，悲江介之遗风。
-- dang1 ling2 yang2 zhi1 yan1 zhi4 xi1 ， miao3 nan2 du4 zhi1 yan1 ru2 ？
+- dang1 ling2 yang2 zhi1 yan1 zhi4 xi1 ， miao3 nan2 du4 zhi1 yan1 ru2？
 - 当陵阳之焉至兮，淼南渡之焉如？
-- ceng2 bu4 zhi1 xia4 zhi1 wei4 qiu1 xi1 ， shu2 liang3 dong1 men2 zhi1 ke3 wu2 ？
+- ceng2 bu4 zhi1 xia4 zhi1 wei4 qiu1 xi1 ， shu2 liang3 dong1 men2 zhi1 ke3 wu2？
 - 曾不知夏之为丘兮，孰两东门之可芜？
 - xin1 bu4 yi2 zhi1 chang2 jiu3 xi1 ， you1 yu3 chou2 qi2 xiang1 jie1。
 - 心不怡之长久兮，忧与愁其相接。
@@ -73,11 +73,11 @@ tags: []
 - 众踥蹀而日进兮，美超远而逾迈。
 - luan4 yue1 ：
 - 乱曰：
-- man4 yu2 mu4 yi3 liu2 guan1 xi1 ， ji4 yi4 fan3 zhi1 he2 shi2 ？
+- man4 yu2 mu4 yi3 liu2 guan1 xi1 ， ji4 yi4 fan3 zhi1 he2 shi2？
 - 曼余目以流观兮，冀一反之何时？
 - niao3 fei1 fan3 gu4 xiang1 xi1 ， hu2 si3 bi4 shou3 qiu1。
 - 鸟飞反故乡兮，狐死必首丘。
-- xin4 fei1 wu2 zui4 er2 qi4 zhu2 xi1 ， he2 ri4 ye4 er2 wang4 zhi1 ？
+- xin4 fei1 wu2 zui4 er2 qi4 zhu2 xi1 ， he2 ri4 ye4 er2 wang4 zhi1？
 - 信非吾罪而弃逐兮，何日夜而忘之？
 
 ## 注释

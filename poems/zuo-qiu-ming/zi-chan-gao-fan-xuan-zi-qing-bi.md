@@ -25,14 +25,18 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - 若吾子賴之，則晉國貳。
 - zhu1 hou2 er4 ze2 jin4 guo2 huai4 ， jin4 guo2 er4 ze2 zi3 zhi1 jia1 huai4。
 - 諸侯貳則晉國壞，晉國貳則子之家壞。
-- he2 mei2 mei2 ye3 ？ jiang1 yan1 yong4 hui4 ？
-- 何沒沒也？將焉用賄？
+- he2 mei2 mei2 ye3？
+- 何沒沒也？
+- jiang1 yan1 yong4 hui4？
+- 將焉用賄？
 - fu1 ling4 ming2 ， de2 zhi1 yu2 ye3。
 - 夫令名，德之輿也。
 - de2 ， guo2 jia1 zhi1 ji1 ye3。
 - 德，國家之基也。
-- you3 ji1 wu2 huai4 ， wu2 yi4 shi4 wu4 hu1 ？ you3 de2 ze2 le4 ， le4 ze2 neng2 jiu3。
-- 有基無壞，無亦是務乎？有德則樂，樂則能久。
+- you3 ji1 wu2 huai4 ， wu2 yi4 shi4 wu4 hu1？
+- 有基無壞，無亦是務乎？
+- you3 de2 ze2 le4 ， le4 ze2 neng2 jiu3。
+- 有德則樂，樂則能久。
 - shi1 yun2 ： ‘ le4 zhi1 jun1 zi3 ， bang1 jia1 zhi1 ji1。
 - 詩云：‘樂只君子，邦家之基。
 - ’ you3 ling4 de2 ye3 fu1！
@@ -43,8 +47,10 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - ’有令名也夫！
 - shu4 si1 yi3 ming2 de2 ， ze2 ling4 ming2 zai4 er2 xing2 zhi1 ， shi4 yi3 yuan3 zhi4 er3 an1。
 - 恕思以明德，則令名載而行之，是以遠至邇安。
-- wu2 ning2 shi3 ren2 wei4 zi3 ， zi3 shi2 sheng1 wo3 ， er2 wei4 zi3 jun4 wo3 yi3 sheng1 hu1 ？ xiang4 you3 chi3 yi3 fen2 qi2 shen1 ， hui4 ye3。
-- 毋寧使人謂子，子實生我，而謂子浚我以生乎？象有齒以焚其身，賄也。
+- wu2 ning2 shi3 ren2 wei4 zi3 ， zi3 shi2 sheng1 wo3 ， er2 wei4 zi3 jun4 wo3 yi3 sheng1 hu1？
+- 毋寧使人謂子，子實生我，而謂子浚我以生乎？
+- xiang4 you3 chi3 yi3 fen2 qi2 shen1 ， hui4 ye3。
+- 象有齒以焚其身，賄也。
 - ”
 - ”
 - xuan1 zi3 shuo1 ， nai3 qing1 bi4。

@@ -33,8 +33,10 @@ tags: []
 - 遨游八极，乃到昆仑之山，
 - xi1 wang2 mu3 ce4 ， shen2 xian1 jin1 zhi3 yu4 ting2。
 - 西王母侧，神仙金止玉亭。
-- lai2 zhe3 wei4 shui2 ？ chi4 song1 wang2 qiao2 ， nai3 de2 xuan2 zhi1 men2。
-- 来者为谁？赤松王乔，乃德旋之门。
+- lai2 zhe3 wei4 shui2？
+- 来者为谁？
+- chi4 song1 wang2 qiao2 ， nai3 de2 xuan2 zhi1 men2。
+- 赤松王乔，乃德旋之门。
 - le4 gong4 yin3 shi2 dao4 huang2 hun1。
 - 乐共饮食到黄昏。
 - duo1 jia4 he2 zuo4 ， wan4 sui4 chang2 ， yi2 zi3 sun1。

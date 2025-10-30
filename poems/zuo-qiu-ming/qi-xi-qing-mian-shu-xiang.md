@@ -15,8 +15,12 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - 欒盈出奔楚。
 - xuan1 zi3 sha1 yang2 she2 hu3 ， qiu2 shu1 xiang4。
 - 宣子殺羊舌虎，囚叔向。
-- ren2 wei4 shu1 xiang4 yue1 ： “ zi3 li2 wu1 zui4 ， qi2 wei2 bu4 zhi1 hu1 ？ ” shu1 xiang4 yue1 ： “ yu3 qi2 si3 wang2 ruo4 he2 ？ shi1 yue1 ： ‘ you1 zai1 you2 zai1 ， liao2 yi3 zu2 sui4。
-- 人謂叔向曰：“子離於罪，其爲不知乎？”叔向曰：“與其死亡若何？詩曰：‘優哉遊哉，聊以卒歲。
+- ren2 wei4 shu1 xiang4 yue1 ： “ zi3 li2 wu1 zui4 ， qi2 wei2 bu4 zhi1 hu1？
+- 人謂叔向曰：“子離於罪，其爲不知乎？
+- ” shu1 xiang4 yue1 ： “ yu3 qi2 si3 wang2 ruo4 he2？
+- ”叔向曰：“與其死亡若何？
+- shi1 yue1 ： ‘ you1 zai1 you2 zai1 ， liao2 yi3 zu2 sui4。
+- 詩曰：‘優哉遊哉，聊以卒歲。
 - ’ zhi1 ye3。
 - ’知也。
 - ”
@@ -33,8 +37,14 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - ”室老聞之曰：“樂王鮒言於君無不行，求赦吾子，吾子不許；
 - qi2 dai4 fu0 suo3 bu4 neng2 ye3 ， er2 yue1 bi4 you2 zhi1。
 - 祁大夫所不能也，而曰必由之。
-- he2 ye3 ？ ” shu1 xiang4 yue1 ： “ le4 wang2 fu4 cong2 jun1 zhe3 ye3 ， he2 neng2 xing2 ？ qi2 dai4 fu0 wai4 ju3 bu2 qi4 chou2 ， nei4 ju3 bu4 shi1 qin1 ， qi2 du2 yi2 wo3 hu1 ？ shi1 yue1 ： ‘ you3 jue2 de2 xing2 ， si4 guo2 shun4 zhi1。
-- 何也？”叔向曰：“樂王鮒從君者也，何能行？祁大夫外舉不棄仇，內舉不失親，其獨遺我乎？詩曰：‘有覺德行，四國順之。
+- he2 ye3？
+- 何也？
+- ” shu1 xiang4 yue1 ： “ le4 wang2 fu4 cong2 jun1 zhe3 ye3 ， he2 neng2 xing2？
+- ”叔向曰：“樂王鮒從君者也，何能行？
+- qi2 dai4 fu0 wai4 ju3 bu2 qi4 chou2 ， nei4 ju3 bu4 shi1 qin1 ， qi2 du2 yi2 wo3 hu1？
+- 祁大夫外舉不棄仇，內舉不失親，其獨遺我乎？
+- shi1 yue1 ： ‘ you3 jue2 de2 xing2 ， si4 guo2 shun4 zhi1。
+- 詩曰：‘有覺德行，四國順之。
 - ’ fu1 zi3 ， jue2 zhe3 ye3。
 - ’夫子，覺者也。
 - ”
@@ -53,14 +63,20 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - ’夫謀而鮮過，惠訓不倦者，叔向有焉，社稷之固也。
 - you2 jiang1 shi2 shi4 you4 zhi1 ， yi3 quan4 neng2 zhe3。
 - 猶將十世宥之，以勸能者。
-- jin1 yi1 bu4 mian3 qi2 shen1 ， yi3 qi4 she4 ji4 ， bu2 yi4 huo4 hu1 ？ gun3 ji2 er2 yu3 xing1；
-- 今壹不免其身，以棄社稷，不亦惑乎？鯀殛而禹興；
+- jin1 yi1 bu4 mian3 qi2 shen1 ， yi3 qi4 she4 ji4 ， bu2 yi4 huo4 hu1？
+- 今壹不免其身，以棄社稷，不亦惑乎？
+- gun3 ji2 er2 yu3 xing1；
+- 鯀殛而禹興；
 - yi1 yin3 fang4 da4 jia3 er2 xiang1 zhi1 ， zu2 wu2 yuan4 se4；
 - 伊尹放大甲而相之，卒無怨色；
 - guan3 cai4 wei2 lu4 ， zhou1 gong1 you4 wang2。
 - 管蔡爲戮，周公右王。
-- ruo4 zhi1 he2 qi2 yi3 hu3 ye3 qi4 she4 ji4 ？ zi3 wei2 shan4 ， shui2 gan3 bu4 mian3 ， duo1 sha1 he2 wei2 ？ ” xuan1 zi3 shuo1 ， yu3 zhi1 cheng2 ， yi3 yan2 zhu1 gong1 er2 mian3 zhi1。
-- 若之何其以虎也棄社稷？子爲善，誰敢不勉，多殺何爲？”宣子說，與之乘，以言諸公而免之。
+- ruo4 zhi1 he2 qi2 yi3 hu3 ye3 qi4 she4 ji4？
+- 若之何其以虎也棄社稷？
+- zi3 wei2 shan4 ， shui2 gan3 bu4 mian3 ， duo1 sha1 he2 wei2？
+- 子爲善，誰敢不勉，多殺何爲？
+- ” xuan1 zi3 shuo1 ， yu3 zhi1 cheng2 ， yi3 yan2 zhu1 gong1 er2 mian3 zhi1。
+- ”宣子說，與之乘，以言諸公而免之。
 - bu2 jian4 shu1 xiang4 er2 gui1 ， shu1 xiang4 yi4 bu2 gao4 mian3 yan1 er2 chao2。
 - 不見叔向而歸，叔向亦不告免焉而朝。
 

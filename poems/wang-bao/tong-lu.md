@@ -11,11 +11,11 @@ tags: []
 
 ## 正文
 
-- tian1 men2 xi1 di4 hu4 ， shu2 you2 xi1 xian2 zhe3 ？
+- tian1 men2 xi1 di4 hu4 ， shu2 you2 xi1 xian2 zhe3？
 - 天门兮墬户，孰由兮贤者？
-- wu2 zheng4 xi1 hun4 ce4 ， huai2 de2 xi1 he2 du3 ？
+- wu2 zheng4 xi1 hun4 ce4 ， huai2 de2 xi1 he2 du3？
 - 无正兮溷厕，怀德兮何睹？
-- jia3 mei4 xi1 min3 si1 ， shui2 ke3 yu3 xi1 wu4 yu3 ？
+- jia3 mei4 xi1 min3 si1 ， shui2 ke3 yu3 xi1 wu4 yu3？
 - 假寐兮愍斯，谁可与兮寤语？
 - tong4 feng4 xi1 yuan3 shi4 ， chu4 yan4 xi1 jin4 chu4。
 - 痛凤兮远逝，畜鴳兮近处。
@@ -41,7 +41,7 @@ tags: []
 - 启匮兮探筴，悲命兮相当。
 - ren4 hui4 xi1 yong3 ci2 ， jiang1 li2 xi1 suo3 si1。
 - 纫蕙兮永辞，将离兮所思。
-- fu2 yun2 xi1 rong2 yu3 ， dao4 yu2 xi1 he2 zhi1 ？
+- fu2 yun2 xi1 rong2 yu3 ， dao4 yu2 xi1 he2 zhi1？
 - 浮云兮容与，道余兮何之？
 - yuan3 wang4 xi1 qian1 mian2 ， wen2 lei2 xi1 tian2 tian2。
 - 远望兮仟眠，闻雷兮阗阗。

@@ -57,19 +57,23 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 登斯樓也，則有心曠神怡，寵辱偕忘，把酒臨風，其喜洋洋者矣。
 - jie1 fu1！
 - 嗟夫！
-- yu3 chang2 qiu2 gu3 ren2 ren2 zhi1 xin1 ， huo4 yi4 er4 zhe3 zhi1 wei2 ， he2 zai1 ？ bu4 yi3 wu4 xi3 ， bu4 yi3 ji3 bei1；
-- 予嘗求古仁人之心，或異二者之爲，何哉？不以物喜，不以己悲；
+- yu3 chang2 qiu2 gu3 ren2 ren2 zhi1 xin1 ， huo4 yi4 er4 zhe3 zhi1 wei2 ， he2 zai1？
+- 予嘗求古仁人之心，或異二者之爲，何哉？
+- bu4 yi3 wu4 xi3 ， bu4 yi3 ji3 bei1；
+- 不以物喜，不以己悲；
 - ju1 miao4 tang2 zhi1 gao1 ze2 you1 qi2 min2；
 - 居廟堂之高則憂其民；
 - chu3 jiang1 hu2 zhi1 yuan3 ze2 you1 qi2 jun1。
 - 處江湖之遠則憂其君。
 - shi4 jin4 yi4 you1 ， tui4 yi4 you1。
 - 是進亦憂，退亦憂。
-- ran2 ze2 he2 shi2 er2 le4 ye1 ？ qi2 bi4 yue1 ： “ xian1 tian1 xia4 zhi1 you1 er2 you1 ， hou4 tian1 xia4 zhi1 le4 er2 le4 ” hu1。
-- 然則何時而樂耶？其必曰：“先天下之憂而憂，後天下之樂而樂”乎。
+- ran2 ze2 he2 shi2 er2 le4 ye1？
+- 然則何時而樂耶？
+- qi2 bi4 yue1 ： “ xian1 tian1 xia4 zhi1 you1 er2 you1 ， hou4 tian1 xia4 zhi1 le4 er2 le4 ” hu1。
+- 其必曰：“先天下之憂而憂，後天下之樂而樂”乎。
 - yi1！
 - 噫！
-- wei1 si1 ren2 ， wu2 shui2 yu3 gui1 ？
+- wei1 si1 ren2 ， wu2 shui2 yu3 gui1？
 - 微斯人，吾誰與歸？
 - shi2 liu4 nian2 jiu3 yue4 shi2 wu3 ri4。
 - 時六年九月十五日。

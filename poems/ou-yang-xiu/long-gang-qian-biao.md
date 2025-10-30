@@ -31,8 +31,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 曰：“毋以是爲我累。
 - ” gu4 qi2 wang2 ye3 ， wu2 yi4 wa3 zhi1 fu4 ， yi4 long3 zhi1 zhi2 ， yi3 bi4 er2 wei2 sheng1；
 - ”故其亡也，無一瓦之覆，一壟之植，以庇而爲生；
-- wu2 he2 shi4 er2 neng2 zi4 shou3 xie2 ？ wu2 wu1 ru3 fu4 ， zhi1 qi2 yi1 er4 ， yi3 you3 dai4 wu1 ru3 ye3。
-- 吾何恃而能自守邪？吾於汝父，知其一二，以有待於汝也。
+- wu2 he2 shi4 er2 neng2 zi4 shou3 xie2？
+- 吾何恃而能自守邪？
+- wu2 wu1 ru3 fu4 ， zhi1 qi2 yi1 er4 ， yi3 you3 dai4 wu1 ru3 ye3。
+- 吾於汝父，知其一二，以有待於汝也。
 - zi4 wu2 wei2 ru3 jia1 fu4 ， bu4 ji2 shi4 wu2 gu1；
 - 自吾爲汝家婦，不及事吾姑；
 - ran2 zhi1 ru3 fu4 zhi1 neng2 yang3 ye3。
@@ -55,8 +57,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 汝父爲吏，嘗夜燭治官書，屢廢而嘆。
 - wu2 wen4 zhi1 ， ze2 yue1 ： “ ci3 si3 yu4 ye3 ， wo3 qiu2 qi2 sheng1 bu4 de2 er3。
 - 吾問之，則曰：“此死獄也，我求其生不得爾。
-- ” wu2 yue1 ： “ sheng1 ke3 qiu2 hu1 ？ ” yue1 ： “ qiu2 qi2 sheng1 er2 bu4 de2 ， ze2 si3 zhe3 yu3 wo3 jie1 wu2 hen4 ye3；
-- ”吾曰：“生可求乎？”曰：“求其生而不得，則死者與我皆無恨也；
+- ” wu2 yue1 ： “ sheng1 ke3 qiu2 hu1？
+- ”吾曰：“生可求乎？
+- ” yue1 ： “ qiu2 qi2 sheng1 er2 bu4 de2 ， ze2 si3 zhe3 yu3 wo3 jie1 wu2 hen4 ye3；
+- ”曰：“求其生而不得，則死者與我皆無恨也；
 - shen3 qiu2 er2 you3 de2 xie2 ， yi3 qi2 you3 de2 ， ze2 zhi1 bu4 qiu2 er2 si3 zhe3 you3 hen4 ye3。
 - 矧求而有得邪，以其有得，則知不求而死者有恨也。
 - fu1 chang2 qiu2 qi2 sheng1 ， you2 shi1 zhi1 si3 ， er2 shi4 chang2 qiu2 qi2 si3 ye3。

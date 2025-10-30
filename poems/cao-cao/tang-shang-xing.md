@@ -23,11 +23,11 @@ tags: []
 - 想见君颜色，感结伤心脾。
 - nian4 jun1 chang2 ku3 bei1 ， ye4 ye4 bu4 neng2 mei4。
 - 念君常苦悲，夜夜不能寐。
-- mo4 yi3 hao2 xian2 gu4 ， qi4 juan1 su4 suo3 ai4 ？
+- mo4 yi3 hao2 xian2 gu4 ， qi4 juan1 su4 suo3 ai4？
 - 莫以豪贤故，弃捐素所爱？
-- mo4 yi3 yu2 rou4 jian4 ， qi4 juan1 cong1 yu3 xie4 ？
+- mo4 yi3 yu2 rou4 jian4 ， qi4 juan1 cong1 yu3 xie4？
 - 莫以鱼肉贱，弃捐葱与薤？
-- mo4 yi3 ma2 xi3 jian4 ， qi4 juan1 jian1 yu3 kuai3 ？
+- mo4 yi3 ma2 xi3 jian4 ， qi4 juan1 jian1 yu3 kuai3？
 - 莫以麻枲贱，弃捐菅与蒯？
 - chu1 yi4 fu4 he2 ku3 ， ru4 yi4 fu4 he2 chou2。
 - 出亦复何苦，入亦复何愁。

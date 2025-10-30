@@ -21,10 +21,16 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 僕雖罷駑，亦嘗側聞長者之遺風矣。
 - gu4 zi4 yi3 wei2 shen1 can2 chu3 hui4 ， dong4 er2 jian4 you2 ， yu4 yi4 fan3 sun3 ， shi4 yi3 du2 yu4 yi4 er2 wu2 shui2 yu3。
 - 顧自以爲身殘處穢，動而見尤，欲益反損，是以獨鬱悒而無誰語。
-- yan4 yue1 ： “ shui2 wei2 wei2 zhi1 ？ shu2 ling4 ting1 zhi1 ？ ” gai4 zhong1 zi3 qi1 si3 ， bo2 ya2 zhong1 shen1 bu2 fu4 gu3 qin2。
-- 諺曰：“誰爲爲之？孰令聽之？”蓋鍾子期死，伯牙終身不復鼓琴。
-- he2 ze2 ？ shi4 wei2 zhi1 ji3 zhe3 yong4 ， nü3 wei2 shuo1 ji3 zhe3 rong2。
-- 何則？士爲知己者用，女爲說己者容。
+- yan4 yue1 ： “ shui2 wei2 wei2 zhi1？
+- 諺曰：“誰爲爲之？
+- shu2 ling4 ting1 zhi1？
+- 孰令聽之？
+- ” gai4 zhong1 zi3 qi1 si3 ， bo2 ya2 zhong1 shen1 bu2 fu4 gu3 qin2。
+- ”蓋鍾子期死，伯牙終身不復鼓琴。
+- he2 ze2？
+- 何則？
+- shi4 wei2 zhi1 ji3 zhe3 yong4 ， nü3 wei2 shuo1 ji3 zhe3 rong2。
+- 士爲知己者用，女爲說己者容。
 - ruo4 pu2 da4 zhi4 yi3 kui1 que1 yi3 ， sui1 cai2 huai2 sui2 he2 ， xing2 ruo4 you2 yi2 ， zhong1 bu4 ke3 yi3 wei2 rong2 ， shi4 zu2 yi3 fa1 xiao4 er2 zi4 dian3 er3。
 - 若僕大質已虧缺矣，雖材懷隨和，行若由夷，終不可以爲榮，適足以發笑而自點耳。
 - shu1 ci2 yi2 da2 ， hui4 dong1 cong2 shang4 lai2 ， you4 po4 jian4 shi4 ， xiang1 jian4 ri4 qian3 ， zu2 zu2 wu2 xu1 yu2 zhi1 jian4 ， de2 jie2 zhi3 yi4。
@@ -75,8 +81,10 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 四者無一遂，苟合取容，無所短長之效，可見於此矣。
 - xiang1 zhe3 ， pu2 yi4 chang2 ce4 xia4 dai4 fu0 zhi1 lie4 ， pei2 wai4 ting2 mo4 yi4。
 - 鄉者，僕亦嘗廁下大夫之列，陪外廷末議。
-- bu4 yi3 ci3 shi2 yin3 wei2 gang1 ， jin4 si1 lü4 ， jin1 yi3 kui1 xing2 wei2 sao3 chu2 zhi1 li4 ， zai4 ta4 rong2 zhi1 zhong1 ， nai3 yu4 yang3 shou3 shen1 mei2 ， lun4 lie4 shi4 fei1 ， bu2 yi4 qing1 chao2 ting2 、 xiu1 dang1 shi4 zhi1 shi4 xie2 ？ jie1 hu1！
-- 不以此時引維綱，盡思慮，今已虧形爲掃除之隸，在闒茸之中，乃欲仰首伸眉，論列是非，不亦輕朝廷、羞當世之士邪？嗟乎！
+- bu4 yi3 ci3 shi2 yin3 wei2 gang1 ， jin4 si1 lü4 ， jin1 yi3 kui1 xing2 wei2 sao3 chu2 zhi1 li4 ， zai4 ta4 rong2 zhi1 zhong1 ， nai3 yu4 yang3 shou3 shen1 mei2 ， lun4 lie4 shi4 fei1 ， bu2 yi4 qing1 chao2 ting2 、 xiu1 dang1 shi4 zhi1 shi4 xie2？
+- 不以此時引維綱，盡思慮，今已虧形爲掃除之隸，在闒茸之中，乃欲仰首伸眉，論列是非，不亦輕朝廷、羞當世之士邪？
+- jie1 hu1！
+- 嗟乎！
 - jie1 hu1！
 - 嗟乎！
 - ru2 pu2 shang4 he2 yan2 zai1！
@@ -135,8 +143,10 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 家貧，貨賂不足以自贖，交遊莫救，左右親近不爲一言。
 - shen1 fei1 mu4 shi2 ， du2 yu3 fa3 li4 wei2 wu3 ， shen1 you1 ling2 yu3 zhi1 zhong1 ， shui2 ke3 gao4 shuo4 zhe3！
 - 身非木石，獨與法吏爲伍，深幽囹圄之中，誰可告愬者！
-- ci3 zhen1 shao3 qing1 suo3 qin1 jian4 ， pu2 xing2 shi4 qi3 bu4 ran2 hu1 ？ li3 ling2 ji4 sheng1 jiang4 ， tui2 qi2 jia1 sheng1 ， er2 pu2 you4 er4 zhi1 can2 shi4 ， zhong4 wei2 tian1 xia4 guan1 xiao4。
-- 此真少卿所親見，僕行事豈不然乎？李陵既生降，隤其家聲，而僕又佴之蠶室，重爲天下觀笑。
+- ci3 zhen1 shao3 qing1 suo3 qin1 jian4 ， pu2 xing2 shi4 qi3 bu4 ran2 hu1？
+- 此真少卿所親見，僕行事豈不然乎？
+- li3 ling2 ji4 sheng1 jiang4 ， tui2 qi2 jia1 sheng1 ， er2 pu2 you4 er4 zhi1 can2 shi4 ， zhong4 wei2 tian1 xia4 guan1 xiao4。
+- 李陵既生降，隤其家聲，而僕又佴之蠶室，重爲天下觀笑。
 - bei1 fu1！
 - 悲夫！
 - bei1 fu1！
@@ -145,10 +155,14 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 事未易一二爲俗人言也。
 - pu2 zhi1 xian1 fei1 you3 pou1 fu2 dan1 shu1 zhi1 gong1 ， wen2 shi3 xing1 li4 ， jin4 hu1 bu3 zhu4 zhi1 jian4 ， gu4 zhu3 shang4 suo3 xi4 nong4 ， chang4 you1 suo3 chu4 ， liu2 su2 zhi1 suo3 qing1 ye3。
 - 僕之先非有剖符丹書之功，文史星曆，近乎卜祝之間，固主上所戲弄，倡優所畜，流俗之所輕也。
-- jia3 ling4 pu2 fu2 fa3 shou4 zhu1 ， ruo4 jiu3 niu2 wang2 yi4 mao2 ， yu3 lou2 yi3 he2 yi3 yi4 ？ er2 shi4 you4 bu4 yu3 neng2 si3 jie2 zhe3 bi3 ， te4 yi3 wei2 zhi4 qiong2 zui4 ji2 ， bu4 neng2 zi4 mian3 ， zu2 jiu4 si3 er3。
-- 假令僕伏法受誅，若九牛亡一毛，與螻蟻何以異？而世又不與能死節者比，特以爲智窮罪極，不能自免，卒就死耳。
-- he2 ye3 ？ su4 suo3 zi4 shu4 li4 shi3 ran2 ye3。
-- 何也？素所自樹立使然也。
+- jia3 ling4 pu2 fu2 fa3 shou4 zhu1 ， ruo4 jiu3 niu2 wang2 yi4 mao2 ， yu3 lou2 yi3 he2 yi3 yi4？
+- 假令僕伏法受誅，若九牛亡一毛，與螻蟻何以異？
+- er2 shi4 you4 bu4 yu3 neng2 si3 jie2 zhe3 bi3 ， te4 yi3 wei2 zhi4 qiong2 zui4 ji2 ， bu4 neng2 zi4 mian3 ， zu2 jiu4 si3 er3。
+- 而世又不與能死節者比，特以爲智窮罪極，不能自免，卒就死耳。
+- he2 ye3？
+- 何也？
+- su4 suo3 zi4 shu4 li4 shi3 ran2 ye3。
+- 素所自樹立使然也。
 - ren2 gu4 you3 yi4 si3 ， huo4 zhong4 wu1 tai4 shan1 ， huo4 qing1 wu1 hong2 mao2 ， yong4 zhi1 suo3 qu1 yi4 ye3。
 - 人固有一死，或重於泰山，或輕於鴻毛，用之所趨異也。
 - tai4 shang4 bu4 ru3 xian1 ， qi2 ci4 bu4 ru3 shen1 ， qi2 ci4 bu4 ru3 li3 se4 ， qi2 ci4 bu4 ru3 ci2 ling4 ， qi2 ci4 qu1 ti3 shou4 ru3 ， qi2 ci4 yi4 fu2 shou4 ru3 ， qi2 ci4 guan1 mu4 suo3 、 bei4 chui2 chu3 shou4 ru3 ， qi2 ci4 ti1 mao2 fa4 、 ying1 jin1 tie3 shou4 ru3 ， qi2 ci4 hui3 ji1 fu1 、 duan4 zhi1 ti3 shou4 ru3 ， zui4 xia4 fu3 xing2 ji2 yi3！
@@ -167,8 +181,10 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 今交手足，受木索，暴肌膚，受榜箠，幽於圜牆之中。
 - dang1 ci3 zhi1 shi2 ， jian4 yu4 li4 ze2 tou2 qiang1 di4 ， shi4 tu2 li4 ze2 xin1 ti4 xi1。
 - 當此之時，見獄吏則頭搶地，視徒隸則心惕息。
-- he2 zhe3 ？ ji1 wei1 yue1 zhi1 shi4 ye3。
-- 何者？積威約之勢也。
+- he2 zhe3？
+- 何者？
+- ji1 wei1 yue1 zhi1 shi4 ye3。
+- 積威約之勢也。
 - ji2 yi3 zhi4 shi4 ， yan2 bu4 ru3 zhe3 ， suo3 wei4 qiang2 yan2 er3 ， he2 zu2 gui4 hu1！
 - 及以至是，言不辱者，所謂強顏耳，曷足貴乎！
 - qie3 xi1 bo2 ， bo2 ye3 ， ju1 wu1 you3 li3；
@@ -189,22 +205,30 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 灌夫受辱於居室。
 - ci3 ren2 jie1 shen1 zhi4 wang2 hou2 jiang1 xiang1 ， sheng1 wen2 lin2 guo2 ， ji2 zui4 zhi4 wang3 jia1 ， bu4 neng2 yin3 jue2 zi4 cai2 ， zai4 chen2 ai1 zhi1 zhong1。
 - 此人皆身至王侯將相，聲聞鄰國，及罪至罔加，不能引決自裁，在塵埃之中。
-- gu3 jin1 yi4 ti3 ， an1 zai4 qi2 bu4 ru3 ye3 ？ you2 ci3 yan2 zhi1 ， yong3 qie4 ， shi4 ye3；
-- 古今一體，安在其不辱也？由此言之，勇怯，勢也；
+- gu3 jin1 yi4 ti3 ， an1 zai4 qi2 bu4 ru3 ye3？
+- 古今一體，安在其不辱也？
+- you2 ci3 yan2 zhi1 ， yong3 qie4 ， shi4 ye3；
+- 由此言之，勇怯，勢也；
 - qiang2 ruo4 ， xing2 ye3。
 - 強弱，形也。
-- shen3 yi3 ， he2 zu2 guai4 hu1 ？ fu1 ren2 bu4 neng2 zao3 zi4 cai2 sheng2 mo4 zhi1 wai4 ， yi3 shao1 ling2 chi2 ， zhi4 wu1 bian1 chui2 zhi1 jian4 ， nai3 yu4 yin3 jie2 ， si1 bu2 yi4 yuan3 hu1！
-- 審矣，何足怪乎？夫人不能早自裁繩墨之外，以稍陵遲，至於鞭箠之間，乃欲引節，斯不亦遠乎！
+- shen3 yi3 ， he2 zu2 guai4 hu1？
+- 審矣，何足怪乎？
+- fu1 ren2 bu4 neng2 zao3 zi4 cai2 sheng2 mo4 zhi1 wai4 ， yi3 shao1 ling2 chi2 ， zhi4 wu1 bian1 chui2 zhi1 jian4 ， nai3 yu4 yin3 jie2 ， si1 bu2 yi4 yuan3 hu1！
+- 夫人不能早自裁繩墨之外，以稍陵遲，至於鞭箠之間，乃欲引節，斯不亦遠乎！
 - gu3 ren2 suo3 yi3 zhong4 shi1 xing2 yu2 dai4 fu0 zhe3 ， dai4 wei2 ci3 ye3。
 - 古人所以重施刑于大夫者，殆爲此也。
 - fu1 ren2 qing2 mo4 bu4 tan1 sheng1 e4 si3 ， nian4 fu4 mu3 ， gu4 qi1 zi3 ， zhi4 ji1 wu1 yi4 li3 zhe3 bu4 ran2 ， nai3 you3 suo3 bu4 de2 yi3 ye3。
 - 夫人情莫不貪生惡死，念父母，顧妻子，至激於義理者不然，乃有所不得已也。
-- jin1 pu2 bu2 xing4 ， zao3 shi1 fu4 mu3 ， wu2 xiong1 di4 zhi1 qin1 ， du2 shen1 gu1 li4 ， shao3 qing1 shi4 pu2 wu1 qi1 zi3 he2 ru2 zai1 ？ qie3 yong3 zhe3 bu2 bi4 si3 jie2 ， qie4 fu1 mu4 yi4 ， he2 chu3 bu4 mian3 yan1！
-- 今僕不幸，早失父母，無兄弟之親，獨身孤立，少卿視僕於妻子何如哉？且勇者不必死節，怯夫慕義，何處不勉焉！
+- jin1 pu2 bu2 xing4 ， zao3 shi1 fu4 mu3 ， wu2 xiong1 di4 zhi1 qin1 ， du2 shen1 gu1 li4 ， shao3 qing1 shi4 pu2 wu1 qi1 zi3 he2 ru2 zai1？
+- 今僕不幸，早失父母，無兄弟之親，獨身孤立，少卿視僕於妻子何如哉？
+- qie3 yong3 zhe3 bu2 bi4 si3 jie2 ， qie4 fu1 mu4 yi4 ， he2 chu3 bu4 mian3 yan1！
+- 且勇者不必死節，怯夫慕義，何處不勉焉！
 - pu2 sui1 qie4 nuo4 ， yu4 gou3 huo2 ， yi4 po1 shi2 qu4 jiu4 zhi1 fen1 yi3 ， he2 zhi4 zi4 chen2 ni4 lei2 xie4 zhi1 ru3 zai1！
 - 僕雖怯懦，欲苟活，亦頗識去就之分矣，何至自沉溺縲紲之辱哉！
-- qie3 fu1 zang1 huo4 bi4 qie4 ， you2 neng2 yin3 jue2 ， kuang4 pu2 zhi1 bu4 de2 yi3 hu1 ？ suo3 yi3 yin3 ren3 gou3 huo2 ， you1 wu1 fen4 tu3 zhi1 zhong1 er2 bu4 ci2 zhe3 ， hen4 si1 xin1 you3 suo3 bu2 jin4 ， bi3 lou4 mei2 shi4 ， er2 wen2 cai3 bu4 biao3 wu1 hou4 ye3。
-- 且夫臧獲婢妾，猶能引決，況僕之不得已乎？所以隱忍苟活，幽於糞土之中而不辭者，恨私心有所不盡，鄙陋沒世，而文采不表於後也。
+- qie3 fu1 zang1 huo4 bi4 qie4 ， you2 neng2 yin3 jue2 ， kuang4 pu2 zhi1 bu4 de2 yi3 hu1？
+- 且夫臧獲婢妾，猶能引決，況僕之不得已乎？
+- suo3 yi3 yin3 ren3 gou3 huo2 ， you1 wu1 fen4 tu3 zhi1 zhong1 er2 bu4 ci2 zhe3 ， hen4 si1 xin1 you3 suo3 bu2 jin4 ， bi3 lou4 mei2 shi4 ， er2 wen2 cai3 bu4 biao3 wu1 hou4 ye3。
+- 所以隱忍苟活，幽於糞土之中而不辭者，恨私心有所不盡，鄙陋沒世，而文采不表於後也。
 - gu3 zhe3 fu4 gui4 er2 ming2 mo2 mie4 ， bu4 ke3 sheng4 ji4 ， wei2 ti4 tang3 fei1 chang2 zhi1 ren2 cheng1 yan1。
 - 古者富貴而名摩滅，不可勝記，唯倜儻非常之人稱焉。
 - gai4 wen2 wang2 ju1 er2 yan3 《 zhou1 yi4 》；
@@ -239,16 +263,22 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 然此可爲智者道，難爲俗人言也！
 - qie3 fu4 xia4 wei4 yi4 ju1 ， xia4 liu2 duo1 bang4 yi4。
 - 且負下未易居，下流多謗議。
-- pu2 yi3 kou3 yu3 yu4 zao1 ci3 huo4 ， zhong4 wei2 xiang1 dang3 suo3 xiao4 ， yi3 wu1 ru3 xian1 ren2 ， yi4 he2 mian4 mu4 fu4 shang4 fu4 mu3 zhi1 qiu1 mu4 hu1 ？ sui1 lei4 bai3 shi4 ， gou4 mi2 shen4 er3！
-- 僕以口語遇遭此禍，重爲鄉黨所笑，以污辱先人，亦何面目覆上父母之丘墓乎？雖累百世，垢彌甚耳！
+- pu2 yi3 kou3 yu3 yu4 zao1 ci3 huo4 ， zhong4 wei2 xiang1 dang3 suo3 xiao4 ， yi3 wu1 ru3 xian1 ren2 ， yi4 he2 mian4 mu4 fu4 shang4 fu4 mu3 zhi1 qiu1 mu4 hu1？
+- 僕以口語遇遭此禍，重爲鄉黨所笑，以污辱先人，亦何面目覆上父母之丘墓乎？
+- sui1 lei4 bai3 shi4 ， gou4 mi2 shen4 er3！
+- 雖累百世，垢彌甚耳！
 - shi4 yi3 chang2 yi2 ri4 er2 jiu3 hui2 ， ju1 ze2 hu1 hu1 ruo4 you3 suo3 wang2 ， chu1 ze2 bu4 zhi1 qi2 suo3 wang3。
 - 是以腸一日而九回，居則忽忽若有所亡，出則不知其所往。
 - mei3 nian4 si1 chi3 ， han4 wei4 chang2 bu4 fa1 bei4 zhan1 yi1 ye3！
 - 每念斯恥，汗未嘗不發背沾衣也！
-- shen1 zhi2 wei2 gui1 ge2 zhi1 chen2 ， ning2 de2 zi4 yin3 shen1 cang2 wu1 yan2 xue2 xie2 ？ gu4 qie3 cong2 su2 fu2 chen2 ， yu3 shi2 fu3 yang3 ， yi3 tong1 qi2 kuang2 huo4。
-- 身直爲閨閣之臣，寧得自引深藏於巖穴邪？故且從俗浮沉，與時俯仰，以通其狂惑。
-- jin1 shao3 qing1 nai3 jiao4 yi3 tui1 xian2 jin4 shi4 ， wu2 nai3 yu3 pu2 si1 xin1 la4 miu4 hu1 ？ jin1 sui1 yu4 zi4 diao1 zhuo2 ， man4 ci2 yi3 zi4 shi4 ， wu2 yi4 ， wu1 su2 bu2 xin4 ， shi4 zu2 qu3 ru3 er3。
-- 今少卿乃教以推賢進士，無乃與僕私心剌謬乎？今雖欲自雕琢，曼辭以自飾，無益，於俗不信，適足取辱耳。
+- shen1 zhi2 wei2 gui1 ge2 zhi1 chen2 ， ning2 de2 zi4 yin3 shen1 cang2 wu1 yan2 xue2 xie2？
+- 身直爲閨閣之臣，寧得自引深藏於巖穴邪？
+- gu4 qie3 cong2 su2 fu2 chen2 ， yu3 shi2 fu3 yang3 ， yi3 tong1 qi2 kuang2 huo4。
+- 故且從俗浮沉，與時俯仰，以通其狂惑。
+- jin1 shao3 qing1 nai3 jiao4 yi3 tui1 xian2 jin4 shi4 ， wu2 nai3 yu3 pu2 si1 xin1 la4 miu4 hu1？
+- 今少卿乃教以推賢進士，無乃與僕私心剌謬乎？
+- jin1 sui1 yu4 zi4 diao1 zhuo2 ， man4 ci2 yi3 zi4 shi4 ， wu2 yi4 ， wu1 su2 bu2 xin4 ， shi4 zu2 qu3 ru3 er3。
+- 今雖欲自雕琢，曼辭以自飾，無益，於俗不信，適足取辱耳。
 - yao4 zhi1 ， si3 ri4 ran2 hou4 shi4 fei1 nai3 ding4。
 - 要之，死日然後是非乃定。
 - shu1 bu4 neng2 xi1 yi4 ， gu4 lüe4 chen2 gu4 lou4。

@@ -19,16 +19,30 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 心煩慮亂，不知所從。
 - nai3 wang3 jian4 tai4 bu3 zheng4 zhan1 yin3 yue1 ： “ yu2 you3 suo3 yi2 ， yuan4 yin1 xian1 sheng1 jue2 zhi1。
 - 乃往見太卜鄭詹尹曰：“餘有所疑，願因先生決之。
-- ” zhan1 yin3 nai3 duan1 ce4 fu2 gui1 ， yue1 ： “ jun1 jiang1 he2 yi3 jiao4 zhi1 ？ ”
-- ”詹尹乃端策拂龜，曰：“君將何以教之？”
-- qu1 yuan2 yue1 ： “ wu2 ning2 kun3 kun3 kuan3 kuan3 ， pu3 yi3 zhong1 hu1 ， jiang1 song4 wang3 lao2 lai2 ， si1 wu2 qiong2 hu1 ？
+- ” zhan1 yin3 nai3 duan1 ce4 fu2 gui1 ， yue1 ： “ jun1 jiang1 he2 yi3 jiao4 zhi1？
+- ”詹尹乃端策拂龜，曰：“君將何以教之？
+- ”
+- ”
+- qu1 yuan2 yue1 ： “ wu2 ning2 kun3 kun3 kuan3 kuan3 ， pu3 yi3 zhong1 hu1 ， jiang1 song4 wang3 lao2 lai2 ， si1 wu2 qiong2 hu1？
 - 屈原曰：“吾寧悃悃款款，樸以忠乎，將送往勞來，斯無窮乎？
-- “ ning2 zhu1 chu2 cao3 mao2 yi3 li4 geng1 hu1 ， jiang1 you2 da4 ren2 yi3 cheng2 ming2 hu1 ？ ning2 zheng4 yan2 bu2 hui4 yi3 wei1 shen1 hu1 ， jiang1 cong2 su2 fu4 gui4 yi3 tou1 sheng1 hu1 ？ ning2 chao1 ran2 gao1 ju3 yi3 bao3 zhen1 hu1 ， jiang1 zu2 zi1 li4 si1 ， wo1 yi1 ru2 er2 ， yi3 shi4 fu4 ren2 hu1 ？ ning2 lian2 jie2 zheng4 zhi2 yi3 zi4 qing1 hu1 ， jiang1 tu1 ti1 hua2 ji1 ， ru2 zhi1 ru2 wei2 ， yi3 jie2 ying2 hu1 ？
-- “寧誅鋤草茅以力耕乎，將遊大人以成名乎？寧正言不諱以危身乎，將從俗富貴以偷生乎？寧超然高舉以保真乎，將哫訾慄斯，喔咿儒兒，以事婦人乎？寧廉潔正直以自清乎，將突梯滑稽，如脂如韋，以潔楹乎？
-- “ ning2 ang2 ang2 ruo4 qian1 li3 zhi1 ju1 hu1 ， jiang1 fan4 fan4 ruo4 shui3 zhong1 zhi1 fu2 ， yu3 bo1 shang4 xia4 ， tou1 yi3 quan2 wu2 qu1 hu1 ？ ning2 yu3 qi2 ji4 kang4 e4 hu1 ， jiang1 sui2 nu2 ma3 zhi1 ji4 hu1 ？ ning2 yu3 huang2 hu2 bi3 yi4 hu1 ， jiang1 yu3 ji1 wu4 zheng1 shi2 hu1 ？
-- “寧昂昂若千里之駒乎，將泛泛若水中之鳧，與波上下，偷以全吾軀乎？寧與騏驥亢軛乎，將隨駑馬之跡乎？寧與黃鵠比翼乎，將與雞鶩爭食乎？
-- “ ci3 shu2 ji2 shu2 xiong1 ？ he2 qu4 he2 cong2 ？
-- “此孰吉孰兇？何去何從？
+- “ ning2 zhu1 chu2 cao3 mao2 yi3 li4 geng1 hu1 ， jiang1 you2 da4 ren2 yi3 cheng2 ming2 hu1？
+- “寧誅鋤草茅以力耕乎，將遊大人以成名乎？
+- ning2 zheng4 yan2 bu2 hui4 yi3 wei1 shen1 hu1 ， jiang1 cong2 su2 fu4 gui4 yi3 tou1 sheng1 hu1？
+- 寧正言不諱以危身乎，將從俗富貴以偷生乎？
+- ning2 chao1 ran2 gao1 ju3 yi3 bao3 zhen1 hu1 ， jiang1 zu2 zi1 li4 si1 ， wo1 yi1 ru2 er2 ， yi3 shi4 fu4 ren2 hu1？
+- 寧超然高舉以保真乎，將哫訾慄斯，喔咿儒兒，以事婦人乎？
+- ning2 lian2 jie2 zheng4 zhi2 yi3 zi4 qing1 hu1 ， jiang1 tu1 ti1 hua2 ji1 ， ru2 zhi1 ru2 wei2 ， yi3 jie2 ying2 hu1？
+- 寧廉潔正直以自清乎，將突梯滑稽，如脂如韋，以潔楹乎？
+- “ ning2 ang2 ang2 ruo4 qian1 li3 zhi1 ju1 hu1 ， jiang1 fan4 fan4 ruo4 shui3 zhong1 zhi1 fu2 ， yu3 bo1 shang4 xia4 ， tou1 yi3 quan2 wu2 qu1 hu1？
+- “寧昂昂若千里之駒乎，將泛泛若水中之鳧，與波上下，偷以全吾軀乎？
+- ning2 yu3 qi2 ji4 kang4 e4 hu1 ， jiang1 sui2 nu2 ma3 zhi1 ji4 hu1？
+- 寧與騏驥亢軛乎，將隨駑馬之跡乎？
+- ning2 yu3 huang2 hu2 bi3 yi4 hu1 ， jiang1 yu3 ji1 wu4 zheng1 shi2 hu1？
+- 寧與黃鵠比翼乎，將與雞鶩爭食乎？
+- “ ci3 shu2 ji2 shu2 xiong1？
+- “此孰吉孰兇？
+- he2 qu4 he2 cong2？
+- 何去何從？
 - “ shi4 hun4 zhuo2 er2 bu4 qing1 ： chan2 yi4 wei2 zhong4 ， qian1 jun1 wei2 qing1；
 - “世溷濁而不清：蟬翼爲重，千鈞爲輕；
 - huang2 zhong1 hui3 qi4 ， wa3 fu3 lei2 ming2；

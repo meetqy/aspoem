@@ -33,8 +33,10 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 夫古今之變，朝市改易。
 - chang2 deng1 gu1 su1 zhi1 tai2 ， wang4 wu3 hu2 zhi1 miao3 mang2 ， qun2 shan1 zhi1 cang1 cui4 ， tai4 bo2 、 yu2 zhong4 zhi1 suo3 jian4 ， he2 lü2 、 fu1 cha4 zhi1 suo3 zheng1 ， zi3 xu1 、 zhong3 、 li2 zhi1 suo3 jing1 ying2 ， jin1 jie1 wu2 you3 yi3。
 - 嘗登姑蘇之臺，望五湖之渺茫，羣山之蒼翠，太伯、虞仲之所建，闔閭、夫差之所爭，子胥、種、蠡之所經營，今皆無有矣。
-- an1 yu3 ting2 he2 wei2 zhe3 zai1 ？ sui1 ran2 ， qian2 liu2 yin1 luan4 rang3 qie4 ， bao3 you3 wu2 yue4 ， guo2 fu4 bing1 qiang2 ， chui2 ji2 si4 shi4。
-- 庵與亭何爲者哉？雖然，錢鏐因亂攘竊，保有吳越，國富兵強，垂及四世。
+- an1 yu3 ting2 he2 wei2 zhe3 zai1？
+- 庵與亭何爲者哉？
+- sui1 ran2 ， qian2 liu2 yin1 luan4 rang3 qie4 ， bao3 you3 wu2 yue4 ， guo2 fu4 bing1 qiang2 ， chui2 ji2 si4 shi4。
+- 雖然，錢鏐因亂攘竊，保有吳越，國富兵強，垂及四世。
 - zhu1 zi3 yin1 qi1 ， cheng2 shi2 she1 jian4 ， gong1 guan3 yuan4 you4 ， ji2 yi4 shi2 zhi1 sheng4。
 - 諸子姻戚，乘時奢僭，宮館苑囿，極一時之盛。
 - er2 zi3 mei3 zhi1 ting2 ， nai3 wei2 shi4 zi3 suo3 qin1 zhong4 ru2 ci3。

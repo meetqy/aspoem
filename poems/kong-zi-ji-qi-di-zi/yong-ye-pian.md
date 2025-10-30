@@ -17,12 +17,18 @@ tags: []
 - ”
 - zhong4 gong1 wen4 zi3 sang1 bai3 zi0 ， zi3 yue1 ： “ ke3 ye3 jian3。
 - 仲弓问子桑伯子，子曰：“可也简。
-- ” zhong4 gong1 yue1 ： “ ju1 jing4 er2 xing2 jian3 ， yi3 lin2 qi2 min2 ， bu2 yi4 ke3 hu1 ？ ju1 jian3 er2 xing2 jian3 ， wu2 nai3 da4 jian3 hu1 ？ ” zi3 yue1 ： “ yong1 zhi1 yan2 ran2。
-- ”仲弓曰：“居敬而行简，以临其民，不亦可乎？居简而行简，无乃大简乎？”子曰：“雍之言然。
+- ” zhong4 gong1 yue1 ： “ ju1 jing4 er2 xing2 jian3 ， yi3 lin2 qi2 min2 ， bu2 yi4 ke3 hu1？
+- ”仲弓曰：“居敬而行简，以临其民，不亦可乎？
+- ju1 jian3 er2 xing2 jian3 ， wu2 nai3 da4 jian3 hu1？
+- 居简而行简，无乃大简乎？
+- ” zi3 yue1 ： “ yong1 zhi1 yan2 ran2。
+- ”子曰：“雍之言然。
 - ”
 - ”
-- ai1 gong1 wen4 ： “ di4 zi3 shu2 wei4 hao4 xue2 ？ ” kong3 zi3 dui4 yue1 ： “ you3 yan2 hui2 zhe3 hao4 xue2 ， bu4 qian1 nu4 ， bu2 er4 guo4 ， bu2 xing4 duan3 ming4 si3 yi3 ， jin1 ye3 ze2 wang2 ， wei4 wen2 hao4 xue2 zhe3 ye3。
-- 哀公问：“弟子孰为好学？”孔子对曰：“有颜回者好学，不迁怒，不贰过，不幸短命死矣，今也则亡，未闻好学者也。
+- ai1 gong1 wen4 ： “ di4 zi3 shu2 wei4 hao4 xue2？
+- 哀公问：“弟子孰为好学？
+- ” kong3 zi3 dui4 yue1 ： “ you3 yan2 hui2 zhe3 hao4 xue2 ， bu4 qian1 nu4 ， bu2 er4 guo4 ， bu2 xing4 duan3 ming4 si3 yi3 ， jin1 ye3 ze2 wang2 ， wei4 wen2 hao4 xue2 zhe3 ye3。
+- ”孔子对曰：“有颜回者好学，不迁怒，不贰过，不幸短命死矣，今也则亡，未闻好学者也。
 - ”
 - ”
 - zi3 hua2 shi3 yu2 qi2 ， ran3 zi3 wei4 qi2 mu3 qing3 su4 ， zi3 yue1 ： “ yu3 zhi1 fu3。
@@ -43,14 +49,28 @@ tags: []
 - 子曰：“毋，以与尔邻里乡党乎！
 - ”
 - ”
-- zi3 wei4 zhong4 gong1 yue1 ： “ li2 niu2 zhi1 zi3 xing1 qie3 jiao3 ， sui1 yu4 wu4 yong4 ， shan1 chuan1 qi2 she4 zhu1 ？ ”
-- 子谓仲弓曰：“犁牛之子骍且角，虽欲勿用，山川其舍诸？”
+- zi3 wei4 zhong4 gong1 yue1 ： “ li2 niu2 zhi1 zi3 xing1 qie3 jiao3 ， sui1 yu4 wu4 yong4 ， shan1 chuan1 qi2 she4 zhu1？
+- 子谓仲弓曰：“犁牛之子骍且角，虽欲勿用，山川其舍诸？
+- ”
+- ”
 - zi3 yue1 ： “ hui2 ye3 ， qi2 xin1 san1 yue4 bu4 wei2 ren2 ， qi2 yu2 ze2 ri4 yue4 zhi4 yan1 er2 yi3 yi3。
 - 子曰：“回也，其心三月不违仁，其余则日月至焉而已矣。
 - ”
 - ”
-- ji4 kang1 zi3 wen4 ： “ zhong4 you2 ke3 shi3 cong2 zheng4 ye3 yu3 ？ ” zi3 yue1 ： “ you2 ye3 guo3 ， yu2 cong2 zheng4 hu1 he2 you3 ？ ” yue1 ： “ ci4 ye3 ke3 shi3 cong2 zheng4 ye3 yu3 ？ ” yue1 ： “ ci4 ye3 da2 ， yu2 cong2 zheng4 hu1 he2 you3 ？ ” yue1 ： “ qiu2 ye3 ke3 shi3 cong2 zheng4 ye3 yu3 ？ ” yue1 ： “ qiu2 ye3 yi4 ， yu2 cong2 zheng4 hu1 he2 you3 ？ ”
-- 季康子问：“仲由可使从政也与？”子曰：“由也果，于从政乎何有？”曰：“赐也可使从政也与？”曰：“赐也达，于从政乎何有？”曰：“求也可使从政也与？”曰：“求也艺，于从政乎何有？”
+- ji4 kang1 zi3 wen4 ： “ zhong4 you2 ke3 shi3 cong2 zheng4 ye3 yu3？
+- 季康子问：“仲由可使从政也与？
+- ” zi3 yue1 ： “ you2 ye3 guo3 ， yu2 cong2 zheng4 hu1 he2 you3？
+- ”子曰：“由也果，于从政乎何有？
+- ” yue1 ： “ ci4 ye3 ke3 shi3 cong2 zheng4 ye3 yu3？
+- ”曰：“赐也可使从政也与？
+- ” yue1 ： “ ci4 ye3 da2 ， yu2 cong2 zheng4 hu1 he2 you3？
+- ”曰：“赐也达，于从政乎何有？
+- ” yue1 ： “ qiu2 ye3 ke3 shi3 cong2 zheng4 ye3 yu3？
+- ”曰：“求也可使从政也与？
+- ” yue1 ： “ qiu2 ye3 yi4 ， yu2 cong2 zheng4 hu1 he2 you3？
+- ”曰：“求也艺，于从政乎何有？
+- ”
+- ”
 - ji4 shi4 shi3 min3 zi3 qian1 wei4 fei4 zai3 ， min3 zi3 qian1 yue1 ： “ shan4 wei4 wo3 ci2 yan1。
 - 季氏使闵子骞为费宰，闵子骞曰：“善为我辞焉。
 - ru2 you3 fu4 wo3 zhe3 ， ze2 wu2 bi4 zai4 wen4 shang4 yi3。
@@ -83,8 +103,10 @@ tags: []
 - 子谓子夏曰：“女为君子儒，无为小人儒。
 - ”
 - ”
-- zi3 you2 wei4 wu3 cheng2 zai3 ， zi3 yue1 ： “ nü3 de2 ren2 yan1 er3 hu1 ？ ” yue1 ： “ you3 dan4 tai2 mie4 ming2 zhe3 ， xing2 bu4 you2 jing4 ， fei1 gong1 shi4 ， wei4 chang2 zhi4 yu2 yan3 zhi1 shi4 ye3。
-- 子游为武城宰，子曰：“女得人焉尔乎？”曰：“有澹台灭明者，行不由径，非公事，未尝至于偃之室也。
+- zi3 you2 wei4 wu3 cheng2 zai3 ， zi3 yue1 ： “ nü3 de2 ren2 yan1 er3 hu1？
+- 子游为武城宰，子曰：“女得人焉尔乎？
+- ” yue1 ： “ you3 dan4 tai2 mie4 ming2 zhe3 ， xing2 bu4 you2 jing4 ， fei1 gong1 shi4 ， wei4 chang2 zhi4 yu2 yan3 zhi1 shi4 ye3。
+- ”曰：“有澹台灭明者，行不由径，非公事，未尝至于偃之室也。
 - ”
 - ”
 - zi3 yue1 ： “ meng4 zhi1 fan3 bu4 fa2 ， ben1 er2 dian4 ， jiang1 ru4 men2 ， ce4 qi2 ma3 yue1 ： ‘ fei1 gan3 hou4 ye3 ， ma3 bu2 jin4 ye3。
@@ -95,8 +117,12 @@ tags: []
 - 子曰：“不有祝鮀之佞，而有宋朝之美，难乎免于今之世矣。
 - ”
 - ”
-- zi3 yue1 ： “ shui2 neng2 chu1 bu4 you2 hu4 ？ he2 mo4 you2 si1 dao4 ye3 ？ ”
-- 子曰：“谁能出不由户？何莫由斯道也？”
+- zi3 yue1 ： “ shui2 neng2 chu1 bu4 you2 hu4？
+- 子曰：“谁能出不由户？
+- he2 mo4 you2 si1 dao4 ye3？
+- 何莫由斯道也？
+- ”
+- ”
 - zi3 yue1 ： “ zhi4 sheng4 wen2 ze2 ye3 ， wen2 sheng4 zhi4 ze2 shi3。
 - 子曰：“质胜文则野，文胜质则史。
 - wen2 zhi4 bin1 bin1 ， ran2 hou4 jun1 zi3。
@@ -145,8 +171,12 @@ tags: []
 - ”
 - zai3 wo3 wen4 yue1 ： “ ren2 zhe3 ， sui1 gao4 zhi1 yue1 ： ‘ jing3 you3 ren2 yan1。
 - 宰我问曰：“仁者，虽告之曰：‘井有仁焉。
-- ’ qi2 cong2 zhi1 ye3 ？ ” zi3 yue1 ： “ he2 wei4 qi2 ran2 ye3 ？ jun1 zi3 ke3 shi4 ye3 ， bu4 ke3 xian4 ye3；
-- ’其从之也？”子曰：“何为其然也？君子可逝也，不可陷也；
+- ’ qi2 cong2 zhi1 ye3？
+- ’其从之也？
+- ” zi3 yue1 ： “ he2 wei4 qi2 ran2 ye3？
+- ”子曰：“何为其然也？
+- jun1 zi3 ke3 shi4 ye3 ， bu4 ke3 xian4 ye3；
+- 君子可逝也，不可陷也；
 - ke3 qi1 ye3 ， bu4 ke3 wang3 ye3。
 - 可欺也，不可罔也。
 - ”
@@ -167,8 +197,12 @@ tags: []
 - 民鲜久矣。
 - ”
 - ”
-- zi3 gong4 yue1 ： “ ru2 you3 bo2 shi1 yu2 min2 er2 neng2 ji4 zhong4 ， he2 ru2 ？ ke3 wei4 ren2 hu1 ？ ” zi3 yue1 ： “ he2 shi4 yu2 ren2 ， bi4 ye3 sheng4 hu1！
-- 子贡曰：“如有博施于民而能济众，何如？可谓仁乎？”子曰：“何事于仁，必也圣乎！
+- zi3 gong4 yue1 ： “ ru2 you3 bo2 shi1 yu2 min2 er2 neng2 ji4 zhong4 ， he2 ru2？
+- 子贡曰：“如有博施于民而能济众，何如？
+- ke3 wei4 ren2 hu1？
+- 可谓仁乎？
+- ” zi3 yue1 ： “ he2 shi4 yu2 ren2 ， bi4 ye3 sheng4 hu1！
+- ”子曰：“何事于仁，必也圣乎！
 - yao2 、 shun4 qi2 you2 bing4 zhu1！
 - 尧、舜其犹病诸！
 - fu1 ren2 zhe3 ， ji3 yu4 li4 er2 li4 ren2 ， ji3 yu4 da2 er2 da2 ren2。

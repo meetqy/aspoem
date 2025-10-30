@@ -13,8 +13,10 @@ tags: ["卷三・周文","古文观止","蒙学"]
 
 - shu1 xiang4 jian4 han2 xuan1 zi3 ， xuan1 zi3 you1 pin2 ， shu1 xiang4 he4 zhi1。
 - 叔向見韓宣子，宣子憂貧，叔向賀之。
-- xuan1 zi3 yue1 ： “ wu2 you3 qing1 zhi1 ming2 er2 wu2 qi2 shi2 ， wu2 yi3 cong2 er4 san1 zi3 ， wu2 shi4 yi3 you1 ， zi3 he4 wo3 ， he2 gu4 ？ ”
-- 宣子曰：“吾有卿之名而無其實，無以從二三子，吾是以憂，子賀我，何故？”
+- xuan1 zi3 yue1 ： “ wu2 you3 qing1 zhi1 ming2 er2 wu2 qi2 shi2 ， wu2 yi3 cong2 er4 san1 zi3 ， wu2 shi4 yi3 you1 ， zi3 he4 wo3 ， he2 gu4？
+- 宣子曰：“吾有卿之名而無其實，無以從二三子，吾是以憂，子賀我，何故？
+- ”
+- ”
 - dui4 yue1 ： “ xi1 luan2 wu3 zi3 wu2 yi4 zu2 zhi1 tian2 ， qi2 gong1 bu2 bei4 qi2 zong1 qi4 ， xuan1 qi2 de2 xing2 ， shun4 qi2 xian4 ze2 ， shi3 yue4 wu1 zhu1 hou2。
 - 對曰：“昔欒武子無一卒之田，其宮不備其宗器，宣其德行，順其憲則，使越於諸侯。
 - zhu1 hou2 qin1 zhi1 ， rong2 di2 huai2 zhi1 ， yi3 zheng4 jin4 guo2。
@@ -33,8 +35,10 @@ tags: ["卷三・周文","古文观止","蒙学"]
 - 不然，夫八郤，五大夫，三卿，其寵大矣，一朝而滅，莫之哀也，唯無德也。
 - jin1 wu2 zi3 you3 luan2 wu3 zi3 zhi1 pin2 ， wu2 yi3 wei2 neng2 qi2 de2 yi3 ， shi4 yi3 he4。
 - 今吾子有欒武子之貧，吾以爲能其德矣，是以賀。
-- ruo4 bu4 you1 de2 zhi1 bu2 jian4 ， er2 huan4 huo4 zhi1 bu4 zu2 ， jiang1 diao4 bu4 xia2 ， he2 he4 zhi1 you3 ？ ”
-- 若不憂德之不建，而患貨之不足，將吊不暇，何賀之有？”
+- ruo4 bu4 you1 de2 zhi1 bu2 jian4 ， er2 huan4 huo4 zhi1 bu4 zu2 ， jiang1 diao4 bu4 xia2 ， he2 he4 zhi1 you3？
+- 若不憂德之不建，而患貨之不足，將吊不暇，何賀之有？
+- ”
+- ”
 - xuan1 zi3 bai4 ， qi3 shou3 yan1 ， yue1 ： “ qi3 ye3 jiang1 wang2 ， lai4 zi3 cun2 zhi1 ， fei1 qi3 ye3 gan3 zhuan1 cheng2 zhi1 ， qi2 zi4 huan2 shu1 yi3 xia4 ， jia1 wu2 zi3 zhi1 ci4。
 - 宣子拜，稽首焉，曰：“起也將亡，賴子存之，非起也敢專承之，其自桓叔以下，嘉吾子之賜。
 - ”

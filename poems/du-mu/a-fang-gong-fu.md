@@ -27,8 +27,12 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 各抱地勢，鉤心鬥角。
 - pan2 pan2 yan1 ， qun1 qun1 yan1 ， feng1 fang2 shui3 wo1 ， chu4 bu4 zhi1 qi2 ji1 qian1 wan4 luo4。
 - 盤盤焉，囷囷焉，蜂房水渦，矗不知其幾千萬落。
-- chang2 qiao2 wo4 bo1 ， wei4 yun2 he2 long2 ？ fu4 dao4 heng0 kong1 ， bu2 ji4 he2 hong2 ？ gao1 di1 ming2 mi2 ， bu4 zhi1 xi1 dong1。
-- 長橋臥波，未云何龍？複道行空，不霽何虹？高低冥迷，不知西東。
+- chang2 qiao2 wo4 bo1 ， wei4 yun2 he2 long2？
+- 長橋臥波，未云何龍？
+- fu4 dao4 heng0 kong1 ， bu2 ji4 he2 hong2？
+- 複道行空，不霽何虹？
+- gao1 di1 ming2 mi2 ， bu4 zhi1 xi1 dong1。
+- 高低冥迷，不知西東。
 - ge1 tai2 nuan3 xiang3 ， chun1 guang1 rong2 rong2；
 - 歌臺暖響，春光融融；
 - wu3 dian4 leng3 xiu4 ， feng1 yu3 qi1 qi1。
@@ -99,8 +103,10 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 嗟乎！
 - shi3 liu4 guo2 ge4 ai4 qi2 ren2 ， ze2 zu2 yi3 ju4 qin2；
 - 使六國各愛其人，則足以拒秦；
-- shi3 qin2 fu4 ai4 liu4 guo2 zhi1 ren2 ， ze2 di4 san1 shi4 ke3 zhi4 wan4 shi4 er2 wei2 jun1 ， shui2 de2 er2 zu2 mie4 ye3 ？ qin2 ren2 bu4 xia2 zi4 ai1 ， er2 hou4 ren2 ai1 zhi1；
-- 使秦復愛六國之人，則遞三世可至萬世而爲君，誰得而族滅也？秦人不暇自哀，而後人哀之；
+- shi3 qin2 fu4 ai4 liu4 guo2 zhi1 ren2 ， ze2 di4 san1 shi4 ke3 zhi4 wan4 shi4 er2 wei2 jun1 ， shui2 de2 er2 zu2 mie4 ye3？
+- 使秦復愛六國之人，則遞三世可至萬世而爲君，誰得而族滅也？
+- qin2 ren2 bu4 xia2 zi4 ai1 ， er2 hou4 ren2 ai1 zhi1；
+- 秦人不暇自哀，而後人哀之；
 - hou4 ren2 ai1 zhi1 er2 bu2 jian4 zhi1 ， yi4 shi3 hou4 ren2 er2 fu4 ai1 hou4 ren2 ye3。
 - 後人哀之而不鑑之，亦使後人而復哀後人也。
 

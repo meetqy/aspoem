@@ -27,7 +27,7 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 無絲竹之亂耳，無案牘之勞形。
 - nan2 yang2 zhu1 ge3 lu2 ， xi1 shu3 zi3 yun2 ting2。
 - 南陽諸葛廬，西蜀子云亭。
-- kong3 zi3 yun2 ： he2 lou4 zhi1 you3 ？
+- kong3 zi3 yun2 ： he2 lou4 zhi1 you3？
 - 孔子云：何陋之有？
 
 ## 注释

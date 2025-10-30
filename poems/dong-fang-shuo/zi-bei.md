@@ -31,11 +31,11 @@ tags: []
 - 悲不反余之所居兮，恨离予之故乡。
 - niao3 shou4 jing1 er2 shi1 qun2 xi1 ， you2 gao1 fei1 er2 ai1 ming2。
 - 鸟兽惊而失群兮，犹高飞而哀鸣。
-- hu2 si3 bi4 shou3 qiu1 xi1 ， fu1 ren2 shu2 neng2 bu4 fan3 qi2 zhen1 qing2 ？
+- hu2 si3 bi4 shou3 qiu1 xi1 ， fu1 ren2 shu2 neng2 bu4 fan3 qi2 zhen1 qing2？
 - 狐死必首丘兮，夫人孰能不反其真情？
 - gu4 ren2 shu1 er2 ri4 wang4 xi1 ， xin1 ren2 jin4 er2 yu2 hao3。
 - 故人疏而日忘兮，新人近而俞好。
-- mo4 neng2 xing2 yu2 yao3 ming2 xi1 ， shu2 neng2 shi1 yu2 wu2 bao4 ？
+- mo4 neng2 xing2 yu2 yao3 ming2 xi1 ， shu2 neng2 shi1 yu2 wu2 bao4？
 - 莫能行于杳冥兮，孰能施于无报？
 - ku3 zhong4 ren2 zhi1 jie1 ran2 xi1 ， cheng2 hui2 feng1 er2 yuan3 you2。
 - 苦众人之皆然兮，乘回风而远游。
@@ -55,13 +55,13 @@ tags: []
 - 徐风至而徘徊兮，疾风过之汤汤。
 - wen2 nan2 fan1 le4 er2 yu4 wang3 xi1 ， zhi4 hui4 ji1 er2 qie3 zhi3。
 - 闻南籓乐而欲往兮，至会稽而且止。
-- jian4 han2 zhong4 er2 su4 zhi1 xi1 ， wen4 tian1 dao4 zhi1 suo3 zai4 ？
+- jian4 han2 zhong4 er2 su4 zhi1 xi1 ， wen4 tian1 dao4 zhi1 suo3 zai4？
 - 见韩众而宿之兮，问天道之所在？
 - jie4 fu2 yun2 yi3 song4 yu3 xi1 ， zai3 ci2 ni2 er2 wei4 jing1。
 - 借浮云以送予兮，载雌霓而为旌。
 - jia4 qing1 long2 yi3 chi2 wu4 xi1 ， ban1 yan3 yan3 zhi1 ming2 ming2。
 - 驾青龙以驰骛兮，班衍衍之冥冥。
-- hu1 rong2 rong2 qi2 an1 zhi1 xi1 ， chao1 huang1 hu1 qi2 yan1 ru2 ？
+- hu1 rong2 rong2 qi2 an1 zhi1 xi1 ， chao1 huang1 hu1 qi2 yan1 ru2？
 - 忽容容其安之兮，超慌忽其焉如？
 - ku3 zhong4 ren2 zhi1 nan2 xin4 xi1 ， yuan4 li2 qun2 er2 yuan3 ju3。
 - 苦众人之难信兮，愿离群而远举。

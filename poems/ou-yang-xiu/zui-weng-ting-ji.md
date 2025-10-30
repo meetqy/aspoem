@@ -19,10 +19,14 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 山行六七裏，漸聞水聲潺潺而瀉出於兩峯之間者，釀泉也。
 - feng1 hui2 lu4 zhuan3 ， you3 ting2 yi4 ran2 lin2 wu1 quan2 shang4 zhe3 ， zui4 weng1 ting2 ye3。
 - 峯迴路轉，有亭翼然臨於泉上者，醉翁亭也。
-- zuo4 ting2 zhe3 shui2 ？ shan1 zhi1 seng1 zhi4 xian1 ye3。
-- 作亭者誰？山之僧智仙也。
-- ming2 zhi1 zhe3 shui2 ？ tai4 shou3 zi4 wei4 ye3。
-- 名之者誰？太守自謂也。
+- zuo4 ting2 zhe3 shui2？
+- 作亭者誰？
+- shan1 zhi1 seng1 zhi4 xian1 ye3。
+- 山之僧智仙也。
+- ming2 zhi1 zhe3 shui2？
+- 名之者誰？
+- tai4 shou3 zi4 wei4 ye3。
+- 太守自謂也。
 - tai4 shou3 yu3 ke4 lai2 yin3 wu1 ci3 ， yin3 shao3 zhe2 zui4 ， er2 nian2 you4 zui4 gao1 ， gu4 zi4 hao4 yue1 zui4 weng1 ye3。
 - 太守與客來飲於此，飲少輒醉，而年又最高，故自號曰醉翁也。
 - zui4 weng1 zhi1 yi4 bu2 zai4 jiu3 ， zai4 hu1 shan1 shui3 zhi1 jian4 ye3。
@@ -57,8 +61,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 人知從太守遊而樂，而不知太守之樂其樂也。
 - zui4 neng2 tong2 qi2 le4 ， xing3 neng2 shu4 yi3 wen2 zhe3 ， tai4 shou3 ye3。
 - 醉能同其樂，醒能述以文者，太守也。
-- tai4 shou3 wei4 shui2 ？ lu2 ling2 ou1 yang2 xiu1 ye3。
-- 太守謂誰？廬陵歐陽修也。
+- tai4 shou3 wei4 shui2？
+- 太守謂誰？
+- lu2 ling2 ou1 yang2 xiu1 ye3。
+- 廬陵歐陽修也。
 
 ## 注释
 

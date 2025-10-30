@@ -37,24 +37,34 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 丁卯大雨，三日乃止。
 - guan1 li4 xiang1 yu3 qing4 wu1 ting2 ， shang1 jia3 xiang1 yu3 ge1 wu1 shi4 ， nong2 fu1 xiang1 yu3 bian4 wu1 ye3 ， you1 zhe3 yi3 xi3 ， bing4 zhe3 yi3 yu4 ， er2 wu2 ting2 shi4 cheng2。
 - 官吏相與慶於庭，商賈相與歌於市，農夫相與忭於野，憂者以喜，病者以愈，而吾亭適成。
-- wu1 shi4 ju3 jiu3 wu1 ting2 shang4 ， yi3 shu3 ke4 er2 gao4 zhi1 ， yue1 ： “ wu3 ri4 bu4 yu3 ke3 hu1 ？ ” yue1 ： “ wu3 ri4 bu4 yu3 ze2 wu2 mai4。
-- 於是舉酒於亭上，以屬客而告之，曰：“五日不雨可乎？”曰：“五日不雨則無麥。
-- ” “ shi2 ri4 bu4 yu3 ke3 hu1 ？ ” yue1 ： “ shi2 ri4 bu4 yu3 ze2 wu2 he2。
-- ”“十日不雨可乎？”曰：“十日不雨則無禾。
+- wu1 shi4 ju3 jiu3 wu1 ting2 shang4 ， yi3 shu3 ke4 er2 gao4 zhi1 ， yue1 ： “ wu3 ri4 bu4 yu3 ke3 hu1？
+- 於是舉酒於亭上，以屬客而告之，曰：“五日不雨可乎？
+- ” yue1 ： “ wu3 ri4 bu4 yu3 ze2 wu2 mai4。
+- ”曰：“五日不雨則無麥。
+- ” “ shi2 ri4 bu4 yu3 ke3 hu1？
+- ”“十日不雨可乎？
+- ” yue1 ： “ shi2 ri4 bu4 yu3 ze2 wu2 he2。
+- ”曰：“十日不雨則無禾。
 - ” “ wu2 mai4 wu2 he2 ， sui4 qie3 jian4 ji1 ， yu4 song4 fan2 xing1 ， er2 dao4 zei2 zi1 chi4。
 - ”“無麥無禾，歲且荐饑，獄訟繁興，而盜賊滋熾。
-- ze2 wu2 yu3 er4 san1 zi3 ， sui1 yu4 you1 you2 yi3 le4 wu1 ci3 ting2 ， qi2 ke3 de2 ye1 ？ jin1 tian1 bu4 yi2 si1 min2 ， shi3 han4 er2 ci4 zhi1 yi3 yu3。
-- 則吾與二三子，雖欲優遊以樂於此亭，其可得耶？今天不遺斯民，始旱而賜之以雨。
+- ze2 wu2 yu3 er4 san1 zi3 ， sui1 yu4 you1 you2 yi3 le4 wu1 ci3 ting2 ， qi2 ke3 de2 ye1？
+- 則吾與二三子，雖欲優遊以樂於此亭，其可得耶？
+- jin1 tian1 bu4 yi2 si1 min2 ， shi3 han4 er2 ci4 zhi1 yi3 yu3。
+- 今天不遺斯民，始旱而賜之以雨。
 - shi3 wu2 yu3 er4 san1 zi3 de2 xiang1 yu3 you1 you2 yi3 le4 wu1 ci3 ting2 zhe3 ， jie1 yu3 zhi1 ci4 ye3。
 - 使吾與二三子得相與優遊以樂於此亭者，皆雨之賜也。
-- qi2 you4 ke3 wang4 ye1 ？ ”
-- 其又可忘耶？”
+- qi2 you4 ke3 wang4 ye1？
+- 其又可忘耶？
+- ”
+- ”
 - ji4 yi3 ming2 ting2 ， you4 cong2 er2 ge1 zhi1 ， yue1 ： “ shi3 tian1 er2 yu3 zhu1 ， han2 zhe3 bu4 de2 yi3 wei2 ru2；
 - 既以名亭，又從而歌之，曰：“使天而雨珠，寒者不得以爲襦；
 - shi3 tian1 er2 yu3 yu4 ， ji1 zhe3 bu4 de2 yi3 wei2 su4。
 - 使天而雨玉，飢者不得以爲粟。
-- yi4 yu3 san1 ri4 ， yi1 shui2 zhi1 li4 ？ min2 yue1 tai4 shou3。
-- 一雨三日，伊誰之力？民曰太守。
+- yi4 yu3 san1 ri4 ， yi1 shui2 zhi1 li4？
+- 一雨三日，伊誰之力？
+- min2 yue1 tai4 shou3。
+- 民曰太守。
 - tai4 shou3 bu4 you3 ， gui1 zhi1 tian1 zi3。
 - 太守不有，歸之天子。
 - tian1 zi3 yue1 bu4 ran2 ， gui1 zhi1 zao4 wu4。

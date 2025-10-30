@@ -33,14 +33,20 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 夜縋而出，見秦伯，曰：“秦、晉圍鄭，鄭既知亡矣。
 - ruo4 wang2 zheng4 er2 you3 yi4 wu1 jun1 ， gan3 yi3 fan2 zhi2 shi4。
 - 若亡鄭而有益於君，敢以煩執事。
-- yue4 guo2 yi3 bi3 yuan3 ， jun1 zhi1 qi2 nan2 ye3 ， yan1 yong4 wang2 zheng4 yi3 pei2 lin2 ？ lin2 zhi1 hou4 ， jun1 zhi1 bao2 ye3。
-- 越國以鄙遠，君知其難也，焉用亡鄭以陪鄰？鄰之厚，君之薄也。
+- yue4 guo2 yi3 bi3 yuan3 ， jun1 zhi1 qi2 nan2 ye3 ， yan1 yong4 wang2 zheng4 yi3 pei2 lin2？
+- 越國以鄙遠，君知其難也，焉用亡鄭以陪鄰？
+- lin2 zhi1 hou4 ， jun1 zhi1 bao2 ye3。
+- 鄰之厚，君之薄也。
 - ruo4 she4 zheng4 yi3 wei2 dong1 dao4 zhu3 ， xing2 li0 zhi1 wang3 lai2 ， gong4 qi2 fa2 kun4 ， jun1 yi4 wu2 suo3 hai4。
 - 若舍鄭以爲東道主，行李之往來，共其乏困，君亦無所害。
 - qie3 jun1 chang2 wei2 jin4 jun1 ci4 yi3 ， xu1 jun1 jiao1 、 xia2 ， chao2 ji4 er2 xi1 she4 ban3 yan1 ， jun1 zhi1 suo3 zhi1 ye3。
 - 且君嘗爲晉君賜矣，許君焦、瑕，朝濟而夕設版焉，君之所知也。
-- fu1 jin4 ， he2 yan4 zhi1 you3 ？ ji4 dong1 feng1 zheng4 ， you4 yu4 si4 qi2 xi1 feng1 ， ruo4 bu2 que4 qin2 ， jiang1 yan1 qu3 zhi1 ？ que4 qin2 yi3 li4 jin4 ， wei2 jun1 tu2 zhi1。
-- 夫晉，何厭之有？既東封鄭，又欲肆其西封，若不闕秦，將焉取之？闕秦以利晉，唯君圖之。
+- fu1 jin4 ， he2 yan4 zhi1 you3？
+- 夫晉，何厭之有？
+- ji4 dong1 feng1 zheng4 ， you4 yu4 si4 qi2 xi1 feng1 ， ruo4 bu2 que4 qin2 ， jiang1 yan1 qu3 zhi1？
+- 既東封鄭，又欲肆其西封，若不闕秦，將焉取之？
+- que4 qin2 yi3 li4 jin4 ， wei2 jun1 tu2 zhi1。
+- 闕秦以利晉，唯君圖之。
 - ” qin2 bo2 shuo1 ， yu3 zheng4 ren2 meng2。
 - ”秦伯說，與鄭人盟。
 - shi3 qi3 zi3 、 feng2 sun1 、 yang2 sun1 shu4 zhi1 ， nai3 huan2。

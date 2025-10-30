@@ -21,8 +21,14 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 一夕，坐陶編修樓，隨意抽架上書，得《闕編》詩一帙。
 - e4 chu3 mao2 shu1 ， yan1 mei2 bai4 hei1 ， wei1 you3 zi4 xing2。
 - 惡楮毛書，煙煤敗黑，微有字形。
-- shao1 jiu4 deng1 jian4 du2 zhi1 ， du2 wei4 shu4 shou3 ， bu4 jue2 jing1 yue4 ， hu1 hu1 shi2 kui4 ： “ 《 que4 bian1 》 he2 ren2 zuo4 zhe3 ？ jin1 ye1 ？ gu3 ye1 ？ ” shi2 kui4 yue1 ： “ ci3 yu2 xiang1 xian1 bei4 xu2 tian1 chi2 xian1 sheng1 shu1 ye3。
-- 稍就燈間讀之，讀未數首，不覺驚躍，忽呼石簣：“《闕編》何人作者？今耶？古耶？”石簣曰：“此餘鄉先輩徐天池先生書也。
+- shao1 jiu4 deng1 jian4 du2 zhi1 ， du2 wei4 shu4 shou3 ， bu4 jue2 jing1 yue4 ， hu1 hu1 shi2 kui4 ： “ 《 que4 bian1 》 he2 ren2 zuo4 zhe3？
+- 稍就燈間讀之，讀未數首，不覺驚躍，忽呼石簣：“《闕編》何人作者？
+- jin1 ye1？
+- 今耶？
+- gu3 ye1？
+- 古耶？
+- ” shi2 kui4 yue1 ： “ ci3 yu2 xiang1 xian1 bei4 xu2 tian1 chi2 xian1 sheng1 shu1 ye3。
+- ”石簣曰：“此餘鄉先輩徐天池先生書也。
 - xian1 sheng1 ming2 wei4 ， zi4 wen2 chang2 ， jia1 、 long2 jian4 ren2 ， qian2 wu3 liu4 nian2 fang1 zu2。
 - 先生名渭，字文長，嘉、隆間人，前五六年方卒。
 - jin1 juan4 zhou2 ti2 e2 shang4 you3 tian2 shui3 yue4 zhe3 ， ji2 qi2 ren2 ye3。
@@ -145,8 +151,10 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 表上，人主悅，是人主知有先生矣。
 - du2 shen1 wei4 gui4 er3。
 - 獨身未貴耳。
-- xian1 sheng1 shi1 wen2 jue2 qi3 ， yi4 sao3 jin4 dai4 wu2 hui4 zhi1 xi2 ， bai3 shi4 er2 xia4 ， zi4 you3 ding4 lun4 ， hu2 wei2 bu2 yu4 zai1 ？ mei2 ke4 sheng1 chang2 ji4 yu2 shu1 yue1 ： “ wen2 chang2 wu2 lao3 you3 ， bing4 qi2 wu1 ren2 ， ren2 qi2 wu1 shi1 ， shi1 qi2 wu1 zi4 ， zi4 qi2 wu1 wen2 ， wen2 qi2 wu1 hua4。
-- 先生詩文崛起，一掃近代蕪穢之習，百世而下，自有定論，胡爲不遇哉？梅客生嘗寄餘書曰：“文長吾老友，病奇於人，人奇於詩，詩奇於字，字奇於文，文奇於畫。
+- xian1 sheng1 shi1 wen2 jue2 qi3 ， yi4 sao3 jin4 dai4 wu2 hui4 zhi1 xi2 ， bai3 shi4 er2 xia4 ， zi4 you3 ding4 lun4 ， hu2 wei2 bu2 yu4 zai1？
+- 先生詩文崛起，一掃近代蕪穢之習，百世而下，自有定論，胡爲不遇哉？
+- mei2 ke4 sheng1 chang2 ji4 yu2 shu1 yue1 ： “ wen2 chang2 wu2 lao3 you3 ， bing4 qi2 wu1 ren2 ， ren2 qi2 wu1 shi1 ， shi1 qi2 wu1 zi4 ， zi4 qi2 wu1 wen2 ， wen2 qi2 wu1 hua4。
+- 梅客生嘗寄餘書曰：“文長吾老友，病奇於人，人奇於詩，詩奇於字，字奇於文，文奇於畫。
 - ” yu2 wei4 wen2 chang2 wu2 zhi1 er2 bu4 qi2 zhe3 ye3。
 - ”餘謂文長無之而不奇者也。
 - wu2 zhi1 er2 bu4 qi2 ， si1 wu2 zhi1 er2 bu4 qi2 ye3 zai1！

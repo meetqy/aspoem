@@ -13,8 +13,10 @@ tags: []
 
 - zi3 yue1 ： “ li3 ren2 wei4 mei3。
 - 子曰：“里仁为美。
-- ze2 bu2 chu4 ren2 ， yan1 de2 zhi1 ？ ”
-- 择不处仁，焉得知？”
+- ze2 bu2 chu4 ren2 ， yan1 de2 zhi1？
+- 择不处仁，焉得知？
+- ”
+- ”
 - zi3 yue1 ： “ bu4 ren2 zhe3 bu4 ke3 yi3 jiu3 chu4 yue1 ， bu4 ke3 yi3 chang2 chu4 le4。
 - 子曰：“不仁者不可以久处约，不可以长处乐。
 - ren2 zhe3 an1 ren2 ， zhi1 zhe3 li4 ren2。
@@ -37,8 +39,10 @@ tags: []
 - 贫与贱，是人之所恶也；
 - bu4 yi3 qi2 dao4 de2 zhi1 ， bu2 qu4 ye3。
 - 不以其道得之，不去也。
-- jun1 zi3 qu4 ren2 ， e4 hu1 cheng2 ming2 ？ jun1 zi3 wu2 zhong1 shi2 zhi1 jian1 wei2 ren2 ， zao4 ci4 bi4 yu2 shi4 ， dian1 pei4 bi4 yu2 shi4。
-- 君子去仁，恶乎成名？君子无终食之间违仁，造次必于是，颠沛必于是。
+- jun1 zi3 qu4 ren2 ， e4 hu1 cheng2 ming2？
+- 君子去仁，恶乎成名？
+- jun1 zi3 wu2 zhong1 shi2 zhi1 jian1 wei2 ren2 ， zao4 ci4 bi4 yu2 shi4 ， dian1 pei4 bi4 yu2 shi4。
+- 君子无终食之间违仁，造次必于是，颠沛必于是。
 - ”
 - ”
 - zi3 yue1 ： “ wo3 wei4 jian4 hao3 ren2 zhe3 ， e4 bu4 ren2 zhe3。
@@ -47,8 +51,10 @@ tags: []
 - 好仁者，无以尚之；
 - e4 bu4 ren2 zhe3 ， qi2 wei4 ren2 yi3 ， bu4 shi3 bu4 ren2 zhe3 jia1 hu1 qi2 shen1。
 - 恶不仁者，其为仁矣，不使不仁者加乎其身。
-- you3 neng2 yi2 ri4 yong4 qi2 li4 yu2 ren2 yi3 hu1 ？ wo3 wei4 jian4 li4 bu4 zu2 zhe3。
-- 有能一日用其力于仁矣乎？我未见力不足者。
+- you3 neng2 yi2 ri4 yong4 qi2 li4 yu2 ren2 yi3 hu1？
+- 有能一日用其力于仁矣乎？
+- wo3 wei4 jian4 li4 bu4 zu2 zhe3。
+- 我未见力不足者。
 - gai4 you3 zhi1 yi3 ， wo3 wei4 jian4 ye3。
 - 盖有之矣，我未见也。
 - ”
@@ -81,8 +87,14 @@ tags: []
 - 子曰：“放于利而行，多怨。
 - ”
 - ”
-- zi3 yue1 ： “ neng2 yi3 li3 rang4 wei2 guo2 hu1 ？ he2 you3 ？ bu4 neng2 yi3 li3 rang4 wei2 guo2 ， ru2 li3 he2 ？ ”
-- 子曰：“能以礼让为国乎？何有？不能以礼让为国，如礼何？”
+- zi3 yue1 ： “ neng2 yi3 li3 rang4 wei2 guo2 hu1？
+- 子曰：“能以礼让为国乎？
+- he2 you3？
+- 何有？
+- bu4 neng2 yi3 li3 rang4 wei2 guo2 ， ru2 li3 he2？
+- 不能以礼让为国，如礼何？
+- ”
+- ”
 - zi3 yue1 ： “ bu2 huan4 wu2 wei4 ， huan4 suo3 yi3 li4。
 - 子曰：“不患无位，患所以立。
 - bu2 huan4 mo4 ji3 zhi1 ， qiu2 wei4 ke3 zhi1 ye3。
@@ -95,8 +107,10 @@ tags: []
 - 吾道一以贯之。
 - ” ceng2 zi3 yue1 ： “ wei2。
 - ”曾子曰：“唯。
-- ” zi3 chu1 ， men2 ren2 wen4 yue1 ： “ he2 wei4 ye3 ？ ” ceng2 zi3 yue1 ： “ fu1 zi3 zhi1 dao4 ， zhong1 shu4 er2 yi3 yi3。
-- ”子出，门人问曰：“何谓也？”曾子曰：“夫子之道，忠恕而已矣。
+- ” zi3 chu1 ， men2 ren2 wen4 yue1 ： “ he2 wei4 ye3？
+- ”子出，门人问曰：“何谓也？
+- ” ceng2 zi3 yue1 ： “ fu1 zi3 zhi1 dao4 ， zhong1 shu4 er2 yi3 yi3。
+- ”曾子曰：“夫子之道，忠恕而已矣。
 - ”
 - ”
 - zi3 yue1 ： “ jun1 zi3 yu4 yu2 yi4 ， xiao3 ren2 yu4 yu2 li4。

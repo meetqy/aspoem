@@ -19,12 +19,18 @@ tags: []
 - ”明日遂行。
 - zai4 chen2 jue2 liang2 ， cong2 zhe3 bing4 mo4 neng2 xing1。
 - 在陈绝粮，从者病莫能兴。
-- zi3 lu4 yun4 jian4 yue1 ： “ jun1 zi3 yi4 you3 qiong2 hu1 ？ ” zi3 yue1 ： “ jun1 zi3 gu4 qiong2 ， xiao3 ren2 qiong2 si1 lan4 yi3。
-- 子路愠见曰：“君子亦有穷乎？”子曰：“君子固穷，小人穷斯滥矣。
+- zi3 lu4 yun4 jian4 yue1 ： “ jun1 zi3 yi4 you3 qiong2 hu1？
+- 子路愠见曰：“君子亦有穷乎？
+- ” zi3 yue1 ： “ jun1 zi3 gu4 qiong2 ， xiao3 ren2 qiong2 si1 lan4 yi3。
+- ”子曰：“君子固穷，小人穷斯滥矣。
 - ”
 - ”
-- zi3 yue1 ： “ ci4 ye3 ， nü3 yi3 yu3 wei4 duo1 xue2 er2 shi2 zhi1 zhe3 yu3 ？ ” dui4 yue1 ： “ ran2 ， fei1 yu3 ？ ” yue1 ： “ fei1 ye3 ， yu3 yi1 yi3 guan4 zhi1。
-- 子曰：“赐也，女以予为多学而识之者与？”对曰：“然，非与？”曰：“非也，予一以贯之。
+- zi3 yue1 ： “ ci4 ye3 ， nü3 yi3 yu3 wei4 duo1 xue2 er2 shi2 zhi1 zhe3 yu3？
+- 子曰：“赐也，女以予为多学而识之者与？
+- ” dui4 yue1 ： “ ran2 ， fei1 yu3？
+- ”对曰：“然，非与？
+- ” yue1 ： “ fei1 ye3 ， yu3 yi1 yi3 guan4 zhi1。
+- ”曰：“非也，予一以贯之。
 - ”
 - ”
 - zi3 yue1 ： “ you2 ， zhi1 de2 zhe3 xian1 yi3。
@@ -33,14 +39,18 @@ tags: []
 - ”
 - zi3 yue1 ： “ wu2 wei4 er2 zhi4 zhe3 qi2 shun4 ye3 yu3！
 - 子曰：“无为而治者其舜也与！
-- fu1 he2 wei4 zai1 ？ gong1 ji3 zheng4 nan2 mian4 er2 yi3 yi3。
-- 夫何为哉？恭己正南面而已矣。
+- fu1 he2 wei4 zai1？
+- 夫何为哉？
+- gong1 ji3 zheng4 nan2 mian4 er2 yi3 yi3。
+- 恭己正南面而已矣。
 - ”
 - ”
 - zi3 zhang1 wen4 xing2 ， zi3 yue1 ： “ yan2 zhong1 xin4 ， xing2 du3 jing4 ， sui1 man2 mo4 zhi1 bang1 xing2 yi3；
 - 子张问行，子曰：“言忠信，行笃敬，虽蛮貊之邦行矣；
-- yan2 bu4 zhong1 xin4 ， xing2 bu4 du3 jing4 ， sui1 zhou1 li3 xing2 hu1 zai1 ？ li4 ze2 jian4 qi2 can1 yu2 qian2 ye3；
-- 言不忠信，行不笃敬，虽州里行乎哉？立则见其参于前也；
+- yan2 bu4 zhong1 xin4 ， xing2 bu4 du3 jing4 ， sui1 zhou1 li3 xing2 hu1 zai1？
+- 言不忠信，行不笃敬，虽州里行乎哉？
+- li4 ze2 jian4 qi2 can1 yu2 qian2 ye3；
+- 立则见其参于前也；
 - zai4 yu2 ze2 jian4 qi2 yi3 yu2 heng2 ye3 ， fu1 ran2 hou4 xing2。
 - 在舆则见其倚于衡也，夫然后行。
 - ” zi3 zhang1 shu1 zhu1 shen1。
@@ -135,14 +145,18 @@ tags: []
 - 子曰：“君子不以言举人，不以人废言。
 - ”
 - ”
-- zi3 gong4 wen4 yue1 ： “ you3 yi4 yan2 er2 ke3 yi3 zhong1 shen1 xing2 zhi1 zhe3 hu1 ？ ” zi3 yue1 ： “ qi2 shu4 hu1！
-- 子贡问曰：“有一言而可以终身行之者乎？”子曰：“其恕乎！
+- zi3 gong4 wen4 yue1 ： “ you3 yi4 yan2 er2 ke3 yi3 zhong1 shen1 xing2 zhi1 zhe3 hu1？
+- 子贡问曰：“有一言而可以终身行之者乎？
+- ” zi3 yue1 ： “ qi2 shu4 hu1！
+- ”子曰：“其恕乎！
 - ji3 suo3 bu2 yu4 ， wu4 shi1 yu2 ren2。
 - 己所不欲，勿施于人。
 - ”
 - ”
-- zi3 yue1 ： “ wu2 zhi1 yu2 ren2 ye3 ， shui2 hui3 shui2 yu4 ？ ru2 you3 suo3 yu4 zhe3 ， qi2 you3 suo3 shi4 yi3。
-- 子曰：“吾之于人也，谁毁谁誉？如有所誉者，其有所试矣。
+- zi3 yue1 ： “ wu2 zhi1 yu2 ren2 ye3 ， shui2 hui3 shui2 yu4？
+- 子曰：“吾之于人也，谁毁谁誉？
+- ru2 you3 suo3 yu4 zhe3 ， qi2 you3 suo3 shi4 yi3。
+- 如有所誉者，其有所试矣。
 - si1 min2 ye3 ， san1 dai4 zhi1 suo3 yi3 zhi2 dao4 er2 xing2 ye3。
 - 斯民也，三代之所以直道而行也。
 - ”
@@ -231,8 +245,10 @@ tags: []
 - ”皆坐，子告之曰：“某在斯，某在斯。
 - ” shi1 mian3 chu1。
 - ”师冕出。
-- zi3 zhang1 wen4 yue1 ： “ yu3 shi1 yan2 zhi1 dao4 yu3 ？ ” zi3 yue1 ： “ ran2 ， gu4 xiang1 shi1 zhi1 dao4 ye3。
-- 子张问曰：“与师言之道与？”子曰：“然，固相师之道也。
+- zi3 zhang1 wen4 yue1 ： “ yu3 shi1 yan2 zhi1 dao4 yu3？
+- 子张问曰：“与师言之道与？
+- ” zi3 yue1 ： “ ran2 ， gu4 xiang1 shi1 zhi1 dao4 ye3。
+- ”子曰：“然，固相师之道也。
 - ”
 - ”
 

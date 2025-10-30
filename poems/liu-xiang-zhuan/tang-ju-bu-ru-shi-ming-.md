@@ -23,18 +23,28 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 安陵君因使唐雎使於秦。
 - ( shuo1   tong1 ： yue4 )
 - （說 通：悅）
-- qin2 wang2 wei4 tang2 ju1 yue1 ： “ gua3 ren2 yi3 wu3 bai3 li3 zhi1 di4 yi4 an1 ling2 ， an1 ling2 jun1 bu4 ting1 gua3 ren2 ， he2 ye3 ？ qie3 qin2 mie4 han2 wang2 wei4 ， er2 jun1 yi3 wu3 shi2 li3 zhi1 di4 cun2 zhe3 ， yi3 jun1 wei2 chang2 zhe3 ， gu4 bu2 cuo4 yi4 ye3。
-- 秦王謂唐雎曰：“寡人以五百里之地易安陵，安陵君不聽寡人，何也？且秦滅韓亡魏，而君以五十里之地存者，以君爲長者，故不錯意也。
-- jin1 wu2 yi3 shi2 bei4 zhi1 di4 ， qing3 guang3 wu1 jun1 ， er2 jun1 ni4 gua3 ren2 zhe3 ， qing1 gua3 ren2 yu3 ？ ” tang2 ju1 dui4 yue1 ： “ fou3 ， fei1 ruo4 shi4 ye3。
-- 今吾以十倍之地，請廣於君，而君逆寡人者，輕寡人與？”唐雎對曰：“否，非若是也。
-- an1 ling2 jun1 shou4 di4 wu1 xian1 wang2 er2 shou3 zhi1 ， sui1 qian1 li3 bu4 gan3 yi4 ye3 ， qi3 zhi2 wu3 bai3 li3 zai1 ？ ”
-- 安陵君受地於先王而守之，雖千里不敢易也，豈直五百里哉？”
-- qin2 wang2 fu2 ran2 nu4 ， wei4 tang2 ju1 yue1 ： “ gong1 yi4 chang2 wen2 tian1 zi3 zhi1 nu4 hu1 ？ ” tang2 ju1 dui4 yue1 ： “ chen2 wei4 chang2 wen2 ye3。
-- 秦王怫然怒，謂唐雎曰：“公亦嘗聞天子之怒乎？”唐雎對曰：“臣未嘗聞也。
+- qin2 wang2 wei4 tang2 ju1 yue1 ： “ gua3 ren2 yi3 wu3 bai3 li3 zhi1 di4 yi4 an1 ling2 ， an1 ling2 jun1 bu4 ting1 gua3 ren2 ， he2 ye3？
+- 秦王謂唐雎曰：“寡人以五百里之地易安陵，安陵君不聽寡人，何也？
+- qie3 qin2 mie4 han2 wang2 wei4 ， er2 jun1 yi3 wu3 shi2 li3 zhi1 di4 cun2 zhe3 ， yi3 jun1 wei2 chang2 zhe3 ， gu4 bu2 cuo4 yi4 ye3。
+- 且秦滅韓亡魏，而君以五十里之地存者，以君爲長者，故不錯意也。
+- jin1 wu2 yi3 shi2 bei4 zhi1 di4 ， qing3 guang3 wu1 jun1 ， er2 jun1 ni4 gua3 ren2 zhe3 ， qing1 gua3 ren2 yu3？
+- 今吾以十倍之地，請廣於君，而君逆寡人者，輕寡人與？
+- ” tang2 ju1 dui4 yue1 ： “ fou3 ， fei1 ruo4 shi4 ye3。
+- ”唐雎對曰：“否，非若是也。
+- an1 ling2 jun1 shou4 di4 wu1 xian1 wang2 er2 shou3 zhi1 ， sui1 qian1 li3 bu4 gan3 yi4 ye3 ， qi3 zhi2 wu3 bai3 li3 zai1？
+- 安陵君受地於先王而守之，雖千里不敢易也，豈直五百里哉？
+- ”
+- ”
+- qin2 wang2 fu2 ran2 nu4 ， wei4 tang2 ju1 yue1 ： “ gong1 yi4 chang2 wen2 tian1 zi3 zhi1 nu4 hu1？
+- 秦王怫然怒，謂唐雎曰：“公亦嘗聞天子之怒乎？
+- ” tang2 ju1 dui4 yue1 ： “ chen2 wei4 chang2 wen2 ye3。
+- ”唐雎對曰：“臣未嘗聞也。
 - ” qin2 wang2 yue1 ： “ tian1 zi3 zhi1 nu4 ， fu2 shi1 bai3 wan4 ， liu2 xue4 qian1 li3。
 - ”秦王曰：“天子之怒，伏屍百萬，流血千里。
-- ” tang2 ju1 yue1 ： “ da4 wang2 chang2 wen2 bu4 yi1 zhi1 nu4 hu1 ？ ” qin2 wang2 yue1 ： “ bu4 yi1 zhi1 nu4 ， yi4 mian3 guan1 tu2 xian3 ， yi3 tou2 qiang1 di4 er3。
-- ”唐雎曰：“大王嘗聞布衣之怒乎？”秦王曰：“布衣之怒，亦免冠徒跣，以頭搶地耳。
+- ” tang2 ju1 yue1 ： “ da4 wang2 chang2 wen2 bu4 yi1 zhi1 nu4 hu1？
+- ”唐雎曰：“大王嘗聞布衣之怒乎？
+- ” qin2 wang2 yue1 ： “ bu4 yi1 zhi1 nu4 ， yi4 mian3 guan1 tu2 xian3 ， yi3 tou2 qiang1 di4 er3。
+- ”秦王曰：“布衣之怒，亦免冠徒跣，以頭搶地耳。
 - ” tang2 ju1 yue1 ： “ ci3 yong1 fu1 zhi1 nu4 ye3 ， fei1 shi4 zhi1 nu4 ye3。
 - ”唐雎曰：“此庸夫之怒也，非士之怒也。
 - fu1 zhuan1 zhu1 zhi1 ci4 wang2 liao2 ye3 ， hui4 xing1 xi2 yue4；

@@ -23,8 +23,10 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - ”是氣也，寓於尋常之中，而塞乎天地之間。
 - zu2 ran2 yu4 zhi1 ， ze2 wang2 gong1 shi1 qi2 gui4 ， jin4 、 chu3 shi1 qi2 fu4 ， liang2 、 ping2 shi1 qi2 zhi4 ， bi4 、 yu4 shi1 qi2 yong3 ， yi2 、 qin2 shi1 qi2 bian4。
 - 卒然遇之，則王公失其貴，晉、楚失其富，良、平失其智，賁、育失其勇，儀、秦失其辯。
-- shi4 shu2 shi3 zhi1 ran2 zai1 ？ qi2 bi4 you3 bu4 yi1 xing2 er2 li4 ， bu2 shi4 li4 er2 xing2 ， bu2 dai4 sheng1 er2 cun2 ， bu4 sui2 si3 er2 wang2 zhe3 yi3。
-- 是孰使之然哉？其必有不依形而立，不恃力而行，不待生而存，不隨死而亡者矣。
+- shi4 shu2 shi3 zhi1 ran2 zai1？
+- 是孰使之然哉？
+- qi2 bi4 you3 bu4 yi1 xing2 er2 li4 ， bu2 shi4 li4 er2 xing2 ， bu2 dai4 sheng1 er2 cun2 ， bu4 sui2 si3 er2 wang2 zhe3 yi3。
+- 其必有不依形而立，不恃力而行，不待生而存，不隨死而亡者矣。
 - gu4 zai4 tian1 wei2 xing1 chen2 ， zai4 di4 wei2 he2 yue4 ， you1 ze2 wei2 gui3 shen2 ， er2 ming2 ze2 fu4 wei2 ren2。
 - 故在天爲星辰，在地爲河嶽，幽則爲鬼神，而明則復爲人。
 - ci3 li3 zhi1 chang2 ， wu2 zu2 guai4 zhe3。
@@ -35,7 +37,7 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 獨韓文公起布衣，談笑而麾之，天下靡然從公，復歸於正，蓋三百年於此矣。
 - wen2 qi3 ba1 dai4 zhi1 shuai1 ， er2 dao4 ji4 tian1 xia4 zhi1 ni4；
 - 文起八代之衰，而道濟天下之溺；
-- zhong1 fan4 ren2 zhu3 zhi1 nu4 ， er2 yong3 duo2 san1 jun1 zhi1 shuai4 ： ci3 qi3 fei1 can1 tian1 di4 ， guan1 sheng4 shuai1 ， hao4 ran2 er2 du2 cun2 zhe3 hu1 ？
+- zhong1 fan4 ren2 zhu3 zhi1 nu4 ， er2 yong3 duo2 san1 jun1 zhi1 shuai4 ： ci3 qi3 fei1 can1 tian1 di4 ， guan1 sheng4 shuai1 ， hao4 ran2 er2 du2 cun2 zhe3 hu1？
 - 忠犯人主之怒，而勇奪三軍之帥：此豈非參天地，關盛衰，浩然而獨存者乎？
 - gai4 chang2 lun4 tian1 ren2 zhi1 bian4 ， yi3 wei4 ren2 wu2 suo3 bu2 zhi4 ， wei2 tian1 bu4 rong2 wei3。
 - 蓋嘗論天人之辨，以謂人無所不至，惟天不容僞。
@@ -81,8 +83,10 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 公之神在天下者，如水之在地中，無所往而不在也。
 - er2 chao2 ren2 du2 xin4 zhi1 shen1 ， si1 zhi1 zhi4 ， hun1 hao1 qi1 chuang4 ， ruo4 huo4 jian4 zhi1。
 - 而潮人獨信之深，思之至，焄蒿悽愴，若或見之。
-- pi4 ru2 zao2 jing3 de2 quan2 ， er2 yue1 shui3 zhuan1 zai4 shi4 ， qi3 li3 ye3 zai1 ？ ” yuan2 feng1 qi1 nian2 ， zhao4 bai4 gong1 chang1 li2 bo2 ， gu4 bang3 yue1 ： “ chang1 li2 bo2 han2 wen2 gong1 zhi1 miao4。
-- 譬如鑿井得泉，而曰水專在是，豈理也哉？”元豐七年，詔拜公昌黎伯，故榜曰：“昌黎伯韓文公之廟。
+- pi4 ru2 zao2 jing3 de2 quan2 ， er2 yue1 shui3 zhuan1 zai4 shi4 ， qi3 li3 ye3 zai1？
+- 譬如鑿井得泉，而曰水專在是，豈理也哉？
+- ” yuan2 feng1 qi1 nian2 ， zhao4 bai4 gong1 chang1 li2 bo2 ， gu4 bang3 yue1 ： “ chang1 li2 bo2 han2 wen2 gong1 zhi1 miao4。
+- ”元豐七年，詔拜公昌黎伯，故榜曰：“昌黎伯韓文公之廟。
 - ” chao2 ren2 qing3 shu1 qi2 shi4 wu1 shi2 ， yin1 zuo4 shi1 yi3 yi2 zhi1 ， shi3 ge1 yi3 si4 gong1。
 - ”潮人請書其事於石，因作詩以遺之，使歌以祀公。
 - qi2 ci2 yue1 ： “ gong1 xi1 qi2 long2 bai2 yun2 xiang1 ， shou3 jue2 yun2 han4 fen1 tian1 zhang1 ， tian1 sun1 wei2 zhi1 yun2 jin3 shang0。

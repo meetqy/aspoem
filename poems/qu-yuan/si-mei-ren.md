@@ -47,7 +47,7 @@ tags: []
 - 吾将荡志而愉乐兮，遵江夏以娱忧。
 - lan3 da4 bao2 zhi1 fang1 chai3 xi1 ， qian1 chang2 zhou1 zhi1 su4 mang3。
 - 揽大薄之芳茝兮，搴长洲之宿莽。
-- xi1 wu2 bu4 ji2 gu3 ren2 xi1 ， wu2 shui2 yu3 wan2 ci3 fang1 cao3 ？
+- xi1 wu2 bu4 ji2 gu3 ren2 xi1 ， wu2 shui2 yu3 wan2 ci3 fang1 cao3？
 - 惜吾不及古人兮，吾谁与玩此芳草？
 - jie3 bian1 bao2 yu3 za2 cai4 xi1 ， bei4 yi3 wei2 jiao1 pei4。
 - 解萹薄与杂菜兮，备以为交佩。

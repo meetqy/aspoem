@@ -19,7 +19,7 @@ tags: []
 - 玄鸟兮辞归，飞翔兮灵丘。
 - wang4 xi1 gu3 xi1 weng3 yu4 ， xiong2 pi2 xi1 hou3 hao2。
 - 望谿谷兮滃郁，熊罴兮呴嗥。
-- tang2 yu2 xi1 bu4 cun2 ， he2 gu4 xi1 jiu3 liu2 ？
+- tang2 yu2 xi1 bu4 cun2 ， he2 gu4 xi1 jiu3 liu2？
 - 唐虞兮不存，何故兮久留？
 - lin2 yuan1 xi1 wang1 yang2 ， gu4 lin2 xi1 hu1 huang1。
 - 临渊兮汪洋，顾林兮忽荒。

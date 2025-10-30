@@ -35,8 +35,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 故天下畏皋陶執法之堅，而樂堯用刑之寬。
 - si4 yue4 yue1 “ gun3 ke3 yong4 ” ， yao2 yue1 “ bu4 ke3 ， gun3 fang1 ming4 pi3 zu2 ” ， ji4 er2 yue1 “ shi4 zhi1 ”。
 - 四嶽曰“鯀可用”，堯曰“不可，鯀方命圮族”，既而曰“試之”。
-- he2 yao2 zhi1 bu4 ting1 gao1 tao2 zhi1 sha1 ren2 ， er2 cong2 si4 yue4 zhi1 yong4 gun3 ye3 ？ ran2 ze2 sheng4 ren2 zhi1 yi4 ， gai4 yi4 ke3 jian4 yi3。
-- 何堯之不聽皋陶之殺人，而從四嶽之用鯀也？然則聖人之意，蓋亦可見矣。
+- he2 yao2 zhi1 bu4 ting1 gao1 tao2 zhi1 sha1 ren2 ， er2 cong2 si4 yue4 zhi1 yong4 gun3 ye3？
+- 何堯之不聽皋陶之殺人，而從四嶽之用鯀也？
+- ran2 ze2 sheng4 ren2 zhi1 yi4 ， gai4 yi4 ke3 jian4 yi3。
+- 然則聖人之意，蓋亦可見矣。
 - 《 shu1 》 yue1 ： “ zui4 yi2 wei2 qing1 ， gong1 yi2 wei2 zhong4。
 - 《書》曰：“罪疑惟輕，功疑惟重。
 - yu3 qi2 sha1 bu4 gu1 ， ning2 shi1 bu4 jing1。
@@ -71,8 +73,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 《詩》曰：“君子如祉，亂庶遄已。
 - jun1 zi3 ru2 nu4 ， luan4 shu4 chuan2 ju3。
 - 君子如怒，亂庶遄沮。
-- ” fu1 jun1 zi3 zhi1 yi3 luan4 ， qi3 you3 yi4 shu4 zai1 ？ shi2 qi2 xi3 nu4 ， er2 wu2 shi1 hu1 ren2 er2 yi3 yi3。
-- ”夫君子之已亂，豈有異術哉？時其喜怒，而無失乎仁而已矣。
+- ” fu1 jun1 zi3 zhi1 yi3 luan4 ， qi3 you3 yi4 shu4 zai1？
+- ”夫君子之已亂，豈有異術哉？
+- shi2 qi2 xi3 nu4 ， er2 wu2 shi1 hu1 ren2 er2 yi3 yi3。
+- 時其喜怒，而無失乎仁而已矣。
 - 《 chun1 qiu1 》 zhi1 yi4 ， li4 fa3 gui4 yan2 ， er2 ze2 ren2 gui4 kuan1。
 - 《春秋》之義，立法貴嚴，而責人貴寬。
 - yin1 qi2 bao1 bian3 zhi1 yi4 ， yi3 zhi4 shang3 fa2 ， yi4 zhong1 hou4 zhi1 zhi4 ye3。

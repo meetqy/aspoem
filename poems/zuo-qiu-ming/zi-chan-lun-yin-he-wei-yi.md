@@ -29,19 +29,25 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - 今吾子愛人則以政。
 - you2 wei4 neng2 cao1 dao1 er2 shi3 ge1 ye3 ， qi2 shang1 shi2 duo1。
 - 猶未能操刀而使割也，其傷實多。
-- zi3 zhi1 ai4 ren2 ， shang1 zhi1 er2 yi3 ， qi2 shui2 gan3 qiu2 ai4 wu1 zi3 ？ zi3 wu1 zheng4 guo2 ， dong4 ye3。
-- 子之愛人，傷之而已，其誰敢求愛於子？子於鄭國，棟也。
-- dong4 zhe2 cui1 beng1 ， qiao2 jiang1 yan4 yan1 ， gan3 bu2 jin4 yan2 ？ zi3 you3 mei3 jin3 ， bu4 shi3 ren2 xue2 zhi4 yan1。
-- 棟折榱崩，僑將厭焉，敢不盡言？子有美錦，不使人學制焉。
+- zi3 zhi1 ai4 ren2 ， shang1 zhi1 er2 yi3 ， qi2 shui2 gan3 qiu2 ai4 wu1 zi3？
+- 子之愛人，傷之而已，其誰敢求愛於子？
+- zi3 wu1 zheng4 guo2 ， dong4 ye3。
+- 子於鄭國，棟也。
+- dong4 zhe2 cui1 beng1 ， qiao2 jiang1 yan4 yan1 ， gan3 bu2 jin4 yan2？
+- 棟折榱崩，僑將厭焉，敢不盡言？
+- zi3 you3 mei3 jin3 ， bu4 shi3 ren2 xue2 zhi4 yan1。
+- 子有美錦，不使人學制焉。
 - da4 guan1 da4 yi4 ， shen1 zhi1 suo3 bi4 ye3 ， er2 shi3 xue2 zhe3 zhi4 yan1。
 - 大官大邑，身之所庇也，而使學者制焉。
-- qi2 wei2 mei3 jin3 ， bu2 yi4 duo1 hu1 ？ qiao2 wen2 xue2 er2 hou4 ru4 zheng4 ， wei4 wen2 yi3 zheng4 xue2 zhe3 ye3。
-- 其爲美錦，不亦多乎？僑聞學而後入政，未聞以政學者也。
+- qi2 wei2 mei3 jin3 ， bu2 yi4 duo1 hu1？
+- 其爲美錦，不亦多乎？
+- qiao2 wen2 xue2 er2 hou4 ru4 zheng4 ， wei4 wen2 yi3 zheng4 xue2 zhe3 ye3。
+- 僑聞學而後入政，未聞以政學者也。
 - ruo4 guo3 xing2 ci3 ， bi4 you3 suo3 hai4。
 - 若果行此，必有所害。
 - pi4 ru2 tian2 lie4 ， she4 yu4 guan4 ， ze2 neng2 huo4 qin2；
 - 譬如田獵，射御貫，則能獲禽；
-- ruo4 wei4 chang2 deng1 ju1 she4 yu4 ， ze2 bai4 ji4 yan4 fu4 shi4 ju4 ， he2 xia2 si1 huo4 ？
+- ruo4 wei4 chang2 deng1 ju1 she4 yu4 ， ze2 bai4 ji4 yan4 fu4 shi4 ju4 ， he2 xia2 si1 huo4？
 - 若未嘗登車射御，則敗績厭覆是懼，何暇思獲？
 - zi3 pi2 yue1 ： “ shan4 zai1！
 - 子皮曰：“善哉！
@@ -65,8 +71,10 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - 自今請雖吾家，聽子而行。
 - ” zi3 chan3 yue1 ： “ ren2 xin1 zhi1 bu4 tong2 ， ru2 qi2 mian4 yan1。
 - ”子產曰：“人心之不同，如其面焉。
-- wu2 qi3 gan3 wei4 zi3 mian4 ru2 wu2 mian4 hu1 ？ yi4 xin1 suo3 wei4 wei1 ， yi4 yi3 gao4 ye3。
-- 吾豈敢謂子面如吾面乎？抑心所謂危，亦以告也。
+- wu2 qi3 gan3 wei4 zi3 mian4 ru2 wu2 mian4 hu1？
+- 吾豈敢謂子面如吾面乎？
+- yi4 xin1 suo3 wei4 wei1 ， yi4 yi3 gao4 ye3。
+- 抑心所謂危，亦以告也。
 - ” zi3 pi2 yi3 wei2 zhong1 ， gu4 wei3 zheng4 yan1。
 - ”子皮以爲忠，故委政焉。
 - zi3 chan3 shi4 yi3 neng2 wei2 zheng4 guo2。

@@ -55,8 +55,10 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 元和中，嘗例召至京師；
 - you4 xie2 chu1 wei2 ci4 shi3 ， er2 zi3 hou4 de2 liu3 zhou1。
 - 又偕出爲刺史，而子厚得柳州。
-- ji4 zhi4 ， tan4 yue1 ： “ shi4 qi3 bu4 zu2 wei2 zheng4 xie2 ？ ” yin1 qi2 tu3 su2 ， wei2 she4 jiao4 jin4 ， zhou1 ren2 shun4 lai4。
-- 既至，嘆曰：“是豈不足爲政邪？”因其土俗，爲設教禁，州人順賴。
+- ji4 zhi4 ， tan4 yue1 ： “ shi4 qi3 bu4 zu2 wei2 zheng4 xie2？
+- 既至，嘆曰：“是豈不足爲政邪？
+- ” yin1 qi2 tu3 su2 ， wei2 she4 jiao4 jin4 ， zhou1 ren2 shun4 lai4。
+- ”因其土俗，爲設教禁，州人順賴。
 - qi2 su2 yi3 nan2 nü3 zhi4 qian2 ， yue1 bu4 shi2 shu2 ， zi3 ben3 xiang4 mou2 ， ze2 mei2 wei2 nu2 bi4。
 - 其俗以男女質錢，約不時贖，子本相侔，則沒爲奴婢。
 - zi3 hou4 yu3 she4 fang1 ji4 ， xi1 ling4 shu2 gui1。

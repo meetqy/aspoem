@@ -33,8 +33,10 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 寡人之使騎劫代將軍，爲將軍久暴露於外，故召將軍，且休計事。
 - jiang1 jun1 guo4 ting1 ， yi3 yu3 gua3 ren2 you3 xi4 ， sui4 juan1 yan4 er2 gui1 zhao4。
 - 將軍過聽，以與寡人有隙，遂捐燕而歸趙。
-- jiang1 jun1 zi4 wei2 ji4 ze2 ke3 yi3 ， er2 yi4 he2 yi3 bao4 xian1 wang2 zhi1 suo3 yi3 yu4 jiang1 jun1 zhi1 yi4 hu1 ？ ”
-- 將軍自爲計則可矣，而亦何以報先王之所以遇將軍之意乎？”
+- jiang1 jun1 zi4 wei2 ji4 ze2 ke3 yi3 ， er2 yi4 he2 yi3 bao4 xian1 wang2 zhi1 suo3 yi3 yu4 jiang1 jun1 zhi1 yi4 hu1？
+- 將軍自爲計則可矣，而亦何以報先王之所以遇將軍之意乎？
+- ”
+- ”
 - wang4 zhu1 jun1 nai3 shi3 ren2 xian4 shu1 bao4 yan4 wang2 yue1 ： “ chen2 bu2 ning4 ， bu4 neng2 feng4 cheng2 xian1 wang2 zhi1 jiao4 ， yi3 shun4 zuo3 you4 zhi1 xin1 ， kong3 di3 fu3 zhi4 zhi1 zui4 ， yi3 shang1 xian1 wang2 zhi1 ming2 ， er2 you4 hai4 wu1 zu2 xia4 zhi1 yi4 ， gu4 dun4 tao2 ben4 zhao4。
 - 望諸君乃使人獻書報燕王曰：“臣不佞，不能奉承先王之教，以順左右之心，恐抵斧質之罪，以傷先王之明，而又害於足下之義，故遁逃奔趙。
 - zi4 fu4 yi3 bu2 xiao4 zhi1 zui4 ， gu4 bu4 gan3 wei2 ci2 shuo1。

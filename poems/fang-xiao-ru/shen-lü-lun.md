@@ -15,8 +15,10 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 慮天下者，常圖其所難而忽其所易，備其所可畏而遺其所不疑。
 - ran2 er2 ， huo4 chang2 fa1 wu1 suo3 hu1 zhi1 zhong1 ， er2 luan4 chang2 qi3 wu1 bu4 zu2 yi2 zhi1 shi4。
 - 然而，禍常發於所忽之中，而亂常起於不足疑之事。
-- qi3 qi2 lü4 zhi1 wei4 zhou1 yu2 ？ gai4 lü4 zhi1 suo3 neng2 ji2 zhe3 ， ren2 shi4 zhi1 yi2 ran2 ， er2 chu1 wu1 zhi4 li4 zhi1 suo3 bu4 ji2 zhe3 ， tian1 dao4 ye3。
-- 豈其慮之未周歟？蓋慮之所能及者，人事之宜然，而出於智力之所不及者，天道也。
+- qi3 qi2 lü4 zhi1 wei4 zhou1 yu2？
+- 豈其慮之未周歟？
+- gai4 lü4 zhi1 suo3 neng2 ji2 zhe3 ， ren2 shi4 zhi1 yi2 ran2 ， er2 chu1 wu1 zhi4 li4 zhi1 suo3 bu4 ji2 zhe3 ， tian1 dao4 ye3。
+- 蓋慮之所能及者，人事之宜然，而出於智力之所不及者，天道也。
 - dang1 qin2 zhi1 shi4 ， er2 mie4 zhu1 hou2 ， yi4 tian1 xia4。
 - 當秦之世，而滅諸侯，一天下。
 - er2 qi2 xin1 yi3 wei2 zhou1 zhi1 wang2 zai4 hu1 zhu1 hou2 zhi1 qiang2 er3 ， bian4 feng1 jian4 er2 wei2 jun4 xian4。
@@ -37,14 +39,18 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 宋太祖見五代方鎮之足以制其君，盡釋其兵權，使力弱而易制，而不知子孫卒困於敵國。
 - ci3 qi2 ren2 jie1 you3 chu1 ren2 zhi1 zhi4 、 gai4 shi4 zhi1 cai2 ， qi2 wu1 zhi4 luan4 cun2 wang2 zhi1 ji1 ， si1 zhi1 xiang2 er2 bei4 zhi1 shen3 yi3。
 - 此其人皆有出人之智、蓋世之才，其於治亂存亡之幾，思之詳而備之審矣。
-- lü4 qie4 wu1 ci3 er2 huo4 xing1 wu1 bi3 ， zhong1 zhi4 luan4 wang2 zhe3 ， he2 zai1 ？ gai4 zhi4 ke3 yi3 mou2 ren2 ， er2 bu4 ke3 yi3 mou2 tian1。
-- 慮切於此而禍興於彼，終至亂亡者，何哉？蓋智可以謀人，而不可以謀天。
+- lü4 qie4 wu1 ci3 er2 huo4 xing1 wu1 bi3 ， zhong1 zhi4 luan4 wang2 zhe3 ， he2 zai1？
+- 慮切於此而禍興於彼，終至亂亡者，何哉？
+- gai4 zhi4 ke3 yi3 mou2 ren2 ， er2 bu4 ke3 yi3 mou2 tian1。
+- 蓋智可以謀人，而不可以謀天。
 - liang2 yi1 zhi1 zi3 ， duo1 si3 wu1 bing4；
 - 良醫之子，多死於病；
 - liang2 wu1 zhi1 zi3 ， duo1 si3 wu1 gui3。
 - 良巫之子，多死於鬼。
-- qi3 gong1 wu1 huo2 ren2 ， er2 zhuo1 wu1 mou2 zi3 ye3 zai1 ？ nai3 gong1 wu1 mou2 ren2 ， er2 zhuo1 wu1 mou2 tian1 ye3。
-- 豈工於活人，而拙於謀子也哉？乃工於謀人，而拙於謀天也。
+- qi3 gong1 wu1 huo2 ren2 ， er2 zhuo1 wu1 mou2 zi3 ye3 zai1？
+- 豈工於活人，而拙於謀子也哉？
+- nai3 gong1 wu1 mou2 ren2 ， er2 zhuo1 wu1 mou2 tian1 ye3。
+- 乃工於謀人，而拙於謀天也。
 - gu3 zhi1 sheng4 ren2 ， zhi1 tian1 xia4 hou4 shi4 zhi1 bian4 ， fei1 zhi4 lü4 zhi1 suo3 neng2 zhou1 ， fei1 fa3 shu4 zhi1 suo3 neng2 zhi4 ， bu4 gan3 si4 qi2 si1 mou2 gui3 ji4 ， er2 wei2 ji1 zhi4 cheng2 ， yong4 da4 de2 yi3 jie2 hu1 tian1 xin1 ， shi3 tian1 juan4 qi2 de2 ， ruo4 ci2 mu3 zhi1 bao3 chi4 zi3 er2 bu4 ren3 shi4。
 - 古之聖人，知天下後世之變，非智慮之所能周，非法術之所能制，不敢肆其私謀詭計，而唯積至誠，用大德以結乎天心，使天眷其德，若慈母之保赤子而不忍釋。
 - gu4 qi2 zi3 sun1 ， sui1 you3 zhi4 yu2 bu2 xiao4 zhe3 zu2 yi3 wang2 guo2 ， er2 tian1 zu2 bu4 ren3 ju4 wang2 zhi1。

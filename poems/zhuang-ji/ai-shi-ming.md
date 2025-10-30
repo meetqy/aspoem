@@ -43,7 +43,7 @@ tags: []
 - 倚踌躇以淹留兮，日饥馑而绝粮。
 - kuo4 bao4 jing3 er2 du2 yi3 xi1 ， chao1 yong3 si1 hu1 gu4 xiang1。
 - 廓抱景而独倚兮，超永思乎故乡。
-- kuo4 luo4 ji4 er2 wu2 you3 xi1 ， shui2 ke3 yu3 wan2 ci3 yi2 fang1 ？
+- kuo4 luo4 ji4 er2 wu2 you3 xi1 ， shui2 ke3 yu3 wan2 ci3 yi2 fang1？
 - 廓落寂而无友兮，谁可与玩此遗芳？
 - bai2 ri4 wan3 wan3 qi2 jiang1 ru4 xi1 ， ai1 yu2 shou4 zhi1 fu2 jiang1。
 - 白日晼晼其將入兮，哀余寿之弗将。
@@ -71,9 +71,9 @@ tags: []
 - 为凤皇作鹑笼兮，虽翕翅其不容。
 - ling2 huang2 qi2 bu2 wu4 zhi1 xi1 ， yan1 chen2 ci2 er2 xiao4 zhong1。
 - 灵皇其不寤知兮，焉陈词而效忠。
-- su2 ji2 du4 er2 bi4 xian2 xi1 ， shu2 zhi1 yu2 zhi1 cong2 rong2 ？
+- su2 ji2 du4 er2 bi4 xian2 xi1 ， shu2 zhi1 yu2 zhi1 cong2 rong2？
 - 俗嫉妒而蔽贤兮，孰知余之从容？
-- yuan4 shu1 zhi4 er2 chou1 feng2 xi1 ， yong1 ju4 zhi1 qi2 ji2 xiong1 ？
+- yuan4 shu1 zhi4 er2 chou1 feng2 xi1 ， yong1 ju4 zhi1 qi2 ji2 xiong1？
 - 愿舒志而抽冯兮，庸讵知其吉凶？
 - zhang1 gui1 za2 yu2 zeng4 wa1 xi1 ， long3 lian2 yu3 meng4 ju1 tong2 gong1。
 - 璋珪杂于甑窐兮，陇廉与孟娵同宫。
@@ -91,13 +91,13 @@ tags: []
 - 愁修夜而宛转兮，气涫沸其若波。
 - wo4 ji1 jue2 er2 bu2 yong4 xi1 ， cao1 gui1 ju3 er2 wu2 suo3 shi1。
 - 握剞劂而不用兮，操规矩而无所施。
-- cheng3 qi2 ji4 yu2 zhong1 ting2 xi1 ， yan1 neng2 ji2 fu1 yuan3 dao4 ？
+- cheng3 qi2 ji4 yu2 zhong1 ting2 xi1 ， yan1 neng2 ji2 fu1 yuan3 dao4？
 - 骋骐骥于中庭兮，焉能极夫远道？
-- zhi4 yuan2 you4 yu2 ling2 kan3 xi1 ， fu1 he2 yi3 ze2 qi2 jie2 qiao3 ？
+- zhi4 yuan2 you4 yu2 ling2 kan3 xi1 ， fu1 he2 yi3 ze2 qi2 jie2 qiao3？
 - 置援狖于棂槛兮，夫何以责其捷巧？
 - si4 bo3 bie1 er2 shang4 shan1 xi1 ， wu2 gu4 zhi1 qi2 bu4 neng2 sheng1。
 - 驷跛鳖而上山兮，吾固知其不能陞。
-- shi4 guan3 yan4 er2 ren4 zang1 huo4 xi1 ， he2 quan2 heng2 zhi1 neng2 cheng1 ？
+- shi4 guan3 yan4 er2 ren4 zang1 huo4 xi1 ， he2 quan2 heng2 zhi1 neng2 cheng1？
 - 释管晏而任臧获兮，何权衡之能称？
 - jun4 lu4 za2 yu2 zou1 zheng1 xi1 ， ji1 peng2 shi3 yi3 she4 ge2。
 - 箟簬杂于黀蒸兮，机蓬矢以射革。

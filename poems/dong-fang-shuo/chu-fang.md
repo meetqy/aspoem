@@ -27,13 +27,13 @@ tags: []
 - 群众成朋兮，上浸以惑。
 - qiao3 ning4 zai4 qian2 xi1 ， xian2 zhe3 mie4 xi1。
 - 巧佞在前兮，贤者灭息。
-- yao2 、 shun4 sheng4 yi3 mei2 xi1 ， shu2 wei4 zhong1 zhi2 ？
+- yao2 、 shun4 sheng4 yi3 mei2 xi1 ， shu2 wei4 zhong1 zhi2？
 - 尧、舜圣已没兮，孰为忠直？
 - gao1 shan1 cui1 wei1 xi1 ， shui3 liu2 tang1 tang1。
 - 高山崔巍兮，水流汤汤。
 - si3 ri4 jiang1 zhi4 xi1 ， yu3 mi2 lu4 tong2 keng1。
 - 死日将至兮，与麋鹿同坑。
-- kuai4 xi1 ju1 ， dang1 dao4 su4 ， ju3 shi4 jie1 ran2 xi1 ， yu2 jiang1 shui2 gao4 ？
+- kuai4 xi1 ju1 ， dang1 dao4 su4 ， ju3 shi4 jie1 ran2 xi1 ， yu2 jiang1 shui2 gao4？
 - 塊兮鞠，当道宿，举世皆然兮，余将谁告？
 - chi4 zhu2 hong2 hu2 xi1 ， jin4 xi2 chi1 xiao1 ， zhan3 fa2 ju2 you4 xi1 ， lie4 shu4 ku3 tao2。
 - 斥逐鸿鹄兮，近习鸱枭，斩伐橘柚兮，列树苦桃。

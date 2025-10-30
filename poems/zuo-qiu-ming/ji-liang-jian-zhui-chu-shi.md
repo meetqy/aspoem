@@ -27,8 +27,10 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 小國離，楚之利也。
 - shao3 shi1 chi3 ， qing3 lei2 shi1 yi3 zhang1 zhi1。
 - 少師侈，請羸師以張之。
-- ” xiong2 lü4 qie3 bi3 yue1 : “ ji4 liang2 zai4 ， he2 yi4 ？ ” dou4 bo2 bi3 yue1 : “ yi3 wei2 hou4 tu2。
-- ”熊率且比曰：“季樑在，何益？”鬥伯比曰：“以爲後圖。
+- ” xiong2 lü4 qie3 bi3 yue1 : “ ji4 liang2 zai4 ， he2 yi4？
+- ”熊率且比曰：“季樑在，何益？
+- ” dou4 bo2 bi3 yue1 : “ yi3 wei2 hou4 tu2。
+- ”鬥伯比曰：“以爲後圖。
 - shao3 shi1 de2 qi2 jun1。
 - 少師得其君。
 - ”
@@ -41,8 +43,10 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 隨侯將許之。
 - ji4 liang2 zhi3 zhi1 yue1 ： “ tian1 fang1 shou4 chu3。
 - 季樑止之曰：“天方授楚。
-- chu3 zhi1 lei2 ， qi2 you4 wo3 ye3 ， jun1 he2 ji2 yan1 ？ chen2 wen2 xiao3 zhi1 neng2 di2 da4 ye3 ， xiao3 dao4 da4 yin2。
-- 楚之羸，其誘我也，君何急焉？臣聞小之能敵大也，小道大淫。
+- chu3 zhi1 lei2 ， qi2 you4 wo3 ye3 ， jun1 he2 ji2 yan1？
+- 楚之羸，其誘我也，君何急焉？
+- chen2 wen2 xiao3 zhi1 neng2 di2 da4 ye3 ， xiao3 dao4 da4 yin2。
+- 臣聞小之能敵大也，小道大淫。
 - suo3 wei4 dao4 ， zhong1 wu1 min2 er2 xin4 wu1 shen2 ye3。
 - 所謂道，忠於民而信於神也。
 - shang4 si1 li4 min2 ， zhong1 ye3；
@@ -51,8 +55,10 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 祝史正辭，信也。
 - jin1 min2 nei3 er2 jun1 cheng3 yu4 ， zhu4 shi3 jiao3 ju3 yi3 ji4 ， chen2 bu4 zhi1 qi2 ke3 ye3。
 - 今民餒而君逞欲，祝史矯舉以祭，臣不知其可也。
-- ” gong1 yue1 ： “ wu2 sheng1 quan2 fei2 tu2 ， zi1 sheng4 feng1 bei4 ， he2 ze2 bu2 xin4 ？ ” dui4 yue1 ： “ fu1 min2 ， shen2 zhi1 zhu3 ye3。
-- ”公曰：“吾牲牷肥腯，粢盛豐備，何則不信？”對曰：“夫民，神之主也。
+- ” gong1 yue1 ： “ wu2 sheng1 quan2 fei2 tu2 ， zi1 sheng4 feng1 bei4 ， he2 ze2 bu2 xin4？
+- ”公曰：“吾牲牷肥腯，粢盛豐備，何則不信？
+- ” dui4 yue1 ： “ fu1 min2 ， shen2 zhi1 zhu3 ye3。
+- ”對曰：“夫民，神之主也。
 - shi4 yi3 sheng4 wang2 xian1 cheng2 min2 ， er2 hou4 zhi4 li4 wu1 shen2。
 - 是以聖王先成民，而後致力於神。
 - gu4 feng4 sheng1 yi3 gao4 yue1 ‘ bo2 shuo4 fei2 tu2。
@@ -73,8 +79,10 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 故務其三時，修其五教，親其九族，以致其禋祀。
 - wu1 shi4 hu1 min2 he2 er2 shen2 jiang4 zhi1 fu2 ， gu4 dong4 ze2 you3 cheng2。
 - 於是乎民和而神降之福，故動則有成。
-- jin1 min2 ge4 you3 xin1 ， er2 gui3 shen2 fa2 zhu3 ， jun1 sui1 du2 feng1 ， qi2 he2 fu2 zhi1 you3 ？ jun1 gu1 xiu1 zheng4 er2 qin1 xiong1 di4 zhi1 guo2 ， shu4 mian3 wu1 nan2。
-- 今民各有心，而鬼神乏主，君雖獨豐，其何福之有？君姑修政而親兄弟之國，庶免於難。
+- jin1 min2 ge4 you3 xin1 ， er2 gui3 shen2 fa2 zhu3 ， jun1 sui1 du2 feng1 ， qi2 he2 fu2 zhi1 you3？
+- 今民各有心，而鬼神乏主，君雖獨豐，其何福之有？
+- jun1 gu1 xiu1 zheng4 er2 qin1 xiong1 di4 zhi1 guo2 ， shu4 mian3 wu1 nan2。
+- 君姑修政而親兄弟之國，庶免於難。
 - ”
 - ”
 - sui2 hou2 ju4 er2 xiu1 zheng4 ， chu3 bu4 gan3 fa2。

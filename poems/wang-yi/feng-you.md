@@ -39,7 +39,7 @@ tags: []
 - 虎兕争兮於廷中，豺狼斗兮我之隅。
 - yun2 wu4 hui4 xi1 ri4 ming2 hui4 ， piao1 feng1 qi3 xi1 yang2 chen2 ai1。
 - 云雾会兮日冥晦，飘风起兮扬尘埃。
-- zou3 chang4 wang3 xi1 zha4 dong1 xi1 ， yu4 cuan4 fu2 xi1 qi2 yan1 ru2 ？
+- zou3 chang4 wang3 xi1 zha4 dong1 xi1 ， yu4 cuan4 fu2 xi1 qi2 yan1 ru2？
 - 走鬯罔兮乍东西，欲窜伏兮其焉如？
 - nian4 ling2 gui1 xi1 yu4 zhong4 shen1 ， yuan2 jie2 jie2 xi1 ge2 wu2 you2。
 - 念灵闺兮隩重深，原竭节兮隔无由。

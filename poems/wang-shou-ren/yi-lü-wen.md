@@ -47,18 +47,34 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 又以只雞、飯三盂，嗟吁涕洟而告之，曰：
 - wu1 hu1 shang1 zai1！
 - 嗚呼傷哉！
-- yi1 he2 ren2 ？ yi1 he2 ren2 ？ wu2 long2 chang3 yi4 cheng2 yu2 yao2 wang2 shou3 ren2 ye3。
-- 繄何人？繄何人？吾龍場驛丞餘姚王守仁也。
-- wu2 yu3 er3 jie1 zhong1 tu3 zhi1 chan3 ， wu2 bu4 zhi1 er3 jun4 yi4 ， er3 wu1 wei2 hu1 lai2 wei2 zi1 shan1 zhi1 gui3 hu1 ？ gu3 zhe3 zhong4 qu4 qi2 xiang1 ， you2 huan4 bu4 yu2 qian1 li3。
-- 吾與爾皆中土之產，吾不知爾郡邑，爾烏爲乎來爲茲山之鬼乎？古者重去其鄉，遊宦不逾千里。
+- yi1 he2 ren2？
+- 繄何人？
+- yi1 he2 ren2？
+- 繄何人？
+- wu2 long2 chang3 yi4 cheng2 yu2 yao2 wang2 shou3 ren2 ye3。
+- 吾龍場驛丞餘姚王守仁也。
+- wu2 yu3 er3 jie1 zhong1 tu3 zhi1 chan3 ， wu2 bu4 zhi1 er3 jun4 yi4 ， er3 wu1 wei2 hu1 lai2 wei2 zi1 shan1 zhi1 gui3 hu1？
+- 吾與爾皆中土之產，吾不知爾郡邑，爾烏爲乎來爲茲山之鬼乎？
+- gu3 zhe3 zhong4 qu4 qi2 xiang1 ， you2 huan4 bu4 yu2 qian1 li3。
+- 古者重去其鄉，遊宦不逾千里。
 - wu2 yi3 cuan4 zhu2 er2 lai2 ci3 ， yi2 ye3。
 - 吾以竄逐而來此，宜也。
-- er3 yi4 he2 gu1 hu1 ？ wen2 er3 guan1 li4 mu4 er3 ， feng4 bu4 neng2 wu3 dou3 ， er3 lü4 qi1 zi3 gong1 geng1 ke3 you3 ye3。
-- 爾亦何辜乎？聞爾官吏目耳，俸不能五斗，爾率妻子躬耕可有也。
-- wu1 wei2 hu1 yi3 wu3 dou3 er2 yi4 er3 qi1 chi3 zhi1 qu1 ？ you4 bu4 zu2 ， er2 yi4 yi3 er3 zi3 yu3 pu2 hu1 ？ wu1 hu1 shang1 zai1！
-- 烏爲乎以五斗而易爾七尺之軀？又不足，而益以爾子與僕乎？嗚呼傷哉！
-- er3 cheng2 lian4 zi1 wu3 dou3 er2 lai2 ， ze2 yi2 xin1 ran2 jiu4 dao4 ， hu2 wei2 hu1 wu2 zuo2 wang4 jian4 er3 rong2 cu4 ran2 ， gai4 bu2 ren4 qi2 you1 zhe3 ？ fu1 chong1 mao4 wu4 lu4 ， ban1 yuan2 ya2 bi4 ， xing2 wan4 feng1 zhi1 ding3 ， ji1 ke3 lao2 dun4 ， jin1 gu3 pi2 bei4 ， er2 you4 zhang4 li4 qin1 qi2 wai4 ， you1 yu4 gong1 qi2 zhong1 ， qi2 neng2 yi3 wu2 si3 hu1 ？ wu2 gu4 zhi1 er3 zhi1 bi4 si3 ， ran2 bu2 wei4 ruo4 shi4 qi2 su4 ， you4 bu2 wei4 er3 zi3 er3 pu2 yi4 ju4 ran2 yan3 hu1 ye3！
-- 爾誠戀茲五斗而來，則宜欣然就道，胡爲乎吾昨望見爾容蹙然，蓋不任其憂者？夫衝冒霧露，扳援崖壁，行萬峯之頂，飢渴勞頓，筋骨疲憊，而又瘴癧侵其外，憂鬱攻其中，其能以無死乎？吾固知爾之必死，然不謂若是其速，又不謂爾子爾僕亦遽然奄忽也！
+- er3 yi4 he2 gu1 hu1？
+- 爾亦何辜乎？
+- wen2 er3 guan1 li4 mu4 er3 ， feng4 bu4 neng2 wu3 dou3 ， er3 lü4 qi1 zi3 gong1 geng1 ke3 you3 ye3。
+- 聞爾官吏目耳，俸不能五斗，爾率妻子躬耕可有也。
+- wu1 wei2 hu1 yi3 wu3 dou3 er2 yi4 er3 qi1 chi3 zhi1 qu1？
+- 烏爲乎以五斗而易爾七尺之軀？
+- you4 bu4 zu2 ， er2 yi4 yi3 er3 zi3 yu3 pu2 hu1？
+- 又不足，而益以爾子與僕乎？
+- wu1 hu1 shang1 zai1！
+- 嗚呼傷哉！
+- er3 cheng2 lian4 zi1 wu3 dou3 er2 lai2 ， ze2 yi2 xin1 ran2 jiu4 dao4 ， hu2 wei2 hu1 wu2 zuo2 wang4 jian4 er3 rong2 cu4 ran2 ， gai4 bu2 ren4 qi2 you1 zhe3？
+- 爾誠戀茲五斗而來，則宜欣然就道，胡爲乎吾昨望見爾容蹙然，蓋不任其憂者？
+- fu1 chong1 mao4 wu4 lu4 ， ban1 yuan2 ya2 bi4 ， xing2 wan4 feng1 zhi1 ding3 ， ji1 ke3 lao2 dun4 ， jin1 gu3 pi2 bei4 ， er2 you4 zhang4 li4 qin1 qi2 wai4 ， you1 yu4 gong1 qi2 zhong1 ， qi2 neng2 yi3 wu2 si3 hu1？
+- 夫衝冒霧露，扳援崖壁，行萬峯之頂，飢渴勞頓，筋骨疲憊，而又瘴癧侵其外，憂鬱攻其中，其能以無死乎？
+- wu2 gu4 zhi1 er3 zhi1 bi4 si3 ， ran2 bu2 wei4 ruo4 shi4 qi2 su4 ， you4 bu2 wei4 er3 zi3 er3 pu2 yi4 ju4 ran2 yan3 hu1 ye3！
+- 吾固知爾之必死，然不謂若是其速，又不謂爾子爾僕亦遽然奄忽也！
 - jie1 er3 zi4 qu3 ， wei4 zhi1 he2 zai1！
 - 皆爾自取，謂之何哉！
 - wu2 nian4 er3 san1 gu3 zhi1 wu2 yi1 er2 lai2 yi4 er3 ， nai3 shi3 wu2 you3 wu2 qiong2 zhi1 chuang4 ye3。
@@ -67,8 +83,10 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 嗚呼傷哉！
 - zong4 bu4 er3 yi4 ， you1 ya2 zhi1 hu2 cheng2 qun2 ， yin1 he4 zhi1 hui1 ru2 ju1 lun2 ， yi4 bi4 neng2 zang4 er3 wu1 fu4 ， bu2 zhi4 jiu3 bao4 lu4 er3。
 - 縱不爾瘞，幽崖之狐成羣，陰壑之虺如車輪，亦必能葬爾於腹，不致久暴露爾。
-- er3 ji4 yi3 wu2 zhi1 ， ran2 wu2 he2 neng2 wei2 xin1 hu1 ？ zi4 wu2 qu4 fu4 mu3 xiang1 guo2 er2 lai2 ci3 ， san1 nian2 yi3 ， li4 zhang4 du2 er2 gou3 neng2 zi4 quan2 ， yi3 wu2 wei4 chang2 yi2 ri4 zhi1 qi1 qi1 ye3。
-- 爾既已無知，然吾何能違心乎？自吾去父母鄉國而來此，三年矣，歷瘴毒而苟能自全，以吾未嘗一日之慼慼也。
+- er3 ji4 yi3 wu2 zhi1 ， ran2 wu2 he2 neng2 wei2 xin1 hu1？
+- 爾既已無知，然吾何能違心乎？
+- zi4 wu2 qu4 fu4 mu3 xiang1 guo2 er2 lai2 ci3 ， san1 nian2 yi3 ， li4 zhang4 du2 er2 gou3 neng2 zi4 quan2 ， yi3 wu2 wei4 chang2 yi2 ri4 zhi1 qi1 qi1 ye3。
+- 自吾去父母鄉國而來此，三年矣，歷瘴毒而苟能自全，以吾未嘗一日之慼慼也。
 - jin1 bei1 shang1 ruo4 ci3 ， shi4 wu2 wei2 er3 zhe3 zhong4 ， er2 zi4 wei2 zhe3 qing1 ye3。
 - 今悲傷若此，是吾爲爾者重，而自爲者輕也。
 - wu2 bu4 yi2 fu4 wei2 er3 bei1 yi3。

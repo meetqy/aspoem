@@ -27,8 +27,10 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - ”是以有力者遇之，熟視之若無睹也。
 - qi2 si3 qi2 sheng1 ， gu4 bu4 ke3 zhi1 ye3。
 - 其死其生，固不可知也。
-- jin1 you4 you3 you3 li4 zhe3 dang1 qi2 qian2 yi3 ， liao2 shi4 yang3 shou3 yi4 ming2 hao4 yan1 ， yong1 ju4 zhi1 you3 li4 zhe3 bu4 ai1 qi2 qiong2 er2 wang4 yi4 ju3 shou3 ， yi4 tou2 zu2 zhi1 lao2 ， er2 zhuan3 zhi1 qing1 bo1 hu1 ？ qi2 ai1 zhi1 ， ming4 ye3；
-- 今又有有力者當其前矣，聊試仰首一鳴號焉，庸詎知有力者不哀其窮而忘一舉手，一投足之勞，而轉之清波乎？其哀之，命也；
+- jin1 you4 you3 you3 li4 zhe3 dang1 qi2 qian2 yi3 ， liao2 shi4 yang3 shou3 yi4 ming2 hao4 yan1 ， yong1 ju4 zhi1 you3 li4 zhe3 bu4 ai1 qi2 qiong2 er2 wang4 yi4 ju3 shou3 ， yi4 tou2 zu2 zhi1 lao2 ， er2 zhuan3 zhi1 qing1 bo1 hu1？
+- 今又有有力者當其前矣，聊試仰首一鳴號焉，庸詎知有力者不哀其窮而忘一舉手，一投足之勞，而轉之清波乎？
+- qi2 ai1 zhi1 ， ming4 ye3；
+- 其哀之，命也；
 - qi2 bu4 ai1 zhi1 ， ming4 ye3；
 - 其不哀之，命也；
 - zhi1 qi2 zai4 ming4 ， er2 qie3 ming2 hao4 zhi1 zhe3 ， yi4 ming4 ye3。

@@ -15,18 +15,28 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - 晉人歸楚公子谷臣，與連尹襄老之屍於楚，以求知罃。
 - wu1 shi4 xun2 shou3 zuo3 zhong1 jun1 yi3 ， gu4 chu3 ren2 xu1 zhi1。
 - 於是荀首佐中軍矣，故楚人許之。
-- wang2 song4 zhi1 ying1 ， yue1 ： “ zi3 qi2 yuan4 wo3 hu1 ？ ” dui4 yue1 ： “ er4 guo2 zhi4 rong2 ， chen2 bu4 cai2 ， bu2 sheng4 qi2 ren4 ， yi3 wei2 fu2 guo2。
-- 王送知罃，曰：“子其怨我乎？”對曰：“二國治戎，臣不才，不勝其任，以爲俘馘。
+- wang2 song4 zhi1 ying1 ， yue1 ： “ zi3 qi2 yuan4 wo3 hu1？
+- 王送知罃，曰：“子其怨我乎？
+- ” dui4 yue1 ： “ er4 guo2 zhi4 rong2 ， chen2 bu4 cai2 ， bu2 sheng4 qi2 ren4 ， yi3 wei2 fu2 guo2。
+- ”對曰：“二國治戎，臣不才，不勝其任，以爲俘馘。
 - zhi2 shi4 bu4 yi3 xin4 gu3 ， shi3 gui1 ji2 lu4 ， jun1 zhi1 hui4 ye3。
 - 執事不以釁鼓，使歸即戮，君之惠也。
-- chen2 shi2 bu4 cai2 ， you4 shui2 gan3 yuan4 ？ ”
-- 臣實不才，又誰敢怨？”
-- wang2 yue1 ： “ ran2 ze2 de2 wo3 hu1 ？ ” dui4 yue1 ： “ er4 guo2 tu2 qi2 she4 ji4 ， er2 qiu2 shu1 qi2 min2 ， ge4 cheng2 qi2 fen4 ， yi3 xiang1 you4 ye3 ， liang3 shi4 lei4 qiu2 ， yi3 cheng2 qi2 hao3。
-- 王曰：“然則德我乎？”對曰：“二國圖其社稷，而求紓其民，各懲其忿，以相宥也，兩釋累囚，以成其好。
-- er4 guo2 you3 hao3 ， chen2 bu4 yu3 ji2 ， qi2 shui2 gan3 de2 ？ ”
-- 二國有好，臣不與及，其誰敢德？”
-- wang2 yue1 ： “ zi3 gui1 he2 yi3 bao4 wo3 ？ ” dui4 yue1 ： “ chen2 bu2 ren4 shou4 yuan4 ， jun1 yi4 bu2 ren4 shou4 de2。
-- 王曰：“子歸何以報我？”對曰：“臣不任受怨，君亦不任受德。
+- chen2 shi2 bu4 cai2 ， you4 shui2 gan3 yuan4？
+- 臣實不才，又誰敢怨？
+- ”
+- ”
+- wang2 yue1 ： “ ran2 ze2 de2 wo3 hu1？
+- 王曰：“然則德我乎？
+- ” dui4 yue1 ： “ er4 guo2 tu2 qi2 she4 ji4 ， er2 qiu2 shu1 qi2 min2 ， ge4 cheng2 qi2 fen4 ， yi3 xiang1 you4 ye3 ， liang3 shi4 lei4 qiu2 ， yi3 cheng2 qi2 hao3。
+- ”對曰：“二國圖其社稷，而求紓其民，各懲其忿，以相宥也，兩釋累囚，以成其好。
+- er4 guo2 you3 hao3 ， chen2 bu4 yu3 ji2 ， qi2 shui2 gan3 de2？
+- 二國有好，臣不與及，其誰敢德？
+- ”
+- ”
+- wang2 yue1 ： “ zi3 gui1 he2 yi3 bao4 wo3？
+- 王曰：“子歸何以報我？
+- ” dui4 yue1 ： “ chen2 bu2 ren4 shou4 yuan4 ， jun1 yi4 bu2 ren4 shou4 de2。
+- ”對曰：“臣不任受怨，君亦不任受德。
 - wu2 yuan4 wu2 de2 ， bu4 zhi1 suo3 bao4。
 - 無怨無德，不知所報。
 - ”

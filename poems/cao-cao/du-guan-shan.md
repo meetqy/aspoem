@@ -25,7 +25,7 @@ tags: []
 - 封建五爵，井田刑狱。
 - you3 fan2 dan1 shu1 ， wu2 pu3 she4 shu2。
 - 有燔丹书，无普赦赎。
-- gao1 tao2 fu3 hou2 ， he2 you3 shi1 zhi2 ？
+- gao1 tao2 fu3 hou2 ， he2 you3 shi1 zhi2？
 - 皋陶甫侯，何有失职？
 - jie1 zai1 hou4 shi4 ， gai3 zhi4 yi4 lü4。
 - 嗟哉后世，改制易律。
@@ -39,7 +39,7 @@ tags: []
 - 世叹伯夷，欲以厉俗。
 - chi3 e4 zhi1 da4 ， jian3 wei4 gong4 de2。
 - 侈恶之大，俭为共德。
-- xu3 you2 tui1 rang4 ， qi3 you3 song4 qu3 ？
+- xu3 you2 tui1 rang4 ， qi3 you3 song4 qu3？
 - 许由推让，岂有讼曲？
 - jian1 ai4 shang4 tong2 ， shu1 zhe3 wei4 qi1。
 - 兼爱尚同，疏者为戚。

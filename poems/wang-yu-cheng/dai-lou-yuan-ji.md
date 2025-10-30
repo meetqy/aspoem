@@ -11,10 +11,14 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 
 ## 正文
 
-- tian1 dao4 bu4 yan2 ， er2 pin3 wu4 heng1 、 sui4 gong1 cheng2 zhe3 ， he2 wei4 ye3 ？ si4 shi2 zhi1 li4 ， wu3 hang2 zhi1 zuo3 ， xuan1 qi2 qi4 yi3。
-- 天道不言，而品物亨、歲功成者，何謂也？四時之吏，五行之佐，宣其氣矣。
-- sheng4 ren2 bu4 yan2 er2 bai3 xing4 qin1 、 wan4 bang1 ning2 zhe3 ， he2 wei4 ye3 ？ san1 gong1 lun4 dao4 ， liu4 qing1 fen1 zhi2 ， zhang1 qi2 jiao4 yi3。
-- 聖人不言而百姓親、萬邦寧者，何謂也？三公論道，六卿分職，張其教矣。
+- tian1 dao4 bu4 yan2 ， er2 pin3 wu4 heng1 、 sui4 gong1 cheng2 zhe3 ， he2 wei4 ye3？
+- 天道不言，而品物亨、歲功成者，何謂也？
+- si4 shi2 zhi1 li4 ， wu3 hang2 zhi1 zuo3 ， xuan1 qi2 qi4 yi3。
+- 四時之吏，五行之佐，宣其氣矣。
+- sheng4 ren2 bu4 yan2 er2 bai3 xing4 qin1 、 wan4 bang1 ning2 zhe3 ， he2 wei4 ye3？
+- 聖人不言而百姓親、萬邦寧者，何謂也？
+- san1 gong1 lun4 dao4 ， liu4 qing1 fen1 zhi2 ， zhang1 qi2 jiao4 yi3。
+- 三公論道，六卿分職，張其教矣。
 - shi4 zhi1 jun1 yi4 wu1 shang4 ， chen2 lao2 wu1 xia4 ， fa3 hu1 tian1 ye3。
 - 是知君逸於上，臣勞於下，法乎天也。
 - gu3 zhi1 shan4 xiang1 tian1 xia4 zhe3 ， zi4 jiu4 、 kui2 zhi4 fang2 、 wei4 ， ke3 shu4 ye3 ， shi4 bu4 du2 you3 qi2 de2 ， yi4 jie1 wu4 wu1 qin2 er3 ， kuang4 su4 xing1 ye4 mei4 ， yi3 shi4 yi4 ren2。
@@ -29,7 +33,7 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 相君至止，噦噦鑾聲。
 - jin1 men2 wei4 pi4 ， yu4 lou4 you2 di1 ， che4 gai4 xia4 ju1 ， wu1 yan1 yi3 xi1。
 - 金門未闢，玉漏猶滴，徹蓋下車，於焉以息。
-- dai4 lou4 zhi1 ji4 ， xiang1 jun1 qi2 you3 si1 hu1 ？
+- dai4 lou4 zhi1 ji4 ， xiang1 jun1 qi2 you3 si1 hu1？
 - 待漏之際，相君其有思乎？
 - qi2 huo4 zhao4 min2 wei4 an1 ， si1 suo3 tai4 zhi1；
 - 其或兆民未安，思所泰之；
@@ -79,8 +83,10 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 政柄於是乎隳哉，帝位以之而危矣。
 - ruo4 ran2 ， ze2 xia4 si3 yu4 、 tou2 yuan3 fang1 ， fei1 bu2 xing4 ye3 ， yi4 yi2 ye3。
 - 若然，則下死獄、投遠方，非不幸也，亦宜也。
-- shi4 zhi1 yi4 guo2 zhi1 zheng4 ， wan4 ren2 zhi1 ming4 ， xuan2 wu1 zai3 xiang4 ， ke3 bu2 shen4 yu2 ？ fu4 you3 wu2 hui3 wu2 yu4 ， lü3 jin4 lü3 tui4 ， qie4 wei4 er2 gou3 lu4 ， bei4 yuan2 er2 quan2 shen1 zhe3 ， yi4 wu2 suo3 qu3 yan1。
-- 是知一國之政，萬人之命，懸於宰相，可不慎歟？復有無毀無譽，旅進旅退，竊位而苟祿，備員而全身者，亦無所取焉。
+- shi4 zhi1 yi4 guo2 zhi1 zheng4 ， wan4 ren2 zhi1 ming4 ， xuan2 wu1 zai3 xiang4 ， ke3 bu2 shen4 yu2？
+- 是知一國之政，萬人之命，懸於宰相，可不慎歟？
+- fu4 you3 wu2 hui3 wu2 yu4 ， lü3 jin4 lü3 tui4 ， qie4 wei4 er2 gou3 lu4 ， bei4 yuan2 er2 quan2 shen1 zhe3 ， yi4 wu2 suo3 qu3 yan1。
+- 復有無毀無譽，旅進旅退，竊位而苟祿，備員而全身者，亦無所取焉。
 - ji2 si4 xiao3 li4 wang2 mou3 wei2 wen2 ， qing3 zhi4 yuan4 bi4 ， yong4 gui1 wu1 zhi2 zheng4 zhe3。
 - 棘寺小吏王某爲文，請志院壁，用規於執政者。
 

@@ -34,27 +34,31 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - tai4 shi3 gong1 yue1 ： xi1 zhe3 yu2 shun4 jiong3 wu1 jing3 lin3 ， yi1 yin3 fu4 wu1 ding3 zu3 ， fu4 shuo1 ni4 wu1 fu4 xian3 ， lü3 shang4 kun4 wu1 ji2 jin1 ， yi2 wu2 zhi4 gu4 ， bai3 li3 fan4 niu2 ， zhong4 ni2 wei4 kuang1 ， cai4 se4 chen2 、 cai4。
 - 太史公曰：昔者虞舜窘於井廩，伊尹負於鼎俎，傅說匿於傅險，呂尚困於棘津，夷吾桎梏，百里飯牛，仲尼畏匡，菜色陳、蔡。
 - ci3 jie1 xue2 shi4 suo3 wei4 you3 dao4 ren2 ren2 ye3 ， you2 ran2 zao1 ci3 zai1 ， kuang4 yi3 zhong1 cai2 er2 she4 luan4 shi4 zhi1 mo4 liu2 hu1 ? qi2 yu4 hai4 he2 ke3 sheng4 dao4 zai1 ! bi3 ren2 you3 yan2 yue1 ： “ he2 zhi1 ren2 yi4 ， yi3 xiang3 qi2 li4 zhe3 wei2 you3 de2。
-- 此皆學士所謂有道仁人也，猶然遭此災，況以中材而涉亂世之末流乎？其遇害何可勝道哉！
+- 此皆學士所謂有道仁人也，猶然遭此災，況以中材而涉亂世之末流乎？
 - ” gu4 bo2 yi2 chou3 zhou1 ， e4 si3 shou3 yang2 shan1 ， er2 wen2 、 wu3 bu4 yi3 qi2 gu4 bian3 wang2；
-- 鄙人有言曰：“何知仁義，已享其利者爲有德。
+- 其遇害何可勝道哉！
 - zhi2 ji1 bao4 li4 ， qi2 tu2 song4 yi4 wu2 qiong2。
-- ”故伯夷醜周，餓死首陽山，而文、武不以其故貶王；
+- 鄙人有言曰：“何知仁義，已享其利者爲有德。
 - you2 ci3 guan1 zhi1 ， “ qie4 gou1 zhe3 zhu1 ， qie4 guo2 zhe3 hou2；
-- 跖躋暴戾，其徒誦義無窮。
+- ”故伯夷醜周，餓死首陽山，而文、武不以其故貶王；
 - hou2 zhi1 men2 ， ren2 yi4 cun2。
-- 由此觀之，“竊鉤者誅，竊國者侯；
+- 跖躋暴戾，其徒誦義無窮。
 - ” fei1 xu1 yan2 ye3。
-- 侯之門，仁義存。
+- 由此觀之，“竊鉤者誅，竊國者侯；
 - jin1 ju1 xue2 huo4 bao4 zhi3 chi3 zhi1 yi4 ， jiu3 gu1 wu1 shi4 ， qi3 ruo4 bei1 lun4 chai2 su2 ， yu3 shi4 fu2 chen2 er2 qu3 rong2 ming2 zai1 ! er2 bu4 yi1 zhi1 tu2 ， she4 qu3 yu3 ran2 nuo4 ， qian1 li3 song4 yi4 ， wei2 si3 bu2 gu4 shi4。
-- ”非虛言也。
+- 侯之門，仁義存。
 - ci3 yi4 you3 suo3 chang2 ， fei1 gou3 er2 yi3 ye3。
-- 今拘學或抱咫尺之義，久孤於世，豈若卑論儕俗，與世浮沉而取榮名哉！
+- ”非虛言也。
 - gu4 shi4 qiong2 jiong3 er2 de2 wei3 ming4 ， ci3 qi3 fei1 ren2 zhi1 suo3 wei4 xian2 hao2 jian4 zhe3 xie2 ? cheng2 shi3 xiang1 qu3 zhi1 xia2 ， yu3 ji4 ci4 、 yuan2 xian4 bi3 quan2 liang4 li4 ， xiao4 gong1 wu1 dang1 shi4 ， bu4 tong2 ri4 er2 lun4 yi3。
-- 而布衣之徒，設取予然諾，千里誦義，爲死不顧世。
+- 今拘學或抱咫尺之義，久孤於世，豈若卑論儕俗，與世浮沉而取榮名哉！
 - yao4 yi3 gong1 jian4 yan2 xin4 ， xia2 ke4 zhi1 yi4 ， you4 he2 ke3 shao3 zai1 !
+- 而布衣之徒，設取予然諾，千里誦義，爲死不顧世。
+- 
 - 此亦有所長，非苟而已也。
 - 
-- 故士窮窘而得委命，此豈非人之所謂賢豪間者邪？誠使鄉曲之俠，予季次、原憲比權量力，效功於當世，不同日而論矣。
+- 故士窮窘而得委命，此豈非人之所謂賢豪間者邪？
+- 
+- 誠使鄉曲之俠，予季次、原憲比權量力，效功於當世，不同日而論矣。
 - 
 - 要以功見言信，俠客之義，又曷可少哉！
 - gu3 bu4 yi1 zhi1 xia2 ， mi2 de2 er2 wen2 yi3。

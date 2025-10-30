@@ -11,8 +11,10 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 
 ## 正文
 
-- yu3 wen2 shi4 wei4 shi1 ren2 shao3 da2 er2 duo1 qiong2 ， fu1 qi3 ran2 zai1 ？ gai4 shi4 suo3 chuan2 shi1 zhe3 ， duo1 chu1 wu1 gu3 qiong2 ren2 zhi1 ci2 ye3。
-- 予聞世謂詩人少達而多窮，夫豈然哉？蓋世所傳詩者，多出於古窮人之辭也。
+- yu3 wen2 shi4 wei4 shi1 ren2 shao3 da2 er2 duo1 qiong2 ， fu1 qi3 ran2 zai1？
+- 予聞世謂詩人少達而多窮，夫豈然哉？
+- gai4 shi4 suo3 chuan2 shi1 zhe3 ， duo1 chu1 wu1 gu3 qiong2 ren2 zhi1 ci2 ye3。
+- 蓋世所傳詩者，多出於古窮人之辭也。
 - fan2 shi4 zhi1 yun4 qi2 suo3 you3 ， er2 bu4 de2 shi1 wu1 shi4 zhe3 ， duo1 xi3 zi4 fang4 yu2 shan1 dian1 shui3 ya2 zhi1 wai4 ， jian4 chong2 yu2 cao3 mu4 feng1 yun2 niao3 shou4 zhi1 zhuang4 lei4 ， wang3 wang3 tan4 qi2 qi2 guai4 ， nei4 you3 you1 si1 gan3 fen4 zhi1 yu4 ji1 ， qi2 xing1 wu1 yuan4 ci4 ， yi3 dao4 ji1 chen2 gua3 fu4 zhi1 suo3 tan4 ， er2 xie3 ren2 qing2 zhi1 nan2 yan2。
 - 凡士之蘊其所有，而不得施於世者，多喜自放于山巔水涯之外，見蟲魚草木風雲鳥獸之狀類，往往探其奇怪，內有憂思感憤之鬱積，其興於怨刺，以道羈臣寡婦之所嘆，而寫人情之難言。
 - gai4 yu4 qiong2 ze2 yu4 gong1。

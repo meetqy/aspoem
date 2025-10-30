@@ -31,8 +31,10 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 蘇秦曰：“臣固疑大王之不能用也。
 - xi1 zhe3 shen2 nong2 fa2 bu3 sui4 ， huang2 di4 fa2 zhuo1 lu4 er2 qin2 chi1 you2 ， yao2 fa2 huan1 dou1 ， shun4 fa2 san1 miao2 ， yu3 fa2 gong4 gong1 ， tang1 fa2 you3 xia4 ， wen2 wang2 fa2 chong2 ， wu3 wang2 fa2 zhou4 ， qi2 huan2 ren4 zhan4 er2 bo2 tian1 xia4。
 - 昔者神農伐補遂，黃帝伐涿鹿而禽蚩尤，堯伐驩兜，舜伐三苗，禹伐共工，湯伐有夏，文王伐崇，武王伐紂，齊桓任戰而伯天下。
-- you2 ci3 guan1 zhi1 ， e4 you3 bu2 zhan4 zhe3 hu1 ？ gu3 zhe3 shi3 ju1 gu3 ji1 chi2 ， yan2 yu3 xiang1 jie2 ， tian1 xia4 wei2 yi1 ， yue1 cong2 lian2 heng2 ， bing1 ge2 bu4 cang2。
-- 由此觀之，惡有不戰者乎？古者使車轂擊馳，言語相結，天下爲一，約從連橫，兵革不藏。
+- you2 ci3 guan1 zhi1 ， e4 you3 bu2 zhan4 zhe3 hu1？
+- 由此觀之，惡有不戰者乎？
+- gu3 zhe3 shi3 ju1 gu3 ji1 chi2 ， yan2 yu3 xiang1 jie2 ， tian1 xia4 wei2 yi1 ， yue1 cong2 lian2 heng2 ， bing1 ge2 bu4 cang2。
+- 古者使車轂擊馳，言語相結，天下爲一，約從連橫，兵革不藏。
 - wen2 shi4 bing4 chi4 ， zhu1 hou2 luan4 huo4 ， wan4 duan1 ju4 qi3 ， bu4 ke3 sheng4 li3。
 - 文士並飭，諸侯亂惑，萬端俱起，不可勝理。
 - ke1 tiao2 ji4 bei4 ， min2 duo1 wei3 tai4 ， shu1 ce4 chou2 zhuo2 ， bai3 xing4 bu4 zu2。
@@ -69,8 +71,10 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 蘇秦喟嘆曰：“妻不以我爲夫，嫂不以我爲叔，父母不以我爲子，是皆秦之罪也。
 - ” nai3 ye4 fa1 shu1 ， chen2 qie4 shu4 shi2 ， de2 tai4 gong1 yin1 fu2 zhi1 mou2 ， fu2 er2 song4 zhi1 ， jian3 lian4 yi3 wei2 chuai1 mo2。
 - ”乃夜發書，陳篋數十，得太公陰符之謀，伏而誦之，簡練以爲揣摩。
-- du2 shu1 yu4 shui4 ， yin3 zhui1 zi4 ci4 qi2 gu3 ， xue4 liu2 zhi4 zu2 ， yue1 ： “ an1 you3 shuo1 ren2 zhu3 ， bu4 neng2 chu1 qi2 jin1 yu4 jin3 xiu4 ， qu3 qing1 xiang1 zhi1 zun1 zhe3 hu1 ？ ” qi1 nian2 ， chuai1 mo2 cheng2 ， yue1 ： “ ci3 zhen1 ke3 yi3 shuo1 dang1 shi4 zhi1 jun1 yi3。
-- 讀書欲睡，引錐自刺其股，血流至足，曰：“安有說人主，不能出其金玉錦繡，取卿相之尊者乎？”期年，揣摩成，曰：“此真可以說當世之君矣。
+- du2 shu1 yu4 shui4 ， yin3 zhui1 zi4 ci4 qi2 gu3 ， xue4 liu2 zhi4 zu2 ， yue1 ： “ an1 you3 shuo1 ren2 zhu3 ， bu4 neng2 chu1 qi2 jin1 yu4 jin3 xiu4 ， qu3 qing1 xiang1 zhi1 zun1 zhe3 hu1？
+- 讀書欲睡，引錐自刺其股，血流至足，曰：“安有說人主，不能出其金玉錦繡，取卿相之尊者乎？
+- ” qi1 nian2 ， chuai1 mo2 cheng2 ， yue1 ： “ ci3 zhen1 ke3 yi3 shuo1 dang1 shi4 zhi1 jun1 yi3。
+- ”期年，揣摩成，曰：“此真可以說當世之君矣。
 - ”
 - ”
 - wu1 shi4 nai3 mo2 yan4 wu1 ji2 que4 ， jian4 shuo1 zhao4 wang2 wu1 hua2 wu1 zhi1 xia4 ， di3 zhang3 er2 tan2 ， zhao4 wang2 da4 yue4 ， feng1 wei2 wu3 an1 jun1。
@@ -95,14 +99,18 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 妻側目而視，傾耳而聽。
 - sao3 she2 xing2 pu2 fu2 ， si4 bai4 zi4 gui4 er2 xie4。
 - 嫂蛇行匍伏，四拜自跪而謝。
-- su1 qin2 yue1 ： “ sao3 he2 qian2 ju4 er2 hou4 bei1 ye3 ？ ” sao3 yue1 ： “ yi3 ji4 zi3 zhi1 wei4 zun1 er2 duo1 jin1。
-- 蘇秦曰：“嫂何前倨而後卑也？”嫂曰：“以季子之位尊而多金。
+- su1 qin2 yue1 ： “ sao3 he2 qian2 ju4 er2 hou4 bei1 ye3？
+- 蘇秦曰：“嫂何前倨而後卑也？
+- ” sao3 yue1 ： “ yi3 ji4 zi3 zhi1 wei4 zun1 er2 duo1 jin1。
+- ”嫂曰：“以季子之位尊而多金。
 - ” su1 qin2 yue1 ： “ jie1 hu1！
 - ”蘇秦曰：“嗟乎！
 - pin2 qiong2 ze2 fu4 mu3 bu4 zi3 ， fu4 gui4 ze2 qin1 qi1 wei4 ju4。
 - 貧窮則父母不子，富貴則親戚畏懼。
-- ren2 sheng1 shi4 shang4 ， shi4 wei4 fu4 hou4 ， gai4 ke3 hu1 hu1 zai1 ？ ”
-- 人生世上，勢位富厚，蓋可忽乎哉？”
+- ren2 sheng1 shi4 shang4 ， shi4 wei4 fu4 hou4 ， gai4 ke3 hu1 hu1 zai1？
+- 人生世上，勢位富厚，蓋可忽乎哉？
+- ”
+- ”
 
 ## 注释
 

@@ -25,8 +25,12 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 是二人者，未始不相須也。
 - ran2 er2 qian1 bai3 zai4 nai3 yi4 xiang1 yu4 yan1。
 - 然而千百載乃一相遇焉。
-- qi3 shang4 zhi1 ren2 wu2 ke3 yuan2 、 xia4 zhi1 ren2 wu2 ke3 tui1 yu2 ？ he2 qi2 xiang1 xu1 zhi1 yin1 er2 xiang1 yu4 zhi1 shu1 ye3 ？ qi2 gu4 zai4 xia4 zhi1 ren2 fu4 qi2 neng2 bu4 ken3 chan3 qi2 shang4 ， shang4 zhi1 ren2 fu4 qi2 wei4 bu4 ken3 gu4 qi2 xia4。
-- 豈上之人無可援、下之人無可推歟？何其相須之殷而相遇之疏也？其故在下之人負其能不肯諂其上，上之人負其位不肯顧其下。
+- qi3 shang4 zhi1 ren2 wu2 ke3 yuan2 、 xia4 zhi1 ren2 wu2 ke3 tui1 yu2？
+- 豈上之人無可援、下之人無可推歟？
+- he2 qi2 xiang1 xu1 zhi1 yin1 er2 xiang1 yu4 zhi1 shu1 ye3？
+- 何其相須之殷而相遇之疏也？
+- qi2 gu4 zai4 xia4 zhi1 ren2 fu4 qi2 neng2 bu4 ken3 chan3 qi2 shang4 ， shang4 zhi1 ren2 fu4 qi2 wei4 bu4 ken3 gu4 qi2 xia4。
+- 其故在下之人負其能不肯諂其上，上之人負其位不肯顧其下。
 - gu4 gao1 cai2 duo1 qi1 qi1 zhi1 qiong2 ， sheng4 wei4 wu2 he4 he4 zhi1 guang1。
 - 故高材多慼慼之窮，盛位無赫赫之光。
 - shi4 er4 ren2 zhe3 zhi1 suo3 wei2 jie1 guo4 ye3。
@@ -37,8 +41,18 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 未嘗求之，不可謂下無其人。
 - yu4 zhi1 song4 ci3 yan2 jiu3 yi3 ， wei4 chang2 gan3 yi3 wen2 wu1 ren2。
 - 愈之誦此言久矣，未嘗敢以聞於人。
-- ce4 wen2 ge2 xia4 bao4 bu2 shi4 zhi1 cai2 ， te4 li4 er2 du2 xing2 ， dao4 fang1 er2 shi4 shi2 ， juan4 shu1 bu4 sui2 hu1 shi2 ， wen2 wu3 wei2 qi2 suo3 yong4 ， qi3 yu4 suo3 wei4 qi2 ren2 zai1 ？ yi4 wei4 wen2 hou4 jin4 zhi1 shi4 ， you3 yu4 zhi1 wu1 zuo3 you4 、 huo4 li3 wu1 men2 xia4 zhe3 ， qi3 qiu2 zhi1 er2 wei4 de2 xie2 ？ jiang1 zhi4 cun2 hu1 li4 gong1 ， er2 shi4 zhuan1 hu1 bao4 zhu3 ， sui1 yu4 qi2 ren2 ， wei4 xia2 li3 xie2 ？ he2 qi2 yi2 wen2 er2 jiu3 bu4 wen2 ye3 ？ yu4 sui1 bu4 cai2 ， qi2 zi4 chu3 bu4 gan3 hou4 wu1 heng2 ren2 ， ge2 xia4 jiang1 qiu2 zhi1 er2 wei4 de2 yu2 ？ gu3 ren2 you3 yan2 ： “ qing3 zi4 wei3 shi3。
-- 側聞閣下抱不世之才，特立而獨行，道方而事實，卷舒不隨乎時，文武唯其所用，豈愈所謂其人哉？抑未聞後進之士，有遇知於左右、獲禮於門下者，豈求之而未得邪？將志存乎立功，而事專乎報主，雖遇其人，未暇禮邪？何其宜聞而久不聞也？愈雖不才，其自處不敢後於恆人，閣下將求之而未得歟？古人有言：“請自隗始。
+- ce4 wen2 ge2 xia4 bao4 bu2 shi4 zhi1 cai2 ， te4 li4 er2 du2 xing2 ， dao4 fang1 er2 shi4 shi2 ， juan4 shu1 bu4 sui2 hu1 shi2 ， wen2 wu3 wei2 qi2 suo3 yong4 ， qi3 yu4 suo3 wei4 qi2 ren2 zai1？
+- 側聞閣下抱不世之才，特立而獨行，道方而事實，卷舒不隨乎時，文武唯其所用，豈愈所謂其人哉？
+- yi4 wei4 wen2 hou4 jin4 zhi1 shi4 ， you3 yu4 zhi1 wu1 zuo3 you4 、 huo4 li3 wu1 men2 xia4 zhe3 ， qi3 qiu2 zhi1 er2 wei4 de2 xie2？
+- 抑未聞後進之士，有遇知於左右、獲禮於門下者，豈求之而未得邪？
+- jiang1 zhi4 cun2 hu1 li4 gong1 ， er2 shi4 zhuan1 hu1 bao4 zhu3 ， sui1 yu4 qi2 ren2 ， wei4 xia2 li3 xie2？
+- 將志存乎立功，而事專乎報主，雖遇其人，未暇禮邪？
+- he2 qi2 yi2 wen2 er2 jiu3 bu4 wen2 ye3？
+- 何其宜聞而久不聞也？
+- yu4 sui1 bu4 cai2 ， qi2 zi4 chu3 bu4 gan3 hou4 wu1 heng2 ren2 ， ge2 xia4 jiang1 qiu2 zhi1 er2 wei4 de2 yu2？
+- 愈雖不才，其自處不敢後於恆人，閣下將求之而未得歟？
+- gu3 ren2 you3 yan2 ： “ qing3 zi4 wei3 shi3。
+- 古人有言：“請自隗始。
 - ” yu4 jin1 zhe3 wei2 zhao1 xi1 chu2 mi3 、 pu2 lin4 zhi1 zi1 shi4 ji2 ， bu2 guo4 fei4 ge2 xia4 yi4 chao2 zhi1 xiang3 er2 zu2 ye3。
 - ”愈今者惟朝夕芻米、僕賃之資是急，不過費閣下一朝之享而足也。
 - ru2 yue1 ： “ wu2 zhi4 cun2 hu1 li4 gong1 ， er2 shi4 zhuan1 hu1 bao4 zhu3。

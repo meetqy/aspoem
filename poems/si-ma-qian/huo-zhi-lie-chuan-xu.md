@@ -33,11 +33,13 @@ tags: ["卷五・漢文","古文观止","蒙学"]
 - 皆中國人民所喜好，謠俗被服飲食奉生送死之具也。
 - gu4 dai4 nong2 er2 shi2 zhi1 ， yu2   er2 chu1 zhi1 ， gong1 er2 cheng2 zhi1 ， shang1 er2 tong1 zhi1。
 - 故待農而食之，虞 而出之，工而成之，商而通之。
-- ci3 ning2 you3 zheng4 jiao4 fa1 zhi3 qi1 hui4 zai1 ？ ren2 ge4 ren4 qi2 neng2 ， jie2 qi2 li4 ， yi3 de2 suo3 yu4。
-- 此寧有政教發徵期會哉？人各任其能，竭其力，以得所欲。
+- ci3 ning2 you3 zheng4 jiao4 fa1 zhi3 qi1 hui4 zai1？
+- 此寧有政教發徵期會哉？
+- ren2 ge4 ren4 qi2 neng2 ， jie2 qi2 li4 ， yi3 de2 suo3 yu4。
+- 人各任其能，竭其力，以得所欲。
 - gu4 wu4 jian4 zhi1 zhi3 gui4 ， gui4 zhi1 zhi3 jian4 ， ge4 quan4 qi2 ye4 ， le4 qi2 shi4 ， ruo4 shui3 zhi1 qu1 xia4 ， ri4 ye4 wu2 xiu1 shi2 ， bu2 zhao4 er2 zi4 lai2 ， bu4 qiu2 er2 min2 chu1 zhi1。
 - 故物賤之徵貴，貴之徵賤，各勸其業，樂其事，若水之趨下，日夜無休時，不召而自來，不求而民出之。
-- qi3 fei1 dao4 zhi1 suo3 fu2 ， er2 zi4 ran2 zhi1 yan4 xie2 ？
+- qi3 fei1 dao4 zhi1 suo3 fu2 ， er2 zi4 ran2 zhi1 yan4 xie2？
 - 豈非道之所符，而自然之驗邪？
 - 《 zhou1 shu1 》   yue1 ： “ nong2 bu4 chu1 ze2 fa2 qi2 shi2 ， gong1 bu4 chu1 ze2 fa2 qi2 shi4 ， shang1 bu4 chu1 ze2 san1 bao3 jue2 ， yu2 bu4 chu1 ze2 cai2 kui4 shao3。
 - 《周書》 曰：“農不出則乏其食，工不出則乏其事，商不出則三寶絕，虞不出則財匱少。

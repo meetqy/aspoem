@@ -43,8 +43,10 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 君義，臣行，父慈，子孝，兄愛，弟敬，所謂六順也。
 - qu4 shun4 xiao4 ni4 ， suo3 yi3 su4 huo4 ye3。
 - 去順效逆，所以速禍也。
-- jun1 ren2 zhe3 ， jiang1 huo4 shi4 [ tong1 “ shi4 ” ] wu4 qu4 ， er2 su4 zhi1 ， wu2 nai3 bu4 ke3 hu1 ？ ” fu2 ting1。
-- 君人者，將禍是【通“事”】務去，而速之，無乃不可乎？”弗聽。
+- jun1 ren2 zhe3 ， jiang1 huo4 shi4 [ tong1 “ shi4 ” ] wu4 qu4 ， er2 su4 zhi1 ， wu2 nai3 bu4 ke3 hu1？
+- 君人者，將禍是【通“事”】務去，而速之，無乃不可乎？
+- ” fu2 ting1。
+- ”弗聽。
 - qi2 zi3 hou4 yu3 zhou1 yu4 you2 ， jin4 zhi1 ， bu4 ke3。
 - 其子厚與州籲遊，禁之，不可。
 - huan2 gong1 li4 ， nai3 lao3。

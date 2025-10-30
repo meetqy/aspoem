@@ -39,9 +39,9 @@ tags: []
 - 兹历情以陈辞兮，荪详聋而不闻。
 - gu4 qie4 ren2 zhi1 bu2 mei4 xi1 ， zhong4 guo3 yi3 wo3 wei4 huan4。
 - 固切人之不媚兮，众果以我为患。
-- chu1 wu2 suo3 chen2 zhi1 geng3 zhu4 xi1 ， qi3 zhi4 jin1 qi2 yong1 wang2 ？
+- chu1 wu2 suo3 chen2 zhi1 geng3 zhu4 xi1 ， qi3 zhi4 jin1 qi2 yong1 wang2？
 - 初吾所陈之耿著兮，岂至今其庸亡？
-- he2 du2 le4 si1 zhi1 jian3 jian3 xi1 ？
+- he2 du2 le4 si1 zhi1 jian3 jian3 xi1？
 - 何独乐斯之謇謇兮？
 - yuan4 sun1 mei3 zhi1 ke3 guang1。
 - 愿荪美之可光。
@@ -51,7 +51,7 @@ tags: []
 - 夫何极而不至兮，故远闻而难亏。
 - shan4 bu4 you2 wai4 lai2 xi1 ， ming2 bu4 ke3 yi3 xu1 zuo4。
 - 善不由外来兮，名不可以虚作。
-- shu2 wu2 shi1 er2 you3 bao4 xi1 ， shu2 bu4 shi2 er2 you3 huo4 ？
+- shu2 wu2 shi1 er2 you3 bao4 xi1 ， shu2 bu4 shi2 er2 you3 huo4？
 - 孰无施而有报兮，孰不实而有获？
 - shao3 ge1 yue1 ： yu3 mei3 ren2 chou1 si1 xi1 ， bing4 ri4 ye4 er2 wu2 zheng4。
 - 少歌曰：与美人抽思兮，并日夜而无正。
@@ -69,7 +69,7 @@ tags: []
 - 道卓远而日忘兮，愿自申而不得。
 - wang4 bei3 shan1 er2 liu2 ti4 xi1 ， lin2 liu2 shui3 er2 tai4 xi1。
 - 望北山而流涕兮，临流水而太息。
-- wang4 meng4 xia4 zhi1 duan3 ye4 xi1 ， he2 hui4 ming2 zhi1 ruo4 sui4 ？
+- wang4 meng4 xia4 zhi1 duan3 ye4 xi1 ， he2 hui4 ming2 zhi1 ruo4 sui4？
 - 望孟夏之短夜兮，何晦明之若岁？
 - wei2 ying3 lu4 zhi1 liao2 yuan3 xi1 ， hun2 yi4 xi1 er2 jiu3 shi4。
 - 惟郢路之辽远兮，魂一夕而九逝。

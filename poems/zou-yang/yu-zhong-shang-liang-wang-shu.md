@@ -39,8 +39,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 願大王孰察，少加憐焉。
 - yu3 yue1 ： “ you3 bai2 tou2 ru2 xin1 ， qing1 gai4 ru2 gu4。
 - 語曰：“有白頭如新，傾蓋如故。
-- ” he2 ze2 ？ zhi1 yu3 bu4 zhi1 ye3。
-- ”何則？知與不知也。
+- ” he2 ze2？
+- ”何則？
+- zhi1 yu3 bu4 zhi1 ye3。
+- 知與不知也。
 - gu4 fan2 wu1 qi1 tao2 qin2 zhi1 yan4 ， jie4 jing1 ke1 shou3 yi3 feng4 dan1 shi4；
 - 故樊於期逃秦之燕，借荊軻首以奉丹事；
 - wang2 she1 qu4 qi2 zhi1 wei4 ， lin2 cheng2 zi4 jing3 yi3 que4 qi2 er2 cun2 wei4。
@@ -51,14 +53,18 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 是以蘇秦不信於天下，爲燕尾生；
 - bai2 gui1 zhan4 wang2 liu4 cheng2 ， wei2 wei4 qu3 zhong1 shan1。
 - 白圭戰亡六城，爲魏取中山。
-- he2 ze2 ？ cheng2 you3 yi3 xiang1 zhi1 ye3。
-- 何則？誠有以相知也。
+- he2 ze2？
+- 何則？
+- cheng2 you3 yi3 xiang1 zhi1 ye3。
+- 誠有以相知也。
 - su1 qin2 xiang1 yan4 ， ren2 e4 zhi1 yan4 wang2 ， yan4 wang2 an4 jian4 er2 nu4 ， shi2 yi3 kuai4 ti2；
 - 蘇秦相燕，人惡之燕王，燕王按劍而怒，食以駃騠；
 - bai2 gui1 xian3 wu1 zhong1 shan1 ， ren2 e4 zhi1 wu1 wei4 wen2 hou2 ， wen2 hou2 ci4 yi3 ye4 guang1 zhi1 bi4。
 - 白圭顯於中山，人惡之於魏文侯，文侯賜以夜光之璧。
-- he2 ze2 ？ liang3 zhu3 er4 chen2 ， pou1 xin1 xi1 gan1 xiang1 xin4 ， qi3 yi2 wu1 fu2 ci2 zai1！
-- 何則？兩主二臣，剖心析肝相信，豈移於浮辭哉！
+- he2 ze2？
+- 何則？
+- liang3 zhu3 er4 chen2 ， pou1 xin1 xi1 gan1 xiang1 xin4 ， qi3 yi2 wu1 fu2 ci2 zai1！
+- 兩主二臣，剖心析肝相信，豈移於浮辭哉！
 - gu4 nü3 wu2 mei3 e4 ， ru4 gong1 jian4 du4；
 - 故女無美惡，入宮見妒；
 - shi4 wu2 xian2 bu2 xiao4 ， ru4 chao2 jian4 ji2。
@@ -75,18 +81,26 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 故百里奚乞食於道路，繆公委之以政；
 - ning2 qi1 fan4 niu2 ju1 xia4 ， huan2 gong1 ren4 zhi1 yi3 guo2。
 - 甯戚飯牛車下，桓公任之以國。
-- ci3 er4 ren2 zhe3 ， qi3 su4 huan4 wu1 chao2 ， jie4 yu4 wu1 zuo3 you4 ， ran2 hou4 er4 zhu3 yong4 zhi1 zai1 ？ gan3 wu1 xin1 ， he2 wu1 xing2 ， jian1 ru2 jiao1 qi1 ， kun1 di4 bu4 neng2 li2 ， qi3 huo4 wu1 zhong4 kou3 zai1 ？ gu4 pian1 ting1 sheng1 jian1 ， du2 ren4 cheng2 luan4。
-- 此二人者，豈素宦於朝，借譽於左右，然後二主用之哉？感於心，合於行，堅如膠漆，昆弟不能離，豈惑於衆口哉？故偏聽生奸，獨任成亂。
+- ci3 er4 ren2 zhe3 ， qi3 su4 huan4 wu1 chao2 ， jie4 yu4 wu1 zuo3 you4 ， ran2 hou4 er4 zhu3 yong4 zhi1 zai1？
+- 此二人者，豈素宦於朝，借譽於左右，然後二主用之哉？
+- gan3 wu1 xin1 ， he2 wu1 xing2 ， jian1 ru2 jiao1 qi1 ， kun1 di4 bu4 neng2 li2 ， qi3 huo4 wu1 zhong4 kou3 zai1？
+- 感於心，合於行，堅如膠漆，昆弟不能離，豈惑於衆口哉？
+- gu4 pian1 ting1 sheng1 jian1 ， du2 ren4 cheng2 luan4。
+- 故偏聽生奸，獨任成亂。
 - xi1 lu3 ting1 ji4 sun1 zhi1 shuo1 zhu2 kong3 zi3 ， song4 ren4 zi3 ran3 zhi1 ji4 qiu2 mo4 zhai2。
 - 昔魯聽季孫之說逐孔子，宋任子冉之計囚墨翟。
 - fu1 yi3 kong3 、 mo4 zhi1 bian4 ， bu4 neng2 zi4 mian3 wu1 chan2 yu2 ， er2 er4 guo2 yi3 wei1。
 - 夫以孔、墨之辯，不能自免於讒諛，而二國以危。
-- he2 ze2 ？ zhong4 kou3 shuo4 jin1 ， ji1 hui3 xiao1 gu3 ye3。
-- 何則？衆口鑠金，積毀銷骨也。
+- he2 ze2？
+- 何則？
+- zhong4 kou3 shuo4 jin1 ， ji1 hui3 xiao1 gu3 ye3。
+- 衆口鑠金，積毀銷骨也。
 - qin2 yong4 rong2 ren2 you2 yu2 er2 bo2 zhong1 guo2 ， qi2 yong4 yue4 ren2 zi3 zang1 er2 qiang2 wei1 、 xuan1。
 - 秦用戎人由余而伯中國，齊用越人子臧而強威、宣。
-- ci3 er4 guo2 qi3 xi4 wu1 su2 ， qian1 wu1 shi4 ， xi4 qi2 pian1 zhi1 fu2 ci2 zai1 ？ gong1 ting1 bing4 guan1 ， chui2 ming2 dang1 shi4。
-- 此二國豈繫於俗，牽於世，系奇偏之浮辭哉？公聽並觀，垂明當世。
+- ci3 er4 guo2 qi3 xi4 wu1 su2 ， qian1 wu1 shi4 ， xi4 qi2 pian1 zhi1 fu2 ci2 zai1？
+- 此二國豈繫於俗，牽於世，系奇偏之浮辭哉？
+- gong1 ting1 bing4 guan1 ， chui2 ming2 dang1 shi4。
+- 公聽並觀，垂明當世。
 - gu4 yi4 he2 ze2 hu2 yue4 wei2 xiong1 di4 ， you2 yu2 ， zi3 zang1 shi4 yi3；
 - 故意合則胡越爲兄弟，由余，子臧是矣；
 - bu4 he2 ze2 gu3 rou4 wei2 chou2 di2 ， zhu1 、 xiang4 、 guan3 、 cai4 shi4 yi3。
@@ -95,14 +109,18 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 今人主誠能用齊、秦之明，後宋、魯之聽，則五伯不足侔，而三王易爲也。
 - shi4 yi3 sheng4 wang2 jue2 wu4 ， juan1 zi3 zhi1 zhi1 xin1 ， er2 bu4 shuo1 tian2 chang2 zhi1 xian2 ， feng1 bi3 gan1 zhi1 hou4 ， xiu1 yun4 fu4 zhi1 mu4 ， gu4 gong1 ye4 fu4 wu1 tian1 xia4。
 - 是以聖王覺寤，捐子之之心，而不說田常之賢，封比干之後，修孕婦之墓，故功業覆於天下。
-- he2 ze2 ？ yu4 shan4 wang2 yan4 ye3。
-- 何則？欲善亡厭也。
+- he2 ze2？
+- 何則？
+- yu4 shan4 wang2 yan4 ye3。
+- 欲善亡厭也。
 - fu1 jin4 wen2 qin1 qi2 chou2 ， qiang2 bo2 zhu1 hou2；
 - 夫晉文親其讎，強伯諸侯；
 - qi2 huan2 yong4 qi2 chou2 ， er2 yi4 kuang1 tian1 xia4。
 - 齊桓用其仇，而一匡天下。
-- he2 ze2 ？ ci2 ren2 yin1 qin2 ， cheng2 jia1 wu1 xin1 ， bu4 ke3 yi3 xu1 ci2 jie4 ye3。
-- 何則？慈仁殷勤，誠加於心，不可以虛辭借也。
+- he2 ze2？
+- 何則？
+- ci2 ren2 yin1 qin2 ， cheng2 jia1 wu1 xin1 ， bu4 ke3 yi3 xu1 ci2 jie4 ye3。
+- 慈仁殷勤，誠加於心，不可以虛辭借也。
 - zhi4 fu1 qin2 yong4 shang1 yang1 zhi1 fa3 ， dong1 ruo4 han2 、 wei4 ， li4 qiang2 tian1 xia4 ， zu2 ju1 lie4 zhi1。
 - 至夫秦用商鞅之法，東弱韓、魏，立強天下，卒車裂之。
 - yue4 yong4 dai4 fu0 zhong3 zhi1 mou2 ， qin2 jin4 wu2 er2 bo2 zhong1 guo2 ， sui4 zhu1 qi2 shen1。
@@ -115,8 +133,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 然則荊軻湛七族，要離燔妻子（），豈足爲大王道哉！
 - chen2 wen2 ming2 yue4 zhi1 zhu1 ， ye4 guang1 zhi1 bi4 ， yi3 an4 tou2 ren2 wu1 dao4 ， zhong4 mo4 bu2 an4 jian4 xiang1 mian3 zhe3。
 - 臣聞明月之珠，夜光之璧，以闇投人於道，衆莫不按劍相眄者。
-- he2 ze2 ？ wu2 yin1 er2 zhi4 qian2 ye3。
-- 何則？無因而至前也。
+- he2 ze2？
+- 何則？
+- wu2 yin1 er2 zhi4 qian2 ye3。
+- 無因而至前也。
 - pan2 mu4 gen1 di3 ， lun2 qun1 li2 qi2 ， er2 wei2 wan4 cheng2 qi4 zhe3 ， yi3 zuo3 you4 xian1 wei2 zhi1 rong2 ye3。
 - 蟠木根柢，輪囷離奇，而爲萬乘器者，以左右先爲之容也。
 - gu4 wu2 yin1 er2 zhi4 qian2 ， sui1 chu1 sui2 zhu1 he2 bi4 ， zhi1 yuan4 jie2 er2 bu2 jian4 de2；
@@ -135,8 +155,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 周文王獵涇渭，載呂尚歸，以王天下。
 - qin2 xin4 zuo3 you4 er2 wang2 ， zhou1 yong4 wu1 ji2 er2 wang2。
 - 秦信左右而亡，周用烏集而王。
-- he2 ze2 ？ yi3 qi2 neng2 yue4 luan2 ju1 zhi1 yu3 ， chi2 yu4 wai4 zhi1 yi4 ， du2 guan1 hu1 zhao1 kuang4 zhi1 dao4 ye3。
-- 何則？以其能越攣拘之語，馳域外之議，獨觀乎昭曠之道也。
+- he2 ze2？
+- 何則？
+- yi3 qi2 neng2 yue4 luan2 ju1 zhi1 yu3 ， chi2 yu4 wai4 zhi1 yi4 ， du2 guan1 hu1 zhao1 kuang4 zhi1 dao4 ye3。
+- 以其能越攣拘之語，馳域外之議，獨觀乎昭曠之道也。
 - jin1 ren2 zhu3 shen3 chan3 yu2 zhi1 ci2 ， qian1 wei2 qiang2 zhi1 zhi4 ， shi3 bu4 ji1 zhi1 shi4 yu3 niu2 ji4 tong2 zao4 ， ci3 bao4 jiao1 suo3 yi3 fen4 wu1 shi4 ye3。
 - 今人主沈諂諛之辭，牽帷廧之制，使不羈之士與牛驥同皁，此鮑焦所以憤於世也。
 - chen2 wen2 sheng4 shi4 ru4 chao2 zhe3 bu4 yi3 si1 wu1 yi4 ， di3 li4 ming2 hao4 zhe3 bu4 yi3 li4 shang1 xing2。

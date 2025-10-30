@@ -17,14 +17,44 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 愈聞周公之爲輔相，其急於見賢也，方一食三吐其哺，方一沐三握其發。
 - tian1 xia4 zhi1 xian2 cai2 jie1 yi3 ju3 yong4 ， jian1 xie2 chan2 ning4 qi1 fu4 zhi1 tu2 jie1 yi3 chu2 qu4 ， si4 hai3 jie1 yi3 wu2 yu2 ， jiu3 yi2 ba1 man2 zhi1 zai4 huang1 fu2 zhi1 wai4 zhe3 jie1 yi3 bin1 gong4 ， tian1 zai1 shi2 bian4 、 kun1 chong2 cao3 mu4 zhi1 yao1 jie1 yi3 xiao1 xi1 ， tian1 xia4 zhi1 suo3 wei4 li3 、 le4 、 xing2 、 zheng4 jiao4 hua4 zhi1 ju4 jie1 yi3 xiu1 li3 ， feng1 su2 jie1 yi3 dun1 hou4 ， dong4 zhi2 zhi1 wu4 、 feng1 yu3 shuang1 lu4 zhi1 suo3 zhan1 bei4 zhe3 jie1 yi3 de2 yi2 ， xiu1 zhi3 jia1 rui4 、 lin2 feng4 gui1 long2 zhi1 shu3 jie1 yi3 bei4 zhi4 ， er2 zhou1 gong1 yi3 sheng4 ren2 zhi1 cai2 ， ping2 shu1 fu4 zhi1 qin1 ， qi2 suo3 fu3 li3 cheng2 hua4 zhi1 gong1 you4 jin4 zhang1 zhang1 ru2 shi4。
 - 天下之賢才皆已舉用，奸邪讒佞欺負之徒皆已除去，四海皆已無虞，九夷八蠻之在荒服之外者皆已賓貢，天災時變、昆蟲草木之妖皆已銷息，天下之所謂禮、樂、刑、政教化之具皆已修理，風俗皆已敦厚，動植之物、風雨霜露之所沾被者皆已得宜，休徵嘉瑞、麟鳳龜龍之屬皆已備至，而周公以聖人之才，憑叔父之親，其所輔理承化之功又盡章章如是。
-- qi2 suo3 qiu2 jin4 jian4 zhi1 shi4 ， qi3 fu4 you3 xian2 wu1 zhou1 gong1 zhe3 zai1 ？ bu4 wei2 bu4 xian2 wu1 zhou1 gong1 er2 yi3 ， qi3 fu4 you3 xian2 wu1 shi2 bai3 zhi2 shi4 zhe3 zai1 ？ qi3 fu4 you3 suo3 ji4 yi4 、 neng2 bu3 wu1 zhou1 gong1 zhi1 hua4 zhe3 zai1 ？ ran2 er2 zhou1 gong1 qiu2 zhi1 ru2 ci3 qi2 ji2 ， wei2 kong3 er3 mu4 you3 suo3 bu4 wen2 jian4 ， si1 lü4 you3 suo3 wei4 ji2 ， yi3 fu4 cheng2 wang2 tuo1 zhou1 gong1 zhi1 yi4 ， bu4 de2 wu1 tian1 xia4 zhi1 xin1。
-- 其所求進見之士，豈復有賢於周公者哉？不惟不賢於周公而已，豈復有賢於時百執事者哉？豈復有所計議、能補於周公之化者哉？然而周公求之如此其急，惟恐耳目有所不聞見，思慮有所未及，以負成王託周公之意，不得於天下之心。
-- ru2 zhou1 gong1 zhi1 xin1 ， she4 shi3 qi2 shi2 fu3 li3 cheng2 hua4 zhi1 gong1 wei4 jin4 zhang1 zhang1 ru2 shi4 ， er2 fei1 sheng4 ren2 zhi1 cai2 ， er2 wu2 shu1 fu4 zhi1 qin1 ， ze2 jiang1 bu4 xia2 shi2 yu3 mu4 yi3 ， qi3 te4 tu3 bu3 wo4 fa4 wei2 qin2 er2 zhi3 zai1 ？ wei2 qi2 ru2 shi4 ， gu4 wu1 jin1 song4 cheng2 wang2 zhi1 de2 ， er2 cheng1 zhou1 gong1 zhi1 gong1 bu4 shuai1。
-- 如周公之心，設使其時輔理承化之功未盡章章如是，而非聖人之才，而無叔父之親，則將不暇食與沐矣，豈特吐哺握髮爲勤而止哉？維其如是，故於今頌成王之德，而稱周公之功不衰。
+- qi2 suo3 qiu2 jin4 jian4 zhi1 shi4 ， qi3 fu4 you3 xian2 wu1 zhou1 gong1 zhe3 zai1？
+- 其所求進見之士，豈復有賢於周公者哉？
+- bu4 wei2 bu4 xian2 wu1 zhou1 gong1 er2 yi3 ， qi3 fu4 you3 xian2 wu1 shi2 bai3 zhi2 shi4 zhe3 zai1？
+- 不惟不賢於周公而已，豈復有賢於時百執事者哉？
+- qi3 fu4 you3 suo3 ji4 yi4 、 neng2 bu3 wu1 zhou1 gong1 zhi1 hua4 zhe3 zai1？
+- 豈復有所計議、能補於周公之化者哉？
+- ran2 er2 zhou1 gong1 qiu2 zhi1 ru2 ci3 qi2 ji2 ， wei2 kong3 er3 mu4 you3 suo3 bu4 wen2 jian4 ， si1 lü4 you3 suo3 wei4 ji2 ， yi3 fu4 cheng2 wang2 tuo1 zhou1 gong1 zhi1 yi4 ， bu4 de2 wu1 tian1 xia4 zhi1 xin1。
+- 然而周公求之如此其急，惟恐耳目有所不聞見，思慮有所未及，以負成王託周公之意，不得於天下之心。
+- ru2 zhou1 gong1 zhi1 xin1 ， she4 shi3 qi2 shi2 fu3 li3 cheng2 hua4 zhi1 gong1 wei4 jin4 zhang1 zhang1 ru2 shi4 ， er2 fei1 sheng4 ren2 zhi1 cai2 ， er2 wu2 shu1 fu4 zhi1 qin1 ， ze2 jiang1 bu4 xia2 shi2 yu3 mu4 yi3 ， qi3 te4 tu3 bu3 wo4 fa4 wei2 qin2 er2 zhi3 zai1？
+- 如周公之心，設使其時輔理承化之功未盡章章如是，而非聖人之才，而無叔父之親，則將不暇食與沐矣，豈特吐哺握髮爲勤而止哉？
+- wei2 qi2 ru2 shi4 ， gu4 wu1 jin1 song4 cheng2 wang2 zhi1 de2 ， er2 cheng1 zhou1 gong1 zhi1 gong1 bu4 shuai1。
+- 維其如是，故於今頌成王之德，而稱周公之功不衰。
 - jin1 ge2 xia4 wei2 fu3 xiang1 yi4 jin4 er3。
 - 今閣下爲輔相亦近耳。
-- tian1 xia4 zhi1 xian2 cai2 qi3 jin4 ju3 yong4 ？ jian1 xie2 chan2 ning4 qi1 fu4 zhi1 tu2 qi3 jin4 chu2 qu4 ？ si4 hai3 qi3 jin4 wu2 yu2 ？ jiu3 yi2 、 ba1 man2 zhi1 zai4 huang1 fu2 zhi1 wai4 zhe3 qi3 jin4 bin1 gong4 ？ tian1 zai1 shi2 bian4 、 kun1 chong2 cao3 mu4 zhi1 yao1 qi3 jin4 xiao1 xi1 ？ tian1 xia4 zhi1 suo3 wei4 li3 、 le4 、 xing2 、 zheng4 jiao4 hua4 zhi1 ju4 qi3 jin4 xiu1 li3 ？ feng1 su2 qi3 jin4 dun1 hou4 ？ dong4 zhi2 zhi1 wu4 、 feng1 yu3 shuang1 lu4 zhi1 suo3 zhan1 bei4 zhe3 qi3 jin4 de2 yi2 ？ xiu1 zhi3 jia1 rui4 、 lin2 feng4 gui1 long2 zhi1 shu3 qi3 jin4 bei4 zhi4 ？ qi2 suo3 qiu2 jin4 jian4 zhi1 shi4 ， sui1 bu4 zu2 yi3 xi1 wang4 sheng4 de2 ， zhi4 bi3 wu1 bai3 zhi2 shi4 ， qi3 jin4 chu1 qi2 xia4 zai1 ？ qi2 suo3 cheng1 shuo1 ， qi3 jin4 wu2 suo3 bu3 zai1 ？ jin1 sui1 bu4 neng2 ru2 zhou1 gong1 tu3 bu3 wo4 fa4 ， yi4 yi2 yin3 er2 jin4 zhi1 ， cha2 qi2 suo3 yi3 er2 qu4 jiu4 zhi1 ， bu4 yi2 mo4 mo4 er2 yi3 ye3。
-- 天下之賢才豈盡舉用？奸邪讒佞欺負之徒豈盡除去？四海豈盡無虞？九夷、八蠻之在荒服之外者豈盡賓貢？天災時變、昆蟲草木之妖豈盡銷息？天下之所謂禮、樂、刑、政教化之具豈盡修理？風俗豈盡敦厚？動植之物、風雨霜露之所沾被者豈盡得宜？休徵嘉瑞、麟鳳龜龍之屬豈盡備至？其所求進見之士，雖不足以希望盛德，至比於百執事，豈盡出其下哉？其所稱說，豈盡無所補哉？今雖不能如周公吐哺握髮，亦宜引而進之，察其所以而去就之，不宜默默而已也。
+- tian1 xia4 zhi1 xian2 cai2 qi3 jin4 ju3 yong4？
+- 天下之賢才豈盡舉用？
+- jian1 xie2 chan2 ning4 qi1 fu4 zhi1 tu2 qi3 jin4 chu2 qu4？
+- 奸邪讒佞欺負之徒豈盡除去？
+- si4 hai3 qi3 jin4 wu2 yu2？
+- 四海豈盡無虞？
+- jiu3 yi2 、 ba1 man2 zhi1 zai4 huang1 fu2 zhi1 wai4 zhe3 qi3 jin4 bin1 gong4？
+- 九夷、八蠻之在荒服之外者豈盡賓貢？
+- tian1 zai1 shi2 bian4 、 kun1 chong2 cao3 mu4 zhi1 yao1 qi3 jin4 xiao1 xi1？
+- 天災時變、昆蟲草木之妖豈盡銷息？
+- tian1 xia4 zhi1 suo3 wei4 li3 、 le4 、 xing2 、 zheng4 jiao4 hua4 zhi1 ju4 qi3 jin4 xiu1 li3？
+- 天下之所謂禮、樂、刑、政教化之具豈盡修理？
+- feng1 su2 qi3 jin4 dun1 hou4？
+- 風俗豈盡敦厚？
+- dong4 zhi2 zhi1 wu4 、 feng1 yu3 shuang1 lu4 zhi1 suo3 zhan1 bei4 zhe3 qi3 jin4 de2 yi2？
+- 動植之物、風雨霜露之所沾被者豈盡得宜？
+- xiu1 zhi3 jia1 rui4 、 lin2 feng4 gui1 long2 zhi1 shu3 qi3 jin4 bei4 zhi4？
+- 休徵嘉瑞、麟鳳龜龍之屬豈盡備至？
+- qi2 suo3 qiu2 jin4 jian4 zhi1 shi4 ， sui1 bu4 zu2 yi3 xi1 wang4 sheng4 de2 ， zhi4 bi3 wu1 bai3 zhi2 shi4 ， qi3 jin4 chu1 qi2 xia4 zai1？
+- 其所求進見之士，雖不足以希望盛德，至比於百執事，豈盡出其下哉？
+- qi2 suo3 cheng1 shuo1 ， qi3 jin4 wu2 suo3 bu3 zai1？
+- 其所稱說，豈盡無所補哉？
+- jin1 sui1 bu4 neng2 ru2 zhou1 gong1 tu3 bu3 wo4 fa4 ， yi4 yi2 yin3 er2 jin4 zhi1 ， cha2 qi2 suo3 yi3 er2 qu4 jiu4 zhi1 ， bu4 yi2 mo4 mo4 er2 yi3 ye3。
+- 今雖不能如周公吐哺握髮，亦宜引而進之，察其所以而去就之，不宜默默而已也。
 - yu4 zhi1 dai4 ming4 ， si4 shi2 yu2 ri4 yi3。
 - 愈之待命，四十餘日矣。
 - shu1 zai4 shang4 ， er2 zhi4 bu4 de2 tong1。

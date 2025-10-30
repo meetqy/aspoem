@@ -33,7 +33,7 @@ tags: []
 - ”
 - wu1 yang2 yan1 nai3 xia4 zhao1 yue1 ： hun2 xi1 gui1 lai2！
 - 巫阳焉乃下招曰：魂兮归来！
-- qu4 jun1 zhi1 heng2 gan1 ， he2 wei4 si4 fang1 xie1 ？
+- qu4 jun1 zhi1 heng2 gan1 ， he2 wei4 si4 fang1 xie1？
 - 去君之恒干，何为四方些？
 - she4 jun1 zhi1 le4 chu4 ， er2 li2 bi3 bu4 xiang2 xie1！
 - 舍君之乐处，而离彼不祥些！
@@ -209,7 +209,7 @@ tags: []
 - 兰薄户树，琼木篱些。
 - hun2 xi1 gui1 lai2！
 - 魂兮归来！
-- he2 yuan3 wei4 xie1 ？
+- he2 yuan3 wei4 xie1？
 - 何远为些？
 - shi4 jia1 sui4 zong1 ， shi2 duo1 fang1 xie1。
 - 室家遂宗，食多方些。

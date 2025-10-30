@@ -13,8 +13,14 @@ tags: ["卷三・周文","古文观止","蒙学"]
 
 - gong1 fu4 wen2 bo2 tui4 chao2 ， chao2 qi2 mu3 ， qi2 mu3 fang1 ji4 ， wen2 bo2 yue1 ： “ yi3 chu4 zhi1 jia1 er2 zhu3 you2 ji4 ， ju4 qian2 ji4 sun1 zhi1 nu4 ye3。
 - 公父文伯退朝，朝其母，其母方績，文伯曰：“以歜之家而主猶績，懼乾季孫之怒也。
-- qi2 yi3 chu4 wei2 bu4 neng2 shi4 zhu3 hu1 ？ ” qi2 mu3 tan4 yue1 ： “ lu3 qi2 wang2 hu1 ？ shi3 tong2 zi3 bei4 guan1 er2 wei4 zhi1 wen2 ye1 ？ ju1 ， wu2 yu3 nü3。
-- 其以歜爲不能事主乎？”其母嘆曰：“魯其亡乎？使僮子備官而未之聞耶？居，吾語女。
+- qi2 yi3 chu4 wei2 bu4 neng2 shi4 zhu3 hu1？
+- 其以歜爲不能事主乎？
+- ” qi2 mu3 tan4 yue1 ： “ lu3 qi2 wang2 hu1？
+- ”其母嘆曰：“魯其亡乎？
+- shi3 tong2 zi3 bei4 guan1 er2 wei4 zhi1 wen2 ye1？
+- 使僮子備官而未之聞耶？
+- ju1 ， wu2 yu3 nü3。
+- 居，吾語女。
 - xi1 sheng4 wang2 zhi1 chu3 min2 ye3 ， ze2 ji2 tu3 er2 chu3 zhi1 ， lao2 qi2 min2 er2 yong4 zhi1 ， gu4 chang2 wang2 tian1 xia4。
 - 昔聖王之處民也，擇瘠土而處之，勞其民而用之，故長王天下。
 - fu1 min2 lao2 ze2 si1 ， si1 ze2 shan4 xin1 sheng1；
@@ -57,14 +63,20 @@ tags: ["卷三・周文","古文观止","蒙学"]
 - 古之制也！
 - jun1 zi3 lao2 xin1 ， xiao3 ren2 lao2 li4 ， xian1 wang2 zhi1 xun4 ye3！
 - 君子勞心，小人勞力，先王之訓也！
-- zi4 shang4 yi3 xia4 ， shui2 gan3 yin2 xin1 she4 li4 ？
+- zi4 shang4 yi3 xia4 ， shui2 gan3 yin2 xin1 she4 li4？
 - 自上以下，誰敢淫心舍力？
 - jin1 wo3 gua3 ye3 ， er3 you4 zai4 xia4 wei4 ， zhao1 xi1 chu3 shi4 ， you2 kong3 wang4 xian1 ren2 zhi1 ye4。
 - 今我寡也，爾又在下位，朝夕處事，猶恐忘先人之業。
-- kuang4 you3 dai4 duo4 ， qi2 he2 yi3 bi4 pi4 ？ wu2 ji4 er2 zhao1 xi1 xiu1 wo3 ， yue1 ： ‘ bi4 wu2 fei4 xian1 ren2。
-- 況有怠惰，其何以避闢？吾冀而朝夕修我，曰：‘必無廢先人。
-- ’ er3 jin1 yue1 ： ‘ hu2 bu2 zi4 an1 ？ ’ yi3 shi4 cheng2 jun1 zhi1 guan1 ， yu2 ju4 mu4 bo2 zhi1 jue2 si4 ye3 ？ ”
-- ’爾今曰：‘胡不自安？’以是承君之官，餘懼穆伯之絕祀也？”
+- kuang4 you3 dai4 duo4 ， qi2 he2 yi3 bi4 pi4？
+- 況有怠惰，其何以避闢？
+- wu2 ji4 er2 zhao1 xi1 xiu1 wo3 ， yue1 ： ‘ bi4 wu2 fei4 xian1 ren2。
+- 吾冀而朝夕修我，曰：‘必無廢先人。
+- ’ er3 jin1 yue1 ： ‘ hu2 bu2 zi4 an1？
+- ’爾今曰：‘胡不自安？
+- ’ yi3 shi4 cheng2 jun1 zhi1 guan1 ， yu2 ju4 mu4 bo2 zhi1 jue2 si4 ye3？
+- ’以是承君之官，餘懼穆伯之絕祀也？
+- ”
+- ”
 - zhong4 ni2 wen2 zhi1 yue1 ： “ di4 zi3 zhi4 zhi1 ， ji4 shi4 zhi1 fu4 bu4 yin2 yi3！
 - 仲尼聞之曰：“弟子志之，季氏之婦不淫矣！
 - ”

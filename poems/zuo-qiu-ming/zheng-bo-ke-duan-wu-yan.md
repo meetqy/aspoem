@@ -33,8 +33,10 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 先王之制：大都不過參國之一，中五之一，小九之一。
 - jin1 jing1 bu2 du4 ， fei1 zhi4 ye3 ， jun1 jiang1 bu4 kan1。
 - 今京不度，非制也，君將不堪。
-- ” gong1 yue1 ： “ jiang1 shi4 yu4 zhi1 ， yan1 pi4 hai4 ？ ” dui4 yue1 ： “ jiang1 shi4 he2 yan4 zhi1 you3！
-- ”公曰：“姜氏欲之，焉闢害？”對曰：“姜氏何厭之有！
+- ” gong1 yue1 ： “ jiang1 shi4 yu4 zhi1 ， yan1 pi4 hai4？
+- ”公曰：“姜氏欲之，焉闢害？
+- ” dui4 yue1 ： “ jiang1 shi4 he2 yan4 zhi1 you3！
+- ”對曰：“姜氏何厭之有！
 - bu4 ru2 zao3 wei2 zhi1 suo3 ， wu2 shi3 zi1 man4 ， man4 nan2 tu2 ye3。
 - 不如早爲之所，無使滋蔓，蔓難圖也。
 - man4 cao3 you2 bu4 ke3 chu2 ， kuang4 jun1 zhi1 chong3 di4 hu1！
@@ -45,8 +47,10 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - ”
 - ji4 er2 da4 shu1 ming4 xi1 bi3 bei3 bi3 er4 wu1 ji3。
 - 既而大叔命西鄙北鄙貳於己。
-- gong1 zi3 lü3 yue1 ： “ guo2 bu4 kan1 er4 ， jun1 jiang1 ruo4 zhi1 he2 ？ yu4 yu3 da4 shu1 ， chen2 qing3 shi4 zhi1；
-- 公子呂曰：“國不堪貳，君將若之何？欲與大叔，臣請事之；
+- gong1 zi3 lü3 yue1 ： “ guo2 bu4 kan1 er4 ， jun1 jiang1 ruo4 zhi1 he2？
+- 公子呂曰：“國不堪貳，君將若之何？
+- yu4 yu3 da4 shu1 ， chen2 qing3 shi4 zhi1；
+- 欲與大叔，臣請事之；
 - ruo4 fu2 yu3 ， ze2 qing3 chu2 zhi1。
 - 若弗與，則請除之。
 - wu2 sheng1 min2 xin1。
@@ -95,10 +99,16 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 公問之，對曰：“小人有母，皆嘗小人之食矣，未嘗君之羹，請以遺之。
 - ” gong1 yue1 ： “ er3 you3 mu3 yi2 ， yi1 wo3 du2 wu2！
 - ”公曰：“爾有母遺，繄我獨無！
-- ” ying3 kao3 shu1 yue1 ： “ gan3 wen4 he2 wei4 ye3 ？ ” gong1 yu3 zhi1 gu4 ， qie3 gao4 zhi1 hui3。
-- ”潁考叔曰：“敢問何謂也？”公語之故，且告之悔。
-- dui4 yue1 ： “ jun1 he2 huan4 yan1 ？ ruo4 que4 di4 ji2 quan2 ， sui4 er2 xiang1 jian4 ， qi2 shui2 yue1 bu4 ran2 ？ ” gong1 cong2 zhi1。
-- 對曰：“君何患焉？若闕地及泉，隧而相見，其誰曰不然？”公從之。
+- ” ying3 kao3 shu1 yue1 ： “ gan3 wen4 he2 wei4 ye3？
+- ”潁考叔曰：“敢問何謂也？
+- ” gong1 yu3 zhi1 gu4 ， qie3 gao4 zhi1 hui3。
+- ”公語之故，且告之悔。
+- dui4 yue1 ： “ jun1 he2 huan4 yan1？
+- 對曰：“君何患焉？
+- ruo4 que4 di4 ji2 quan2 ， sui4 er2 xiang1 jian4 ， qi2 shui2 yue1 bu4 ran2？
+- 若闕地及泉，隧而相見，其誰曰不然？
+- ” gong1 cong2 zhi1。
+- ”公從之。
 - gong1 ru4 er2 fu4 ： “ da4 sui4 zhi1 zhong1 ， qi2 le4 ye3 rong2 rong2！
 - 公入而賦：“大隧之中，其樂也融融！
 - ” jiang1 chu1 er2 fu4 ： “ da4 sui4 zhi1 wai4 ， qi2 le4 ye3 xie4 xie4。

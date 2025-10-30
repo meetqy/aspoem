@@ -39,12 +39,30 @@ tags: []
 - 所重：民、食、丧、祭。
 - kuan1 ze2 de2 zhong4 ， xin4 ze2 min2 ren4 yan1 ， min3 ze2 you3 gong1 ， gong1 ze2 shuo1。
 - 宽则得众，信则民任焉，敏则有功，公则说。
-- zi3 zhang1 wen4 yu2 kong3 zi3 yue1 ： “ he2 ru2 si1 ke3 yi3 cong2 zheng4 yi3 ？ ” zi3 yue1 ： “ zun1 wu3 mei3 ， ping2 si4 e4 ， si1 ke3 yi3 cong2 zheng4 yi3。
-- 子张问于孔子曰：“何如斯可以从政矣？”子曰：“尊五美，屏四恶，斯可以从政矣。
-- ” zi3 zhang1 yue1 ： “ he2 wei4 wu3 mei3 ？ ” zi3 yue1 ： “ jun1 zi3 hui4 er2 bu2 fei4 ， lao2 er2 bu2 yuan4 ， yu4 er2 bu4 tan1 ， tai4 er2 bu4 jiao1 ， wei1 er2 bu4 meng3。
-- ”子张曰：“何谓五美？”子曰：“君子惠而不费，劳而不怨，欲而不贪，泰而不骄，威而不猛。
-- ” zi3 zhang1 yue1 ： “ he2 wei4 hui4 er2 bu2 fei4 ？ ” zi3 yue1 ： “ yin1 min2 zhi1 suo3 li4 er2 li4 zhi1 ， si1 bu2 yi4 hui4 er2 bu2 fei4 hu1 ？ ze2 ke3 lao2 er2 lao2 zhi1 ， you4 shui2 yuan4 ？ yu4 ren2 er2 de2 ren2 ， you4 yan1 tan1 ？ jun1 zi3 wu2 zhong4 gua3 ， wu2 xiao3 da4 ， wu2 gan3 man4 ， si1 bu2 yi4 tai4 er2 bu4 jiao1 hu1 ？ jun1 zi3 zheng4 qi2 yi1 guan1 ， zun1 qi2 zhan1 shi4 ， yan3 ran2 ren2 wang4 er2 wei4 zhi1 ， si1 bu2 yi4 wei1 er2 bu4 meng3 hu1 ？ ” zi3 zhang1 yue1 ： “ he2 wei4 si4 e4 ？ ” zi3 yue1 ： “ bu2 jiao4 er2 sha1 wei4 zhi1 nüe4；
-- ”子张曰：“何谓惠而不费？”子曰：“因民之所利而利之，斯不亦惠而不费乎？择可劳而劳之，又谁怨？欲仁而得仁，又焉贪？君子无众寡，无小大，无敢慢，斯不亦泰而不骄乎？君子正其衣冠，尊其瞻视，俨然人望而畏之，斯不亦威而不猛乎？”子张曰：“何谓四恶？”子曰：“不教而杀谓之虐；
+- zi3 zhang1 wen4 yu2 kong3 zi3 yue1 ： “ he2 ru2 si1 ke3 yi3 cong2 zheng4 yi3？
+- 子张问于孔子曰：“何如斯可以从政矣？
+- ” zi3 yue1 ： “ zun1 wu3 mei3 ， ping2 si4 e4 ， si1 ke3 yi3 cong2 zheng4 yi3。
+- ”子曰：“尊五美，屏四恶，斯可以从政矣。
+- ” zi3 zhang1 yue1 ： “ he2 wei4 wu3 mei3？
+- ”子张曰：“何谓五美？
+- ” zi3 yue1 ： “ jun1 zi3 hui4 er2 bu2 fei4 ， lao2 er2 bu2 yuan4 ， yu4 er2 bu4 tan1 ， tai4 er2 bu4 jiao1 ， wei1 er2 bu4 meng3。
+- ”子曰：“君子惠而不费，劳而不怨，欲而不贪，泰而不骄，威而不猛。
+- ” zi3 zhang1 yue1 ： “ he2 wei4 hui4 er2 bu2 fei4？
+- ”子张曰：“何谓惠而不费？
+- ” zi3 yue1 ： “ yin1 min2 zhi1 suo3 li4 er2 li4 zhi1 ， si1 bu2 yi4 hui4 er2 bu2 fei4 hu1？
+- ”子曰：“因民之所利而利之，斯不亦惠而不费乎？
+- ze2 ke3 lao2 er2 lao2 zhi1 ， you4 shui2 yuan4？
+- 择可劳而劳之，又谁怨？
+- yu4 ren2 er2 de2 ren2 ， you4 yan1 tan1？
+- 欲仁而得仁，又焉贪？
+- jun1 zi3 wu2 zhong4 gua3 ， wu2 xiao3 da4 ， wu2 gan3 man4 ， si1 bu2 yi4 tai4 er2 bu4 jiao1 hu1？
+- 君子无众寡，无小大，无敢慢，斯不亦泰而不骄乎？
+- jun1 zi3 zheng4 qi2 yi1 guan1 ， zun1 qi2 zhan1 shi4 ， yan3 ran2 ren2 wang4 er2 wei4 zhi1 ， si1 bu2 yi4 wei1 er2 bu4 meng3 hu1？
+- 君子正其衣冠，尊其瞻视，俨然人望而畏之，斯不亦威而不猛乎？
+- ” zi3 zhang1 yue1 ： “ he2 wei4 si4 e4？
+- ”子张曰：“何谓四恶？
+- ” zi3 yue1 ： “ bu2 jiao4 er2 sha1 wei4 zhi1 nüe4；
+- ”子曰：“不教而杀谓之虐；
 - bu2 jie4 shi4 cheng2 wei4 zhi1 bao4；
 - 不戒视成谓之暴；
 - man4 ling4 zhi4 qi1 wei4 zhi1 zei2；

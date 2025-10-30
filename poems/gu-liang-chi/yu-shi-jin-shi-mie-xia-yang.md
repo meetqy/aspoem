@@ -13,18 +13,28 @@ tags: ["卷三・周文","古文观止","蒙学"]
 
 - fei1 guo2 er2 yue1 mie4 ， zhong4 xia4 yang2 ye3。
 - 非國而曰滅，重夏陽也。
-- yu2 wu2 shi1 ， qi2 yue1 shi1 ， he2 ye3 ？ yi3 qi2 xian1 jin4 ， bu4 ke3 yi3 bu4 yan2 shi1 ye3。
-- 虞無師，其曰師，何也？以其先晉，不可以不言師也。
-- qi2 xian1 jin4 he2 ye3 ？ wei2 zhu3 hu1 mie4 xia4 yang2 ye3。
-- 其先晉何也？爲主乎滅夏陽也。
+- yu2 wu2 shi1 ， qi2 yue1 shi1 ， he2 ye3？
+- 虞無師，其曰師，何也？
+- yi3 qi2 xian1 jin4 ， bu4 ke3 yi3 bu4 yan2 shi1 ye3。
+- 以其先晉，不可以不言師也。
+- qi2 xian1 jin4 he2 ye3？
+- 其先晉何也？
+- wei2 zhu3 hu1 mie4 xia4 yang2 ye3。
+- 爲主乎滅夏陽也。
 - xia4 yang2 zhe3 ， yu2 、 guo2 zhi1 sai1 yi4 ye3。
 - 夏陽者，虞、虢之塞邑也。
 - mie4 xia4 yang2 er2 yu2 、 guo2 ju3 yi3。
 - 滅夏陽而虞、虢舉矣。
-- yu2 zhi1 wei2 zhu3 hu1 mie4 xia4 yang2 he2 ye3 ？ jin4 xian4 gong1 yu4 fa2 guo2 ， xun2 xi1 yue1 ： “ jun1 he2 bu4 yi3 qu1 chan3 zhi1 cheng2 、 chui2 ji2 zhi1 bi4 ， er2 jie4 dao4 hu1 yu2 ye3 ？ ” gong1 yue1 ： “ ci3 jin4 guo2 zhi1 bao3 ye3。
-- 虞之爲主乎滅夏陽何也？晉獻公欲伐虢，荀息曰：“君何不以屈產之乘、垂棘之璧，而借道乎虞也？”公曰：“此晉國之寶也。
-- ru2 shou4 wu2 bi4 er2 bu2 jie4 wu2 dao4 ， ze2 ru2 zhi1 he2 ？ ” xun2 xi1 yue1 ： “ ci3 xiao3 guo2 zhi1 suo3 yi3 shi4 da4 guo2 ye3。
-- 如受吾幣而不借吾道，則如之何？”荀息曰：“此小國之所以事大國也。
+- yu2 zhi1 wei2 zhu3 hu1 mie4 xia4 yang2 he2 ye3？
+- 虞之爲主乎滅夏陽何也？
+- jin4 xian4 gong1 yu4 fa2 guo2 ， xun2 xi1 yue1 ： “ jun1 he2 bu4 yi3 qu1 chan3 zhi1 cheng2 、 chui2 ji2 zhi1 bi4 ， er2 jie4 dao4 hu1 yu2 ye3？
+- 晉獻公欲伐虢，荀息曰：“君何不以屈產之乘、垂棘之璧，而借道乎虞也？
+- ” gong1 yue1 ： “ ci3 jin4 guo2 zhi1 bao3 ye3。
+- ”公曰：“此晉國之寶也。
+- ru2 shou4 wu2 bi4 er2 bu2 jie4 wu2 dao4 ， ze2 ru2 zhi1 he2？
+- 如受吾幣而不借吾道，則如之何？
+- ” xun2 xi1 yue1 ： “ ci3 xiao3 guo2 zhi1 suo3 yi3 shi4 da4 guo2 ye3。
+- ”荀息曰：“此小國之所以事大國也。
 - bi3 bu2 jie4 wu2 dao4 ， bi4 bu4 gan3 shou4 wu2 bi4。
 - 彼不借吾道，必不敢受吾幣。
 - ru2 shou4 wu2 bi4 er2 jie4 wu2 dao4 ， ze2 shi4 wo3 qu3 zhi1 zhong1 fu3 ， er2 cang2 zhi1 wai4 fu3；

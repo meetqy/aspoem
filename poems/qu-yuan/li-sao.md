@@ -111,7 +111,7 @@ tags: []
 - 宁溘死以流亡兮，余不忍为此态也。
 - zhi4 niao3 zhi1 bu4 qun2 xi1 ， zi4 qian2 shi4 er2 gu4 ran2。
 - 鸷鸟之不群兮，自前世而固然。
-- he2 fang1 huan2 zhi1 neng2 zhou1 xi1 ， fu1 shu2 yi4 dao4 er2 xiang1 an1 ？
+- he2 fang1 huan2 zhi1 neng2 zhou1 xi1 ， fu1 shu2 yi4 dao4 er2 xiang1 an1？
 - 何方圜之能周兮，夫孰异道而相安？
 - qu1 xin1 er2 yi4 zhi4 xi1 ， ren3 you2 er2 rang3 gou4。
 - 屈心而抑志兮，忍尤而攘诟。
@@ -145,13 +145,13 @@ tags: []
 - 女嬃之婵媛兮，申申其詈予，曰：
 - gun3 xing4 zhi2 yi3 wang2 shen1 xi1 ， zhong1 ran2 yao1 hu1 yu3 zhi1 ye3。
 - 鲧婞直以亡身兮，终然夭乎羽之野。
-- ru3 he2 bo2 jian3 er2 hao3 xiu1 xi1 ， fen1 du2 you3 ci3 kua1 jie2 ？
+- ru3 he2 bo2 jian3 er2 hao3 xiu1 xi1 ， fen1 du2 you3 ci3 kua1 jie2？
 - 汝何博謇而好修兮，纷独有此姱节？
 - ci2 lu4 shi1 yi3 ying2 shi4 xi1 ， pan4 du2 li2 er2 bu4 fu2。
 - 薋菉葹以盈室兮，判独离而不服。
-- zhong4 bu4 ke3 hu4 shuo1 xi1 ， shu2 yun2 cha2 yu2 zhi1 zhong1 qing2 ？
+- zhong4 bu4 ke3 hu4 shuo1 xi1 ， shu2 yun2 cha2 yu2 zhi1 zhong1 qing2？
 - 众不可户说兮，孰云察余之中情？
-- shi4 bing4 ju3 er2 hao3 peng2 xi1 ， fu1 he2 qiong2 du2 er2 bu4 yu3 ting1 ？
+- shi4 bing4 ju3 er2 hao3 peng2 xi1 ， fu1 he2 qiong2 du2 er2 bu4 yu3 ting1？
 - 世并举而好朋兮，夫何茕独而不予听？
 - yi1 qian2 sheng4 yi3 jie2 zhong1 xi1 ， kui4 ping2 xin1 er2 li4 zi1。
 - 依前圣以节中兮，喟凭心而历兹。
@@ -183,9 +183,9 @@ tags: []
 - 夫维圣哲以茂行兮，苟得用此下土。
 - zhan1 qian2 er2 gu4 hou4 xi1 ， xiang1 guan1 min2 zhi1 ji4 ji2。
 - 瞻前而顾后兮，相观民之计极。
-- fu1 shu2 fei1 yi4 er2 ke3 yong4 xi1 ？
+- fu1 shu2 fei1 yi4 er2 ke3 yong4 xi1？
 - 夫孰非义而可用兮？
-- shu2 fei1 shan4 er2 ke3 fu2 ？
+- shu2 fei1 shan4 er2 ke3 fu2？
 - 孰非善而可服？
 - yan2 yu2 shen1 er2 wei1 si3 xi1 ， lan3 yu2 chu1 qi2 you2 wei4 hui3。
 - 阽余身而危死兮，览余初其犹未悔。
@@ -269,25 +269,29 @@ tags: []
 - 世溷浊而嫉贤兮，好蔽美而称恶。
 - gui1 zhong1 ji4 yi3 sui4 yuan3 xi1 ， zhe2 wang2 you4 bu2 wu4。
 - 闺中既以邃远兮，哲王又不寤。
-- huai2 zhen4 qing2 er2 bu4 fa1 xi1 ， yu2 yan1 neng2 ren3 er2 yu3 ci3 zhong1 gu3 ？
+- huai2 zhen4 qing2 er2 bu4 fa1 xi1 ， yu2 yan1 neng2 ren3 er2 yu3 ci3 zhong1 gu3？
 - 怀朕情而不发兮，余焉能忍而与此终古？
 - suo3 qiong2 mao2 yi3 ting2 tuan2 xi1 ， ming4 ling2 fen1 wei4 yu2 zhan4 zhi1。
 - 索琼茅以筳篿兮，命灵氛为余占之。
-- yue1 ： liang3 mei3 qi2 bi4 he2 xi1 ， shu2 xin4 xiu1 er2 mu4 zhi1 ？
+- yue1 ： liang3 mei3 qi2 bi4 he2 xi1 ， shu2 xin4 xiu1 er2 mu4 zhi1？
 - 曰：两美其必合兮，孰信修而慕之？
-- si1 jiu3 zhou1 zhi1 bo2 da4 xi1 ， qi3 wei2 shi4 qi2 you3 nü3 ？ 」
-- 思九州之博大兮，岂惟是其有女？」
-- yue1 ： mian3 yuan3 shi4 er2 wu2 hu2 yi2 xi1 ， shu2 qiu2 mei3 er2 shi4 nü3 ？
+- si1 jiu3 zhou1 zhi1 bo2 da4 xi1 ， qi3 wei2 shi4 qi2 you3 nü3？
+- 思九州之博大兮，岂惟是其有女？
+- 」
+- 」
+- yue1 ： mian3 yuan3 shi4 er2 wu2 hu2 yi2 xi1 ， shu2 qiu2 mei3 er2 shi4 nü3？
 - 曰：勉远逝而无狐疑兮，孰求美而释女？
-- he2 suo3 du2 wu2 fang1 cao3 xi1 ， er3 he2 huai2 hu1 gu4 yu3 ？ 」
-- 何所独无芳草兮，尔何怀乎故宇？」
-- shi4 you1 mei4 yi3 xuan4 yao4 xi1 ， shu2 yun2 cha2 yu2 zhi1 shan4 e4 ？
+- he2 suo3 du2 wu2 fang1 cao3 xi1 ， er3 he2 huai2 hu1 gu4 yu3？
+- 何所独无芳草兮，尔何怀乎故宇？
+- 」
+- 」
+- shi4 you1 mei4 yi3 xuan4 yao4 xi1 ， shu2 yun2 cha2 yu2 zhi1 shan4 e4？
 - 世幽昧以昡曜兮，孰云察余之善恶？
 - min2 hao4 wu4 qi2 bu4 tong2 xi1 ， wei2 ci3 dang3 ren2 qi2 du2 yi4！
 - 民好恶其不同兮，惟此党人其独异！
 - hu4 fu2 ai4 yi3 ying2 yao4 xi1 ， wei4 you1 lan2 qi2 bu4 ke3 pei4。
 - 户服艾以盈要兮，谓幽兰其不可佩。
-- lan3 cha2 cao3 mu4 qi2 you2 wei4 de2 xi1 ， qi3 cheng2 mei3 zhi1 neng2 dang1 ？
+- lan3 cha2 cao3 mu4 qi2 you2 wei4 de2 xi1 ， qi3 cheng2 mei3 zhi1 neng2 dang1？
 - 览察草木其犹未得兮，岂珵美之能当？
 - su1 fen4 rang3 yi3 chong1 yi1 xi1 ， wei4 shen1 jiao1 qi2 bu4 fang1。
 - 苏粪壤以充祎兮，谓申椒其不芳。
@@ -303,7 +307,7 @@ tags: []
 - 曰：勉升降以上下兮，求矩矱之所同。
 - tang1 、 yu3 yan3 er2 qiu2 he2 xi1 ， zhi4 、 jiu4 yao2 er2 neng2 tiao2。
 - 汤、禹俨而求合兮，挚、咎繇而能调。
-- gou3 zhong1 qing2 qi2 hao3 xiu1 xi1 ， you4 he2 bi4 yong4 fu1 xing2 mei2 ？
+- gou3 zhong1 qing2 qi2 hao3 xiu1 xi1 ， you4 he2 bi4 yong4 fu1 xing2 mei2？
 - 苟中情其好修兮，又何必用夫行媒？
 - shuo1 cao1 zhu4 yu2 fu4 yan2 xi1 ， wu3 ding1 yong4 er2 bu4 yi2。
 - 说操筑于傅岩兮，武丁用而不疑。
@@ -319,11 +323,11 @@ tags: []
 - 何琼佩之偃蹇兮，众薆然而蔽之。
 - wei2 ci3 dang3 ren2 zhi1 bu2 liang4 xi1 ， kong3 ji2 du4 er2 zhe2 zhi1。
 - 惟此党人之不谅兮，恐嫉妒而折之。
-- shi2 bin1 fen1 qi2 bian4 yi4 xi1 ， you4 he2 ke3 yi3 yan1 liu2 ？
+- shi2 bin1 fen1 qi2 bian4 yi4 xi1 ， you4 he2 ke3 yi3 yan1 liu2？
 - 时缤纷其变易兮，又何可以淹留？
 - lan2 zhi3 bian4 er2 bu4 fang1 xi1 ， quan2 hui4 hua4 er2 wei4 mao2。
 - 兰芷变而不芳兮，荃蕙化而为茅。
-- he2 xi1 ri4 zhi1 fang1 cao3 xi1 ， jin1 zhi2 wei4 ci3 xiao1 ai4 ye3 ？
+- he2 xi1 ri4 zhi1 fang1 cao3 xi1 ， jin1 zhi2 wei4 ci3 xiao1 ai4 ye3？
 - 何昔日之芳草兮，今直为此萧艾也？
 - qi3 qi2 you3 ta1 gu4 xi1 ， mo4 hao3 xiu1 zhi1 hai4 ye3！
 - 岂其有他故兮，莫好修之害也！
@@ -333,11 +337,11 @@ tags: []
 - 委厥美以从俗兮，苟得列乎众芳。
 - jiao1 zhuan1 ning4 yi3 man4 tao1 xi1 ， sha1 you4 yu4 chong1 fu1 pei4 wei2。
 - 椒专佞以慢慆兮，樧又欲充夫佩帏。
-- ji4 gan1 jin4 er2 wu4 ru4 xi1 ， you4 he2 fang1 zhi1 neng2 zhi1 ？
+- ji4 gan1 jin4 er2 wu4 ru4 xi1 ， you4 he2 fang1 zhi1 neng2 zhi1？
 - 既干进而务入兮，又何芳之能祗？
-- gu4 shi2 su2 zhi1 liu2 cong2 xi1 ， you4 shu2 neng2 wu2 bian4 hua4 ？
+- gu4 shi2 su2 zhi1 liu2 cong2 xi1 ， you4 shu2 neng2 wu2 bian4 hua4？
 - 固时俗之流从兮，又孰能无变化？
-- lan3 jiao1 lan2 qi2 ruo4 zi1 xi1 ， you4 kuang4 jie1 che1 yu3 jiang1 li2 ？
+- lan3 jiao1 lan2 qi2 ruo4 zi1 xi1 ， you4 kuang4 jie1 che1 yu3 jiang1 li2？
 - 览椒兰其若兹兮，又况揭车与江离？
 - wei2 zi1 pei4 zhi1 ke3 gui4 xi1 ， wei3 jue2 mei3 er2 li4 zi1。
 - 惟兹佩之可贵兮，委厥美而历兹。
@@ -353,7 +357,7 @@ tags: []
 - 折琼枝以为羞兮，精琼爢以为粻。
 - wei4 yu2 jia4 fei1 long2 xi1 ， za2 yao2 xiang4 yi3 wei2 che1。
 - 为余驾飞龙兮，杂瑶象以为车。
-- he2 li2 xin1 zhi1 ke3 tong2 xi1 ？
+- he2 li2 xin1 zhi1 ke3 tong2 xi1？
 - 何离心之可同兮？
 - wu2 jiang1 yuan3 shi4 yi3 zi4 shu1。
 - 吾将远逝以自疏。

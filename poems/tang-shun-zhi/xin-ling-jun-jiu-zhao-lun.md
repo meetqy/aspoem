@@ -27,10 +27,12 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 故救趙者，亦以救魏；
 - jiu4 yi4 guo2 zhe3 ， yi4 yi3 jiu4 liu4 guo2 ye3。
 - 救一國者，亦以救六國也。
-- qie4 wei4 zhi1 fu2 yi3 shu1 wei4 zhi1 huan4 ， jie4 yi4 guo2 zhi1 shi1 yi3 fen1 liu4 guo2 zhi1 zai1 ， fu1 xi1 bu4 ke3 zhe3 ？
+- qie4 wei4 zhi1 fu2 yi3 shu1 wei4 zhi1 huan4 ， jie4 yi4 guo2 zhi1 shi1 yi3 fen1 liu4 guo2 zhi1 zai1 ， fu1 xi1 bu4 ke3 zhe3？
 - 竊魏之符以紓魏之患，借一國之師以分六國之災，夫奚不可者？
-- ran2 ze2 xin4 ling2 guo3 wu2 zui4 hu1 ？ yue1 ： you4 bu4 ran2 ye3。
-- 然則信陵果無罪乎？曰：又不然也。
+- ran2 ze2 xin4 ling2 guo3 wu2 zui4 hu1？
+- 然則信陵果無罪乎？
+- yue1 ： you4 bu4 ran2 ye3。
+- 曰：又不然也。
 - yu2 suo3 zhu1 zhe3 ， xin4 ling2 jun1 zhi1 xin1 ye3。
 - 餘所誅者，信陵君之心也。
 - xin4 ling2 yi4 gong1 zi3 er3 ， wei4 gu4 you3 wang2 ye3。
@@ -65,8 +67,10 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 如此，則信陵君不負魏，亦不負趙；
 - er4 ren2 bu2 fu4 wang2 ， yi4 bu2 fu4 xin4 ling2 jun1。
 - 二人不負王，亦不負信陵君。
-- he2 wei2 ji4 bu4 chu1 ci3 ？ xin4 ling2 zhi1 you3 hun1 yin1 zhi1 zhao4 ， bu4 zhi1 you3 wang2。
-- 何爲計不出此？信陵知有婚姻之趙，不知有王。
+- he2 wei2 ji4 bu4 chu1 ci3？
+- 何爲計不出此？
+- xin4 ling2 zhi1 you3 hun1 yin1 zhi1 zhao4 ， bu4 zhi1 you3 wang2。
+- 信陵知有婚姻之趙，不知有王。
 - nei4 ze2 xing4 ji1 ， wai4 ze2 lin2 guo2 ， jian4 ze2 yi2 men2 ye3 ren2 ， you4 jie1 zhi1 you3 gong1 zi3 ， bu4 zhi1 you3 wang2。
 - 內則幸姬，外則鄰國，賤則夷門野人，又皆知有公子，不知有王。
 - ze2 shi4 wei4 jin3 you3 yi4 gu1 wang2 er3。
@@ -83,16 +87,26 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 其爲趙也，爲一親戚也，縱求符於王，而公然得之，亦罪也。
 - sui1 ran2 ， wei4 wang2 yi4 bu4 de2 wu2 zui4 ye3。
 - 雖然，魏王亦不得無罪也。
-- bing1 fu2 cang2 wu1 wo4 nei4 ， xin4 ling2 yi4 an1 de2 qie4 zhi1 ？ xin4 ling2 bu2 ji4 wei4 wang2 ， er2 jing4 qing3 zhi1 ru2 ji1 ， qi2 su4 kui1 wei4 wang2 zhi1 shu1 ye3；
-- 兵符藏於臥內，信陵亦安得竊之？信陵不忌魏王，而徑請之如姬，其素窺魏王之疏也；
+- bing1 fu2 cang2 wu1 wo4 nei4 ， xin4 ling2 yi4 an1 de2 qie4 zhi1？
+- 兵符藏於臥內，信陵亦安得竊之？
+- xin4 ling2 bu2 ji4 wei4 wang2 ， er2 jing4 qing3 zhi1 ru2 ji1 ， qi2 su4 kui1 wei4 wang2 zhi1 shu1 ye3；
+- 信陵不忌魏王，而徑請之如姬，其素窺魏王之疏也；
 - ru2 ji1 bu2 ji4 wei4 wang2 ， er2 gan3 wu1 qie4 fu2 ， qi2 su4 shi4 wei4 wang2 zhi1 chong3 ye3。
 - 如姬不忌魏王，而敢於竊符，其素恃魏王之寵也。
 - mu4 xiu3 er2 zhu4 sheng1 zhi1 yi3。
 - 木朽而蛀生之矣。
 - gu3 zhe3 ren2 jun1 chi2 quan2 wu1 shang4 ， er2 nei4 wai4 mo4 gan3 bu2 su4。
 - 古者人君持權於上，而內外莫敢不肅。
-- ze2 xin4 ling2 an1 de2 shu4 si1 jiao1 wu1 zhao4 ？ zhao4 an1 de2 si1 qing3 jiu4 wu1 xin4 ling2 ？ ru2 ji1 an1 de2 xian2 xin4 ling2 zhi1 en1 ？ xin4 ling2 an1 de2 mai4 en1 wu1 ru2 ji1 ？ lü3 shuang1 zhi1 jian4 ， qi3 yi4 chao2 yi4 xi1 ye3 zai1！
-- 則信陵安得樹私交於趙？趙安得私請救於信陵？如姬安得銜信陵之恩？信陵安得賣恩於如姬？履霜之漸，豈一朝一夕也哉！
+- ze2 xin4 ling2 an1 de2 shu4 si1 jiao1 wu1 zhao4？
+- 則信陵安得樹私交於趙？
+- zhao4 an1 de2 si1 qing3 jiu4 wu1 xin4 ling2？
+- 趙安得私請救於信陵？
+- ru2 ji1 an1 de2 xian2 xin4 ling2 zhi1 en1？
+- 如姬安得銜信陵之恩？
+- xin4 ling2 an1 de2 mai4 en1 wu1 ru2 ji1？
+- 信陵安得賣恩於如姬？
+- lü3 shuang1 zhi1 jian4 ， qi3 yi4 chao2 yi4 xi1 ye3 zai1！
+- 履霜之漸，豈一朝一夕也哉！
 - you2 ci3 yan2 zhi1 ， bu2 te4 zhong4 ren2 bu4 zhi1 you3 wang2 ， wang2 yi4 zi4 wei2 zhui4 liu2 ye3。
 - 由此言之，不特衆人不知有王，王亦自爲贅旒也。
 - gu4 xin4 ling2 jun1 ke3 yi3 wei2 ren2 chen2 zhi2 dang3 zhi1 jie4 ， wei4 wang2 ke3 yi3 wei2 ren2 jun1 shi1 quan2 zhi1 jie4。

@@ -88,21 +88,27 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - shen1 mou2 yuan3 lü4 ， xing2 jun1 yong4 bing1 zhi1 dao4 ， fei1 ji2 xiang4 shi2 zhi1 shi4 ye3。
 - 深謀遠慮，行軍用兵之道，非及向時之士也。
 - ran2 er2 cheng2 bai4 yi4 bian4 ， gong1 ye4 xiang1 fan3 ， he2 ye3 ? shi4 shi3 shan1 dong1 zhi1 guo2 yu3 chen2 she4 du4 chang2 jie2 da4 ， bi3 quan2 liang4 li4 ， ze2 bu4 ke3 tong2 nian2 er2 yu3 yi3。
-- 然而成敗異變，功業相反，何也？試使山東之國與陳涉度長絜大，比權量力，則不可同年而語矣。
+- 然而成敗異變，功業相反，何也？
 - ran2 qin2 yi3 qu1 qu1 zhi1 di4 ， zhi4 wan4 cheng2 zhi1 shi4 ， xu4 ba1 zhou1 er2 chao2 tong2 lie4 ， bai3 you3 yu2 nian2 yi3；
-- 然秦以區區之地，致萬乘之勢，序八州而朝同列，百有餘年矣；
+- 試使山東之國與陳涉度長絜大，比權量力，則不可同年而語矣。
 - ran2 hou4 yi3 liu4 he2 wei2 jia1 ， xiao2 han2 wei2 gong1；
+- 然秦以區區之地，致萬乘之勢，序八州而朝同列，百有餘年矣；
+- yi4 fu1 zuo4 nan2 er2 qi1 miao4 hui1 ， shen1 si3 ren2 shou3 ， wei2 tian1 xia4 xiao4 zhe3 ， he2 ye3？
 - 然後以六合爲家，崤函爲宮；
-- yi4 fu1 zuo4 nan2 er2 qi1 miao4 hui1 ， shen1 si3 ren2 shou3 ， wei2 tian1 xia4 xiao4 zhe3 ， he2 ye3 ？ ren2 yi4 bu4 shi1 er2 gong1 shou3 zhi1 shi4 yi4 ye3。
-- 一夫作難而七廟隳，身死人手，爲天下笑者，何也？仁義不施而攻守之勢異也。
+- ren2 yi4 bu4 shi1 er2 gong1 shou3 zhi1 shi4 yi4 ye3。
+- 一夫作難而七廟隳，身死人手，爲天下笑者，何也？
+- 
+- 仁義不施而攻守之勢異也。
 - zhong1 pian1
 - 中篇
 - qin2 mie4 zhou1 si4 ， bing4 hai3 nei4 ， jian1 zhu1 hou2 ， nan2 mian4 cheng1 di4 ， yi3 yang3 si4 hai3。
 - 秦滅周祀，並海內，兼諸侯，南面稱帝，以養四海。
 - tian1 xia4 zhi1 shi4 ， fei3 ran2 xiang4 feng1。
 - 天下之士，斐然向風。
-- ruo4 shi4 ， he2 ye3 ？ yue1 ： jin4 gu3 zhi1 wu2 wang2 zhe3 jiu3 yi3。
-- 若是，何也？曰：近古之無王者久矣。
+- ruo4 shi4 ， he2 ye3？
+- 若是，何也？
+- yue1 ： jin4 gu3 zhi1 wu2 wang2 zhe3 jiu3 yi3。
+- 曰：近古之無王者久矣。
 - zhou1 shi4 bei1 wei1 ， wu3 ba4 ji4 mie4 ， ling4 bu4 xing2 wu1 tian1 xia4。
 - 周室卑微，五霸既滅，令不行於天下。
 - shi4 yi3 zhu1 hou2 li4 zheng4 ， qiang2 ling2 ruo4 ， zhong4 bao4 gua3 ， bing1 ge2 bu4 xiu1 ， shi4 min2 ba4 bi4。
@@ -205,10 +211,14 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 秦地被山帶河以爲固，四塞之國也。
 - zi4 mou2 gong1 yi3 lai2 zhi4 wu1 qin2 wang2 er4 shi2 yu2 jun1 ， chang2 wei2 zhu1 hou2 xiong2。
 - 自繆公以來至於秦王二十餘君，常爲諸侯雄。
-- ci3 qi3 shi4 xian2 zai1 ？ qi2 shi4 ju1 ran2 ye3。
-- 此豈世賢哉？其勢居然也。
-- qie3 tian1 xia4 chang2 tong2 xin1 bing4 li4 gong1 qin2 yi3 ， ran2 kun4 wu1 xian3 zu3 er2 bu4 neng2 jin4 zhe3 ， qi3 yong3 li4 zhi4 hui4 bu4 zu2 zai1 ？ xing2 bu2 li4 、 shi4 bu2 bian4 ye3。
-- 且天下嘗同心並力攻秦矣，然困於險阻而不能進者，豈勇力智慧不足哉？形不利、勢不便也。
+- ci3 qi3 shi4 xian2 zai1？
+- 此豈世賢哉？
+- qi2 shi4 ju1 ran2 ye3。
+- 其勢居然也。
+- qie3 tian1 xia4 chang2 tong2 xin1 bing4 li4 gong1 qin2 yi3 ， ran2 kun4 wu1 xian3 zu3 er2 bu4 neng2 jin4 zhe3 ， qi3 yong3 li4 zhi4 hui4 bu4 zu2 zai1？
+- 且天下嘗同心並力攻秦矣，然困於險阻而不能進者，豈勇力智慧不足哉？
+- xing2 bu2 li4 、 shi4 bu2 bian4 ye3。
+- 形不利、勢不便也。
 - qin2 sui1 xiao3 yi4 ， fa2 bing4 dai4 cheng2 ， de2 e4 sai1 er2 shou3 zhi1。
 - 秦雖小邑，伐並大城，得阨塞而守之。
 - zhu1 hou2 qi3 wu1 pi3 fu1 ， yi3 li4 hui4 ， fei1 you3 su4 wang2 zhi1 xing2 ye3。
@@ -227,8 +237,10 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 二世受之，因而不改，暴虐以重禍。
 - zi3 ying1 gu1 li4 wu2 qin1 ， wei1 ruo4 wu2 fu3。
 - 子嬰孤立無親，危弱無輔。
-- san1 zhu3 zhi1 huo4 ， zhong1 shen1 bu2 wu4 ， wang2 bu2 yi4 yi2 hu1 ？ dang1 ci3 shi2 ye3 ， ye3 fei1 wu2 shen1 mou2 yuan3 lü4 zhi1 hua4 zhi1 shi4 ye3 ， ran2 suo3 yi3 bu4 gan3 jin4 zhong1 zhi3 guo4 zhe3 ， qin2 su2 duo1 ji4 hui4 zhi1 jin4 ye3 ， — — zhong1 yan2 wei4 zu2 wu1 kou3 er2 shen1 mi2 mei2 yi3。
-- 三主之惑，終身不悟，亡不亦宜乎？當此時也，也非無深謀遠慮知化之士也，然所以不敢盡忠指過者，秦俗多忌諱之禁也，——忠言未卒於口而身糜沒矣。
+- san1 zhu3 zhi1 huo4 ， zhong1 shen1 bu2 wu4 ， wang2 bu2 yi4 yi2 hu1？
+- 三主之惑，終身不悟，亡不亦宜乎？
+- dang1 ci3 shi2 ye3 ， ye3 fei1 wu2 shen1 mou2 yuan3 lü4 zhi1 hua4 zhi1 shi4 ye3 ， ran2 suo3 yi3 bu4 gan3 jin4 zhong1 zhi3 guo4 zhe3 ， qin2 su2 duo1 ji4 hui4 zhi1 jin4 ye3 ， — — zhong1 yan2 wei4 zu2 wu1 kou3 er2 shen1 mi2 mei2 yi3。
+- 當此時也，也非無深謀遠慮知化之士也，然所以不敢盡忠指過者，秦俗多忌諱之禁也，——忠言未卒於口而身糜沒矣。
 - gu4 shi3 tian1 xia4 zhi1 shi4 qing1 er3 er2 ting1 ， chong2 zu2 er2 li4 ， he2 kou3 er2 bu4 yan2。
 - 故使天下之士傾耳而聽，重足而立，闔口而不言。
 - shi4 yi3 san1 zhu3 shi1 dao4 ， er2 zhong1 chen2 bu2 jian4 ， zhi4 shi4 bu4 mou2 ye3。

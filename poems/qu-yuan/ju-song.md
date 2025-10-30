@@ -29,7 +29,7 @@ tags: []
 - 纷緼宜修，姱而不丑兮。
 - jie1 er3 you4 zhi4 ， you3 yi3 yi4 xi1。
 - 嗟尔幼志，有以异兮。
-- du2 li4 bu4 qian1 ， qi3 bu4 ke3 xi3 xi1 ？
+- du2 li4 bu4 qian1 ， qi3 bu4 ke3 xi3 xi1？
 - 独立不迁，岂不可喜兮？
 - shen1 gu4 nan2 xi3 ， kuo4 qi2 wu2 qiu2 xi1。
 - 深固难徙，廓其无求兮。

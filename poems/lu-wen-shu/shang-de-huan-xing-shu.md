@@ -67,12 +67,16 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 - 此仁聖之所以傷也。
 - tai4 ping2 zhi1 wei4 qia4 ， fan2 yi3 ci3 ye3。
 - 太平之未洽，凡以此也。
-- fu1 ren2 qing2 an1 ze2 le4 sheng1 ， tong4 ze2 si1 si3 ， chui2 chu3 zhi1 xia4 ， he2 qiu2 er2 bu4 de2 ？ zuo4 qiu2 ren2 bu2 sheng4 tong4 ， ze2 shi4 ci2 yi3 shi4 zhi1 ， li4 zhi4 zhe3 li4 qi2 ran2 ， ze2 zhi3 dao4 yi3 ming2 zhi1 ， shang4 zou4 wei4 que4 ， ze2 duan4 lian4 er2 zhou1 nei4 zhi1；
-- 夫人情安則樂生，痛則思死，棰楚之下，何求而不得？做囚人不勝痛，則飾詞以視之，吏治者利其然，則指道以明之，上奏畏卻，則鍛練而周內之；
+- fu1 ren2 qing2 an1 ze2 le4 sheng1 ， tong4 ze2 si1 si3 ， chui2 chu3 zhi1 xia4 ， he2 qiu2 er2 bu4 de2？
+- 夫人情安則樂生，痛則思死，棰楚之下，何求而不得？
+- zuo4 qiu2 ren2 bu2 sheng4 tong4 ， ze2 shi4 ci2 yi3 shi4 zhi1 ， li4 zhi4 zhe3 li4 qi2 ran2 ， ze2 zhi3 dao4 yi3 ming2 zhi1 ， shang4 zou4 wei4 que4 ， ze2 duan4 lian4 er2 zhou1 nei4 zhi1；
+- 做囚人不勝痛，則飾詞以視之，吏治者利其然，則指道以明之，上奏畏卻，則鍛練而周內之；
 - gai4 zou4 dang1 zhi1 cheng2 ， sui1 jiu4 yao2 ting1 zhi1 ， you2 yi3 wei2 si3 you3 yu2 gu1。
 - 蓋奏當之成，雖咎繇聽之，猶以爲死有餘辜。
-- he2 ze2 ？ cheng2 lian4 zhe3 zhong4 ， wen2 zhi4 zhi1 zui4 ming2 ye3。
-- 何則？成練者衆，文致之罪明也。
+- he2 ze2？
+- 何則？
+- cheng2 lian4 zhe3 zhong4 ， wen2 zhi4 zhi1 zui4 ming2 ye3。
+- 成練者衆，文致之罪明也。
 - shi4 yi3 yu4 li4 zhuan1 wei2 shen1 ke4 ， can2 zei2 er2 wang2 ji2 ， tou1 wei2 yi2 qie4 ， bu2 gu4 guo2 huan4 ， ci3 shi4 zhi1 da4 zei2 ye3。
 - 是以獄吏專爲深刻，殘賊而亡極，媮爲一切，不顧國患，此世之大賊也。
 - gu4 su2 yu3 yue1 ： “ hua4 di4 wei2 yu4 yi4 bu2 ru4；

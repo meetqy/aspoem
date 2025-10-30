@@ -29,8 +29,14 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 問之，則曰：“吾祖死於是，吾父死於是，今吾嗣爲之十二年，幾死者數矣。
 - ” yan2 zhi1 mao4 ruo4 shen4 qi1 zhe3。
 - ”言之貌若甚戚者。
-- yu2 bei1 zhi1 ， qie3 yue1 ： “ ruo4 du2 zhi1 hu1 ？ yu2 jiang1 gao4 wu1 li4 shi4 zhe3 ， geng4 ruo4 yi4 ， fu4 ruo4 fu4 ， ze2 he2 ru2 ？ ” jiang3 shi4 da4 qi1 ， wang1 ran2 chu1 ti4 ， yue1 ： “ jun1 jiang1 ai1 er2 sheng1 zhi1 hu1 ？ ze2 wu2 si1 yi4 zhi1 bu2 xing4 ， wei4 ruo4 fu4 wu2 fu4 bu2 xing4 zhi1 shen4 ye3。
-- 餘悲之，且曰：“若毒之乎？餘將告於蒞事者，更若役，復若賦，則何如？”蔣氏大戚，汪然出涕，曰：“君將哀而生之乎？則吾斯役之不幸，未若復吾賦不幸之甚也。
+- yu2 bei1 zhi1 ， qie3 yue1 ： “ ruo4 du2 zhi1 hu1？
+- 餘悲之，且曰：“若毒之乎？
+- yu2 jiang1 gao4 wu1 li4 shi4 zhe3 ， geng4 ruo4 yi4 ， fu4 ruo4 fu4 ， ze2 he2 ru2？
+- 餘將告於蒞事者，更若役，復若賦，則何如？
+- ” jiang3 shi4 da4 qi1 ， wang1 ran2 chu1 ti4 ， yue1 ： “ jun1 jiang1 ai1 er2 sheng1 zhi1 hu1？
+- ”蔣氏大戚，汪然出涕，曰：“君將哀而生之乎？
+- ze2 wu2 si1 yi4 zhi1 bu2 xing4 ， wei4 ruo4 fu4 wu2 fu4 bu2 xing4 zhi1 shen4 ye3。
+- 則吾斯役之不幸，未若復吾賦不幸之甚也。
 - xiang4 wu2 bu4 wei2 si1 yi4 ， ze2 jiu3 yi3 bing4 yi3。
 - 向吾不爲斯役，則久已病矣。
 - zi4 wu2 shi4 san1 shi4 ju1 shi4 xiang1 ， ji1 wu1 jin1 liu4 shi2 sui4 yi3。
@@ -61,8 +67,10 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 退而甘食其土之有，以盡吾齒。
 - gai4 yi2 sui4 zhi1 fan4 si3 zhe3 er4 yan1 ， qi2 yu2 ze2 xi1 xi1 er2 le4 ， qi3 ruo4 wu2 xiang1 lin2 zhi1 dan4 dan4 you3 shi4 zai1。
 - 蓋一歲之犯死者二焉，其餘則熙熙而樂，豈若吾鄉鄰之旦旦有是哉。
-- jin1 sui1 si3 hu1 ci3 ， bi3 wu2 xiang1 lin2 zhi1 si3 ze2 yi3 hou4 yi3 ， you4 an1 gan3 du2 ye1 ？ ”
-- 今雖死乎此，比吾鄉鄰之死則已後矣，又安敢毒耶？”
+- jin1 sui1 si3 hu1 ci3 ， bi3 wu2 xiang1 lin2 zhi1 si3 ze2 yi3 hou4 yi3 ， you4 an1 gan3 du2 ye1？
+- 今雖死乎此，比吾鄉鄰之死則已後矣，又安敢毒耶？
+- ”
+- ”
 - yu2 wen2 er2 yu4 bei1 ， kong3 zi3 yue1 ： “ ke1 zheng4 meng3 wu1 hu3 ye3！
 - 餘聞而愈悲，孔子曰：“苛政猛於虎也！
 - ” wu2 chang2 yi2 hu1 shi4 ， jin1 yi3 jiang3 shi4 guan1 zhi1 ， you2 xin4。

@@ -17,7 +17,7 @@ tags: ["五言律詩","千家诗","蒙学"]
 - 星臨萬戶動，月傍九霄多。
 - bu4 qin3 ting1 jin1 yue4 ， yin1 feng1 xiang3 yu4 ke1。
 - 不寢聽金鑰，因風想玉坷。
-- ming2 chao2 you3 feng1 shi4 ， shu4 wen4 ye4 ru2 he2 ？
+- ming2 chao2 you3 feng1 shi4 ， shu4 wen4 ye4 ru2 he2？
 - 明朝有封事，數問夜如何？
 
 ## 注释

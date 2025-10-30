@@ -19,7 +19,7 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 哺糟啜醨皆可以醉；
 - guo3 shu1 cao3 mu4 ， jie1 ke3 yi3 bao3。
 - 果蔬草木，皆可以飽。
-- tui1 ci3 lei4 ye3 ， wu2 an1 wang3 er2 bu2 le4 ？
+- tui1 ci3 lei4 ye3 ， wu2 an1 wang3 er2 bu2 le4？
 - 推此類也，吾安往而不樂？
 - fu1 suo3 wei2 qiu2 fu4 er2 ci2 huo4 zhe3 ， yi3 fu4 ke3 xi3 er2 huo4 ke3 bei1 ye3。
 - 夫所爲求褔而辭禍者，以褔可喜而禍可悲也。
@@ -29,8 +29,10 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 則可樂者常少，而可悲者常多。
 - shi4 wei4 qiu2 huo4 er2 ci2 fu4。
 - 是謂求禍而辭褔。
-- fu1 qiu2 huo4 er2 ci2 fu4 ， qi3 ren2 zhi1 qing2 ye3 zai1 ？ wu4 you3 yi3 gai4 zhi1 yi3。
-- 夫求禍而辭褔，豈人之情也哉？物有以蓋之矣。
+- fu1 qiu2 huo4 er2 ci2 fu4 ， qi3 ren2 zhi1 qing2 ye3 zai1？
+- 夫求禍而辭褔，豈人之情也哉？
+- wu4 you3 yi3 gai4 zhi1 yi3。
+- 物有以蓋之矣。
 - bi3 you2 wu1 wu4 zhi1 nei4 ， er2 bu4 you2 wu1 wu4 zhi1 wai4。
 - 彼遊於物之內，而不遊於物之外。
 - wu4 fei1 you3 da4 xiao3 ye3 ， zi4 qi2 nei4 er2 guan1 zhi1 ， wei4 you3 bu4 gao1 qie3 da4 zhe3 ye3。

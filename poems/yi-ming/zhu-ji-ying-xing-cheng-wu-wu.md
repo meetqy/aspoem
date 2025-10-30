@@ -33,8 +33,12 @@ tags: ["卷三・周文","古文观止","蒙学"]
 - 越王許諾，乃命諸稽郢行成於吳，曰：“寡君勾踐使下臣郢，不敢顯然布幣行禮，敢私告於下執事曰：‘昔者，越國見禍，得罪於天王，天王親趨玉趾，以心孤勾踐，而又宥赦之。
 - jun1 wang2 zhi1 wu1 yue4 ye3 ， yi1 qi3 si3 ren2 er2 rou4 bai2 gu3 ye3。
 - 君王之於越也，繄起死人而肉白骨也。
-- gu1 bu4 gan3 wang4 tian1 zai1 ， qi2 gan3 wang4 jun1 wang2 zhi1 da4 ci4 hu1 ？ jin1 gou1 jian4 shen1 huo4 wu2 liang2 ， cao3 bi3 zhi1 ren2 ， gan3 wang4 tian1 wang2 zhi1 da4 de2 ， er2 si1 bian1 chui2 zhi1 xiao3 yuan4 ， yi3 zhong4 de2 zui4 wu1 xia4 zhi2 shi4 ？ gou1 jian4 yong4 shuai4 er4 san1 zhi1 lao3 ， qin1 wei3 zhong4 zui4 ， dun4 sang3 wu1 bian1。
-- 孤不敢忘天災，其敢忘君王之大賜乎？今勾踐申禍無良，草鄙之人，敢忘天王之大德，而思邊陲之小怨，以重得罪於下執事？勾踐用帥二三之老，親委重罪，頓顙於邊。
+- gu1 bu4 gan3 wang4 tian1 zai1 ， qi2 gan3 wang4 jun1 wang2 zhi1 da4 ci4 hu1？
+- 孤不敢忘天災，其敢忘君王之大賜乎？
+- jin1 gou1 jian4 shen1 huo4 wu2 liang2 ， cao3 bi3 zhi1 ren2 ， gan3 wang4 tian1 wang2 zhi1 da4 de2 ， er2 si1 bian1 chui2 zhi1 xiao3 yuan4 ， yi3 zhong4 de2 zui4 wu1 xia4 zhi2 shi4？
+- 今勾踐申禍無良，草鄙之人，敢忘天王之大德，而思邊陲之小怨，以重得罪於下執事？
+- gou1 jian4 yong4 shuai4 er4 san1 zhi1 lao3 ， qin1 wei3 zhong4 zui4 ， dun4 sang3 wu1 bian1。
+- 勾踐用帥二三之老，親委重罪，頓顙於邊。
 - jin1 jun1 wang2 bu4 cha2 ， sheng4 nu4 shu3 bing1 ， jiang1 can2 fa2 yue4 guo2。
 - 今君王不察，盛怒屬兵，將殘伐越國。
 - yue4 guo2 gu4 gong4 xian4 zhi1 yi4 ye3 ， jun1 wang2 bu4 yi3 bian1 chui2 shi3 zhi1 ， er2 ru3 jun1 shi4 ， shi3 kou4 ling4 yan1！
@@ -47,16 +51,20 @@ tags: ["卷三・周文","古文观止","蒙学"]
 - 一介嫡男，奉盤匜以隨諸御。
 - chun1 qiu1 gong4 xian4 ， bu4 jie3 wu1 wang2 fu3。
 - 春秋貢獻，不解於王府。
-- tian1 wang2 qi3 ru3 cai2 zhi1 ？ yi4 zhi3 zhu1 hou2 zhi1 li3 ye3。
-- 天王豈辱裁之？亦徵諸侯之禮也。
+- tian1 wang2 qi3 ru3 cai2 zhi1？
+- 天王豈辱裁之？
+- yi4 zhi3 zhu1 hou2 zhi1 li3 ye3。
+- 亦徵諸侯之禮也。
 - ’ ”
 - ’”
 - fu1 yan4 yue1 ： “ ‘ hu2 mai2 zhi1 er2 hu2 hu2 zhi1 ， shi4 yi3 wu2 cheng2 gong1。
 - 夫諺曰：“‘狐埋之而狐搰之，是以無成功。
 - ’ jin1 tian1 wang2 ji4 feng1 zhi2 yue4 guo2 ， yi3 ming2 wen2 wu1 tian1 xia4 ， er2 you4 yi4 wang2 zhi1 ， shi4 tian1 wang2 zhi1 wu2 cheng2 lao2 ye3。
 - ’今天王既封殖越國，以明聞於天下，而又刈亡之，是天王之無成勞也。
-- sui1 si4 fang1 zhi1 zhu1 hou2 ， ze2 he2 shi2 yi3 shi4 wu2 ？ gan3 shi3 xia4 chen2 jin4 ci2 ， wei2 tian1 wang2 bing3 li4 du4 yi4 yan1！
-- 雖四方之諸侯，則何實以事吳？敢使下臣盡辭，唯天王秉利度義焉！
+- sui1 si4 fang1 zhi1 zhu1 hou2 ， ze2 he2 shi2 yi3 shi4 wu2？
+- 雖四方之諸侯，則何實以事吳？
+- gan3 shi3 xia4 chen2 jin4 ci2 ， wei2 tian1 wang2 bing3 li4 du4 yi4 yan1！
+- 敢使下臣盡辭，唯天王秉利度義焉！
 - ”
 - ”
 

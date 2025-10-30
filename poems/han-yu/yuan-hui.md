@@ -57,7 +57,7 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 一善易修也，一藝易能也，其於人也，乃曰：“能有是，是亦足矣。
 - ” yue1 ： “ neng2 shan4 shi4 ， shi4 yi4 zu2 yi3。
 - ”曰：“能善是，是亦足矣。
-- ” bu2 yi4 dai4 wu1 ren2 zhe3 qing1 yi3 yue1 hu1 ？
+- ” bu2 yi4 dai4 wu1 ren2 zhe3 qing1 yi3 yue1 hu1？
 - ”不亦待於人者輕以約乎？
 - jin1 zhi1 jun1 zi3 ze2 bu4 ran2。
 - 今之君子則不然。
@@ -71,7 +71,7 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 己未有善，曰：“我善是，是亦足矣。
 - ” ji3 wei4 you3 neng2 ， yue1 ： “ wo3 neng2 shi4 ， shi4 yi4 zu2 yi3。
 - ”己未有能，曰：“我能是，是亦足矣。
-- ” wai4 yi3 qi1 wu1 ren2 ， nei4 yi3 qi1 wu1 xin1 ， wei4 shao3 you3 de2 er2 zhi3 yi3 ， bu2 yi4 dai4 qi2 shen1 zhe3 yi3 lian2 hu1 ？
+- ” wai4 yi3 qi1 wu1 ren2 ， nei4 yi3 qi1 wu1 xin1 ， wei4 shao3 you3 de2 er2 zhi3 yi3 ， bu2 yi4 dai4 qi2 shen1 zhe3 yi3 lian2 hu1？
 - ”外以欺於人，內以欺於心，未少有得而止矣，不亦待其身者已廉乎？
 - qi2 wu1 ren2 ye3 ， yue1 ： “ bi3 sui1 neng2 shi4 ， qi2 ren2 bu4 zu2 cheng1 ye3；
 - 其於人也，曰：“彼雖能是，其人不足稱也；
@@ -81,7 +81,7 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - ”舉其一，不計其十；
 - jiu1 qi2 jiu4 ， bu4 tu2 qi2 xin1 ： kong3 kong3 ran2 wei2 ju4 qi2 ren2 zhi1 you3 wen2 ye3。
 - 究其舊，不圖其新：恐恐然惟懼其人之有聞也。
-- shi4 bu2 yi4 ze2 wu1 ren2 zhe3 yi3 xiang2 hu1 ？
+- shi4 bu2 yi4 ze2 wu1 ren2 zhe3 yi3 xiang2 hu1？
 - 是不亦責於人者已詳乎？
 - fu1 shi4 zhi1 wei4 bu4 yi3 zhong4 ren2 dai4 qi2 shen1 ， er2 yi3 sheng4 ren2 wang4 wu1 ren2 ， wu2 wei4 jian4 qi2 zun1 ji3 ye3。
 - 夫是之謂不以衆人待其身，而以聖人望於人，吾未見其尊己也。

@@ -13,16 +13,20 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 
 - shu4 qian1 li3 wai4 ， de2 chang2 zhe3 shi2 ci4 yi4 shu1 ， yi3 wei4 chang2 xiang3 ， ji2 yi4 shen4 xing4 yi3；
 - 數千裏外，得長者時賜一書，以慰長想，即亦甚幸矣；
-- he2 zhi4 geng4 ru3 kui4 yi2 ， ze2 bu4 cai2 yi4   jiang1 he2 yi3 bao4 yan1 ？ shu1 zhong1 qing2 yi4 shen4 yin1 ， ji2 chang2 zhe3 zhi1 bu2 wang4 lao3 fu4 ， zhi1 lao3 fu4 zhi1 nian4 chang2 zhe3 shen1 ye3。
-- 何至更辱饋遺，則不才益 將何以報焉？書中情意甚殷，即長者之不忘老父，知老父之念長者深也。
+- he2 zhi4 geng4 ru3 kui4 yi2 ， ze2 bu4 cai2 yi4   jiang1 he2 yi3 bao4 yan1？
+- 何至更辱饋遺，則不才益 將何以報焉？
+- shu1 zhong1 qing2 yi4 shen4 yin1 ， ji2 chang2 zhe3 zhi1 bu2 wang4 lao3 fu4 ， zhi1 lao3 fu4 zhi1 nian4 chang2 zhe3 shen1 ye3。
+- 書中情意甚殷，即長者之不忘老父，知老父之念長者深也。
 - zhi4 yi3 「 shang4 xia4   xiang1 fu2 ， cai2 de2 cheng1 wei4 」 yu3 bu4 cai2 ， ze2 bu4 cai2 you3 shen1 gan3 yan1。
 - 至以「上下 相孚，才德稱位」語不才，則不才有深感焉。
 - fu1 cai2 de2 bu4 cheng1 ， gu4 zi4 zhi1 zhi1 yi3；
 - 夫才德不稱，固自知之矣；
 - zhi4 wu1 bu4 fu2 zhi1 bing4 ， ze2 you2 bu4 cai2 wei2 shen4。
 - 至於不孚之病，則尤不才爲甚。
-- qie3 jin1 zhi1 suo3 wei4 fu2 zhe3 ， he2 zai1 ？ ri4 xi1 ce4 ma3 ， hou4 quan2 zhe3 zhi1 men2。
-- 且今之所謂孚者，何哉？日夕策馬，候權者之門。
+- qie3 jin1 zhi1 suo3 wei4 fu2 zhe3 ， he2 zai1？
+- 且今之所謂孚者，何哉？
+- ri4 xi1 ce4 ma3 ， hou4 quan2 zhe3 zhi1 men2。
+- 日夕策馬，候權者之門。
 - men2 zhe3 gu4 bu2 ru4 ， ze2 gan1 yan2 mei4 ci2 ， zuo4 fu4 ren2 zhuang4 ， xiu4 jin1 yi3 si1 zhi1。
 - 門者故不入，則甘言媚詞，作婦人狀，袖金以私之。
 - ji2 men2 zhe3 chi2 ci4 ru4 ， er2 zhu3 ren2 you4 bu4 ji2 chu1 jian4；
@@ -37,10 +41,16 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 」即明日， 又不敢不來。
 - ye4 pi1 yi1 zuo4 ， wen2 ji1 ming2 ， ji2 qi3 guan4 zhi4 ， zou3 ma3 di3 men2；
 - 夜披衣坐，聞雞鳴，即起盥櫛，走馬抵門；
-- men2 zhe3 nu4 yue1 ： 「 wei2 shui2 ？ 」 ze2 yue1   ： 「 zuo2 ri4 zhi1 ke4 lai2。
-- 門者怒曰：「爲誰？」則曰 ：「昨日之客來。
-- 」 ze2 you4 nu4 yue1 ： 「 he2 ke4 zhi1 qin2 ye3 ？ qi3 you3 xiang4 gong0 ci3 shi2 chu1 jian4 ke4 hu1 ？ 」 ke4 xin1 chi3 zhi1   ， qiang2 ren3 er2 yu3 yan2 yue1 ： 「 wang2 nai4 he2 yi3 ， gu1 rong2 wo3 ru4！
-- 」則又怒曰：「何客之勤也？豈有相公此時出見客乎？」客心恥之 ，強忍而與言曰：「亡奈何矣，姑容我入！
+- men2 zhe3 nu4 yue1 ： 「 wei2 shui2？
+- 門者怒曰：「爲誰？
+- 」 ze2 yue1   ： 「 zuo2 ri4 zhi1 ke4 lai2。
+- 」則曰 ：「昨日之客來。
+- 」 ze2 you4 nu4 yue1 ： 「 he2 ke4 zhi1 qin2 ye3？
+- 」則又怒曰：「何客之勤也？
+- qi3 you3 xiang4 gong0 ci3 shi2 chu1 jian4 ke4 hu1？
+- 豈有相公此時出見客乎？
+- 」 ke4 xin1 chi3 zhi1   ， qiang2 ren3 er2 yu3 yan2 yue1 ： 「 wang2 nai4 he2 yi3 ， gu1 rong2 wo3 ru4！
+- 」客心恥之 ，強忍而與言曰：「亡奈何矣，姑容我入！
 - 」 men2 zhe3 you4 de2 suo3 zeng4 jin1 ， ze2 qi3 er2 ru4 zhi1；
 - 」門者又得所贈金，則起而入之；
 - you4 li4 xiang4   suo3 li4 jiu4 zhong1。
@@ -77,13 +87,15 @@ tags: ["卷十二・明文","古文观止","蒙学"]
 - 某也賢！
 - 」 wen2 zhe3 yi4 xin1 xu1 jiao1 zan4 zhi1。
 - 」聞者亦心許交贊之。
-- ci3 shi4 suo3 wei4 shang4 xia4 xiang1 fu2 ye3 ， chang2 zhe3 wei4 pu2 neng2 zhi1 hu1 ？ qian2 suo3 wei4 quan2 men2 zhe3 ， zi4 sui4 shi2 fu2 la4 ， yi2 ci4 zhi1 wai4 ， ji2 jing1 nian2 bu4 wang3 ye3。
-- 此世所謂上下相孚也，長者謂僕能之乎？前所謂權門者，自歲時伏臘，一刺之外，即經年不往也。
+- ci3 shi4 suo3 wei4 shang4 xia4 xiang1 fu2 ye3 ， chang2 zhe3 wei4 pu2 neng2 zhi1 hu1？
+- 此世所謂上下相孚也，長者謂僕能之乎？
+- qian2 suo3 wei4 quan2 men2 zhe3 ， zi4 sui4 shi2 fu2 la4 ， yi2 ci4 zhi1 wai4 ， ji2 jing1 nian2 bu4 wang3 ye3。
+- 前所謂權門者，自歲時伏臘，一刺之外，即經年不往也。
 - xian2 dao4 jing1 qi2 men2 ， ze2 yi4 yan3 er3   bi4 mu4 ， yue4 ma3 ji2 zou3 guo4 zhi1 ， ruo4 you3 suo3 zhui1 zhu2 zhe3 ， si1 ze2 pu2 zhi1 bian3 zhong1 ， yi3 ci3 chang2 bu2 jian4 yi2 wu1 chang2 li4 ， pu2 ze2 yu4   yi4 bu2 gu4 ye3。
 - 閒道經其門，則亦掩耳 閉目，躍馬疾走過之，若有所追逐者，斯則僕之褊衷，以此長不見怡於長吏，僕則愈 益不顧也。
 - mei3 da4 yan2 yue1 ： 「 ren2 sheng1 you3 ming4 ， wu2 wei2 you3 ming4 ， wu2 wei2 shou3 fen1 er2 yi3。
 - 每大言曰：「人生有命，吾惟有命，吾惟守分而已。
-- 」 chang2 zhe3 wen2 zhi1 ， de2 wu2 yan4   qi2 wei2 yu1 hu1 ？
+- 」 chang2 zhe3 wen2 zhi1 ， de2 wu2 yan4   qi2 wei2 yu1 hu1？
 - 」長者聞之，得無厭 其爲迂乎？
 - xiang1 yuan2 duo1 gu4 ， bu4 neng2 bu2 dong4 ke4 zi3 zhi1 chou2。
 - 鄉園多故，不能不動客子之愁。

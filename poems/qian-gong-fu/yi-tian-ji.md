@@ -51,8 +51,12 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 妻之族，無凍餒者；
 - qi2 guo2 zhi1 shi4 ， dai4 chen2 er2 ju3 huo3 zhe3 ， san1 bai3 yu2 ren2。
 - 齊國之士，待臣而舉火者，三百餘人。
-- yi3 ci3 er2 wei2 yin3 jun1 zhi1 ci4 hu1 ？ zhang1 jun1 zhi1 ci4 hu1 ？ 」 wu1 shi4 qi2 hou2 yi3 yan4 zi3 zhi1 shang1 er2 shang1 huan2 zi3。
-- 以此而爲隱君之賜乎？彰君之賜乎？」於是齊侯以晏子之觴而觴桓子。
+- yi3 ci3 er2 wei2 yin3 jun1 zhi1 ci4 hu1？
+- 以此而爲隱君之賜乎？
+- zhang1 jun1 zhi1 ci4 hu1？
+- 彰君之賜乎？
+- 」 wu1 shi4 qi2 hou2 yi3 yan4 zi3 zhi1 shang1 er2 shang1 huan2 zi3。
+- 」於是齊侯以晏子之觴而觴桓子。
 - yu3 chang2 ai4 yan4 zi3 hao3 ren2 ， qi2 hou2 zhi1 xian2 ， er2 huan2 zi3 fu2 yi4 ye3。
 - 予嘗愛晏子好仁，齊侯知賢，而桓子服義也。
 - you4 ai4 yan4 zi3 zhi1 ren2 you3 deng3 ji2 ， er2 yan2 you3 ci4 ye3；
@@ -73,8 +77,10 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 況於施賢乎！
 - qi2 xia4 wei2 qing1 ， wei2 dai4 fu0 ， wei2 shi4 ， lin3 shao1 zhi1 chong1 ， feng4 yang3 zhi1 hou4 ， zhi3 hu1 yi4 ji3 er2 yi3；
 - 其下爲卿，爲大夫，爲士，廩稍之充，奉養之厚，止乎一己而已；
-- er2 zu2 zhi1 ren2 cao1 piao2 nang2 wei2 gou1 zhong1 ji2 zhe3 ， you4 qi3 shao3 zai1 ？ kuang4 wu1 ta1 ren2 hu1！
-- 而族之人操瓢囊爲溝中瘠者，又豈少哉？況於他人乎！
+- er2 zu2 zhi1 ren2 cao1 piao2 nang2 wei2 gou1 zhong1 ji2 zhe3 ， you4 qi3 shao3 zai1？
+- 而族之人操瓢囊爲溝中瘠者，又豈少哉？
+- kuang4 wu1 ta1 ren2 hu1！
+- 況於他人乎！
 - shi4 jie1 gong1 zhi1 zui4 ren2 ye3。
 - 是皆公之罪人也。
 - gong1 zhi1 zhong1 yi4 man3 chao2 ting2 ， shi4 ye4 man3 bian1 yu2 ， gong1 ming2 man3 tian1 xia4 ， hou4 bi4 you3 shi3 guan1 shu1 zhi1 zhe3 ， yu3 ke3 wu2 lu4 ye3。

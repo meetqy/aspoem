@@ -41,23 +41,29 @@ tags: ["卷十・宋文","古文观止","蒙学"]
 - 方其功之未成也，蓋亦有潰冒衝突可畏之患；
 - wei2 neng2 qian2 zhi1 qi2 dang1 ran2 ， shi4 zhi4 bu2 ju4 ， er2 xu2 wei2 zhi1 tu2 ， shi4 yi3 de2 zhi4 wu1 cheng2 gong1。
 - 惟能前知其當然，事至不懼，而徐爲之圖，是以得至於成功。
-- fu1 yi3 qi1 guo2 zhi1 qiang2 ， er2 zhou4 xiao1 zhi1 ， qi2 wei2 bian4 ， qi3 zu2 guai4 zai1 ？ cuo4 bu4 wu1 ci3 shi2 juan1 qi2 shen1 ， wei2 tian1 xia4 dang1 da4 nan2 zhi1 chong1 ， er2 zhi4 wu2 chu3 zhi1 ming4 ， nai3 wei2 zi4 quan2 zhi1 ji4 ， yu4 shi3 tian1 zi3 zi4 jiang1 er2 ji3 ju1 shou3。
-- 夫以七國之強，而驟削之，其爲變，豈足怪哉？錯不於此時捐其身，爲天下當大難之衝，而制吳楚之命，乃爲自全之計，欲使天子自將而己居守。
-- qie3 fu1 fa1 qi1 guo2 zhi1 nan2 zhe3 ， shui2 hu1 ？ ji3 yu4 qiu2 qi2 ming2 ， an1 suo3 tao2 qi2 huan4。
-- 且夫發七國之難者，誰乎？己欲求其名，安所逃其患。
+- fu1 yi3 qi1 guo2 zhi1 qiang2 ， er2 zhou4 xiao1 zhi1 ， qi2 wei2 bian4 ， qi3 zu2 guai4 zai1？
+- 夫以七國之強，而驟削之，其爲變，豈足怪哉？
+- cuo4 bu4 wu1 ci3 shi2 juan1 qi2 shen1 ， wei2 tian1 xia4 dang1 da4 nan2 zhi1 chong1 ， er2 zhi4 wu2 chu3 zhi1 ming4 ， nai3 wei2 zi4 quan2 zhi1 ji4 ， yu4 shi3 tian1 zi3 zi4 jiang1 er2 ji3 ju1 shou3。
+- 錯不於此時捐其身，爲天下當大難之衝，而制吳楚之命，乃爲自全之計，欲使天子自將而己居守。
+- qie3 fu1 fa1 qi1 guo2 zhi1 nan2 zhe3 ， shui2 hu1？
+- 且夫發七國之難者，誰乎？
+- ji3 yu4 qiu2 qi2 ming2 ， an1 suo3 tao2 qi2 huan4。
+- 己欲求其名，安所逃其患。
 - yi3 zi4 jiang1 zhi1 zhi4 wei1 ， yu3 ju1 shou3 zhi4 an1；
 - 以自將之至危，與居守至安；
 - ji3 wei2 nan2 shou3 ， ze2 qi2 zhi4 an1 ， er2 qian3 tian1 zi3 yi3 qi2 zhi4 wei1 ， ci3 zhong1 chen2 yi4 shi4 suo3 yi3 fen4 yuan4 er2 bu4 ping2 zhe3 ye3。
 - 己爲難首，擇其至安，而遣天子以其至危，此忠臣義士所以憤怨而不平者也。
 - dang1 ci3 zhi1 shi2 ， sui1 wu2 yuan2 ang4 ， cuo4 yi4 wei4 mian3 wu1 huo4。
 - 當此之時，雖無袁盎，錯亦未免於禍。
-- he2 zhe3 ？ ji3 yu4 ju1 shou3 ， er2 shi3 ren2 zhu3 zi4 jiang1。
-- 何者？己欲居守，而使人主自將。
+- he2 zhe3？
+- 何者？
+- ji3 yu4 ju1 shou3 ， er2 shi3 ren2 zhu3 zi4 jiang1。
+- 己欲居守，而使人主自將。
 - yi3 qing2 er2 yan2 ， tian1 zi3 gu4 yi3 nan2 zhi1 yi3 ， er2 zhong4 wei2 qi2 yi4。
 - 以情而言，天子固已難之矣，而重違其議。
 - shi4 yi3 yuan2 ang4 zhi1 shuo1 ， de2 xing2 wu1 qi2 jian4。
 - 是以袁盎之說，得行於其間。
-- shi3 wu2 chu3 fan3 ， cuo4 yi3 shen1 ren4 qi2 wei1 ， ri4 ye4 cui4 li4 ， dong1 xiang4 er2 dai4 zhi1 ， shi3 bu2 zhi4 wu1 lei4 qi2 jun1 ， ze2 tian1 zi3 jiang1 shi4 zhi1 yi3 wei2 wu2 kong3 ， sui1 you3 bai3 ang4 ， ke3 de2 er2 jian4 zai1 ？
+- shi3 wu2 chu3 fan3 ， cuo4 yi3 shen1 ren4 qi2 wei1 ， ri4 ye4 cui4 li4 ， dong1 xiang4 er2 dai4 zhi1 ， shi3 bu2 zhi4 wu1 lei4 qi2 jun1 ， ze2 tian1 zi3 jiang1 shi4 zhi1 yi3 wei2 wu2 kong3 ， sui1 you3 bai3 ang4 ， ke3 de2 er2 jian4 zai1？
 - 使吳楚反，錯已身任其危，日夜淬礪，東向而待之，使不至於累其君，則天子將恃之以爲無恐，雖有百盎，可得而間哉？
 - jie1 fu1！
 - 嗟夫！

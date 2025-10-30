@@ -43,12 +43,16 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 軾復於公曰：“物之廢興成毀，不可得而知也。
 - xi1 zhe3 huang1 cao3 ye3 tian2 ， shuang1 lu4 zhi1 suo3 meng2 yi4 ， hu2 hui1 zhi1 suo3 cuan4 fu2。
 - 昔者荒草野田，霜露之所蒙翳，狐虺之所竄伏。
-- fang1 shi4 shi2 ， qi3 zhi1 you3 ling2 xu1 tai2 ye1 ？ fei4 xing1 cheng2 hui3 ， xiang1 xun2 wu1 wu2 qiong2 ， ze2 tai2 zhi1 fu4 wei2 huang1 cao3 ye3 tian2 ， jie1 bu4 ke3 zhi1 ye3。
-- 方是時，豈知有凌虛臺耶？廢興成毀，相尋於無窮，則臺之復爲荒草野田，皆不可知也。
+- fang1 shi4 shi2 ， qi3 zhi1 you3 ling2 xu1 tai2 ye1？
+- 方是時，豈知有凌虛臺耶？
+- fei4 xing1 cheng2 hui3 ， xiang1 xun2 wu1 wu2 qiong2 ， ze2 tai2 zhi1 fu4 wei2 huang1 cao3 ye3 tian2 ， jie1 bu4 ke3 zhi1 ye3。
+- 廢興成毀，相尋於無窮，則臺之復爲荒草野田，皆不可知也。
 - chang2 shi4 yu3 gong1 deng1 tai2 er2 wang4 ， qi2 dong1 ze2 qin2 mu4 zhi1 qi2 nian2 、 tuo2 quan2 ye3 ， qi2 nan2 ze2 han4 wu3 zhi1 chang2 yang2 ， wu3 zha4 ， er2 qi2 bei3 ze2 sui2 zhi1 ren2 shou4 ， tang2 zhi1 jiu3 cheng2 ye3。
 - 嘗試與公登臺而望，其東則秦穆之祈年、橐泉也，其南則漢武之長楊，五柞，而其北則隋之仁壽，唐之九成也。
-- ji4 qi2 yi1 shi2 zhi1 sheng4 ， hong2 jie2 gui3 li2 ， jian1 gu4 er2 bu4 ke3 dong4 zhe3 ， qi3 te4 bai3 bei4 wu1 tai2 er2 yi3 zai1 ？ ran2 er2 shu4 shi4 zhi1 hou4 ， yu4 qiu2 qi2 pang2 fu2 ， er2 po4 wa3 tui2 yuan2 ， wu2 fu4 cun2 zhe3 ， ji4 yi3 hua4 wei2 he2 shu3 jing1 ji2 qiu1 xu1 long3 mu3 yi3 ， er2 kuang4 wu1 ci3 tai2 yu2！
-- 計其一時之盛，宏傑詭麗，堅固而不可動者，豈特百倍於臺而已哉？然而數世之後，欲求其彷彿，而破瓦頹垣，無復存者，既已化爲禾黍荊棘丘墟隴畝矣，而況於此臺歟！
+- ji4 qi2 yi1 shi2 zhi1 sheng4 ， hong2 jie2 gui3 li2 ， jian1 gu4 er2 bu4 ke3 dong4 zhe3 ， qi3 te4 bai3 bei4 wu1 tai2 er2 yi3 zai1？
+- 計其一時之盛，宏傑詭麗，堅固而不可動者，豈特百倍於臺而已哉？
+- ran2 er2 shu4 shi4 zhi1 hou4 ， yu4 qiu2 qi2 pang2 fu2 ， er2 po4 wa3 tui2 yuan2 ， wu2 fu4 cun2 zhe3 ， ji4 yi3 hua4 wei2 he2 shu3 jing1 ji2 qiu1 xu1 long3 mu3 yi3 ， er2 kuang4 wu1 ci3 tai2 yu2！
+- 然而數世之後，欲求其彷彿，而破瓦頹垣，無復存者，既已化爲禾黍荊棘丘墟隴畝矣，而況於此臺歟！
 - fu1 tai2 you2 bu4 zu2 shi4 yi3 chang2 jiu3 ， er2 kuang4 wu1 ren2 shi4 zhi1 de2 sang1 ， hu1 wang3 er2 hu1 lai2 zhe3 yu2！
 - 夫臺猶不足恃以長久，而況於人事之得喪，忽往而忽來者歟！
 - er2 huo4 zhe3 yu4 yi3 kua1 shi4 er2 zi4 zu2 ， ze2 guo4 yi3。

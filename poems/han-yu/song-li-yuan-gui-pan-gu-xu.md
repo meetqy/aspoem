@@ -51,16 +51,20 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 車服不維，刀鋸不加，理亂不知，黜陟不聞。
 - da4 zhang4 fu0 bu2 yu4 wu1 shi2 zhe3 zhi1 suo3 wei2 ye3 ， wo3 ze2 xing2 zhi1。
 - 大丈夫不遇於時者之所爲也，我則行之。
-- ci4 hou0 wu1 gong1 qing1 zhi1 men2 ， ben1 zou3 wu1 xing2 shi4 zhi1 tu2 ， zu2 jiang1 jin4 er2 zi1 ju1 ， kou3 jiang1 yan2 er2 nie4 ru2 ， chu3 wu1 hui4 er2 bu4 xiu1 ， chu4 xing2 pi4 er2 zhu1 lu4 ， jiao3 xing4 wu1 wan4 yi1 ， lao3 si3 er2 hou4 zhi3 zhe3 ， qi2 wu1 wei2 ren2 ， xian2 bu2 xiao4 he2 ru2 ye3 ？ ”
-- 伺候於公卿之門，奔走於形勢之途，足將進而趑趄，口將言而囁嚅，處污穢而不羞，觸刑辟而誅戮，僥倖於萬一，老死而後止者，其於爲人，賢不肖何如也？”
+- ci4 hou0 wu1 gong1 qing1 zhi1 men2 ， ben1 zou3 wu1 xing2 shi4 zhi1 tu2 ， zu2 jiang1 jin4 er2 zi1 ju1 ， kou3 jiang1 yan2 er2 nie4 ru2 ， chu3 wu1 hui4 er2 bu4 xiu1 ， chu4 xing2 pi4 er2 zhu1 lu4 ， jiao3 xing4 wu1 wan4 yi1 ， lao3 si3 er2 hou4 zhi3 zhe3 ， qi2 wu1 wei2 ren2 ， xian2 bu2 xiao4 he2 ru2 ye3？
+- 伺候於公卿之門，奔走於形勢之途，足將進而趑趄，口將言而囁嚅，處污穢而不羞，觸刑辟而誅戮，僥倖於萬一，老死而後止者，其於爲人，賢不肖何如也？
+- ”
+- ”
 - chang1 li2 han2 yu4 wen2 qi2 yan2 er2 zhuang4 zhi1 ， yu3 zhi1 jiu3 er2 wei2 zhi1 ge1 yue1 ： “ pan2 zhi1 zhong1 ， wei2 zi3 zhi1 gong1；
 - 昌黎韓愈聞其言而壯之，與之酒而爲之歌曰：“盤之中，維子之宮；
 - pan2 zhi1 tu3 ， wei2 zi3 zhi1 jia4；
 - 盤之土，維子之稼；
 - pan2 zhi1 quan2 ， ke3 zhuo2 ke3 yan2；
 - 盤之泉，可濯可沿；
-- pan2 zhi1 zu3 ， shui2 zheng1 zi3 suo3 ？ yao3 er2 shen1 ， kuo4 qi2 you3 rong2；
-- 盤之阻，誰爭子所？窈而深，廓其有容；
+- pan2 zhi1 zu3 ， shui2 zheng1 zi3 suo3？
+- 盤之阻，誰爭子所？
+- yao3 er2 shen1 ， kuo4 qi2 you3 rong2；
+- 窈而深，廓其有容；
 - liao2 er2 qu3 ， ru2 wang3 er2 fu4。
 - 繚而曲，如往而復。
 - jie1 pan2 zhi1 le4 xi1 ， le4 qie3 wu2 yang1；

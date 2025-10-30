@@ -17,8 +17,10 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 唐雎謂信陵君曰：“臣聞之曰：事有不可知者，有不可不知者；
 - you3 bu4 ke3 wang4 zhe3 ， you3 bu4 ke3 bu2 wang4 zhe3。
 - 有不可忘者，有不可不忘者。
-- ” xin4 ling2 jun1 yue1 ： “ he2 wei4 ye3 ？ ” dui4 yue1 ： “ ren2 zhi1 zeng1 wo3 ye3 ， bu4 ke3 bu4 zhi1 ye3；
-- ”信陵君曰：“何謂也？”對曰：“人之憎我也，不可不知也；
+- ” xin4 ling2 jun1 yue1 ： “ he2 wei4 ye3？
+- ”信陵君曰：“何謂也？
+- ” dui4 yue1 ： “ ren2 zhi1 zeng1 wo3 ye3 ， bu4 ke3 bu4 zhi1 ye3；
+- ”對曰：“人之憎我也，不可不知也；
 - wu2 zeng1 ren2 ye3 ， bu4 ke3 de2 er2 zhi1 ye3。
 - 吾憎人也，不可得而知也。
 - ren2 zhi1 you3 de2 wu1 wo3 ye3 ， bu4 ke3 wang4 ye3；

@@ -17,10 +17,12 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 - 亡羊而補牢，未爲遲也。
 - ’ chen2 wen2 xi1 tang1 、 wu3 yi3 bai3 li3 chang1 ， jie2 、 zhou4 yi3 tian1 xia4 wang2。
 - ’臣聞昔湯、武以百里昌，桀、紂以天下亡。
-- jin1 chu3 guo2 sui1 xiao3 ， jue2 chang2 xu4 duan3 ， you2 yi3 shu4 qian1 li3 ， qi3 te4 bai3 li3 zai1 ？
+- jin1 chu3 guo2 sui1 xiao3 ， jue2 chang2 xu4 duan3 ， you2 yi3 shu4 qian1 li3 ， qi3 te4 bai3 li3 zai1？
 - 今楚國雖小，絕長續短，猶以數千裏，豈特百里哉？
-- “ wang2 du2 bu2 jian4 fu1 qing1 ling2 hu1 ？ liu4 zu2 si4 yi4 ， fei1 xiang2 hu1 tian1 di4 zhi1 jian4 ， fu3 zhuo2 wen2 meng2 er2 shi2 zhi1 ， yang3 cheng2 gan1 lu4 er2 yin3 zhi1 ， zi4 yi3 wei2 wu2 huan4 ， yu3 ren2 wu2 zheng1 ye3。
-- “王獨不見夫蜻蛉乎？六足四翼，飛翔乎天地之間，俛啄蚊虻而食之，仰承甘露而飲之，自以爲無患，與人無爭也。
+- “ wang2 du2 bu2 jian4 fu1 qing1 ling2 hu1？
+- “王獨不見夫蜻蛉乎？
+- liu4 zu2 si4 yi4 ， fei1 xiang2 hu1 tian1 di4 zhi1 jian4 ， fu3 zhuo2 wen2 meng2 er2 shi2 zhi1 ， yang3 cheng2 gan1 lu4 er2 yin3 zhi1 ， zi4 yi3 wei2 wu2 huan4 ， yu3 ren2 wu2 zheng1 ye3。
+- 六足四翼，飛翔乎天地之間，俛啄蚊虻而食之，仰承甘露而飲之，自以爲無患，與人無爭也。
 - bu4 zhi1 fu1 wu3 chi3 tong2 zi3 ， fang1 jiang1 diao4 qian1 jiao1 si1 ， jia1 ji3 hu1 si4 ren4 zhi1 shang4 ， er2 xia4 wei2 lou2 yi3 shi2 ye3。
 - 不知夫五尺童子，方將調鉛膠絲，加己乎四仞之上，而下爲螻蟻食也。
 - fu1 qing1 ling2 qi2 xiao3 zhe3 ye3 ， huang2 que4 yin1 shi4 yi3。

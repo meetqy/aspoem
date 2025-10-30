@@ -63,13 +63,13 @@ tags: []
 - 终危独以离异兮，曰君可思而不可恃。
 - gu4 zhong4 kou3 qi2 shuo4 jin1 xi1 ， chu1 ruo4 shi4 er2 feng2 dai4。
 - 故众口其铄金兮，初若是而逢殆。
-- cheng2 yu2 geng1 zhe3 er2 chui1 ji1 xi1 ， he2 bu2 bian4 ci3 zhi4 ye3 ？
+- cheng2 yu2 geng1 zhe3 er2 chui1 ji1 xi1 ， he2 bu2 bian4 ci3 zhi4 ye3？
 - 惩于羹者而吹齑兮，何不变此志也？
 - yu4 shi4 jie1 er2 deng1 tian1 xi1 ， you2 you3 nang3 zhi1 tai4 ye3。
 - 欲释阶而登天兮，犹有曩之态也。
-- zhong4 hai4 ju4 yi3 li2 xin1 xi1 ， you4 he2 yi3 wei2 ci3 ban4 ye3 ？
+- zhong4 hai4 ju4 yi3 li2 xin1 xi1 ， you4 he2 yi3 wei2 ci3 ban4 ye3？
 - 众骇遽以离心兮，又何以为此伴也？
-- tong2 ji2 er2 yi4 lu4 xi1 ， you4 he2 yi3 wei2 ci3 yuan2 ye3 ？
+- tong2 ji2 er2 yi4 lu4 xi1 ， you4 he2 yi3 wei2 ci3 yuan2 ye3？
 - 同极而异路兮，又何以为此援也？
 - jin4 shen1 sheng1 zhi1 xiao4 zi3 xi1 ， fu4 xin4 chan2 er2 bu4 hao3。
 - 晋申生之孝子兮，父信谗而不好。
@@ -85,7 +85,7 @@ tags: []
 - 设张辟以娱君兮，愿侧身而无所。
 - yu4 chan2 huai2 yi3 gan1 chi4 xi1 ， kong3 zhong4 huan4 er2 li2 you2。
 - 欲儃徊以干傺兮，恐重患而离尤。
-- yu4 gao1 fei1 er2 yuan3 ji2 xi1 ， jun1 wang3 wei4 ru3 he2 zhi1 ？
+- yu4 gao1 fei1 er2 yuan3 ji2 xi1 ， jun1 wang3 wei4 ru3 he2 zhi1？
 - 欲高飞而远集兮，君罔谓汝何之？
 - yu4 heng2 ben1 er2 shi1 lu4 xi1 ， gai4 zhi4 jian1 er2 bu4 ren3。
 - 欲横奔而失路兮，盖志坚而不忍。

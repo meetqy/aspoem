@@ -5,6 +5,7 @@ export default antfu({
   react: true,
   nextjs: true,
   jsx: true,
+  markdown: true,
 
   rules: {
     'node/prefer-global/process': 'off',

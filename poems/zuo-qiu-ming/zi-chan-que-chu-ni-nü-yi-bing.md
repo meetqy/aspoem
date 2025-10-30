@@ -41,8 +41,10 @@ tags: ["卷二・周文","古文观止","蒙学"]
 - 將恃大國之安靖己，而無乃包藏禍心以圖之。
 - xiao3 guo2 shi1 shi4 er2 cheng2 zhu1 hou2 ， shi3 mo4 bu2 han4 zhe3 ， ju4 wei2 jun1 ming4 ， er2 you3 suo3 yong1 se4 bu4 xing2 shi4 ju4！
 - 小國失恃而懲諸侯，使莫不憾者，距違君命，而有所壅塞不行是懼！
-- bu4 ran2 ， bi4 yi4 ， guan3 ren2 zhi1 shu3 ye3 ， qi2 gan3 ai4 feng1 shi4 zhi1 tiao1 ？ ”
-- 不然，敝邑，館人之屬也，其敢愛豐氏之祧？”
+- bu4 ran2 ， bi4 yi4 ， guan3 ren2 zhi1 shu3 ye3 ， qi2 gan3 ai4 feng1 shi4 zhi1 tiao1？
+- 不然，敝邑，館人之屬也，其敢愛豐氏之祧？
+- ”
+- ”
 - wu3 ju3 zhi1 qi2 you3 bei4 ye3 ， qing3 chui2 gao1 er2 ru4。
 - 伍舉知其有備也，請垂櫜而入。
 - xu1 zhi1。

@@ -53,18 +53,24 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 吾又何能爲哉！
 - ”
 - ”
-- wen4 zhe3 yue1 ： “ yi3 zi3 zhi1 dao4 ， yi2 zhi1 guan1 li3 ， ke3 hu1 ？ ” tuo2 yue1 ： “ wo3 zhi1 zhong3 shu4 er2 yi3 ， guan1 li3 ， fei1 wu2 ye4 ye3。
-- 問者曰：“以子之道，移之官理，可乎？”駝曰：“我知種樹而已，官理，非吾業也。
+- wen4 zhe3 yue1 ： “ yi3 zi3 zhi1 dao4 ， yi2 zhi1 guan1 li3 ， ke3 hu1？
+- 問者曰：“以子之道，移之官理，可乎？
+- ” tuo2 yue1 ： “ wo3 zhi1 zhong3 shu4 er2 yi3 ， guan1 li3 ， fei1 wu2 ye4 ye3。
+- ”駝曰：“我知種樹而已，官理，非吾業也。
 - ran2 wu2 ju1 xiang1 ， jian4 chang2 ren2 zhe3 hao3 fan2 qi2 ling4 ， ruo4 shen4 lian2 yan1 ， er2 zu2 yi3 huo4。
 - 然吾居鄉，見長人者好煩其令，若甚憐焉，而卒以禍。
 - dan4 mu4 li4 lai2 er2 hu1 yue1 ： ‘ guan1 ming4 cu4 er3 geng1 ， xu4 er3 zhi2 ， du1 er3 huo4 ， zao3 sao1 er2 xu4 ， zao3 zhi1 er2 lü3 ， zi4 er2 you4 hai2 ， sui4 er2 ji1 tun2。
 - 旦暮吏來而呼曰：‘官命促爾耕，勖爾植，督爾獲，早繅而緒，早織而縷，字而幼孩，遂而雞豚。
 - ’ ming2 gu3 er2 ju4 zhi1 ， ji1 mu4 er2 zhao4 zhi1。
 - ’鳴鼓而聚之，擊木而召之。
-- wu2 xiao3 ren2 chuo4 sun1 yong1 yi3 lao2 li4 zhe3 ， qie3 bu4 de2 xia2 ， you4 he2 yi3 fan1 wu2 sheng1 er2 an1 wu2 xing4 ye1 ？ gu4 bing4 qie3 dai4。
-- 吾小人輟飧饔以勞吏者，且不得暇，又何以蕃吾生而安吾性耶？故病且怠。
-- ruo4 shi4 ， ze2 yu3 wu2 ye4 zhe3 qi2 yi4 you3 lei4 hu1 ？ ”
-- 若是，則與吾業者其亦有類乎？”
+- wu2 xiao3 ren2 chuo4 sun1 yong1 yi3 lao2 li4 zhe3 ， qie3 bu4 de2 xia2 ， you4 he2 yi3 fan1 wu2 sheng1 er2 an1 wu2 xing4 ye1？
+- 吾小人輟飧饔以勞吏者，且不得暇，又何以蕃吾生而安吾性耶？
+- gu4 bing4 qie3 dai4。
+- 故病且怠。
+- ruo4 shi4 ， ze2 yu3 wu2 ye4 zhe3 qi2 yi4 you3 lei4 hu1？
+- 若是，則與吾業者其亦有類乎？
+- ”
+- ”
 - wen4 zhe3 yue1 ： “ xi1 ， bu2 yi4 shan4 fu1！
 - 問者曰：“嘻，不亦善夫！
 - wu2 wen4 yang3 shu4 ， de2 yang3 ren2 shu4。

@@ -13,7 +13,7 @@ tags: []
 
 - bei1 shi2 su2 zhi1 po4 e4 xi1 ， yuan4 qing1 ju3 er2 yuan3 you2。
 - 悲时俗之迫阨兮，愿轻举而远游。
-- zhi4 fei3 bo2 er2 wu2 yin1 xi1 ， yan1 tuo1 cheng2 er2 shang4 fu2 ？
+- zhi4 fei3 bo2 er2 wu2 yin1 xi1 ， yan1 tuo1 cheng2 er2 shang4 fu2？
 - 质菲薄而无因兮，焉讬乘而上浮？
 - zao1 shen3 zhuo2 er2 wu1 hui4 xi1 ， du2 yu4 jie2 qi2 shui2 yu3！
 - 遭沈浊而污秽兮，独郁结其谁语！
@@ -57,11 +57,11 @@ tags: []
 - 微霜降而下沦兮，悼芳草之先蘦。
 - liao2 fang3 yang2 er2 xiao1 yao2 xi1 ， yong3 li4 nian2 er2 wu2 cheng2。
 - 聊仿佯而逍遥兮，永历年而无成。
-- shui2 ke3 yu3 wan2 si1 yi2 fang1 xi1 ？
+- shui2 ke3 yu3 wan2 si1 yi2 fang1 xi1？
 - 谁可与玩斯遗芳兮？
 - chang2 xiang4 feng1 er2 shu1 qing2。
 - 长向风而舒情。
-- gao1 yang2 miao3 yi3 yuan3 xi1 ， yu2 jiang1 yan1 suo3 cheng2 ？
+- gao1 yang2 miao3 yi3 yuan3 xi1 ， yu2 jiang1 yan1 suo3 cheng2？
 - 高阳邈以远兮，余将焉所程？
 - zhong4 yue1 ：
 - 重曰：

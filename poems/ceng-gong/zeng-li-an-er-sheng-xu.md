@@ -27,29 +27,37 @@ tags: ["卷十一・宋文","古文观止","蒙学"]
 - 頃之，黎生補江陵府司法參軍。
 - jiang1 xing2 ， qing3 yu3 yan2 yi3 wei2 zeng4。
 - 將行，請予言以爲贈。
-- yu2 yue1 ： 「 yu2 zhi1 zhi1 sheng1 ， ji4 de2 zhi1 wu1 xin1 yi3 ， nai3 jiang1 yi3 yan2 xiang1 qiu2 wu1 wai4 xie2 ？ 」 li2 sheng1 yue1 ： 「 sheng1 yu3 an1 sheng1 zhi1 xue2 wu1 si1 wen2 ， li3 zhi1 ren2 jie1 xiao4 yi3 wei2 yu1 kuo4。
-- 餘曰：「餘之知生，既得之於心矣，乃將以言相求於外邪？」黎生曰：「生與安生之學於斯文，裏之人皆笑以爲迂闊。
+- yu2 yue1 ： 「 yu2 zhi1 zhi1 sheng1 ， ji4 de2 zhi1 wu1 xin1 yi3 ， nai3 jiang1 yi3 yan2 xiang1 qiu2 wu1 wai4 xie2？
+- 餘曰：「餘之知生，既得之於心矣，乃將以言相求於外邪？
+- 」 li2 sheng1 yue1 ： 「 sheng1 yu3 an1 sheng1 zhi1 xue2 wu1 si1 wen2 ， li3 zhi1 ren2 jie1 xiao4 yi3 wei2 yu1 kuo4。
+- 」黎生曰：「生與安生之學於斯文，裏之人皆笑以爲迂闊。
 - jin1 qiu2 zi3 zhi1 yan2 ， gai4 jiang1 jie3 huo4 wu1 li3 ren2。
 - 今求子之言，蓋將解惑於里人。
 - 」 yu2 wen2 zhi1 ， zi4 gu4 er2 xiao4。
 - 」餘聞之，自顧而笑。
-- fu1 shi4 zhi1 yu1 kuo4 ， shu2 you3 shen4 wu1 yu3 hu1 ？ zhi1 xin4 hu1 gu3 ， er2 bu4 zhi1 he2 hu1 shi4；
-- 夫世之迂闊，孰有甚於予乎？知信乎古，而不知合乎世；
+- fu1 shi4 zhi1 yu1 kuo4 ， shu2 you3 shen4 wu1 yu3 hu1？
+- 夫世之迂闊，孰有甚於予乎？
+- zhi1 xin4 hu1 gu3 ， er2 bu4 zhi1 he2 hu1 shi4；
+- 知信乎古，而不知合乎世；
 - zhi1 zhi4 hu1 dao4 ， er2 bu4 zhi1 tong2 hu1 su2。
 - 知志乎道，而不知同乎俗。
 - ci3 yu2 suo3 yi3 kun4 wu1 jin1 er2 bu2 zi4 zhi1 ye3。
 - 此餘所以困於今而不自知也。
-- shi4 zhi1 yu1 kuo4 ， shu2 you3 shen4 wu1 yu3 hu1 ？ jin1 sheng1 zhi1 yu1 ， te4 yi3 wen2 bu2 jin4 su2 ， yu1 zhi1 xiao3 zhe3 er3 ， huan4 wei2 xiao4 wu1 li3 zhi1 ren2。
-- 世之迂闊，孰有甚於予乎？今生之迂，特以文不近俗，迂之小者耳，患爲笑於裏之人。
-- ruo4 yu2 zhi1 yu1 da4 yi3 ， shi3 sheng1 chi2 wu2 yan2 er2 gui1 ， qie3 zhong4 de2 zui4 ， yong1 ju4 zhi3 wu1 xiao4 hu1 ？
+- shi4 zhi1 yu1 kuo4 ， shu2 you3 shen4 wu1 yu3 hu1？
+- 世之迂闊，孰有甚於予乎？
+- jin1 sheng1 zhi1 yu1 ， te4 yi3 wen2 bu2 jin4 su2 ， yu1 zhi1 xiao3 zhe3 er3 ， huan4 wei2 xiao4 wu1 li3 zhi1 ren2。
+- 今生之迂，特以文不近俗，迂之小者耳，患爲笑於裏之人。
+- ruo4 yu2 zhi1 yu1 da4 yi3 ， shi3 sheng1 chi2 wu2 yan2 er2 gui1 ， qie3 zhong4 de2 zui4 ， yong1 ju4 zhi3 wu1 xiao4 hu1？
 - 若餘之迂大矣，使生持吾言而歸，且重得罪，庸詎止於笑乎？
-- ran2 ze2 ruo4 yu2 zhi1 wu1 sheng1 ， jiang1 he2 yan2 zai1 ？ wei4 yu2 zhi1 yu1 wei2 shan4 ， ze2 qi2 huan4 ruo4 ci3；
-- 然則若餘之於生，將何言哉？謂餘之迂爲善，則其患若此；
+- ran2 ze2 ruo4 yu2 zhi1 wu1 sheng1 ， jiang1 he2 yan2 zai1？
+- 然則若餘之於生，將何言哉？
+- wei4 yu2 zhi1 yu1 wei2 shan4 ， ze2 qi2 huan4 ruo4 ci3；
+- 謂餘之迂爲善，則其患若此；
 - wei4 wei2 bu2 shan4 ， ze2 you3 yi3 he2 hu1 shi4 ， bi4 wei2 hu1 gu3 ， you3 yi3 tong2 hu1 su2 ， bi4 li2 hu1 dao4 yi3。
 - 謂爲不善，則有以合乎世，必違乎古，有以同乎俗，必離乎道矣。
 - sheng1 qi2 wu2 ji2 wu1 jie3 li3 ren2 zhi1 huo4 ， ze2 wu1 shi4 yan1 ， bi4 neng2 ze2 er2 qu3 zhi1。
 - 生其無急於解里人之惑，則於是焉，必能擇而取之。
-- sui4 shu1 yi3 zeng4 er4 sheng1 ， bing4 shi4 su1 jun1 ， yi3 wei2 he2 ru2 ye3 ？
+- sui4 shu1 yi3 zeng4 er4 sheng1 ， bing4 shi4 su1 jun1 ， yi3 wei2 he2 ru2 ye3？
 - 遂書以贈二生，並示蘇君，以爲何如也？
 
 ## 注释

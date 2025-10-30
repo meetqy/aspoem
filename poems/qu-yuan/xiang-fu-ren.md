@@ -17,7 +17,7 @@ tags: []
 - 袅袅兮秋风，洞庭波兮木叶下
 - deng1 bai2 fan2 xi1 cheng3 wang4 ， yu3 jia1 qi1 xi1 xi1 zhang1
 - 登白薠兮骋望，与佳期兮夕张
-- niao3 he2 cui4 xi1 ping2 zhong1 ， zeng1 he2 wei4 xi1 mu4 shang4 ？
+- niao3 he2 cui4 xi1 ping2 zhong1 ， zeng1 he2 wei4 xi1 mu4 shang4？
 - 鸟何萃兮苹中，罾何为兮木上？
 - yuan2 you3 chai3 xi1 li3 you3 lan2 ， si1 gong1 zi3 xi1 wei4 gan3 yan2
 - 沅有茝兮醴有兰，思公子兮未敢言

@@ -71,16 +71,32 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 吾書與汝曰：“吾年未四十，而視茫茫，而發蒼蒼，而齒牙動搖。
 - nian4 zhu1 fu4 yu3 zhu1 xiong1 ， jie1 kang1 qiang2 er2 zao3 shi4。
 - 念諸父與諸兄，皆康強而早世。
-- ru2 wu2 zhi1 shuai1 zhe3 ， qi2 neng2 jiu3 cun2 hu1 ？ wu2 bu4 ke3 qu4 ， ru3 bu4 ken3 lai2 ， kong3 dan4 mu4 si3 ， er2 ru3 bao4 wu2 ya2 zhi1 qi1 ye3！
-- 如吾之衰者，其能久存乎？吾不可去，汝不肯來，恐旦暮死，而汝抱無涯之戚也！
+- ru2 wu2 zhi1 shuai1 zhe3 ， qi2 neng2 jiu3 cun2 hu1？
+- 如吾之衰者，其能久存乎？
+- wu2 bu4 ke3 qu4 ， ru3 bu4 ken3 lai2 ， kong3 dan4 mu4 si3 ， er2 ru3 bao4 wu2 ya2 zhi1 qi1 ye3！
+- 吾不可去，汝不肯來，恐旦暮死，而汝抱無涯之戚也！
 - ” shu2 wei4 shao3 zhe3 mo4 er2 chang2 zhe3 cun2 ， qiang2 zhe3 yao1 er2 bing4 zhe3 quan2 hu1！
 - ”孰謂少者歿而長者存，強者夭而病者全乎！
 - wu1 hu1！
 - 嗚呼！
-- qi2 xin4 ran2 xie2 ？ qi2 meng4 xie2 ？ qi2 chuan2 zhi1 fei1 qi2 zhen1 xie2 ？ xin4 ye3 ， wu2 xiong1 zhi1 sheng4 de2 er2 yao1 qi2 si4 hu1 ？ ru3 zhi1 chun2 ming2 er2 bu2 ke4 meng2 qi2 ze2 hu1 ？ shao3 zhe3 、 qiang2 zhe3 er2 yao1 mo4 ， chang2 zhe3 、 shuai1 zhe3 er2 cun2 quan2 hu1 ？ wei4 ke3 yi3 wei2 xin4 ye3。
-- 其信然邪？其夢邪？其傳之非其真邪？信也，吾兄之盛德而夭其嗣乎？汝之純明而不克蒙其澤乎？少者、強者而夭歿，長者、衰者而存全乎？未可以爲信也。
-- meng4 ye3 ， chuan2 zhi1 fei1 qi2 zhen1 ye3 ， dong1 ye3 zhi1 shu1 ， geng3 lan2 zhi1 bao4 ， he2 wei2 er2 zai4 wu2 ce4 ye3 ？ wu1 hu1！
-- 夢也，傳之非其真也，東野之書，耿蘭之報，何爲而在吾側也？嗚呼！
+- qi2 xin4 ran2 xie2？
+- 其信然邪？
+- qi2 meng4 xie2？
+- 其夢邪？
+- qi2 chuan2 zhi1 fei1 qi2 zhen1 xie2？
+- 其傳之非其真邪？
+- xin4 ye3 ， wu2 xiong1 zhi1 sheng4 de2 er2 yao1 qi2 si4 hu1？
+- 信也，吾兄之盛德而夭其嗣乎？
+- ru3 zhi1 chun2 ming2 er2 bu2 ke4 meng2 qi2 ze2 hu1？
+- 汝之純明而不克蒙其澤乎？
+- shao3 zhe3 、 qiang2 zhe3 er2 yao1 mo4 ， chang2 zhe3 、 shuai1 zhe3 er2 cun2 quan2 hu1？
+- 少者、強者而夭歿，長者、衰者而存全乎？
+- wei4 ke3 yi3 wei2 xin4 ye3。
+- 未可以爲信也。
+- meng4 ye3 ， chuan2 zhi1 fei1 qi2 zhen1 ye3 ， dong1 ye3 zhi1 shu1 ， geng3 lan2 zhi1 bao4 ， he2 wei2 er2 zai4 wu2 ce4 ye3？
+- 夢也，傳之非其真也，東野之書，耿蘭之報，何爲而在吾側也？
+- wu1 hu1！
+- 嗚呼！
 - qi2 xin4 ran2 yi3！
 - 其信然矣！
 - wu2 xiong1 zhi1 sheng4 de2 er2 yao1 qi2 si4 yi3！
@@ -102,8 +118,10 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - ru3 zhi1 zi3 shi3 shi2 sui4 ， wu2 zhi1 zi3 shi3 wu3 sui4。
 - 汝之子始十歲，吾之子始五歲。
 - shao3 er2 qiang2 zhe3 bu4 ke3 bao3 ， ru2 ci3 hai2 ti2 zhe3 ， you4 ke3 ji4 qi2 cheng2 li4 xie2 ? wu1 hu1 ai1 zai1！
-- 少而強者不可保，如此孩提者，又可冀其成立邪？嗚呼哀哉！
+- 少而強者不可保，如此孩提者，又可冀其成立邪？
 - wu1 hu1 ai1 zai1！
+- 嗚呼哀哉！
+- 
 - 嗚呼哀哉！
 - ru3 qu4 nian2 shu1 yun2 ： “ bi3 de2 ruan3 jiao3 bing4 ， wang3 wang3 er2 ju4。
 - 汝去年書雲：“比得軟腳病，往往而劇。
@@ -113,8 +131,10 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - ”未始以爲憂也。
 - wu1 hu1！
 - 嗚呼！
-- qi2 jing4 yi3 ci3 er2 yun3 qi2 sheng1 hu1 ？ yi4 bie2 you3 ji2 er2 zhi4 si1 ji2 hu1 ？
-- 其竟以此而殞其生乎？抑別有疾而至斯極乎？
+- qi2 jing4 yi3 ci3 er2 yun3 qi2 sheng1 hu1？
+- 其竟以此而殞其生乎？
+- yi4 bie2 you3 ji2 er2 zhi4 si1 ji2 hu1？
+- 抑別有疾而至斯極乎？
 - ru3 zhi1 shu1 ， liu4 yue4 shi2 qi1 ri4 ye3。
 - 汝之書，六月十七日也。
 - dong1 ye3 yun2 ， ru3 mo4 yi3 liu4 yue4 er4 ri4；
@@ -127,8 +147,10 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 如耿蘭之報，不知當言月日。
 - dong1 ye3 yu3 wu2 shu1 ， nai3 wen4 shi3 zhe3 ， shi3 zhe3 wang4 cheng1 yi3 ying1 zhi1 hu1。
 - 東野與吾書，乃問使者，使者妄稱以應之乎。
-- qi2 ran2 hu1 ？ qi2 bu4 ran2 hu1 ？
-- 其然乎？其不然乎？
+- qi2 ran2 hu1？
+- 其然乎？
+- qi2 bu4 ran2 hu1？
+- 其不然乎？
 - jin1 wu2 shi3 jian4 zhong1 ji4 ru3 ， diao4 ru3 zhi1 gu1 yu3 ru3 zhi1 ru3 mu3。
 - 今吾使建中祭汝，吊汝之孤與汝之乳母。
 - bi3 you3 shi2 ， ke3 shou3 yi3 dai4 zhong1 sang1 ， ze2 dai4 zhong1 sang1 er2 qu3 yi3 lai2；
@@ -159,8 +181,12 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 當求數頃之田於伊潁之上，以待餘年，教吾子與汝子，幸其成；
 - chang2 wu2 nü3 yu3 ru3 nü3 ， dai4 qi2 jia4 ， ru2 ci3 er2 yi3。
 - 長吾女與汝女，待其嫁，如此而已。
-- wu1 hu1 ， yan2 you3 qiong2 er2 qing2 bu4 ke3 zhong1 ， ru3 qi2 zhi1 ye3 xie2 ？ qi2 bu4 zhi1 ye3 xie2 ？ wu1 hu1 ai1 zai1！
-- 嗚呼，言有窮而情不可終，汝其知也邪？其不知也邪？嗚呼哀哉！
+- wu1 hu1 ， yan2 you3 qiong2 er2 qing2 bu4 ke3 zhong1 ， ru3 qi2 zhi1 ye3 xie2？
+- 嗚呼，言有窮而情不可終，汝其知也邪？
+- qi2 bu4 zhi1 ye3 xie2？
+- 其不知也邪？
+- wu1 hu1 ai1 zai1！
+- 嗚呼哀哉！
 - shang4 xiang3！
 - 尚饗！
 

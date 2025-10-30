@@ -31,8 +31,12 @@ tags: ["卷一・周文","古文观止","蒙学"]
 - 周鄭交惡。
 - jun1 zi3 yue1 ： “ xin4 bu4 you2 zhong1 ， zhi4 wu2 yi4 ye3。
 - 君子曰：“信不由中，質無益也。
-- ming2 shu4 er2 xing2 ， yao4 zhi1 yi3 li3 ， sui1 wu2 you3 zhi4 ， shui2 neng2 jian4 zhi1 ？ gou3 you3 ming2 xin4 ， jian4 xi1 zhao3 zhi3 zhi1 mao2 ， pin2 fan2 yun4 zao3 zhi1 cai4 ， kuang1 ju3 qi2 fu3 zhi1 qi4 ， huang2 wu1 xing2 liao2 zhi1 shui3 ， ke3 jian4 wu1 gui3 shen2 ， ke3 xiu1 wu1 wang2 gong1 ， er2 kuang4 jun1 zi3 jie2 er4 guo2 zhi1 xin4 ， xing2 zhi1 yi3 li3 ， you4 yan1 yong4 zhi4 ？ 《 feng1 》 you3 《 cai3 fan2 》 、 《 cai3 pin2 》 ， 《 ya3 》 you3 《 xing2 wei3 》 、 《 jiong3 zhuo2 》 ， zhao1 zhong1 xin4 ye3。
-- 明恕而行，要之以禮，雖無有質，誰能間之？苟有明信，澗溪沼沚之毛，蘋蘩蘊藻之菜，筐筥錡釜之器，潢污行潦之水，可薦於鬼神，可羞於王公，而況君子結二國之信，行之以禮，又焉用質？《風》有《采蘩》、《採蘋》，《雅》有《行葦》、《泂酌》，昭忠信也。
+- ming2 shu4 er2 xing2 ， yao4 zhi1 yi3 li3 ， sui1 wu2 you3 zhi4 ， shui2 neng2 jian4 zhi1？
+- 明恕而行，要之以禮，雖無有質，誰能間之？
+- gou3 you3 ming2 xin4 ， jian4 xi1 zhao3 zhi3 zhi1 mao2 ， pin2 fan2 yun4 zao3 zhi1 cai4 ， kuang1 ju3 qi2 fu3 zhi1 qi4 ， huang2 wu1 xing2 liao2 zhi1 shui3 ， ke3 jian4 wu1 gui3 shen2 ， ke3 xiu1 wu1 wang2 gong1 ， er2 kuang4 jun1 zi3 jie2 er4 guo2 zhi1 xin4 ， xing2 zhi1 yi3 li3 ， you4 yan1 yong4 zhi4？
+- 苟有明信，澗溪沼沚之毛，蘋蘩蘊藻之菜，筐筥錡釜之器，潢污行潦之水，可薦於鬼神，可羞於王公，而況君子結二國之信，行之以禮，又焉用質？
+- 《 feng1 》 you3 《 cai3 fan2 》 、 《 cai3 pin2 》 ， 《 ya3 》 you3 《 xing2 wei3 》 、 《 jiong3 zhuo2 》 ， zhao1 zhong1 xin4 ye3。
+- 《風》有《采蘩》、《採蘋》，《雅》有《行葦》、《泂酌》，昭忠信也。
 - ”
 - ”
 

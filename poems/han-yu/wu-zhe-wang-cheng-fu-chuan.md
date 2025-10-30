@@ -81,10 +81,22 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - ”或曰：“身既死，而其子孫不能有也。
 - ” huo4 yue1 ： “ si3 er2 gui1 zhi1 guan1 ye3。
 - ”或曰：“死而歸之官也。
-- ” wu2 yi3 shi4 guan1 zhi1 ， fei1 suo3 wei4 shi2 yan1 dai4 qi2 shi4 ， er2 de2 tian1 yang1 zhe3 xie2 ？ fei1 qiang2 xin1 yi3 zhi4 er2 bu4 zu2 ， bu4 ze2 qi2 cai2 zhi1 cheng1 fou3 er2 mao4 zhi1 zhe3 xie2 ？ fei1 duo1 hang2 ke3 kui4 ， zhi1 qi2 bu4 ke3 er2 qiang2 wei2 zhi1 zhe3 xie2 ？ jiang1 fu4 gui4 nan2 shou3 ， bao2 bao3 er2 hou4 xiang3 zhi1 zhe3 xie2 ？ yi4 feng1 cui4 you3 shi2 ， yi2 qu4 yi4 lai2 er2 bu4 ke3 chang2 zhe3 xie2 ？ wu2 zhi1 xin1 min3 yan1 ， shi4 gu4 ze2 qi2 li4 zhi1 ke3 neng2 zhe3 xing2 yan1。
-- ”吾以是觀之，非所謂食焉怠其事，而得天殃者邪？非強心以智而不足，不擇其才之稱否而冒之者邪？非多行可愧，知其不可而強爲之者邪？將富貴難守，薄寶而厚饗之者邪？抑豐悴有時，一去一來而不可常者邪？吾之心憫焉，是故擇其力之可能者行焉。
-- le4 fu4 gui4 er2 bei1 pin2 jian4 ， wo3 qi3 yi4 wu1 ren2 zai1 ？ ”
-- 樂富貴而悲貧賤，我豈異於人哉？”
+- ” wu2 yi3 shi4 guan1 zhi1 ， fei1 suo3 wei4 shi2 yan1 dai4 qi2 shi4 ， er2 de2 tian1 yang1 zhe3 xie2？
+- ”吾以是觀之，非所謂食焉怠其事，而得天殃者邪？
+- fei1 qiang2 xin1 yi3 zhi4 er2 bu4 zu2 ， bu4 ze2 qi2 cai2 zhi1 cheng1 fou3 er2 mao4 zhi1 zhe3 xie2？
+- 非強心以智而不足，不擇其才之稱否而冒之者邪？
+- fei1 duo1 hang2 ke3 kui4 ， zhi1 qi2 bu4 ke3 er2 qiang2 wei2 zhi1 zhe3 xie2？
+- 非多行可愧，知其不可而強爲之者邪？
+- jiang1 fu4 gui4 nan2 shou3 ， bao2 bao3 er2 hou4 xiang3 zhi1 zhe3 xie2？
+- 將富貴難守，薄寶而厚饗之者邪？
+- yi4 feng1 cui4 you3 shi2 ， yi2 qu4 yi4 lai2 er2 bu4 ke3 chang2 zhe3 xie2？
+- 抑豐悴有時，一去一來而不可常者邪？
+- wu2 zhi1 xin1 min3 yan1 ， shi4 gu4 ze2 qi2 li4 zhi1 ke3 neng2 zhe3 xing2 yan1。
+- 吾之心憫焉，是故擇其力之可能者行焉。
+- le4 fu4 gui4 er2 bei1 pin2 jian4 ， wo3 qi3 yi4 wu1 ren2 zai1？
+- 樂富貴而悲貧賤，我豈異於人哉？
+- ”
+- ”
 - you4 yue1 ： “ gong1 da4 zhe3 ， qi2 suo3 yi3 zi4 feng4 ye3 bo2。
 - 又曰：“功大者，其所以自奉也博。
 - qi1 yu3 zi3 ， jie1 yang3 wu1 wo3 zhe3 ye3；
@@ -101,10 +113,14 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 - 然吾有譏焉；
 - wei4 qi2 zi4 wei2 ye3 guo4 duo1 ， qi2 wei2 ren2 ye3 guo4 shao3。
 - 謂其自爲也過多，其爲人也過少。
-- qi2 xue2 yang2 zhu1 zhi1 dao4 zhe3 xie2 ？ yang2 zhi1 dao4 ， bu4 ken3 ba2 wo3 yi4 mao2 er2 li4 tian1 xia4。
-- 其學楊朱之道者邪？楊之道，不肯拔我一毛而利天下。
-- er2 fu1 ren2 yi3 you3 jia1 wei2 lao2 xin1 ， bu4 ken3 yi2 dong4 qi2 xin1 yi3 xu4 qi2 qi1 zi3 ， qi2 ken3 lao2 qi2 xin1 yi3 wei2 ren2 hu1 zai1 ？ sui1 ran2 ， qi2 xian2 wu1 shi4 zhe3 zhi1 huan4 bu4 de2 zhi1 ， er2 huan4 shi1 zhi1 zhe3 ， yi3 ji4 qi2 sheng1 zhi1 yu4 ， tan1 xie2 er2 wang2 dao4 yi3 sang1 qi2 shen1 zhe3 ， qi2 yi4 yuan3 yi3！
-- 而夫人以有家爲勞心，不肯一動其心以蓄其妻子，其肯勞其心以爲人乎哉？雖然，其賢於世者之患不得之，而患失之者，以濟其生之慾，貪邪而亡道以喪其身者，其亦遠矣！
+- qi2 xue2 yang2 zhu1 zhi1 dao4 zhe3 xie2？
+- 其學楊朱之道者邪？
+- yang2 zhi1 dao4 ， bu4 ken3 ba2 wo3 yi4 mao2 er2 li4 tian1 xia4。
+- 楊之道，不肯拔我一毛而利天下。
+- er2 fu1 ren2 yi3 you3 jia1 wei2 lao2 xin1 ， bu4 ken3 yi2 dong4 qi2 xin1 yi3 xu4 qi2 qi1 zi3 ， qi2 ken3 lao2 qi2 xin1 yi3 wei2 ren2 hu1 zai1？
+- 而夫人以有家爲勞心，不肯一動其心以蓄其妻子，其肯勞其心以爲人乎哉？
+- sui1 ran2 ， qi2 xian2 wu1 shi4 zhe3 zhi1 huan4 bu4 de2 zhi1 ， er2 huan4 shi1 zhi1 zhe3 ， yi3 ji4 qi2 sheng1 zhi1 yu4 ， tan1 xie2 er2 wang2 dao4 yi3 sang1 qi2 shen1 zhe3 ， qi2 yi4 yuan3 yi3！
+- 雖然，其賢於世者之患不得之，而患失之者，以濟其生之慾，貪邪而亡道以喪其身者，其亦遠矣！
 - you4 qi2 yan2 ， you3 ke3 yi3 jing3 yu2 zhe3 ， gu4 yu2 wei2 zhi1 chuan2 er2 zi4 jian4 yan1。
 - 又其言，有可以警餘者，故餘爲之傳而自鑑焉。
 

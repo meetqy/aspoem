@@ -37,8 +37,12 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - 忘懷得失，以此自終。
 - zan4 yue1 ： qian2 lou2 zhi1 qi1 you3 yan2 ： “ bu4 qi1 qi1 wu1 pin2 jian4 ， bu4 ji2 ji2 wu1 fu4 gui4。
 - 贊曰：黔婁之妻有言：“不慼慼於貧賤，不汲汲於富貴。
-- ” qi2 yan2 zi1 ruo4 ren2 zhi1 chou2 hu1 ？ xian2 shang1 fu4 shi1 ， yi3 le4 qi2 zhi4 ， wu2 huai2 shi4 zhi1 min2 yu2 ？ ge3 tian1 shi4 zhi1 min2 yu2 ？
-- ”其言茲若人之儔乎？銜觴賦詩，以樂其志，無懷氏之民歟？葛天氏之民歟？
+- ” qi2 yan2 zi1 ruo4 ren2 zhi1 chou2 hu1？
+- ”其言茲若人之儔乎？
+- xian2 shang1 fu4 shi1 ， yi3 le4 qi2 zhi4 ， wu2 huai2 shi4 zhi1 min2 yu2？
+- 銜觴賦詩，以樂其志，無懷氏之民歟？
+- ge3 tian1 shi4 zhi1 min2 yu2？
+- 葛天氏之民歟？
 
 ## 注释
 

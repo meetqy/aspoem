@@ -25,7 +25,7 @@ tags: []
 - 奈何此征夫，安得驱四方！
 - rong2 ma3 bu4 jie3 an1 ， kai3 jia3 bu4 li2 bang4。
 - 戎马不解鞍，铠甲不离傍。
-- ran3 ran3 lao3 jiang4 zhi4 ， he2 shi2 fan3 gu4 xiang1 ？
+- ran3 ran3 lao3 jiang4 zhi4 ， he2 shi2 fan3 gu4 xiang1？
 - 冉冉老将至，何时返故乡？
 - shen2 long2 cang2 shen1 quan2 ， meng3 shou4 bu4 gao1 gang1。
 - 神龙藏深泉，猛兽步高冈。

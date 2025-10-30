@@ -33,12 +33,14 @@ tags: ["卷九・唐宋文","古文观止","蒙学"]
 - 且天下之治亂，候於洛陽之盛衰而知；
 - luo4 yang2 zhi1 sheng4 shuai1 ， hou4 wu1 yuan2 pu3 zhi1 fei4 xing1 er2 de2。
 - 洛陽之盛衰，候於園圃之廢興而得。
-- ze2 《 ming2 yuan2 ji4 》 zhi1 zuo4 ， yu3 qi3 tu2 ran2 zai1 ？
+- ze2 《 ming2 yuan2 ji4 》 zhi1 zuo4 ， yu3 qi3 tu2 ran2 zai1？
 - 則《名園記》之作，予豈徒然哉？
 - wu1 hu1！
 - 嗚呼！
-- gong1 qing1 dai4 fu0 fang1 jin4 wu1 chao2 ， fang4 hu1 yi4 ji3 zhi1 si1 yi3 zi4 wei2 ， er2 wang4 tian1 xia4 zhi1 zhi4 hu1 ， yu4 tui4 xiang3 ci3 le4 ， de2 hu1 ？ tang2 zhi1 mo4 lu4 shi4 yi3。
-- 公卿大夫方進於朝，放乎一己之私以自爲，而忘天下之治忽，欲退享此樂，得乎？唐之末路是已。
+- gong1 qing1 dai4 fu0 fang1 jin4 wu1 chao2 ， fang4 hu1 yi4 ji3 zhi1 si1 yi3 zi4 wei2 ， er2 wang4 tian1 xia4 zhi1 zhi4 hu1 ， yu4 tui4 xiang3 ci3 le4 ， de2 hu1？
+- 公卿大夫方進於朝，放乎一己之私以自爲，而忘天下之治忽，欲退享此樂，得乎？
+- tang2 zhi1 mo4 lu4 shi4 yi3。
+- 唐之末路是已。
 - ( tang2 zhi1 mo4 lu4 shi4 yi3   yi2 zuo4 ： yi3 )
 - （唐之末路是已 一作：矣）
 
