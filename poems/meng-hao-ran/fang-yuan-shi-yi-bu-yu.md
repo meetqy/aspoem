@@ -11,10 +11,13 @@ tags: ["五言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- luo4 yang2 fang3 cai2 zi3 ， jiang1 ling3 zuo4 liu2 ren2 。
 - 洛陽訪才子，江嶺作流人。
-- wen2 shuo1 mei2 hua1 zao3 ， he2 ru2 ci3 di4 chun1 。
 - 聞說梅花早，何如此地春。
+
+## 拼音
+
+- luo4 yang2 fang3 cai2 zi3 ， jiang1 ling3 zuo4 liu2 ren2 。
+- wen2 shuo1 mei2 hua1 zao3 ， he2 ru2 ci3 di4 chun1 。
 
 ## 注释
 

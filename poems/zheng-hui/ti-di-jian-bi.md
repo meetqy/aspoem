@@ -11,10 +11,13 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- tu2 mi2 xiang1 meng4 qie4 chun1 han2 ， cui4 yan3 zhong4 men2 yan4 zi0 xian2 。
 - 酴醿香夢怯春寒，翠掩重門燕子閒。
-- qiao1 duan4 yu4 chai1 hong2 zhu2 leng3 ， ji4 cheng2 ying1 shuo1 dao4 chang2 shan1 。
 - 敲斷玉釵紅燭冷，計程應說到常山。
+
+## 拼音
+
+- tu2 mi2 xiang1 meng4 qie4 chun1 han2 ， cui4 yan3 zhong4 men2 yan4 zi0 xian2 。
+- qiao1 duan4 yu4 chai1 hong2 zhu2 leng3 ， ji4 cheng2 ying1 shuo1 dao4 chang2 shan1 。
 
 ## 注释
 

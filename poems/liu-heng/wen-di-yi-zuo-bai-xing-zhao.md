@@ -11,10 +11,13 @@ tags: ["卷六・漢文","古文观止","蒙学"]
 
 ## 正文
 
-- jian4 zhe3 shu4 nian2 bi3 bu4 deng1 ， you4 you3 shui3 han4 ji2 yi4 zhi1 zai1 ， zhen4 shen4 you1 zhi1 。 yu2 er2 bu4 ming2 ， wei4 da2 qi2 jiu4 。 yi4 zhe3 zhen4 zhi1 zheng4 you3 suo3 shi1 、 er2 xing2 you3 guo4 yu3 ？ nai3 tian1 dao4 you3 bu2 shun4 、 di4 li4 huo4 bu4 de2 、 ren2 shi4 duo1 shi1 he2 、 gui3 shen2 fei4 bu4 xiang3 yu3 ？ he2 yi3 zhi4 ci3 ？ jiang1 bai3 guan1 zhi1 feng4 yang3 huo4 fei4 、 wu2 yong4 zhi1 shi4 huo4 duo1 yu3 ？ he2 qi2 min2 shi2 zhi1 gua3 fa2 ye3 ？
 - 間者數年比不登，又有水旱疾疫之災，朕甚憂之。愚而不明，未達其咎。意者朕之政有所失、而行有過與？乃天道有不順、地利或不得、人事多失和、鬼神廢不享與？何以致此？將百官之奉養或費、無用之事或多與？何其民食之寡乏也？
-- fu1 du4 tian2 fei1 yi4 gua3 ， er2 ji4 min2 wei4 jia1 yi4 ， yi3 kou3 liang2 di4 ， qi2 wu1 gu3 you2 you3 yu2 ， er2 shi2 zhi1 shen4 bu4 zu2 zhe3 ， qi2 jiu4 an1 zai4 ？ wu2 nai3 bai3 xing4 zhi1 cong2 shi4 wu1 mo4 、 yi3 hai4 nong2 zhe3 fan1 、 wei2 jiu3 lao2 yi3 mi2 gu3 zhe3 duo1 、 liu4 chu4 zhi1 shi2 yan1 zhe3 zhong4 yu3 ？ xi4 da4 zhi1 yi4 ， wu2 wei4 neng2 de2 qi2 zhong1 。 qi2 yu3 cheng2 xiang4 、 lie4 hou2 、 li4 er4 qian1 shi2 、 bo2 tu3 yi4 zhi1 ， you3 ke3 yi3 zuo3 bai3 xing4 zhe3 ， lü4 yi4 yuan3 si1 ， wu2 you3 suo3 yin3 。
 - 夫度田非益寡，而計民未加益，以口量地，其於古猶有餘，而食之甚不足者，其咎安在？無乃百姓之從事於末、以害農者蕃、爲酒醪以靡谷者多、六畜之食焉者衆與？細大之義，吾未能得其中。其與丞相、列侯、吏二千石、博土議之，有可以佐百姓者，率意遠思，無有所隱。
+
+## 拼音
+
+- jian4 zhe3 shu4 nian2 bi3 bu4 deng1 ， you4 you3 shui3 han4 ji2 yi4 zhi1 zai1 ， zhen4 shen4 you1 zhi1 。 yu2 er2 bu4 ming2 ， wei4 da2 qi2 jiu4 。 yi4 zhe3 zhen4 zhi1 zheng4 you3 suo3 shi1 、 er2 xing2 you3 guo4 yu3 ？ nai3 tian1 dao4 you3 bu2 shun4 、 di4 li4 huo4 bu4 de2 、 ren2 shi4 duo1 shi1 he2 、 gui3 shen2 fei4 bu4 xiang3 yu3 ？ he2 yi3 zhi4 ci3 ？ jiang1 bai3 guan1 zhi1 feng4 yang3 huo4 fei4 、 wu2 yong4 zhi1 shi4 huo4 duo1 yu3 ？ he2 qi2 min2 shi2 zhi1 gua3 fa2 ye3 ？
+- fu1 du4 tian2 fei1 yi4 gua3 ， er2 ji4 min2 wei4 jia1 yi4 ， yi3 kou3 liang2 di4 ， qi2 wu1 gu3 you2 you3 yu2 ， er2 shi2 zhi1 shen4 bu4 zu2 zhe3 ， qi2 jiu4 an1 zai4 ？ wu2 nai3 bai3 xing4 zhi1 cong2 shi4 wu1 mo4 、 yi3 hai4 nong2 zhe3 fan1 、 wei2 jiu3 lao2 yi3 mi2 gu3 zhe3 duo1 、 liu4 chu4 zhi1 shi2 yan1 zhe3 zhong4 yu3 ？ xi4 da4 zhi1 yi4 ， wu2 wei4 neng2 de2 qi2 zhong1 。 qi2 yu3 cheng2 xiang4 、 lie4 hou2 、 li4 er4 qian1 shi2 、 bo2 tu3 yi4 zhi1 ， you3 ke3 yi3 zuo3 bai3 xing4 zhe3 ， lü4 yi4 yuan3 si1 ， wu2 you3 suo3 yin3 。
 
 ## 注释
 

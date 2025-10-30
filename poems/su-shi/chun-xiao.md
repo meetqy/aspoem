@@ -11,10 +11,13 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- chun1 xiao1 yi2 ke4 zhi2 qian1 jin1 ， hua1 you3 qing1 xiang1 yue4 you3 yin1 。
 - 春宵一刻值千金，花有清香月有陰。
-- ge1 guan3 lou2 tai2 sheng1 xi4 xi4 ， qiu1 qian1 yuan4 luo4 ye4 shen3 shen3 。
 - 歌管樓臺聲細細，鞦韆院落夜沈沈。
+
+## 拼音
+
+- chun1 xiao1 yi2 ke4 zhi2 qian1 jin1 ， hua1 you3 qing1 xiang1 yue4 you3 yin1 。
+- ge1 guan3 lou2 tai2 sheng1 xi4 xi4 ， qiu1 qian1 yuan4 luo4 ye4 shen3 shen3 。
 
 ## 注释
 

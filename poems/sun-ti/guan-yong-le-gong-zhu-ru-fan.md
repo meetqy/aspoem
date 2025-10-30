@@ -11,10 +11,13 @@ tags: ["五言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- bian1 di4 ying1 hua1 shao3 ， nian2 lai2 wei4 jue2 xin1 。
 - 邊地鶯花少，年來未覺新。
-- mei3 ren2 tian1 shang4 luo4 ， long2 sai1 shi3 ying1 chun1 。
 - 美人天上落，龍塞始應春。
+
+## 拼音
+
+- bian1 di4 ying1 hua1 shao3 ， nian2 lai2 wei4 jue2 xin1 。
+- mei3 ren2 tian1 shang4 luo4 ， long2 sai1 shi3 ying1 chun1 。
 
 ## 注释
 

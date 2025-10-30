@@ -11,10 +11,13 @@ tags: ["五言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- leng3 yan4 quan2 qi1 xue3 ， yu2 xiang1 zha4 ru4 yi1 。
 - 冷豔全欺雪，餘香乍入衣。
-- chun1 feng1 qie3 mo4 ding4 ， chui1 xiang4 yu4 jie1 fei1 。
 - 春風且莫定，吹向玉階飛。
+
+## 拼音
+
+- leng3 yan4 quan2 qi1 xue3 ， yu2 xiang1 zha4 ru4 yi1 。
+- chun1 feng1 qie3 mo4 ding4 ， chui1 xiang4 yu4 jie1 fei1 。
 
 ## 注释
 

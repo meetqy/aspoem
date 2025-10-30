@@ -11,10 +11,13 @@ tags: ["五言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- huai2 jun1 shu3 qiu1 ye4 ， san4 bu4 yong3 liang2 tian1 。
 - 懷君屬秋夜，散步詠涼天。
-- shan1 kong1 song1 zi3 luo4 ， you1 ren2 ying1 wei4 mian2 。
 - 山空松子落，幽人應未眠。
+
+## 拼音
+
+- huai2 jun1 shu3 qiu1 ye4 ， san4 bu4 yong3 liang2 tian1 。
+- shan1 kong1 song1 zi3 luo4 ， you1 ren2 ying1 wei4 mian2 。
 
 ## 注释
 

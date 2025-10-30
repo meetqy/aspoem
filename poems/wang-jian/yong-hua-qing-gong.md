@@ -11,10 +11,13 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- xing2 jin4 jiang1 nan2 shu4 shi2 cheng2 ， xiao3 feng1 can2 yue4 ru4 hua2 qing1 。
 - 行盡江南數十程，曉風殘月入華清。
-- chao2 yuan2 ge2 shang4 xi1 feng1 ji2 ， dou1 ru4 chang2 yang2 zuo4 yu3 sheng1 。
 - 朝元閣上西風急，都入長楊作雨聲。
+
+## 拼音
+
+- xing2 jin4 jiang1 nan2 shu4 shi2 cheng2 ， xiao3 feng1 can2 yue4 ru4 hua2 qing1 。
+- chao2 yuan2 ge2 shang4 xi1 feng1 ji2 ， dou1 ru4 chang2 yang2 zuo4 yu3 sheng1 。
 
 ## 注释
 

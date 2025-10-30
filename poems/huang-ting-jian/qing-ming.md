@@ -11,14 +11,17 @@ tags: ["七言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- jia1 jie2 qing1 ming2 tao2 li3 xiao4 ， ye3 tian2 huang1 zhong3 zhi1 sheng1 chou2 。
 - 佳節清明桃李笑，野田荒冢只生愁。
-- lei2 jing1 tian1 di4 long2 she2 zhe2 ， yu3 zu2 jiao1 yuan2 cao3 mu4 rou2 。
 - 雷驚天地龍蛇蟄，雨足郊原草木柔。
-- ren2 qi3 ji4 yu2 jiao1 qie4 fu4 ， shi4 gan1 fen2 si3 bu4 gong1 hou2 。
 - 人乞祭餘驕妾婦，士甘焚死不公侯。
-- xian2 yu2 qian1 zai4 zhi1 shui2 shi4 ， man3 yan3 peng2 hao1 gong4 yi4 qiu1 。
 - 賢愚千載知誰是，滿眼蓬蒿共一丘。
+
+## 拼音
+
+- jia1 jie2 qing1 ming2 tao2 li3 xiao4 ， ye3 tian2 huang1 zhong3 zhi1 sheng1 chou2 。
+- lei2 jing1 tian1 di4 long2 she2 zhe2 ， yu3 zu2 jiao1 yuan2 cao3 mu4 rou2 。
+- ren2 qi3 ji4 yu2 jiao1 qie4 fu4 ， shi4 gan1 fen2 si3 bu4 gong1 hou2 。
+- xian2 yu2 qian1 zai4 zhi1 shui2 shi4 ， man3 yan3 peng2 hao1 gong4 yi4 qiu1 。
 
 ## 注释
 

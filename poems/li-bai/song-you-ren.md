@@ -11,14 +11,17 @@ tags: ["五言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- qing1 shan1 heng2 bei3 guo1 ， bai2 shui3 rao4 dong1 cheng2 。
 - 青山橫北郭，白水繞東城。
-- ci3 di4 yi4 wei2 bie2 ， gu1 peng2 wan4 li3 zhi3 。
 - 此地一爲別，孤篷萬里徵。
-- fu2 yun2 you2 zi3 yi4 ， luo4 ri4 gu4 ren2 qing2 。
 - 浮雲遊子意，落日故人情。
-- hui1 shou3 zi4 zi1 qu4 ， xiao1 xiao1 ban1 ma3 ming2 。
 - 揮手自茲去，蕭蕭斑馬鳴。
+
+## 拼音
+
+- qing1 shan1 heng2 bei3 guo1 ， bai2 shui3 rao4 dong1 cheng2 。
+- ci3 di4 yi4 wei2 bie2 ， gu1 peng2 wan4 li3 zhi3 。
+- fu2 yun2 you2 zi3 yi4 ， luo4 ri4 gu4 ren2 qing2 。
+- hui1 shou3 zi4 zi1 qu4 ， xiao1 xiao1 ban1 ma3 ming2 。
 
 ## 注释
 

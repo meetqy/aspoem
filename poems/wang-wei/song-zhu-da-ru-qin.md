@@ -11,10 +11,13 @@ tags: ["五言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- bi4 ren2 wu3 ling2 qu4 ， bao3 jian4 zhi2 qian1 jin1 。
 - 避人五陵去，寶劍值千金。
-- fen1 shou3 tuo1 xiang1 zeng4 ， ping2 sheng1 yi2 pian4 xin1 。
 - 分手脫相贈，平生一片心。
+
+## 拼音
+
+- bi4 ren2 wu3 ling2 qu4 ， bao3 jian4 zhi2 qian1 jin1 。
+- fen1 shou3 tuo1 xiang1 zeng4 ， ping2 sheng1 yi2 pian4 xin1 。
 
 ## 注释
 

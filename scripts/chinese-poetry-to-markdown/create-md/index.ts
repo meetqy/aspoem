@@ -28,16 +28,8 @@ function escapeMarkdown(paragraphs: string | string[]) {
   // 处理每个段落
   const processedParagraphs = paragraphArray.flatMap((p) => {
     const line = replacePunctuation(p)
-    const linePinyin = pinyin(p, { toneType: 'num' })
-
-    // 如果段落很长，再次分隔
     const splitLines = splitLine(line)
-    const splitPinyin = splitLine(linePinyin)
-
-    return splitLines.map((splitLine, index) => {
-      const correspondingPinyin = splitPinyin[index] || ''
-      return `- ${correspondingPinyin}\n- ${splitLine}`
-    })
+    return splitLines.map(splitLine => `- ${splitLine}`)
   })
 
   return processedParagraphs.join('\n')
@@ -66,6 +58,10 @@ tags: ${JSON.stringify(poem.tags || [])}
 ## 正文
 
 ${content}
+
+## 拼音
+
+${pinyin(content, { toneType: 'num' }).replace(/-(\s)+/g, '- ').replace(/\n\s+/g, '\n')}
 
 ## 注释
 

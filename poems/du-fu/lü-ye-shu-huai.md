@@ -11,14 +11,17 @@ tags: ["五言律詩","千家诗","蒙学"]
 
 ## 正文
 
-- xi4 cao3 wei1 feng1 an4 ， wei1 qiang2 du2 ye4 zhou1 。
 - 細草微風岸，危檣獨夜舟。
-- xing1 chui2 ping2 ye3 kuo4 ， yue4 yong3 da4 jiang1 liu2 。
 - 星垂平野闊，月涌大江流。
-- ming2 qi3 wen2 zhang1 zhu4 ， guan1 yin1 lao3 bing4 xiu1 。
 - 名豈文章著，官因老病休。
-- piao1 piao1 he2 suo3 si4 ， tian1 di4 yi4 sha1 ou1 。
 - 飄飄何所似，天地一沙鷗。
+
+## 拼音
+
+- xi4 cao3 wei1 feng1 an4 ， wei1 qiang2 du2 ye4 zhou1 。
+- xing1 chui2 ping2 ye3 kuo4 ， yue4 yong3 da4 jiang1 liu2 。
+- ming2 qi3 wen2 zhang1 zhu4 ， guan1 yin1 lao3 bing4 xiu1 。
+- piao1 piao1 he2 suo3 si4 ， tian1 di4 yi4 sha1 ou1 。
 
 ## 注释
 

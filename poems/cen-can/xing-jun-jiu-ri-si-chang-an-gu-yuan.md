@@ -11,10 +11,13 @@ tags: ["五言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- qiang2 yu4 deng1 gao1 qu4 ， wu2 ren2 song4 jiu3 lai2 。
 - 強欲登高去，無人送酒來。
-- yao2 lian2 gu4 yuan2 ju2 ， ying1 bang4 zhan4 chang3 kai1 。
 - 遙憐故園菊，應傍戰場開。
+
+## 拼音
+
+- qiang2 yu4 deng1 gao1 qu4 ， wu2 ren2 song4 jiu3 lai2 。
+- yao2 lian2 gu4 yuan2 ju2 ， ying1 bang4 zhan4 chang3 kai1 。
 
 ## 注释
 

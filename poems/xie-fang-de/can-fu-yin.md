@@ -11,10 +11,13 @@ tags: ["七言絕句","千家诗","蒙学"]
 
 ## 正文
 
-- zi3 gui1 ti2 che4 si4 geng1 shi2 ， qi3 shi4 can2 chou2 pa4 ye4 xi1 。
 - 子規啼徹四更時，起視蠶稠怕葉稀。
-- bu2 xin4 lou2 tou2 yang2 liu3 yue4 ， yu4 ren2 ge1 wu3 wei4 ceng2 gui1 。
 - 不信樓頭楊柳月，玉人歌舞未曾歸。
+
+## 拼音
+
+- zi3 gui1 ti2 che4 si4 geng1 shi2 ， qi3 shi4 can2 chou2 pa4 ye4 xi1 。
+- bu2 xin4 lou2 tou2 yang2 liu3 yue4 ， yu4 ren2 ge1 wu3 wei4 ceng2 gui1 。
 
 ## 注释
 

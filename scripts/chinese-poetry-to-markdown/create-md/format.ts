@@ -16,7 +16,7 @@ export function replacePunctuation(text: string) {
 
   // 删除所有不规则空白符号
   // eslint-disable-next-line no-irregular-whitespace
-  result = result.replace(/[\u00A0\u1680\u180E\u2000-\u200B\u202F\u205F\u3000\uFEFF]/g, '').replaceAll(`　`, '')
+  result = result.replace(/[\u00A0\u1680\u180E\u2000-\u200B\u202F\u205F\u3000\uFEFF]/g, '').replaceAll(`　`, '').replaceAll(`　`, '')
 
   return result
 }

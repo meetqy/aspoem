@@ -11,16 +11,19 @@ tags: ["卷八・唐文","古文观止","蒙学"]
 
 ## 正文
 
-- xi1 shu1 guang3 、 shou4 er4 zi3 ， yi3 nian2 lao3 ， yi4 chao2 ci2 wei4 er2 qu4 。 wu1 shi4 gong1 qing1 she4 gong4 zhang4 ， zu3 dao4 dou1 men2 wai4 ， ju1 shu4 bai3 liang4 ； dao4 lu4 guan1 zhe3 ， duo1 tan4 xi1 qi4 xia4 ， gong4 yan2 qi2 xian2 。 han4 shi3 ji4 chuan2 qi2 shi4 ， er2 hou4 shi4 gong1 hua4 zhe3 ， you4 tu2 qi2 ji4 ， zhi4 jin1 zhao4 ren2 er3 mu4 ， he4 he4 ruo4 qian2 ri4 shi4 。
 - 昔疏廣、受二子，以年老，一朝辭位而去。於是公卿設供帳，祖道都門外，車數百輛；道路觀者，多嘆息泣下，共言其賢。漢史既傳其事，而後世工畫者，又圖其跡，至今照人耳目，赫赫若前日事。
-- guo2 zi3 si1 ye4 yang2 jun1 ju4 yuan2 ， fang1 yi3 neng2 shi1 xun4 hou4 jin4 ， yi2 dan4 yi3 nian2 man3 qi1 shi2 ， yi4 bai2 xiang1 qu4 ， gui1 qi2 xiang1 。 shi4 chang2 shuo1 gu3 jin1 ren2 bu4 xiang1 ji2 ， jin1 yang2 yu3 er4 shu1 ， qi2 yi4 qi3 yi4 ye3 ？
 - 國子司業楊君巨源，方以能詩訓後進，一旦以年滿七十，亦白相去，歸其鄉。世常說古今人不相及，今楊與二疏，其意豈異也？
-- yu3 tian3 zai4 gong1 qing1 hou4 ， yu4 bing4 bu4 neng2 chu1 ， bu4 zhi1 yang2 hou2 qu4 shi2 ， cheng2 men2 wai4 song4 zhe3 ji1 ren2 ， ju1 ji1 liang4 ， ma3 ji1 pi3 ， dao4 pang2 guan1 zhe3 ， yi4 you3 tan4 xi1 zhi1 qi2 wei2 xian2 yu3 fou3 ； er2 tai4 shi3 shi4 you4 neng2 zhang1 da4 qi2 shi4 wei2 chuan2 ， ji4 er4 shu1 zong1 ji4 fou3 ， bu2 luo4 mo4 fou3 。 jian4 jin1 shi4 wu2 gong1 hua4 zhe3 ， er2 hua4 yu3 bu2 hua4 ， gu4 bu2 lun4 ye3 。
 - 予忝在公卿後，遇病不能出，不知楊侯去時，城門外送者幾人，車幾輛，馬幾匹，道旁觀者，亦有嘆息知其爲賢與否；而太史氏又能張大其事爲傳，繼二疏蹤跡否，不落莫否。見今世無工畫者，而畫與不畫，固不論也。
-- ran2 wu2 wen2 yang2 hou2 zhi1 qu4 ， xiang1 you3 ai4 er2 xi1 zhi1 zhe3 ， bai2 yi3 wei2 qi2 dou1 shao3 yin3 ， bu4 jue2 qi2 lu4 。 you4 wei2 ge1 shi1 yi3 quan4 zhi1 ， jing1 shi1 zhi1 chang2 wu1 shi1 zhe3 ， yi4 shu3 er2 he2 zhi1 。 you4 bu4 zhi1 dang1 shi2 er4 shu1 zhi1 qu4 ， you3 shi4 shi4 fou3 。 gu3 jin1 ren2 tong2 bu0 tong2 ， wei4 ke3 zhi1 ye3 。
 - 然吾聞楊侯之去，相有愛而惜之者，白以爲其都少尹，不絕其祿。又爲歌詩以勸之，京師之長於詩者，亦屬而和之。又不知當時二疏之去，有是事否。古今人同不同，未可知也。
-- zhong1 shi4 shi4 da4 fu1 ， yi3 guan1 wei2 jia1 ， ba4 ze2 wu2 suo3 yu2 gui1 。 yang2 hou2 shi3 guan1 ， ju3 wu1 qi2 xiang1 ， ge1 《 lu4 ming2 》 er2 lai2 ye3 。 jin1 zhi1 gui1 ， zhi3 qi2 shu4 yue1 ： “ mou3 shu4 ， wu2 xian1 ren2 zhi1 suo3 zhong3 ye3 ； mou3 shui3 、 mou3 qiu1 ， wu2 tong2 zi3 shi2 suo3 diao4 you2 ye3 。 ” xiang1 ren2 mo4 bu4 jia1 jing4 ， jie4 zi3 sun1 yi3 yang2 hou2 bu2 qu4 qi2 xiang1 wei2 fa3 。 gu3 zhi1 suo3 wei4 xiang1 xian1 sheng1 mei2 er2 ke3 ji4 wu1 she4 zhe3 ， qi2 zai4 si1 ren2 yu2 ？ qi2 zai4 si1 ren2 yu2 ？
 - 中世士大夫，以官爲家，罷則無所于歸。楊侯始冠，舉於其鄉，歌《鹿鳴》而來也。今之歸，指其樹曰：“某樹，吾先人之所種也；某水、某丘，吾童子時所釣遊也。” 鄉人莫不加敬，誡子孫以楊侯不去其鄉爲法。古之所謂鄉先生沒而可祭於社者，其在斯人歟？其在斯人歟？
+
+## 拼音
+
+- xi1 shu1 guang3 、 shou4 er4 zi3 ， yi3 nian2 lao3 ， yi4 chao2 ci2 wei4 er2 qu4 。 wu1 shi4 gong1 qing1 she4 gong4 zhang4 ， zu3 dao4 dou1 men2 wai4 ， ju1 shu4 bai3 liang4 ； dao4 lu4 guan1 zhe3 ， duo1 tan4 xi1 qi4 xia4 ， gong4 yan2 qi2 xian2 。 han4 shi3 ji4 chuan2 qi2 shi4 ， er2 hou4 shi4 gong1 hua4 zhe3 ， you4 tu2 qi2 ji4 ， zhi4 jin1 zhao4 ren2 er3 mu4 ， he4 he4 ruo4 qian2 ri4 shi4 。
+- guo2 zi3 si1 ye4 yang2 jun1 ju4 yuan2 ， fang1 yi3 neng2 shi1 xun4 hou4 jin4 ， yi2 dan4 yi3 nian2 man3 qi1 shi2 ， yi4 bai2 xiang1 qu4 ， gui1 qi2 xiang1 。 shi4 chang2 shuo1 gu3 jin1 ren2 bu4 xiang1 ji2 ， jin1 yang2 yu3 er4 shu1 ， qi2 yi4 qi3 yi4 ye3 ？
+- yu3 tian3 zai4 gong1 qing1 hou4 ， yu4 bing4 bu4 neng2 chu1 ， bu4 zhi1 yang2 hou2 qu4 shi2 ， cheng2 men2 wai4 song4 zhe3 ji1 ren2 ， ju1 ji1 liang4 ， ma3 ji1 pi3 ， dao4 pang2 guan1 zhe3 ， yi4 you3 tan4 xi1 zhi1 qi2 wei2 xian2 yu3 fou3 ； er2 tai4 shi3 shi4 you4 neng2 zhang1 da4 qi2 shi4 wei2 chuan2 ， ji4 er4 shu1 zong1 ji4 fou3 ， bu2 luo4 mo4 fou3 。 jian4 jin1 shi4 wu2 gong1 hua4 zhe3 ， er2 hua4 yu3 bu2 hua4 ， gu4 bu2 lun4 ye3 。
+- ran2 wu2 wen2 yang2 hou2 zhi1 qu4 ， xiang1 you3 ai4 er2 xi1 zhi1 zhe3 ， bai2 yi3 wei2 qi2 dou1 shao3 yin3 ， bu4 jue2 qi2 lu4 。 you4 wei2 ge1 shi1 yi3 quan4 zhi1 ， jing1 shi1 zhi1 chang2 wu1 shi1 zhe3 ， yi4 shu3 er2 he2 zhi1 。 you4 bu4 zhi1 dang1 shi2 er4 shu1 zhi1 qu4 ， you3 shi4 shi4 fou3 。 gu3 jin1 ren2 tong2 bu0 tong2 ， wei4 ke3 zhi1 ye3 。
+- zhong1 shi4 shi4 da4 fu1 ， yi3 guan1 wei2 jia1 ， ba4 ze2 wu2 suo3 yu2 gui1 。 yang2 hou2 shi3 guan1 ， ju3 wu1 qi2 xiang1 ， ge1 《 lu4 ming2 》 er2 lai2 ye3 。 jin1 zhi1 gui1 ， zhi3 qi2 shu4 yue1 ： “ mou3 shu4 ， wu2 xian1 ren2 zhi1 suo3 zhong3 ye3 ； mou3 shui3 、 mou3 qiu1 ， wu2 tong2 zi3 shi2 suo3 diao4 you2 ye3 。 ”   xiang1 ren2 mo4 bu4 jia1 jing4 ， jie4 zi3 sun1 yi3 yang2 hou2 bu2 qu4 qi2 xiang1 wei2 fa3 。 gu3 zhi1 suo3 wei4 xiang1 xian1 sheng1 mei2 er2 ke3 ji4 wu1 she4 zhe3 ， qi2 zai4 si1 ren2 yu2 ？ qi2 zai4 si1 ren2 yu2 ？
 
 ## 注释
 
