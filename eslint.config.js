@@ -18,5 +18,5 @@ export default antfu({
     'react-dom/no-missing-button-type': 'off',
     'react-hooks/set-state-in-effect': 'off',
   },
-  ignores: ['prisma', 'next-env.d.ts', 'src/components/ui', 'scripts'],
+  ignores: ['prisma', 'next-env.d.ts', 'src/components/ui'],
 })

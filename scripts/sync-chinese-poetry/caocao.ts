@@ -2,7 +2,7 @@ import { Dynasty } from '@/types'
 
 import data from '../../chinese-poetry-master/曹操诗集/caocao.json'
 
-import { createAuthor, createPoem } from './utils'
+import { createMdContent } from './create-md'
 
 const _author = {
   name: '曹操',
@@ -10,14 +10,13 @@ const _author = {
 }
 
 export async function syncCaocao() {
-  const authorId = await createAuthor(_author.name, _author.dynasty)
-
   Promise.all(
     data.map(async poem =>
-      createPoem({
+      createMdContent({
         title: poem.title,
         paragraphs: poem.paragraphs,
-        authorId,
+        author: _author.name,
+        dynasty: _author.dynasty,
       }),
     ),
   ).then(() => {

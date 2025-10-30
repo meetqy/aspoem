@@ -1,6 +1,6 @@
 import { db } from '@/server/db'
-
-import { syncQianjiashi } from './mengxue/qianjiashi'
+import { syncCaocao } from './caocao'
+import { syncLunyu } from './lunyu'
 
 function main() {
   // 初始化朝代
@@ -15,13 +15,13 @@ function main() {
     ),
   ).then(() => {
     console.log('朝代初始化完成')
-    // syncCaocao();
+    syncCaocao()
+    syncLunyu()
     // syncChuci();
-    // syncLunyu();
     // syncBaijiaxing();
     // syncDizigui();
     // syncGuwenguanzhi();
-    syncQianjiashi()
+    // syncQianjiashi()
   })
 }
 
