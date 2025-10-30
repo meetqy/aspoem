@@ -85,7 +85,7 @@ tags: []
 - sui1 you3 xi1 shi1 zhi1 mei3 rong2 xi1 ， chan2 du4 ru4 yi3 zi4 dai4 。
 - yuan4 chen2 qing2 yi3 bai2 xing2 xi1 ， de2 zui4 guo0 zhi1 bu2 yi4 。
 - qing2 yuan1 jian4 zhi1 ri4 ming2 xi1 ， ru2 lie4 su4 zhi1 cuo4 zhi4 。
-- cheng2 qi2 ji4 er2 chi2 cheng3 xi1 ， wu2 pei4 xian2 er2 zi4 zai4 
+- cheng2 qi2 ji4 er2 chi2 cheng3 xi1 ， wu2 pei4 xian2 er2 zi4 zai4
 - cheng2 fan4 fu2 yi3 xia4 liu2 xi1 ， wu2 zhou1 ji2 er2 zi4 bei4 。
 - bei4 fa3 du4 er2 xin1 zhi4 xi1 ， pi4 yu3 ci3 qi2 wu2 yi4 。
 - ning2 ke4 si3 er2 liu2 wang2 xi1 ， kong3 huo4 yang1 zhi1 you3 zai4 。

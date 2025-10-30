@@ -65,7 +65,7 @@ tags: []
 - zhang1 hua4 zhi4 mo4 xi1 ， qian2 tu2 wei4 gai3 。
 - nei4 hou4 zhi4 zheng4 xi1 ， da4 ren2 suo3 sheng4 。
 - qiao3 chui2 bu4 zhuo2 xi1 ， shu2 cha2 qi2 bo1 zheng4 。
-- xuan2 wen2 chu4 you1 xi1 ， meng1 sou3 wei4 zhi1 bu4 zhang1 
+- xuan2 wen2 chu4 you1 xi1 ， meng1 sou3 wei4 zhi1 bu4 zhang1
 - li2 lou2 wei1 di4 xi1 ， gu3 yi3 wei2 wu2 ming2 。
 - bian4 bai2 yi3 wei2 hei1 xi1 ， dao3 shang4 yi3 wei4 xia4 。
 - feng4 huang2 zai4 nu2 xi1 ， ji1 wu4 xiang2 wu3 。

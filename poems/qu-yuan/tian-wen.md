@@ -245,7 +245,7 @@ tags: []
 - he2 kai1 er2 ming2 ？
 - jiao3 su4 wei4 dan4 ， yao4 ling2 an1 cang2 ？
 - bu2 ren4 gu3 hong2 ， shi1 he2 yi3 shang4 zhi1 ？
-- qian1 yue1 
+- qian1 yue1
 - “ he2 you1 ， he2 bu2 ke4 er2 xing2 zhi1 ？”
 - chi1 gui1 ye4 xian2 ， gun3 he2 ting1 yan1 ？
 - shun4 yu4 cheng2 gong1 ， di4 he2 xing2 yan1 ？

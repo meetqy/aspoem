@@ -117,7 +117,7 @@ tags: []
 - nei4 wei2 sheng3 yi3 cao1 duan1 xi1 ， qiu2 zheng4 qi4 zhi1 suo3 you2 。
 - mo4 xu1 jing4 yi3 tian2 yu2 xi1 ， dan4 wu2 wei2 er2 zi4 de2 。
 - wen2 chi4 song1 zhi1 qing1 chen2 xi1 ， yuan4 cheng2 feng1 hu1 yi2 ze2 。
-- gui4 zhen1 ren2 zhi1 xiu1 de2 xi1 ， mei3 wang3 shi4 zhi1 deng1 xian1 
+- gui4 zhen1 ren2 zhi1 xiu1 de2 xi1 ， mei3 wang3 shi4 zhi1 deng1 xian1
 - yu3 hua4 qu4 er2 bu2 jian4 xi1 ， ming2 sheng1 zhu4 er2 ri4 yan2 。
 - qi2 fu4 shuo1 zhi1 tuo1 chen2 xing1 xi1 ， xian4 han2 zhong4 zhi1 de2 yi1 。
 - xing2 mu4 mu4 yi3 jin4 yuan3 xi1 ， li2 ren2 qun2 er2 dun4 yi4 。
@@ -138,11 +138,11 @@ tags: []
 - bao3 shen2 ming2 zhi1 qing1 cheng2 xi1 ， jing1 qi4 ru4 er2 cu1 hui4 chu2 。
 - shun4 kai3 feng1 yi3 cong2 you2 xi1 ， zhi4 nan2 chao2 er2 yi1 xi1 。
 - jian4 wang2 zi3 er2 su4 zhi1 xi1 ， shen3 yi1 qi4 zhi1 he2 de2 。
-- yue1  “ dao4 ke3 shou4 xi1 ， bu4 ke3 chuan2 
+- yue1  “ dao4 ke3 shou4 xi1 ， bu4 ke3 chuan2
 - qi2 xiao3 wu2 nei4 xi1 ， qi2 da4 wu2 yin2 。
-- wu2 hua2 er2 hun2 xi1 ， bi3 jiang1 zi4 ran2 
+- wu2 hua2 er2 hun2 xi1 ， bi3 jiang1 zi4 ran2
 - yi1 qi4 kong3 shen2 xi1 ， yu2 zhong1 ye4 cun2 。
-- xu1 yi3 dai4 zhi1 cun2 ， wu2 wei2 zhi1 xian1 
+- xu1 yi3 dai4 zhi1 cun2 ， wu2 wei2 zhi1 xian1
 - shu4 lei4 yi3 cheng2 xi1 ， ci3 de2 zhi1 men2 。”
 - wen2 zhi4 gui4 er2 sui4 cu2 xi1 ， hu1 hu1 wu2 jiang1 xing2 。
 - reng2 yu3 ren2 yu2 dan1 qiu1 ， liu2 bu4 si3 zhi1 jiu4 xiang1 。
@@ -150,7 +150,7 @@ tags: []
 - xi1 fei1 quan2 zhi1 wei1 ye4 xi1 ， huai2 wan3 yan3 zhi1 hua2 ying1 。
 - yu4 se4 ping1 yi3 wan4 yan2 xi1 ， jing1 chun2 cui4 er2 shi3 zhuang4 。
 - zhi4 xiao1 shuo4 yi3 zhuo2 yue1 xi1 ， shen2 yao4 miao3 yi3 yin2 fang4 。
-- jia1 nan2 zhou1 zhi1 yan2 de2 xi1 ， li4 gui4 shu4 zhi1 dong1 rong2 
+- jia1 nan2 zhou1 zhi1 yan2 de2 xi1 ， li4 gui4 shu4 zhi1 dong1 rong2
 - shan1 xiao1 tiao2 er2 wu2 shou4 xi1 ， ye3 ji4 mo4 qi2 wu2 ren2 。
 - zai3 ying2 po4 er2 deng1 xia2 xi1 ， yan3 fu2 yun2 er2 shang4 zheng1 。
 - ming4 tian1 hun1 qi2 kai1 guan1 xi1 ， pai2 chang1 he2 er2 wang4 yu3 。

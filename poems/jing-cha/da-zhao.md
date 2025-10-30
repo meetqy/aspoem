@@ -134,7 +134,7 @@ tags: []
 - hun2 hu1 wu2 nan2 ！ nan2 you3 yan2 huo3 qian1 li3 ， fu4 she2 yan2 zhi1 。
 - shan1 lin2 xian3 ai4 ， hu3 bao4 wan1 zhi1 。
 - yu2 yong1 duan3 hu2 ， wang2 hui1 qian1 zhi1 。
-- hun2 hu1 wu2 nan2 ！ yu4 shang1 gong1 zhi1 
+- hun2 hu1 wu2 nan2 ！ yu4 shang1 gong1 zhi1
 - hun2 hu1 wu2 xi1 ！ xi1 fang1 liu2 sha1 ， mang3 yang2 yang2 zhi1 。
 - shi3 shou3 zong4 mu4 ， bei4 fa1 rang2 zhi1 。
 - chang2 zhua3 ju4 ya2 ， ei1 xiao4 kuang2 zhi1 。

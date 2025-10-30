@@ -1,6 +1,6 @@
 ---
 id: liu-xiang-zhuan-tang-ju-bu-ru-shi-ming-
-title: 唐雎不辱使命 
+title: 唐雎不辱使命
 titleSlug: tang-ju-bu-ru-shi-ming-
 author: 劉向 撰
 authorSlug: liu-xiang-zhuan

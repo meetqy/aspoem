@@ -115,7 +115,7 @@ tags: []
 - che1 ji4 bi4 er2 ma3 ba4 xi1 ， jian3 zhan1 huai2 er2 bu4 neng2 xing2 。
 - shen1 ji4 bu4 rong2 yu2 zhuo2 shi4 xi1 ， bu4 zhi1 jin4 tui4 zhi1 yi2 dang1 。
 - guan1 cui1 wei2 er2 qie4 yun2 xi1 ， jian4 lin2 li2 er2 cong2 heng2 。
-- yi1 she4 ye4 yi3 chu3 yu3 xi1 ， zuo3 qu1 gua4 yu2 fu2 sang1 
+- yi1 she4 ye4 yi3 chu3 yu3 xi1 ， zuo3 qu1 gua4 yu2 fu2 sang1
 - you4 ren4 fu2 yu2 bu4 zhou1 xi1 ， liu4 he2 bu4 zu2 yi3 si4 xing2 。
 - shang4 tong2 zao2 rui4 yu2 fu2 xi4 xi1 ， xia4 he2 ju3 yue1 yu2 yu2 tang2 。
 - yuan2 zun1 jie2 er2 shi4 gao1 xi1 ， zhi4 you2 bei1 fu1 yu3 tang1 。

@@ -27,18 +27,18 @@ tags: []
 
 ## 拼音
 
-- qiu1 lan2 xi1 mi2 wu2 ， luo2 sheng1 xi1 tang2 xia4 
-- lü4 ye4 xi1 su4 hua2 ， fang1 fei1 fei1 xi1 xi2 yu3 
-- fu1 ren2 xi1 zi4 you3 mei3 zi3 ， sun1 he2 yi3 xi1 chou2 ku3 
-- qiu1 lan2 xi1 qing1 qing1 ， lü4 ye4 xi1 zi3 jing1 
-- man3 tang2 xi1 mei3 ren2 ， hu1 du2 yu3 yu2 xi1 mu4 cheng2 
-- ru4 bu4 yan2 xi1 chu1 bu4 ci2 ， cheng2 hui2 feng1 xi1 zai3 yun2 qi2 
-- bei1 mo4 bei1 xi1 sheng1 bie2 li2 ， le4 mo4 le4 xi1 xin1 xiang1 zhi1 
-- he2 yi1 xi1 hui4 dai4 ， shu1 er2 lai2 xi1 hu1 er2 shi4 
-- xi1 su4 xi1 di4 jiao1 ， jun1 shui2 xu1 xi1 yun2 zhi1 ji4 
-- yu3 nü3 mu4 xi1 xian2 chi2 ， xi1 nü3 fa1 xi1 yang2 zhi1 a1 
-- wang4 mei3 ren2 xi1 wei4 lai2 ， lin2 feng1 huang3 xi1 hao4 ge1 
-- kong3 gai4 xi1 cui4 jing1 ， deng1 jiu3 tian1 xi1 fu3 hui4 xing1 
+- qiu1 lan2 xi1 mi2 wu2 ， luo2 sheng1 xi1 tang2 xia4
+- lü4 ye4 xi1 su4 hua2 ， fang1 fei1 fei1 xi1 xi2 yu3
+- fu1 ren2 xi1 zi4 you3 mei3 zi3 ， sun1 he2 yi3 xi1 chou2 ku3
+- qiu1 lan2 xi1 qing1 qing1 ， lü4 ye4 xi1 zi3 jing1
+- man3 tang2 xi1 mei3 ren2 ， hu1 du2 yu3 yu2 xi1 mu4 cheng2
+- ru4 bu4 yan2 xi1 chu1 bu4 ci2 ， cheng2 hui2 feng1 xi1 zai3 yun2 qi2
+- bei1 mo4 bei1 xi1 sheng1 bie2 li2 ， le4 mo4 le4 xi1 xin1 xiang1 zhi1
+- he2 yi1 xi1 hui4 dai4 ， shu1 er2 lai2 xi1 hu1 er2 shi4
+- xi1 su4 xi1 di4 jiao1 ， jun1 shui2 xu1 xi1 yun2 zhi1 ji4
+- yu3 nü3 mu4 xi1 xian2 chi2 ， xi1 nü3 fa1 xi1 yang2 zhi1 a1
+- wang4 mei3 ren2 xi1 wei4 lai2 ， lin2 feng1 huang3 xi1 hao4 ge1
+- kong3 gai4 xi1 cui4 jing1 ， deng1 jiu3 tian1 xi1 fu3 hui4 xing1
 - song3 chang2 jian4 xi1 yong1 you4 ai4 ， sun1 du2 yi2 xi1 wei4 min2 zheng4 。
 
 ## 注释

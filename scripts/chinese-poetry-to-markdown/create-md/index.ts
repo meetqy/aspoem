@@ -71,7 +71,7 @@ ${pinyin(content, { toneType: 'num', nonZh: 'consecutive' }).replace(/-(\s)+/g, 
 
 ## 赏析
 `
-  ensureDirSync(`${POEMS_DIR}/${authorSlug}`)
 
+  ensureDirSync(`${POEMS_DIR}/${authorSlug}`)
   return writeFileSync(`${POEMS_DIR}/${authorSlug}/${titleSlug}.md`, str)
 }

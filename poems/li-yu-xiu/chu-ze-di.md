@@ -25,16 +25,16 @@ tags: ["蒙学"]
 
 ## 拼音
 
-- xiong1 dao4 you3   di4 dao4 gong1   xiong1 di4 mu4   xiao4 zai4 zhong1 
-- cai2 wu4 qing1   yuan4 he2 sheng1   yan2 yu3 ren3   fen4 zi4 min3 
-- huo4 yin3 shi2   huo4 zuo4 zou3   chang2 zhe3 xian1   you4 zhe3 hou4 
-- chang2 hu1 ren2   ji2 dai4 jiao4   ren2 bu2 zai4   ji3 ji2 dao4 
-- cheng1 zun1 chang2   wu4 hu1 ming2   dui4 zun1 chang2   wu4 jian4 neng2 
-- lu4 yu4 chang2   ji2 qu1 yi1   chang2 wu2 yan2   tui4 gong1 li4 
-- qi2 xia4 ma3   cheng2 xia4 ju1   guo4 you2 dai4   bai3 bu4 yu2 
-- chang2 zhe3 li4   you4 wu4 zuo4   chang2 zhe3 zuo4   ming4 nai3 zuo4 
-- zun1 chang2 qian2   sheng1 yao4 di1   di1 bu4 wen2   que4 fei1 yi2 
-- jin4 bi4 qu1   tui4 bi4 chi2   wen4 qi3 dui4   shi4 wu4 yi2 
+- xiong1 dao4 you3   di4 dao4 gong1   xiong1 di4 mu4   xiao4 zai4 zhong1
+- cai2 wu4 qing1   yuan4 he2 sheng1   yan2 yu3 ren3   fen4 zi4 min3
+- huo4 yin3 shi2   huo4 zuo4 zou3   chang2 zhe3 xian1   you4 zhe3 hou4
+- chang2 hu1 ren2   ji2 dai4 jiao4   ren2 bu2 zai4   ji3 ji2 dao4
+- cheng1 zun1 chang2   wu4 hu1 ming2   dui4 zun1 chang2   wu4 jian4 neng2
+- lu4 yu4 chang2   ji2 qu1 yi1   chang2 wu2 yan2   tui4 gong1 li4
+- qi2 xia4 ma3   cheng2 xia4 ju1   guo4 you2 dai4   bai3 bu4 yu2
+- chang2 zhe3 li4   you4 wu4 zuo4   chang2 zhe3 zuo4   ming4 nai3 zuo4
+- zun1 chang2 qian2   sheng1 yao4 di1   di1 bu4 wen2   que4 fei1 yi2
+- jin4 bi4 qu1   tui4 bi4 chi2   wen4 qi3 dui4   shi4 wu4 yi2
 - shi4 zhu1 fu4   ru2 shi4 fu4   shi4 zhu1 xiong1   ru2 shi4 xiong1
 
 ## 注释
