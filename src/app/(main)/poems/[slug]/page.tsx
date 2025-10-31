@@ -65,6 +65,10 @@ export default async function Page() {
                     className="text-inherit"
                     text={paragraph}
                     pinyin={poem.paragraphsPinyin[index]!}
+                    annotation={poem.annotation}
+                    classNames={{
+                      symbol: 'lg:after:inline after:flex',
+                    }}
                   />
                 ))}
               </div>
