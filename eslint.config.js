@@ -5,6 +5,7 @@ export default antfu({
   react: true,
   nextjs: true,
   jsx: true,
+  stylistic: true,
 
   formatters: {
     css: true,

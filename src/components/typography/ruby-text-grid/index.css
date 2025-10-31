@@ -1,9 +1,9 @@
-.ruby-text-poem {
-  @apply flex;
+/* https://github.com/tailwindlabs/tailwindcss/discussions/19058 */
+@reference '#globals.css';
 
+.ruby-text-grid {
   .wrapper {
-    @apply flex aspect-square relative justify-center;
-
+    @apply flex relative justify-center;
     .char {
       @apply leading-none pt-5;
     }

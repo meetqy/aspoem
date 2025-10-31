@@ -1,4 +1,4 @@
-import { RubyText } from '@/components/typography/poem/ruby-text'
+import { TypographyPoem } from '@/components/typography/poem'
 import { Sidebar, SidebarContent, SidebarProvider } from '@/components/ui/sidebar'
 
 const poem = {
@@ -34,28 +34,7 @@ export default async function Page() {
 
         <SidebarContent>
           <main className="max-w-screen-md mx-auto w-full py-12" style={{ fontFamily: 'cursive' }}>
-            {/* <h1 className="text-7xl text-center tracking-widest font-bold">
-              <RubyText className="text-[0.3em]" text={poem.title} pinyin={poem.titlePinyin} />
-            </h1>
-            <p className="mt-6 text-3xl text-center tracking-[0.25em] text-foreground/90">
-              <RubyText className="text-[0.65em]" text={poem.dynasty} pinyin={poem.dynastyPinyin} />
-              ·
-              <RubyText className="text-[0.65em]" text={poem.author} pinyin={poem.authorPinyin} />
-            </p> */}
-
-            <div className="mt-8 text-4xl tracking-widest text-center leading-[1.75] text-foreground/80">
-              {poem.paragraphs.map((paragraph, index) => (
-                <p key={index} className="mt-6">
-                  <RubyText
-                    classNames={{
-                      rt: 'text-[0.5em]',
-                    }}
-                    text={paragraph}
-                    pinyin={poem.paragraphsPinyin[index]!}
-                  />
-                </p>
-              ))}
-            </div>
+            <TypographyPoem {...poem} />
           </main>
         </SidebarContent>
 

@@ -1,8 +1,4 @@
 {
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
-
   // Disable the default formatter, use eslint instead
   "prettier.enable": false,
   "editor.formatOnSave": true,
@@ -51,5 +47,8 @@
     "scss",
     "pcss",
     "postcss"
+  ],
+  "css.customData": [
+    ".vscode/tailwind.json"
   ]
 }

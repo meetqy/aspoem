@@ -4,6 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@10.15.1",
+  "imports": {
+    "#globals.css": "./src/styles/globals.css"
+  },
   "engines": {
     "node": ">=22.20.0",
     "pnpm": ">=10.15.1"
