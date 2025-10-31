@@ -21,7 +21,7 @@ tags: ["卷四・戰國文","古文观止","蒙学"]
 
 ## 拼音
 
-- qu1 yuan2 ji4 fang4 ， san1 nian2 bu4 de2 fu4 jian4 。 jie2 zhi1 jin4 zhong1 er2 bi4 zhang4 wu1 chan2 。 xin1 fan2 lü4 luan4 ， bu4 zhi1 suo3 cong2 。 nai3 wang3 jian4 tai4 bu3 zheng4 zhan1 yin3 yue1 ：“ yu2 you3 suo3 yi2 ， yuan4 yin1 xian1 sheng0 jue2 zhi1 。”  zhan1 yin3 nai3 duan1 ce4 fu2 gui1 ， yue1 ：“ jun1 jiang1 he2 yi3 jiao4 zhi1 ？”
+- qu1 yuan2 ji4 fang4 ， san1 nian2 bu4 de2 fu4 jian4 。 jie2 zhi1 jin4 zhong1 er2 bi4 zhang4 wu1 chan2 。 xin1 fan2 lü4 luan4 ， bu4 zhi1 suo3 cong2 。 nai3 wang3 jian4 tai4 bu3 zheng4 zhan1 yin3 yue1 ：“ yu2 you3 suo3 yi2 ， yuan4 yin1 xian1 sheng0 jue2 zhi1 。” zhan1 yin3 nai3 duan1 ce4 fu2 gui1 ， yue1 ：“ jun1 jiang1 he2 yi3 jiao4 zhi1 ？”
 - qu1 yuan2 yue1 ：“ wu2 ning2 kun3 kun3 kuan3 kuan3 ， pu3 yi3 zhong1 hu1 ， jiang1 song4 wang3 lao2 lai2 ， si1 wu2 qiong2 hu1 ？
 - “ ning2 zhu1 chu2 cao3 mao2 yi3 li4 geng1 hu1 ， jiang1 you2 da4 ren2 yi3 cheng2 ming2 hu1 ？ ning2 zheng4 yan2 bu2 hui4 yi3 wei1 shen1 hu1 ， jiang1 cong2 su2 fu4 gui4 yi3 tou1 sheng1 hu1 ？ ning2 chao1 ran2 gao1 ju3 yi3 bao3 zhen1 hu1 ， jiang1 zu2 zi1 li4 si1 ， wo1 yi1 ru2 er2 ， yi3 shi4 fu4 ren2 hu1 ？ ning2 lian2 jie2 zheng4 zhi2 yi3 zi4 qing1 hu1 ， jiang1 tu1 ti1 hua2 ji1 ， ru2 zhi1 ru2 wei2 ， yi3 jie2 ying2 hu1 ？
 - “ ning2 ang2 ang2 ruo4 qian1 li3 zhi1 ju1 hu1 ， jiang1 fan4 fan4 ruo4 shui3 zhong1 zhi1 fu2 ， yu3 bo1 shang4 xia4 ， tou1 yi3 quan2 wu2 qu1 hu1 ？ ning2 yu3 qi2 ji4 kang4 e4 hu1 ， jiang1 sui2 nu2 ma3 zhi1 ji4 hu1 ？ ning2 yu3 huang2 hu2 bi3 yi4 hu1 ， jiang1 yu3 ji1 wu4 zheng1 shi2 hu1 ？

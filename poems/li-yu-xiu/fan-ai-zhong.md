@@ -29,21 +29,21 @@ tags: ["蒙学"]
 
 ## 拼音
 
-- fan2 shi4 ren2   jie1 xu1 ai4   tian1 tong2 fu4   di4 tong2 zai4
-- hang2 gao1 zhe3   ming2 zi4 gao1   ren2 suo3 zhong4   fei1 mao4 gao1
-- cai2 da4 zhe3   wang4 zi4 da4   ren2 suo3 fu2   fei1 yan2 da4
-- ji3 you3 neng2   wu4 zi4 si1   ren2 suo3 neng2   wu4 qing1 zi1
-- wu4 chan3 fu4   wu4 jiao1 pin2   wu4 yan4 gu4   wu4 xi3 xin1
-- ren2 bu4 xian2   wu4 shi4 jiao3   ren2 bu4 an1   wu4 hua4 rao3
-- ren2 you3 duan3   qie4 mo4 jie1   ren2 you3 si1   qie4 mo4 shuo1
-- dao4 ren2 shan4   ji2 shi4 shan4   ren2 zhi1 zhi1   yu4 si1 mian3
-- yang2 ren2 e4   ji2 shi4 e4   ji2 zhi1 shen4   huo4 qie3 zuo4
-- shan4 xiang1 quan4   de2 jie1 jian4   guo4 bu4 gui1   dao4 liang3 kui1
-- fan2 qu3 yu3   gui4 fen1 xiao3   yu3 yi2 duo1   qu3 yi2 shao3
-- jiang1 jia1 ren2   xian1 wen4 ji3   ji3 bu2 yu4   ji2 su4 yi3
-- en1 yu4 bao4   yuan4 yu4 wang4   bao4 yuan4 duan3   bao4 en1 chang2
-- dai4 bi4 pu2   shen1 gui4 duan1   sui1 gui4 duan1   ci2 er2 kuan1
-- shi4 fu2 ren2   xin1 bu4 ran2   li3 fu2 ren2   fang1 wu2 yan2
+- fan2 shi4 ren2 jie1 xu1 ai4 tian1 tong2 fu4 di4 tong2 zai4
+- hang2 gao1 zhe3 ming2 zi4 gao1 ren2 suo3 zhong4 fei1 mao4 gao1
+- cai2 da4 zhe3 wang4 zi4 da4 ren2 suo3 fu2 fei1 yan2 da4
+- ji3 you3 neng2 wu4 zi4 si1 ren2 suo3 neng2 wu4 qing1 zi1
+- wu4 chan3 fu4 wu4 jiao1 pin2 wu4 yan4 gu4 wu4 xi3 xin1
+- ren2 bu4 xian2 wu4 shi4 jiao3 ren2 bu4 an1 wu4 hua4 rao3
+- ren2 you3 duan3 qie4 mo4 jie1 ren2 you3 si1 qie4 mo4 shuo1
+- dao4 ren2 shan4 ji2 shi4 shan4 ren2 zhi1 zhi1 yu4 si1 mian3
+- yang2 ren2 e4 ji2 shi4 e4 ji2 zhi1 shen4 huo4 qie3 zuo4
+- shan4 xiang1 quan4 de2 jie1 jian4 guo4 bu4 gui1 dao4 liang3 kui1
+- fan2 qu3 yu3 gui4 fen1 xiao3 yu3 yi2 duo1 qu3 yi2 shao3
+- jiang1 jia1 ren2 xian1 wen4 ji3 ji3 bu2 yu4 ji2 su4 yi3
+- en1 yu4 bao4 yuan4 yu4 wang4 bao4 yuan4 duan3 bao4 en1 chang2
+- dai4 bi4 pu2 shen1 gui4 duan1 sui1 gui4 duan1 ci2 er2 kuan1
+- shi4 fu2 ren2 xin1 bu4 ran2 li3 fu2 ren2 fang1 wu2 yan2
 
 ## 注释
 

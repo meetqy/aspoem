@@ -21,13 +21,13 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 
 ## 拼音
 
-- shi4 you3 bo2 le4 ， ran2 hou4 you3 qian1 li3 ma3 。 qian1 li3 ma3 chang2 you3 ， er2 bo2 le4 bu4 chang2 you3 。 gu4 sui1 you3 ming2 ma3 ， zhi1 ru3 wu1 nu2 li4 ren2 zhi1 shou3 ， pian2 si3 wu1 cao2 li4 zhi1 jian4 ， bu4 yi3 qian1 li3 cheng1 ye3 。（ zhi1 ru3   yi2 zuo4 ： zhi1 ru3 ）
+- shi4 you3 bo2 le4 ， ran2 hou4 you3 qian1 li3 ma3 。 qian1 li3 ma3 chang2 you3 ， er2 bo2 le4 bu4 chang2 you3 。 gu4 sui1 you3 ming2 ma3 ， zhi1 ru3 wu1 nu2 li4 ren2 zhi1 shou3 ， pian2 si3 wu1 cao2 li4 zhi1 jian4 ， bu4 yi3 qian1 li3 cheng1 ye3 。（ zhi1 ru3 yi2 zuo4 ： zhi1 ru3 ）
 - ma3 zhi1 qian1 li3 zhe3 ， yi4 shi2 huo4 jin4 su4 yi1 shi2 。 shi2 ma3 zhe3 bu4 zhi1 qi2 neng2 qian1 li3 er2 shi2 ye3 。 shi4 ma3 ye3 ， sui1 you3 qian1 li3 zhi1 neng2 ， shi2 bu4 bao3 ， li4 bu4 zu2 ， cai2 mei3 bu2 wai4 jian4 ， qie3 yu4 yu3 chang2 ma3 deng3 bu4 ke3 de2 ， an1 qiu2 qi2 neng2 qian1 li3 ye3 ？（
 - shi2
-- ma3 zhe3   tong1 ：
+- ma3 zhe3 tong1 ：
 - si4
 - ）
-- ce4 zhi1 bu4 yi3 qi2 dao4 ， shi2 zhi1 bu4 neng2 jin4 qi2 cai2 ， ming2 zhi1 er2 bu4 neng2 tong1 qi2 yi4 ， zhi2 ce4 er2 lin2 zhi1 ， yue1 ：“ tian1 xia4 wu2 ma3 ！”  wu1 hu1 ！ qi2 zhen1 wu2 ma3 xie2 ？ qi2 zhen1 bu4 zhi1 ma3 ye3 ！
+- ce4 zhi1 bu4 yi3 qi2 dao4 ， shi2 zhi1 bu4 neng2 jin4 qi2 cai2 ， ming2 zhi1 er2 bu4 neng2 tong1 qi2 yi4 ， zhi2 ce4 er2 lin2 zhi1 ， yue1 ：“ tian1 xia4 wu2 ma3 ！” wu1 hu1 ！ qi2 zhen1 wu2 ma3 xie2 ？ qi2 zhen1 bu4 zhi1 ma3 ye3 ！
 
 ## 注释
 

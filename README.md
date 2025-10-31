@@ -13,12 +13,12 @@ pnpm gen:markdown
 ```markdown
 ---
 id: li-bai-jing-ye-si
-title: 静夜思     
-author: 李白      
-dynasty: 唐       
+title: 静夜思
+author: 李白
+dynasty: 唐
 authorSlug: li-bai
 dynastySlug: tang
-tags: ["思乡", "月亮", "五言绝句"]     
+tags: ["思乡", "月亮", "五言绝句"]
 ---
 
 ## 正文
@@ -33,8 +33,8 @@ tags: ["思乡", "月亮", "五言绝句"]
 
 ## 注释
 
--  **床前**：指窗前、榻前。
--  **明月光**：皎洁的月光。
+- **床前**：指窗前、榻前。
+- **明月光**：皎洁的月光。
 
 ## 译文
 

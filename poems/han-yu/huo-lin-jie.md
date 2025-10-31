@@ -21,7 +21,7 @@ tags: ["卷七・六朝唐文","古文观止","蒙学"]
 - lin2 zhi1 wei2 ling2 ， zhao1 zhao1 ye3 。 yong3 wu1 《 shi1 》， shu1 wu1 《 chun1 qiu1 》， za2 chu1 wu1 chuan2 ji4 bai3 jia1 zhi1 shu1 ， sui1 fu4 ren2 xiao3 zi0 jie1 zhi1 qi2 wei2 xiang2 ye3 。
 - ran2 lin2 zhi1 wei2 wu4 ， bu2 chu4 wu1 jia1 ， bu4 heng2 you3 wu1 tian1 xia4 。 qi2 wei2 xing2 ye3 bu2 lei4 ， fei1 ruo4 ma3 niu2 quan3 shi3 chai2 lang2 mi2 lu4 ran2 。 ran2 ze2 sui1 you3 lin2 ， bu4 ke3 zhi1 qi2 wei2 lin2 ye3 。
 - jiao3 zhe3 wu2 zhi1 qi2 wei2 niu2 ， lie4 zhe3 wu2 zhi1 qi2 wei2 ma3 ， quan3 shi3 chai2 lang2 mi2 lu4 ， wu2 zhi1 qi2 wei2 quan3 shi3 chai2 lang2 mi2 lu4 。 wei2 lin2 ye3 ， bu4 ke3 zhi1 。 bu4 ke3 zhi1 ， ze2 qi2 wei4 zhi1 bu4 xiang2 ye3 yi4 yi2 。 sui1 ran2 ， lin2 zhi1 chu1 ， bi4 you3 sheng4 ren2 zai4 hu0 wei4 。 lin2 wei2 sheng4 ren2 chu1 ye3 。 sheng4 ren2 zhe3 ， bi4 zhi1 lin2 ， lin2 zhi1 guo3 bu4 wei2 bu4 xiang2 ye3 。
-- you4 yue1 ：“ lin2 zhi1 suo3 yi3 wei2 lin2 zhe3 ， yi3 de2 bu4 yi3 xing2 。”  ruo4 lin2 zhi1 chu1 bu2 dai4 sheng4 ren2 ， ze2 wei4 zhi1 bu4 xiang2 ye3 yi4 yi2 。
+- you4 yue1 ：“ lin2 zhi1 suo3 yi3 wei2 lin2 zhe3 ， yi3 de2 bu4 yi3 xing2 。” ruo4 lin2 zhi1 chu1 bu2 dai4 sheng4 ren2 ， ze2 wei4 zhi1 bu4 xiang2 ye3 yi4 yi2 。
 
 ## 注释
 

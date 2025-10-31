@@ -57,7 +57,7 @@ tags: []
 - xiang1 ren2 nuo2 ， chao2 fu2 er2 li4 yu2 zuo4 jie1 。
 - wen4 ren2 yu2 ta1 bang1 ， zai4 bai4 er2 song4 zhi1 。
 - kang1 zi3 kui4 yao4 ， bai4 er2 shou4 zhi1 。 yue1 ：“ qiu1 wei4 da2 ， bu4 gan3 chang2 。”
-- jiu4 fen2 ， zi3 tui4 chao2 ， yue1 ：“ shang1 ren2 hu1 ？”  bu2 wen4 ma3 。
+- jiu4 fen2 ， zi3 tui4 chao2 ， yue1 ：“ shang1 ren2 hu1 ？” bu2 wen4 ma3 。
 - jun1 ci4 shi2 ， bi4 zheng4 xi2 xian1 chang2 zhi1 ； jun1 ci4 xing1 ， bi4 shu2 er2 jian4 zhi1 ； jun1 ci4 sheng1 ， bi4 chu4 zhi1 。 shi4 shi2 yu2 jun1 ， jun1 ji4 ， xian1 fan4 。
 - ji2 ， jun1 shi4 zhi1 ， dong1 shou3 ， jia1 chao2 fu2 ， tuo1 shen1 。
 - jun1 ming4 zhao4 ， bu2 si4 jia4 xing2 yi3 。
@@ -67,7 +67,7 @@ tags: []
 - qin3 bu4 shi1 ， ju1 bu2 ke4 。
 - jian4 qi2 shuai1 zhe3 ， sui1 xia2 ， bi4 bian4 。 jian4 mian3 zhe3 yu3 gu3 zhe3 ， sui1 xie4 ， bi4 yi3 mao4 。 xiong1 fu2 zhe3 shi4 zhi1 ， shi4 fu4 ban3 zhe3 。 you3 sheng4 zhuan4 ， bi4 bian4 se4 er2 zuo4 。 xun4 lei2 feng1 lie4 ， bi4 bian4 。
 - sheng1 che1 ， bi4 zheng4 li4 ， zhi2 sui2 。 che1 zhong1 bu2 nei4 gu4 ， bu4 ji2 yan2 ， bu4 qin1 zhi3 。
-- se4 si1 ju3 yi3 ， xiang2 er2 hou4 ji2 。 yue1 ：“ shan1 liang2 ci2 zhi4 ， shi2 zai1 shi2 zai1 ！”  zi3 lu4 gong4 zhi1 ， san1 xiu4 er2 zuo4 。
+- se4 si1 ju3 yi3 ， xiang2 er2 hou4 ji2 。 yue1 ：“ shan1 liang2 ci2 zhi4 ， shi2 zai1 shi2 zai1 ！” zi3 lu4 gong4 zhi1 ， san1 xiu4 er2 zuo4 。
 
 ## 注释
 

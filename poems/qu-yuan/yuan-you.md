@@ -138,7 +138,7 @@ tags: []
 - bao3 shen2 ming2 zhi1 qing1 cheng2 xi1 ， jing1 qi4 ru4 er2 cu1 hui4 chu2 。
 - shun4 kai3 feng1 yi3 cong2 you2 xi1 ， zhi4 nan2 chao2 er2 yi1 xi1 。
 - jian4 wang2 zi3 er2 su4 zhi1 xi1 ， shen3 yi1 qi4 zhi1 he2 de2 。
-- yue1  “ dao4 ke3 shou4 xi1 ， bu4 ke3 chuan2
+- yue1 “ dao4 ke3 shou4 xi1 ， bu4 ke3 chuan2
 - qi2 xiao3 wu2 nei4 xi1 ， qi2 da4 wu2 yin2 。
 - wu2 hua2 er2 hun2 xi1 ， bi3 jiang1 zi4 ran2
 - yi1 qi4 kong3 shen2 xi1 ， yu2 zhong1 ye4 cun2 。

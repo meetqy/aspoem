@@ -54,7 +54,7 @@ tags: []
 - zi3 yue1 ：“ fang4 yu2 li4 er2 xing2 ， duo1 yuan4 。”
 - zi3 yue1 ：“ neng2 yi3 li3 rang4 wei2 guo2 hu1 ？ he2 you3 ？ bu4 neng2 yi3 li3 rang4 wei2 guo2 ， ru2 li3 he2 ？”
 - zi3 yue1 ：“ bu2 huan4 wu2 wei4 ， huan4 suo3 yi3 li4 。 bu2 huan4 mo4 ji3 zhi1 ， qiu2 wei4 ke3 zhi1 ye3 。”
-- zi3 yue1 ：“ can1 hu1 ！ wu2 dao4 yi1 yi3 guan4 zhi1 。”  ceng2 zi3 yue1 ：“ wei2 。”  zi3 chu1 ， men2 ren2 wen4 yue1 ：“ he2 wei4 ye3 ？”  ceng2 zi3 yue1 ：“ fu1 zi3 zhi1 dao4 ， zhong1 shu4 er2 yi3 yi3 。”
+- zi3 yue1 ：“ can1 hu1 ！ wu2 dao4 yi1 yi3 guan4 zhi1 。” ceng2 zi3 yue1 ：“ wei2 。” zi3 chu1 ， men2 ren2 wen4 yue1 ：“ he2 wei4 ye3 ？” ceng2 zi3 yue1 ：“ fu1 zi3 zhi1 dao4 ， zhong1 shu4 er2 yi3 yi3 。”
 - zi3 yue1 ：“ jun1 zi3 yu4 yu2 yi4 ， xiao3 ren2 yu4 yu2 li4 。”
 - zi3 yue1 ：“ jian4 xian2 si1 qi2 yan1 ， jian4 bu4 xian2 er2 nei4 zi4 xing3 ye3 。”
 - zi3 yue1 ：“ shi4 fu4 mu3 ， ji3 jian4 ， jian4 zhi4 bu4 cong2 ， you4 jing4 bu4 wei2 ， lao2 er2 bu2 yuan4 。”

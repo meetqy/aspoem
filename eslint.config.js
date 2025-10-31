@@ -5,7 +5,12 @@ export default antfu({
   react: true,
   nextjs: true,
   jsx: true,
-  markdown: true,
+
+  formatters: {
+    css: true,
+    html: true,
+    markdown: 'prettier',
+  },
 
   rules: {
     'node/prefer-global/process': 'off',
@@ -18,6 +23,7 @@ export default antfu({
     'react/no-array-index-key': 'off',
     'react-dom/no-missing-button-type': 'off',
     'react-hooks/set-state-in-effect': 'off',
+    'react-dom/no-dangerously-set-innerhtml': 'off',
   },
   ignores: ['prisma', 'next-env.d.ts', 'src/components/ui'],
 })
