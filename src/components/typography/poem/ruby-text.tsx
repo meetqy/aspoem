@@ -1,5 +1,6 @@
 import { cn_symbol } from '@/lib/constants'
 import { cn } from '@/lib/utils'
+import './index.css'
 
 interface RubyTextProps {
   text: string
@@ -17,22 +18,22 @@ export function RubyText({ text, pinyin, className, classNames }: RubyTextProps)
   const pinyinArray = pinyin.split(' ')
 
   return (
-    <ruby className={cn('ruby-text poem', className)}>
+    <ruby className={cn('ruby-text-poem', className)}>
       {chars.map((char, index) => {
         const charPinyin = pinyinArray[index] || ''
         const flex = cn_symbol.includes(char) ? '0.25' : '1'
 
         return (
           <span
-            className={cn('flex aspect-square relative justify-center', classNames?.wrapper)}
+            className={cn('wrapper', classNames?.wrapper)}
             key={index}
             style={{ flex }}
           >
-            <span className={cn('leading-none pt-5', classNames?.char)}>
+            <span className={cn('char', classNames?.char)}>
               {char}
             </span>
             <rp>(</rp>
-            <rt className={cn('font-light absolute lowercase text-muted-foreground font-sans leading-none tracking-normal', {
+            <rt className={cn('rt', {
               'opacity-0': cn_symbol.includes(char),
             }, classNames?.rt)}
             >

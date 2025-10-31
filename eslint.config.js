@@ -9,7 +9,7 @@ export default antfu({
   formatters: {
     css: true,
     html: true,
-    markdown: 'prettier',
+    markdown: true,
   },
 
   rules: {

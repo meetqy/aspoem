@@ -1,3 +1,15 @@
-.ruby-text.poem {
+.ruby-text-poem {
   @apply flex;
+
+  .wrapper {
+    @apply flex aspect-square relative justify-center;
+
+    .char {
+      @apply leading-none pt-5;
+    }
+
+    .rt {
+      @apply font-light absolute lowercase text-muted-foreground font-sans leading-none tracking-normal;
+    }
+  }
 }
