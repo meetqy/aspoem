@@ -1,5 +1,5 @@
-import { TypographyPoem } from '@/components/typography/poem'
-import { Sidebar, SidebarContent, SidebarProvider } from '@/components/ui/sidebar'
+import { RubyText } from '@/components/ruby-text'
+import { SidebarInset, SidebarProvider } from '@/components/ui/sidebar'
 
 const poem = {
   title: '直中書省',
@@ -28,19 +28,53 @@ export default async function Page() {
   return (
     <div className="flex flex-1 flex-col">
       <SidebarProvider className="container mx-auto">
-        <Sidebar side="left" className="sticky top-[4rem] h-[calc(100vh-4rem)] !border-none">
-          <aside className="size-full text-center">left</aside>
-        </Sidebar>
+        <aside className="sticky xl:block hidden top-[4rem] w-64 h-[calc(100vh-4rem)] !border-none  text-center bg-muted/50">left</aside>
 
-        <SidebarContent>
-          <main className="max-w-screen-md mx-auto w-full py-12" style={{ fontFamily: 'cursive' }}>
-            <TypographyPoem {...poem} />
+        <SidebarInset>
+          <main className="max-w-screen-md mx-auto w-full lg:py-24 py-12" style={{ fontFamily: 'cursive', fontSize: '20px' }}>
+            <RubyText className="text-5xl md:text-7xl" as="h1" text={poem.title} pinyin={poem.titlePinyin} />
+
+            <h2 className="text-center mt-[1.5em] flex items-center justify-center">
+              <RubyText
+                className="text-xl lg:text-3xl"
+                classNames={{
+                  pinyin: 'text-base',
+                }}
+                as="span"
+                text={poem.dynasty}
+                pinyin={poem.dynastyPinyin}
+              />
+              <span className="mx-2 inline-block size-1 bg-foreground rounded-full relative top-1"></span>
+              <RubyText
+                classNames={{
+                  pinyin: 'text-base',
+                }}
+                className="text-xl lg:text-3xl"
+                as="span"
+                text={poem.author}
+                pinyin={poem.authorPinyin}
+              />
+            </h2>
+
+            <div className="mt-[3em]">
+              <div className="leading-[2.5em] text-[2rem] md:text-4xl tracking-[0.2em] lg:tracking-[0.15em] transition-all">
+                {poem.paragraphs.map((paragraph, index) => (
+                  <RubyText
+                    key={index}
+                    as="p"
+                    className="text-inherit"
+                    text={paragraph}
+                    pinyin={poem.paragraphsPinyin[index]!}
+                  />
+                ))}
+              </div>
+            </div>
           </main>
-        </SidebarContent>
+        </SidebarInset>
 
-        <Sidebar side="right" className="sticky !border-none top-[4rem] h-[calc(100vh-4rem)]">
-          <aside className="size-full text-center">right</aside>
-        </Sidebar>
+        <aside className="sticky 2xl:w-64 w-60 xl:block hidden transition-all !border-none top-[4rem] h-[calc(100vh-4rem)] text-center bg-muted/50">
+          right
+        </aside>
       </SidebarProvider>
     </div>
   )

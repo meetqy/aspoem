@@ -2,7 +2,6 @@
 
 import Link from 'next/link'
 import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, navigationMenuTriggerStyle } from '@/components/ui/navigation-menu'
-import { useIsMobile } from '@/hooks/use-mobile'
 import { cn } from '@/lib/utils'
 
 const menuItems = [
@@ -15,10 +14,8 @@ const menuItems = [
 ]
 
 export function Menu({ className}: { className?: string }) {
-  const isMobile = useIsMobile()
-
   return (
-    <NavigationMenu viewport={isMobile} className={cn('w-full', className)}>
+    <NavigationMenu className={cn('w-full', className)}>
       <NavigationMenuList className="flex-wrap">
         {menuItems.map(item => (
           <NavigationMenuItem key={item.href}>

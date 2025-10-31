@@ -40,8 +40,8 @@ export function CommandSearch() {
 
   return (
     <>
-      <div className="relative w-full max-w-xs cursor-pointer flex items-center" onClick={() => setOpen(true)}>
-        <Input placeholder="开始搜索诗词..." />
+      <div className="relative w-full max-w-xs lg:max-w-md md:mx-0 mx-auto cursor-pointer flex items-center" onClick={() => setOpen(true)}>
+        <Input className="w-full" placeholder="开始搜索诗词..." />
         <KbdGroup className="absolute right-2">
           <Kbd>⌘</Kbd>
           <Kbd>K</Kbd>
