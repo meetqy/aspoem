@@ -1,5 +1,6 @@
 import { RubyText } from '@/components/ruby-text'
-import { SidebarInset, SidebarProvider } from '@/components/ui/sidebar'
+import { SidebarContent, SidebarProvider } from '@/components/ui/sidebar'
+import { SidebarLeft } from './_components/sidebar-left'
 
 const poem = {
   title: '直中書省',
@@ -27,11 +28,11 @@ const poem = {
 export default async function Page() {
   return (
     <div className="flex flex-1 flex-col">
-      <SidebarProvider className="container mx-auto">
-        <aside className="sticky xl:block hidden top-[4rem] w-64 h-[calc(100vh-4rem)] !border-none  text-center bg-muted/50">left</aside>
+      <SidebarProvider className="container relative mx-auto">
+        <SidebarLeft />
 
-        <SidebarInset>
-          <main className="max-w-screen-md mx-auto w-full lg:py-24 py-12" style={{ fontFamily: 'cursive', fontSize: '20px' }}>
+        <SidebarContent>
+          <main className="max-w-screen-md h-[2000px] mx-auto w-full lg:py-24 py-12" style={{ fontFamily: 'cursive', fontSize: '20px' }}>
             <RubyText className="text-5xl md:text-7xl" as="h1" text={poem.title} pinyin={poem.titlePinyin} />
 
             <h2 className="text-center mt-[1.5em] flex items-center justify-center">
@@ -74,7 +75,7 @@ export default async function Page() {
               </div>
             </div>
           </main>
-        </SidebarInset>
+        </SidebarContent>
 
         <aside className="sticky 2xl:w-64 w-60 xl:block hidden transition-all !border-none top-[4rem] h-[calc(100vh-4rem)] text-center bg-muted/50">
           right
