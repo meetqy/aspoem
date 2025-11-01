@@ -46,7 +46,7 @@ const items: SidebarItem[] = [
 
 const discover: SidebarItem[] = [
   { title: '热门诗文', icon: StarIcon, url: '#' },
-  { title: '最新收录', icon: CirclePlusIcon, url: '#' },
+  { title: '最近更新', icon: CirclePlusIcon, url: '#' },
   { title: '随机诗文', icon: DicesIcon, url: '#' },
   { title: '诗文排行榜', icon: ArrowDownAzIcon, url: '#' },
 ]
