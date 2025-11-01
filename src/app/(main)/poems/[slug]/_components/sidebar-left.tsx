@@ -77,7 +77,7 @@ export function SidebarLeft() {
               <Collapsible
                 key={item.title}
                 asChild
-                defaultOpen={item.isActive}
+                defaultOpen={item.defaultOpen}
                 className="group/collapsible"
               >
                 <SidebarMenuItem>
