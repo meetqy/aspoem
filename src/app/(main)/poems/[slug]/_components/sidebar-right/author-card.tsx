@@ -29,7 +29,7 @@ export function AuthorCard({ author }: AuthorCardProps) {
   const lifespan = `${author.birthDate || '?'}年—${author.deathDate || '?'}年`
 
   return (
-    <Card className="w-full max-w-md">
+    <Card>
       <CardHeader>
         <div className="flex items-start gap-4">
           {/* 作者头像 */}
@@ -88,7 +88,7 @@ export function AuthorCard({ author }: AuthorCardProps) {
       </CardContent>
 
       <CardFooter>
-        <Button asChild className="w-full">
+        <Button variant="secondary" asChild className="w-full">
           <Link href={`/author/${author.id}`}>
             <UserIcon />
             进入主页

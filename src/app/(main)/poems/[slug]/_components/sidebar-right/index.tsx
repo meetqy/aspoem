@@ -1,6 +1,8 @@
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Sidebar, SidebarContent } from '@/components/ui/sidebar'
 import { AuthorCard } from './author-card'
+import { Feedback } from './feedback'
+import { ReadSetting } from './read-setting'
 
 const author = {
   id: 'bai-juyi',
@@ -21,7 +23,12 @@ export function SidebarRight() {
   return (
     <Sidebar collapsible="none" className="h-[calc(100vh-4rem)] bg-transparent sticky top-[4rem] w-80 hidden xl:block">
       <ScrollArea className="h-full">
-        <SidebarContent className="gap-0">
+        <SidebarContent className="gap-4 pt-12">
+
+          <Feedback />
+
+          <ReadSetting />
+
           <AuthorCard author={author} />
         </SidebarContent>
       </ScrollArea>
