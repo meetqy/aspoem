@@ -45,15 +45,15 @@ const items: SidebarItem[] = [
 ]
 
 const discover: SidebarItem[] = [
-  { title: '热门诗人', icon: StarIcon, url: '#' },
+  { title: '热门诗文', icon: StarIcon, url: '#' },
   { title: '最新收录', icon: CirclePlusIcon, url: '#' },
-  { title: '随机诗词', icon: DicesIcon, url: '#' },
-  { title: '诗词排行榜', icon: ArrowDownAzIcon, url: '#' },
+  { title: '随机诗文', icon: DicesIcon, url: '#' },
+  { title: '诗文排行榜', icon: ArrowDownAzIcon, url: '#' },
 ]
 
 export function SidebarLeft() {
   return (
-    <Sidebar collapsible="none" className="bg-transparent h-[calc(100vh-4rem)] sticky top-[4rem] w-64 hidden xl:block">
+    <Sidebar collapsible="none" className="bg-transparent h-[calc(100vh-4rem)] sticky top-[4rem] w-64 hidden lg:block">
       <ScrollArea className="h-full">
         <SidebarContent className="gap-0 py-12">
           <SidebarGroup className="group-data-[collapsible=icon]:hidden">

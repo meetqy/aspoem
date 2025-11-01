@@ -1,6 +1,7 @@
 import { RubyText } from '@/components/ruby-text'
 import { SidebarContent, SidebarProvider } from '@/components/ui/sidebar'
 import { SidebarLeft } from './_components/sidebar-left'
+import { SidebarRight } from './_components/sidebar-right'
 
 const poem = {
   title: '直中書省',
@@ -77,9 +78,7 @@ export default async function Page() {
           </main>
         </SidebarContent>
 
-        <aside className="sticky 2xl:w-64 w-60 xl:block hidden transition-all !border-none top-[4rem] h-[calc(100vh-4rem)] text-center bg-muted/50">
-          right
-        </aside>
+        <SidebarRight />
       </SidebarProvider>
     </div>
   )
