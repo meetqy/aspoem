@@ -6,6 +6,10 @@
 
 ## 同步 chinese-poetry 到 markdown 文件
 
+1. 下载 chinese-poetry 仓库
+2. 把 `chinese-poetry` 目录放到 `aspoem` 根目录下
+3. 运行以下命令生成 markdown 文件
+
 ```shell
 pnpm gen:markdown
 ```
