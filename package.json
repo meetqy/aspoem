@@ -24,7 +24,8 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "gen:markdown": "tsx scripts/chinese-poetry-to-markdown/index.ts",
-    "ui:upgrade": "for file in src/components/ui/*.tsx; do npx shadcn@latest add -y -o $(basename \"$file\" .tsx); done"
+    "ui:upgrade": "for file in src/components/ui/*.tsx; do npx shadcn@latest add -y -o $(basename \"$file\" .tsx); done",
+    "prepare": "husky"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.7.2",
@@ -112,6 +113,9 @@
     }
   },
   "lint-staged": {
-    "*.js": ["eslint --fix --cache", "git add"]
+    "*.{md|js|tsx|jsx|json}": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
