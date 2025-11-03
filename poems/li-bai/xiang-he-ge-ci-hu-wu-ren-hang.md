@@ -1,0 +1,45 @@
+---
+id: li-bai-xiang-he-ge-ci-hu-wu-ren-hang
+title: 相和歌辭 胡無人行
+titlePinyin: xiang1 he2 ge1 ci2   hu2 wu2 ren2 hang2
+titleSlug: xiang-he-ge-ci-hu-wu-ren-hang
+author: 李白
+authorPinyin: li3 bai2
+authorSlug: li-bai
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: [] 
+---
+
+## 正文
+
+- 嚴風吹霜海草彫，筋幹精堅胡馬驕。
+- 漢家戰士三十萬，將軍兼領霍嫖姚。
+- 流星白羽腰間插，劒花秋蓮光出匣。
+- 天兵照雪下玉關，虜箭如沙射金甲。
+- 雲龍風虎盡交迴，太白入月敵可摧。
+- 敵可摧，旄頭滅，履胡之腸涉胡血。
+- 懸胡青天上，埋胡紫【塞】旁。
+- 胡無人，漢道昌，陛下之壽三千霜。
+- 但歌大風雲飛揚，安得猛士兮守四方。
+- 胡無人，漢道昌。
+
+## 拼音
+
+- yan2 feng1 chui1 shuang1 hai3 cao3 diao1 ， jin1 gan4 jing1 jian1 hu2 ma3 jiao1 。
+- han4 jia1 zhan4 shi4 san1 shi2 wan4 ， jiang1 jun1 jian1 ling3 huo4 piao2 yao2 。
+- liu2 xing1 bai2 yu3 yao1 jian4 cha1 ， jian4 hua1 qiu1 lian2 guang1 chu1 xia2 。
+- tian1 bing1 zhao4 xue3 xia4 yu4 guan1 ， lu3 jian4 ru2 sha1 she4 jin1 jia3 。
+- yun2 long2 feng1 hu3 jin4 jiao1 hui2 ， tai4 bai2 ru4 yue4 di2 ke3 cui1 。
+- di2 ke3 cui1 ， mao2 tou2 mie4 ， lü3 hu2 zhi1 chang2 she4 hu2 xue4 。
+- xuan2 hu2 qing1 tian1 shang4 ， mai2 hu2 zi3 【 sai1 】 pang2 。
+- hu2 wu2 ren2 ， han4 dao4 chang1 ， bi4 xia4 zhi1 shou4 san1 qian1 shuang1 。
+- dan4 ge1 da4 feng1 yun2 fei1 yang2 ， an1 de2 meng3 shi4 xi1 shou3 si4 fang1 。
+- hu2 wu2 ren2 ， han4 dao4 chang1 。
+
+## 注释
+
+## 译文
+
+## 赏析

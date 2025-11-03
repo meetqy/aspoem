@@ -12,22 +12,25 @@ import { syncSanzijingNew } from './mengxue/sanzijin-new'
 import { syncTangshisanbaishou } from './mengxue/tangshisanbaishou'
 import { syncZhuzijiaxun } from './mengxue/zhuzijiaxun'
 import { syncNalan } from './nalanxingde'
+import { syncQuantangshi } from './quantangshi'
 
 function main() {
-  syncCaocao()
-  // syncLunyu()
-  syncChuci()
-  syncBaijiaxing()
-  syncDizigui()
+  syncQuantangshi()
+  // syncCaocao()
+  // syncChuci()
+  // syncBaijiaxing()
+  // syncDizigui()
+  // syncQianjiashi()
+  // syncQianziwen()
+  // syncSanzijingNew()
+  // syncSanzijing()
+  // syncTangshisanbaishou()
+  // syncZhuzijiaxun()
+  // syncNalan()
+
   // syncGuwenguanzhi()
-  syncQianjiashi()
-  syncQianziwen()
-  syncSanzijingNew()
-  syncSanzijing()
   // syncShenglvqimeng()
-  syncTangshisanbaishou()
-  syncZhuzijiaxun()
-  syncNalan()
+  // syncLunyu()
 }
 
 main()

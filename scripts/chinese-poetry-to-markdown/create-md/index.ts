@@ -90,7 +90,8 @@ ${pinyin(content, { toneType: 'num', nonZh: 'consecutive' }).replace(/-(\s)+/g, 
 ## 赏析
 `
 
+  const truncatedFilePath = filePath.length > 255 ? filePath.slice(0, 255) : filePath
   ensureDirSync(`${POEMS_DIR}/${authorSlug}`)
-  writeFileSync(filePath, str)
+  writeFileSync(truncatedFilePath, str)
   return true
 }

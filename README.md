@@ -1,6 +1,10 @@
-# [AsPoem](https://aspoem.com)
+# [AsPoem - 中文诗词阅读网站](https://aspoem.com)
 
-诗词阅读网站 - 现代化设计，更好的阅读体验，海量的诗词数据。
+- 免费打印诗词
+- 针对诗词的排版设计
+- 支持拼音显示
+- 支持注释、译文、赏析
+- 支持在线更正错误
 
 之前版本: https://github.com/meetqy/aspoem/tree/main
 
