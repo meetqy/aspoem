@@ -1,13 +1,6 @@
-import { Dynasty } from '@/types'
-
 import data from '../../chinese-poetry-master/论语/lunyu.json'
 
 import { createMdContent } from './create-md'
-
-const _author = {
-  name: '孔子及其弟子',
-  dynasty: Dynasty.春秋,
-}
 
 export async function syncLunyu() {
   Promise.all(
@@ -15,8 +8,9 @@ export async function syncLunyu() {
       createMdContent({
         title: poem.chapter,
         paragraphs: poem.paragraphs,
-        author: _author.name,
-        dynasty: _author.dynasty,
+        author: '孔子及其弟子',
+        dynasty: '春秋',
+        parent: ['论语'],
       }),
     ),
   ).then(() => {

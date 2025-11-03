@@ -15,6 +15,7 @@ interface Poem {
   author: string
   dynasty: string
   tags?: string[]
+  parent?: string[]
 }
 
 function genSlug(text: string) {
@@ -53,6 +54,13 @@ export function createMdContent(poem: Poem) {
 
   const id = `${authorSlug}-${titleSlug}`
 
+  const parentStr = poem.parent
+    ? `parent: 
+${poem.parent.map(p => `    title: ${p}
+    titleSlug: ${genSlug(p)}
+`).join('\n')}`.replace(/\n+$/g, '')
+    : ''
+
   const str = `---
 id: ${id}
 title: ${poem.title}
@@ -61,7 +69,8 @@ author: ${poem.author}
 authorSlug: ${authorSlug}
 dynasty: ${poem.dynasty}
 dynastySlug: ${dynastySlug}
-tags: ${JSON.stringify(poem.tags || [])}
+tags: ${JSON.stringify(poem.tags || [])} 
+${parentStr}
 ---
 
 ## 正文

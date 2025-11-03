@@ -7,6 +7,9 @@ authorSlug: kong-zi-ji-qi-di-zi
 dynasty: 春秋
 dynastySlug: chun-qiu
 tags: []
+parent:
+    title: 论语
+    titleSlug: lun-yu
 ---
 
 ## 正文
