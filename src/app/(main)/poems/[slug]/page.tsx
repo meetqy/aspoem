@@ -33,7 +33,7 @@ export default async function Page() {
         <SidebarLeft />
 
         <SidebarContent>
-          <main className="@container/poem h-[2000px] mx-auto w-full @poem/md:py-24 py-12" style={{ fontFamily: 'cursive', fontSize: '20px' }}>
+          <main className="@container/poem h-[2000px] mx-auto w-full @poem/md:py-24 py-12" style={{ fontFamily: `楷体, 楷体_gb2312, "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, TW-Kai, cursive`, fontSize: 20 }}>
             <RubyText className="text-5xl @md/poem:text-7xl" as="h1" text={poem.title} pinyin={poem.titlePinyin} />
 
             <h2 className="text-center mt-[1.5em] flex items-center justify-center">
@@ -43,10 +43,10 @@ export default async function Page() {
                   pinyin: 'text-base',
                 }}
                 as="span"
-                text={poem.dynasty}
-                pinyin={poem.dynastyPinyin}
+                text={`[${poem.dynasty}]`}
+                pinyin={` ${poem.dynastyPinyin} `}
               />
-              <span className="mx-2 inline-block size-1 bg-foreground rounded-full relative top-1"></span>
+
               <RubyText
                 classNames={{
                   pinyin: 'text-base',
