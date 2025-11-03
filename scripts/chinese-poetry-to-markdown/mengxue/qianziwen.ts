@@ -9,6 +9,7 @@ export async function syncQianziwen() {
             paragraphs: data.paragraphs,
             author: data.author,
             dynasty: '南北',
+            tags: ['蒙学'],
         })
 
         console.log(`千字文同步完成: 1 篇文章已导入`)

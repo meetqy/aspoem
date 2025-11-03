@@ -6,7 +6,7 @@ author: 周興嗣
 authorSlug: zhou-xing-si
 dynasty: 南北
 dynastySlug: nan-bei
-tags: []
+tags: ["蒙学"]
 ---
 
 ## 正文
