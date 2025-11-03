@@ -92,6 +92,5 @@ ${pinyin(content, { toneType: 'num', nonZh: 'consecutive' }).replace(/-(\s)+/g, 
 
   ensureDirSync(`${POEMS_DIR}/${authorSlug}`)
   writeFileSync(filePath, str)
-  console.log(`创建文件: ${filePath}`)
   return true
 }
