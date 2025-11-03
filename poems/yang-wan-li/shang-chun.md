@@ -1,12 +1,16 @@
 ---
 id: yang-wan-li-shang-chun
 title: 傷春
+titlePinyin: shang1 chun1
 titleSlug: shang-chun
 author: 楊萬里
+authorPinyin: yang2 wan4 li3
 authorSlug: yang-wan-li
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

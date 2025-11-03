@@ -1,10 +1,13 @@
 ---
 id: wang-wei-gui-song-shan-zuo
 title: 歸嵩山作
+titlePinyin: gui1 song1 shan1 zuo4
 titleSlug: gui-song-shan-zuo
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

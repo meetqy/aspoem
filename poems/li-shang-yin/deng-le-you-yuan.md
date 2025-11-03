@@ -1,10 +1,13 @@
 ---
 id: li-shang-yin-deng-le-you-yuan
 title: 登樂遊原
+titlePinyin: deng1 le4 you2 yuan2
 titleSlug: deng-le-you-yuan
 author: 李商隱
+authorPinyin: li3 shang1 yin3
 authorSlug: li-shang-yin
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

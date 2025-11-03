@@ -1,12 +1,16 @@
 ---
 id: meng-hao-ran-ti-yi-gong-shan-fang
 title: 題義公禪房
+titlePinyin: ti2 yi4 gong1 shan4 fang2
 titleSlug: ti-yi-gong-shan-fang
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

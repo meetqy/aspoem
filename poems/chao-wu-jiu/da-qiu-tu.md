@@ -1,12 +1,16 @@
 ---
 id: chao-wu-jiu-da-qiu-tu
 title: 打球圖
+titlePinyin: da3 qiu2 tu2
 titleSlug: da-qiu-tu
 author: 晁無咎
+authorPinyin: chao2 wu2 jiu4
 authorSlug: chao-wu-jiu
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

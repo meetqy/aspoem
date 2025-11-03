@@ -1,12 +1,16 @@
 ---
 id: dai-fu-gu-yue-ye-zhou-zhong
 title: 月夜舟中
+titlePinyin: yue4 ye4 zhou1 zhong1
 titleSlug: yue-ye-zhou-zhong
 author: 戴復古
+authorPinyin: dai4 fu4 gu3
 authorSlug: dai-fu-gu
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

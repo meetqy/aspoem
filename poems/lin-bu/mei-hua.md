@@ -1,12 +1,16 @@
 ---
 id: lin-bu-mei-hua
 title: 梅花
+titlePinyin: mei2 hua1
 titleSlug: mei-hua
 author: 林逋
+authorPinyin: lin2 bu1
 authorSlug: lin-bu
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: zhang-shuo-shu-dao-hou-qi
 title: 蜀道後期
+titlePinyin: shu3 dao4 hou4 qi1
 titleSlug: shu-dao-hou-qi
 author: 張說
+authorPinyin: zhang1 shuo1
 authorSlug: zhang-shuo
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

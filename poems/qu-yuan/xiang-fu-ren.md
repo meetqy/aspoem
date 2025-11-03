@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-xiang-fu-ren
 title: 湘夫人
+titlePinyin: xiang1 fu1 ren2
 titleSlug: xiang-fu-ren
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

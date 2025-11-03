@@ -1,10 +1,13 @@
 ---
 id: wang-wei-shan-ju-qiu-ming
 title: 山居秋暝
+titlePinyin: shan1 ju1 qiu1 ming2
 titleSlug: shan-ju-qiu-ming
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

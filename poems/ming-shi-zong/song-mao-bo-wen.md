@@ -1,12 +1,16 @@
 ---
 id: ming-shi-zong-song-mao-bo-wen
 title: 送毛伯溫
+titlePinyin: song4 mao2 bo2 wen1
 titleSlug: song-mao-bo-wen
 author: 明世宗
+authorPinyin: ming2 shi4 zong1
 authorSlug: ming-shi-zong
 dynasty: 明
+dynastyPinyin: ming2
 dynastySlug: ming
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

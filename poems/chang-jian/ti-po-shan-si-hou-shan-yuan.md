@@ -1,10 +1,13 @@
 ---
 id: chang-jian-ti-po-shan-si-hou-shan-yuan
 title: 題破山寺後禪院
+titlePinyin: ti2 po4 shan1 si4 hou4 shan4 yuan4
 titleSlug: ti-po-shan-si-hou-shan-yuan
 author: 常建
+authorPinyin: chang2 jian4
 authorSlug: chang-jian
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

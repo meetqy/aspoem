@@ -1,12 +1,16 @@
 ---
 id: du-fu-dong-zhi
 title: 冬至
+titlePinyin: dong1 zhi4
 titleSlug: dong-zhi
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

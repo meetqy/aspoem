@@ -1,10 +1,13 @@
 ---
 id: du-mu-ji-yang-zhou-han-chuo-pan-guan
 title: 寄揚州韓綽判官
+titlePinyin: ji4 yang2 zhou1 han2 chuo4 pan4 guan1
 titleSlug: ji-yang-zhou-han-chuo-pan-guan
 author: 杜牧
+authorPinyin: du4 mu4
 authorSlug: du-mu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

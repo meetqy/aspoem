@@ -1,12 +1,16 @@
 ---
 id: wang-wei-zhu-li-guan
 title: 竹裏館
+titlePinyin: zhu2 li3 guan3
 titleSlug: zhu-li-guan
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
-tags: ["五言絕句","千家诗","蒙学"]
+tags: ["蒙学","唐詩三百首","五言絕句"]
+
 ---
 
 ## 正文

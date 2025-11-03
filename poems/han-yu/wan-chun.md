@@ -1,12 +1,16 @@
 ---
 id: han-yu-wan-chun
 title: 晚春
+titlePinyin: wan3 chun1
 titleSlug: wan-chun
 author: 韓愈
+authorPinyin: han2 yu4
 authorSlug: han-yu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

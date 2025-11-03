@@ -1,12 +1,16 @@
 ---
 id: du-fu-jiu-ri-lan-geng-hui-yin
 title: 九日藍耕會飲
+titlePinyin: jiu3 ri4 lan2 geng1 hui4 yin3
 titleSlug: jiu-ri-lan-geng-hui-yin
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

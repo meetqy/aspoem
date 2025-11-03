@@ -1,10 +1,13 @@
 ---
 id: du-fu-wei-feng-lu-shi-zhai-guan-cao-jiang-jun-hua-ma
 title: 韋諷錄事宅觀曹將軍畫馬
+titlePinyin: wei2 feng3 lu4 shi4 zhai2 guan1 cao2 jiang1 jun1 hua4 ma3
 titleSlug: wei-feng-lu-shi-zhai-guan-cao-jiang-jun-hua-ma
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

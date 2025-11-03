@@ -1,12 +1,16 @@
 ---
 id: jia-zhi-zao-chao-da-ming-gong
 title: 早朝大明宮
+titlePinyin: zao3 chao2 da4 ming2 gong1
 titleSlug: zao-chao-da-ming-gong
 author: 賈至
+authorPinyin: jia3 zhi4
 authorSlug: jia-zhi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

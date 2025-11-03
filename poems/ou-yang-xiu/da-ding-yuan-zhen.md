@@ -1,12 +1,16 @@
 ---
 id: ou-yang-xiu-da-ding-yuan-zhen
 title: 答丁元珍
+titlePinyin: da2 ding1 yuan2 zhen1
 titleSlug: da-ding-yuan-zhen
 author: 歐陽修
+authorPinyin: ou1 yang2 xiu1
 authorSlug: ou-yang-xiu
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

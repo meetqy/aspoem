@@ -1,12 +1,16 @@
 ---
 id: du-fu-yu-miao
 title: 禹廟
+titlePinyin: yu3 miao4
 titleSlug: yu-miao
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: su-shi-dong-jing
 title: 冬景
+titlePinyin: dong1 jing3
 titleSlug: dong-jing
 author: 蘇軾
+authorPinyin: su1 shi4
 authorSlug: su-shi
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

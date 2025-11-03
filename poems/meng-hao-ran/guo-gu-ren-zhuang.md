@@ -1,10 +1,13 @@
 ---
 id: meng-hao-ran-guo-gu-ren-zhuang
 title: 過故人莊
+titlePinyin: guo4 gu4 ren2 zhuang1
 titleSlug: guo-gu-ren-zhuang
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

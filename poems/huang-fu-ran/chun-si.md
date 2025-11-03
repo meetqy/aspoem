@@ -1,10 +1,13 @@
 ---
 id: huang-fu-ran-chun-si
 title: 春思
+titlePinyin: chun1 si1
 titleSlug: chun-si
 author: 皇甫冉
+authorPinyin: huang2 fu3 ran3
 authorSlug: huang-fu-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

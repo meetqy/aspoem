@@ -1,12 +1,16 @@
 ---
 id: li-bai-qing-ping-diao-ci
 title: 清平調詞
+titlePinyin: qing1 ping2 diao4 ci2
 titleSlug: qing-ping-diao-ci
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

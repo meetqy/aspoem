@@ -1,12 +1,16 @@
 ---
 id: seng-hui-hong-qiu-qian
 title: 鞦韆
+titlePinyin: qiu1 qian1
 titleSlug: qiu-qian
 author: 僧惠洪
+authorPinyin: seng1 hui4 hong2
 authorSlug: seng-hui-hong
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

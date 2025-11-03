@@ -1,12 +1,16 @@
 ---
 id: liu-ke-zhuang-ying-suo
 title: 鶯梭
+titlePinyin: ying1 suo1
 titleSlug: ying-suo
 author: 劉克莊
+authorPinyin: liu2 ke4 zhuang1
 authorSlug: liu-ke-zhuang
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

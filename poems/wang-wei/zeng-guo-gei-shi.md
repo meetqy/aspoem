@@ -1,10 +1,13 @@
 ---
 id: wang-wei-zeng-guo-gei-shi
 title: 贈郭給事
+titlePinyin: zeng4 guo1 gei3 shi4
 titleSlug: zeng-guo-gei-shi
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

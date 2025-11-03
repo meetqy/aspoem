@@ -1,10 +1,13 @@
 ---
 id: zhang-jiu-ling-wang-yue-huai-yuan
 title: 望月懷遠
+titlePinyin: wang4 yue4 huai2 yuan3
 titleSlug: wang-yue-huai-yuan
 author: 張九齡
+authorPinyin: zhang1 jiu3 ling2
 authorSlug: zhang-jiu-ling
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

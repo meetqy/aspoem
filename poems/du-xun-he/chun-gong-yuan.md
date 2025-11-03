@@ -1,10 +1,13 @@
 ---
 id: du-xun-he-chun-gong-yuan
 title: 春宮怨
+titlePinyin: chun1 gong1 yuan4
 titleSlug: chun-gong-yuan
 author: 杜荀鶴
+authorPinyin: du4 xun2 he4
 authorSlug: du-xun-he
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

@@ -1,10 +1,13 @@
 ---
 id: si-kong-shu-zei-ping-hou-song-ren-bei-gui
 title: 賊平後送人北歸
+titlePinyin: zei2 ping2 hou4 song4 ren2 bei3 gui1
 titleSlug: zei-ping-hou-song-ren-bei-gui
 author: 司空曙
+authorPinyin: si1 kong1 shu3
 authorSlug: si-kong-shu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-she-jiang
 title: 涉江
+titlePinyin: she4 jiang1
 titleSlug: she-jiang
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

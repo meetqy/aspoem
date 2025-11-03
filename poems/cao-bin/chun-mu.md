@@ -1,12 +1,16 @@
 ---
 id: cao-bin-chun-mu
 title: 春暮
+titlePinyin: chun1 mu4
 titleSlug: chun-mu
 author: 曹豳
+authorPinyin: cao2 bin1
 authorSlug: cao-bin
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

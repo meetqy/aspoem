@@ -1,12 +1,16 @@
 ---
 id: wang-yi-ai-sui
 title: 哀岁
+titlePinyin: ai1 sui4
 titleSlug: ai-sui
 author: 王逸
+authorPinyin: wang2 yi4
 authorSlug: wang-yi
 dynasty: 东汉
+dynastyPinyin: dong1 han4
 dynastySlug: dong-han
 tags: []
+
 ---
 
 ## 正文

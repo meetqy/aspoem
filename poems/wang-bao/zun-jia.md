@@ -1,12 +1,16 @@
 ---
 id: wang-bao-zun-jia
 title: 尊嘉
+titlePinyin: zun1 jia1
 titleSlug: zun-jia
 author: 王褒
+authorPinyin: wang2 bao1
 authorSlug: wang-bao
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

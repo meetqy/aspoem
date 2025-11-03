@@ -1,12 +1,16 @@
 ---
 id: han-yu-zuo-qian-zhi-lan-guan-shi-zhi-sun-xiang
 title: 左遷至藍關示侄孫湘
+titlePinyin: zuo3 qian1 zhi4 lan2 guan1 shi4 zhi2 sun1 xiang1
 titleSlug: zuo-qian-zhi-lan-guan-shi-zhi-sun-xiang
 author: 韓愈
+authorPinyin: han2 yu4
 authorSlug: han-yu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

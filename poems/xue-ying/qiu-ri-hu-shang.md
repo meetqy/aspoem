@@ -1,12 +1,16 @@
 ---
 id: xue-ying-qiu-ri-hu-shang
 title: 秋日湖上
+titlePinyin: qiu1 ri4 hu2 shang4
 titleSlug: qiu-ri-hu-shang
 author: 薛瑩
+authorPinyin: xue1 ying2
 authorSlug: xue-ying
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

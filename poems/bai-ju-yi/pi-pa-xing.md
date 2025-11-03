@@ -1,10 +1,13 @@
 ---
 id: bai-ju-yi-pi-pa-xing
 title: 琵琶行
+titlePinyin: pi2 pa0 xing2
 titleSlug: pi-pa-xing
 author: 白居易
+authorPinyin: bai2 ju1 yi4
 authorSlug: bai-ju-yi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

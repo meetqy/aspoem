@@ -1,10 +1,13 @@
 ---
 id: cen-can-feng-he-zhong-shu-she-ren-jia-zhi-zao-chao
 title: 奉和中書舍人賈至早朝
+titlePinyin: feng4 he2 zhong1 shu1 she4 ren2 jia3 zhi4 zao3 chao2
 titleSlug: feng-he-zhong-shu-she-ren-jia-zhi-zao-chao
 author: 岑參
+authorPinyin: cen2 can1
 authorSlug: cen-can
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

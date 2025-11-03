@@ -1,12 +1,16 @@
 ---
 id: cao-cao-bu-chu-xia-men-xing-tu-bu-tong
 title: 步出夏门行 土不同
+titlePinyin: bu4 chu1 xia4 men2 xing2   tu3 bu4 tong2
 titleSlug: bu-chu-xia-men-xing-tu-bu-tong
 author: 曹操
+authorPinyin: cao2 cao1
 authorSlug: cao-cao
 dynasty: 东汉末年
+dynastyPinyin: dong1 han4 mo4 nian2
 dynastySlug: dong-han-mo-nian
 tags: []
+
 ---
 
 ## 正文

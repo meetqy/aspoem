@@ -1,10 +1,13 @@
 ---
 id: wang-wei-song-bie
 title: 送別
+titlePinyin: song4 bie2
 titleSlug: song-bie
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

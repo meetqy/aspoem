@@ -1,12 +1,16 @@
 ---
 id: jia-dao-san-yue-hui-ri-song-chun
 title: 三月晦日送春
+titlePinyin: san1 yue4 hui4 ri4 song4 chun1
 titleSlug: san-yue-hui-ri-song-chun
 author: 賈島
+authorPinyin: jia3 dao3
 authorSlug: jia-dao
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

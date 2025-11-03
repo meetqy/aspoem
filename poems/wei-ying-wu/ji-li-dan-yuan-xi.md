@@ -1,10 +1,13 @@
 ---
 id: wei-ying-wu-ji-li-dan-yuan-xi
 title: 寄李儋元錫
+titlePinyin: ji4 li3 dan1 yuan2 xi1
 titleSlug: ji-li-dan-yuan-xi
 author: 韋應物
+authorPinyin: wei2 ying1 wu4
 authorSlug: wei-ying-wu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

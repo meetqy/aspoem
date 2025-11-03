@@ -1,12 +1,16 @@
 ---
 id: zhao-ding-han-shi-shu-shi
 title: 寒食書事
+titlePinyin: han2 shi2 shu1 shi4
 titleSlug: han-shi-shu-shi
 author: 趙鼎
+authorPinyin: zhao4 ding3
 authorSlug: zhao-ding
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

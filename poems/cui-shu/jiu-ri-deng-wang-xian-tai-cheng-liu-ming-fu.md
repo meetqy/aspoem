@@ -1,10 +1,13 @@
 ---
 id: cui-shu-jiu-ri-deng-wang-xian-tai-cheng-liu-ming-fu
 title: 九日登望仙台呈劉明府
+titlePinyin: jiu3 ri4 deng1 wang4 xian1 tai2 cheng2 liu2 ming2 fu3
 titleSlug: jiu-ri-deng-wang-xian-tai-cheng-liu-ming-fu
 author: 崔曙
+authorPinyin: cui1 shu3
 authorSlug: cui-shu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

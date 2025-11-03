@@ -1,12 +1,16 @@
 ---
 id: lin-sheng-ti-lin-an-di
 title: 題臨安邸
+titlePinyin: ti2 lin2 an1 di3
 titleSlug: ti-lin-an-di
 author: 林升
+authorPinyin: lin2 sheng1
 authorSlug: lin-sheng
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

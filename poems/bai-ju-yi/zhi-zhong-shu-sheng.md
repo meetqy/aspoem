@@ -1,12 +1,16 @@
 ---
 id: bai-ju-yi-zhi-zhong-shu-sheng
 title: 直中書省
+titlePinyin: zhi2 zhong1 shu1 sheng3
 titleSlug: zhi-zhong-shu-sheng
 author: 白居易
+authorPinyin: bai2 ju1 yi4
 authorSlug: bai-ju-yi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

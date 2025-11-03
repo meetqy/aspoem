@@ -1,12 +1,16 @@
 ---
 id: wang-jia-chun-qing
 title: 春晴
+titlePinyin: chun1 qing2
 titleSlug: chun-qing
 author: 王駕
+authorPinyin: wang2 jia4
 authorSlug: wang-jia
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

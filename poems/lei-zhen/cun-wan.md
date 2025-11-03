@@ -1,12 +1,16 @@
 ---
 id: lei-zhen-cun-wan
 title: 村晚
+titlePinyin: cun1 wan3
 titleSlug: cun-wan
 author: 雷震
+authorPinyin: lei2 zhen4
 authorSlug: lei-zhen
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

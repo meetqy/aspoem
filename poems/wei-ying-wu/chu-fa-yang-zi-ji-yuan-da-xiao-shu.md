@@ -1,10 +1,13 @@
 ---
 id: wei-ying-wu-chu-fa-yang-zi-ji-yuan-da-xiao-shu
 title: 初發揚子寄元大校書
+titlePinyin: chu1 fa1 yang2 zi3 ji4 yuan2 da4 xiao4 shu1
 titleSlug: chu-fa-yang-zi-ji-yuan-da-xiao-shu
 author: 韋應物
+authorPinyin: wei2 ying1 wu4
 authorSlug: wei-ying-wu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

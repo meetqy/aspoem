@@ -1,12 +1,16 @@
 ---
 id: zhang-shuo-you-zhou-ye-ge
 title: 幽州夜歌
+titlePinyin: you1 zhou1 ye4 ge1
 titleSlug: you-zhou-ye-ge
 author: 張說
+authorPinyin: zhang1 shuo1
 authorSlug: zhang-shuo
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: wang-bo-du-shao-fu-zhi-ren-shu-zhou
 title: 杜少府之任蜀州
+titlePinyin: du4 shao4 fu3 zhi1 ren4 shu3 zhou1
 titleSlug: du-shao-fu-zhi-ren-shu-zhou
 author: 王勃
+authorPinyin: wang2 bo2
 authorSlug: wang-bo
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

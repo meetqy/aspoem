@@ -1,10 +1,13 @@
 ---
 id: meng-hao-ran-yan-mei-dao-shi-shan-fang
 title: 宴梅道士山房
+titlePinyin: yan4 mei2 dao4 shi0 shan1 fang2
 titleSlug: yan-mei-dao-shi-shan-fang
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

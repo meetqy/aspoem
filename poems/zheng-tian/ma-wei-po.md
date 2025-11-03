@@ -1,10 +1,13 @@
 ---
 id: zheng-tian-ma-wei-po
 title: 馬嵬坡
+titlePinyin: ma3 wei2 po1
 titleSlug: ma-wei-po
 author: 鄭畋
+authorPinyin: zheng4 tian2
 authorSlug: zheng-tian
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

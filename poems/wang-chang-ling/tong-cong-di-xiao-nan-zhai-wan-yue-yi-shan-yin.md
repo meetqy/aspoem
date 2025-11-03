@@ -1,10 +1,13 @@
 ---
 id: wang-chang-ling-tong-cong-di-xiao-nan-zhai-wan-yue-yi-shan-yin
 title: 同從弟銷南齋玩月憶山陰
+titlePinyin: tong2 cong2 di4 xiao1 nan2 zhai1 wan2 yue4 yi4 shan1 yin1
 titleSlug: tong-cong-di-xiao-nan-zhai-wan-yue-yi-shan-yin
 author: 王昌齡
+authorPinyin: wang2 chang1 ling2
 authorSlug: wang-chang-ling
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

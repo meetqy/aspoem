@@ -1,12 +1,16 @@
 ---
 id: jin-chang-xu-yi-zhou-ge
 title: 伊州歌
+titlePinyin: yi1 zhou1 ge1
 titleSlug: yi-zhou-ge
 author: 金昌緒
+authorPinyin: jin1 chang1 xu4
 authorSlug: jin-chang-xu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,10 +1,13 @@
 ---
 id: meng-hao-ran-qiu-deng-lan-shan-ji-zhang-wu
 title: 秋登蘭山寄張五
+titlePinyin: qiu1 deng1 lan2 shan1 ji4 zhang1 wu3
 titleSlug: qiu-deng-lan-shan-ji-zhang-wu
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

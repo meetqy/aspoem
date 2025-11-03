@@ -1,10 +1,13 @@
 ---
 id: liu-zong-yuan-yu-weng
 title: 漁翁
+titlePinyin: yu2 weng1
 titleSlug: yu-weng
 author: 柳宗元
+authorPinyin: liu3 zong1 yuan2
 authorSlug: liu-zong-yuan
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

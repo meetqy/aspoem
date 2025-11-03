@@ -1,10 +1,13 @@
 ---
 id: liu-chang-qing-chang-sha-guo-jia-yi-zhai
 title: 長沙過賈誼宅
+titlePinyin: chang2 sha1 guo4 jia3 yi4 zhai2
 titleSlug: chang-sha-guo-jia-yi-zhai
 author: 劉長卿
+authorPinyin: liu2 chang2 qing1
 authorSlug: liu-chang-qing
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

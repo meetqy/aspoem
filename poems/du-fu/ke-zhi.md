@@ -1,10 +1,13 @@
 ---
 id: du-fu-ke-zhi
 title: 客至
+titlePinyin: ke4 zhi4
 titleSlug: ke-zhi
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

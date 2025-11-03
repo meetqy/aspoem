@@ -1,10 +1,13 @@
 ---
 id: qian-qi-zeng-que-xia-pei-she-ren
 title: 贈闕下裴舍人
+titlePinyin: zeng4 que4 xia4 pei2 she4 ren2
 titleSlug: zeng-que-xia-pei-she-ren
 author: 錢起
+authorPinyin: qian2 qi3
 authorSlug: qian-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

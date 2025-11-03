@@ -1,10 +1,13 @@
 ---
 id: liu-yu-xi-chun-ci
 title: 春詞
+titlePinyin: chun1 ci2
 titleSlug: chun-ci
 author: 劉禹錫
+authorPinyin: liu2 yu3 xi1
 authorSlug: liu-yu-xi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

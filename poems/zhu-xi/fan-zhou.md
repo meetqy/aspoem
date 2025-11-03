@@ -1,12 +1,16 @@
 ---
 id: zhu-xi-fan-zhou
 title: 泛舟
+titlePinyin: fan4 zhou1
 titleSlug: fan-zhou
 author: 朱熹
+authorPinyin: zhu1 xi1
 authorSlug: zhu-xi
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

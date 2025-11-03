@@ -1,12 +1,16 @@
 ---
 id: qi-wu-qian-su-long-xing-si
 title: 宿龍興寺
+titlePinyin: su4 long2 xing1 si4
 titleSlug: su-long-xing-si
 author: 綦毋潛
+authorPinyin: qi2 wu2 qian2
 authorSlug: qi-wu-qian
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

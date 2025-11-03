@@ -1,10 +1,13 @@
 ---
 id: quan-de-yu-yu-tai-ti
 title: 玉臺體
+titlePinyin: yu4 tai2 ti3
 titleSlug: yu-tai-ti
 author: 權德輿
+authorPinyin: quan2 de2 yu2
 authorSlug: quan-de-yu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

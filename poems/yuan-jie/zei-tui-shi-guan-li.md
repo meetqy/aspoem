@@ -1,10 +1,13 @@
 ---
 id: yuan-jie-zei-tui-shi-guan-li
 title: 賊退示官吏
+titlePinyin: zei2 tui4 shi4 guan1 li4
 titleSlug: zei-tui-shi-guan-li
 author: 元結
+authorPinyin: yuan2 jie2
 authorSlug: yuan-jie
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

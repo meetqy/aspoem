@@ -1,10 +1,13 @@
 ---
 id: liu-yu-xi-xi-sai-shan-huai-gu
 title: 西塞山懷古
+titlePinyin: xi1 sai4 shan1 huai2 gu3
 titleSlug: xi-sai-shan-huai-gu
 author: 劉禹錫
+authorPinyin: liu2 yu3 xi1
 authorSlug: liu-yu-xi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

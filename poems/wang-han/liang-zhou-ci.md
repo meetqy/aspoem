@@ -1,10 +1,13 @@
 ---
 id: wang-han-liang-zhou-ci
 title: 涼州詞
+titlePinyin: liang2 zhou1 ci2
 titleSlug: liang-zhou-ci
 author: 王翰
+authorPinyin: wang2 han4
 authorSlug: wang-han
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

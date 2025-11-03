@@ -1,12 +1,16 @@
 ---
 id: wang-ji-ye-wang
 title: 野望
+titlePinyin: ye3 wang4
 titleSlug: ye-wang
 author: 王績
+authorPinyin: wang2 ji4
 authorSlug: wang-ji
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

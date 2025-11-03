@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-chou-si
 title: 抽思
+titlePinyin: chou1 si1
 titleSlug: chou-si
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

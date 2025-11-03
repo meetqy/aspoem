@@ -1,10 +1,13 @@
 ---
 id: li-bai-jiang-jin-jiu
 title: 將進酒
+titlePinyin: jiang1 jin4 jiu3
 titleSlug: jiang-jin-jiu
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","樂府"]
 

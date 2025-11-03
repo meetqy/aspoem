@@ -1,12 +1,16 @@
 ---
 id: geng-wei-qiu-ri
 title: 秋日
+titlePinyin: qiu1 ri4
 titleSlug: qiu-ri
 author: 耿湋
+authorPinyin: geng3 wei2
 authorSlug: geng-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

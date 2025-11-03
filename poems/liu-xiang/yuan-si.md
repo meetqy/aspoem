@@ -1,12 +1,16 @@
 ---
 id: liu-xiang-yuan-si
 title: 怨思
+titlePinyin: yuan4 si1
 titleSlug: yuan-si
 author: 刘向
+authorPinyin: liu2 xiang4
 authorSlug: liu-xiang
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

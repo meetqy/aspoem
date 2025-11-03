@@ -1,12 +1,16 @@
 ---
 id: bai-yu-chan-zao-chun
 title: 早春
+titlePinyin: zao3 chun1
 titleSlug: zao-chun
 author: 白玉蟾
+authorPinyin: bai2 yu4 chan2
 authorSlug: bai-yu-chan
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

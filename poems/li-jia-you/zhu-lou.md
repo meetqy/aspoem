@@ -1,12 +1,16 @@
 ---
 id: li-jia-you-zhu-lou
 title: 竹樓
+titlePinyin: zhu2 lou2
 titleSlug: zhu-lou
 author: 李嘉佑
+authorPinyin: li3 jia1 you4
 authorSlug: li-jia-you
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

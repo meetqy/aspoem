@@ -1,10 +1,13 @@
 ---
 id: wang-wei-wang-chuan-xian-ju-zeng-pei-xiu-cai-di
 title: 輞川閒居贈裴秀才迪
+titlePinyin: wang3 chuan1 xian2 ju1 zeng4 pei2 xiu4 cai0 di2
 titleSlug: wang-chuan-xian-ju-zeng-pei-xiu-cai-di
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

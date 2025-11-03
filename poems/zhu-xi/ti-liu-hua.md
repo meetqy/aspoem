@@ -1,12 +1,16 @@
 ---
 id: zhu-xi-ti-liu-hua
 title: 題榴花
+titlePinyin: ti2 liu2 hua1
 titleSlug: ti-liu-hua
 author: 朱熹
+authorPinyin: zhu1 xi1
 authorSlug: zhu-xi
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

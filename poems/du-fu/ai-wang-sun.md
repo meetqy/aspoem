@@ -1,10 +1,13 @@
 ---
 id: du-fu-ai-wang-sun
 title: 哀王孫
+titlePinyin: ai1 wang2 sun1
 titleSlug: ai-wang-sun
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","樂府"]
 

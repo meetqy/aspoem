@@ -1,12 +1,16 @@
 ---
 id: li-yu-xiu-yu-li-xue-wen
 title: 余力學文
+titlePinyin: yu2 li4 xue2 wen2
 titleSlug: yu-li-xue-wen
 author: 李毓秀
+authorPinyin: li3 yu4 xiu4
 authorSlug: li-yu-xiu
 dynasty: 清
+dynastyPinyin: qing1
 dynastySlug: qing
 tags: ["蒙学"]
+
 ---
 
 ## 正文

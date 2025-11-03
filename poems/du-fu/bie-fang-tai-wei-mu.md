@@ -1,10 +1,13 @@
 ---
 id: du-fu-bie-fang-tai-wei-mu
 title: 別房太尉墓
+titlePinyin: bie2 fang2 tai4 wei4 mu4
 titleSlug: bie-fang-tai-wei-mu
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

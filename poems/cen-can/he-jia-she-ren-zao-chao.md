@@ -1,12 +1,16 @@
 ---
 id: cen-can-he-jia-she-ren-zao-chao
 title: 和賈舍人早朝
+titlePinyin: he2 jia3 she4 ren2 zao3 chao2
 titleSlug: he-jia-she-ren-zao-chao
 author: 岑參
+authorPinyin: cen2 can1
 authorSlug: cen-can
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

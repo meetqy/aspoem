@@ -1,10 +1,13 @@
 ---
 id: yuan-zhen-xing-gong
 title: 行宮
+titlePinyin: xing2 gong1
 titleSlug: xing-gong
 author: 元稹
+authorPinyin: yuan2 zhen3
 authorSlug: yuan-zhen
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

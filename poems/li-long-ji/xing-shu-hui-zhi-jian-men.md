@@ -1,12 +1,16 @@
 ---
 id: li-long-ji-xing-shu-hui-zhi-jian-men
 title: 幸蜀回至劍門
+titlePinyin: xing4 shu3 hui2 zhi4 jian4 men2
 titleSlug: xing-shu-hui-zhi-jian-men
 author: 李隆基
+authorPinyin: li3 long2 ji1
 authorSlug: li-long-ji
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

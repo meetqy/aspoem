@@ -1,10 +1,13 @@
 ---
 id: cui-tu-chu-ye-you-huai
 title: 除夜有懷
+titlePinyin: chu2 ye4 you3 huai2
 titleSlug: chu-ye-you-huai
 author: 崔塗
+authorPinyin: cui1 tu2
 authorSlug: cui-tu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

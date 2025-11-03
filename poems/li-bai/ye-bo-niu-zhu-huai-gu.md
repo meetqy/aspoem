@@ -1,10 +1,13 @@
 ---
 id: li-bai-ye-bo-niu-zhu-huai-gu
 title: 夜泊牛渚懷古
+titlePinyin: ye4 bo2 niu2 zhu3 huai2 gu3
 titleSlug: ye-bo-niu-zhu-huai-gu
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

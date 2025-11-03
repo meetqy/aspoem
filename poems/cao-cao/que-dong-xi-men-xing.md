@@ -1,12 +1,16 @@
 ---
 id: cao-cao-que-dong-xi-men-xing
 title: 却东西门行
+titlePinyin: que4 dong1 xi1 men2 xing2
 titleSlug: que-dong-xi-men-xing
 author: 曹操
+authorPinyin: cao2 cao1
 authorSlug: cao-cao
 dynasty: 东汉末年
+dynastyPinyin: dong1 han4 mo4 nian2
 dynastySlug: dong-han-mo-nian
 tags: []
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: seng-zhi-an-jue-ju
 title: 絕句
+titlePinyin: jue2 ju4
 titleSlug: jue-ju
 author: 僧志安
+authorPinyin: seng1 zhi4 an1
 authorSlug: seng-zhi-an
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,10 +1,13 @@
 ---
 id: zhu-qing-yu-jin-shi-shang-zhang-shui-bu
 title: 近試上張水部
+titlePinyin: jin4 shi4 shang4 zhang1 shui3 bu4
 titleSlug: jin-shi-shang-zhang-shui-bu
 author: 朱慶餘
+authorPinyin: zhu1 qing4 yu2
 authorSlug: zhu-qing-yu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

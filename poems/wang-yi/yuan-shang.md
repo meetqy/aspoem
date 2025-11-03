@@ -1,12 +1,16 @@
 ---
 id: wang-yi-yuan-shang
 title: 怨上
+titlePinyin: yuan4 shang4
 titleSlug: yuan-shang
 author: 王逸
+authorPinyin: wang2 yi4
 authorSlug: wang-yi
 dynasty: 东汉
+dynastyPinyin: dong1 han4
 dynastySlug: dong-han
 tags: []
+
 ---
 
 ## 正文

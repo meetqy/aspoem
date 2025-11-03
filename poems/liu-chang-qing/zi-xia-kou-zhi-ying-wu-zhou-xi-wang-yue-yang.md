@@ -1,10 +1,13 @@
 ---
 id: liu-chang-qing-zi-xia-kou-zhi-ying-wu-zhou-xi-wang-yue-yang
 title: 自夏口至鸚鵡洲夕望岳陽
+titlePinyin: zi4 xia4 kou3 zhi4 ying1 wu3 zhou1 xi1 wang4 yue4 yang2
 titleSlug: zi-xia-kou-zhi-ying-wu-zhou-xi-wang-yue-yang
 author: 劉長卿
+authorPinyin: liu2 chang2 qing1
 authorSlug: liu-chang-qing
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-xi-song
 title: 惜诵
+titlePinyin: xi1 song4
 titleSlug: xi-song
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

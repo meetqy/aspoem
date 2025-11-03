@@ -1,12 +1,16 @@
 ---
 id: wu-ming-shi-ti-bi
 title: 題壁
+titlePinyin: ti2 bi4
 titleSlug: ti-bi
 author: 無名氏
+authorPinyin: wu2 ming2 shi4
 authorSlug: wu-ming-shi
 dynasty: 未知
+dynastyPinyin: wei4 zhi1
 dynastySlug: wei-zhi
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

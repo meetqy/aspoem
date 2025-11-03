@@ -1,12 +1,16 @@
 ---
 id: cao-cao-du-guan-shan
 title: 度关山
+titlePinyin: du4 guan1 shan1
 titleSlug: du-guan-shan
 author: 曹操
+authorPinyin: cao2 cao1
 authorSlug: cao-cao
 dynasty: 东汉末年
+dynastyPinyin: dong1 han4 mo4 nian2
 dynastySlug: dong-han-mo-nian
 tags: []
+
 ---
 
 ## 正文

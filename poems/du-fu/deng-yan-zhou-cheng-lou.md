@@ -1,12 +1,16 @@
 ---
 id: du-fu-deng-yan-zhou-cheng-lou
 title: 登兗州城樓
+titlePinyin: deng1 yan3 zhou1 cheng2 lou2
 titleSlug: deng-yan-zhou-cheng-lou
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

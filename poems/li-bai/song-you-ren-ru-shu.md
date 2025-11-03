@@ -1,12 +1,16 @@
 ---
 id: li-bai-song-you-ren-ru-shu
 title: 送友人入蜀
+titlePinyin: song4 you3 ren2 ru4 shu3
 titleSlug: song-you-ren-ru-shu
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

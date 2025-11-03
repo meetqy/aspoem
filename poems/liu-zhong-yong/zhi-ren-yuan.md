@@ -1,10 +1,13 @@
 ---
 id: liu-zhong-yong-zhi-ren-yuan
 title: 徵人怨
+titlePinyin: zhi3 ren2 yuan4
 titleSlug: zhi-ren-yuan
 author: 柳中庸
+authorPinyin: liu3 zhong1 yong1
 authorSlug: liu-zhong-yong
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

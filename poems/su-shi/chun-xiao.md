@@ -1,12 +1,16 @@
 ---
 id: su-shi-chun-xiao
 title: 春宵
+titlePinyin: chun1 xiao1
 titleSlug: chun-xiao
 author: 蘇軾
+authorPinyin: su1 shi4
 authorSlug: su-shi
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

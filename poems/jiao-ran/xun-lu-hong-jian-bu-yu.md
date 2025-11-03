@@ -1,10 +1,13 @@
 ---
 id: jiao-ran-xun-lu-hong-jian-bu-yu
 title: 尋陸鴻漸不遇
+titlePinyin: xun2 lu4 hong2 jian4 bu2 yu4
 titleSlug: xun-lu-hong-jian-bu-yu
 author: 皎然
+authorPinyin: jiao3 ran2
 authorSlug: jiao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

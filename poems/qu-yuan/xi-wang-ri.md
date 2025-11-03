@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-xi-wang-ri
 title: 惜往日
+titlePinyin: xi1 wang3 ri4
 titleSlug: xi-wang-ri
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

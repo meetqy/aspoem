@@ -1,12 +1,16 @@
 ---
 id: wang-yi-feng-you
 title: 逢尤
+titlePinyin: feng2 you2
 titleSlug: feng-you
 author: 王逸
+authorPinyin: wang2 yi4
 authorSlug: wang-yi
 dynasty: 东汉
+dynastyPinyin: dong1 han4
 dynastySlug: dong-han
 tags: []
+
 ---
 
 ## 正文

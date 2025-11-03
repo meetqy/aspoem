@@ -1,12 +1,16 @@
 ---
 id: wang-ling-song-chun
 title: 送春
+titlePinyin: song4 chun1
 titleSlug: song-chun
 author: 王令
+authorPinyin: wang2 ling4
 authorSlug: wang-ling
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

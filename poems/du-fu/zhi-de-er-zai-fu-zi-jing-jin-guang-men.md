@@ -1,10 +1,13 @@
 ---
 id: du-fu-zhi-de-er-zai-fu-zi-jing-jin-guang-men
 title: 至德二載甫自京金光門
+titlePinyin: zhi4 de2 er4 zai4 fu3 zi4 jing1 jin1 guang1 men2
 titleSlug: zhi-de-er-zai-fu-zi-jing-jin-guang-men
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

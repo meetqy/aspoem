@@ -1,10 +1,13 @@
 ---
 id: wang-wei-zhong-nan-bie-ye
 title: 終南別業
+titlePinyin: zhong1 nan2 bie2 ye4
 titleSlug: zhong-nan-bie-ye
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

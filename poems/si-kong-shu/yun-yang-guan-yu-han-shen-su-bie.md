@@ -1,10 +1,13 @@
 ---
 id: si-kong-shu-yun-yang-guan-yu-han-shen-su-bie
 title: 雲陽館與韓紳宿別
+titlePinyin: yun2 yang2 guan3 yu3 han2 shen1 su4 bie2
 titleSlug: yun-yang-guan-yu-han-shen-su-bie
 author: 司空曙
+authorPinyin: si1 kong1 shu3
 authorSlug: si-kong-shu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

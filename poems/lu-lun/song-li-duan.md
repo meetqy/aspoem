@@ -1,10 +1,13 @@
 ---
 id: lu-lun-song-li-duan
 title: 送李端
+titlePinyin: song4 li3 duan1
 titleSlug: song-li-duan
 author: 盧綸
+authorPinyin: lu2 lun2
 authorSlug: lu-lun
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

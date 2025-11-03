@@ -1,12 +1,16 @@
 ---
 id: zhang-ji-feng-qiao-ye-bo
 title: 楓橋夜泊
+titlePinyin: feng1 qiao2 ye4 bo2
 titleSlug: feng-qiao-ye-bo
 author: 張繼
+authorPinyin: zhang1 ji4
 authorSlug: zhang-ji
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
-tags: ["七言絕句","千家诗","蒙学"]
+tags: ["蒙学","唐詩三百首","七言絕句"]
+
 ---
 
 ## 正文

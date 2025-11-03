@@ -1,10 +1,13 @@
 ---
 id: meng-hao-ran-wang-dong-ting-hu-zeng-zhang-cheng-xiang
 title: 望洞庭湖贈張丞相
+titlePinyin: wang4 dong4 ting2 hu2 zeng4 zhang1 cheng2 xiang4
 titleSlug: wang-dong-ting-hu-zeng-zhang-cheng-xiang
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

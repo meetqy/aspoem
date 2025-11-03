@@ -1,12 +1,16 @@
 ---
 id: wang-yi-zao-e
 title: 遭厄
+titlePinyin: zao1 e4
 titleSlug: zao-e
 author: 王逸
+authorPinyin: wang2 yi4
 authorSlug: wang-yi
 dynasty: 东汉
+dynastyPinyin: dong1 han4
 dynastySlug: dong-han
 tags: []
+
 ---
 
 ## 正文

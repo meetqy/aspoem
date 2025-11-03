@@ -1,10 +1,13 @@
 ---
 id: han-yu-ba-yue-shi-wu-ye-zeng-zhang-gong-cao
 title: 八月十五夜贈張功曹
+titlePinyin: ba1 yue4 shi2 wu3 ye4 zeng4 zhang1 gong1 cao2
 titleSlug: ba-yue-shi-wu-ye-zeng-zhang-gong-cao
 author: 韓愈
+authorPinyin: han2 yu4
 authorSlug: han-yu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

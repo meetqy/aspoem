@@ -1,12 +1,16 @@
 ---
 id: zhang-wei-tong-wang-zhi-jun-dong-ting-you-huai
 title: 同王徵君洞庭有懷
+titlePinyin: tong2 wang2 zhi3 jun1 dong4 ting2 you3 huai2
 titleSlug: tong-wang-zhi-jun-dong-ting-you-huai
 author: 張謂
+authorPinyin: zhang1 wei4
 authorSlug: zhang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

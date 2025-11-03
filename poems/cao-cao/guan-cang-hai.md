@@ -1,12 +1,16 @@
 ---
 id: cao-cao-guan-cang-hai
 title: 观沧海
+titlePinyin: guan1 cang1 hai3
 titleSlug: guan-cang-hai
 author: 曹操
+authorPinyin: cao2 cao1
 authorSlug: cao-cao
 dynasty: 东汉末年
+dynastyPinyin: dong1 han4 mo4 nian2
 dynastySlug: dong-han-mo-nian
 tags: []
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: xie-fang-de-qing-quan-an-tao-hua
 title: 慶全庵桃花
+titlePinyin: qing4 quan2 an1 tao2 hua1
 titleSlug: qing-quan-an-tao-hua
 author: 謝枋得
+authorPinyin: xie4 fang1 de2
 authorSlug: xie-fang-de
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

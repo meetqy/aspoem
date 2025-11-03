@@ -1,10 +1,13 @@
 ---
 id: wang-wei-tao-yuan-xing
 title: 桃源行
+titlePinyin: tao2 yuan2 xing2
 titleSlug: tao-yuan-xing
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","樂府"]
 

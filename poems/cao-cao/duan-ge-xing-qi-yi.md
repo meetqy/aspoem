@@ -1,12 +1,16 @@
 ---
 id: cao-cao-duan-ge-xing-qi-yi
 title: 短歌行 其一
+titlePinyin: duan3 ge1 xing2   qi2 yi1
 titleSlug: duan-ge-xing-qi-yi
 author: 曹操
+authorPinyin: cao2 cao1
 authorSlug: cao-cao
 dynasty: 东汉末年
+dynastyPinyin: dong1 han4 mo4 nian2
 dynastySlug: dong-han-mo-nian
 tags: []
+
 ---
 
 ## 正文

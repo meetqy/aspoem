@@ -1,10 +1,13 @@
 ---
 id: cui-tu-gu-yan
 title: 孤雁
+titlePinyin: gu1 yan4
 titleSlug: gu-yan
 author: 崔塗
+authorPinyin: cui1 tu2
 authorSlug: cui-tu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

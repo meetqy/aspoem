@@ -1,12 +1,16 @@
 ---
 id: qiu-wei-zuo-ye-li-hua
 title: 左掖梨花
+titlePinyin: zuo3 ye4 li2 hua1
 titleSlug: zuo-ye-li-hua
 author: 丘爲
+authorPinyin: qiu1 wei2
 authorSlug: qiu-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

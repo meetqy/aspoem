@@ -1,10 +1,13 @@
 ---
 id: chen-zi-ang-deng-you-zhou-tai-ge
 title: 登幽州臺歌
+titlePinyin: deng1 you1 zhou1 tai2 ge1
 titleSlug: deng-you-zhou-tai-ge
 author: 陳子昂
+authorPinyin: chen2 zi3 ang2
 authorSlug: chen-zi-ang
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

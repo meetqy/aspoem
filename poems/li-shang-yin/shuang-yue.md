@@ -1,12 +1,16 @@
 ---
 id: li-shang-yin-shuang-yue
 title: 霜月
+titlePinyin: shuang1 yue4
 titleSlug: shuang-yue
 author: 李商隱
+authorPinyin: li3 shang1 yin3
 authorSlug: li-shang-yin
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

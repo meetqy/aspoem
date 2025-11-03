@@ -1,12 +1,16 @@
 ---
 id: lu-you-xin-zhu
 title: 新竹
+titlePinyin: xin1 zhu2
 titleSlug: xin-zhu
 author: 陸游
+authorPinyin: lu4 you2
 authorSlug: lu-you
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

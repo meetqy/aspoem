@@ -1,10 +1,13 @@
 ---
 id: han-hong-tong-ti-xian-you-guan
 title: 同題仙遊觀
+titlePinyin: tong2 ti2 xian1 you2 guan1
 titleSlug: tong-ti-xian-you-guan
 author: 韓翃
+authorPinyin: han2 hong2
 authorSlug: han-hong
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

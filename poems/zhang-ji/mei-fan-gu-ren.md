@@ -1,10 +1,13 @@
 ---
 id: zhang-ji-mei-fan-gu-ren
 title: 沒蕃故人
+titlePinyin: mei2 fan1 gu4 ren2
 titleSlug: mei-fan-gu-ren
 author: 張籍
+authorPinyin: zhang1 ji2
 authorSlug: zhang-ji
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

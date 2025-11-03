@@ -1,18 +1,22 @@
 ---
 id: du-mu-qiu-xi
 title: 秋夕
+titlePinyin: qiu1 xi1
 titleSlug: qiu-xi
 author: 杜牧
+authorPinyin: du4 mu4
 authorSlug: du-mu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
-tags: ["七言絕句","千家诗","蒙学"]
+tags: ["蒙学","唐詩三百首","七言絕句"]
+
 ---
 
 ## 正文
 
 - 銀燭秋光冷畫屏，輕羅小扇撲流螢。
-- 天街夜色涼如水，臥看牽牛織女星。
+- 天階夜色涼如水，臥看牽牛織女星。
 
 ## 拼音
 

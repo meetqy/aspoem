@@ -1,10 +1,13 @@
 ---
 id: li-qi-song-wei-wan-zhi-jing
 title: 送魏萬之京
+titlePinyin: song4 wei4 wan4 zhi1 jing1
 titleSlug: song-wei-wan-zhi-jing
 author: 李頎
+authorPinyin: li3 qi2
 authorSlug: li-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

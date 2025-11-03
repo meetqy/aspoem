@@ -1,12 +1,16 @@
 ---
 id: li-jiao-chang-ning-gong-zhu-dong-zhuang-shi-yan
 title: 長寧公主東莊侍宴
+titlePinyin: chang2 ning2 gong1 zhu3 dong1 zhuang1 shi4 yan4
 titleSlug: chang-ning-gong-zhu-dong-zhuang-shi-yan
 author: 李嶠
+authorPinyin: li3 jiao4
 authorSlug: li-jiao
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-xiang-jun
 title: 湘君
+titlePinyin: xiang1 jun1
 titleSlug: xiang-jun
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

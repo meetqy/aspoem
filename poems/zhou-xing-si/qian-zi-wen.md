@@ -1,12 +1,16 @@
 ---
 id: zhou-xing-si-qian-zi-wen
 title: 千字文
+titlePinyin: qian1 zi4 wen2
 titleSlug: qian-zi-wen
 author: 周興嗣
+authorPinyin: zhou1 xing1 si4
 authorSlug: zhou-xing-si
 dynasty: 南北
+dynastyPinyin: nan2 bei3
 dynastySlug: nan-bei
 tags: ["蒙学"]
+
 ---
 
 ## 正文

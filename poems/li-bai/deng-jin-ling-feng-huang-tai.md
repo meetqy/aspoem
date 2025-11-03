@@ -1,10 +1,13 @@
 ---
 id: li-bai-deng-jin-ling-feng-huang-tai
 title: 登金陵鳳凰臺
+titlePinyin: deng1 jin1 ling2 feng4 huang2 tai2
 titleSlug: deng-jin-ling-feng-huang-tai
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

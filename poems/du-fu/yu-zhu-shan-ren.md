@@ -1,12 +1,16 @@
 ---
 id: du-fu-yu-zhu-shan-ren
 title: 與朱山人
+titlePinyin: yu3 zhu1 shan1 ren2
 titleSlug: yu-zhu-shan-ren
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

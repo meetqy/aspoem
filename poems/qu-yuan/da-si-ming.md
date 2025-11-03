@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-da-si-ming
 title: 大司命
+titlePinyin: da4 si1 ming4
 titleSlug: da-si-ming
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

@@ -1,10 +1,13 @@
 ---
 id: liu-fang-ping-chun-yuan
 title: 春怨
+titlePinyin: chun1 yuan4
 titleSlug: chun-yuan
 author: 劉方平
+authorPinyin: liu2 fang1 ping2
 authorSlug: liu-fang-ping
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

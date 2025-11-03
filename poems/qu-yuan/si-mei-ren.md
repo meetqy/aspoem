@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-si-mei-ren
 title: 思美人
+titlePinyin: si1 mei3 ren2
 titleSlug: si-mei-ren
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: wang-wei-song-yuan-er-shi-an-xi
 title: 送元二使安西
+titlePinyin: song4 yuan2 er4 shi3 an1 xi1
 titleSlug: song-yuan-er-shi-an-xi
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: zhao-gu-chang-an-qiu-wang
 title: 長安秋望
+titlePinyin: chang2 an1 qiu1 wang4
 titleSlug: chang-an-qiu-wang
 author: 趙嘏
+authorPinyin: zhao4 gu3
 authorSlug: zhao-gu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

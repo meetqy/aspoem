@@ -1,10 +1,13 @@
 ---
 id: wang-chang-ling-fu-rong-lou-song-xin-jian
 title: 芙蓉樓送辛漸
+titlePinyin: fu2 rong2 lou2 song4 xin1 jian4
 titleSlug: fu-rong-lou-song-xin-jian
 author: 王昌齡
+authorPinyin: wang2 chang1 ling2
 authorSlug: wang-chang-ling
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

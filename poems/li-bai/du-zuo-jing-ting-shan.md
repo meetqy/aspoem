@@ -1,12 +1,16 @@
 ---
 id: li-bai-du-zuo-jing-ting-shan
 title: 獨坐敬亭山
+titlePinyin: du2 zuo4 jing4 ting2 shan1
 titleSlug: du-zuo-jing-ting-shan
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

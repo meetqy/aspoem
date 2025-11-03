@@ -1,10 +1,13 @@
 ---
 id: wang-wei-za-shi
 title: 雜詩
+titlePinyin: za2 shi1
 titleSlug: za-shi
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

@@ -1,10 +1,13 @@
 ---
 id: liu-shen-xu-que-ti
 title: 闕題
+titlePinyin: que4 ti2
 titleSlug: que-ti
 author: 劉昚虛
+authorPinyin: liu2 shen4 xu1
 authorSlug: liu-shen-xu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

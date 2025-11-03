@@ -1,12 +1,16 @@
 ---
 id: dong-fang-shuo-miu-jian
 title: 谬谏
+titlePinyin: miu4 jian4
 titleSlug: miu-jian
 author: 东方朔
+authorPinyin: dong1 fang1 shuo4
 authorSlug: dong-fang-shuo
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

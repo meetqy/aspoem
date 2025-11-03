@@ -1,12 +1,16 @@
 ---
 id: liu-ke-zhuang-dong-jing
 title: 冬景
+titlePinyin: dong1 jing3
 titleSlug: dong-jing
 author: 劉克莊
+authorPinyin: liu2 ke4 zhuang1
 authorSlug: liu-ke-zhuang
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

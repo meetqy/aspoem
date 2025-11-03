@@ -1,12 +1,16 @@
 ---
 id: hong-zi-kui-zhen-yu-tang-zuo
 title: 真玉堂作
+titlePinyin: zhen1 yu4 tang2 zuo4
 titleSlug: zhen-yu-tang-zuo
 author: 洪諮夔
+authorPinyin: hong2 zi1 kui2
 authorSlug: hong-zi-kui
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

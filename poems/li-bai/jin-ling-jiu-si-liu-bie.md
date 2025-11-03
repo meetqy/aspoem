@@ -1,10 +1,13 @@
 ---
 id: li-bai-jin-ling-jiu-si-liu-bie
 title: 金陵酒肆留別
+titlePinyin: jin1 ling2 jiu3 si4 liu2 bie2
 titleSlug: jin-ling-jiu-si-liu-bie
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

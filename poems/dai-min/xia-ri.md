@@ -1,12 +1,16 @@
 ---
 id: dai-min-xia-ri
 title: 夏日
+titlePinyin: xia4 ri4
 titleSlug: xia-ri
 author: 戴敏
+authorPinyin: dai4 min3
 authorSlug: dai-min
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

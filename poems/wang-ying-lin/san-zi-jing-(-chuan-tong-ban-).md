@@ -1,12 +1,16 @@
 ---
 id: wang-ying-lin-san-zi-jing-(-chuan-tong-ban-)
 title: 三字經 (傳統版)
+titlePinyin: san1 zi4 jing1   ( chuan2 tong3 ban3 )
 titleSlug: san-zi-jing-(-chuan-tong-ban-)
 author: 王應麟
+authorPinyin: wang2 ying1 lin2
 authorSlug: wang-ying-lin
 dynasty: 南宋到清末
+dynastyPinyin: nan2 song4 dao4 qing1 mo4
 dynastySlug: nan-song-dao-qing-mo
 tags: ["蒙学"]
+
 ---
 
 ## 正文

@@ -1,10 +1,13 @@
 ---
 id: wang-wei-song-zi-zhou-li-shi-jun
 title: 送梓州李使君
+titlePinyin: song4 zi3 zhou1 li3 shi3 jun1
 titleSlug: song-zi-zhou-li-shi-jun
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

@@ -1,12 +1,16 @@
 ---
 id: zhang-wen-qian-xia-ri
 title: 夏日
+titlePinyin: xia4 ri4
 titleSlug: xia-ri
 author: 張文潛
+authorPinyin: zhang1 wen2 qian2
 authorSlug: zhang-wen-qian
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

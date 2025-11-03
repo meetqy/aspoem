@@ -1,10 +1,13 @@
 ---
 id: liu-zong-yuan-deng-liu-zhou-cheng-lou-ji-zhang-ting-feng-lian-si-zhou
 title: 登柳州城樓寄漳汀封連四州
+titlePinyin: deng1 liu3 zhou1 cheng2 lou2 ji4 zhang1 ting1 feng1 lian2 si4 zhou1
 titleSlug: deng-liu-zhou-cheng-lou-ji-zhang-ting-feng-lian-si-zhou
 author: 柳宗元
+authorPinyin: liu3 zong1 yuan2
 authorSlug: liu-zong-yuan
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

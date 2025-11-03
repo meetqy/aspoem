@@ -1,10 +1,13 @@
 ---
 id: song-zhi-wen-ti-da-yu-ling-bei-yi
 title: 題大庾嶺北驛
+titlePinyin: ti2 da4 yu3 ling3 bei3 yi4
 titleSlug: ti-da-yu-ling-bei-yi
 author: 宋之問
+authorPinyin: song4 zhi1 wen4
 authorSlug: song-zhi-wen
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

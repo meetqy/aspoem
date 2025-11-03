@@ -1,12 +1,16 @@
 ---
 id: luo-bin-wang-yi-shui-song-bie
 title: 易水送別
+titlePinyin: yi4 shui3 song4 bie2
 titleSlug: yi-shui-song-bie
 author: 駱賓王
+authorPinyin: luo4 bin1 wang2
 authorSlug: luo-bin-wang
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: wang-an-shi-mao-yan
 title: 茅檐
+titlePinyin: mao2 yan2
 titleSlug: mao-yan
 author: 王安石
+authorPinyin: wang2 an1 shi2
 authorSlug: wang-an-shi
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

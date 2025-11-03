@@ -1,10 +1,13 @@
 ---
 id: wang-wei-xi-shi-yong
 title: 西施詠
+titlePinyin: xi1 shi1 yong3
 titleSlug: xi-shi-yong
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

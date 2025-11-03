@@ -1,12 +1,16 @@
 ---
 id: liu-xiang-feng-fen
 title: 逢纷
+titlePinyin: feng2 fen1
 titleSlug: feng-fen
 author: 刘向
+authorPinyin: liu2 xiang4
 authorSlug: liu-xiang
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

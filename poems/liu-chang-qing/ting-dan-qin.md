@@ -1,10 +1,13 @@
 ---
 id: liu-chang-qing-ting-dan-qin
 title: 聽彈琴
+titlePinyin: ting1 dan4 qin2
 titleSlug: ting-dan-qin
 author: 劉長卿
+authorPinyin: liu2 chang2 qing1
 authorSlug: liu-chang-qing
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

@@ -1,10 +1,13 @@
 ---
 id: du-mu-jiang-fu-wu-xing-deng-le-you-yuan-yi-jue
 title: 將赴吳興登樂遊原一絕
+titlePinyin: jiang1 fu4 wu2 xing1 deng1 le4 you2 yuan2 yi4 jue2
 titleSlug: jiang-fu-wu-xing-deng-le-you-yuan-yi-jue
 author: 杜牧
+authorPinyin: du4 mu4
 authorSlug: du-mu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

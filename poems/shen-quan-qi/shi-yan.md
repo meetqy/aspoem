@@ -1,12 +1,16 @@
 ---
 id: shen-quan-qi-shi-yan
 title: 侍宴
+titlePinyin: shi4 yan4
 titleSlug: shi-yan
 author: 沈佺期
+authorPinyin: shen3 quan2 qi1
 authorSlug: shen-quan-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

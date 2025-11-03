@@ -1,12 +1,16 @@
 ---
 id: jing-cha-da-zhao
 title: 大招
+titlePinyin: da4 zhao1
 titleSlug: da-zhao
 author: 景差
+authorPinyin: jing3 cha4
 authorSlug: jing-cha
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

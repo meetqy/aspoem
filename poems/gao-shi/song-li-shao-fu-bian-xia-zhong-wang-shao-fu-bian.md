@@ -1,10 +1,13 @@
 ---
 id: gao-shi-song-li-shao-fu-bian-xia-zhong-wang-shao-fu-bian
 title: 送李少府貶峽中王少府貶
+titlePinyin: song4 li3 shao4 fu3 bian3 xia2 zhong1 wang2 shao4 fu3 bian3
 titleSlug: song-li-shao-fu-bian-xia-zhong-wang-shao-fu-bian
 author: 高適
+authorPinyin: gao1 shi4
 authorSlug: gao-shi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

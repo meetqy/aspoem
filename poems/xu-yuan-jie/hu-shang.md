@@ -1,12 +1,16 @@
 ---
 id: xu-yuan-jie-hu-shang
 title: 湖上
+titlePinyin: hu2 shang4
 titleSlug: hu-shang
 author: 徐元傑
+authorPinyin: xu2 yuan2 jie2
 authorSlug: xu-yuan-jie
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

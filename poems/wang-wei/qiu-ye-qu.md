@@ -1,10 +1,13 @@
 ---
 id: wang-wei-qiu-ye-qu
 title: 秋夜曲
+titlePinyin: qiu1 ye4 qu3
 titleSlug: qiu-ye-qu
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","樂府"]
 

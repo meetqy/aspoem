@@ -1,12 +1,16 @@
 ---
 id: wang-bao-tao-yong
 title: 陶壅
+titlePinyin: tao2 yong1
 titleSlug: tao-yong
 author: 王褒
+authorPinyin: wang2 bao1
 authorSlug: wang-bao
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

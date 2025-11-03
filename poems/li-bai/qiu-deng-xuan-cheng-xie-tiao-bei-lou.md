@@ -1,12 +1,16 @@
 ---
 id: li-bai-qiu-deng-xuan-cheng-xie-tiao-bei-lou
 title: 秋登宣城謝眺北樓
+titlePinyin: qiu1 deng1 xuan1 cheng2 xie4 tiao4 bei3 lou2
 titleSlug: qiu-deng-xuan-cheng-xie-tiao-bei-lou
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

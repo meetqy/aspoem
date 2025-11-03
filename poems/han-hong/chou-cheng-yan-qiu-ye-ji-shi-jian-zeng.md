@@ -1,10 +1,13 @@
 ---
 id: han-hong-chou-cheng-yan-qiu-ye-ji-shi-jian-zeng
 title: 酬程延秋夜即事見贈
+titlePinyin: chou2 cheng2 yan2 qiu1 ye4 ji2 shi4 jian4 zeng4
 titleSlug: chou-cheng-yan-qiu-ye-ji-shi-jian-zeng
 author: 韓翃
+authorPinyin: han2 hong2
 authorSlug: han-hong
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

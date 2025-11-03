@@ -1,10 +1,13 @@
 ---
 id: liu-chang-qing-xin-nian-zuo
 title: 新年作
+titlePinyin: xin1 nian2 zuo4
 titleSlug: xin-nian-zuo
 author: 劉長卿
+authorPinyin: liu2 chang2 qing1
 authorSlug: liu-chang-qing
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

@@ -1,12 +1,16 @@
 ---
 id: ceng-ji-san-qu-dao-zhong
 title: 三衢道中
+titlePinyin: san1 qu2 dao4 zhong1
 titleSlug: san-qu-dao-zhong
 author: 曾幾
+authorPinyin: ceng2 ji1
 authorSlug: ceng-ji
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

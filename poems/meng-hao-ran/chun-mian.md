@@ -1,12 +1,16 @@
 ---
 id: meng-hao-ran-chun-mian
 title: 春眠
+titlePinyin: chun1 mian2
 titleSlug: chun-mian
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

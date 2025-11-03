@@ -1,12 +1,16 @@
 ---
 id: dong-fang-shuo-chu-fang
 title: 初放
+titlePinyin: chu1 fang4
 titleSlug: chu-fang
 author: 东方朔
+authorPinyin: dong1 fang1 shuo4
 authorSlug: dong-fang-shuo
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

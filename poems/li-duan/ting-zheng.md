@@ -1,10 +1,13 @@
 ---
 id: li-duan-ting-zheng
 title: 聽箏
+titlePinyin: ting1 zheng1
 titleSlug: ting-zheng
 author: 李端
+authorPinyin: li3 duan1
 authorSlug: li-duan
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

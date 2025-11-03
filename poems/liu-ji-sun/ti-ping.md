@@ -1,12 +1,16 @@
 ---
 id: liu-ji-sun-ti-ping
 title: 題屏
+titlePinyin: ti2 ping2
 titleSlug: ti-ping
 author: 劉季孫
+authorPinyin: liu2 ji4 sun1
 authorSlug: liu-ji-sun
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

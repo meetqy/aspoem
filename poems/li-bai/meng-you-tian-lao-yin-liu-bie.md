@@ -1,10 +1,13 @@
 ---
 id: li-bai-meng-you-tian-lao-yin-liu-bie
 title: 夢遊天姥吟留別
+titlePinyin: meng4 you2 tian1 lao3 yin2 liu2 bie2
 titleSlug: meng-you-tian-lao-yin-liu-bie
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

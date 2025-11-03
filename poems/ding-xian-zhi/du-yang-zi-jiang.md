@@ -1,12 +1,16 @@
 ---
 id: ding-xian-zhi-du-yang-zi-jiang
 title: 渡揚子江
+titlePinyin: du4 yang2 zi3 jiang1
 titleSlug: du-yang-zi-jiang
 author: 丁仙芝
+authorPinyin: ding1 xian1 zhi1
 authorSlug: ding-xian-zhi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

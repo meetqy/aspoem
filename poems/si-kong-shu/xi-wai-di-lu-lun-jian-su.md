@@ -1,10 +1,13 @@
 ---
 id: si-kong-shu-xi-wai-di-lu-lun-jian-su
 title: 喜外弟盧綸見宿
+titlePinyin: xi3 wai4 di4 lu2 lun2 jian4 su4
 titleSlug: xi-wai-di-lu-lun-jian-su
 author: 司空曙
+authorPinyin: si1 kong1 shu3
 authorSlug: si-kong-shu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

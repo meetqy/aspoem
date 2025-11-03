@@ -1,10 +1,13 @@
 ---
 id: liu-chang-qing-xun-nan-xi-chang-dao-shi
 title: 尋南溪常道士
+titlePinyin: xun2 nan2 xi1 chang2 dao4 shi0
 titleSlug: xun-nan-xi-chang-dao-shi
 author: 劉長卿
+authorPinyin: liu2 chang2 qing1
 authorSlug: liu-chang-qing
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

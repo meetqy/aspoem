@@ -1,12 +1,16 @@
 ---
 id: wang-chang-ling-song-guo-si-cang
 title: 送郭司倉
+titlePinyin: song4 guo1 si1 cang1
 titleSlug: song-guo-si-cang
 author: 王昌齡
+authorPinyin: wang2 chang1 ling2
 authorSlug: wang-chang-ling
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

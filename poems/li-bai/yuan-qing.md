@@ -1,10 +1,13 @@
 ---
 id: li-bai-yuan-qing
 title: 怨情
+titlePinyin: yuan4 qing2
 titleSlug: yuan-qing
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

@@ -1,12 +1,16 @@
 ---
 id: zheng-hui-ti-di-jian-bi
 title: 題邸間壁
+titlePinyin: ti2 di3 jian4 bi4
 titleSlug: ti-di-jian-bi
 author: 鄭會
+authorPinyin: zheng4 hui4
 authorSlug: zheng-hui
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

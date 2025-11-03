@@ -1,12 +1,16 @@
 ---
 id: wei-ying-wu-chu-zhou-xi-jian
 title: 滁州西澗
+titlePinyin: chu2 zhou1 xi1 jian4
 titleSlug: chu-zhou-xi-jian
 author: 韋應物
+authorPinyin: wei2 ying1 wu4
 authorSlug: wei-ying-wu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
-tags: ["七言絕句","千家诗","蒙学"]
+tags: ["蒙学","唐詩三百首","七言絕句"]
+
 ---
 
 ## 正文

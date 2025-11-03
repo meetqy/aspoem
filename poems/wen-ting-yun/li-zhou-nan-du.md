@@ -1,10 +1,13 @@
 ---
 id: wen-ting-yun-li-zhou-nan-du
 title: 利州南渡
+titlePinyin: li4 zhou1 nan2 du4
 titleSlug: li-zhou-nan-du
 author: 溫庭筠
+authorPinyin: wen1 ting2 yun2
 authorSlug: wen-ting-yun
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

@@ -1,12 +1,16 @@
 ---
 id: cao-cao-tang-shang-xing
 title: 塘上行
+titlePinyin: tang2 shang4 xing2
 titleSlug: tang-shang-xing
 author: 曹操
+authorPinyin: cao2 cao1
 authorSlug: cao-cao
 dynasty: 东汉末年
+dynastyPinyin: dong1 han4 mo4 nian2
 dynastySlug: dong-han-mo-nian
 tags: []
+
 ---
 
 ## 正文

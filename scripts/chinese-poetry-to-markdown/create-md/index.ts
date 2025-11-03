@@ -3,6 +3,7 @@ import { join } from 'node:path'
 import CompleteDict from '@pinyin-pro/data/complete'
 import { ensureDirSync } from 'fs-extra'
 import { addDict, pinyin } from 'pinyin-pro'
+import slugify from 'slugify'
 import { replacePunctuation, splitLine } from './format'
 
 addDict(CompleteDict)
@@ -19,7 +20,7 @@ interface Poem {
 }
 
 function genSlug(text: string) {
-  return pinyin(text, { toneType: 'none' }).replace(/\s+/g, '-').toLowerCase()
+  return slugify(pinyin(text, { toneType: 'none' }).replace(/\s+/g, '-').toLowerCase())
 }
 
 function escapeMarkdown(paragraphs: string | string[]) {
@@ -62,10 +63,13 @@ ${poem.parent.map(p => `    ${p}:${genSlug(p)}`).join('\n')}`
   const str = `---
 id: ${id}
 title: ${poem.title}
+titlePinyin: ${pinyin(poem.title, { toneType: 'num' })}
 titleSlug: ${titleSlug}
 author: ${poem.author}
+authorPinyin: ${pinyin(poem.author, { toneType: 'num' })}
 authorSlug: ${authorSlug}
 dynasty: ${poem.dynasty}
+dynastyPinyin: ${pinyin(poem.dynasty, { toneType: 'num' })}
 dynastySlug: ${dynastySlug}
 tags: ${JSON.stringify(poem.tags || [])} 
 ${parentStr}

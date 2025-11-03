@@ -1,10 +1,13 @@
 ---
 id: liu-chang-qing-jian-bie-wang-shi-yi-nan-you
 title: 餞別王十一南遊
+titlePinyin: jian4 bie2 wang2 shi2 yi1 nan2 you2
 titleSlug: jian-bie-wang-shi-yi-nan-you
 author: 劉長卿
+authorPinyin: liu2 chang2 qing1
 authorSlug: liu-chang-qing
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

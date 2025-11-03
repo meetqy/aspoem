@@ -1,10 +1,13 @@
 ---
 id: jin-chang-xu-chun-yuan
 title: 春怨
+titlePinyin: chun1 yuan4
 titleSlug: chun-yuan
 author: 金昌緒
+authorPinyin: jin1 chang1 xu4
 authorSlug: jin-chang-xu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

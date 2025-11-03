@@ -1,12 +1,16 @@
 ---
 id: du-fu-ti-xuan-wu-shan-shi-wu-bi
 title: 題玄武禪師屋壁
+titlePinyin: ti2 xuan2 wu3 shan4 shi1 wu1 bi4
 titleSlug: ti-xuan-wu-shan-shi-wu-bi
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

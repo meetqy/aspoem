@@ -1,10 +1,13 @@
 ---
 id: wen-ting-yun-yao-se-yuan
 title: 瑤瑟怨
+titlePinyin: yao2 se4 yuan4
 titleSlug: yao-se-yuan
 author: 溫庭筠
+authorPinyin: wen1 ting2 yun2
 authorSlug: wen-ting-yun
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

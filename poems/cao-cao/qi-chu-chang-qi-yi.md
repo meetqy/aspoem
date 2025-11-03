@@ -1,12 +1,16 @@
 ---
 id: cao-cao-qi-chu-chang-qi-yi
 title: 气出唱 其一
+titlePinyin: qi4 chu1 chang4   qi2 yi1
 titleSlug: qi-chu-chang-qi-yi
 author: 曹操
+authorPinyin: cao2 cao1
 authorSlug: cao-cao
 dynasty: 东汉末年
+dynastyPinyin: dong1 han4 mo4 nian2
 dynastySlug: dong-han-mo-nian
 tags: []
+
 ---
 
 ## 正文

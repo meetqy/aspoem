@@ -1,10 +1,13 @@
 ---
 id: li-bai-shu-dao-nan
 title: 蜀道難
+titlePinyin: shu3 dao4 nan2
 titleSlug: shu-dao-nan
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","樂府"]
 

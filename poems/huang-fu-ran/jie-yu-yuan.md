@@ -1,12 +1,16 @@
 ---
 id: huang-fu-ran-jie-yu-yuan
 title: 婕妤怨
+titlePinyin: jie2 yu2 yuan4
 titleSlug: jie-yu-yuan
 author: 皇甫冉
+authorPinyin: huang2 fu3 ran3
 authorSlug: huang-fu-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

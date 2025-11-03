@@ -1,12 +1,16 @@
 ---
 id: gao-shi-yu-tai-guan
 title: 玉臺觀
+titlePinyin: yu4 tai2 guan1
 titleSlug: yu-tai-guan
 author: 高適
+authorPinyin: gao1 shi4
 authorSlug: gao-shi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

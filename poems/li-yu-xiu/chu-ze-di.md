@@ -1,12 +1,16 @@
 ---
 id: li-yu-xiu-chu-ze-di
 title: 出則弟
+titlePinyin: chu1 ze2 di4
 titleSlug: chu-ze-di
 author: 李毓秀
+authorPinyin: li3 yu4 xiu4
 authorSlug: li-yu-xiu
 dynasty: 清
+dynastyPinyin: qing1
 dynastySlug: qing
 tags: ["蒙学"]
+
 ---
 
 ## 正文

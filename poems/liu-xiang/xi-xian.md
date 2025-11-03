@@ -1,12 +1,16 @@
 ---
 id: liu-xiang-xi-xian
 title: 惜贤
+titlePinyin: xi1 xian2
 titleSlug: xi-xian
 author: 刘向
+authorPinyin: liu2 xiang4
 authorSlug: liu-xiang
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

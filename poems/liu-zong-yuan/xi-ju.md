@@ -1,10 +1,13 @@
 ---
 id: liu-zong-yuan-xi-ju
 title: 溪居
+titlePinyin: xi1 ju1
 titleSlug: xi-ju
 author: 柳宗元
+authorPinyin: liu3 zong1 yuan2
 authorSlug: liu-zong-yuan
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

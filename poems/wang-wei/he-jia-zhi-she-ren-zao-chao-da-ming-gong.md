@@ -1,10 +1,13 @@
 ---
 id: wang-wei-he-jia-zhi-she-ren-zao-chao-da-ming-gong
 title: 和賈至舍人早朝大明宮
+titlePinyin: he2 jia3 zhi4 she4 ren2 zao3 chao2 da4 ming2 gong1
 titleSlug: he-jia-zhi-she-ren-zao-chao-da-ming-gong
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

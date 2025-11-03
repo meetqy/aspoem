@@ -1,12 +1,16 @@
 ---
 id: liu-yu-xi-zai-you-xuan-dou-guan
 title: 再遊玄都觀
+titlePinyin: zai4 you2 xuan2 dou1 guan1
 titleSlug: zai-you-xuan-dou-guan
 author: 劉禹錫
+authorPinyin: liu2 yu3 xi1
 authorSlug: liu-yu-xi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

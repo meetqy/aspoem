@@ -1,10 +1,13 @@
 ---
 id: liu-zong-yuan-chen-yi-chao-shi-yuan-du-shan-jing
 title: 晨詣超師院讀禪經
+titlePinyin: chen2 yi4 chao1 shi1 yuan4 du2 shan4 jing1
 titleSlug: chen-yi-chao-shi-yuan-du-shan-jing
 author: 柳宗元
+authorPinyin: liu3 zong1 yuan2
 authorSlug: liu-zong-yuan
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

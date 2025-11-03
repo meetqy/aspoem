@@ -1,10 +1,13 @@
 ---
 id: lu-lun-wan-ci-e-zhou
 title: 晚次鄂州
+titlePinyin: wan3 ci4 e4 zhou1
 titleSlug: wan-ci-e-zhou
 author: 盧綸
+authorPinyin: lu2 lun2
 authorSlug: lu-lun
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

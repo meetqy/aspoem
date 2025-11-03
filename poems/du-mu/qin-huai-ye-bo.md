@@ -1,12 +1,16 @@
 ---
 id: du-mu-qin-huai-ye-bo
 title: 秦淮夜泊
+titlePinyin: qin2 huai2 ye4 bo2
 titleSlug: qin-huai-ye-bo
 author: 杜牧
+authorPinyin: du4 mu4
 authorSlug: du-mu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

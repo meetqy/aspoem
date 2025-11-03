@@ -1,12 +1,16 @@
 ---
 id: mu-tong-da-zhong-ruo-weng
 title: 答鍾弱翁
+titlePinyin: da2 zhong1 ruo4 weng1
 titleSlug: da-zhong-ruo-weng
 author: 牧童
+authorPinyin: mu4 tong2
 authorSlug: mu-tong
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

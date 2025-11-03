@@ -1,10 +1,13 @@
 ---
 id: li-shang-yin-ji-ling-hu-lang-zhong
 title: 寄令狐郎中
+titlePinyin: ji4 ling2 hu2 lang2 zhong1
 titleSlug: ji-ling-hu-lang-zhong
 author: 李商隱
+authorPinyin: li3 shang1 yin3
 authorSlug: li-shang-yin
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

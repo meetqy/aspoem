@@ -1,10 +1,13 @@
 ---
 id: wang-wei-han-jiang-lin-tiao
 title: 漢江臨眺
+titlePinyin: han4 jiang1 lin2 tiao4
 titleSlug: han-jiang-lin-tiao
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

@@ -1,10 +1,13 @@
 ---
 id: qi-wu-qian-chun-fan-ruo-ye-xi
 title: 春泛若耶溪
+titlePinyin: chun1 fan4 ruo4 ye1 xi1
 titleSlug: chun-fan-ruo-ye-xi
 author: 綦毋潛
+authorPinyin: qi2 wu2 qian2
 authorSlug: qi-wu-qian
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

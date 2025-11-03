@@ -1,10 +1,13 @@
 ---
 id: cen-can-bai-xue-ge-song-wu-pan-guan-gui-jing
 title: 白雪歌送武判官歸京
+titlePinyin: bai2 xue3 ge1 song4 wu3 pan4 guan1 gui1 jing1
 titleSlug: bai-xue-ge-song-wu-pan-guan-gui-jing
 author: 岑參
+authorPinyin: cen2 can1
 authorSlug: cen-can
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

@@ -1,12 +1,16 @@
 ---
 id: liu-xiang-min-ming
 title: 愍命
+titlePinyin: min3 ming4
 titleSlug: min-ming
 author: 刘向
+authorPinyin: liu2 xiang4
 authorSlug: liu-xiang
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

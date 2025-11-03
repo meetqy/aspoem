@@ -1,12 +1,16 @@
 ---
 id: zhang-shi-li-chun-ou-cheng
 title: 立春偶成
+titlePinyin: li4 chun1 ou3 cheng2
 titleSlug: li-chun-ou-cheng
 author: 張栻
+authorPinyin: zhang1 shi4
 authorSlug: zhang-shi
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,10 +1,13 @@
 ---
 id: liu-yu-xi-shu-xian-zhu-miao
 title: 蜀先主廟
+titlePinyin: shu3 xian1 zhu3 miao4
 titleSlug: shu-xian-zhu-miao
 author: 劉禹錫
+authorPinyin: liu2 yu3 xi1
 authorSlug: liu-yu-xi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

@@ -1,10 +1,13 @@
 ---
 id: bai-ju-yi-chang-hen-ge
 title: 長恨歌
+titlePinyin: chang2 hen4 ge1
 titleSlug: chang-hen-ge
 author: 白居易
+authorPinyin: bai2 ju1 yi4
 authorSlug: bai-ju-yi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

@@ -1,12 +1,16 @@
 ---
 id: wang-wei-guo-xiang-ji-si
 title: 過香積寺
+titlePinyin: guo4 xiang1 ji1 si4
 titleSlug: guo-xiang-ji-si
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
-tags: ["五言律詩","千家诗","蒙学"]
+tags: ["蒙学","唐詩三百首","五言律詩"]
+
 ---
 
 ## 正文

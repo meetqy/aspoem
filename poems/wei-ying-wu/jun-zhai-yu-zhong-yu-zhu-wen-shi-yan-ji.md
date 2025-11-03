@@ -1,10 +1,13 @@
 ---
 id: wei-ying-wu-jun-zhai-yu-zhong-yu-zhu-wen-shi-yan-ji
 title: 郡齋雨中與諸文士燕集
+titlePinyin: jun4 zhai1 yu3 zhong1 yu3 zhu1 wen2 shi4 yan4 ji2
 titleSlug: jun-zhai-yu-zhong-yu-zhu-wen-shi-yan-ji
 author: 韋應物
+authorPinyin: wei2 ying1 wu4
 authorSlug: wei-ying-wu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

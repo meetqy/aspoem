@@ -1,10 +1,13 @@
 ---
 id: du-fu-chun-wang
 title: 春望
+titlePinyin: chun1 wang4
 titleSlug: chun-wang
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

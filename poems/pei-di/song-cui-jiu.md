@@ -1,10 +1,13 @@
 ---
 id: pei-di-song-cui-jiu
 title: 送崔九
+titlePinyin: song4 cui1 jiu3
 titleSlug: song-cui-jiu
 author: 裴迪
+authorPinyin: pei2 di2
 authorSlug: pei-di
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

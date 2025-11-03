@@ -1,10 +1,13 @@
 ---
 id: du-fu-gu-bai-xing
 title: 古柏行
+titlePinyin: gu3 bai3 xing2
 titleSlug: gu-bai-xing
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

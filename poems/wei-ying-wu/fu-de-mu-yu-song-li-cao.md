@@ -1,10 +1,13 @@
 ---
 id: wei-ying-wu-fu-de-mu-yu-song-li-cao
 title: 賦得暮雨送李曹
+titlePinyin: fu4 de2 mu4 yu3 song4 li3 cao2
 titleSlug: fu-de-mu-yu-song-li-cao
 author: 韋應物
+authorPinyin: wei2 ying1 wu4
 authorSlug: wei-ying-wu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

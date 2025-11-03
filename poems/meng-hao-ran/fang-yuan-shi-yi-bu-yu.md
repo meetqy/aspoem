@@ -1,12 +1,16 @@
 ---
 id: meng-hao-ran-fang-yuan-shi-yi-bu-yu
 title: 訪袁拾遺不遇
+titlePinyin: fang3 yuan2 shi2 yi2 bu2 yu4
 titleSlug: fang-yuan-shi-yi-bu-yu
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

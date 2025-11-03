@@ -1,12 +1,16 @@
 ---
 id: wang-zhi-huan-deng-guan-que-lou
 title: 登鸛雀樓
+titlePinyin: deng1 guan4 que4 lou2
 titleSlug: deng-guan-que-lou
 author: 王之渙
+authorPinyin: wang2 zhi1 huan4
 authorSlug: wang-zhi-huan
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
-tags: ["五言絕句","千家诗","蒙学"]
+tags: ["蒙学","唐詩三百首","五言絕句"]
+
 ---
 
 ## 正文

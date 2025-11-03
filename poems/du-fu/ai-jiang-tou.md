@@ -1,10 +1,13 @@
 ---
 id: du-fu-ai-jiang-tou
 title: 哀江頭
+titlePinyin: ai1 jiang1 tou2
 titleSlug: ai-jiang-tou
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","樂府"]
 

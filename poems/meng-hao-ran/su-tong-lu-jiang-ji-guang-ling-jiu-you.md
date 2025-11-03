@@ -1,10 +1,13 @@
 ---
 id: meng-hao-ran-su-tong-lu-jiang-ji-guang-ling-jiu-you
 title: 宿桐廬江寄廣陵舊遊
+titlePinyin: su4 tong2 lu2 jiang1 ji4 guang3 ling2 jiu4 you2
 titleSlug: su-tong-lu-jiang-ji-guang-ling-jiu-you
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

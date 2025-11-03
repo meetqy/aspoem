@@ -1,12 +1,16 @@
 ---
 id: chen-zi-ang-chun-ye-bie-you-ren
 title: 春夜別友人
+titlePinyin: chun1 ye4 bie2 you3 ren2
 titleSlug: chun-ye-bie-you-ren
 author: 陳子昂
+authorPinyin: chen2 zi3 ang2
 authorSlug: chen-zi-ang
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

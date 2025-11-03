@@ -1,12 +1,16 @@
 ---
 id: zhang-yan-she-ri
 title: 社日
+titlePinyin: she4 ri4
 titleSlug: she-ri
 author: 張演
+authorPinyin: zhang1 yan3
 authorSlug: zhang-yan
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

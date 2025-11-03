@@ -1,10 +1,13 @@
 ---
 id: liu-chang-qing-song-shang-ren
 title: 送上人
+titlePinyin: song4 shang4 ren2
 titleSlug: song-shang-ren
 author: 劉長卿
+authorPinyin: liu2 chang2 qing1
 authorSlug: liu-chang-qing
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

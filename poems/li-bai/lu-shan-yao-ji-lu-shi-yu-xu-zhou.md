@@ -1,10 +1,13 @@
 ---
 id: li-bai-lu-shan-yao-ji-lu-shi-yu-xu-zhou
 title: 廬山謠寄盧侍御虛舟
+titlePinyin: lu2 shan1 yao2 ji4 lu2 shi4 yu4 xu1 zhou1
 titleSlug: lu-shan-yao-ji-lu-shi-yu-xu-zhou
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

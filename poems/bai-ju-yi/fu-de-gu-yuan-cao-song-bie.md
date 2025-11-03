@@ -1,10 +1,13 @@
 ---
 id: bai-ju-yi-fu-de-gu-yuan-cao-song-bie
 title: 賦得古原草送別
+titlePinyin: fu4 de2 gu3 yuan2 cao3 song4 bie2
 titleSlug: fu-de-gu-yuan-cao-song-bie
 author: 白居易
+authorPinyin: bai2 ju1 yi4
 authorSlug: bai-ju-yi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

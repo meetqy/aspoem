@@ -1,10 +1,13 @@
 ---
 id: wei-ying-wu-xi-ci-xu-yi-xian
 title: 夕次盱眙縣
+titlePinyin: xi1 ci4 xu1 yi2 xian4
 titleSlug: xi-ci-xu-yi-xian
 author: 韋應物
+authorPinyin: wei2 ying1 wu4
 authorSlug: wei-ying-wu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

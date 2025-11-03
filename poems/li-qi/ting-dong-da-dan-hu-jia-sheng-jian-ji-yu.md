@@ -1,10 +1,13 @@
 ---
 id: li-qi-ting-dong-da-dan-hu-jia-sheng-jian-ji-yu
 title: 聽董大彈胡笳聲兼寄語
+titlePinyin: ting1 dong3 da4 dan4 hu2 jia1 sheng1 jian1 ji4 yu3
 titleSlug: ting-dong-da-dan-hu-jia-sheng-jian-ji-yu
 author: 李頎
+authorPinyin: li3 qi2
 authorSlug: li-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

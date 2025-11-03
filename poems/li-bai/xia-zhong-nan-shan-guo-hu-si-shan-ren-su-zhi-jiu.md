@@ -1,10 +1,13 @@
 ---
 id: li-bai-xia-zhong-nan-shan-guo-hu-si-shan-ren-su-zhi-jiu
 title: 下終南山過斛斯山人宿置酒
+titlePinyin: xia4 zhong1 nan2 shan1 guo4 hu2 si1 shan1 ren2 su4 zhi4 jiu3
 titleSlug: xia-zhong-nan-shan-guo-hu-si-shan-ren-su-zhi-jiu
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

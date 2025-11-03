@@ -1,10 +1,13 @@
 ---
 id: wei-ying-wu-dong-jiao
 title: 東郊
+titlePinyin: dong1 jiao1
 titleSlug: dong-jiao
 author: 韋應物
+authorPinyin: wei2 ying1 wu4
 authorSlug: wei-ying-wu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

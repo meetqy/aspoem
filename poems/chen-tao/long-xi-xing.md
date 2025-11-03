@@ -1,10 +1,13 @@
 ---
 id: chen-tao-long-xi-xing
 title: 隴西行
+titlePinyin: long3 xi1 xing2
 titleSlug: long-xi-xing
 author: 陳陶
+authorPinyin: chen2 tao2
 authorSlug: chen-tao
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

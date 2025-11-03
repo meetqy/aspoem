@@ -1,10 +1,13 @@
 ---
 id: wei-ying-wu-chang-an-yu-feng-zhu
 title: 長安遇馮著
+titlePinyin: chang2 an1 yu4 feng2 zhu4
 titleSlug: chang-an-yu-feng-zhu
 author: 韋應物
+authorPinyin: wei2 ying1 wu4
 authorSlug: wei-ying-wu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

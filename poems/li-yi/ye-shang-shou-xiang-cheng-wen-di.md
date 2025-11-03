@@ -1,10 +1,13 @@
 ---
 id: li-yi-ye-shang-shou-xiang-cheng-wen-di
 title: 夜上受降城聞笛
+titlePinyin: ye4 shang4 shou4 xiang2 cheng2 wen2 di2
 titleSlug: ye-shang-shou-xiang-cheng-wen-di
 author: 李益
+authorPinyin: li3 yi4
 authorSlug: li-yi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

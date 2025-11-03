@@ -1,12 +1,16 @@
 ---
 id: wang-bao-wei-jun
 title: 危俊
+titlePinyin: wei1 jun4
 titleSlug: wei-jun
 author: 王褒
+authorPinyin: wang2 bao1
 authorSlug: wang-bao
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

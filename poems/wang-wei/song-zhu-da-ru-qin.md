@@ -1,12 +1,16 @@
 ---
 id: wang-wei-song-zhu-da-ru-qin
 title: 送朱大入秦
+titlePinyin: song4 zhu1 da4 ru4 qin2
 titleSlug: song-zhu-da-ru-qin
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

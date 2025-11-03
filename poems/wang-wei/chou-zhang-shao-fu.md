@@ -1,10 +1,13 @@
 ---
 id: wang-wei-chou-zhang-shao-fu
 title: 酬張少府
+titlePinyin: chou2 zhang1 shao4 fu3
 titleSlug: chou-zhang-shao-fu
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

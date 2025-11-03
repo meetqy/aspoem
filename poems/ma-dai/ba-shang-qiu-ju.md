@@ -1,10 +1,13 @@
 ---
 id: ma-dai-ba-shang-qiu-ju
 title: 灞上秋居
+titlePinyin: ba4 shang4 qiu1 ju1
 titleSlug: ba-shang-qiu-ju
 author: 馬戴
+authorPinyin: ma3 dai4
 authorSlug: ma-dai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

@@ -1,12 +1,16 @@
 ---
 id: ye-shao-weng-you-xiao-yuan-bu-zhi
 title: 遊小園不值
+titlePinyin: you2 xiao3 yuan2 bu4 zhi2
 titleSlug: you-xiao-yuan-bu-zhi
 author: 葉紹翁
+authorPinyin: ye4 shao4 weng1
 authorSlug: ye-shao-weng
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

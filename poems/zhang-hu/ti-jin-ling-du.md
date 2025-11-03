@@ -1,10 +1,13 @@
 ---
 id: zhang-hu-ti-jin-ling-du
 title: 題金陵渡
+titlePinyin: ti2 jin1 ling2 du4
 titleSlug: ti-jin-ling-du
 author: 張祜
+authorPinyin: zhang1 hu4
 authorSlug: zhang-hu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

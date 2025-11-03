@@ -1,10 +1,13 @@
 ---
 id: li-bai-chun-si
 title: 春思
+titlePinyin: chun1 si1
 titleSlug: chun-si
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

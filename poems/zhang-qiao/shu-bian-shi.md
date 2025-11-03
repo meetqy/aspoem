@@ -1,10 +1,13 @@
 ---
 id: zhang-qiao-shu-bian-shi
 title: 書邊事
+titlePinyin: shu1 bian1 shi4
 titleSlug: shu-bian-shi
 author: 張喬
+authorPinyin: zhang1 qiao2
 authorSlug: zhang-qiao
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

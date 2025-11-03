@@ -1,10 +1,13 @@
 ---
 id: liu-zong-yuan-jiang-xue
 title: 江雪
+titlePinyin: jiang1 xue3
 titleSlug: jiang-xue
 author: 柳宗元
+authorPinyin: liu3 zong1 yuan2
 authorSlug: liu-zong-yuan
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

@@ -1,12 +1,16 @@
 ---
 id: wang-bao-xu-ying
 title: 蓄英
+titlePinyin: xu4 ying1
 titleSlug: xu-ying
 author: 王褒
+authorPinyin: wang2 bao1
 authorSlug: wang-bao
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

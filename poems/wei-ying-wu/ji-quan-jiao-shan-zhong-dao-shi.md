@@ -1,10 +1,13 @@
 ---
 id: wei-ying-wu-ji-quan-jiao-shan-zhong-dao-shi
 title: 寄全椒山中道士
+titlePinyin: ji4 quan2 jiao1 shan1 zhong1 dao4 shi0
 titleSlug: ji-quan-jiao-shan-zhong-dao-shi
 author: 韋應物
+authorPinyin: wei2 ying1 wu4
 authorSlug: wei-ying-wu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

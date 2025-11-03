@@ -1,20 +1,24 @@
 ---
 id: li-bai-song-you-ren
 title: 送友人
+titlePinyin: song4 you3 ren2
 titleSlug: song-you-ren
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
-tags: ["五言律詩","千家诗","蒙学"]
+tags: ["蒙学","唐詩三百首","五言律詩"]
+
 ---
 
 ## 正文
 
 - 青山橫北郭，白水繞東城。
-- 此地一爲別，孤篷萬里徵。
+- 此地一爲別，孤蓬萬里徵。
 - 浮雲遊子意，落日故人情。
-- 揮手自茲去，蕭蕭斑馬鳴。
+- 揮手自茲去，蕭蕭班馬鳴。
 
 ## 拼音
 

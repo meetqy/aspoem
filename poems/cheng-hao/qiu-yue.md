@@ -1,12 +1,16 @@
 ---
 id: cheng-hao-qiu-yue
 title: 秋月
+titlePinyin: qiu1 yue4
 titleSlug: qiu-yue
 author: 程顥
+authorPinyin: cheng2 hao4
 authorSlug: cheng-hao
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

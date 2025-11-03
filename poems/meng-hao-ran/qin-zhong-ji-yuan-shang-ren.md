@@ -1,10 +1,13 @@
 ---
 id: meng-hao-ran-qin-zhong-ji-yuan-shang-ren
 title: 秦中寄遠上人
+titlePinyin: qin2 zhong1 ji4 yuan3 shang4 ren2
 titleSlug: qin-zhong-ji-yuan-shang-ren
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

@@ -1,12 +1,16 @@
 ---
 id: han-hong-han-shi
 title: 寒食
+titlePinyin: han2 shi2
 titleSlug: han-shi
 author: 韓翃
+authorPinyin: han2 hong2
 authorSlug: han-hong
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
-tags: ["七言絕句","千家诗","蒙学"]
+tags: ["蒙学","唐詩三百首","七言絕句"]
+
 ---
 
 ## 正文

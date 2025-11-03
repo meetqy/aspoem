@@ -1,12 +1,16 @@
 ---
 id: cai-xiang-shang-yuan-ying-zhi
 title: 上元應制
+titlePinyin: shang4 yuan2 ying1 zhi4
 titleSlug: shang-yuan-ying-zhi
 author: 蔡襄
+authorPinyin: cai4 xiang1
 authorSlug: cai-xiang
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

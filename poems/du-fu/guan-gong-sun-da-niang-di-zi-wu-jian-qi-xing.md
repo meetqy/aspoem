@@ -1,10 +1,13 @@
 ---
 id: du-fu-guan-gong-sun-da-niang-di-zi-wu-jian-qi-xing
 title: 觀公孫大娘弟子舞劍器行
+titlePinyin: guan1 gong1 sun1 da4 niang2 di4 zi3 wu3 jian4 qi4 xing2
 titleSlug: guan-gong-sun-da-niang-di-zi-wu-jian-qi-xing
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

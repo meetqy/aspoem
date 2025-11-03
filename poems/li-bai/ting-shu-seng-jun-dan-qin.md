@@ -1,10 +1,13 @@
 ---
 id: li-bai-ting-shu-seng-jun-dan-qin
 title: 聽蜀僧浚彈琴
+titlePinyin: ting1 shu3 seng1 jun4 dan4 qin2
 titleSlug: ting-shu-seng-jun-dan-qin
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

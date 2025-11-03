@@ -1,12 +1,16 @@
 ---
 id: si-kong-shu-bie-lu-qin-qing
 title: 別盧秦卿
+titlePinyin: bie2 lu2 qin2 qing1
 titleSlug: bie-lu-qin-qing
 author: 司空曙
+authorPinyin: si1 kong1 shu3
 authorSlug: si-kong-shu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

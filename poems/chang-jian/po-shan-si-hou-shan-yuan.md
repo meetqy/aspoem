@@ -1,12 +1,16 @@
 ---
 id: chang-jian-po-shan-si-hou-shan-yuan
 title: 破山寺後禪院
+titlePinyin: po4 shan1 si4 hou4 shan4 yuan4
 titleSlug: po-shan-si-hou-shan-yuan
 author: 常建
+authorPinyin: chang2 jian4
 authorSlug: chang-jian
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

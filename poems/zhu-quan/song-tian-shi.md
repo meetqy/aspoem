@@ -1,12 +1,16 @@
 ---
 id: zhu-quan-song-tian-shi
 title: 送天師
+titlePinyin: song4 tian1 shi1
 titleSlug: song-tian-shi
 author: 朱權
+authorPinyin: zhu1 quan2
 authorSlug: zhu-quan
 dynasty: 明
+dynastyPinyin: ming2
 dynastySlug: ming
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

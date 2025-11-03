@@ -1,12 +1,16 @@
 ---
 id: du-fu-guan-li-gu-qing-si-ma-di-shan-shui-tu
 title: 觀李固請司馬弟山水圖
+titlePinyin: guan1 li3 gu4 qing3 si1 ma3 di4 shan1 shui3 tu2
 titleSlug: guan-li-gu-qing-si-ma-di-shan-shui-tu
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

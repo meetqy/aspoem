@@ -1,10 +1,13 @@
 ---
 id: gu-kuang-gong-ci
 title: 宮詞
+titlePinyin: gong1 ci2
 titleSlug: gong-ci
 author: 顧況
+authorPinyin: gu4 kuang4
 authorSlug: gu-kuang
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

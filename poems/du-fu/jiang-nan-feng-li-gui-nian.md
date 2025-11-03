@@ -1,10 +1,13 @@
 ---
 id: du-fu-jiang-nan-feng-li-gui-nian
 title: 江南逢李龜年
+titlePinyin: jiang1 nan2 feng2 li3 gui1 nian2
 titleSlug: jiang-nan-feng-li-gui-nian
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

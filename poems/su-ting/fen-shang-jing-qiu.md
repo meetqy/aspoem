@@ -1,12 +1,16 @@
 ---
 id: su-ting-fen-shang-jing-qiu
 title: 汾上驚秋
+titlePinyin: fen2 shang4 jing1 qiu1
 titleSlug: fen-shang-jing-qiu
 author: 蘇頲
+authorPinyin: su1 ting3
 authorSlug: su-ting
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

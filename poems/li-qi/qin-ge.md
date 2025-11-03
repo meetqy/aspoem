@@ -1,10 +1,13 @@
 ---
 id: li-qi-qin-ge
 title: 琴歌
+titlePinyin: qin2 ge1
 titleSlug: qin-ge
 author: 李頎
+authorPinyin: li3 qi2
 authorSlug: li-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

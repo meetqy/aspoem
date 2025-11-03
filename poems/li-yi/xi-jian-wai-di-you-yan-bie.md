@@ -1,10 +1,13 @@
 ---
 id: li-yi-xi-jian-wai-di-you-yan-bie
 title: 喜見外弟又言別
+titlePinyin: xi3 jian4 wai4 di4 you4 yan2 bie2
 titleSlug: xi-jian-wai-di-you-yan-bie
 author: 李益
+authorPinyin: li3 yi4
 authorSlug: li-yi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

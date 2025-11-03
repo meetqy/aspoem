@@ -1,12 +1,16 @@
 ---
 id: chen-zi-ang-song-zhu-zuo-zuo-lang-cui-rong-deng-cong-liang-wang-dong-zheng
 title: 送著作佐郎崔融等從樑王東征
+titlePinyin: song4 zhu4 zuo4 zuo3 lang2 cui1 rong2 deng3 cong2 liang2 wang2 dong1 zheng1
 titleSlug: song-zhu-zuo-zuo-lang-cui-rong-deng-cong-liang-wang-dong-zheng
 author: 陳子昂
+authorPinyin: chen2 zi3 ang2
 authorSlug: chen-zi-ang
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

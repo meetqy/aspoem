@@ -1,10 +1,13 @@
 ---
 id: li-bai-guan-shan-yue
 title: 關山月
+titlePinyin: guan1 shan1 yue4
 titleSlug: guan-shan-yue
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","樂府"]
 

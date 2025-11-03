@@ -1,10 +1,13 @@
 ---
 id: meng-hao-ran-liu-bie-wang-wei
 title: 留別王維
+titlePinyin: liu2 bie2 wang2 wei2
 titleSlug: liu-bie-wang-wei
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

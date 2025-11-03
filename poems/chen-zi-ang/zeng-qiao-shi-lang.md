@@ -1,12 +1,16 @@
 ---
 id: chen-zi-ang-zeng-qiao-shi-lang
 title: 贈喬侍郎
+titlePinyin: zeng4 qiao2 shi4 lang2
 titleSlug: zeng-qiao-shi-lang
 author: 陳子昂
+authorPinyin: chen2 zi3 ang2
 authorSlug: chen-zi-ang
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

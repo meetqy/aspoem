@@ -1,12 +1,16 @@
 ---
 id: li-pu-zhong-qiu
 title: 中秋
+titlePinyin: zhong1 qiu1
 titleSlug: zhong-qiu
 author: 李樸
+authorPinyin: li3 pu3
 authorSlug: li-pu
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

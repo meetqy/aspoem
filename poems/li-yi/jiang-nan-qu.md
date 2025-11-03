@@ -1,10 +1,13 @@
 ---
 id: li-yi-jiang-nan-qu
 title: 江南曲
+titlePinyin: jiang1 nan2 qu3
 titleSlug: jiang-nan-qu
 author: 李益
+authorPinyin: li3 yi4
 authorSlug: li-yi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","樂府"]
 

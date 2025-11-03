@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-tian-wen
 title: 天问
+titlePinyin: tian1 wen4
 titleSlug: tian-wen
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

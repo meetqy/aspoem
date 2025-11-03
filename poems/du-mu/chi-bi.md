@@ -1,10 +1,13 @@
 ---
 id: du-mu-chi-bi
 title: 赤壁
+titlePinyin: chi4 bi4
 titleSlug: chi-bi
 author: 杜牧
+authorPinyin: du4 mu4
 authorSlug: du-mu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

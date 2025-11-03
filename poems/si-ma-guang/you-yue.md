@@ -1,12 +1,16 @@
 ---
 id: si-ma-guang-you-yue
 title: 有約
+titlePinyin: you3 yue1
 titleSlug: you-yue
 author: 司馬光
+authorPinyin: si1 ma3 guang1
 authorSlug: si-ma-guang
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

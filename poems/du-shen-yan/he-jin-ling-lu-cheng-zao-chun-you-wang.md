@@ -1,10 +1,13 @@
 ---
 id: du-shen-yan-he-jin-ling-lu-cheng-zao-chun-you-wang
 title: 和晉陵陸丞早春遊望
+titlePinyin: he2 jin4 ling2 lu4 cheng2 zao3 chun1 you2 wang4
 titleSlug: he-jin-ling-lu-cheng-zao-chun-you-wang
 author: 杜審言
+authorPinyin: du4 shen3 yan2
 authorSlug: du-shen-yan
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

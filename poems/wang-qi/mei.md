@@ -1,12 +1,16 @@
 ---
 id: wang-qi-mei
 title: 梅
+titlePinyin: mei2
 titleSlug: mei
 author: 王淇
+authorPinyin: wang2 qi2
 authorSlug: wang-qi
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

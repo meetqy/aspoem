@@ -1,10 +1,13 @@
 ---
 id: du-mu-jin-gu-yuan
 title: 金谷園
+titlePinyin: jin1 gu3 yuan2
 titleSlug: jin-gu-yuan
 author: 杜牧
+authorPinyin: du4 mu4
 authorSlug: du-mu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

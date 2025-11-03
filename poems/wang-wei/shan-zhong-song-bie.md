@@ -1,10 +1,13 @@
 ---
 id: wang-wei-shan-zhong-song-bie
 title: 山中送別
+titlePinyin: shan1 zhong1 song4 bie2
 titleSlug: shan-zhong-song-bie
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

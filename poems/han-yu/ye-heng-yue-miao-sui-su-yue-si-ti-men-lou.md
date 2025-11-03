@@ -1,10 +1,13 @@
 ---
 id: han-yu-ye-heng-yue-miao-sui-su-yue-si-ti-men-lou
 title: 謁衡岳廟遂宿嶽寺題門樓
+titlePinyin: ye4 heng2 yue4 miao4 sui4 su4 yue4 si4 ti2 men2 lou2
 titleSlug: ye-heng-yue-miao-sui-su-yue-si-ti-men-lou
 author: 韓愈
+authorPinyin: han2 yu4
 authorSlug: han-yu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

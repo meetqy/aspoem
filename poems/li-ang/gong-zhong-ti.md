@@ -1,12 +1,16 @@
 ---
 id: li-ang-gong-zhong-ti
 title: 宮中題
+titlePinyin: gong1 zhong1 ti2
 titleSlug: gong-zhong-ti
 author: 李昂
+authorPinyin: li3 ang2
 authorSlug: li-ang
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

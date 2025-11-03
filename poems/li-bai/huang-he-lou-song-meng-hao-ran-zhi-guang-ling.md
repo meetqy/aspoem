@@ -1,10 +1,13 @@
 ---
 id: li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling
 title: 黃鶴樓送孟浩然之廣陵
+titlePinyin: huang2 he4 lou2 song4 meng4 hao4 ran2 zhi1 guang3 ling2
 titleSlug: huang-he-lou-song-meng-hao-ran-zhi-guang-ling
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

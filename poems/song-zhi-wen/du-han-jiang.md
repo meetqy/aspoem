@@ -1,10 +1,13 @@
 ---
 id: song-zhi-wen-du-han-jiang
 title: 渡漢江
+titlePinyin: du4 han4 jiang1
 titleSlug: du-han-jiang
 author: 宋之問
+authorPinyin: song4 zhi1 wen4
 authorSlug: song-zhi-wen
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

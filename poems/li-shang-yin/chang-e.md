@@ -1,10 +1,13 @@
 ---
 id: li-shang-yin-chang-e
 title: 嫦娥
+titlePinyin: chang2 e2
 titleSlug: chang-e
 author: 李商隱
+authorPinyin: li3 shang1 yin3
 authorSlug: li-shang-yin
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

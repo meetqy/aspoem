@@ -1,10 +1,13 @@
 ---
 id: qiu-wei-xun-xi-shan-yin-zhe-bu-yu
 title: 尋西山隱者不遇
+titlePinyin: xun2 xi1 shan1 yin3 zhe3 bu2 yu4
 titleSlug: xun-xi-shan-yin-zhe-bu-yu
 author: 丘爲
+authorPinyin: qiu1 wei2
 authorSlug: qiu-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

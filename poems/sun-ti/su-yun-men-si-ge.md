@@ -1,12 +1,16 @@
 ---
 id: sun-ti-su-yun-men-si-ge
 title: 宿雲門寺閣
+titlePinyin: su4 yun2 men2 si4 ge2
 titleSlug: su-yun-men-si-ge
 author: 孫逖
+authorPinyin: sun1 ti4
 authorSlug: sun-ti
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

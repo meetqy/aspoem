@@ -1,10 +1,13 @@
 ---
 id: wang-wei-song-qi-wu-qian-luo-di-huan-xiang
 title: 送綦毋潛落第還鄉
+titlePinyin: song4 qi2 wu2 qian2 luo4 di4 huan2 xiang1
 titleSlug: song-qi-wu-qian-luo-di-huan-xiang
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

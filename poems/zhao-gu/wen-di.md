@@ -1,12 +1,16 @@
 ---
 id: zhao-gu-wen-di
 title: 聞笛
+titlePinyin: wen2 di2
 titleSlug: wen-di
 author: 趙嘏
+authorPinyin: zhao4 gu3
 authorSlug: zhao-gu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

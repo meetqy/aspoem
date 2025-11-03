@@ -1,12 +1,16 @@
 ---
 id: li-bai-ke-zhong-hang
 title: 客中行
+titlePinyin: ke4 zhong1 hang2
 titleSlug: ke-zhong-hang
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

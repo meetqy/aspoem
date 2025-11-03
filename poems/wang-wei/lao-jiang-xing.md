@@ -1,10 +1,13 @@
 ---
 id: wang-wei-lao-jiang-xing
 title: 老將行
+titlePinyin: lao3 jiang1 xing2
 titleSlug: lao-jiang-xing
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","樂府"]
 

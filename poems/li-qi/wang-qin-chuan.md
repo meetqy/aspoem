@@ -1,12 +1,16 @@
 ---
 id: li-qi-wang-qin-chuan
 title: 望秦川
+titlePinyin: wang4 qin2 chuan1
 titleSlug: wang-qin-chuan
 author: 李頎
+authorPinyin: li3 qi2
 authorSlug: li-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: yan-shu-yu-yi
 title: 寓意
+titlePinyin: yu4 yi4
 titleSlug: yu-yi
 author: 晏殊
+authorPinyin: yan4 shu1
 authorSlug: yan-shu
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: shi-chu-mo-sheng-guo-si
 title: 聖果寺
+titlePinyin: sheng4 guo3 si4
 titleSlug: sheng-guo-si
 author: 釋處默
+authorPinyin: shi4 chu3 mo4
 authorSlug: shi-chu-mo
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

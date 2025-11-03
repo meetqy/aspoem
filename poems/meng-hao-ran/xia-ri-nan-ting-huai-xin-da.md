@@ -1,10 +1,13 @@
 ---
 id: meng-hao-ran-xia-ri-nan-ting-huai-xin-da
 title: 夏日南亭懷辛大
+titlePinyin: xia4 ri4 nan2 ting2 huai2 xin1 da4
 titleSlug: xia-ri-nan-ting-huai-xin-da
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

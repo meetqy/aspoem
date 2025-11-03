@@ -1,12 +1,16 @@
 ---
 id: huang-ting-jian-qing-ming
 title: 清明
+titlePinyin: qing1 ming2
 titleSlug: qing-ming
 author: 黃庭堅
+authorPinyin: huang2 ting2 jian1
 authorSlug: huang-ting-jian
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

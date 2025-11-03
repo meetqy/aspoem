@@ -1,12 +1,16 @@
 ---
 id: zhu-fang-ti-zhu-lin-si
 title: 題竹林寺
+titlePinyin: ti2 zhu2 lin2 si4
 titleSlug: ti-zhu-lin-si
 author: 朱放
+authorPinyin: zhu1 fang4
 authorSlug: zhu-fang
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

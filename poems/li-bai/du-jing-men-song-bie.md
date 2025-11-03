@@ -1,10 +1,13 @@
 ---
 id: li-bai-du-jing-men-song-bie
 title: 渡荊門送別
+titlePinyin: du4 jing1 men2 song4 bie2
 titleSlug: du-jing-men-song-bie
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

@@ -1,10 +1,13 @@
 ---
 id: bai-ju-yi-wang-yue-you-gan
 title: 望月有感
+titlePinyin: wang4 yue4 you3 gan3
 titleSlug: wang-yue-you-gan
 author: 白居易
+authorPinyin: bai2 ju1 yi4
 authorSlug: bai-ju-yi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

@@ -1,12 +1,16 @@
 ---
 id: cheng-hao-ti-huai-nan-si
 title: 題淮南寺
+titlePinyin: ti2 huai2 nan2 si4
 titleSlug: ti-huai-nan-si
 author: 程顥
+authorPinyin: cheng2 hao4
 authorSlug: cheng-hao
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

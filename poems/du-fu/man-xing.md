@@ -1,12 +1,16 @@
 ---
 id: du-fu-man-xing
 title: 漫興
+titlePinyin: man4 xing1
 titleSlug: man-xing
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

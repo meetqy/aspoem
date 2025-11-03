@@ -1,12 +1,16 @@
 ---
 id: wang-bao-zhu-zhao
 title: 株昭
+titlePinyin: zhu1 zhao1
 titleSlug: zhu-zhao
 author: 王褒
+authorPinyin: wang2 bao1
 authorSlug: wang-bao
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

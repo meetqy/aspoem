@@ -1,10 +1,13 @@
 ---
 id: wang-wei-feng-he-sheng-zhi-cong-peng-lai-xiang-xing-qing-ge-dao
 title: 奉和聖制從蓬萊向興慶閣道
+titlePinyin: feng4 he2 sheng4 zhi4 cong2 peng2 lai2 xiang4 xing1 qing4 ge2 dao4
 titleSlug: feng-he-sheng-zhi-cong-peng-lai-xiang-xing-qing-ge-dao
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

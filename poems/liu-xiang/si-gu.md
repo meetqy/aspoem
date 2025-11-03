@@ -1,12 +1,16 @@
 ---
 id: liu-xiang-si-gu
 title: 思古
+titlePinyin: si1 gu3
 titleSlug: si-gu
 author: 刘向
+authorPinyin: liu2 xiang4
 authorSlug: liu-xiang
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

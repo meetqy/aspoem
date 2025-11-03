@@ -1,10 +1,13 @@
 ---
 id: xue-feng-gong-ci
 title: 宮詞
+titlePinyin: gong1 ci2
 titleSlug: gong-ci
 author: 薛逢
+authorPinyin: xue1 feng2
 authorSlug: xue-feng
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

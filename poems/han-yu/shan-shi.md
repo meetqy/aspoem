@@ -1,10 +1,13 @@
 ---
 id: han-yu-shan-shi
 title: 山石
+titlePinyin: shan1 shi2
 titleSlug: shan-shi
 author: 韓愈
+authorPinyin: han2 yu4
 authorSlug: han-yu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

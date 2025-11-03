@@ -1,10 +1,13 @@
 ---
 id: wang-wei-wei-cheng-qu
 title: 渭城曲
+titlePinyin: wei4 cheng2 qu3
 titleSlug: wei-cheng-qu
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","樂府"]
 

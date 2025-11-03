@@ -1,10 +1,13 @@
 ---
 id: du-fu-feng-ji-yi-zhong-song-yan-gong-si-yun
 title: 奉濟驛重送嚴公四韻
+titlePinyin: feng4 ji4 yi4 zhong4 song4 yan2 gong1 si4 yun4
 titleSlug: feng-ji-yi-zhong-song-yan-gong-si-yun
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

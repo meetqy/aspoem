@@ -1,10 +1,13 @@
 ---
 id: luo-bin-wang-zai-yu-yong-chan
 title: 在獄詠蟬
+titlePinyin: zai4 yu4 yong3 chan2
 titleSlug: zai-yu-yong-chan
 author: 駱賓王
+authorPinyin: luo4 bin1 wang2
 authorSlug: luo-bin-wang
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

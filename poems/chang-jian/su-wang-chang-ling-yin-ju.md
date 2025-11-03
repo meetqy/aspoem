@@ -1,10 +1,13 @@
 ---
 id: chang-jian-su-wang-chang-ling-yin-ju
 title: 宿王昌齡隱居
+titlePinyin: su4 wang2 chang1 ling2 yin3 ju1
 titleSlug: su-wang-chang-ling-yin-ju
 author: 常建
+authorPinyin: chang2 jian4
 authorSlug: chang-jian
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

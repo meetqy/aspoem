@@ -1,12 +1,16 @@
 ---
 id: du-shen-yan-song-cui-rong
 title: 送崔融
+titlePinyin: song4 cui1 rong2
 titleSlug: song-cui-rong
 author: 杜審言
+authorPinyin: du4 shen3 yan2
 authorSlug: du-shen-yan
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,10 +1,13 @@
 ---
 id: zhang-xu-tao-hua-xi
 title: 桃花溪
+titlePinyin: tao2 hua1 xi1
 titleSlug: tao-hua-xi
 author: 張旭
+authorPinyin: zhang1 xu4
 authorSlug: zhang-xu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

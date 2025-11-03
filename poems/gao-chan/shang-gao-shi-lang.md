@@ -1,12 +1,16 @@
 ---
 id: gao-chan-shang-gao-shi-lang
 title: 上高侍郎
+titlePinyin: shang4 gao1 shi4 lang2
 titleSlug: shang-gao-shi-lang
 author: 高蟾
+authorPinyin: gao1 chan2
 authorSlug: gao-chan
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

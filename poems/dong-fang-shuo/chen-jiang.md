@@ -1,12 +1,16 @@
 ---
 id: dong-fang-shuo-chen-jiang
 title: 沉江
+titlePinyin: chen2 jiang1
 titleSlug: chen-jiang
 author: 东方朔
+authorPinyin: dong1 fang1 shuo4
 authorSlug: dong-fang-shuo
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

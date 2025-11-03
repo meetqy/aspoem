@@ -1,12 +1,16 @@
 ---
 id: chen-tuan-gui-yin
 title: 歸隱
+titlePinyin: gui1 yin3
 titleSlug: gui-yin
 author: 陳摶
+authorPinyin: chen2 tuan2
 authorSlug: chen-tuan
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

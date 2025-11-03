@@ -1,12 +1,16 @@
 ---
 id: tai-shang-yin-zhe-da-ren
 title: 答人
+titlePinyin: da2 ren2
 titleSlug: da-ren
 author: 太上隱者
+authorPinyin: tai4 shang4 yin3 zhe3
 authorSlug: tai-shang-yin-zhe
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

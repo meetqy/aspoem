@@ -1,10 +1,13 @@
 ---
 id: wang-chang-ling-gui-yuan
 title: 閨怨
+titlePinyin: gui1 yuan4
 titleSlug: gui-yuan
 author: 王昌齡
+authorPinyin: wang2 chang1 ling2
 authorSlug: wang-chang-ling
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

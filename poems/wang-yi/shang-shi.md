@@ -1,12 +1,16 @@
 ---
 id: wang-yi-shang-shi
 title: 伤时
+titlePinyin: shang1 shi2
 titleSlug: shang-shi
 author: 王逸
+authorPinyin: wang2 yi4
 authorSlug: wang-yi
 dynasty: 东汉
+dynastyPinyin: dong1 han4
 dynastySlug: dong-han
 tags: []
+
 ---
 
 ## 正文

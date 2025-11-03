@@ -1,12 +1,16 @@
 ---
 id: liu-yu-xi-wu-yi-xiang
 title: 烏衣巷
+titlePinyin: wu1 yi1 xiang4
 titleSlug: wu-yi-xiang
 author: 劉禹錫
+authorPinyin: liu2 yu3 xi1
 authorSlug: liu-yu-xi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
-tags: ["七言絕句","千家诗","蒙学"]
+tags: ["蒙学","唐詩三百首","七言絕句"]
+
 ---
 
 ## 正文

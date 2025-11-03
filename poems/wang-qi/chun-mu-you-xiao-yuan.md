@@ -1,12 +1,16 @@
 ---
 id: wang-qi-chun-mu-you-xiao-yuan
 title: 春暮遊小園
+titlePinyin: chun1 mu4 you2 xiao3 yuan2
 titleSlug: chun-mu-you-xiao-yuan
 author: 王淇
+authorPinyin: wang2 qi2
 authorSlug: wang-qi
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

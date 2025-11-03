@@ -1,12 +1,16 @@
 ---
 id: cen-can-deng-zong-chi-ge
 title: 登總持閣
+titlePinyin: deng1 zong3 chi2 ge2
 titleSlug: deng-zong-chi-ge
 author: 岑參
+authorPinyin: cen2 can1
 authorSlug: cen-can
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

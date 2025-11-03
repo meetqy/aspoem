@@ -1,10 +1,13 @@
 ---
 id: li-qi-ting-an-wan-shan-chui-bi-li-ge
 title: 聽安萬善吹觱篥歌
+titlePinyin: ting1 an1 wan4 shan4 chui1 bi4 li4 ge1
 titleSlug: ting-an-wan-shan-chui-bi-li-ge
 author: 李頎
+authorPinyin: li3 qi2
 authorSlug: li-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

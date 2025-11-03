@@ -1,17 +1,21 @@
 ---
 id: cen-can-ji-zuo-sheng-du-shi-yi
 title: 寄左省杜拾遺
+titlePinyin: ji4 zuo3 sheng3 du4 shi2 yi2
 titleSlug: ji-zuo-sheng-du-shi-yi
 author: 岑參
+authorPinyin: cen2 can1
 authorSlug: cen-can
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
-tags: ["五言律詩","千家诗","蒙学"]
+tags: ["蒙学","唐詩三百首","五言律詩"]
+
 ---
 
 ## 正文
 
-- 聯步趨丹陛，分曹限紫薇。
+- 聯步趨丹陛，分曹限紫微。
 - 曉隨天仗入，暮惹御香歸。
 - 白髮悲花落，青雲羨鳥飛。
 - 聖朝無闕事，自覺諫書稀。

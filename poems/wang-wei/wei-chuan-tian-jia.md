@@ -1,10 +1,13 @@
 ---
 id: wang-wei-wei-chuan-tian-jia
 title: 渭川田家
+titlePinyin: wei4 chuan1 tian2 jia1
 titleSlug: wei-chuan-tian-jia
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

@@ -1,12 +1,16 @@
 ---
 id: su-shi-hai-tang
 title: 海棠
+titlePinyin: hai3 tang2
 titleSlug: hai-tang
 author: 蘇軾
+authorPinyin: su1 shi4
 authorSlug: su-shi
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

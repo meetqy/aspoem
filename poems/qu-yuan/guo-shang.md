@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-guo-shang
 title: 国殇
+titlePinyin: guo2 shang1
 titleSlug: guo-shang
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

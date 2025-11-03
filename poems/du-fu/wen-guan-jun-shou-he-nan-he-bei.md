@@ -1,10 +1,13 @@
 ---
 id: du-fu-wen-guan-jun-shou-he-nan-he-bei
 title: 聞官軍收河南河北
+titlePinyin: wen2 guan1 jun1 shou1 he2 nan2 he2 bei3
 titleSlug: wen-guan-jun-shou-he-nan-he-bei
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

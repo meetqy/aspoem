@@ -1,12 +1,16 @@
 ---
 id: liu-xiang-you-ku
 title: 忧苦
+titlePinyin: you1 ku3
 titleSlug: you-ku
 author: 刘向
+authorPinyin: liu2 xiang4
 authorSlug: liu-xiang
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

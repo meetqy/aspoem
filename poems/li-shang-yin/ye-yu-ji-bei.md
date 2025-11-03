@@ -1,10 +1,13 @@
 ---
 id: li-shang-yin-ye-yu-ji-bei
 title: 夜雨寄北
+titlePinyin: ye4 yu3 ji4 bei3
 titleSlug: ye-yu-ji-bei
 author: 李商隱
+authorPinyin: li3 shang1 yin3
 authorSlug: li-shang-yin
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

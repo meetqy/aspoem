@@ -1,12 +1,16 @@
 ---
 id: qian-qi-feng-xia-zhe
 title: 逢俠者
+titlePinyin: feng2 xia2 zhe3
 titleSlug: feng-xia-zhe
 author: 錢起
+authorPinyin: qian2 qi3
 authorSlug: qian-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

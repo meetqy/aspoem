@@ -1,10 +1,13 @@
 ---
 id: wei-ying-wu-huai-shang-xi-hui-liang-zhou-gu-ren
 title: 淮上喜會梁州故人
+titlePinyin: huai2 shang4 xi3 hui4 liang2 zhou1 gu4 ren2
 titleSlug: huai-shang-xi-hui-liang-zhou-gu-ren
 author: 韋應物
+authorPinyin: wei2 ying1 wu4
 authorSlug: wei-ying-wu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

@@ -1,12 +1,16 @@
 ---
 id: du-mu-qing-ming
 title: 清明
+titlePinyin: qing1 ming2
 titleSlug: qing-ming
 author: 杜牧
+authorPinyin: du4 mu4
 authorSlug: du-mu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

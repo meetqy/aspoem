@@ -1,10 +1,13 @@
 ---
 id: li-long-ji-jing-zou-lu-ji-kong-zi-er-tan-zhi
 title: 經鄒魯祭孔子而嘆之
+titlePinyin: jing1 zou1 lu3 ji4 kong3 zi3 er2 tan4 zhi1
 titleSlug: jing-zou-lu-ji-kong-zi-er-tan-zhi
 author: 李隆基
+authorPinyin: li3 long2 ji1
 authorSlug: li-long-ji
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

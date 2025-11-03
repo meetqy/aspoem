@@ -1,10 +1,13 @@
 ---
 id: li-bai-zeng-meng-hao-ran
 title: 贈孟浩然
+titlePinyin: zeng4 meng4 hao4 ran2
 titleSlug: zeng-meng-hao-ran
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

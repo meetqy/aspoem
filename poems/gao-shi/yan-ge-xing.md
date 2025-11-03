@@ -1,10 +1,13 @@
 ---
 id: gao-shi-yan-ge-xing
 title: 燕歌行
+titlePinyin: yan4 ge1 xing2
 titleSlug: yan-ge-xing
 author: 高適
+authorPinyin: gao1 shi4
 authorSlug: gao-shi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","樂府"]
 

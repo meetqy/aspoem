@@ -1,12 +1,16 @@
 ---
 id: liu-xiang-li-shi
 title: 离世
+titlePinyin: li2 shi4
 titleSlug: li-shi
 author: 刘向
+authorPinyin: liu2 xiang4
 authorSlug: liu-xiang
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

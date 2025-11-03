@@ -1,12 +1,16 @@
 ---
 id: gao-shi-song-zheng-shi-yu-zhe-min-zhong
 title: 送鄭侍御謫閩中
+titlePinyin: song4 zheng4 shi4 yu4 zhe2 min3 zhong1
 titleSlug: song-zheng-shi-yu-zhe-min-zhong
 author: 高適
+authorPinyin: gao1 shi4
 authorSlug: gao-shi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

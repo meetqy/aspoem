@@ -1,12 +1,16 @@
 ---
 id: wang-yi-dao-luan
 title: 悼乱
+titlePinyin: dao4 luan4
 titleSlug: dao-luan
 author: 王逸
+authorPinyin: wang2 yi4
 authorSlug: wang-yi
 dynasty: 东汉
+dynastyPinyin: dong1 han4
 dynastySlug: dong-han
 tags: []
+
 ---
 
 ## 正文

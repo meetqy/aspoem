@@ -1,12 +1,16 @@
 ---
 id: cao-cao-shan-zai-xing-qi-san
 title: 善哉行 其三
+titlePinyin: shan4 zai1 xing2   qi2 san1
 titleSlug: shan-zai-xing-qi-san
 author: 曹操
+authorPinyin: cao2 cao1
 authorSlug: cao-cao
 dynasty: 东汉末年
+dynastyPinyin: dong1 han4 mo4 nian2
 dynastySlug: dong-han-mo-nian
 tags: []
+
 ---
 
 ## 正文

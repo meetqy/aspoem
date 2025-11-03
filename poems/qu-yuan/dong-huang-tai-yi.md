@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-dong-huang-tai-yi
 title: 东皇太一
+titlePinyin: dong1 huang2 tai4 yi1
 titleSlug: dong-huang-tai-yi
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

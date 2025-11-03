@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-ai-ying
 title: 哀郢
+titlePinyin: ai1 ying3
 titleSlug: ai-ying
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

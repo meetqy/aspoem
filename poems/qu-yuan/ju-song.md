@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-ju-song
 title: 橘颂
+titlePinyin: ju2 song4
 titleSlug: ju-song
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

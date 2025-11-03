@@ -1,12 +1,16 @@
 ---
 id: du-mu-zhong-qiu-yue
 title: 中秋月
+titlePinyin: zhong1 qiu1 yue4
 titleSlug: zhong-qiu-yue
 author: 杜牧
+authorPinyin: du4 mu4
 authorSlug: du-mu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

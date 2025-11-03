@@ -1,10 +1,13 @@
 ---
 id: wei-zhuang-jin-ling-tu
 title: 金陵圖
+titlePinyin: jin1 ling2 tu2
 titleSlug: jin-ling-tu
 author: 韋莊
+authorPinyin: wei2 zhuang1
 authorSlug: wei-zhuang
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

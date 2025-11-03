@@ -1,12 +1,16 @@
 ---
 id: gao-shi-zui-hou-zeng-zhang-jiu-xu
 title: 醉後贈張九旭
+titlePinyin: zui4 hou4 zeng4 zhang1 jiu3 xu4
 titleSlug: zui-hou-zeng-zhang-jiu-xu
 author: 高適
+authorPinyin: gao1 shi4
 authorSlug: gao-shi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,10 +1,13 @@
 ---
 id: li-bai-xuan-zhou-xie-tiao-lou-jian-bie-xiao-shu-shu-yun
 title: 宣州謝脁樓餞別校書叔雲
+titlePinyin: xuan1 zhou1 xie4 tiao3 lou2 jian4 bie2 xiao4 shu1 shu1 yun2
 titleSlug: xuan-zhou-xie-tiao-lou-jian-bie-xiao-shu-shu-yun
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

@@ -1,10 +1,13 @@
 ---
 id: meng-hao-ran-sui-mu-gui-nan-shan
 title: 歲暮歸南山
+titlePinyin: sui4 mu4 gui1 nan2 shan1
 titleSlug: sui-mu-gui-nan-shan
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

@@ -1,10 +1,13 @@
 ---
 id: du-mu-qian-huai
 title: 遣懷
+titlePinyin: qian3 huai2
 titleSlug: qian-huai
 author: 杜牧
+authorPinyin: du4 mu4
 authorSlug: du-mu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

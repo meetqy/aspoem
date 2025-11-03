@@ -1,12 +1,16 @@
 ---
 id: cao-cao-bu-chu-xia-men-xing-dong-shi-yue
 title: 步出夏门行 冬十月
+titlePinyin: bu4 chu1 xia4 men2 xing2   dong1 shi2 yue4
 titleSlug: bu-chu-xia-men-xing-dong-shi-yue
 author: 曹操
+authorPinyin: cao2 cao1
 authorSlug: cao-cao
 dynasty: 东汉末年
+dynastyPinyin: dong1 han4 mo4 nian2
 dynastySlug: dong-han-mo-nian
 tags: []
+
 ---
 
 ## 正文

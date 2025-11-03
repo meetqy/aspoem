@@ -1,12 +1,16 @@
 ---
 id: fan-cheng-da-tian-jia
 title: 田家
+titlePinyin: tian2 jia1
 titleSlug: tian-jia
 author: 范成大
+authorPinyin: fan4 cheng2 da4
 authorSlug: fan-cheng-da
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

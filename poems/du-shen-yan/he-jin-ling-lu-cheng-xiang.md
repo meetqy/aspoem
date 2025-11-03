@@ -1,12 +1,16 @@
 ---
 id: du-shen-yan-he-jin-ling-lu-cheng-xiang
 title: 和晉陵陸承相
+titlePinyin: he2 jin4 ling2 lu4 cheng2 xiang1
 titleSlug: he-jin-ling-lu-cheng-xiang
 author: 杜審言
+authorPinyin: du4 shen3 yan2
 authorSlug: du-shen-yan
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

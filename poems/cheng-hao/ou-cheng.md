@@ -1,12 +1,16 @@
 ---
 id: cheng-hao-ou-cheng
 title: 偶成
+titlePinyin: ou3 cheng2
 titleSlug: ou-cheng
 author: 程顥
+authorPinyin: cheng2 hao4
 authorSlug: cheng-hao
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

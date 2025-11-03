@@ -1,12 +1,16 @@
 ---
 id: cao-cao-yao-su-ci
 title: 谣俗词
+titlePinyin: yao2 su2 ci2
 titleSlug: yao-su-ci
 author: 曹操
+authorPinyin: cao2 cao1
 authorSlug: cao-cao
 dynasty: 东汉末年
+dynastyPinyin: dong1 han4 mo4 nian2
 dynastySlug: dong-han-mo-nian
 tags: []
+
 ---
 
 ## 正文

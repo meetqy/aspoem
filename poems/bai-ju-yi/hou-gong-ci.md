@@ -1,10 +1,13 @@
 ---
 id: bai-ju-yi-hou-gong-ci
 title: 後宮詞
+titlePinyin: hou4 gong1 ci2
 titleSlug: hou-gong-ci
 author: 白居易
+authorPinyin: bai2 ju1 yi4
 authorSlug: bai-ju-yi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

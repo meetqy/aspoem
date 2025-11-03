@@ -1,12 +1,16 @@
 ---
 id: cheng-hao-jiao-xing-ji-shi
 title: 郊行即事
+titlePinyin: jiao1 xing2 ji2 shi4
 titleSlug: jiao-xing-ji-shi
 author: 程顥
+authorPinyin: cheng2 hao4
 authorSlug: cheng-hao
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

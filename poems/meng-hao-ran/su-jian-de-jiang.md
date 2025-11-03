@@ -1,10 +1,13 @@
 ---
 id: meng-hao-ran-su-jian-de-jiang
 title: 宿建德江
+titlePinyin: su4 jian4 de2 jiang1
 titleSlug: su-jian-de-jiang
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

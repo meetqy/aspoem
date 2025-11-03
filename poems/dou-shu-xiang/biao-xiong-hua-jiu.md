@@ -1,12 +1,16 @@
 ---
 id: dou-shu-xiang-biao-xiong-hua-jiu
 title: 表兄話舊
+titlePinyin: biao3 xiong1 hua4 jiu4
 titleSlug: biao-xiong-hua-jiu
 author: 竇叔向
+authorPinyin: dou4 shu1 xiang4
 authorSlug: dou-shu-xiang
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

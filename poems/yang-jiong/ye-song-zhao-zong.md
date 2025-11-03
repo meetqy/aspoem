@@ -1,12 +1,16 @@
 ---
 id: yang-jiong-ye-song-zhao-zong
 title: 夜送趙縱
+titlePinyin: ye4 song4 zhao4 zong4
 titleSlug: ye-song-zhao-zong
 author: 楊炯
+authorPinyin: yang2 jiong3
 authorSlug: yang-jiong
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

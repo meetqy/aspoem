@@ -1,12 +1,16 @@
 ---
 id: su-shi-hua-ying
 title: 花影
+titlePinyin: hua1 ying3
 titleSlug: hua-ying
 author: 蘇軾
+authorPinyin: su1 shi4
 authorSlug: su-shi
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

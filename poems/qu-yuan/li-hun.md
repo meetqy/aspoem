@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-li-hun
 title: 礼魂
+titlePinyin: li3 hun2
 titleSlug: li-hun
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

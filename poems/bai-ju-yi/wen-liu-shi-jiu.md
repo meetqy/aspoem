@@ -1,10 +1,13 @@
 ---
 id: bai-ju-yi-wen-liu-shi-jiu
 title: 問劉十九
+titlePinyin: wen4 liu2 shi2 jiu3
 titleSlug: wen-liu-shi-jiu
 author: 白居易
+authorPinyin: bai2 ju1 yi4
 authorSlug: bai-ju-yi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

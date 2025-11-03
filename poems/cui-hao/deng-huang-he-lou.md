@@ -1,10 +1,13 @@
 ---
 id: cui-hao-deng-huang-he-lou
 title: 登黃鶴樓
+titlePinyin: deng1 huang2 he4 lou2
 titleSlug: deng-huang-he-lou
 author: 崔顥
+authorPinyin: cui1 hao4
 authorSlug: cui-hao
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

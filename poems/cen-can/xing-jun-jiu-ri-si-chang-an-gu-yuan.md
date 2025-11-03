@@ -1,12 +1,16 @@
 ---
 id: cen-can-xing-jun-jiu-ri-si-chang-an-gu-yuan
 title: 行軍九日思長安故園
+titlePinyin: xing2 jun1 jiu3 ri4 si1 chang2 an1 gu4 yuan2
 titleSlug: xing-jun-jiu-ri-si-chang-an-gu-yuan
 author: 岑參
+authorPinyin: cen2 can1
 authorSlug: cen-can
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

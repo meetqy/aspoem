@@ -1,12 +1,16 @@
 ---
 id: liu-han-li-qiu
 title: 立秋
+titlePinyin: li4 qiu1
 titleSlug: li-qiu
 author: 劉翰
+authorPinyin: liu2 han4
 authorSlug: liu-han
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

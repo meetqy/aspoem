@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-he-bo
 title: 河伯
+titlePinyin: he2 bo2
 titleSlug: he-bo
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

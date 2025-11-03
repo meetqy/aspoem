@@ -1,12 +1,16 @@
 ---
 id: du-mu-jiang-nan-chun
 title: 江南春
+titlePinyin: jiang1 nan2 chun1
 titleSlug: jiang-nan-chun
 author: 杜牧
+authorPinyin: du4 mu4
 authorSlug: du-mu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,10 +1,13 @@
 ---
 id: shen-quan-qi-du-bu-jian
 title: 獨不見
+titlePinyin: du2 bu2 jian4
 titleSlug: du-bu-jian
 author: 沈佺期
+authorPinyin: shen3 quan2 qi1
 authorSlug: shen-quan-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","樂府"]
 

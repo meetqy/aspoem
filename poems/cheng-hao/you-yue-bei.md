@@ -1,12 +1,16 @@
 ---
 id: cheng-hao-you-yue-bei
 title: 遊月陂
+titlePinyin: you2 yue4 bei1
 titleSlug: you-yue-bei
 author: 程顥
+authorPinyin: cheng2 hao4
 authorSlug: cheng-hao
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

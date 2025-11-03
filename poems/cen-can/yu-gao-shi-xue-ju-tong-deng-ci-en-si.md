@@ -1,10 +1,13 @@
 ---
 id: cen-can-yu-gao-shi-xue-ju-tong-deng-ci-en-si
 title: 與高適薛據同登慈恩寺
+titlePinyin: yu3 gao1 shi4 xue1 ju4 tong2 deng1 ci2 en1 si4
 titleSlug: yu-gao-shi-xue-ju-tong-deng-ci-en-si
 author: 岑參
+authorPinyin: cen2 can1
 authorSlug: cen-can
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

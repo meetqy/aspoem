@@ -1,12 +1,16 @@
 ---
 id: yang-ju-yuan-cheng-dong-zao-chun
 title: 城東早春
+titlePinyin: cheng2 dong1 zao3 chun1
 titleSlug: cheng-dong-zao-chun
 author: 楊巨源
+authorPinyin: yang2 ju4 yuan2
 authorSlug: yang-ju-yuan
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

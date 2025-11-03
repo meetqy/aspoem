@@ -1,12 +1,16 @@
 ---
 id: wang-bao-zhao-shi
 title: 昭世
+titlePinyin: zhao1 shi4
 titleSlug: zhao-shi
 author: 王褒
+authorPinyin: wang2 bao1
 authorSlug: wang-bao
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: zhang-you-ti-song-ting-yi
 title: 題鬆汀驛
+titlePinyin: ti2 song1 ting1 yi4
 titleSlug: ti-song-ting-yi
 author: 張佑
+authorPinyin: zhang1 you4
 authorSlug: zhang-you
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

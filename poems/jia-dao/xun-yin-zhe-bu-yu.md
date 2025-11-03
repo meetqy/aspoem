@@ -1,12 +1,16 @@
 ---
 id: jia-dao-xun-yin-zhe-bu-yu
 title: 尋隱者不遇
+titlePinyin: xun2 yin3 zhe3 bu2 yu4
 titleSlug: xun-yin-zhe-bu-yu
 author: 賈島
+authorPinyin: jia3 dao3
 authorSlug: jia-dao
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
-tags: ["五言絕句","千家诗","蒙学"]
+tags: ["蒙学","唐詩三百首","五言絕句"]
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: wei-ying-wu-da-li-huan
 title: 答李浣
+titlePinyin: da2 li3 huan4
 titleSlug: da-li-huan
 author: 韋應物
+authorPinyin: wei2 ying1 wu4
 authorSlug: wei-ying-wu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,10 +1,13 @@
 ---
 id: meng-hao-ran-yu-zhu-zi-deng-xian-shan
 title: 與諸子登峴山
+titlePinyin: yu3 zhu1 zi3 deng1 xian4 shan1
 titleSlug: yu-zhu-zi-deng-xian-shan
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

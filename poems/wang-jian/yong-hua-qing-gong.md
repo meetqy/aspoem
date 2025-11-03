@@ -1,12 +1,16 @@
 ---
 id: wang-jian-yong-hua-qing-gong
 title: 詠華清宮
+titlePinyin: yong3 hua2 qing1 gong1
 titleSlug: yong-hua-qing-gong
 author: 王建
+authorPinyin: wang2 jian4
 authorSlug: wang-jian
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: cui-hao-huang-he-lou
 title: 黃鶴樓
+titlePinyin: huang2 he4 lou2
 titleSlug: huang-he-lou
 author: 崔顥
+authorPinyin: cui1 hao4
 authorSlug: cui-hao
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

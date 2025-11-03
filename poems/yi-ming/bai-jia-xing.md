@@ -1,12 +1,16 @@
 ---
 id: yi-ming-bai-jia-xing
 title: 百家姓
+titlePinyin: bai3 jia1 xing4
 titleSlug: bai-jia-xing
 author: 佚名
+authorPinyin: yi4 ming2
 authorSlug: yi-ming
 dynasty: 北宋
+dynastyPinyin: bei3 song4
 dynastySlug: bei-song
 tags: ["蒙学"]
+
 ---
 
 ## 正文

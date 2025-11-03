@@ -1,12 +1,16 @@
 ---
 id: zu-yong-su-shi-bie-ye
 title: 蘇氏別業
+titlePinyin: su1 shi4 bie2 ye4
 titleSlug: su-shi-bie-ye
 author: 祖詠
+authorPinyin: zu3 yong3
 authorSlug: zu-yong
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

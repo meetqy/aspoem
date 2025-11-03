@@ -1,10 +1,13 @@
 ---
 id: cen-can-zou-ma-chuan-xing-feng-song-feng-dai-fu-chu-shi
 title: 走馬川行奉送封大夫出師
+titlePinyin: zou3 ma3 chuan1 xing2 feng4 song4 feng1 dai4 fu0 chu1 shi1
 titleSlug: zou-ma-chuan-xing-feng-song-feng-dai-fu-chu-shi
 author: 岑參
+authorPinyin: cen2 can1
 authorSlug: cen-can
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

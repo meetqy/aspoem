@@ -1,10 +1,13 @@
 ---
 id: meng-hao-ran-zao-han-you-huai
 title: 早寒有懷
+titlePinyin: zao3 han2 you3 huai2
 titleSlug: zao-han-you-huai
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

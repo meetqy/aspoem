@@ -1,12 +1,16 @@
 ---
 id: cao-cao-hao-li-xing
 title: 蒿里行
+titlePinyin: hao1 li3 xing2
 titleSlug: hao-li-xing
 author: 曹操
+authorPinyin: cao2 cao1
 authorSlug: cao-cao
 dynasty: 东汉末年
+dynastyPinyin: dong1 han4 mo4 nian2
 dynastySlug: dong-han-mo-nian
 tags: []
+
 ---
 
 ## 正文

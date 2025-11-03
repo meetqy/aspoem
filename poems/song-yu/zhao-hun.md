@@ -1,12 +1,16 @@
 ---
 id: song-yu-zhao-hun
 title: 招魂
+titlePinyin: zhao1 hun2
 titleSlug: zhao-hun
 author: 宋玉
+authorPinyin: song4 yu4
 authorSlug: song-yu
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

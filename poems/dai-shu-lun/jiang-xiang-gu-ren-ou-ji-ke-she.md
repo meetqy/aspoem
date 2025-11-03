@@ -1,10 +1,13 @@
 ---
 id: dai-shu-lun-jiang-xiang-gu-ren-ou-ji-ke-she
 title: 江鄉故人偶集客舍
+titlePinyin: jiang1 xiang1 gu4 ren2 ou3 ji2 ke4 she4
 titleSlug: jiang-xiang-gu-ren-ou-ji-ke-she
 author: 戴叔倫
+authorPinyin: dai4 shu1 lun2
 authorSlug: dai-shu-lun
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

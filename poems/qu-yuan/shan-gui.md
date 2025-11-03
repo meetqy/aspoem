@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-shan-gui
 title: 山鬼
+titlePinyin: shan1 gui3
 titleSlug: shan-gui
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

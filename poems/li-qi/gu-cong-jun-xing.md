@@ -1,10 +1,13 @@
 ---
 id: li-qi-gu-cong-jun-xing
 title: 古從軍行
+titlePinyin: gu3 cong2 jun1 xing2
 titleSlug: gu-cong-jun-xing
 author: 李頎
+authorPinyin: li3 qi2
 authorSlug: li-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","樂府"]
 

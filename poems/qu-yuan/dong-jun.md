@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-dong-jun
 title: 东君
+titlePinyin: dong1 jun1
 titleSlug: dong-jun
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

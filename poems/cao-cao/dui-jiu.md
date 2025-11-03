@@ -1,12 +1,16 @@
 ---
 id: cao-cao-dui-jiu
 title: 对酒
+titlePinyin: dui4 jiu3
 titleSlug: dui-jiu
 author: 曹操
+authorPinyin: cao2 cao1
 authorSlug: cao-cao
 dynasty: 东汉末年
+dynastyPinyin: dong1 han4 mo4 nian2
 dynastySlug: dong-han-mo-nian
 tags: []
+
 ---
 
 ## 正文

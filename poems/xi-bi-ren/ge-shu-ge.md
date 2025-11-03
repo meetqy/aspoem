@@ -1,10 +1,13 @@
 ---
 id: xi-bi-ren-ge-shu-ge
 title: 哥舒歌
+titlePinyin: ge1 shu1 ge1
 titleSlug: ge-shu-ge
 author: 西鄙人
+authorPinyin: xi1 bi3 ren2
 authorSlug: xi-bi-ren
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

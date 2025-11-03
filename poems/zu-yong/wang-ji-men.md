@@ -1,10 +1,13 @@
 ---
 id: zu-yong-wang-ji-men
 title: 望薊門
+titlePinyin: wang4 ji4 men2
 titleSlug: wang-ji-men
 author: 祖詠
+authorPinyin: zu3 yong3
 authorSlug: zu-yong
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

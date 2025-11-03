@@ -1,10 +1,13 @@
 ---
 id: zhang-hu-zeng-nei-ren
 title: 贈內人
+titlePinyin: zeng4 nei4 ren2
 titleSlug: zeng-nei-ren
 author: 張祜
+authorPinyin: zhang1 hu4
 authorSlug: zhang-hu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

@@ -1,10 +1,13 @@
 ---
 id: wang-jian-xin-jia-niang-ci
 title: 新嫁娘詞
+titlePinyin: xin1 jia4 niang2 ci2
 titleSlug: xin-jia-niang-ci
 author: 王建
+authorPinyin: wang2 jian4
 authorSlug: wang-jian
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

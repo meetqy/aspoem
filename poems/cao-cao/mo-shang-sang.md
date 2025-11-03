@@ -1,12 +1,16 @@
 ---
 id: cao-cao-mo-shang-sang
 title: 陌上桑
+titlePinyin: mo4 shang4 sang1
 titleSlug: mo-shang-sang
 author: 曹操
+authorPinyin: cao2 cao1
 authorSlug: cao-cao
 dynasty: 东汉末年
+dynastyPinyin: dong1 han4 mo4 nian2
 dynastySlug: dong-han-mo-nian
 tags: []
+
 ---
 
 ## 正文

@@ -1,10 +1,13 @@
 ---
 id: liu-chang-qing-qiu-ri-deng-wu-gong-tai-shang-si-yuan-tiao
 title: 秋日登吳公臺上寺遠眺
+titlePinyin: qiu1 ri4 deng1 wu2 gong1 tai2 shang4 si4 yuan3 tiao4
 titleSlug: qiu-ri-deng-wu-gong-tai-shang-si-yuan-tiao
 author: 劉長卿
+authorPinyin: liu2 chang2 qing1
 authorSlug: liu-chang-qing
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

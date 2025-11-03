@@ -1,12 +1,16 @@
 ---
 id: liu-xiang-yuan-shi
 title: 远逝
+titlePinyin: yuan3 shi4
 titleSlug: yuan-shi
 author: 刘向
+authorPinyin: liu2 xiang4
 authorSlug: liu-xiang
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: wang-bao-kuang-ji
 title: 匡机
+titlePinyin: kuang1 ji1
 titleSlug: kuang-ji
 author: 王褒
+authorPinyin: wang2 bao1
 authorSlug: wang-bao
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

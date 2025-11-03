@@ -1,10 +1,13 @@
 ---
 id: du-fu-zeng-wei-ba-chu-shi
 title: 贈衛八處士
+titlePinyin: zeng4 wei4 ba1 chu3 shi4
 titleSlug: zeng-wei-ba-chu-shi
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

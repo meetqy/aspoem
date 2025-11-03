@@ -1,12 +1,16 @@
 ---
 id: zhao-gu-jiang-lou-you-gan
 title: 江樓有感
+titlePinyin: jiang1 lou2 you3 gan3
 titleSlug: jiang-lou-you-gan
 author: 趙嘏
+authorPinyin: zhao4 gu3
 authorSlug: zhao-gu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

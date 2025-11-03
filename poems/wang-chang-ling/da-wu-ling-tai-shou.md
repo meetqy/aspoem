@@ -1,12 +1,16 @@
 ---
 id: wang-chang-ling-da-wu-ling-tai-shou
 title: 答五陵太守
+titlePinyin: da2 wu3 ling2 tai4 shou3
 titleSlug: da-wu-ling-tai-shou
 author: 王昌齡
+authorPinyin: wang2 chang1 ling2
 authorSlug: wang-chang-ling
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

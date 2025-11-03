@@ -1,10 +1,13 @@
 ---
 id: zhu-qing-yu-gong-zhong-ci
 title: 宮中詞
+titlePinyin: gong1 zhong1 ci2
 titleSlug: gong-zhong-ci
 author: 朱慶餘
+authorPinyin: zhu1 qing4 yu2
 authorSlug: zhu-qing-yu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

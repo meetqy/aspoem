@@ -1,10 +1,13 @@
 ---
 id: zu-yong-zhong-nan-wang-yu-xue
 title: 終南望餘雪
+titlePinyin: zhong1 nan2 wang4 yu2 xue3
 titleSlug: zhong-nan-wang-yu-xue
 author: 祖詠
+authorPinyin: zu3 yong3
 authorSlug: zu-yong
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

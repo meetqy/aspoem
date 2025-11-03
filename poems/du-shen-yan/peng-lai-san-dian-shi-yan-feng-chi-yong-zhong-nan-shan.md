@@ -1,12 +1,16 @@
 ---
 id: du-shen-yan-peng-lai-san-dian-shi-yan-feng-chi-yong-zhong-nan-shan
 title: 蓬萊三殿侍宴奉敕詠終南山
+titlePinyin: peng2 lai2 san1 dian4 shi4 yan4 feng4 chi4 yong3 zhong1 nan2 shan1
 titleSlug: peng-lai-san-dian-shi-yan-feng-chi-yong-zhong-nan-shan
 author: 杜審言
+authorPinyin: du4 shen3 yan2
 authorSlug: du-shen-yan
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

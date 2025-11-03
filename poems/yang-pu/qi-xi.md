@@ -1,12 +1,16 @@
 ---
 id: yang-pu-qi-xi
 title: 七夕
+titlePinyin: qi1 xi1
 titleSlug: qi-xi
 author: 楊樸
+authorPinyin: yang2 pu3
 authorSlug: yang-pu
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

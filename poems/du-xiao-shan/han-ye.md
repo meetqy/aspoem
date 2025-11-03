@@ -1,12 +1,16 @@
 ---
 id: du-xiao-shan-han-ye
 title: 寒夜
+titlePinyin: han2 ye4
 titleSlug: han-ye
 author: 杜小山
+authorPinyin: du4 xiao3 shan1
 authorSlug: du-xiao-shan
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

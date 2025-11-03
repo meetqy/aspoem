@@ -1,10 +1,13 @@
 ---
 id: du-fu-ji-han-jian-yi
 title: 寄韓諫議
+titlePinyin: ji4 han2 jian4 yi4
 titleSlug: ji-han-jian-yi
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

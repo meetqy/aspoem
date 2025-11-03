@@ -1,12 +1,16 @@
 ---
 id: jia-yi-xi-shi
 title: 惜誓
+titlePinyin: xi1 shi4
 titleSlug: xi-shi
 author: 贾谊
+authorPinyin: jia3 yi4
 authorSlug: jia-yi
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

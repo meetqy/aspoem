@@ -1,10 +1,13 @@
 ---
 id: yuan-jie-shi-yu-hu-shang-zui-ge
 title: 石魚湖上醉歌
+titlePinyin: shi2 yu2 hu2 shang4 zui4 ge1
 titleSlug: shi-yu-hu-shang-zui-ge
 author: 元結
+authorPinyin: yuan2 jie2
 authorSlug: yuan-jie
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

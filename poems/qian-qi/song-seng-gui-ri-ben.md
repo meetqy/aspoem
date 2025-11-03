@@ -1,10 +1,13 @@
 ---
 id: qian-qi-song-seng-gui-ri-ben
 title: 送僧歸日本
+titlePinyin: song4 seng1 gui1 ri4 ben3
 titleSlug: song-seng-gui-ri-ben
 author: 錢起
+authorPinyin: qian2 qi3
 authorSlug: qian-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

@@ -1,12 +1,16 @@
 ---
 id: liu-yu-xi-qiu-feng-yin
 title: 秋風引
+titlePinyin: qiu1 feng1 yin3
 titleSlug: qiu-feng-yin
 author: 劉禹錫
+authorPinyin: liu2 yu3 xi1
 authorSlug: liu-yu-xi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

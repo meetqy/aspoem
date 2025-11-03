@@ -1,10 +1,13 @@
 ---
 id: li-qi-gu-yi
 title: 古意
+titlePinyin: gu3 yi4
 titleSlug: gu-yi
 author: 李頎
+authorPinyin: li3 qi2
 authorSlug: li-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

@@ -1,10 +1,13 @@
 ---
 id: cen-can-feng-ru-jing-shi
 title: 逢入京使
+titlePinyin: feng2 ru4 jing1 shi3
 titleSlug: feng-ru-jing-shi
 author: 岑參
+authorPinyin: cen2 can1
 authorSlug: cen-can
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

@@ -1,12 +1,16 @@
 ---
 id: zhu-xi-chun-ri
 title: 春日
+titlePinyin: chun1 ri4
 titleSlug: chun-ri
 author: 朱熹
+authorPinyin: zhu1 xi1
 authorSlug: zhu-xi
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

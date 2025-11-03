@@ -1,10 +1,13 @@
 ---
 id: wei-zhuang-zhang-tai-ye-si
 title: 章臺夜思
+titlePinyin: zhang1 tai2 ye4 si1
 titleSlug: zhang-tai-ye-si
 author: 韋莊
+authorPinyin: wei2 zhuang1
 authorSlug: wei-zhuang
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

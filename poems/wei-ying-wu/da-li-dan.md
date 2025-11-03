@@ -1,12 +1,16 @@
 ---
 id: wei-ying-wu-da-li-dan
 title: 答李儋
+titlePinyin: da2 li3 dan1
 titleSlug: da-li-dan
 author: 韋應物
+authorPinyin: wei2 ying1 wu4
 authorSlug: wei-ying-wu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

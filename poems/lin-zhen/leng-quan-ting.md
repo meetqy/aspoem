@@ -1,12 +1,16 @@
 ---
 id: lin-zhen-leng-quan-ting
 title: 冷泉亭
+titlePinyin: leng3 quan2 ting2
 titleSlug: leng-quan-ting
 author: 林稹
+authorPinyin: lin2 zhen3
 authorSlug: lin-zhen
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

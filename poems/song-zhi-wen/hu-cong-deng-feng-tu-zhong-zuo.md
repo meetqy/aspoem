@@ -1,12 +1,16 @@
 ---
 id: song-zhi-wen-hu-cong-deng-feng-tu-zhong-zuo
 title: 扈從登封途中作
+titlePinyin: hu4 cong2 deng1 feng1 tu2 zhong1 zuo4
 titleSlug: hu-cong-deng-feng-tu-zhong-zuo
 author: 宋之問
+authorPinyin: song4 zhi1 wen4
 authorSlug: song-zhi-wen
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

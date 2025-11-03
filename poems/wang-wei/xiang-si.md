@@ -1,10 +1,13 @@
 ---
 id: wang-wei-xiang-si
 title: 相思
+titlePinyin: xiang1 si1
 titleSlug: xiang-si
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言絕句"]
 

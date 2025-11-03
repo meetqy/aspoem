@@ -1,10 +1,13 @@
 ---
 id: yi-ming-za-shi
 title: 雜詩
+titlePinyin: za2 shi1
 titleSlug: za-shi
 author: 佚名
+authorPinyin: yi4 ming2
 authorSlug: yi-ming
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

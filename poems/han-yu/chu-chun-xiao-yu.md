@@ -1,12 +1,16 @@
 ---
 id: han-yu-chu-chun-xiao-yu
 title: 初春小雨
+titlePinyin: chu1 chun1 xiao3 yu3
 titleSlug: chu-chun-xiao-yu
 author: 韓愈
+authorPinyin: han2 yu4
 authorSlug: han-yu
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

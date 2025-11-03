@@ -1,12 +1,16 @@
 ---
 id: qian-qi-jiang-xing-wang-kuang-lu
 title: 江行望匡廬
+titlePinyin: jiang1 xing2 wang4 kuang1 lu2
 titleSlug: jiang-xing-wang-kuang-lu
 author: 錢起
+authorPinyin: qian2 qi3
 authorSlug: qian-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

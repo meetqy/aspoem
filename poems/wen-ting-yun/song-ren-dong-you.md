@@ -1,10 +1,13 @@
 ---
 id: wen-ting-yun-song-ren-dong-you
 title: 送人東遊
+titlePinyin: song4 ren2 dong1 you2
 titleSlug: song-ren-dong-you
 author: 溫庭筠
+authorPinyin: wen1 ting2 yun2
 authorSlug: wen-ting-yun
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

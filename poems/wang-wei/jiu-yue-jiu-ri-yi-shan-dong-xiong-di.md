@@ -1,10 +1,13 @@
 ---
 id: wang-wei-jiu-yue-jiu-ri-yi-shan-dong-xiong-di
 title: 九月九日憶山東兄弟
+titlePinyin: jiu3 yue4 jiu3 ri4 yi4 shan1 dong1 xiong1 di4
 titleSlug: jiu-yue-jiu-ri-yi-shan-dong-xiong-di
 author: 王維
+authorPinyin: wang2 wei2
 authorSlug: wang-wei
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

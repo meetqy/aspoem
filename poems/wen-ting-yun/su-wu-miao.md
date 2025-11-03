@@ -1,10 +1,13 @@
 ---
 id: wen-ting-yun-su-wu-miao
 title: 蘇武廟
+titlePinyin: su1 wu3 miao4
 titleSlug: su-wu-miao
 author: 溫庭筠
+authorPinyin: wen1 ting2 yun2
 authorSlug: wen-ting-yun
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

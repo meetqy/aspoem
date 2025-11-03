@@ -1,12 +1,16 @@
 ---
 id: sun-ti-guan-yong-le-gong-zhu-ru-fan
 title: 觀永樂公主入番
+titlePinyin: guan1 yong3 le4 gong1 zhu3 ru4 fan1
 titleSlug: guan-yong-le-gong-zhu-ru-fan
 author: 孫逖
+authorPinyin: sun1 ti4
 authorSlug: sun-ti
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

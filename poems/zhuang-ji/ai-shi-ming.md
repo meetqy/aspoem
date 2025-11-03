@@ -1,12 +1,16 @@
 ---
 id: zhuang-ji-ai-shi-ming
 title: 哀时命
+titlePinyin: ai1 shi2 ming4
 titleSlug: ai-shi-ming
 author: 庄忌
+authorPinyin: zhuang1 ji4
 authorSlug: zhuang-ji
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

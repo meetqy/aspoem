@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-yuan-you
 title: 远游
+titlePinyin: yuan3 you2
 titleSlug: yuan-you
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

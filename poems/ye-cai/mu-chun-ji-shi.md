@@ -1,12 +1,16 @@
 ---
 id: ye-cai-mu-chun-ji-shi
 title: 暮春即事
+titlePinyin: mu4 chun1 ji2 shi4
 titleSlug: mu-chun-ji-shi
 author: 葉採
+authorPinyin: ye4 cai3
 authorSlug: ye-cai
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

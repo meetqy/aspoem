@@ -1,10 +1,13 @@
 ---
 id: du-fu-yue-ye-yi-she-di
 title: 月夜憶舍弟
+titlePinyin: yue4 ye4 yi4 she4 di4
 titleSlug: yue-ye-yi-she-di
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

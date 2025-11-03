@@ -1,10 +1,13 @@
 ---
 id: du-fu-ye-wang
 title: 野望
+titlePinyin: ye3 wang4
 titleSlug: ye-wang
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

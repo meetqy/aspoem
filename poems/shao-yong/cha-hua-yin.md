@@ -1,12 +1,16 @@
 ---
 id: shao-yong-cha-hua-yin
 title: 插花吟
+titlePinyin: cha1 hua1 yin2
 titleSlug: cha-hua-yin
 author: 邵雍
+authorPinyin: shao4 yong1
 authorSlug: shao-yong
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

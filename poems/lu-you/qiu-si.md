@@ -1,12 +1,16 @@
 ---
 id: lu-you-qiu-si
 title: 秋思
+titlePinyin: qiu1 si1
 titleSlug: qiu-si
 author: 陸游
+authorPinyin: lu4 you2
 authorSlug: lu-you
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

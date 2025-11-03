@@ -1,12 +1,16 @@
 ---
 id: qian-qi-gui-yan
 title: 歸雁
+titlePinyin: gui1 yan4
 titleSlug: gui-yan
 author: 錢起
+authorPinyin: qian2 qi3
 authorSlug: qian-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

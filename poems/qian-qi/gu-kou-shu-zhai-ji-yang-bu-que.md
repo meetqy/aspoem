@@ -1,10 +1,13 @@
 ---
 id: qian-qi-gu-kou-shu-zhai-ji-yang-bu-que
 title: 谷口書齋寄楊補闕
+titlePinyin: gu3 kou3 shu1 zhai1 ji4 yang2 bu3 que4
 titleSlug: gu-kou-shu-zhai-ji-yang-bu-que
 author: 錢起
+authorPinyin: qian2 qi3
 authorSlug: qian-qi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

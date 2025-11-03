@@ -1,12 +1,16 @@
 ---
 id: du-xun-he-shan-zhong-gua-fu
 title: 山中寡婦
+titlePinyin: shan1 zhong1 gua3 fu4
 titleSlug: shan-zhong-gua-fu
 author: 杜荀鶴
+authorPinyin: du4 xun2 he4
 authorSlug: du-xun-he
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

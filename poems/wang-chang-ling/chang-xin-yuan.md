@@ -1,10 +1,13 @@
 ---
 id: wang-chang-ling-chang-xin-yuan
 title: 長信怨
+titlePinyin: chang2 xin4 yuan4
 titleSlug: chang-xin-yuan
 author: 王昌齡
+authorPinyin: wang2 chang1 ling2
 authorSlug: wang-chang-ling
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","樂府"]
 

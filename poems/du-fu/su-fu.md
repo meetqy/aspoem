@@ -1,10 +1,13 @@
 ---
 id: du-fu-su-fu
 title: 宿府
+titlePinyin: su4 fu3
 titleSlug: su-fu
 author: 杜甫
+authorPinyin: du4 fu3
 authorSlug: du-fu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

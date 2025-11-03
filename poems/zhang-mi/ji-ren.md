@@ -1,10 +1,13 @@
 ---
 id: zhang-mi-ji-ren
 title: 寄人
+titlePinyin: ji4 ren2
 titleSlug: ji-ren
 author: 張泌
+authorPinyin: zhang1 mi4
 authorSlug: zhang-mi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

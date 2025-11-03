@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-yun-zhong-jun
 title: 云中君
+titlePinyin: yun2 zhong1 jun1
 titleSlug: yun-zhong-jun
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

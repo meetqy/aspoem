@@ -1,12 +1,16 @@
 ---
 id: huai-nan-xiao-shan-zhao-yin-shi
 title: 招隐士
+titlePinyin: zhao1 yin3 shi4
 titleSlug: zhao-yin-shi
 author: 淮南小山
+authorPinyin: huai2 nan2 xiao3 shan1
 authorSlug: huai-nan-xiao-shan
 dynasty: 西汉
+dynastyPinyin: xi1 han4
 dynastySlug: xi-han
 tags: []
+
 ---
 
 ## 正文

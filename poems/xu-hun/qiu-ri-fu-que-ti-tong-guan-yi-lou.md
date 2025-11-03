@@ -1,10 +1,13 @@
 ---
 id: xu-hun-qiu-ri-fu-que-ti-tong-guan-yi-lou
 title: 秋日赴闕題潼關驛樓
+titlePinyin: qiu1 ri4 fu4 que4 ti2 tong2 guan1 yi4 lou2
 titleSlug: qiu-ri-fu-que-ti-tong-guan-yi-lou
 author: 許渾
+authorPinyin: xu1 hun2
 authorSlug: xu-hun
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

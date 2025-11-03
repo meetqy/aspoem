@@ -1,12 +1,16 @@
 ---
 id: gao-shi-yong-shi
 title: 詠史
+titlePinyin: yong3 shi3
 titleSlug: yong-shi
 author: 高適
+authorPinyin: gao1 shi4
 authorSlug: gao-shi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

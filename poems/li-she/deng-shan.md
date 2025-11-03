@@ -1,12 +1,16 @@
 ---
 id: li-she-deng-shan
 title: 登山
+titlePinyin: deng1 shan1
 titleSlug: deng-shan
 author: 李涉
+authorPinyin: li3 she4
 authorSlug: li-she
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

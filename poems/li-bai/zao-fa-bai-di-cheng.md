@@ -1,10 +1,13 @@
 ---
 id: li-bai-zao-fa-bai-di-cheng
 title: 早發白帝城
+titlePinyin: zao3 fa1 bai2 di4 cheng2
 titleSlug: zao-fa-bai-di-cheng
 author: 李白
+authorPinyin: li3 bai2
 authorSlug: li-bai
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

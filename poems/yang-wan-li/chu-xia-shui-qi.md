@@ -1,12 +1,16 @@
 ---
 id: yang-wan-li-chu-xia-shui-qi
 title: 初夏睡起
+titlePinyin: chu1 xia4 shui4 qi3
 titleSlug: chu-xia-shui-qi
 author: 楊萬里
+authorPinyin: yang2 wan4 li3
 authorSlug: yang-wan-li
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

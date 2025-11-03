@@ -1,10 +1,13 @@
 ---
 id: cui-hao-xing-jing-hua-yin
 title: 行經華陰
+titlePinyin: xing2 jing1 hua2 yin1
 titleSlug: xing-jing-hua-yin
 author: 崔顥
+authorPinyin: cui1 hao4
 authorSlug: cui-hao
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言律詩"]
 

@@ -1,12 +1,16 @@
 ---
 id: cui-hao-chang-gan-xing
 title: 長幹行
+titlePinyin: chang2 gan4 xing2
 titleSlug: chang-gan-xing
 author: 崔顥
+authorPinyin: cui1 hao4
 authorSlug: cui-hao
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: zhu-shu-zhen-ji-jing
 title: 即景
+titlePinyin: ji2 jing3
 titleSlug: ji-jing
 author: 朱淑貞
+authorPinyin: zhu1 shu1 zhen1
 authorSlug: zhu-shu-zhen
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

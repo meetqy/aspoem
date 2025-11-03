@@ -1,10 +1,13 @@
 ---
 id: han-yu-shi-gu-ge
 title: 石鼓歌
+titlePinyin: shi2 gu3 ge1
 titleSlug: shi-gu-ge
 author: 韓愈
+authorPinyin: han2 yu4
 authorSlug: han-yu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

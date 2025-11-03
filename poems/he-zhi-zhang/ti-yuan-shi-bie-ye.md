@@ -1,12 +1,16 @@
 ---
 id: he-zhi-zhang-ti-yuan-shi-bie-ye
 title: 題袁氏別業
+titlePinyin: ti2 yuan2 shi4 bie2 ye4
 titleSlug: ti-yuan-shi-bie-ye
 author: 賀知章
+authorPinyin: he4 zhi1 zhang1
 authorSlug: he-zhi-zhang
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

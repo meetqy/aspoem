@@ -1,12 +1,16 @@
 ---
 id: ling-hu-chu-si-jun-en
 title: 思君恩
+titlePinyin: si1 jun1 en1
 titleSlug: si-jun-en
 author: 令狐楚
+authorPinyin: ling2 hu2 chu3
 authorSlug: ling-hu-chu
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

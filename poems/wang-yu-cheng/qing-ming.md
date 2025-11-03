@@ -1,12 +1,16 @@
 ---
 id: wang-yu-cheng-qing-ming
 title: 清明
+titlePinyin: qing1 ming2
 titleSlug: qing-ming
 author: 王禹偁
+authorPinyin: wang2 yu3 cheng1
 authorSlug: wang-yu-cheng
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

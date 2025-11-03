@@ -1,10 +1,13 @@
 ---
 id: meng-hao-ran-ye-gui-lu-men-shan-ge
 title: 夜歸鹿門山歌
+titlePinyin: ye4 gui1 lu4 men2 shan1 ge1
 titleSlug: ye-gui-lu-men-shan-ge
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言古詩"]
 

@@ -1,10 +1,13 @@
 ---
 id: meng-hao-ran-su-ye-shi-shan-fang-dai-ding-da-bu-zhi
 title: 宿業師山房待丁大不至
+titlePinyin: su4 ye4 shi1 shan1 fang2 dai4 ding1 da4 bu2 zhi4
 titleSlug: su-ye-shi-shan-fang-dai-ding-da-bu-zhi
 author: 孟浩然
+authorPinyin: meng4 hao4 ran2
 authorSlug: meng-hao-ran
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言古詩"]
 

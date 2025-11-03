@@ -1,10 +1,13 @@
 ---
 id: wang-chang-ling-chun-gong-qu
 title: 春宮曲
+titlePinyin: chun1 gong1 qu3
 titleSlug: chun-gong-qu
 author: 王昌齡
+authorPinyin: wang2 chang1 ling2
 authorSlug: wang-chang-ling
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","七言絕句"]
 

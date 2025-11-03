@@ -1,12 +1,16 @@
 ---
 id: qu-yuan-yu-fu
 title: 渔父
+titlePinyin: yu2 fu3
 titleSlug: yu-fu
 author: 屈原
+authorPinyin: qu1 yuan2
 authorSlug: qu-yuan
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

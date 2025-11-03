@@ -1,12 +1,16 @@
 ---
 id: song-yu-jiu-bian
 title: 九辩
+titlePinyin: jiu3 bian4
 titleSlug: jiu-bian
 author: 宋玉
+authorPinyin: song4 yu4
 authorSlug: song-yu
 dynasty: 楚
+dynastyPinyin: chu3
 dynastySlug: chu
 tags: []
+
 ---
 
 ## 正文

@@ -1,12 +1,16 @@
 ---
 id: gao-ju-qing-qing-ming
 title: 清明
+titlePinyin: qing1 ming2
 titleSlug: qing-ming
 author: 高菊卿
+authorPinyin: gao1 ju2 qing1
 authorSlug: gao-ju-qing
 dynasty: 宋
+dynastyPinyin: song4
 dynastySlug: song
 tags: ["七言律詩","千家诗","蒙学"]
+
 ---
 
 ## 正文

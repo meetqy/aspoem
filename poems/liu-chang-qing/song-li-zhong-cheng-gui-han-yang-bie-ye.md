@@ -1,10 +1,13 @@
 ---
 id: liu-chang-qing-song-li-zhong-cheng-gui-han-yang-bie-ye
 title: 送李中丞歸漢陽別業
+titlePinyin: song4 li3 zhong1 cheng2 gui1 han4 yang2 bie2 ye4
 titleSlug: song-li-zhong-cheng-gui-han-yang-bie-ye
 author: 劉長卿
+authorPinyin: liu2 chang2 qing1
 authorSlug: liu-chang-qing
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["蒙学","唐詩三百首","五言律詩"]
 

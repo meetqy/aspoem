@@ -1,12 +1,16 @@
 ---
 id: li-shi-zhi-ba-xiang-zuo
 title: 罷相作
+titlePinyin: ba4 xiang1 zuo4
 titleSlug: ba-xiang-zuo
 author: 李適之
+authorPinyin: li3 shi4 zhi1
 authorSlug: li-shi-zhi
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["五言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文

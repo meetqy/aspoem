@@ -1,12 +1,16 @@
 ---
 id: xie-fang-de-can-fu-yin
 title: 蠶婦吟
+titlePinyin: can2 fu4 yin2
 titleSlug: can-fu-yin
 author: 謝枋得
+authorPinyin: xie4 fang1 de2
 authorSlug: xie-fang-de
 dynasty: 唐
+dynastyPinyin: tang2
 dynastySlug: tang
 tags: ["七言絕句","千家诗","蒙学"]
+
 ---
 
 ## 正文
