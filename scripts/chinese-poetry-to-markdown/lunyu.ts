@@ -11,6 +11,7 @@ export async function syncLunyu() {
         author: '孔子及其弟子',
         dynasty: '春秋',
         parent: ['论语'],
+        tags: ['蒙学'],
       }),
     ),
   ).then(() => {
