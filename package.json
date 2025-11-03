@@ -106,16 +106,5 @@
       "@types/react": "19.2.2",
       "@types/react-dom": "19.2.2"
     }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{md|js|tsx|jsx|json}": [
-      "eslint --fix",
-      "git add"
-    ]
   }
 }

@@ -12,10 +12,6 @@ dynastySlug: tang
 tags: []
 ---
 
-
-
-
-
 ## 正文
 
 - 三四百年寺，今來國又清。
