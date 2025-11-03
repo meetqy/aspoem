@@ -10,7 +10,6 @@ dynasty: 明末清初
 dynastyPinyin: ming2 mo4 qing1 chu1
 dynastySlug: ming-mo-qing-chu
 tags: ["蒙学"]
-
 ---
 
 ## 正文

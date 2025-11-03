@@ -10,7 +10,6 @@ dynasty: 未知
 dynastyPinyin: wei4 zhi1
 dynastySlug: wei-zhi
 tags: ["七言絕句","千家诗","蒙学"]
-
 ---
 
 ## 正文

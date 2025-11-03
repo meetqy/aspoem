@@ -10,7 +10,6 @@ dynasty: 明
 dynastyPinyin: ming2
 dynastySlug: ming
 tags: ["七言律詩","千家诗","蒙学"]
-
 ---
 
 ## 正文

@@ -10,7 +10,6 @@ dynasty: 南北
 dynastyPinyin: nan2 bei3
 dynastySlug: nan-bei
 tags: ["蒙学"]
-
 ---
 
 ## 正文

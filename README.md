@@ -2,6 +2,8 @@
 
 诗词阅读网站 - 现代化设计，更好的阅读体验，海量的诗词数据。
 
+之前版本：https://github.com/meetqy/aspoem/tree/main
+
 ## 同步 chinese-poetry 到 markdown 文件
 
 ```shell

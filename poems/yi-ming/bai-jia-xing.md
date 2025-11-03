@@ -10,7 +10,6 @@ dynasty: 北宋
 dynastyPinyin: bei3 song4
 dynastySlug: bei-song
 tags: ["蒙学"]
-
 ---
 
 ## 正文

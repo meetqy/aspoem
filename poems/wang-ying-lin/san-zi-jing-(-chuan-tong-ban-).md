@@ -10,7 +10,6 @@ dynasty: 南宋到清末
 dynastyPinyin: nan2 song4 dao4 qing1 mo4
 dynastySlug: nan-song-dao-qing-mo
 tags: ["蒙学"]
-
 ---
 
 ## 正文
