@@ -20,8 +20,6 @@
     "db:studio": "prisma studio --schema=./prisma/ --browser none",
     "dev": "next dev --turbo -p3333",
     "postinstall": "prisma generate --schema=./prisma/",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix --cache",
     "preview": "next build && next start",
     "start": "next start",
     "typecheck": "tsc --noEmit",
@@ -89,6 +87,8 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "fs-extra": "^11.3.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.6",
     "pangu": "^7.2.0",
     "postcss": "^8.5.3",
     "prisma": "^6.18.0",
@@ -105,5 +105,13 @@
       "@types/react": "19.2.2",
       "@types/react-dom": "19.2.2"
     }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": ["eslint --fix --cache", "git add"]
   }
 }
