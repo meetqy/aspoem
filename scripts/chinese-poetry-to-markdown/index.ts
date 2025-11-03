@@ -8,6 +8,7 @@ import { syncQianjiashi } from './mengxue/qianjiashi'
 import { syncQianziwen } from './mengxue/qianziwen'
 import { syncSanzijing } from './mengxue/sanzijin'
 import { syncSanzijingNew } from './mengxue/sanzijin-new'
+import { syncShenglvqimeng } from './mengxue/shenglvqimeng'
 
 function main() {
   syncCaocao()
@@ -20,6 +21,7 @@ function main() {
   syncQianziwen()
   syncSanzijingNew()
   syncSanzijing()
+  syncShenglvqimeng()
 }
 
 main()

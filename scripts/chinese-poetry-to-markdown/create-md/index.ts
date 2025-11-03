@@ -56,9 +56,7 @@ export function createMdContent(poem: Poem) {
 
   const parentStr = poem.parent
     ? `parent: 
-${poem.parent.map(p => `    title: ${p}
-    titleSlug: ${genSlug(p)}
-`).join('\n')}`.replace(/\n+$/g, '')
+${poem.parent.map(p => `    ${p}:${genSlug(p)}`).join('\n')}`
     : ''
 
   const str = `---
