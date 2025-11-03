@@ -2,7 +2,7 @@
 
 诗词阅读网站 - 现代化设计，更好的阅读体验，海量的诗词数据。
 
-之前版本：https://github.com/meetqy/aspoem/tree/main
+之前版本: https://github.com/meetqy/aspoem/tree/main
 
 ## 同步 chinese-poetry 到 markdown 文件
 
@@ -14,36 +14,36 @@ pnpm gen:markdown
 
 ```markdown
 ---
-id: li-bai-jing-ye-si
-title: 静夜思
-author: 李白
+id: bai-ju-yi-fu-de-gu-yuan-cao-song-bie
+title: 賦得古原草送別
+titlePinyin: fu4 de2 gu3 yuan2 cao3 song4 bie2
+titleSlug: fu-de-gu-yuan-cao-song-bie
+author: 白居易
+authorPinyin: bai2 ju1 yi4
+authorSlug: bai-ju-yi
 dynasty: 唐
-authorSlug: li-bai
+dynastyPinyin: tang2
 dynastySlug: tang
-tags: ["思乡", "月亮", "五言绝句"]
+tags: ["蒙学","唐詩三百首","五言律詩"]
 ---
 
 ## 正文
 
-- 床前明月光，疑是地上霜。
-- 举头望明月，低头思故乡。
+- 離離原上草，一歲一枯榮。
+- 野火燒不盡，春風吹又生。
+- 遠芳侵古道，晴翠接荒城。
+- 又送王孫去，萋萋滿別情。
 
 ## 拼音
 
-- chuáng qián míng yuè guāng ，yí shì dì shàng shuāng。
-- jǔ tóu wàng míng yuè ，dī tóu sī gù xiāng。
+- li2 li2 yuan2 shang4 cao3 ， yi2 sui4 yi4 ku1 rong2 。
+- ye3 huo3 shao1 bu2 jin4 ， chun1 feng1 chui1 you4 sheng1 。
+- yuan3 fang1 qin1 gu3 dao4 ， qing2 cui4 jie1 huang1 cheng2 。
+- you4 song4 wang2 sun1 qu4 ， qi1 qi1 man3 bie2 qing2 。
 
 ## 注释
 
-- **床前**：指窗前、榻前。
-- **明月光**：皎洁的月光。
-
 ## 译文
 
-皎洁的月光洒落在床前，
-我怀疑那不是月光，而是地上铺了一层白霜。
-
 ## 赏析
-
-《静夜思》是唐代诗人李白所作的一首五言绝句。此诗描绘了作者在宁静的夜晚，看到窗前明月，进而引发对故乡深切思念的情景。
 ```
