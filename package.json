@@ -21,11 +21,11 @@
     "dev": "next dev --turbo -p3333",
     "postinstall": "prisma generate --schema=./prisma/",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
+    "lint:fix": "eslint . --fix --cache",
     "preview": "next build && next start",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "gen:markdown": "tsx scripts/chinese-poetry-to-markdown/index.ts && eslint --fix poems",
+    "gen:markdown": "tsx scripts/chinese-poetry-to-markdown/index.ts",
     "ui:upgrade": "for file in src/components/ui/*.tsx; do npx shadcn@latest add -y -o $(basename \"$file\" .tsx); done"
   },
   "dependencies": {
