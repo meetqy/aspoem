@@ -10,8 +10,8 @@
 }
 
 @layer utilities {
-  .container {
-    @apply mx-auto lg:px-1 px-4;
+  .container-wrapper {
+    @apply max-w-screen-2xl px-6 mx-auto;
   }
 }
 

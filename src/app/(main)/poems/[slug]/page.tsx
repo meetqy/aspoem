@@ -29,16 +29,16 @@ const poem = {
 export default async function Page() {
   return (
     <div className="flex flex-1 flex-col">
-      <SidebarProvider className="container relative mx-auto">
+      <SidebarProvider className="relative container-wrapper">
         <SidebarLeft />
 
         <SidebarContent>
-          <main className="max-w-screen-md h-[2000px] mx-auto w-full lg:py-24 py-12" style={{ fontFamily: 'cursive', fontSize: '20px' }}>
+          <main className="@container/poem h-[2000px] mx-auto w-full @poem/md:py-24 py-12" style={{ fontFamily: 'cursive', fontSize: '20px' }}>
             <RubyText className="text-5xl md:text-7xl" as="h1" text={poem.title} pinyin={poem.titlePinyin} />
 
             <h2 className="text-center mt-[1.5em] flex items-center justify-center">
               <RubyText
-                className="text-xl lg:text-3xl"
+                className="text-xl @poem/md:text-3xl"
                 classNames={{
                   pinyin: 'text-base',
                 }}
@@ -51,7 +51,7 @@ export default async function Page() {
                 classNames={{
                   pinyin: 'text-base',
                 }}
-                className="text-xl lg:text-3xl"
+                className="text-xl @poem/md:text-3xl"
                 as="span"
                 text={poem.author}
                 pinyin={poem.authorPinyin}
@@ -59,7 +59,7 @@ export default async function Page() {
             </h2>
 
             <div className="mt-[3em]">
-              <div className="leading-[2.5em] text-[2rem] md:text-4xl tracking-[0.2em] lg:tracking-[0.15em] transition-all">
+              <div className="leading-[2.5em] text-[2rem] @poem/md:text-4xl tracking-[0.2em] @poem/md:tracking-[0.15em] transition-all">
                 {poem.paragraphs.map((paragraph, index) => (
                   <RubyText
                     key={index}

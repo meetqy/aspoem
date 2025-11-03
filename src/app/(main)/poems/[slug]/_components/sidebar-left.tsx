@@ -53,7 +53,7 @@ const discover: SidebarItem[] = [
 
 export function SidebarLeft() {
   return (
-    <Sidebar collapsible="none" className="bg-transparent h-[calc(100vh-4rem)] sticky top-[4rem] w-56 hidden lg:block">
+    <Sidebar collapsible="none" className="bg-transparent h-[calc(100vh-4rem)] sticky top-[4rem] w-56 hidden 2xl:block">
       <ScrollArea className="h-full">
         <SidebarContent className="gap-0 py-12">
           <SidebarGroup className="group-data-[collapsible=icon]:hidden">
