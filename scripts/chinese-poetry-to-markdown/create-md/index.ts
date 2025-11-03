@@ -1,4 +1,4 @@
-import { writeFileSync } from 'node:fs'
+import { existsSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import CompleteDict from '@pinyin-pro/data/complete'
 import { ensureDirSync } from 'fs-extra'
@@ -42,6 +42,13 @@ export function createMdContent(poem: Poem) {
   const authorSlug = genSlug(poem.author)
   const dynastySlug = genSlug(poem.dynasty)
 
+  const filePath = `${POEMS_DIR}/${authorSlug}/${titleSlug}.md`
+
+  // 检查文件是否已经存在
+  if (existsSync(filePath)) {
+    return false
+  }
+
   const content = escapeMarkdown(poem.paragraphs)
 
   const id = `${authorSlug}-${titleSlug}`
@@ -73,5 +80,7 @@ ${pinyin(content, { toneType: 'num', nonZh: 'consecutive' }).replace(/-(\s)+/g, 
 `
 
   ensureDirSync(`${POEMS_DIR}/${authorSlug}`)
-  return writeFileSync(`${POEMS_DIR}/${authorSlug}/${titleSlug}.md`, str)
+  writeFileSync(filePath, str)
+  console.log(`创建文件: ${filePath}`)
+  return true
 }
