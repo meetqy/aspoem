@@ -5,6 +5,7 @@ import { syncBaijiaxing } from './mengxue/baijiaxing'
 import { syncDizigui } from './mengxue/dizigui'
 import { syncGuwenguanzhi } from './mengxue/guwenguanzhi'
 import { syncQianjiashi } from './mengxue/qianjiashi'
+import { syncQianziwen } from './mengxue/qianziwen'
 
 function main() {
   syncCaocao()
@@ -14,6 +15,7 @@ function main() {
   syncDizigui()
   syncGuwenguanzhi()
   syncQianjiashi()
+  syncQianziwen()
 }
 
 main()
