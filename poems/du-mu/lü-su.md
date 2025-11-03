@@ -1,0 +1,31 @@
+---
+id: du-mu-lü-su
+title: 旅宿
+titleSlug: lü-su
+author: 杜牧
+authorSlug: du-mu
+dynasty: 唐
+dynastySlug: tang
+tags: ["蒙学","唐詩三百首","五言律詩"]
+
+---
+
+## 正文
+
+- 旅館無良伴，凝情自悄然。
+- 寒燈思舊事，斷雁警愁眠。
+- 遠夢歸侵曉，家書到隔年。
+- 滄江好煙月，門系釣魚船。
+
+## 拼音
+
+- lü3 guan3 wu2 liang2 ban4 ， ning2 qing2 zi4 qiao3 ran2 。
+- han2 deng1 si1 jiu4 shi4 ， duan4 yan4 jing3 chou2 mian2 。
+- yuan3 meng4 gui1 qin1 xiao3 ， jia1 shu1 dao4 ge2 nian2 。
+- cang1 jiang1 hao3 yan1 yue4 ， men2 xi4 diao4 yu2 chuan2 。
+
+## 注释
+
+## 译文
+
+## 赏析
