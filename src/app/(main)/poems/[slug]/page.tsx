@@ -47,6 +47,8 @@ export default async function Page() {
                 pinyin={` ${poem.dynastyPinyin} `}
               />
 
+              <span className="mx-2"></span>
+
               <RubyText
                 classNames={{
                   pinyin: 'text-base',
