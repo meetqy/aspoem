@@ -1,0 +1,29 @@
+---
+id: yang-xiu-tian-que-shan
+title: 天闕山
+titlePinyin: tian1 que4 shan1
+titleSlug: tian-que-shan
+author: 楊修
+authorPinyin: yang2 xiu1
+authorSlug: yang-xiu
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: [] 
+---
+
+## 正文
+
+- 牛頭天際碧凝嵐，王導無稽示妄談。
+- 若以遠山爲上闕，長安應合指終南。
+
+## 拼音
+
+- niu2 tou2 tian1 ji4 bi4 ning2 lan2 ， wang2 dao3 wu2 ji1 shi4 wang4 tan2 。
+- ruo4 yi3 yuan3 shan1 wei2 shang4 que4 ， chang2 an1 ying1 he2 zhi3 zhong1 nan2 。
+
+## 注释
+
+## 译文
+
+## 赏析

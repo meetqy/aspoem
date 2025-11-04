@@ -1,0 +1,33 @@
+---
+id: wang-yi-ling-gu-shan
+title: 靈谷山
+titlePinyin: ling2 gu3 shan1
+titleSlug: ling-gu-shan
+author: 王益
+authorPinyin: wang2 yi4
+authorSlug: wang-yi
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: [] 
+---
+
+## 正文
+
+- 靈谷神仙宅，言歸肆目新。
+- 山光遠如畫，秋色老於人。
+- 世俗棋爭劫，人心海變塵。
+- 功成思范蠡，湖上一閑身。
+
+## 拼音
+
+- ling2 gu3 shen2 xian1 zhai2 ， yan2 gui1 si4 mu4 xin1 。
+- shan1 guang1 yuan3 ru2 hua4 ， qiu1 se4 lao3 wu1 ren2 。
+- shi4 su2 qi2 zheng1 jie2 ， ren2 xin1 hai3 bian4 chen2 。
+- gong1 cheng2 si1 fan4 li3 ， hu2 shang4 yi4 xian2 shen1 。
+
+## 注释
+
+## 译文
+
+## 赏析

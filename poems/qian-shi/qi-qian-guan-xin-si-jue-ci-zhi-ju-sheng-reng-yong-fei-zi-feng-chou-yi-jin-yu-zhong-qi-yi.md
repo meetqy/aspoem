@@ -1,0 +1,29 @@
+---
+id: qian-shi-qi-qian-guan-xin-si-jue-ci-zhi-ju-sheng-reng-yong-fei-zi-feng-chou-yi-jin-yu-zhong-qi-yi
+title: 起潜觀心四絕詞旨俱勝仍用非字奉酬以盡愚衷  其一
+titlePinyin: qi3 qian2 guan1 xin1 si4 jue2 ci2 zhi3 ju4 sheng4 reng2 yong4 fei1 zi4 feng4 chou2 yi3 jin4 yu2 zhong1     qi2 yi1
+titleSlug: qi-qian-guan-xin-si-jue-ci-zhi-ju-sheng-reng-yong-fei-zi-feng-chou-yi-jin-yu-zhong-qi-yi
+author: 錢時
+authorPinyin: qian2 shi2
+authorSlug: qian-shi
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: [] 
+---
+
+## 正文
+
+- 休論人是與人非，會得觀心過亦微。
+- 汎濫此生長似旅，天寒日暮是誰歸。
+
+## 拼音
+
+- xiu1 lun4 ren2 shi4 yu3 ren2 fei1 ， hui4 de2 guan1 xin1 guo4 yi4 wei1 。
+- fan4 lan4 ci3 sheng1 chang2 si4 lü3 ， tian1 han2 ri4 mu4 shi4 shui2 gui1 。
+
+## 注释
+
+## 译文
+
+## 赏析

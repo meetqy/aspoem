@@ -1,0 +1,33 @@
+---
+id: bai-ju-yi-su-chi-shang
+title: 宿池上
+titlePinyin: su4 chi2 shang4
+titleSlug: su-chi-shang
+author: 白居易
+authorPinyin: bai2 ju1 yi4
+authorSlug: bai-ju-yi
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: [] 
+---
+
+## 正文
+
+- 泉來從絕壑，亭敞在中流。
+- 竹密無空岸，松長可絆舟。
+- 蟪蛄潭上夜，河漢島前秋。
+- 異夕期新漲，攜琴却此遊。
+
+## 拼音
+
+- quan2 lai2 cong2 jue2 he4 ， ting2 chang3 zai4 zhong1 liu2 。
+- zhu2 mi4 wu2 kong1 an4 ， song1 chang2 ke3 ban4 zhou1 。
+- hui4 gu1 tan2 shang4 ye4 ， he2 han4 dao3 qian2 qiu1 。
+- yi4 xi1 qi1 xin1 zhang3 ， xie2 qin2 que4 ci3 you2 。
+
+## 注释
+
+## 译文
+
+## 赏析

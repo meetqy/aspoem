@@ -1,0 +1,29 @@
+---
+id: shi-zhong-xian-seng-wen-si-bin-zhu-yin-er-you-song-song-zhi-qi-ba
+title: 僧問四賓主因而有頌頌之  其八
+titlePinyin: seng1 wen4 si4 bin1 zhu3 yin1 er2 you3 song4 song4 zhi1     qi2 ba1
+titleSlug: seng-wen-si-bin-zhu-yin-er-you-song-song-zhi-qi-ba
+author: 釋重顯
+authorPinyin: shi4 zhong4 xian3
+authorSlug: shi-zhong-xian
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: [] 
+---
+
+## 正文
+
+- 主中之主，正令齊舉。
+- 長劍倚天，誰敢當禦。
+
+## 拼音
+
+- zhu3 zhong1 zhi1 zhu3 ， zheng4 ling4 qi2 ju3 。
+- chang2 jian4 yi3 tian1 ， shui2 gan3 dang1 yu4 。
+
+## 注释
+
+## 译文
+
+## 赏析

@@ -1,0 +1,33 @@
+---
+id: wang-bo-xiang-he-ge-ci-tong-que-ji-yi
+title: 相和歌辭 銅雀妓 一
+titlePinyin: xiang1 he2 ge1 ci2   tong2 que4 ji4   yi1
+titleSlug: xiang-he-ge-ci-tong-que-ji-yi
+author: 王勃
+authorPinyin: wang2 bo2
+authorSlug: wang-bo
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: [] 
+---
+
+## 正文
+
+- 妾本深宮妓，曾城閉九重。
+- 君王歡愛盡，歌舞爲誰容。
+- 錦衾不復襞，羅衣誰再縫。
+- 高臺西北望，流涕向青松。
+
+## 拼音
+
+- qie4 ben3 shen1 gong1 ji4 ， ceng2 cheng2 bi4 jiu3 chong2 。
+- jun1 wang2 huan1 ai4 jin4 ， ge1 wu3 wei2 shui2 rong2 。
+- jin3 qin1 bu2 fu4 bi4 ， luo2 yi1 shui2 zai4 feng2 。
+- gao1 tai2 xi1 bei3 wang4 ， liu2 ti4 xiang4 qing1 song1 。
+
+## 注释
+
+## 译文
+
+## 赏析

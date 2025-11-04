@@ -1,0 +1,33 @@
+---
+id: xue-qi-tong-xiang-he-ge-ci-yuan-shi-er-shou-er
+title: 相和歌辭 怨詩二首 二
+titlePinyin: xiang1 he2 ge1 ci2   yuan4 shi1 er4 shou3   er4
+titleSlug: xiang-he-ge-ci-yuan-shi-er-shou-er
+author: 薛奇童
+authorPinyin: xue1 qi2 tong2
+authorSlug: xue-qi-tong
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: [] 
+---
+
+## 正文
+
+- 禁苑春風起，流鶯繞合歡。
+- 玉窗通日氣，珠箔卷輕寒。
+- 楊葉垂金砌，梨花入井闌。
+- 君王好長袖，新作舞衣寬。
+
+## 拼音
+
+- jin4 yuan4 chun1 feng1 qi3 ， liu2 ying1 rao4 he2 huan1 。
+- yu4 chuang1 tong1 ri4 qi4 ， zhu1 bo2 juan4 qing1 han2 。
+- yang2 ye4 chui2 jin1 qi4 ， li2 hua1 ru4 jing3 lan2 。
+- jun1 wang2 hao3 chang2 xiu4 ， xin1 zuo4 wu3 yi1 kuan1 。
+
+## 注释
+
+## 译文
+
+## 赏析

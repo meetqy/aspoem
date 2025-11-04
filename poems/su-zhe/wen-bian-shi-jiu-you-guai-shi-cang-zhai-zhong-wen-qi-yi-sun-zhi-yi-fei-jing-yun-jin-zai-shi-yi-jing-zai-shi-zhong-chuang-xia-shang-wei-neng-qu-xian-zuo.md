@@ -1,0 +1,33 @@
+---
+id: su-zhe-wen-bian-shi-jiu-you-guai-shi-cang-zhai-zhong-wen-qi-yi-sun-zhi-yi-fei-jing-yun-jin-zai-shi-yi-jing-zai-shi-zhong-chuang-xia-shang-wei-neng-qu-xian-zuo
+title: 聞卞氏舊有怪石藏宅中問其遺孫指一廢井云盡在是矣井在室中床下尚未能取先作
+titlePinyin: wen2 bian4 shi4 jiu4 you3 guai4 shi2 cang2 zhai2 zhong1 wen4 qi2 yi2 sun1 zhi3 yi2 fei4 jing3 yun2 jin4 zai4 shi4 yi3 jing3 zai4 shi4 zhong1 chuang2 xia4 shang4 wei4 neng2 qu3 xian1 zuo4
+titleSlug: wen-bian-shi-jiu-you-guai-shi-cang-zhai-zhong-wen-qi-yi-sun-zhi-yi-fei-jing-yun-jin-zai-shi-yi-jing-zai-shi-zhong-chuang-xia-shang-wei-neng-qu-xian-zuo
+author: 蘇轍
+authorPinyin: su1 zhe2
+authorSlug: su-zhe
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: [] 
+---
+
+## 正文
+
+- 昔人遊宦久江湖，怪石嵌空駭里閭。
+- 一井深藏緣底事，百年不出待潛夫。
+- 棄捐泥土性仍在，睥睨林亭氣漸蘇。
+- 微物廢興猶有定，此生窮達謾長吁。
+
+## 拼音
+
+- xi1 ren2 you2 huan4 jiu3 jiang1 hu2 ， guai4 shi2 qian4 kong1 hai4 li3 lü2 。
+- yi4 jing3 shen1 cang2 yuan2 di3 shi4 ， bai3 nian2 bu4 chu1 dai4 qian2 fu1 。
+- qi4 juan1 ni2 tu3 xing4 reng2 zai4 ， pi4 ni4 lin2 ting2 qi4 jian4 su1 。
+- wei1 wu4 fei4 xing1 you2 you3 ding4 ， ci3 sheng1 qiong2 da2 man2 chang2 xu1 。
+
+## 注释
+
+## 译文
+
+## 赏析

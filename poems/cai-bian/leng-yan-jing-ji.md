@@ -1,0 +1,269 @@
+---
+id: cai-bian-leng-yan-jing-ji
+title: 楞嚴經偈
+titlePinyin: leng2 yan2 jing1 ji4
+titleSlug: leng-yan-jing-ji
+author: 蔡卞
+authorPinyin: cai4 bian4
+authorSlug: cai-bian
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: [] 
+---
+
+## 正文
+
+- 覺海性澄圓，圓澄覺元妙。
+- 元明照生所，所立照性亡。
+- 迷妄有虛空，依空立世界。
+- 想澄成國士，知覺乃衆生。
+- 空生大覺中，如海一漚發。
+- 有漏微塵國，皆依空所生。
+- 漚滅空本無，況復諸三有。
+- 歸元性無二，方便有多門。
+- 聖性無不通，順逆皆方便。
+- 初心入三昧，遲速不同倫。
+- 色想結成塵，精了不能徹。
+- 如何不明徹，於是獲圓通。
+- 音聲雜語言，但伊名句味。
+- 一非含一切，云何獲圓通。
+- 香以合中知，離則元無有。
+- 不恒其所覺，云何獲圓通。
+- 味性非本然，要以味時有。
+- 其覺不恒一，云何獲圓通。
+- 觸以所觸明，無所不明觸。
+- 合離性非定，云何獲圓通。
+- 法稱爲內塵，憑塵如有所。
+- 能所非徧涉，云何獲圓通。
+- 見性雖洞然，明前不明後。
+- 四維虧一半，云何獲圓通。
+- 鼻息出入通，現前無交氣。
+- 支離匪涉入，云何獲圓通。
+- 舌非入無端，因味生覺了。
+- 味亡了無有，云何獲圓通。
+- 身與所觸同，如非圓覺觀。
+- 涯量不冥會，云何獲圓通。
+- 知根雜亂思，湛了終無見。
+- 想念不可說，云何獲圓通。
+- 識見雜三和，話本稱非相。
+- 自體先無定，云何獲圓通。
+- 心聞洞十方，生於大因力。
+- 初心不能入，云何獲圓通。
+- 鼻息本權機，祇令攝心住。
+- 住成心所住，云何獲圓通。
+- 說法弄音文，開悟先成者。
+- 名句非無漏，云何獲圓通。
+- 持犯但束身，非身無所束。
+- 元非徧一切，云何獲圓通。
+- 神通本宿因，何關性分別。
+- 念緣非離物，云何獲圓通。
+- 若以地性觀，堅礙非通達。
+- 有爲非聖性，云何獲圓通。
+- 若以水性觀，想念非真實。
+- 如如非覺觀，云何獲圓通。
+- 若以火性觀，厭有非真離。
+- 非初心方便，云何獲圓通。
+- 若以風性觀，動寂非無對。
+- 對非無上覺，云何獲圓通。
+- 若以空性觀，昏鈍先非覺。
+- 無覺異菩提，云何獲圓通。
+- 若以識性觀，觀識非常住。
+- 存心乃虛妄，云何獲圓通。
+- 諸行是無常，念性元生滅。
+- 因果今殊感，云何獲圓通。
+- 我今白世尊，佛出婆娑界。
+- 此方真教體，清凈在音聞。
+- 欲取三摩提，實以聞中入。
+- 離苦得解脫，良哉觀世音。
+- 於恒沙劫中，入微塵佛國。
+- 得大自在力，無畏施衆生。
+- 妙音觀世音，梵音海潮音。
+- 救世悉安甯，出世獲常住。
+- 我今啟如來，如觀音所說。
+- 譬如人靜居，十方俱擊鼓。
+- 十處一時聞，此則圓真實。
+- 目非觀障外，口鼻亦復然。
+- 身以合方知，心念紛無緒。
+- 隔垣聽音響，遐邇俱可聞。
+- 五根所不齊，是則通真實。
+- 音聲性動靜，聞中爲有無。
+- 無聲號無聞，非實聞無性。
+- 聲無既無滅，聲有亦非生。
+- 生滅二圓離，是則常真實。
+- 縱令在夢想，不爲不思無。
+- 覺觀出思惟，身心不能及。
+- 今此娑婆國，聲論得宣明。
+- 衆生迷本聞，循聲故流轉。
+- 阿難縱强記，不免落邪思。
+- 豈非隨所淪，旋流獲無妄。
+- 阿難汝諦聽，我承佛威力。
+- 宣說金剛王，如幻不思議。
+- 佛母真三昧，汝聞微塵佛。
+- 一切秘密門，欲漏不先除。
+- 畜聞成過誤，將聞持佛佛。
+- 何不自聞聞，聞非自然生。
+- 因聲有名字，旋聞與聲脫。
+- 能脫欲誰名，一根既返源。
+- 六根成解脫，見聞如幻翳。
+- 三界若空花，聞復翳根除。
+- 塵消覺圓浄，浄極光通達。
+- 寂照含虛空，却來觀世間。
+- 猶如夢中事，塵登如在夢。
+- 誰能留汝形，如世巧幻師。
+- 幻作諸男女，雖見諸根動。
+- 要以一機抽，息機歸寂然。
+- 諸幻成無性，六根亦如是。
+- 元依一精明，分成六和合。
+- 一處成休復，六用皆不成。
+- 塵垢應念消，成圓明浄妙。
+- 餘塵尚諸學，明極即如來。
+- 大衆及阿難，旋汝倒聞機。
+- 反□□自性，性成無上道。
+- 圓通實如是，此是微塵佛。
+- 一路涅槃門，過去諸如來。
+- 斯門已成就，現在諸菩薩。
+- 今各入圓明，未來修學人。
+- 當依如是法，我亦從中證。
+- 非唯觀世音，誠如佛世尊。
+- 訋我諸方便，以救諸末劫。
+- 求出世閒人，成就涅槃心。
+- 觀世音□□，自餘諸方便。
+- 皆是佛威神，即事捨塵勞。
+- 非是長修學，淺深同說法。
+- 頂禮如來藏，無漏不思議。
+- 願加被未來，於此門無惑。
+- 方便易成就，堪以教阿難。
+- 及末劫沈淪，但以此根修。
+- 圓通超餘者，真實心如是。
+
+## 拼音
+
+- jue2 hai3 xing4 cheng2 yuan2 ， yuan2 cheng2 jue2 yuan2 miao4 。
+- yuan2 ming2 zhao4 sheng1 suo3 ， suo3 li4 zhao4 xing4 wang2 。
+- mi2 wang4 you3 xu1 kong1 ， yi1 kong1 li4 shi4 jie4 。
+- xiang3 cheng2 cheng2 guo2 shi4 ， zhi1 jue2 nai3 zhong4 sheng1 。
+- kong1 sheng1 da4 jue2 zhong1 ， ru2 hai3 yi4 ou1 fa1 。
+- you3 lou4 wei1 chen2 guo2 ， jie1 yi1 kong1 suo3 sheng1 。
+- ou1 mie4 kong1 ben3 wu2 ， kuang4 fu4 zhu1 san1 you3 。
+- gui1 yuan2 xing4 wu2 er4 ， fang1 bian4 you3 duo1 men2 。
+- sheng4 xing4 wu2 bu4 tong1 ， shun4 ni4 jie1 fang1 bian4 。
+- chu1 xin1 ru4 san1 mei4 ， chi2 su4 bu4 tong2 lun2 。
+- se4 xiang3 jie2 cheng2 chen2 ， jing1 le0 bu4 neng2 che4 。
+- ru2 he2 bu4 ming2 che4 ， wu1 shi4 huo4 yuan2 tong1 。
+- yin1 sheng1 za2 yu3 yan2 ， dan4 yi1 ming2 ju4 wei4 。
+- yi4 fei1 han2 yi2 qie4 ， yun2 he2 huo4 yuan2 tong1 。
+- xiang1 yi3 he2 zhong1 zhi1 ， li2 ze2 yuan2 wu2 you3 。
+- bu4 heng2 qi2 suo3 jue2 ， yun2 he2 huo4 yuan2 tong1 。
+- wei4 xing4 fei1 ben3 ran2 ， yao4 yi3 wei4 shi2 you3 。
+- qi2 jue2 bu4 heng2 yi1 ， yun2 he2 huo4 yuan2 tong1 。
+- chu4 yi3 suo3 chu4 ming2 ， wu2 suo3 bu4 ming2 chu4 。
+- he2 li2 xing4 fei1 ding4 ， yun2 he2 huo4 yuan2 tong1 。
+- fa3 cheng1 wei2 nei4 chen2 ， ping2 chen2 ru2 you3 suo3 。
+- neng2 suo3 fei1 bian4 she4 ， yun2 he2 huo4 yuan2 tong1 。
+- jian4 xing4 sui1 dong4 ran2 ， ming2 qian2 bu4 ming2 hou4 。
+- si4 wei2 kui1 yi2 ban4 ， yun2 he2 huo4 yuan2 tong1 。
+- bi2 xi1 chu1 ru4 tong1 ， xian4 qian2 wu2 jiao1 qi4 。
+- zhi1 li2 fei3 she4 ru4 ， yun2 he2 huo4 yuan2 tong1 。
+- she2 fei1 ru4 wu2 duan1 ， yin1 wei4 sheng1 jue2 le0 。
+- wei4 wang2 le0 wu2 you3 ， yun2 he2 huo4 yuan2 tong1 。
+- shen1 yu3 suo3 chu4 tong2 ， ru2 fei1 yuan2 jue2 guan1 。
+- ya2 liang2 bu4 ming2 hui4 ， yun2 he2 huo4 yuan2 tong1 。
+- zhi1 gen1 za2 luan4 si1 ， zhan4 le0 zhong1 wu2 jian4 。
+- xiang3 nian4 bu4 ke3 shuo1 ， yun2 he2 huo4 yuan2 tong1 。
+- shi2 jian4 za2 san1 he2 ， hua4 ben3 cheng1 fei1 xiang1 。
+- zi4 ti3 xian1 wu2 ding4 ， yun2 he2 huo4 yuan2 tong1 。
+- xin1 wen2 dong4 shi2 fang1 ， sheng1 wu1 da4 yin1 li4 。
+- chu1 xin1 bu4 neng2 ru4 ， yun2 he2 huo4 yuan2 tong1 。
+- bi2 xi1 ben3 quan2 ji1 ， qi2 ling4 she4 xin1 zhu4 。
+- zhu4 cheng2 xin1 suo3 zhu4 ， yun2 he2 huo4 yuan2 tong1 。
+- shuo1 fa3 nong4 yin1 wen2 ， kai1 wu4 xian1 cheng2 zhe3 。
+- ming2 ju4 fei1 wu2 lou4 ， yun2 he2 huo4 yuan2 tong1 。
+- chi2 fan4 dan4 shu4 shen1 ， fei1 shen1 wu2 suo3 shu4 。
+- yuan2 fei1 bian4 yi2 qie4 ， yun2 he2 huo4 yuan2 tong1 。
+- shen2 tong1 ben3 su4 yin1 ， he2 guan1 xing4 fen1 bie2 。
+- nian4 yuan2 fei1 li2 wu4 ， yun2 he2 huo4 yuan2 tong1 。
+- ruo4 yi3 di4 xing4 guan1 ， jian1 ai4 fei1 tong1 da2 。
+- you3 wei2 fei1 sheng4 xing4 ， yun2 he2 huo4 yuan2 tong1 。
+- ruo4 yi3 shui3 xing4 guan1 ， xiang3 nian4 fei1 zhen1 shi2 。
+- ru2 ru2 fei1 jue2 guan1 ， yun2 he2 huo4 yuan2 tong1 。
+- ruo4 yi3 huo3 xing4 guan1 ， yan4 you3 fei1 zhen1 li2 。
+- fei1 chu1 xin1 fang1 bian4 ， yun2 he2 huo4 yuan2 tong1 。
+- ruo4 yi3 feng1 xing4 guan1 ， dong4 ji4 fei1 wu2 dui4 。
+- dui4 fei1 wu2 shang4 jue2 ， yun2 he2 huo4 yuan2 tong1 。
+- ruo4 yi3 kong1 xing4 guan1 ， hun1 dun4 xian1 fei1 jue2 。
+- wu2 jue2 yi4 pu2 ti2 ， yun2 he2 huo4 yuan2 tong1 。
+- ruo4 yi3 shi2 xing4 guan1 ， guan1 shi2 fei1 chang2 zhu4 。
+- cun2 xin1 nai3 xu1 wang4 ， yun2 he2 huo4 yuan2 tong1 。
+- zhu1 xing2 shi4 wu2 chang2 ， nian4 xing4 yuan2 sheng1 mie4 。
+- yin1 guo3 jin1 shu1 gan3 ， yun2 he2 huo4 yuan2 tong1 。
+- wo3 jin1 bai2 shi4 zun1 ， fo2 chu1 po2 suo1 jie4 。
+- ci3 fang1 zhen1 jiao4 ti3 ， qing1 jing4 zai4 yin1 wen2 。
+- yu4 qu3 san1 mo2 ti2 ， shi2 yi3 wen2 zhong1 ru4 。
+- li2 ku3 de2 jie3 tuo1 ， liang2 zai1 guan1 shi4 yin1 。
+- wu1 heng2 sha1 jie2 zhong1 ， ru4 wei1 chen2 fo2 guo2 。
+- de2 da4 zi4 zai4 li4 ， wu2 wei4 shi1 zhong4 sheng1 。
+- miao4 yin1 guan1 shi4 yin1 ， fan4 yin1 hai3 chao2 yin1 。
+- jiu4 shi4 xi1 an1 ning4 ， chu1 shi4 huo4 chang2 zhu4 。
+- wo3 jin1 qi3 ru2 lai2 ， ru2 guan1 yin1 suo3 shuo1 。
+- pi4 ru2 ren2 jing4 ju1 ， shi2 fang1 ju4 ji1 gu3 。
+- shi2 chu3 yi4 shi2 wen2 ， ci3 ze2 yuan2 zhen1 shi2 。
+- mu4 fei1 guan1 zhang4 wai4 ， kou3 bi2 yi4 fu4 ran2 。
+- shen1 yi3 he2 fang1 zhi1 ， xin1 nian4 fen1 wu2 xu4 。
+- ge2 yuan2 ting1 yin1 xiang3 ， xia2 er3 ju4 ke3 wen2 。
+- wu3 gen1 suo3 bu4 qi2 ， shi4 ze2 tong1 zhen1 shi2 。
+- yin1 sheng1 xing4 dong4 jing4 ， wen2 zhong1 wei2 you3 wu2 。
+- wu2 sheng1 hao4 wu2 wen2 ， fei1 shi2 wen2 wu2 xing4 。
+- sheng1 wu2 ji4 wu2 mie4 ， sheng1 you3 yi4 fei1 sheng1 。
+- sheng1 mie4 er4 yuan2 li2 ， shi4 ze2 chang2 zhen1 shi2 。
+- zong4 ling4 zai4 meng4 xiang3 ， bu4 wei2 bu4 si1 wu2 。
+- jue2 guan1 chu1 si1 wei2 ， shen1 xin1 bu4 neng2 ji2 。
+- jin1 ci3 suo1 po2 guo2 ， sheng1 lun4 de2 xuan1 ming2 。
+- zhong4 sheng1 mi2 ben3 wen2 ， xun2 sheng1 gu4 liu2 zhuan3 。
+- a1 nan2 zong4 qiang2 ji4 ， bu4 mian3 luo4 xie2 si1 。
+- qi3 fei1 sui2 suo3 lun2 ， xuan2 liu2 huo4 wu2 wang4 。
+- a1 nan2 ru3 di4 ting1 ， wo3 cheng2 fo2 wei1 li4 。
+- xuan1 shuo1 jin1 gang1 wang2 ， ru2 huan4 bu4 si1 yi4 。
+- fo2 mu3 zhen1 san1 mei4 ， ru3 wen2 wei1 chen2 fo2 。
+- yi2 qie4 mi4 mi4 men2 ， yu4 lou4 bu4 xian1 chu2 。
+- chu4 wen2 cheng2 guo4 wu4 ， jiang1 wen2 chi2 fo2 fo2 。
+- he2 bu2 zi4 wen2 wen2 ， wen2 fei1 zi4 ran2 sheng1 。
+- yin1 sheng1 you3 ming2 zi4 ， xuan2 wen2 yu3 sheng1 tuo1 。
+- neng2 tuo1 yu4 shui2 ming2 ， yi4 gen1 ji4 fan3 yuan2 。
+- liu4 gen1 cheng2 jie3 tuo1 ， jian4 wen2 ru2 huan4 yi4 。
+- san1 jie4 ruo4 kong1 hua1 ， wen2 fu4 yi4 gen1 chu2 。
+- chen2 xiao1 jue2 yuan2 jing4 ， jing4 ji2 guang1 tong1 da2 。
+- ji4 zhao4 han2 xu1 kong1 ， que4 lai2 guan1 shi4 jian4 。
+- you2 ru2 meng4 zhong1 shi4 ， chen2 deng1 ru2 zai4 meng4 。
+- shui2 neng2 liu2 ru3 xing2 ， ru2 shi4 qiao3 huan4 shi1 。
+- huan4 zuo4 zhu1 nan2 nü3 ， sui1 jian4 zhu1 gen1 dong4 。
+- yao4 yi3 yi4 ji1 chou1 ， xi1 ji1 gui1 ji4 ran2 。
+- zhu1 huan4 cheng2 wu2 xing4 ， liu4 gen1 yi4 ru2 shi4 。
+- yuan2 yi1 yi4 jing1 ming2 ， fen1 cheng2 liu4 he2 he2 。
+- yi4 chu3 cheng2 xiu1 fu4 ， liu4 yong4 jie1 bu4 cheng2 。
+- chen2 gou4 ying1 nian4 xiao1 ， cheng2 yuan2 ming2 jing4 miao4 。
+- yu2 chen2 shang4 zhu1 xue2 ， ming2 ji2 ji2 ru2 lai2 。
+- da4 zhong4 ji2 a1 nan2 ， xuan2 ru3 dao3 wen2 ji1 。
+- fan3 □□ zi4 xing4 ， xing4 cheng2 wu2 shang4 dao4 。
+- yuan2 tong1 shi2 ru2 shi4 ， ci3 shi4 wei1 chen2 fo2 。
+- yi2 lu4 nie4 pan2 men2 ， guo4 qu4 zhu1 ru2 lai2 。
+- si1 men2 yi3 cheng2 jiu4 ， xian4 zai4 zhu1 pu2 sa4 。
+- jin1 ge4 ru4 yuan2 ming2 ， wei4 lai2 xiu1 xue2 ren2 。
+- dang1 yi1 ru2 shi4 fa3 ， wo3 yi4 cong2 zhong1 zheng4 。
+- fei1 wei2 guan1 shi4 yin1 ， cheng2 ru2 fo2 shi4 zun1 。
+- diao4 wo3 zhu1 fang1 bian4 ， yi3 jiu4 zhu1 mo4 jie2 。
+- qiu2 chu1 shi4 xian2 ren2 ， cheng2 jiu4 nie4 pan2 xin1 。
+- guan1 shi4 yin1 □□， zi4 yu2 zhu1 fang1 bian4 。
+- jie1 shi4 fo2 wei1 shen2 ， ji2 shi4 she3 chen2 lao2 。
+- fei1 shi4 chang2 xiu1 xue2 ， qian3 shen1 tong2 shuo1 fa3 。
+- ding3 li3 ru2 lai2 cang2 ， wu2 lou4 bu4 si1 yi4 。
+- yuan4 jia1 bei4 wei4 lai2 ， wu1 ci3 men2 wu2 huo4 。
+- fang1 bian4 yi4 cheng2 jiu4 ， kan1 yi3 jiao4 a1 nan2 。
+- ji2 mo4 jie2 shen3 lun2 ， dan4 yi3 ci3 gen1 xiu1 。
+- yuan2 tong1 chao1 yu2 zhe3 ， zhen1 shi2 xin1 ru2 shi4 。
+
+## 注释
+
+## 译文
+
+## 赏析
