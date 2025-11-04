@@ -1,0 +1,33 @@
+---
+id: zhou-bi-da-lin-shun-qing-jiao-shou-liang-wei-yu-rui-hua-fu-chang-yun-fu-shan-qing-xin-lao-bing-wu-yi-feng-chou-zhe-yong-yang-shi-jun-yun-wei-xie
+title: 林順卿教授兩爲玉蕊花賦長韻富贍清新老病無以奉酬輒用楊使君韻爲謝
+titlePinyin: lin2 shun4 qing1 jiao4 shou4 liang3 wei2 yu4 rui3 hua1 fu4 chang2 yun4 fu4 shan4 qing1 xin1 lao3 bing4 wu2 yi3 feng4 chou2 zhe2 yong4 yang2 shi3 jun1 yun4 wei2 xie4
+titleSlug: lin-shun-qing-jiao-shou-liang-wei-yu-rui-hua-fu-chang-yun-fu-shan-qing-xin-lao-bing-wu-yi-feng-chou-zhe-yong-yang-shi-jun-yun-wei-xie
+author: 周必大
+authorPinyin: zhou1 bi4 da4
+authorSlug: zhou-bi-da
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: [] 
+---
+
+## 正文
+
+- 廣文行實稱才華，如節鸞和馭寶車。
+- 曾燕瓊林天一握，却吟玉蕊示三家。
+- 大篇追補唐詩闕，盛事常留魯頖誇。
+- 別有冰姿延客住，白池賸種白蓮花。
+
+## 拼音
+
+- guang3 wen2 xing2 shi2 cheng1 cai2 hua2 ， ru2 jie2 luan2 he2 yu4 bao3 ju1 。
+- ceng2 yan4 qiong2 lin2 tian1 yi2 wo4 ， que4 yin2 yu4 rui3 shi4 san1 jia1 。
+- da4 pian1 zhui1 bu3 tang2 shi1 que4 ， sheng4 shi4 chang2 liu2 lu3 pan4 kua1 。
+- bie2 you3 bing1 zi1 yan2 ke4 zhu4 ， bai2 chi2 sheng4 zhong3 bai2 lian2 hua1 。
+
+## 注释
+
+## 译文
+
+## 赏析

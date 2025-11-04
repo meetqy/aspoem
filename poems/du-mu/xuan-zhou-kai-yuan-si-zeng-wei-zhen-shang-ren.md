@@ -1,0 +1,33 @@
+---
+id: du-mu-xuan-zhou-kai-yuan-si-zeng-wei-zhen-shang-ren
+title: 宣州開元寺贈惟真上人
+titlePinyin: xuan1 zhou1 kai1 yuan2 si4 zeng4 wei2 zhen1 shang4 ren2
+titleSlug: xuan-zhou-kai-yuan-si-zeng-wei-zhen-shang-ren
+author: 杜牧
+authorPinyin: du4 mu4
+authorSlug: du-mu
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: [] 
+---
+
+## 正文
+
+- 曾與徑山爲小師，千年僧行衆人知。
+- 夜深月色當禪處，齋後鐘聲到講時。
+- 經雨綠苔侵古畫，過秋紅葉落新詩。
+- 勸君莫厭江城客，雖在風塵別有期。
+
+## 拼音
+
+- ceng2 yu3 jing4 shan1 wei2 xiao3 shi1 ， qian1 nian2 seng1 xing2 zhong4 ren2 zhi1 。
+- ye4 shen1 yue4 se4 dang1 shan4 chu3 ， zhai1 hou4 zhong1 sheng1 dao4 jiang3 shi2 。
+- jing1 yu3 lü4 tai2 qin1 gu3 hua4 ， guo4 qiu1 hong2 ye4 luo4 xin1 shi1 。
+- quan4 jun1 mo4 yan4 jiang1 cheng2 ke4 ， sui1 zai4 feng1 chen2 bie2 you3 qi1 。
+
+## 注释
+
+## 译文
+
+## 赏析

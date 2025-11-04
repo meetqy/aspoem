@@ -1,0 +1,33 @@
+---
+id: yang-da-sai-xia-qu
+title: 塞下曲
+titlePinyin: sai4 xia4 qu3
+titleSlug: sai-xia-qu
+author: 楊達
+authorPinyin: yang2 da2
+authorSlug: yang-da
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: [] 
+---
+
+## 正文
+
+- 秋日幷州路，黃榆落故關。
+- 孤城吹角罷，數騎射鵰還。
+- 帳幕遙臨水，牛羊自下山。
+- 行人正垂淚，烽火起雲間。
+
+## 拼音
+
+- qiu1 ri4 bing4 zhou1 lu4 ， huang2 yu2 luo4 gu4 guan1 。
+- gu1 cheng2 chui1 jiao3 ba4 ， shu4 qi2 she4 diao1 huan2 。
+- zhang4 mu4 yao2 lin2 shui3 ， niu2 yang2 zi4 xia4 shan1 。
+- xing2 ren2 zheng4 chui2 lei4 ， feng1 huo3 qi3 yun2 jian4 。
+
+## 注释
+
+## 译文
+
+## 赏析

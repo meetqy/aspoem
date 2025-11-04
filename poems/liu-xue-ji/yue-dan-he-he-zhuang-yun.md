@@ -1,0 +1,29 @@
+---
+id: liu-xue-ji-yue-dan-he-he-zhuang-yun
+title: 月丹和鶴莊韵
+titlePinyin: yue4 dan1 he2 he4 zhuang1 yun4
+titleSlug: yue-dan-he-he-zhuang-yun
+author: 劉學箕
+authorPinyin: liu2 xue2 ji1
+authorSlug: liu-xue-ji
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: [] 
+---
+
+## 正文
+
+- 靈種飛來鶴頂紅，誰云九轉有仙功。
+- 廣庭曾侍東風宴，留得霞杯照晚叢。
+
+## 拼音
+
+- ling2 zhong3 fei1 lai2 he4 ding3 hong2 ， shui2 yun2 jiu3 zhuan3 you3 xian1 gong1 。
+- guang3 ting2 ceng2 shi4 dong1 feng1 yan4 ， liu2 de2 xia2 bei1 zhao4 wan3 cong2 。
+
+## 注释
+
+## 译文
+
+## 赏析
