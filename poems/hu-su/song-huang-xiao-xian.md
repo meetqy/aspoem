@@ -9,7 +9,7 @@ authorSlug: hu-su
 dynasty: 唐
 dynastyPinyin: tang2
 dynastySlug: tang
-tags: [] 
+tags: []
 ---
 
 ## 正文
@@ -32,7 +32,7 @@ tags: []
 - yi4 zha2 gong1 ju1 zhao4 ， qian1 jun1 jue2 xiang1 gong1 。
 - qing1 cai2 gui1 pu3 zhuo2 ， ying1 gou4 ru4 lao2 long2 。
 - fo2 si4 ti2 ming2 ta3 ， tian1 jia1 zou4 shi4 gong1 。
-- jiao1  { ming2 niao3 }  you3 duan3 yu3 ， yi4 kong3 fu4 yuan1 hong2 。
+- jiao1 { ming2 niao3 } you3 duan3 yu3 ， yi4 kong3 fu4 yuan1 hong2 。
 
 ## 注释
 

@@ -9,7 +9,7 @@ authorSlug: su-zhou
 dynasty: 唐
 dynastyPinyin: tang2
 dynastySlug: tang
-tags: [] 
+tags: []
 ---
 
 ## 正文
@@ -35,7 +35,7 @@ tags: []
 - ci3 shui3 ji4 ci3 shan1 ， qing1 bian4 wu4 shu1 you2 。
 - cheng2 ting2 kuai4 yi4 sheng1 ， jing1 che4 duo2 liang3 mou2 。
 - qing1 yao2 bi4 bo1 li2 ， san1 qing3 fang1 neng2 mou2 。
-- zao3 xue3 xi4  { shan1 ju4 }  jian4 ， da4 chuan1 man4 you1 you1 。
+- zao3 xue3 xi4 { shan1 ju4 } jian4 ， da4 chuan1 man4 you1 you1 。
 - huan4 yue4 jian4 lin2 ji4 ， qian1 ren4 xian3 he2 qiu2 。
 - mian4 tang2 jin4 ji3 yan2 ， fan4 jiang3 yang2 pian1 zhou1 。
 - ling2 ling2 xi1 cheng2 hun1 ， yi1 yi1 shu4 xia1 qiu1 。

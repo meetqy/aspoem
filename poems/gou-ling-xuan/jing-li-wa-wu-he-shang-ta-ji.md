@@ -9,7 +9,7 @@ authorSlug: gou-ling-xuan
 dynasty: 唐
 dynastyPinyin: tang2
 dynastySlug: tang
-tags: [] 
+tags: []
 ---
 
 ## 正文

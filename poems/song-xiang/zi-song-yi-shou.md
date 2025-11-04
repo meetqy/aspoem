@@ -9,7 +9,7 @@ authorSlug: song-xiang
 dynasty: 唐
 dynastyPinyin: tang2
 dynastySlug: tang
-tags: [] 
+tags: []
 ---
 
 ## 正文
@@ -39,7 +39,7 @@ tags: []
 - you2 lai2 jin1 bai3 lian4 ， cong2 ci3 xi1 qian1 jun1 。
 - su4 fa4 can2 hua2 mian3 ， xu1 zhou1 xie4 yao4 jin1 。
 - xi3 xin1 liang2 you3 wei4 ， ning4 fo2 bu4 wu2 yin1 。
-- an4 shang4 xian1 shu1  { bing1 gong1 }， zhai1 zhong1 fan4 㲲 jin1 。
+- an4 shang4 xian1 shu1 { bing1 gong1 }， zhai1 zhong1 fan4 㲲 jin1 。
 - geng4 xu1 qiong2 pi4 di4 ， xiang1 huo3 bao4 chang1 chen2 。
 
 ## 注释

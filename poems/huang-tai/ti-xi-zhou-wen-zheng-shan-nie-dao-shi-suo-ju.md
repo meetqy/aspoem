@@ -9,7 +9,7 @@ authorSlug: huang-tai
 dynasty: 唐
 dynastyPinyin: tang2
 dynastySlug: tang
-tags: [] 
+tags: []
 ---
 
 ## 正文
@@ -43,7 +43,7 @@ tags: []
 - bao3 lu4 qie4 chui2 jin1 lü3 dai4 ， jiang4 nang2 jiang4 suo3 yu4 lian2 huan2 。
 - jing4 zhang1 qi2 shi4 pu1 huan2 da3 ， mo4 kao3 xian1 jing1 bu3 you4 shan1 。
 - chuang2 bing4 ge3 xie2 han2 tu4 fu2 ， chuang1 heng2 cheng1 ji3 lao3 long2 quan2 。
-- xi1 tong2 qi3 huo3 chao2 qiao1 zhu2 ， shan1 gui3 ting1 qin2 ye4 han4  { lu2 qiong2 }。
+- xi1 tong2 qi3 huo3 chao2 qiao1 zhu2 ， shan1 gui3 ting1 qin2 ye4 han4 { lu2 qiong2 }。
 - cao3 an4 bi4 tan2 si1 ju4 qu3 ， song1 hun1 zi3 qi4 du4 shen1 guan1 。
 - gui1 cheng2 qian3 jia3 mao2 you2 lü4 ， he4 hua4 you1 ling2 ding3 geng4 yin1 。
 - ruan3 dong4 shen2 xian1 fen1 yao4 qu4 ， cai4 jia1 xiong1 di4 ji4 shu1 huan2 。

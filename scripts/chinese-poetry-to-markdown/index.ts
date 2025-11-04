@@ -1,17 +1,6 @@
-import { syncCaocao } from './caocao'
-import { syncChuci } from './chuci'
 // import { syncLunyu } from './lunyu'
-import { syncBaijiaxing } from './mengxue/baijiaxing'
-import { syncDizigui } from './mengxue/dizigui'
 // import { syncGuwenguanzhi } from './mengxue/guwenguanzhi'
-import { syncQianjiashi } from './mengxue/qianjiashi'
-import { syncQianziwen } from './mengxue/qianziwen'
-import { syncSanzijing } from './mengxue/sanzijin'
-import { syncSanzijingNew } from './mengxue/sanzijin-new'
 // import { syncShenglvqimeng } from './mengxue/shenglvqimeng'
-import { syncTangshisanbaishou } from './mengxue/tangshisanbaishou'
-import { syncZhuzijiaxun } from './mengxue/zhuzijiaxun'
-import { syncNalan } from './nalanxingde'
 import { syncQuantangshi } from './quantangshi'
 
 function main() {
