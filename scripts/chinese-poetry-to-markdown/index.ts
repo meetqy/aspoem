@@ -14,11 +14,12 @@ import { syncZhuzijiaxun } from './mengxue/zhuzijiaxun'
 import { syncNalan } from './nalanxingde'
 import { syncQuantangshi } from './quantangshi'
 import { syncShuiMoTangShi } from './shuimotangshi'
+import { syncSongCi } from './songci'
 
 function main() {
-  syncShuiMoTangShi()
+  syncSongCi()
   return
-
+  syncShuiMoTangShi()
   syncQuantangshi()
   syncCaocao()
   syncChuci()
