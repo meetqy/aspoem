@@ -24,7 +24,7 @@
     "format:fix": "biome format --write",
     "lint:fix": "biome lint --write",
     "gen:markdown": "tsx scripts/chinese-poetry-to-markdown/index.ts",
-    "gen:sql": "tsx scripts/poems-to-sql/index.ts",
+    "gen:db": "tsx scripts/poems-to-db/index.ts",
     "ui:upgrade": "for file in src/components/ui/*.tsx; do npx shadcn@latest add -y -o $(basename \"$file\" .tsx); done",
     "prepare": "husky"
   },
