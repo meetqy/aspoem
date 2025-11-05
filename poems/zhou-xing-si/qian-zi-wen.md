@@ -1,0 +1,525 @@
+---
+id: zhou-xing-si-qian-zi-wen
+title: 千字文
+titlePinyin: qian1 zi4 wen2
+titleSlug: qian-zi-wen
+author: 周興嗣
+authorPinyin: zhou1 xing1 si4
+authorSlug: zhou-xing-si
+dynasty: 南北
+dynastyPinyin: nan2 bei3
+dynastySlug: nan-bei
+tags: ["蒙学"] 
+---
+
+## 正文
+
+- 天地玄黃
+- 宇宙洪荒
+- 日月盈昃
+- 辰宿列張
+- 寒來暑往
+- 秋收冬藏
+- 閏餘成歲
+- 律呂調陽
+- 雲騰致雨
+- 露結為霜
+- 金生麗水
+- 玉出崐岡
+- 劍號巨闕
+- 珠稱夜光
+- 果珍李柰
+- 菜重芥姜
+- 海鹹河淡
+- 鱗潛羽翔
+- 龍師火帝
+- 鳥官人皇
+- 始制文字
+- 乃服衣裳
+- 推位讓國
+- 有虞陶唐
+- 吊民伐罪
+- 周發殷湯
+- 坐朝問道
+- 垂拱平章
+- 愛育黎首
+- 臣伏戎羌
+- 遐邇壹體
+- 率賓歸王
+- 鳴鳳在樹
+- 白駒食場
+- 化被草木
+- 賴及萬方
+- 蓋此身髮
+- 四大五常
+- 恭惟鞠養
+- 豈敢毀傷
+- 女慕貞絜
+- 男效才良
+- 知過必改
+- 得能莫忘
+- 罔談彼短
+- 靡恃己長
+- 信使可覆
+- 器欲難量
+- 墨悲絲染
+- 詩贊羔羊
+- 景行維賢
+- 克念作聖
+- 德建名立
+- 形端表正
+- 空谷傳聲
+- 虛堂習聽
+- 禍因惡積
+- 福緣善慶
+- 尺璧非寶
+- 寸陰是競
+- 資父事君
+- 曰嚴與敬
+- 孝當竭力
+- 忠則盡命
+- 臨深履薄
+- 夙興溫凊
+- 似蘭斯馨
+- 如松之盛
+- 川流不息
+- 淵澄取映
+- 容止若思
+- 言辭安定
+- 篤初誠美
+- 慎終宜令
+- 榮業所基
+- 籍甚無竟
+- 學優登仕
+- 攝職從政
+- 存以甘棠
+- 去而益詠
+- 樂殊貴賤
+- 禮別尊卑
+- 上和下睦
+- 夫唱婦隨
+- 外受傅訓
+- 入奉母儀
+- 諸姑伯叔
+- 猶子比兒
+- 孔懷兄弟
+- 同氣連枝
+- 交友投分
+- 切磨箴規
+- 仁慈隱惻
+- 造次弗離
+- 節義廉退
+- 顛沛匪虧
+- 性靜情逸
+- 心動神疲
+- 守真誌滿
+- 逐物意移
+- 堅持雅操
+- 好爵自縻
+- 都邑華夏
+- 東西二京
+- 背邙面洛
+- 浮渭據涇
+- 宮殿盤郁
+- 樓觀飛驚
+- 圖寫禽獸
+- 畫彩仙靈
+- 丙舍旁啟
+- 甲帳對楹
+- 肆筵設席
+- 鼓瑟吹笙
+- 升階納陛
+- 弁轉疑星
+- 右通廣內
+- 左達承明
+- 既集墳典
+- 亦聚群英
+- 杜稿鐘隸
+- 漆書壁經
+- 府羅將相
+- 路俠槐卿
+- 戶封八縣
+- 家給千兵
+- 高冠陪輦
+- 驅轂振纓
+- 世祿侈富
+- 車駕肥輕
+- 策功茂實
+- 勒碑刻銘
+- 磻溪伊尹
+- 佐時阿衡
+- 奄宅曲阜
+- 微旦孰營
+- 桓公匡合
+- 濟弱扶傾
+- 綺回漢惠
+- 說感武丁
+- 俊乂密勿
+- 多士寔寧
+- 晉楚更霸
+- 趙魏困橫
+- 假途滅虢
+- 踐土會盟
+- 何遵約法
+- 韓弊煩刑
+- 起翦頗牧
+- 用軍最精
+- 宣威沙漠
+- 馳譽丹青
+- 九州禹跡
+- 百郡秦並
+- 嶽宗恆岱
+- 禪主云亭
+- 雁門紫塞
+- 雞田赤城
+- 昆池碣石
+- 鉅野洞庭
+- 曠遠綿邈
+- 巖岫杳冥
+- 治本於農
+- 務茲稼穡
+- 俶載南畝
+- 我藝黍稷
+- 稅熟貢新
+- 勸賞黜陟
+- 孟軻敦素
+- 史魚秉直
+- 庶幾中庸
+- 勞謙謹敕
+- 聆音察理
+- 鑒貌辨色
+- 貽厥嘉猷
+- 勉其祗植
+- 省躬譏誡
+- 寵增抗極
+- 殆辱近恥
+- 林臯幸即
+- 兩疏見機
+- 解徂誰逼
+- 索居閑處
+- 沈默寂寥
+- 求古尋論
+- 散慮逍遙
+- 欣奏累遣
+- 慼謝歡招
+- 渠荷的歷
+- 園莽抽條
+- 枇杷晚翠
+- 梧桐早雕
+- 陳根委翳
+- 落葉飄搖
+- 遊鹍獨運
+- 淩摩絳霄
+- 耽讀玩市
+- 寓目囊箱
+- 易輶攸畏
+- 屬耳垣墻
+- 具膳餐飯
+- 適口充腸
+- 飽飫烹宰
+- 饑厭糟糠
+- 親戚故舊
+- 老少異糧
+- 妾禦績紡
+- 侍巾帷房
+- 紈扇圓潔
+- 銀燭煒煌
+- 晝眠夕寐
+- 藍筍象床
+- 弦歌酒宴
+- 接杯舉觴
+- 矯手頓足
+- 悅豫且康
+- 嫡後嗣續
+- 祭祀烝嘗
+- 稽顙再拜
+- 悚懼恐惶
+- 箋牒簡要
+- 顧答審詳
+- 骸垢想浴
+- 執熱願涼
+- 驢騾犢特
+- 駭躍超驤
+- 誅斬賊盜
+- 捕獲叛亡
+- 布射僚丸
+- 嵇琴阮嘯
+- 恬筆倫紙
+- 鈞巧任釣
+- 釋紛利俗
+- 竝皆佳妙
+- 毛施淑姿
+- 工顰妍笑
+- 年矢每催
+- 曦暉朗曜
+- 璇璣懸斡
+- 晦魄環照
+- 指薪修祜
+- 永綏吉劭
+- 矩步引領
+- 俯仰廊廟
+- 束帶矜莊
+- 徘徊瞻眺
+- 孤陋寡聞
+- 愚蒙等誚
+- 謂語助者
+- 焉哉乎也
+
+## 拼音
+
+- tian1 di4 xuan2 huang2 
+- yu3 zhou4 hong2 huang1 
+- ri4 yue4 ying2 ze4 
+- chen2 su4 lie4 zhang1 
+- han2 lai2 shu3 wang3 
+- qiu1 shou1 dong1 cang2 
+- run4 yu2 cheng2 sui4 
+- lü4 lü3 diao4 yang2 
+- yun2 teng2 zhi4 yu3 
+- lu4 jie2 wei2 shuang1 
+- jin1 sheng1 li2 shui3 
+- yu4 chu1 kun1 gang1 
+- jian4 hao4 ju4 que4 
+- zhu1 cheng1 ye4 guang1 
+- guo3 zhen1 li3 nai4 
+- cai4 zhong4 jie4 jiang1 
+- hai3 xian2 he2 dan4 
+- lin2 qian2 yu3 xiang2 
+- long2 shi1 huo3 di4 
+- niao3 guan1 ren2 huang2 
+- shi3 zhi4 wen2 zi4 
+- nai3 fu2 yi1 shang0 
+- tui1 wei4 rang4 guo2 
+- you3 yu2 tao2 tang2 
+- diao4 min2 fa2 zui4 
+- zhou1 fa1 yin1 tang1 
+- zuo4 chao2 wen4 dao4 
+- chui2 gong3 ping2 zhang1 
+- ai4 yu4 li2 shou3 
+- chen2 fu2 rong2 qiang1 
+- xia2 er3 yi1 ti3 
+- lü4 bin1 gui1 wang2 
+- ming2 feng4 zai4 shu4 
+- bai2 ju1 shi2 chang3 
+- hua4 bei4 cao3 mu4 
+- lai4 ji2 wan4 fang1 
+- gai4 ci3 shen1 fa4 
+- si4 da4 wu3 chang2 
+- gong1 wei2 ju1 yang3 
+- qi3 gan3 hui3 shang1 
+- nü3 mu4 zhen1 jie2 
+- nan2 xiao4 cai2 liang2 
+- zhi1 guo4 bi4 gai3 
+- de2 neng2 mo4 wang4 
+- wang3 tan2 bi3 duan3 
+- mi2 shi4 ji3 chang2 
+- xin4 shi3 ke3 fu4 
+- qi4 yu4 nan2 liang2 
+- mo4 bei1 si1 ran3 
+- shi1 zan4 gao1 yang2 
+- jing3 xing2 wei2 xian2 
+- ke4 nian4 zuo4 sheng4 
+- de2 jian4 ming2 li4 
+- xing2 duan1 biao3 zheng4 
+- kong1 gu3 chuan2 sheng1 
+- xu1 tang2 xi2 ting1 
+- huo4 yin1 e4 ji1 
+- fu2 yuan2 shan4 qing4 
+- chi3 bi4 fei1 bao3 
+- cun4 yin1 shi4 jing4 
+- zi1 fu4 shi4 jun1 
+- yue1 yan2 yu3 jing4 
+- xiao4 dang1 jie2 li4 
+- zhong1 ze2 jin4 ming4 
+- lin2 shen1 lü3 bao2 
+- su4 xing1 wen1 qing4 
+- si4 lan2 si1 xin1 
+- ru2 song1 zhi1 sheng4 
+- chuan1 liu2 bu4 xi1 
+- yuan1 cheng2 qu3 ying4 
+- rong2 zhi3 ruo4 si1 
+- yan2 ci2 an1 ding4 
+- du3 chu1 cheng2 mei3 
+- shen4 zhong1 yi2 ling4 
+- rong2 ye4 suo3 ji1 
+- ji2 shen4 wu2 jing4 
+- xue2 you1 deng1 shi4 
+- she4 zhi2 cong2 zheng4 
+- cun2 yi3 gan1 tang2 
+- qu4 er2 yi4 yong3 
+- le4 shu1 gui4 jian4 
+- li3 bie2 zun1 bei1 
+- shang4 he2 xia4 mu4 
+- fu1 chang4 fu4 sui2 
+- wai4 shou4 fu4 xun4 
+- ru4 feng4 mu3 yi2 
+- zhu1 gu1 bo2 shu1 
+- you2 zi3 bi3 er2 
+- kong3 huai2 xiong1 di4 
+- tong2 qi4 lian2 zhi1 
+- jiao1 you3 tou2 fen1 
+- qie4 mo2 zhen1 gui1 
+- ren2 ci2 yin3 ce4 
+- zao4 ci4 fu2 li2 
+- jie2 yi4 lian2 tui4 
+- dian1 pei4 fei3 kui1 
+- xing4 jing4 qing2 yi4 
+- xin1 dong4 shen2 pi2 
+- shou3 zhen1 zhi4 man3 
+- zhu2 wu4 yi4 yi2 
+- jian1 chi2 ya3 cao1 
+- hao3 jue2 zi4 mi2 
+- dou1 yi4 hua2 xia4 
+- dong1 xi1 er4 jing1 
+- bei4 mang2 mian4 luo4 
+- fu2 wei4 ju4 jing1 
+- gong1 dian4 pan2 yu4 
+- lou2 guan1 fei1 jing1 
+- tu2 xie3 qin2 shou4 
+- hua4 cai3 xian1 ling2 
+- bing3 she4 pang2 qi3 
+- jia3 zhang4 dui4 ying2 
+- si4 yan2 she4 xi2 
+- gu3 se4 chui1 sheng1 
+- sheng1 jie1 na4 bi4 
+- bian4 zhuan3 yi2 xing1 
+- you4 tong1 guang3 nei4 
+- zuo3 da2 cheng2 ming2 
+- ji4 ji2 fen2 dian3 
+- yi4 ju4 qun2 ying1 
+- du4 gao3 zhong1 li4 
+- qi1 shu1 bi4 jing1 
+- fu3 luo2 jiang1 xiang1 
+- lu4 xia2 huai2 qing1 
+- hu4 feng1 ba1 xian4 
+- jia1 gei3 qian1 bing1 
+- gao1 guan1 pei2 nian3 
+- qu1 gu3 zhen4 ying1 
+- shi4 lu4 chi3 fu4 
+- ju1 jia4 fei2 qing1 
+- ce4 gong1 mao4 shi2 
+- le4 bei1 ke4 ming2 
+- pan2 xi1 yi1 yin3 
+- zuo3 shi2 a1 heng2 
+- yan3 zhai2 qu1 fu4 
+- wei1 dan4 shu2 ying2 
+- huan2 gong1 kuang1 he2 
+- ji4 ruo4 fu2 qing1 
+- qi3 hui2 han4 hui4 
+- shuo1 gan3 wu3 ding1 
+- jun4 yi4 mi4 wu4 
+- duo1 shi4 shi2 ning2 
+- jin4 chu3 geng4 ba4 
+- zhao4 wei4 kun4 heng2 
+- jia3 tu2 mie4 guo2 
+- jian4 tu3 hui4 meng2 
+- he2 zun1 yue1 fa3 
+- han2 bi4 fan2 xing2 
+- qi3 jian3 po1 mu4 
+- yong4 jun1 zui4 jing1 
+- xuan1 wei1 sha1 mo4 
+- chi2 yu4 dan1 qing1 
+- jiu3 zhou1 yu3 ji4 
+- bai3 jun4 qin2 bing4 
+- yue4 zong1 heng2 dai4 
+- shan4 zhu3 yun2 ting2 
+- yan4 men2 zi3 sai1 
+- ji1 tian2 chi4 cheng2 
+- kun1 chi2 jie2 shi2 
+- ju4 ye3 dong4 ting2 
+- kuang4 yuan3 mian2 miao3 
+- yan2 xiu4 yao3 ming2 
+- zhi4 ben3 wu1 nong2 
+- wu4 zi1 jia4 se4 
+- chu4 zai4 nan2 mu3 
+- wo3 yi4 shu3 ji4 
+- shui4 shu2 gong4 xin1 
+- quan4 shang3 chu4 zhi4 
+- meng4 ke1 dun1 su4 
+- shi3 yu2 bing3 zhi2 
+- shu4 ji1 zhong1 yong1 
+- lao2 qian1 jin3 chi4 
+- ling2 yin1 cha2 li3 
+- jian4 mao4 bian4 se4 
+- yi2 jue2 jia1 you2 
+- mian3 qi2 zhi1 zhi2 
+- sheng3 gong1 ji1 jie4 
+- chong3 zeng1 kang4 ji2 
+- dai4 ru3 jin4 chi3 
+- lin2 gao1 xing4 ji2 
+- liang3 shu1 jian4 ji1 
+- jie3 cu2 shui2 bi1 
+- suo3 ju1 xian2 chu3 
+- shen3 mo4 ji4 liao2 
+- qiu2 gu3 xun2 lun4 
+- san4 lü4 xiao1 yao2 
+- xin1 zou4 lei4 qian3 
+- qi1 xie4 huan1 zhao1 
+- qu2 he2 de0 li4 
+- yuan2 mang3 chou1 tiao2 
+- pi2 pa0 wan3 cui4 
+- wu2 tong2 zao3 diao1 
+- chen2 gen1 wei3 yi4 
+- luo4 ye4 piao1 yao2 
+- you2 kun1 du2 yun4 
+- ling2 mo2 jiang4 xiao1 
+- dan1 du2 wan2 shi4 
+- yu4 mu4 nang2 xiang1 
+- yi4 you2 you1 wei4 
+- shu3 er3 yuan2 qiang2 
+- ju4 shan4 can1 fan4 
+- shi4 kou3 chong1 chang2 
+- bao3 yu4 peng1 zai3 
+- ji1 yan4 zao1 kang1 
+- qin1 qi1 gu4 jiu4 
+- lao3 shao4 yi4 liang2 
+- qie4 yu4 ji4 fang3 
+- shi4 jin1 wei2 fang2 
+- wan2 shan4 yuan2 jie2 
+- yin2 zhu2 wei3 huang2 
+- zhou4 mian2 xi1 mei4 
+- lan2 sun3 xiang4 chuang2 
+- xian2 ge1 jiu3 yan4 
+- jie1 bei1 ju3 shang1 
+- jiao3 shou3 dun4 zu2 
+- yue4 yu4 qie3 kang1 
+- di2 hou4 si4 xu4 
+- ji4 si4 zheng1 chang2 
+- ji1 sang3 zai4 bai4 
+- song3 ju4 kong3 huang2 
+- jian1 die2 jian3 yao4 
+- gu4 da2 shen3 xiang2 
+- hai2 gou4 xiang3 yu4 
+- zhi2 re4 yuan4 liang2 
+- lü2 luo2 du2 te4 
+- hai4 yue4 chao1 xiang1 
+- zhu1 zhan3 zei2 dao4 
+- bu3 huo4 pan4 wang2 
+- bu4 she4 liao2 wan2 
+- ji1 qin2 ruan3 xiao4 
+- tian2 bi3 lun2 zhi3 
+- jun1 qiao3 ren4 diao4 
+- shi4 fen1 li4 su2 
+- bing4 jie1 jia1 miao4 
+- mao2 shi1 shu1 zi1 
+- gong1 pin2 yan2 xiao4 
+- nian2 shi3 mei3 cui1 
+- xi1 hui1 lang3 yao4 
+- xuan2 ji1 xuan2 wo4 
+- hui4 po4 huan2 zhao4 
+- zhi3 xin1 xiu1 hu4 
+- yong3 sui2 ji2 shao4 
+- ju3 bu4 yin3 ling3 
+- fu3 yang3 lang2 miao4 
+- shu4 dai4 jin1 zhuang1 
+- pai2 huai2 zhan1 tiao4 
+- gu1 lou4 gua3 wen2 
+- yu2 meng2 deng3 qiao4 
+- wei4 yu3 zhu4 zhe3 
+- yan1 zai1 hu1 ye3
+
+## 注释
+
+## 译文
+
+## 赏析

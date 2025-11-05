@@ -1,0 +1,39 @@
+---
+id: li-bai-chang-xiang-si-qi-yi
+title: 長相思·其一
+titlePinyin: chang2 xiang1 si1 · qi2 yi1
+titleSlug: chang-xiang-si-qi-yi
+author: 李白
+authorPinyin: li3 bai2
+authorSlug: li-bai
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: ["蒙学","唐詩三百首","樂府"] 
+---
+
+## 正文
+
+- 長相思，在長安。
+- 絡緯秋啼金井闌，微霜悽悽簟色寒。
+- 孤燈不明思欲絕，卷帷望月空長嘆。
+- 美人如花隔雲端！
+- 上有青冥之長天，下有淥水之波瀾。
+- 天長路遠魂飛苦，夢魂不到關山難。
+- 長相思，摧心肝！
+
+## 拼音
+
+- chang2 xiang1 si1 ， zai4 chang2 an1 。
+- luo4 wei3 qiu1 ti2 jin1 jing3 lan2 ， wei1 shuang1 qi1 qi1 dian4 se4 han2 。
+- gu1 deng1 bu4 ming2 si1 yu4 jue2 ， juan4 wei2 wang4 yue4 kong1 chang2 tan4 。
+- mei3 ren2 ru2 hua1 ge2 yun2 duan1 ！
+- shang4 you3 qing1 ming2 zhi1 chang2 tian1 ， xia4 you3 lu4 shui3 zhi1 bo1 lan2 。
+- tian1 chang2 lu4 yuan3 hun2 fei1 ku3 ， meng4 hun2 bu2 dao4 guan1 shan1 nan2 。
+- chang2 xiang1 si1 ， cui1 xin1 gan1 ！
+
+## 注释
+
+## 译文
+
+## 赏析

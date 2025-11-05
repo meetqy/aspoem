@@ -1,0 +1,431 @@
+---
+id: qu-yuan-tian-wen
+title: 天问
+titlePinyin: tian1 wen4
+titleSlug: tian-wen
+author: 屈原
+authorPinyin: qu1 yuan2
+authorSlug: qu-yuan
+dynasty: 楚
+dynastyPinyin: chu3
+dynastySlug: chu
+tags: [] 
+---
+
+## 正文
+
+- 曰：
+- 遂古之初，谁传道之？
+- 上下未形，何由考之？
+- 冥昭瞢暗，谁能极之？
+- 冯翼惟象，何以识之？
+- 明明暗暗，惟时何为？
+- 阴阳三合，何本何化？
+- 圜则九重，孰营度之？
+- 惟兹何功，孰初作之？
+- 斡维焉系，天极焉加？
+- 八柱何当，东南何亏？
+- 九天之际，安放安属？
+- 隅隈多有，谁知其数？
+- 天何所沓？
+- 十二焉分？
+- 日月安属？
+- 列星安陈？
+- 出自汤谷，次于蒙汜。
+- 自明及晦，所行几里？
+- 夜光何德，死则又育？
+- 厥利维何，而顾菟在腹？
+- 女岐无合，夫焉取九子？
+- 伯强何处？
+- 惠气安在？
+- 何阖而晦？
+- 何开而明？
+- 角宿未旦，曜灵安藏？
+- 不任汩鸿，师何以尚之？
+- 佥曰
+- “何忧，何不课而行之？”
+- 鸱龟曳衔，鲧何听焉？
+- 顺欲成功，帝何刑焉？
+- 永遏在羽山，夫何三年不施？
+- 伯禹愎鲧，夫何以变化？
+- 纂就前绪，遂成考功。
+- 何续初继业，而厥谋不同？
+- 洪泉极深，何以窴之？
+- 地方九则，何以坟之？
+- 河海应龙？
+- 何尽何历？
+- 鲧何所营？
+- 禹何所成？
+- 康回冯怒，墬何故以东南倾？
+- 九州安错？
+- 川谷何洿？
+- 东流不溢，孰知其故？
+- 东西南北，其修孰多？
+- 南北顺椭，其衍几何？
+- 昆仑悬圃，其尻安在？
+- 增城九重，其高几里？
+- 四方之门，其谁从焉？
+- 西北辟启，何气通焉？
+- 日安不到？
+- 烛龙何照？
+- 羲和之未扬，若华何光？
+- 何所冬暖？
+- 何所夏寒？
+- 焉有石林？
+- 何兽能言？
+- 焉有虬龙，负熊以游？
+- 雄虺九首，鯈忽焉在？
+- 何所不死？
+- 长人何守？
+- 靡蓱九衢，枲华安居？
+- 灵蛇吞象，厥大何如？
+- 黑水玄趾，三危安在？
+- 延年不死，寿何所止？
+- 鲮鱼何所？
+- 鬿堆焉处？
+- 羿焉彃日？
+- 乌焉解羽？
+- 禹之力献功，降省下土四方。
+- 焉得彼嵞山女，而通之於台桑？
+- 闵妃匹合，厥身是继。
+- 胡维嗜不同味，而快鼌饱？
+- 启代益作后，卒然离蠥。
+- 何启惟忧，而能拘是达？
+- 皆归射鞫，而无害厥躬。
+- 何后益作革，而禹播降？
+- 启棘宾商，《九辨》《九歌》。
+- 何勤子屠母，而死分竟地？
+- 帝降夷羿，革孽夏民。
+- 胡射夫河伯，而妻彼雒嫔？
+- 冯珧利决，封豨是射。
+- 何献蒸肉之膏，而后帝不若？
+- 浞娶纯狐，眩妻爰谋。
+- 何羿之射革，而交吞揆之？
+- 阻穷西征，岩何越焉？
+- 化而为黄熊，巫何活焉？
+- 咸播秬黍，莆雚是营。
+- 何由并投，而鲧疾修盈？
+- 白蜺婴茀，胡为此堂？
+- 安得夫良药，不能固臧？
+- 天式从横，阳离爰死。
+- 大鸟何鸣，夫焉丧厥体？
+- 蓱号起雨，何以兴之？
+- 撰体协胁，鹿何膺之？
+- 鳌戴山抃，何以安之？
+- 释舟陵行，何之迁之？
+- 惟浇在户，何求于嫂？
+- 何少康逐犬，而颠陨厥首？
+- 女歧缝裳，而馆同爰止。
+- 何颠易厥首，而亲以逢殆？
+- 汤谋易旅，何以厚之？
+- 覆舟斟寻，何道取之？
+- 桀伐蒙山，何所得焉？
+- 妺嬉何肆，汤何殛焉？
+- 舜闵在家，父何以鳏？
+- 尧不姚告，二女何亲？
+- 厥萌在初，何所亿焉？
+- 璜台十成，谁所极焉？
+- 登立为帝，孰道尚之？
+- 女娲有体，孰制匠之？
+- 舜服厥弟，终然为害。
+- 何肆犬豕，而厥身不危败？
+- 吴获迄古，南岳是止。
+- 孰期去斯，得两男子？
+- 缘鹄饰玉，后帝是飨。
+- 何承谋夏桀，终以灭丧？
+- 帝乃降观，下逢伊挚。
+- 何条放致罚，而黎服大说？
+- 简狄在台，喾何宜？
+- 玄鸟致贻，女何喜？
+- 该秉季德，厥父是臧。
+- 胡终弊于有扈，牧夫牛羊？
+- 干协时舞，何以怀之？
+- 平胁曼肤，何以肥之？
+- 有扈牧竖，云何而逢？
+- 击床先出，其命何从？
+- 恒秉季德，焉得夫朴牛？
+- 何往营班禄，不但还来？
+- 昏微循迹，有狄不宁。
+- 何繁鸟萃棘，负子肆情？
+- 眩弟并淫，危害厥兄。
+- 何变化以作诈，而后嗣逢长？
+- 成汤东巡，有莘爰极。
+- 何乞彼小臣，而吉妃是得？
+- 水滨之木，得彼小子。
+- 夫何恶之，媵有莘之妇？
+- 汤出重泉，夫何辠尤？
+- 不胜心伐帝，夫谁使挑之？
+- 会朝争盟，何践吾期？
+- 苍鸟群飞，孰使萃之？
+- 列击纣躬，叔旦不嘉。
+- 何亲揆发足，周之命以咨嗟？
+- 授殷天下，其位安施？
+- 反成乃亡，其罪伊何？
+- 争遣伐器，何以行之？
+- 并驱击翼，何以将之？
+- 昭后成游，南土爰底。
+- 厥利惟何，逢彼白雉？
+- 穆王巧梅，夫何为周流？
+- 环理天下，夫何索求？
+- 妖夫曳炫，何号于市？
+- 周幽谁诛？
+- 焉得夫褒姒？
+- 天命反侧，何罚何佑？
+- 齐桓九会，卒然身杀。
+- 彼王纣之躬，孰使乱惑？
+- 何恶辅弼，谗谄是服？
+- 比干何逆，而抑沈之？
+- 雷开阿顺，而赐封之？
+- 何圣人之一德，卒其异方？
+- 梅伯受醢，箕子详狂？
+- 稷维元子，帝何竺之？
+- 投之于冰上，鸟何燠之？
+- 何冯弓挟矢，殊能将之？
+- 既惊帝切激，何逢长之？
+- 伯昌号衰，秉鞭作牧。
+- 何令彻彼岐社，命有殷国？
+- 迁藏就岐，何能依？
+- 殷有惑妇，何所讥？
+- 受赐兹醢，西伯上告。
+- 何亲就上帝罚，殷之命以不救？
+- 师望在肆，昌何识？
+- 鼓刀扬声，后何喜？
+- 武发杀殷，何所悒？
+- 载尸集战，何所急？
+- 伯林雉经，维其何故？
+- 何感天抑墬，夫谁畏惧？
+- 皇天集命，惟何戒之？
+- 受礼天下，又使至代之？
+- 初汤臣挚，后兹承辅。
+- 何卒官汤，尊食宗绪？
+- 勋阖梦生，少离散亡。
+- 何壮武历，能流厥严？
+- 彭铿斟雉，帝何飨？
+- 受寿永多，夫何久长？
+- 中央共牧，后何怒？
+- 蜂蛾微命，力何固？
+- 惊女采薇，鹿何佑？
+- 北至回水，萃何喜？
+- 兄有噬犬，弟何欲？
+- 易之以百两，卒无禄？
+- 薄暮雷电，归何忧？
+- 厥严不奉，帝何求？
+- 伏匿穴处，爰何云？
+- 荆勋作师，夫何长？
+- 悟过改更，我又何言？
+- 吴光争国，久余是胜。
+- 何环穿自闾社丘陵，爰出子文？
+- 吾告堵敖以不长。
+- 何试上自予，忠名弥彰？
+
+## 拼音
+
+- yue1 ：
+- sui4 gu3 zhi1 chu1 ， shui2 chuan2 dao4 zhi1 ？
+- shang4 xia4 wei4 xing2 ， he2 you2 kao3 zhi1 ？
+- ming2 zhao1 meng2 an4 ， shui2 neng2 ji2 zhi1 ？
+- feng2 yi4 wei2 xiang4 ， he2 yi3 shi2 zhi1 ？
+- ming2 ming2 an4 an4 ， wei2 shi2 he2 wei2 ？
+- yin1 yang2 san1 he2 ， he2 ben3 he2 hua4 ？
+- huan2 ze2 jiu3 chong2 ， shu2 ying2 du4 zhi1 ？
+- wei2 zi1 he2 gong1 ， shu2 chu1 zuo4 zhi1 ？
+- wo4 wei2 yan1 xi4 ， tian1 ji2 yan1 jia1 ？
+- ba1 zhu4 he2 dang1 ， dong1 nan2 he2 kui1 ？
+- jiu3 tian1 zhi1 ji4 ， an1 fang4 an1 shu3 ？
+- yu2 wei1 duo1 you3 ， shui2 zhi1 qi2 shu4 ？
+- tian1 he2 suo3 ta4 ？
+- shi2 er4 yan1 fen1 ？
+- ri4 yue4 an1 shu3 ？
+- lie4 xing1 an1 chen2 ？
+- chu1 zi4 tang1 gu3 ， ci4 yu2 meng2 si4 。
+- zi4 ming2 ji2 hui4 ， suo3 xing2 ji3 li3 ？
+- ye4 guang1 he2 de2 ， si3 ze2 you4 yu4 ？
+- jue2 li4 wei2 he2 ， er2 gu4 tu2 zai4 fu4 ？
+- nü3 qi2 wu2 he2 ， fu1 yan1 qu3 jiu3 zi3 ？
+- bo2 qiang2 he2 chu4 ？
+- hui4 qi4 an1 zai4 ？
+- he2 he2 er2 hui4 ？
+- he2 kai1 er2 ming2 ？
+- jiao3 su4 wei4 dan4 ， yao4 ling2 an1 cang2 ？
+- bu2 ren4 gu3 hong2 ， shi1 he2 yi3 shang4 zhi1 ？
+- qian1 yue1 
+- “ he2 you1 ， he2 bu2 ke4 er2 xing2 zhi1 ？”
+- chi1 gui1 ye4 xian2 ， gun3 he2 ting1 yan1 ？
+- shun4 yu4 cheng2 gong1 ， di4 he2 xing2 yan1 ？
+- yong3 e4 zai4 yu3 shan1 ， fu1 he2 san1 nian2 bu4 shi1 ？
+- bo2 yu3 bi4 gun3 ， fu1 he2 yi3 bian4 hua4 ？
+- zuan3 jiu4 qian2 xu4 ， sui4 cheng2 kao3 gong1 。
+- he2 xu4 chu1 ji4 ye4 ， er2 jue2 mou2 bu4 tong2 ？
+- hong2 quan2 ji2 shen1 ， he2 yi3 tian2 zhi1 ？
+- di4 fang1 jiu3 ze2 ， he2 yi3 fen2 zhi1 ？
+- he2 hai3 ying4 long2 ？
+- he2 jin4 he2 li4 ？
+- gun3 he2 suo3 ying2 ？
+- yu3 he2 suo3 cheng2 ？
+- kang1 hui2 feng2 nu4 ， di4 he2 gu4 yi3 dong1 nan2 qing1 ？
+- jiu3 zhou1 an1 cuo4 ？
+- chuan1 gu3 he2 wu1 ？
+- dong1 liu2 bu2 yi4 ， shu2 zhi1 qi2 gu4 ？
+- dong1 xi1 nan2 bei3 ， qi2 xiu1 shu2 duo1 ？
+- nan2 bei3 shun4 tuo3 ， qi2 yan3 ji3 he2 ？
+- kun1 lun2 xuan2 pu3 ， qi2 kao1 an1 zai4 ？
+- zeng1 cheng2 jiu3 chong2 ， qi2 gao1 ji3 li3 ？
+- si4 fang1 zhi1 men2 ， qi2 shui2 cong2 yan1 ？
+- xi1 bei3 pi4 qi3 ， he2 qi4 tong1 yan1 ？
+- ri4 an1 bu2 dao4 ？
+- zhu2 long2 he2 zhao4 ？
+- xi1 he2 zhi1 wei4 yang2 ， ruo4 hua2 he2 guang1 ？
+- he2 suo3 dong1 nuan3 ？
+- he2 suo3 xia4 han2 ？
+- yan1 you3 shi2 lin2 ？
+- he2 shou4 neng2 yan2 ？
+- yan1 you3 qiu2 long2 ， fu4 xiong2 yi3 you2 ？
+- xiong2 hui1 jiu3 shou3 ， tiao2 hu1 yan1 zai4 ？
+- he2 suo3 bu4 si3 ？
+- chang2 ren2 he2 shou3 ？
+- mi2 ping2 jiu3 qu2 ， xi3 hua2 an1 ju1 ？
+- ling2 she2 tun1 xiang4 ， jue2 da4 he2 ru2 ？
+- hei1 shui3 xuan2 zhi3 ， san1 wei1 an1 zai4 ？
+- yan2 nian2 bu4 si3 ， shou4 he2 suo3 zhi3 ？
+- ling2 yu2 he2 suo3 ？
+- qi2 dui1 yan1 chu4 ？
+- yi4 yan1 bi4 ri4 ？
+- wu1 yan1 jie3 yu3 ？
+- yu3 zhi1 li4 xian4 gong1 ， jiang4 sheng3 xia4 tu3 si4 fang1 。
+- yan1 de2 bi3 tu2 shan1 nü3 ， er2 tong1 zhi1 wu1 tai2 sang1 ？
+- min3 fei1 pi3 he2 ， jue2 shen1 shi4 ji4 。
+- hu2 wei2 shi4 bu4 tong2 wei4 ， er2 kuai4 chao2 bao3 ？
+- qi3 dai4 yi4 zuo4 hou4 ， zu2 ran2 li2 nie4 。
+- he2 qi3 wei2 you1 ， er2 neng2 ju1 shi4 da2 ？
+- jie1 gui1 she4 ju1 ， er2 wu2 hai4 jue2 gong1 。
+- he2 hou4 yi4 zuo4 ge2 ， er2 yu3 bo1 jiang4 ？
+- qi3 ji2 bin1 shang1 ，《 jiu3 bian4 》《 jiu3 ge1 》。
+- he2 qin2 zi3 tu2 mu3 ， er2 si3 fen1 jing4 di4 ？
+- di4 jiang4 yi2 yi4 ， ge2 nie4 xia4 min2 。
+- hu2 she4 fu1 he2 bo2 ， er2 qi1 bi3 luo4 pin2 ？
+- feng2 yao2 li4 jue2 ， feng1 xi1 shi4 she4 。
+- he2 xian4 zheng1 rou4 zhi1 gao1 ， er2 hou4 di4 bu2 ruo4 ？
+- zhuo2 qu3 chun2 hu2 ， xuan4 qi1 yuan2 mou2 。
+- he2 yi4 zhi1 she4 ge2 ， er2 jiao1 tun1 kui2 zhi1 ？
+- zu3 qiong2 xi1 zheng1 ， yan2 he2 yue4 yan1 ？
+- hua4 er2 wei2 huang2 xiong2 ， wu1 he2 huo2 yan1 ？
+- xian2 bo1 ju4 shu3 ， pu2 guan4 shi4 ying2 。
+- he2 you2 bing4 tou2 ， er2 gun3 ji2 xiu1 ying2 ？
+- bai2 ni2 ying1 fu2 ， hu2 wei4 ci3 tang2 ？
+- an1 de2 fu1 liang2 yao4 ， bu4 neng2 gu4 zang1 ？
+- tian1 shi4 cong2 heng2 ， yang2 li2 yuan2 si3 。
+- da4 niao3 he2 ming2 ， fu1 yan1 sang4 jue2 ti3 ？
+- ping2 hao4 qi3 yu3 ， he2 yi3 xing1 zhi1 ？
+- zhuan4 ti3 xie2 xie2 ， lu4 he2 ying1 zhi1 ？
+- ao2 dai4 shan1 bian4 ， he2 yi3 an1 zhi1 ？
+- shi4 zhou1 ling2 xing2 ， he2 zhi1 qian1 zhi1 ？
+- wei2 jiao1 zai4 hu4 ， he2 qiu2 yu2 sao3 ？
+- he2 shao4 kang1 zhu2 quan3 ， er2 dian1 yun3 jue2 shou3 ？
+- nü3 qi2 feng4 shang0 ， er2 guan3 tong2 yuan2 zhi3 。
+- he2 dian1 yi4 jue2 shou3 ， er2 qin1 yi3 feng2 dai4 ？
+- tang1 mou2 yi4 lü3 ， he2 yi3 hou4 zhi1 ？
+- fu4 zhou1 zhen1 xun2 ， he2 dao4 qu3 zhi1 ？
+- jie2 fa2 meng2 shan1 ， he2 suo3 de2 yan1 ？
+- mo4 xi1 he2 si4 ， tang1 he2 ji2 yan1 ？
+- shun4 min3 zai4 jia1 ， fu4 he2 yi3 guan1 ？
+- yao2 bu4 yao2 gao4 ， er4 nü3 he2 qin1 ？
+- jue2 meng2 zai4 chu1 ， he2 suo3 yi4 yan1 ？
+- huang2 tai2 shi2 cheng2 ， shui2 suo3 ji2 yan1 ？
+- deng1 li4 wei2 di4 ， shu2 dao4 shang4 zhi1 ？
+- nü3 wa1 you3 ti3 ， shu2 zhi4 jiang4 zhi1 ？
+- shun4 fu2 jue2 di4 ， zhong1 ran2 wei2 hai4 。
+- he2 si4 quan3 shi3 ， er2 jue2 shen1 bu4 wei1 bai4 ？
+- wu2 huo4 qi4 gu3 ， nan2 yue4 shi4 zhi3 。
+- shu2 qi1 qu4 si1 ， de2 liang3 nan2 zi3 ？
+- yuan2 hu2 shi4 yu4 ， hou4 di4 shi4 xiang3 。
+- he2 cheng2 mou2 xia4 jie2 ， zhong1 yi3 mie4 sang4 ？
+- di4 nai3 jiang4 guan1 ， xia4 feng2 yi1 zhi4 。
+- he2 tiao2 fang4 zhi4 fa2 ， er2 li2 fu2 da4 shuo1 ？
+- jian3 di2 zai4 tai2 ， ku4 he2 yi2 ？
+- xuan2 niao3 zhi4 yi2 ， nü3 he2 xi3 ？
+- gai1 bing3 ji4 de2 ， jue2 fu4 shi4 zang1 。
+- hu2 zhong1 bi4 yu2 you3 hu4 ， mu4 fu1 niu2 yang2 ？
+- gan1 xie2 shi2 wu3 ， he2 yi3 huai2 zhi1 ？
+- ping2 xie2 man4 fu1 ， he2 yi3 fei2 zhi1 ？
+- you3 hu4 mu4 shu4 ， yun2 he2 er2 feng2 ？
+- ji1 chuang2 xian1 chu1 ， qi2 ming4 he2 cong2 ？
+- heng2 bing3 ji4 de2 ， yan1 de2 fu1 pu3 niu2 ？
+- he2 wang3 ying2 ban1 lu4 ， bu2 dan4 hai2 lai2 ？
+- hun1 wei1 xun2 ji4 ， you3 di2 bu4 ning2 。
+- he2 fan2 niao3 cui4 ji2 ， fu4 zi3 si4 qing2 ？
+- xuan4 di4 bing4 yin2 ， wei1 hai4 jue2 xiong1 。
+- he2 bian4 hua4 yi3 zuo4 zha4 ， er2 hou4 si4 feng2 chang2 ？
+- cheng2 tang1 dong1 xun2 ， you3 shen1 yuan2 ji2 。
+- he2 qi3 bi3 xiao3 chen2 ， er2 ji2 fei1 shi4 de2 ？
+- shui3 bin1 zhi1 mu4 ， de2 bi3 xiao3 zi0 。
+- fu1 he2 e4 zhi1 ， ying4 you3 shen1 zhi1 fu4 ？
+- tang1 chu1 zhong4 quan2 ， fu1 he2 zui4 you2 ？
+- bu2 sheng4 xin1 fa2 di4 ， fu1 shui2 shi3 tiao1 zhi1 ？
+- hui4 chao2 zheng1 meng2 ， he2 jian4 wu2 qi1 ？
+- cang1 niao3 qun2 fei1 ， shu2 shi3 cui4 zhi1 ？
+- lie4 ji1 zhou4 gong1 ， shu1 dan4 bu4 jia1 。
+- he2 qin1 kui2 fa1 zu2 ， zhou1 zhi1 ming4 yi3 zi1 jie1 ？
+- shou4 yin1 tian1 xia4 ， qi2 wei4 an1 shi1 ？
+- fan3 cheng2 nai3 wang2 ， qi2 zui4 yi1 he2 ？
+- zheng1 qian3 fa2 qi4 ， he2 yi3 xing2 zhi1 ？
+- bing4 qu1 ji1 yi4 ， he2 yi3 jiang1 zhi1 ？
+- zhao1 hou4 cheng2 you2 ， nan2 tu3 yuan2 di3 。
+- jue2 li4 wei2 he2 ， feng2 bi3 bai2 zhi4 ？
+- mu4 wang2 qiao3 mei2 ， fu1 he2 wei2 zhou1 liu2 ？
+- huan2 li3 tian1 xia4 ， fu1 he2 suo3 qiu2 ？
+- yao1 fu1 ye4 xuan4 ， he2 hao4 yu2 shi4 ？
+- zhou1 you1 shui2 zhu1 ？
+- yan1 de2 fu1 bao1 si4 ？
+- tian1 ming4 fan3 ce4 ， he2 fa2 he2 you4 ？
+- qi2 huan2 jiu3 hui4 ， zu2 ran2 shen1 sha1 。
+- bi3 wang2 zhou4 zhi1 gong1 ， shu2 shi3 luan4 huo4 ？
+- he2 e4 fu3 bi4 ， chan2 chan3 shi4 fu2 ？
+- bi3 gan1 he2 ni4 ， er2 yi4 shen3 zhi1 ？
+- lei2 kai1 a1 shun4 ， er2 ci4 feng1 zhi1 ？
+- he2 sheng4 ren2 zhi1 yi1 de2 ， zu2 qi2 yi4 fang1 ？
+- mei2 bo2 shou4 hai3 ， ji1 zi3 xiang2 kuang2 ？
+- ji4 wei2 yuan2 zi3 ， di4 he2 zhu2 zhi1 ？
+- tou2 zhi1 yu2 bing1 shang4 ， niao3 he2 yu4 zhi1 ？
+- he2 feng2 gong1 xie2 shi3 ， shu1 neng2 jiang1 zhi1 ？
+- ji4 jing1 di4 qie4 ji1 ， he2 feng2 chang2 zhi1 ？
+- bo2 chang1 hao4 shuai1 ， bing3 bian1 zuo4 mu4 。
+- he2 ling4 che4 bi3 qi2 she4 ， ming4 you3 yin1 guo2 ？
+- qian1 cang2 jiu4 qi2 ， he2 neng2 yi1 ？
+- yin1 you3 huo4 fu4 ， he2 suo3 ji1 ？
+- shou4 ci4 zi1 hai3 ， xi1 bo2 shang4 gao4 。
+- he2 qin1 jiu4 shang4 di4 fa2 ， yin1 zhi1 ming4 yi3 bu2 jiu4 ？
+- shi1 wang4 zai4 si4 ， chang1 he2 shi2 ？
+- gu3 dao1 yang2 sheng1 ， hou4 he2 xi3 ？
+- wu3 fa1 sha1 yin1 ， he2 suo3 yi4 ？
+- zai3 shi1 ji2 zhan4 ， he2 suo3 ji2 ？
+- bo2 lin2 zhi4 jing1 ， wei2 qi2 he2 gu4 ？
+- he2 gan3 tian1 yi4 di4 ， fu1 shui2 wei4 ju4 ？
+- huang2 tian1 ji2 ming4 ， wei2 he2 jie4 zhi1 ？
+- shou4 li3 tian1 xia4 ， you4 shi3 zhi4 dai4 zhi1 ？
+- chu1 tang1 chen2 zhi4 ， hou4 zi1 cheng2 fu3 。
+- he2 zu2 guan1 tang1 ， zun1 shi2 zong1 xu4 ？
+- xun1 he2 meng4 sheng1 ， shao3 li2 san4 wang2 。
+- he2 zhuang4 wu3 li4 ， neng2 liu2 jue2 yan2 ？
+- peng2 keng1 zhen1 zhi4 ， di4 he2 xiang3 ？
+- shou4 shou4 yong3 duo1 ， fu1 he2 jiu3 chang2 ？
+- zhong1 yang1 gong4 mu4 ， hou4 he2 nu4 ？
+- feng1 e2 wei1 ming4 ， li4 he2 gu4 ？
+- jing1 nü3 cai3 wei1 ， lu4 he2 you4 ？
+- bei3 zhi4 hui2 shui3 ， cui4 he2 xi3 ？
+- xiong1 you3 shi4 quan3 ， di4 he2 yu4 ？
+- yi4 zhi1 yi3 bai3 liang3 ， zu2 wu2 lu4 ？
+- bo2 mu4 lei2 dian4 ， gui1 he2 you1 ？
+- jue2 yan2 bu2 feng4 ， di4 he2 qiu2 ？
+- fu2 ni4 xue2 chu4 ， yuan2 he2 yun2 ？
+- jing1 xun1 zuo4 shi1 ， fu1 he2 chang2 ？
+- wu4 guo4 gai3 geng4 ， wo3 you4 he2 yan2 ？
+- wu2 guang1 zheng1 guo2 ， jiu3 yu2 shi4 sheng4 。
+- he2 huan2 chuan1 zi4 lü2 she4 qiu1 ling2 ， yuan2 chu1 zi3 wen2 ？
+- wu2 gao4 du3 ao2 yi3 bu4 chang2 。
+- he2 shi4 shang4 zi4 yu3 ， zhong1 ming2 mi2 zhang1 ？
+
+## 注释
+
+## 译文
+
+## 赏析
