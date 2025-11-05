@@ -1,0 +1,417 @@
+---
+id: cao-tang-xiao-you-xian-shi-jiu-shi-ba-shou
+title: 小遊仙詩九十八首
+titlePinyin: xiao3 you2 xian1 shi1 jiu3 shi2 ba1 shou3
+titleSlug: xiao-you-xian-shi-jiu-shi-ba-shou
+author: 曹唐
+authorPinyin: cao2 tang2
+authorSlug: cao-tang
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: []
+---
+
+## 正文
+
+- 玉簫金瑟發商聲，桑葉枯乾海水清。
+- 淨掃蓬萊山下路，略邀王母話長生。
+- 上元元日豁明堂，五帝望空拜玉皇。
+- 萬樹琪花千圃藥，心知不敢輒形相。
+- 騎龍重過玉溪頭，紅葉還春碧水流。
+- 省得壺中見天地，壺中天地不曾秋。
+- 真王未許久從容，立在花前別甯封。
+- 手把玉簫頭不舉，自愁如醉倚黃龍。
+- 金殿無人鎖絳煙，玉郎並不賞丹田。
+- 白龍蹀躞難回跋，爭下紅綃碧玉鞭。
+- 玄洲草木不知黃，甲子初開浩劫長。
+- 無限萬年年少女，手攀紅樹滿殘陽。
+- 宮闕重重閉玉林，昆侖高辟彩雲深。
+- 黃龍掉尾引郎去，使妾月明何處尋。
+- 風滿塗山玉蕊稀，赤龍閑臥鶴東飛。
+- 紫梨爛盡無人吃，何事韓君去不歸。
+- 武帝徒勞厭暮年，不曾清淨不精專。
+- 上元少女絕還往，滿灶丹成白玉煙。
+- 百辟朝回閉玉除，露風清宴桂花疏。
+- 西歸使者騎金虎，嚲鞚垂鞭唱步虛。
+- 南斗闌珊北斗稀，茅君夜著紫霞衣。
+- 朝騎白鹿趁朝去，鳳押笙歌逐後飛。
+- 焚香獨自上天壇，桂樹風吹玉簡寒。
+- 長怕嵇康乏仙骨，與將仙籍再尋看。
+- 冰屋朱扉曉未開，誰將金策扣瓊台。
+- 碧花紅尾小仙犬，閑吠五雲嗔客來。
+- 酒釅春濃瓊草齊，真公飲散醉如泥。
+- 朱輪軋軋入雲去，行到半天聞馬嘶。
+- 白石山中自有天，竹花藤葉隔溪煙。
+- 朝來洞口圍棋了，賭得青龍直幾錢。
+- 海水西飛照柏林，青雲斜倚錦雲深。
+- 水風暗入古山葉，吹斷步虛清磬音。
+- 玉詔新除沈侍郎，便分茅土鎮東方。
+- 不知今夕游何處，侍從皆騎白鳳凰。
+- 洞裏煙霞無歇時，洞中天地足金芝。
+- 月明朗朗溪頭樹，白髮老人相對棋。
+- 饑即餐霞悶即行，一聲長嘯萬山青。
+- 穿花渡水來相訪，珍重多才阮步兵。
+- 東妃閑著翠霞裙，自領笙歌出五雲。
+- 清思密談誰第一，不過邀取小茅君。
+- 月影悠悠秋樹明，露吹犀簟象床輕。
+- 嬪妃久立帳門外，暗笑夫人推酒聲。
+- 九天天路入雲長，燕使何由到上方。
+- 玉女暗來花下立，手挼裙帶問昭王。
+- 玉皇賜妾紫衣裳，教向桃源嫁阮郎。
+- 爛煮瓊花勸君吃，恐君毛鬢暗成霜。
+- 花底休傾綠玉卮，雲中含笑向安期。
+- 窮陽有數不知數，大似人間年少兒。
+- 玉色雌龍金絡頭，真妃騎出縱閒遊。
+- 昆侖山上桃花底，一曲商歌天地秋。
+- 偷來洞口訪劉君，緩步輕抬玉線裙。
+- 細擘桃花逐流水，更無言語倚彤雲。
+- 西漢夫人下太虛，九霞裙幅五雲輿。
+- 欲將碧字相教示，自解盤囊出素書。
+- 天上雞鳴海日紅，青腰侍女掃朱宮。
+- 洗花蒸葉濾清酒，待與夫人邀五翁。
+- 汗漫真遊實可奇，人間天上幾人知。
+- 周王不信長生話，空使萇弘碧淚垂。
+- 青錦縫裳綠玉璫，滿身新帶五雲香。
+- 閑依碧海攀鸞駕，笑就蘇君覓橘嘗。
+- 鶴不西飛龍不行，露幹雲破洞簫清。
+- 少年仙子說閒事，遙隔彩雲聞笑聲。
+- 洞裏煙深木葉粗，乘風使者降玄都。
+- 隔花相見遙相賀，擎出懷中赤玉符。
+- 芝蕙芸花爛漫春，瑞香煙露濕衣巾。
+- 玉童私地誇書劄，偷寫雲謠暗贈人。
+- 天上邀來不肯來，人間雙鶴又空回。
+- 秦皇漢武死何處，海畔紅桑花自開。
+- 紫羽麾幢下玉京，卻邀真母入三清。
+- 白龍久住渾相戀，斜倚祥雲不肯行。
+- 鶴叫風悲竹葉疏，誰來五嶺拜雲車。
+- 人間肉馬無輕步，踏破先生一卷書。
+- 夜降西壇宴已終，花殘月榭霧朦朧。
+- 誰遊八海門前過，空洞一聲風雨中。
+- 忘卻教人鎖後宮，還丹失盡玉壺空。
+- 嫦娥若不偷靈藥，爭得長生在月中。
+- 暘谷先生下宴時，月光初冷紫瓊枝。
+- 淒清金石揭天地，事在世間人不知。
+- 共愛初平住九霞，焚香不出閉金華。
+- 白羊成隊難收拾，吃盡溪頭巨勝花。
+- 酒盡香殘夜欲分，青童拜問紫陽君。
+- 月光悄悄笙歌遠，馬影龍聲歸五雲。
+- 海樹靈風吹彩煙，丹陵朝客欲升天。
+- 無央公子停鸞轡，笑泥嬌妃索玉鞭。
+- 八景風回五鳳車，昆侖山上看桃花。
+- 若教使者沽春酒，須覓餘杭阿母家。
+- 叔卿遍覽九天春，不見人間故舊人。
+- 怪得蓬萊山下水，半成沙土半成塵。
+- 欲飲尊中雲母漿，月明花裏合笙簧。
+- 更教小奈將龍去，便向金壇取阮郎。
+- 海上桃花千樹開，麻姑一去不知來。
+- 遼東老鶴應慵惰，教探桑田便不回。
+- 昨夜相邀宴杏壇，等閒乘醉走青鸞。
+- 紅雲塞路東風緊，吹破芙蓉碧玉冠。
+- 雲鶴冥冥去不分，落花流水恨空存。
+- 不知玉女無期信，道與留門卻閉門。
+- 采女平明受事回，暗交丹契錦囊開。
+- 欲書密詔防人見，佯喝青虯使莫來。
+- 太一元君昨夜過，碧雲高髻綰婆娑。
+- 手抬玉策紅於火，敲斷金鸞使唱歌。
+- 碧瓦彤軒月殿開，九天花落瑞風來。
+- 玉皇欲著紅龍袞，親喚金妃下手裁。
+- 長房自貴解飛翻，五色雲中獨閉門。
+- 看卻桑田欲成海，不知還往幾人存。
+- 赤龍停步彩雲飛，共道真王海上歸。
+- 千歲紅桃香破鼻，玉盤盛出與金妃。
+- 碧海靈童夜到時，徒勞相喚上瓊池。
+- 因循天子能閒事，縱與青龍不解騎。
+- 且欲留君飲桂漿，九天無事莫推忙。
+- 青龍舉步行千里，休道蓬萊歸路長。
+- 侍女親擎玉酒卮，滿卮傾酒勸安期。
+- 等閒相別三千歲，長憶水邊分棗時。
+- 萬歲蛾眉不解愁，旋彈清瑟旋閒遊。
+- 忽聞下界笙簫曲，斜倚紅鸞笑不休。
+- 去住樓臺一任風，十三天洞暗相通。
+- 行廚侍女炊何物，滿灶無煙玉炭紅。
+- 風動閑天清桂陰，水精簾箔冷沉沉。
+- 西妃少女多春思，斜倚彤雲盡日吟。
+- 王母相留不放回，偶然沉醉臥瑤台。
+- 憑君與向蕭郎道，教著青龍取妾來。
+- 絳節笙歌繞殿飛，紫皇欲到五雲歸。
+- 細腰侍女瑤花外，爭向紅房報玉妃。
+- 聞君新領八霞司，此別相逢是幾時。
+- 妾有一觥雲母酒，請君終宴莫推辭。
+- 方士飛軒駐碧霞，酒寒風冷月初斜。
+- 不知誰唱歸春曲，落盡溪頭白葛花。
+- 方朔朝來到我家，欲將靈樹出丹霞。
+- 三千年後知誰在，擬種紅桃待放花。
+- 水滿桑田白日沈，凍雲幹霰濕重陰。
+- 遼東歸客閑相過，因話堯年雪更深。
+- 朝回相引看紅鸞，不覺風吹鶴氅偏。
+- 好是興來騎白鶴，文妃為伴上重天。
+- 公子閑吟八景文，花南拜別上陽君。
+- 金鞭遙指玉清路，龍影馬嘶歸五雲。
+- 一百年中是一春，不教日月輒移輪。
+- 金鼇頭上蓬萊殿，唯有人間煉骨人。
+- 笑擎雲液紫瑤觥，共請雲和碧玉笙。
+- 花下偶然吹一曲，人間因識董雙成。
+- 東皇長女沒多年，從洗金芝到水邊。
+- 無事伴他棋一局，等閒輸卻賣花錢。
+- 紅草青林日半斜，閑乘小鳳出彤霞。
+- 略尋舊路過西國，因得冰園一尺瓜。
+- 樹下星沉月欲高，前溪水影濕龍毛。
+- 洞天雲冷玉花發，公子盡披雙錦袍。
+- 紫水風吹劍樹寒，水邊年少下紅鸞。
+- 未知百一窮陽數，略請先生止的看。
+- 武皇含笑把金觥，更請霓裳一兩聲。
+- 護帳宮人最年少，舞腰時挈繡裙輕。
+- 瓊樹扶疏壓瑞煙，玉皇朝客滿花前。
+- 東風小飲人皆醉，短尾青龍枕水眠。
+- 彤閣鐘鳴碧鷺飛，皇君催熨紫霞衣。
+- 丹房玉女心慵甚，貪看投壺不肯歸。
+- 昆侖山上自雞啼，羽客爭升碧玉梯。
+- 因駕五龍看較藝，白鸞功用不如妻。
+- 沙野先生閉玉虛，焚香夜寫紫微書。
+- 供承童子閑無事，教剉瓊花喂白驢。
+- 雲隴瓊花滿地香，碧沙紅水遍朱堂。
+- 外人欲壓長生籍，拜請飛瓊報玉皇。
+- 玉洞長春風景鮮，丈人私宴就芝田。
+- 笙歌暫向花間盡，便是人間一萬年。
+- 青童傳語便須回，報導麻姑玉蕊開。
+- 滄海成塵等閒事，且乘龍鶴看花來。
+- 絳樹彤雲戶半開，守花童子怪人來。
+- 青牛臥地吃瓊草，知道先生朝未回。
+- 石洞沙溪二十年，向明杭日夜朝天。
+- 白礬煙盡水銀冷，不覺小龍床下眠。
+- 紫微深鎖敞丹軒，太帝親談不死門。
+- 從此百寮俱拜後，走龍鞭虎下昆侖。
+- 雲衫玉帶好威儀，三洞真人入奏時。
+- 頻著金鞭打龍角，為嗔西去上天遲。
+- 太子真娥相領行，當天合曲玉簫清。
+- 梨花新折東風軟，猶在緱山樂笑聲。
+- 洞裏月明瓊樹風，畫簾青室影朦朧。
+- 香殘酒冷玉妃睡，不覺七真歸海中。
+- 青苑紅堂壓瑞雲，月明閑宴九陽君。
+- 不知昨夜誰先醉，書破明霞八幅裙。
+- 東溟兩度作塵飛，一萬年來會面稀。
+- 千樹梨花百壺酒，共君論飲莫論詩。
+- 滄海令拋即未能，且緣鸞鶴立相仍。
+- 蔡家新婦莫嫌少，領取真珠三五升。
+- 溪影沉沙樹影清，人家皆踏五音行。
+- 可憐三十六天路，星月滿空瓊草青。
+- 北斗西風吹白榆，穆公相笑夜投壺。
+- 花前玉女來相問，賭得青龍許贖無。
+- 九天王母皺蛾眉，惆悵無言倚桂枝。
+- 悔不長留穆天子，任將妻妾住瑤池。
+- 暫隨鳧伯縱閒遊，飲鹿因過翠水頭。
+- 宮殿寂寥人不見，碧花菱角滿潭秋。
+- 新授金書八素章，玉皇教妾主扶桑。
+- 與君一別三千歲，卻厭仙家日月長。
+- 八海風涼水影高，上卿教制赤霜袍。
+- 蛟絲玉線難裁割，須借玉妃金剪刀。
+- 海上風來吹杏枝，昆侖山上看花時。
+- 紅龍錦襜黃金勒，不是元君不得騎。
+- 絳闕夫人下北方，細環清佩響丁當。
+- 攀花笑入春風裏，偷折紅桃寄阮郎。
+
+## 拼音
+
+- yu4 xiao1 jin1 se4 fa1 shang1 sheng1 ， sang1 ye4 ku1 gan1 hai3 shui3 qing1 。
+- jing4 sao3 peng2 lai2 shan1 xia4 lu4 ， lüe4 yao1 wang2 mu3 hua4 chang2 sheng1 。
+- shang4 yuan2 yuan2 ri4 huo1 ming2 tang2 ， wu3 di4 wang4 kong1 bai4 yu4 huang2 。
+- wan4 shu4 qi2 hua1 qian1 pu3 yao4 ， xin1 zhi1 bu4 gan3 zhe2 xing2 xiang4 。
+- qi2 long2 zhong4 guo4 yu4 xi1 tou2 ， hong2 ye4 huan2 chun1 bi4 shui3 liu2 。
+- sheng3 de2 hu2 zhong1 jian4 tian1 di4 ， hu2 zhong1 tian1 di4 bu4 ceng2 qiu1 。
+- zhen1 wang2 wei4 xu1 jiu3 cong2 rong2 ， li4 zai4 hua1 qian2 bie2 ning2 feng1 。
+- shou3 ba3 yu4 xiao1 tou2 bu4 ju3 ， zi4 chou2 ru2 zui4 yi3 huang2 long2 。
+- jin1 dian4 wu2 ren2 suo3 jiang4 yan1 ， yu4 lang2 bing4 bu4 shang3 dan1 tian2 。
+- bai2 long2 die2 xie4 nan2 hui2 ba2 ， zheng1 xia4 hong2 xiao1 bi4 yu4 bian1 。
+- xuan2 zhou1 cao3 mu4 bu4 zhi1 huang2 ， jia3 zi3 chu1 kai1 hao4 jie2 chang2 。
+- wu2 xian4 wan4 nian2 nian2 shao4 nü3 ， shou3 pan1 hong2 shu4 man3 can2 yang2 。
+- gong1 que4 chong2 chong2 bi4 yu4 lin2 ， kun1 lun2 gao1 pi4 cai3 yun2 shen1 。
+- huang2 long2 diao4 wei3 yin3 lang2 qu4 ， shi3 qie4 yue4 ming2 he2 chu3 xun2 。
+- feng1 man3 tu2 shan1 yu4 rui3 xi1 ， chi4 long2 xian2 wo4 he4 dong1 fei1 。
+- zi3 li2 lan4 jin4 wu2 ren2 chi1 ， he2 shi4 han2 jun1 qu4 bu4 gui1 。
+- wu3 di4 tu2 lao2 yan4 mu4 nian2 ， bu4 ceng2 qing1 jing4 bu4 jing1 zhuan1 。
+- shang4 yuan2 shao4 nü3 jue2 huan2 wang3 ， man3 zao4 dan1 cheng2 bai2 yu4 yan1 。
+- bai3 pi4 chao2 hui2 bi4 yu4 chu2 ， lu4 feng1 qing1 yan4 gui4 hua1 shu1 。
+- xi1 gui1 shi3 zhe3 qi2 jin1 hu3 ， duo3 kong4 chui2 bian1 chang4 bu4 xu1 。
+- nan2 dou3 lan2 shan1 bei3 dou3 xi1 ， mao2 jun1 ye4 zhu4 zi3 xia2 yi1 。
+- chao2 qi2 bai2 lu4 chen4 chao2 qu4 ， feng4 ya1 sheng1 ge1 zhu2 hou4 fei1 。
+- fen2 xiang1 du2 zi4 shang4 tian1 tan2 ， gui4 shu4 feng1 chui1 yu4 jian3 han2 。
+- chang2 pa4 ji1 kang1 fa2 xian1 gu3 ， yu3 jiang1 xian1 ji2 zai4 xun2 kan4 。
+- bing1 wu1 zhu1 fei1 xiao3 wei4 kai1 ， shui2 jiang1 jin1 ce4 kou4 qiong2 tai2 。
+- bi4 hua1 hong2 wei3 xiao3 xian1 quan3 ， xian2 fei4 wu3 yun2 chen1 ke4 lai2 。
+- jiu3 yan4 chun1 nong2 qiong2 cao3 qi2 ， zhen1 gong1 yin3 san4 zui4 ru2 ni2 。
+- zhu1 lun2 ya4 ya4 ru4 yun2 qu4 ， xing2 dao4 ban4 tian1 wen2 ma3 si1 。
+- bai2 shi2 shan1 zhong1 zi4 you3 tian1 ， zhu2 hua1 teng2 ye4 ge2 xi1 yan1 。
+- chao2 lai2 dong4 kou3 wei2 qi2 le0 ， du3 de2 qing1 long2 zhi2 ji1 qian2 。
+- hai3 shui3 xi1 fei1 zhao4 bo2 lin2 ， qing1 yun2 xie2 yi3 jin3 yun2 shen1 。
+- shui3 feng1 an4 ru4 gu3 shan1 ye4 ， chui1 duan4 bu4 xu1 qing1 qing4 yin1 。
+- yu4 zhao4 xin1 chu2 shen3 shi4 lang2 ， bian4 fen1 mao2 tu3 zhen4 dong1 fang1 。
+- bu4 zhi1 jin1 xi1 you2 he2 chu3 ， shi4 cong2 jie1 qi2 bai2 feng4 huang2 。
+- dong4 li3 yan1 xia2 wu2 xie1 shi2 ， dong4 zhong1 tian1 di4 zu2 jin1 zhi1 。
+- yue4 ming2 lang3 lang3 xi1 tou2 shu4 ， bai2 fa4 lao3 ren2 xiang1 dui4 qi2 。
+- ji1 ji2 can1 xia2 men4 ji2 xing2 ， yi4 sheng1 chang2 xiao4 wan4 shan1 qing1 。
+- chuan1 hua1 du4 shui3 lai2 xiang1 fang3 ， zhen1 zhong4 duo1 cai2 ruan3 bu4 bing1 。
+- dong1 fei1 xian2 zhu4 cui4 xia2 qun2 ， zi4 ling3 sheng1 ge1 chu1 wu3 yun2 。
+- qing1 si1 mi4 tan2 shui2 di4 yi1 ， bu2 guo4 yao1 qu3 xiao3 mao2 jun1 。
+- yue4 ying3 you1 you1 qiu1 shu4 ming2 ， lu4 chui1 xi1 dian4 xiang4 chuang2 qing1 。
+- pin2 fei1 jiu3 li4 zhang4 men2 wai4 ， an4 xiao4 fu1 ren2 tui1 jiu3 sheng1 。
+- jiu3 tian1 tian1 lu4 ru4 yun2 chang2 ， yan4 shi3 he2 you2 dao4 shang4 fang1 。
+- yu4 nü3 an4 lai2 hua1 xia4 li4 ， shou3 ruo2 qun2 dai4 wen4 zhao1 wang2 。
+- yu4 huang2 ci4 qie4 zi3 yi1 shang0 ， jiao4 xiang4 tao2 yuan2 jia4 ruan3 lang2 。
+- lan4 zhu3 qiong2 hua1 quan4 jun1 chi1 ， kong3 jun1 mao2 bin4 an4 cheng2 shuang1 。
+- hua1 di3 xiu1 qing1 lü4 yu4 zhi1 ， yun2 zhong1 han2 xiao4 xiang4 an1 qi1 。
+- qiong2 yang2 you3 shu4 bu4 zhi1 shu4 ， da4 si4 ren2 jian4 nian2 shao4 er2 。
+- yu4 se4 ci2 long2 jin1 luo4 tou2 ， zhen1 fei1 qi2 chu1 zong4 xian2 you2 。
+- kun1 lun2 shan1 shang4 tao2 hua1 di3 ， yi4 qu3 shang1 ge1 tian1 di4 qiu1 。
+- tou1 lai2 dong4 kou3 fang3 liu2 jun1 ， huan3 bu4 qing1 tai2 yu4 xian4 qun2 。
+- xi4 bo4 tao2 hua1 zhu2 liu2 shui3 ， geng4 wu2 yan2 yu3 yi3 tong2 yun2 。
+- xi1 han4 fu1 ren2 xia4 tai4 xu1 ， jiu3 xia2 qun2 fu2 wu3 yun2 yu2 。
+- yu4 jiang1 bi4 zi4 xiang1 jiao4 shi4 ， zi4 jie3 pan2 nang2 chu1 su4 shu1 。
+- tian1 shang4 ji1 ming2 hai3 ri4 hong2 ， qing1 yao1 shi4 nü3 sao3 zhu1 gong1 。
+- xi3 hua1 zheng1 ye4 lü4 qing1 jiu3 ， dai4 yu3 fu1 ren2 yao1 wu3 weng1 。
+- han4 man4 zhen1 you2 shi2 ke3 qi2 ， ren2 jian4 tian1 shang4 ji1 ren2 zhi1 。
+- zhou1 wang2 bu2 xin4 chang2 sheng1 hua4 ， kong1 shi3 chang2 hong2 bi4 lei4 chui2 。
+- qing1 jin3 feng2 shang0 lü4 yu4 dang1 ， man3 shen1 xin1 dai4 wu3 yun2 xiang1 。
+- xian2 yi1 bi4 hai3 pan1 luan2 jia4 ， xiao4 jiu4 su1 jun1 mi4 ju2 chang2 。
+- he4 bu4 xi1 fei1 long2 bu4 xing2 ， lu4 gan4 yun2 po4 dong4 xiao1 qing1 。
+- shao4 nian2 xian1 zi3 shuo1 xian2 shi4 ， yao2 ge2 cai3 yun2 wen2 xiao4 sheng1 。
+- dong4 li3 yan1 shen1 mu4 ye4 cu1 ， cheng2 feng1 shi3 zhe3 jiang4 xuan2 dou1 。
+- ge2 hua1 xiang1 jian4 yao2 xiang1 he4 ， qing2 chu1 huai2 zhong1 chi4 yu4 fu2 。
+- zhi1 hui4 yun2 hua1 lan4 man4 chun1 ， rui4 xiang1 yan1 lu4 shi1 yi1 jin1 。
+- yu4 tong2 si1 di4 kua1 shu1 zha1 ， tou1 xie3 yun2 yao2 an4 zeng4 ren2 。
+- tian1 shang4 yao1 lai2 bu4 ken3 lai2 ， ren2 jian4 shuang1 he4 you4 kong1 hui2 。
+- qin2 huang2 han4 wu3 si3 he2 chu3 ， hai3 pan4 hong2 sang1 hua1 zi4 kai1 。
+- zi3 yu3 hui1 zhuang4 xia4 yu4 jing1 ， que4 yao1 zhen1 mu3 ru4 san1 qing1 。
+- bai2 long2 jiu3 zhu4 hun2 xiang1 lian4 ， xie2 yi3 xiang2 yun2 bu4 ken3 xing2 。
+- he4 jiao4 feng1 bei1 zhu2 ye4 shu1 ， shui2 lai2 wu3 ling3 bai4 yun2 ju1 。
+- ren2 jian4 rou4 ma3 wu2 qing1 bu4 ， ta4 po4 xian1 sheng0 yi2 juan4 shu1 。
+- ye4 jiang4 xi1 tan2 yan4 yi3 zhong1 ， hua1 can2 yue4 xie4 wu4 meng2 long2 。
+- shui2 you2 ba1 hai3 men2 qian2 guo4 ， kong1 dong4 yi4 sheng1 feng1 yu3 zhong1 。
+- wang4 que4 jiao4 ren2 suo3 hou4 gong1 ， huan2 dan1 shi1 jin4 yu4 hu2 kong1 。
+- chang2 e2 ruo4 bu4 tou1 ling2 yao4 ， zheng1 de2 chang2 sheng1 zai4 yue4 zhong1 。
+- yang2 gu3 xian1 sheng0 xia4 yan4 shi2 ， yue4 guang1 chu1 leng3 zi3 qiong2 zhi1 。
+- qi1 qing1 jin1 shi2 jie1 tian1 di4 ， shi4 zai4 shi4 jian4 ren2 bu4 zhi1 。
+- gong4 ai4 chu1 ping2 zhu4 jiu3 xia2 ， fen2 xiang1 bu4 chu1 bi4 jin1 hua2 。
+- bai2 yang2 cheng2 dui4 nan2 shou1 shi0 ， chi1 jin4 xi1 tou2 ju4 sheng4 hua1 。
+- jiu3 jin4 xiang1 can2 ye4 yu4 fen1 ， qing1 tong2 bai4 wen4 zi3 yang2 jun1 。
+- yue4 guang1 qiao1 qiao1 sheng1 ge1 yuan3 ， ma3 ying3 long2 sheng1 gui1 wu3 yun2 。
+- hai3 shu4 ling2 feng1 chui1 cai3 yan1 ， dan1 ling2 chao2 ke4 yu4 sheng1 tian1 。
+- wu2 yang1 gong1 zi3 ting2 luan2 pei4 ， xiao4 ni2 jiao1 fei1 suo3 yu4 bian1 。
+- ba1 jing3 feng1 hui2 wu3 feng4 ju1 ， kun1 lun2 shan1 shang4 kan4 tao2 hua1 。
+- ruo4 jiao4 shi3 zhe3 gu1 chun1 jiu3 ， xu1 mi4 yu2 hang2 a1 mu3 jia1 。
+- shu1 qing1 bian4 lan3 jiu3 tian1 chun1 ， bu2 jian4 ren2 jian4 gu4 jiu4 ren2 。
+- guai4 de2 peng2 lai2 shan1 xia4 shui3 ， ban4 cheng2 sha1 tu3 ban4 cheng2 chen2 。
+- yu4 yin3 zun1 zhong1 yun2 mu3 jiang1 ， yue4 ming2 hua1 li3 he2 sheng1 huang2 。
+- geng4 jiao4 xiao3 nai4 jiang1 long2 qu4 ， bian4 xiang4 jin1 tan2 qu3 ruan3 lang2 。
+- hai3 shang4 tao2 hua1 qian1 shu4 kai1 ， ma2 gu1 yi2 qu4 bu4 zhi1 lai2 。
+- liao2 dong1 lao3 he4 ying1 yong1 duo4 ， jiao4 tan4 sang1 tian2 bian4 bu4 hui2 。
+- zuo2 ye4 xiang1 yao1 yan4 xing4 tan2 ， deng3 xian2 cheng2 zui4 zou3 qing1 luan2 。
+- hong2 yun2 sai1 lu4 dong1 feng1 jin3 ， chui1 po4 fu2 rong2 bi4 yu4 guan1 。
+- yun2 he4 ming2 ming2 qu4 bu4 fen1 ， luo4 hua1 liu2 shui3 hen4 kong1 cun2 。
+- bu4 zhi1 yu4 nü3 wu2 qi1 xin4 ， dao4 yu3 liu2 men2 que4 bi4 men2 。
+- cai3 nü3 ping2 ming2 shou4 shi4 hui2 ， an4 jiao1 dan1 qi4 jin3 nang2 kai1 。
+- yu4 shu1 mi4 zhao4 fang2 ren2 jian4 ， yang2 he1 qing1 qiu2 shi3 mo4 lai2 。
+- tai4 yi4 yuan2 jun1 zuo2 ye4 guo4 ， bi4 yun2 gao1 ji4 wan3 po2 suo1 。
+- shou3 tai2 yu4 ce4 hong2 wu1 huo3 ， qiao1 duan4 jin1 luan2 shi3 chang4 ge1 。
+- bi4 wa3 tong2 xuan1 yue4 dian4 kai1 ， jiu3 tian1 hua1 luo4 rui4 feng1 lai2 。
+- yu4 huang2 yu4 zhu4 hong2 long2 gun3 ， qin1 huan4 jin1 fei1 xia4 shou3 cai2 。
+- chang2 fang2 zi4 gui4 jie3 fei1 fan1 ， wu3 se4 yun2 zhong1 du2 bi4 men2 。
+- kan4 que4 sang1 tian2 yu4 cheng2 hai3 ， bu4 zhi1 huan2 wang3 ji1 ren2 cun2 。
+- chi4 long2 ting2 bu4 cai3 yun2 fei1 ， gong4 dao4 zhen1 wang2 hai3 shang4 gui1 。
+- qian1 sui4 hong2 tao2 xiang1 po4 bi2 ， yu4 pan2 sheng4 chu1 yu3 jin1 fei1 。
+- bi4 hai3 ling2 tong2 ye4 dao4 shi2 ， tu2 lao2 xiang1 huan4 shang4 qiong2 chi2 。
+- yin1 xun2 tian1 zi3 neng2 xian2 shi4 ， zong4 yu3 qing1 long2 bu4 jie3 qi2 。
+- qie3 yu4 liu2 jun1 yin3 gui4 jiang1 ， jiu3 tian1 wu2 shi4 mo4 tui1 mang2 。
+- qing1 long2 ju3 bu4 xing2 qian1 li3 ， xiu1 dao4 peng2 lai2 gui1 lu4 chang2 。
+- shi4 nü3 qin1 qing2 yu4 jiu3 zhi1 ， man3 zhi1 qing1 jiu3 quan4 an1 qi1 。
+- deng3 xian2 xiang1 bie2 san1 qian1 sui4 ， chang2 yi4 shui3 bian1 fen1 zao3 shi2 。
+- wan4 sui4 e2 mei2 bu4 jie3 chou2 ， xuan2 dan4 qing1 se4 xuan2 xian2 you2 。
+- hu1 wen2 xia4 jie4 sheng1 xiao1 qu3 ， xie2 yi3 hong2 luan2 xiao4 bu4 xiu1 。
+- qu4 zhu4 lou2 tai2 yi2 ren4 feng1 ， shi2 san1 tian1 dong4 an4 xiang1 tong1 。
+- xing2 chu2 shi4 nü3 chui1 he2 wu4 ， man3 zao4 wu2 yan1 yu4 tan4 hong2 。
+- feng1 dong4 xian2 tian1 qing1 gui4 yin1 ， shui3 jing1 lian2 bo2 leng3 chen2 chen2 。
+- xi1 fei1 shao4 nü3 duo1 chun1 si1 ， xie2 yi3 tong2 yun2 jin4 ri4 yin2 。
+- wang2 mu3 xiang1 liu2 bu2 fang4 hui2 ， ou3 ran2 chen2 zui4 wo4 yao2 tai2 。
+- ping2 jun1 yu3 xiang4 xiao1 lang2 dao4 ， jiao4 zhu4 qing1 long2 qu3 qie4 lai2 。
+- jiang4 jie2 sheng1 ge1 rao4 dian4 fei1 ， zi3 huang2 yu4 dao4 wu3 yun2 gui1 。
+- xi4 yao1 shi4 nü3 yao2 hua1 wai4 ， zheng1 xiang4 hong2 fang2 bao4 yu4 fei1 。
+- wen2 jun1 xin1 ling3 ba1 xia2 si1 ， ci3 bie2 xiang1 feng2 shi4 ji1 shi2 。
+- qie4 you3 yi4 gong1 yun2 mu3 jiu3 ， qing3 jun1 zhong1 yan4 mo4 tui1 ci2 。
+- fang1 shi4 fei1 xuan1 zhu4 bi4 xia2 ， jiu3 han2 feng1 leng3 yue4 chu1 xie2 。
+- bu4 zhi1 shui2 chang4 gui1 chun1 qu3 ， luo4 jin4 xi1 tou2 bai2 ge3 hua1 。
+- fang1 shuo4 chao2 lai2 dao4 wo3 jia1 ， yu4 jiang1 ling2 shu4 chu1 dan1 xia2 。
+- san1 qian1 nian2 hou4 zhi1 shui2 zai4 ， ni3 zhong3 hong2 tao2 dai4 fang4 hua1 。
+- shui3 man3 sang1 tian2 bai2 ri4 shen3 ， dong4 yun2 gan4 xian4 shi1 zhong4 yin1 。
+- liao2 dong1 gui1 ke4 xian2 xiang1 guo4 ， yin1 hua4 yao2 nian2 xue3 geng4 shen1 。
+- chao2 hui2 xiang1 yin3 kan4 hong2 luan2 ， bu4 jue2 feng1 chui1 he4 chang3 pian1 。
+- hao3 shi4 xing1 lai2 qi2 bai2 he4 ， wen2 fei1 wei2 ban4 shang4 zhong4 tian1 。
+- gong1 zi3 xian2 yin2 ba1 jing3 wen2 ， hua1 nan2 bai4 bie2 shang4 yang2 jun1 。
+- jin1 bian1 yao2 zhi3 yu4 qing1 lu4 ， long2 ying3 ma3 si1 gui1 wu3 yun2 。
+- yi4 bai3 nian2 zhong1 shi4 yi4 chun1 ， bu2 jiao4 ri4 yue4 zhe2 yi2 lun2 。
+- jin1 ao2 tou2 shang4 peng2 lai2 dian4 ， wei2 you3 ren2 jian4 lian4 gu3 ren2 。
+- xiao4 qing2 yun2 ye4 zi3 yao2 gong1 ， gong4 qing3 yun2 he2 bi4 yu4 sheng1 。
+- hua1 xia4 ou3 ran2 chui1 yi4 qu3 ， ren2 jian4 yin1 shi2 dong3 shuang1 cheng2 。
+- dong1 huang2 chang2 nü3 mei2 duo1 nian2 ， cong2 xi3 jin1 zhi1 dao4 shui3 bian1 。
+- wu2 shi4 ban4 ta1 qi2 yi4 ju2 ， deng3 xian2 shu1 que4 mai4 hua1 qian2 。
+- hong2 cao3 qing1 lin2 ri4 ban4 xie2 ， xian2 cheng2 xiao3 feng4 chu1 tong2 xia2 。
+- lüe4 xun2 jiu4 lu4 guo4 xi1 guo2 ， yin1 de2 bing1 yuan2 yi4 chi3 gua1 。
+- shu4 xia4 xing1 chen2 yue4 yu4 gao1 ， qian2 xi1 shui3 ying3 shi1 long2 mao2 。
+- dong4 tian1 yun2 leng3 yu4 hua1 fa1 ， gong1 zi3 jin4 pi1 shuang1 jin3 pao2 。
+- zi3 shui3 feng1 chui1 jian4 shu4 han2 ， shui3 bian1 nian2 shao4 xia4 hong2 luan2 。
+- wei4 zhi1 bai3 yi4 qiong2 yang2 shu4 ， lüe4 qing3 xian1 sheng0 zhi3 de0 kan4 。
+- wu3 huang2 han2 xiao4 ba3 jin1 gong1 ， geng4 qing3 ni2 chang2 yi4 liang3 sheng1 。
+- hu4 zhang4 gong1 ren2 zui4 nian2 shao4 ， wu3 yao1 shi2 qie4 xiu4 qun2 qing1 。
+- qiong2 shu4 fu2 shu1 ya1 rui4 yan1 ， yu4 huang2 chao2 ke4 man3 hua1 qian2 。
+- dong1 feng1 xiao3 yin3 ren2 jie1 zui4 ， duan3 wei3 qing1 long2 zhen3 shui3 mian2 。
+- tong2 ge2 zhong1 ming2 bi4 lu4 fei1 ， huang2 jun1 cui1 yun4 zi3 xia2 yi1 。
+- dan1 fang2 yu4 nü3 xin1 yong1 shen4 ， tan1 kan4 tou2 hu2 bu4 ken3 gui1 。
+- kun1 lun2 shan1 shang4 zi4 ji1 ti2 ， yu3 ke4 zheng1 sheng1 bi4 yu4 ti1 。
+- yin1 jia4 wu3 long2 kan4 jiao4 yi4 ， bai2 luan2 gong1 yong4 bu4 ru2 qi1 。
+- sha1 ye3 xian1 sheng0 bi4 yu4 xu1 ， fen2 xiang1 ye4 xie3 zi3 wei1 shu1 。
+- gong4 cheng2 tong2 zi3 xian2 wu2 shi4 ， jiao4 cuo4 qiong2 hua1 wei4 bai2 lü2 。
+- yun2 long3 qiong2 hua1 man3 di4 xiang1 ， bi4 sha1 hong2 shui3 bian4 zhu1 tang2 。
+- wai4 ren2 yu4 ya1 chang2 sheng1 ji2 ， bai4 qing3 fei1 qiong2 bao4 yu4 huang2 。
+- yu4 dong4 chang2 chun1 feng1 jing3 xian1 ， zhang4 ren2 si1 yan4 jiu4 zhi1 tian2 。
+- sheng1 ge1 zan4 xiang4 hua1 jian4 jin4 ， bian4 shi4 ren2 jian4 yi2 wan4 nian2 。
+- qing1 tong2 chuan2 yu3 bian4 xu1 hui2 ， bao4 dao3 ma2 gu1 yu4 rui3 kai1 。
+- cang1 hai3 cheng2 chen2 deng3 xian2 shi4 ， qie3 cheng2 long2 he4 kan4 hua1 lai2 。
+- jiang4 shu4 tong2 yun2 hu4 ban4 kai1 ， shou3 hua1 tong2 zi3 guai4 ren2 lai2 。
+- qing1 niu2 wo4 di4 chi1 qiong2 cao3 ， zhi1 dao4 xian1 sheng0 chao2 wei4 hui2 。
+- shi2 dong4 sha1 xi1 er4 shi2 nian2 ， xiang4 ming2 hang2 ri4 ye4 chao2 tian1 。
+- bai2 fan2 yan1 jin4 shui3 yin2 leng3 ， bu4 jue2 xiao3 long2 chuang2 xia4 mian2 。
+- zi3 wei1 shen1 suo3 chang3 dan1 xuan1 ， tai4 di4 qin1 tan2 bu4 si3 men2 。
+- cong2 ci3 bai3 liao2 ju4 bai4 hou4 ， zou3 long2 bian1 hu3 xia4 kun1 lun2 。
+- yun2 shan1 yu4 dai4 hao3 wei1 yi2 ， san1 dong4 zhen1 ren2 ru4 zou4 shi2 。
+- bin1 zhu4 jin1 bian1 da3 long2 jiao3 ， wei2 chen1 xi1 qu4 shang4 tian1 chi2 。
+- tai4 zi3 zhen1 e2 xiang1 ling3 xing2 ， dang1 tian1 he2 qu3 yu4 xiao1 qing1 。
+- li2 hua1 xin1 zhe2 dong1 feng1 ruan3 ， you2 zai4 gou1 shan1 le4 xiao4 sheng1 。
+- dong4 li3 yue4 ming2 qiong2 shu4 feng1 ， hua4 lian2 qing1 shi4 ying3 meng2 long2 。
+- xiang1 can2 jiu3 leng3 yu4 fei1 shui4 ， bu4 jue2 qi1 zhen1 gui1 hai3 zhong1 。
+- qing1 yuan4 hong2 tang2 ya1 rui4 yun2 ， yue4 ming2 xian2 yan4 jiu3 yang2 jun1 。
+- bu4 zhi1 zuo2 ye4 shui2 xian1 zui4 ， shu1 po4 ming2 xia2 ba1 fu2 qun2 。
+- dong1 ming2 liang3 du4 zuo4 chen2 fei1 ， yi2 wan4 nian2 lai2 hui4 mian4 xi1 。
+- qian1 shu4 li2 hua1 bai3 hu2 jiu3 ， gong4 jun1 lun4 yin3 mo4 lun4 shi1 。
+- cang1 hai3 ling4 pao1 ji2 wei4 neng2 ， qie3 yuan2 luan2 he4 li4 xiang1 reng2 。
+- cai4 jia1 xin1 fu4 mo4 xian2 shao3 ， ling3 qu3 zhen1 zhu1 san1 wu3 sheng1 。
+- xi1 ying3 chen2 sha1 shu4 ying3 qing1 ， ren2 jia1 jie1 ta4 wu3 yin1 xing2 。
+- ke3 lian2 san1 shi2 liu4 tian1 lu4 ， xing1 yue4 man3 kong1 qiong2 cao3 qing1 。
+- bei3 dou3 xi1 feng1 chui1 bai2 yu2 ， mu4 gong1 xiang4 xiao4 ye4 tou2 hu2 。
+- hua1 qian2 yu4 nü3 lai2 xiang1 wen4 ， du3 de2 qing1 long2 xu1 shu2 wu2 。
+- jiu3 tian1 wang2 mu3 zhou4 e2 mei2 ， chou2 chang4 wu2 yan2 yi3 gui4 zhi1 。
+- hui3 bu4 chang2 liu2 mu4 tian1 zi3 ， ren4 jiang1 qi1 qie4 zhu4 yao2 chi2 。
+- zan4 sui2 fu2 bo2 zong4 xian2 you2 ， yin3 lu4 yin1 guo4 cui4 shui3 tou2 。
+- gong1 dian4 ji4 liao2 ren2 bu2 jian4 ， bi4 hua1 ling2 jiao3 man3 tan2 qiu1 。
+- xin1 shou4 jin1 shu1 ba1 su4 zhang1 ， yu4 huang2 jiao4 qie4 zhu3 fu2 sang1 。
+- yu3 jun1 yi4 bie2 san1 qian1 sui4 ， que4 yan4 xian1 jia1 ri4 yue4 chang2 。
+- ba1 hai3 feng1 liang2 shui3 ying3 gao1 ， shang4 qing1 jiao4 zhi4 chi4 shuang1 pao2 。
+- jiao1 si1 yu4 xian4 nan2 cai2 ge1 ， xu1 jie4 yu4 fei1 jin1 jian3 dao1 。
+- hai3 shang4 feng1 lai2 chui1 xing4 zhi1 ， kun1 lun2 shan1 shang4 kan4 hua1 shi2 。
+- hong2 long2 jin3 chan1 huang2 jin1 le4 ， bu2 shi4 yuan2 jun1 bu4 de2 qi2 。
+- jiang4 que4 fu1 ren2 xia4 bei3 fang1 ， xi4 huan2 qing1 pei4 xiang3 ding1 dang1 。
+- pan1 hua1 xiao4 ru4 chun1 feng1 li3 ， tou1 zhe2 hong2 tao2 ji4 ruan3 lang2 。
+
+## 注释
+
+## 译文
+
+## 赏析

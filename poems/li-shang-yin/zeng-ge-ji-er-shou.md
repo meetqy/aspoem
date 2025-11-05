@@ -1,0 +1,33 @@
+---
+id: li-shang-yin-zeng-ge-ji-er-shou
+title: 贈歌妓二首
+titlePinyin: zeng4 ge1 ji4 er4 shou3
+titleSlug: zeng-ge-ji-er-shou
+author: 李商隱
+authorPinyin: li3 shang1 yin3
+authorSlug: li-shang-yin
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: []
+---
+
+## 正文
+
+- 水精如意玉連環，下蔡城危莫破顏。
+- 紅綻櫻桃含白雪，斷腸聲裏唱陽關。
+- 白日相思可奈何，嚴城清夜斷經過。
+- 只知解道春來瘦，不道春來獨自多。
+
+## 拼音
+
+- shui3 jing1 ru2 yi4 yu4 lian2 huan2 ， xia4 cai4 cheng2 wei1 mo4 po4 yan2 。
+- hong2 zhan4 ying1 tao2 han2 bai2 xue3 ， duan4 chang2 sheng1 li3 chang4 yang2 guan1 。
+- bai2 ri4 xiang1 si1 ke3 nai4 he2 ， yan2 cheng2 qing1 ye4 duan4 jing1 guo4 。
+- zhi1 zhi1 jie3 dao4 chun1 lai2 shou4 ， bu2 dao4 chun1 lai2 du2 zi4 duo1 。
+
+## 注释
+
+## 译文
+
+## 赏析

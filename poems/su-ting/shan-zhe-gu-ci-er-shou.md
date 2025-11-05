@@ -1,0 +1,29 @@
+---
+id: su-ting-shan-zhe-gu-ci-er-shou
+title: 山鷓鴣詞二首
+titlePinyin: shan1 zhe4 gu1 ci2 er4 shou3
+titleSlug: shan-zhe-gu-ci-er-shou
+author: 蘇頲
+authorPinyin: su1 ting3
+authorSlug: su-ting
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: []
+---
+
+## 正文
+
+- 玉關征戍久，空閨人獨愁。寒露濕青苔，別來蓬鬢秋。
+- 人坐青樓晚，鶯語百花時。愁多人易老，斷腸君不知。
+
+## 拼音
+
+- yu4 guan1 zheng1 shu4 jiu3 ， kong1 gui1 ren2 du2 chou2 。 han2 lu4 shi1 qing1 tai2 ， bie2 lai2 peng2 bin4 qiu1 。
+- ren2 zuo4 qing1 lou2 wan3 ， ying1 yu3 bai3 hua1 shi2 。 chou2 duo1 ren2 yi4 lao3 ， duan4 chang2 jun1 bu4 zhi1 。
+
+## 注释
+
+## 译文
+
+## 赏析

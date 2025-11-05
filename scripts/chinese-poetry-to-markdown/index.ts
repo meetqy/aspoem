@@ -16,11 +16,13 @@ import { syncQuantangshi } from './quantangshi'
 import { syncShuiMoTangShi } from './shuimotangshi'
 import { syncSongCi } from './songci'
 import { syncWuDaiShiCiHuajinji, syncWuDaiShiNanTang } from './wudaishici'
+import { syncYDQuantangshi } from './yudingquantangshi'
 
 function main() {
+  syncYDQuantangshi()
+  return
   syncWuDaiShiCiHuajinji()
   syncWuDaiShiNanTang()
-  return
   syncSongCi()
   syncShuiMoTangShi()
   syncQuantangshi()

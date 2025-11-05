@@ -1,0 +1,33 @@
+---
+id: yu-pen-fu-nong-shi
+title: 富農詩
+titlePinyin: fu4 nong2 shi1
+titleSlug: fu-nong-shi
+author: 于濆
+authorPinyin: yu2 pen1
+authorSlug: yu-pen
+dynasty: 唐
+dynastyPinyin: tang2
+dynastySlug: tang
+tags: []
+---
+
+## 正文
+
+- 長聞鄉人語，此家勝良賈。骨肉化饑魂，倉中有飽鼠。
+- 青春滿桑柘，旦夕鳴機杼。秋風一夜來，累累聞砧杵。
+- 西鄰有原憲，蓬蒿繞環堵。自樂固窮心，天意在何處。
+- 當門見堆子，已作桑田主。安得四海中，盡為虞芮土。
+
+## 拼音
+
+- chang2 wen2 xiang1 ren2 yu3 ， ci3 jia1 sheng4 liang2 jia3 。 gu3 rou4 hua4 ji1 hun2 ， cang1 zhong1 you3 bao3 shu3 。
+- qing1 chun1 man3 sang1 zhe4 ， dan4 xi1 ming2 ji1 zhu4 。 qiu1 feng1 yi2 ye4 lai2 ， lei2 lei2 wen2 zhen1 chu3 。
+- xi1 lin2 you3 yuan2 xian4 ， peng2 hao1 rao4 huan2 du3 。 zi4 le4 gu4 qiong2 xin1 ， tian1 yi4 zai4 he2 chu3 。
+- dang1 men2 jian4 dui1 zi3 ， yi3 zuo4 sang1 tian2 zhu3 。 an1 de2 si4 hai3 zhong1 ， jin4 wei2 yu2 rui4 tu3 。
+
+## 注释
+
+## 译文
+
+## 赏析
