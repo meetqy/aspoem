@@ -1,0 +1,33 @@
+---
+id: wei-cheng-ban-man-gong-hua
+title: 满宫花
+titlePinyin: man3 gong1 hua1
+titleSlug: man-gong-hua
+author: 魏承班
+authorPinyin: wei4 cheng2 ban1
+authorSlug: wei-cheng-ban
+dynasty: 五代
+dynastyPinyin: wu3 dai4
+dynastySlug: wu-dai
+tags: ["花间集"]
+---
+
+## 正文
+
+- 雪霏霏，风凛凛，玉郎何处狂饮。
+- 醉时想得纵风流，罗帐香帷鸳寝。
+- 春朝秋夜思君甚，愁见绣屏孤枕。
+- 少年何事负初心，泪滴缕金双衽。
+
+## 拼音
+
+- xue3 fei1 fei1 ， feng1 lin3 lin3 ， yu4 lang2 he2 chu4 kuang2 yin3 。
+- zui4 shi2 xiang3 de2 zong4 feng1 liu2 ， luo2 zhang4 xiang1 wei2 yuan1 qin3 。
+- chun1 chao2 qiu1 ye4 si1 jun1 shen4 ， chou2 jian4 xiu4 ping2 gu1 zhen3 。
+- shao4 nian2 he2 shi4 fu4 chu1 xin1 ， lei4 di1 lü3 jin1 shuang1 ren4 。
+
+## 注释
+
+## 译文
+
+## 赏析

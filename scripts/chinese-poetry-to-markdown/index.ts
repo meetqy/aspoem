@@ -15,10 +15,13 @@ import { syncNalan } from './nalanxingde'
 import { syncQuantangshi } from './quantangshi'
 import { syncShuiMoTangShi } from './shuimotangshi'
 import { syncSongCi } from './songci'
+import { syncWuDaiShiCiHuajinji, syncWuDaiShiNanTang } from './wudaishici'
 
 function main() {
-  syncSongCi()
+  syncWuDaiShiCiHuajinji()
+  syncWuDaiShiNanTang()
   return
+  syncSongCi()
   syncShuiMoTangShi()
   syncQuantangshi()
   syncCaocao()
