@@ -15,5 +15,5 @@ export async function syncYuanQu() {
 
     )
 
-    console.log(`纳兰性德诗集同步完成: ${data.length} 个章节已导入`)
+    console.log(`元曲同步完成: ${data.length} 个章节已导入`)
 }
