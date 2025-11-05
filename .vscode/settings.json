@@ -10,8 +10,10 @@
   },
 
   "files.watcherExclude": {
-    "**/poems/**": true, 
+    "**/poems/**": true
   },
+
+  "git.ignoredRepositories": ["**/poems/**"],
 
   // Silent the stylistic rules in your IDE, but still auto fix them
   "eslint.rules.customizations": [
