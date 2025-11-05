@@ -1,58 +1,65 @@
-import dataQianjiashi from '../../../chinese-poetry-master/蒙学/qianjiashi.json'
-import { createMdContent } from '../create-md'
+import dataQianjiashi from "../../../chinese-poetry-master/蒙学/qianjiashi.json";
+import { createMdContent } from "../create-md";
 
 export async function syncQianjiashi() {
   try {
-    let totalCreated = 0
+    let totalCreated = 0;
 
     // 遍历每个 section 中的 content（诗词）
     for (const section of dataQianjiashi.content) {
       for (const poem of section.content) {
         // 解析作者信息，处理括号格式：（唐）令狐楚
-        let dynasty = '未知'
-        let authorName = poem.author
+        let dynasty = "未知";
+        let authorName = poem.author;
 
         // 如果作者信息包含括号格式的朝代信息
-        const match = /^（([^）]+)）(.+)$/.exec(poem.author)
+        const match = /^（([^）]+)）(.+)$/.exec(poem.author);
         if (match) {
-          dynasty = match[1]!.trim()
-          authorName = match[2]!.trim()
+          dynasty = match[1]!.trim();
+          authorName = match[2]!.trim();
         }
 
         // 检查是否包含 subchapter 结构
-        if (Array.isArray(poem.paragraphs) && poem.paragraphs.length > 0 && typeof poem.paragraphs[0] === 'object' && 'subchapter' in poem.paragraphs[0]) {
+        if (
+          Array.isArray(poem.paragraphs) &&
+          poem.paragraphs.length > 0 &&
+          typeof poem.paragraphs[0] === "object" &&
+          "subchapter" in poem.paragraphs[0]
+        ) {
           // 如果是包含 subchapter 的结构，为每个 subchapter 创建单独的诗词
           for (const subSection of poem.paragraphs) {
-            if (typeof subSection === 'object' && subSection.subchapter && subSection.paragraphs) {
+            if (
+              typeof subSection === "object" &&
+              subSection.subchapter &&
+              subSection.paragraphs
+            ) {
               await createMdContent({
                 title: `${poem.chapter}（${subSection.subchapter}）`,
                 paragraphs: subSection.paragraphs,
                 author: authorName,
                 dynasty,
-                tags: [section.type, '千家诗', '蒙学'],
-              })
-              totalCreated++
+                tags: [section.type, "千家诗", "蒙学"],
+              });
+              totalCreated++;
             }
           }
-        }
-        else {
+        } else {
           // 如果是普通的字符串数组，创建单一诗词
           await createMdContent({
             title: poem.chapter,
             paragraphs: poem.paragraphs as string[],
             author: authorName,
             dynasty,
-            tags: [section.type, '千家诗', '蒙学'],
-          })
-          totalCreated++
+            tags: [section.type, "千家诗", "蒙学"],
+          });
+          totalCreated++;
         }
       }
     }
 
-    console.log(`千家诗同步完成: ${totalCreated} 首诗词已导入`)
-  }
-  catch (error) {
-    console.error('千家诗同步失败:', error)
-    throw error
+    console.log(`千家诗同步完成: ${totalCreated} 首诗词已导入`);
+  } catch (error) {
+    console.error("千家诗同步失败:", error);
+    throw error;
   }
 }

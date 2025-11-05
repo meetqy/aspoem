@@ -1,5 +1,5 @@
-import { createEnv } from '@t3-oss/env-nextjs'
-import { z } from 'zod'
+import { createEnv } from "@t3-oss/env-nextjs";
+import { z } from "zod";
 
 export const env = createEnv({
   /**
@@ -7,9 +7,14 @@ export const env = createEnv({
    * isn't built with invalid env vars.
    */
   server: {
-    BETTER_AUTH_SECRET: process.env.NODE_ENV === 'production' ? z.string() : z.string().optional(),
+    BETTER_AUTH_SECRET:
+      process.env.NODE_ENV === "production"
+        ? z.string()
+        : z.string().optional(),
     DATABASE_URL: z.string().url(),
-    NODE_ENV: z.enum(['development', 'test', 'production']).default('development'),
+    NODE_ENV: z
+      .enum(["development", "test", "production"])
+      .default("development"),
     ADMIN_EMAIL: z.string().email(),
   },
 
@@ -42,4 +47,4 @@ export const env = createEnv({
    * `SOME_VAR=''` will throw an error.
    */
   emptyStringAsUndefined: true,
-})
+});

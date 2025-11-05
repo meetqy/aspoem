@@ -1,32 +1,37 @@
-import { CalendarIcon, UserIcon } from 'lucide-react'
-import Link from 'next/link'
-import { Avatar, AvatarFallback } from '@/components/ui/avatar'
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card'
-import { Separator } from '@/components/ui/separator'
+import { CalendarIcon, UserIcon } from "lucide-react";
+import Link from "next/link";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+} from "@/components/ui/card";
+import { Separator } from "@/components/ui/separator";
 
 interface Author {
-  id: string
-  name: string
-  namePinYin: string
-  dynasty: string
-  birthDate?: number
-  deathDate?: number
-  introduce?: string
-  epithets?: string[] // 称号，如 "诗仙"
-  style?: string // 风格特色
+  id: string;
+  name: string;
+  namePinYin: string;
+  dynasty: string;
+  birthDate?: number;
+  deathDate?: number;
+  introduce?: string;
+  epithets?: string[]; // 称号，如 "诗仙"
+  style?: string; // 风格特色
   _count: {
-    poems: number
-  }
+    poems: number;
+  };
 }
 
 interface AuthorCardProps {
-  author: Author
+  author: Author;
 }
 
 export function AuthorCard({ author }: AuthorCardProps) {
-  const lifespan = `${author.birthDate || '?'}年—${author.deathDate || '?'}年`
+  const lifespan = `${author.birthDate || "?"}年—${author.deathDate || "?"}年`;
 
   return (
     <Card>
@@ -43,7 +48,9 @@ export function AuthorCard({ author }: AuthorCardProps) {
             {/* 作者姓名 */}
             <div>
               <h3 className="text-xl font-semibold">{author.name}</h3>
-              <p className="text-sm text-muted-foreground">{author.namePinYin}</p>
+              <p className="text-sm text-muted-foreground">
+                {author.namePinYin}
+              </p>
             </div>
 
             {/* 生卒年/朝代 */}
@@ -61,7 +68,7 @@ export function AuthorCard({ author }: AuthorCardProps) {
         {/* 文学地位/称号 */}
         {author.epithets && (
           <div className="flex items-center gap-2">
-            {author.epithets.map(item => (
+            {author.epithets.map((item) => (
               <Badge key={item} variant="secondary" className="text-sm">
                 {item}
               </Badge>
@@ -84,7 +91,6 @@ export function AuthorCard({ author }: AuthorCardProps) {
             <p className="text-sm line-clamp-3">{author.introduce}</p>
           </div>
         )}
-
       </CardContent>
 
       <CardFooter>
@@ -96,5 +102,5 @@ export function AuthorCard({ author }: AuthorCardProps) {
         </Button>
       </CardFooter>
     </Card>
-  )
+  );
 }

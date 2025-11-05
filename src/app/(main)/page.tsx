@@ -1,3 +1,3 @@
 export default async function Home() {
-  return <div>123</div>
+  return <div>123</div>;
 }

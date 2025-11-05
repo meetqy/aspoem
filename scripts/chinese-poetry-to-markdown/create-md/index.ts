@@ -1,70 +1,72 @@
-import { existsSync, writeFileSync } from 'node:fs'
-import { join } from 'node:path'
-import CompleteDict from '@pinyin-pro/data/complete'
-import { ensureDirSync } from 'fs-extra'
-import { addDict, pinyin } from 'pinyin-pro'
-import slugify from 'slugify'
-import { replacePunctuation, splitLine } from './format'
+import { existsSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
+import CompleteDict from "@pinyin-pro/data/complete";
+import { ensureDirSync } from "fs-extra";
+import { addDict, pinyin } from "pinyin-pro";
+import slugify from "slugify";
+import { replacePunctuation, splitLine } from "./format";
 
-addDict(CompleteDict)
+addDict(CompleteDict);
 
-const POEMS_DIR = join(process.cwd(), 'poems') // 你的 MDX 诗词文件根目录
+const POEMS_DIR = join(process.cwd(), "poems"); // 你的 MDX 诗词文件根目录
 
 interface Poem {
-  title: string
-  paragraphs: string[] | string
-  author: string
-  dynasty: string
-  tags?: string[]
-  parent?: string[]
+  title: string;
+  paragraphs: string[] | string;
+  author: string;
+  dynasty: string;
+  tags?: string[];
+  parent?: string[];
 }
 
 function genSlug(text: string) {
-  return slugify(pinyin(text, { toneType: 'none' }).replace(/\s+/g, '-').toLowerCase())
+  return slugify(
+    pinyin(text, { toneType: "none" }).replace(/\s+/g, "-").toLowerCase(),
+  );
 }
 
 function escapeMarkdown(paragraphs: string | string[]) {
   // 统一转换为数组处理
   const paragraphArray = Array.isArray(paragraphs)
     ? paragraphs
-    : splitLine(paragraphs) // 如果是字符串，先用 splitLine 拆分为数组
+    : splitLine(paragraphs); // 如果是字符串，先用 splitLine 拆分为数组
 
   // 处理每个段落
   const processedParagraphs = paragraphArray.flatMap((p) => {
-    const line = replacePunctuation(p)
-    const splitLines = splitLine(line)
-    return splitLines.map(splitLine => `- ${splitLine}`)
-  })
+    const line = replacePunctuation(p);
+    const splitLines = splitLine(line);
+    return splitLines.map((splitLine) => `- ${splitLine}`);
+  });
 
-  return processedParagraphs.join('\n')
+  return processedParagraphs.join("\n");
 }
 
 export function createMdContent(poem: Poem) {
-  const titleSlug = genSlug(poem.title)
-  const authorSlug = genSlug(poem.author)
-  const dynastySlug = genSlug(poem.dynasty)
+  const titleSlug = genSlug(poem.title);
+  const authorSlug = genSlug(poem.author);
+  const dynastySlug = genSlug(poem.dynasty);
 
-  const filePath = `${POEMS_DIR}/${authorSlug}/${titleSlug}.md`
+  const filePath = `${POEMS_DIR}/${authorSlug}/${titleSlug}.md`;
 
   // 检查文件是否已经存在
   if (existsSync(filePath)) {
-    return false
+    return false;
   }
 
-  const content = escapeMarkdown(poem.paragraphs)
+  const content = escapeMarkdown(poem.paragraphs);
 
-  const id = `${authorSlug}-${titleSlug}`
+  const id = `${authorSlug}-${titleSlug}`;
 
   const str = `---
 id: ${id}
 title: ${poem.title}
-titlePinyin: ${pinyin(poem.title, { toneType: 'num' })}
+titlePinyin: ${pinyin(poem.title, { toneType: "num" })}
 titleSlug: ${titleSlug}
 author: ${poem.author}
-authorPinyin: ${pinyin(poem.author, { toneType: 'num' })}
+authorPinyin: ${pinyin(poem.author, { toneType: "num" })}
 authorSlug: ${authorSlug}
 dynasty: ${poem.dynasty}
-dynastyPinyin: ${pinyin(poem.dynasty, { toneType: 'num' })}
+dynastyPinyin: ${pinyin(poem.dynasty, { toneType: "num" })}
 dynastySlug: ${dynastySlug}
 tags: ${JSON.stringify(poem.tags || [])}
 ---
@@ -75,17 +77,20 @@ ${content}
 
 ## 拼音
 
-${pinyin(content, { toneType: 'num', nonZh: 'consecutive' }).replace(/-(\s)+/g, '- ').replace(/\n\s+/g, '\n')}
+${pinyin(content, { toneType: "num", nonZh: "consecutive" })
+  .replace(/-(\s)+/g, "- ")
+  .replace(/\n\s+/g, "\n")}
 
 ## 注释
 
 ## 译文
 
 ## 赏析
-`
+`;
 
-  const truncatedFilePath = filePath.length > 255 ? filePath.slice(0, 255) : filePath
-  ensureDirSync(`${POEMS_DIR}/${authorSlug}`)
-  writeFileSync(truncatedFilePath, str)
-  return true
+  const truncatedFilePath =
+    filePath.length > 255 ? filePath.slice(0, 255) : filePath;
+  ensureDirSync(`${POEMS_DIR}/${authorSlug}`);
+  writeFileSync(truncatedFilePath, str);
+  return true;
 }

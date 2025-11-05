@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import {
   Calculator,
@@ -7,8 +7,8 @@ import {
   Settings,
   Smile,
   User,
-} from 'lucide-react'
-import * as React from 'react'
+} from "lucide-react";
+import * as React from "react";
 
 import {
   CommandDialog,
@@ -19,28 +19,31 @@ import {
   CommandList,
   CommandSeparator,
   CommandShortcut,
-} from '@/components/ui/command'
-import { Input } from '@/components/ui/input'
-import { Kbd, KbdGroup } from '@/components/ui/kbd'
+} from "@/components/ui/command";
+import { Input } from "@/components/ui/input";
+import { Kbd, KbdGroup } from "@/components/ui/kbd";
 
 export function CommandSearch() {
-  const [open, setOpen] = React.useState(false)
+  const [open, setOpen] = React.useState(false);
 
   React.useEffect(() => {
     const down = (e: KeyboardEvent) => {
-      if (e.key === 'k' && (e.metaKey || e.ctrlKey)) {
-        e.preventDefault()
-        setOpen(open => !open)
+      if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
+        e.preventDefault();
+        setOpen((open) => !open);
       }
-    }
+    };
 
-    document.addEventListener('keydown', down)
-    return () => document.removeEventListener('keydown', down)
-  }, [])
+    document.addEventListener("keydown", down);
+    return () => document.removeEventListener("keydown", down);
+  }, []);
 
   return (
     <>
-      <div className="relative w-full max-w-xs md:mx-0 mx-auto cursor-pointer flex items-center" onClick={() => setOpen(true)}>
+      <div
+        className="relative w-full max-w-xs md:mx-0 mx-auto cursor-pointer flex items-center"
+        onClick={() => setOpen(true)}
+      >
         <Input className="w-full" placeholder="开始搜索诗词..." />
         <KbdGroup className="absolute right-2">
           <Kbd>⌘</Kbd>
@@ -86,5 +89,5 @@ export function CommandSearch() {
         </CommandList>
       </CommandDialog>
     </>
-  )
+  );
 }

@@ -1,6 +1,6 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Label } from '@/components/ui/label'
-import { Switch } from '@/components/ui/switch'
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
 
 export function ReadSetting() {
   return (
@@ -34,5 +34,5 @@ export function ReadSetting() {
         </div>
       </CardContent>
     </Card>
-  )
+  );
 }

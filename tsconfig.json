@@ -4,11 +4,7 @@
     "target": "es2022",
     "jsx": "react-jsx",
     /* Bundled projects */
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "ES2022"
-    ],
+    "lib": ["dom", "dom.iterable", "ES2022"],
     "moduleDetection": "force",
     "module": "ESNext",
     "moduleResolution": "Bundler",
@@ -44,7 +40,5 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

@@ -1,49 +1,51 @@
-import { betterAuth } from 'better-auth'
+import { betterAuth } from "better-auth";
 
-import { prismaAdapter } from 'better-auth/adapters/prisma'
+import { prismaAdapter } from "better-auth/adapters/prisma";
 
-import { createAuthMiddleware } from 'better-auth/api'
-import { admin } from 'better-auth/plugins/admin'
-import { headers } from 'next/headers'
-import { cache } from 'react'
+import { createAuthMiddleware } from "better-auth/api";
+import { admin } from "better-auth/plugins/admin";
+import { headers } from "next/headers";
+import { cache } from "react";
 
-import { env } from '@/env'
+import { env } from "@/env";
 
-import { db } from '../db'
+import { db } from "../db";
 
-import 'server-only'
+import "server-only";
 
 export const auth = betterAuth({
   database: prismaAdapter(db, {
-    provider: 'postgresql',
+    provider: "postgresql",
   }),
   secret: env.BETTER_AUTH_SECRET,
   emailAndPassword: { enabled: true },
   plugins: [admin()],
   hooks: {
     after: createAuthMiddleware(async (ctx) => {
-      if (!ctx.path.startsWith('/sign-up')) {
-        return
+      if (!ctx.path.startsWith("/sign-up")) {
+        return;
       }
 
-      const newSession = ctx.context.newSession
+      const newSession = ctx.context.newSession;
       if (!newSession?.user) {
-        return
+        return;
       }
 
-      const { email, id } = newSession.user
+      const { email, id } = newSession.user;
       if (email === env.ADMIN_EMAIL) {
         ctx.context.adapter.update({
-          model: 'user',
-          where: [{ field: 'id', value: id }],
+          model: "user",
+          where: [{ field: "id", value: id }],
           update: {
-            role: 'admin',
+            role: "admin",
           },
-        })
+        });
       }
     }),
   },
-})
+});
 
-export type Auth = typeof auth
-export const getSession = cache(async () => auth.api.getSession({ headers: await headers() }))
+export type Auth = typeof auth;
+export const getSession = cache(async () =>
+  auth.api.getSession({ headers: await headers() }),
+);

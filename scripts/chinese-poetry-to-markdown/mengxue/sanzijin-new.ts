@@ -1,5 +1,5 @@
-import data from '../../../chinese-poetry-master/蒙学/sanzijing-new.json'
-import { createMdContent } from '../create-md'
+import data from "../../../chinese-poetry-master/蒙学/sanzijing-new.json";
+import { createMdContent } from "../create-md";
 
 export async function syncSanzijingNew() {
   try {
@@ -8,14 +8,13 @@ export async function syncSanzijingNew() {
       title: `${data.title} (新版)`,
       paragraphs: data.paragraphs,
       author: data.author,
-      dynasty: '南宋到清末',
-      tags: ['蒙学'],
-    })
+      dynasty: "南宋到清末",
+      tags: ["蒙学"],
+    });
 
-    console.log(`三字经同步完成: 1 篇文章已导入`)
-  }
-  catch (error) {
-    console.error('三字经同步失败:', error)
-    throw error
+    console.log(`三字经同步完成: 1 篇文章已导入`);
+  } catch (error) {
+    console.error("三字经同步失败:", error);
+    throw error;
   }
 }
