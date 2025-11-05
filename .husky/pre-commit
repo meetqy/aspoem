@@ -1,2 +1,1 @@
-npx biome format --write
-npx prettier --write "**/*.md"
+lint-staged
