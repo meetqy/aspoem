@@ -21,7 +21,7 @@
     "postinstall": "prisma generate --schema=./prisma/",
     "preview": "next build && next start",
     "start": "next start",
-    "format:fix": "biome format --write & prettier --write '**/*.md'",
+    "format:fix": "biome format --write",
     "lint:fix": "biome lint --write",
     "gen:markdown": "tsx scripts/chinese-poetry-to-markdown/index.ts",
     "gen:sql": "tsx scripts/poems-to-sql/index.ts",

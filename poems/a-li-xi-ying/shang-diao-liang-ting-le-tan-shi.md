@@ -19,6 +19,8 @@ tags: []
 - 你试看凌烟阁上，功名不在我。
 - 则不如对酒当歌对酒当歌且快活，无忧愁，安乐窝。
 
+
+
 ## 拼音
 
 - jin1 wu1 yu4 tu4 zou3 ru2 suo1 ， kan4 kan4 de0 lao3 le0 ren2 he1 。
@@ -27,6 +29,9 @@ tags: []
 - ze2 bu4 ru2 dui4 jiu3 dang1 ge1 dui4 jiu3 dang1 ge1 qie3 kuai4 huo0 ， wu2 you1 chou2 ， an1 le4 wo1 。
 
 ## 注释
+
+
+
 
 ## 译文
 
