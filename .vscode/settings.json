@@ -1,12 +1,13 @@
 {
-  "prettier.enable": false,
-  "editor.formatOnSave": true,
-
   // 优化 poems 文件夹的性能
   "files.watcherExclude": {
     "**/poems/**": true
   },
   "git.ignoredRepositories": ["**/poems/**"],
 
-  "css.customData": [".vscode/tailwind.json"]
+  "css.customData": [".vscode/tailwind.json"],
+
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
