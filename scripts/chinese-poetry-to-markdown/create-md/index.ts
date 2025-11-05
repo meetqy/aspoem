@@ -55,12 +55,6 @@ export function createMdContent(poem: Poem) {
 
   const id = `${authorSlug}-${titleSlug}`
 
-  const parentStr = poem.parent
-    ? `
-parent: 
-${poem.parent.map(p => `    ${p}:${genSlug(p)}`).join('\n')}`
-    : ''
-
   const str = `---
 id: ${id}
 title: ${poem.title}
@@ -72,7 +66,7 @@ authorSlug: ${authorSlug}
 dynasty: ${poem.dynasty}
 dynastyPinyin: ${pinyin(poem.dynasty, { toneType: 'num' })}
 dynastySlug: ${dynastySlug}
-tags: ${JSON.stringify(poem.tags || [])} ${parentStr}
+tags: ${JSON.stringify(poem.tags || [])}
 ---
 
 ## 正文
