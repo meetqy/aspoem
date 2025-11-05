@@ -9,11 +9,8 @@
     "source.organizeImports": "never"
   },
 
-  "files.exclude": {
-    "poems/**": true
-  },
-  "search.exclude": {
-    "poems/**": true
+  "files.watcherExclude": {
+    "**/poems/**": true, 
   },
 
   // Silent the stylistic rules in your IDE, but still auto fix them
