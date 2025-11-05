@@ -21,7 +21,6 @@ import { syncYDQuantangshi } from './yudingquantangshi'
 
 function main() {
   syncYuanQu()
-  return
   syncYDQuantangshi()
   syncWuDaiShiCiHuajinji()
   syncWuDaiShiNanTang()

@@ -10,20 +10,61 @@ datasource db {
 model Poem {
   id               String   @id @default(cuid())
   title            String
-  titleSlug        String   @unique
-  titlePinyin      String
-  author           String
-  authorPinyin     String
-  authorSlug       String   @unique
-  dynasty          String
-  dynastyPinyin    String
-  dynastySlug      String
+  titleSlug        String   @unique // slug
+  titlePinyin      String // pinyin 用空格分隔 音调用数字
   paragraphs       String[]
   paragraphsPinyin String[]
-  annotation       Json?
+  annotation       Json? // 注解
 
   createdAt DateTime @default(now())
   updatedAt DateTime @default(now()) @updatedAt
 
+  author   Author @relation(fields: [authorId], references: [id])
+  authorId String
+  tag      Tag[]
+
   @@map("poems")
+}
+
+model Tag {
+  id       String @id @default(cuid())
+  name     String
+  nameSlug String @unique
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+
+  poems Poem[]
+
+  @@map("tags")
+}
+
+model Author {
+  id         String @id @default(cuid())
+  name       String
+  namePinyin String
+  nameSlug   String @unique
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+
+  dynasty   Dynasty @relation(fields: [dynastyId], references: [id])
+  dynastyId String
+  poems     Poem[]
+
+  @@map("authors")
+}
+
+model Dynasty {
+  id         String @id @default(cuid())
+  name       String
+  namePinyin String
+  nameSlug   String @unique
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+
+  authors Author[]
+
+  @@map("dynasties")
 }
