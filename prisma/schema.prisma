@@ -22,7 +22,7 @@ model Poem {
 
   author   Author @relation(fields: [authorId], references: [id])
   authorId String
-  tag      Tag[]
+  tags     Tag[]
 
   @@map("poems")
 }

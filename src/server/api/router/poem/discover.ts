@@ -37,6 +37,12 @@ export const poemRouter = {
               },
             },
           },
+          tags: {
+            select: {
+              name: true,
+              slug: true,
+            },
+          },
         },
       });
 
@@ -84,6 +90,12 @@ export const poemRouter = {
                   slug: true,
                 },
               },
+            },
+          },
+          tags: {
+            select: {
+              name: true,
+              slug: true,
             },
           },
         },
@@ -134,6 +146,12 @@ export const poemRouter = {
               },
             },
           },
+          tags: {
+            select: {
+              name: true,
+              slug: true,
+            },
+          },
         },
       });
 
@@ -181,6 +199,12 @@ export const poemRouter = {
                 slug: true,
               },
             },
+          },
+        },
+        tags: {
+          select: {
+            name: true,
+            slug: true,
           },
         },
       },
