@@ -148,4 +148,44 @@ export const poemRouter = {
         nextCursor,
       };
     }),
+
+  getRandom: publicProcedure.query(async ({ ctx }) => {
+    // 获取诗词总数
+    const totalCount = await ctx.db.poem.count();
+
+    if (totalCount === 0) {
+      return null;
+    }
+
+    // 生成随机偏移量
+    const randomOffset = Math.floor(Math.random() * totalCount);
+
+    // 使用偏移量获取随机诗词
+    const randomPoem = await ctx.db.poem.findFirst({
+      skip: randomOffset,
+      select: {
+        id: true,
+        title: true,
+        titleSlug: true,
+        titlePinyin: true,
+        paragraphs: true,
+        visits: true,
+        createdAt: true,
+        author: {
+          select: {
+            name: true,
+            slug: true,
+            dynasty: {
+              select: {
+                name: true,
+                slug: true,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    return randomPoem;
+  }),
 } satisfies TRPCRouterRecord;
