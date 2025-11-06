@@ -34,7 +34,7 @@ export default async function Page() {
           </Link>
         </Button>
       </div>
-      <PoemListItem poem={poem} />
+      <PoemListItem paragraphsSlice={-1} poem={poem} />
     </>
   );
 }

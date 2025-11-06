@@ -4,6 +4,7 @@ import {
   Calculator,
   Calendar,
   CreditCard,
+  SearchIcon,
   Settings,
   Smile,
   User,
@@ -20,8 +21,12 @@ import {
   CommandSeparator,
   CommandShortcut,
 } from "@/components/ui/command";
-import { Input } from "@/components/ui/input";
-import { Kbd, KbdGroup } from "@/components/ui/kbd";
+import { Kbd } from "@/components/ui/kbd";
+import {
+  InputGroup,
+  InputGroupAddon,
+  InputGroupInput,
+} from "../ui/input-group";
 
 export function CommandSearch() {
   const [open, setOpen] = React.useState(false);
@@ -40,15 +45,21 @@ export function CommandSearch() {
 
   return (
     <>
-      <div
-        className="relative w-full max-w-xs md:mx-0 mx-auto cursor-pointer flex items-center"
-        onClick={() => setOpen(true)}
-      >
-        <Input className="w-full" placeholder="开始搜索诗词..." />
-        <KbdGroup className="absolute right-2">
-          <Kbd>⌘</Kbd>
-          <Kbd>K</Kbd>
-        </KbdGroup>
+      <div className="flex w-full max-w-xs flex-col gap-6">
+        <InputGroup
+          onClick={() => {
+            setOpen(true);
+          }}
+        >
+          <InputGroupInput placeholder="点击开始搜索..." />
+          <InputGroupAddon>
+            <SearchIcon />
+          </InputGroupAddon>
+          <InputGroupAddon align="inline-end">
+            <Kbd>⌘</Kbd>
+            <Kbd>K</Kbd>
+          </InputGroupAddon>
+        </InputGroup>
       </div>
       <CommandDialog open={open} onOpenChange={setOpen}>
         <CommandInput placeholder="Type a command or search..." />

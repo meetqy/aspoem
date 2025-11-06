@@ -23,9 +23,14 @@ interface PoemListItemProps {
     };
   };
   tags?: string[];
+  paragraphsSlice?: number;
 }
 
-export function PoemListItem({ poem, tags = [] }: PoemListItemProps) {
+export function PoemListItem({
+  poem,
+  tags = [],
+  paragraphsSlice = 4,
+}: PoemListItemProps) {
   return (
     <Card className="shadow-none hover:bg-accent/30 transition-colors mt-4">
       <CardHeader>
@@ -39,7 +44,7 @@ export function PoemListItem({ poem, tags = [] }: PoemListItemProps) {
 
       <CardContent>
         <div className="space-y-4">
-          {poem.paragraphs.map((line, index) => (
+          {poem.paragraphs.slice(0, paragraphsSlice).map((line, index) => (
             <p key={index}>{line}</p>
           ))}
         </div>
