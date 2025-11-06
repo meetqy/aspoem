@@ -27,9 +27,9 @@ model Poem {
 }
 
 model Tag {
-  id       String @id @default(cuid())
-  name     String
-  nameSlug String @unique
+  id   String @id @default(cuid())
+  name String
+  slug String @unique
 
   createdAt DateTime @default(now())
   updatedAt DateTime @default(now()) @updatedAt
@@ -40,10 +40,10 @@ model Tag {
 }
 
 model Author {
-  id         String @id @default(cuid())
-  name       String
-  namePinyin String
-  nameSlug   String @unique
+  id     String @id @default(cuid())
+  name   String
+  pinyin String
+  slug   String @unique
 
   createdAt DateTime @default(now())
   updatedAt DateTime @default(now()) @updatedAt
@@ -56,10 +56,10 @@ model Author {
 }
 
 model Dynasty {
-  id         String @id @default(cuid())
-  name       String
-  namePinyin String
-  nameSlug   String @unique
+  id     String @id @default(cuid())
+  name   String
+  pinyin String
+  slug   String @unique
 
   createdAt DateTime @default(now())
   updatedAt DateTime @default(now()) @updatedAt

@@ -82,30 +82,30 @@ function getAllMarkdownFiles(dir: string): string[] {
 async function syncPoemToDatabase(poemData: any) {
   // 1. 创建或查找朝代
   let dynasty = await db.dynasty.findUnique({
-    where: { nameSlug: poemData.dynastySlug },
+    where: { slug: poemData.dynastySlug },
   });
 
   if (!dynasty) {
     dynasty = await db.dynasty.create({
       data: {
         name: poemData.dynasty,
-        namePinyin: poemData.dynastyPinyin,
-        nameSlug: poemData.dynastySlug,
+        pinyin: poemData.dynastyPinyin,
+        slug: poemData.dynastySlug,
       },
     });
   }
 
   // 2. 创建或查找作者
   let author = await db.author.findUnique({
-    where: { nameSlug: poemData.authorSlug },
+    where: { slug: poemData.authorSlug },
   });
 
   if (!author) {
     author = await db.author.create({
       data: {
         name: poemData.author,
-        namePinyin: poemData.authorPinyin,
-        nameSlug: poemData.authorSlug,
+        pinyin: poemData.authorPinyin,
+        slug: poemData.authorSlug,
         dynastyId: dynasty.id,
       },
     });
@@ -117,14 +117,14 @@ async function syncPoemToDatabase(poemData: any) {
     if (!tagName) continue;
 
     let tag = await db.tag.findUnique({
-      where: { nameSlug: tagName.toLowerCase().replace(/\s+/g, "-") },
+      where: { slug: tagName.toLowerCase().replace(/\s+/g, "-") },
     });
 
     if (!tag) {
       tag = await db.tag.create({
         data: {
           name: tagName,
-          nameSlug: tagName.toLowerCase().replace(/\s+/g, "-"),
+          slug: tagName.toLowerCase().replace(/\s+/g, "-"),
         },
       });
     }
