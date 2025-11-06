@@ -1,6 +1,6 @@
 import type { TRPCRouterRecord } from "@trpc/server";
 import z from "zod";
-import { publicProcedure } from "../trpc";
+import { publicProcedure } from "../../trpc";
 
 export const poemRouter = {
   getHotList: publicProcedure
