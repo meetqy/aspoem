@@ -12,6 +12,8 @@ export default async function Page({
 
   const poem = await api.poem.findDetail({ slug });
 
+  console.log(poem);
+
   return (
     <div className="flex flex-1 flex-col">
       <SidebarProvider className="relative container-wrapper">

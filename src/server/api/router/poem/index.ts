@@ -59,6 +59,17 @@ export const poemRouter = {
         throw new Error("Poem not found");
       }
 
+      ctx.db.poem
+        .update({
+          where: { id: poem.id },
+          data: {
+            visits: {
+              increment: 1,
+            },
+          },
+        })
+        .then(() => {});
+
       return poem;
     }),
 } satisfies TRPCRouterRecord;

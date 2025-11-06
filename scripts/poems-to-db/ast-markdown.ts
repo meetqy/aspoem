@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import matter from "gray-matter";
+import { convert } from "pinyin-pro";
 import remarkGfm from "remark-gfm";
 import remarkParse from "remark-parse";
 import { unified } from "unified";
@@ -45,13 +46,13 @@ export async function parseMarkdownToJson(filePath: string): Promise<PoemData> {
   const result: PoemData = {
     id: frontmatter.id || "",
     title: frontmatter.title || "",
-    titlePinyin: frontmatter.titlePinyin || "",
+    titlePinyin: convert(frontmatter.titlePinyin || ""),
     titleSlug: frontmatter.titleSlug || "",
     author: frontmatter.author || "",
-    authorPinyin: frontmatter.authorPinyin || "",
+    authorPinyin: convert(frontmatter.authorPinyin || ""),
     authorSlug: frontmatter.authorSlug || "",
     dynasty: frontmatter.dynasty || "",
-    dynastyPinyin: frontmatter.dynastyPinyin || "",
+    dynastyPinyin: convert(frontmatter.dynastyPinyin || ""),
     dynastySlug: frontmatter.dynastySlug || "",
     tags: frontmatter.tags || [],
     paragraphs: [],
@@ -94,15 +95,6 @@ export async function parseMarkdownToJson(filePath: string): Promise<PoemData> {
           currentContent.push(...listItems);
         }
         break;
-
-      case "paragraph": {
-        // 处理普通段落
-        const paragraphText = extractTextFromNode(node);
-        if (paragraphText.trim()) {
-          currentContent.push(paragraphText);
-        }
-        break;
-      }
     }
   });
 
@@ -134,7 +126,7 @@ function saveSection(result: PoemData, sectionName: string, content: string[]) {
       result.paragraphs = content;
       break;
     case "拼音":
-      result.paragraphsPinyin = content;
+      result.paragraphsPinyin = content.map((e) => convert(e));
       break;
     case "注释":
       result.annotation = content.join("\n");
