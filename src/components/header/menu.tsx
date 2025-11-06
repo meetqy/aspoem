@@ -11,7 +11,7 @@ import {
 import { cn } from "@/lib/utils";
 
 const menuItems = [
-  { href: "/", label: "推荐" },
+  // { href: "/", label: "推荐" },
   { href: "/poems", label: "诗文" },
   { href: "/authors", label: "诗人" },
   { href: "/quotes", label: "名句" },

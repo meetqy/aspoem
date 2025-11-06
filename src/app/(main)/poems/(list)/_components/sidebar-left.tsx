@@ -20,8 +20,8 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
 } from "@/components/ui/sidebar";
-import { discover, type SidebarItem } from "@/lib/nav-mains";
 import { cn } from "@/lib/utils";
+import { discover, type SidebarItem } from "./sidebar-items";
 
 const items: SidebarItem[] = [
   {

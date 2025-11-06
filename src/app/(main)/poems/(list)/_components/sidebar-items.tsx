@@ -20,13 +20,13 @@ export const discover: SidebarItem[] = [
     title: "推荐诗文",
     icon: StarIcon,
     description: "由本站编辑倾心甄选，发现与当下共鸣的诗词佳作",
-    url: "#",
+    url: "/poems",
   },
   {
     title: "最近更新",
     icon: CirclePlusIcon,
     description: "查看最近更新的诗文",
-    url: "#",
+    url: "/poems/latest",
   },
   {
     title: "随机诗文",

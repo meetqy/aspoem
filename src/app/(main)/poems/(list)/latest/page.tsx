@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>Poems</div>;
+  return <div>最新诗文</div>;
 }
