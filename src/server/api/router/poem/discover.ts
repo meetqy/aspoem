@@ -2,7 +2,36 @@ import type { TRPCRouterRecord } from "@trpc/server";
 import z from "zod";
 import { publicProcedure } from "../../trpc";
 
-export const poemRouter = {
+const select = {
+  id: true,
+  slug: true,
+  title: true,
+  titleSlug: true,
+  titlePinyin: true,
+  paragraphs: true,
+  visits: true,
+  createdAt: true,
+  author: {
+    select: {
+      name: true,
+      slug: true,
+      dynasty: {
+        select: {
+          name: true,
+          slug: true,
+        },
+      },
+    },
+  },
+  tags: {
+    select: {
+      name: true,
+      slug: true,
+    },
+  },
+};
+
+export const poemDiscoverRouter = {
   getHotList: publicProcedure
     .input(
       z.object({
@@ -17,33 +46,7 @@ export const poemRouter = {
         take: limit + 1,
         cursor: cursor ? { id: cursor } : undefined,
         orderBy: [{ visits: "desc" }, { id: "desc" }],
-        select: {
-          id: true,
-          title: true,
-          titleSlug: true,
-          titlePinyin: true,
-          paragraphs: true,
-          visits: true,
-          createdAt: true,
-          author: {
-            select: {
-              name: true,
-              slug: true,
-              dynasty: {
-                select: {
-                  name: true,
-                  slug: true,
-                },
-              },
-            },
-          },
-          tags: {
-            select: {
-              name: true,
-              slug: true,
-            },
-          },
-        },
+        select,
       });
 
       let nextCursor: typeof cursor;
@@ -72,33 +75,7 @@ export const poemRouter = {
         take: limit + 1,
         cursor: cursor ? { id: cursor } : undefined,
         orderBy: [{ createdAt: "desc" }, { id: "desc" }], // 按创建时间降序
-        select: {
-          id: true,
-          title: true,
-          titleSlug: true,
-          titlePinyin: true,
-          paragraphs: true,
-          visits: true,
-          createdAt: true,
-          author: {
-            select: {
-              name: true,
-              slug: true,
-              dynasty: {
-                select: {
-                  name: true,
-                  slug: true,
-                },
-              },
-            },
-          },
-          tags: {
-            select: {
-              name: true,
-              slug: true,
-            },
-          },
-        },
+        select,
       });
 
       let nextCursor: typeof cursor;
@@ -126,33 +103,7 @@ export const poemRouter = {
       const poems = await ctx.db.poem.findMany({
         take: limit + 1,
         cursor: cursor ? { id: cursor } : undefined,
-        select: {
-          id: true,
-          title: true,
-          titleSlug: true,
-          titlePinyin: true,
-          paragraphs: true,
-          visits: true,
-          createdAt: true,
-          author: {
-            select: {
-              name: true,
-              slug: true,
-              dynasty: {
-                select: {
-                  name: true,
-                  slug: true,
-                },
-              },
-            },
-          },
-          tags: {
-            select: {
-              name: true,
-              slug: true,
-            },
-          },
-        },
+        select,
       });
 
       let nextCursor: typeof cursor;
@@ -181,33 +132,7 @@ export const poemRouter = {
     // 使用偏移量获取随机诗词
     const randomPoem = await ctx.db.poem.findFirst({
       skip: randomOffset,
-      select: {
-        id: true,
-        title: true,
-        titleSlug: true,
-        titlePinyin: true,
-        paragraphs: true,
-        visits: true,
-        createdAt: true,
-        author: {
-          select: {
-            name: true,
-            slug: true,
-            dynasty: {
-              select: {
-                name: true,
-                slug: true,
-              },
-            },
-          },
-        },
-        tags: {
-          select: {
-            name: true,
-            slug: true,
-          },
-        },
-      },
+      select,
     });
 
     return randomPoem;

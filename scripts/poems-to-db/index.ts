@@ -134,7 +134,7 @@ async function syncPoemToDatabase(poemData: any) {
 
   // 4. 检查诗词是否已存在
   const existingPoem = await db.poem.findUnique({
-    where: { titleSlug: poemData.titleSlug },
+    where: { slug: poemData.id },
   });
 
   if (existingPoem) {
@@ -143,12 +143,14 @@ async function syncPoemToDatabase(poemData: any) {
       where: { id: existingPoem.id },
       data: {
         title: poemData.title,
+        slug: poemData.id,
         titlePinyin: poemData.titlePinyin,
+        titleSlug: poemData.titleSlug,
         paragraphs: poemData.paragraphs,
         paragraphsPinyin: poemData.paragraphsPinyin,
         annotation: poemData.annotation || undefined,
         authorId: author.id,
-        tag: {
+        tags: {
           set: tagConnections,
         },
       },
@@ -158,13 +160,14 @@ async function syncPoemToDatabase(poemData: any) {
     await db.poem.create({
       data: {
         title: poemData.title,
+        slug: poemData.id,
         titleSlug: poemData.titleSlug,
         titlePinyin: poemData.titlePinyin,
         paragraphs: poemData.paragraphs,
         paragraphsPinyin: poemData.paragraphsPinyin,
         annotation: poemData.annotation || undefined,
         authorId: author.id,
-        tag: {
+        tags: {
           connect: tagConnections,
         },
       },

@@ -11,6 +11,7 @@ import {
 
 interface PoemListItemProps {
   poem: {
+    slug: string;
     titleSlug: string;
     title: string;
     paragraphs: string[];
@@ -35,7 +36,7 @@ export function PoemListItem({
     <Card className="shadow-none hover:bg-accent/30 transition-colors mt-4">
       <CardHeader>
         <h2 className="font-heading [&+]*:[code]:text-xl mt-10 scroll-m-28 text-xl font-medium tracking-tight first:mt-0 lg:mt-16 [&+.steps]:!mt-0 [&+.steps>h3]:!mt-4 [&+h3]:!mt-6 [&+p]:!mt-4">
-          <Link href={`/poems/detail/${poem.titleSlug}`}>{poem.title}</Link>
+          <Link href={`/poems/detail/${poem.slug}`}>{poem.title}</Link>
         </h2>
         <p className="text-muted-foreground">
           [{poem.author.dynasty.name}] {poem.author.name}

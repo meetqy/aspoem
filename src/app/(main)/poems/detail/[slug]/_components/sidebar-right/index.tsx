@@ -19,7 +19,11 @@ const author = {
   },
 };
 
-export function SidebarRight() {
+export function SidebarRight({
+  poem,
+}: {
+  poem: { author: { slug: string }; titleSlug: string };
+}) {
   return (
     <Sidebar
       collapsible="none"
@@ -27,7 +31,7 @@ export function SidebarRight() {
     >
       <ScrollArea className="h-full">
         <SidebarContent className="gap-4 pt-12">
-          <Feedback />
+          <Feedback poem={poem} />
 
           <ReadSetting />
 

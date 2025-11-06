@@ -1,10 +1,13 @@
 import { authRouter } from "./router/auth";
-import { poemRouter } from "./router/poem";
+import { poemDiscoverRouter, poemRouter } from "./router/poem";
 import { createCallerFactory, createTRPCRouter } from "./trpc";
 
 export const appRouter = createTRPCRouter({
   auth: authRouter,
-  poem: poemRouter,
+  poem: {
+    ...poemDiscoverRouter,
+    ...poemRouter,
+  },
 });
 
 // export type definition of API

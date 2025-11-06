@@ -9,8 +9,9 @@ datasource db {
 
 model Poem {
   id               String   @id @default(cuid())
+  slug             String   @unique
   title            String
-  titleSlug        String   @unique // slug
+  titleSlug        String
   titlePinyin      String // pinyin 用空格分隔 音调用数字
   paragraphs       String[]
   paragraphsPinyin String[]

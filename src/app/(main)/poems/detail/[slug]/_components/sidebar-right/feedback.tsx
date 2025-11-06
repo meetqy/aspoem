@@ -2,12 +2,16 @@ import { Edit3Icon } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
-export function Feedback() {
+export function Feedback({
+  poem,
+}: {
+  poem: { author: { slug: string }; titleSlug: string };
+}) {
   return (
     <div className="bg-gradient-to-r from-accent/50 to-transparent p-6 rounded-lg border space-y-2">
       <Button asChild>
         <Link
-          href="https://github.com/meetqy/aspoem/blob/next/poems/bai-ju-yi/zhi-zhong-shu-sheng.md?plain=1#L19-L20"
+          href={`https://github.com/meetqy/aspoem-backup/blob/main/${poem.author.slug}/${poem.titleSlug}.md?plain=1`}
           target="_blank"
           rel="noopener noreferrer"
         >

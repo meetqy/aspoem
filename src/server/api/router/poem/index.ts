@@ -1,1 +1,64 @@
+import type { TRPCRouterRecord } from "@trpc/server";
+import z from "zod";
+import { publicProcedure } from "../../trpc";
+
 export * from "./discover";
+
+export const poemRouter = {
+  findDetail: publicProcedure
+    .input(
+      z
+        .object({
+          id: z.string().optional(),
+          slug: z.string().optional(),
+        })
+        .refine((data) => (data.id && !data.slug) || (!data.id && data.slug), {
+          message: "Provide either id or slug, not both",
+          path: ["id", "slug"],
+        }),
+    )
+    .query(async ({ ctx, input }) => {
+      const { id, slug } = input;
+      const poem = await ctx.db.poem.findUnique({
+        where: id ? { id } : { slug: slug! },
+        select: {
+          id: true,
+          slug: true,
+          title: true,
+          titleSlug: true,
+          titlePinyin: true,
+          paragraphs: true,
+          paragraphsPinyin: true,
+          visits: true,
+          createdAt: true,
+          annotation: true,
+          author: {
+            select: {
+              name: true,
+              slug: true,
+              pinyin: true,
+              dynasty: {
+                select: {
+                  name: true,
+                  slug: true,
+                  pinyin: true,
+                },
+              },
+            },
+          },
+          tags: {
+            select: {
+              name: true,
+              slug: true,
+            },
+          },
+        },
+      });
+
+      if (!poem) {
+        throw new Error("Poem not found");
+      }
+
+      return poem;
+    }),
+} satisfies TRPCRouterRecord;
