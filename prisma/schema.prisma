@@ -16,6 +16,7 @@ model Poem {
   paragraphsPinyin String[]
   annotation       Json? // 注解
 
+  visits    Int      @default(0)
   createdAt DateTime @default(now())
   updatedAt DateTime @default(now()) @updatedAt
 
@@ -31,6 +32,7 @@ model Tag {
   name String
   slug String @unique
 
+  visits    Int      @default(0)
   createdAt DateTime @default(now())
   updatedAt DateTime @default(now()) @updatedAt
 
@@ -45,6 +47,7 @@ model Author {
   pinyin String
   slug   String @unique
 
+  visits    Int      @default(0)
   createdAt DateTime @default(now())
   updatedAt DateTime @default(now()) @updatedAt
 

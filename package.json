@@ -31,7 +31,7 @@
   "dependencies": {
     "@auth/prisma-adapter": "^2.7.2",
     "@hookform/resolvers": "^5.2.2",
-    "@prisma/client": "^6.18.0",
+    "@prisma/client": "^6.19.0",
     "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-collapsible": "^1.1.12",
     "@radix-ui/react-dialog": "^1.1.15",
@@ -89,7 +89,7 @@
     "pangu": "^7.2.0",
     "postcss": "^8.5.3",
     "prettier": "^3.6.2",
-    "prisma": "^6.18.0",
+    "prisma": "^6.19.0",
     "remark": "^15.0.1",
     "remark-gfm": "^4.0.1",
     "remark-parse": "^11.0.0",

@@ -1,6 +1,5 @@
 import { RubyText } from "@/components/ruby-text";
 import { SidebarContent, SidebarProvider } from "@/components/ui/sidebar";
-import { SidebarLeft } from "./_components/sidebar-left";
 import { SidebarRight } from "./_components/sidebar-right";
 
 const poem = {
@@ -31,8 +30,6 @@ export default async function Page() {
   return (
     <div className="flex flex-1 flex-col">
       <SidebarProvider className="relative container-wrapper">
-        <SidebarLeft />
-
         <SidebarContent>
           <main
             className="@container/poem h-[2000px] mx-auto w-full @poem/md:py-24 py-12"

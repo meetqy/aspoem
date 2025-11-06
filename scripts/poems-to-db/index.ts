@@ -5,7 +5,7 @@ import { parseMarkdownToJson } from "./ast-markdown";
 
 async function initMarkdownToDatabase() {
   try {
-    const poemsDir = join(process.cwd(), "poems");
+    const poemsDir = join(process.cwd(), "../aspoem-backup");
 
     let totalFiles = 0;
     let successCount = 0;
