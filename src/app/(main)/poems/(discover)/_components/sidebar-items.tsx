@@ -29,7 +29,7 @@ export const discover: SidebarItem[] = [
     url: "/poems/latest",
   },
   {
-    title: "最受欢迎的诗文",
+    title: "最受欢迎的",
     icon: ArrowDownAzIcon,
     description: "访问量最高的诗文排行",
     url: "/poems/hot",

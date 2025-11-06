@@ -18,7 +18,7 @@ export const metadata = {
 };
 
 export default async function Home() {
-  const { items } = await api.poem.getHotList({ limit: 20 });
+  const { items } = await api.poem.getRecommendedList({ limit: 20 });
 
   return (
     <>
