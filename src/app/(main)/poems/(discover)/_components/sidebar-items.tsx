@@ -29,15 +29,15 @@ export const discover: SidebarItem[] = [
     url: "/poems/latest",
   },
   {
+    title: "最受欢迎的诗文",
+    icon: ArrowDownAzIcon,
+    description: "访问量最高的诗文排行",
+    url: "/poems/hot",
+  },
+  {
     title: "随机诗文",
     icon: DicesIcon,
     description: "获取一首随机诗文",
-    url: "#",
-  },
-  {
-    title: "诗文排行榜",
-    icon: ArrowDownAzIcon,
-    description: "查看访问量最高的诗文",
-    url: "#",
+    url: "/poems/random",
   },
 ];
