@@ -13,10 +13,10 @@ import { cn } from "@/lib/utils";
 const menuItems = [
   // { href: "/", label: "推荐" },
   { href: "/poems", label: "诗文" },
-  { href: "/authors", label: "诗人" },
-  { href: "/quotes", label: "名句" },
-  { href: "/ai-generator", label: "AI 作诗" },
-  { href: "/games", label: "游戏" },
+  { href: "/authors", label: "诗人", disabled: true },
+  // { href: "/quotes", label: "名句", disabled: true },
+  // { href: "/ai-generator", label: "AI 作诗", disabled: true },
+  // { href: "/games", label: "游戏", disabled: true },
 ];
 
 export function Menu({ className }: { className?: string }) {

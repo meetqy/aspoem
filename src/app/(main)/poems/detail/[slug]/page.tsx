@@ -36,8 +36,8 @@ export default async function PoemDetailPage({
                   pinyin: "text-base",
                 }}
                 as="span"
-                text={`[${poem.author.dynasty.name}]`}
-                pinyin={` ${poem.author.dynasty.pinyin} `}
+                text={`[${poem.dynasty!.name}]`}
+                pinyin={` ${poem.dynasty!.pinyin} `}
               />
 
               <span className="mx-2"></span>
@@ -73,12 +73,7 @@ export default async function PoemDetailPage({
           </main>
         </SidebarContent>
 
-        <SidebarRight
-          poem={{
-            titleSlug: poem.titleSlug,
-            author: poem.author,
-          }}
-        />
+        <SidebarRight poem={poem} />
       </SidebarProvider>
     </div>
   );

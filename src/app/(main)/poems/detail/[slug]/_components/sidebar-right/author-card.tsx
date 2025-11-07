@@ -10,27 +10,11 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import type { ApiPoemFindDetail } from "@/server/api/router/poem";
 
-interface Author {
-  id: string;
-  name: string;
-  namePinYin: string;
-  dynasty: string;
-  birthDate?: number;
-  deathDate?: number;
-  introduce?: string;
-  epithets?: string[]; // 称号，如 "诗仙"
-  style?: string; // 风格特色
-  _count: {
-    poems: number;
-  };
-}
+export function AuthorCard({ poem }: { poem: ApiPoemFindDetail }) {
+  const { author, dynasty } = poem;
 
-interface AuthorCardProps {
-  author: Author;
-}
-
-export function AuthorCard({ author }: AuthorCardProps) {
   const lifespan = `${author.birthDate || "?"}年—${author.deathDate || "?"}年`;
 
   return (
@@ -48,9 +32,7 @@ export function AuthorCard({ author }: AuthorCardProps) {
             {/* 作者姓名 */}
             <div>
               <h3 className="text-xl font-semibold">{author.name}</h3>
-              <p className="text-sm text-muted-foreground">
-                {author.namePinYin}
-              </p>
+              <p className="text-sm text-muted-foreground">{author.pinyin}</p>
             </div>
 
             {/* 生卒年/朝代 */}
@@ -58,7 +40,7 @@ export function AuthorCard({ author }: AuthorCardProps) {
               <CalendarIcon className="h-4 w-4" />
               <span>{lifespan}</span>
               <Separator orientation="vertical" className="h-4" />
-              <span>{author.dynasty}</span>
+              <span>{dynasty!.name}</span>
             </div>
           </div>
         </div>
@@ -77,20 +59,16 @@ export function AuthorCard({ author }: AuthorCardProps) {
         )}
 
         {/* 核心风格/创作特色 */}
-        {author.style && (
-          <div>
-            <p className="text-sm text-muted-foreground">创作特色</p>
-            <p className="text-sm">{author.style}</p>
-          </div>
-        )}
+        <div>
+          <p className="text-sm text-muted-foreground">创作特色</p>
+          <p className="text-sm">{author.style || "待完善"}</p>
+        </div>
 
         {/* 作者简介 */}
-        {author.introduce && (
-          <div>
-            <p className="text-sm text-muted-foreground">简介</p>
-            <p className="text-sm line-clamp-3">{author.introduce}</p>
-          </div>
-        )}
+        <div>
+          <p className="text-sm text-muted-foreground">简介</p>
+          <p className="text-sm line-clamp-3">{author.introduce || "待完善"}</p>
+        </div>
       </CardContent>
 
       <CardFooter>

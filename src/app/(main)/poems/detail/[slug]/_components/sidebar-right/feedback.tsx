@@ -1,12 +1,9 @@
 import { Edit3Icon } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import type { ApiPoemFindDetail } from "@/server/api/router/poem";
 
-export function Feedback({
-  poem,
-}: {
-  poem: { author: { slug: string }; titleSlug: string };
-}) {
+export function Feedback({ poem }: { poem: ApiPoemFindDetail }) {
   return (
     <div className="bg-gradient-to-r from-accent/50 to-transparent p-6 rounded-lg border space-y-2">
       <Button asChild>

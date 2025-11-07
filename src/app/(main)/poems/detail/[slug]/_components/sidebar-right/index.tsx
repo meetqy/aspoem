@@ -1,29 +1,11 @@
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Sidebar, SidebarContent } from "@/components/ui/sidebar";
+import type { ApiPoemFindDetail } from "@/server/api/router/poem";
 import { AuthorCard } from "./author-card";
 import { Feedback } from "./feedback";
 import { ReadSetting } from "./read-setting";
 
-const author = {
-  id: "bai-juyi",
-  name: "白居易",
-  namePinYin: "Bái Jū yì",
-  dynasty: "唐",
-  birthDate: 772,
-  deathDate: 846,
-  introduce: "白居易，字乐天，号香山居士，唐代著名诗人。",
-  epithets: ["诗仙", "乐天先生", "香山居士"],
-  style: "擅长写景抒情，语言通俗易懂。",
-  _count: {
-    poems: 100,
-  },
-};
-
-export function SidebarRight({
-  poem,
-}: {
-  poem: { author: { slug: string }; titleSlug: string };
-}) {
+export function SidebarRight({ poem }: { poem: ApiPoemFindDetail }) {
   return (
     <Sidebar
       collapsible="none"
@@ -35,7 +17,7 @@ export function SidebarRight({
 
           <ReadSetting />
 
-          <AuthorCard author={author} />
+          <AuthorCard poem={poem} />
         </SidebarContent>
       </ScrollArea>
     </Sidebar>

@@ -4,6 +4,10 @@ import { publicProcedure } from "../../trpc";
 
 export * from "./discover";
 
+export type ApiPoemFindDetail = Awaited<
+  ReturnType<typeof poemRouter.findDetail>
+>;
+
 export const poemRouter = {
   findDetail: publicProcedure
     .input(
@@ -32,20 +36,8 @@ export const poemRouter = {
           visits: true,
           createdAt: true,
           annotation: true,
-          author: {
-            select: {
-              name: true,
-              slug: true,
-              pinyin: true,
-              dynasty: {
-                select: {
-                  name: true,
-                  slug: true,
-                  pinyin: true,
-                },
-              },
-            },
-          },
+          dynasty: true,
+          author: true,
           tags: {
             select: {
               name: true,

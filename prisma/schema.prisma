@@ -45,14 +45,18 @@ model Tag {
 }
 
 model Author {
-  id     String @id @default(cuid())
-  name   String
-  pinyin String
-  slug   String @unique
-
-  visits    Int      @default(0)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @default(now()) @updatedAt
+  id        String    @id @default(cuid())
+  name      String
+  pinyin    String
+  slug      String    @unique
+  birthDate DateTime?
+  deathDate DateTime?
+  introduce String?
+  epithets  String[]
+  style     String?
+  visits    Int       @default(0)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @default(now()) @updatedAt
 
   dynasty   Dynasty @relation(fields: [dynastyId], references: [id])
   dynastyId String
