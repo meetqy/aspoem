@@ -3,10 +3,11 @@ import { z } from "zod";
 import { publicProcedure } from "../trpc";
 
 export const authorRouter = {
+  // cursor分页接口
   getList: publicProcedure
     .input(
       z.object({
-        dynastySlug: z.string().optional(), // 朝代筛选，可选
+        dynastySlug: z.string().optional(),
         limit: z.number().min(1).max(100).default(20),
         cursor: z.string().optional(),
       }),
@@ -24,7 +25,7 @@ export const authorRouter = {
           : undefined,
         take: limit + 1,
         cursor: cursor ? { id: cursor } : undefined,
-        orderBy: { updatedAt: "desc" },
+        orderBy: [{ name: "asc" }, { id: "asc" }],
         select: {
           id: true,
           name: true,
@@ -44,7 +45,7 @@ export const authorRouter = {
         },
       });
 
-      let nextCursor: typeof cursor;
+      let nextCursor: typeof cursor | undefined = undefined;
       if (authors.length > limit) {
         const nextItem = authors.pop();
         nextCursor = nextItem!.id;
@@ -53,6 +54,67 @@ export const authorRouter = {
       return {
         items: authors,
         nextCursor,
+      };
+    }),
+
+  // page分页接口
+  getPagedList: publicProcedure
+    .input(
+      z.object({
+        dynastySlug: z.string().optional(),
+        pageSize: z.number().min(1).max(100).default(20),
+        page: z.number().min(1).default(1),
+      }),
+    )
+    .query(async ({ ctx, input }) => {
+      const { dynastySlug, pageSize, page } = input;
+      const skip = (page - 1) * pageSize;
+
+      const whereClause = dynastySlug
+        ? {
+            dynasty: {
+              slug: dynastySlug,
+            },
+          }
+        : undefined;
+
+      const [authors, total] = await Promise.all([
+        ctx.db.author.findMany({
+          where: whereClause,
+          take: pageSize,
+          skip,
+          orderBy: [{ name: "asc" }, { id: "asc" }],
+          select: {
+            id: true,
+            name: true,
+            slug: true,
+            introduce: true,
+            dynasty: {
+              select: {
+                name: true,
+                slug: true,
+              },
+            },
+            _count: {
+              select: {
+                poems: true,
+              },
+            },
+          },
+        }),
+        ctx.db.author.count({
+          where: whereClause,
+        }),
+      ]);
+
+      const totalPages = Math.ceil(total / pageSize);
+
+      return {
+        items: authors,
+        pageSize,
+        page,
+        totalPages,
+        total,
       };
     }),
 } satisfies TRPCRouterRecord;

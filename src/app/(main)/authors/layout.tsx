@@ -15,7 +15,7 @@ export default async function Layout({
         <SidebarLeft dynasty={data} />
 
         <SidebarContent>
-          <main className="max-w-screen-md mx-auto w-full lg:py-16 py-12">
+          <main className="max-w-screen-lg mx-auto w-full lg:py-16 py-12">
             {children}
           </main>
         </SidebarContent>
