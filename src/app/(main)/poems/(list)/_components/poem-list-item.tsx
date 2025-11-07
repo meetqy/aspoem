@@ -1,5 +1,7 @@
+"use client";
 import { SquarePenIcon } from "lucide-react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -32,8 +34,15 @@ export function PoemListItem({
   tags = [],
   paragraphsSlice = 4,
 }: PoemListItemProps) {
+  const router = useRouter();
+
   return (
-    <Card className="shadow-none hover:bg-accent/30 transition-colors mt-4">
+    <Card
+      className="shadow-none hover:bg-accent/30 transition-colors mt-4"
+      onClick={() => {
+        router.push(`/poems/detail/${poem.slug}`);
+      }}
+    >
       <CardHeader>
         <h2 className="font-heading [&+]*:[code]:text-xl mt-10 scroll-m-28 text-xl font-medium tracking-tight first:mt-0 lg:mt-16 [&+.steps]:!mt-0 [&+.steps>h3]:!mt-4 [&+h3]:!mt-6 [&+p]:!mt-4">
           <Link href={`/poems/detail/${poem.slug}`}>{poem.title}</Link>

@@ -1,3 +1,4 @@
-export default function HomePage() {
-  return <div>推荐诗文列表</div>;
+import { redirect } from "next/navigation";
+export default async function HomePage() {
+  redirect("/poems");
 }

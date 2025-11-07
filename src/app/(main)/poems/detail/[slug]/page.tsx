@@ -3,7 +3,7 @@ import { SidebarContent, SidebarProvider } from "@/components/ui/sidebar";
 import { api } from "@/trpc/server";
 import { SidebarRight } from "./_components/sidebar-right";
 
-export default async function Page({
+export default async function PoemDetailPage({
   params,
 }: {
   params: Promise<{ slug: string }>;
@@ -12,16 +12,13 @@ export default async function Page({
 
   const poem = await api.poem.findDetail({ slug });
 
-  console.log(poem);
-
   return (
     <div className="flex flex-1 flex-col">
       <SidebarProvider className="relative container-wrapper">
         <SidebarContent>
           <main
-            className="@container/poem mx-auto w-full @poem/md:py-24 py-12"
+            className="@container/poem mx-auto w-full @poem/md:py-24 py-12 font-cursive"
             style={{
-              fontFamily: `楷体, 楷体_gb2312, "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, TW-Kai, cursive`,
               fontSize: 20,
             }}
           >

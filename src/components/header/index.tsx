@@ -16,7 +16,7 @@ export function Header() {
             variant="ghost"
             size="icon-lg"
           >
-            <Link href="/">
+            <Link href="/poems">
               <LogoIcon className="size-6" />
             </Link>
           </Button>
