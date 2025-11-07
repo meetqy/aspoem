@@ -28,7 +28,7 @@ export function AuthorListItem({ author }: AuthorListItemProps) {
           <div className="space-y-1">
             <h3 className="text-lg font-semibold">
               <Link
-                href={`/authors/${author.slug}`}
+                href={`/authors/detail/${author.slug}`}
                 className="hover:underline"
               >
                 {author.name}

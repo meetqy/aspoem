@@ -80,11 +80,13 @@ export interface SidebarItem {
 
 export function SidebarLeft({ dynasty }: Props) {
   // 按历史顺序排序朝代
-  const sortedDynasty = [...dynasty].sort((a, b) => {
-    const orderA = getDynastyOrder(a.name);
-    const orderB = getDynastyOrder(b.name);
-    return orderA - orderB;
-  });
+  const sortedDynasty = [...dynasty]
+    .sort((a, b) => {
+      const orderA = getDynastyOrder(a.name);
+      const orderB = getDynastyOrder(b.name);
+      return orderA - orderB;
+    })
+    .filter((d) => d._count.authors > 0); // 只显示有作者的朝代
 
   const dynastyItems: SidebarItem = {
     title: "朝代",
