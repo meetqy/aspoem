@@ -24,36 +24,95 @@ import { cn } from "@/lib/utils";
 import { discover, type SidebarItem } from "./sidebar-items";
 
 const items: SidebarItem[] = [
-  {
+  // {
+  //   title: "体裁",
+  //   url: "#",
+  //   defaultOpen: true,
+  //   items: [
+  //     { title: "五言绝句", url: "#" },
+  //     { title: "七言绝句", url: "#" },
+  //     { title: "五言律诗", url: "#" },
+  //     { title: "七言律诗", url: "#" },
+  //     { title: "词", url: "#" },
+  //     { title: "古体诗", url: "#" },
+  //     { title: "更多......", url: "#" },
+  //   ],
+  // },
+];
+
+// 定义朝代顺序
+const dynastyOrder = [
+  "夏",
+  "商",
+  "周",
+  "秦",
+  "汉",
+  "三国",
+  "两晋",
+  "南北朝",
+  "隋",
+  "唐",
+  "五代十国",
+  "宋",
+  "辽",
+  "夏",
+  "金",
+  "元",
+  "明",
+  "清",
+];
+
+// 朝代名称映射（处理一些变体）
+const dynastyMapping: Record<string, string> = {
+  西汉: "汉",
+  东汉: "汉",
+  东汉末年: "汉",
+  北宋: "宋",
+  南宋: "宋",
+  五代: "五代十国",
+  先秦: "周",
+  春秋: "周",
+  战国: "周",
+  楚: "周", // 战国时期
+  西晋: "两晋",
+  东晋: "两晋",
+  南北: "南北朝",
+  明末清初: "清",
+};
+
+function getDynastyOrder(dynastyName: string): number {
+  const mappedName = dynastyMapping[dynastyName] || dynastyName;
+  const index = dynastyOrder.indexOf(mappedName);
+  return index === -1 ? 999 : index; // 未知朝代放到最后
+}
+
+type Props = {
+  dynasty: {
+    name: string;
+    slug: string;
+    pinyin: string;
+    _count: { poems: number };
+  }[];
+};
+
+export function SidebarLeft({ dynasty }: Props) {
+  // 按历史顺序排序朝代
+  const sortedDynasty = [...dynasty].sort((a, b) => {
+    const orderA = getDynastyOrder(a.name);
+    const orderB = getDynastyOrder(b.name);
+    return orderA - orderB;
+  });
+
+  const dynastyItems: SidebarItem = {
     title: "朝代",
     url: "#",
     defaultOpen: true,
-    items: [
-      { title: "唐 18k", url: "#" },
-      { title: "宋 20000", url: "#" },
-      { title: "元 55002", url: "#" },
-      { title: "明 239291", url: "#" },
-      { title: "清 1230102", url: "#" },
-      { title: "更多...", url: "#" },
-    ],
-  },
-  {
-    title: "体裁",
-    url: "#",
-    defaultOpen: true,
-    items: [
-      { title: "五言绝句", url: "#" },
-      { title: "七言绝句", url: "#" },
-      { title: "五言律诗", url: "#" },
-      { title: "七言律诗", url: "#" },
-      { title: "词", url: "#" },
-      { title: "古体诗", url: "#" },
-      { title: "更多......", url: "#" },
-    ],
-  },
-];
+    items: sortedDynasty.map((d) => ({
+      title: `${d.name} ${d._count.poems}`,
+      url: `/poems/dynasty/${d.slug}`,
+    })),
+  };
 
-export function SidebarLeft() {
   return (
     <Sidebar
       collapsible="none"
@@ -78,7 +137,7 @@ export function SidebarLeft() {
           </SidebarGroup>
 
           <SidebarMenu>
-            {items.map((item) => (
+            {[dynastyItems, ...items].map((item) => (
               <Collapsible
                 key={item.title}
                 asChild

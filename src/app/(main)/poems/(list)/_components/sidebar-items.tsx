@@ -37,7 +37,7 @@ export const discover: SidebarItem[] = [
   {
     title: "随机诗文",
     icon: DicesIcon,
-    description: "获取一首随机诗文",
+    description: "点击按钮，可以随机一首诗文",
     url: "/poems/random",
   },
 ];

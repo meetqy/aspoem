@@ -21,9 +21,11 @@ model Poem {
   createdAt DateTime @default(now())
   updatedAt DateTime @default(now()) @updatedAt
 
-  author   Author @relation(fields: [authorId], references: [id])
-  authorId String
-  tags     Tag[]
+  author    Author   @relation(fields: [authorId], references: [id])
+  authorId  String
+  tags      Tag[]
+  dynasty   Dynasty? @relation(fields: [dynastyId], references: [id])
+  dynastyId String?
 
   @@map("poems")
 }
@@ -69,6 +71,7 @@ model Dynasty {
   updatedAt DateTime @default(now()) @updatedAt
 
   authors Author[]
+  poems   Poem[]
 
   @@map("dynasties")
 }

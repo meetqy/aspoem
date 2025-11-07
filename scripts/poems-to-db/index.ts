@@ -137,19 +137,24 @@ async function syncPoemToDatabase(poemData: any) {
     where: { slug: poemData.id },
   });
 
+  const poemDBData = {
+    title: poemData.title,
+    slug: poemData.id,
+    titlePinyin: poemData.titlePinyin,
+    titleSlug: poemData.titleSlug,
+    paragraphs: poemData.paragraphs,
+    paragraphsPinyin: poemData.paragraphsPinyin,
+    annotation: poemData.annotation || undefined,
+    authorId: author.id,
+    dynastyId: dynasty.id,
+  };
+
   if (existingPoem) {
     // 更新现有诗词
     await db.poem.update({
       where: { id: existingPoem.id },
       data: {
-        title: poemData.title,
-        slug: poemData.id,
-        titlePinyin: poemData.titlePinyin,
-        titleSlug: poemData.titleSlug,
-        paragraphs: poemData.paragraphs,
-        paragraphsPinyin: poemData.paragraphsPinyin,
-        annotation: poemData.annotation || undefined,
-        authorId: author.id,
+        ...poemDBData,
         tags: {
           set: tagConnections,
         },
@@ -159,14 +164,7 @@ async function syncPoemToDatabase(poemData: any) {
     // 创建新诗词
     await db.poem.create({
       data: {
-        title: poemData.title,
-        slug: poemData.id,
-        titleSlug: poemData.titleSlug,
-        titlePinyin: poemData.titlePinyin,
-        paragraphs: poemData.paragraphs,
-        paragraphsPinyin: poemData.paragraphsPinyin,
-        annotation: poemData.annotation || undefined,
-        authorId: author.id,
+        ...poemDBData,
         tags: {
           connect: tagConnections,
         },

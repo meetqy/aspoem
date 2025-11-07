@@ -2,7 +2,7 @@ import type { TRPCRouterRecord } from "@trpc/server";
 import z from "zod";
 import { publicProcedure } from "../../trpc";
 
-const select = {
+export const listSelect = {
   id: true,
   slug: true,
   title: true,
@@ -46,7 +46,7 @@ export const poemDiscoverRouter = {
         take: limit + 1,
         cursor: cursor ? { id: cursor } : undefined,
         orderBy: [{ visits: "desc" }, { id: "desc" }],
-        select,
+        select: listSelect,
       });
 
       let nextCursor: typeof cursor;
@@ -65,7 +65,7 @@ export const poemDiscoverRouter = {
     .input(
       z.object({
         limit: z.number().min(1).max(100).default(20),
-        cursor: z.string().optional(), // cursor 为 poem id
+        cursor: z.string().optional(),
       }),
     )
     .query(async ({ ctx, input }) => {
@@ -74,8 +74,8 @@ export const poemDiscoverRouter = {
       const poems = await ctx.db.poem.findMany({
         take: limit + 1,
         cursor: cursor ? { id: cursor } : undefined,
-        orderBy: [{ createdAt: "desc" }, { id: "desc" }], // 按创建时间降序
-        select,
+        orderBy: [{ createdAt: "desc" }, { id: "desc" }],
+        select: listSelect,
       });
 
       let nextCursor: typeof cursor;
@@ -87,6 +87,56 @@ export const poemDiscoverRouter = {
       return {
         items: poems,
         nextCursor,
+      };
+    }),
+
+  getLatestListByDynasty: publicProcedure
+    .input(
+      z.object({
+        dynastySlug: z.string(),
+        limit: z.number().min(1).max(100).default(20),
+        cursor: z.string().optional(),
+      }),
+    )
+    .query(async ({ ctx, input }) => {
+      const { dynastySlug, limit, cursor } = input;
+
+      const dynasty = await ctx.db.dynasty.findUnique({
+        where: { slug: dynastySlug },
+        select: {
+          name: true,
+          slug: true,
+          pinyin: true,
+          _count: { select: { poems: true } },
+        },
+      });
+
+      if (!dynasty) {
+        throw new Error("朝代不存在");
+      }
+
+      const poems = await ctx.db.poem.findMany({
+        where: {
+          dynasty: {
+            slug: dynastySlug,
+          },
+        },
+        take: limit + 1,
+        cursor: cursor ? { id: cursor } : undefined,
+        orderBy: [{ createdAt: "desc" }, { id: "desc" }],
+        select: listSelect,
+      });
+
+      let nextCursor: typeof cursor;
+      if (poems.length > limit) {
+        const nextItem = poems.pop();
+        nextCursor = nextItem!.id;
+      }
+
+      return {
+        items: poems,
+        nextCursor,
+        dynasty,
       };
     }),
 
@@ -103,7 +153,7 @@ export const poemDiscoverRouter = {
       const poems = await ctx.db.poem.findMany({
         take: limit + 1,
         cursor: cursor ? { id: cursor } : undefined,
-        select,
+        select: listSelect,
       });
 
       let nextCursor: typeof cursor;
@@ -132,7 +182,7 @@ export const poemDiscoverRouter = {
     // 使用偏移量获取随机诗词
     const randomPoem = await ctx.db.poem.findFirst({
       skip: randomOffset,
-      select,
+      select: listSelect,
     });
 
     return randomPoem;

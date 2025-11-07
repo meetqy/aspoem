@@ -22,7 +22,16 @@ export default async function Page() {
 
   return (
     <>
-      <div className="flex justify-end">
+      <div className="mb-6 flex justify-between ">
+        <div>
+          <h1 className="scroll-m-20 text-4xl font-semibold tracking-tight sm:text-3xl xl:text-4xl mb-4">
+            {discoverItem.title}
+          </h1>
+          <p className="text-muted-foreground text-[1.05rem] text-balance sm:text-base">
+            {discoverItem.description}
+          </p>
+        </div>
+
         <Button
           variant={"secondary"}
           size="icon-lg"
