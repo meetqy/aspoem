@@ -1,6 +1,4 @@
 {
-  "prettier.enable": false,
-
   // 优化 poems 文件夹的性能
   "files.watcherExclude": {
     "**/poems/**": true
@@ -31,5 +29,14 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[mdx]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[mdc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
