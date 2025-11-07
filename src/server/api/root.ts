@@ -1,4 +1,5 @@
 import { authRouter } from "./router/auth";
+import { authorRouter } from "./router/author";
 import { dynastyRouter } from "./router/dynasty";
 import { poemDiscoverRouter, poemRouter } from "./router/poem";
 import { createCallerFactory, createTRPCRouter } from "./trpc";
@@ -10,6 +11,7 @@ export const appRouter = createTRPCRouter({
     ...poemRouter,
   },
   dynasty: dynastyRouter,
+  author: authorRouter,
 });
 
 // export type definition of API
