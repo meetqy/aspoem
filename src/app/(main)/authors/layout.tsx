@@ -7,7 +7,7 @@ export default async function Layout({
 }: {
   children: React.ReactNode;
 }) {
-  const data = await api.dynasty.getPoemsCount();
+  const data = await api.dynasty.getAuthorsCount();
 
   return (
     <div className="flex flex-1 flex-col">
