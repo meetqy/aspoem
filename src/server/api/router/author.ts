@@ -117,4 +117,43 @@ export const authorRouter = {
         total,
       };
     }),
+
+  findBySlug: publicProcedure
+    .input(
+      z.object({
+        slug: z.string(),
+      }),
+    )
+    .query(async ({ ctx, input }) => {
+      const { slug } = input;
+
+      return await ctx.db.author.findUnique({
+        where: { slug },
+        select: {
+          id: true,
+          name: true,
+          slug: true,
+          introduce: true,
+          birthDate: true,
+          deathDate: true,
+          dynasty: {
+            select: {
+              name: true,
+              slug: true,
+            },
+          },
+          poems: {
+            select: {
+              title: true,
+              slug: true,
+            },
+          },
+          _count: {
+            select: {
+              poems: true,
+            },
+          },
+        },
+      });
+    }),
 } satisfies TRPCRouterRecord;

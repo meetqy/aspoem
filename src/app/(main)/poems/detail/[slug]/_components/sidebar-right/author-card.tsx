@@ -73,7 +73,7 @@ export function AuthorCard({ poem }: { poem: ApiPoemFindDetail }) {
 
       <CardFooter>
         <Button variant="secondary" asChild className="w-full">
-          <Link href={`/author/${author.id}`}>
+          <Link href={`/authors/detail/${author.slug}`}>
             <UserIcon />
             进入主页
           </Link>
