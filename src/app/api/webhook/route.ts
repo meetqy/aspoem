@@ -1,27 +1,38 @@
+import { Webhooks } from "@octokit/webhooks";
 import { type NextRequest, NextResponse } from "next/server";
-import { api } from "@/trpc/server";
+import { env } from "@/env";
+
+const webhooks = new Webhooks({
+  secret: env.GITHUB_WEBHOOK_SECRET,
+});
 
 export async function POST(request: NextRequest) {
-  const payload = await request.text();
   const signature = request.headers.get("x-hub-signature-256");
-  const event = request.headers.get("x-github-event");
+  const eventName = request.headers.get("x-github-event");
+  const id = request.headers.get("x-github-delivery");
+  const payload = await request.text();
 
-  if (!signature || !event) {
-    return NextResponse.json({ error: "缺少必要的请求头" }, { status: 400 });
+  if (!signature || !eventName || !id) {
+    return NextResponse.json(
+      { error: "Missing required GitHub webhook headers" },
+      { status: 400 },
+    );
   }
 
-  // 使用 tRPC 处理 webhook
-  const result = await api.webhook.handleWebhook({
-    signature,
+  await webhooks.verifyAndReceive({
+    id,
+    name: eventName,
     payload,
-    event,
+    signature,
   });
 
-  if (!result.success) {
-    return NextResponse.json({ error: result.message }, { status: 400 });
-  }
+  console.log(`Received GitHub webhook event: ${eventName}`);
 
-  return NextResponse.json(result);
+  return NextResponse.json({
+    success: true,
+    event,
+    message: "Webhook 处理成功",
+  });
 }
 
 export async function GET() {
