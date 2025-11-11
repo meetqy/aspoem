@@ -25,12 +25,14 @@
     "lint:fix": "biome lint --write",
     "gen:markdown": "tsx scripts/chinese-poetry-to-markdown/index.ts",
     "gen:db": "NODE_ENV=production && tsx scripts/poems-to-db/index.ts",
+    "webhook:dev": "smee -u https://smee.io/r0hpzCtvkMwkjUH -t http://localhost:3333/api/webhook",
     "ui:upgrade": "for file in src/components/ui/*.tsx; do npx shadcn@latest add -y -o $(basename \"$file\" .tsx); done",
     "prepare": "husky"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.7.2",
     "@hookform/resolvers": "^5.2.2",
+    "@octokit/webhooks": "^14.1.3",
     "@prisma/client": "^6.19.0",
     "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-collapsible": "^1.1.12",
@@ -67,6 +69,7 @@
     "react-hook-form": "^7.62.0",
     "server-only": "^0.0.1",
     "slugify": "^1.6.6",
+    "smee-client": "^4.4.1",
     "sonner": "^2.0.7",
     "superjson": "^2.2.1",
     "tailwind-merge": "^3.3.1",
