@@ -4,6 +4,7 @@ import remarkGfm from "remark-gfm";
 import remarkParse from "remark-parse";
 import { unified } from "unified";
 import { visit } from "unist-util-visit";
+import { formatPinyin } from "./utils";
 
 export interface PoemData {
   // Frontmatter 字段
@@ -27,6 +28,8 @@ export interface PoemData {
   appreciation?: string;
 }
 
+const convertPinyin = (pinyin?: string) => convert(formatPinyin(pinyin || ""));
+
 export async function parseMarkdownToJson(
   markdownContent: string,
 ): Promise<PoemData> {
@@ -45,13 +48,13 @@ export async function parseMarkdownToJson(
   const result: PoemData = {
     id: frontmatter.id || "",
     title: frontmatter.title || "",
-    titlePinyin: convert(frontmatter.titlePinyin || ""),
+    titlePinyin: convertPinyin(frontmatter.titlePinyin),
     titleSlug: frontmatter.titleSlug || "",
     author: frontmatter.author || "",
-    authorPinyin: convert(frontmatter.authorPinyin || ""),
+    authorPinyin: convertPinyin(frontmatter.authorPinyin),
     authorSlug: frontmatter.authorSlug || "",
     dynasty: frontmatter.dynasty || "",
-    dynastyPinyin: convert(frontmatter.dynastyPinyin || ""),
+    dynastyPinyin: convertPinyin(frontmatter.dynastyPinyin),
     dynastySlug: frontmatter.dynastySlug || "",
     tags: frontmatter.tags || [],
     paragraphs: [],

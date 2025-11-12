@@ -4,7 +4,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { cn_symbol } from "@/lib/constants";
-import { cn } from "@/lib/utils";
+import { cn, formatPinyin } from "@/lib/utils";
 
 interface RubyTextProps {
   text: string;
@@ -27,7 +27,7 @@ export function RubyText({
   as: Component = "p",
   annotation,
 }: RubyTextProps) {
-  const pinyinArray = pinyin.split(" ");
+  const pinyinArray = formatPinyin(pinyin).split(" ");
 
   // 检查当前字符是否是注释词汇的开始
   const isAnnotatedWord = (index: number) => {
