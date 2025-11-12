@@ -136,19 +136,22 @@ export function RubyText({
     }
 
     return (
-      <ruby key={index}>
-        <span className={cn(classNames?.char)}>{char}</span>
-        {renderRubyCharacter(pinyinArray[index]!)}
-      </ruby>
+      <span
+        style={{ height: "0.75lh" }}
+        className="aspect-square inline-flex justify-center text-center"
+        key={index}
+      >
+        <ruby style={{ rubyMerge: "separate" }}>
+          <span className={cn(classNames?.char)}>{char}</span>
+          {renderRubyCharacter(pinyinArray[index]!)}
+        </ruby>
+      </span>
     );
   };
 
   return (
     <Component
-      className={cn(
-        "text-center tracking-[0.2em] transition-all select-none",
-        className,
-      )}
+      className={cn("text-center transition-all select-none", className)}
     >
       {text
         .split("")

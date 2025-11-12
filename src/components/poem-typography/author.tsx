@@ -2,16 +2,15 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 import { RubyText } from "./ruby-text";
 
-const variants = cva("text-3xl @md/poem:text-4xl", {
+const variants = cva("text-3xl", {
   variants: {
     font: {
       cursive: "font-cursive",
-      //   sans: "font-sans text-2xl @md/poem:text-3xl tracking-[0.15em] leading-[1.5em]",
       sans: "font-sans",
     },
     pinyin: {
-      default: "tracking-[0.15em] leading-[2em]",
-      hidden: "tracking-[0.05em] leading-[1.5em]",
+      default: "leading-[2em]",
+      hidden: "leading-[1.5em]",
     },
   },
   defaultVariants: {
