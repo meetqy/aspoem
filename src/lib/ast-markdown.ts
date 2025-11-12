@@ -1,4 +1,3 @@
-import { readFileSync } from "node:fs";
 import matter from "gray-matter";
 import { convert } from "pinyin-pro";
 import remarkGfm from "remark-gfm";
@@ -6,7 +5,7 @@ import remarkParse from "remark-parse";
 import { unified } from "unified";
 import { visit } from "unist-util-visit";
 
-interface PoemData {
+export interface PoemData {
   // Frontmatter 字段
   id: string;
   title: string;
@@ -28,9 +27,9 @@ interface PoemData {
   appreciation?: string;
 }
 
-export async function parseMarkdownToJson(filePath: string): Promise<PoemData> {
-  const markdownContent = readFileSync(filePath, "utf-8");
-
+export async function parseMarkdownToJson(
+  markdownContent: string,
+): Promise<PoemData> {
   // 使用 gray-matter 解析 frontmatter
   const { data: frontmatter, content } = matter(markdownContent);
 

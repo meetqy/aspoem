@@ -1,56 +1,86 @@
-import { Webhooks } from "@octokit/webhooks";
 import type { TRPCRouterRecord } from "@trpc/server";
+import axios from "axios";
 import { z } from "zod";
-import { env } from "@/env";
+import { parseMarkdownToJson } from "@/lib/ast-markdown";
+import { syncPoemToDatabase } from "@/lib/sync-poem-to-db";
 import { publicProcedure } from "../trpc";
 
-const webhooks = new Webhooks({
-  secret: env.GITHUB_WEBHOOK_SECRET,
-});
+type HeadCommit = {
+  added: string[];
+  removed: string[];
+  modified: string[];
+};
 
 export const webhookRouter = {
   // 处理 webhook 事件
   handleWebhook: publicProcedure
     .input(
       z.object({
-        signature: z.string(),
         payload: z.string(),
-        event: z.string(),
         id: z.string(),
+        event: z.string(),
       }),
     )
     .mutation(async ({ input }) => {
-      try {
-        console.log({
-          id: input.id,
-          name: input.event,
-          signature: input.signature,
-        });
+      const { head_commit } = JSON.parse(input.payload) as {
+        head_commit: HeadCommit;
+      };
 
-        // 验证并处理 webhook
-        webhooks
-          .verifyAndReceive({
-            id: input.id,
-            name: input.event,
-            payload: input.payload,
-            signature: input.signature,
-          })
-          .catch((error) => {
-            console.error(error);
-          });
+      const { added, modified } = head_commit;
+      const markdownFiles = [...added, ...modified].filter((filePath) =>
+        filePath.startsWith("poems/"),
+      );
 
+      if (markdownFiles.length === 0) {
         return {
           success: true,
-          event: input.event,
-          message: "Webhook 处理成功",
-        };
-      } catch (error) {
-        console.error("Webhook 处理失败:", error);
-        return {
-          success: false,
-          event: input.event,
-          message: error instanceof Error ? error.message : "处理失败",
+          message: "没有需要处理的诗词文件",
+          processedFiles: 0,
         };
       }
+
+      return await processFilesAndTrack(markdownFiles);
     }),
 } satisfies TRPCRouterRecord;
+
+async function processFilesAndTrack(markdownFiles: string[]) {
+  let processedCount = 0;
+  let successCount = 0;
+  let errorCount = 0;
+
+  const promises = markdownFiles.map(async (filePath) => {
+    try {
+      const response = await axios(
+        `https://raw.githubusercontent.com/meetqy/aspoem-backup/refs/heads/main/${filePath}`,
+      );
+      const markdownContent = response.data;
+      const data = await parseMarkdownToJson(markdownContent);
+      const result = await syncPoemToDatabase(data);
+
+      processedCount++;
+      successCount++;
+
+      return { filePath, success: true, result };
+    } catch (error) {
+      processedCount++;
+      errorCount++;
+
+      return { filePath, success: false, error };
+    }
+  });
+
+  // 等待所有文件处理完成
+  await Promise.allSettled(promises);
+
+  // 处理完成后的统计
+  const finalStats = {
+    total: markdownFiles.length,
+    processed: processedCount,
+    success: successCount,
+    error: errorCount,
+    completed: true,
+    timestamp: new Date().toISOString(),
+  };
+
+  return finalStats;
+}

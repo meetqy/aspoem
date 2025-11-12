@@ -1,6 +1,7 @@
 import { Webhooks } from "@octokit/webhooks";
 import { type NextRequest, NextResponse } from "next/server";
 import { env } from "@/env";
+import { api } from "@/trpc/server";
 
 const webhooks = new Webhooks({
   secret: env.GITHUB_WEBHOOK_SECRET,
@@ -19,25 +20,16 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  await webhooks.verifyAndReceive({
-    id,
-    name: eventName,
-    payload,
-    signature,
-  });
+  if (env.NODE_ENV === "production") {
+    await webhooks.verifyAndReceive({
+      id,
+      name: eventName,
+      payload,
+      signature,
+    });
+  }
 
-  console.log(`Received GitHub webhook event: ${eventName}`);
+  api.webhook.handleWebhook({ payload, id, event: eventName });
 
-  return NextResponse.json({
-    success: true,
-    event,
-    message: "Webhook 处理成功",
-  });
-}
-
-export async function GET() {
-  return NextResponse.json({
-    message: "GitHub webhook 端点运行正常",
-    timestamp: new Date().toISOString(),
-  });
+  return NextResponse.json({ message: "Webhook received" });
 }

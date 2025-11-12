@@ -1,7 +1,8 @@
-import { readdirSync, statSync } from "node:fs";
+import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
+import { parseMarkdownToJson } from "@/lib/ast-markdown";
+import { syncPoemToDatabase } from "@/lib/sync-poem-to-db";
 import { db } from "@/server/db";
-import { parseMarkdownToJson } from "./ast-markdown";
 
 async function initMarkdownToDatabase() {
   try {
@@ -25,8 +26,9 @@ async function initMarkdownToDatabase() {
       try {
         console.log(`[${i + 1}/${totalFiles}] 处理文件: ${filePath}`);
 
+        const markdownContent = readFileSync(filePath, "utf-8");
         // 解析 markdown 文件
-        const poemData = await parseMarkdownToJson(filePath);
+        const poemData = await parseMarkdownToJson(markdownContent);
 
         // 同步到数据库
         await syncPoemToDatabase(poemData);
@@ -76,101 +78,6 @@ function getAllMarkdownFiles(dir: string): string[] {
   }
 
   return files;
-}
-
-// 同步诗词数据到数据库
-async function syncPoemToDatabase(poemData: any) {
-  // 1. 创建或查找朝代
-  let dynasty = await db.dynasty.findUnique({
-    where: { slug: poemData.dynastySlug },
-  });
-
-  if (!dynasty) {
-    dynasty = await db.dynasty.create({
-      data: {
-        name: poemData.dynasty,
-        pinyin: poemData.dynastyPinyin,
-        slug: poemData.dynastySlug,
-      },
-    });
-  }
-
-  // 2. 创建或查找作者
-  let author = await db.author.findUnique({
-    where: { slug: poemData.authorSlug },
-  });
-
-  if (!author) {
-    author = await db.author.create({
-      data: {
-        name: poemData.author,
-        pinyin: poemData.authorPinyin,
-        slug: poemData.authorSlug,
-        dynastyId: dynasty.id,
-      },
-    });
-  }
-
-  // 3. 处理标签
-  const tagConnections = [];
-  for (const tagName of poemData.tags) {
-    if (!tagName) continue;
-
-    let tag = await db.tag.findUnique({
-      where: { slug: tagName.toLowerCase().replace(/\s+/g, "-") },
-    });
-
-    if (!tag) {
-      tag = await db.tag.create({
-        data: {
-          name: tagName,
-          slug: tagName.toLowerCase().replace(/\s+/g, "-"),
-        },
-      });
-    }
-
-    tagConnections.push({ id: tag.id });
-  }
-
-  // 4. 检查诗词是否已存在
-  const existingPoem = await db.poem.findUnique({
-    where: { slug: poemData.id },
-  });
-
-  const poemDBData = {
-    title: poemData.title,
-    slug: poemData.id,
-    titlePinyin: poemData.titlePinyin,
-    titleSlug: poemData.titleSlug,
-    paragraphs: poemData.paragraphs,
-    paragraphsPinyin: poemData.paragraphsPinyin,
-    annotation: poemData.annotation || undefined,
-    authorId: author.id,
-    dynastyId: dynasty.id,
-  };
-
-  if (existingPoem) {
-    // 更新现有诗词
-    await db.poem.update({
-      where: { id: existingPoem.id },
-      data: {
-        ...poemDBData,
-        tags: {
-          set: tagConnections,
-        },
-      },
-    });
-  } else {
-    // 创建新诗词
-    await db.poem.create({
-      data: {
-        ...poemDBData,
-        tags: {
-          connect: tagConnections,
-        },
-      },
-    });
-  }
 }
 
 initMarkdownToDatabase();
