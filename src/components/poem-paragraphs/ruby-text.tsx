@@ -113,16 +113,17 @@ export function RubyText({
     return (
       <ruby key={index}>
         <span className={cn("pl-[0.2em]", classNames?.char)}>{char}</span>
-        <rp>(</rp>
+        <rp className="hidden">(</rp>
         <rt
           className={cn(
             "font-sans text-muted-foreground tracking-normal lowercase text-[0.5em] font-light",
             classNames?.pinyin,
+            "hidden",
           )}
         >
           {pinyinArray[index]}
         </rt>
-        <rp>)</rp>
+        <rp className="hidden">)</rp>
       </ruby>
     );
   };
