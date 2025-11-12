@@ -17,6 +17,7 @@ interface RubyTextProps {
     pinyin?: string;
   };
   as?: React.ElementType;
+  pinyinVisible?: boolean;
 }
 
 export function RubyText({
@@ -26,6 +27,7 @@ export function RubyText({
   classNames,
   as: Component = "p",
   annotation,
+  pinyinVisible = false,
 }: RubyTextProps) {
   const pinyinArray = formatPinyin(pinyin).split(" ");
 
@@ -40,6 +42,38 @@ export function RubyText({
       }
     }
     return null;
+  };
+
+  const renderRubyCharacter = (py: string) => {
+    return (
+      <>
+        <rp
+          className={cn({
+            hidden: !pinyinVisible,
+          })}
+        >
+          (
+        </rp>
+        <rt
+          className={cn(
+            "font-sans text-muted-foreground tracking-normal lowercase text-[0.5em] font-light",
+            {
+              hidden: !pinyinVisible,
+            },
+            classNames?.pinyin,
+          )}
+        >
+          {py}
+        </rt>
+        <rp
+          className={cn({
+            hidden: !pinyinVisible,
+          })}
+        >
+          )
+        </rp>
+      </>
+    );
   };
 
   const renderCharacter = (char: string, index: number) => {
@@ -58,16 +92,7 @@ export function RubyText({
                   >
                     {wordChar}
                   </span>
-                  <rp>(</rp>
-                  <rt
-                    className={cn(
-                      "font-sans text-muted-foreground tracking-normal lowercase text-[0.5em] font-light",
-                      classNames?.pinyin,
-                    )}
-                  >
-                    {pinyinArray[index + wordIndex]}
-                  </rt>
-                  <rp>)</rp>
+                  {renderRubyCharacter(pinyinArray[index + wordIndex]!)}
                 </ruby>
               ))}
               {/* 添加下划线提示 */}
@@ -113,17 +138,7 @@ export function RubyText({
     return (
       <ruby key={index}>
         <span className={cn("pl-[0.2em]", classNames?.char)}>{char}</span>
-        <rp className="hidden">(</rp>
-        <rt
-          className={cn(
-            "font-sans text-muted-foreground tracking-normal lowercase text-[0.5em] font-light",
-            classNames?.pinyin,
-            "hidden",
-          )}
-        >
-          {pinyinArray[index]}
-        </rt>
-        <rp className="hidden">)</rp>
+        {renderRubyCharacter(pinyinArray[index]!)}
       </ruby>
     );
   };

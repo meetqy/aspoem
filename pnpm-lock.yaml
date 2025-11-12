@@ -102,6 +102,9 @@ importers:
       gray-matter:
         specifier: ^4.0.3
         version: 4.0.3
+      jotai:
+        specifier: ^2.15.1
+        version: 2.15.1(@babel/core@7.28.4)(@babel/template@7.27.2)(@types/react@19.2.2)(react@19.2.0)
       lucide-react:
         specifier: ^0.544.0
         version: 0.544.0(react@19.2.0)
@@ -2294,6 +2297,24 @@ packages:
 
   jose@6.1.0:
     resolution: {integrity: sha512-TTQJyoEoKcC1lscpVDCSsVgYzUDg/0Bt3WE//WiTPK6uOCQC2KZS4MpugbMWt/zyjkopgZoXhZuCi00gLudfUA==}
+
+  jotai@2.15.1:
+    resolution: {integrity: sha512-yHT1HAZ3ba2Q8wgaUQ+xfBzEtcS8ie687I8XVCBinfg4bNniyqLIN+utPXWKQE93LMF5fPbQSVRZqgpcN5yd6Q==}
+    engines: {node: '>=12.20.0'}
+    peerDependencies:
+      '@babel/core': '>=7.0.0'
+      '@babel/template': '>=7.0.0'
+      '@types/react': 19.2.2
+      react: '>=17.0.0'
+    peerDependenciesMeta:
+      '@babel/core':
+        optional: true
+      '@babel/template':
+        optional: true
+      '@types/react':
+        optional: true
+      react:
+        optional: true
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -5126,6 +5147,13 @@ snapshots:
   jiti@2.5.1: {}
 
   jose@6.1.0: {}
+
+  jotai@2.15.1(@babel/core@7.28.4)(@babel/template@7.27.2)(@types/react@19.2.2)(react@19.2.0):
+    optionalDependencies:
+      '@babel/core': 7.28.4
+      '@babel/template': 7.27.2
+      '@types/react': 19.2.2
+      react: 19.2.0
 
   js-tokens@4.0.0: {}
 
