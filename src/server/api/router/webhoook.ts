@@ -1,6 +1,7 @@
+import { Octokit } from "@octokit/rest";
 import type { TRPCRouterRecord } from "@trpc/server";
-import axios from "axios";
 import { z } from "zod";
+import { env } from "@/env";
 import { parseMarkdownToJson } from "@/lib/ast-markdown";
 import { syncPoemToDatabase } from "@/lib/sync-poem-to-db";
 import { publicProcedure } from "../trpc";
@@ -10,6 +11,11 @@ type HeadCommit = {
   removed: string[];
   modified: string[];
 };
+
+// 创建 Octokit 实例
+const octokit = new Octokit({
+  auth: env.GITHUB_TOKEN,
+});
 
 export const webhookRouter = {
   // 处理 webhook 事件
@@ -32,11 +38,7 @@ export const webhookRouter = {
       );
 
       if (markdownFiles.length === 0) {
-        return {
-          success: true,
-          message: "没有需要处理的诗词文件",
-          processedFiles: 0,
-        };
+        return { message: "No relevant markdown files to process." };
       }
 
       return await processFilesAndTrack(markdownFiles);
@@ -50,17 +52,30 @@ async function processFilesAndTrack(markdownFiles: string[]) {
 
   const promises = markdownFiles.map(async (filePath) => {
     try {
-      const response = await axios(
-        `https://raw.githubusercontent.com/meetqy/aspoem-backup/refs/heads/main/${filePath}`,
-      );
-      const markdownContent = response.data;
-      const data = await parseMarkdownToJson(markdownContent);
-      const result = await syncPoemToDatabase(data);
+      // 使用 Octokit 获取文件内容
+      const { data } = await octokit.rest.repos.getContent({
+        owner: "meetqy",
+        repo: "aspoem-backup",
+        path: filePath,
+        ref: "main",
+      });
 
-      processedCount++;
-      successCount++;
+      // 检查是否为文件（不是目录）
+      if ("content" in data && data.type === "file") {
+        // GitHub API 返回的内容是 base64 编码的
+        const markdownContent = Buffer.from(data.content, "base64").toString(
+          "utf-8",
+        );
+        const poemData = await parseMarkdownToJson(markdownContent);
+        const result = await syncPoemToDatabase(poemData);
 
-      return { filePath, success: true, result };
+        processedCount++;
+        successCount++;
+
+        return { filePath, success: true, result };
+      } else {
+        throw new Error("Not a file or content not found");
+      }
     } catch (error) {
       processedCount++;
       errorCount++;
