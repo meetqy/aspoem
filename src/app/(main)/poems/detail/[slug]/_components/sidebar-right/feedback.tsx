@@ -8,7 +8,7 @@ export function Feedback({ poem }: { poem: ApiPoemFindDetail }) {
     <div className="bg-gradient-to-r from-accent/50 to-transparent p-6 rounded-lg border space-y-2">
       <Button asChild>
         <Link
-          href={`https://github.com/meetqy/aspoem-backup/blob/main/${poem.author.slug}/${poem.titleSlug}.md?plain=1`}
+          href={`https://github.com/meetqy/aspoem-backup/blob/main/poems/${poem.author.slug}/${poem.titleSlug}.md?plain=1`}
           target="_blank"
           rel="noopener noreferrer"
         >

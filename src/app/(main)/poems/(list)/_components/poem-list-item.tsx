@@ -74,7 +74,7 @@ export function PoemListItem({
             <Button variant={"link"} size={"sm"} asChild>
               <Link
                 target="_blank"
-                href={`https://github.com/meetqy/aspoem-backup/blob/main/${poem.author.slug}/${poem.titleSlug}.md?plain=1`}
+                href={`https://github.com/meetqy/aspoem-backup/blob/main/poems/${poem.author.slug}/${poem.titleSlug}.md?plain=1`}
               >
                 <SquarePenIcon />
                 完善
