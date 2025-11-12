@@ -1,4 +1,4 @@
-import { PoemParagraphs } from "@/components/poem-paragraphs";
+import { PoemTypography } from "@/components/poem-typography";
 import { SidebarContent, SidebarProvider } from "@/components/ui/sidebar";
 import { api } from "@/trpc/server";
 import { SidebarRight } from "./_components/sidebar-right";
@@ -16,7 +16,7 @@ export default async function PoemDetailPage({
     <div className="flex flex-col flex-1">
       <SidebarProvider className="relative container-wrapper">
         <SidebarContent>
-          <PoemParagraphs poem={poem} />
+          <PoemTypography poem={poem} />
         </SidebarContent>
 
         <SidebarRight poem={poem} />

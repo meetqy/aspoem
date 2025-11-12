@@ -1,15 +1,13 @@
 "use client";
 
-import { usePathname, useRouter } from "next/navigation";
-import { useTopLoader } from "nextjs-toploader";
+import { useAtom } from "jotai";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
+import { poemTypographyAtom } from "@/stores/poem-typography";
 
 export function ReadSetting() {
-  const loader = useTopLoader();
-  const router = useRouter();
-  const pathname = usePathname();
+  const [poemTypography, setPoemTypography] = useAtom(poemTypographyAtom);
 
   return (
     <Card className="bg-gradient-to-r from-accent/50 to-transparent shadow-none">
@@ -31,10 +29,13 @@ export function ReadSetting() {
           </Label>
           <Switch
             id="font-switch"
-            onCheckedChange={(checked) => {
-              loader.start();
-              router.replace(`?font=${checked ? "sans" : "cursive"}`);
-            }}
+            checked={poemTypography.font === "cursive"}
+            onCheckedChange={(checked) =>
+              setPoemTypography((prev) => ({
+                ...prev,
+                font: checked ? "cursive" : "sans",
+              }))
+            }
           />
         </div>
 
@@ -45,10 +46,13 @@ export function ReadSetting() {
           </Label>
           <Switch
             id="pinyin-switch"
-            onCheckedChange={(checked) => {
-              loader.start();
-              router.replace(checked ? `?py=1` : pathname);
-            }}
+            checked={poemTypography.pinyinVisible}
+            onCheckedChange={(checked) =>
+              setPoemTypography((prev) => ({
+                ...prev,
+                pinyinVisible: checked,
+              }))
+            }
           />
         </div>
 

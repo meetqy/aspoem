@@ -137,7 +137,7 @@ export function RubyText({
 
     return (
       <ruby key={index}>
-        <span className={cn("pl-[0.2em]", classNames?.char)}>{char}</span>
+        <span className={cn(classNames?.char)}>{char}</span>
         {renderRubyCharacter(pinyinArray[index]!)}
       </ruby>
     );
