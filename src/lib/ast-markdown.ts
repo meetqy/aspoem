@@ -44,8 +44,6 @@ export async function parseMarkdownToJson(
   // 解析 Markdown 为 AST
   const tree = processor.parse(content);
 
-  console.log(frontmatter.tags);
-
   // 初始化结果对象，先从 frontmatter 中获取基础数据
   const result: PoemData = {
     id: frontmatter.id || "",
