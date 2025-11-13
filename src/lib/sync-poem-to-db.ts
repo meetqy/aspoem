@@ -19,6 +19,8 @@ export interface PoemData {
   paragraphs: string[];
   paragraphsPinyin: string[];
   annotation?: Poem["annotation"];
+  translation?: string;
+  appreciation?: string;
 }
 
 // 同步诗词数据到数据库
@@ -88,6 +90,8 @@ export async function syncPoemToDatabase(poemData: PoemData) {
     paragraphs: poemData.paragraphs,
     paragraphsPinyin: poemData.paragraphsPinyin,
     annotation: poemData.annotation || undefined,
+    translation: poemData.translation || "",
+    appreciation: poemData.appreciation || "",
     authorId: author.id,
     dynastyId: dynasty.id,
   };

@@ -16,6 +16,8 @@ model Poem {
   paragraphs       String[]
   paragraphsPinyin String[]
   annotation       Json? // 注解
+  translation      String   @default("")
+  appreciation     String   @default("")
 
   visits    Int      @default(0)
   createdAt DateTime @default(now())

@@ -7,6 +7,8 @@ import { unified } from "unified";
 import { visit } from "unist-util-visit";
 import { formatPinyin } from "./utils";
 
+let hasProcessedList = false;
+
 export interface PoemData {
   // Frontmatter 字段
   id: string;
@@ -69,6 +71,7 @@ export async function parseMarkdownToJson(
   let currentContent: string[] = [];
 
   // 遍历 AST，提取信息
+  // 遍历 AST，提取信息
   visit(tree, (node) => {
     switch (node.type) {
       case "heading": {
@@ -81,12 +84,13 @@ export async function parseMarkdownToJson(
         // 获取标题文本
         const headingText = extractTextFromNode(node);
         currentSection = headingText;
+        hasProcessedList = false; // 重置标志
         break;
       }
 
       case "list":
-        // 处理列表项
-        if (node.children) {
+        // 只有在有 section 的情况下才处理列表
+        if (currentSection && node.children) {
           const listItems = node.children
             .map((listItem) => {
               if (listItem.type === "listItem" && listItem.children) {
@@ -96,8 +100,20 @@ export async function parseMarkdownToJson(
             })
             .filter(Boolean);
           currentContent.push(...listItems);
+          hasProcessedList = true; // 标记已处理过列表
         }
         break;
+
+      case "paragraph": {
+        // 只有在有 section 且没有处理过 list 的情况下才处理段落
+        if (currentSection && !hasProcessedList) {
+          const paragraphText = extractTextFromNode(node);
+          if (paragraphText.trim()) {
+            currentContent.push(paragraphText.trim());
+          }
+        }
+        break;
+      }
     }
   });
 
