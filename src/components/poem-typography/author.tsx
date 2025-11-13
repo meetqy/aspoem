@@ -40,19 +40,24 @@ export const PoemTypographyAuthor = ({
     <p className="text-center flex items-center justify-center">
       {dynasty && dynastyPinyin && (
         <>
+          {"["}
           <RubyText
-            className={variants({
-              font,
-              pinyin: pinyinVisible ? "default" : "hidden",
-            })}
+            className={cn(
+              "text-muted-foreground",
+              variants({
+                font,
+                pinyin: pinyinVisible ? "default" : "hidden",
+              }),
+            )}
             classNames={{
               pinyin: "text-base",
             }}
             as="span"
-            text={`[${dynasty}]`}
-            pinyin={` ${dynastyPinyin} `}
+            text={dynasty}
+            pinyin={`${dynastyPinyin}`}
             pinyinVisible={pinyinVisible}
           />
+          {"]"}
           <span className={cn(pinyinVisible ? "mx-2" : "mx-1")}></span>
         </>
       )}

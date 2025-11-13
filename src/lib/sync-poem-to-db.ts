@@ -1,3 +1,4 @@
+import type { Poem } from "@prisma/client";
 import { db } from "@/server/db";
 
 export interface PoemData {
@@ -17,9 +18,7 @@ export interface PoemData {
   // 内容字段
   paragraphs: string[];
   paragraphsPinyin: string[];
-  annotation?: string;
-  translation?: string;
-  appreciation?: string;
+  annotation?: Poem["annotation"];
 }
 
 // 同步诗词数据到数据库

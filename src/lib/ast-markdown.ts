@@ -1,3 +1,4 @@
+import type { Poem } from "@prisma/client";
 import matter from "gray-matter";
 import { convert } from "pinyin-pro";
 import remarkGfm from "remark-gfm";
@@ -23,7 +24,7 @@ export interface PoemData {
   // 内容字段
   paragraphs: string[];
   paragraphsPinyin: string[];
-  annotation?: string;
+  annotation?: Poem["annotation"];
   translation?: string;
   appreciation?: string;
 }
@@ -130,9 +131,17 @@ function saveSection(result: PoemData, sectionName: string, content: string[]) {
     case "拼音":
       result.paragraphsPinyin = content.map((e) => convert(e));
       break;
-    case "注释":
-      result.annotation = content.join("\n");
+    case "注释": {
+      const json: Record<string, string> = {};
+      content.forEach((line) => {
+        const [k, v] = line.split("：");
+        if (k && v) {
+          json[k.trim()] = v.trim();
+        }
+      });
+      result.annotation = json;
       break;
+    }
     case "译文":
       result.translation = content.join("\n");
       break;
