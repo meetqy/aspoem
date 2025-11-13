@@ -18,6 +18,7 @@ interface RubyTextProps {
   };
   as?: React.ElementType;
   pinyinVisible?: boolean;
+  annotationVisible?: boolean;
 }
 
 export function RubyText({
@@ -28,6 +29,7 @@ export function RubyText({
   as: Component = "p",
   annotation,
   pinyinVisible = false,
+  annotationVisible = false,
 }: RubyTextProps) {
   const pinyinArray = formatPinyin(pinyin).split(" ");
 
@@ -83,6 +85,7 @@ export function RubyText({
     );
   };
 
+  // 注解
   const renderCharacter = (char: string, index: number) => {
     const annotatedWord = isAnnotatedWord(index);
 
@@ -90,8 +93,12 @@ export function RubyText({
       // 如果是注释词汇的开始，用 Popover 包装
       return (
         <Popover key={index}>
-          <PopoverTrigger asChild>
-            <span className="cursor-help relative">
+          <PopoverTrigger asChild disabled={!annotationVisible}>
+            <span
+              className={cn("relative", {
+                "cursor-help": annotationVisible,
+              })}
+            >
               {annotatedWord.word.split("").map((wordChar, wordIndex) => (
                 <RubyCharacter
                   key={wordIndex}
@@ -100,7 +107,9 @@ export function RubyText({
                 />
               ))}
               {/* 添加下划线提示 */}
-              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary/50" />
+              {annotationVisible && (
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary/50" />
+              )}
             </span>
           </PopoverTrigger>
           <PopoverContent className="text-base !max-w-xs w-auto font-sans py-2 -top-4">

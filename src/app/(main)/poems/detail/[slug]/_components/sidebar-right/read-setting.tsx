@@ -61,7 +61,16 @@ export function ReadSetting() {
           <Label htmlFor="annotation-switch" className="flex-1">
             原文注解
           </Label>
-          <Switch id="annotation-switch" />
+          <Switch
+            id="annotation-switch"
+            checked={poemTypography.annotationVisible}
+            onCheckedChange={(checked) =>
+              setPoemTypography((prev) => ({
+                ...prev,
+                annotationVisible: checked,
+              }))
+            }
+          />
         </div>
       </CardContent>
     </Card>

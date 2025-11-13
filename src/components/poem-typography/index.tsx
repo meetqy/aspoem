@@ -8,7 +8,8 @@ import { PoemTypographyContent } from "./content";
 import { PoemTypographyTitle } from "./title";
 
 export const PoemTypography = ({ poem }: { poem: ApiPoemFindDetail }) => {
-  const { pinyinVisible, font } = useAtomValue(poemTypographyAtom);
+  const { pinyinVisible, font, annotationVisible } =
+    useAtomValue(poemTypographyAtom);
 
   return (
     <main
@@ -51,6 +52,7 @@ export const PoemTypography = ({ poem }: { poem: ApiPoemFindDetail }) => {
             annotation={poem.annotation as Record<string, string>}
             font={font as "cursive" | "sans"}
             pinyinVisible={pinyinVisible}
+            annotationVisible={annotationVisible}
           />
         </div>
       </section>

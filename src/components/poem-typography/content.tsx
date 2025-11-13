@@ -25,12 +25,14 @@ export const PoemTypographyContent = ({
   paragraphsPinyin,
   pinyinVisible,
   annotation,
+  annotationVisible,
 }: {
   paragraphs: string[];
   paragraphsPinyin: string[];
   annotation?: Record<string, string>;
   font?: VariantProps<typeof variants>["font"];
   pinyinVisible?: boolean;
+  annotationVisible?: boolean;
 }) => {
   font = font || "cursive";
 
@@ -48,6 +50,7 @@ export const PoemTypographyContent = ({
           text={paragraph}
           pinyin={paragraphsPinyin[index]!}
           pinyinVisible={pinyinVisible}
+          annotationVisible={annotationVisible}
           annotation={annotation}
           classNames={{
             symbol: "lg:after:inline after:flex",
