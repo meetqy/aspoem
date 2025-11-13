@@ -92,8 +92,8 @@ export function RubyText({
     if (annotatedWord) {
       // 如果是注释词汇的开始，用 Popover 包装
       return (
-        <Popover key={index}>
-          <PopoverTrigger asChild disabled={!annotationVisible}>
+        <Popover key={index} open={annotationVisible ? undefined : false}>
+          <PopoverTrigger asChild>
             <span
               className={cn("relative inline-flex justify-center", {
                 "cursor-help": annotationVisible,
