@@ -38,6 +38,8 @@ export const poemRouter = {
           annotation: true,
           dynasty: true,
           author: true,
+          appreciation: true,
+          translation: true,
           tags: {
             select: {
               name: true,

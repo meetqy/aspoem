@@ -84,6 +84,7 @@
     "@iconify/react": "^6.0.2",
     "@pinyin-pro/data": "^1.2.0",
     "@tailwindcss/postcss": "^4.0.15",
+    "@tailwindcss/typography": "^0.5.19",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.14.10",
     "@types/opencc-js": "^1.0.3",
