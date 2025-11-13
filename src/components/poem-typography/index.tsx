@@ -56,21 +56,29 @@ export const PoemTypography = ({ poem }: { poem: ApiPoemFindDetail }) => {
       </section>
 
       <section className="prose font-sans mt-24">
-        <h2>译文</h2>
-        <p
-          dangerouslySetInnerHTML={{
-            __html: poem.translation.replaceAll("\n", "<br/>"),
-          }}
-        />
+        {poem.translation && (
+          <>
+            <h2>译文</h2>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: poem.translation.replaceAll("\n", "<br/>"),
+              }}
+            />
+          </>
+        )}
 
-        <h2>注解</h2>
-        <ul>
-          {Object.entries(poem.annotation || {}).map(([key, value]) => (
-            <li key={key}>
-              {key}：{value}
-            </li>
-          ))}
-        </ul>
+        {poem.annotation && (
+          <>
+            <h2>注解</h2>
+            <ul>
+              {Object.entries(poem.annotation || {}).map(([key, value]) => (
+                <li key={key}>
+                  {key}：{value}
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
       </section>
     </main>
   );

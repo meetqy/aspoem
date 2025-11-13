@@ -44,35 +44,42 @@ export function RubyText({
     return null;
   };
 
-  const renderRubyCharacter = (py: string) => {
+  const RubyCharacter = ({ char, py }: { char: string; py: string }) => {
     return (
-      <>
-        <rp
-          className={cn({
-            hidden: !pinyinVisible,
-          })}
-        >
-          (
-        </rp>
-        <rt
-          className={cn(
-            "font-sans text-muted-foreground tracking-normal lowercase text-[0.5em] font-light",
-            {
+      <span
+        style={{ height: "0.75lh" }}
+        className="aspect-square inline-flex justify-center text-center"
+      >
+        <ruby style={{ rubyMerge: "separate" }}>
+          <span className={cn(classNames?.char)}>{char}</span>
+
+          <rp
+            className={cn({
               hidden: !pinyinVisible,
-            },
-            classNames?.pinyin,
-          )}
-        >
-          {py}
-        </rt>
-        <rp
-          className={cn({
-            hidden: !pinyinVisible,
-          })}
-        >
-          )
-        </rp>
-      </>
+            })}
+          >
+            (
+          </rp>
+          <rt
+            className={cn(
+              "font-sans text-muted-foreground tracking-normal lowercase text-[0.5em] font-light",
+              {
+                hidden: !pinyinVisible,
+              },
+              classNames?.pinyin,
+            )}
+          >
+            {py}
+          </rt>
+          <rp
+            className={cn({
+              hidden: !pinyinVisible,
+            })}
+          >
+            )
+          </rp>
+        </ruby>
+      </span>
     );
   };
 
@@ -84,16 +91,13 @@ export function RubyText({
       return (
         <Popover key={index}>
           <PopoverTrigger asChild>
-            <span className="cursor-help relative inline-flex leading-normal">
+            <span className="cursor-help relative">
               {annotatedWord.word.split("").map((wordChar, wordIndex) => (
-                <ruby key={`${index}-${wordIndex}`}>
-                  <span
-                    className={cn("pl-[0.2em] text-primary", classNames?.char)}
-                  >
-                    {wordChar}
-                  </span>
-                  {renderRubyCharacter(pinyinArray[index + wordIndex]!)}
-                </ruby>
+                <RubyCharacter
+                  key={wordIndex}
+                  char={wordChar}
+                  py={pinyinArray[index + wordIndex]!}
+                />
               ))}
               {/* 添加下划线提示 */}
               <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary/50" />
@@ -135,18 +139,7 @@ export function RubyText({
       );
     }
 
-    return (
-      <span
-        style={{ height: "0.75lh" }}
-        className="aspect-square inline-flex justify-center text-center"
-        key={index}
-      >
-        <ruby style={{ rubyMerge: "separate" }}>
-          <span className={cn(classNames?.char)}>{char}</span>
-          {renderRubyCharacter(pinyinArray[index]!)}
-        </ruby>
-      </span>
-    );
+    return <RubyCharacter key={index} char={char} py={pinyinArray[index]!} />;
   };
 
   return (
