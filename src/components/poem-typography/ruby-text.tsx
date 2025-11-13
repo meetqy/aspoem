@@ -95,7 +95,7 @@ export function RubyText({
         <Popover key={index}>
           <PopoverTrigger asChild disabled={!annotationVisible}>
             <span
-              className={cn("relative", {
+              className={cn("relative inline-flex justify-center", {
                 "cursor-help": annotationVisible,
               })}
             >
@@ -108,7 +108,7 @@ export function RubyText({
               ))}
               {/* 添加下划线提示 */}
               {annotationVisible && (
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary/50" />
+                <span className="absolute -bottom-1 w-3/4 h-0.5 bg-primary/50" />
               )}
             </span>
           </PopoverTrigger>
