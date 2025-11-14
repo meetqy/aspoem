@@ -6,7 +6,10 @@ import { db } from "@/server/db";
 
 async function initMarkdownToDatabase() {
   try {
-    const poemsDir = join(process.cwd(), "../aspoem-backup");
+    const poemsDir = join(process.cwd(), "../aspoem-backup/poems");
+
+    console.log(poemsDir);
+    console.log("=".repeat(50));
 
     let totalFiles = 0;
     let successCount = 0;

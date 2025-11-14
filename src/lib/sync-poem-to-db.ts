@@ -23,6 +23,13 @@ export interface PoemData {
   appreciation?: string;
 }
 
+function isOrderliness(lines: string[]) {
+  if (lines.length === 0) return false;
+  const firstCount = lines[0]!.length;
+
+  return lines.every((line) => line.length === firstCount);
+}
+
 // 同步诗词数据到数据库
 export async function syncPoemToDatabase(poemData: PoemData) {
   // 1. 创建或查找朝代
@@ -94,6 +101,7 @@ export async function syncPoemToDatabase(poemData: PoemData) {
     appreciation: poemData.appreciation || "",
     authorId: author.id,
     dynastyId: dynasty.id,
+    isOrderliness: isOrderliness(poemData.paragraphs),
   };
 
   if (existingPoem) {

@@ -18,6 +18,7 @@ model Poem {
   annotation       Json? // 注解
   translation      String   @default("")
   appreciation     String   @default("")
+  isOrderliness    Boolean  @default(false) // 是否对账工整的，用固定的格式排版
 
   visits    Int      @default(0)
   createdAt DateTime @default(now())
@@ -29,7 +30,7 @@ model Poem {
   dynasty   Dynasty? @relation(fields: [dynastyId], references: [id])
   dynastyId String?
 
-  @@index([updatedAt])
+  @@index([updatedAt, visits])
   @@map("poems")
 }
 

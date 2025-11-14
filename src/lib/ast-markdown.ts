@@ -59,7 +59,9 @@ export async function parseMarkdownToJson(
     dynasty: frontmatter.dynasty || "",
     dynastyPinyin: convertPinyin(frontmatter.dynastyPinyin),
     dynastySlug: frontmatter.dynastySlug || "",
-    tags: frontmatter.tags.split(",").map((tag: string) => tag.trim()) || [],
+    tags: Array.isArray(frontmatter.tags)
+      ? frontmatter.tags
+      : frontmatter.tags?.split(",").map((tag: string) => tag.trim()) || [],
     paragraphs: [],
     paragraphsPinyin: [],
     annotation: "",
