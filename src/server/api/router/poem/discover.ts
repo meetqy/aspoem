@@ -74,7 +74,7 @@ export const poemDiscoverRouter = {
       const poems = await ctx.db.poem.findMany({
         take: limit + 1,
         cursor: cursor ? { id: cursor } : undefined,
-        orderBy: [{ createdAt: "desc" }, { id: "desc" }],
+        orderBy: [{ updatedAt: "desc" }, { id: "desc" }],
         select: listSelect,
       });
 

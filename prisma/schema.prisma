@@ -29,6 +29,7 @@ model Poem {
   dynasty   Dynasty? @relation(fields: [dynastyId], references: [id])
   dynastyId String?
 
+  @@index([updatedAt])
   @@map("poems")
 }
 
