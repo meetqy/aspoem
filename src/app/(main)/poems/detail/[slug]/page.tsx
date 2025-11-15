@@ -4,6 +4,21 @@ import { SidebarContent, SidebarProvider } from "@/components/ui/sidebar";
 import { api } from "@/trpc/server";
 import { SidebarRight } from "./_components/sidebar-right";
 
+export const generateMetadata = async ({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) => {
+  const { slug } = await params;
+
+  const poem = await api.poem.findDetail({ slug });
+
+  return {
+    title: `${poem.title} ${poem.dynasty?.name} ${poem.author.name} 拼音、注解、译文、赏析、打印`,
+    description: `《${poem.title}》是${poem.dynasty?.name} ${poem.author.name}的作品，提供拼音、注解、译文、赏析、打印等内容，方便阅读。`,
+  };
+};
+
 export default async function PoemDetailPage({
   params,
 }: {

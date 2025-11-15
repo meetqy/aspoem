@@ -95,7 +95,7 @@ export const PoemTypographyContent = ({
                     })}
                   >
                     {annotatedWord.word.split("").map((wordChar, wordIndex) => (
-                      <ruby key={wordIndex}>
+                      <ruby key={wordIndex} className="mx-0.5">
                         {wordChar}
                         <RubyPinyin
                           pinyin={py[charIndex + wordIndex]!}
@@ -123,7 +123,7 @@ export const PoemTypographyContent = ({
 
           // 渲染普通字符
           return (
-            <ruby key={charIndex}>
+            <ruby key={charIndex} className="mx-0.5">
               {char}
               <RubyPinyin pinyin={py[charIndex]!} char={char} />
             </ruby>
