@@ -17,12 +17,7 @@ export default async function PoemDetailPage({
     <div className="flex flex-col flex-1">
       <SidebarProvider className="relative container-wrapper">
         <SidebarContent className="pb-12">
-          <PoemTypography
-            poem={poem}
-            classNames={{
-              content: poem.isOrderliness ? "text-center" : "text-left",
-            }}
-          />
+          <PoemTypography poem={poem} />
 
           <div className="max-w-screen-md w-full mx-auto">
             <div className="flex gap-2 flex-wrap">
