@@ -40,6 +40,7 @@ export const poemRouter = {
           author: true,
           appreciation: true,
           translation: true,
+          isOrderliness: true,
           tags: {
             select: {
               name: true,

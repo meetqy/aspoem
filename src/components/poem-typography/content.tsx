@@ -26,6 +26,7 @@ export const PoemTypographyContent = ({
   pinyinVisible,
   annotation,
   annotationVisible,
+  className,
 }: {
   paragraphs: string[];
   paragraphsPinyin: string[];
@@ -33,6 +34,7 @@ export const PoemTypographyContent = ({
   font?: VariantProps<typeof variants>["font"];
   pinyinVisible?: boolean;
   annotationVisible?: boolean;
+  className?: string;
 }) => {
   font = font || "cursive";
 
@@ -46,7 +48,7 @@ export const PoemTypographyContent = ({
         <RubyText
           key={index}
           as="p"
-          className={cn("text-inherit")}
+          className={cn("text-inherit", className)}
           text={paragraph}
           pinyin={paragraphsPinyin[index]!}
           pinyinVisible={pinyinVisible}

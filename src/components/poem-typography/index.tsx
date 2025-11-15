@@ -7,7 +7,14 @@ import { PoemTypographyAuthor } from "./author";
 import { PoemTypographyContent } from "./content";
 import { PoemTypographyTitle } from "./title";
 
-export const PoemTypography = ({ poem }: { poem: ApiPoemFindDetail }) => {
+type PoemTypographyProps = {
+  poem: ApiPoemFindDetail;
+  classNames?: {
+    content?: string;
+  };
+};
+
+export const PoemTypography = ({ poem, classNames }: PoemTypographyProps) => {
   const { pinyinVisible, font, annotationVisible } =
     useAtomValue(poemTypographyAtom);
 
@@ -46,6 +53,7 @@ export const PoemTypography = ({ poem }: { poem: ApiPoemFindDetail }) => {
         )}
       >
         <PoemTypographyContent
+          className={cn(classNames?.content)}
           paragraphs={poem.paragraphs}
           paragraphsPinyin={poem.paragraphsPinyin}
           annotation={poem.annotation as Record<string, string>}
