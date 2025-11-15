@@ -1,5 +1,6 @@
 import type { Poem } from "@prisma/client";
 import { db } from "@/server/db";
+import { isOrderliness } from "./utils";
 
 export interface PoemData {
   // Frontmatter 字段
@@ -21,13 +22,6 @@ export interface PoemData {
   annotation?: Poem["annotation"];
   translation?: string;
   appreciation?: string;
-}
-
-function isOrderliness(lines: string[]) {
-  if (lines.length === 0) return false;
-  const firstCount = lines[0]!.length;
-
-  return lines.every((line) => line.length === firstCount);
 }
 
 // 同步诗词数据到数据库

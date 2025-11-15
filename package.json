@@ -1,7 +1,7 @@
 {
   "name": "basic-template",
   "type": "module",
-  "version": "0.1.0",
+  "version": "next-beta.2",
   "private": true,
   "packageManager": "pnpm@10.15.1",
   "imports": {

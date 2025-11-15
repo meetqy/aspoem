@@ -25,3 +25,10 @@ export function formatPinyin(pinyin: string): string {
   // 分割并过滤空字符串
   return processedPinyin.replace(/\s{2,}/g, "  ").replace(/\s+/, " ");
 }
+
+export function isOrderliness(lines: string[]) {
+  if (lines.length === 0) return false;
+  const firstCount = lines[0]!.length;
+
+  return lines.every((line) => line.length === firstCount);
+}
