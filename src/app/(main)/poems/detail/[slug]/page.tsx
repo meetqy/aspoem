@@ -42,6 +42,7 @@ export default async function PoemDetailPage({
                 </Button>
               ))}
             </div>
+
             <section className="prose font-sans max-w-none mt-8">
               {poem.translation && (
                 <>
@@ -66,6 +67,17 @@ export default async function PoemDetailPage({
                       ),
                     )}
                   </ul>
+                </>
+              )}
+
+              {poem.appreciation && (
+                <>
+                  <h2>赏析</h2>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: poem.appreciation.replaceAll("\n", "<br/>"),
+                    }}
+                  />
                 </>
               )}
             </section>
