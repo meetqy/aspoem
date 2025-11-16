@@ -31,6 +31,10 @@ export const listSelect = {
   },
 };
 
+export type ApiPoemListItems = Awaited<
+  ReturnType<typeof poemDiscoverRouter.getHotList>
+>["items"];
+
 export const poemDiscoverRouter = {
   getHotList: publicProcedure
     .input(

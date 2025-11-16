@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button";
 import { api } from "@/trpc/server";
 import { PoemListItem } from "../../_components/poem-list-item";
+import { PoemLoadMore } from "../../_components/poem-load-more";
 
 export default async function Home({
   params,
@@ -8,7 +8,7 @@ export default async function Home({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const { items, dynasty } = await api.poem.getLatestListByDynasty({
+  const { items, dynasty, nextCursor } = await api.poem.getLatestListByDynasty({
     limit: 20,
     dynastySlug: slug,
   });
@@ -29,11 +29,14 @@ export default async function Home({
           <PoemListItem key={poem.id} poem={poem} />
         ))}
       </div>
-      <div className="mt-12 flex justify-center">
-        <Button size={"lg"} variant="secondary">
-          加载更多...
-        </Button>
-      </div>
+
+      <PoemLoadMore
+        nextCursor={nextCursor}
+        queryKey="getLatestListByDynasty"
+        queryParams={{
+          dynastySlug: slug,
+        }}
+      />
     </>
   );
 }

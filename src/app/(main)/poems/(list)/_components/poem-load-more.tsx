@@ -3,26 +3,42 @@
 import { useEffect } from "react";
 import { useIntersectionObserver } from "usehooks-ts";
 import { Button } from "@/components/ui/button";
+import type { ApiPoemListItems } from "@/server/api/router/poem";
+import type { RouterInputs } from "@/trpc/react";
 import { api } from "@/trpc/react";
 import { PoemListItem } from "./poem-list-item";
 
-interface PoemLoadMoreProps {
+type QueryKey =
+  | "getRecommendedList"
+  | "getLatestList"
+  | "getHotList"
+  | "getLatestListByDynasty";
+
+interface PoemLoadMoreProps<T extends QueryKey> {
   nextCursor?: string;
-  queryKey: "getRecommendedList" | "getLatestList" | "getHotList";
+  queryKey: T;
+  queryParams?: Omit<RouterInputs["poem"][T], "cursor" | "limit">;
 }
 
-export const PoemLoadMore = ({ nextCursor, queryKey }: PoemLoadMoreProps) => {
+export const PoemLoadMore = <T extends QueryKey>({
+  nextCursor,
+  queryKey,
+  queryParams,
+}: PoemLoadMoreProps<T>) => {
   const { isIntersecting, ref } = useIntersectionObserver({
     threshold: 0,
   });
 
-  const query = api.poem[queryKey].useInfiniteQuery(
+  const query = (api.poem[queryKey] as any).useInfiniteQuery(
     {
       limit: 20,
+      ...queryParams,
     },
     {
-      getNextPageParam: (lastPage) => lastPage.nextCursor,
+      getNextPageParam: (lastPage: { nextCursor?: string }) =>
+        lastPage.nextCursor,
       initialCursor: nextCursor,
+      enabled: !!nextCursor,
     },
   );
 
@@ -37,7 +53,12 @@ export const PoemLoadMore = ({ nextCursor, queryKey }: PoemLoadMoreProps) => {
     query.fetchNextPage,
   ]);
 
-  const items = query.data?.pages.flatMap((page) => page.items) || [];
+  const items: ApiPoemListItems =
+    query.data?.pages.flatMap(
+      (page: { items: ApiPoemListItems }) => page.items,
+    ) || [];
+
+  console.log(query.data, nextCursor);
 
   return (
     <section>
