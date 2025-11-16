@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button";
 import { api } from "@/trpc/server";
 import { PoemListItem } from "./_components/poem-list-item";
+import { PoemLoadMore } from "./_components/poem-load-more";
 import { discover } from "./_components/sidebar-items";
 
-const discoverItem = discover.find((item) => item.title === "推荐诗文")!;
+const discoverItem = discover.find((item) => item.title === "最近更新")!;
 
 export const metadata = {
   title: discoverItem.title,
@@ -11,7 +11,9 @@ export const metadata = {
 };
 
 export default async function Home() {
-  const { items } = await api.poem.getRecommendedList({ limit: 20 });
+  const { items, nextCursor } = await api.poem.getRecommendedList({
+    limit: 20,
+  });
 
   return (
     <>
@@ -28,11 +30,8 @@ export default async function Home() {
           <PoemListItem key={poem.id} poem={poem} />
         ))}
       </div>
-      <div className="mt-12 flex justify-center">
-        <Button size={"lg"} variant="secondary">
-          加载更多...
-        </Button>
-      </div>
+
+      <PoemLoadMore queryKey="getRecommendedList" nextCursor={nextCursor} />
     </>
   );
 }

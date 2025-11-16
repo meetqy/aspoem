@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button";
 import { api } from "@/trpc/server";
 import { PoemListItem } from "../_components/poem-list-item";
+import { PoemLoadMore } from "../_components/poem-load-more";
 import { discover } from "../_components/sidebar-items";
 
 const discoverItem = discover.find((item) => item.title === "最受欢迎的")!;
@@ -11,7 +11,7 @@ export const metadata = {
 };
 
 export default async function Home() {
-  const { items } = await api.poem.getHotList({ limit: 20 });
+  const { items, nextCursor } = await api.poem.getHotList({ limit: 20 });
 
   return (
     <>
@@ -28,11 +28,8 @@ export default async function Home() {
           <PoemListItem key={poem.id} poem={poem} />
         ))}
       </div>
-      <div className="mt-12 flex justify-center">
-        <Button size={"lg"} variant="secondary">
-          加载更多...
-        </Button>
-      </div>
+
+      <PoemLoadMore queryKey="getHotList" nextCursor={nextCursor} />
     </>
   );
 }
