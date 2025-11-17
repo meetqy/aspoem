@@ -80,7 +80,7 @@ export const poemRouter = {
 
       const poems = await ctx.db.poem.findMany({
         where: {
-          OR: [{ title: { contains: keyword, mode: "insensitive" } }],
+          searchText: { contains: keyword, mode: "insensitive" },
         },
         take: 20,
         select: {

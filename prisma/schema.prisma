@@ -19,6 +19,7 @@ model Poem {
   translation      String   @default("")
   appreciation     String   @default("")
   isOrderliness    Boolean  @default(false) // 是否对账工整的，用固定的格式排版
+  searchText       String? // 用于全文搜索的文本内容, 包含标题，正文，拼音（不带声调）
 
   visits    Int      @default(0)
   createdAt DateTime @default(now())

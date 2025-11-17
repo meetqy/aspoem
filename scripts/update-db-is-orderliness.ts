@@ -1,6 +1,5 @@
-// next-beta.1 => next-beta.2
 // 读取 poems.paragraphs 判断是否是 isOrderliness
-// 执行 tsx scripts/update-db-is-orderliness.ts
+// 执行 tsx scripts/update-db-is-orderliness.ts [作者目录]
 
 import { isOrderliness } from "@/lib/utils";
 import { db } from "@/server/db";
