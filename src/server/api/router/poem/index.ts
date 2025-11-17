@@ -68,4 +68,40 @@ export const poemRouter = {
 
       return poem;
     }),
+
+  search: publicProcedure
+    .input(
+      z.object({
+        keyword: z.string(),
+      }),
+    )
+    .query(async ({ ctx, input }) => {
+      const { keyword } = input;
+
+      const poems = await ctx.db.poem.findMany({
+        where: {
+          OR: [{ title: { contains: keyword, mode: "insensitive" } }],
+        },
+        take: 20,
+        select: {
+          id: true,
+          slug: true,
+          title: true,
+          author: {
+            select: {
+              name: true,
+              slug: true,
+              dynasty: {
+                select: {
+                  name: true,
+                  slug: true,
+                },
+              },
+            },
+          },
+        },
+      });
+
+      return poems;
+    }),
 } satisfies TRPCRouterRecord;

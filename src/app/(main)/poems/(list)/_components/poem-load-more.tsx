@@ -58,8 +58,6 @@ export const PoemLoadMore = <T extends QueryKey>({
       (page: { items: ApiPoemListItems }) => page.items,
     ) || [];
 
-  console.log(query.data, nextCursor);
-
   return (
     <section>
       <div className="space-y-4">
