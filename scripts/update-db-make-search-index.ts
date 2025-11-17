@@ -9,7 +9,7 @@ async function main() {
   // 1. 查询 searchText 不存在的数据
   const poems = await db.poem.findMany({
     where: {
-      // OR: [{ searchText: null }, { searchText: "" }],
+      OR: [{ searchText: null }, { searchText: "" }],
     },
     select: {
       id: true,
