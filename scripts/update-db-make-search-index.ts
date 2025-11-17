@@ -69,14 +69,14 @@ async function main() {
 
         // 组合成搜索文本
         const searchText = [
-          poem.title, // 标题
-          titlePinyinWithoutTone, // 标题拼音（无声调）
-          paragraphsText, // 正文
-          paragraphsPinyinWithoutTone, // 正文拼音（无声调）
           poem.author.name, // 作者名
           authorPinyinWithoutTone, // 作者拼音（无声调）
           poem.author.dynasty?.name || "", // 朝代名
           dynastyPinyinWithoutTone, // 朝代拼音（无声调）
+          poem.title, // 标题
+          titlePinyinWithoutTone, // 标题拼音（无声调）
+          paragraphsText, // 正文
+          paragraphsPinyinWithoutTone, // 正文拼音（无声调）
         ]
           .filter(Boolean) // 过滤空值
           .join(" ");
