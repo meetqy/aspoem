@@ -41,6 +41,7 @@ export const poemRouter = {
           appreciation: true,
           translation: true,
           isOrderliness: true,
+          updatedAt: true,
           tags: {
             select: {
               name: true,
