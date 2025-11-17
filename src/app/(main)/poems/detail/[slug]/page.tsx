@@ -80,11 +80,9 @@ export default async function PoemDetailPage({
                   />
                 </>
               )}
-            </section>
 
-            <section className="">
-              <hr />
-              <p className="text-muted-foreground text-right text-sm mt-4">
+              <hr className="mb-4" />
+              <p className="text-muted-foreground text-right text-sm">
                 最后更新：
                 <time suppressHydrationWarning>
                   {new Date(poem.updatedAt).toLocaleString("zh-CN")}
