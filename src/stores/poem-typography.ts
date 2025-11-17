@@ -7,7 +7,7 @@ export interface PoemTypographyStore {
 }
 
 export const poemTypographyAtom = atom<PoemTypographyStore>({
-  pinyinVisible: true,
+  pinyinVisible: false,
   font: "cursive",
   annotationVisible: true,
 });
