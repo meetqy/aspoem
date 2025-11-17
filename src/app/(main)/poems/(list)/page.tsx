@@ -11,7 +11,7 @@ export const metadata = {
 };
 
 export default async function Home() {
-  const { items, nextCursor } = await api.poem.getRecommendedList({
+  const { items, nextCursor } = await api.poem.getLatestList({
     limit: 20,
   });
 
@@ -31,7 +31,7 @@ export default async function Home() {
         ))}
       </div>
 
-      <PoemLoadMore queryKey="getRecommendedList" nextCursor={nextCursor} />
+      <PoemLoadMore queryKey="getLatestList" nextCursor={nextCursor} />
     </>
   );
 }
