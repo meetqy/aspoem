@@ -98,6 +98,8 @@ export async function syncPoemToDatabase(poemData: PoemData) {
     isOrderliness: isOrderliness(poemData.paragraphs),
   };
 
+  const now = new Date();
+
   if (existingPoem) {
     // 更新现有诗词
     await db.poem.update({
@@ -107,6 +109,7 @@ export async function syncPoemToDatabase(poemData: PoemData) {
         tags: {
           set: tagConnections,
         },
+        updatedAt: now,
       },
     });
   } else {
@@ -117,6 +120,7 @@ export async function syncPoemToDatabase(poemData: PoemData) {
         tags: {
           connect: tagConnections,
         },
+        updatedAt: now,
       },
     });
   }
