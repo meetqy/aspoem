@@ -1,4 +1,3 @@
-import type { Auth } from "../auth";
 /**
  * YOU PROBABLY DON'T NEED TO EDIT THIS FILE, UNLESS:
  * 1. You want to modify request context (see Part 1)
@@ -9,8 +8,8 @@ import type { Auth } from "../auth";
  */
 import { initTRPC, TRPCError } from "@trpc/server";
 import superjson from "superjson";
-
 import { ZodError } from "zod/v4";
+import type { Auth } from "../auth";
 
 import { db } from "../db";
 
@@ -39,6 +38,7 @@ export async function createTRPCContext(opts: {
     authApi,
     session,
     db,
+    ...opts,
   };
 }
 /**
@@ -89,7 +89,7 @@ export const createTRPCRouter = t.router;
  * You can remove this if you don't like it, but it can help catch unwanted waterfalls by simulating
  * network latency that would occur in production but not in local development.
  */
-const timingMiddleware = t.middleware(async ({ next, path }) => {
+const timingMiddleware = t.middleware(async ({ next, path, ctx }) => {
   const start = Date.now();
 
   if (t._config.isDev) {
@@ -101,7 +101,12 @@ const timingMiddleware = t.middleware(async ({ next, path }) => {
   const result = await next();
 
   const end = Date.now();
-  console.log(`[TRPC] ${path} took ${end - start}ms to execute`);
+  const userAgent = ctx.headers.get("user-agent");
+  const ip =
+    ctx.headers.get("x-forwarded-for") ??
+    ctx.headers.get("x-real-ip") ??
+    "unknown";
+  console.log(`[TRPC] ${path} took ${end - start}ms to execute`, userAgent, ip);
 
   return result;
 });
