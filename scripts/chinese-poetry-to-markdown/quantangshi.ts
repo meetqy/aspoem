@@ -31,7 +31,7 @@ export function syncQuantangshi() {
               title: poem.title,
               author: poem.author,
               paragraphs: poem.paragraphs,
-              dynasty: "唐",
+              dynasty: file.includes("tang") ? "唐" : "宋",
             });
 
             if (result) {

@@ -21,14 +21,14 @@ import { syncYuanQu } from "./yuanqu";
 import { syncYDQuantangshi } from "./yudingquantangshi";
 
 function main() {
-  syncRank();
+  // syncRank();
   // syncYuanQu();
   // syncYDQuantangshi();
   // syncWuDaiShiCiHuajinji();
   // syncWuDaiShiNanTang();
   // syncSongCi();
   // syncShuiMoTangShi();
-  // syncQuantangshi();
+  syncQuantangshi();
   // syncCaocao();
   // syncChuci();
   // syncBaijiaxing();

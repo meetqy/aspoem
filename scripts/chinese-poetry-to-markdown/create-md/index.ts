@@ -8,7 +8,7 @@ import { replacePunctuation, splitLine } from "./format";
 
 addDict(CompleteDict);
 
-const POEMS_DIR = join(process.cwd(), "poems"); // 你的 MDX 诗词文件根目录
+const POEMS_DIR = join(process.cwd(), "../aspoem-backup/poems"); // 你的 MDX 诗词文件根目录
 
 interface Poem {
   title: string;
@@ -49,9 +49,9 @@ export function createMdContent(poem: Poem) {
   const filePath = `${POEMS_DIR}/${authorSlug}/${titleSlug}.md`;
 
   // 检查文件是否已经存在
-  if (existsSync(filePath)) {
-    return false;
-  }
+  // if (existsSync(filePath)) {
+  //   return false;
+  // }
 
   const content = escapeMarkdown(poem.paragraphs);
 
