@@ -27,21 +27,43 @@ export const webhookRouter = {
         event: z.string(),
       }),
     )
-    .mutation(async ({ input }) => {
+    .mutation(async ({ input, ctx }) => {
       const { head_commit } = JSON.parse(input.payload) as {
         head_commit: HeadCommit;
       };
 
-      const { added, modified } = head_commit;
-      const markdownFiles = [...added, ...modified].filter((filePath) =>
-        filePath.startsWith("poems/"),
-      );
+      const { added, modified, removed } = head_commit;
+      if (removed.length > 0) {
+        // 删除对应的数据库记录
+        for (const filePath of removed) {
+          if (filePath.startsWith("poems/")) {
+            const slug = filePath
+              .replace("poems/", "")
+              .replace(".md", "")
+              .replace(/\//g, "-");
 
-      if (markdownFiles.length === 0) {
-        return { message: "No relevant markdown files to process." };
+            ctx.db.poem
+              .deleteMany({
+                where: { slug },
+              })
+              .then();
+          }
+        }
+
+        return {
+          message: "Processed removed files.",
+        };
+      } else {
+        const markdownFiles = [...added, ...modified].filter((filePath) =>
+          filePath.startsWith("poems/"),
+        );
+
+        if (markdownFiles.length === 0) {
+          return { message: "No relevant markdown files to process." };
+        }
+
+        return await processFilesAndTrack(markdownFiles);
       }
-
-      return await processFilesAndTrack(markdownFiles);
     }),
 } satisfies TRPCRouterRecord;
 
