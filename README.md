@@ -1,6 +1,9 @@
-# [AsPoem - 中文诗词阅读网站](https://next.aspoem.com)
+# [AsPoem - 中文诗词阅读网站](https://aspoem.com)
 
-next.beta 体验地址： <https://next.aspoem.com>
+- next.beta 体验地址： <https://aspoem.com>
+- v1 体验地址：<https://v1.aspoem.com>
+
+----
 
 - 免费打印诗词
 - 针对诗词的排版设计
