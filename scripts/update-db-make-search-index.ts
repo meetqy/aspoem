@@ -8,15 +8,16 @@ async function main() {
 
   // 1. 查询 searchText 不存在的数据
   const poems = await db.poem.findMany({
-    where: {
-      OR: [{ searchText: null }, { searchText: "" }],
-    },
+    // where: {
+    //   OR: [{ searchText: null }, { searchText: "" }],
+    // },
+    skip: 100000,
     select: {
       id: true,
       title: true,
       titlePinyin: true,
-      paragraphs: true,
-      paragraphsPinyin: true,
+      // paragraphs: true,
+      // paragraphsPinyin: true,
       author: {
         select: {
           name: true,
@@ -52,10 +53,10 @@ async function main() {
         });
 
         // 处理正文
-        const paragraphsText = poem.paragraphs.join("");
-        const paragraphsPinyinWithoutTone = convert(poem.paragraphsPinyin, {
-          format: "toneNone",
-        });
+        // const paragraphsText = poem.paragraphs.join("");
+        // const paragraphsPinyinWithoutTone = convert(poem.paragraphsPinyin, {
+        //   format: "toneNone",
+        // });
 
         // 处理作者拼音
         const authorPinyinWithoutTone = convert(poem.author.pinyin, {
@@ -75,8 +76,8 @@ async function main() {
           dynastyPinyinWithoutTone, // 朝代拼音（无声调）
           poem.title, // 标题
           titlePinyinWithoutTone, // 标题拼音（无声调）
-          paragraphsText, // 正文
-          paragraphsPinyinWithoutTone, // 正文拼音（无声调）
+          // paragraphsText, // 正文
+          // paragraphsPinyinWithoutTone, // 正文拼音（无声调）
         ]
           .filter(Boolean) // 过滤空值
           .join(" ");
@@ -84,7 +85,7 @@ async function main() {
         // 3. 更新数据库
         await db.poem.update({
           where: { id: poem.id },
-          data: { searchText },
+          data: { searchText: searchText.replace(/\s+/g, " ").trim() },
         });
       }),
     );

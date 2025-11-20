@@ -40,9 +40,5 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules",
-    "chinese-poetry-master",
-    "scripts/chinese-poetry-to-markdown"
-  ]
+  "exclude": ["node_modules", "chinese-poetry-master"]
 }

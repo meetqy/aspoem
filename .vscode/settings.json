@@ -41,5 +41,6 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "biomejs.biome"
-  }
+  },
+  "prisma.pinToPrisma6": true
 }
