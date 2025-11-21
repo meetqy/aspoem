@@ -2,11 +2,8 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
-import NextTopLoader from "nextjs-toploader";
-
-import { Toaster } from "@/components/ui/sonner";
-import { TRPCReactProvider } from "@/trpc/react";
 import "@/styles/globals.css";
+import { Providers } from "@/components/providers";
 import { env } from "@/env";
 
 export const metadata: Metadata = {
@@ -36,12 +33,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body>
-        <TRPCReactProvider>
-          {children}
-
-          <Toaster richColors position="top-right" />
-          <NextTopLoader />
-        </TRPCReactProvider>
+        <Providers>{children}</Providers>
 
         {env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
           <GoogleAnalytics gaId={env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID} />
