@@ -72,7 +72,7 @@ export default async function PoemDetailPage({
 
               {poem.appreciation && (
                 <>
-                  <h2>赏析</h2>
+                  <h2>解析</h2>
                   <p
                     dangerouslySetInnerHTML={{
                       __html: poem.appreciation.replaceAll("\n", "<br/>"),
