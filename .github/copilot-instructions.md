@@ -1,8 +1,6 @@
-- Always respond in Chinese, but comments must be in English
 - Don't over-engineer, keep code simple, understandable, and practical
 - Pay attention to cyclomatic complexity when writing code, reuse code as much as possible
 - Pay attention to module design when writing code, use design patterns when appropriate
 - Minimize changes when modifying, avoid touching other modules' code
 - Use shadcn/UI component library, avoid custom styles
-- Use English for text/copy by default unless specified otherwise
 - Server Actions must return a structured `{success: boolean, message: string}`

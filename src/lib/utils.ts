@@ -26,6 +26,7 @@ export function formatPinyin(pinyin: string): string {
   return processedPinyin.replace(/\s{2,}/g, "  ").replace(/\s+/, " ");
 }
 
+// 判断诗歌内容是否 每一句长度相同
 export function isOrderliness(lines: string[]) {
   if (lines.length === 0) return false;
   const firstCount = lines[0]!.length;
