@@ -58,15 +58,6 @@ export function LoginForm({
     }
   };
 
-  const handleGoogleLogin = async () => {
-    try {
-      // Handle Google login
-      // await authClient.signIn.social({ provider: "google" });
-    } catch (error) {
-      console.error("Google login error:", error);
-    }
-  };
-
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
       <Card>
@@ -95,12 +86,12 @@ export function LoginForm({
               <div className="grid gap-3">
                 <div className="flex items-center">
                   <Label htmlFor="password">Password</Label>
-                  <a
+                  <Link
                     href="#"
                     className="ml-auto inline-block text-sm underline-offset-4 hover:underline"
                   >
                     Forgot your password?
-                  </a>
+                  </Link>
                 </div>
                 <Input
                   id="password"
@@ -122,12 +113,7 @@ export function LoginForm({
                 >
                   {isSubmitting ? "Logging in..." : "Login"}
                 </Button>
-                <Button
-                  type="button"
-                  variant="outline"
-                  className="w-full"
-                  onClick={handleGoogleLogin}
-                >
+                <Button type="button" variant="outline" className="w-full">
                   Login with Google
                 </Button>
               </div>

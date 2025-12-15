@@ -45,7 +45,7 @@ export const authorRouter = {
         },
       });
 
-      let nextCursor: typeof cursor | undefined = undefined;
+      let nextCursor: typeof cursor | undefined;
       if (authors.length > limit) {
         const nextItem = authors.pop();
         nextCursor = nextItem!.id;

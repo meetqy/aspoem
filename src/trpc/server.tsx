@@ -1,10 +1,7 @@
-import type { AppRouter } from "@/server/api/root";
-
 import { createHydrationHelpers } from "@trpc/react-query/rsc";
-
 import { headers } from "next/headers";
-
 import { cache } from "react";
+import type { AppRouter } from "@/server/api/root";
 import { createCaller } from "@/server/api/root";
 
 import { createTRPCContext } from "@/server/api/trpc";

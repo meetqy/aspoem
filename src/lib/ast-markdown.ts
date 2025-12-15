@@ -128,6 +128,7 @@ export async function parseMarkdownToJson(
 }
 
 // 从节点中提取文本内容
+// biome-ignore lint/suspicious/noExplicitAny: <any>
 function extractTextFromNode(node: any): string {
   if (node.type === "text") {
     return node.value;

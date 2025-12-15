@@ -67,15 +67,6 @@ export function SignUpForm({
     }
   };
 
-  const handleGoogleSignUp = async () => {
-    try {
-      // Handle Google sign up
-      // await authClient.signIn.social({ provider: "google" });
-    } catch (error) {
-      console.error("Google sign up error:", error);
-    }
-  };
-
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
       <Card>
@@ -150,12 +141,7 @@ export function SignUpForm({
                 >
                   {isSubmitting ? "Creating account..." : "Create account"}
                 </Button>
-                <Button
-                  type="button"
-                  variant="outline"
-                  className="w-full"
-                  onClick={handleGoogleSignUp}
-                >
+                <Button type="button" variant="outline" className="w-full">
                   Sign up with Google
                 </Button>
               </div>

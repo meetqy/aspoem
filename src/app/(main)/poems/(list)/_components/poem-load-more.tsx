@@ -29,6 +29,7 @@ export const PoemLoadMore = <T extends QueryKey>({
     threshold: 0,
   });
 
+  // biome-ignore lint/suspicious/noExplicitAny: <any>
   const query = (api.poem[queryKey] as any).useInfiniteQuery(
     {
       limit: 20,
