@@ -12,11 +12,11 @@ export const protectedPoemRouter = {
         pageSize: z.number().min(1).max(100).default(20),
         keyword: z.string().optional(),
         authorId: z.string().optional(),
-        dynastyId: z.string().optional(),
+        dynastyIds: z.array(z.string()).optional(),
       }),
     )
     .query(async ({ ctx, input }) => {
-      const { page, pageSize, keyword, authorId, dynastyId } = input;
+      const { page, pageSize, keyword, authorId, dynastyIds } = input;
 
       // Build where conditions
       const where: Prisma.PoemWhereInput = {};
@@ -32,9 +32,9 @@ export const protectedPoemRouter = {
         where.authorId = authorId;
       }
 
-      if (dynastyId) {
+      if (dynastyIds && dynastyIds.length > 0) {
         where.author = {
-          dynastyId,
+          dynastyId: { in: dynastyIds },
         };
       }
 

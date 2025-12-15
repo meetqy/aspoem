@@ -2,8 +2,7 @@
 
 import { Trash, X } from "lucide-react";
 import { useSearchParams } from "next/navigation";
-import { useState } from "react";
-import { toast } from "sonner";
+import { useEffect, useState } from "react";
 import { DataTable } from "@/components/data-table/data-table";
 import { DataTableToolbar } from "@/components/data-table/data-table-toolbar";
 import {
@@ -24,6 +23,13 @@ import {
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { useDataTable } from "@/hooks/use-data-table";
 import { api } from "@/trpc/react";
 import { columns } from "./_components/columns";
@@ -37,10 +43,21 @@ export default function Page() {
 
   const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
 
+  const [filters, setFilters] = useState<Record<string, string[]>>({
+    dynastyIds: [],
+  });
+
   const { data, refetch } = api.protectedPoem.list.useQuery({
     page: pagination.page,
     pageSize: pagination.pageSize,
+    dynastyIds: filters.dynastyIds,
   });
+  const { data: dynastyData } = api.protectedDynasty.getList.useQuery();
+
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <filters>
+  useEffect(() => {
+    refetch();
+  }, [refetch, filters]);
 
   const { table } = useDataTable({
     data: data?.items || [],
@@ -94,7 +111,27 @@ export default function Page() {
           </ActionBar>
         }
       >
-        <DataTableToolbar table={table}></DataTableToolbar>
+        <DataTableToolbar table={table}>
+          <Select
+            onValueChange={(e) => {
+              setFilters((prev) => ({
+                ...prev,
+                dynastyIds: e ? [e] : [],
+              }));
+            }}
+          >
+            <SelectTrigger className="w-[180px]">
+              <SelectValue placeholder="Select dynasty" />
+            </SelectTrigger>
+            <SelectContent>
+              {dynastyData?.items.map((dynasty) => (
+                <SelectItem key={dynasty.id} value={dynasty.id}>
+                  {dynasty.name}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </DataTableToolbar>
       </DataTable>
 
       <AlertDialog open={deleteDialogOpen} onOpenChange={setDeleteDialogOpen}>
