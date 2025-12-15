@@ -55,6 +55,17 @@ export async function syncPoemToDatabase(poemData: PoemData) {
         dynastyId: dynasty.id,
       },
     });
+  } else {
+    // 更新作者
+    await db.author.update({
+      where: { id: author.id },
+      data: {
+        name: poemData.author,
+        pinyin: poemData.authorPinyin,
+        slug: poemData.authorSlug,
+        dynastyId: dynasty.id,
+      },
+    });
   }
 
   // 3. 处理标签
