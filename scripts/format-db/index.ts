@@ -1,7 +1,9 @@
 import { deleteAuthorsWithoutPoems } from "./delete-authors-without-poems";
+import { migrateDaiXuToSong } from "./migrate-dai-xu-to-song";
 import { syncPoemDynastyWithAuthor } from "./sync-poem-dynasty-with-author";
 
 async function formatDatabase() {
+  await migrateDaiXuToSong();
   await deleteAuthorsWithoutPoems();
   await syncPoemDynastyWithAuthor();
 }
