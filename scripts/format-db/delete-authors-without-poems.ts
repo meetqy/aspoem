@@ -1,4 +1,4 @@
-// npx tsx scripts/db-format/delete-authors-without-poems.ts
+// npx tsx scripts/format-db/delete-authors-without-poems.ts
 
 // 删除没有诗词的作者
 import { db } from "@/server/db";

@@ -1,7 +1,9 @@
 import { deleteAuthorsWithoutPoems } from "./delete-authors-without-poems";
+import { syncPoemDynastyWithAuthor } from "./sync-poem-dynasty-with-author";
 
 async function formatDatabase() {
   await deleteAuthorsWithoutPoems();
+  await syncPoemDynastyWithAuthor();
 }
 
 formatDatabase()
